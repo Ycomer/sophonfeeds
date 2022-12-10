@@ -3,6 +3,7 @@
 # https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
 #########################
 
- cacheUrl: https://ycomer.github.io/sophonfeed/cache.json
+cacheUrl: https://ycomer.github.io/sophonfeed/cache.json
 sources:
   - href: https://submirror.xyz/0x731644a15A2C445825F7Bd6002870c49B83bc859 # Get new feature announcement via this feed
+ 
