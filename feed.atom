@@ -2,8 +2,497 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-11T15:06:04.452Z</updated>
+    <updated>2023-02-11T15:18:05.695Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to Use MySQL Transactions]]></title>
+        <id>https://www.freecodecamp.org/news/how-to-use-mysql-transactions/</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-mysql-transactions/"/>
+        <updated>2023-02-10T21:35:03.000Z</updated>
+        <summary type="html"><![CDATA[What is a Database Transaction and Why is it Important? A database transaction is a single area of the database where multiple data operations are carried out and written as a whole.  These operations can be create, read, update, or delete operations.  During the process of a transaction,]]></summary>
+        <author>
+            <name>Aisha Bukar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Modulo Operator – How to Use the Modulus in JS]]></title>
+        <id>https://www.freecodecamp.org/news/javascript-modulo-operator-how-to-use-the-modulus-in-js/</id>
+        <link href="https://www.freecodecamp.org/news/javascript-modulo-operator-how-to-use-the-modulus-in-js/"/>
+        <updated>2023-02-10T19:35:28.000Z</updated>
+        <summary type="html"><![CDATA[In JavaScript, you may need to perform mathematical calculations such as determining if a number is even or odd, wrapping values within a range, and converting between degrees and radians in trigonometry. To help you perform all these mathematical calculations, the modulo operator can be extremely useful. This article will]]></summary>
+        <author>
+            <name>Joel Olawanle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Get GitHub Pro and Replit Hacker for Free as a Student]]></title>
+        <id>https://www.freecodecamp.org/news/how-to-get-github-pro-and-replit-hacker-for-free-as-a-student/</id>
+        <link href="https://www.freecodecamp.org/news/how-to-get-github-pro-and-replit-hacker-for-free-as-a-student/"/>
+        <updated>2023-02-10T17:47:17.000Z</updated>
+        <summary type="html"><![CDATA[If you are in high school or college/university and are interested in coding, you should consider signing up for GitHub Education.  This allows you to use GitHub Pro, as well as having many other benefits.  In this quick guide, I'll show you the steps to sign up for]]></summary>
+        <author>
+            <name>Eesa Zahed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is a REST API? API Endpoint Request Example]]></title>
+        <id>https://www.freecodecamp.org/news/what-is-a-rest-api/</id>
+        <link href="https://www.freecodecamp.org/news/what-is-a-rest-api/"/>
+        <updated>2023-02-10T16:39:44.000Z</updated>
+        <summary type="html"><![CDATA[An API (short for Application Programming Interface) allows for two or more applications to communicate with one another and send data back and forth. APIs operated based on a standardized set of rules and they're an integral component of modern-day software development. There are different API styles, and each one]]></summary>
+        <author>
+            <name>Dionysia Lemonaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Set and Map in JavaScript]]></title>
+        <id>https://www.freecodecamp.org/news/set-and-map-in-javascript/</id>
+        <link href="https://www.freecodecamp.org/news/set-and-map-in-javascript/"/>
+        <updated>2023-02-10T15:29:36.000Z</updated>
+        <summary type="html"><![CDATA[There are three major iterables available in JavaScript: Arrays, Maps, and Sets.  In this article, we will cover the following topics:   * What is an Array?  * What is a Set?  * What is a Map?  * How to Create a Set]]></summary>
+        <author>
+            <name>Kamaldeen Lawal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Different Ways to Get CSS Gradient Shadows]]></title>
+        <id>https://css-tricks.com/?p=376764</id>
+        <link href="https://css-tricks.com/different-ways-to-get-css-gradient-shadows/"/>
+        <updated>2023-02-10T15:13:42.000Z</updated>
+        <summary type="html"><![CDATA[It’s a question I hear asked quite often: Is it possible to create shadows from gradients instead of solid colors? There is no specific CSS property that does this (believe me, I’ve looked) and any blog post you find about …
+Different Ways to Get CSS Gradient Shadows originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Temani Afif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discovering Primitive Objects In JavaScript (Part 1)]]></title>
+        <id>https://smashingmagazine.com/2023/02/discovering-primitive-objects-javascript-part1/</id>
+        <link href="https://smashingmagazine.com/2023/02/discovering-primitive-objects-javascript-part1/"/>
+        <updated>2023-02-10T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In the first part of the series, Kirill Myshkin covers some aspects of JavaScript that help bring objects closer to primitive values, which allow benefiting from common language features that aren’t usually associated with an object, like comparisons and arithmetic operators.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Kirill Myshkin)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the Z-index Property Works – Stacking Order of Elements in CSS]]></title>
+        <id>https://www.freecodecamp.org/news/z-index-property-and-stacking-order-css/</id>
+        <link href="https://www.freecodecamp.org/news/z-index-property-and-stacking-order-css/"/>
+        <updated>2023-02-09T22:48:03.000Z</updated>
+        <summary type="html"><![CDATA[If you're a front-end engineer, you've probably faced weird z-index bugs and ended up spending hours trying to fix them.  Change one property here and you have your header flying away from where it was meant to be.  Well, we can attribute this to the fact that debugging]]></summary>
+        <author>
+            <name>Franklin Okolie</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Search Files Effectively in the Linux Terminal]]></title>
+        <id>https://www.freecodecamp.org/news/how-to-search-files-in-the-linux-terminal/</id>
+        <link href="https://www.freecodecamp.org/news/how-to-search-files-in-the-linux-terminal/"/>
+        <updated>2023-02-09T22:45:05.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever felt frustrated searching for files manually on your computer? If you’re a developer or DevOps engineer working on GUI-less Linux servers, it'll be hard navigating back and forth to find files. Many people are unaware of the power of Linux terminals. Linux has an incredibly powerful command]]></summary>
+        <author>
+            <name>Arunachalam B</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why You Should Use Java for Backend Development]]></title>
+        <id>https://www.freecodecamp.org/news/java-for-backend-web-development/</id>
+        <link href="https://www.freecodecamp.org/news/java-for-backend-web-development/"/>
+        <updated>2023-02-09T21:54:09.000Z</updated>
+        <summary type="html"><![CDATA[Java is a well-established and widely-used programming language. You can use it to create desktop and mobile applications, for massive data processing, for backend development, to program embedded devices, and more.  Oracle, the company that owns Java, claims that Java is used on 3 billion devices worldwide, making it]]></summary>
+        <author>
+            <name>David Fagbuyiro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Window Functions in SQL – with Example Queries]]></title>
+        <id>https://www.freecodecamp.org/news/window-functions-in-sql/</id>
+        <link href="https://www.freecodecamp.org/news/window-functions-in-sql/"/>
+        <updated>2023-02-09T21:47:41.000Z</updated>
+        <summary type="html"><![CDATA[Window functions are an advanced type of function in SQL. They let you work with observations more easily.  Window functions give you access to features like advanced analytics and data manipulation without the need to write complex queries. In this lesson you will learn about what window functions are]]></summary>
+        <author>
+            <name>Ibrahim Abayomi Ogunbiyi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Work with Branches in Git]]></title>
+        <id>https://www.freecodecamp.org/news/how-to-work-with-branches-in-git/</id>
+        <link href="https://www.freecodecamp.org/news/how-to-work-with-branches-in-git/"/>
+        <updated>2023-02-09T21:42:10.000Z</updated>
+        <summary type="html"><![CDATA[One of the things we fell in love with when we saw our future backyard was the tree. The valley oak is the largest North American oak. It can grow to be 600 years old and 100 feet tall. It's known for its irregular, spreading branches. Speaking of branches...a key]]></summary>
+        <author>
+            <name>Deborah Kurata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Healthcare, Selling Lemons, and the Price of Developer Experience]]></title>
+        <id>https://css-tricks.com/?p=377169</id>
+        <link href="https://css-tricks.com/healthcare-selling-lemons-and-the-price-of-developer-experience/"/>
+        <updated>2023-02-09T19:45:48.000Z</updated>
+        <summary type="html"><![CDATA[Every now and then, a one blog post is published and it spurs a reaction or response in others that are, in turn, published as blogs posts, and a theme starts to emerge. That’s what happened this past week and …
+Healthcare, Selling Lemons, and the Price of Developer Experience originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moving Backgrounds]]></title>
+        <id>https://css-tricks.com/?p=376723</id>
+        <link href="https://css-tricks.com/moving-backgrounds/"/>
+        <updated>2023-02-09T15:03:55.000Z</updated>
+        <summary type="html"><![CDATA[We often think of background images as texture or something that provides contrast for legible content — in other words, not really content. If it was content, you’d probably reach for an <img> anyway, accessibility and whatnot.
+But there are …
+Moving Backgrounds originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Saleh Mubashar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Picture Perfect: Meet Pixo, A Photo Editor For Your End Users]]></title>
+        <id>https://smashingmagazine.com/2023/02/pixo-photo-editor/</id>
+        <link href="https://smashingmagazine.com/2023/02/pixo-photo-editor/"/>
+        <updated>2023-02-09T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With so many image editing services available nowadays, it’s good to have one good solution that is applicable for all websites and web apps that need to provide image editing as a feature. Hristo Chakarov explains how Pixo Editor’s easy integration (just a few JavaScript lines) and rich API can save your time and improve your end users’ workflow.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Hristo Chakarov)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Designers Should Ask For (And Receive) High-Quality Feedback]]></title>
+        <id>https://smashingmagazine.com/2023/02/designers-ask-receive-high-quality-feedback/</id>
+        <link href="https://smashingmagazine.com/2023/02/designers-ask-receive-high-quality-feedback/"/>
+        <updated>2023-02-08T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Andy Budd shares his way of requesting feedback: rather than sharing a linear case study that explains every design revision, the first thing to do would be to better frame the problem.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Andy Budd)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The truth about CSS selector performance]]></title>
+        <id>https://css-tricks.com/?p=376659</id>
+        <link href="https://css-tricks.com/the-truth-about-css-selector-performance/"/>
+        <updated>2023-02-07T15:59:35.000Z</updated>
+        <summary type="html"><![CDATA[Geez, leave it to Patrick Brosset to talk CSS performance in the most approachable and practical way possible. Not that CSS is always what’s gunking up the speed, or even the lowest hanging fruit when it comes to improving …
+The truth about CSS selector performance originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smashing Podcast Episode 56 With Veerle Pieters: How Has The Design Industry Changed?]]></title>
+        <id>https://smashingmagazine.com/2023/02/smashing-podcast-episode-56/</id>
+        <link href="https://smashingmagazine.com/2023/02/smashing-podcast-episode-56/"/>
+        <updated>2023-02-07T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode of the Smashing Podcast we ask how has the design industry changed? Is technology making our work easier? Vitaly Friedman talks to veteran designer Veerle Pieters to find out.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Double Emphasis Thing]]></title>
+        <id>https://css-tricks.com/?p=376548</id>
+        <link href="https://css-tricks.com/the-double-emphasis-thing/"/>
+        <updated>2023-02-06T15:06:55.000Z</updated>
+        <summary type="html"><![CDATA[I used to have this boss who loved, loved, loved, loved to emphasize words. This was way back before we used a WYSIWYG editors and I’d have to handcode that crap.
+<pI used to have this 
+…
+The Double Emphasis Thing originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Build A Magazine Layout With CSS Grid Areas]]></title>
+        <id>https://smashingmagazine.com/2023/02/build-magazine-layout-css-grid-areas/</id>
+        <link href="https://smashingmagazine.com/2023/02/build-magazine-layout-css-grid-areas/"/>
+        <updated>2023-02-06T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Web development, especially what you can do with CSS, has become increasingly complex. With the added capabilities of CSS Grid, it is now possible to achieve layouts that look like they were laid out by hand. Let’s tackle a practical example of how to do something like that.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Jennifer Brehm)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Fancy Hover Effect For Your Avatar]]></title>
+        <id>https://css-tricks.com/?p=376676</id>
+        <link href="https://css-tricks.com/a-fancy-hover-effect-for-your-avatar/"/>
+        <updated>2023-02-03T15:11:46.000Z</updated>
+        <summary type="html"><![CDATA[Do you know that kind of effect where someone’s head is poking through a circle or hole? The famous Porky Pig animation where he waves goodbye while popping out of a series of red rings is the perfect example, and …
+A Fancy Hover Effect For Your Avatar originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Temani Afif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UX Podcasts For Designers]]></title>
+        <id>https://smashingmagazine.com/2023/02/podcasts-ux-designers/</id>
+        <link href="https://smashingmagazine.com/2023/02/podcasts-ux-designers/"/>
+        <updated>2023-02-02T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Podcasts are a fantastic opportunity to get up close with the people who know their craft. In this post, we compiled podcasts that are bound to provide valuable insights into UX and new perspectives on the field. Perfect for a short coffee break or a long commute.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Host A WordPress Site On Amazon Lightsail]]></title>
+        <id>https://smashingmagazine.com/2023/02/host-wordpress-site-amazon-lightsail/</id>
+        <link href="https://smashingmagazine.com/2023/02/host-wordpress-site-amazon-lightsail/"/>
+        <updated>2023-02-02T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lightsail provides all the power we need to host our websites, as we are used to from AWS, but making it way easier than ever before. In this article, Leonardo Losoviz explores how to launch a WordPress site in Lightsail in a quick and easy way.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Leonardo Losoviz)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Caching Data in SvelteKit]]></title>
+        <id>https://css-tricks.com/?p=376634</id>
+        <link href="https://css-tricks.com/caching-data-in-sveltekit/"/>
+        <updated>2023-02-01T15:04:33.000Z</updated>
+        <summary type="html"><![CDATA[My previous post was a broad overview of SvelteKit where we saw what a great tool it is for web development. This post will fork off what we did there and dive into every developer’s favorite topic: caching. So, …
+Caching Data in SvelteKit originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Adam Rackis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding App Directory Architecture In Next.js]]></title>
+        <id>https://smashingmagazine.com/2023/02/understanding-app-directory-architecture-next-js/</id>
+        <link href="https://smashingmagazine.com/2023/02/understanding-app-directory-architecture-next-js/"/>
+        <updated>2023-02-01T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The new App Directory architecture has been the main character of the recent Next.js release, which keeps bringing up many questions. In this article, Atila Fassina explores the advantages and pitfalls of this new strategy and reflects on whether you should use it in production now or not.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Atila Fassina)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Magic Of February (2023 Wallpapers Edition)]]></title>
+        <id>https://smashingmagazine.com/2023/01/desktop-wallpaper-calendars-february-2023/</id>
+        <link href="https://smashingmagazine.com/2023/01/desktop-wallpaper-calendars-february-2023/"/>
+        <updated>2023-01-31T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers is for you. Designed by artists and designers from across the globe, they come in versions with and without a calendar for February 2023.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How B2B Sales Help Us Understand Our Role As UX Designers Better]]></title>
+        <id>https://smashingmagazine.com/2023/01/b2b-sales-understand-role-ux-designers-better/</id>
+        <link href="https://smashingmagazine.com/2023/01/b2b-sales-understand-role-ux-designers-better/"/>
+        <updated>2023-01-31T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Throughout a customer journey (particularly in B2B), there will be interactions that are primarily between two people rather than a human and an interface. In this article, Paul Boag explains why you cannot improve the user experience without considering the entirety of the UX journey.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Paul Boag)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Easy SVG Customization And Animation: A Practical Guide]]></title>
+        <id>https://smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/</id>
+        <link href="https://smashingmagazine.com/2023/01/svg-customization-animation-practical-guide/"/>
+        <updated>2023-01-30T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Developers often feel discouraged from editing SVG markup and experimenting with SVG animations, thinking it’s a significant time investment or they need to use a complex animation library to do so. In this article, Adrian showcases his favorite tricks, which make the process streamlined and fun.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Adrian Bece)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AR, VR, and a Model for 3D in HTML]]></title>
+        <id>https://css-tricks.com/?p=376674</id>
+        <link href="https://css-tricks.com/ar-vr-and-a-model-for-3d-in-html/"/>
+        <updated>2023-01-27T14:15:43.000Z</updated>
+        <summary type="html"><![CDATA[Tucked down somewhere in the Safari Technology Preview 161 release notes is a seemingly innocous line about support for a new HTML element and attribute:
+Added support for <model src> and honor <source type> attributes (257518@main)
+Anytime I …
+AR, VR, and a Model for 3D in HTML originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Build Strong Customer Relationships For User Research]]></title>
+        <id>https://smashingmagazine.com/2023/01/build-strong-customer-relationships-user-research/</id>
+        <link href="https://smashingmagazine.com/2023/01/build-strong-customer-relationships-user-research/"/>
+        <updated>2023-01-27T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Rachel walks you through various ways that product teams can utilize to build relationships with customers. She will share some tips and tricks from her experience that have helped her nurture customer relationships and build better products.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Renaissance Rachel)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating A High-Contrast Design System With CSS Custom Properties]]></title>
+        <id>https://smashingmagazine.com/2023/01/creating-high-contrast-design-system-css-custom-properties/</id>
+        <link href="https://smashingmagazine.com/2023/01/creating-high-contrast-design-system-css-custom-properties/"/>
+        <updated>2023-01-26T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Managing our colors can truly help people to access our content. In this article, Brecht de Ruyte takes a deep dive into how we can create a high-contrast system while maintaining a balance between designing something accessible and respecting the look and feel of a brand.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Brecht De Ruyte)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Better ROI For Your Digital Products: Why Continuous Research Is Key]]></title>
+        <id>https://smashingmagazine.com/2023/01/better-roi-digital-products-continous-research/</id>
+        <link href="https://smashingmagazine.com/2023/01/better-roi-digital-products-continous-research/"/>
+        <updated>2023-01-26T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[57% of product professionals say that product research has a positive effect on customer satisfaction. 42% agree that it affects profitability. Imagine how much more successful your product would be if you did research continuously?]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Suzanne Scacca)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Animating CSS Grid (How To + Examples)]]></title>
+        <id>https://css-tricks.com/?p=376528</id>
+        <link href="https://css-tricks.com/animating-css-grid-how-to-examples/"/>
+        <updated>2023-01-25T16:05:04.000Z</updated>
+        <summary type="html"><![CDATA[I’m pleased to shine a light on the fact that the CSS grid-template-rows and grid-template-columns properties are now animatable in all major web browsers! Well, CSS Grid has technically supported animations for a long time, as it’s baked right …
+Animating CSS Grid (How To + Examples) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Daniel Schwarz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Product Reviews And Ratings UX: A Designer’s Guide]]></title>
+        <id>https://smashingmagazine.com/2023/01/product-reviews-ratings-ux/</id>
+        <link href="https://smashingmagazine.com/2023/01/product-reviews-ratings-ux/"/>
+        <updated>2023-01-25T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[How do we design effective reviews and ratings? With a distribution chart, decimal scores, tags, recommendation score and unedited product photos.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Copying Designs Doesn’t Work, And Here’s Why]]></title>
+        <id>https://smashingmagazine.com/2023/01/copying-designs-doesnt-work/</id>
+        <link href="https://smashingmagazine.com/2023/01/copying-designs-doesnt-work/"/>
+        <updated>2023-01-24T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Striking the right balance between inspiration and innovation might be hard. Let’s explore how to effectively get inspiration from others without losing that magic spark, including some do’s and don’ts along the way.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Peter Ramsey)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smashing Podcast Episode 55 With Tejas Kumar: Is Technology Making Us Redundant?]]></title>
+        <id>https://smashingmagazine.com/2023/01/smashing-podcast-episode-55/</id>
+        <link href="https://smashingmagazine.com/2023/01/smashing-podcast-episode-55/"/>
+        <updated>2023-01-24T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this episode, we ask whether technology is making us redundant; will we all soon be replaced with AI? Vitaly Friedman talks to Tejas Kumar to find out.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Started With SvelteKit]]></title>
+        <id>https://css-tricks.com/?p=376610</id>
+        <link href="https://css-tricks.com/getting-started-with-sveltekit/"/>
+        <updated>2023-01-23T13:48:43.000Z</updated>
+        <summary type="html"><![CDATA[SvelteKit is the latest of what I’d call next-gen application frameworks. It, of course, scaffolds an application for you, with the file-based routing, deployment, and server-side rendering that Next has done forever. But SvelteKit also supports nested layouts, server mutations …
+Getting Started With SvelteKit originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Adam Rackis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Level Up Your CSS Skills With The :has() Selector]]></title>
+        <id>https://smashingmagazine.com/2023/01/level-up-css-skills-has-selector/</id>
+        <link href="https://smashingmagazine.com/2023/01/level-up-css-skills-has-selector/"/>
+        <updated>2023-01-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The CSS relational selector :has() offers what was previously impossible without JavaScript. Let’s explore some magical powers that :has brings.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Stephanie Eckles)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Key To Good Component Design Is Selfishness]]></title>
+        <id>https://smashingmagazine.com/2023/01/key-good-component-design-selfishness/</id>
+        <link href="https://smashingmagazine.com/2023/01/key-good-component-design-selfishness/"/>
+        <updated>2023-01-20T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Daniel Yuschick demonstrates that building selfish components is the key approach to avoiding different pitfalls on the way to good component design.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Daniel Yuschick)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Real-World Uses for :has()]]></title>
+        <id>https://css-tricks.com/?p=376331</id>
+        <link href="https://css-tricks.com/more-real-world-uses-for-has/"/>
+        <updated>2023-01-20T15:34:09.000Z</updated>
+        <summary type="html"><![CDATA[The :has() pseudo-class is, hands-down, my favorite new CSS feature. I know it is for many of you as well, at least those of you who took the State of CSS survey. The ability to write selectors upside down …
+More Real-World Uses for :has() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Liam Johnston</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Design Better UX With Introverted Design]]></title>
+        <id>https://smashingmagazine.com/2023/01/introverted-design-building-better-ux-experiences/</id>
+        <link href="https://smashingmagazine.com/2023/01/introverted-design-building-better-ux-experiences/"/>
+        <updated>2023-01-19T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, Pratik Joglekar explores the typical traits of introverts and uses them to make parallels and categorize digital experiences that can stand out without being loud.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Pratik Joglekar)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Transition to Manifest V3 for Chrome Extensions]]></title>
+        <id>https://css-tricks.com/?p=376454</id>
+        <link href="https://css-tricks.com/how-to-transition-to-manifest-v3-for-chrome-extensions/"/>
+        <updated>2023-01-19T13:54:37.000Z</updated>
+        <summary type="html"><![CDATA[While I am not a regular Chrome extension programmer, I have certainly coded enough extensions and have a wide enough web development portfolio to know my way around the task. However, just recently, I had a client reject one of …
+How to Transition to Manifest V3 for Chrome Extensions originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Shane Duggan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Figma Auto Layout Masterclass: An Online Workshop To Support Ukraine 🇺🇦]]></title>
+        <id>https://smashingmagazine.com/2023/01/figma-auto-layout-masterclass/</id>
+        <link href="https://smashingmagazine.com/2023/01/figma-auto-layout-masterclass/"/>
+        <updated>2023-01-18T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Get better at your craft and support the people in Ukraine — that’s the idea behind our Figma Auto Layout Masterclass with Christine Vallaure. **We are donating all proceeds** from the online workshop to humanitarian aid in Ukraine. Monday, March 27, 09:00AM – 12:00PM PT / 18:00 – 21:00 CET. Donate and join!]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solved With :has(): Vertical Spacing in Long-Form Text]]></title>
+        <id>https://css-tricks.com/?p=376435</id>
+        <link href="https://css-tricks.com/solved-with-has-vertical-spacing-in-long-form-text/"/>
+        <updated>2023-01-18T13:44:00.000Z</updated>
+        <summary type="html"><![CDATA[If you’ve ever worked on sites with lots of long-form text — especially CMS sites where people can enter screeds of text in a WYSIWYG editor — you’ve likely had to write CSS to manage the vertical spacing between different …
+Solved With :has(): Vertical Spacing in Long-Form Text originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Liam Johnston</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Documentation, Streamlined]]></title>
+        <id>https://smashingmagazine.com/2023/01/swimm-code-documentation-streamlined/</id>
+        <link href="https://smashingmagazine.com/2023/01/swimm-code-documentation-streamlined/"/>
+        <updated>2023-01-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Writing code documentation can be overwhelming when there’s no smooth process in place. Streamlining best practices and setting automation in your favor works a long way toward getting permanently up-to-date content that reflects the important pieces of your codebase.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Atila Fassina)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Common SVG Fails (and How to Fix Them)]]></title>
+        <id>https://css-tricks.com/?p=376352</id>
+        <link href="https://css-tricks.com/6-common-svg-fails-and-how-to-fix-them/"/>
+        <updated>2023-01-17T13:51:20.000Z</updated>
+        <summary type="html"><![CDATA[Someone recently asked me how I approach debugging inline SVGs. Because it is part of the DOM, we can inspect any inline SVG in any browser DevTools. And because of that, we have the ability to scope things out and …
+6 Common SVG Fails (and How to Fix Them) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Mariana Beldi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing The Image Element LCP]]></title>
+        <id>https://smashingmagazine.com/2023/01/optimizing-image-element-lcp/</id>
+        <link href="https://smashingmagazine.com/2023/01/optimizing-image-element-lcp/"/>
+        <updated>2023-01-16T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Largest Contentful Paint (or LCP) is a major web performance KPI which is still a new concept for many web developers since it became a ranking factor just recently. In this article, Eloïse Martin provides an overview of the best practices for the integration and optimization of an LCP image.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Eloïse Martin)</name>
+        </author>
+    </entry>
 </feed>
