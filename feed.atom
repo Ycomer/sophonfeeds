@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-11T15:28:00.045Z</updated>
+    <updated>2023-02-11T16:43:16.062Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2023 is a make-or-break year for blockchain gaming: Play-to-own]]></title>
+        <id>https://cointelegraph.com/magazine/2023-is-a-make-or-break-year-for-blockchain-gaming-play-to-own/</id>
+        <link href="https://cointelegraph.com/magazine/2023-is-a-make-or-break-year-for-blockchain-gaming-play-to-own/"/>
+        <updated>2023-02-11T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[While the thesis is compelling for crypto gaming, the way forward is unclear. Interoperability is one thorny issue and playability is still yet to catch up to traditional games.]]></summary>
+        <author>
+            <name>Cointelegraph By Max Parasol</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multichain DEXs are on the rise with new protocols enabling them]]></title>
+        <id>https://cointelegraph.com/news/multichain-dexs-are-on-the-rise-with-new-protocols-enabling-them</id>
+        <link href="https://cointelegraph.com/news/multichain-dexs-are-on-the-rise-with-new-protocols-enabling-them"/>
+        <updated>2023-02-11T14:01:00.000Z</updated>
+        <summary type="html"><![CDATA[A new set of decentralized exchanges can enable multichain trading and margin trading for users.]]></summary>
+        <author>
+            <name>Cointelegraph By Anthony Clarke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a career in the metaverse: Skills and opportunities]]></title>
+        <id>https://cointelegraph.com/news/building-a-career-in-the-metaverse-skills-and-opportunities</id>
+        <link href="https://cointelegraph.com/news/building-a-career-in-the-metaverse-skills-and-opportunities"/>
+        <updated>2023-02-11T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Building a successful career in the metaverse requires a combination of technical, creative and business skills.]]></summary>
+        <author>
+            <name>Cointelegraph By   Guneet Kaur</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin is already in its ‘next bull market cycle’ — Pantera Capital]]></title>
+        <id>https://cointelegraph.com/news/bitcoin-is-already-in-its-next-bull-market-cycle-pantera-capital</id>
+        <link href="https://cointelegraph.com/news/bitcoin-is-already-in-its-next-bull-market-cycle-pantera-capital"/>
+        <updated>2023-02-11T13:17:57.000Z</updated>
+        <summary type="html"><![CDATA[This cycle’s Bitcoin and altcoin lows are behind us, Pantera CEO Dan Morehead says as he looks to a “year of rebuilding trust.“]]></summary>
+        <author>
+            <name>Cointelegraph By   William Suberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin logo imperfection found on original artwork after 12 years]]></title>
+        <id>https://cointelegraph.com/news/bitcoin-logo-imperfection-found-on-original-artwork-after-12-years</id>
+        <link href="https://cointelegraph.com/news/bitcoin-logo-imperfection-found-on-original-artwork-after-12-years"/>
+        <updated>2023-02-11T09:51:00.000Z</updated>
+        <summary type="html"><![CDATA[While Bitcoiners preach the “zoom out” narrative during crypto bear markets, zooming in on the original Bitcoin logo shows a small orange line from the background going into the white colored “₿.”]]></summary>
+        <author>
+            <name>Cointelegraph By  Arijit Sarkar</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[区块链支付技术公司 Partior 完成 3100 万美元 A 轮融资]]></title>
         <id>https://www.dealstreetasia.com/stories/partior-series-a-round-329414</id>
@@ -19,6 +69,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Shopify launches suite of blockchain commerce tools for merchants]]></title>
+        <id>https://cointelegraph.com/news/shopify-launches-suite-of-blockchain-commerce-tools-for-merchants</id>
+        <link href="https://cointelegraph.com/news/shopify-launches-suite-of-blockchain-commerce-tools-for-merchants"/>
+        <updated>2023-02-11T07:06:02.000Z</updated>
+        <summary type="html"><![CDATA[Shopify NFT merchants can now use the “tokengating” tools to dictate which tokenholders can and cannot gain access to exclusive products, NFT drops and benefits.]]></summary>
+        <author>
+            <name>Cointelegraph By Brian Quarmby</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【长推】Kraken 暂停质押业务，了解 4 类 Staking 方案的异同及优缺点]]></title>
         <id>https://twitter.com/0x_Todd/status/1623970838415548416</id>
         <link href="https://twitter.com/0x_Todd/status/1623970838415548416"/>
@@ -28,6 +88,16 @@
 <p><strong>文章作者：</strong></p><p>0xTodd</p><hr><h3>观点：</h3><p><strong>0xTodd：</strong>如果把以太坊看作一家公司，负责 Staking 的验证者（Validator）就是员工，工作是验证交易合法性，然后打包区块上链。Staking 第一步是创建一个验证 key，类似工作证。另一把私钥提现 key，用于接收质押押金（32ETH）和收益，类似工资卡。根据两把私钥的不同归属，诞生了四种 Staking 解决方案：CEX 类、大池子类（Pooled Staking）、SaaS 类（Staking as a Service）和 Solo 类。</p><a href="https://twitter.com/0x_Todd/status/1623970838415548416">内容来源</a><p><strong>0xTodd：</strong>交易所 Staking 方案就是标准的「全托管」。以 Binance 为例，验证 key 在 Binance Pool，提现 key 在 Binance 的冷钱包。这种方案最省心，且有保底，但不适合对去中心化有追求的人；Pooled Staking 方案如 Lido 和 Rocket Pool，和交易所的区别在于验证 key 部分的去中心化，然而提现 key 理论上仍然为第三方所有；</p><a href="https://twitter.com/0x_Todd/status/1623970838415548416">内容来源</a><p><strong>0xTodd：</strong>SaaS 类以 Ebunker Pool 为例，把验证 key 做成 keystore，由专业矿池维护节点出块。提现地址由个人所有，可以掌握最终以太坊的提现权。缺点是所有非托管 SaaS 都没有 LSD 方案；Solo 顾名思义，不引入任何第三方，去中心化和安全性拉满。优点：安全、没人抽成，增加以太坊多样性，且满足精神世界需求。缺点：需要时间成本（维护）和资金成本（租赁服务器 / 搭建物理机房）。由于罚没机制，若不 24 小时维护，APR 会略低。</p><a href="https://twitter.com/0x_Todd/status/1623970838415548416">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kazakhstan to mandate 75% revenue sale from crypto mining for tax purposes]]></title>
+        <id>https://cointelegraph.com/news/kazakhstan-to-mandate-75-revenue-sale-from-crypto-mining-for-tax-purposes</id>
+        <link href="https://cointelegraph.com/news/kazakhstan-to-mandate-75-revenue-sale-from-crypto-mining-for-tax-purposes"/>
+        <updated>2023-02-11T05:31:51.000Z</updated>
+        <summary type="html"><![CDATA[A new law signed by Kazakh President Kassym-Jomart Tokayev on Feb. 6 reinstated the nation’s stand against the unlawful mining operations and issuance of crypto assets.]]></summary>
+        <author>
+            <name>Cointelegraph By  Arijit Sarkar</name>
         </author>
     </entry>
     <entry>
@@ -67,6 +137,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[BAYC copycat files opposition to 10 Yuga Labs trademark applications]]></title>
+        <id>https://cointelegraph.com/news/bayc-copycat-files-opposition-to-10-yuga-labs-trademark-applications</id>
+        <link href="https://cointelegraph.com/news/bayc-copycat-files-opposition-to-10-yuga-labs-trademark-applications"/>
+        <updated>2023-02-11T02:39:41.000Z</updated>
+        <summary type="html"><![CDATA[A Yuga Labs spokesperson has played down the significance of the opposition notice and suggested that the RR/BAYC co-founder is just trying to cause trouble.]]></summary>
+        <author>
+            <name>Cointelegraph By Brian Quarmby</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SushiSwap 收购 Cosmos 生态衍生品交易平台 Vortex Protocol，将迁移至 Cosmos 生态]]></title>
         <id>https://decrypt.co/121027/sushiswap-acquires-cosmos-based-trading-platform-vortex-protocol</id>
         <link href="https://decrypt.co/121027/sushiswap-acquires-cosmos-based-trading-platform-vortex-protocol"/>
@@ -92,6 +172,86 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bitcoin price correction was overdue — analysts outline why the end of 2023 will be bullish]]></title>
+        <id>https://cointelegraph.com/news/bitcoin-price-correction-was-overdue-analysts-outline-why-the-end-of-2023-will-be-bullish</id>
+        <link href="https://cointelegraph.com/news/bitcoin-price-correction-was-overdue-analysts-outline-why-the-end-of-2023-will-be-bullish"/>
+        <updated>2023-02-10T22:38:08.000Z</updated>
+        <summary type="html"><![CDATA[BTC and the crypto market will continue to battle with strong headwinds, but analysts explain why Q3 and Q4 of 2023 could turn out well for Bitcoin.]]></summary>
+        <author>
+            <name>Cointelegraph By  Ray Salmond</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Genesis Unveils Proposed Sale Plan With DCG, Bankruptcy Creditors]]></title>
+        <id>KY6FQMFJARDTPAJMZLICUVRQHY</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/genesis-unveils-proposed-sale-plan-with-dcg-bankruptcy-creditors/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T22:22:16.000Z</updated>
+        <summary type="html"><![CDATA[Parent company Digital Currency Group would turn its equity in Genesis Global Trading over to a holding company as part of an effort to sell both firms.]]></summary>
+        <author>
+            <name>Nikhilesh De</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friends With Benefits DAO Releases Social Networking App]]></title>
+        <id>5732KDXQ2ZEGXFCCOBNSWWO33Y</id>
+        <link href="https://www.coindesk.com/web3/2023/02/10/friends-with-benefits-dao-releases-social-networking-app/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T22:07:56.000Z</updated>
+        <summary type="html"><![CDATA[The new application will allow members to connect with each other, read governance proposals and discover in-person events.]]></summary>
+        <author>
+            <name>Cam Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase Product Head Departs for a16z Crypto]]></title>
+        <id>X4SWDKWUVJC2DO4NF2EFAVSBMY</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/coinbase-product-head-departs-for-a16z-crypto/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T22:07:42.000Z</updated>
+        <summary type="html"><![CDATA[Surojit Chatterjee tweeted his new role as executive in residence at Andreessen Horowitz.]]></summary>
+        <author>
+            <name>Brandy Betz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ethereum’s Shapella transition is “on the horizon”]]></title>
+        <id>https://cointelegraph.com/news/ethereum-s-shapella-transition-is-on-the-horizon</id>
+        <link href="https://cointelegraph.com/news/ethereum-s-shapella-transition-is-on-the-horizon"/>
+        <updated>2023-02-10T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[The milestone is another step on the road to the Shanghai upgrade, which remains scheduled for March.]]></summary>
+        <author>
+            <name>Cointelegraph By    Ana Paula Pereira</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ethereum Sets February Date for Sepolia Testnet to Get Shanghai Hard Fork]]></title>
+        <id>TLYHHJNIUBGIZDXDZHDWRAQICI</id>
+        <link href="https://www.coindesk.com/tech/2023/02/10/ethereum-sets-february-date-for-sepolia-testnet-to-get-shanghai-hard-fork/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T21:47:26.000Z</updated>
+        <summary type="html"><![CDATA[The second round of testing of staked ether (ETH) withdrawals follows simulations on the Zhejiang testnet. The Goerli testnet would be next, ahead of next month's planned Shanghai hard fork on the main Ethereum blockchain.]]></summary>
+        <author>
+            <name>Margaux Nijkerk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fed governor Waller says crypto ecosystem has distinct parts with varying potential]]></title>
+        <id>https://cointelegraph.com/news/fed-governor-waller-says-crypto-ecosystem-has-distinct-parts-with-varying-potential</id>
+        <link href="https://cointelegraph.com/news/fed-governor-waller-says-crypto-ecosystem-has-distinct-parts-with-varying-potential"/>
+        <updated>2023-02-10T21:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Christopher Waller praised the emerging applications of distributed ledger technology, smart contracts and tokenization, but he changed his tune for crypto assets.]]></summary>
+        <author>
+            <name>Cointelegraph By   Derek Andersen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX liquidators report exchange held $2.4M ‘fleet of vehicles’ in the Bahamas]]></title>
+        <id>https://cointelegraph.com/news/ftx-liquidators-report-exchange-held-2-4m-fleet-of-vehicles-in-the-bahamas</id>
+        <link href="https://cointelegraph.com/news/ftx-liquidators-report-exchange-held-2-4m-fleet-of-vehicles-in-the-bahamas"/>
+        <updated>2023-02-10T21:45:00.000Z</updated>
+        <summary type="html"><![CDATA[The liquidators said they would “commence disposals” of certain FTX Digital physical assets following approval from the Bahamas’ supreme court.]]></summary>
+        <author>
+            <name>Cointelegraph By Turner Wright</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to Use MySQL Transactions]]></title>
         <id>https://www.freecodecamp.org/news/how-to-use-mysql-transactions/</id>
         <link href="https://www.freecodecamp.org/news/how-to-use-mysql-transactions/"/>
@@ -99,6 +259,126 @@
         <summary type="html"><![CDATA[What is a Database Transaction and Why is it Important? A database transaction is a single area of the database where multiple data operations are carried out and written as a whole.  These operations can be create, read, update, or delete operations.  During the process of a transaction,]]></summary>
         <author>
             <name>Aisha Bukar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Does Kraken's SEC Settlement Mean for Crypto Staking?]]></title>
+        <id>373BZ4XE5REYFMGJ6NW7BJHM24</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/what-does-krakens-sec-settlement-mean-for-crypto-staking/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T21:32:18.000Z</updated>
+        <summary type="html"><![CDATA[Kraken had a pretty lousy day, but the industry is more interested in what this means for staking.]]></summary>
+        <author>
+            <name>Nikhilesh De</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 community unites for Turkish–Syrian earthquake victims: Finance Redefined]]></title>
+        <id>https://cointelegraph.com/news/web3-community-unites-for-turkish-syrian-earthquake-victims-finance-redefined</id>
+        <link href="https://cointelegraph.com/news/web3-community-unites-for-turkish-syrian-earthquake-victims-finance-redefined"/>
+        <updated>2023-02-10T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The Web3 ecosystem came together to offer all possible help and aid to the victims of the Turkish-Syrian earthquake — one of the worst natural disasters in recent history.]]></summary>
+        <author>
+            <name>Cointelegraph By  Prashant Jha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Former SEC Attorney: Kraken Action Not a Condemnation of 'Staking Writ Large']]></title>
+        <id>6IPDTBT7MBA55KZKRPASTZLOFY</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/former-sec-attorney-kraken-action-not-a-condemnation-of-staking-writ-large/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T21:25:15.000Z</updated>
+        <summary type="html"><![CDATA[Zachary Fallon, a partner at law firm Ketsal, says that because the government agency relies on a circumstances based test, it may need to adjust its response to other crypto firms that engage in staking-as-a-service.]]></summary>
+        <author>
+            <name>Fran Velasquez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tether taps Cantor Fitzgerald to help oversee bond portfolio: Report]]></title>
+        <id>https://cointelegraph.com/news/tether-taps-cantor-fitzgerald-to-help-oversee-bond-portfolio-report</id>
+        <link href="https://cointelegraph.com/news/tether-taps-cantor-fitzgerald-to-help-oversee-bond-portfolio-report"/>
+        <updated>2023-02-10T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[The USDT issuer has made inroads into the traditional finance and accounting sectors as it attempts to increase transparency around its holdings.]]></summary>
+        <author>
+            <name>Cointelegraph By Sam Bourgi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JPMorgan sees advantages in deposit tokens over stablecoins for commercial bank blockchains]]></title>
+        <id>https://cointelegraph.com/news/jpmorgan-sees-deposit-token-advantages-over-stablecoin-for-commercial-bank-blockchains</id>
+        <link href="https://cointelegraph.com/news/jpmorgan-sees-deposit-token-advantages-over-stablecoin-for-commercial-bank-blockchains"/>
+        <updated>2023-02-10T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Research from JPMorgan Chase explores the potential of deposit tokens as a stabilizing force in the digital money landscape.]]></summary>
+        <author>
+            <name>Cointelegraph By   Derek Andersen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto Biz: FTX clawbacks, Genesis silver lining?]]></title>
+        <id>https://cointelegraph.com/news/crypto-biz-ftx-clawbacks-genesis-silver-lining</id>
+        <link href="https://cointelegraph.com/news/crypto-biz-ftx-clawbacks-genesis-silver-lining"/>
+        <updated>2023-02-10T20:30:00.000Z</updated>
+        <summary type="html"><![CDATA[As FTX seeks clawbacks on political donations, Digital Currency Group and its bankrupt subsidiary, Genesis, have reached a restructuring agreement.]]></summary>
+        <author>
+            <name>Cointelegraph By Sam Bourgi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PayPal Puts Stablecoin Project on Hold: Bloomberg]]></title>
+        <id>LFDQA4RTE5FAFNCBCTW7EM6IMM</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/paypal-puts-stablecoin-project-on-hold-bloomberg/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T20:27:29.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday it was reported that PayPal crypto partner Paxos was being by the NYDFS]]></summary>
+        <author>
+            <name>Stephen  Alpher</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto Exchange C3 Raises $6M to Offer FTX Alternative]]></title>
+        <id>Z4AXDLNWYFEK3FO2KPZXW6RYT4</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/crypto-exchange-c3-raises-6m-to-offer-ftx-alternative/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T20:15:05.000Z</updated>
+        <summary type="html"><![CDATA[Two Sigma Ventures led the round for the decentralized exchange.]]></summary>
+        <author>
+            <name>Brandy Betz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraken staking ban is another nail in crypto’s coffin — and that’s a good thing]]></title>
+        <id>https://cointelegraph.com/news/staking-ban-is-another-nail-in-crypto-s-coffin-that-s-a-good-thing</id>
+        <link href="https://cointelegraph.com/news/staking-ban-is-another-nail-in-crypto-s-coffin-that-s-a-good-thing"/>
+        <updated>2023-02-10T20:15:02.000Z</updated>
+        <summary type="html"><![CDATA[The SEC’s move to ban staking on Kraken is going to encourage more people to move toward decentralized options beyond the agency’s reach.]]></summary>
+        <author>
+            <name>Cointelegraph By Dennis Jarvis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC enforcement against Kraken opens doors for Lido, Frax and Rocket Pool]]></title>
+        <id>https://cointelegraph.com/news/sec-enforcement-against-kraken-opens-doors-for-lido-frax-and-rocket-pool</id>
+        <link href="https://cointelegraph.com/news/sec-enforcement-against-kraken-opens-doors-for-lido-frax-and-rocket-pool"/>
+        <updated>2023-02-10T20:13:32.000Z</updated>
+        <summary type="html"><![CDATA[Kraken has put an end to staking as a service, and Coinbase could eventually be forced to follow suit. Will this create opportunities for LDO, FXS and RPL?]]></summary>
+        <author>
+            <name>Cointelegraph By  Kyle White</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SecretDAO votes to restructure foundation after public spat between organizations]]></title>
+        <id>https://cointelegraph.com/news/secretdao-votes-to-restructure-foundation-after-public-spat-between-organizations</id>
+        <link href="https://cointelegraph.com/news/secretdao-votes-to-restructure-foundation-after-public-spat-between-organizations"/>
+        <updated>2023-02-10T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The new foundation will be governed by a board of three or more members, and no organization will hold more than one seat.]]></summary>
+        <author>
+            <name>Cointelegraph By  Tom Blackstone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Ode to LocalBitcoins (and a Lesson About Maintaining Bitcoin's Public Goods)]]></title>
+        <id>UEOC2JLZRRH2PGJ7Q7FKVXZP6Q</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/10/an-ode-to-localbitcoins-and-a-lesson-about-maintaining-bitcoins-public-goods/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T19:52:14.000Z</updated>
+        <summary type="html"><![CDATA[Bitcoiners can take a leaf out of Ethereum's book when it comes to founding and funding open infrastructure needed for all.]]></summary>
+        <author>
+            <name>Daniel Kuhn</name>
         </author>
     </entry>
     <entry>
@@ -112,6 +392,106 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Policymakers Should Embrace DAOs in the New Future of Abundance]]></title>
+        <id>BHU6YAIS4BBITNWJKGQ7NOIVAU</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/10/policymakers-should-embrace-daos-in-the-new-future-of-abundance/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T19:35:19.000Z</updated>
+        <summary type="html"><![CDATA[Whereas corporations accumulate capital, decentralized autonomous organizations (DAOs) accumulate engagement and focus on returning benefits to all participants.]]></summary>
+        <author>
+            <name>Paul Brody</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US lawmakers question SEC chair on timing of Sam Bankman-Fried’s arrest]]></title>
+        <id>https://cointelegraph.com/news/us-lawmakers-question-sec-chair-on-timing-of-sam-bankman-fried-s-arrest</id>
+        <link href="https://cointelegraph.com/news/us-lawmakers-question-sec-chair-on-timing-of-sam-bankman-fried-s-arrest"/>
+        <updated>2023-02-10T19:30:00.000Z</updated>
+        <summary type="html"><![CDATA[“The timing of the charges and his arrest raise serious questions about the SEC’s process and cooperation with the Department of Justice,” said Representatives McHenry and Huizenga.]]></summary>
+        <author>
+            <name>Cointelegraph By Turner Wright</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regulating Crypto by Enforcement and Stealth Will Set the US Back]]></title>
+        <id>XCLQNHDTXRGQ7DCEV5WVXEZRII</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/10/regulating-crypto-by-enforcement-and-stealth-will-set-the-us-back/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T19:22:44.000Z</updated>
+        <summary type="html"><![CDATA[Moves to outlaw staking and stop banks from servicing crypto companies will harm the industry and send it overseas, says CoinDesk's chief content officer Michael Casey.]]></summary>
+        <author>
+            <name>Michael J. Casey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Federal Reserve Governor Reinforces US Regulators’ Preference for Keeping Crypto Apart From Banks]]></title>
+        <id>65P3RJ3PXFHLVEBUOHCNAINEIM</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/federal-reserve-governor-reinforces-us-regulators-preference-for-keeping-crypto-apart-from-banks/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T19:04:03.000Z</updated>
+        <summary type="html"><![CDATA[Parts of the crypto universe should be encouraged to thrive as long as they don’t threaten the U.S. banking system, said Christopher Waller, a Federal Reserve Board governor, who also shared an optimistic note that the young industry will work out its problems.]]></summary>
+        <author>
+            <name>Jesse Hamilton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase’s Staking Service Faces Questions After Kraken’s SEC Settlement]]></title>
+        <id>VKTMWJW7ARGVZPTORAVLGUSAX4</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/coinbases-staking-service-faces-questions-after-krakens-sec-settlement/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T18:46:16.000Z</updated>
+        <summary type="html"><![CDATA[Though Coinbase’s (COIN) current revenue from staking is relatively small, there is potential for speedy growth if the U.S. Securities and Exchange Commission (SEC) doesn’t crack down on the service altogether.]]></summary>
+        <author>
+            <name>Helene Braun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Polygon Exploring Use of ZK Technology for Main Chain, Co-Founder Bjelic Says]]></title>
+        <id>L234T3ADL5GZHC7LOBKMWPO4QA</id>
+        <link href="https://www.coindesk.com/tech/2023/02/10/polygon-exploring-use-of-zk-technology-for-main-chain-co-founder-bjelic-says/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T18:41:56.000Z</updated>
+        <summary type="html"><![CDATA[In an exclusive interview with CoinDesk, Polygon’s co-founder Mihailo Bjelic shares the progress the blockchain is making on becoming a ZK-secure ecosystem.]]></summary>
+        <author>
+            <name>Margaux Nijkerk</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cointelegraph elevates the Historical collection's exclusivity to new heights]]></title>
+        <id>https://cointelegraph.com/news/cointelegraph-elevates-the-historical-collection-s-exclusivity-to-new-heights</id>
+        <link href="https://cointelegraph.com/news/cointelegraph-elevates-the-historical-collection-s-exclusivity-to-new-heights"/>
+        <updated>2023-02-10T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The Cointelegraph Historical collection reaches a new milestone in its development, with minted versions of articles becoming more scarce.]]></summary>
+        <author>
+            <name>Cointelegraph By Cointelegraph</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Price analysis 2/10: BTC, ETH, BNB, XRP, ADA, DOGE, MATIC, DOT, LTC, AVAX]]></title>
+        <id>https://cointelegraph.com/news/price-analysis-2-10-btc-eth-bnb-xrp-ada-doge-matic-dot-ltc-avax</id>
+        <link href="https://cointelegraph.com/news/price-analysis-2-10-btc-eth-bnb-xrp-ada-doge-matic-dot-ltc-avax"/>
+        <updated>2023-02-10T18:30:22.000Z</updated>
+        <summary type="html"><![CDATA[The SEC’s crackdown on Kraken has sent a shockwave through the crypto sector. Is this week’s correction a buy the dip opportunity or a sign of worse things to come?]]></summary>
+        <author>
+            <name>Cointelegraph By Rakesh Upadhyay</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance upgrades proof-of-reserves verification to include zk-SNARKs]]></title>
+        <id>https://cointelegraph.com/news/binance-upgrades-proof-of-reserves-verification-to-include-zk-snarks</id>
+        <link href="https://cointelegraph.com/news/binance-upgrades-proof-of-reserves-verification-to-include-zk-snarks"/>
+        <updated>2023-02-10T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The zk-SNARKs upgrade is expected to significantly improve the security and transparency of the verification process.]]></summary>
+        <author>
+            <name>Cointelegraph By  Judith BannermanQuist</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stablecoin Issuer Tether's Reserves Partly Managed by Cantor Fitzgerald: WSJ]]></title>
+        <id>T6HUY5D3AZA77DDRIUPABRIX2A</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/stablecoin-issuer-tethers-reserves-partly-managed-by-cantor-fitzgerald-wsj/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T18:00:23.000Z</updated>
+        <summary type="html"><![CDATA[The Wall Street bond trading powerhouse is managing Tether's $39 billion bond portfolio, according to the report.]]></summary>
+        <author>
+            <name>Stephen  Alpher</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to Get GitHub Pro and Replit Hacker for Free as a Student]]></title>
         <id>https://www.freecodecamp.org/news/how-to-get-github-pro-and-replit-hacker-for-free-as-a-student/</id>
         <link href="https://www.freecodecamp.org/news/how-to-get-github-pro-and-replit-hacker-for-free-as-a-student/"/>
@@ -119,6 +499,56 @@
         <summary type="html"><![CDATA[If you are in high school or college/university and are interested in coding, you should consider signing up for GitHub Education.  This allows you to use GitHub Pro, as well as having many other benefits.  In this quick guide, I'll show you the steps to sign up for]]></summary>
         <author>
             <name>Eesa Zahed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tether's Attempt to Block CoinDesk's Request for Stablecoin Reserve Records Dismissed by New York Court]]></title>
+        <id>DGWMFN47HJHPJMGMYGMU6HUV24</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/tethers-attempt-to-block-coindesks-request-for-stablecoin-reserve-records-dismissed-by-new-york-court/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T17:39:51.000Z</updated>
+        <summary type="html"><![CDATA[A New York judge on Friday rejected an attempt by iFinex and related companies, which include include cryptocurrency exchange Bitfinex and stablecoin issuer Tether, to block CoinDesk's request for information about the financial reserves backing the USDT token.]]></summary>
+        <author>
+            <name>Nikhilesh De</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap Vote on BNB Deployment Ends With Silicon Valley’s A16Z on Losing Side]]></title>
+        <id>IA6QPALIQFAEJE3ENYINYMGFVI</id>
+        <link href="https://www.coindesk.com/tech/2023/02/10/uniswap-vote-on-bnb-deployment-ends-with-silicon-valleys-a16z-on-losing-side/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T17:34:53.000Z</updated>
+        <summary type="html"><![CDATA[Uniswap’s community wants to bring the exchange to BNB Chain before copycats can launch identical competitors.]]></summary>
+        <author>
+            <name>Sam  Kessler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Co-founders of StoryCo discuss how blockchain technology can evolve the way IP is franchised]]></title>
+        <id>https://cointelegraph.com/news/co-founders-of-storyco-discuss-how-blockchain-technology-can-evolve-the-way-ip-is-franchised</id>
+        <link href="https://cointelegraph.com/news/co-founders-of-storyco-discuss-how-blockchain-technology-can-evolve-the-way-ip-is-franchised"/>
+        <updated>2023-02-10T17:15:00.000Z</updated>
+        <summary type="html"><![CDATA[NFT Steez chats with StoryCo co-founders J.P. and Justin Alanis about how NFTs can expand co-creation and evolve storytelling in Web3.]]></summary>
+        <author>
+            <name>Cointelegraph By Alyssa Exposito</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bit2Me and Mastercard launch debit card with crypto cashback]]></title>
+        <id>https://cointelegraph.com/news/bit2me-and-mastercard-launch-debit-card-with-crypto-cashback</id>
+        <link href="https://cointelegraph.com/news/bit2me-and-mastercard-launch-debit-card-with-crypto-cashback"/>
+        <updated>2023-02-10T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The new debit card builds on technology already in place in the existing Bit2Me crypto card, but this time, card holders are eligible for up to 9% crypto cashback.]]></summary>
+        <author>
+            <name>Cointelegraph By   Savannah Fortis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Worldwide Webb founder explains the role interoperability will play in Web3 ecosystems]]></title>
+        <id>https://cointelegraph.com/news/worldwide-webb-founder-explains-the-role-interoperability-will-play-in-web3-ecosystems</id>
+        <link href="https://cointelegraph.com/news/worldwide-webb-founder-explains-the-role-interoperability-will-play-in-web3-ecosystems"/>
+        <updated>2023-02-10T16:42:05.000Z</updated>
+        <summary type="html"><![CDATA[NFT Steez chats with Worldwide Webb founder Thomas Webb to discuss the future impact of interoperability in Web3 and the metaverse.]]></summary>
+        <author>
+            <name>Cointelegraph By Alyssa Exposito</name>
         </author>
     </entry>
     <entry>
@@ -132,6 +562,76 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[28 Hours in the Sewer: Yuga Labs’ Dookey Dash Game Kept Players Running]]></title>
+        <id>A3LJWIYY3FFCNGFZBT4P5MS6IE</id>
+        <link href="https://www.coindesk.com/web3/2023/02/10/28-hours-in-the-sewer-yuga-labs-dookey-dash-game-kept-players-running/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T16:22:03.000Z</updated>
+        <summary type="html"><![CDATA[In the Web3 giant’s first skill-based mint, almost 26,000 holders of Sewer Pass NFTs played the game for a cumulative time of 80 years – promising numbers for Yuga’s metaverse initiatives.]]></summary>
+        <author>
+            <name>Cam Thompson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stablecoins Are Not Worth the Risk]]></title>
+        <id>PD3ZYI4LPVGV5MQ6VTQB3FBJBQ</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/10/stablecoins-are-not-worth-the-risk/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T16:13:02.000Z</updated>
+        <summary type="html"><![CDATA[Stablecoin issuer Paxos is being investigated by a New York financial watchdog. Regulators should take more action, says Mark Hays of Americans for Financial Reform.]]></summary>
+        <author>
+            <name>Mark  Hays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC Did Not Consult Industry Before Kraken Crypto Staking Charges: Commissioner Peirce]]></title>
+        <id>PPW4IAXUNRFUDBONHS6MS6RQNQ</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/sec-did-not-consult-industry-before-kraken-crypto-staking-settlement-commissioner-peirce/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T16:00:08.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Securities and Exchange Commission did not attempt to consult with the crypto industry before this launching this week’s unregistered securities crackdown on staking-as-a-service, Commissioner Hester Peirce said Friday.]]></summary>
+        <author>
+            <name>Danny Nelson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are the Remaining Crypto Giants Staring Down the Barrel of the US Government’s Gun?]]></title>
+        <id>BZXMSU4O3VAXDECNO6JEHRS24I</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/are-the-remaining-crypto-giants-staring-down-the-barrel-of-the-us-governments-gun/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T15:54:22.000Z</updated>
+        <summary type="html"><![CDATA[The latest action from the U.S. Securities and Exchange Commission (SEC) against Kraken is probably only the first stirring of a U.S. government campaign to come for the major remaining crypto exchanges, according to industry lawyers, consultants and former regulators.]]></summary>
+        <author>
+            <name>Jesse Hamilton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is a coinbase transaction?]]></title>
+        <id>https://cointelegraph.com/explained/what-is-a-coinbase-transaction</id>
+        <link href="https://cointelegraph.com/explained/what-is-a-coinbase-transaction"/>
+        <updated>2023-02-10T15:50:00.000Z</updated>
+        <summary type="html"><![CDATA[A coinbase transaction is the first transaction created in each new block, and it has key features that differentiate it from other transactions.]]></summary>
+        <author>
+            <name>Cointelegraph By Marcel Deer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin price faces key moving average showdown 3 weeks after breakout]]></title>
+        <id>https://cointelegraph.com/news/bitcoin-price-faces-key-moving-average-showdown-3-weeks-after-breakout</id>
+        <link href="https://cointelegraph.com/news/bitcoin-price-faces-key-moving-average-showdown-3-weeks-after-breakout"/>
+        <updated>2023-02-10T15:42:09.000Z</updated>
+        <summary type="html"><![CDATA[The 200-day moving average is coming back to haunt BTC bulls after staying as resistance for over a year.]]></summary>
+        <author>
+            <name>Cointelegraph By   William Suberg</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC chair issues warning to crypto firms after action on Kraken staking]]></title>
+        <id>https://cointelegraph.com/news/sec-chair-issues-warning-to-crypto-firms-after-action-on-kraken-staking</id>
+        <link href="https://cointelegraph.com/news/sec-chair-issues-warning-to-crypto-firms-after-action-on-kraken-staking"/>
+        <updated>2023-02-10T15:30:00.000Z</updated>
+        <summary type="html"><![CDATA[“Don’t have your hand in the customer’s pocket, using their funds for your own platform,” Gary Gensler said to companies that needed to register with the SEC.]]></summary>
+        <author>
+            <name>Cointelegraph By Turner Wright</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to Use Set and Map in JavaScript]]></title>
         <id>https://www.freecodecamp.org/news/set-and-map-in-javascript/</id>
         <link href="https://www.freecodecamp.org/news/set-and-map-in-javascript/"/>
@@ -139,6 +639,46 @@
         <summary type="html"><![CDATA[There are three major iterables available in JavaScript: Arrays, Maps, and Sets.  In this article, we will cover the following topics:   * What is an Array?  * What is a Set?  * What is a Map?  * How to Create a Set]]></summary>
         <author>
             <name>Kamaldeen Lawal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next batch of Cointelegraph’s Top 100 ranking for 2023 is here]]></title>
+        <id>https://cointelegraph.com/news/next-batch-of-cointelegraph-s-top-100-ranking-for-2023-is-here</id>
+        <link href="https://cointelegraph.com/news/next-batch-of-cointelegraph-s-top-100-ranking-for-2023-is-here"/>
+        <updated>2023-02-10T14:40:36.000Z</updated>
+        <summary type="html"><![CDATA[Curious about who made it to spots 71–80 on Cointelegraph’s 2023 Top 100 list? Read about Alex Gluchowski, Cathie Wood and more!]]></summary>
+        <author>
+            <name>Cointelegraph By Cointelegraph</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ether Liquid Staking Platforms Will Benefit as SEC Actions Likely Fail to Deal DeFi's Knockout Blow]]></title>
+        <id>Z54FFU53W5AFJENNNAZRUCYIEE</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/ether-liquid-staking-platforms-will-benefit-as-sec-actions-likely-fail-to-deal-defis-knockout-blow/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T13:52:11.000Z</updated>
+        <summary type="html"><![CDATA[Lido and Rocket Pool didn’t immediately see a massive rush in of capital after Kraken announced it had settled with the SEC.]]></summary>
+        <author>
+            <name>Sam Reynolds</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEC Chief Gensler Warns Crypto Firms to Comply With Rules After Kraken Shutters US Staking Program]]></title>
+        <id>VG5N7ZGA7NEILFFBWUQMMCOWAM</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/sec-chief-gensler-warns-crypto-firms-to-comply-with-rules-after-kraken-shutters-staking-program/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T13:50:10.000Z</updated>
+        <summary type="html"><![CDATA[Other platforms that offer yield-earning programs should "take note" and come into compliance, the regulator said a day after crypto exchange Kraken said it will pay a $30 million fine to settle SEC charges.]]></summary>
+        <author>
+            <name>Sandali Handagama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin Miner BitNile Pulls 6,500 Rigs From Former Compute North Site]]></title>
+        <id>G4JVFROCTVD6TJBHG7NVYBML7Y</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/bitcoin-miner-bitnile-pulls-6500-rigs-from-former-compute-north-site/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T13:45:38.000Z</updated>
+        <summary type="html"><![CDATA[The miner signed a hosting deal with bankrupt Compute North in September for a site that is now managed by USBTC.]]></summary>
+        <author>
+            <name>Eliza Gkritsi</name>
         </author>
     </entry>
     <entry>
@@ -154,6 +694,56 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Web3 Gaming Platform Ajuna Raises $5M in New Private Financing]]></title>
+        <id>DAB3YADRMNHSPC7LJXWTTCINII</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/web3-gaming-platform-ajuna-raises-5m-in-new-private-financing/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[The platform makes it easier for developers to connect traditional game engines to blockchains.]]></summary>
+        <author>
+            <name>Brandy Betz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DYdX DeFi Grants Renewal Proposal Spurs Polarized Community Discussion]]></title>
+        <id>F4EQU43EJNFVNBNPPUZLV7QMLQ</id>
+        <link href="https://www.coindesk.com/tech/2023/02/10/dydx-defi-grants-renewal-proposal-spurs-polarized-community-discussion/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T13:09:36.000Z</updated>
+        <summary type="html"><![CDATA[Nearly 90% of voters favor the grants proposal, but many in the community pointed out controversial limitations.]]></summary>
+        <author>
+            <name>Shaurya Malwa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Mover Americas: Kraken's SEC Settlement Sends Crypto Markets Tumbling]]></title>
+        <id>YYBCCBKWCVE3PNFQG76N2KGO6I</id>
+        <link href="https://www.coindesk.com/markets/2023/02/10/first-mover-americas-the-sandbox-is-up-on-saudi-arabia-partnership-news/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T13:07:16.000Z</updated>
+        <summary type="html"><![CDATA[The latest price moves in bitcoin (BTC) and crypto markets in context for Feb. 10, 2023. First Mover is CoinDesk’s daily newsletter that contextualizes the latest actions in the crypto markets.]]></summary>
+        <author>
+            <name>Lyllah Ledesma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PayPal Held $604M of Customers' Crypto as of Year-End 2022]]></title>
+        <id>K3UTO6BCT5AVHACL6UCO5FOWOY</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/paypal-held-604m-of-customers-crypto-as-of-year-end-2022/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T12:57:50.000Z</updated>
+        <summary type="html"><![CDATA[The payments company held $291 million of bitcoin and $250 million of ether, with the rest comprising litecoin and bitcoin cash.]]></summary>
+        <author>
+            <name>Jamie Crawley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China Targets Blockchain Breakthroughs With Beijing Research Center: Report]]></title>
+        <id>C5Y363IWIBDGDKTPRH4RMSNJ44</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/china-targets-blockchain-breakthroughs-with-beijing-research-center-report/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T12:11:51.000Z</updated>
+        <summary type="html"><![CDATA[The center will focus on blockchain use related to the economy and individuals' livelihoods in an attempt to make the technology central to the country's digital infrastructure.]]></summary>
+        <author>
+            <name>Jamie Crawley</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Discovering Primitive Objects In JavaScript (Part 1)]]></title>
         <id>https://smashingmagazine.com/2023/02/discovering-primitive-objects-javascript-part1/</id>
         <link href="https://smashingmagazine.com/2023/02/discovering-primitive-objects-javascript-part1/"/>
@@ -161,6 +751,56 @@
         <summary type="html"><![CDATA[In the first part of the series, Kirill Myshkin covers some aspects of JavaScript that help bring objects closer to primitive values, which allow benefiting from common language features that aren’t usually associated with an object, like comparisons and arithmetic operators.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Kirill Myshkin)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Disbands Industrial Metaverse Project: Report]]></title>
+        <id>XE6DQC3ON5AK3NXLW3J5S7M7AQ</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/microsoft-disbands-industrial-metaverse-project-report/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T11:26:11.000Z</updated>
+        <summary type="html"><![CDATA[The 100 members of the team have all been laid off, according to the report, according to a person with direct knowledge of the matter.]]></summary>
+        <author>
+            <name>Jamie Crawley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[South Korea Blacklists North Korean Crypto Thieves, Flags Wallet Addresses]]></title>
+        <id>QZXMMRNOUBEBBIGDBHDCTVOX3U</id>
+        <link href="https://www.coindesk.com/policy/2023/02/10/south-korea-blacklists-north-korean-crypto-thieves-flags-wallet-addresses/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T11:23:15.000Z</updated>
+        <summary type="html"><![CDATA[The government sanctions targeted four individuals and seven institutions – some with alleged ties to the elite North Korean hacking group "Lazarus."]]></summary>
+        <author>
+            <name>Sandali Handagama</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arbitrum-Based Radiant Capital Targets Outsized Platform Profitability With V2 Launch]]></title>
+        <id>VUGIL2J27FERPPZLBCJVZV3QYM</id>
+        <link href="https://www.coindesk.com/tech/2023/02/10/arbitrum-based-radiant-capital-targets-outsized-platform-profitability-with-v2-launch/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T10:07:29.000Z</updated>
+        <summary type="html"><![CDATA[Radiant has already generated $5 million in fees for users since its July launch.]]></summary>
+        <author>
+            <name>Shaurya Malwa</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bankrupt Crypto Lender Celsius Seeks to Raise $14M From Bitmain Mining Vouchers]]></title>
+        <id>TAYPGJU3BJGL7C2QL7K7VMNEOI</id>
+        <link href="https://www.coindesk.com/business/2023/02/10/bankrupt-crypto-lender-celsius-seeks-to-raise-14m-from-bitmain-mining-vouchers/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T09:47:09.000Z</updated>
+        <summary type="html"><![CDATA[The company joins Core Scientific in trying to offload the assets before expiry, and will use the funds to repay creditors.]]></summary>
+        <author>
+            <name>Jack Schickler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Long Traders Bear Brunt as Bitcoin, Ether Slide Spurs $220M in Liquidations]]></title>
+        <id>KOBUSDIMUZFS3NMTGNVTUTG7XM</id>
+        <link href="https://www.coindesk.com/markets/2023/02/10/long-traders-bear-brunt-as-bitcoin-ether-slide-spurs-220m-in-liquidations/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T09:33:57.000Z</updated>
+        <summary type="html"><![CDATA[Over 90% of all liquidated positions originated from traders betting on higher crypto prices.]]></summary>
+        <author>
+            <name>Shaurya Malwa</name>
         </author>
     </entry>
     <entry>
@@ -345,6 +985,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[First Mover Asia: Kraken Crypto Staking Settlement Bedevils Markets as Bitcoin Lingers Below $21.9K]]></title>
+        <id>5C4A2FDMLFDLPPKMGTETTEQK7M</id>
+        <link href="https://www.coindesk.com/markets/2023/02/10/first-mover-asia-kraken-crypto-staking-settlement-bedevils-markets-as-bitcoin-lingers-below-219k/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T01:43:00.000Z</updated>
+        <summary type="html"><![CDATA[ALSO: CoinDesk analyst Glenn Williams considers the significance of "whales" sending bitcoin back to exchanges, while smaller investors remove it. Bitcoin falls below $21.9K.]]></summary>
+        <author>
+            <name>James Rubin, Glenn Williams</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Aave 在以太坊 Goerli 测试网上推出原生稳定币 GHO]]></title>
         <id>https://twitter.com/AaveAave/status/1623683819034517504</id>
         <link href="https://twitter.com/AaveAave/status/1623683819034517504"/>
@@ -355,6 +1005,16 @@
 <p><a href="https://twitter.com/AaveAave/status/1623683819034517504">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitzlato Co-Founder Released After Arrest in Moscow, Pledges Relaunch of Seized Exchange]]></title>
+        <id>YHAD24VEUFAHJF6UBWV724FX3I</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/10/bitzlato-co-founder-released-after-arrest-in-moscow-pledges-relaunch-of-seized-exchange/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T01:39:15.000Z</updated>
+        <summary type="html"><![CDATA[“I could launch the exchange from my apartment," Anton Shkurenko said of the exchange multinational authorities shut down in January. The Bitzlato team has retained most of its users’ funds and could resume operations quickly, he said.]]></summary>
+        <author>
+            <name>Anna Baydakova</name>
         </author>
     </entry>
     <entry>
@@ -394,6 +1054,26 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Popular Rihanna Song Offered as NFT With Royalty Sharing Ahead of Super Bowl]]></title>
+        <id>OXBFYRXCHNFGFPDYUH5G66OEUQ</id>
+        <link href="https://www.coindesk.com/web3/2023/02/10/popular-rihanna-song-offered-as-nft-with-royalty-sharing-ahead-of-super-bowl/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-10T00:35:30.000Z</updated>
+        <summary type="html"><![CDATA[Music producer Deputy, who helped produce Rihanna's hit 2015 single "B**** Better Have My Money," is granting a portion of his streaming royalties to collectors through anotherblock.]]></summary>
+        <author>
+            <name>Rosie Perper</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OP Token Falls After Surprise Optimism Airdrop]]></title>
+        <id>VZKYWBJLR5H5VHBRKKUCWAZVCU</id>
+        <link href="https://www.coindesk.com/business/2023/02/09/op-token-falls-after-surprise-optimism-airdrop/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T23:49:39.000Z</updated>
+        <summary type="html"><![CDATA[Optimism conducted a second airdrop that rewarded users of the Ethereum layer 2. OP token fell on the news.]]></summary>
+        <author>
+            <name>Elizabeth Napolitano</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How the Z-index Property Works – Stacking Order of Elements in CSS]]></title>
         <id>https://www.freecodecamp.org/news/z-index-property-and-stacking-order-css/</id>
         <link href="https://www.freecodecamp.org/news/z-index-property-and-stacking-order-css/"/>
@@ -404,6 +1084,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bitcoin Miner CleanSpark Plans to Continue Pursuing Acquisitions Amid Bear Market]]></title>
+        <id>LRWVLMMCRFGYFEZWHPHKRGCZDQ</id>
+        <link href="https://www.coindesk.com/business/2023/02/09/bitcoin-miner-cleanspark-plans-to-continue-pursuing-acquisitions-amid-bear-market/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T22:47:42.000Z</updated>
+        <summary type="html"><![CDATA[The miner's revenue for the first quarter was $27.8 million, just shy of analyst estimate of $29.5 million, according to FactSet data.]]></summary>
+        <author>
+            <name>Aoyon Ashraf</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to Search Files Effectively in the Linux Terminal]]></title>
         <id>https://www.freecodecamp.org/news/how-to-search-files-in-the-linux-terminal/</id>
         <link href="https://www.freecodecamp.org/news/how-to-search-files-in-the-linux-terminal/"/>
@@ -411,6 +1101,16 @@
         <summary type="html"><![CDATA[Have you ever felt frustrated searching for files manually on your computer? If you’re a developer or DevOps engineer working on GUI-less Linux servers, it'll be hard navigating back and forth to find files. Many people are unaware of the power of Linux terminals. Linux has an incredibly powerful command]]></summary>
         <author>
             <name>Arunachalam B</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russian Cybercrime Gang Trickbot Sanctioned by US, UK]]></title>
+        <id>YXKL4DLG7NFX3GHBBZ3Q3I4UVE</id>
+        <link href="https://www.coindesk.com/policy/2023/02/09/russian-cybercrime-gang-trickbot-sanctioned-by-us-uk/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T21:56:57.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. and U.K. issued joint sanctions on Thursday against seven members of the infamous Russian cybercrime group Trickbot.]]></summary>
+        <author>
+            <name>Cheyenne Ligon</name>
         </author>
     </entry>
     <entry>
@@ -434,6 +1134,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Legal Expert Says MetaBirkin Project Intended to Use Hermès’ Brand for Economic Gain]]></title>
+        <id>FTKSCOR7LZAV3OUZF5ZYLY6R5M</id>
+        <link href="https://www.coindesk.com/policy/2023/02/09/legal-expert-says-metabirkin-project-intended-to-use-hermes-brand-for-economic-gain/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T21:46:41.000Z</updated>
+        <summary type="html"><![CDATA[Olta Andoni, chief compliance officer at financial firm Enclave Markets, says that Mason Rothschild was looking to “piggyback” off of the French luxury brand’s reputation. But even artists who are creating digital art aren't free of consumer protection laws.]]></summary>
+        <author>
+            <name>Fran Velasquez</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to Work with Branches in Git]]></title>
         <id>https://www.freecodecamp.org/news/how-to-work-with-branches-in-git/</id>
         <link href="https://www.freecodecamp.org/news/how-to-work-with-branches-in-git/"/>
@@ -441,6 +1151,96 @@
         <summary type="html"><![CDATA[One of the things we fell in love with when we saw our future backyard was the tree. The valley oak is the largest North American oak. It can grow to be 600 years old and 100 feet tall. It's known for its irregular, spreading branches. Speaking of branches...a key]]></summary>
         <author>
             <name>Deborah Kurata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Setting the Record Straight]]></title>
+        <id>B7F65MPHVFH3XCKL4YGM6FU4GI</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/09/setting-the-record-straight/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T21:37:29.000Z</updated>
+        <summary type="html"><![CDATA[In a CoinDesk exclusive, the co-founder of Yuga Labs, Wylie Aronow, shares a frank letter touching on his recent diagnosis of heart failure and responding to accusations of racist and nazi imagery embedded within the Bored Ape Yacht Club NFT project.]]></summary>
+        <author>
+            <name>Wylie  Aronow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Avoid the Death of DeFi in the Wake of FTX]]></title>
+        <id>FFMPTBDZLJGW3PCV4H5DVYPPF4</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/09/how-to-avoid-the-death-of-defi-in-the-wake-of-ftx/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T21:24:05.000Z</updated>
+        <summary type="html"><![CDATA[FTX’s collapse is an inevitable outcome for an industry yet to find its use case. For crypto to survive, it needs to learn from the very financial sector it set out to replace, says Brent Xu, the CEO of Umee.]]></summary>
+        <author>
+            <name>Brent Xu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Liquid Staking Tokens Rally as Kraken Shuts Staking Service to Settle With SEC]]></title>
+        <id>GHFS4TKOXVCOJAUGKHVW57POBI</id>
+        <link href="https://www.coindesk.com/markets/2023/02/09/liquid-staking-tokens-rally-as-kraken-settles-with-sec-to-sunset-staking-service/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T21:22:44.000Z</updated>
+        <summary type="html"><![CDATA[The sudden price uptick of governance tokens for the largest liquid staking protocols Lido Finance, Rocket Pool and Frax Finance defies the decline of the broader crypto market.]]></summary>
+        <author>
+            <name>Krisztian  Sandor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stablecoin Issuer Paxos Is Being Investigated by New York Regulator]]></title>
+        <id>7O4QNPOGYJFYLIAMOJXCX6YGUA</id>
+        <link href="https://www.coindesk.com/policy/2023/02/09/stablecoin-issuer-paxos-is-being-investigated-by-new-york-regulator/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T20:53:44.000Z</updated>
+        <summary type="html"><![CDATA[The New York Department of Financial Services is investigating crypto company Paxos, though the scope of the investigation is not yet clear.]]></summary>
+        <author>
+            <name>Nikhilesh De</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitcoin Drops Below $22K as Kraken Agreement to Close US Crypto Staking Operations Spooks Investors]]></title>
+        <id>AHIJM3FK2FHUDNZKP7BGAY2PRQ</id>
+        <link href="https://www.coindesk.com/markets/2023/02/09/bitcoin-drops-below-22k-as-kraken-agreement-to-close-crypto-staking-operations-spooks-investors/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T20:45:34.000Z</updated>
+        <summary type="html"><![CDATA[The largest cryptocurrency by market capitalization declined after the crypto exchange giant agreed to settle charges with the SEC to shutter the service. Ether also declined.]]></summary>
+        <author>
+            <name>Jocelyn Yang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IRS Seeks Court Approval to Identify Kraken Crypto Customers]]></title>
+        <id>YKBYM3DSZVGB3HNHST6FREGK3Q</id>
+        <link href="https://www.coindesk.com/policy/2023/02/09/irs-seeks-court-approval-to-identify-kraken-crypto-customers/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T20:39:09.000Z</updated>
+        <summary type="html"><![CDATA[The Internal Revenue Service has filed a court document seeking permission to enforce a summons for information against Kraken and its subsidiaries.]]></summary>
+        <author>
+            <name>Nikhilesh De</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraken to Shut US Crypto-Staking Service, Pay $30M Fine in SEC Settlement]]></title>
+        <id>FHPBGEIME5DHJO24XJQGDI2IXY</id>
+        <link href="https://www.coindesk.com/policy/2023/02/09/us-securities-and-exchange-commission-sues-kraken-over-crypto-staking-services/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T20:11:54.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Securities and Exchange Commission sued Kraken in federal court Thursday, alleging its crypto staking as a service program violated federal securities laws.]]></summary>
+        <author>
+            <name>Nikhilesh De, Danny Nelson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blockchain Privacy Is at Risk in the EU]]></title>
+        <id>CZYOWG6BJZBUTNRKCBVK6XH65Q</id>
+        <link href="https://www.coindesk.com/consensus-magazine/2023/02/09/blockchain-privacy-is-at-risk-in-the-eu/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T20:01:13.000Z</updated>
+        <summary type="html"><![CDATA[The EU's comprehensive Markets in Crypto Assets (MiCA) regulation is ambitious and sets a high standard globally. Article 68, however, goes too far and poses a risk to innovation, privacy and security.]]></summary>
+        <author>
+            <name>Gary Weinstein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraken Agreed to Shutter US Crypto-Staking Operations to Settle SEC Charges: Source]]></title>
+        <id>PDAWZDGWUBCZVLLFLT55N5EJ2Y</id>
+        <link href="https://www.coindesk.com/policy/2023/02/09/kraken-agreed-to-shutter-crypto-staking-operations-to-settle-sec-charges-source/?utm_medium=referral&amp;utm_source=rss&amp;utm_campaign=headlines"/>
+        <updated>2023-02-09T19:25:25.000Z</updated>
+        <summary type="html"><![CDATA[Kraken has agreed to shut its cryptocurrency-staking operations to settle charges with the U.S. Securities and Exchange Commission (SEC), according to an industry source briefed on the matter.]]></summary>
+        <author>
+            <name>Nikhilesh De</name>
         </author>
     </entry>
     <entry>
