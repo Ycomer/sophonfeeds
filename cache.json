@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>零知识证明（ZKP）的特点是可以在不泄露任何其他信息的前提下证明一个命题的正确性。本文中，慢雾安全团队盘点了各种 ZKP 实现的技术特点，希望能为大家的学习研究和工程开发带来帮助。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA\">https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA</a></p>\n<p><strong>文章作者：</strong></p><p>慢雾安全团队</p><hr><h3>观点：</h3><p><strong>慢雾安全团队：</strong>ZKP 应用领域：1）隐私证明：Zcash 在比特币源代码基础上将 ZKP 应用于代币转移，并使交易完全保密同时能被区块链上节点验证；2）计算外包：借助 ZKP 技术，节点可以将大量的计算外包给链下节点，zksync1.0 就是一个很好的例子；3）数据压缩：Filecoin 运用 ZKP 构造了时空证明系统，目前已经证明存储的文件达 10 EiB。Mina 则通过递归零知识证明将账本压缩到 11 KB，但依旧可以验证区块的正确性。</p><a href=\"https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA\">内容来源</a><p><strong>慢雾安全团队：</strong>ZKP 证明系统：1）交互式证明系统：由证明者（P）和验证者（V）参与，每轮 V 都向 P 发出询问，P 做出回应。所有轮次完成后，V 根据 P 是否每一轮都回应正确来决定是否接受 P 的证明；2）非交互式证明系统：P 和 V 不进行交互，证明由 P 产生后直接给 V，V 对证明直接进行验证，这种证明系统称为非交互式证明系统（NIZK）。</p><a href=\"https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA\">内容来源</a><p><strong>慢雾安全团队：</strong>ZKP 常见安全问题：1）信任参数风险；2）静态代码安全；3）供应链攻击风险；4）逻辑错误；5）双花攻击；6）证明伪造；7）侧信道攻击；8）电路约束失效；9）特殊值攻击；10）隐私输入猜解；11）RugPull 风险；12）智能合约风险。</p><a href=\"https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA",
+          "publishedOn": "2023-02-13T12:48:53.000Z",
+          "wordCount": 9902,
+          "title": "慢雾：盘点 ZKP 主流实现方案技术特点",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/qsQ2ibEw5pLZKLv16MKO3vRlQdoBsh3ZVribXlpSrkMVtlFHjcbqd4311019jcUic4RR35ZuUxcbY9RuDZAibyqrWA/0?wx_fmt=jpeg"
+        },
+        {
           "id": "https://twitter.com/nintendodoomed/status/1625076182550208512",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币研究员 Capitalismlab 从底层资产安全性和流动性、Binance-peg USD 和 BUSD 的关系及 Paxos 团队问题等方面剖析了 BUSD 的风险。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/nintendodoomed/status/1625076182550208512\">https://twitter.com/nintendodoomed/status/1625076182550208512</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据最近一份 BUSD 的报告（23 年 2 月），其底层资产全部由国债、国债逆回购和现金组成，没有商业票据等高危资产。平均到期时间短至 3 天，流动性很好，USDC/USDT 都是 30 日左右。</p><a href=\"https://twitter.com/nintendodoomed/status/1625076182550208512\">内容来源</a><p><strong>CapitalismLab：</strong>币安官网声明 BUSD 为 Paxos 发行，Binance-peg USD 为币安的锚定代币，未受 NYDFS 监管。Paxos 官网则声明 BUSD 为 Paxos 发行的币安品牌稳定币。 这应该是币安为了应对监管、合规所进行的操作，但既然用了币安的品牌，那关系自然是脱不开的，可能会给监管更多发挥空间。</p><a href=\"https://twitter.com/nintendodoomed/status/1625076182550208512\">内容来源</a><p><strong>CapitalismLab：</strong>稳定币是一个需要和监管、合规紧密合作的行业，目前看来 BUSD 有些草台班子，可能这就是其表面看上去不比 USDC 更差的情况下比 USDC 待遇更差的原因之一。此外，由于币安前不久整合了 BUSD/USDC，而从其储备资产可知，其绝大部分现货为 BUSD。那么遭遇客户大量提取 USDC 的话，势必会遇到流动性问题。</p><a href=\"https://twitter.com/nintendodoomed/status/1625076182550208512\">内容来源</a>",
@@ -1102,6 +1112,26 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/5f0dihxc.html",
+          "author": null,
+          "description": "PANews 2月13日消息，据The Block报道，随着监管机构的严厉打击，数字资产平台 Bakkt 正在放弃其消费者应用程序，该应用程序将于 3 月 16 日正式停用。以专注于其企业对企业（B2B）技术解决方案。Bakkt 将继续通过安全合规平台上的 SaaS 和 API 解决方案，为企业的客户提供加密和忠诚度体验。\n去年，Bakkt 同意收购综合加密交易基础设施 Apex Crypto。Apex 为超过 30 家签约的金融科技合作伙伴提供服务，为超过 500 万客户提供服务。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/5f0dihxc.html",
+          "publishedOn": "2023-02-13T13:51:41.000Z",
+          "wordCount": 998,
+          "title": "数字资产平台Bakkt退出消费者业务以专注于B2B",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/6uxbkggn.html",
+          "author": null,
+          "description": "今日要闻提示：\n纽约州金融服务部命令Paxos停止发行新BUSD代币\nPaxos宣布终止与币安就BUSD的合作，在2024年2月之前BUSD可得到充分支持和赎回\nCZ：币安或将不再使用BUSD作为交易的主要货币对\n原美团联创王慧文出资5000万美元进军人工智能，称将打造中国的OpenAI\nCanto新提案提议减少30%的CANTO代币增发量和流动性挖矿奖励\nMessari创始人评Paxos监管危机：誓要结束Gary Gensler的政治生涯\n数据：Optimism第二轮空投中71.6%的有效地址收到8.75%空投分配\n福布斯：以太坊上海升级后将有价值290亿美元的ETH被解锁\nPANews PARTY AWARD 2023 年度评选开启提名征集！\n冬去春来，今年我们以“Keep Building”为主题，旨在发现并激励Web3领域中持续建设的真正Builder。将通过数据初选、公开征集、线上投票及专业评审团评议，最终评选出12项权威年度奖项。\n点击参与报名：https://www.panewslab.com/party/2023/apply\n\n监管消息\n华尔街日报：稳定币发行商Paxos因BUSD面临美SEC的诉讼\n据华尔街日报援引知情人士报道，美国证券交易委员会（SEC）已告知稳定币发行商Paxos，它计划起诉该公司违反投资者保护法。这是该机构不断升级的加密执法行动的最新举措。\n知情人士称，美国SEC的执法人员向Paxos发出了一封名为“韦尔斯通知（Wells notice）”的信函，称Paxos发行和上架的数字资产Binance USD（BUSD）是一种未注册的证券。Paxos发言人拒绝置评，币安在声明中称：“BUSD由Paxos发行和拥有，它只授权其品牌。我们将继续监测相关情况。”\n据悉，“韦尔斯通知”是美国SEC对在美上市公司进行民事诉讼前发出的非正式提醒，接到通知…",
+          "link": "https://www.panewslab.com/zh/articledetails/6uxbkggn.html",
+          "publishedOn": "2023-02-13T13:20:41.000Z",
+          "wordCount": 1362,
+          "title": "PA日报｜监管机构命令Paxos停止发行新BUSD代币；币安或将不再使用BUSD作为主要稳定币",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/JqfOSYSQ08.png"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/6v895h85n89u.html",
           "author": null,

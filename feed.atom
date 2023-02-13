@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-13T13:08:01.548Z</updated>
+    <updated>2023-02-13T14:02:59.419Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数字资产平台Bakkt退出消费者业务以专注于B2B]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5f0dihxc.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5f0dihxc.html"/>
+        <updated>2023-02-13T13:51:41.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据The Block报道，随着监管机构的严厉打击，数字资产平台 Bakkt 正在放弃其消费者应用程序，该应用程序将于 3 月 16 日正式停用。以专注于其企业对企业（B2B）技术解决方案。Bakkt 将继续通过安全合规平台上的 SaaS 和 API 解决方案，为企业的客户提供加密和忠诚度体验。
+去年，Bakkt 同意收购综合加密交易基础设施 Apex Crypto。Apex 为超过 30 家签约的金融科技合作伙伴提供服务，为超过 500 万客户提供服务。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PA日报｜监管机构命令Paxos停止发行新BUSD代币；币安或将不再使用BUSD作为主要稳定币]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/6uxbkggn.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/6uxbkggn.html"/>
+        <updated>2023-02-13T13:20:41.000Z</updated>
+        <summary type="html"><![CDATA[今日要闻提示：
+纽约州金融服务部命令Paxos停止发行新BUSD代币
+Paxos宣布终止与币安就BUSD的合作，在2024年2月之前BUSD可得到充分支持和赎回
+CZ：币安或将不再使用BUSD作为交易的主要货币对
+原美团联创王慧文出资5000万美元进军人工智能，称将打造中国的OpenAI
+Canto新提案提议减少30%的CANTO代币增发量和流动性挖矿奖励
+Messari创始人评Paxos监管危机：誓要结束Gary Gensler的政治生涯
+数据：Optimism第二轮空投中71.6%的有效地址收到8.75%空投分配
+福布斯：以太坊上海升级后将有价值290亿美元的ETH被解锁
+PANews PARTY AWARD 2023 年度评选开启提名征集！
+冬去春来，今年我们以“Keep Building”为主题，旨在发现并激励Web3领域中持续建设的真正Builder。将通过数据初选、公开征集、线上投票及专业评审团评议，最终评选出12项权威年度奖项。
+点击参与报名：https://www.panewslab.com/party/2023/apply
+
+监管消息
+华尔街日报：稳定币发行商Paxos因BUSD面临美SEC的诉讼
+据华尔街日报援引知情人士报道，美国证券交易委员会（SEC）已告知稳定币发行商Paxos，它计划起诉该公司违反投资者保护法。这是该机构不断升级的加密执法行动的最新举措。
+知情人士称，美国SEC的执法人员向Paxos发出了一封名为“韦尔斯通知（Wells notice）”的信函，称Paxos发行和上架的数字资产Binance USD（BUSD）是一种未注册的证券。Paxos发言人拒绝置评，币安在声明中称：“BUSD由Paxos发行和拥有，它只授权其品牌。我们将继续监测相关情况。”
+据悉，“韦尔斯通知”是美国SEC对在美上市公司进行民事诉讼前发出的非正式提醒，接到通知…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[慢雾：盘点 ZKP 主流实现方案技术特点]]></title>
+        <id>https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA</id>
+        <link href="https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA"/>
+        <updated>2023-02-13T12:48:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>零知识证明（ZKP）的特点是可以在不泄露任何其他信息的前提下证明一个命题的正确性。本文中，慢雾安全团队盘点了各种 ZKP 实现的技术特点，希望能为大家的学习研究和工程开发带来帮助。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA">https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA</a></p>
+<p><strong>文章作者：</strong></p><p>慢雾安全团队</p><hr><h3>观点：</h3><p><strong>慢雾安全团队：</strong>ZKP 应用领域：1）隐私证明：Zcash 在比特币源代码基础上将 ZKP 应用于代币转移，并使交易完全保密同时能被区块链上节点验证；2）计算外包：借助 ZKP 技术，节点可以将大量的计算外包给链下节点，zksync1.0 就是一个很好的例子；3）数据压缩：Filecoin 运用 ZKP 构造了时空证明系统，目前已经证明存储的文件达 10 EiB。Mina 则通过递归零知识证明将账本压缩到 11 KB，但依旧可以验证区块的正确性。</p><a href="https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA">内容来源</a><p><strong>慢雾安全团队：</strong>ZKP 证明系统：1）交互式证明系统：由证明者（P）和验证者（V）参与，每轮 V 都向 P 发出询问，P 做出回应。所有轮次完成后，V 根据 P 是否每一轮都回应正确来决定是否接受 P 的证明；2）非交互式证明系统：P 和 V 不进行交互，证明由 P 产生后直接给 V，V 对证明直接进行验证，这种证明系统称为非交互式证明系统（NIZK）。</p><a href="https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA">内容来源</a><p><strong>慢雾安全团队：</strong>ZKP 常见安全问题：1）信任参数风险；2）静态代码安全；3）供应链攻击风险；4）逻辑错误；5）双花攻击；6）证明伪造；7）侧信道攻击；8）电路约束失效；9）特殊值攻击；10）隐私输入猜解；11）RugPull 风险；12）智能合约风险。</p><a href="https://mp.weixin.qq.com/s/vEf0rpGRqiJYGxpV6mtIMA">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[轻松理解Rollup, ZK Rollups 与 Optimistic，Arbitrum的区别]]></title>
         <id>https://www.panewslab.com/zh/articledetails/6v895h85n89u.html</id>
