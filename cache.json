@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前主流的链上数据分析工具多处于从 Web2 向 Web3 过渡的阶段，未来面向 DeFi 的数据分析服务一定是根植于 Web3 原生数据特性的。去中心化研究组织 DAOrayaki 联合清华大学区块链协会发起的 THUBA DAO 从数据处理机制、数据应用等维度对链上数据分析赛道进行了拆解分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA\">https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA</a></p>\n<p><strong>文章作者：</strong></p><p>DAOrayaki 及 THUBA DAO</p><hr><h3>观点：</h3><p><strong>DAOrayaki：</strong>市场规模：Markets and Markets 的一份报告预测，到 2026 年全球区块链风险投资市场将达到 674 亿美元。目前，随着市场信心的回升，DeFi 市场估值将有所修复，链上数据产品依旧具有广阔的应用前景。据 @0xwayne_z 估计，链上数据市场目前应有上百亿规模。</p><a href=\"https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA\">内容来源</a><p><strong>DAOrayaki：</strong>赛道拆解：1）数据栈角度看，可以数据源、数据开发工具和数据应用三类；2）数据处理机制上看，可以分为偏向 Web2 还是偏向 Web3 原生的模式；3）从数据应用领域看，目前相对成熟的赛道有 DeFi、NFT、GameFi 等。</p><a href=\"https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA\">内容来源</a><p><strong>DAOrayaki：</strong>竞争格局：1）数据分析开发工具：面向数据分析开发人员，自由定制程度高，但不提供数据分析结果，例如 Dune、Footprint、GeniiData 等，对链上数据再生产逻辑和 Web2 的 MySQL 类似；2）数据洞察分析工具：面向普通用户，提供可直接访问数据内容供投资者参考决策，包括 Nansen、Glassnode、EigenPhi、0xScope 等。</p><a href=\"https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/UzeL6y8iKN4am6xgPlj3wA",
+          "publishedOn": "2023-02-13T09:40:40.000Z",
+          "wordCount": 10017,
+          "title": "链上数据分析：从野蛮生长的 DeFi 世界洞察价值",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/ovYfePibhjTtGiahpzbvGkDf9HrCW4PAicQBIJjsP0TFib1cW94W86w2JGW0e7J1JqEAQOOtZudJoic1SN4UyHuOVBg/0?wx_fmt=jpeg"
+        },
+        {
           "id": "https://twitter.com/wzxznl/status/1625011384701571076",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>错过了因上海升级而引发的流动性质押浪潮？如何抓住上海升级之后的 Cancun 升级带来的红利？加密研究员菠菜菠菜对专注于 EIP-4844 的 Cancun 升级可能带来的变革和机遇进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">https://twitter.com/wzxznl/status/1625011384701571076</a></p>\n<p><strong>文章作者：</strong></p><p>@菠菜菠菜</p><hr><h3>观点：</h3><p><strong>@菠菜菠菜：</strong>EIP-4844 首先引入了一个全新交易类型：Blob Transcation，以太坊中每一笔交易可以最多携带两个 Blob 交易，这个 Blob 其实就是一个外挂数据包。一个 Blob 的大小为 128 KB，一个区块最多带 16 个 Blob，而这些额外的数据包可以说是为 Rollup 量身定制的，Rollup 通过 Blob 上传至以太坊可以实现几十甚至几百倍的 TPS 提高和成本的降低。</p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">内容来源</a><p><strong>@菠菜菠菜：</strong>Blob 可以给以太坊每年带来 2.5 至 5 TB 的额外数据量，直接远超账本本身好几倍，且节点本身无需存储全部 Blob 数据，目前社区想法是 30 天清除一次，因此对节点而言只需要下载固定一个月的数据量即可，不会影响到以太坊节点的去中心化。且清除后任何想要这些数据的用户或协议都有足够的时间抓取数据并进行保存。</p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">内容来源</a><p><strong>@菠菜菠菜：</strong>EIP-4844 最大的利好是 Rollup，但其也只是实现 Danksharding 终局的一个里程碑，而完整版的扩容 Danksharding 则会将 EIP-4844 中 Blob 数据量从 1 MB 至 2 MB 扩展至 16 MB 至 32 MB，同时还会解决 MEV 带来的负面影响，并实现了 Vitalik 在「Endgame」对公链的畅想：中心化出快、去中心化验证及扛审查。</p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">内容来源</a>",
@@ -1063,6 +1073,56 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/30o5zwlp.html",
+          "author": null,
+          "description": "PANews 2月13日消息，PANews PARTY AWARD 2023将于2月13日至2月22日开启提名征集。PARTY意为PANews' Restropect of The Year（PANews年度致敬），活动已连续举办三届，吸引了全球Web3创业者和优质项目的参与。本届评选将以“Keep Building（持续建设）”为主题，旨在发现并激励Web3领域中持续建设的真正建设者（Builder）。\n本次活动将通过数据初选、公开征集、线上投票及专业评审团评议，最终评选出12项权威年度奖项。活动详情请点击原文链接访问官网。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/30o5zwlp.html",
+          "publishedOn": "2023-02-13T10:34:00.000Z",
+          "wordCount": 996,
+          "title": "第三届PANews PARTY AWARD年度评选今日开启提名征集",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/uanfukxl.html",
+          "author": null,
+          "description": "作者：Fungi Alpha，加密研究员\n编译：Leo，BlockBeats\n不要一直处在错过的情绪里，主动去发现的一些值得关注的新项目，码住后体验，成为这些项目的早期用户吧，加密研究员 Fungi Alpha 撰文介绍了近期需要关注的潜力项目，BlockBeats 编译如下：\nFlaunt\nFlaunt 是一个企业端到端忠诚度管理平台，作为品牌及其客户进入 Web 3 的入口，让所有用户都拥有自己的品牌资产，参与社区活动，在现有的平台和程序即成Web 3，这也正是加密空间所需要的成分。\nVTVL\nVTVL 是针对于项目或团队的订制化 token 管理方案，项目/团队；简化你的兑现计划/token 分配。由 Certik、Quantstamp 和 code4arena 参与审核。\nLevex\nLevex 是一种无许可的借贷保证金交易协议，使交易者或其他应用能够安全高效地在 Dex 上做多或做空任何交易对，将交易者与最具流动性的 Dex（如 Uniswap、PancakeSwap、SushiSwap 等）进行交易，是 OpenLeverage 的分叉，原生 token 为 LVX。\ndisconnect.fi\ndisconnect.fi 是一个 Web 3 群组消息传递平台，让用户与社区进行实时连接、交互和交易，可以与其他人在其中体验同一款 DeFi 应用，其封闭测试版正在运行。\nOniku\nOniku 是即将在 Canto 上推出的 NFT 项目，在Canto 的 NFT 市场 Alto Market 上线，可能会有不错的前景。\nXAVABET\nXAVABET 是基于 Avalanche 的链上菠菜协议，目前处于早期阶段。\nEDGE\nEDGE 是一个开放的 Web 3 平台，致力于成为创作者、艺术家、商人和其他用户的 Web 3 中心，追求可访问、透明度和财务自由。\nLat…",
+          "link": "https://www.panewslab.com/zh/articledetails/uanfukxl.html",
+          "publishedOn": "2023-02-13T10:29:42.000Z",
+          "wordCount": 1420,
+          "title": "盘点2月值得关注的22个潜力小项目",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/zAjTaG0p2o.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/55u8lvrp.html",
+          "author": null,
+          "description": "PANews 2月13日消息，据CoinDesk报道，根据欧洲议会周五公布的一项法律草案，欧盟银行必须对加密资产施加最大可能的风险权重。计划中的规则可能决定传统金融部门如何参与数字资产。根据该草案，银行将不得不披露其对加密货币的直接和间接风险敞口，而欧盟委员会则为该行业制定更精细的规则。该法律草案要求欧盟委员会在 6 月之前提出进一步的立法，以实施巴塞尔银行监管委员会制定的国际资本标准。\n议会经济和货币事务委员会（Economic and Monetary Affairs Committee）在一份解释性文本中表示：“（金融）机构参与加密资产相关活动的可能性日益增加，应在欧盟审慎框架中得到充分反映，以充分减轻这些工具对机构金融稳定的风险。”。“鉴于加密资产市场最近的不利发展，这一点更加紧迫。”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/55u8lvrp.html",
+          "publishedOn": "2023-02-13T10:20:22.000Z",
+          "wordCount": 960,
+          "title": "欧盟新法律草案要求银行必须对加密资产施加最大可能的风险权重",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/hxy4u55a.html",
+          "author": null,
+          "description": "原文：USA《反洗钱法案》，FTX后的“亡羊补牢”？\n作者：肖飒法律团队\n2022年末，FTX事件为全世界的虚拟资产监管机构敲响了警钟，面对蓬勃发展的新兴金融科技，我们应采取何种监管手段才能使其既发挥惠普金融的作用又能保障用户资金安全？作为走在虚拟资产监管前沿的主要国家，美国于2022年末公布了一项关于加强虚拟资产监管的立法草案：《数字资产反洗钱法》（Digital Asset Anti-Money Laundering Act），这也是美国在FTX事件后，第一份有关虚拟资产监管的立法草案。\n无论该法案最终是否能获得通过，我们得以从中一窥美国虚拟资产监管的方向的道路并吸取有益的经验和教训。\n\n一、2022美国数字资产反洗钱法概述\n2022年12月，美国马萨诸塞州的民主党参议员Elizabeth Warren和Roger Marshall提出了一项新的立法：《数字资产反洗钱法》，时值美国最大的中心化虚拟货币交易平台之一的FTX由于金融监管的缺位，发生了严重暴雷事件，其实控人更是被指控涉嫌诈骗等多项罪名。二位议员据此主张：需要将现有的、传统金融领域的一系列反洗钱法律和规则扩展到虚拟资产监管领域。虽然以反洗钱为名，但实际上却是通过强制报告制度和其他制度相配合，达到对各虚拟资产平台的强监管目的。\n该法案一经公布就引起了众多争议。一方面，美国的虚拟资产行业希望美国政府在联邦层面出台一个统一的监管框架，这主要是因为美国各州对于虚拟资产的行政许可法之间缺乏统一性（典型的区域性行政许可如纽约州Bite licence），加之各州错综复杂的汇款许可制度，为金融创新带来了很多障碍，创建一家合规的、全球化的虚拟资产交易所成本极高。因此，对于联邦层面的虚拟资产立法监管，行业总体上持期待态度。但另一方面，从美国各州和世界范围内的立法经验来看，虚拟资产监管尚不成熟，除了采取“一刀切”政策的国家外，没有…",
+          "link": "https://www.panewslab.com/zh/articledetails/hxy4u55a.html",
+          "publishedOn": "2023-02-13T10:14:22.000Z",
+          "wordCount": 1050,
+          "title": "FTX崩盘推动的《反洗钱法案》，有哪些地方值得关注？",
+          "imageUrl": "https://cdn-img.panewslab.com//panews/2022/2/13/images/0d1f9cff1cec44b27a2be55dd79a2c1b.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/i313cuv9.html",
+          "author": null,
+          "description": "本文要点：\n上周开始流言蜚语不断的Paxos正式面临监管机构的前后夹击。除了受纽约金融服务部（NYDFS）调查后，Paxos被命令停止发行新BUSD代币，其又因稳定币BUSD收到美国SEC的“韦尔斯通知（Wells notice）”，部分用户已收到重新进行KYC验证或关闭账户的通知。\n一时间，稳定币被FUD情绪笼罩。对此，Paxos发言人拒绝置评，而币安则在声明中称，“BUSD由Paxos发行和拥有，它只授权其品牌。Paxos还保证这些资金是安全的，并由银行的储备金完全覆盖。”\n那么，BUSD是否会出现挤兑风险？稳定币又是否应被视为证券？稳定币的监管管辖权究竟该归属哪个部门？本文PANews将为大家一一解答。\nBUSD是由Paxos信托公司发行并托管的一种美元担保的稳定资产，供应量按1:1 的比率与美元挂钩，由纽约州金融服务部监管。\nNansen数据显示，目前BUSD总市值160亿美元，排名稳定币第三，仅次于USDT和USDC。其中，币安是使用BUSD最多的加密交易平台，约90%（144亿美元）的BUSD由币安地址持有。而在过去7天，币安净流出超8140万枚BUSD。\n但NYDFS已要求Paxos Trust Co.停止发行更多的BUSD代币。根据币安的声明，Paxos将继续管理BUSD的赎回，BUSD的市值只会随着时间的推移而下降。Paxos将继续为该产品提供服务，管理赎回，并将根据需要提供额外的信息。\n\nBUSD是否会出现挤兑危机？实际上，BUSD的储备资金除了少量美元现金，其他大部分都是风险较小的美国国库券和美国国债抵押逆回购协议组成。而据ChainEye数据显示，BUSD的储备净资产市值为226.5亿美金（截至2022.11报告），超过今日（2月13日）161.7亿美元的流通量。\n不过，因被认定是未注册的证券被美国SEC执法人员发出了一封名为“韦尔斯通知”的信函。作…",
+          "link": "https://www.panewslab.com/zh/articledetails/i313cuv9.html",
+          "publishedOn": "2023-02-13T10:04:20.000Z",
+          "wordCount": 1010,
+          "title": "美国SEC等监管机构前后夹击Paxos，醉翁之意或不在BUSD",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/84QJ7feu19.jpg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/npt4j30h.html",
           "author": null,
           "description": "PANews 2月13日消息，币安创始人赵长鹏（CZ）刚刚发推表示，BUSD是由Paxos发行和赎回的。资金是 SAFU（安全的）。从 Paxos 获悉，纽约金融服务部 (NYDFS) 指示他们停止铸造新的 BUSD。Paxos 受 NYDFS 监管。BUSD是由Paxos全资拥有和管理的稳定币。因此，BUSD 市值只会随着时间的推移而减少。",
@@ -1140,6 +1200,16 @@
           "publishedOn": "2023-02-13T08:18:06.000Z",
           "wordCount": 963,
           "title": "0xscope：BUSD的最后一次铸造交易是在2月4日",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/z8d26w6i.html",
+          "author": null,
+          "description": "PANews 2月13日消息，对于稳定币发行商Paxos因BUSD面临美SEC的诉讼，Messari创始人Ryan Selkis发推文称：“我人生的新目标是结束Gary Gensler（美国证券交易委员会主席）的政治生涯，让他成为拜登连任失败的原因。我将与Brian（Coinbase首席执行官Brian Armstrong）、Jesse（Kraken创始人Jesse Powell）以及其他数十人一起，他们花了10年时间，让美国处于主导地位，赢得下一个主要的技术前沿。我将花费我所拥有的每一分精力、金融和政治资本来打击加密货币的道德败坏和腐败的敌人。明智的监管很重要。事实上的禁令将遭到无情的打击。”Selkis称其15年小心翼翼未发表关于恶化其与SEC关系的言论，但这次以脏话表述了其对SEC行为的不满。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/z8d26w6i.html",
+          "publishedOn": "2023-02-13T08:02:45.000Z",
+          "wordCount": 975,
+          "title": "Messari创始人评Paxos监管危机：誓要结束Gary Gensler的政治生涯",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
         {
