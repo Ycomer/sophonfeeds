@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-13T11:02:45.904Z</updated>
+    <updated>2023-02-13T12:03:54.550Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[星展银行计划申请在香港提供加密货币的牌照]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/pi77qj9z.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/pi77qj9z.html"/>
+        <updated>2023-02-13T11:40:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据彭博社报道，星展集团控股有限公司计划申请许可，允许其向香港客户提供加密货币。星展银行在新加坡设有数字交易所，去年扩大了对其加密交易服务的访问范围。
+新加坡最大商业银行星展银行（香港）首席执行官 Sebastian Paredes 周一在香港举行的简报会上表示：“我们计划在香港申请牌照，以便可以向我们的香港客户出售数字资产”。Paredes 表示，当香港的法规明确且银行“完全了解框架”时，星展银行将成为有兴趣参与的贷方之一。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CoinShares：上周数字资产投资产品净流出680万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/hv2rq2tw.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/hv2rq2tw.html"/>
+        <updated>2023-02-13T11:30:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据CoinShares周报数据，上周数字资产投资产品净流出680万美元。其中，比特币投资产品净流出1080万美元，以太坊投资产品净流入510万美元，做空比特币的投资产品净流出350万美元。区块链股票仍然受到青睐，上周总计流入 670 万美元，使年初至今的流入量达到 1100 万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paxos宣布终止与币安就BUSD的合作，在2024年2月之前BUSD可得到充分支持和赎回]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/a2mz0btn.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/a2mz0btn.html"/>
+        <updated>2023-02-13T11:04:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，受监管区块链和代币化基础设施平台Paxos宣布将终止与币安就品牌稳定币 BUSD 的合作关系。Paxos表示，现有的 BUSD 将继续得到 Paxos 的全面支持，并且至少在2024年2月之前仍然得到充分支持和赎回。（或因部分抵押品被购买为有到期限制的国债等金融产品）Paxos 的新客户和现有客户将能够以美元赎回他们的资金，或将他们的 BUSD 代币转换为 Pax Dollar (USDP)，这是一种受监管的美元支持的稳定币，也是由 Paxos Trust 发行的。
+Paxos表示，Paxos Trust发行的所有BUSD代币已经并将永远得到1:1美元计价准备金的支持，完全隔离并保存在破产远程账户中（PANews注：意味着不会受到企业破产的影响）。BUSD储备是完全有准备金支持的。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】示例解析无限杠杆去中心化交易所 InfinityPools 杠杆逻辑及来源]]></title>
+        <id>https://twitter.com/keonehd/status/1624559468779380736</id>
+        <link href="https://twitter.com/keonehd/status/1624559468779380736"/>
+        <updated>2023-02-13T11:01:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>InfinityPools 是一个双向市场，机制主要由两方组成，一方是交易者，另一方是流动性提供者。Monad 联合创始人 Keone 在本文中举例解析了 InfinityPools 的基本机制和杠杆来源。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/keonehd/status/1624559468779380736">https://twitter.com/keonehd/status/1624559468779380736</a></p>
+<p><strong>文章作者：</strong></p><p>Keone（Monad 联合创始人）</p><hr><h3>观点：</h3><p><strong>Keone（Monad 联合创始人）：</strong>假设 ETH 市价为 1000 ETH/USDC，交易者在 InfinityPools 上借出价值 1000 美元的 ETH/USDC UniV3 头寸，且用 1000 美元赎回，并在其他 DEX 上兑换为 1 枚 ETH。该交易者最终会面临三种结果：1）ETH 价格上涨，以高于 1000 美元的价格卖出 1ETH，并偿还借款；【原文为英文】</p><a href="https://twitter.com/keonehd/status/1624559468779380736">内容来源</a><p><strong>Keone（Monad 联合创始人）：</strong>2）ETH 价格跌至 900.1 USDC ，交易者将以 900.1 美元的价格卖出 1 ETH，因此需要追加 100 美元偿还借款；3）ETH 价格跌至 900 U 以下，交易者必须返还 1.11 ETH，成本小于 100 美元。交易者最大缺口是 100 美元，因此它需要提供 100 USDC（或 0.1 ETH）作为抵押品，这笔交易允许交易者获得 10 倍杠杆率。【原文为英文】</p><a href="https://twitter.com/keonehd/status/1624559468779380736">内容来源</a><p><strong>Keone（Monad 联合创始人）：</strong>InfinityPools 的产品主要机制是将低于（高于）区间的 UniV3 LP 头寸包装为看跌（看涨）期权，并将其出售给交易员以提供杠杆。InfinityPools 中，LP 放弃了流动性控制权，无论是固定期限和固定成本（如普通看跌期权）还是连续期限和资金利率（如永续期权）。【原文为英文】</p><a href="https://twitter.com/keonehd/status/1624559468779380736">内容来源</a><p><strong>Keone（Monad 联合创始人）：</strong>此外，InfinityPools 以从公开市场上移除流动性为代价确保了去杠杆化的推出点。类似于一个带有私有池的贷款协议，其中池子积累的「坏账」可能性完全由贷款人接受，因此无需清算，同时 LP 获得收益以承担抵押品价格下跌的风险。【原文为英文】</p><a href="https://twitter.com/keonehd/status/1624559468779380736">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第三届PANews PARTY AWARD年度评选今日开启提名征集]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/30o5zwlp.html</id>
