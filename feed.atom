@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-13T06:14:46.927Z</updated>
+    <updated>2023-02-13T06:17:50.705Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -1215,6 +1215,16 @@
 <p><strong>文章作者：</strong></p><p>Prof.Liu</p><hr><h3>观点：</h3><p><strong>Prof.Liu：</strong>@udiWertheimer 强调这是一个创新，所依据的是由比特币前核心开发者 Casey Rodarmor 提出的「Ordinals（序数理论）」。该理论通过标记每个 output 中的每个 satoshi，为比特币建立可转移的账号或身份。从而在无需软硬分叉升级的前提下，在比特币链上实现更多功能，NFT 只是其中之一。</p><a href="https://twitter.com/ChangyongLiu/status/1621705929443147782">内容来源</a><p><strong>Prof.Liu：</strong>Bitcoin core 并不喜欢这种创新，主要原因有：1. 区块链膨胀：这会造成比特币区块链大小迅速膨胀，运行全节点的设备要求大幅提高而导致全网全节点减少，抗审查性下降；2. 生态冲击：超预期的巨大交易冲击钱包、矿池、浏览器等生态设施；3. 降低安全性：矿池或矿工为了减少同步和验证巨大交易和区块的时间，可能选择不下载，不验证该交易和区块的情况下出块，带来安全风险。</p><a href="https://twitter.com/ChangyongLiu/status/1621705929443147782">内容来源</a><p><strong>Prof.Liu：</strong>Bitcoin core 面临艰难选择：选择 1：什么都不做，当年限制 OP_RETURN 和扩容之争失去了意义；选择 2：硬分叉升级，对交易大小或单笔见证数据大小做出限制；选择 c3：主要矿池达成局部共识，拒绝利用见证数据搭载大量数据的巨大交易。综合来看，选择 1 的可能性比较大，因为选择 3 难以实现，而比特币生态已经非常巨大，平稳硬分叉的难度很大。</p><a href="https://twitter.com/ChangyongLiu/status/1621705929443147782">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Commitment to the Future of Web3]]></title>
+        <id>https://medium.com/p/1558d532fd66</id>
+        <link href="https://aptoslabs.medium.com/our-commitment-to-the-future-of-web3-1558d532fd66?source=rss-70211828fe2e------2"/>
+        <updated>2023-02-02T16:28:39.000Z</updated>
+        <summary type="html"><![CDATA[Aptos Labs is proud to support Web3 education and research with our latest grant award to Professor of Computer Science, Lorenzo Alvisi…]]></summary>
+        <author>
+            <name>Aptos</name>
         </author>
     </entry>
 </feed>

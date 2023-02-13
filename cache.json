@@ -1008,10 +1008,21 @@
       ]
     },
     {
-      "title": "Bisq",
-      "feedUrl": "https://bisq.network/blog/feed.atom",
-      "siteUrl": "https://bisq.network/",
-      "articles": []
+      "title": "Stories by Aptos on Medium",
+      "feedUrl": "https://aptoslabs.medium.com/feed",
+      "siteUrl": "https://medium.com/@aptoslabs?source=rss-70211828fe2e------2",
+      "articles": [
+        {
+          "id": "https://medium.com/p/1558d532fd66",
+          "author": "Aptos",
+          "description": "Aptos Labs is proud to support Web3 education and research with our latest grant award to Professor of Computer Science, Lorenzo Alvisi…",
+          "link": "https://aptoslabs.medium.com/our-commitment-to-the-future-of-web3-1558d532fd66?source=rss-70211828fe2e------2",
+          "publishedOn": "2023-02-02T16:28:39.000Z",
+          "wordCount": 1683,
+          "title": "Our Commitment to the Future of Web3",
+          "imageUrl": "https://miro.medium.com/max/1200/1*l-FMELWycY37YVNhwe0b2Q.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
