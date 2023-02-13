@@ -6,6 +6,46 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/wzxznl/status/1625011384701571076",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>错过了因上海升级而引发的流动性质押浪潮？如何抓住上海升级之后的 Cancun 升级带来的红利？加密研究员菠菜菠菜对专注于 EIP-4844 的 Cancun 升级可能带来的变革和机遇进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">https://twitter.com/wzxznl/status/1625011384701571076</a></p>\n<p><strong>文章作者：</strong></p><p>@菠菜菠菜</p><hr><h3>观点：</h3><p><strong>@菠菜菠菜：</strong>EIP-4844 首先引入了一个全新交易类型：Blob Transcation，以太坊中每一笔交易可以最多携带两个 Blob 交易，这个 Blob 其实就是一个外挂数据包。一个 Blob 的大小为 128 KB，一个区块最多带 16 个 Blob，而这些额外的数据包可以说是为 Rollup 量身定制的，Rollup 通过 Blob 上传至以太坊可以实现几十甚至几百倍的 TPS 提高和成本的降低。</p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">内容来源</a><p><strong>@菠菜菠菜：</strong>Blob 可以给以太坊每年带来 2.5 至 5 TB 的额外数据量，直接远超账本本身好几倍，且节点本身无需存储全部 Blob 数据，目前社区想法是 30 天清除一次，因此对节点而言只需要下载固定一个月的数据量即可，不会影响到以太坊节点的去中心化。且清除后任何想要这些数据的用户或协议都有足够的时间抓取数据并进行保存。</p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">内容来源</a><p><strong>@菠菜菠菜：</strong>EIP-4844 最大的利好是 Rollup，但其也只是实现 Danksharding 终局的一个里程碑，而完整版的扩容 Danksharding 则会将 EIP-4844 中 Blob 数据量从 1 MB 至 2 MB 扩展至 16 MB 至 32 MB，同时还会解决 MEV 带来的负面影响，并实现了 Vitalik 在「Endgame」对公链的畅想：中心化出快、去中心化验证及扛审查。</p><a href=\"https://twitter.com/wzxznl/status/1625011384701571076\">内容来源</a>",
+          "link": "https://twitter.com/wzxznl/status/1625011384701571076",
+          "publishedOn": "2023-02-13T08:46:23.000Z",
+          "wordCount": 498,
+          "title": "【长推】浅析 EIP-4844 及新分片方案 Danksharding 可能带来的变革及机遇",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/CJCJCJCJ_/status/1624772639976984576",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>参与流动性挖矿的目的一般有两种：免费积累看涨项目代币及纯粹通过出售奖励代币获利。加密研究员 CJ 从安全、池子选择、退出时机、参与规模等方面构建了一个流动性挖矿投资策略评估框架。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CJCJCJCJ_/status/1624772639976984576\">https://twitter.com/CJCJCJCJ_/status/1624772639976984576</a></p>\n<p><strong>文章作者：</strong></p><p>CJ</p><hr><h3>观点：</h3><p><strong>CJ：</strong>1）安全：项目是否被审计过？团队成员信息是否被披露？是新协议吗？TVL 是多少？团队盈利模式是怎样的？2）池子选择：手中的资产是稳定币还是蓝筹？如果选择非稳定币类型的池子，无常损失是否会超过回报？哪些池子具有较低 TVL 比率？你参与挖矿的时机合适吗？【原文为英文】</p><a href=\"https://twitter.com/CJCJCJCJ_/status/1624772639976984576\">内容来源</a><p><strong>CJ：</strong>3）退出时机：是否看涨？如果现在入场进行流动性挖矿，后续还有有用户进入吗？关注任何即将到来的叙事；4）规模：投资组合中占据了多少百分比、如果协议遭遇攻击，你的资产风险大吗？是否有足够的流动性让你退出；【原文为英文】</p><a href=\"https://twitter.com/CJCJCJCJ_/status/1624772639976984576\">内容来源</a><p><strong>CJ：</strong>5）时间：与预期相比，该流动性挖矿策略能维持多久？是否有其他具有更高风险回报率的策略？6）心态和指标：TVL 是否在持续增长？其他用户是否选择退出？该流动性挖矿门槛是否过高？收益率是否可持续？获得多少利润后会决定退出？【原文为英文】</p><a href=\"https://twitter.com/CJCJCJCJ_/status/1624772639976984576\">内容来源</a>",
+          "link": "https://twitter.com/CJCJCJCJ_/status/1624772639976984576",
+          "publishedOn": "2023-02-13T07:30:33.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】流动性挖矿投资方法论：哪些指标值得关注？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/0xSacha/status/1624102661678039061",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Yearn 的金库债务比率由金库经理提出并由多重签名批准，该过程需要人工干预且成本高。开发者 jmonteer 提出了一个基于 ZKProofs 的 Yearn 金库的概念证明，Yearn 开发者 Sacha 解读了该方案如何通过 SHARP，使债务分配过程更加去中心化和高效。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xSacha/status/1624102661678039061\">https://twitter.com/0xSacha/status/1624102661678039061</a></p>\n<p><strong>文章作者：</strong></p><p>Sacha（Yearn 开发者）</p><hr><h3>观点：</h3><p><strong>Sacha（Yearn 开发者）：</strong>实现机制：步骤 1：策略设置。为策略 APY 计算提供所有必要的 calldata。 步骤 2：保存快照。调用所有需要的策略数据，发出一个包含所有数据的事件。步骤 3：生成解决方案和证明。将所有的事件数据作为计算 APY 的输入，找到最佳解决方案并向 SHARP 提交证明。步骤 4：对比之前的解决方案。验证解决方案，如果这是一个更好的解决方案，提议者将通过 Llamapay 获得奖励。【原文为英文】</p><a href=\"https://twitter.com/0xSacha/status/1624102661678039061\">内容来源</a><p><strong>Sacha（Yearn 开发者）：</strong>如何通过 SHARP 提高去中心化程度和高效性？1）每个人都可以提出新的债务比率；2）确保使用了良好的程序哈希和有效的策略输入；3）采用提议者激励机制，为寻找最优债务比率创造了公开竞争。【原文为英文】</p><a href=\"https://twitter.com/0xSacha/status/1624102661678039061\">内容来源</a><p><strong>Sacha（Yearn 开发者）：</strong>该金库目前部署在 L1 上，具有两种策略：Compound V2 & V3 和 Aave V2 & V3。金库在两种协议间切换策略分配，以提供最佳收益。这个概念验证可以在 Starknet 上设计，使用存储证明，例如 ：Herodotus，或者使用可组合的数据输入，例如：EmpiricNetwork。【原文为英文】</p><a href=\"https://twitter.com/0xSacha/status/1624102661678039061\">内容来源</a>",
+          "link": "https://twitter.com/0xSacha/status/1624102661678039061",
+          "publishedOn": "2023-02-13T06:52:48.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】如何使金库分配更去中心化和高效？一个基于 ZKProofs 的 Yearn 金库概念验证",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/Delphi_Digital/status/1624455637299068933",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Solana 从 FTX 崩溃危机中竟幸免于难，现为第二大 NFT 生态系统。加密研究机构 Delphi Digital 从市场和关键指标分析 Solana NFT 生态系统，认为有理由相信其将在未来几月继续蓬勃发展，并在 2023 年保持其仅次于以太坊的第二大 NFT 生态系统的地位。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1624455637299068933\">https://twitter.com/Delphi_Digital/status/1624455637299068933</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>目前 Solana NFT 在收益和活跃度方面与 Solana DeFi 相媲美。甚至可以说 NFT 正在承载其生态系统。市场份额显著增长，在不到一年的时间里， Solana NFT 占 NFT 总市场销量的比例从 6% 上升到 14%。成交量自 2021 年稳步上升，并在 2022 年 4 月达到了当月 3 亿美元的峰值。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1624455637299068933\">内容来源</a><p><strong>Delphi Digital：</strong>在上一个 Solana NFT Season（2021 年末至 2022 年初），当成交量达到顶峰时，独立买家的数量超过卖家的数量达数月之久，尽管随后被独立买家数量超越，但最近几个月，独立买家数量再次超过卖家。预计 Solana 上的 NFT 开发和交易活动将保持活跃，有理由相信其 NFT 生态系统会继续保持第二大 NFT 生态系统的地位。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1624455637299068933\">内容来源</a>",
+          "link": "https://twitter.com/Delphi_Digital/status/1624455637299068933",
+          "publishedOn": "2023-02-13T05:27:51.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】Delphi Digital：从市场和关键指标深入探究 Solana NFT 生态系统",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/AurtrianAjian/status/1624818637415796736",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Bitcoin core 开发者反对区块体积扩大是中文世界经典的比特币阴谋论。比特币研究贡献者阿剑通过隔离见证的 3 个事实反驳该理论，认为 bitcoin core 开发者反对的是不经过技术上的改进、不考虑资源开销的平衡就直接提高区块体积限制的方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/AurtrianAjian/status/1624818637415796736\">https://twitter.com/AurtrianAjian/status/1624818637415796736</a></p>\n<p><strong>文章作者：</strong></p><p>阿剑</p><hr><h3>观点：</h3><p><strong>阿剑：</strong>事实 1：开发者非常清楚隔离见证改变了区块体积的计量方式，这样的机制会让 「完整区块」的体积变大；事实 2：隔离见证改变了 sighash（为交易签名时候的哈希操作）的工作方式，使签名验证时候的哈希计算量不会呈平方级增长。这 “让区块的体积可以安全地提高。扩大区块而不限制交易的体积。”</p><a href=\"https://twitter.com/AurtrianAjian/status/1624818637415796736\">内容来源</a><p><strong>阿剑：</strong>事实 3：隔离见证是向综合性的（也就是单一的）资源开销限制迈出的一步。taproot（隔离见证 v1）进一步解除了区块和交易的资源开销的不规整的限制。具体而言，取消对 witness 体积的单独限制是自隔离见证 v0 起，开发者希望进一步释放比特币可编程性的结果。</p><a href=\"https://twitter.com/AurtrianAjian/status/1624818637415796736\">内容来源</a><p><strong>阿剑：</strong>近期出现的通过 witness 字段向区块塞入大体积数据的操作（例如 Ordinals 使用者塞入了大体积图片）正是因为隔离见证才成为可能的。针对该类操作，可以指出的是：1. 没有证据表明这样的区块对隔离见证节点来说验证起来更难；2. 实际上没有很好的技术手段来阻止人们这样做。</p><a href=\"https://twitter.com/AurtrianAjian/status/1624818637415796736\">内容来源</a>",
@@ -84,6 +124,16 @@
           "wordCount": 6788,
           "title": "【英文】DAO 社区讨论定性分析：有哪些热门话题？",
           "imageUrl": "https://miro.medium.com/max/1200/1*8URUCWEpB5JvxgSoRwSpVQ.png"
+        },
+        {
+          "id": "https://twitter.com/0xAbel_eth/status/1624000934295764993",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>继 GMX 后，Arbitrum 生态又迎来了一个大热 DEX 协议 Camelot（神剑）。加密研究员 Abel 从 Camelot 的发展创新、成长空间、项目优势、现有不足解读为何他看好此项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAbel_eth/status/1624000934295764993\">https://twitter.com/0xAbel_eth/status/1624000934295764993</a></p>\n<p><strong>文章作者：</strong></p><p>Abel</p><hr><h3>观点：</h3><p><strong>Abel：</strong>Camelot（神剑）本质为 CEX ，但做出了一些微创新：1）动态定向费，可以为每个池子及不同的买卖方向设定不同的交易费用；2）引入 Position 概念，针对同一个池子，流动性提供者可以构建多个 Positions ，进行不同的锁定，参与不同的流动性激励以更灵活的获取不同收益；3）项目代币产出需要锁定 15 天至 6 个月以获取最终可交易代币 $Grail。</p><a href=\"https://twitter.com/0xAbel_eth/status/1624000934295764993\">内容来源</a><p><strong>Abel：</strong>Camelot 成长空间大，定位为 Arbitrum 上原生的 DEX ，旨在做 Arbitrum 上的 DEX 入口，成为全链的生态连接点。虽然现在其 Launchpad 功能较简单，且未赋能平台币 $Grail，但已成为 Arbitrum 事实上的 IDO 首选。</p><a href=\"https://twitter.com/0xAbel_eth/status/1624000934295764993\">内容来源</a><p><strong>Abel：</strong>在项目优势方面，Camelot 产品完善且稳定。BD 能力强，与生态内各个项目方均联系紧密。此外，Camelot 代币经济设计尤为优秀，平台费用经收集后按比例分发，确保了协议、流动性提供者和平台币持有者的收益，而其代币锁定机制又一定程度上降低了代币流通。目前市场总计 25k $Grail，其中 51% 为锁定代币 xGrail，年通缩 4%。</p><a href=\"https://twitter.com/0xAbel_eth/status/1624000934295764993\">内容来源</a><p><strong>Abel：</strong>Camelot 存在一些提升空间，包括网站页面尤其是 Menu 的展现逻辑混乱，需要教育用户理解其与 Yield Farms 和各个 Pools 之间的关系。Launchpad 待需增强，需要更多的功能及模式以支撑目前越来越多的其他生态项目的发行，并且最好给予平台币以赋能。以及承诺的空投尚未落实。</p><a href=\"https://twitter.com/0xAbel_eth/status/1624000934295764993\">内容来源</a>",
+          "link": "https://twitter.com/0xAbel_eth/status/1624000934295764993",
+          "publishedOn": "2023-02-12T07:17:45.000Z",
+          "wordCount": 498,
+          "title": "【长推】Arbitrum 的 DEX 黑马 Camelot ：协议创新与未来成长",
+          "imageUrl": null
         },
         {
           "id": "https://twitter.com/BiteyeCN/status/1624394394173587457",
@@ -1012,6 +1062,146 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/npt4j30h.html",
+          "author": null,
+          "description": "PANews 2月13日消息，币安创始人赵长鹏（CZ）刚刚发推表示，BUSD是由Paxos发行和赎回的。资金是 SAFU（安全的）。从 Paxos 获悉，纽约金融服务部 (NYDFS) 指示他们停止铸造新的 BUSD。Paxos 受 NYDFS 监管。BUSD是由Paxos全资拥有和管理的稳定币。因此，BUSD 市值只会随着时间的推移而减少。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/npt4j30h.html",
+          "publishedOn": "2023-02-13T09:47:29.000Z",
+          "wordCount": 976,
+          "title": "CZ：BUSD是由Paxos发行和赎回的，BUSD市值只会随着时间的推移而减少",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/okbv0nmc.html",
+          "author": null,
+          "description": "从早期的比特币电子现金系统，到以EVM为代表的Ethereum以及跨链项目的Polkadot、Cosmos，再到NFT、DeFi、DAO的盛世兴起，加密世界已然从蛮荒时代慢慢过渡到具备多重应用场景的功能性时代，市场的不断向前发展推动着用户使用需求的不断提升，BSC/Solana/Avalanche这种以低费用、高速度的智能合约公链吸纳了数百亿美元的用户管理资产，还有Arbitrum/Optimism/Polygon以支持以太坊扩容为目标的L2区块链正在成为区块链基础设施市场上不可或缺的一部分。\n我们正在经历一个强大的基础设施化的时代，伴随这些智能合约公链的成熟，让DeFi这种复杂、高性能的金融系统得以应用。\nDeFi的诞生某种意义上来说改变了行业内一种“强协议，弱应用”的局面 ，它的诞生为加密金融带来了新的应用价值方向，同时也为传统金融未来的模式转型提供了重要参考，DeFi在短短不到两年时间内，已经发展出了稳定币、借贷、DEX、衍生品、预测市场、保险、支付平台等多种模式，而在这些模式中，又以DEX的模式更为成功，因为其较早创新性的提出AMA（自动化做市商机制），给其带来巨大的流量基础，这让其在在市值方面遥遥领先其他DeFi赛道协议。\nDEX对比传统交易所有明显优势：它可达到最小的滑点数成交、AMM做市机制、流动性挖矿机制等，让用户的交易效率、交易体验获得巨大提升，因为具有CEX所不具有的优势，因此目前DEX是整个加密生态中非常重要的一环。\nDEX的诞生可以溯源到最早2014年的Counterparty，当时平台提供Counterparty DEX创新功能，所有Counterparty代币都可以在基于比特币网络的DEX上进行交易。而后以太坊上的OasisDEX开启了首个链上撮合结算，成为了现在Uniswap、DYDX等平台的早期流动性来源，在OasisDEX之后，才慢慢出现像…",
+          "link": "https://www.panewslab.com/zh/articledetails/okbv0nmc.html",
+          "publishedOn": "2023-02-13T09:35:14.000Z",
+          "wordCount": 1260,
+          "title": "AMM VS OrderBook，谁将是DEX赛道未来流派？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/4XL64I9LiC.jpg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/mq999u98.html",
+          "author": null,
+          "description": "原文：《科普 | Web3术语大全，初学者必备！（下）》\n作者：Mayur Nathani\n编译：火火\nWeb目前发展的如火如荼，现在个人、企业、机构、国家都在逐一入局，致力在 Web3 大航海时代找到一席之地。\n尤其是当下Web2互联网已出现了增长放缓、内卷严重的现象，以至于阿里、腾讯、亚马逊、谷歌等传统互联网大厂都在积极寻求Web3的机会。\n普通人也许不一定要“All In Web3”，但学习了解一下 Web3还是有必要的。为了帮助大家更好的进入Web3领域，白话区块链给大家带来一篇关于Web3相关的词汇与概念的文章。\n由于篇幅关系，分为两篇，上篇见《新人科普 | Web3术语大全，初学者必备！（上）》\n以下为下半部分正文：\n51.害怕错失机会FOMO\nFOMO（Fear of missing out），许多人会买NFT的原因就是深怕错过这波淘金潮，因此这样的人也被称做FOMOer。\n52.抽地毯Rug pull\nrug是「小地毯」的意思，因此把小地毯拉起来的动作可以解释为「卷铺盖、跑路」。NFT世界中最常见的诈骗行为就是在开始贩售之后卷款潜逃，就像是商贩直接卷铺盖跑路一般。\n53.恐惧、犹豫和怀疑FUD\nFUD 是恐惧(fear)、犹豫(uncertainty)和怀疑(doubt)的缩写，指的是人们散播关于比特币的负面感受。\n54.地板价Floor price\nfloor是「地板」的意思，因此「Floor price」指的就是一个NFT的「最低价位」。\n55.虚拟资产Virtual currency\n它是一种用于资产数字表示的电子表格。虚拟资产主要不受监管。它们具有更快的交易速度和易用性等优势，但另一方面，它们也可能被黑客攻击。\n56.虚拟经济Virtual economy\n它是虚拟环境中的经济系统，可以在网络游戏的背景下通过虚拟资产购买、销售或交易商品。\n57.虚拟…",
+          "link": "https://www.panewslab.com/zh/articledetails/mq999u98.html",
+          "publishedOn": "2023-02-13T09:26:36.000Z",
+          "wordCount": 1166,
+          "title": "新人科普 | Web3术语大全，初学者必备！（下）",
+          "imageUrl": "https://cdn-img.panewslab.com//panews/2022/2/13/images/ae0f127d95dccbdd6d068bcb7f2e56dc.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/etdm3vti.html",
+          "author": null,
+          "description": "PANews 2月13日消息，Whale Alert 数据显示，稳定币发行商 Tether Treasury 于北京时间 2 月 13 日 16:56 在波场(TRON)网络铸造 10 亿枚 USDT。 Tether 首席技术官 Paolo Ardoino 表示，这是一笔已授权但未发行的交易，这意味着该金额将用作下一期发行请求和链交换的库存。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/etdm3vti.html",
+          "publishedOn": "2023-02-13T09:18:14.000Z",
+          "wordCount": 1009,
+          "title": "Tether Treasury刚刚在TRON网络铸造10亿枚USDT",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/rr2b7e7m.html",
+          "author": null,
+          "description": "PANews 2月13日消息，据彭博社报道，加密交易所币安表示，Paxos Trust Co. 告知币安其已被指示停止铸造新的稳定币BUSD。币安发言人称：“BUSD是由Paxos全资拥有和管理的稳定币，因此，BUSD的市值只会随着时间的推移而下降。Paxos将继续为该产品提供服务，管理赎回，并将根据需要提供额外的信息。Paxos还保证，这些资金是安全的，并由银行的储备金完全覆盖。”\n此前今日早些时候消息，Paxos因BUSD面临美SEC的诉讼；纽约州金融服务部命令Paxos停止发行新BUSD代币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/rr2b7e7m.html",
+          "publishedOn": "2023-02-13T08:32:57.000Z",
+          "wordCount": 966,
+          "title": "彭博社：币安证实其已被Paxos告知停止铸造新BUSD代币",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/zlpu0gn8.html",
+          "author": null,
+          "description": "BTC 和 ETH 出现黄金交叉，它们的看跌趋势开始消失\n一个月前，我们发布了一份报告，称比特币和以太坊市场触底。此后，BTC和ETH 分别上涨了22% 和17%。现在 1 月份的数字资产反弹已经过去，我们可以研究它对长期技术指标的影响，以确定这些资产下一步可能走向何方。\nBitcoin\n\n比特币在1月4日突破了50-SMA，在1月12日突破了100-SMA，在1月13日突破了 200-SMA。50-SMA在1月25日突破了100-SMA，在2月6日突破了200-SMA。 50-SMA与200-SMA的交叉在日线图上实现了黄金交叉。在过去十年中，大致上，黄金交叉预示着正回报。\n\n接下来，为了确定 BTC 的超买超卖状态，使用一个月的慢速随机指标 (14,3)；它显示了一条信号线（橙色）和一条随机线（蓝色）。随机线果断地产生了信号线的看涨信号交叉，并启动了看涨趋势。这些线的价差和价值模仿了2019年4月的情况，当时上一个周期开始进入 6 月下旬的首次重大反弹，攀升 143.84%。 BTC 保持在 20 的超卖阈值内，维持买入信号。\n\n转向BTC的动量和趋势方向，使用一个月的MACD(26,9)。它显示了信号线（橙色）、MACD线（蓝色）和MACD直方图（红色）。该图表的直方图显示卖出势头稳步下降。从方向上看，看跌趋势仍然有效，MACD线远低于信号线。然而，这种看跌趋势开始消失，一个月平均方向指数 (ADX) (14,14) 读数为 25.03，处于趋势指示阈值 25。如果 ADX 跌破 25，则看跌趋势无法延续确认的。\n\nEthereum\n\n现在让我们看看以太坊，该资产在1月3日突破了50-SMA，在1月8日突破了100-SMA，在1月11日突破了200-SMA。50-SMA在1月25日突破了100-SMA，在2月9日突破了 200- SMA。50-SMA与200-SMA的…",
+          "link": "https://www.panewslab.com/zh/articledetails/zlpu0gn8.html",
+          "publishedOn": "2023-02-13T08:32:22.000Z",
+          "wordCount": 1283,
+          "title": "技术分析：BTC和ETH已经进入下一个牛市？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/aY32b298P1.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/t1tmifro.html",
+          "author": null,
+          "description": "PANews 2月13日消息，Curve官方数据显示，busdv2池中，BUSD占比达80.61%；其它稳定币中，DAI占比7.61%；USDC占比8.30%；USDT占比3.46%。\n此前今日早些时候消息，Paxos因BUSD面临美SEC的诉讼；纽约州金融服务部命令Paxos停止发行新BUSD代币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/t1tmifro.html",
+          "publishedOn": "2023-02-13T08:26:09.000Z",
+          "wordCount": 962,
+          "title": "数据：Curve busdv2池中BUSD占比达80.61%",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/0kd8h768.html",
+          "author": null,
+          "description": "PANews 2月13日消息，Web3知识图谱协议0xscope发推表示，链上数据显示，BUSD的最后一次铸造交易是在UTC时间2月3日21:44（北京时间2月4日05:44）铸造的2.09亿枚，之后销毁了大约1.2332亿枚。\n此外，币安行情显示，BUSD兑USDT比例现为1：0.9992。\n此前今日早些时候消息，Paxos因BUSD面临美SEC的诉讼；纽约州金融服务部命令Paxos停止发行新BUSD代币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/0kd8h768.html",
+          "publishedOn": "2023-02-13T08:18:06.000Z",
+          "wordCount": 963,
+          "title": "0xscope：BUSD的最后一次铸造交易是在2月4日",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/sjktytat.html",
+          "author": null,
+          "description": "PANews 2月13日消息，据华尔街日报报道，纽约州金融服务部命令Paxos Trust Co.停止发行更多的BUSD代币。根据币安的声明，Paxos将继续管理BUSD的赎回。\n此前2月10日消息，Paxos正接受纽约金融服务部(NYDFS)调查；今日早些时候消息，Paxos因BUSD面临美SEC的诉讼。\n相关阅读：重罚Kraken之后，SEC又要向BUSD动刀子？",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/sjktytat.html",
+          "publishedOn": "2023-02-13T07:58:13.000Z",
+          "wordCount": 966,
+          "title": "纽约州金融服务部命令Paxos停止发行新BUSD代币",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/xcyu8s99.html",
+          "author": null,
+          "description": "原文：《SEC 箭指 BUSD，为何稳定币也被认定为证券？》\n作者：Loopy Lu，Odaily星球日报\n今日早间，据知情人士透露，稳定币发行商Paxos因BUSD相关问题将面临美国证券交易委员会（SEC）的诉讼。美SEC执法人员已向Paxos发布「韦尔斯通知」（Wells notice），告知可能的执法行动。SEC表示Paxos发行和上市的BUSD是一种未注册的证券，计划起诉Paxos违反投资者保护法，并可能采取强制行动。\n「韦尔斯通知」是美国SEC对在美上市公司进行民事诉讼前发出的非正式提醒，接到通知的上市公司可以在收到正式诉讼前跟SEC进行沟通和协商。美国SEC互联网执法办公室前主任John Reed Stark发推称，「在我在SEC执法部门的18年中，我不记得有任何一次我发出韦尔斯通知而没有采取执法行动。SEC的加密行动持续进行。」\nPaxos发言人拒绝置评，SEC没有回复置评请求。币安在声明中称，「BUSD由Paxos发行和拥有，它只授权其品牌。我们将继续监测相关情况。」\n据此前报道，纽约州金融服务部（NYDFS）正在调查PaxDollar（USDP）和Binance USD（BUSD）稳定币发行商Paxos，具体调查范围尚不清楚。NYDFS发言人表示，该机构无法对正在进行的调查发表评论。\n与持续数年之久的SEC诉瑞波一案有所不同，本次被传将认定为证券的Token与XRP不同，其价格并不会产生大量波动，而是锚定美元的BUSD。\n这也让市场产生了疑惑，为何稳定币也可被认定为证券？\nSEC尚未对Paxos做出正式行动，也并未披露任何文件，Odaily 星球日报仅结合现有信息，对此做出信息整合与合理猜测。\n提到「证券（Securities）」，自然要从概念开始明晰。《1933年证券法》（Securities Act of 1933）是美国第一个规范了证券发行和销售的联…",
+          "link": "https://www.panewslab.com/zh/articledetails/xcyu8s99.html",
+          "publishedOn": "2023-02-13T07:54:49.000Z",
+          "wordCount": 1076,
+          "title": "重罚Kraken之后，SEC又要向BUSD动刀子？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/vZU4ufzYv4.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/ak17s8327c16.html",
+          "author": null,
+          "description": "一， 2023 年初的小牛市揭示的财富密码\n2023 年 1 月 1 日，BTC 的价格还在 16500 U，截止撰写本文的 2 月 6 日，BTC 的价格是在 23000 U 左右，一个月出头涨幅 40% 。\n小阳春的行情带动了久违的版块轮动，去年熊市下的新公链 Aptos 被韩国炒币敢死队一顿猛冲猛打，直接从底部的 3 U 拉了快 7 倍，最高到了 20.4 U，了解 Aptos 生态的朋友们都知道，目前还是一条超级不活跃的链，但是不要紧，风口来了别说猪能飞到空中，就连 Aptos 这种蔫蔫的大象都能自由翱翔，不过据说它身上绑着一根细线不断的向上提拉，细线的另外一头握在云端里的一个赵姓大神的手中（此为八卦，细节不表）。\n再看看轮动的版块中，涨幅最高的就是 AI 版块，龙头 AGIX 直接拉了十倍，我们请教过资深科学家，AGIX 还没有实际的应用出来，还处在 PPT 阶段，和 ChatGPT 完全不在一个量级。但是不影响 AI 作为一个新的版块飞向月球。\n\n发现没有，这次小牛市还是验证了一个公理：币圈炒新不炒旧。Aptos 是新公链，AI 是前两轮牛市都没有启动的新版块。这应该就是大家在 2023 年紧紧盯住的最重点：什么样的项目存在符合逻辑的新概念？\n这里要明确下，不是有新奇的点子或概念就无脑冲的，比如如果有个项目白皮书说，他们正在研发一种利用脑电波做量子纠缠去展示信息的瞬时性，然后储存在一个可以链接去中心化网络的纳米芯片里，可以植入在大脑中。新是非常新颖了，不过你会信吗？\n新概念还是要符合时代发展的节奏和逻辑的，那么怎么去发掘呢？眉毛胡子一把抓，没有方法论会让自己疲于奔命的，币圈一天人间一年，总觉的时间不够用，错过了一个项目看着别人赚大发了又会很崩溃。前几天看了一篇不错的文章说抓项目应该用“点 + 线 + 面”的模式，抓住一两个面开始分析就好了。个人非常认同，毕竟大多…",
+          "link": "https://www.panewslab.com/zh/articledetails/ak17s8327c16.html",
+          "publishedOn": "2023-02-13T07:33:08.000Z",
+          "wordCount": 2095,
+          "title": "下轮牛市的引爆点： 一种新的从 WEB2 导流的方式",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/images/Ma812k7rS0.png"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/1j58tyvn.html",
+          "author": null,
+          "description": "作者：西米 Sammi\n2023 年开局，我们经历了 meme 币 bonk 的数十倍暴涨，agix、fet等人工智能币 10 倍行情，以及LSD 的主线叙事，可谓精彩纷呈。这里从叙事经济学的角度对 1 月这几个板块项目进行复盘思考。\nbonk是在Solana公链受FTX暴雷影响后沉寂一个多月后诞生的项目。在圣诞节，Solana社区的大部分成员都收到了bonk代币的空投，随后成为社区成员的对话和推特热点，社区甚至还制作了一个 BONK meme 游戏，一只柴犬拿着棒球棒敲 SBF 的头，花费 BONK 代币即可开始游戏，或许，这种宣泄情绪在一定程度上引起了社区的共鸣。代币也上涨数十倍，最高流通市值3亿多美金。\nBonk的成功对于我们在寻找下一个meme alpha上有什么路径可以总结呢？\n从营销学角度分析可以归类为以下几点：\n成功的meme=借势热点事件营销+社区冷启动+有资源背景支持（kol/名人/项目合作方）\n通过资产定价模型找出被低估的资产，这是传统市场最普遍的投资逻辑。而迷因、叙事、投机，虽然其表面看起来毫无内在价值，但实际是因为情绪、感情、炒作等要素无法用现有的金融模型为其价值进行度量，相信随着时间发展，meme经济、叙事经济会推导出一套专门的价值衡量标准。\n索罗斯说过，世界经济史是一部基于假象和谎言的连续剧。要获得财富，做法就是认清其假象，投入其中，然后在假象被公众认识之前退出游戏。\n人工智能作为继元宇宙，web3以来最大的长期叙事，在chatgpt这样现象级产品的问世下推向了高潮，从去年10月开始，变引得无数web 2投资人竟折腰，在红杉资本，微软等巨头的推波助澜下，2023成为“the big year for AI”,1月10日，微软以290亿美元估值，向OpenAI投资100亿美元。\n币圈作为美股先行指标，不可避免的容易成为资本fomo情绪外溢的资金蓄水…",
+          "link": "https://www.panewslab.com/zh/articledetails/1j58tyvn.html",
+          "publishedOn": "2023-02-13T07:00:12.000Z",
+          "wordCount": 1095,
+          "title": "从叙事经济学角度出发，复盘1月这轮上涨行情",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/ICjpA34Md3.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/afit693a.html",
+          "author": null,
+          "description": "PANews 2月13日消息，据凤凰网科技报道，原美团联合创始人王慧文在社交平台发文宣布进军人工智能领域，称将打造中国的OpenAI。其发文中透露，将成立北京光年之外科技有限公司，王慧文出资5000万美元，估值2亿美元。他个人不占股份，资金占股25%，75%的股份用于邀请顶级研发人才。下轮融资已有顶级VC认购2.3亿美元。\n就在两天前，王慧文在其微信朋友圈发文称，“自己将入局人工智能赛道，同时表示个人还将拿出5000万美元（约合人民币3.4亿元）‘带资入组’，不介意薪资和岗位。”\n据了解，王慧文系校内网（人人网）联合创始人、来电网创始人、淘房网创始人和美团联合创始人、执行董事。2011年，王慧文加入美团网，担任副总裁，2020年12月18日正式退休。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/afit693a.html",
+          "publishedOn": "2023-02-13T06:48:09.000Z",
+          "wordCount": 949,
+          "title": "原美团联创王慧文出资5000万美元进军人工智能，称将打造中国的OpenAI",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/75zyjxta.html",
+          "author": null,
+          "description": "本文数据更新日期：2023/02/11\nHelio Protocol 是 BNB 链上的去中心化超额抵押贷款和流动性抵押平台。采用双代币模型，HAY 是协议的原生去中心化稳定币，由 BNB 超额抵押担保发行。HELIO 是协议的治理代币，目前还未上线。\nHAY 的用例包括质押收益、借贷、DEX 上的流动性挖矿以及作为支付和交易的媒介。治理代币 HELIO 推出后，Helio 协议将作为一个 DAO 运作，持有 HELIO 的用户可以对 DAO 提出的提案进行建议和投票，社区将管理协议的财政、收入池和未来方向。该协议的最终目标是完全去中心化。\nHelio 协议目前维护着的产品就是去中心化稳定币 HAY 系统。稳定币 HAY 是通过抵押链上资产（目前仅支持 BNB 和 BUSD 两种资产），并按照约 152% （约 66% LTV）抵押比率发行的 BEP-20 代币，其目标价格是 1 美元。HAY 稳定系统本质上就是一种超额抵押借贷协议。对于用户来说，涉及的就是存入、取出、借出、偿还四项操作， 这四项操作实际上就是 HAY 的发行和赎回过程，而在借出的资产未偿还之前，还会涉及利率调整和清算两个变量操作，实际上是稳定 HAY 价格的手段。\nHelio 功能的关键组成部分在于一套跨区块链互动的智能合约和现有合约之间。Helio 在 MakerDAO 智能合约集的基础上分叉创建了其定制的智能合约。\n在以下情况下，Helio 协议能够保持 HAY 相对于美元的 1 美元价值：\n当 HAY>1 美元时，HAY 的供应需要增加:\n由于 HAY 处于溢价状态，借款人被激励借入更多的 HAY 来换取其他资产以获得套利机会。\n为了减少对 HAY 挖矿的需求，Helio 协议将通过减少 HAY 的借款利息来减少 HAY 放贷方的质押挖矿奖励。\n当 HAY<1 美元时，HAY 的供应需要减少：\n由于…",
+          "link": "https://www.panewslab.com/zh/articledetails/75zyjxta.html",
+          "publishedOn": "2023-02-13T06:32:12.000Z",
+          "wordCount": 1710,
+          "title": "项目研报丨Helio Protocol：采用双代币模型，BNB 链上的去中心化超额抵押贷款和流动性抵押平台",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/13/images/zdNn3B91qB.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/yf1vcvkl.html",
           "author": null,
