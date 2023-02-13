@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-13T06:17:50.705Z</updated>
+    <updated>2023-02-13T06:22:28.511Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握BNBChain上NFT一周关键数据（02.06—02.12）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/yf1vcvkl.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/yf1vcvkl.html"/>
+        <updated>2023-02-13T06:08:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dForce：攻击者已返还全部被盗资金，未来几天将公布资金分配细节]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/a5maty0e.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/a5maty0e.html"/>
+        <updated>2023-02-13T05:40:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，DeFi协议dForce发推表示，攻击者已将被盗资金全部返还给Arbitrum和Optimism上的项目多签地址，所有受影响的用户都将得到补偿，官方将在未来几天内公布资金分配的细节。
+dForce补充称：“事件发生后不久，我们开始与攻击者交谈，他以白帽的身份挺身而出。我们已经同意提供赏金并将放弃所有正在进行的调查和执法行动。”
+此前2月10日消息，DeFi协议dForce遭遇闪电贷攻击，攻击者已获利365万美元。今日早些时候消息，派盾称dForce攻击者疑似已归还盗取的365万美元资金。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一览EIP-4844技术细节：如何在证明中使用 KZG 承诺？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/eibww019.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/eibww019.html"/>
+        <updated>2023-02-13T05:30:45.000Z</updated>
+        <summary type="html"><![CDATA[来源 | notes.ethereum.org/@dankrad
+作者 | Dankrad Feist
+翻译 |Renaissance
+校对 | doublespending，Franci]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：超3.7万枚SAND、1.8亿枚BIT、734万枚APE将在本周解锁]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/rl88mb60.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/rl88mb60.html"/>
+        <updated>2023-02-13T05:16:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，Token Unlocks数据显示，本周（2月13日至2月19日）SAND、DYDX、BIT和APE等代币即将迎来大额解锁。
+2月14日16:00，372,570,278枚The Sandbox（SAND）解锁（约合2.58亿美元），占总供应量12.419%；2月14日23:00，6,520,128枚dYdX（DYDX）解锁（约合1624万美元），占总供应量0.652%；2月15日07:01，95,537枚Euler（EUL）解锁（约合67万美元），占总供应量0.351%；2月15日8:00，187,499,999.96枚BitDao（BIT）解锁（约合1.07亿美元），占总供应量1.915%；2月16日20:00，192,307.7枚Galxe（GAL）解锁（约合40万美元），占总供应量0.096%；2月17日8:00，7,343,750枚ApeCoin（APE）解锁（约合3840万美元），占总供应量0.734%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【长推】反驳 Bitcoin core 开发者阴谋论：再谈隔离见证与区块扩容]]></title>
         <id>https://twitter.com/AurtrianAjian/status/1624818637415796736</id>
@@ -16,6 +62,61 @@
 <p><strong>文章作者：</strong></p><p>阿剑</p><hr><h3>观点：</h3><p><strong>阿剑：</strong>事实 1：开发者非常清楚隔离见证改变了区块体积的计量方式，这样的机制会让 「完整区块」的体积变大；事实 2：隔离见证改变了 sighash（为交易签名时候的哈希操作）的工作方式，使签名验证时候的哈希计算量不会呈平方级增长。这 “让区块的体积可以安全地提高。扩大区块而不限制交易的体积。”</p><a href="https://twitter.com/AurtrianAjian/status/1624818637415796736">内容来源</a><p><strong>阿剑：</strong>事实 3：隔离见证是向综合性的（也就是单一的）资源开销限制迈出的一步。taproot（隔离见证 v1）进一步解除了区块和交易的资源开销的不规整的限制。具体而言，取消对 witness 体积的单独限制是自隔离见证 v0 起，开发者希望进一步释放比特币可编程性的结果。</p><a href="https://twitter.com/AurtrianAjian/status/1624818637415796736">内容来源</a><p><strong>阿剑：</strong>近期出现的通过 witness 字段向区块塞入大体积数据的操作（例如 Ordinals 使用者塞入了大体积图片）正是因为隔离见证才成为可能的。针对该类操作，可以指出的是：1. 没有证据表明这样的区块对隔离见证节点来说验证起来更难；2. 实际上没有很好的技术手段来阻止人们这样做。</p><a href="https://twitter.com/AurtrianAjian/status/1624818637415796736">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cobo DeFi 安全课（下）：DeFi 常⻅安全漏洞及预防]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/8q6nlnfc.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/8q6nlnfc.html"/>
+        <updated>2023-02-13T05:08:17.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Cobo DeFi 安全课（下）：DeFi 常⻅安全漏洞及预防》
+作者：Max Cobo 安全总监
+受 Moledao 邀请，Cobo 安全总监 Max 近日通过网络为社区成员分享了一堂 DeFi 安全课。Max 为大家回顾了过去一年多 Web3 行业遭遇的重大安全事件，并着重探讨了这些安全事件发生的原因以及如何规避，总结了常见智能合约的安全漏洞及预防措施，还对项目方和一般用户给出了一些安全建议。在此，我们将 Max 分享的内容分为两篇发布，供 DeFi 爱好者收藏。
+上篇：《Cobo DeFi 安全课（上）：复盘 2022 DeFi 安全大事件》
+常见的 DeFi 漏洞类型一般有闪电贷、价格操纵、函数权限问题、任意外部调用、fallback 函数问题、业务逻辑漏洞、私钥泄漏、重入。
+
+2022年11-12月安全事件统计
+重点介绍一下闪电贷、价格操控以及重入攻击这三种类型。
+闪电贷本身是 DeFi 的一种创新，但是当被黑客利用时，他们不需要花费任何成本就可以借钱，在执行完整个套利流程后再归还，剩下的部分就是套利的收益，他们不需要付出任何代价，只需要支付少量的 Gas 费用就可以获得巨额收益。
+在过去的两年里，闪电贷出现了很多问题。许多 DeFi 项目看起来收益很高，但实际上项目方的水平参差不齐。比如代码有可能是买来的，即便代码本身没有漏洞，在逻辑上仍然可能存在问题。例如，我们曾经遇到过一个项目，会在固定的时间根据持仓者持有的代币数量发放奖励，却被攻击者利用闪电贷购买大量代币，在奖励发放时，大部分奖励都流向了攻击者。此外，还有一些通过 Token 来计算价格的项目，可以通过闪电贷影响价格，作为项目方应该对这些问题提高警惕。
+价格操控问题与闪电贷关系密切，这个问题主要是由于价格计算时其中一些参数可以被用户控制，经常出现的问题的类型有两种。
+ 
+重入攻击
+调用外部合约的主…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：Optimism第二轮空投中71.6%的有效地址收到8.75%空投分配]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/325e9jf8.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/325e9jf8.html"/>
+        <updated>2023-02-13T05:07:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，Dune数据显示，在Optimism第二轮空投中，48.9%的有效空投地址收到少于5枚OP空投，22.7%的地址收到5-10枚OP空投。而0-10枚OP的分配总量为102.4万枚，占此轮总空投量8.75%。
+收到1000枚及以上OP空投的地址数占比为0.49%，共收到324.1万枚OP，占空投总量2.77%。
+此前2月10日消息，Optimism开始第二轮空投，1170万枚OP将分发至超30万个地址。Optimism表示，还会有更多空投，剩余空投分配大约为5.9亿枚OP。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从份账单说起，为什么链上交易值得分析？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/79wxoer24ol9.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/79wxoer24ol9.html"/>
+        <updated>2023-02-13T04:34:04.000Z</updated>
+        <summary type="html"><![CDATA[“以太坊和比特币之间的最大区别在于比特币是一个平台，其生态系统的价值来自于货币价值。但在以太坊中，货币的价值来自于生态系统的价值”。
+—— Vitalik Buterin（以太坊创始人）
+“2d ao 3 ” 这样一个名字颇有趣味的 dao 组织，他们一时心血来潮做了个年度账单回顾的小玩意
+https://api 700.com/? from=v
+其中分「随便看看」和按「地址搜索」，不得不说链上的大神好玩的域名还是多啊，一系列10 U 战神、六边形战士、天选打工人等依据链上数据算出的标签更是带来不一样的触感，链上地址不再只是一串看不懂意义的数字和一堆错综复杂的交易记录。
+
+所以，今天再看到这样具象化的链上形象后，也想一起继续聊聊数据公开这个在区块链上的重要特点，这是个web2与web3最泾渭分明的一点！
+如今以太坊已然成为一个庞大的金融结算网络，如果我们换个角度来看，当每一笔交易都需要付出平均几美元的成本时，其业务本身则一定是具有相应的投资或者使用价值。
+信息本身的成本与价值，以及信息公开的区块链基础结构，在这一高一低之间，埋藏在动机与得失，读懂他的人便能获取巨大的数据挖掘价值。
+试想一下，如果所有银行和央行的用户业务数据都是公开的，任何商业机构就能通过这些海量数据分析每个用户的消费习惯、收入情况、喜好等等各种各样的特征。但因为这会侵犯到用户的隐私，所以金融机构也不可能会公开这些数据，虽然即使并不侵犯隐私也是不可能的，因为数据本身就是web2中很多护城河的依据，流量打法风靡一时任何创业项目都会被质疑一句，如果 xx 大厂也做了你这个同样的产品，你怎么办？这时比数据广度比不过，比流量规模更比不过。
+这里数据能和流量关联起来的核心原因就是，web2的大厂本身已然掌握了更多的真实身份数据，某些单独应用无法理解的 ip、ua、设备指纹等信息，在web2的大厂中可以轻松被广度的矩阵应…]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -31,6 +132,80 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握Polygon上NFT一周关键数据（02.06—02.12）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/w3pqsztv.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/w3pqsztv.html"/>
+        <updated>2023-02-13T04:15:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AAVE的去中心化稳定币GHO上线测试网：一文速览其最新进展]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/e3pop6qi.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/e3pop6qi.html"/>
+        <updated>2023-02-13T04:01:33.000Z</updated>
+        <summary type="html"><![CDATA[2月9日，由 Aave 发行的去中心化美元稳定币 $GHO 正式在以太坊 Goerli 测试网上线，以供开发人员和社区用户访问其界面，以检测其工作流程是否存在潜在的问题，目前测试网支持DAI、USDC、AAVE和LINK四种资产。
+以及增加了新的促进者（“Facilitator）以支持FlashMinting（闪电铸造）模式，可以起到和闪电贷（flashloan）相同的作用，意在提高交易效率。
+本次发布ABDK所出具的第四份审计报告，结合之前出具的Open Zepplin和SigmaPrime的报告，主网上线最后的审计工作接近完成。
+并且，Aave为配合GHO的测试，还同步发布与测试网配套的NFT，可在此处领取。
+关于GHO，PANews在之前曾经发文进行解读，具体细节可参考以下两篇文章，本文重在解读更新内容和阶段性进展。
+Aave也要推稳定币了，读懂去中心化美元稳定币GHO提案
+稳定币GHO能否帮助Aave协议进一步发展并超越MakerDAO和DAI？
+按照Aave之前的规划，GHO本应在去年11月或今年1月适时上线，但最后是Aave V3于今年1月27在以太坊主网上线后，GHO才正式开启在V3上进行的内测，以更好的跟Aave进行协同。
+GHO依然需要超额抵押资产，以借出GHO，通过套利机制来维持价格跟美元的锚定，但是在具体机制上，有如下几点创新：
+
+而在本次更新中，促进者将迎来重要进展，将首次迎来继Aave之后的第二个促进者，以测试FlashMinting模式。
+在Aava V2到V3版本的迁移中，一个主要问题在于GHO无法被用于闪电贷（flashloan）模式，以保证协议安全性，避免因反身性问题导致价格脱锚。而FlashMinting提供了与闪电贷相同的功能，但用户不是从资金池中借入资产，而是能够在一次交易中完成Mint GHO和偿还资产的全过程。
+但需要注意，引入该模式的提案仍然需要DAO进行最后投票方能生效。
+促进者框架（Facilitator Framework）的建立也进行讨论，按照Aave的设想，促进者将会是Bucket（存储桶）的主要运营方，本次将逐步引入更多促进者，以逐步建立起类似Curve稳定币池的兑换深度，同时保证促进者的自由定制度。
+GHO自身的Peg Stability modules (PSMs)“挂钩稳定模块”也在同步展开预研，将在此次测试中尝试相关功能，考虑到GHO背后的资产供应情况，其暂时被限定在Aave协议内应该是大概率事件，至于能否建立其他协议上的兑换池仍不确定。
+可以参考UST的崩溃，在Curve上的流动性被抽干的关口，遭遇套利者的巨额资金攻击，最终导致价格脱锚。
+采取PSM机制的问题在于会抑制协议收入的扩大，但AaveDAO将会是协议收入的唯一收入方，因此可以保证该模式的顺利采纳，而协调stkAAVE和促进者的积极性才是促进GHO流动性的关键。
+而在当前的测试网，用户可领取DAI/USDC/AAVE/LINK四类资产进行测试，以体验其流程并可反馈Bug，以供团队进行后续更改和提升，需要注意的是，由于参与测试网人数较多，可能存在领取测试代币失败的问题，需要多次尝试。
+此外，值得一提的是审计的完备性，GHO已经经历四次完整审计，以确保其安全性。
+以最新进行的ABDK的评审为例，对全部代码进行功能性测试和安全性审计，在85个分类中，共提出6处修改意见，按照GHO的进展，在正式上线前，还会有一次安全审计。
+
+GHO在主网上线更新计划
+对stkAAVE重新进行修改，使其和GHO将要实施的折扣费率模式相适应；
+初步建立存储桶（Bucket）容量上限和借款利率框架。既要反应当前的市场情况，也要尽可能保证GHO价格稳定；
+Aave将推出更多AIP（Aave升级提案）来保证GHO的后续改进和提升，比如是否加入更多促进者；
+漏洞赏金计划，将发放至高25万USDC的安全漏洞赏金，以鼓励白帽和用户上报漏洞；
+社区将拥有完整的管理权限，Aave将更多作为建设者参与其中，以最大程度维护去中心化和抗审查特性。
+
+结语
+Aave将探索借贷+稳定币的DeFi新叙事。
+2022年，在UST崩溃和USDC响应制裁Tornado Cash后，新一轮的去中心化稳定币模式开始成型：由大型DeFi协议发行，以保证其去中心化和使用场景，同时保持链上资产支持的超额抵押模式，以规避极端的算法稳定币模式的危险性。
+crvUSD和GHO便是其中翘楚，FRAX和DAI重新焕发活力，度过了最艰难的至暗时刻。
+而在当下，LSD和稳定币也成为新的DeFi业务爆发点，稳定币将成为DeFi协议巩固自身护城河的重要手段。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：币安地址持有约144亿枚BUSD，过去7天内净流出超8140万枚]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/y4b3a7yn.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/y4b3a7yn.html"/>
+        <updated>2023-02-13T03:58:39.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，Nansen数据显示，目前BUSD总市值160亿美元，排名稳定币第三。大约90%（144亿美元）的BUSD由币安地址持有。其中过去7天内币安净流出超8140万枚BUSD。此外，Jump Trading某地址在过去7天内从交易所净提取5780万枚BUSD，该地址仍持有1880万枚BUSD。
+此前今日早些时候消息，稳定币发行商Paxos因BUSD面临美SEC的诉讼。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[派盾：dForce攻击者疑似已归还盗取的365万美元资金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ux1u3yxn.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ux1u3yxn.html"/>
+        <updated>2023-02-13T03:49:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，派盾监测显示，攻击者似乎将365万美元被盗资金返还给dForce。链上数据显示，攻击者地址在40分钟前通过两笔交易分别向0xe0d开头的地址转入1127.59枚ETH和1237枚ETH。
+此前2月10日消息，DeFi协议dForce遭遇闪电贷攻击，攻击者已获利365万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【英文】可扩展性解决方案 Rollups-as-a-Service 生态全解读：代表项目、优势与风险]]></title>
         <id>https://antcapital.medium.com/rollups-as-a-service-a-new-era-of-scalability-42f4e5953096</id>
         <link href="https://antcapital.medium.com/rollups-as-a-service-a-new-era-of-scalability-42f4e5953096"/>
@@ -40,6 +215,56 @@
 <p><strong>文章作者：</strong></p><p>Shervin（A&T Capital）</p><hr><h3>观点：</h3><p><strong>Shervin（A&T Capital）：</strong>SDK 方案：Celestia Rollkit 使用 Cosmos SDK 并通过 IBC 促进通信，为部署 sovereign rollup 提供了解决方案；OP Stack 使用 API 将网络标准化为三层；Dymension  RollApp Kit 提供与各种虚拟机的兼容性；Sovereign SDK 是第一个消除零知识复杂性的 rollup 框架。【原文为英文】</p><a href="https://antcapital.medium.com/rollups-as-a-service-a-new-era-of-scalability-42f4e5953096">内容来源</a><p><strong>Shervin（A&T Capital）：</strong>无代码方案：Constellation 帮助开发人员使用 OP Stack 部署 rollup。AltLayer 帮助开发人员启动 Optimistic rollup 执行层。Eclipse 帮助开发人员使用 Solana 虚拟机创建和部署 rollup。Saga 正在开发 Web3 基础设施，帮助开发人员创建独立、快速的应用程序。【原文为英文】</p><a href="https://antcapital.medium.com/rollups-as-a-service-a-new-era-of-scalability-42f4e5953096">内容来源</a><p><strong>Shervin（A&T Capital）：</strong>RaaS 的优势：更多控制和可定制性；防止因网络堵塞导致交易费用增加；低延迟高吞吐的用户体验；降低桥接费用、排序费用、rollup 开发费用和结算层费用；内部化 MEV；将交易费用作为协议收入；rollup 原生代币的更多效用。RaaS 的风险：中心化、安全和桥接漏洞以及流动性的碎片化。【原文为英文】</p><a href="https://antcapital.medium.com/rollups-as-a-service-a-new-era-of-scalability-42f4e5953096">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文看懂Native Rollup：关于 ZK Rollup 的 PoS & PoW 混合共识]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/tp4z0pu1.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/tp4z0pu1.html"/>
+        <updated>2023-02-13T03:30:03.000Z</updated>
+        <summary type="html"><![CDATA[作者: Opside 联创 & CEO – nanfengpo
+native rollup是一个基于 zk 的三层架构扩容解决方案，其中layer 2是一个EVM兼容的且对于 Rollup十分 友好的链，layer 3则由系统原生支持的多个zkRollup（称为native rollup）组成。Layer 2为zkRollup做了很多系统层面的优化。这个三层架构中的layer 2和layer 3，共用了一个PoS与PoW融合的共识机制：
+Layer 2：
+PoS：layer 2将采用ETH 2.0的PoS并对其进行必要的改进。因此，layer 2的共识层将有超过10万个验证者。任何人都可以质押token来成为验证者。这些验证者也将根据EIP-4844提供一个数据可用性层，从而容纳layer 3的Rollup提交的batch。此外，layer 2的PoS是可证明的，验证者会定期把PoS 证明提交到layer 1上。验证者可以获取PoS这部分的区块奖励和Gas费。
+Layer 3：
+PoS（排序器）：排序器除了提议layer 2的区块，也提议layer 3的区块（即数据 batch），也就是说验证者同时是layer 3中native rollup的排序器。排序器可以获取其中的交易Gas费。
+PoW（Prover）：只要拥有zkp的算力，任意验证者都可以成为native rollup的prover。Prover为layer 3的各个Native rollup生成zk 证明。对于排序者提交的layer 3的各个区块，prover依据PoW的规则来竞争，最先提交zk 证明的prover将获得layer 3的区块奖励。
+下面将详细介绍layer 3中的native rollup的去中心化共识机制。
+Sequencer (排序器)
+sequencer (排序器)这个角色由layer 2的验证者来承担。每个layer 2的区块中，所有native rollup都有且仅有1笔交易来提交各自的rollup 区块，且这些rollup 区块只能由layer 2区块的验证者来提交。如果该layer 2区块中没有包含所有的native rollup的区块，则该区块无效。
+即使某个native rollup在一段时间内没有交易，验证者也必须提交该rollup的区块。此时该rollup的区块为空。
+排序器的收益是该排序器提交的各个native rollup的区块中的交易手续费。注意，所有native rollup中的交易手续费都是由layer 2 token 来支付的。因此，该排序器打包的rollup交易越多，收益也越多。
+当排序器把rollup block打包上链后，该rollup 区块就进入了finalized状态。因此该区块最终确认所需要的时间与layer 2是相同的。
+如果某一个rollup 区块没有在一定时间内被prover提交的证明验证，则该区块会被跳过，相应的排序器也将受到惩罚。
+Prover
+与排序器必须是当前layer 2区块的验证者不同，prover可以是任意的layer 2的验证者。只要一个验证者具有zkp算力，即可称为任意的native rollup的prover。
+这些prover通过PoW的方式来竞争，最先提供某个rollup 区块的有效证明的，就能获得相应的区块奖励。注意，所有native rollup的区块奖励，都是由layer 2 token来支付的。这部分 token 就是layer 2的PoW部分的奖励，系统会根据zkp算力的供需平衡来自动调整PoW的奖励额度。
+排序器打包的rollup 区块中，已经包含了生成证明所需要的所有数据。因此，对于每个rollup，prover可以并行生成多个区块的证明。同样的道理，这些区块证明的验证也是并行的。
+当一个rollup 区块和它的所有父区块都被验证时，该区块就被验证了，即验证完成状态。
+通过 PoS & PoW的混合共识机制，layer 2和layer 3具有相同的共识层与验证者集合，确保了整个架构的安全性和去中心化。更为重要的是，layer 3的各个Native Rollup在底层架构上拥有了一个规范化的去中心化解决方案。layer 2定义了一个统一的系统合约，rollup的开发者只需要实现这些规范化的接口，并注册rollup 插槽成为native rollup。这样，开发者可以更加关注业务逻辑的实现，而不必关心在底层架构层面layer 2与layer 3如何交互，也不需要维护rollup的全节点和zkp算力。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[融资周报 | 公开融资事件37起；数字资产保险公司Coincover完成3000万美元融资，Foundation Capital领投]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/3eqry7uq.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/3eqry7uq.html"/>
+        <updated>2023-02-13T03:25:11.000Z</updated>
+        <summary type="html"><![CDATA[本期看点
+据 PANews 不完全统计，上周（2.6-2.12）全球区块链有37起投融资事件，与前一周相比大幅增加，概览如下:
+DeFi赛道公布了2起事件，其中DeFi结构化产品GammaSwap完成170万美元种子轮融资，Skycatcher Crypto等参投；
+链游方面公布了6起事件，游戏开发商Mino Games筹集1500万美元用于创建Web3游戏，Standard Crypto领投；
+NFT和元宇宙领域公布了5起融资，元宇宙太空娱乐社区TDGA完成2000万美元种子轮融资，New Media Holding参投；
+基础设施与工具赛道公布了9起事件，去中心化域名协议 SPACE ID 宣布完成1000万美元战略融资，Polychain Capital和dao5领投；
+其他Web3/加密相关项目方面公布了8起事件，Web3忠诚度平台Cub3完成650万美元A轮融资，Bitkraft和Fabric Ventures领投；
+中心化金融领域公布了7起融资，其中加密贷款机构Salt通过向合格投资者出售股票完成了 6440万美元A轮融资。
+下面我们一起来全盘回顾上周的投融资事件。
+DeFi结构化产品GammaSwap完成170万美元种子轮融资
+DeFi结构化产品GammaSwap完成170万美元种子轮融资，Skycatcher Crypto、Dialectic、Space Whale Capital、Modular Capital等机构参投，个人投资者包括GMX核心成员以及DeBank上持仓金额第二大钱包所有者等。新融资将用于扩大团队，审核多个新颖的产品创意，并继续建立对该协议的认识。据介绍，GammaSwap旨在通过与DEX集成来使用户获得代币的杠杆敞口。未来计划发布一个Beta测试网，随后上线主网和Arbitrum。
+全链流动性协议Cedro Finance完成150万美…]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -55,6 +280,63 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[探索元宇宙中的美妆：一文了解欧莱雅旗下的GORJS DAO]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/415uzxow.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/415uzxow.html"/>
+        <updated>2023-02-13T02:37:03.000Z</updated>
+        <summary type="html"><![CDATA[原文：《欧莱雅悄悄启动了一个DAO，探索元宇宙中的美妆》
+作者：Chao
+2023年2月2日早上，欧莱雅旗下NYX美妆发行了一套总数1000个的数字会员通行证，名为GORJS的DAO随之启动，目标是成为一个孵化器资助3D艺术家。
+启动不过短短几天时间，围绕它已经诞生了很多有趣的故事，有人在投机、也有人在憧憬数字世界中的未来、它有一个不错的开局、也搞砸了一些东西。而这一切汇集在一起构成了一个商业品牌和一个社区通向未知领域的共同探索。
+DAO – 去中心化自治组织的缩写，它最初指运行在区块链网络上的特殊程序，依据预设且不可随意更改的代码自主处理业务，从而实现无需许可(Permissionless)和无需信任(Trustless)的业务运转。
+但理想化的DAO尚不存在，现在大家常说的DAO多是因共同的文化、爱好或愿景凝聚而成的互联网原生组织，与普通的互联网社区比，DAO有明确的目标、有一定的资金、并依靠区块链技术进行财务和治理的约束和协调以推进目标的实现。欧莱雅启动的正是这样一个DAO。
+NYX - 欧莱雅旗下的彩妆品牌，相比于它的母公司，这是一个年轻并擅长互联网运营的品牌。它4.5亿欧元的年度销售额，只占到欧莱雅集团的1%左右，却在Instagram（类似小红书的海外社交应用）上有1450万的关注者。而GORJS DAO的主要创始成员均为来自NYX彩妆的高管。
+不仅仅是人员上有重叠是创始团队，它的后续运营也会和NYX的业务产生关联。作为欧莱雅旗下的子品牌，这一计划是在欧莱雅更高级别管理层的支持下启动的。
+
+(官网中关于创始团队的截图 - 由AI工具进行了翻译）
+这个DAO要做什么？
+GORJS取义英文中的华丽(gorgeous)，它是一个采用DAO作为组织形态的的数字艺术孵化器。简单来说，GORJS DAO会通过资助特定领域的3D艺术家，来探索数字虚拟世界中的“美妆”。被资助的…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港金管局：计划发行首批代币化绿色债券]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/9woy9m43.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/9woy9m43.html"/>
+        <updated>2023-02-13T02:26:35.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据新华财经报道，香港金管局近日表示，计划发行首批代币化绿色债券，署理财经事务及库务局局长陈浩濂表示，此次代币化绿债将于政府绿色债券计划下发行，供机构投资者认购，预期较以往的发行规模有所缩减。当相关代币化绿债正式发行时，会公布细节安排。
+陈浩濂表示，计划发行的代币化绿债属试点项目，旨在验证香港现行法规和监管要求、金融基础设施配套、市场运作惯例等各个环节与债券代币化发行的兼容性，并对各环节中存在的障碍寻求可行的解决方案，为未来较大规模、更广泛地推行代币化债券发行和交易积累经验。
+此外，据彭博社报道，知情人士表示，香港特别行政区希望通过此次发行代币化绿色债券筹集8亿港元（约1.02亿美元），并已与中国银行、法国农业信贷银行、高盛集团和汇丰控股有限公司接洽，相关投资者电话会议将从2月13日开始举行，这些票据的实益权益将记录在高盛提供的基于分布式账本技术的数字资产平台上。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paxos通知部分用户重新进行KYC验证或关闭账户]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/iqrw3wlx.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/iqrw3wlx.html"/>
+        <updated>2023-02-13T02:14:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据社区用户反应，稳定币发行商Paxos近日向用户发送邮件，通知部分用户重新进行KYC验证，或者通知部分用户关闭账户。
+Paxos在邮件中表示：“Paxos是一家受监管的金融机构，法律要求我们对客户有更深入的了解，以便保持准确和最新的记录。”此外，在被要求关闭账户的邮件中，Paxos称：“我们目前无法维护您的帐户，因为您提供的帐户信息或帐户活动超出了我们的风险偏好。”
+此前今日早些时候消息，稳定币发行商Paxos因BUSD面临美SEC的诉讼。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[福布斯：以太坊上海升级后将有价值290亿美元的ETH被解锁]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/pim1wa49.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/pim1wa49.html"/>
+        <updated>2023-02-13T01:52:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据福布斯报道，根据数据提供商Staking Rewards的数据，目前约有14%的ETH被质押，市值约为290亿美元。而在上海升级后，用户将可以提取这些资产。鉴于资产已被长期锁定以及加密市场悬而未决的不确定性，人们担心许多验证者会撤回并出售他们抵押的以太坊，这可能会给以太坊的价值带来压力。
+据Galaxy Digital称，以太坊上至少75%的质押ETH由中介机构控制，例如 Coinbase或Kraken等交易所，或Lido或Rocketpool等特殊平台，这意味着绝大多数抵押者不会能够直接发起自己的取款。预计大部分提款将来自以太坊最大的质押平台Lido，该平台允许用户质押任意数量的以太币，而不是32 ETH的门槛。而Staking Rewards研究主管Allan Wojnowski表示：“排队过程和Lido的大量提款份额将大大减缓提款过程中的任何抛售压力，因为在提现功能存在之前就需要有信心押注以太坊，早期的质押者不太可能寻求退出，而且尽管有报道预测会出现大量提现，但平均每天仍有20,800枚ETH继续质押。”质押中介机构可能会获得巨大收益，摩根大通(JPMorgan)估计，在上海升级后，Coinbase 95%的散户投资者可能会参与质押以太坊，按当前价格计算，这可能会给交易所带来2.25亿至5.45亿美元的年收入。
+此前消息，2月7日以太坊首个公共提款测试网Zhejiang已成功模拟上海升级，公共测试网Sepolia计划于2月28日升级，之后计划在2月底或3月初在以太坊Goerli测试网上发布上海升级，过渡成功后，将转向主网。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[加密借贷平台 Nexo 将于 4 月 1 日停止为美国客户提供 Earn Interest 产品]]></title>
         <id>https://nexo.io/blog/update-for-us-clients</id>
         <link href="https://nexo.io/blog/update-for-us-clients"/>
@@ -67,6 +349,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[数据：比特币挖矿难度周末小幅下调，前5大矿池已控制近90%算力]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/gs8uf92p.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/gs8uf92p.html"/>
+        <updated>2023-02-13T01:28:13.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据Bitcoin.com报道及btc.com数据，比特币挖矿难度于前两周创下39.35T的历史新高后，在2月12日下调0.49%至39.16 T。目前比特币全网算力为292.85 EH/s，24小时交易速度3.01交易/s。
+目前已知的矿池大约有12个，前五大矿池已控制全球88.4%的比特币算力。在过去的三天，Foundry USA一直是最大的矿池，算力大约95.89 EH/s，拥有全球33.26%的比特币网络算力。紧随其后的是拥有15.97%全球算力的Antpool、拥有15.54%算力的Binance Pool。F2pool（14.22%）和 Viabtc（9.41%）分别位列第四和第五。
+另据macromicro.me根据剑桥大学提供的用电量和每日比特币发行量数据计算其估算值统计，比特币的生产成本仍高于其当前的现货市场价值。目前挖出单个比特币的平均成本约为24,119美元，而其现货市场单价约为21,901美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[华尔街日报：美国 SEC 计划起诉 Paxos 发行的 BUSD 是未注册证券]]></title>
         <id>https://www.wsj.com/articles/crypto-firm-paxos-faces-sec-lawsuit-over-binance-usd-token-8031e7a7</id>
         <link href="https://www.wsj.com/articles/crypto-firm-paxos-faces-sec-lawsuit-over-binance-usd-token-8031e7a7"/>
@@ -76,6 +370,113 @@
 <p><a href="https://www.wsj.com/articles/crypto-firm-paxos-faces-sec-lawsuit-over-binance-usd-token-8031e7a7">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Cochran：</strong>需要明确一点，「证券」是 1933 年证券法定义的一个更广泛的类别，该法案非常模糊。不是一定要从中获利才能被认为是证券，如果有人为你持有或以其他方式确保价值，并且你相信他们会这样做，同时没有其他豁免，那么它就是一种证券。【原文为英文】</p><a href="https://twitter.com/adamscochran/status/1624947461646163973">内容来源</a><p><strong>tedtalksmacro：</strong>只有通过豪威测试，才能被认定为是一种证券... 我不认为 BUSD 符合证券的标准，它只是一个稳定币！？看上去更像是对币安的打击。【原文为英文】</p><a href="https://twitter.com/tedtalksmacro/status/1624934967875887105">内容来源</a><p><strong>Andrew：</strong>根据之前的消息来源，先是稳定币，然后是交易所。【原文为英文】</p><a href="https://twitter.com/AP_Abacus/status/1624920229200502784">内容来源</a><p><strong>Colin Wu：</strong>你说 BNB 是证券 ok，你说 POS 有证券属性也凑合，这稳定币是怎么也是证券了... 豪威测试里面一个也不符合啊，按理来说管制也应该是财政部货币署来管。</p><a href="https://twitter.com/WutalkWu/status/1624945490306674688">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GameFi 发展势头值得期待，下一步它将如何“绽放”？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/2i5s55pd.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/2i5s55pd.html"/>
+        <updated>2023-02-13T01:00:51.000Z</updated>
+        <summary type="html"><![CDATA[作者 | Álex López
+编译 | 火火
+2022年是Play-to-Earn游戏发展的重要一年，资本和用户的涌入曾造就了链游的辉煌，但加密熊市也重创了GameFi的价格，导致玩家的大量流失。尤其是历过Terra和FTX崩盘连续的打击后，加密市场可谓跌入谷底。
+尽管如此，区块链游戏的发展势头不减反强。近日，数据研究平台DappRadar发布了其对2023年1月的区块链市场报告，报告数据显示，2023年1月，“区块链游戏依旧是Web3行业中增长最快的部分之一”，日均活跃的独立钱包数量（dUAW）达839436个，在整个行业的占比从去年12月的45.2%进一步上升至了48%。
+那么区块链游戏GameFi能否称为熊转牛的契机？GameFi的未来又将如何发展？
+我想首先谈谈加密游戏的准入门槛。
+
+对大多数人来说，进入加密行业不仅困难，而且需要很多资本。在加密行业中，积极的资产化能有效激励区块链用户。目前来说，资本进入加密生态系统的门槛相对较低，只需几美元，就可以与几乎任何 dApp 进行交互。
+当然，当你尝试参与其他具有社区性质的活动时，成本会上升——无论是 NFT还是DAO ，活动需要的资金越多一般就越“有声望”。除此之外，还需要考虑gas费、优化不佳的合约以及在许多情况下的Token交换/锁定。当然，这是假设你已经在链上有钱了。但是在没有良好的监管、银行或互联网基础设施的发展中国家，5 美元的gas费很可能占你工资的很大一部分。
+但是，游戏并非如此。游戏社区是巨大的，非常多样化的，各种背景的人们脱离现实生活的挣扎，享受平行的虚拟世界。在这个世界里，他们可以体验艺术、进行体育运动或只是将其作为一种社交体验来享受。玩游戏的门槛变得越来越低，只要一部智能手机即可，同时享受社交体验。而且绝大多数人不需要为软件支付一分钱。因此，对于加密游戏开发者和为他们提供资金的各个 VC的问题来…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Voyager已支持债权人将数据传输到Binance US平台以待收回资金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/hj7eropw.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/hj7eropw.html"/>
+        <updated>2023-02-13T00:37:39.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，Voyager无担保债权人官方委员会（UCC）推特发文称：“债权人目前可提交客户引导协议（Customer Onboarding Protocol）。在Voyager应用程序中，客户现在可以同意将他们的数据传输到Binance US平台。正如客户登录协议中所述，在收到这些数据后，Binance US将执行质量控制检查，以确保数据符合Binance US的KYC标准。在Binance US上拥有现有账户的Voyager客户将收到一封来自Binance US的电子邮件，声明无需进行进一步操作。没有Binance US帐户的Voyager客户将收到来Binance US的电子邮件邀请，以建立一个帐户。电子邮件邀请将包括一个特殊的链接，以加快Binance US帐户的创建。我们鼓励所有债权人全面审查客户引导协议。”
+此外，UCC提及其对Alameda的7500万美元债权证明提出了异议：“UCC反对Alameda的索赔，Alameda的索赔应公平地被安排为次级索赔，或将索赔重新定义为股权。一些信息已经在密封的情况下进行了报告。我们已经与其他方面合作减少修订的数量，并将在未来几天内提交更新的文件。”
+此前2月10日消息，Voyager Digital计划允许用户通过Binance.US账户收回资产。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国政府合作伙伴招聘Web3经济学家，需具备加密货币和NFT经验]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/67vnj670.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/67vnj670.html"/>
+        <updated>2023-02-12T23:59:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据The Block报道，根据LinkedIn上发布的一则招聘广告，美国政府合作伙伴Mitre正在招聘一名Web3经济学家，负责分析和评估Web3生态系统。申请人需要具有“数字资产、加密货币、NFT、DAO、DeFi协议和/或区块链应用程序”的经验，以及“智能合约”的知识。Mitre运营着由联邦政府资助的研发中心，致力于解决“国防、网络安全、医疗保健、国土安全、司法和交通方面的最大挑战”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[华尔街日报：稳定币发行商Paxos因BUSD面临美SEC的诉讼]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ydeo1890.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ydeo1890.html"/>
+        <updated>2023-02-12T23:58:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，据华尔街日报援引知情人士报道，美国证券交易委员会（SEC）已告知稳定币发行商Paxos，它计划起诉该公司违反投资者保护法。这是该机构不断升级的加密执法行动的最新举措。
+知情人士称，美国SEC的执法人员向Paxos发出了一封名为“韦尔斯通知（Wells notice）”的信函，称Paxos发行和上架的数字资产Binance USD（BUSD）是一种未注册的证券。Paxos发言人拒绝置评，币安在声明中称：“BUSD由Paxos发行和拥有，它只授权其品牌。我们将继续监测相关情况。”
+据悉，“韦尔斯通知”是美国SEC对在美上市公司进行民事诉讼前发出的非正式提醒，接到通知的上市公司可以在收到正式诉讼前跟SEC进行沟通和协商。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase CEO: Coinbase的质押服务不是证券，必要情况下愿意在法庭为其辩护]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/xh2o05d9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/xh2o05d9.html"/>
+        <updated>2023-02-12T21:08:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月13日消息，Coinbase首席执行官Brian Armstrong推特发文称，“Coinbase的质押服务不是证券。如有需要，我们很乐意在法庭上为其辩护”。此前，Armstrong也发文称“坚持为经济自由而战，保护客户免受政府过度干预”。他表示，质押是加密货币领域一个非常重要的创新，质押不属于证券。新技术应被鼓励在美国发展，而不是因缺乏明确的规则而被扼杀。据此前消息，美国证券交易委员会(SEC)周四宣布，加密交易所Kraken将“立即”终止向美国客户提供加密质押服务，并将向SEC支付3000万美元罚款，以解决其提供未注册证券的指控。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一周预告 | NFT市场Blur将推出代币；Cardano将进行主网升级]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/w0336snk.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/w0336snk.html"/>
+        <updated>2023-02-12T14:31:55.000Z</updated>
+        <summary type="html"><![CDATA[要闻预告：
+美国参议院将于2月14日召开题为“加密货币崩溃：为什么数字资产需要金融系统保障措施”的听证会，探讨加密货币市场崩盘的影响。
+NFT市场Blur宣布其原生代币BLUR将推迟至2月14日发布，第三阶段空投将持续至代币发布。
+第五十七届超级碗（Super Bowl LVII）将于北京时间2023年2月13日举行，Reddit与美国国家橄榄球联盟（NFL）合作推出超级碗 Avatar，并将向用户免费提供。
+Coinbase宣布停止其在日本的业务，所有Coinbase Japan客户都必须在2023 年2月16日之前从Coinbase撤回他们持有的法定货币和加密货币。
+
+更多一周预告请点击下载PANews APP，关注PANews推出的事件日历活动板块，在PANews随时随地阅读更多区块链即时快讯和深度好文。
+2月13日
+政策监管：
+加纳央行已开启监管沙盒申请流程，第一批参与者的流程将于2月13日开始
+据News.Bitcoin报道，加纳和尼日利亚中央银行均表示，注册金融机构和无牌金融科技初创公司可以申请加入其监管沙箱。加纳央行在近期发布的一份新闻声明中表示，接纳第一批参与者的流程将于2月13日开始，并于3月14日结束。根据加纳央行的说法，沙盒将支持创新，其中包括“目前未在任何法规中明确或隐含涵盖的新数字商业模式”。 沙盒还将支持试图解决金融排斥挑战的创新以及“新的、不成熟的数字金融服务技术”。此外，尼日利亚中央银行近期也表示，其监管沙箱现已上线。该银行表示，感兴趣的创新者可以提交参与监管沙盒的意向书。
+项目动态：
+第五十七届超级碗将在2月13日举行，Reddit与NFL合作推出超级碗Avatar
+Reddit 宣布正在与美国国家橄榄球联盟（NFL）合作推出第五十七届超级碗 Avatar，将向用户免费提供。第五十七届超级碗（Super Bowl LVII）将于北京时间20…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：两巨鲸地址在过去7天向币安转入390万美元SSV代币]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/i6pq5o10.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/i6pq5o10.html"/>
+        <updated>2023-02-12T12:30:18.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，Lookonchain发布信息称，过去7天内，有两个巨鲸地址总共向币安交易所转入了价值390万美元的SSV代币。其中，一个巨鲸在2月7日转入了74,643枚SSV（价值220万美元），另一个巨鲸在2月8日和2月9日总共转入了57,706枚SSV（价值170万美元）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握以太坊上NFT关键数据（2023.02.12）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/kwdvh7zb.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/kwdvh7zb.html"/>
+        <updated>2023-02-12T12:29:51.000Z</updated>
+        <summary type="html"><![CDATA[NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
+PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -103,6 +504,57 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ChatGPT和WorldCoin创始人阿尔特曼自述：我成功的10大原因]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ubq1wprz.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ubq1wprz.html"/>
+        <updated>2023-02-12T09:33:02.000Z</updated>
+        <summary type="html"><![CDATA[文章来源：创业邦
+「编者按」
+马斯克之后，谁会是全球新一代的科技领袖？
+如果你在美国做个调查，90%的人会选择OpenAI创始人兼CEO 山姆·阿尔特曼（Sam Altman）。比尔·盖茨说，公司的最新产品ChatGPT，意义“不亚于互联网的诞生。”
+38岁的阿尔特曼有一路开挂的生涯。19岁从斯坦福大学计算机系辍学创业；26岁与创业伙伴将公司卖了4300万美元，从此财务自由；29岁投资并管理美国最大创业孵化器YC，5年规模扩大十倍；30岁，他与马斯克等人联手创办Open AI，跻身全球顶尖创业者之列。
+在YC创始人、硅谷创业教父Paul Graham眼里，Sam是极具魄力的领导者和开拓者。“如果把Sam Altman扔到某个食人族之岛，5年后他会成为这个食人族岛的国王。”
+这篇文章是阿尔特曼在2019年即将任OpenAI CEO时写的博客。通过在YC时期和大量创业者及技术人才的交流，阿尔特曼总结了他眼中的创业秘诀，文章标题平淡无奇《如何取得成功》（How to be successful），但字字珠玑，至今仍被硅谷创投圈奉为圭臬。
+以下为创业邦对原作的整理。
+Sam说，复利有神奇的魔力，指数曲线是创造财富的关键。一家中型企业，如果价值每年增长50%，用不了几年就能成为巨头。
+世界上，真正有网络效应和高度扩展性的行业并不多。但技术进步让这一点成了可能，你可以花时间发现和创造这样的机会。
+个人职业生涯也是如此。大多数职业发展轨迹都是线性的，而成功需要选择具有复利效应的职业。达成这一目标，有多个途径，包括借力资本、技术、品牌、网络效应，以及从事管理工作。
+Sam说，自己认识的最成功的人，都是自信到离谱的人。
+为什么？因为成功就是超越平庸，需要逆向思维才能创造出最大的价值。而对自己不自信的人很难具备逆向思维能力。
+对初创企业CEO来说，一个挑战是激发自己以及团队的士气。如果没有自信…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三箭资本创始人推出的债权交易市OPNX已注册超3600人]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/undx4xar.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/undx4xar.html"/>
+        <updated>2023-02-12T09:15:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，据官方推特，三箭资本创始人推出加密债权交易市场Open Exchange（OPNX）表示，该市场上线2天后，注册人数超过3600人。OPNX表示，用户可以通过将索赔交易成加密货币或将其用作保证金抵押品，来解锁原本会被困多年的债务索赔额。
+PANews此前报道，2月10日，三箭资本创始人Zhu Su、Kyle Davies与加密交易所CoinFlex联合创始人合作推出Open Exchange（OPNX）。用户可以在该市场上交易Celsius、Genesis、BlockFi、Mt. Gox和三箭资本等破产Web3公司的代币化债权。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pantera Capital报告：第七个牛市周期]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/q50ejswu.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/q50ejswu.html"/>
+        <updated>2023-02-12T08:09:00.000Z</updated>
+        <summary type="html"><![CDATA[原文标题：The Seventh Bull Cycle,panteracapital
+原文作者：DAN MOREHEAD, RYAN BARNEY, SEHAJ SINGH
+编译：Lynn, MarsBit
+2023年将是重建对中心化金融（CeFi）的信任的一年
+2022 年是繁荣和大萧条并存的一年，特别是在涉及 CeFi 方面。在几个月的时间里，世界看到 Three Arrows Capital 倒闭，Do Kwon 的 LUNA 瓦解，Voyager Digital 破产，以及 Sam Bankman-Fried（SBF）的 FTX 帝国破碎。
+所有这些事件有什么共同之处？头条新闻最喜欢暗示说，这是加密货币或 Web 3 的失败。但事实上，这是不良行为者在没有明确规定的司法管辖区绕过界限的组合。如果说 2022 年是打破规则和失败的一年，我相信 2023 年是各实体反而遵守规则并享受回报的一年。
+加密货币最初的承诺包括完全去中心化，以完全解除不良行为者参与金融系统的可能性。虽然在最长的时间内（几十年而不是几年）这可能是真的，但为了使加密货币被个人、机构和政府广泛采用和使用，中心化的实体仍然要发挥作用。要做到这一点，中央机构必须首先专注于重建在过去一年的动荡中失去的信任。
+这一点已经开始。Pantera 投资的公司 Coinbase 在 FTX 事件后首先提醒客户，它“购买了犯罪保险，保护在[其]存储系统中持有的部分数字资产免遭盗窃，包括网络安全漏洞造成的损失”。按交易量计算的领先交易所 Binance 已经实施了储备证明机制，以证明客户的存款。在 FTX 这样的大实体倒下之后，这两家公司和其他 CeFi 交易所被证明是明显的短期赢家。他们将继续赢得并获得市场份额，因为他们证明了对客户的信任，并与监管机构合作，制定明确的框架，使其在加密货币背景下以及这些公司所处的更广泛的…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【长推】Optimism 第二轮空投完毕，普通用户如何持续获得生态激励？]]></title>
         <id>https://twitter.com/BiteyeCN/status/1624394394173587457</id>
         <link href="https://twitter.com/BiteyeCN/status/1624394394173587457"/>
@@ -112,6 +564,46 @@
 <p><strong>文章作者：</strong></p><p>Biteye</p><hr><h3>观点：</h3><p><strong>Biteye：</strong>大多数地址仅仅收到了小于 50 个 OP 的空投激励，只有少部分地址拿到了上百个 OP 的空投激励。这可能与本次空投的总量有关，这一次空投仅仅只分发了约 1170 万的 OP 代币。总的来看，Optimism 的第二次空投似乎在告诉我们空投农民大量获利的时代已经结束。</p><a href="https://twitter.com/BiteyeCN/status/1624394394173587457">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paradigm撰分析：为什么以太坊 POS 质押机制并不能使 ETH 成为一种“证券”]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/u41q21h4z545.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/u41q21h4z545.html"/>
+        <updated>2023-02-12T06:43:15.000Z</updated>
+        <summary type="html"><![CDATA[作者：Rodrigo Seira,Amy Aixi Zhang,Jake Chervinsky | Oct 05, 2022
+编译：Web3 小律
+最近 SEC 又开始对加密市场进行新一轮“Regulation by Enforcement”式的监管，首当其冲的是 Kraken，以及其 ETH 质押产品（Staking as a Service）。这种监管执法引起了市场的恐慌，甚至出现“以太坊是证券”的荒谬言论。为了理解“以太坊不是证券，ETH 质押本身（Solo Staking）不构成投资合同，Kraken 的 ETH 质押产品才是证券”这一事实，我们编译了 Paradigm 的一篇文章，帮助大家理解。
+
+文章首先介绍了美国《证券法》与 Howey 测试，然后针对以太坊是“证券”的误解进行解释，重点论证了 POS 无法满足 Howey 测试中“共同事业”以及“它人努力”这两个条件，从而 ETH 质押本身（Solo Staking）就不会构成投资合同，因此也就不是证券交易。以下，enjoy：
+原文地址：Ethereum's New ”Staking”Model Does Not Make ETH A Security.
+https://www.paradigm.xyz/2022/10/ethereums-new-staking-model-does-not-make-eth-a-security
+
+一、背景介绍
+在以太坊从工作量证明共识机制（POW）转变到权益证明共识机制（POS）之后，包括 SEC 主席 Gary Gensler 在内的一些人士认为：以太坊的新权益模型可能导致ETH 被美国《证券法》被视为“证券”。 理由是： (1) POS验证者需要锁定 32 ETH 进行“投资”；(2) 参与由各个验证者组成的“共同事业”中；(3) 有来自获得质押奖励的利润期望；(4)…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pantera Capital：比特币已经进入“下一个牛市周期”]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/8s8qssq5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/8s8qssq5.html"/>
+        <updated>2023-02-12T06:28:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，加密资产管理公司Pantera Capital的首席执行官 Dan Morehead 在文章中预测 2023 年将是“重建信任的一年”。“我相信区块链资产已经见底，我们正处于下一个牛市周期——不管对利率敏感的资产类别会发生什么。”虽然文章没有提到当前的美国证券交易委员会的监管新形势，它预见到 CeFi 将“在逐个司法管辖区的层面上”重新获得其在全球范围内的影响力。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国际货币基金组织 (IMF)称萨尔瓦多持有比特币的风险尚未“具体化”，但需提高透明度]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/69jn1y49.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/69jn1y49.html"/>
+        <updated>2023-02-12T06:18:04.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，国际货币基金组织 (IMF)2 月 10 日的一份声明强调，在 IMF 工作人员上周访问该国后，由于该国对比特币的“有限”使用，比特币对萨尔瓦多的风险尚未“具体化”。国际货币基金组织表示，萨尔瓦多应该解决比特币对该国财政可持续性和消费者保护以及金融完整性和稳定性的风险。IMF还强调萨尔瓦多政府需要“提高透明度”，包括其比特币交易，以及其国有比特币钱包 Chivo 钱包的“财务状况”。
+据悉，萨尔瓦多持有 2381 枚比特币，平均购买价为 43357 美元。尽管该国已投资了 103,233,360 美元，但目前这些比特币的市值仅为 5159 万美元，这意味着损失超过 5100 万美元。在去年 11 月比特币触及 15500 美元的两年低点后，萨尔瓦多总统 Nayib Bukele 宣布，该国将从 2022 年 11 月 18 日开始每天购买一枚比特币。然而，目前还没有公布官方的购买文件。]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -139,6 +631,21 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[一文读懂MakerDAO中新成立的Phoenix Labs与Spark Protocol]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/gx1eqz9v.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/gx1eqz9v.html"/>
+        <updated>2023-02-12T04:06:36.000Z</updated>
+        <summary type="html"><![CDATA[在Aave的稳定币GHO和Curve的稳定币crvUSD将要推出之际，MakerDAO准备通过Phoenix Labs和Spark Protocol扩展借贷业务，并进军流动性质押市场。
+2月9日，MakerDAO论坛上宣布成立Phoenix Labs并开发Spark Protocol，将专注于去中心化借贷市场。Phoenix Labs和Spark Protocol如何工作，并帮助到MakerDAO呢？目前Spark Protocol官网并没有详细资料，以下内容来自于对MakerDAO论坛和Spark Protocol创始人推特的理解。
+在MakerDao创始人在去年6月提出Endgame（终局计划）之后，MakerDAO需要在保持最大弹性的同时继续扩展，所以MakerDAO的部分核心单元团队成员创建了Phoenix Labs。Phoenix Labs是一家研究和开发公司，旨在将新的去中心化产品引入Maker生态系统。Phoenix Labs开发的产品都将由MakerDAO拥有，将继承Maker的治理体系，并通过Maker Governance来投票管理智能合约。
+Spark Protocol是Phoenix Labs的第一个解决方案，将启用加密资产的固定和可变利率借贷、支持EtherDAI并实施弹性预言机来增强MakerDAO的功能。在MakerDAO的Creator SubDAO模型建立后，Spark Protocol将过度成Creator SubDAO。
+相关阅读：MakerDAO的危与机：亏损、监管风险和MetaDAO的救赎
+Spark Protocol的第一个产品是带有前端的借贷市场Spark Lend。根据官方公布的路线图，Spark Protocol的基础功能、包括产品上线都将在今年4月份完成。在今年还将增加固定利率借贷、弹性预言机、跨链支持、EtherDAI的…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【英文长推】解读 Arbitrum 新一代编程环境 Stylus：如何推动新的创新？]]></title>
         <id>https://twitter.com/ballsyalchemist/status/1624526111811022849</id>
         <link href="https://twitter.com/ballsyalchemist/status/1624526111811022849"/>
@@ -148,6 +655,52 @@
 <p><strong>文章作者：</strong></p><p>Life is short, so am I（分布式资本）</p><hr><h3>观点：</h3><p><strong>Life is short, so am I（分布式资本）：</strong>自 2018 年以来，为了优化 EVM，eWASM 的概念一直被众多研究人员和项目讨论。EVM 最终并没有走这条路，因为社区的目标是将以太坊转变为全球结算层并让所有 L2 处理执行。【原文为英文】</p><a href="https://twitter.com/ballsyalchemist/status/1624526111811022849">内容来源</a><p><strong>Life is short, so am I（分布式资本）：</strong>Arbitrum 正在扩展到 WASM，允许使用 Solidity 以外的其他语言开发合约（Web2 开发者）来加速区块链上的开发和采用。除了语言选项，WASM 还提供了执行性能的改进，允许开发人员创建自己的预编译来执行复杂的密码计算。【原文为英文】</p><a href="https://twitter.com/ballsyalchemist/status/1624526111811022849">内容来源</a><p><strong>Life is short, so am I（分布式资本）：</strong>这意味着以前在 EVM 上不受支持的加密方案可以通过 Stylus 启用 EVM+ 在 Arbitrum 上创建。我认为这将允许项目在 Arbitrum 之上构建更多本地验证和信任最小化的中间件，并带来新的创新浪潮。【原文为英文】</p><a href="https://twitter.com/ballsyalchemist/status/1624526111811022849">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PeckShield：孙宇晨向Aave V2存入3300万美元USDT]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/l034dkh0.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/l034dkh0.html"/>
+        <updated>2023-02-12T03:21:53.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，PeckShield监测显示，标记为孙宇晨的地址已经向Aave的借贷池V2存入了3300万美元USDT。这些USDT来自10个地址，每个地址大约在2年前从Poloniex收到了330万枚USDT。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMX单日用户费用超过564万美元，创历史新高]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/9fpbz4tk.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/9fpbz4tk.html"/>
+        <updated>2023-02-12T03:18:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，DefiLlama推特发文称，Andrew Kang平仓ETH和BTC的多头头寸等操作，使GMX费用创历史新高。在过去24小时内，GMX的用户费用达到5,641,320美元，是之前历史最高点的两倍多。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[对比：以太坊和波卡的质押机制和现状]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/umcr3e7q.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/umcr3e7q.html"/>
+        <updated>2023-02-12T03:08:31.000Z</updated>
+        <summary type="html"><![CDATA[以太坊上海升级即将到来，将开启质押提取功能，以太坊质押和质押衍生品赛道引起了大量关注。而波卡从 2019 年上线起就采用 PoS，最近推出了不少新的质押相关的工具。本文将从多个方面对比以太坊和波卡的质押机制和现状，并简析两者的衍生品赛道发展情况。
+以太坊采用权益证明（PoS）机制，每个验证人需要持有 32 ETH 以进行质押。验证人运行一个主信标链节点和多个验证者客户端，每个客户端 32 个 ETH。这些验证人被分配给 “委员会”，这些 “委员会” 是随机选择出来的验证网络中分片的小组。以太坊 2.0 依靠大规模的验证人集来提供可用性和有效性保证：每个分片至少需要 111 个验证人才能运行网络，每个分片需要 256 个验证人才能在一个时期（epoch）内终结所有分片。如果有 64 个分片，那就需要 16384 个验证人。
+波卡采用提名权益证明（NPoS）机制，其中有两个角色 —— 运行节点的  “验证人” ，和去提名验证人的 “提名人” 。提名人无需亲自运行机器，但同样可以获得系统的奖励。提名人还可以加入提名人池来进一步降低参与门槛和简化操作流程。NPoS 让波卡所需的验证人集规模更小，每个平行链大约需要 10 个验证人，如果有 100 条平行链，也只需要 1000 个验证人。波卡网络目前拥有 297 个验证人，预计在网络的成熟期需要 1000 个验证人，为此，波卡推出了 “验证人千人计划” 来增加验证人数量。
+在本文发出时，以太坊有 1644 万 ETH 在质押中，质押率为 14.3%，51.3 万个验证人，质押收益率为 4.32%，计算了通胀之后的收益率为 4.55%；波卡有 5.92 亿 DOT 在质押中，质押率为 46.4%，提名人数量为 45.5 万个，历史质押收益率为 15.39%，扣除通胀之后的收益率为 8.26%。
+对于 PoS 链而言，越多人参与质押，质押…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第五届CCF中国区块链技术大会在无锡举行]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/nyb3pw8t.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/nyb3pw8t.html"/>
+        <updated>2023-02-12T03:04:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，据新华网报道，2月10日至12日，第五届CCF中国区块链技术大会在无锡市举行。大会由中国计算机学会主办，中国计算机学会区块链专业委员会、上海交通大学、无锡市委网信办、无锡锡东新城商务区管理委员会、无锡市区块链高等研究中心联合承办，无锡学院、中科云海智能技术实验室协办。
+大会以“新应用 新赋能 新生态”为主题，邀请到超过50位演讲嘉宾，其中既有区块链学术领域的高校教授，也有业界应用领域的权威专家，共同探讨区块链技术新进展、区块链安全与Web3、区块链隐私保护与监管、区块链数字资产交易、区块链与密码学以及区块链领域人才培养等热点话题。
+会上还发布了《CCF区块链专委会区块链高水平学术期刊和学术会议目录》《CCF区块链学术研究白皮书》和《无锡市政务区块链创新应用指南》。“无锡市区块链高等研究中心-无锡学院人才实训基地”也在大会上揭牌。一批区块链产业链上下游的优质企业在会上与锡东新城商务区签约，将落地区块链项目，逐渐形成一个富有竞争力的区块链产业共同体。]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -172,6 +725,162 @@
 <p><a href="https://twitter.com/fwdresearch/status/1624109863155679232">内容来源</a></p><hr><h3>观点：</h3><p><strong>sam（Arweave 创始人）：</strong>Arweave 2.6 从根本上提高了网络及其存储市场的能源效率。在 2.6 硬分叉之后，预计还将发布一个或多个调整版本，用于校准网络。【原文为英文】</p><a href="https://twitter.com/samecwilliams/status/1624112332765859840">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nexo将于4月停止向美国客户提供借贷产品EIP]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/oxmonyhw.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/oxmonyhw.html"/>
+        <updated>2023-02-12T01:21:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，据The Block报道，加密借贷平台Nexo将于4月1日停止向所有美国客户(包括公民和居民)提供借贷产品“Earn Interest Product（EIP）”。美国用户应在此之前取款，Nexo的其他服务不会受到影响。账户被错误标记的非美国客户必须通过提供银行对账单或水电费账单等文件来更新验证细节。据此前消息，Nexo上个月与美国证券交易委员会(SEC)达成和解，将支付4500万美元罚款并停止提供EIP。Nexo于2020年6月开始向美国客户提供EIP，SEC此前指控Nexo未经注册发行和销售EIP。Nexo已同意向SEC支付2250万美元的罚款，并同意额外支付2250万美元，以了结州监管机构提出的类似指控。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巴西银行支持使用加密货币纳税]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/kb8k2qiz.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/kb8k2qiz.html"/>
+        <updated>2023-02-12T01:12:13.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，据The Block报道，南美历史最悠久的银行巴西银行(Banco do Brasil)表示，将支持使用加密货币纳税。通过与初创公司Bitfy合作，巴西银行客户可以使用应用程序将账户中的加密货币立即转换为当地货币，以支付和结算税单。据此前消息，巴西央行目前正在测试一种计划于明年发行的数字货币。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：USDT新地址数量创历史新高]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/8nx3r4kz.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/8nx3r4kz.html"/>
+        <updated>2023-02-12T01:00:53.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，Glassnode数据显示，USDT新地址数量达到2434.202个，创历史新高。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cathie Wood：监管机构禁止中心化质押将损害美国在加密革命中的竞争力]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/8n87v84q.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/8n87v84q.html"/>
+        <updated>2023-02-12T00:58:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，资产管理巨头ARK Invest创始人Cathie Wood推特发文，抨击美国监管机构可能禁止向零售投资者提供质押服务。Cathie Wood强调，这将损害美国在Web3领域的竞争力。
+如果监管机构真的禁止美国受监管的中心化实体提供质押服务，用户将会转移到海外交易所或转向自托管。鉴于监管套利，美国交易所将输给外国竞争对手。这对美国在加密革命中的竞争力没有好处。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《金融时报》：Meta推迟多个团队的预算，正筹划新一轮裁员]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1vausoxr.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1vausoxr.html"/>
+        <updated>2023-02-12T00:37:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月12日消息，据英国《金融时报》报道，Facebook母公司Meta推迟敲定多个团队的预算，因为该公司正在准备新一轮裁员。两名熟悉情况的Meta员工称，最近几周，该公司对于预算和未来员工人数一直不确定。本月早些时候，Meta宣布，预计其2023年的支出将在890亿美元至950亿美元之间。去年11月，Meta裁员超过1.1万人，占其员工总数的13%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[外媒：一些名人并未真正花钱购买BAYC，仅为配合MoonPay宣传]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/7hnqi24u.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/7hnqi24u.html"/>
+        <updated>2023-02-11T13:17:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月11日消息，CNN发布“无聊猿”BAYC深度调查文章《一个关于名人营销、暗箱交易和种族主义指控的扭曲故事》，表示链上数据显示MoonPay为BAYC支付了高昂价格，然后将这些NFT免费转移到所谓的名人钱包里，随后名人则会在社交媒体“感谢”MoonPay，表示通过MoonPay购买了BAYC，以达到营销目的。几位前MoonPay员工称，许多名人可能并没有真正为购买BAYC付费，因为根本没有链上证据。
+链上数据显示MoonPay的一个钱包“MoonPayHQ”已在NFT上花费了至少2500万美元，其中60%（或约1500万美元）花在了BAYC上。律师Louis Tompros声称，Yuga因推广其NFT而补偿了名人，但他们没有披露。
+但好莱坞经纪人、同时也是MoonPay和Yuga Labs投资者的Oseary表示：“没有名人被付钱加入BAYC，Yuga Labs也没有赠送过任何Ape。”他说他为他的BAYC支付了全价，麦当娜也付了全价。
+截止目前，Yuga Labs拒绝接受CNN的正式采访。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[视频 | 本周十大事件： 美国疯传收紧加密监管，Uniswap治理投票暗藏顶级VC斗争！传统巨头抢滩AI赛道]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/stvk6ewm.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/stvk6ewm.html"/>
+        <updated>2023-02-11T13:05:18.000Z</updated>
+        <summary type="html"><![CDATA[本周十大事件！美国疯传收紧加密监管，市场瑟瑟发抖！Uniswap治理投票暗藏顶级VC斗争！传统巨头抢滩AI赛道，AI概念币还能继续涨吗？]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[俄罗斯政府支持的公司将建造一个容纳3万台矿机的矿场]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/4omvr51t.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/4omvr51t.html"/>
+        <updated>2023-02-11T12:57:17.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月11日消息，在俄罗斯政府拥有的俄罗斯远东和北极开发公司 (KRDV)的支持下，俄罗斯联邦的自治共和国之一布里亚特共和国正在建造一个新的比特币挖矿设施。这个大型项目的基础设施建设已经在进行中，由俄罗斯最大的矿业运营商 Bitriver 的子公司Bitriver-B负责。商业新闻门户网站 RBC 援引一份新闻稿称，该项目的价格约为 9 亿卢布（超过 1230 万美元）。该设施将容纳 30,000 台矿机，计划于 2023 年上半年启动。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[木头姐执掌的Ark Invest增持约13.9万股Coinbase以及逾26万股Robinhood]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/r2tm1gj1.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/r2tm1gj1.html"/>
+        <updated>2023-02-11T12:46:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月11日消息，据The Block信息，交易通知电子邮件显示，周五，木头姐Cathie Wood执掌的Ark Invest在其投资组合中增持139105股Coinbase股票（价值794万美元），同时增持263504股Robinhood股票（价值262万美元）。 由于担心美国监管机构将限制加密货币质押服务，周五Coinbase的股价暴跌。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握以太坊上NFT关键数据（2023.02.11）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/51wj5uak.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/51wj5uak.html"/>
+        <updated>2023-02-11T12:24:44.000Z</updated>
+        <summary type="html"><![CDATA[NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
+PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vitalik Buterin向土耳其地震捐款地址捐赠99枚ETH]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/u4y4081z.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/u4y4081z.html"/>
+        <updated>2023-02-11T11:26:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月11日消息，据Etherscan数据显示，北京时间2月11日13:49:23，Vitalik Buterin的以太坊地址vitalik.eth向被标记为Ahbap Yardım/Earthquake Support的地址捐赠99枚ETH（约15万美元）。目前，该地址ETH余额约为393枚ETH（约60万美元）。
+此外，Uniswap 创始人 Hayden Adams也发推文称，向NGO组织AHBAP的加密捐赠钱包发送了12200个 UNI 代币（约7.8万美元）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[观点：美国若切断稳定币，港元稳定币、算法稳定币或将先后登场]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/27r87279uo2v.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/27r87279uo2v.html"/>
+        <updated>2023-02-11T09:29:10.000Z</updated>
+        <summary type="html"><![CDATA[* 撰文：Forbes 福布斯 Web3 Innovation Pioneer，MAP Protocol 核心开发者，行业研究员 James XYC（推特：@Jmapprotocol）
+最近传言美国要切断法币与加密的通道。
+若真如此，我也不会感到奇怪。因为目前为止美国政府信任的加密机构例如灰度、FTX等，现在几乎都已暴雷。回顾2017年ICO后，中国政府对加密圈的态度也大幅度转变，背后原因大抵相似——币圈骗局太多。
+无论拜登政府是否会真的禁止加密货币，可以肯定的是从现在到实际的完全禁还会有一段时间，因为这是大改特改，属于伤筋动骨的事。但是，此起彼伏的监管动作仍将影响美国加密产业的发展，而加密世界迫切需要一个新的稳定币来稳定行业发展预期。当然，这不仅仅是加密产业的需求，还是跨境外贸行业的需求。
+如果美元稳定币脱锚，加密世界能有哪些替代？
+港元与美元是 1 : 7.85 固定汇率，由此看来港币本来就是美元的稳定币，只不过小额化了。并且，为何香港是东方第一的金融交易中心？这是因为对交易人员而言，港币对美元没有汇率波动风险。
+目前，香港金融管理局 (HKMA) 已经发布稳定币监管相关文件，明确表示监管是为了发展，而非抑制。并且香港对Web3的政策，在当前看来也是也是全球第一开放的。
+有传言说香港已经被北京完全控制，政策不稳定。大洋彼岸美国，没被北京控制，对加密的政策也不稳定。在暴风骤雨中，品鸡尾酒这事就算了吧。另外，香港是法治社会，无论归属哪里，香港的法制精神和环境还在，所以没必要过度解读香港。
+当下，Hashkey 和一些其他拿到牌照的交易所已经有了换钱牌照。而香港金管局的指导意见也明确表示银行业可以自己做稳定币。事实上，港币都是商业银行发行的，所以香港发行港元稳定币（小额美元稳定币）是有例可循的。
+再者，香港已在 Web3 相关投资进行了数额很大的布局。很多基金都拿到了香港政府的 LP投资，布局加密产业。香港可能现在是全球加密行业VC资金最密集的地方之一。
+算法稳定币是2022年币圈暴雷的导火索之一，所以一提算法稳定币，大家就感觉碰到鬼一样。但是如果我们翻看历史，在20 世纪70年代布雷顿森林体系解体之前，美元也是黄金稳定币，但这之后，就成算法稳定币了。美元超发多少，紧缩多少，什么时候超发，什么时候紧缩，背后都有算法。
+USDT 是币圈真正的算法稳定币。它们有足额质押吗？这简直是币圈谜团。从民意调查来看，USDT 肯定是没有足额质押。那它为什么还在越来越大，而且每天转账数大到惊人？
+以免加密圈继续一听算法稳定币就色变，我们对比一下 USDT 和布雷顿解体后的美元，分析一下何为算法稳定币的核心：
+足够的流动率
+美元左手紧攥石油交易，右手牢握金融交易，而这两样大概就已经占据了全球货币流动性的70％。我们看美联储一系列放水加息的动作，其实难度并不算大，因为这其中的核心是流动性。
+交易所、外贸绑定
+再看USDT，和币圈最大的交易场景——中心化交易所绑定。因三大交易所被绑定，所以在外贸圈和跨境结算圈，全部都在用USDT。据传，某国内小商品进出口城市每天有十几亿美元USDT 结算。所以我们看到USDT 可以随意操作、随意增发，有什么问题呢？就像高启强有了老默，有了赵立东做靠山左膀右臂，其他想和他对着干的，都没有意义了。
+所以不要一提算法稳定币，就先说怎么发行，这是微观的。微观方面可以提高效率，但无法决定成功。再看 LUNA 为什么失败，LUNA 币没有搞定中心化交易所，只是在不断借债发行（20％的固定年化），没有搞定外贸，所以崩盘是必然的。
+USDT 因为中心所而成功，USDC 因为DeFi 而成功。下一波机会再哪里，两大成功的稳定币中，就有一个是算法稳定币，所以算法稳定币的机会依然在。
+所以，无论监管动作走向最终如何，不要觉得只要美国政府禁止加密货币了，全世界就没戏了。放眼全球，我们看到法国、香港、韩国以及其他国家地区都在积极拥抱加密货币产业。尤其香港，结合金管局文件来看，港元稳定币将会非常有戏。
+2023年首月已过，让我们一起期待加密产业在2023年的新发展！]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[区块链存储协议Arweave将发布2.6版本，拟于3月6日激活硬分叉]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ihcqlus3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ihcqlus3.html"/>
+        <updated>2023-02-11T09:24:22.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月11日消息，区块链存储协议Arweave创始人Sam Williams在社交媒体宣布，Arweave 2.6现已完成，新版本将提高网络及其存储市场的能源效率，并且激励矿工存储更多数据。网络硬分叉大约在3月6日激活，随着网络难度的重新调整，未捆绑的Arweave交易届时可能会在处理过程中出现暂停，预计将持续几个小时，但捆绑服务的用户应该不会受到影响。 Sam Williams还透露，硬分叉完成后的几周或几个月内还将发布一个或多个调整版本，但相关升级不会对用户造成太大干扰。]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
