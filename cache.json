@@ -6,6 +6,36 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/TheBlock__/status/1625453807701295105",
+          "author": null,
+          "description": "<h3>The Block：NFT 市场 Blur 计划以 10 亿美元估值融资</h3>\n<p>据 The Block 援引知情人士报道，NFT 市场 Blur 计划以 10 亿美元估值融资。此前，Blur 于 2022 年 3 月完成了 Paradigm 领投的 1100 万美元种子轮融资。</p>\n<p><a href=\"https://twitter.com/TheBlock__/status/1625453807701295105\">内容来源</a></p><hr>",
+          "link": "https://twitter.com/TheBlock__/status/1625453807701295105",
+          "publishedOn": "2023-02-14T12:00:33.000Z",
+          "wordCount": 498,
+          "title": "The Block：NFT 市场 Blur 计划以 10 亿美元估值融资",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/p7l010l5.html",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Celo 近期正式公布其 2.0 版本路线图，在其中明确 Celo 将成为一条 PoS 共识机制的 Layer 1 EVM 兼容链，PANews 专栏作家月之暗面从 EVM 兼容性和生态竞争两大部分入手，一文解读 Celo 2.0 路线图。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/p7l010l5.html\">https://www.panewslab.com/zh/articledetails/p7l010l5.html</a></p>\n<p><strong>文章作者：</strong></p><p>月之暗面</p><hr><h3>观点：</h3><p><strong>月之暗面：</strong>向下兼容 EVM ：在更新之后，Celo 将完全兼容 EVM ，同步跟进以太坊的 EIP 和软、硬分叉，将事实上成为以太坊的「侧链」，甚至是以太坊的一部分。向上兼容 Rollup ：Celo 计划成为一个 L2 开发和测试平台，并通过一系列的改进提案，以简化建立任意 L2 的成本；研发 L2 间互操作性解决方案；跟随以太坊开发节奏支持原生 DankSharding  模式，以适配更简化存储成本的 Blob 存储模式，最终让 L2 在 Celo 上无缝衔接。</p><a href=\"https://www.panewslab.com/zh/articledetails/p7l010l5.html\">内容来源</a><p><strong>月之暗面：</strong>向外兼容 MOVE ：Celo 将会和 Sui 进行合作，以探索如何在提升公链性能的同时，保持完全的 EVM 兼容性。构筑 Celo 生态圈：通过代币经济学、开发者体验和 dAPP 来构筑完整的 Celo 链上生态。提升对以太坊主网的兼容性，让开发者无需考虑复用和迁移的成本；通过提供文档、工具等来提升开发者在 Celo 链上的开发体验，进而从供给侧拉高 dApp 的丰富性。</p><a href=\"https://www.panewslab.com/zh/articledetails/p7l010l5.html\">内容来源</a>",
+          "link": "https://www.panewslab.com/zh/articledetails/p7l010l5.html",
+          "publishedOn": "2023-02-14T11:37:50.000Z",
+          "wordCount": 1071,
+          "title": "解析 Celo 2.0 路线图：EVM 兼容性及生态圈构筑",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/14/images/f9Uo2Ko5af.png"
+        },
+        {
+          "id": "https://twitter.com/kelvinfichter/status/1624975023348801536",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>合约共享收入（CSR）是由 Canto 公链提出的新分配模型，为智能合约开发人员提供了新的收益机会。Optimism 生态开发人员 Kelvin Fichter 畅想了一个基于 OP Stack 构建的 L3 索引器项目，通过简单的方法即可实现 Optimism 的合约共享收入模型。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/kelvinfichter/status/1624975023348801536\">https://twitter.com/kelvinfichter/status/1624975023348801536</a></p>\n<p><strong>文章作者：</strong></p><p>Kelvin Fichter</p><hr><h3>观点：</h3><p><strong>Kelvin Fichter：</strong>通过建立一个全新的 OP Stack 链作为 L3，可以实现 Optimism CSR。该 CSR 链将使用 Optimism 主网作为其数据可用性层，并对衍生层做如下修改：1. 当 Optimism 主网生成新区块时，追踪 tx 以查看交易中每个合约使用了多少 gas 或是否创建了新的合约；2. 在 CSR 链上生成一个 tx，报告这个 gas 使用量；3. 对于每个新的合约，创建一个 tx 来记录创建者。【原文为英文】</p><a href=\"https://twitter.com/kelvinfichter/status/1624975023348801536\">内容来源</a><p><strong>Kelvin Fichter：</strong>当人们想获取他们的 CSR 资金时，他们只需使用与 Optimism 主网相同的提款系统来证明 L3 中记录的使用记录。奖励会直接发送到创建者的 Optimism 主网账户。这本质上是在 Optimism 主网上创建了一个索引器作为 L3，除了 CSR 外，还能实现更多的用例，比如：自动奖励使用某个合约的用户等。【原文为英文】</p><a href=\"https://twitter.com/kelvinfichter/status/1624975023348801536\">内容来源</a>",
+          "link": "https://twitter.com/kelvinfichter/status/1624975023348801536",
+          "publishedOn": "2023-02-14T11:24:06.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】如何实现 Optimism CSR：一个基于 OP Stack 的 L3 索引器试验",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/yrso08hr.html",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>丹阳投资董事长康水跃认为，基于零知识证明的全链互操作性协议 zkOmnichain 是区块链与 Web3 的「圣杯」，其重要性非同一般，撰文对其进行全方位解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/yrso08hr.html\">https://www.panewslab.com/zh/articledetails/yrso08hr.html</a></p>\n<p><strong>文章作者：</strong></p><p>康水跃（Fox Tech 创始人）</p><hr><h3>观点：</h3><p><strong>康水跃（Fox Tech 创始人）：</strong>如果以太坊本身的市场占有率能长年维持在 70% 以上，那么 Omnichain 本身就是一个伪概念。然而，以太坊不可能永远维持在 70% 的市占率。随着 BNB Chain、Polygon、Aptos、Sui、Cosmos 体系的增长崛起，我们将会在 2025 年之后看到以太坊本身的市场份额长时间低于 50%。</p><a href=\"https://www.panewslab.com/zh/articledetails/yrso08hr.html\">内容来源</a><p><strong>康水跃（Fox Tech 创始人）：</strong>应用实现全链覆盖有以下途径：1）通过最原始的各链逐一单独部署实现多链状态；2）应有经由一条居间共识协议与起始链、目标链进行互操作，应用通常不部署在这条居间链上；3）通过 Optimistic 机制来完成与其余各链的互操作；4）通过基于零知识证明的全链互操作协议 zkOmnichain 与其余各链进行互操作。但不管是走哪条路径，都在做同样一件事，即将单链应用转化为全链应用。</p><a href=\"https://www.panewslab.com/zh/articledetails/yrso08hr.html\">内容来源</a><p><strong>康水跃（Fox Tech 创始人）：</strong>zkOmnichain 模式属于 Zero-Knowledge Verification，具备更好的鲁棒性。就像 zkRollup 一样，也会产生有效性证明。其中很重要的环节是调用 Sum-Check Protocol 模块，在链下做证明，在链上做验证。经过这种非常严谨的数学与密码学验证，来实现完备性与公正性。至于简洁性，则可以采用 Groth16 来进一步压缩证明尺寸。</p><a href=\"https://www.panewslab.com/zh/articledetails/yrso08hr.html\">内容来源</a><p><strong>康水跃（Fox Tech 创始人）：</strong>基于 zkOmnichain 的全链应用会带来哪些变化？首先是去掉了第一代跨链产品里头的居间链（Intermediate Chain），消减了昂贵验证节点运营成本；其次是去掉了居间代币以及衍生代币，用户无需信这些代币就可以完成原生代币跨链交易。最后是去掉了第三方受信主体预言机，这一举措的意义有助于提高全链网络的韧性。</p><a href=\"https://www.panewslab.com/zh/articledetails/yrso08hr.html\">内容来源</a>",
@@ -1242,6 +1272,46 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/y94wac37.html",
+          "author": null,
+          "description": "PANews 2月14日消息，币安创始人赵长鹏在 Binance 官方Twitter Space上发言表示，由于美元仍然是最市场受欢迎的比特币计价方式，因此目前主流的稳定币都锚定美元，但未来随着整个市场更加开放和去中心化，Crypto 未来可能使用更多非美元的多种货币进行计价，同时，算法稳定币计也是个新的选择，但其需要更多的披露，看到很多新项目在解决算稳问题。其还称目前有很多项目都在有序等待进行IEO。其个人只持有 BTC 和 BNB，不从事任何和市场相关的交易操作。\n在谈到NFT时，CZ表示，他不是一个NFT收藏家，个人背景更多的是一个程序员，但CZ特别说明的是，虽然他不买NFT但并不是说不相信背后的技术，只是自己并不是个收藏家。其还称，Binance 在加密钱包的各层面进行投资，钱包生态非常重要，加密钱包是 Crypto 版的浏览器。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/y94wac37.html",
+          "publishedOn": "2023-02-14T12:59:09.000Z",
+          "wordCount": 971,
+          "title": "赵长鹏：加密货币未来可能使用更多的非美元或算法稳定币计价",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/o3jonkzd.html",
+          "author": null,
+          "description": "NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！\nPANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
+          "link": "https://www.panewslab.com/zh/articledetails/o3jonkzd.html",
+          "publishedOn": "2023-02-14T12:26:15.000Z",
+          "wordCount": 966,
+          "title": "PA图说 | 一图掌握以太坊上NFT关键数据（2023.02.14）",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/14/images/h699hg3B29.jpg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/a40ipxf1.html",
+          "author": null,
+          "description": "PANews 2月14日消息，据The Block报道，由 Jump Trading 前研究负责人 Keone Hon 创立的 EVM 兼容 Layer 1 区块链项目 Monad Labs 完成 1900 万美元种子轮融资，Dragonfly Capital 领投，其他 70 位投资方参投，包括 Placeholder Capital、Lemniscap、Shima Capital、Finality Capital、天使投资人 Naval Ravikant、Cobie 和 Hasu 等。目前 Monad Labs 有 12 名员工，该项目计划在未来六个月内通过跨职能招聘将员工人数增加一倍。\nMonad Labs 联合创始人兼首席执行官 Keone Hon 表示，这笔资金是两轮融资的组合——2022 年 5 月筹集了价值 900 万美元的种子前资金，12 月筹集了价值 1000 万美元的种子资金。Hon 说，Monad 的测试网和主网计划于今年晚些时候启动，但没有说明具体时间表。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/a40ipxf1.html",
+          "publishedOn": "2023-02-14T12:14:07.000Z",
+          "wordCount": 1081,
+          "title": "Monad Labs完成1900万美元种子轮融资，Dragonfly Capital领投",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/0o3loys7.html",
+          "author": null,
+          "description": "PANews 2月14日消息，据The Block报道，美国特拉华州破产法院已授权并批准出售或转让部分“相对最低价值”的FTX资产，包括认股权证、代币和代币认股权证、股票、本票、未来股权和未来代币权益，还允许出售或转让子公司和其他相关权益，包括风险资本和其他投资基金的有限合伙权益。\nFTX 清算人于1月18日提交了一项动议，其中表示一些被投资方表达了回购 FTX 权益的强烈动机，以促进从其他投资者那里筹集更多资金。美国特拉华州破产法院于 2 月 13 日批准了该动议，授权出售或转让与 FTX 的总资产基数相比“相对最低价值”的某些资产。FTX 的最初动议称，大约有 185 笔投资的金额在 100 万美元或以下。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/0o3loys7.html",
+          "publishedOn": "2023-02-14T12:09:58.000Z",
+          "wordCount": 978,
+          "title": "美国特拉华州破产法院已授权并批准出售或转让部分FTX资产",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/t39y9kdj.html",
           "author": null,
