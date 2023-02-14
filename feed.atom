@@ -2,10 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-14T01:30:41.380Z</updated>
+    <updated>2023-02-14T02:27:36.490Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[赵长鹏：币安暂未考虑发行去中心化稳定币]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2hshqfju.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2hshqfju.html"/>
+        <updated>2023-02-14T02:19:17.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月14日消息，针对推特用户“建议币安发行类似DAI的去中心化稳定币”，币安首席执行官赵长鹏回应称：“在这个关头，更希望由其他人来做，以使其更加去中心化。我们不能什么都做，感谢支持。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么Pickhardt Payment能极大地提高比特币闪电网络的支付额度？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/j7pp6qur.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/j7pp6qur.html"/>
+        <updated>2023-02-14T02:16:10.000Z</updated>
+        <summary type="html"><![CDATA[作者：LN Capital
+来源：https://twitter.com/LN_Capital/status/1604540519392153602
+闪电网络支持以下两种付款方式：
+当你发送一笔间接付款时，由于你与接收方之间没有开启通道，你的付款需经由一个或多个中间节点发送。但是，面对 7.5 万个通道和 1.5 万个节点，我们如何从中选择最佳的付款路径？
+@lightning的 LND 实现目前使用 Dijkstra 的算法进行寻路（不是同一个算法，但是非常相近）。
+Dijkstra 的算法发表于 1959 年，目的是找到节点图中任意两个节点之间的最短路径。
+
+下图展示了寻路算法是如何从起始点（左下角的红点）开始搜索到目的点（右上角的绿点）的。
+
+每当你在闪电网络上发送交易时，你的节点都会在节点图中搜索最短的可行路径。
+如果说我们能够优化该寻路算法，使之更快速、更便宜、更可靠呢？
+Pickhardt Payment 正是以此为目标。
+@renepickhardt是一位独立研究者，以改进闪电网络为己任。虽然他硕果颇丰，但最出名的还是他的寻路优化算法。
+Pickhardt Payment 使用概率来判定付款成功的可能性。通过使用概率模型，Pickhardt 算法可以估测出节点图中任意给定通道的流动性储量。付款会经由流动性最大的通道发送，提高可靠性而非速度。
+使用概率优化付款可靠性可以大幅提高闪电网络的付款上限，让之前不可能的大额付款成为现实。
+想象一下在闪电网络上支付 1 万美元只花了一美分不到的手续费。有了 Pickhardt Payment 便可美梦成真。
+@renepickhart和@stefanwouldgo在他们的研究报告中指出：“早期实验表明，我们的方法能够可靠地将当前技术水平下的付款额提高几个数量级。”
+实现 Pickhardt 算法后，@Core_LN发现其付款完成时间和付款失败率减半，速度提高了一倍。这一切的背后只用到了一个 API 调用而已。
+Pickhardt Payment 会为闪电网络打开双赢的局面。一方面，节点运营者能够收获更多利润；另一方面，用户能够享有更高的可靠性，还能发送更高金额的付款。
+网络优化是非线性的，因为它们遵循梅特卡夫定律（网络的价值与其用户人数的平方成正比）。
+因此，一旦我们提高了付款可靠性，我们的网络就会吸引更多流动性，进一步提高可靠性。
+那么，我们如何才能使用#PickhardtPayments呢？
+@c_otto83的 LND-manageJ 现已支持 Pickhardt Payment。
+这里有一个使用 Rust 语言编写的@lightningdevkit补丁：https://t.co/h75gZv1Uns
+这里有一个 python 库可供用户测试和构建自己的版本：https://t.co/OwtWg5JCOq
+（完）]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blur 空投将于明日凌晨 1:00 开箱「Care Packages」]]></title>
+        <id>https://twitter.com/blur_io/status/1625204166682636288</id>
+        <link href="https://twitter.com/blur_io/status/1625204166682636288"/>
+        <updated>2023-02-14T02:02:32.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Blur 空投将于明日凌晨 1:00 开箱「Care Packages」</h3>
+<p>NFT 市场 Blur 官方推特表示，「Care Packages」将于美国东部时间 2 月 14 日 12:00（北京时间 2 月 15 日 1:00）向符合条件的参与者开放。</p>
+<p><a href="https://twitter.com/blur_io/status/1625204166682636288">内容来源</a></p><hr><h3>观点：</h3><p><strong>Coinbase：</strong>Coinbase 将在以太坊网络（ERC-20 代币）上新增对 Blur（BLUR）的支持。若满足流动性条件，交易将于 2023 年 2 月 14 日开放。一旦该资产的供应充足，将分阶段推出 BLUR-USD 货币对交易。【原文为英文】</p><a href="https://twitter.com/CoinbaseAssets/status/1625175460341587970">内容来源</a><p><strong>ChainFeeds：</strong>Coinbase 将为 BLUR 添加「实验资产」（Experimental asset）标签。该标签下的资产为 Coinbase 平台上的新资产，或交易量相对较低的资产。Coinbase 提醒用户，此类资产具一定风险，需谨慎对待。</p><a href="https://twitter.com/CoinbaseAssets/status/1625175460341587970">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 基础设施提供商 Caldera 完成两轮共 900 万美元融资，红杉资本和 Dragonfly 领投]]></title>
+        <id>https://www.coindesk.com/business/2023/02/13/sequoia-dragonfly-back-web3-startup-caldera-in-9m-rounds/</id>
+        <link href="https://www.coindesk.com/business/2023/02/13/sequoia-dragonfly-back-web3-startup-caldera-in-9m-rounds/"/>
+        <updated>2023-02-14T01:46:21.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 基础设施提供商 Caldera 完成两轮共 900 万美元融资，红杉资本和 Dragonfly 领投</h3>
+<p>Web3 基础设施提供商 Caldera 完成两轮共 900 万美元融资，红杉资本和 Dragonfly 领投，Neo、1kx 和 Ethereal Ventures 等参投。新资金将用于发展团队，建立合作伙伴关系和整合，以支持开发人员。</p>
+<p><a href="https://www.coindesk.com/business/2023/02/13/sequoia-dragonfly-back-web3-startup-caldera-in-9m-rounds/">内容来源</a></p><hr><h3>观点：</h3><p><strong>Caldera：</strong>Caldera 使任何人都可以启动和运行专用的、高性能的 Layer 2 网络「rollups」。通过为每个应用程序提供自己的「app-rollup」，为其交易提供专用通道，从根本上降低交易成本，并使项目能够降低费用高峰和网络中断的风险。【原文为英文】</p><a href="https://mirror.xyz/calderachains.eth/uubAs22HCC6jVs7P0be4yYzOfShrT7LDsamiERUnxy0">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blur将于2月15日凌晨1点开箱“Care Packages”]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/uhdu7by9.html</id>
@@ -26,6 +95,18 @@ NYDFS指出：“需要注意的是，该部门授权Paxos在以太坊区块链�
 此前今日早些时候消息，Circle去年向NYDFS举报币安没有足够的储备来支持BUSD。NYDFS发言人周一表示，Paxos没有以“安全可靠”的方式管理BUSD，因此“违反了对BUSD客户定期进行个性化风险评估和尽职调查的义务”。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[彭博社：Circle 去年向纽约州金融服务部举报称 Binance 没有足够储备支持 BUSD]]></title>
+        <id>https://www.bloomberg.com/news/articles/2023-02-13/circle-usdc-alerted-new-york-over-binance-peg-busd-issues</id>
+        <link href="https://www.bloomberg.com/news/articles/2023-02-13/circle-usdc-alerted-new-york-over-binance-peg-busd-issues"/>
+        <updated>2023-02-14T01:15:24.000Z</updated>
+        <summary type="html"><![CDATA[<h3>彭博社：Circle 去年向纽约州金融服务部举报称 Binance 没有足够储备支持 BUSD</h3>
+<p>据彭博社报道，稳定币 USDC 发行商 Circle 于 2022 年秋季向纽约州金融服务部（NYDFS）举报称 Binance 对其代币储备管理不善，经 Circle 团队分析区块链数据后得出的结论显示，Binance 没有存储足够的加密货币来支持其通过 Paxos 发行的稳定币  BUSD。Binance 发言人表示，Paxos 将停止发行新代币，但其发行的所有 BUSD 代币都有 100% 的储备支持。</p>
+<p><a href="https://www.bloomberg.com/news/articles/2023-02-13/circle-usdc-alerted-new-york-over-binance-peg-busd-issues">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
