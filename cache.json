@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://medium.com/@ingonyama/how-zero-knowledge-proofs-will-change-gaming-forever-1ed8ac6fe93f",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>零知识证明再度成为近期热点，ZK 硬件公司 Ingonyama 从游戏行业出发，阐述了 ZKP 如何改善游戏体验、增加玩家收入，从而推动整个行业的发展。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/@ingonyama/how-zero-knowledge-proofs-will-change-gaming-forever-1ed8ac6fe93f\">https://medium.com/@ingonyama/how-zero-knowledge-proofs-will-change-gaming-forever-1ed8ac6fe93f</a></p>\n<p><strong>文章作者：</strong></p><p>Otsar</p><hr><h3>观点：</h3><p><strong>Otsar：</strong>零知识证明（ZKP）可以从多人游戏架构（或在线游戏的托管方式）和游戏玩法两个方面与游戏结合。采用 ZKP 的积极影响：1. 降低成本，无需服务器保存信息即可对数据进行加密和验证；2. 增加隐私保护，ZKP 允许更强大的点对点（P2P）游戏架构，提高 P2P 安全性并防止数据泄露；有效的反作弊方法，ZKP 确保重要信息的真实性和游戏结果的合法性；增强的可扩展性，解决大量并发玩家问题。【原文为英文】</p><a href=\"https://medium.com/@ingonyama/how-zero-knowledge-proofs-will-change-gaming-forever-1ed8ac6fe93f\">内容来源</a><p><strong>Otsar：</strong>与具体游戏类型的结合：1. 第一人称射击类游戏：ZKP 通过允许验证玩家的技能水平而不泄露实际信息来防止操纵匹配系统；2.MMORPG 类游戏：ZKP 允许玩家完全拥有和交易他们的虚拟资产，且不泄漏用户游戏内身份；3. 赌博类游戏：零知识证明可用于证明机会游戏的随机性；4. 解密类游戏：玩家能够在不公开解决方案的情况下分享他们的进度。【原文为英文】</p><a href=\"https://medium.com/@ingonyama/how-zero-knowledge-proofs-will-change-gaming-forever-1ed8ac6fe93f\">内容来源</a>",
+          "link": "https://medium.com/@ingonyama/how-zero-knowledge-proofs-will-change-gaming-forever-1ed8ac6fe93f",
+          "publishedOn": "2023-02-14T10:07:32.000Z",
+          "wordCount": 2479,
+          "title": "【英文】ZKP + 游戏：探索零知识证明在游戏行业的潜在应用",
+          "imageUrl": "https://miro.medium.com/max/1024/0*aC2HQ9maaXx6cAuC.png"
+        },
+        {
           "id": "https://twitter.com/0xallyzach/status/1625147824441819138",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>NFT 通常只与数字艺术和个人资料图片相关联，然而，NFT 用例远远超出了静态图像。Messari 研究分析师 Ally Zach 撰推发文列举了 NFT 在数字艺术之外的六种不同新兴用例及其发展现状。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xallyzach/status/1625147824441819138\">https://twitter.com/0xallyzach/status/1625147824441819138</a></p>\n<p><strong>文章作者：</strong></p><p>Ally Zach（Messari 分析师）</p><hr><h3>观点：</h3><p><strong>Ally Zach（Messari 分析师）：</strong>1）音乐。音乐家可以将音频内容制作成 NFT 进行流式传播或共享，这允许了内容的直接货币化，使音乐节家更容易与粉丝建立联系，并增加了其作品的可发现性。目前音乐 NFT 每周总交易量低于 100 ETH ，独立用户仅为 1.1 万，不到整个 NFT 市场的 1 %。2）去中心化社交。NFT 已成为去中心化社交媒体的支柱，其代表着数字资料和身份、内容、奖励及门控内容。Lens Protocol 作为广泛使用的社交图谱，在过去 3 个月平均保留了 3.5 万名活跃用户。【原文为英文】</p><a href=\"https://twitter.com/0xallyzach/status/1625147824441819138\">内容来源</a><p><strong>Ally Zach（Messari 分析师）：</strong>3）数字身份。可用于存储和验证用户或应用程序的凭证，例如教育证书、许可证、信用评分、活动参与凭证、degen 程度相关。自 1 月 22 日以来，已有 4M 独立用户参与了某种认证平台。4）游戏。在链上游戏中，NFT 通常用于表示独特的游戏内资产，例如：角色、物品及虚拟房产。自 10 月以来，在游戏应用中，MAU（月活跃用户数）下降了 30 %，新用户量下降了 34 %。【原文为英文】</p><a href=\"https://twitter.com/0xallyzach/status/1625147824441819138\">内容来源</a><p><strong>Ally Zach（Messari 分析师）：</strong>5）RWA（现实世界资产）代币化。RWA 通常在以下行业通过 NFT 在链上代表和拥有：房地产、时尚、收藏品、资本市场资产、文档、碳市场。代币化 RWA 解决了现实世界中欺骗及人为错误的低效率问题，6）非同质化应用。该用例率先由 Fleek 推动，在 NFT 上面加了个应用，现在可以存储所有链上的元数据。这一概念仍处于起步阶段，缺乏一定的功能，因此在不久的将来仍会有些依赖于链外服务。【原文为英文】</p><a href=\"https://twitter.com/0xallyzach/status/1625147824441819138\">内容来源</a>",
@@ -1222,6 +1232,46 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/227426s9.html",
+          "author": null,
+          "description": "PANews 2月14日消息，Etherscan数据显示，加密货币做市商Wintermute多签钱包地址今日两次共收到3000万枚Blur代币，每次1500万枚。\n今日早些时候报道，Blur将于2月15日凌晨1点开箱“Care Packages”。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/227426s9.html",
+          "publishedOn": "2023-02-14T10:49:45.000Z",
+          "wordCount": 961,
+          "title": "做市商Wintermute多签钱包已收到3000万枚Blur",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/e86q80yz3b7d.html",
+          "author": null,
+          "description": "作者 |LG Doucet\n编译 | 白泽研究院\n体育主题的实物交易卡和其他体育商品非常受粉丝和收藏家的欢迎，以至于一张职业棒球传奇巨星米奇·曼特尔的 1952 年交易卡在 2022 年以 1260 万美元的价格售出，创下了体育用品、交易卡或纪念品的最高价格。\n\n虽然体育 NFT 还远没有达到这样的水平，但它们可能会随着最近创纪录的 Sorare NFT 113.888 ETH（约 187,000 美元）的拍卖额而走上正轨。\n\n那么，究竟是什么让体育实物交易卡和体育 NFT 产生了如此高的价值？\n总的来说，经正版授权的体育 NFT 在 2022 年带来了约 1 亿美元的一级销售额和约 7 亿美元的二级销售额。\n这些不是小数目。然而，它们实际上比前一年要少，2021 年，体育 NFT 的一级销售额为 1.5 亿美元，二级销售额为 10.65 亿美元。\n\n此图表包括当时所有体育 NFT 项目的一级和二级销售。其中，Dapper Labs 的销售额在 2021 年和 2022 年都约为 1 亿美元。\n所以，当我们说“Web3 x 体育”的故事是围绕着 Top Shot (Dapper Labs 开发的出圈产品) 展开时，这并不是在开玩笑。\n2021 年，仅 Top Shot 一家就完成了 75% 的体育 NFT 二级总销售额，但此后逐渐降温，让人们对体育 NFT 市场有了更清晰的认识。\n\n在用户方面，我们以每月唯一地址买家作为平台留存的衡量标准和“常客”的标记：\n\nSorare 是这方面的赢家，因为它是唯一一个在 2022 年实际用户增长的平台（并且最近打破了每月 50,000 名买家的新纪录）。\n尽管体育 NFT 在 2021 年就开始爆火，但目前许多体育 NFT 项目都相对较新，它们是在 2022 年春季之后上线的，例如 NFL ALL Day、UFC Strike 和 Ca…",
+          "link": "https://www.panewslab.com/zh/articledetails/e86q80yz3b7d.html",
+          "publishedOn": "2023-02-14T10:39:43.000Z",
+          "wordCount": 1618,
+          "title": "着眼 2023 年的体育“叙事” ，能否让体育 NFT 项目回春？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/images/279iM55M6Q.png"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/wmw2zfau.html",
+          "author": null,
+          "description": "PANews 2月14日消息，据金十，英国金融行为监管局（FCA）表示：对未注册的加密机运营商采取行动，目前没有加密ATM机运营商获得了FCA的注册。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/wmw2zfau.html",
+          "publishedOn": "2023-02-14T10:21:13.000Z",
+          "wordCount": 945,
+          "title": "英国金融行为监管局：目前没有加密ATM机运营商获得了FCA的注册",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/kymsnd94.html",
+          "author": null,
+          "description": "来源：华尔街见闻\n作者：李丹\n上月摩根大通曾准确预测到12月美国CPI公布后美股上涨。当时摩根大通的交易室在CPI公布前预计，标普500指数有85%的概率至少涨超1.5%。\n本周二公布的1月美国CPI还很可能继续推升美股。\n\n摩根大通首席经济学家Michael Feroli预计，1月美国CPI将环比增长0.5%，同比增长6.4%，1月核心CPI环比增长0.46%，同比增长5.6%，增速都高于共识预期。他认为通胀上行的动力包括能源、房产/房租和汽车的价格。此外，需关注提出房产的核心服务业通胀，这是美联储目前观察通胀的重点之一。\n对于CPI发布后的市场反应，摩根大通的首席美国衍生品策略师Bram Kaplan认为，标普期权定价体现了，市场预计CPI发布伴随2%的隐形波动，和过去一年CPI公布后的市场平均实际波动水平一致，但低于1月和12月观察到的水平。\n摩根大通交易室对CPI公布当天具体的市场反应预测情形如下：\n上周五摩根大通还指出，其预计CPI增速将和彭博社调查的市场预期一致。鉴于目前的仓位比2022年时更偏中性，任何增速超预期增长或是超预期下降，都不会发生像2022年出现过的那种剧烈市场波动。TMT/非必需消费品的仓位仍低，因此偏鸽派的CPI数据会压低美债收益率和美元，可能吸引更多资金流入这些行业的大盘股，不过流入可能需要数日时间。\n上周五俄罗斯意外宣布计划3月单方面减产后，国际原油反弹至两周高位，收涨逾2%。摩根大通认为，美国WTI原油不需要涨到150美元就能让市场预期更为悲观，如果美油突破90美元，市场对通胀的担忧就会成为主流。摩根大通青睐做多科技股（相关标的QQQ和SMH）、中国股市（相关标的KWEB和FXI）和能源（相关标的USO和OIH），并认为，目前采用市场中性策略是有意义的。\n相比摩根大通看重CPI同比增长，摩根士丹利的交易室更看重环比增长。该行的经济学家预计1月CPI将环比增长0.4%。假如CPI环比增速回落到0.2%左右，该行预计，科技股和消费类股将和固定收益产品共同走高。而如果环比增速超预期增长0.6%，该行预计将引发避险波动，甚至连周期股都可能下跌。",
+          "link": "https://www.panewslab.com/zh/articledetails/kymsnd94.html",
+          "publishedOn": "2023-02-14T10:11:25.000Z",
+          "wordCount": 975,
+          "title": "周二CPI会推升美股？摩根大通：标普可能至少涨1.5%",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/14/images/t259U7qUCX.jfif"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/h0wwduig.html",
           "author": null,
