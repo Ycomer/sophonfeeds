@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-14T11:02:46.692Z</updated>
+    <updated>2023-02-14T12:03:53.586Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据分析Paxos监管风波24小时内，稳定币市场发生了什么变化]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/t39y9kdj.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/t39y9kdj.html"/>
+        <updated>2023-02-14T11:38:29.000Z</updated>
+        <summary type="html"><![CDATA[作者| 21Shares母公司21.co研究分析师Tom Wan
+编译| PANews
+2月13日，纽约金融服务部命令稳定币发行商Paxos停止发行更多BUSD，对此币安已发布声明称Paxos将继续管理该产品的赎回。那么，这场“监管风波”给加密市场带来什么后果呢？让我们用数据来深入分析一下。
+3.42亿BUSD在过去24小时内被Paxos Treasury销毁，根据DuneAnalytics数据显示，当前BUSD的总流通供应量已降至约158亿美元。
+
+BUSD市值下降的同时，稳定币总市值却增加了1.8亿美元，达到约1365.8亿美元，其中市值减少的稳定币主要包括：
+
+市值增加的稳定币为：
+当前稳定币市场份额比例：
+
+据DuneAnalytics数据显示，2月13日，大约有价值28亿美元的加密资产从币安交易所流出。
+
+从币安交易所流出的稳定币资产主要包括：
+
+据Etherscan链上数据显示，AmberGroup从币安交易所提出价值2075万美元的USDC，然后将价值1400万美元的USDC存入Coinbase。此外，AmberGroup还从币安提出了价值380万美元的FET、价值29.5万美元的GRT、以及价值9.9万美元的USDT。
+
+BUSD-USDT的流动性在4小时内从1.17亿美元下降到1700万美元，与此同时BUSD/USDT的交易额飙升至5亿美元。
+
+Curve上的BUSD流动性开始下降，BUSD的流动性已减少了300万美元，而3CRV的流动性减少约80万美元，当前BUSD在流动性池中的比例约为85%。不过，BUSD在去中心化交易所内的单日交易额却从6000万美元增加到了3.09亿美元。
+ 
+据Etherscan链上数据显示，一个“0xe311”开头的地址从CurveBUSD流动性池中提取了价值148万美元的BUSD和价值33.2万美元的3CRV。
+
+据DuneAnalytics数据显示，3Pool中的USDC流动性开始增加而USDT的流动性减少。
+
+整体来看，Paxos被勒令停止发行更多美元稳定币BUSD之后，BUSD供应量开始减少，但稳定币总市值有所上涨。用户开始从币安交易所提取BUSD、AmberGroup则提取USDC，币安和Curve的BUSD流动性都产生了一定波动和影响。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[链上数据分析：从野蛮生长的DeFi世界洞察价值]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/v1qtw32no41l.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/v1qtw32no41l.html"/>
+        <updated>2023-02-14T11:34:17.000Z</updated>
+        <summary type="html"><![CDATA[贡献者：Ye Wang@THUBA Research Core
+审核者：Yofu@DAOrayaki
+视频链接：https://www.bilibili.com/video/BV1k14y1c79j/?spm_id_from=333.999.0.0
+Key Takeaway
+目前主流的链上数据分析工具多处于从Web2向Web3过渡的阶段，未来面向DeFi的数据分析服务一定是根植于Web3原生数据特性的。特别是基于智能合约代码逻辑的数据洞察能力，将会成为链上数据分析平台最重要的护城河。
+目前数据产品也出现了两种分化的发展场景：一种是注重开发者和用户社区建设，主要面向开发者及技术人员，通过激励社区贡献，鼓励用户独立发布数据洞察，从而建立产品的正反馈循环，比如Dune。另一种是基于自身产品强大的分析能力，主要面向专业的机构投资者群体提供独家的定制数据洞察服务，比如Nansen和Glassnode。在建立起成熟的开发者社区后，通过产品迭代和社区反哺，社区驱动的数据工具同样也能够产出相对优质的洞察，因此未来两种模式结合发展将会是主流。
+顾名思义，链上数据即“记录在区块链上的数据”。因为区块链是一个公开的、去中心化的分布式记账本，其存储和验证的所有交易都不能更改或删除，且允许任何人访问，因此链上数据具有公开透明、不可篡改、安全等特征。这些特点意味着人们可以公开查看记录在区块链上的所有交易，并提取各种原始数据，这些数据包括代币（token）的发送数量和时间、钱包地址、支付给矿工的费用及链上交易量等信息。
+随着智能合约的发展，去中心化应用（Dapp）颠覆了传统Web2应用的架构，Web2应用的后端被智能合约所替代，其中凡是智能合约交互产生的数据，都发布在区块链上。任何人可以都访问，它因此成为一种公共产品，这些包括资产信息、交易数据和合约代码。理论上，只要区块链块空间够大，任何数据都可以存储…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[外媒：NFT市场Blur将以10亿美元的估值进行融资]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/vxk1x73e.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/vxk1x73e.html"/>
+        <updated>2023-02-14T11:28:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月14日消息，据The Block报道，NFT 市场 Blur 将以 10 亿美元的估值进行融资。
+2022年3月，NFT市场Blur曾完成1100万美元种子轮融资，Paradigm领投。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全链 Layer0 才是未来？一文解读「Web3 新圣杯」zkOmnichain]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/yrso08hr.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/yrso08hr.html"/>
+        <updated>2023-02-14T10:57:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>丹阳投资董事长康水跃认为，基于零知识证明的全链互操作性协议 zkOmnichain 是区块链与 Web3 的「圣杯」，其重要性非同一般，撰文对其进行全方位解读。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.panewslab.com/zh/articledetails/yrso08hr.html">https://www.panewslab.com/zh/articledetails/yrso08hr.html</a></p>
+<p><strong>文章作者：</strong></p><p>康水跃（Fox Tech 创始人）</p><hr><h3>观点：</h3><p><strong>康水跃（Fox Tech 创始人）：</strong>如果以太坊本身的市场占有率能长年维持在 70% 以上，那么 Omnichain 本身就是一个伪概念。然而，以太坊不可能永远维持在 70% 的市占率。随着 BNB Chain、Polygon、Aptos、Sui、Cosmos 体系的增长崛起，我们将会在 2025 年之后看到以太坊本身的市场份额长时间低于 50%。</p><a href="https://www.panewslab.com/zh/articledetails/yrso08hr.html">内容来源</a><p><strong>康水跃（Fox Tech 创始人）：</strong>应用实现全链覆盖有以下途径：1）通过最原始的各链逐一单独部署实现多链状态；2）应有经由一条居间共识协议与起始链、目标链进行互操作，应用通常不部署在这条居间链上；3）通过 Optimistic 机制来完成与其余各链的互操作；4）通过基于零知识证明的全链互操作协议 zkOmnichain 与其余各链进行互操作。但不管是走哪条路径，都在做同样一件事，即将单链应用转化为全链应用。</p><a href="https://www.panewslab.com/zh/articledetails/yrso08hr.html">内容来源</a><p><strong>康水跃（Fox Tech 创始人）：</strong>zkOmnichain 模式属于 Zero-Knowledge Verification，具备更好的鲁棒性。就像 zkRollup 一样，也会产生有效性证明。其中很重要的环节是调用 Sum-Check Protocol 模块，在链下做证明，在链上做验证。经过这种非常严谨的数学与密码学验证，来实现完备性与公正性。至于简洁性，则可以采用 Groth16 来进一步压缩证明尺寸。</p><a href="https://www.panewslab.com/zh/articledetails/yrso08hr.html">内容来源</a><p><strong>康水跃（Fox Tech 创始人）：</strong>基于 zkOmnichain 的全链应用会带来哪些变化？首先是去掉了第一代跨链产品里头的居间链（Intermediate Chain），消减了昂贵验证节点运营成本；其次是去掉了居间代币以及衍生代币，用户无需信这些代币就可以完成原生代币跨链交易。最后是去掉了第三方受信主体预言机，这一举措的意义有助于提高全链网络的韧性。</p><a href="https://www.panewslab.com/zh/articledetails/yrso08hr.html">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[做市商Wintermute多签钱包已收到3000万枚Blur]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/227426s9.html</id>
