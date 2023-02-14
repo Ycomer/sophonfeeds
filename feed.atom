@@ -2,10 +2,107 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-14T09:02:50.491Z</updated>
+    <updated>2023-02-14T10:03:16.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[3分钟了解Arbitrum上的资产管理协议Factor DAO]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/h0wwduig.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/h0wwduig.html"/>
+        <updated>2023-02-14T09:37:41.000Z</updated>
+        <summary type="html"><![CDATA[注：原文为DeFi研究员@Slappjakke推文，MarsBit整理编译。
+看好 Arbitrum 生态系统代币，但没有时间每天研究？让专业人士@FactorDAO为你管理资产。
+在此线程中，我将讨论：
+1.Factor DAO基本介绍
+2.产品
+3.代币经济学
+4.公开发售
+Factor DAO正在建立一个万物资产管理中心。他们正在创建新的 defi 原语，其中包括：
+1）资产经理可以管理他们的投资组合；
+2）投资策略师可以部署和分享他们的策略；
+3）投资者可以投资这些投资组合。
+你可以通过非托管解决方案访问资产，@FactorDAO使访问任何数字资产类别变得容易。金库中将会有各种风险状况的资产。
+Factor 将在 Arbitrum 上推出，但这只是其多链之旅的开始。他们计划在未来部署到所有主要的 EVM 链。
+开仓者和策略者可以在无代码仪表板中部署完全可定制的保险库，无需开发人员经验。还记得你嫉妒 Yearn策略者在 Yearn 保险库上赚取费用吗？现在是你作为Factor 策略者赚取这些费用的机会。
+所有金库都建立在 ERC-4626 代币标准之上，这意味着它们可以是生息的“金库代币” 。Factor 对标准进行了微小的修改，以允许多个资产同时保存在金库中。
+协议（和资产管理者）从保险库 TVL 和利润中赚取费用。并且对于不同的协议参与者会有不同的质押金库。
+
+2.产品
+1）代币化篮子
+2）收益池
+3）衍生品
+
+1）代币化篮子（指数）
+代币化篮子就像未经许可的指数基金或 ETF。一个篮子包含多种不同的资产，并允许投资者轻松获得他们选择的指数的敞口，金库管理者可以在需要时重新平衡资产。
+
+2）收益池
+创建者可以部署无需许可的非托管池来进行借贷。每个借贷池都是隔离的，因此不会通过借贷风险资产将风险波及其它池。
+这意味着资产管理者可以做空代币，或放贷以赚取所持资产的收益。 不过，也有可能部署许可池（仅适用于白名单地址）。
+3）衍生品
+Factor 计划允许用户在任何标的资产上创建、结算和交易去中心化衍生品。目前距离实现这一计划还有些遥远。
+据了解，该架构将支持在现实世界的代币化资产（如实物商品、证券和碳信用额度）上生成衍生品。这意味着你可以构建由加密资产和非加密资产组成的投资组合。
+$FCTR是一种实用型代币， 用户可以锁仓$FCTR获取$veFCTR，继而获得：
+1）协议费用和治理权
+2）50%平台收入
+治理权分配意味着我们可以看到 Factor 上看到贿赂经济。
+
+代币分配
+
+公开发售
+2023 年 2 月 20 日 18:00 UTC 在@CamelotDEX启动。
+销售将持续 5 天，$FCTR总供应量的 10% 将用于公开销售，并将使用公平发行、价格发现模型进行分配。
+起拍价为 0.10 美元（FDV 1000 万美元），但所有参与者的最终价格将取决于筹集的金额 。
+一如既往...这不是投资建议，投资新币是有风险的，所以请确保DYOR。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[速览Celo 2.0路线图：左手以太坊右手Sui，打造最强兼容链]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/p7l010l5.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/p7l010l5.html"/>
+        <updated>2023-02-14T09:20:01.000Z</updated>
+        <summary type="html"><![CDATA[沉寂了一段时间后，Celo近期正式公布其2.0版本路线图，在其中明确Celo 将成为一条PoS共识机制的Layer 1 EVM兼容链，以此来全面拥抱以太坊生态，具体可分为以下六点：
+可以发现，本次更新要点，Celo将视角更多转向EVM兼容性和生态竞争两大部分本身，在以往的ReFi和可持续理念之外，Celo希望能探索出更多新的业务模式，以重新在公链竞争中获得优势。
+
+兼容EVM：自身定位的重新审视
+2023年的Celo，在一众公链竞争中稍显颓势，前有Move系的Aptos、Sui等新锐竞争，后有BSC等一众EVM兼容链挤压，还有Cosmos 2.0支持下的应用链模式大杀四方。
+在Celo的发展史上，其早期更为强调对跨境转账和支付赛道的偏爱，比如发行原生cUSD和cEUR两大原生主流稳定币，但是在最近的竞争中，Celo专注于自身的流支付赛道并不安稳。
+
+过去的一年中，Celo也在积极探索，诸如ReFi（可再生金融）、UBI（基本经济收入）、Negative Carbon（负碳)等新概念纷纷和Celo绑定颇深，但始终未能真正有所突破。
+而本次Celo 2.0更新的跟进以太坊发展路线图，以及强调EVM兼容性和更友好的Rollup扩容方案适配性，是直接放弃自身的特殊地位，以更低的姿态融入EVM技术体系，专注于建设自身的生态。
+在更新之后，Celo将会以完全兼容EVM的姿态重新出现在世人眼前，将会同步跟进以太坊的EIP和软、硬分叉，将事实上成为以太坊的“侧链”，甚至是以太坊的一部分。目前，Celo已经可以提供高于以太坊的TPS，少于5秒的出块时间。
+Celo在2020年提出EIP-1559的代币销毁提案，先于以太坊主网实际采用，在生产环境中证明EIP-1559的有效性。
+在开发工具中，如Metamask、Truffle，Hardhat和Foundry中已经支持使用Celo的特定功能，如…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Messari：解读超越数字艺术的 NFT 6 个新兴用例]]></title>
+        <id>https://twitter.com/0xallyzach/status/1625147824441819138</id>
+        <link href="https://twitter.com/0xallyzach/status/1625147824441819138"/>
+        <updated>2023-02-14T09:10:36.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>NFT 通常只与数字艺术和个人资料图片相关联，然而，NFT 用例远远超出了静态图像。Messari 研究分析师 Ally Zach 撰推发文列举了 NFT 在数字艺术之外的六种不同新兴用例及其发展现状。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xallyzach/status/1625147824441819138">https://twitter.com/0xallyzach/status/1625147824441819138</a></p>
+<p><strong>文章作者：</strong></p><p>Ally Zach（Messari 分析师）</p><hr><h3>观点：</h3><p><strong>Ally Zach（Messari 分析师）：</strong>1）音乐。音乐家可以将音频内容制作成 NFT 进行流式传播或共享，这允许了内容的直接货币化，使音乐节家更容易与粉丝建立联系，并增加了其作品的可发现性。目前音乐 NFT 每周总交易量低于 100 ETH ，独立用户仅为 1.1 万，不到整个 NFT 市场的 1 %。2）去中心化社交。NFT 已成为去中心化社交媒体的支柱，其代表着数字资料和身份、内容、奖励及门控内容。Lens Protocol 作为广泛使用的社交图谱，在过去 3 个月平均保留了 3.5 万名活跃用户。【原文为英文】</p><a href="https://twitter.com/0xallyzach/status/1625147824441819138">内容来源</a><p><strong>Ally Zach（Messari 分析师）：</strong>3）数字身份。可用于存储和验证用户或应用程序的凭证，例如教育证书、许可证、信用评分、活动参与凭证、degen 程度相关。自 1 月 22 日以来，已有 4M 独立用户参与了某种认证平台。4）游戏。在链上游戏中，NFT 通常用于表示独特的游戏内资产，例如：角色、物品及虚拟房产。自 10 月以来，在游戏应用中，MAU（月活跃用户数）下降了 30 %，新用户量下降了 34 %。【原文为英文】</p><a href="https://twitter.com/0xallyzach/status/1625147824441819138">内容来源</a><p><strong>Ally Zach（Messari 分析师）：</strong>5）RWA（现实世界资产）代币化。RWA 通常在以下行业通过 NFT 在链上代表和拥有：房地产、时尚、收藏品、资本市场资产、文档、碳市场。代币化 RWA 解决了现实世界中欺骗及人为错误的低效率问题，6）非同质化应用。该用例率先由 Fleek 推动，在 NFT 上面加了个应用，现在可以存储所有链上的元数据。这一概念仍处于起步阶段，缺乏一定的功能，因此在不久的将来仍会有些依赖于链外服务。【原文为英文】</p><a href="https://twitter.com/0xallyzach/status/1625147824441819138">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】BUSD 风波进行时，那些数据值得关注？]]></title>
+        <id>https://twitter.com/tomwanhh/status/1625380292822446082</id>
+        <link href="https://twitter.com/tomwanhh/status/1625380292822446082"/>
+        <updated>2023-02-14T08:47:06.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>BUSD 风波未平，市场已迅速作出反应。21shares 分析师 Tom Wan 整理了事件发酵后的市场数据，包括稳定币变化及币安资金流动等。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/tomwanhh/status/1625380292822446082">https://twitter.com/tomwanhh/status/1625380292822446082</a></p>
+<p><strong>文章作者：</strong></p><p>Tom Wan（21Shares 分析师）</p><hr><h3>观点：</h3><p><strong>Tom Wan（21Shares 分析师）：</strong>Paxos Treasury 24 小时内销毁 3.42 亿 BUSD，BUSD 总供应量降至 158 亿。稳定币市值变化： BUSD 减少 3.42 亿美元；USDC 减少 3.2 亿美元；USDP 减少 3000 万美元；GUSD 减少 200 万美元；USDT 增加 7.2 亿美元。【原文为英文】</p><a href="https://twitter.com/tomwanhh/status/1625380292822446082">内容来源</a><p><strong>Tom Wan（21Shares 分析师）：</strong>2 月 13 日币安流出资金 28 亿美元，其中 USDC 流出 12 亿美元，USDT 流出 6.41 亿美元。Amber Group 从币安提取了 2075 万美元的 USDC，并将 1400 万 USDC 存入 Coinbase。币安 BUSD/USDT 交易对流动性在 4 小时内从 1.17 亿美元降至 1700 万美元，BUSD/USDT 的交易额飙升至 5 亿美元。【原文为英文】</p><a href="https://twitter.com/tomwanhh/status/1625380292822446082">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】Blur 空投在即，如何进行项目估值？]]></title>
         <id>https://twitter.com/0xBagman/status/1624720972426186752</id>
