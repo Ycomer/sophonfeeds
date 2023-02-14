@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-14 datetime="2023-02-14T03:05:19.000Z">2023-02-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-14 datetime="2023-02-14T03:05:19.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-14 datetime="2023-02-14T03:29:55.000Z">2023-02-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-14 datetime="2023-02-14T03:29:55.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,54 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/w9niv6p1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一文盘点主流ZKP实现方案特点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/w9niv6p1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/14/images/Jvfo5dAkWv.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《慢雾：盘点 ZKP 主流实现方案技术特点》
+作者：慢雾安全团队
+在研究区块链系统的工作原理时，我们需要了解各种各样密码学知识，比如 secp256k1，它是一种曲线和非对称签名算法，在比特币和以太坊系统中用于签名和验证账号。比如 sha256，它是一种哈希算法，用于把变长信息压缩成定长编码。比如 base58，它可以把信息编码转换成可打印字符表示的字符串。比如 ECDH，它是一种 Diffie - Hellman 密钥交换算法，用于在 P2P 节点间安全交换通讯密钥。
+零知识证明（Zero-knowledge Proof）也是一种密码学算法，简称为 ZKP 或者 ZK，它的特点是可以在不泄露任何其他信息的前提下证明一个命题的正确性（不少人对零知识证明这个名称提出异议，认为“零泄露证明”更能代表它的本质能力）。
+ZKP 最早在 1985 年就已经被提出，然而长期以来一直没有找到大规模应用的场景，所以技术的发展也十分缓慢。一直到 2009 年比特币诞生后，人们发现它非常适合用于解决区块链中的隐私和扩展性问题，至此大量的资本和人才投入到了这项技术的开发和工程应用中。ZKP 有很多实现，例如：Groth16、PlonK、STARK 等，至今还没出现真正的行业标准，本文将为大家盘点各种 ZKP 实现的技术特点，希望能给大家的学习研究和工程开发带来帮助。
+1. 隐私证明
+Zcash 可能是 ZKP 的第一个被广泛使用的应用，它在比特币源代码的基础上，将 ZKP 应用于代币的转移，使得交易的信息完全保密，但同时能被区块链上的节点验证。
+Tornado Cash 是在以太坊运行的混币器，它使用 ZKP 证明 Merkle-Tree 上的节点，用户可以将固定金额的代币存入资金池，然后使用 ZKP 生成的 Proof 证明自己曾经存入过资金，但不需要暴露自己存入时的交易信息。
+2. 计…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/no5in115.html"
+                        open
+                      >
+                        <summary class="article-expander__title">派盾：Paxos Treasury过去24小时已销毁3.42亿枚BUSD</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/no5in115.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月14日消息，据派盾预警监测，Paxos Treasury在过去24小时内销毁3.42亿枚BUSD。BUSD市值现约158亿美元。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -368,6 +416,37 @@ ParaSpace 由基于 Polkadot 的 DeFi 协议 Parallel Finance 团队推出，Par
                   <a class="source-heading__link" href="">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/34594"
+                        open
+                      >
+                        <summary class="article-expander__title">NFTFi 战争升级，全仓杠杆 NFT 借贷协议 ParaSpace 异军突起</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/34594">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+短短 2 个月时间，ParaSpace 从主网上线到成为 TVL 排名第二的 NFT 借贷协议，它究竟是如何成为后起之秀的？律动 BlockBeats 作者 0xLaughing 对此进行分解。
+文章来源：
+https://www.theblockbeats.info/news/34594
+文章作者：
+0xLaughing
+
+观点：
+0xLaughing：ParaSpace 由基于 Polkadot 的 DeFi 协议 Parallel Finance
+ 团队推出，是一个点对池 NFT 借贷协议，允许用户抵押和借出 NFT 和同质化代币，利用未被充分使用的资金进一步投资，并从中赚取收益。简单来说，ParaSpace 允许用户将 ERC-721 代币或 ERC-20 代币的资产组合打包，然后将打包后的资产抵押借贷，以改善用户链上资产资本效率不高的问题。
+内容来源
+0xLaughing：ParaSpace 开创了一个交叉保证金信用系统，允许用户以一个信用额度为所有抵押品提供贷款。抵押 NFT 资产将生成信用额度和健康系数，健康系数保持在 1 以上就不会触发清算拍卖。信用系统类似于估值系统，评估所有抵押品的价值并自动批准贷款，只要是 ParaSpace 支持的抵押品类型，就可以根据总价值进行借贷。即采用交叉保证金的全仓杠杆模式。此外，用户通过 ParaSpace 借贷时可以将自己的资产组合打包抵押，可借入的最大金额基于加权抵押品因子。
+内容来源
+0xLaughing：对投资者来说，同质化代币和 NFT 都是重要的资产类型，但很多时候它们的资金效率无法释放，大多数 NFT 借贷解决方案对不同类型的抵押品支持十分有限。除本文介绍的机制外，ParaSpace 还设计了「混合荷兰式拍卖」清算机制、信用体系下的「先买后付」、高稀有度 NFT 现高额度借贷、借币做空等功能。同样是 Peer to Pool 模式的 ParaSpace 是否会成为「BendDAO 杀手」尚不可知，但可以预测的是，NFT 借贷协议赛道即将陷入红海竞争。
+内容来源</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -6109,8 +6188,8 @@ Prof.Liu：Bitcoin core 面临艰难选择：选择 1：什么都不做，当年
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4170050895">
-        <time id="build-timestamp" datetime="2023-02-14T03:05:59.470Z">2023-02-14T03:05:59.470Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4170334432">
+        <time id="build-timestamp" datetime="2023-02-14T04:03:16.377Z">2023-02-14T04:03:16.377Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
