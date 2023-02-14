@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-14T07:02:47.089Z</updated>
+    <updated>2023-02-14T08:03:36.617Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[彭博社：数字资产公司Taurus SA完成6500万美元融资，瑞士信贷集团领投]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/7cezxc56.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/7cezxc56.html"/>
+        <updated>2023-02-14T07:33:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月14日消息，据彭博社报道，瑞士数字资产公司Taurus SA通过股权融资筹集了6500万美元，瑞士信贷集团 (Credit Suisse Group AG) 领投，德意志银行（Deutsche Bank AG）、百达集团（Pictet Group）、阿拉伯银行瑞士有限公司（Arab Bank Switzerland Ltd）和Investis Holding SA参投，一位知情人士表示，该交易对Taurus的估值为数亿美元。Taurus将利用这笔现金雇用更多员工、开发其技术并通过在巴黎和迪拜设立新办事处进行国际扩张。
+据悉，该公司成立于2018年，其产品允许金融公司存储和发行数字资产，包括比特币等加密货币，以及债券等证券的代币化版本。该公司还运营着一个受监管的通证化证券交易市场。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BTC NFT基础设施观察：第二波炒作何时到来？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/443gqgz3.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/443gqgz3.html"/>
+        <updated>2023-02-14T07:28:58.000Z</updated>
+        <summary type="html"><![CDATA[撰写：Teng Yan
+编译：深潮 TechFlow
+上周，一个新的协议在比特币主网上推出，迅速成为热门话题。它被称为 Ordinals，通过给每个 Satoshi（1 比特币=100,000,000Satoshi）一个独特的数字，将其变成一个 NFT。利用 Taproot，人们现在可以在每个 Satoshi 上刻下数据。人们已经刻录了 JPEG、音频文件、短视频和简单的游戏——所有这些都永久地存储在链上。
+
+很高兴看到比特币爱好者终于对 NFTs 有了一些兴趣。更重要的是，它让新人与比特币网络互动并了解它是如何运作的，许多人正在下载 Bitcoin core 并尝试运行一个完整节点（500+GB）。
+在过去的几天里，我一直在研究这个兔子洞，并消化 Ordinals 的含义。以下是我的一些想法：
+现在所有的活动都是来自（1）人们试验他们可用的新工具，以及（2）加密货币投机者试图抓住他们认为未来将成为有价值的 Historical Artifact 的一部分。
+在我看来，"Historical Artifact " 理论有一定的道理。在 NFT 的世界里，我们对一个物体的历史出处的重视程度是非常高的。这就是为什么 Autoglyphs 和 CryptoPunks 今天如此昂贵。在这种情况下，我认为最大的历史价值将归于有趣的前 1000 个 Ordinals。
+
+目前，Ordinals 已经超过 40000 个铭文，任何超过 10000 的东西都不太可能纯粹基于来源而特别有价值。
+与以太坊 NFT 相比，Ordinal NFT 的可编程性极小，严重限制了它的用例。比特币没有 NFT 社区，NFT 基础设施和工具几乎为零。在探索的过程中，我感觉自己仿佛回到了过去，重温了 2017 年左右以太坊 NFT 的早期时光。
+
+直观地说，唯一在比特币上有意义的 NFT 类型是价值存储 NFT，例如高品质艺术品。把数据放在比特币区块空间是很昂贵的--铸造一个 10K 的 PFP 收藏品，仅费用就需要 6 位数的金额。
+我预计，一旦人们意识到今天的用例仅限于 PFPs/静态艺术，Ordinals 的炒作很快就会平息。目前，交易仅限于场外交易，因此很难买卖 NFTs。以 Ordinals 为重点的钱包解决方案正在建立，一旦有了合理可用的钱包和市场基础设施，或许会出现第二波浪潮。
+炒作平息的时候就是最紧要的关头。比特币上是否有足够的建设者想要使用这些 NFT 创造创新的东西？只有当有人在上面创造出真正新颖的东西时，下一波用户才会到来。我的猜测是，它更有可能是一种社会创新——例如利用这些 NFT 的独特社区或 DAO——而不是技术创新。我已经强调了比特币区块链的局限性——这对有进取心的建设者提出了非常艰巨的挑战。
+坦率地说，很难看到主流对这些 NFT 感兴趣。Ordinals 很可能仍然是一个小众的、爱好者的东西。就像收集旧邮票一样。（推荐阅读：《传闻Bitcoin Punks上涨百倍？详解比特币网络NFT项目和基建现状》）]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[单链过去式，多链进行时，全链Layer0才是未来？解读“Web3新圣杯”zkOmnichain]]></title>
         <id>https://www.panewslab.com/zh/articledetails/yrso08hr.html</id>
