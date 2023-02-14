@@ -1303,6 +1303,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ehu1kstj.html",
+          "author": null,
+          "description": "PANews 2月15日消息，据官方消息，NFT市场Blur已发布其原生代币BLUR，交易者有60天的时间来领取空投代币。CoinGecko数据显示，BLUR上线后价格一度冲高至5.02美元，目前约为0.64美元。此外，交易量已超过2.4亿美元。据此前消息，Blur将完成新一轮融资，估值达到10亿。一位知情人士表示，Blur最初向潜在支持者寻求筹集1500万至3000万美元，当时的估值为7亿美元，但由于该轮融资超额认购，估值也随之上涨。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ehu1kstj.html",
+          "publishedOn": "2023-02-14T21:52:57.000Z",
+          "wordCount": 944,
+          "title": "NFT市场Blur发布原生代币，价格一度冲高至5美元",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/2l48ria6xhgb.html",
           "author": null,
           "description": "「TL;DR」\nNotYourKey,NotYourAsset！\n\n2023 年 2 月 7 日，SEC 的 Division of Examinations 宣布了其 2023 年的工作目标，其中就包括将新兴技术及加密货币（Emerging Technologies and Crypto-Assets）作为 2023 年首要监管任务之一。随后，SEC 马不停蹄地对加密市场进行新一轮“Regulation by Enforcement”式的监管，首当其冲的是 Kraken，以及其 ETH 质押产品。这种监管执法引起了市场的恐慌，甚至出现“以太坊是证券”的荒谬言论。本文将深度解析“以太坊不是证券，ETH 质押（Solo Staking）不构成投资合同，Kraken 的 ETH 质押产品才是证券”这一事实。\n本文将首先简单介绍 Staking 以及 Staking 的几种类型，然后通过美国《证券法》以及 Howey 测试，结合 Paradigm 的“以太坊 POS 质押机制并不能使 ETH 成为一种证券”一文，分析为何以太坊不是证券，ETH 质押（Solo Staking）不构成投资合同，因此也就不是证券交易。最后在此基础上，来看 SEC 认定 Kraken 的 ETH 质押产品是“证券”的逻辑。\n\n根据以太坊基金会网站的信息，ETH 质押是指存入 32 个 ETH 以激活验证者软件的行为。验证者将负责存储数据、处理交易以及向区块链添加新区块，以维护节点的运行并保护网络安全。验证者通过质押 ETH 以赚取额外收益，收益来自执行层网络用户支付的交易费用和共识层网络原生代币的发行。\n用 0xTodd 的话来讲就是：如果把以太坊看作是一家公司的话，负责 Staking 的验证者（Validator）就是打工人员工。它的工作就是验证交易的合法性，然后打包区块上链。\n\n单独质押是指用户存…",
