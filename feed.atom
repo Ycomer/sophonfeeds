@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-15T04:03:01.660Z</updated>
+    <updated>2023-02-15T05:02:53.194Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[马斯克推文配图中含“Floki”，FLOKI代币24小时涨幅近37%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/m6t6462v.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/m6t6462v.html"/>
+        <updated>2023-02-15T04:14:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月15日消息，马斯克发布系列推文介绍关于“推特新CEO”，并配有柴犬图片。由于图片中带有“Floki”字样，相关Meme代币FLOKI短时涨至0.00003310美元后现已回落至0.00002881美元，1小时涨幅27.5%。24小时涨幅36.6%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】 解读 Optimism 生态无许可借贷协议 Sonne Finance：有哪些有趣进展？]]></title>
+        <id>https://twitter.com/Slappjakke/status/1625485963513462785</id>
+        <link href="https://twitter.com/Slappjakke/status/1625485963513462785"/>
+        <updated>2023-02-15T04:14:24.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Sonne Finance 是 Optimism 上无许可借贷协议，目前市值为 200 万美元。加密研究员 slappjakke.eth 从收入和代币经济学的创新及未来发展等方向对该协议进行了解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Slappjakke/status/1625485963513462785">https://twitter.com/Slappjakke/status/1625485963513462785</a></p>
+<p><strong>文章作者：</strong></p><p>slappjakke.eth</p><hr><h3>观点：</h3><p><strong>slappjakke.eth：</strong>Sonne Finance 质押者能够获得三种不同类型的收入，如果使用的是 sSONNE 质押金库，可以获得 VELO、OP 及 SONNE 收入，如果使用的是 uSONNE 质押金库，可以获得 VELO、OP 及 USDC 三种收入。所有质押奖励都来自于协议收入，100% 与质押者分享。【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1625485963513462785">内容来源</a><p><strong>slappjakke.eth：</strong>Sonne Finance 如何引入 VELO 和 OP 作为协议收入的？Sonne Finance 使用 SONNE 代币贿赂 veVELO 代币持有者，质押 SONNE 代币的用户能够获得 VELO 奖励。目前质押者已经从协议收入中获得了 45% 的年利率。【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1625485963513462785">内容来源</a><p><strong>slappjakke.eth：</strong>进展：Sonne Finance 将在基于 Kava EVM 的流动性市场协议 Mare Finance 上推出一个姐妹协议，其中大部分初始供应量将会空投给 SONNE 质押者。此外，Sonne Finance 还在申请下一轮 Optimism 追溯公共资金募资，主要用于激励借款，如果申请通过，其 TVL 或许会大幅上涨。【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1625485963513462785">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FTX投资者对红杉资本、Thoma Bravo、Paradigm等提起集体诉讼]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/16swcx6p.html</id>
@@ -38,6 +60,18 @@ https://www.coindesk.com/consensus-magazine/2023/01/26/japan-embracing-crypto-in
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】解读 EIP-4844 和 Danksharding：如何提升以太坊可扩展性？]]></title>
+        <id>https://twitter.com/blockworksres/status/1625532802937794560</id>
+        <link href="https://twitter.com/blockworksres/status/1625532802937794560"/>
+        <updated>2023-02-15T03:43:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>以太坊的最终目标是在不同的 Rollup 中实现 100,000 TPS。Blockworks 研究员 Westie 在对以太坊路线图进行研究后，解读了能够让以太坊可扩展性得到飞跃发展的两个重要项目：EIP-4844 和 Danksharding。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/blockworksres/status/1625532802937794560">https://twitter.com/blockworksres/status/1625532802937794560</a></p>
+<p><strong>文章作者：</strong></p><p>Westie</p><hr><h3>观点：</h3><p><strong>Westie：</strong>EIP-4844 包含了一种被称为「blob carrying transactions」新的交易格式。这些交易和其他交易不同的是包含了一个大小为 125 kb 的便携式数据包。且相较于 calldata，使用 blob 发布 L2 数据要便宜约 10 倍。此外，EIP-4844 还使用 KZG 承诺的哈希值以对 blob 数据进行承诺。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1625532802937794560">内容来源</a><p><strong>Westie：</strong>EIP-4844 下，每个区块的目标是 2 个 blobs，区块大小为 0.25 MB，而 Danksharding 的目标是每个区块 128 个 blobs，平均区块大小为 16MB，这使得利用以太坊作为其数据可用性层的 L2 的数据可用性成倍降低。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1625532802937794560">内容来源</a><p><strong>Westie：</strong>Danksharding 需要两个重要部分：让每个节点无需下载所有 blob 数据的 DAS 及构建者提议者分离方案（PBS）。DAS 下，数据虽然被分解，但节点只需要下载和验证随机的一些数据。PBS 则意味着验证者的角色演变成了单一的提议者，并引入了专门的构建者。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1625532802937794560">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[数据：黄立成以0.62美元均价抛售近96万枚BLUR]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/t1ow62pb.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/t1ow62pb.html"/>
@@ -46,6 +80,19 @@ https://www.coindesk.com/consensus-magazine/2023/01/26/japan-embracing-crypto-in
 此前今日早些时候消息，黄立成在空投中获得近185万枚BLUR，价值约147万美元。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Render Network 基金会：1260 万枚 RNDR 将于今年上半年定期解锁]]></title>
+        <id>https://medium.com/render-token/rndr-distributions-and-unlocks-4581f285cd3e</id>
+        <link href="https://medium.com/render-token/rndr-distributions-and-unlocks-4581f285cd3e"/>
+        <updated>2023-02-15T03:21:25.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Render Network 基金会：1260 万枚 RNDR 将于今年上半年定期解锁</h3>
+<p>去中心化 3D 渲染解决方案提供商 Render Network 基金会发布有关 RNDR 分发和解锁的消息。该基金会表示，去年提出 RNP-001 提案时，财库钱包余额为 2.57 亿枚 RNDR，其中 1.07 亿枚应分配给合作伙伴，约 4200 万枚仍处于托管状态以供后续分配。「在 4200 万枚待分配 RNDR 中，约有 1260 万枚在 2023 年前 6 个月内仍需定期解锁，1510 万枚此后会定期归属，其余 1430 万枚已解锁、托管并可由有权接收分配的各方赎回。」
+Render Network 基金会成立于今年 1 月 20 日，此前创始团队将 Render Network 核心代码库和 Render Network 品牌的控制权移交给基金会。</p>
+<p><a href="https://medium.com/render-token/rndr-distributions-and-unlocks-4581f285cd3e">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
