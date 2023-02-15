@@ -6,6 +6,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/SushiSwap/status/1625803620594892800",
+          "author": null,
+          "description": "<h3>SushiSwap 推出去中心化品牌许可和孵化器框架 Sushi Studios</h3>\n<p>SushiSwap 官方推特宣布推出去中心化品牌许可和孵化器框架 Sushi Studios 的建立，以授权外部产品团队利用 Sushi 的品牌并开发协议，而无需 Sushi DAO 的财政资助。\n\nSushi Studios 将帮助创建一个包容性的产品生态系统，为所有 Sushi 利益相关者带来价值。还将授权独立的代币经济，允许引导流动性、筹款和新产品发布的分发。通过授权 Sushi 品牌 IP，Sushi Studios 将允许开发者使用 Sushi，以提供能够为 Sushi 品牌、生态系统和利益相关者带来价值的免费产品。此外，社区将有机会获得众筹、空投、独家代币效用等。Sushi Studios 将帮助品牌营销，增加生态系统价值以及促进多代币生态。</p>\n<p><a href=\"https://twitter.com/SushiSwap/status/1625803620594892800\">内容来源</a></p><hr>",
+          "link": "https://twitter.com/SushiSwap/status/1625803620594892800",
+          "publishedOn": "2023-02-15T11:15:24.000Z",
+          "wordCount": 498,
+          "title": "SushiSwap 推出去中心化品牌许可和孵化器框架 Sushi Studios",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/wzxznl/status/1625501491669917698",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>百亿市值的稳定币 BUSD 说关就关？美国在加密行业的影响力可以有多大？BUSD 被关停意味着什么？稳定币有多重要？稳定币存在的意义是什么？加密研究员菠菜菠菜比较了中心化稳定币和去中心化稳定币的异同，并对稳定币的意义发表了自己的看法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wzxznl/status/1625501491669917698\">https://twitter.com/wzxznl/status/1625501491669917698</a></p>\n<p><strong>文章作者：</strong></p><p>@菠菜菠菜</p><hr><h3>观点：</h3><p><strong>@菠菜菠菜：</strong>稳定币的意义在于，其低波动性不仅可以作为价值贮藏物成为市场剧烈波动时的「避风港」，还可以作为交易媒介在交易平台上快速撮合买卖双方，极大的提高了交易效率，为整个加密市场提供了一个安全的价值载体，从而承载更大体量的资金。</p><a href=\"https://twitter.com/wzxznl/status/1625501491669917698\">内容来源</a><p><strong>@菠菜菠菜：</strong>中心化稳定币和去中心化稳定币除发行主体不同之外，功能和作用也不同：1）中心化稳定币增发意味着外部真实的钱流入加密世界，使资金规模扩张；而去中心化稳定币本质上由锁定抵押物流动性生成，并不属于外部资金，目前不会导致市场规模扩张；2）中心化稳定币背后有发行机构抵押法币保障其价值，可以在市场剧烈波动时充当「避风港」；而超额抵押稳定币如果以波动资产作为抵押物，在市场剧烈波动时会面临很大的清算风险。</p><a href=\"https://twitter.com/wzxznl/status/1625501491669917698\">内容来源</a><p><strong>@菠菜菠菜：</strong>稳定币作为现实世界的美元的映射，本身就是美元霸权对加密货币世界施加影响最好的桥梁。前三大稳定币都是以美元作为抵押物，自然都会受到美国监管管辖，而且 USDC 和 BUSD 的发行商 Circle 和 Paxos 都是美国持牌的机构。加密世界中，谁掌握了稳定币，谁就掌握了话语权，BUSD 事件意味着美国的话语权和掌控权在加密世界的进一步巩固。</p><a href=\"https://twitter.com/wzxznl/status/1625501491669917698\">内容来源</a>",
+          "link": "https://twitter.com/wzxznl/status/1625501491669917698",
+          "publishedOn": "2023-02-15T10:30:10.000Z",
+          "wordCount": 498,
+          "title": "【长推】稳定币再思考：对加密行业意味着什么？",
+          "imageUrl": null
+        },
+        {
           "id": "https://mirror.xyz/sovlabs.eth/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Sovereign SDK 将提供一个标准接口，允许 Rollup 与数据可用性层（DA）进行通信，这个标准接口将使 Rollup 更容易部署在新的 DA 上。Sovereign 官方发文阐述 Sovereign SDK 的工作原理及如何通过其实现轻松启动 zk-rollup 的愿景。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mirror.xyz/sovlabs.eth/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA\">https://mirror.xyz/sovlabs.eth/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA</a></p>\n<p><strong>文章作者：</strong></p><p>Sovereign</p><hr><h3>观点：</h3><p><strong>Sovereign：</strong>Sovereign SDK 的工作原理是将 zk-rollup 的功能抽象为一个接口层级结构。在每个层级中，开发者可以自由地使用 SDK 提供的预打包，或从头开始构建自己的功能。通过将逻辑封装在定义明确的接口后面，Sovereign 能够提供可插拔组件，在不牺牲灵活性的情况下创造简单的开发者体验。每个 Sovereign SDK 链都结合了三个元素：1）一个提供 DA 和共识的 L1 区块链；2）一个 Rust 编写的状态转换函数，实现链的「业务逻辑」；3）一个零知识证明系统，能够递归和运行 Rust 的子集。【原文为英文】</p><a href=\"https://mirror.xyz/sovlabs.eth/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA\">内容来源</a><p><strong>Sovereign：</strong>广义的全节点：使用核心接口，Sovereign SDK 将提供一个通用的全节点实现，能够在任何数据可用性层上运行几乎任何状态转换功能；可插拔组件：因为全节点实现是完全通用的，开发者可以轻松地交换模块来改变链的特性，也可以自由选择 zkVM。【原文为英文】</p><a href=\"https://mirror.xyz/sovlabs.eth/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA\">内容来源</a><p><strong>Sovereign：</strong>桥接模块：Sovereign SDK 计划默认提供低延迟的信任最小化桥接。利用 zk 的力量，可以将 all-to-all 桥接的通信复杂度从 O (n^2) 降低到 O (n)；存储模块：为提高 zkVM 之外的效率，将使用最初由 Diem 开发的 Jellyfish Merkle Tree（JMT）存储经过身份认证的状态数据。为了快速访问，还将维护一个扁平的磁盘数据结构来保存原始状态。【原文为英文】</p><a href=\"https://mirror.xyz/sovlabs.eth/pZl5kAtNIRQiKAjuFvDOQCmFIamGnf0oul3as_DhqGA\">内容来源</a>",
@@ -1452,6 +1472,46 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/g7cqb0vl.html",
+          "author": null,
+          "description": "PANews 2月15日消息，Conflux Network 在官推宣布与中国电信达成合作，将于今年晚些时候在香港推出首个 BSIM 试点项目。\n据悉，BSIM 卡集成了 Conflux 的 Tree-graph、双重 PoS 和 PoW 技术，可为任何区块链提供高系统性能支持。Conflux 希望该行为可以降低用户进入 Web3 和元宇宙的门槛。BSIM 卡将用户的公钥和私钥在卡内进行管理和存储，还可以进行加密存储、密钥检索和其他操作。目前 BSIM 卡的研发阶段已经完成，已成功连接到 Conflux 的主网进行测试。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/g7cqb0vl.html",
+          "publishedOn": "2023-02-15T11:50:18.000Z",
+          "wordCount": 998,
+          "title": "Conflux Network与中国电信达成合作，将在香港试行支持区块链的SIM卡",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/8nqdz3t1.html",
+          "author": null,
+          "description": "相关阅读：\n美国SEC等监管机构前后夹击Paxos，醉翁之意或不在BUSD \nhttps://www.panewslab.com/zh/articledetails/i313cuv9.html \nPA图说 | 一图了解被SEC指控的加密项目 \nhttps://www.panewslab.com/zh/articledetails/rhy999ig.html\n \n【FTX崩盘引发秋后算账，美国监管出击Crypto】专题 \nhttps://www.panewslab.com/zh/topiclist/k5LkLm.html",
+          "link": "https://www.panewslab.com/zh/articledetails/8nqdz3t1.html",
+          "publishedOn": "2023-02-15T11:45:01.000Z",
+          "wordCount": 974,
+          "title": "视频｜BUSD事件最新懒人包，SEC禁止Paxos发行BUSD！是向稳定币还是币安CZ宣战？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/15/images/ow1rXw7zM1.jpg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/n9ayv2wbbqvg.html",
+          "author": null,
+          "description": "什么是StarkNet？\nStarkNet 是由以色列软件公司 StarkWare 开发的免许可的第 2 层网络。StarkNet 作为以太坊上的 ZK Rollup 运行，帮助 dApp 使用 STARK 证明以更低的交易成本实现更大的计算规模。该网络允许智能合约与区块链上部署的其他合约进行交互，从而提高协议之间的可组合性。\n在查看 StarkNet 的价值时，重要的是要考虑整个 StarkWare 技术堆栈。StarkNet、StarkEx 和 Cairo 为开发人员提供了一个强大、可靠的解决方案，提供了以太坊的理想特性，例如安全性和去中心化，同时加快了交易速度并降低了成本。以下是我们认为 StarkNet 可能成为第 2 层扩展解决方案竞赛中最大赢家之一的一些原因。\nStarkNet 的第一大优势是它非常注重去中心化。STARK-proofs 允许更多用户以低硬件要求验证整个区块链，并且免许可层的序列器和证明器能确保网络具有抗审查性。\n在增长和发展方面，StarkNet 基金会将 50.1% 的初始 Token 供应用于生态系统发展，其发展目标之一是通过开发治理机制、建立去中心化排序和证明来增强 StarkNet 的去中心化。这种对去中心化的关注有助于吸引我们希望在以太坊中看到的那种建设者——那些专注于构建符合去中心化技术核心原则的开放网络的人。我们认为这是对生态系统发展的积极推动。\nStarkNet 的第二个价值主张是 StarkEx 的可用性，StarkEx 是重型第 2 层可扩展性引擎，为一些大型网络提供支持，例如永续交易平台 dYdX、第 2 层扩展解决方案 ImmutableX 和 NFT 游戏 Sorare 等 dApp。StarkNet 成功推出的原因之一是 StarkEx 中使用的批处理器，它在 StarkNet 的测序中发挥了至关重要的作用。在dYd…",
+          "link": "https://www.panewslab.com/zh/articledetails/n9ayv2wbbqvg.html",
+          "publishedOn": "2023-02-15T11:19:57.000Z",
+          "wordCount": 1320,
+          "title": "为什么 StarkNet 可以成为 Layer 2 竞赛中的黑马？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/images/7KlqKXA85N.webp"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/zyh29lpb3ms0.html",
+          "author": null,
+          "description": "出品|TheprimediaDAO\n共研共创协作者：Jerry、Cherry、BeeGee\n如果把Builder经济放在人类文明演进的高度，它带来的是经济系统变革基础：氏族部落（小国寡民、共同劳动、共同分配）、农耕文明（奴隶主、君主与宗教）、工商文明（资本与政客）、科技/信息文明（科技、资本与政客）、数字文明（区块链/Web3时代的用户Builder共建共享）、星际文明（未知）……\n我们有机会以「区块链/Web3的分布式/去中心化、Token激励机制/Builder经济、智能合约/DAO的组织治理结构」为人类「文明以止」撰写新的叙事篇章，甚至可以连贯性的期待数字文明之后的星际文明（人类只有完成数字化进阶才会具有追逐星辰大海的能力）。\n在人类文明进阶的历史观中，文明的演进是以生存者对环境的适应和改造为源动力的。那么，在数字文明时代个人的生存范式/劳动价值以及整个生态的经济结构/生产关系的迭代将具有决定性意义。我们首先应该进入以Builder用户如何在在数字文明/Web3生态的发挥基于兴趣与专长的自发性建设作用，并以贡献度获得相应的身份地位、价值回报的Web3基础设施建设。\n在TheprimediaDAO策划的破解「Web3技术与产业生融合」的三大障碍研讨沙龙后，我们补充采访了Web3⼀站式的资产管理和协作平台SafeTreasury，以其致力于为DAO/Web3应用提供以Builder用户的贡献为核心完成用户的资产/权益与声誉/信誉等DID要素建设，并提供用户链上资产管理工具、推动用户在DAO/Web3应用的分工协作与生态共建为案例，在数字文明进阶的语境里解析Web3应用迭代进程中Builder经济的实现路径以及系统性价值机会。\n我们首先明确一下广义上的Builder经济概念，比如比特币挖矿、DeFi流动性挖矿以及PLay2E等实践，都是Builder用户的贡献/数据资产化的…",
+          "link": "https://www.panewslab.com/zh/articledetails/zyh29lpb3ms0.html",
+          "publishedOn": "2023-02-15T11:07:58.000Z",
+          "wordCount": 1176,
+          "title": "破题Ⅱ:以Builder经济论Web3应用迭代逻辑与价值机会",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/images/c3K3nOZTc8.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/5509tzv2.html",
           "author": null,
