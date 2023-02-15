@@ -6,6 +6,36 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.coindesk.com/business/2023/02/14/bain-capital-crypto-backs-45m-round-for-blockchain-interoperability-startup-orb-labs/",
+          "author": null,
+          "description": "<h3>跨链互操作性协议 Orb Labs 完成 450 万美元融资，Bain Capital Crypto 领投</h3>\n<p>据 CoinDesk 报道，跨链互操作性协议 Orb Labs 宣布完成 450 万美元融资，Bain Capital Crypto 领投，Shima Capital、6th Man Ventures、Aves Lair、Newman Capital、 Modular Capital 和 SevenX Ventures 等参投。\n\n据 CoinDesk 介绍，总部位于纽约的 Orb Labs 由 Richard Adjei 和 Felix Madutsa 于 2022 年创立。Orb Labs 计划推出跨链消息传递协议 Earlybird，允许开发人员根据用例、成本和速度等因素选择对其应用程序最有效的安全模型。Orb Labs 还在开发一个基于 Earlybird 的代币和消息平台 MagicLane。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/02/14/bain-capital-crypto-backs-45m-round-for-blockchain-interoperability-startup-orb-labs/\">内容来源</a></p><hr>",
+          "link": "https://www.coindesk.com/business/2023/02/14/bain-capital-crypto-backs-45m-round-for-blockchain-interoperability-startup-orb-labs/",
+          "publishedOn": "2023-02-15T03:17:51.000Z",
+          "wordCount": 6686,
+          "title": "跨链互操作性协议 Orb Labs 完成 450 万美元融资，Bain Capital Crypto 领投",
+          "imageUrl": "https://www.coindesk.com/resizer/A0-rCvIKPGSdzQOxUesr_f4Hnpc=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/NCPW2UZDZBEKJJLXF4IMWX2YVQ.jpg"
+        },
+        {
+          "id": "https://ton.vote/",
+          "author": null,
+          "description": "<h3>TON 发布「TON 代币经济模型优化提案」，建议临时冻结非活跃挖矿钱包 48 个月</h3>\n<p>TON 发布「TON 代币经济模型优化提案」，旨在实现社区对 TON 代币循环供应达成共识。该提案建议将非活跃挖矿钱包临时冻结 48 个月，这些钱包从未被激活，且历史上也没有任何转出记录。该提案的投票截止时间为 2 月 21 日。</p>\n<p><a href=\"https://ton.vote/\">内容来源</a></p><hr>",
+          "link": "https://ton.vote/",
+          "publishedOn": "2023-02-15T02:34:46.000Z",
+          "wordCount": 4,
+          "title": "TON 发布「TON 代币经济模型优化提案」，建议临时冻结非活跃挖矿钱包 48 个月",
+          "imageUrl": null
+        },
+        {
+          "id": "https://beta.polygon.technology/blog/to-ethereum-with-love-announcing-polygon-zkevm-mainnet-beta-on-march-27th",
+          "author": null,
+          "description": "<h3>Polygon zkEVM 主网 Beta 版本将于 3 月 27 日发布</h3>\n<p>Polygon 宣布将于 3 月 27 日发布 zkEVM 主网 Beta 版本，团队将在未来几周内发布更多细节。Polygon 表示，自测试网上线以来，已经生成了超过 7,5000 个 ZK 证明，并部署了超过 5,000 个智能合约。Polygon zkEVM 具备 EVM 等效性，已经通过了 100% 适用于 zkEVM 的以太坊测试向量，并且不会为了等效性牺牲其性能。开发人员可以复制粘贴适用于以太坊的代码，使用其在 Polygon zkEVM 上构建，而无需更改任何东西，所有以太坊工具都可以与 Polygon zkEVM 无缝协作。</p>\n<p><a href=\"https://beta.polygon.technology/blog/to-ethereum-with-love-announcing-polygon-zkevm-mainnet-beta-on-march-27th\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>以下是 Polygon zkEVM 在通往主网测试的道路上所取得的一些里程碑:\n1. 超过 84,000 个钱包\n2. 生产了超过 30 万块\n3. 超过 75000 个 ZK 证明生成\n4. 部署超过 5000 个智能合约\n5. 两次公开的第三方审计\n6. 在公共测试网上进行了六个月的测试\n7. 通过 100% 适用于 zkEVM 的以太坊测试向量\n8. 证明生成时间缩短到差不多两分钟\n9. 为大量交易生成证明的成本降至约 0.06 美元</p><a href=\"https://beta.polygon.technology/blog/to-ethereum-with-love-announcing-polygon-zkevm-mainnet-beta-on-march-27th\">内容来源</a>",
+          "link": "https://beta.polygon.technology/blog/to-ethereum-with-love-announcing-polygon-zkevm-mainnet-beta-on-march-27th",
+          "publishedOn": "2023-02-15T02:30:19.000Z",
+          "wordCount": 3286,
+          "title": "Polygon zkEVM 主网 Beta 版本将于 3 月 27 日发布",
+          "imageUrl": "https://assets-global.website-files.com/637e2b6d602973ea0941d482/63eba84dd4c4c5f177092aed_polygon-zkevm-public-mainnet-beta-launch.png"
+        },
+        {
           "id": "https://www.coindesk.com/tech/2023/02/14/bnb-chain-aims-to-double-transaction-speed-targets-zk-tooling-in-2023-roadmap/",
           "author": null,
           "description": "<h3>BNB Chain 技术路线图：2023 年首要目标是 zkBNB 和 BNB Greenfield 的 EVM 兼容性及主网的启动</h3>\n<p>据 BNB Chain 与 CoinDesk 分享的一份技术路线图，BNB Chain 计划于今年在性能、可扩展性、安全性及去中心化和基础设施等方面做出重大改进，包括对 Web3 应用程序的升级、为开发人员和用户提供实时技术支持的链上通信层及从合规方向解锁新隐私用例的方法。BNB Chain 增长总监 Alvin Kan 表示，BNB Chain 2023 年的首要目标是 Layer2 基础设施 zkBNB 和基于区块链的 Web3 基础设施 BNB Greenfield 的 EVM 兼容性及主网的启动。此外，作为 2023 年路线图的一部分，BNB Chain 还表示它的目标是将验证者的数量从 29 个增加至 100 个，还计划将其吞吐量从 1.4 亿 Gas 限制和 2200 TPS 提高至 3 亿个 Gas 限制和 5000 个 TPS。此外，BNB Chain 还将增加 Optimistic Rollups 以支持生态系统中更多用途。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/02/14/bnb-chain-aims-to-double-transaction-speed-targets-zk-tooling-in-2023-roadmap/\">内容来源</a></p><hr>",
@@ -1332,6 +1362,46 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/16swcx6p.html",
+          "author": null,
+          "description": "PANews 2月15日消息，据彭博社报道，FTX投资者已对红杉资本、Thoma Bravo、Paradigm等风险投资和私募股权公司提起集体诉讼，指控他们此前宣传了加密交易所FTX的合法性，FTX的倒闭造成了数十亿美元的损失。\n周二代表投资者提起的集体诉讼称，这些公司在2021年参加了一场促销营销活动，以宣传他们自己在FTX实体中的数亿美元投资。投资者称，这为这家最终于去年11月破产、其联合创始人Sam Bankman-Fried（SBF）现在面临刑事指控的企业增添了“合法性”。投资者指控这些公司各种违反州和联邦法律的行为，包括虚假陈述、虚假广告和民事共谋。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/16swcx6p.html",
+          "publishedOn": "2023-02-15T03:52:28.000Z",
+          "wordCount": 955,
+          "title": "FTX投资者对红杉资本、Thoma Bravo、Paradigm等提起集体诉讼",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/1ef28y46.html",
+          "author": null,
+          "description": "作者 | Emily Parker CoinDesk\n编译 | Ehan 吴说区块链\n原文链接：\nhttps://www.coindesk.com/consensus-magazine/2023/01/26/japan-embracing-crypto-industry-web3-dao-nft/\n由于已经制定了严格的法规， FTX Japan 及其投资者得以在 FTX 崩溃时免受重大损失，日本正在制定稳定币、NFT 和 DAO 相关的政策和指南以欢迎加密货币的未来。\n在加密寒冬中许多国家按兵不动时，日本已准备好在加密行业中发挥独特的作用。日本执政的自民党 Web3 项目团队的提案如此写道。换句话说：在其他国家害怕危机的地方，日本看到了机会。\n在最近的东京之行之后，很难夸大日本与世界大部分地区的不同步。与我交谈过的人似乎都没有对 FTX 崩溃或在此之前的一连串加密货币内爆感到特别不安。FTX 崩盘“对政策制定没有影响，”众议院议员兼自民党 Web3 项目团队成员 Masaaki Taira 说。\n从美国到欧洲再到亚洲，立法者和监管机构对加密货币的态度越来越谨慎，但推广 Web3 仍然是日本国家战略的一部分。从 DAO 到 NFT, 一小群活跃的政治家正在为加密相关的一切提出指导方针。日本交易所上架代币越来越容易；一项繁重的税收要求已经修订，标志着加密货币企业家的重大胜利。虽然 Coinbase 和 Kraken 退出了日本，但过去曾激怒日本监管机构的币安成功收购了一家日本交易所。日本交易所目前不允许使用的稳定币也有了新的发展道路。\n这引出了一个问题：为什么日本在此时拥抱加密货币？\n最简单的解释可能是，当谈到加密货币时，日本已经跌入过一次地狱，但证明了它可以经受住风暴。所以现在，一些旧的恐惧消失了。\n日本是加密货币的先行者，但挫折很快就来了。2014 年，日本交易所 Mt. …",
+          "link": "https://www.panewslab.com/zh/articledetails/1ef28y46.html",
+          "publishedOn": "2023-02-15T03:50:53.000Z",
+          "wordCount": 1415,
+          "title": "全球Web3监管雷声滚滚，为何日本选择招手相迎？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/15/images/HsmSSK8OkB.jpg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/t1ow62pb.html",
+          "author": null,
+          "description": "PANews 2月15日消息，据Lookonchain消息，中国台湾歌手黄立成已抛售959,046枚BLUR，并将其兑换成596,759枚USDT，平均抛售价格0.62美元，当前黄立成持有888,888枚BLUR，价值约合730,073美元。\n此前今日早些时候消息，黄立成在空投中获得近185万枚BLUR，价值约147万美元。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/t1ow62pb.html",
+          "publishedOn": "2023-02-15T03:41:05.000Z",
+          "wordCount": 954,
+          "title": "数据：黄立成以0.62美元均价抛售近96万枚BLUR",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/f0welbn8.html",
+          "author": null,
+          "description": "PANews 2月15日消息，NFT市场Blur公布代币经济模型：BLUR代币用于社区治理，有权控制协议的价值累计和分配，治理权力还包括设置半年后的协议费用（最高2.5%），发放社区补助金。\nBLUR总供应量30亿枚，51%分配给社区，29%给过去和未来的核心贡献者（为期4年分配，在前4个月有转移额度解锁），19%给投资者（为期4年分配，在前4个月有转移额度解锁），1%给顾问（在4-5年分配，并有4-16个月的线性解锁）。\n其中，分配给社区的51%中，3.6亿枚（12%）用于本次空投，剩余11.7亿枚（39%）可通过贡献者补助、社区倡议和激励计划分配给社区。这39%中的10%（1.17亿）已被确认用于下一次激励的发放。根据计划，这11.7亿枚将在第一年分配40%，第二年分配30%，第三年分配20%，第四年分配10%。\n此前今日早些时候消息，NFT市场Blur已发布其原生代币BLUR，交易者有60天的时间来领取空投代币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/f0welbn8.html",
+          "publishedOn": "2023-02-15T03:16:07.000Z",
+          "wordCount": 957,
+          "title": "Blur公布代币经济模型：51%分配给社区，29%分配给核心贡献者",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/8tl4k3nx.html",
           "author": null,
