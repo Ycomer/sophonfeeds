@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/blur_io/status/1625566146241114112",
+          "author": null,
+          "description": "<h3>NFT 市场 Blur 原生代币 BLUR 已上线，将空投 3.6 亿枚 BLUR 代币</h3>\n<p>NFT 市场 Blur 原生代币 BLUR 已于今日上线，将向过去三个月内市场上所有交易者、Care Package 持有者和创作者空投 3.6 亿枚 BLUR。所有交易者将有 60 天的时间认领 BLUR。此外，Blur 基金会已经成立。欧易 OKX 行情显示，Blur 当前价格为 0.74 美元，24 小时交易额为 104,742,550.04 美元。</p>\n<p><a href=\"https://twitter.com/blur_io/status/1625566146241114112\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Decrypt：</strong>最高认领者获得了超 320 万枚 BLUR 代币，排名第二和第三的认领者分别获得了 297 万 及 250 万枚 BLUR，交易活动显示排名前三的钱包交易活动都存在重复购买和出售大量相同的 NFT 的行为，表明或存在洗盘交易或协商好的操作。【原文为英文】</p><a href=\"https://decrypt.co/121326/nft-traders-flex-blur-airdrops-most-tokens\">内容来源</a><p><strong>Conor：</strong>到目前为止，单钱包 BLUR 百万富翁约有 25 名，包括 MachiBigBrother、SpaceNFT.eth、Gamoor.eth、Linshan.eth 及 gege.eth。【原文为英文】</p><a href=\"https://twitter.com/jconorgrogan/status/1625587092356222976\">内容来源</a><p><strong>Panda Jackson：</strong>据 Dune 仪表盘显示，目前已经有 273,665,750 枚 BLUR 被认领。具体分布上，42.8% 的地址获得 BLUR 空投数量在 1000 至 10000 枚之间，36.7% 的地址获得 BLUR 空投数量在 100 至 1000 枚之间。【原文为英文】</p><a href=\"https://dune.com/pandajackson42/blur-airdrop\">内容来源</a>",
+          "link": "https://twitter.com/blur_io/status/1625566146241114112",
+          "publishedOn": "2023-02-15T01:04:34.000Z",
+          "wordCount": 498,
+          "title": "NFT 市场 Blur 原生代币 BLUR 已上线，将空投 3.6 亿枚 BLUR 代币",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/y_cryptoanalyst/status/1625411834013691904",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 基础设施提供商 Caldera 今日宣布完成两轮共 900 万美元融资，由红杉资本和 Dragonfly 领投。加密研究员 yyy 简析了 Caldera 的技术架构、特点和可能的开发方向。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1625411834013691904\">https://twitter.com/y_cryptoanalyst/status/1625411834013691904</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Caldera 最大的卖点是：无需编写一行代码，实现 Rollup 链的一键部署。对于公链开发者而言，不再需要聘请专业开发团队，极大地节省了资金成本。同时，基于 Caldera 架构的 Rollup 链具有高吞吐低延迟、可定制、EVM 兼容等特点。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1625411834013691904\">内容来源</a><p><strong>yyy：</strong>Cladera 链模块化堆栈由 3 部分组成：Caldera Chain（执行层）/ EVM 结算层 / 数据可用性层（DA）。Caldera 链能够以任何 EVM 兼容链作为结算层。此外，Caldera 还提供了一系列可定制化的选项，包括但不限于：即时交易确认，交易确认缩减至 10 毫秒内；自定义 ERC-20 代币支付 gas；白名单地址等。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1625411834013691904\">内容来源</a>",
@@ -1302,6 +1312,46 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/xu2z4bkv.html",
+          "author": null,
+          "description": "PANews 2月15日消息，据CoinDesk报道，根据BNB Chain分享的2023年技术路线图，BNB Chain计划今年在性能、可扩展性、安全性、去中心化和基础设施方面做出重大改进，包括对Web3应用程序的升级、为开发人员和用户提供实时技术支持的链上通信层，以及从监管和合规角度解锁新隐私用例的方法。\nBNB Chain增长总监Alvin Kan表示：“我们2023年的首要目标是EVM兼容性，以及我们新的L2基础设施zkBNB和BNB Greenfield(基于区块链的Web3基础设施)的主网发布。”根据路线图，其2023年的目标是将验证者的数量从29个增加两倍以上，达到100个；将吞吐量从1.4亿gas限制和2,200 TPS提高到3亿gas限制和5,000 TPS。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/xu2z4bkv.html",
+          "publishedOn": "2023-02-15T01:13:22.000Z",
+          "wordCount": 971,
+          "title": "BNB Chain 2023年路线图：交易速度翻倍，发布zkBNB主网等",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/tdk1vhtc.html",
+          "author": null,
+          "description": "每一条新公链或者 Rollup 上都会有不少被重复建造的基础设施，正在逐渐走向成熟的 StarkNet 生态也是一样。然而，Sphinx 项目不仅仅想要在 StarkNet 上实现更高效的订单簿交易平台，还希望能够基于 StarkNet 高效的底层基础设施，帮助用户实现跨链交易。\nSphinx 是第一个部署在 StarkNet 上的，支持原生跨链的中央限价订单簿 (CLOB) DEX。是的，在底层公链的性能已经足够突破交易效率的瓶颈之后，AMM 效率低下，无常损失等劣势就会更加明显。因此新公链以及 Layer2 上的 DEX 逐渐采用订单簿作为底层交易系统已经成为了一个明显的行业趋势。\nSphinx 第二个明显的优势，便是其可以支持跨链交易。我们知道目前在 StarkNet 生态中，由于底层技术已经原生支持了账户抽象功能，因此 StarkNet 生态中可使用的钱包都是智能合约钱包。也就是说，已经被用户所熟知的 MetaMask 钱包是无法使用的。\n但是 Sphinx 可以通过构造无信任的桥，允许来自其他链（如 Ethereum、Polygon、Arbitrum 等）的用户使用他们熟悉的 Metamask 远程存入资产并进行交易。通过这种方式，Sphinx 将进一步发挥可组合性，充当各条公链的流动性聚合层，同时不会出现 AMM 的无常损失或滑点等问题。\n要想实现 Sphinx 的跨链交易，首先需要解决两个问题：\n为了解决第一个问题，Sphinx 需要让用户在源链签署一个无 gas 的 EIP-712 信息（这个信息可以是：提交限价买入订单、取消订单或提取资金等）。然后通过一个信息传递桥在链间进行转发。当然，这就涉及到选择一个安全的跨链桥的问题。\n然而遗憾的是，目前上主流的跨链解决方案，要不是基于乐观假设的，要不是通过 multisig 的多钱钱包，由一些中心化实体控制的。这些解决方案都在安全性上进行了妥协。\n因此，Sphinx 选择了与 Herodotus 进行合作，使用存储证明在区块链的共识层实现 ZK 跨链。也就是利用 StarkNet 的廉价计算来读取 Ethereum 上的状态，并使用 SNARK 证明将消息桥接回源链上，以此实现真正安全的信息跨链。\n\n聚合流动性\n在成功地解决了跨链交易的问题后，Sphinx 再进一步，可以实现对不同链不同 AMM 交易资金池之间的聚合。\n\n正如上图所示，未来 Sphinx 可以将不同链间的交易价格以及流动性都统一到位于 StarkNet 的交易中心，也就是 Sphinx 的订单簿系统中。当实现这一步后，主流公链见交易平台的交易价格与流动性都将得到统一，因此用户也将减少因为套利等原因而被动接受次优价格的问题。\nSphinx 非常特立独行的一点是，其在用户界面上参考了彭博终端使用了命令行界面来与合约交互。\n以下截图是其操作指南，比如用户希望向系统中提交一个 ETH 对 USDC 的买单，价格 1200USDC/ETH，数量 0.5ETH，则需要在命令行界面输入「BID ETH USDC 1200 0.5」并点击回车。\n\n好吧，或许对于专业交易者来说这样可以提高效率，但对于普通用户来说确实是增加了使用的门槛。当然目前的 Sphinx 还处于测试阶段，未来在正式版中或许会增加用户更为熟悉的图形交互界面。",
+          "link": "https://www.panewslab.com/zh/articledetails/tdk1vhtc.html",
+          "publishedOn": "2023-02-15T01:03:10.000Z",
+          "wordCount": 1172,
+          "title": "解读StarkNet上原生跨链DEX Sphinx：构造无信任桥，允许EVM资产交易",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/14/images/IAByRJdL29.png"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/41v79dck.html",
+          "author": null,
+          "description": "PANews 2月15日消息，Dune Analytics数据显示，3.6亿枚BLUR空投已被领取76.06%（约2.74亿枚），其中45.7%的空投数量在1000至10000之间，34.5%的空投数量在100至1000之间。目前空投认领人数达40585人。\n此外，空投申领排名前三的钱包分别获得320万枚BLUR（193万美元）、297万枚BLUR（180万美元）和250万枚BLUR（150万美元）空投，这些钱包疑似通过频繁买卖各种NFT刷新交易量。\n此前今日早些时候消息，NFT市场Blur已发布其原生代币BLUR，交易者有60天的时间来领取空投代币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/41v79dck.html",
+          "publishedOn": "2023-02-15T00:34:21.000Z",
+          "wordCount": 962,
+          "title": "数据：3.6亿枚BLUR空投已被领取76.06%",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/v7mf2p26.html",
+          "author": null,
+          "description": "PANews 2月15日消息，Circle首席战略官兼全球政策负责人Dante Disparte在回应福克斯商业新闻记者Eleanor Terrett的推文时表示，Circle没有收到韦尔斯通知（Wells notice）。\n此前，Terrett在推文中称，美国证券交易委员会(SEC)已经向包括Circle在内的几家美国稳定币公司发出了韦尔斯通知，命令他们停止销售未注册的证券。在收到Disparte的澄清后，Terrett也为此表示歉意。\n据悉，“韦尔斯通知”是美国SEC对在美上市公司进行民事诉讼前发出的非正式提醒，接到通知的上市公司可以在收到正式诉讼前跟SEC进行沟通和协商。此前2月13日消息，稳定币发行商Paxos因BUSD收到韦尔斯通知，面临美SEC的诉讼。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/v7mf2p26.html",
+          "publishedOn": "2023-02-15T00:15:51.000Z",
+          "wordCount": 971,
+          "title": "Circle CSO澄清：公司未收到美SEC的韦尔斯通知",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/h2wp85yi.html",
           "author": null,
