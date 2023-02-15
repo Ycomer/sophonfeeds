@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mempool 主理人 Brutoshi 邀请 DAOrayaki 负责人 Shaun 做客 Mempool 博客，探讨账户抽象的历史、落地场景及对 Web3 的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA</a></p>\n<p><strong>文章作者：</strong></p><p>Mempool</p><hr><h3>观点：</h3><p><strong>Mempool：</strong>账户抽象带来的新场景：1）多方验证：合约账户通过账户抽象具备图灵完备能力之后，能够加入其他验证要素，解决了 EOA 账户单点失败的风险；2）为不同角色设置不同支出策略：允许多人共同管理账户，达到传统金融账户的能力。例如，公司或 DAO 组织可以为不同角色设置不同支出权限，或用于 DAO 内部投票场景；3）更便捷的气费支付：引入抽象账户之后，可以用账户里的其它代币，甚至由另一方，如游戏开发商或社交类产品代为支付气费，从而大大降低用户门槛；</p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">内容来源</a><p><strong>Mempool：</strong>4）授权批量交易：账户抽象可以将多笔交易打包成一笔，不仅增加便捷性，同时节省气费；5）会话密钥：链上游戏场景中经常需要批准某个功能，但有时用户可能不希望被打断。鉴于游玩过程不会涉及到数量较高的资产的操作，可以设置一个时间段，做一个临时会话，生成一个会话密钥 (Session key)，在此期间所有交互由游戏开发者代为操作。</p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">内容来源</a><p><strong>Mempool：</strong>账户抽象最大的弊端是兼容性问题，因为它依赖于智能合约，而智能合约是部署到某一条链的，所以它跟这条链绑定。第二个问题是费用问题。账户抽象是跑在链上的，要消耗的链上计算资源高于传统钱包。而且目前以太坊主网的 Gas 费也比较高，所以账户抽象钱包可能会先在 Layer 2 上落地发展。</p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA",
+          "publishedOn": "2023-02-15T12:58:37.000Z",
+          "wordCount": 9518,
+          "title": "Mempool：账户抽象将给 Web3 带来怎样的生命力？",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/4gMRXDAXWQXyYNOFHicicrO4A4ebHdM6IfKibFdUBEePFNWib3OhLGW8rFC0E4wjWr3NUc4RpjaSevbf7TicA7W0X4w/0?wx_fmt=jpeg"
+        },
+        {
           "id": "https://news.bitcoin.com/nfex-raises-3m-seed-round-to-build-nft-derivatives-dex/",
           "author": null,
           "description": "<h3>去中心化衍生品交易所 NFEX 完成 300 万美元融资，ABCDE Capital 领投</h3>\n<p>据 Bitcoin.com 报道，去中心化衍生品交易所 NFEX 完成 300 万美元种子轮融资，ABCDE Capital 领投，Amber Group 和 Firestone Ventures 等参投。据悉，NFEX 提供蓝筹 NFT 和其他加密资产的永续掉期交易，与传统 NFT 市场相比减少了限制并提高了流动性，提供了杠杆和多 / 空交易能力。NFEX 致力于打造最好的衍生品 NFT 市场，创造新的机会，为 NFT 市场吸引更多的流动性。</p>\n<p><a href=\"https://news.bitcoin.com/nfex-raises-3m-seed-round-to-build-nft-derivatives-dex/\">内容来源</a></p><hr>",
@@ -1502,6 +1512,26 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/hwwioika.html",
+          "author": null,
+          "description": "今日要闻提示：\n欧盟委员会启动欧洲区块链监管沙盒，将在2026年前支持20个项目\nBlur公布代币经济模型：51%分配给社区，29%分配给核心贡献者\n芝商所(CME)计划于3月13日推出比特币期货合约\nLido DAO提出四项与金库管理治理提案，包括质押或出售金库中的ETH\nPolygon zkEVM主网Beta版定于3月27日上线\nConflux Network与中国电信达成合作，将在香港试行支持区块链的SIM卡\n欧易将对BLUR延迟到账的用户按500:1的比例空投OKB，单个用户补偿上限为500 OKB\n阿布扎比推出20亿美元的“Hub71+数字资产”计划以加速Web3初创公司的发展\nPANews PARTY AWARD 2023 年度评选开启提名征集！\n冬去春来，今年我们以“Keep Building”为主题，旨在发现并激励Web3领域中持续建设的真正Builder。将通过数据初选、公开征集、线上投票及专业评审团评议，最终评选出12项权威年度奖项。\n点击参与报名：https://www.panewslab.com/party/2023/apply\n\n监管消息\n欧盟委员会启动欧洲区块链监管沙盒，将在2026年前支持20个项目\n据EU Business报道，在数字欧洲计划的支持下，欧盟委员会于当地时间本周二（2月14日）正式启动监管沙箱，用于探索涉及分布式账本技术（DLT）创新用例，企业可以在沙盒中测试其产品和服务，同时与相关监管机构合作。\n据悉，该监管沙盒将在2023-2026年期间支持20个项目，包括欧洲区块链服务基础设施（EBSI）的公共部门用例，首批项目征集将于2023年4月14日截止。\n韩国监管机构拟调查当地交易所的加密质押服务\n据Forkast报道，在美国SEC最近对加密质押服务进行打击后，韩国金融监管机构正计划审查当地交易所的加密货币质押服务。韩国当局表示，…",
+          "link": "https://www.panewslab.com/zh/articledetails/hwwioika.html",
+          "publishedOn": "2023-02-15T13:51:56.000Z",
+          "wordCount": 1593,
+          "title": "PA日报｜NFT市场Blur已空投并公布代币经济模型；阿布扎比推出20亿美元的“Hub71+数字资产”计划",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/15/images/8NwuR7IRyd.png"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/s4pqk2l1.html",
+          "author": null,
+          "description": "PANews 2月15日消息，阿布扎比的技术生态系统 Hub71 发起​​了一项名为“Hub71+数字资产”的新计划。这个生态系统致力于推进 Web3。该生态系统拥有超过 20 亿美元的资金，致力于为阿布扎比的 Web3 初创公司和区块链技术提供资金。Hub71+数字资产将为 Web3 初创公司提供访问阿联酋和全球市场的广泛计划、倡议以及企业、政府和投资合作伙伴的途径。\n该计划将设在阿布扎比全球市场 (ADGM) 的 Hub71，为 Web3 初创公司提供先进的监管环境以及世界级的区块链和虚拟资产基础设施。First Abu Dhabi Bank (FAB) 的研究和创新中心 FABRIC 是 Hub71+ Digital Assets 的主要合作伙伴，而数字资产交易所和服务提供商是促进数字资产发现、交易和托管的倡议的一部分。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/s4pqk2l1.html",
+          "publishedOn": "2023-02-15T13:15:19.000Z",
+          "wordCount": 1000,
+          "title": "阿布扎比推出20亿美元的“Hub71+数字资产”计划以加速Web3初创公司的发展",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/7b62pn3z.html",
           "author": null,
