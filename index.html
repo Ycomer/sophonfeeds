@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-15 datetime="2023-02-15T04:14:49.000Z">2023-02-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-15 datetime="2023-02-15T04:14:49.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-15 datetime="2023-02-15T06:00:26.000Z">2023-02-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-15 datetime="2023-02-15T06:00:26.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,157 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/6d73ujqj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">新公链Sui将于一季度上线主网，手把手教你如何进行测试网交互</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/6d73ujqj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/15/images/k13l8lm1pf.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《手把手教你撸公链Sui测试网空投》
+作者：秦晓峰
+去年 Aptos 代币空投计划中，给予了部分测试网申请用户 APT 代币奖励。如今，公链 Sui 的 Wave 2 测试网已上线，也为撸毛党提供了新的「财富」机会。
+据了解，Sui Wave 2 测试网将专注于测试 Sui 网络的 epoch 管理、Gas 机制、代币经济学和权益质押等等，将通过两款测试游戏 Frenemies 和 Validator Game 进行压力测试。2 月 8日，Frenemies 游戏正式拉开帷幕。官方明确表示，排名前 2000 的优胜者将获得「SUI 代币社区访问计划名额」——可以使 Sui 社区成员能够在早期阶段购买 SUI 代币。
+Frenemies（亦敌亦友）是一款让玩家在 Sui Wave 2 测试网上测试质押功能的游戏。
+每一轮，玩家都会被随机分配到 41 个验证者中的一个，并获得一个角色：朋友（Friend）、中立（Neutral）或敌人（Enemy）。在游戏中，玩家需要向指定的验证者质押代币，提升或降低验证者排名，从而获得奖励分数；如果玩家完成指定的目标，他们将获得 10 分以及额外分数。
+举个例子，如果你被分配给验证者 A，你与他的关系是「朋友」角色；此时 A 在所有验证者中排名是第 30 名，你的目标是在本轮游戏结束前将它排名提高到第 1 名～15 名；接下来，你可以向 A 质押你的 SUI 代币，尽可能提高其排名。
+游戏结束时，假设 A 排名提升到了第一名，你可以获得的分数是：10 分（完成了目标）+29 分（排名从 30 上涨到第一）&#x3D;39 分。如果游戏结束，A 排名只有第 16 名，则任务失败，你不会获得任何积分。每一轮游戏持续八小时，积分持续累计，最终 Wave 2 测试网结束时积分最多的前 2000 名用户获得奖励。
+游戏开始，玩家首先进入游戏官网 https://frenemies.sui.io/connect，下载 Sui Wallet 插件并安装。需要注意的是，Frenemies 也支持 Aptos 生态钱包 MartianWallet，但在后续交互中测试网程序经常出错以及卡顿，建议使用官方钱包。
+
+Sui Wallet 安装完成后，选择到 Sui 测试网（Sui Testnet）。由于钱包中没有测试币，需要前往水龙头领取——复制钱包地址，前往 Sui Discord 社区「测试网水龙头」频道领取测试币（Discord：https://discord.com/channels/916379725201563759/1037811694564560966）
+
+在对话框输入：!faucet +你的SUI地址，即可领取测试币；每次一个 SUI 测试币，两小时可以一次。
+至此，所有准备工作全部完成，点击钱包连接游戏即可。进入游戏后，首先需要为自己取一个昵称，并通过钱包签名；系统会自行检验重名，时间较长，需要耐心等待。
+
+完成取名后，进入游戏主页面，你可以看到当前游戏轮次（Round 13）、自己的得分情况以及排名榜。此时，需要点击右上角的「Play Round 13」，才能正式参与游戏。
+
+点击完成后，系统自动分配本轮验证器和角色。比如本轮，我分配到的验证者是「Mysten-1」，我的角色是「敌人」；「Mysten-1」目前排名是第 1，我的目标是在游戏结束时将它的排名推到 26～41 位，排名越低分数越高。
+
+正式进入游戏后，我可以向其他验证者，特别是排名在「Mysten-1」之后的验证者进行代币质押，反向提高他们的名次，从而降低「Mysten-1」的排名。质押完成后，只需要静静等待游戏结束即可获取分数奖励。游戏结束后，玩家可以取消代币质押，并重新开始新一轮游戏。
+总得来说，Frenemies 游戏操作简单，但任务难度较大，建议多注册几个账户进行参与，提高获胜概率。目前排名第一的用户，共计参与 11 轮游戏，获得 259 分。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/82v6c5ps.html"
+                        open
+                      >
+                        <summary class="article-expander__title">欧盟委员会启动欧洲区块链监管沙盒，将在2026年前支持20个项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/82v6c5ps.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月15日消息，据EU Business报道，在数字欧洲计划的支持下，欧盟委员会于当地时间本周二（2月14日）正式启动监管沙箱，用于探索涉及分布式账本技术（DLT）创新用例，企业可以在沙盒中测试其产品和服务，同时与相关监管机构合作。
+据悉，该监管沙盒将在2023-2026年期间支持20个项目，包括欧洲区块链服务基础设施（EBSI）的公共部门用例，首批项目征集将于2023年4月14日截止。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/e58h4qk4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">徐明星：OKX计划向Blur受影响的客户发起“OKB空投”活动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/e58h4qk4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月15日消息，针对今日凌晨BLUR充值时出现拥堵的情况，OKX创始人徐明星发推表示：“团队将尽快优化风险系统和内部流程，确保同样的问题不会再次发生。OKX还计划向受Blur影响的客户发起‘OKB空投’活动。具体细节将在几小时后公布。”
+此前今日早些时候消息，NFT市场Blur已发布其原生代币BLUR。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/00owj8nx.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Celsius债权人委员会提议起诉Celsius联创和其他高管</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/00owj8nx.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月15日消息，据Cointelegraph报道，Celsius债权人的官方委员会提议起诉Celsius联合创始人亚Alex Mashinsky和其他高管，指控他们“欺诈、鲁莽、严重管理不善和自利行为”，最终导致了这家加密货币贷款机构的倒闭。
+在2月14日向纽约破产法院提交的一份诉状中，律师表示这些高管疏忽且鲁莽的投资导致Celsius在一年内损失了10亿美元，而管理不善又导致了另外25亿美元的损失，此后也没有投资或开发公司的系统来充分解决问题，从而导致进一步的损失；并指控高管们指Celsius在公开市场上花费“数亿美元”来抬高CEL代币的价格，同时他们“秘密出售了数千万个CEL代币（或知道此类销售）”以用于他们的自己的利益；Alex Mashinsky对于Celsius的投资和财务状况的一再撒谎，最后，Celsius将被要求申请破产时，他们自己撤回了资产却鼓励客户将资产留在Celsius平台上。
+律师还表示，此举是在对Celsius现任和前任董事、高管和员工进行了六个月的调查之后进行的，该委员会由7名Celsius账户持有者组成，由美国受托人于2022年7月任命。拟议的诉讼寻求损害赔偿，其数额将在审判中证明。Celsius债权人委员会表示，拟议的投诉只是其调查Celsius前高管可能的不当行为和向受害者返还资产的“许多步骤中的第一步” 。关于拟议投诉的听证会将于2023年3月8日举行。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/t3p054wy.html"
+                        open
+                      >
+                        <summary class="article-expander__title">星展银行：旗下DDEx平台2022年比特币交易量增长80%</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/t3p054wy.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月15日消息，据CoinDesk报道，新加坡星展银行在一份新闻稿中表示，在其数字货币交易所DDEx 2022年比特币交易量同比增长近80%，而在该平台上以太坊交易量增长近65%。该银行不愿公布与美元价值交易相关的数据，但一位发言人表示，由于价格波动，2022年DDEx的交易数据与前一年持平。
+DDEx还表示，到2022年，它的客户数量翻了一番，在交易所注册了近1,200名用户，并指出使用其数字托管解决方案的客户有所增加。
+此前2月13日消息，星展银行计划申请在香港提供加密货币的牌照。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/mrg7u6m5.html"
+                        open
+                      >
+                        <summary class="article-expander__title">MOVE系“老三”：新公链Linera全面解读</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/mrg7u6m5.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/15/images/lXEWMYINkR.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《Foresight Ventures：干货｜Linera 全面解读》
+作者：maggie
+公链赛道竞争激烈，新的资金和团队仍在源源不断进入该领域。目前发展方向包括：以太坊基础上的Level2如 Optimistic、Arbitrum等；以 Aptos、Sui 等为代表的Move系的高性能Level 1链的崛起；关注块化的 Celestia等。
+Linera属于Level 1链，目标是提供安全、高扩展性、低延迟区块链，以给予Web3应用更快的响应速度，缩小中心化和去中心化应用之间的差距。创始团队来自Meta(Facebook)，此前参与Diem区块链的开发，具备较好的研发能力，但技术团队成员背景和人数远与Sui和Aptos项目的有较大差距。于22年6月获得A16Z等投资机构合计600美元的种子轮投资。
+技术上，Linera的主要特点是：1）多链结构（Linera称之为微链/集成多链），并行多条链中的交易，从而提高处理能力和出块速度。声称比主流的扩容技术更好（比单链更快，比分片更方便跨链，比Rollup能更快解决争议）。2）弹性验证者，验证者把不同微链集交给不同Worker处理，可以随着系统负载的增加而水平扩展Worker机器来应对流量。3）智能合约采用Rust语言，借鉴了“基于资源”的 Move 语言，提供更具备安全性和可组合性的区块链编程语言。Move也是Rust语法，Linera只说借鉴Move语言，那么可以理解成是Move语言的变体。4）采用DPoS+BFT共识算法，DPoS确定验证者的投票权重，BFT投票出块。Linera采用多链结构和BFT共识，可以一键发链，但单链性能可能一般。弹性验证者，可动态扩容，获得好的响应速度。但中心化程度偏高，跨链方案不够完善
+发展阶段上看， 项目目前有白皮书，无RoadMap，无GitHub仓库，产品模块还没出现，项目生态还未起…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -8279,8 +8430,8 @@ Prof.Liu：Bitcoin core 面临艰难选择：选择 1：什么都不做，当年
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4180764482">
-        <time id="build-timestamp" datetime="2023-02-15T05:02:53.143Z">2023-02-15T05:02:53.143Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4181075738">
+        <time id="build-timestamp" datetime="2023-02-15T06:03:10.083Z">2023-02-15T06:03:10.083Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
