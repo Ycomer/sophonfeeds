@@ -1533,6 +1533,36 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/na28fk9t.html",
+          "author": null,
+          "description": "PANews 2月16日消息，据派盾监测显示，Voyager已将价值约2870万美元的加密货币转移到加密货币交易所，其中包括1.5万枚ETH（约2530万美元 ) 转移到Binance.US（1万枚ETH）和Coinbase（5000枚ETH），以及2500亿枚SHIB（约340万美元）转移到Coinbase。\n此前Voyager于2022年9月7日从FTX收到10.5万枚ETH （当时价格约为1559美元）。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/na28fk9t.html",
+          "publishedOn": "2023-02-16T02:59:16.000Z",
+          "wordCount": 959,
+          "title": "派盾：Voyager将约2870万美元的加密货币转移至Binance.US和Coinbase",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/e8hwa935.html",
+          "author": null,
+          "description": "2月11日，存储网络Arweave 宣布2.6版本已经开发完成，创始人Sam Williams表示将会在3月6日激活网络硬分叉。\n本次更新将会集中在两个方面，一是降低Arweave存储数据的能源消耗，以提高存储市场的效率；二是激励矿工存储更多数据，尤其是稀有数据备份和音视频等重度空间需求的数据类型。\n具体而言，主要会包括以下四个具体措施：\n\n在Arweave 2.6之前，矿工主要是通过竞争更快的提交验证速度来竞争AR代币，但是在Arweave 2.6更新中，将会引入哈希速度限制，矿工在单位时间内可以合并的交易量将会下降。\n从而会将Arweave从计算密集型转向资源密集型机制，更多的硬盘将带来更多的AR激励，从而引导网络上的Gas Fee消耗转向存储更多的完整数据集。\n在数据集的完整性上，将会继续沿用SPoRA（随机访问的简介证明）机制，从而鼓励矿工存储更多Arweave主网的完整数据集，而非通过存储单个数据集的多个副本来作弊。\nSPoRA的特点在于会通过对矿工提交的验证结果进行历史性回溯，主网会随机对新提交的区块进行随机检查，以确认是否存在旧的区块信息，在确认存在后，新的区块才能被纳入主网之中，矿工进而得到AR奖励。\n通过对整个网络的区块确认机制的修改，Arweave将会成为空间性最优的新存储网络，以实现减少单位能源消耗的同时，提升整个Arweave网络的数据完整性和存储容量。\n Arweave 2.6意在改变单纯的矿工提交速度，这是出于存储和公链不同的特性而采取的优化措施，比特币等公链竞争的是提交速度，以维护网络的正常结算能力和保证主网确认结果的唯一性，但是存储在考虑确认速度的同时，还需要考虑数据的完整性，以防止单一节点作弊导致数据丢失。\n为此，Arweave 2.6会改变自己的数据组织方式，具体而言，会添加一个新的数据分区（Partitions），以适应新的挖矿机制。\n…",
+          "link": "https://www.panewslab.com/zh/articledetails/e8hwa935.html",
+          "publishedOn": "2023-02-16T02:44:39.000Z",
+          "wordCount": 1057,
+          "title": "多快好省？解读Arweave 3月上线的2.6版本如何降低能源消耗和提升存储激励",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/15/images/J8uiqdM17e.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/opfnf92r.html",
+          "author": null,
+          "description": "PANews 2月16日消息，DeFiLlama数据显示，NFT市场Blur在发布原生代币BLUR后（2月15日），Blur平台Bidding Pools TVL增长109%至50280 ETH（约合8530万美元），创历史新高。\n此外，Dune Analytics数据显示，Blur 2月15日的交易量为30409.79 ETH，销售额占比48.1%（不包括OpenSea数据的销售额占比达76.7%），交易用户数9689，均创下历史新高。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/opfnf92r.html",
+          "publishedOn": "2023-02-16T02:44:25.000Z",
+          "wordCount": 979,
+          "title": "数据：Blur Bidding Pools TVL增长109%至50280 ETH，约合8530万美元",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/wn3299ob.html",
           "author": null,
           "description": "原文：《盘点入围ETHGlobal FVM黑客松决赛的12个项目》\n作者：十文\n2 月 10 日，ETHGlobal 和Filecoin联合举办的 FVM黑客松决赛名单已经出炉，共筛选出 12 个项目，包括 DeFi、GameFi、存储、去中心化计算等领域。\nFilecoin 虚拟机 (FVM) 是 Filecoin 网络上智能合约的运行环境，它与 EVM 兼容，可以为以太坊开发人员提供开箱即用的开发体验。此次黑客松将 FVM 引入了更广泛的以太坊生态系统，并提供了支持开发者及其项目的密切指导和资源。下面 Odaily星球日报就带大家了解下这 12 个入围项目。\n官网：https://cosmic-chicken.finiam.com/\nCosmic Chicken 利用 Liquity 团队引入的 Chicken Bond 机制，结合 FVM 建立抵押不足的借贷协议。该项目的主要目的是降低存储提供商的抵押品资金成本，同时为 FIL 代币持有者提供有吸引力的收益机会。\nChicken Bonds 是通过一种允许协议以最低成本来引导流动性的方式而创建的。它为存储提供商的未来预期收益开辟了新的盈利和交易策略。在 Liquity 的 LUSD 债券实施中，收益是通过将 LUSD 存入稳定池产生的，稳定池充当流动性来源以偿还清算的 Troves（Liquity 生态系统中的贷款）的债务。\n在 Cosmic Chicken 的概念中，收益由权益池生成，存储提供商可以存入他们所需抵押品的 50%，然后通过铸造 Chicken Bonds，从提供 FIL 代币的贷款人那里借用剩余的50%。这种方式既可以为债券持有人提供流动性也可以增强该协议的稳定性。\n\nZKaggle Bounty\n官网：https://zkaggle.vercel.app/\nZKaggle Bounty 是在 FVM …",
