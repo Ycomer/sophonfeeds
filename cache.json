@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://amberlabs.substack.com/p/is-modular-design-the-future",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>模块化架构为区块链提供了更快的交易处理和更高的灵活性，模块化会是区块链发展的未来吗？Amber Group 投资助理 Robert McTague 深入研究了不同类型的模块化架构，包括 Rollups 和数据可用性层，探讨了模块化区块链的优势和挑战。他认为模块化区块链架构是提供流动性和推动用户采用的最佳扩展解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://amberlabs.substack.com/p/is-modular-design-the-future\">https://amberlabs.substack.com/p/is-modular-design-the-future</a></p>\n<p><strong>文章作者：</strong></p><p>Robert McTague</p><hr><h3>观点：</h3><p><strong>Robert McTague：</strong>单片区块链也将继续发挥作用并不断创新，一些单片 Layer1 如何使用 DAG 架构在内部进行扩展就是一个例子。我们需要扩展解决方案来为现有区块链提供流动性和用户，从长远来看，模块化区块链架构可能是实现这一目标的最佳方式。当我们最终实现模块化区块链被广泛采用的未来时，单片区块链的格局也可能完全不同。【原文为英文】</p><a href=\"https://amberlabs.substack.com/p/is-modular-design-the-future\">内容来源</a><p><strong>Robert McTague：</strong>Kindelia 和 Fuel 等执行层尤其会看到用户增长，因为它们对速度和新功能的关注将使构建在它们之上的应用程序真正具有创新性。然而，许多模块化设计仍未经过测试，甚至可能永远不会得到广泛采用。随着 Celestia 和 Danksharding 被广泛采用，Validiums 可能会被完全淘汰。Celestia 的 sovereign rollups 可能面临一些与现有第 1 层相同的桥接问题，并因为安全性和复杂性问题而阻碍采用。【原文为英文】</p><a href=\"https://amberlabs.substack.com/p/is-modular-design-the-future\">内容来源</a>",
+          "link": "https://amberlabs.substack.com/p/is-modular-design-the-future",
+          "publishedOn": "2023-02-16T04:26:59.000Z",
+          "wordCount": 8982,
+          "title": "【英文】Amber Group：为什么模块化区块链是未来？",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F607ec08b-5731-41ce-9f72-b49f5e35bd06_1228x992.png"
+        },
+        {
           "id": "https://twitter.com/arjunnchand/status/1625381844433895424",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Omnichain Fungible Tokens（OFT）是 LayerZero 引入的一种新的全链代币标准，目前已被 Avalanche、PancakeSwap 和 Trader Joe  采用。Avalanche 生态开发者 Arjun 解析了 OFT 代币在具体生态中的跨链应用及积极影响，同时也指出 OFT 当前缺乏统一的用户界面导致的用户体验问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">https://twitter.com/arjunnchand/status/1625381844433895424</a></p>\n<p><strong>文章作者：</strong></p><p>Arjun</p><hr><h3>观点：</h3><p><strong>Arjun：</strong>优势：对于代币发行者而言，OFT 标准提供了跨生态系统的可组合性以及明确拥有合约、安全性和费用的能力。问题：为了桥接 OFT，用户需要访问特定的应用程序。Stargate 社区已经通过投票将 LayerZero 的 OFT 添加到协议中，有望成为所有 OFT 的枢纽。【原文为英文】</p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">内容来源</a><p><strong>Arjun：</strong>OFT 的应用：1.Avalanche 推出了 Avalanche 上的比特币 OFT BTC.b，可以用于 Avalanche 上的 DeFi 生态，也可以桥接到 L0 区块链上；2.PancakeSwap 推出了 Aptos Pancake Bridge，使得 CAKE 成为同时存在于 BNB 链和 Aptos 的多链代币；3.Trader Joe 将 JOE 作为 OFT，帮助 Trader JOE DEX 转变为一个真正的全链 dApp。【原文为英文】</p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">内容来源</a><p><strong>Arjun：</strong>OFT 是一种新的可扩展代币标准（类似 ERC-20），使代币能够在任何类型的 dApp 中、任何 DeFi 生态系统进行外部组合。这意味着代币现在可以对所有协议和区块链有一个统一的标准，使用户可以无缝地跨链交换并在任何链上的任何 dApp 上使用代币。【原文为英文】</p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">内容来源</a>",
@@ -1562,6 +1572,26 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/rgzecs5v.html",
+          "author": null,
+          "description": "PANews 2月16日消息，据推特用户Bit余烬监测，MakerDAO联合创始人Rune Christensen今天上午通过0x出售了80万枚LDO，换得223万枚DAI，出售均价2.78美元。目前他还持有680万枚LDO（约1900万美元）。\n据悉，Rune曾在2020年投资获得2500万枚LDO，并从2022年1月2日开始陆续出售所持的LDO。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/rgzecs5v.html",
+          "publishedOn": "2023-02-16T05:43:46.000Z",
+          "wordCount": 942,
+          "title": "数据：MakerDAO联创今日再次出售80万枚LDO，现持有680万枚LDO",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/tdkn1jso.html",
+          "author": null,
+          "description": "原文：《ArkStream Capital 2023展望：十亿用户的链上应用会在哪些场景爆发》\n作者：Warren\n2018年7月份，万向控股的副董事长肖风博士在一次发言中提到，“区块链行业可能出现5万亿美元级别的公司”，那个时候，整个加密市场的总市值不过2000多亿美元，而在经历了长达了一整年的下跌后，这一数字来到了1000亿。从2018年年初1月7日最高点8300亿美元，到12月15日，最低点1000亿，历时一年，整个加密市场下跌了88%，距离肖风博士说的5万亿市值，差距50倍。那时，绝望和迷茫充斥着几乎每一个Crypto参与者的内心，大多数人迷失了方向，不知道自己选择的事业是否还有未来，尽管那时Ethereum上的DApp已经初具雏形，开发者们不断在思考，如何让更多的交易发生在链上，但几乎没有一个人能笃定地预测，两年后的夏天，2020年的7月，DeFi的热潮点燃了加密世界的夏季，Crypto整个行业的叙事从用户难以感知的底层基础设施转向了产生真实价值的应用。\n\n肖风博士在2018年的发言\n我们经历的这一个周期，应用层和协议层开始了规模性的爆发：得益于多个DeFi协议开始创造价值，“胖协议”还是“胖应用”的讨论进入了人们的视野；公链不再桎梏于突破“不可能三角“，而是将生态发展放在了第一位，完善开发者生态、成立生态基金吸引开发者迁移等策略成为了底层设施发展的必须；CryptoPunk、BAYC等蓝筹NFT成功出圈，把Web3带进了全球的大街小巷。2021年11月，在BTC触及69000美元后，整个加密市场的市值到达3万亿美元，距离肖风博士预测的5万亿，不到一倍的差距。据Binance等中心化交易所的数据，全球加密用户的数量到达了1亿的体量。尽管在2021年的11月以后就开始进入了漫长的下跌，但随着行业的进一步清退，我们有理由相信，熊市的底部已经呈现，2023年是承上启下的…",
+          "link": "https://www.panewslab.com/zh/articledetails/tdkn1jso.html",
+          "publishedOn": "2023-02-16T05:36:32.000Z",
+          "wordCount": 1269,
+          "title": "2023年万字展望：十亿用户的链上应用会在哪些场景爆发？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/16/images/xKL6qhIPd4.jfif"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/e9qtuj9s.html",
           "author": null,
