@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Flashbots 产品负责人 bertcmiller 撰文介绍用户和搜索者（Searchers）之间的可编程隐私订单流 MEV-Share，对其设计思想、目标、架构及伪代码演示示例进行概述。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264\">https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264</a></p>\n<p><strong>文章作者：</strong></p><p>bertcmiller</p><hr><h3>观点：</h3><p><strong>bertcmiller：</strong>MEV-Share 的设计是为了将权力交还用户，使其通过可编程隐私准确地选择要隐藏或披露的交易数据。同时，搜索者在竞争性的订单流拍卖中投标，以获得对用户私人交易的执行权。有选择地披露交易数据可以帮助搜索者更好地优化出价，这意味着用户会获得更高的回报。为此引入 matchmaker，将用户的私人交易插入搜索者部分构建的捆绑包中，并模拟它们，寻找匹配。匹配的捆绑包被发送给构建者，并附带「有效性条件」，即向用户支付 MEV。【原文为英文】</p><a href=\"https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264\">内容来源</a><p><strong>bertcmiller：</strong>MEV-Share 建立在 MEV-Boost 的基础上，进一步解除了交易供应链的束缚。MEV-Boost 使验证者和构建者之间的协作成为可能，MEV-Share 对搜索者和用户也是如此。通过保持其交易隐私，用户可以在不许可搜索者竞争的情况下为他们创建的 MEV 讨价还价。【原文为英文】</p><a href=\"https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264\">内容来源</a><p><strong>bertcmiller：</strong>MEV-Share 是对可编程隐私、偏好表达和可信承诺如何实现去中心化区块建设的早期探索。MEV-Share 促进了用户和搜索者之间的协作，以解决 MEV 再分配的需要，可以看作是 SUAVE 的早期实现。其设计目标包括：MEV 再分配、对搜索者无许可、向后兼容、可编程隐私、可靠性以及不信奉单一区块建设者。【原文为英文】</p><a href=\"https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264\">内容来源</a>",
+          "link": "https://collective.flashbots.net/t/mev-share-programmably-private-orderflow-to-share-mev-with-users/1264",
+          "publishedOn": "2023-02-16T13:02:18.000Z",
+          "wordCount": 3494,
+          "title": "【英文】MEV-Share：可编程的隐私订单流",
+          "imageUrl": "https://collective.flashbots.net/uploads/default/optimized/2X/8/83ab4a7b6d4bb62fbd9acc4c1c22a7e58f3e98b8_2_1024x768.jpeg"
+        },
+        {
           "id": "https://twitter.com/mindaoyang/status/1626077200389914625",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>行业内部存在一种宏观派，认为传统金融宏观政策会对加密资产价格造成影响。对此，推特 KOL、dForce 创始人 Mindao 发表了自己的看法，认为宏观面在范式转移面前，不过是一朵涟漪。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1626077200389914625\">https://twitter.com/mindaoyang/status/1626077200389914625</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>宏观面对投资策略的影响跟投资标的的类型有很大关系。crypto 资产很难找到传统投资的对照物，特别是 crypto 本身的货币属性。可能最接近的标的是新兴科技类的股票里的新兴代表。 这类标的的特点是所处行业本身就是范式转移（即便现在 1 万亿市值，依然有几十倍的上升空间）。所以，宏观面的利率政策、通胀水平，在这个级别的变量面前都显得无足轻重。</p><a href=\"https://twitter.com/mindaoyang/status/1626077200389914625\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>过往三轮周期，宏观面的高低点都不是 crypto 资产本身的高低点，而且完全不是线性关系（这跟 crypto 的货币属性和体系内杠杆有关）。这个新兴资产最核心的驱动力有三个：a. 基本面（技术 / 应用）；b. 监管政策；c. 杠杆 / 流动性。这三者中，跟宏观面稍微有关联的是杠杆 / 流动性，但影响最大的是监管政策。</p><a href=\"https://twitter.com/mindaoyang/status/1626077200389914625\">内容来源</a>",
@@ -1672,6 +1682,56 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/hu48uad5.html",
+          "author": null,
+          "description": "PANews 2月16日消息，据The Block报道，Sui 开发公司 Mysten Labs 首席执行官 Evan Cheng 正在寻求为一个 Web3 基金筹集超过 1 亿美元的资金。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/hu48uad5.html",
+          "publishedOn": "2023-02-16T13:51:49.000Z",
+          "wordCount": 1003,
+          "title": "Mysten Labs CEO寻求为一个Web3基金募资超1亿美元",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/thi3ag4k.html",
+          "author": null,
+          "description": "PANews 2月16日消息，据TheBlock报道，专注于游戏和娱乐领域的 web3 基础设施初创公司 Nefta 完成 500 万美元种子轮融资，Play Ventures 以 250 万美元领投，该轮融资的其他投资者包括 Polygon Ventures、SevenX Ventures、Sfermion 和 Picus Capital。Nefta 现在的估值为 3250 万美元，在过去八个月中，其估值上涨了 225%。Nefta 提供包括定制的 API、软件开发工具包和白标服务等工具，以帮助企业整合数字资产、多链钱包和定制市场。\nNefta 去年 6 月从 Picus Capital 筹集了 100 万美元的种子前资金，当时估值为 1000 万美元。目前有 8 名员工为 Nefta 工作，Willink 计划在不久的将来将团队人数增加一倍。他目前正在招聘多个职能部门，包括业务开发、客户管理和技术。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/thi3ag4k.html",
+          "publishedOn": "2023-02-16T13:36:19.000Z",
+          "wordCount": 1039,
+          "title": "Web3基础设施Nefta完成500万美元种子轮融资，Play Ventures领投",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/c8cs9gck.html",
+          "author": null,
+          "description": "今日要闻提示：\n美怀俄明州将从7月1日起禁止法院强迫个人披露数字资产私钥\n香港特区政府发售首批代币化绿色债券，价值8亿港元\nBAYC：知名电竞选手Mongraal获得“吉米钥匙”，“召唤”将于3月8日开启\nFTX在申请破产前将77亿美元资产从巴哈马转移至美国实体\n币安CSO：公司预计将支付罚款以解决美国的调查\n律师回应香港监管传言：系误导，香港人一直能够合法交易加密货币\n加密指数平台Alongside融资1100万美元，a16z领投\n数据：GMX锁仓量接近6亿美元创历史新高\nPANews PARTY AWARD 2023 年度评选开启提名征集！\n冬去春来，今年我们以“Keep Building”为主题，旨在发现并激励Web3领域中持续建设的真正Builder。将通过数据初选、公开征集、线上投票及专业评审团评议，最终评选出12项权威年度奖项。\n点击参与报名：https://www.panewslab.com/party/2023/apply\n\n监管消息\n美SEC已投票通过收紧加密托管要求的新规\n据华尔街日报报道，美国证券交易委员会（SEC）以4比1投票通过了一项提案，将扩大对冲基金和养老基金等投资顾问必须使用合格托管人持有的资产类型。该提案还将为合格的托管人提出新的要求，并指出加密货币的某些特征可能使其难以遵守规则，并将限制资产管理公司处理客户加密资产的方式，但不会对管理自己投资组合的个人投资者提出新的要求。\n这一规则可能意味着已经涉足加密货币的机构基金可能不得不将客户的持股转移至其他地方。他们还可能面临与其托管关系有关的突发审计或其他后果。\n此前今日早些时候消息，在新规确定前，Coinbase和Anchorage均表示它们在新规发布后仍是合格托管人。\n美怀俄明州将从7月1日起禁止法院强迫个人披露数字资产私钥\n据Cointelegraph报道，美国怀俄明州众议院通过法案，将禁…",
+          "link": "https://www.panewslab.com/zh/articledetails/c8cs9gck.html",
+          "publishedOn": "2023-02-16T13:30:45.000Z",
+          "wordCount": 1676,
+          "title": "PA日报｜美怀俄明州将禁止法院强迫个人披露私钥；OpenAI已买下域名AI.com",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/16/images/R7e2C732G2.png"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/hiypwfcd.html",
+          "author": null,
+          "description": "PANews 2月16日消息，据The Block报道，Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，由 Insignia Venture Partners、MindWorks Capital 和 Signum Capital 领投，参投方包括 K3 Ventures、LingFeng Innovation Fund、UpHonest Capital 和 Aipollo Investment。该轮融资于去年 8 月开始并于上月完成，估值尚未披露。该轮融资将用于加速其与其他 Layer1 和 Layer2 的集成，计划添加 Avalanche 和 Arbitrum 以及非 EVM 链，如 Solana 和 Sui，剩余资金还将用于开发特定行业的 SDK 和启动社区大使计划。\nSending Labs 还推出两款旗舰产品的测试版，即加密聊天平台 SendingMe 和供加密应用程序开发人员构建社交功能的软件开发工具包 Sending Network。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/hiypwfcd.html",
+          "publishedOn": "2023-02-16T13:22:03.000Z",
+          "wordCount": 1057,
+          "title": "Web3通信项目Sending Labs完成1250万美元种子轮融资",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/sei1f0ub.html",
+          "author": null,
+          "description": "PANews 2月16日消息，域名经纪巨头 Saw.com 宣布自己参与了顶级域名 AI.com 的销售。目前 OpenAI 和 Saw.com 都没有透露该域名售价究竟多少，但根据2021年卖出时的挂牌价，它至少价值1100万美元 (约合人民币7535万元) 。目前访问 AI.com 将直接跳转至 ChatGPT 官网。\n据悉，AI.com 注册于1993年5月4日，目前托管在 Google Domain，使用的 DNS 服务器为 CloudFlare。由于域名启用了隐私保护因此目前看不到 OpenAI 的注册信息，也不清楚具体购买日期。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/sei1f0ub.html",
+          "publishedOn": "2023-02-16T13:10:47.000Z",
+          "wordCount": 1000,
+          "title": "OpenAI豪掷7500万买下极品域名AI.com",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/2i3u5nyp.html",
           "author": null,
