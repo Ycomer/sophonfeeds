@@ -6,6 +6,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://techcrunch.com/2023/02/15/crypto-index-platform-alongside-raises-11m-led-by-a16z/",
+          "author": null,
+          "description": "<h3>加密货币指数平台 Alongside 完成 1100 万美元融资，由 a16z 领投</h3>\n<p>加密货币指数平台 Alongside 宣布完成 1100 万美元融资，由 a16z 领投，Coinbase Ventures、Franklin Templeton Investments、Village Global 和 Not Boring Capital 参投。Alongside 于上月推出首个指数产品 Alongside Crypto Market Index（$AMKT），依据排名前 25 的加密资产市值加权。 Alongside 联合创始人 Austin Diamond 表示，未来还将考虑推出以 DeFi 或 layer-2 区块链为类别的指数产品。</p>\n<p><a href=\"https://techcrunch.com/2023/02/15/crypto-index-platform-alongside-raises-11m-led-by-a16z/\">内容来源</a></p><hr>",
+          "link": "https://techcrunch.com/2023/02/15/crypto-index-platform-alongside-raises-11m-led-by-a16z/",
+          "publishedOn": "2023-02-16T01:37:54.000Z",
+          "wordCount": 7717,
+          "title": "加密货币指数平台 Alongside 完成 1100 万美元融资，由 a16z 领投",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/02/GettyImages-1419599523.jpg?resize=1200,849"
+        },
+        {
+          "id": "https://press.siemens.com/global/en/pressrelease/siemens-issues-first-digital-bond-blockchain",
+          "author": null,
+          "description": "<h3>西门子发行区块链数字债券，规模为 6000 万欧元</h3>\n<p>电子电气工程公司西门子宣布根据德国电子证券法（eWpG）在公共区块链上首次发行数字债券，该债券的规模为 6000 万欧元（约 6400 万美元），期限为一年。由于交易时数字欧元尚不可用，因此购买证券将使用银行账户进行支付。西门子表示，「电子证券法」使得公司可直接向投资者出售证券，而无需聘请既定的中央证券存管机构。</p>\n<p><a href=\"https://press.siemens.com/global/en/pressrelease/siemens-issues-first-digital-bond-blockchain\">内容来源</a></p><hr>",
+          "link": "https://press.siemens.com/global/en/pressrelease/siemens-issues-first-digital-bond-blockchain",
+          "publishedOn": "2023-02-16T01:37:18.000Z",
+          "wordCount": 12815,
+          "title": "西门子发行区块链数字债券，规模为 6000 万欧元",
+          "imageUrl": "https://assets.new.siemens.com/siemens/assets/api/uuid:c806345f-35b8-4ad0-8110-3bcde933e095/width:1024/press-folders-01.jpg"
+        },
+        {
           "id": "https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mempool 主理人 Brutoshi 邀请 DAOrayaki 负责人 Shaun 做客 Mempool 博客，探讨账户抽象的历史、落地场景及对 Web3 的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA</a></p>\n<p><strong>文章作者：</strong></p><p>Mempool</p><hr><h3>观点：</h3><p><strong>Mempool：</strong>账户抽象带来的新场景：1）多方验证：合约账户通过账户抽象具备图灵完备能力之后，能够加入其他验证要素，解决了 EOA 账户单点失败的风险；2）为不同角色设置不同支出策略：允许多人共同管理账户，达到传统金融账户的能力。例如，公司或 DAO 组织可以为不同角色设置不同支出权限，或用于 DAO 内部投票场景；3）更便捷的气费支付：引入抽象账户之后，可以用账户里的其它代币，甚至由另一方，如游戏开发商或社交类产品代为支付气费，从而大大降低用户门槛；</p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">内容来源</a><p><strong>Mempool：</strong>4）授权批量交易：账户抽象可以将多笔交易打包成一笔，不仅增加便捷性，同时节省气费；5）会话密钥：链上游戏场景中经常需要批准某个功能，但有时用户可能不希望被打断。鉴于游玩过程不会涉及到数量较高的资产的操作，可以设置一个时间段，做一个临时会话，生成一个会话密钥 (Session key)，在此期间所有交互由游戏开发者代为操作。</p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">内容来源</a><p><strong>Mempool：</strong>账户抽象最大的弊端是兼容性问题，因为它依赖于智能合约，而智能合约是部署到某一条链的，所以它跟这条链绑定。第二个问题是费用问题。账户抽象是跑在链上的，要消耗的链上计算资源高于传统钱包。而且目前以太坊主网的 Gas 费也比较高，所以账户抽象钱包可能会先在 Layer 2 上落地发展。</p><a href=\"https://mp.weixin.qq.com/s/kSg2otMv7M--ANjbzTn5hA\">内容来源</a>",
@@ -1512,6 +1532,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/wn3299ob.html",
+          "author": null,
+          "description": "原文：《盘点入围ETHGlobal FVM黑客松决赛的12个项目》\n作者：十文\n2 月 10 日，ETHGlobal 和Filecoin联合举办的 FVM黑客松决赛名单已经出炉，共筛选出 12 个项目，包括 DeFi、GameFi、存储、去中心化计算等领域。\nFilecoin 虚拟机 (FVM) 是 Filecoin 网络上智能合约的运行环境，它与 EVM 兼容，可以为以太坊开发人员提供开箱即用的开发体验。此次黑客松将 FVM 引入了更广泛的以太坊生态系统，并提供了支持开发者及其项目的密切指导和资源。下面 Odaily星球日报就带大家了解下这 12 个入围项目。\n官网：https://cosmic-chicken.finiam.com/\nCosmic Chicken 利用 Liquity 团队引入的 Chicken Bond 机制，结合 FVM 建立抵押不足的借贷协议。该项目的主要目的是降低存储提供商的抵押品资金成本，同时为 FIL 代币持有者提供有吸引力的收益机会。\nChicken Bonds 是通过一种允许协议以最低成本来引导流动性的方式而创建的。它为存储提供商的未来预期收益开辟了新的盈利和交易策略。在 Liquity 的 LUSD 债券实施中，收益是通过将 LUSD 存入稳定池产生的，稳定池充当流动性来源以偿还清算的 Troves（Liquity 生态系统中的贷款）的债务。\n在 Cosmic Chicken 的概念中，收益由权益池生成，存储提供商可以存入他们所需抵押品的 50%，然后通过铸造 Chicken Bonds，从提供 FIL 代币的贷款人那里借用剩余的50%。这种方式既可以为债券持有人提供流动性也可以增强该协议的稳定性。\n\nZKaggle Bounty\n官网：https://zkaggle.vercel.app/\nZKaggle Bounty 是在 FVM …",
+          "link": "https://www.panewslab.com/zh/articledetails/wn3299ob.html",
+          "publishedOn": "2023-02-16T02:16:56.000Z",
+          "wordCount": 1550,
+          "title": "一文速览闯入ETHGlobal FVM黑客松决赛的12个项目",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/15/images/aePlrx41fi.jfif"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/h4f54st6.html",
           "author": null,
