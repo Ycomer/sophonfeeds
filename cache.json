@@ -6,6 +6,36 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/arjunnchand/status/1625381844433895424",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Omnichain Fungible Tokens（OFT）是 LayerZero 引入的一种新的全链代币标准，目前已被 Avalanche、PancakeSwap 和 Trader Joe  采用。Avalanche 生态开发者 Arjun 解析了 OFT 代币在具体生态中的跨链应用及积极影响，同时也指出 OFT 当前缺乏统一的用户界面导致的用户体验问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">https://twitter.com/arjunnchand/status/1625381844433895424</a></p>\n<p><strong>文章作者：</strong></p><p>Arjun</p><hr><h3>观点：</h3><p><strong>Arjun：</strong>优势：对于代币发行者而言，OFT 标准提供了跨生态系统的可组合性以及明确拥有合约、安全性和费用的能力。问题：为了桥接 OFT，用户需要访问特定的应用程序。Stargate 社区已经通过投票将 LayerZero 的 OFT 添加到协议中，有望成为所有 OFT 的枢纽。【原文为英文】</p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">内容来源</a><p><strong>Arjun：</strong>OFT 的应用：1.Avalanche 推出了 Avalanche 上的比特币 OFT BTC.b，可以用于 Avalanche 上的 DeFi 生态，也可以桥接到 L0 区块链上；2.PancakeSwap 推出了 Aptos Pancake Bridge，使得 CAKE 成为同时存在于 BNB 链和 Aptos 的多链代币；3.Trader Joe 将 JOE 作为 OFT，帮助 Trader JOE DEX 转变为一个真正的全链 dApp。【原文为英文】</p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">内容来源</a><p><strong>Arjun：</strong>OFT 是一种新的可扩展代币标准（类似 ERC-20），使代币能够在任何类型的 dApp 中、任何 DeFi 生态系统进行外部组合。这意味着代币现在可以对所有协议和区块链有一个统一的标准，使用户可以无缝地跨链交换并在任何链上的任何 dApp 上使用代币。【原文为英文】</p><a href=\"https://twitter.com/arjunnchand/status/1625381844433895424\">内容来源</a>",
+          "link": "https://twitter.com/arjunnchand/status/1625381844433895424",
+          "publishedOn": "2023-02-16T03:51:29.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】解析 LayerZero OFT 代币标准：应用、优势与挑战",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/AuraNetworkHQ/status/1625842477449252864",
+          "author": null,
+          "description": "<h3>Cosmos 生态 NFT 区块链 Aura Network 完成 400 万美元融资，Hashed 和 Coin98 领投</h3>\n<p>据 Aura Networt 官方推特称，Aura Network 已完成 400 万美元 Pre-A 轮融资，Hashed 与 Coin98 领投，参投方包括 GuildFi、Istari Ventures、K300 Ventures。本轮融资将用于其生态的扩展。</p>\n<p><a href=\"https://twitter.com/AuraNetworkHQ/status/1625842477449252864\">内容来源</a></p><hr>",
+          "link": "https://twitter.com/AuraNetworkHQ/status/1625842477449252864",
+          "publishedOn": "2023-02-16T03:47:00.000Z",
+          "wordCount": 498,
+          "title": "Cosmos 生态 NFT 区块链 Aura Network 完成 400 万美元融资，Hashed 和 Coin98 领投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/blur_io/status/1625935590834446341",
+          "author": null,
+          "description": "<h3>NFT 市场 Blur 更新版税政策，创作者将无法同时在 Blur 和 OpenSea 上赚取版税</h3>\n<p>NFT 市场 Blur 官推宣布更新版税政策，主要涉及四种情况：1、No block，如果藏品不使用 Block，将无法禁止零版税或可选版税市场，在这种情况下，Blur 将强制收取 0.5% 的版税，而 OpenSea 则是可选版税；2、Block Blur，任何禁止 Blur 或其他零版税 / 版税可选市场的 NFT 项目都将在 OpenSea 上被强制执行版税，但交易仍可以在 Blur 上进行，需要收取最低 0.5% 的版税；3、Blur 推荐不使用 OpenSea，Blur 希望创作者不使用 OpenSea，任何不使用 OpenSea 的 NFT 项目在 Blur 上都会被强制执行全额版税；4、Blur 要求 OpenSea 取消对 Blur 上 NFT 项目设置可选版税的设置，如果 OpenSea 取消该政策，NFT 项目将可以同时在两个平台上收取版税。目前 NFT 项目创作者无法同时在 Blur 和 OpenSea 上收取版税，只能在 OpenSea 或 Blur 两者之一收取全部版税，但不能同时收取。</p>\n<p><a href=\"https://twitter.com/blur_io/status/1625935590834446341\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Vic TALK：</strong>可以说这套版税机制完全就是冲着 OpenSea 来的，虽然用户可以选择屏蔽掉 blur 平台，但实际上只是关闭了 bid 功能，依然可以正常的挂单交易。而创作者将 OpenSea 屏蔽则直接将其封死，在这种情况下，创作者肯定更倾向于去 blur 进行交易。</p><a href=\"https://twitter.com/victalk_eth/status/1626042270225952770\">内容来源</a>",
+          "link": "https://twitter.com/blur_io/status/1625935590834446341",
+          "publishedOn": "2023-02-16T03:30:55.000Z",
+          "wordCount": 498,
+          "title": "NFT 市场 Blur 更新版税政策，创作者将无法同时在 Blur 和 OpenSea 上赚取版税",
+          "imageUrl": null
+        },
+        {
           "id": "https://techcrunch.com/2023/02/15/crypto-index-platform-alongside-raises-11m-led-by-a16z/",
           "author": null,
           "description": "<h3>加密货币指数平台 Alongside 完成 1100 万美元融资，由 a16z 领投</h3>\n<p>加密货币指数平台 Alongside 宣布完成 1100 万美元融资，由 a16z 领投，Coinbase Ventures、Franklin Templeton Investments、Village Global 和 Not Boring Capital 参投。Alongside 于上月推出首个指数产品 Alongside Crypto Market Index（$AMKT），依据排名前 25 的加密资产市值加权。 Alongside 联合创始人 Austin Diamond 表示，未来还将考虑推出以 DeFi 或 layer-2 区块链为类别的指数产品。</p>\n<p><a href=\"https://techcrunch.com/2023/02/15/crypto-index-platform-alongside-raises-11m-led-by-a16z/\">内容来源</a></p><hr>",
@@ -1532,6 +1562,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/e9qtuj9s.html",
+          "author": null,
+          "description": "撰写：《How Blur Can Win》by William Peaster\n编译：深潮 TechFlow\n\n$BLUR 终于来了。这是 NFT 市场 Blur 的新治理代币，前天空投给了该平台的用户。\n对这次空投的预期在三个游戏化阶段进行统计，分别奖励交易 、上市者和投标，这大大提高了 Blur 的知名度，并帮助它成为长期 NFT 市场巨头 OpenSea 的真正的对手。\n然而，仅靠空投并不能成为 OpenSea 的竞争对手。空投带来的喧嚣和势头是暂时的，只会到此为止。（推荐阅读：《Blur空投再现财富效应，一文详解Blur空投始末和代币经济模型》）\n以 NFT 市场 LooksRare 和 X2Y2 为例，它们都在去年年初推出了 LOOKS 和 X2Y2 代币激励措施。正如你在下面的价格比较图中所看到的，这两种代币在最初推出的时候都很兴奋，此后价格都有很大下降。随着时间的推移，这两种代币都未能从 OpenSea 手中夺取大量的市场份额。当然，他们的故事仍然在讲述，但显然现在他们已经不像以前那样令人兴奋或诱人了。\n\n所以 Blur 推出 $BLUR 是实现去中心化治理协调的策略，是从 OpenSea 和其他竞争对手手中夺取市场份额的策略。不过，这后一种战术的大部分效果可能是暂时的，而且是在$BLUR 推出的前后就已经被市场反应。\n那么，Blur 的好消息是什么？它确实有吸引人的 UX，这让他真正意义上成为 OpenSea 的合法挑战者，超越代币经济学。\n例如，Blur 聚合了来自所有主要 NFT 市场的 NFT 列表，包括来自 OpenSea 的 Seaport Protocol，这样 Blur 就不再受 OpenSea 的市场封锁名单的限制了。相比之下，目前 OpenSea 只聚合了来自 Seaport 之上的项目，如 ENS Vision 和 Sound。\n\n此外，…",
+          "link": "https://www.panewslab.com/zh/articledetails/e9qtuj9s.html",
+          "publishedOn": "2023-02-16T04:33:59.000Z",
+          "wordCount": 1432,
+          "title": "Blur大优开局，接下去如何打败OpenSea？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/16/images/2I0cV2735g.png"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/nd5jears.html",
           "author": null,
