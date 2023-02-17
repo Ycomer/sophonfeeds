@@ -2,10 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-17T00:10:18.709Z</updated>
+    <updated>2023-02-17T01:31:17.826Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[zkSync Fair Onboarding Alpha 主网上线，zkSync 2.0 更名为 zkSync Era∎]]></title>
+        <id>https://twitter.com/zksync/status/1626235292268240902</id>
+        <link href="https://twitter.com/zksync/status/1626235292268240902"/>
+        <updated>2023-02-17T01:12:11.000Z</updated>
+        <summary type="html"><![CDATA[<h3>zkSync Fair Onboarding Alpha 主网上线，zkSync 2.0 更名为 zkSync Era∎</h3>
+<p>以太坊二层网络 zkSync 宣布 Fair Onboarding Alpha 主网上线，kSync 2.0 更名为 zkSync Era∎，zkSync 1.0 更名为 zkSync Lite。zkSync 表示，zkSync Era∎ 代码库在 MIT/Apache 2.0 许可下完全开源，开发者可以自由查看、编辑和分叉代码，包括智能合约、排序器、验证器及 GPU 加速器。在 Fair Onboarding Alpha 期间，主网将对最终用户保持关闭，开发人员可以在 zkSync Era∎ 中部署和测试应用程序。此外，zkSync 将会更新协议路线图并发布下一个里程碑概述。</p>
+<p><a href="https://twitter.com/zksync/status/1626235292268240902">内容来源</a></p><hr><h3>观点：</h3><p><strong>zkSync∎：</strong>zkSync 的使命是加速个人主权加密货币的大规模采用，我们需要在保留以太坊属性的同时构建技术扩大以太坊规模。因此我们选择了一个代表加密货币新阶段的名字 Era∎，更易被理解、且具有广泛吸引力和适用性，并体现了我们对以太坊新时代的愿景。【原文为英文】</p><a href="https://twitter.com/zksync/status/1626235292268240902">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详解去中心化通信协议Push Protocol：如何填补Web3通信空白？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/j02fe1gm.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/j02fe1gm.html"/>
+        <updated>2023-02-17T01:01:45.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Buidler DAO：Push Protocol 如何填补 web3 通信空白》
+作者：JasonChen、Rui，Buidler DAO
+01/ 前言
+02/ 名称和定位的改变
+03/ 为什么需要去中心化的通信协议
+04/ Web2 与 PUSH 消息推送逻辑对比
+05/ 协议架构：用户、频道、订阅者
+06/ 如何集成 PUSH Protocol
+07/ 未来重要发展方向
+Push Protocol 是一款 Web3 的去中心化通信协议，它使任何智能合约、dApp 甚至传统服务都可以向钱包地址发送通知，当然前提是这些钱包地址选择接收这些渠道的消息，它可以应用于 Web3 的全场景中，包括 DeFi 的资产清算、ens 的域名到期包括媒体的新闻推送等，目前已经为 6 万的订阅者发送了 1770 万条消息，是去中心化通讯赛道的头部项目。
+于 2022 年 9 月前 PUSH 的名字叫 EPNS，中文的含义是「以太坊消息通知服务」，通过名字我们可以看出在此之前它是针对于以太坊的项目，并且那时候它对自己的定位是服务而非协议，所以这个旧的名字拆解为 3 部分：以太坊、消息通知和服务，而新的名字也恰恰是打破了这三部分，随着它开始支持 Polygon 等其他链，它将突破以太坊到其他 L1 与 L2，其次应用场景不仅限于通知而在于一切消息推送场景，最后因为支持多链和多场景所以它不再是某一个具体的服务而是成为了协议，所以继续叫 EPNS 会限制自己的业务与品牌，于是改名为 Push Protocol。
+消息推送已经融入了传统 Web2 的方方面面，从 IM 聊天、到新闻、再到各种营销信息、通知提示等等，不论是应用场景还是技术上都已经非常成熟，但是在 Web3 中大家却很少有用到具备消息推送能力的 Dapp，涉及到通知的需求大多是用邮件解决的，主要原因是：
+即使如此 Web3 依然…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币矿企Compute North的重组计划获得破产法官的批准]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/u3g9dyff.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/u3g9dyff.html"/>
+        <updated>2023-02-17T00:45:04.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月17日消息，据CoinDesk报道，美国德克萨斯州南区法官Marvin Isgur批准了比特币矿企Compute North的最终重组计划。该计划批准了债权人债权的最终清单和分类，并设立了一个诉讼信托基金，以继续从正在进行的案件中寻找资金。这将反过来决定Compute North的剩余资产将如何分配给剩余的索赔人。根据该计划，剩余的无担保债权人将保留剩余资产的所有权，如变压器和集装箱，并在索赔人之间进行支付。将设立一个诉讼信托基金，以结束正在进行的法律程序。
+Compute North的律师在周四的听证会上表示，这家矿业公司已经完成了13项资产出售，其中四项是重大资产出售，这些资产已经“清偿”了其2.5亿美元的所有担保债务。Compute North已与多家公司结清债务，以便让他们参与该计划并避免未来的诉讼。其中包括行业巨头Marathon Digital Holdings，该公司于2月9日同意以4000万美元的一般无担保索赔作为接受该计划的回报。另外11家公司与Compute North就相对较小的索赔达成和解，以确保该计划得以通过。
+此前去年9月份消息，Compute North申请第11章破产保护。据悉，该矿企曾在去年2月份完成3.85亿美元融资。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安全公司：稳定币交易项目Platypus遭遇闪电贷攻击，损失约900万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/jpbx8zzl.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/jpbx8zzl.html"/>
+        <updated>2023-02-17T00:21:04.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月17日消息，安全公司CertiK Alert在推特上表示，稳定币交易项目Platypus在AAVE上遭遇闪电贷攻击，导致总价值约900万美元的资产损失。此时，大部分被盗资金仍留在攻击者的合约地址中，部分资金被发送到EOA和AAVE池中。
+CertiK分析称，漏洞似乎在于emergencyWithdraw函数对MasterPlatypusV4合约的验证，只有在借入资产超过借入限额时才会失败。然后该函数继续转移所有用户的存款资产，而不考虑用户借入的资产价值。具体过程如下：1.攻击者将4400万枚USDC存入Platypus USDC资产（LP-USDC）并获得4400万枚LP-USD。攻击者随后将LP-USD存入MasterPlatypusV4。2.攻击者调用函数borrow()在合约platyputreasure中铸造约4179万枚USP。这是借款限额所允许的最高金额，该限额为用户抵押品的95%。3.因为攻击者没有借入超过95%的上限，isSolvent值返回为“true”，这使得攻击者能够调用EmergencyWithdraw函数和全部4400万枚LP-USDC。4.攻击者随后从Platypus USDC资产 (LP-USDC) 中提取了4400万枚USDC，并开始通过Platypus Finance池将USP换成多种资产。偿还闪电贷后，Platypus平台的总损失约为900万美元。
+Platypus就此事在官方电报群中发布公告称：“我们目前正在努力评估情况，并将就此及时进行沟通。目前，所有行动都已暂停，直到情况更加明朗。”数据显示，Platypus项目的原生稳定币USP已脱锚至0.4785美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mt. Gox两个最大债权人选择以比特币形式获得赔偿]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/k62finjr.html</id>
