@@ -2,10 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-17T03:08:12.565Z</updated>
+    <updated>2023-02-17T04:02:44.493Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Optimism社区关于主网Bedrock升级的投票推迟至3月2日开始]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2b4uyzwp.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2b4uyzwp.html"/>
+        <updated>2023-02-17T03:38:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月17日消息，据官方推特，Optimism宣布社区对主网Bedrock升级提案进行的投票已被推迟，投票将在3月2日至4月5日间进行。推迟投票是为了解决社区成员在Bedrock漏洞赏金竞赛中发现的漏洞。如果Optimism 社区投票通过Bedrock升级提案，那么升级将在投票结束的两周后进行。
+此前消息，Optimism Goerli测试网于今年1月升级至Bedrock架构；2月初，社区提出将主网进行Bedrock升级的提案。据悉，Bedrock是由OP Labs开发的新一代去中心化Rollup基础架构，旨在为Layer2网络提供模块化、简单性和以太坊等效性。
+相关阅读：Bedrock架构会让Optimism成为最好的Rollup吗？]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sui Network：Wave 2测试网活动已结束，质押游戏已关闭]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/bvz14yma.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/bvz14yma.html"/>
+        <updated>2023-02-17T03:32:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月17日消息，公链项目Sui Network宣布结束Testnet Wave 2活动，并关闭质押游戏Frenemies，并表示随后将发布更多Wave 2活动期间的相关总结。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读MOVE语言：MOVE生态项目都有哪些亮点？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ee9utk8g.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ee9utk8g.html"/>
+        <updated>2023-02-17T03:25:50.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Web3底层语言（三）：Move生态有哪些亮点？》
+作者：宋嘉吉 任鹤义
+在基于Move语言的基础区块链有着不一样的系统逻辑和潜力——突出表现为并行性和更灵活的共识协议。Aptos的并行处理能够提升扩展性，并行处理的流程充分体现了Move基础链的灵活性，进一步地，存储和执行GAS费分开计算的方式会进一步解放网络资源的潜力。SUI对单写者事务进行简单快速处理和异步共识协议在系统效率提升方面也很有特色。本文从并行处理和共识协议创新两个角度来分析典型的Move生态的特点，如Aptos和SUI这样的基础区块链。
+Aptos利用Block-STM（Software Transactional Memory）引擎实现并行处理，带来性能的明显提升。Block-STM其工作理念类似以太坊二层网络的Optimistic Rollup（乐观汇总），交易在区块内是预先排序的，先假设交易之间是没有依赖关系，乐观地执行并行交易。执行后验证所有交易结果，如果发现一个交易访问了由先前交易修改的内存位置，则该交易无效——因为很明显两个交易是相关的。刷新交易的结果，然后重新执行交易。重复该过程，直到区块中的所有交易都被执行。Block-STM的特点是支持比较复杂的事物，适合多种应用负载工况。
+Aptos区块链执行过程中是分阶段、独立、批量化运行的，这给GAS费的市场定价带来更多优化、细化的潜在空间，于是产生了存储和执行成本分开的GAS费模型。Aptos网络GAS费计算的主要原则是：操作的成本应该与对CPU、内存、网络、存储等资源消耗直接相关。这个模型将区块链合约执行的流程充分细化，从执行任务的金融价值、数据量、算力资源消耗等角度充分考虑到合约执行的市场价值。
+Aptos的共识协议本质上是最终同步的平行执行引擎，将相互依赖的执行层和共识层解耦，从而实现扩展。在交易传播过程中，交易被每个验证者分组为批次…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上海升级在即，POS服务商需做好哪些准备]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/aezpqeqy.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/aezpqeqy.html"/>
+        <updated>2023-02-17T03:20:37.000Z</updated>
+        <summary type="html"><![CDATA[以太坊2.0经历了Beacon链的上线、合并之后，即将在3月份（根据最新消息，预计推迟到4月初）迎来又一次重大更新——上海升级。其中，Eth2.0的质押资产提款问题是此次升级需要解决的核心问题之一。随着上海升级的临近，以太坊staking产品近期在市场上获得了较高的关注度，火必POS负责人Xi Jiazhen(业内常用名：Token)分享了pos服务商需要做的提前工作，他表示，作为ETH2.0的重要参与者，火必已经为上海升级做好了准备。
+上海升级生效之后，用户可以把之前质押在Beacon链上的本金或收益提取到自己提供的地址上，从而自由支配相应的资产。提款可以分为全部提款和提取奖励，两者均需要设置提款地址，提款地址一经设置无法修改。全部提款需要用户发起退出validator的请求，排队等待确认，用户确认退出之后可以将全部资金取回；奖励的提取采用自动发放的形式，平均每隔几天自动入账。两类提款均不涉及gas费。
+无论是全部提款还是提取奖励，用户都需要事先设置提款地址。在上海升级之前，用户只可以在初始创建validator的时候设置提款地址，无法在validator创建之后再设置，由于Beacon链并未对设置提款地址做强制要求，所以导致部分validator的提款地址为空。截至2月13日，全网总共有517052个validator中只有205178个设置了提现地址，未设置地址数量为311874，占比为60.3%。
+上海升级之后，用户可以针对未设置取款地址的validator发起设置提款地址的请求，但不可以修改提款地址。按照每个区块可以设置16个提款地址的理论值计算，3天之内（311874/115200 约2.7）可以全部设置完成。
+涉及到全部提款，用户需要先发起退出validator的操作，具体操作可参考：https://docs.prylabs.network/docs/wall…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】剖析 VC 钱包：最大持仓及最近投资]]></title>
+        <id>https://twitter.com/ThorHartvigsen/status/1626204769189605377</id>
+        <link href="https://twitter.com/ThorHartvigsen/status/1626204769189605377"/>
+        <updated>2023-02-17T03:18:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密研究员 Thor Hartvigsen 追踪了排名前 20 的加密基金的 1200 多个钱包，他撰推发文分析了其中 8 家最大的风险投资公司最大的持仓及最新的投资。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ThorHartvigsen/status/1626204769189605377">https://twitter.com/ThorHartvigsen/status/1626204769189605377</a></p>
+<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Jump Trading：总余额为 39 亿美元，其中最大持仓为 ETH ，32.5 亿美元。过去几天，Jump 在 Paxos 上赎回了 5000 万美元以上的 BUSD。2）Blockchain Capital：总余额为 8720 万美元，最大持仓为 2170 万美元的 $MATIC，其中大部分于 2023 年获得。Blockchain Capital 与 Dragonfly 共同领投了 zkSync 2 亿美元的 C 轮融资。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1626204769189605377">内容来源</a><p><strong>Thor Hartvigsen：</strong>3）a16z：总余额 3.1 亿美元，最大持仓为 $UNI ，2.57 亿美元，占其总供应量 4% 以上。4）Amber Group：总余额 2.45 亿美元，其中最大持仓为 1.19 亿 美元的 ETH，所有 2150 万美元的 $FET (FetchAI) 似乎都是在过去三天购买的。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1626204769189605377">内容来源</a><p><strong>Thor Hartvigsen：</strong>5）Winrermute：总余额 4.01 亿美元，其中最大持仓为 3.01 亿美元 $wETH。Wintermute 在空投前后将 500 多万美元的 $BLUR 存入几个交易所。此外，过去几天该基金似乎一直在套利 / 出售 2000 万美元以上的 BUSD。Paradigm：总余额 3.82 亿美元，最大持仓为 1.95 亿美元 $LDO 。6）Paradigm 是 Lido Finance 最大的投资者之一。截至目前，他们的 1 亿 LDO 代币中有 7900 万已解锁。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1626204769189605377">内容来源</a><p><strong>Thor Hartvigsen：</strong>7）Dragonfly Capital：总余额为 9040 万美元，其中最大持仓为 4600 万美元 $LDO 。8）DeFiance Capital：总余额 8500 万美元，最大持仓为 5700 万美元 $USDC 。提醒：无法保证风投是「聪明钱」，并且由于多个链上有许多钱包，因此很难使这些余额完全准确。无法追踪的钱包中可能存在未知资产。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1626204769189605377">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊开发者：公共测试网 Shapella 提款测试出现问题，不会影响公共测试网 Sepolia 升级]]></title>
+        <id>https://twitter.com/TimBeiko/status/1626259038383280136</id>
+        <link href="https://twitter.com/TimBeiko/status/1626259038383280136"/>
+        <updated>2023-02-17T03:14:24.000Z</updated>
+        <summary type="html"><![CDATA[<h3>以太坊开发者：公共测试网 Shapella 提款测试出现问题，不会影响公共测试网 Sepolia 升级</h3>
+<p>以太坊核心开发者 Tim Beiko 发布推特称，开发者 MariusVanDerWijden 发现了一个公共测试网 Shapella bug，该 bug 在没有交易或取款的空块完全同步期间显示出来，除了 Nethermind 的其他客户端也遇到了这个问题，不过该问题很容易测试，可以快速修补，我们将为这种情况增加额外的 Hive 测试。此外，团队认为该问题不会影响 Sepolia 升级时间表，仍计划在北京时间 2 月 28 日 12:00 进行。</p>
+<p><a href="https://twitter.com/TimBeiko/status/1626259038383280136">内容来源</a></p><hr><h3>观点：</h3><p><strong>Tim Beiko（以太坊核心开发者）：</strong>Barnabas Busa 更新了最新对 Shapella 进行压力测试的提款 Devnet。该 Devnet 有 60 万验证者，其中 36 万验证者在分叉时执行取款凭证更新。客户端看到 RAM + CPU 使用率激增，开发团队将在未来几天监测开发网络以查看有多少凭证更新消息被包含和丢失。此外，此次测试还发现了一个 Prysm <> Besu 问题，Besu 限制了它通过 RPC 发送的响应数量以防止 DoS，但 Prysm 预期的响应数量高于 Besu 当前限制。 Besu 团队目前正在调查此事。此外，我们还计划进行另一次主网影子分叉，将在上面做一些 Mev-Boost 测试。【原文为英文】</p><a href="https://twitter.com/TimBeiko/status/1626259038383280136">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[打造支付宝级Web3用户体验，一文了解Cwallet背后的产品逻辑]]></title>
         <id>https://www.panewslab.com/zh/articledetails/pnsuutr5.html</id>
@@ -30,6 +105,42 @@
 不过，币安也指出了ChatGPT存在偏见以及安全和隐私方面的风险。称尽管人工智能会产生自己的反应，但它会受到训练所用数据的影响，因此可能会出现偏见问题。ChatGPT目前免费使用的，据说所有与它共享的信息都被开发人员用于改进产品，因此无法确保用户放入ChatGPT的任何信息的安全和隐私，因此用户不应该过度依赖ChatGPT。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[游戏公会 YGG 完成 1380 万美元融资，DWF Labs 和 a16z Crypto 领投]]></title>
+        <id>https://www.techinasia.com/a16z-crypto-backs-yggs-138m-advance-soulbound-tokens</id>
+        <link href="https://www.techinasia.com/a16z-crypto-backs-yggs-138m-advance-soulbound-tokens"/>
+        <updated>2023-02-17T02:45:44.000Z</updated>
+        <summary type="html"><![CDATA[<h3>游戏公会 YGG 完成 1380 万美元融资，DWF Labs 和 a16z Crypto 领投</h3>
+<p>据 Tech in Asia 报道，游戏公会 Yield Guild Games（YGG）已通过出售代币募集到 1380 万美元资金，DWF Labs 和 a16z Crypto 领投。YGG 联合创始人 Gabby Dizon 表示，所筹资金将用于进一步开发其灵魂绑定声誉代币。该声誉代币于去年测试推出，但仅对内容创作等公会内活动给予奖励。YGG 表示将与开发商合作，将代币直接放入游戏中，完成选定的任务或任务将获得奖励。此外，Gabby Dizon 表示，当平台推出改进后的网络应用程序时，声誉代币还将在平台生态系统中发挥更大的作用，该应用程序计划于 3 月下旬在旧金山举行的游戏开发者大会上公布。</p>
+<p><a href="https://www.techinasia.com/a16z-crypto-backs-yggs-138m-advance-soulbound-tokens">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美 SEC 指控 Terraform Labs 及其首席执行官 Do Kwon 策划数十亿美元加密资产证券欺诈]]></title>
+        <id>https://www.sec.gov/news/press-release/2023-32</id>
+        <link href="https://www.sec.gov/news/press-release/2023-32"/>
+        <updated>2023-02-17T02:36:48.000Z</updated>
+        <summary type="html"><![CDATA[<h3>美 SEC 指控 Terraform Labs 及其首席执行官 Do Kwon 策划数十亿美元加密资产证券欺诈</h3>
+<p>据美国证券交易委员会（SEC）公告表示，SEC 指控 Terraform Labs 及其首席执行官 Do Kwon 策划了涉及算法稳定币和其他加密资产证券的数十亿美元的加密资产证券欺诈。指控称其未能按照大量加密资产证券的要求向公众提供完整、公平和真实的披露，并且通过重复虚假的陈述对投资者实施欺诈。值得注意的是，SEC 在公告中明确指控 LUNA 及 Terra UST（UST）是未经注册的证券。</p>
+<p><a href="https://www.sec.gov/news/press-release/2023-32">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，nsignia Venture Partners、MindWorks Capital 和 Signum Capital 领投]]></title>
+        <id>https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack</id>
+        <link href="https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack"/>
+        <updated>2023-02-17T02:36:41.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，nsignia Venture Partners、MindWorks Capital 和 Signum Capital 领投</h3>
+<p>Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，nsignia Venture Partners、MindWorks Capital 和 Signum Capital 领投，K3 Ventures、LingFeng Innovation Fund、UpHonest Capital 和 Aipollo Investment 等参投。目前估值暂未披露。所筹资金将用于加速 Sending Labs 与其他 Layer1 和 Layer2 的集成，计划集成 Avalanche、Arbitrum 及非 EVM 链，例如 Solana 和 Sui。剩余资金将用于开发特定行业 SDK 和启动社区大使计划。此外，Sending Labs 还计划推出两款旗舰产品测试版本，加密聊天平台 SendingMe 及软件开发工具包 SendingNetwork。</p>
+<p><a href="https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack">内容来源</a></p><hr><h3>观点：</h3><p><strong>The Block：</strong>通过 SendingMe，用户不仅可以增长粉丝，还可以通过点对点交易、市场、空投及 NFT 拍卖实现创建项目的代币化。SendingNetwork 旨在供加密应用开发者构建符合 Web3 去中心化宗旨的社交功能，包括应用内和跨应用聊天、通知、钱包、DID 登陆及基于 NFT 和代币的交易等。【原文为英文】</p><a href="https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -64,6 +175,18 @@
 此外，Barnabas Busa随后更新了最新的取款Devnet，其目标是对Shapella进行压力测试。该Devnet有60万验证者，其中36万验证者在分叉时执行取款凭证更新。客户端看到RAM + CPU使用率激增的情况，Devnet团队将在未来几天监控开发网络，以查看有多少凭证更新消息被包含和丢失。该测试还揭示了Prysm Besu问题，其中Besu限制了它通过RPC发送的响应数量以防止DoS，但Prysm预期的响应数量高于Besu的当前限制。Besu团队目前正在调查此事。此外，开发者还计划进行另一次主网影子分叉，将在上面做一些Mev-Boost测试。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，nsignia Venture Partners、MindWorks Capital 和 Signum Capital 领投]]></title>
+        <id>https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack</id>
+        <link href="https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack"/>
+        <updated>2023-02-17T01:56:42.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，nsignia Venture Partners、MindWorks Capital 和 Signum Capital 领投</h3>
+<p>Web3 通信项目 Sending Labs 完成 1250 万美元种子轮融资，nsignia Venture Partners、MindWorks Capital 和 Signum Capital 领投，K3 Ventures、LingFeng Innovation Fund、UpHonest Capital 和 Aipollo Investment 等参投。目前估值暂未披露。所筹资金将用于加速 Sending Labs 与其他 Layer1 和 Layer2 的集成，计划集成 Avalanche、Arbitrum 及非 EVM 链，例如 Solana 和 Sui。剩余资金将用于开发特定行业 SDK 和启动社区大使计划。此外，Sending Labs 还计划推出两款旗舰产品测试版本，加密聊天平台 SendingMe 及软件开发工具包 SendingNetwork。</p>
+<p><a href="https://www.theblock.co/post/212426/sending-labs-secures-12-5-million-to-build-web3-communcation-stack">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
