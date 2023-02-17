@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-17T06:03:04.467Z</updated>
+    <updated>2023-02-17T07:02:48.534Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[律师：SEC对Terra的诉讼可被视为SEC取缔其他稳定币的“路线图”]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/uodv0e65.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/uodv0e65.html"/>
+        <updated>2023-02-17T06:46:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月17日消息，Delphi Labs总法律顾问Gabriel Shapiro在推特上表示，美国证券交易委员会(SEC)对Terraform Labs及其联合创始人Do Kwon的诉讼可被视为SEC取缔其他稳定币的“路线图”。他们会声称，构建稳定币生态系统的整合、推广、营销、商业交易等是都是“合理预期的其他人的努力”，可以带来与稳定币相关的利润。
+Shapiro称，SEC在对此次诉讼中的论点“比平时更彻底”。SEC的这场诉讼有四个第一次：1.声称稳定币(UST)是一种证券；2.声称合成股票（mAsset）是(证券)互换；3，声称“封装代币”(wLUNA)是一种证券。4.不对代币使用Howey测试，而是使用“枚举证券”类型的论点来支持其认为wLUNA是证券的“收据”因而是证券的观点。
+此外，对于UST，SEC还提供了另一种非基于Howey的论点，即UST是证券(LUNA)的“认购权”，因此本身就是证券。关于mAssets的论点，值得注意的是，他们不仅指控这里违反了第33号法案，而且还指控这些交易未在注册证券交易所或ATS上进行，违反了第34号法案（“交易法”）。
+今日早些时候消息，SEC起诉Terraform Labs和Do Kwon，指控其误导投资者和销售未注册证券。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】专访 Eigenlayer 创始人：Eigenlayer 如何通过可编程信任实现根本性创新？]]></title>
+        <id>https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation</id>
+        <link href="https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation"/>
+        <updated>2023-02-17T06:12:43.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Eigenlayer 是建立在以太坊上的协议，旨在通过重新质押（ restaking ) 来聚合和扩展加密经济安全性。Flywheel DeFi 作者 Samuel McCulloch 则专访了 Eigenlayer 创始人 Sreeram Kannan，讨论了 Eigenlayer 是如何通过可编程信任实现根本性创新以及中间件悖论。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation">https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation</a></p>
+<p><strong>文章作者：</strong></p><p>Samuel McCulloch</p><hr><h3>观点：</h3><p><strong>Samuel McCulloch：</strong>在区块链出现前，创新者面临建立信任网络的艰苦战斗，这个过程的本质创造了一个需要高度集中和监管的金融系统来消除信任问题。而以太坊最令人惊奇的地方在于它将信任和创新分开，在以太坊最初几年，想法是使用分片来增强可扩展性，而现在范式则转变为 L2 rollup 。Eigenlayer 则超越 rollup ，建立一个任何人都可以创新的完全开放的信任层。【原文为英文】</p><a href="https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation">内容来源</a><p><strong>Samuel McCulloch：</strong>Eigenlayer 计划推出的一切都完全依赖于最近的 PoS 转换，因为现在信任是可编程的。PoW 对于加强网络安全非常有用，但除了不正确的挖矿之外，它不可能对矿工产生负面激励。你不能在 PoW 中进行 slash，你只能争取获得区块奖励。但是，对于 PoS，两者皆可得。验证者获得质押奖励，但如果他们错误地执行区块，他们也可能被罚没。【原文为英文】</p><a href="https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation">内容来源</a><p><strong>Samuel McCulloch：</strong>Eigenlayer 不会对现有的社区和网络构成威胁，不过它带来的是更大的竞争，因为任何现有协议都不会再仅仅因为其验证者集和权益而具有优势。与 DeFi 不同，重新质押者面临的风险较小，因为他们致力于 ETH 质押并且不介意价格波动。他们只是想确保自己赚取更多的 ETH 或收益，因此 Eigenlayer 应该比 DeFi 更容易被接受。【原文为英文】</p><a href="https://flywheeloutput.com/p/how-eigenlayer-unlocks-radical-innovation">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：休眠2年的地址将超3亿枚DOGE转至新地址，约合2800万美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/907hc8xx.html</id>
@@ -80,6 +105,18 @@ Synapse Chain 将建立在以太坊之上，作为 Optimistic Rollup Layer 2 扩
 ✅ 即将到来的跨链通信叙事]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】对比 Cosmos 生态智能合约平台 Injective： Sei Network 被高估了吗？]]></title>
+        <id>https://twitter.com/farmertuhao/status/1625879153148067840?s=46&amp;t=79jp1omyktCv38UyVzQJkQ</id>
+        <link href="https://twitter.com/farmertuhao/status/1625879153148067840?s=46&amp;t=79jp1omyktCv38UyVzQJkQ"/>
+        <updated>2023-02-17T05:29:15.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密研究员 FarmerTuHao 比较了 Injective 和 Sei Network 的设计机制及生态发展，有何差异？Sei Network 被高估了吗？</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/farmertuhao/status/1625879153148067840?s=46&t=79jp1omyktCv38UyVzQJkQ">https://twitter.com/farmertuhao/status/1625879153148067840?s=46&t=79jp1omyktCv38UyVzQJkQ</a></p>
+<p><strong>文章作者：</strong></p><p>FarmerTuHao</p><hr><h3>观点：</h3><p><strong>FarmerTuHao：</strong>Injective 于 2021 年第四季度在 Cosmos 生态系统中推出，其治理代币 INJ 目前市值为 268,051,222 美元。目前其主网上运行的特色 dAPP 包括 Helix、INJ Dojo、Dexterium、Wavely、Qwerty Exchange 及 White Whale。最新数据显示，Injective 过去 7 天 DEX 总成交量为 1.03 亿美元。【原文为英文】</p><a href="https://twitter.com/farmertuhao/status/1625879153148067840?s=46&t=79jp1omyktCv38UyVzQJkQ">内容来源</a><p><strong>FarmerTuHao：</strong>设计方面，Injective 和 Sei Network 大致类似，例如交易速度都很快、内置定单薄匹配引擎、频繁批量拍卖及 dApp 可访问池流动资金。Sei Network 能否超越 Injective ？我个人认为是可以的，目前 Sei Network 上有 100 多个高度创新的项目正在构建，已经公布的有 60 多个，而且数量增加的很快。【原文为英文】</p><a href="https://twitter.com/farmertuhao/status/1625879153148067840?s=46&t=79jp1omyktCv38UyVzQJkQ">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
