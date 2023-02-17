@@ -1933,6 +1933,36 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/1c86arl1.html",
+          "author": null,
+          "description": "PANews 2月18日消息，据The Block报道，稳定币交易项目Platypus遭黑客攻击后，在区块链安全公司BlockSec的帮助下，至少已有240万美元资金被追回。Blocksec的可视化工具MetalSleuth表示，在Platypus被盗的近910万美元资金中，攻击者只能兑现27万美元。BlockSec利用攻击合约中的漏洞，使用回调函数，将资金从攻击合约转移至Platypus的账户上，目前已追回240万美元。据此前消息，Platypus遭遇闪电贷攻击，损失约900万美元，大部分被盗资金仍留在攻击者的合约地址中，部分资金被发送到EOA和AAVE池中。在对攻击合约进行反编译后发现，攻击者并没有在合约中实现提现功能，导致攻击收益无法提取，850万美元被冻结在攻击合约内。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/1c86arl1.html",
+          "publishedOn": "2023-02-17T21:58:27.000Z",
+          "wordCount": 949,
+          "title": "安全公司BlockSec帮助Platypus追回240万美元被盗资金",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/hx63wlun.html",
+          "author": null,
+          "description": "PANews 2月18日消息，据The Block报道，据两名知情人士透露，Jump Trading为美国证券交易委员会（SEC）指控在TerraUSD与美元脱钩期间为其提供支持的交易公司。SEC周四对Terraform Labs和该公司首席执行官Do Kwon提起民事诉讼，指控他们在2021年5月利用一家“美国交易公司”支持TerraUSD的价格，误导投资者。SEC尚未对Jump提出任何指控，也没有指控该公司存在不当行为。G根据SEC的起诉书，2021年5月，当UST价格与美元“脱钩”时，Terraform通过Kwon与第三方“美国交易公司”秘密讨论了购买大量UST以恢复其价格的计划。当UST的价格因此回升时，被告误导投资者，使其相信UST的算法已成功重新将UST与美元挂钩。在UST脱钩的四个月前，总部位于芝加哥的Jump Trading正式推出了加密货币部门“Jump Crypto”，由Kanav Kariya负责。SEC指控Terraform从2019年11月左右开始与这家交易公司合作。该公司为Luna和TerraUSD提供做市服务以获得报酬，它通常能够以低于当前市价的成本获得Luna。在该交易公司于2021年5月介入帮助支撑TerraUSD后，它通常以40美分的价格获得Luna代币，即使它们在二级市场的交易价格超过90美元。SEC称，Jump最终从这笔交易中获利约12.8亿美元。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/hx63wlun.html",
+          "publishedOn": "2023-02-17T21:47:47.000Z",
+          "wordCount": 964,
+          "title": "知情人士：Jump Trading为美国SEC指控在TerraUSD脱钩期间为其提供支持的“美国交易公司”",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/8af9dxl0.html",
+          "author": null,
+          "description": "PANews 2月18日消息，据彭博社报道，FTX前工程总监Nishad Singh正在与检察官敲定一项协议，计划对刑事指控认罪。目前协议尚未最终敲定。他将是SBF核心圈子中第三位认罪并与检察官合作的成员，前两名成员分别是FTX联合创始人Gary Wang和Alameda Research前首席执行官Caroline Ellison。SBF对包括欺诈在内的一系列刑事指控拒不认罪，目前正在等待10月份的审判。如果所有罪名成立，他可能被判处100年以上监禁。FTX于去年11月申请破产，其估值曾高达320亿美元。据估计，该公司拥有900万名客户，欠前50名债权人的金额可能高达31亿美元。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/8af9dxl0.html",
+          "publishedOn": "2023-02-17T21:23:18.000Z",
+          "wordCount": 956,
+          "title": "彭博社：前FTX高管Nishad Singh计划对刑事指控认罪",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/rh1ulczj.html",
           "author": null,
           "description": "PANews 2月17日消息，据彭博社援引知情人士报道，Binance Holdings 正探索切断在美国的商业联系。Binance 正在考虑是否切断与银行和服务公司等中介公司的关系，并正在重新评估在美国的风险投资。它将考虑将代币从任何美国项目中除名，包括Circle的USDC。小型加密货币交易所Binance.US没有退出美国的计划。",
