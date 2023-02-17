@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-17T04:02:44.493Z</updated>
+    <updated>2023-02-17T05:02:51.949Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Filecoin将于3月23日推出智能合约]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/khn45f1e.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/khn45f1e.html"/>
+        <updated>2023-02-17T04:35:00.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月17日消息，根据Filecoin生态增长负责人“HQHan.eth”的推文，去中心化存储项目Filecoin将于3月23日推出智能合约，使其成为一个成熟的L1。据悉，FVM可为Filecoin带来智能合约功能。Filecoin官方也转发并确认了这一时间。
+Filecoin此前表示将于2023年3月上线FVM。FVM将智能合约与可证明存储相结合，可被用于部署可编程存储原语言、跨链互操作性桥、以数据为中心的去中心化自治组织（DAO）以及Layer2解决方案等。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以Constitution DAO、CultDAO和NounsDAO为例，揭示DAO社区运作机制]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/folube6e.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/folube6e.html"/>
+        <updated>2023-02-17T04:26:46.000Z</updated>
+        <summary type="html"><![CDATA[原文：《从众筹到投资，DAO社区如何运作？》
+作者：Soya
+2021年3月，俄亥俄州参议院正式通过DAO法案，允许用户通过DAO来处理事务，DAO的法律地位也逐步得到认可。从此，DAO开始以更加强劲的势头迅猛发展，各种不同类型的DAO也竞相登上加密领域的舞台。
+本文将以1个众筹DAO和2个投资DAO为例，对DAO的运作机制进行简要分析。
+DAO是一种新型的人类合作模式，链茶馆此前在《DAO赛道研究：DAO的起源、演变与未来 》中总结出3个核心要素：
+1.内部资本：
+用内部资本发行代币，从而激励参与者的行为，保证组织良好运行；
+2.自治：
+即不依赖人类意志和行为的自动决策及执行能力，通常依靠代码完成；
+3.人治：
+拥有一定程度的人治，且人治模式是高度民主的，即所有成员均拥有参与决策的途径。
+当然，DAO中的自治和人治的占比没有明确的规则，但自治的元素必须大于0，否则就丧失了DAO的本义。
+DAO作为一种基于区块链的组织，给予了DAO组织者和参与者很大的发挥空间，随后各种DAO也层出不穷。有些DAO凭借其优秀的组织架构，一跃成为圈内标杆，也有些不了了之。
+Constitution DAO（宪法DAO）成立始于一个玩笑。
+2021年11月，苏富比公开拍卖美国宪法的第一批印刷品，美国宪法是人类现代社会的第一部成文宪法，首次印刷只有十几份，而苏富比拍卖的这份印刷品是是民间流传的最后1份。
+因此有人在Twitter开玩笑，表示想公开募资买下宪法，后来宪法DAO就真正落地了。
+成立原因是想运用DAO的去中心化特点，将宪法副本这个具有历史意义的文物保留给大众，避免落入私人的口袋。如果竞拍成功，如何收藏宪法副本将由捐赠者共同投票决定。
+项目成立后，宪法DAO支持者一直在Twitter宣传此次竞标，并建立了Discord社区。此外，Coinbase、z16z等知名机构也纷纷为其宣传，曾经的F…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】一文解析 Arbitrum 最新编程环境 Stylus]]></title>
+        <id>https://twitter.com/Larry_007__/status/1626160899580125185</id>
+        <link href="https://twitter.com/Larry_007__/status/1626160899580125185"/>
+        <updated>2023-02-17T04:16:52.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Offchain Labs 宣布推出基于 Arbitrum One 及 Arbitrum Nove 升级的下一代编程环境 Stylus。Amber Group 投资研究员 Larry007.eth 通过 Stylus 的优点、工作原理以及其如何解决争议实现防欺诈对其进行全面解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Larry_007__/status/1626160899580125185">https://twitter.com/Larry_007__/status/1626160899580125185</a></p>
+<p><strong>文章作者：</strong></p><p>larry007.eth</p><hr><h3>观点：</h3><p><strong>larry007.eth：</strong>Stylus 除了 EVM 等效性之外，还允许开发人员使用最流行的语言（如 C、C++ 和 Rust）编写和部署智能合约，这些语言可以编译成 WASM。这带来了明显的好处：1）对开发更友好；2）执行速度更快，成本可能更低；3）从而实现了智能合约功能扩展，如：自定义预编制合约。【原文为英文】</p><a href="https://twitter.com/Larry_007__/status/1626160899580125185">内容来源</a><p><strong>larry007.eth：</strong>Stylus 是如何工作的？当交易调用 EVM 合约时，Geth 执行并返回结果。如果该 EVM 合约恰好对 WASM 程序进行了子调用，那么 Stylus 就会启动并计算这部分结果。Arbitrum 将证明与执行分开。代码通常被编译为本地执行，但当挑战发生和需要欺诈证明时，也会被编译为 WASM。【原文为英文】</p><a href="https://twitter.com/Larry_007__/status/1626160899580125185">内容来源</a><p><strong>larry007.eth：</strong>如何解决争议？1）第一阶段，通过类似二分法的过程准确定位分歧。验证者必须分别为状态的开始、状态的中间阶段和最终状态提供哈希值。通过与自己的哈希值进行比较，挑战者需要指明哪一半与验证者不一致。通过反复迭代这个过程，两方最终会确定一个他们不同意的单步指令；2）第二阶段，主网合约将重新执行这条单一指令并决定哪一方是诚实的。Arbitrum 团队部署了一套合约来模拟一台 WASM 机器。这也解释了 Stylus WASM 代码将如何防欺诈。</p><a href="https://twitter.com/Larry_007__/status/1626160899580125185">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimism社区关于主网Bedrock升级的投票推迟至3月2日开始]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/2b4uyzwp.html</id>

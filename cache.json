@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/Larry_007__/status/1626160899580125185",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Offchain Labs 宣布推出基于 Arbitrum One 及 Arbitrum Nove 升级的下一代编程环境 Stylus。Amber Group 投资研究员 Larry007.eth 通过 Stylus 的优点、工作原理以及其如何解决争议实现防欺诈对其进行全面解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Larry_007__/status/1626160899580125185\">https://twitter.com/Larry_007__/status/1626160899580125185</a></p>\n<p><strong>文章作者：</strong></p><p>larry007.eth</p><hr><h3>观点：</h3><p><strong>larry007.eth：</strong>Stylus 除了 EVM 等效性之外，还允许开发人员使用最流行的语言（如 C、C++ 和 Rust）编写和部署智能合约，这些语言可以编译成 WASM。这带来了明显的好处：1）对开发更友好；2）执行速度更快，成本可能更低；3）从而实现了智能合约功能扩展，如：自定义预编制合约。【原文为英文】</p><a href=\"https://twitter.com/Larry_007__/status/1626160899580125185\">内容来源</a><p><strong>larry007.eth：</strong>Stylus 是如何工作的？当交易调用 EVM 合约时，Geth 执行并返回结果。如果该 EVM 合约恰好对 WASM 程序进行了子调用，那么 Stylus 就会启动并计算这部分结果。Arbitrum 将证明与执行分开。代码通常被编译为本地执行，但当挑战发生和需要欺诈证明时，也会被编译为 WASM。【原文为英文】</p><a href=\"https://twitter.com/Larry_007__/status/1626160899580125185\">内容来源</a><p><strong>larry007.eth：</strong>如何解决争议？1）第一阶段，通过类似二分法的过程准确定位分歧。验证者必须分别为状态的开始、状态的中间阶段和最终状态提供哈希值。通过与自己的哈希值进行比较，挑战者需要指明哪一半与验证者不一致。通过反复迭代这个过程，两方最终会确定一个他们不同意的单步指令；2）第二阶段，主网合约将重新执行这条单一指令并决定哪一方是诚实的。Arbitrum 团队部署了一套合约来模拟一台 WASM 机器。这也解释了 Stylus WASM 代码将如何防欺诈。</p><a href=\"https://twitter.com/Larry_007__/status/1626160899580125185\">内容来源</a>",
+          "link": "https://twitter.com/Larry_007__/status/1626160899580125185",
+          "publishedOn": "2023-02-17T04:16:52.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】一文解析 Arbitrum 最新编程环境 Stylus",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/ThorHartvigsen/status/1626204769189605377",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密研究员 Thor Hartvigsen 追踪了排名前 20 的加密基金的 1200 多个钱包，他撰推发文分析了其中 8 家最大的风险投资公司最大的持仓及最新的投资。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ThorHartvigsen/status/1626204769189605377\">https://twitter.com/ThorHartvigsen/status/1626204769189605377</a></p>\n<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Jump Trading：总余额为 39 亿美元，其中最大持仓为 ETH ，32.5 亿美元。过去几天，Jump 在 Paxos 上赎回了 5000 万美元以上的 BUSD。2）Blockchain Capital：总余额为 8720 万美元，最大持仓为 2170 万美元的 $MATIC，其中大部分于 2023 年获得。Blockchain Capital 与 Dragonfly 共同领投了 zkSync 2 亿美元的 C 轮融资。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626204769189605377\">内容来源</a><p><strong>Thor Hartvigsen：</strong>3）a16z：总余额 3.1 亿美元，最大持仓为 $UNI ，2.57 亿美元，占其总供应量 4% 以上。4）Amber Group：总余额 2.45 亿美元，其中最大持仓为 1.19 亿 美元的 ETH，所有 2150 万美元的 $FET (FetchAI) 似乎都是在过去三天购买的。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626204769189605377\">内容来源</a><p><strong>Thor Hartvigsen：</strong>5）Winrermute：总余额 4.01 亿美元，其中最大持仓为 3.01 亿美元 $wETH。Wintermute 在空投前后将 500 多万美元的 $BLUR 存入几个交易所。此外，过去几天该基金似乎一直在套利 / 出售 2000 万美元以上的 BUSD。Paradigm：总余额 3.82 亿美元，最大持仓为 1.95 亿美元 $LDO 。6）Paradigm 是 Lido Finance 最大的投资者之一。截至目前，他们的 1 亿 LDO 代币中有 7900 万已解锁。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626204769189605377\">内容来源</a><p><strong>Thor Hartvigsen：</strong>7）Dragonfly Capital：总余额为 9040 万美元，其中最大持仓为 4600 万美元 $LDO 。8）DeFiance Capital：总余额 8500 万美元，最大持仓为 5700 万美元 $USDC 。提醒：无法保证风投是「聪明钱」，并且由于多个链上有许多钱包，因此很难使这些余额完全准确。无法追踪的钱包中可能存在未知资产。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626204769189605377\">内容来源</a>",
@@ -1792,6 +1802,26 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/khn45f1e.html",
+          "author": null,
+          "description": "PANews 2月17日消息，根据Filecoin生态增长负责人“HQHan.eth”的推文，去中心化存储项目Filecoin将于3月23日推出智能合约，使其成为一个成熟的L1。据悉，FVM可为Filecoin带来智能合约功能。Filecoin官方也转发并确认了这一时间。\nFilecoin此前表示将于2023年3月上线FVM。FVM将智能合约与可证明存储相结合，可被用于部署可编程存储原语言、跨链互操作性桥、以数据为中心的去中心化自治组织（DAO）以及Layer2解决方案等。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/khn45f1e.html",
+          "publishedOn": "2023-02-17T04:35:00.000Z",
+          "wordCount": 955,
+          "title": "Filecoin将于3月23日推出智能合约",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/folube6e.html",
+          "author": null,
+          "description": "原文：《从众筹到投资，DAO社区如何运作？》\n作者：Soya\n2021年3月，俄亥俄州参议院正式通过DAO法案，允许用户通过DAO来处理事务，DAO的法律地位也逐步得到认可。从此，DAO开始以更加强劲的势头迅猛发展，各种不同类型的DAO也竞相登上加密领域的舞台。\n本文将以1个众筹DAO和2个投资DAO为例，对DAO的运作机制进行简要分析。\nDAO是一种新型的人类合作模式，链茶馆此前在《DAO赛道研究：DAO的起源、演变与未来 》中总结出3个核心要素：\n1.内部资本：\n用内部资本发行代币，从而激励参与者的行为，保证组织良好运行；\n2.自治：\n即不依赖人类意志和行为的自动决策及执行能力，通常依靠代码完成；\n3.人治：\n拥有一定程度的人治，且人治模式是高度民主的，即所有成员均拥有参与决策的途径。\n当然，DAO中的自治和人治的占比没有明确的规则，但自治的元素必须大于0，否则就丧失了DAO的本义。\nDAO作为一种基于区块链的组织，给予了DAO组织者和参与者很大的发挥空间，随后各种DAO也层出不穷。有些DAO凭借其优秀的组织架构，一跃成为圈内标杆，也有些不了了之。\nConstitution DAO（宪法DAO）成立始于一个玩笑。\n2021年11月，苏富比公开拍卖美国宪法的第一批印刷品，美国宪法是人类现代社会的第一部成文宪法，首次印刷只有十几份，而苏富比拍卖的这份印刷品是是民间流传的最后1份。\n因此有人在Twitter开玩笑，表示想公开募资买下宪法，后来宪法DAO就真正落地了。\n成立原因是想运用DAO的去中心化特点，将宪法副本这个具有历史意义的文物保留给大众，避免落入私人的口袋。如果竞拍成功，如何收藏宪法副本将由捐赠者共同投票决定。\n项目成立后，宪法DAO支持者一直在Twitter宣传此次竞标，并建立了Discord社区。此外，Coinbase、z16z等知名机构也纷纷为其宣传，曾经的F…",
+          "link": "https://www.panewslab.com/zh/articledetails/folube6e.html",
+          "publishedOn": "2023-02-17T04:26:46.000Z",
+          "wordCount": 1044,
+          "title": "以Constitution DAO、CultDAO和NounsDAO为例，揭示DAO社区运作机制",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/17/images/EeHt5FR12Y.jfif"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/2b4uyzwp.html",
           "author": null,
