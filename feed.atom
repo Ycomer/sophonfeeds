@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T02:25:06.097Z</updated>
+    <updated>2023-02-18T03:03:08.148Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Optimism生态NFT市场Quix宣布代码库开源]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html"/>
+        <updated>2023-02-18T02:29:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月18日消息，据官方消息，Optimism生态NFT市场Quix宣布代码库开源，涉及NFT交易平台、NFT索引器和Launchpad的前端和后端代码，现在所有开发者都可以进行部署和拓展。去年11月，Quix宣布每月基础设施成本已超过收入，因此计划在2023年2月终止运营，并结束了交易激励机制，Optimism基金会将代表Optimism社区使Quix代码开源。Quix正在与Optimism基金会合作，以确保平稳过渡。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CZ：币安并没有考虑下架所有美国项目代币]]></title>
+        <id>https://twitter.com/Dogetoshi/status/1626684746284650496</id>
+        <link href="https://twitter.com/Dogetoshi/status/1626684746284650496"/>
+        <updated>2023-02-18T02:24:13.000Z</updated>
+        <summary type="html"><![CDATA[<h3>CZ：币安并没有考虑下架所有美国项目代币</h3>
+<p>币安首席执行官 CZ 发推表示，币安考虑下架所有美国项目代币为假消息，并表示区块链没有国界。
+此前据彭博社援引知情人士报道，Binance Holding Ltd. 正在考虑结束与美国商业伙伴的关系，正重新评估在美国的风险投资，并考虑下架任何美国项目代币，包括 Circle 稳定币 USDC。</p>
+<p><a href="https://twitter.com/Dogetoshi/status/1626684746284650496">内容来源</a></p><hr><h3>观点：</h3><p><strong>CZ（CEO @Binance）：</strong>我们暂时撤回一些潜在的投资，或对美国破产公司的竞标，先寻求许可。【原文为英文】</p><a href="https://twitter.com/cz_binance/status/1626620534963175442">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BlockTower Capital在Dexible黑客攻击事件中损失150万美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/014unqwv.html</id>
@@ -14,6 +37,18 @@
         <summary type="html"><![CDATA[PANews 2月18日消息，据The Block报道，Dexible在其Discord服务器上发布的一份文件显示，Dexible在本次攻击事件中的损失最终确认为200万美元。黑客利用了智能合约代码中的一个漏洞，使用已批准支出的资金从加密钱包中提取资金。该团队补充说，“少数鲸鱼”损失的资金占本次被盗资金总量的85%。链上数据显示，数字资产投资公司BlockTower Capital是受害者之一。被区块链安全公司Nansen和Arkham Intelligence均标记为Block Tower Capital的地址在本次事件中被盗价值150万美元的TRU代币。攻击者将TRU代币转移到SushiSwap兑换为以太币(ETH)，随后转入TornadoCash。本次攻击中Arbitrum上的13个钱包和以太坊上的5个钱包受到影响。据此前消息，DEX工具Dexible昨日疑似遭遇攻击，损失超过150万美元。攻击者已将盗取的930.6枚ETH （约合153万美元）转移到Tornado Cash。区块链安全审计公司Beosin对Dexible事件进行了分析，称Dexible合约selfSwap函数存在逻辑漏洞，会调用其中的fill函数，该函数存在一个调用攻击者自定义的data，而攻击者在此data中构造了一个transferfrom函数，并将其他用户(0x58f5f0684c381fcfc203d77b2bba468ebb29b098)的地址和自己的攻击地址(0x684083f312ac50f538cc4b634d85a2feafaab77a)传入，导致该用户授权给该合约的代币被攻击者转走。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea 启用可选版税制度，并在一段时间内将费用降为 0%]]></title>
+        <id>https://twitter.com/opensea/status/1626682043655507969</id>
+        <link href="https://twitter.com/opensea/status/1626682043655507969"/>
+        <updated>2023-02-18T02:11:45.000Z</updated>
+        <summary type="html"><![CDATA[<h3>OpenSea 启用可选版税制度，并在一段时间内将费用降为 0%</h3>
+<p>NFT 交易市场 OpenSea 宣布重大改变，包括启动限时 0 手续费交易活动、所有没有链上强制执行版税的 NFT 交易品转为可选版税（最低 0.5%）及更新运营商过滤器以允许使用具有相同政策的 NFT 市场进行销售（包括 Blur）。</p>
+<p><a href="https://twitter.com/opensea/status/1626682043655507969">内容来源</a></p><hr><h3>观点：</h3><p><strong>OpenSea：</strong>NFT 生态系统发生了巨大转变，在 10 月我们看到一定数量的用户转移至执行可选版税制度的 NFT 市场。我们一直在努力维护创作者在所有藏品上的收入，但其他 NFT 市场却没有。我们认为我们可以促进创作者收入的广泛执行，并希望其他市场提出更具弹性的解决方案，但这并没有发生。今天约 80% 的生态交易总量没有全额支付创作者收入，且大部分已经转移至零手续费用环境。【原文为英文】</p><a href="https://twitter.com/opensea/status/1626682043655507969">内容来源</a><p><strong>Steven：</strong>这些改变基本复制了 Blur 所有费用结构。自去年 1 月以来，OpenSea 的交易量份额实际上已经减半。【原文为英文】</p><a href="https://twitter.com/Dogetoshi/status/1626684746284650496">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
