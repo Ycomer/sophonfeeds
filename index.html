@@ -22,11 +22,271 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-18 datetime="2023-02-18T05:54:50.000Z">2023-02-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-18 datetime="2023-02-18T05:54:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-18 datetime="2023-02-18T07:10:59.000Z">2023-02-18</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-18 datetime="2023-02-18T07:10:59.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >PANews News</button>
+                  <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/352r5sjh.html"
+                        open
+                      >
+                        <summary class="article-expander__title">详解以太坊验证者的生命周期：如何保证以太坊网络的正常运行？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/352r5sjh.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/18/images/X49IyLoSgL.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《Understanding The Validator Lifecycle》by Jim McDonald
+编译：John
+以太坊 2.0 使用权益证明来确保其网络安全性， 被称为「验证者」的计算机进程将对即将被打包的下一个区块进行投票（下文称「见证」），同时他们也会提议让自己的区块被打包进去。但是，验证者不是仅处于「开」与「关」的状态：他们会在他们的生命周期里历遍一系列的交易。这篇文章将深度剖析验证者的生命周期，展示每个状态和状态转换之际发生的事情，什么触发了状态转换，以及每次状态转换所需要的时间（注解 1）。
+在以太坊 2.0 里，时间通常是以 epoch 为单位，一个 epoch 包括了 384 秒即大概是 6 分半。为了方便理解，以这种方式计量的时间被粗略地翻译成分钟，小时和天，并伴有可用的准确信息在相对应的脚注里。
+在深入分析细节之前，先来看看验证者的生命周期概览，以及用来描述其不同状态的术语。
+
+图表 1：验证者生命周期概览
+以下是状态标签:
+一个元状态同样被定义了: 见证, 即所有验证者要参与进来见证和提议区块的状态（活跃中，退出中的，罚没中）。这个状态是重要的，因为当验证者处于这些状态时需要去访问以太坊（Ethereum）2.0 网络来与其职责保持同步以免被惩罚。
+
+图表 2：见证的元状态
+定义了这些状态之后就是详细分析每一个状态以及它们之间的交易的时候了。
+接受存款协议就是验证者生命周期的开始。接受发生在以太坊 1.0 链上， 因为那就是验证者资金的来源。在这时以太坊 2.0 的链还不知晓这笔存款。
+验证者会保持大概 7 个半小时在这个存款状态里（注解 2 ），以确保不会有一个链的重组影响到以太坊 1.0 交易并有可能使存款协议无效。这之后验证者就会去到待处理状态（注解 3 ）。
+
+图表 3 ：从已存款状态转换到准备状态
+待处理状态
+一旦这笔存款在…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/x98r7gtk.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Decentraland：60%的投票权由18个钱包控制，拟通过创建新治理代币激励用户参与投票</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/x98r7gtk.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月18日消息，据官方消息，元宇宙平台Decentraland发布2023年1月社区更新。Decentraland DAO历史上大约有5000名活跃成员。然而，在8550万活跃投票权中，60%的投票权由18个钱包控制。因此Decentraland DAO希望激励用户参与投票。到目前为止，社区已经确定了几种潜在激励方法，有些已经实现了，例如投票委托，其他的仍在DAO Discord、论坛或最近的提案中讨论，包括建议推出代币化投票权策略，创建一个独立于MANA的新治理代币用于投票等。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/n69a4s0c.html"
+                        open
+                      >
+                        <summary class="article-expander__title">详解 Synthetix V3：协议级重构，DeFi流动性中流砥柱</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/n69a4s0c.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/18/images/405r906AHS.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《详解 Synthetix V3：关于流动性的协议级重构》
+作者：Babywhale，Foresight News
+在 2022 年原子交换正式上线并获得了不错的效果之后，Synthetix 将 V3 提上了日程。作为最「古老」的 DeFi 协议之一，Synthetix 在 2021 年初是合成资产赛道的绝对龙头，也让行业展开了不少针对合成资产协议的讨论。
+据 OKX 行情显示，SNX 价格于 2021 年 2 月 14 日达到了约 29 美元的历史最高价，而彼时比特币与以太坊均未达到历史高点。但之后 SNX 就没有再出现过于亮眼的表现了，一方面是由于 Synthetix 的机制设计过于复杂，另一方面也是因为大家发现通过如此之高的抵押率交易合成资产 sETH、sBTC 不如直接交易比特币和以太坊，加上大量新兴资产的崛起，使得 Synthetix 收益率的吸引力大大降低了。
+但 Synthetix 并未因此走向衰亡，而是巧妙利用了 sUSD 与 sToken 间零滑点的机制讲述了新的「原子交换」的故事。
+Synthetix 最开始完全以合成资产平台的定位亮相于市场中，且设置了一个及其特殊的「债务池」机制：用户通过质押 SNX 来借出 sUSD，与 MakerDAO 抵押资产铸造 DAI 不同，虽然 Synthetix 也会在 SNX 抵押率不足（目前清算线为 160% 的抵押率）时进行清算，但本质上的逻辑却完全不同。
+在 Synthetix 中，所有质押 SNX 铸造 sUSD 的用户共用一个「债务池」，也就是说当你铸造 sUSD 时，铸造出的 sUSD 数量占所有 sUSD 数量的比例就是你占整个债务池的比例，而所有被铸造的 sUSD 就是整个系统的债务。由于所有人共用一个债务池，所以如果其他用户通过操作使得资产升值（例如使用 sUSD 购买 sBTC，而 sBTC …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/itm1ne8a.html"
+                        open
+                      >
+                        <summary class="article-expander__title">YouTube已任命对Web3友好的高管为新任CEO</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/itm1ne8a.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月18日消息，YouTube已任命对Web3友好的高管Neal Mohan为其新任CEO，此前Mohan担任YouTube首席产品官。在Web3方面，Mohan在2022年2月概述了初步计划，将集成一系列新功能，如基于元宇宙的内容体验和通过NFT进行内容代币化。Mohan特别强调，NFT可以为创作者提供一种与观众互动的新方式，并创造额外的收入来源。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimism生态NFT市场Quix宣布代码库开源</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月18日消息，据官方消息，Optimism生态NFT市场Quix宣布代码库开源，涉及NFT交易平台、NFT索引器和Launchpad的前端和后端代码，现在所有开发者都可以进行部署和拓展。去年11月，Quix宣布每月基础设施成本已超过收入，因此计划在2023年2月终止运营，并结束了交易激励机制，Optimism基金会将代表Optimism社区使Quix代码开源。Quix正在与Optimism基金会合作，以确保平稳过渡。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/014unqwv.html"
+                        open
+                      >
+                        <summary class="article-expander__title">BlockTower Capital在Dexible黑客攻击事件中损失150万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/014unqwv.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月18日消息，据The Block报道，Dexible在其Discord服务器上发布的一份文件显示，Dexible在本次攻击事件中的损失最终确认为200万美元。黑客利用了智能合约代码中的一个漏洞，使用已批准支出的资金从加密钱包中提取资金。该团队补充说，“少数鲸鱼”损失的资金占本次被盗资金总量的85%。链上数据显示，数字资产投资公司BlockTower Capital是受害者之一。被区块链安全公司Nansen和Arkham Intelligence均标记为Block Tower Capital的地址在本次事件中被盗价值150万美元的TRU代币。攻击者将TRU代币转移到SushiSwap兑换为以太币(ETH)，随后转入TornadoCash。本次攻击中Arbitrum上的13个钱包和以太坊上的5个钱包受到影响。据此前消息，DEX工具Dexible昨日疑似遭遇攻击，损失超过150万美元。攻击者已将盗取的930.6枚ETH （约合153万美元）转移到Tornado Cash。区块链安全审计公司Beosin对Dexible事件进行了分析，称Dexible合约selfSwap函数存在逻辑漏洞，会调用其中的fill函数，该函数存在一个调用攻击者自定义的data，而攻击者在此data中构造了一个transferfrom函数，并将其他用户(0x58f5f0684c381fcfc203d77b2bba468ebb29b098)的地址和自己的攻击地址(0x684083f312ac50f538cc4b634d85a2feafaab77a)传入，导致该用户授权给该合约的代币被攻击者转走。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/7sdi4dq6.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Arbitrum生态迎来春天，分享值得关注的8个新兴DeFi项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/7sdi4dq6.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/17/images/F53613S5J7.gif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Arbitrum上的DeFi项目再次迎来春天，原生项目中，衍生品类的GMX、DEX类的Camelot、借贷类的Radiant，都吸引了很多的关注。还有哪些Arbitrum上的DeFi项目值得关注呢？PANews筛选了一些新兴项目，至少满足上线时间短、数据增长快、还未发币中的一个条件。以下数据均取自2月16日。
+链接：https://www.zyberswap.io/
+
+Zyberswap是一个DEX，于1月下旬上线，其代币在一月底曾死亡螺旋至接近归零。但得益于Layer2上DeFi的复苏，近期ZYBER-ETH池和ZYBER-USDC池的APR接近2000%，且ZYBER的价格维持稳定和上涨的趋势。在Arbitrum上DEX龙头Camelot的TVL只有6273万美元，且FDV高达3亿美元的情况下，DEX赛道可能还有发展空间。
+在产品上，Zyberswap也有Uniswap V2 + Curve类型的DEX和Launchpad，但代币并没有Camelot复杂的锁仓机制。非稳定币池的交易手续费为0.25%，LP获得0.15%，锁仓ZYBER的用户可以分享一部分。
+目前Zyberswap的TVL为9000万美元，超过了Camelot。
+链接：https://solidlizard.finance/
+
+一个Fork自Solidly的DEX。在知名DeFi开发者Andre的支持下，Solidly曾经坐拥20多亿美元的流动性，但在Andre宣布退出之后一路向下。目前，ve(3,3)模型在Optimism的Velodrome和BNB链的Thena上都取得了不错的成绩。
+SolidLizard也开始在Arbitrum上发力，目前TVL为3469万美元，过去24上升158%。在ve(3,3)这一类项目中，流动性提供者通常并没有很强的意愿去质押DEX的原生代币。而在SolidLizard中，…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/jw6rmsws.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一周精选丨Blur首轮空投落地，NFT市场回暖；SEC禁止BUSD继续发行；宏观、监管传利空，大盘依旧稳固</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/jw6rmsws.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/17/images/wQ71Ojn5Q4.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews编者按：PANews精选了一周的优质内容，帮助大家利用周末时间查漏补缺，点击标题即可阅读。点击下载PANews新版APP，随时随地阅读更多区块链即时快讯和深度好文。
+视频｜BUSD事件最新懒人包，SEC禁止Paxos发行BUSD！是向稳定币还是币安CZ宣战？
+币安稳定币BUSD到底怎么了！美国SEC监管频频出手，对加密行业、一般用户来说，会带来什么影响？视频带你全面了解事件来龙去脉，给你快速追上进度的懒人包！
+美国SEC等监管机构前后夹击Paxos，醉翁之意或不在BUSD
+BUSD是否会出现挤兑风险？稳定币又是否应被视为证券？稳定币的监管管辖权究竟该归属哪个部门？本文PANews将为大家一一解答。
+肖风演讲：数字经济时代与数字资产中心
+数字经济时代就像工业经济时代一样，工业经济时代哺育出了一个股票市场，数字经济时代将来会哺育一个虚拟资产或者叫数字资产市场。这两个市场不是一个互相取代的关系。
+Pantera Capital报告：第七个牛市周期
+区块链将改变世界。不幸的是，这种巨大的承诺导致市场参与者变得疯狂——有时过于看涨，有时过于看跌。我们的投资已经经历了四个“加密寒冬”。
+2023年Web3风投现状观察
+这篇文章探讨了目前2023年的区块链筹款环境与2018年的熊市相比如何，并为创始人需要知道的今年的生存情况奠定了一个框架。
+单链过去式，多链进行时，全链Layer0才是未来？解读“Web3新圣杯”zkOmnichain
+大家的注意力都集中在zkRollup上，而忽视了zkOmnichain。基于零知识证明的全链互操作性协议zkOmnichain是区块链与Web3的圣杯，其重要性非同一般。
+一文速览闯入ETHGlobal FVM黑客松决赛的12个项目
+2 月 10 日，ETHGlobal 和Filecoin联合举办的 FVM黑客松决赛名单已经出炉，共筛选出 12…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/i34lhd42.html"
+                        open
+                      >
+                        <summary class="article-expander__title">CFTC前主席：SEC起诉Terraform Labs和Do Kwon“绝对正确”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/i34lhd42.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月18日消息，据CoinDesk报道，美国商品期货交易委员会(CFTC)前主席Timothy Massad表示，SEC起诉Terraform Labs及其创始人Do Kwon是正确的。Massad现任哈佛大学肯尼迪政府学院研究员，他周五在CoinDesk TV的“First Mover”节目中表示，SEC提出这些指控是绝对正确的。当人们受邀投资一个承诺回报19%至20%的代币时，它就是一种证券。本周四，SEC起诉了Terraform Labs及其联合创始人Do Kwon。SEC指控Terraform和Do Kwon欺诈投资者以及销售未注册证券和证券掉期。SEC已向美国纽约南区地方法院提起民事诉讼。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/rl1w92dw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">知情人士：Blockchain.com没有出售任何子公司，也未与Coinbase谈判相关事宜</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/rl1w92dw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月18日消息，据The Block报道，一位知情人士透露，Blockchain.com没有出售任何子公司，也没有与Coinbase进行过相关谈判。此前有消息称，在对冲基金三箭资本去年破产后，Blockchain.com“一直试图出售资产以获得资本”，在过去两个月里，高管们“向Coinbase等公司推销部分业务”。知情人士表示，Blockchain.com卖出了非流动头寸以获利并提高资产流动性。一位公司发言人表示，没有Blockchain.com的业务正在出售。Blockchain.com是一个资产买家，而不是卖家。据此前消息，Blockchain.com是有意收购衍生品交易所和清算所LedgerX的几家公司之一。去年10月，Blockchain.com完成了由英国投资公司Kingsway capital领投的一轮融资，筹集的资金数额不详。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -38,6 +298,38 @@
                   <a class="source-heading__link" href="">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/Dacongfred/status/1626430953127043073"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】详解 Arbitrum 上 NFT 生态系统 TreasureDAO：有何特点及策略？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/Dacongfred/status/1626430953127043073">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Treasure DAO 在 Arbitrum 繁荣发展中起到了不小的作用。加密研究员 Fred Li 在本文中对 Treasure DAO 的发展策略、经济模型、生态项目等方面进行了分析。
+文章来源：
+https://twitter.com/Dacongfred/status/1626430953127043073
+文章作者：
+Fred Li
+
+观点：
+Fred Li：由于目前 Web3 和 Web2 游戏成熟度差距较大，大部分玩家都是利益驱动（P2E）而非乐趣驱动。且很多 GameFi 项目实际上是套了游戏壳在做 DeFi，通过提高年化收益率来吸引流量，但只要遇到更高回报率的游戏，用户就会流失，流量粘性很低。
+内容来源
+Fred Li：Treasure DAO 实现了一个将游戏和玩家聚集在一起的去中心化游戏生态系统：1）通用货币 MAGIC 可以实现跨游戏玩耍体验；2）基础建设层方面，有三驾马车齐驱，分别是通 Trove 实现 NFT 交易、Bridgeworld 作为资源协调游戏融合很多 DeFi 玩法及目前支持 MAGIC/Gfly 和 MAGIC/ELM 两个交易对的 DEX MagicSwap；3）生态：目前旗下有十多款不同类型的游戏，现象级产品是 The Beacon。
+内容来源
+Fred Li：总结而言，Treasure DAO 最核心的两个特点是：1）通过流动性创新区别去其他游戏通过发币和 APY 吸引玩家，一方面用户需要花时间获取 MAGIC，另一方面 MAGIC 半衰期的特质会让其变得稀缺；2）随着生态丰富，玩家和 TreasureDAO 绑定关系更深，日后 Web3 用户的涌入对垂类游戏的诉求也会增加。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -330,229 +622,6 @@ OpenSea：NFT 生态系统发生了巨大转变，在 10 月我们看到一定�
 Steven：这些改变基本复制了 Blur 所有费用结构。自去年 1 月以来，OpenSea 的交易量份额实际上已经减半。【原文为英文】
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >PANews News</button>
-                  <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/x98r7gtk.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Decentraland：60%的投票权由18个钱包控制，拟通过创建新治理代币激励用户参与投票</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/x98r7gtk.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月18日消息，据官方消息，元宇宙平台Decentraland发布2023年1月社区更新。Decentraland DAO历史上大约有5000名活跃成员。然而，在8550万活跃投票权中，60%的投票权由18个钱包控制。因此Decentraland DAO希望激励用户参与投票。到目前为止，社区已经确定了几种潜在激励方法，有些已经实现了，例如投票委托，其他的仍在DAO Discord、论坛或最近的提案中讨论，包括建议推出代币化投票权策略，创建一个独立于MANA的新治理代币用于投票等。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/n69a4s0c.html"
-                        open
-                      >
-                        <summary class="article-expander__title">详解 Synthetix V3：协议级重构，DeFi流动性中流砥柱</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/n69a4s0c.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/02/18/images/405r906AHS.jfif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>原文：《详解 Synthetix V3：关于流动性的协议级重构》
-作者：Babywhale，Foresight News
-在 2022 年原子交换正式上线并获得了不错的效果之后，Synthetix 将 V3 提上了日程。作为最「古老」的 DeFi 协议之一，Synthetix 在 2021 年初是合成资产赛道的绝对龙头，也让行业展开了不少针对合成资产协议的讨论。
-据 OKX 行情显示，SNX 价格于 2021 年 2 月 14 日达到了约 29 美元的历史最高价，而彼时比特币与以太坊均未达到历史高点。但之后 SNX 就没有再出现过于亮眼的表现了，一方面是由于 Synthetix 的机制设计过于复杂，另一方面也是因为大家发现通过如此之高的抵押率交易合成资产 sETH、sBTC 不如直接交易比特币和以太坊，加上大量新兴资产的崛起，使得 Synthetix 收益率的吸引力大大降低了。
-但 Synthetix 并未因此走向衰亡，而是巧妙利用了 sUSD 与 sToken 间零滑点的机制讲述了新的「原子交换」的故事。
-Synthetix 最开始完全以合成资产平台的定位亮相于市场中，且设置了一个及其特殊的「债务池」机制：用户通过质押 SNX 来借出 sUSD，与 MakerDAO 抵押资产铸造 DAI 不同，虽然 Synthetix 也会在 SNX 抵押率不足（目前清算线为 160% 的抵押率）时进行清算，但本质上的逻辑却完全不同。
-在 Synthetix 中，所有质押 SNX 铸造 sUSD 的用户共用一个「债务池」，也就是说当你铸造 sUSD 时，铸造出的 sUSD 数量占所有 sUSD 数量的比例就是你占整个债务池的比例，而所有被铸造的 sUSD 就是整个系统的债务。由于所有人共用一个债务池，所以如果其他用户通过操作使得资产升值（例如使用 sUSD 购买 sBTC，而 sBTC …</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/itm1ne8a.html"
-                        open
-                      >
-                        <summary class="article-expander__title">YouTube已任命对Web3友好的高管为新任CEO</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/itm1ne8a.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月18日消息，YouTube已任命对Web3友好的高管Neal Mohan为其新任CEO，此前Mohan担任YouTube首席产品官。在Web3方面，Mohan在2022年2月概述了初步计划，将集成一系列新功能，如基于元宇宙的内容体验和通过NFT进行内容代币化。Mohan特别强调，NFT可以为创作者提供一种与观众互动的新方式，并创造额外的收入来源。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Optimism生态NFT市场Quix宣布代码库开源</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月18日消息，据官方消息，Optimism生态NFT市场Quix宣布代码库开源，涉及NFT交易平台、NFT索引器和Launchpad的前端和后端代码，现在所有开发者都可以进行部署和拓展。去年11月，Quix宣布每月基础设施成本已超过收入，因此计划在2023年2月终止运营，并结束了交易激励机制，Optimism基金会将代表Optimism社区使Quix代码开源。Quix正在与Optimism基金会合作，以确保平稳过渡。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/014unqwv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">BlockTower Capital在Dexible黑客攻击事件中损失150万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/014unqwv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月18日消息，据The Block报道，Dexible在其Discord服务器上发布的一份文件显示，Dexible在本次攻击事件中的损失最终确认为200万美元。黑客利用了智能合约代码中的一个漏洞，使用已批准支出的资金从加密钱包中提取资金。该团队补充说，“少数鲸鱼”损失的资金占本次被盗资金总量的85%。链上数据显示，数字资产投资公司BlockTower Capital是受害者之一。被区块链安全公司Nansen和Arkham Intelligence均标记为Block Tower Capital的地址在本次事件中被盗价值150万美元的TRU代币。攻击者将TRU代币转移到SushiSwap兑换为以太币(ETH)，随后转入TornadoCash。本次攻击中Arbitrum上的13个钱包和以太坊上的5个钱包受到影响。据此前消息，DEX工具Dexible昨日疑似遭遇攻击，损失超过150万美元。攻击者已将盗取的930.6枚ETH （约合153万美元）转移到Tornado Cash。区块链安全审计公司Beosin对Dexible事件进行了分析，称Dexible合约selfSwap函数存在逻辑漏洞，会调用其中的fill函数，该函数存在一个调用攻击者自定义的data，而攻击者在此data中构造了一个transferfrom函数，并将其他用户(0x58f5f0684c381fcfc203d77b2bba468ebb29b098)的地址和自己的攻击地址(0x684083f312ac50f538cc4b634d85a2feafaab77a)传入，导致该用户授权给该合约的代币被攻击者转走。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/7sdi4dq6.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Arbitrum生态迎来春天，分享值得关注的8个新兴DeFi项目</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/7sdi4dq6.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/02/17/images/F53613S5J7.gif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Arbitrum上的DeFi项目再次迎来春天，原生项目中，衍生品类的GMX、DEX类的Camelot、借贷类的Radiant，都吸引了很多的关注。还有哪些Arbitrum上的DeFi项目值得关注呢？PANews筛选了一些新兴项目，至少满足上线时间短、数据增长快、还未发币中的一个条件。以下数据均取自2月16日。
-链接：https://www.zyberswap.io/
-
-Zyberswap是一个DEX，于1月下旬上线，其代币在一月底曾死亡螺旋至接近归零。但得益于Layer2上DeFi的复苏，近期ZYBER-ETH池和ZYBER-USDC池的APR接近2000%，且ZYBER的价格维持稳定和上涨的趋势。在Arbitrum上DEX龙头Camelot的TVL只有6273万美元，且FDV高达3亿美元的情况下，DEX赛道可能还有发展空间。
-在产品上，Zyberswap也有Uniswap V2 + Curve类型的DEX和Launchpad，但代币并没有Camelot复杂的锁仓机制。非稳定币池的交易手续费为0.25%，LP获得0.15%，锁仓ZYBER的用户可以分享一部分。
-目前Zyberswap的TVL为9000万美元，超过了Camelot。
-链接：https://solidlizard.finance/
-
-一个Fork自Solidly的DEX。在知名DeFi开发者Andre的支持下，Solidly曾经坐拥20多亿美元的流动性，但在Andre宣布退出之后一路向下。目前，ve(3,3)模型在Optimism的Velodrome和BNB链的Thena上都取得了不错的成绩。
-SolidLizard也开始在Arbitrum上发力，目前TVL为3469万美元，过去24上升158%。在ve(3,3)这一类项目中，流动性提供者通常并没有很强的意愿去质押DEX的原生代币。而在SolidLizard中，…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/jw6rmsws.html"
-                        open
-                      >
-                        <summary class="article-expander__title">一周精选丨Blur首轮空投落地，NFT市场回暖；SEC禁止BUSD继续发行；宏观、监管传利空，大盘依旧稳固</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/jw6rmsws.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/02/17/images/wQ71Ojn5Q4.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews编者按：PANews精选了一周的优质内容，帮助大家利用周末时间查漏补缺，点击标题即可阅读。点击下载PANews新版APP，随时随地阅读更多区块链即时快讯和深度好文。
-视频｜BUSD事件最新懒人包，SEC禁止Paxos发行BUSD！是向稳定币还是币安CZ宣战？
-币安稳定币BUSD到底怎么了！美国SEC监管频频出手，对加密行业、一般用户来说，会带来什么影响？视频带你全面了解事件来龙去脉，给你快速追上进度的懒人包！
-美国SEC等监管机构前后夹击Paxos，醉翁之意或不在BUSD
-BUSD是否会出现挤兑风险？稳定币又是否应被视为证券？稳定币的监管管辖权究竟该归属哪个部门？本文PANews将为大家一一解答。
-肖风演讲：数字经济时代与数字资产中心
-数字经济时代就像工业经济时代一样，工业经济时代哺育出了一个股票市场，数字经济时代将来会哺育一个虚拟资产或者叫数字资产市场。这两个市场不是一个互相取代的关系。
-Pantera Capital报告：第七个牛市周期
-区块链将改变世界。不幸的是，这种巨大的承诺导致市场参与者变得疯狂——有时过于看涨，有时过于看跌。我们的投资已经经历了四个“加密寒冬”。
-2023年Web3风投现状观察
-这篇文章探讨了目前2023年的区块链筹款环境与2018年的熊市相比如何，并为创始人需要知道的今年的生存情况奠定了一个框架。
-单链过去式，多链进行时，全链Layer0才是未来？解读“Web3新圣杯”zkOmnichain
-大家的注意力都集中在zkRollup上，而忽视了zkOmnichain。基于零知识证明的全链互操作性协议zkOmnichain是区块链与Web3的圣杯，其重要性非同一般。
-一文速览闯入ETHGlobal FVM黑客松决赛的12个项目
-2 月 10 日，ETHGlobal 和Filecoin联合举办的 FVM黑客松决赛名单已经出炉，共筛选出 12…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/i34lhd42.html"
-                        open
-                      >
-                        <summary class="article-expander__title">CFTC前主席：SEC起诉Terraform Labs和Do Kwon“绝对正确”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/i34lhd42.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月18日消息，据CoinDesk报道，美国商品期货交易委员会(CFTC)前主席Timothy Massad表示，SEC起诉Terraform Labs及其创始人Do Kwon是正确的。Massad现任哈佛大学肯尼迪政府学院研究员，他周五在CoinDesk TV的“First Mover”节目中表示，SEC提出这些指控是绝对正确的。当人们受邀投资一个承诺回报19%至20%的代币时，它就是一种证券。本周四，SEC起诉了Terraform Labs及其联合创始人Do Kwon。SEC指控Terraform和Do Kwon欺诈投资者以及销售未注册证券和证券掉期。SEC已向美国纽约南区地方法院提起民事诉讼。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/rl1w92dw.html"
-                        open
-                      >
-                        <summary class="article-expander__title">知情人士：Blockchain.com没有出售任何子公司，也未与Coinbase谈判相关事宜</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/rl1w92dw.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 2月18日消息，据The Block报道，一位知情人士透露，Blockchain.com没有出售任何子公司，也没有与Coinbase进行过相关谈判。此前有消息称，在对冲基金三箭资本去年破产后，Blockchain.com“一直试图出售资产以获得资本”，在过去两个月里，高管们“向Coinbase等公司推销部分业务”。知情人士表示，Blockchain.com卖出了非流动头寸以获利并提高资产流动性。一位公司发言人表示，没有Blockchain.com的业务正在出售。Blockchain.com是一个资产买家，而不是卖家。据此前消息，Blockchain.com是有意收购衍生品交易所和清算所LedgerX的几家公司之一。去年10月，Blockchain.com完成了由英国投资公司Kingsway capital领投的一轮融资，筹集的资金数额不详。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -14279,8 +14348,8 @@ Prof.Liu：Bitcoin core 面临艰难选择：选择 1：什么都不做，当年
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4210064729">
-        <time id="build-timestamp" datetime="2023-02-18T07:02:35.752Z">2023-02-18T07:02:35.752Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4210260085">
+        <time id="build-timestamp" datetime="2023-02-18T08:03:17.352Z">2023-02-18T08:03:17.352Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

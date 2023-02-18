@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T07:02:35.796Z</updated>
+    <updated>2023-02-18T08:03:17.404Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[详解以太坊验证者的生命周期：如何保证以太坊网络的正常运行？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/352r5sjh.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/352r5sjh.html"/>
+        <updated>2023-02-18T07:10:59.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Understanding The Validator Lifecycle》by Jim McDonald
+编译：John
+以太坊 2.0 使用权益证明来确保其网络安全性， 被称为「验证者」的计算机进程将对即将被打包的下一个区块进行投票（下文称「见证」），同时他们也会提议让自己的区块被打包进去。但是，验证者不是仅处于「开」与「关」的状态：他们会在他们的生命周期里历遍一系列的交易。这篇文章将深度剖析验证者的生命周期，展示每个状态和状态转换之际发生的事情，什么触发了状态转换，以及每次状态转换所需要的时间（注解 1）。
+在以太坊 2.0 里，时间通常是以 epoch 为单位，一个 epoch 包括了 384 秒即大概是 6 分半。为了方便理解，以这种方式计量的时间被粗略地翻译成分钟，小时和天，并伴有可用的准确信息在相对应的脚注里。
+在深入分析细节之前，先来看看验证者的生命周期概览，以及用来描述其不同状态的术语。
+
+图表 1：验证者生命周期概览
+以下是状态标签:
+一个元状态同样被定义了: 见证, 即所有验证者要参与进来见证和提议区块的状态（活跃中，退出中的，罚没中）。这个状态是重要的，因为当验证者处于这些状态时需要去访问以太坊（Ethereum）2.0 网络来与其职责保持同步以免被惩罚。
+
+图表 2：见证的元状态
+定义了这些状态之后就是详细分析每一个状态以及它们之间的交易的时候了。
+接受存款协议就是验证者生命周期的开始。接受发生在以太坊 1.0 链上， 因为那就是验证者资金的来源。在这时以太坊 2.0 的链还不知晓这笔存款。
+验证者会保持大概 7 个半小时在这个存款状态里（注解 2 ），以确保不会有一个链的重组影响到以太坊 1.0 交易并有可能使存款协议无效。这之后验证者就会去到待处理状态（注解 3 ）。
+
+图表 3 ：从已存款状态转换到准备状态
+待处理状态
+一旦这笔存款在…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】详解 Arbitrum 上 NFT 生态系统 TreasureDAO：有何特点及策略？]]></title>
+        <id>https://twitter.com/Dacongfred/status/1626430953127043073</id>
+        <link href="https://twitter.com/Dacongfred/status/1626430953127043073"/>
+        <updated>2023-02-18T05:55:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Treasure DAO 在 Arbitrum 繁荣发展中起到了不小的作用。加密研究员 Fred Li 在本文中对 Treasure DAO 的发展策略、经济模型、生态项目等方面进行了分析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Dacongfred/status/1626430953127043073">https://twitter.com/Dacongfred/status/1626430953127043073</a></p>
+<p><strong>文章作者：</strong></p><p>Fred Li</p><hr><h3>观点：</h3><p><strong>Fred Li：</strong>由于目前 Web3 和 Web2 游戏成熟度差距较大，大部分玩家都是利益驱动（P2E）而非乐趣驱动。且很多 GameFi 项目实际上是套了游戏壳在做 DeFi，通过提高年化收益率来吸引流量，但只要遇到更高回报率的游戏，用户就会流失，流量粘性很低。</p><a href="https://twitter.com/Dacongfred/status/1626430953127043073">内容来源</a><p><strong>Fred Li：</strong>Treasure DAO 实现了一个将游戏和玩家聚集在一起的去中心化游戏生态系统：1）通用货币 MAGIC 可以实现跨游戏玩耍体验；2）基础建设层方面，有三驾马车齐驱，分别是通 Trove 实现 NFT 交易、Bridgeworld 作为资源协调游戏融合很多 DeFi 玩法及目前支持 MAGIC/Gfly 和 MAGIC/ELM 两个交易对的 DEX MagicSwap；3）生态：目前旗下有十多款不同类型的游戏，现象级产品是 The Beacon。</p><a href="https://twitter.com/Dacongfred/status/1626430953127043073">内容来源</a><p><strong>Fred Li：</strong>总结而言，Treasure DAO 最核心的两个特点是：1）通过流动性创新区别去其他游戏通过发币和 APY 吸引玩家，一方面用户需要花时间获取 MAGIC，另一方面 MAGIC 半衰期的特质会让其变得稀缺；2）随着生态丰富，玩家和 TreasureDAO 绑定关系更深，日后 Web3 用户的涌入对垂类游戏的诉求也会增加。</p><a href="https://twitter.com/Dacongfred/status/1626430953127043073">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文】以太坊生态周报：Shapella 提款测试、EIP-4844、Dencun 升级......]]></title>
         <id>https://weekinethereumnews.com/week-in-ethereum-news-february-18-2023/</id>
