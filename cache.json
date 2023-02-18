@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://2lambroz.substack.com/p/41-eulerfinance",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心借贷协议 Euler 允许用户为任何 ERC-20 代币创建自己的借贷市场，并且在借贷池上引入了包括荷兰拍卖清算及分层等创新。加密研究员 2lambroz.eth 从工作机制、核心特征、数据等方面对该借贷协议进行了详细解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://2lambroz.substack.com/p/41-eulerfinance\">https://2lambroz.substack.com/p/41-eulerfinance</a></p>\n<p><strong>文章作者：</strong></p><p>2lambroz.eth</p><hr><h3>观点：</h3><p><strong>2lambroz.eth：</strong>核心特征：1）Euler 按层级提供隔离借贷池子以防止坏账的潜在溢出影响清算风险；2）Euler 使用 Uniswap V3 的时间加权平均价格（TWAP）实现；3）使用控制理论以自主引导借贷成本达到资本效率最大化水平；4）采取部分清算机制，以便在高波动性和即时清算的情况下提供更好的借贷体验。此外，Euler 为清算人提供荷兰式拍卖；5）用户可使用 EUL 代币进行投票，包括控制释放奖励、改变资产类别及部署哪些链等。【原文为英文】</p><a href=\"https://2lambroz.substack.com/p/41-eulerfinance\">内容来源</a><p><strong>2lambroz.eth：</strong>Euler 设计适应性强，且在稳定增长，其部署至 BNB Chain 的提案投票已于上周通过，并计划部署至 Polygon，此外，Euler 还是为数不多将 stETH 添加为抵押品的质押平台之一。但就代币而言，似乎没有获取该协议大部分价值。【原文为英文】</p><a href=\"https://2lambroz.substack.com/p/41-eulerfinance\">内容来源</a>",
+          "link": "https://2lambroz.substack.com/p/41-eulerfinance",
+          "publishedOn": "2023-02-18T08:48:10.000Z",
+          "wordCount": 3412,
+          "title": "【英文】解析被忽视的去中心化借贷协议 Euler：有哪些进展？",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feab72abb-087a-48e4-8150-64377df63003_675x677.png"
+        },
+        {
           "id": "https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>不少人对 Web3 游戏很悲观，认为其无法摆脱旁氏经济机制的引力，最终变成 GameFi ，而不是 Web3 游戏。蓝狐笔记通过游戏复合模式、可玩性、文化和社区、互操作性及真正的消耗方面分析，认为未来五年会是 Web3 游戏的蓬勃发展期，有机会跨越鸿沟。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs\">https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs</a></p>\n<p><strong>文章作者：</strong></p><p>蓝狐笔记</p><hr><h3>观点：</h3><p><strong>蓝狐笔记：</strong>web3 游戏跨越鸿沟，本质是要实现外部性的收入，而且这个收入能够支撑起整个游戏的内部经济运转。它不再是通过后来进入用户的投入来支撑更早进入用户的收益。而 GameFi 和 web3 游戏是两个事情，GameFi 的重点是 Fi，是玩赚模式，导致玩家成为交易对手方，人人自危；而 Web3 游戏首先是游戏，然后才是跟 web3 结合的新时代游戏。</p><a href=\"https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs\">内容来源</a><p><strong>蓝狐笔记：</strong>如何跨越鸿沟？1）Free to Play + Play To Own 的复合模式：早期的免费玩家，可以通过消耗更长的时间来获得 NFT，最终出售 NFT 而成为付费玩家。而付费玩家则拥有更多的功能，比如有更大概率获得更宝贵的 NFT。2）可玩性：可以从相对较为休闲或较轻的游戏开始入手，一些休闲的创新性游戏也能获得大量的用户。</p><a href=\"https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs\">内容来源</a><p><strong>蓝狐笔记：</strong>3）文化与社区：web3 游戏上的角色、宝物 NFT 需要赋予一些文化和社区的属性，让它除了功能性价值之外，还有文化的属性。4）互操作性：这一点是 web3 游戏独有的部分。不同的游戏之间，不仅 NFT 可以互通，还可以创新出游戏玩法的互通。互操作性不仅会让游戏产生更多可能性，而且也会延长游戏的生命周期，以增加游戏的留存率。</p><a href=\"https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs\">内容来源</a><p><strong>蓝狐笔记：</strong>5）真正的消耗产生外部性收入: web3 游戏的消耗来自于玩家的时间付出和资金付出，当足够规模的用户以游戏的娱乐为主，才会产生实质性消耗。这个消耗为游戏内生态贡献了价值，成为真正的娱乐为主的消费。</p><a href=\"https://mirror.xyz/0xC36051E2bb2128c18B6E16e5013355A7D950b3F5/VXKVvKT5iwYKl2v0amkkPJrZ3aMAwj2rEkKVdElbRvs\">内容来源</a>",
@@ -2082,6 +2092,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ctvbsl61.html",
+          "author": null,
+          "description": "PANews 2月18日消息，据cryptoslate报道，路透社援引一位参议员的声明称，美国国会可能对Binance.US与Merit Peak的关系进行调查。参议员Roger Marshall表示：“这里发生了一些可疑的事情，显然没有通过气味测试（比喻检验标准）……国会需要答案，而Binance.US和Silvergate也有义务将相关信息提供给我们。”据报道，Binance.US于2021 年从Silvergate Bank的一个账户向Merit Peak汇款了4亿美元，之后Binance.US在社交媒体澄清Merit Peak在其平台上运营但“在 2021 年停止了在Binance.US上的所有活动”。如果参议员Roger Marshall的建议在国会得到采纳，Binance.US可能很快就会面临更广泛的审查。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ctvbsl61.html",
+          "publishedOn": "2023-02-18T09:25:26.000Z",
+          "wordCount": 965,
+          "title": "美国国会可能对Binance.US进行调查",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/47bl6sua.html",
           "author": null,
