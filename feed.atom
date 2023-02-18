@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T10:02:42.752Z</updated>
+    <updated>2023-02-18T11:02:52.177Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CoinShare发文否认谣言：比特币代码维护是一项协作工作，不由少部分人控制]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/6ajivx3j.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/6ajivx3j.html"/>
+        <updated>2023-02-18T10:36:35.000Z</updated>
+        <summary type="html"><![CDATA[针对近期华尔街日报对比特币代码管理者的报道，CoinShare 发文反驳这一观点：
+在最近的媒体炒作之后，我们认为有必要涵盖更新比特币软件所涉及的关键过程，以消除它由 6 个人控制的谣言。
+Bitcoin Core 是为比特币网络提供支持的开源软件。Bitcoin Core 由大量不同的慈善团体维护和发布，是中本聪发布的原始比特币客户端软件的直系后代。
+围绕 Bitcoin Core的一个主要混淆点是如何更改其代码。虽然有一组项目“维护者”具有提交权限，但认为只有他们才能更改代码是一种误解。实际上，更改的合并只是一个漫长过程的最后一步。
+同行评审是开发过程的重要组成部分，尤其是对于安全关键或共识更改。这个审稿过程往往需要很多天甚至几年，期间原作者会听取同行的建议，进行修改和修正，直到没有更合理的异议为止。维护者自己在提交提案时也必须通过与其他人相同的同行评审过程。
+除了他们作为看门人的角色外，维护人员还执行关键检查以确保补丁安全并与项目目标保持一致。然而，开发过程不仅仅依赖于这 6 个人。相反，Bitcoin Core 的开发和批准过程是由大量不同的贡献者驱动的，他们共同努力确保软件保持安全与可靠。
+
+Bitcoin Core 项目非常重视其代码更改。维护人员在将更改合并到 Github 存储库中发挥着关键作用，但他们必须负责任地这样做。如果维护者在没有适当审查或考虑的情况下合并更改，其他开发人员将采取行动。在某些情况下，他们可能会坚持撤销维护者的提交权限。在更极端的情况下，他们可能会分叉项目并创建一个新的存储库，他们可以在其中将提交权限分配给更负责任的开发人员。
+改变共识的一个关键因素是让网络上的其他人运行新代码。这不仅需要对协议有深刻的理解，还需要对博弈论和政治有深刻的理解，尤其是在变化可能导致不同参与者产生不同利益的情况下。因此，在进行此类更改时，Bitcoin Core 历来是保守的。
+尽管存在这种保守主义，但比特币核心项目对任何人的提议都持开放态度。贡献者可以提出代码更改、测试它们、审查它们或发表评论。事实上，任何以任何身份为 Bitcoin Core项目做出贡献的人都被视为贡献者。这种开放和协作的方法对于项目的成功和持续发展至关重要。
+在上个月，29 位作者向主分支推送了 177 次提交，向所有分支推送了 184 次提交，不包括合并。我们的估计表明，比特币 Github 中有大约 300 名活跃的开发者/贡献者，跨越 1000 个独立的存储库，使其成为一个非常庞大和活跃的开发者环境。
+总而言之，Bitcoin Core 是一项协作工作，涉及来自世界各地的不同开发人员和贡献者群体，而不仅仅是一小群项目维护者。代码更改的同行评审过程非常广泛，可能需要数周甚至数年时间，以确保对代码的所有更改都经过彻底审查和安全。比特币的成功和未来取决于整个社区的共同努力，它的持续增长和发展将取决于它被世界各地的人们和企业采用和使用。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[游戏公会Yield Guild Games已为其第一只风投基金筹集了7500万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/jjq1okke.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/jjq1okke.html"/>
+        <updated>2023-02-18T10:14:57.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月18日消息，Web3 游戏公会 Yield Guild Games (YGG) 正在进入风险投资领域，为其第一只基金筹集了 7500 万美元。YGG 联合创始人 Beryl Li表示，该基金的任务是投资于 web3、游戏工作室和支持行业发展的基础设施的早期代币和股权交易。Li 还将与 YGG 的另一位联合创始人 Gabby Dizon 以及 YGG 资产收购主管 Jeff Holmberg 一起成为该基金投资委员会的成员，Jeff Holmberg 将转任 YGG Ventures 的合伙人。据介绍，Holmberg 将在新职位上监督该基金的战略和日常运营，并管理一个游戏分析师团队。
+此前消息，本周五，游戏公会YGG通过出售代币募集1380万美元资金，a16z Crypto等参投。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美国国会可能对Binance.US进行调查]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ctvbsl61.html</id>
