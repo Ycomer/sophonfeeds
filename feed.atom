@@ -2,10 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T03:03:08.148Z</updated>
+    <updated>2023-02-18T05:02:39.782Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[福布斯：从 Ordinals 的蹿红看比特币 NFT 的风险与机会]]></title>
+        <id>https://www.chaincatcher.com/article/2087788</id>
+        <link href="https://www.chaincatcher.com/article/2087788"/>
+        <updated>2023-02-18T04:23:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Ordinals 协议可以将 NFT 添加到比特币交易中，但人们对此看法不一。福布斯作者 Leeor Shimron 从 Ordinals 的争议出发，分析比特币 NFT 的风险及机会。本文由链捕手编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.chaincatcher.com/article/2087788">https://www.chaincatcher.com/article/2087788</a></p>
+<p><strong>文章作者：</strong></p><p>Leeor Shimron</p><hr><h3>观点：</h3><p><strong>Leeor Shimron：</strong>反对 Ordinals 项目的比特币纯粹主义者认为，Ordinals 就是区块空间中的垃圾邮件，只会堵塞空间，占据网络上原本属于合法金融交易的空间。但支持者认为，Ordinals 增加了对区块空间的需求，推动了健康收费市场的发展，使矿工通过保护网络安全而获得补助。</p><a href="https://www.chaincatcher.com/article/2087788">内容来源</a><p><strong>Leeor Shimron：</strong>机会：Ordinals 已经提高矿工的交易费收入，确保区块被占满，并且吸引了新一批比特币用户和开发者的注意。在比特币交易中进行刻印可能会鼓励该网络的进一步实验和发展，从而刺激比特币生态系统出现新的创新。其他艺术家和 NFT 收藏系列可能会在 Ordinals 上部署新 NFT。</p><a href="https://www.chaincatcher.com/article/2087788">内容来源</a><p><strong>Leeor Shimron：</strong>风险：Ordinals NFT 项目价值增高的部分原因可能是它们代表了部署在协议上的「首个」项目，但它们仍然主要是投机性投资。与其他 NFT 标准类似，比特币 NFT 在知识产权的问题上仍旧悬而未决。基于以太坊的 NFT 项目已开发出创新的创造者版税和拍卖机制，这些结构是否可以在比特币上复用还有待观察。</p><a href="https://www.chaincatcher.com/article/2087788">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decentraland：60%的投票权由18个钱包控制，拟通过创建新治理代币激励用户参与投票]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/x98r7gtk.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/x98r7gtk.html"/>
+        <updated>2023-02-18T03:54:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月18日消息，据官方消息，元宇宙平台Decentraland发布2023年1月社区更新。Decentraland DAO历史上大约有5000名活跃成员。然而，在8550万活跃投票权中，60%的投票权由18个钱包控制。因此Decentraland DAO希望激励用户参与投票。到目前为止，社区已经确定了几种潜在激励方法，有些已经实现了，例如投票委托，其他的仍在DAO Discord、论坛或最近的提案中讨论，包括建议推出代币化投票权策略，创建一个独立于MANA的新治理代币用于投票等。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详解 Synthetix V3：协议级重构，DeFi流动性中流砥柱]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/n69a4s0c.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/n69a4s0c.html"/>
+        <updated>2023-02-18T03:38:25.000Z</updated>
+        <summary type="html"><![CDATA[原文：《详解 Synthetix V3：关于流动性的协议级重构》
+作者：Babywhale，Foresight News
+在 2022 年原子交换正式上线并获得了不错的效果之后，Synthetix 将 V3 提上了日程。作为最「古老」的 DeFi 协议之一，Synthetix 在 2021 年初是合成资产赛道的绝对龙头，也让行业展开了不少针对合成资产协议的讨论。
+据 OKX 行情显示，SNX 价格于 2021 年 2 月 14 日达到了约 29 美元的历史最高价，而彼时比特币与以太坊均未达到历史高点。但之后 SNX 就没有再出现过于亮眼的表现了，一方面是由于 Synthetix 的机制设计过于复杂，另一方面也是因为大家发现通过如此之高的抵押率交易合成资产 sETH、sBTC 不如直接交易比特币和以太坊，加上大量新兴资产的崛起，使得 Synthetix 收益率的吸引力大大降低了。
+但 Synthetix 并未因此走向衰亡，而是巧妙利用了 sUSD 与 sToken 间零滑点的机制讲述了新的「原子交换」的故事。
+Synthetix 最开始完全以合成资产平台的定位亮相于市场中，且设置了一个及其特殊的「债务池」机制：用户通过质押 SNX 来借出 sUSD，与 MakerDAO 抵押资产铸造 DAI 不同，虽然 Synthetix 也会在 SNX 抵押率不足（目前清算线为 160% 的抵押率）时进行清算，但本质上的逻辑却完全不同。
+在 Synthetix 中，所有质押 SNX 铸造 sUSD 的用户共用一个「债务池」，也就是说当你铸造 sUSD 时，铸造出的 sUSD 数量占所有 sUSD 数量的比例就是你占整个债务池的比例，而所有被铸造的 sUSD 就是整个系统的债务。由于所有人共用一个债务池，所以如果其他用户通过操作使得资产升值（例如使用 sUSD 购买 sBTC，而 sBTC …]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTube已任命对Web3友好的高管为新任CEO]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/itm1ne8a.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/itm1ne8a.html"/>
+        <updated>2023-02-18T03:37:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月18日消息，YouTube已任命对Web3友好的高管Neal Mohan为其新任CEO，此前Mohan担任YouTube首席产品官。在Web3方面，Mohan在2022年2月概述了初步计划，将集成一系列新功能，如基于元宇宙的内容体验和通过NFT进行内容代币化。Mohan特别强调，NFT可以为创作者提供一种与观众互动的新方式，并创造额外的收入来源。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[知情人士：Blockchain.com 没有出售任何子公司，也没有和 Coinbase 谈论任何交易]]></title>
+        <id>https://www.theblock.co/post/213072/blockchain-com-not-selling-subsidiaries-never-spoke-to-coinbase-source</id>
+        <link href="https://www.theblock.co/post/213072/blockchain-com-not-selling-subsidiaries-never-spoke-to-coinbase-source"/>
+        <updated>2023-02-18T03:18:10.000Z</updated>
+        <summary type="html"><![CDATA[<h3>知情人士：Blockchain.com 没有出售任何子公司，也没有和 Coinbase 谈论任何交易</h3>
+<p>据 The Block 援引知情人士表示，Blockchain.com 没有出售任何子公司，也没有与 Coinbase 交谈过任何可能的交易。知情人士表示，Blockchain.com 已经出售非流动性头寸以获取利润及提高流动性。此外，Blockchain.com 发言人也表示，Blockchain.com 没有业务需要出售，Blockchain.com 是资产买方，而不是卖方。
+此前据 Decrypt 援引消息人士报道，Blockchain.com 一直试图出售资产以获取资金。</p>
+<p><a href="https://www.theblock.co/post/213072/blockchain-com-not-selling-subsidiaries-never-spoke-to-coinbase-source">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[详解 Synthetix V3 : 关于流动性的协议级重构]]></title>
+        <id>https://foresightnews.pro/article/h5Detail/25820</id>
+        <link href="https://foresightnews.pro/article/h5Detail/25820"/>
+        <updated>2023-02-18T03:08:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Synthetix 作为最「古老」的 DeFi 协议之一，其 V3 版本旨在通过将协议转换为无需许可的衍生品平台，在更高效的架构上将 Synthetix 完全重建为更通用的协议。Foresight News 作家 Babywhale 撰文详解 Synthetix V3 有哪些已投票通过的优化提案，将如何完成协议级别的流动性重构。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/h5Detail/25820">https://foresightnews.pro/article/h5Detail/25820</a></p>
+<p><strong>文章作者：</strong></p><p>Babywhale（Foresight News）</p><hr><h3>观点：</h3><p><strong>Babywhale（Foresight News）：</strong>Synthetix 机制中 sUSD 兑换其他 sToken 直接使用预言机喂价兑换而无需考虑深度的无滑点交易。对 Synthetix 来说，想要提供更好的交易深度以及更高的费用收益，只能提高 sUSD 等 sToken 的数量，而这仅仅靠 SNX 远远不够。于是 Synthetix V3 应运而生，在保留了期货、合约等市场的前提下，在原子交换叙事上做了大幅的优化。</p><a href="https://foresightnews.pro/article/h5Detail/25820">内容来源</a><p><strong>Babywhale（Foresight News）：</strong>Synthetix V3 有哪些已投票通过的优化？1）SIP-255 ，调整了原本要奖励给 SNX 质押者的通过原子交换产生的费用的分发路径，使得这些费用被自动销毁以偿还质押者的债务，从而降低债务和可能发生的清算风险。2）SIP-301，旨在为用户创建 ERC-721 格式的账户代币 NFT，使得用户可以在不同的钱包地址之间转移其 SNX 的质押头寸。</p><a href="https://foresightnews.pro/article/h5Detail/25820">内容来源</a><p><strong>Babywhale（Foresight News）：</strong>3）SIP-302、303、304、305，这四项提案包含了对 V3 版本关于池、市场、清算和奖励的机制设计。V3 版本中使用其他经过投票允许的抵押资产（例如可能包含以太坊）铸造 sUSD 时，每个市场都可以依据资产属性设置自定义的参数。总结：Synthetix V3 允许使用多种抵押品铸造 sUSD，支持原子交换的资产和上层建筑设计，提供了一个更高效的 DeFi 流动性解决方案。</p><a href="https://foresightnews.pro/article/h5Detail/25820">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[零知识硬件初创公司 Cysic 完成 600 万美元种子轮融资，Polychain Capital 领投]]></title>
+        <id>https://www.theblock.co/post/212613/polychain-leads-zk-chip-startup-cysics-6-million-raise</id>
+        <link href="https://www.theblock.co/post/212613/polychain-leads-zk-chip-startup-cysics-6-million-raise"/>
+        <updated>2023-02-18T02:46:14.000Z</updated>
+        <summary type="html"><![CDATA[<h3>零知识硬件初创公司 Cysic 完成 600 万美元种子轮融资，Polychain Capital 领投</h3>
+<p>零知识硬件初创公司 Cysic 宣布完成 600 万美元种子轮融资，Polychain Capital 领投，HashKey、SNZ Holding、ABCDE、A&T Capital 和 Web3.com 基金会参投。所筹资金将用于扩大团队及开发硬件解决方案。
+据 The Block 介绍，Cysic 成立于 2022 年 8 月，旨在为 ZK 证明协议提供硬件加速解决方案，目前已经有 12 个生态系统合作伙伴，包括 Scroll、Nil Foundation 和 Hyper Oracle。目前团队规模为 12 人。</p>
+<p><a href="https://www.theblock.co/post/212613/polychain-leads-zk-chip-startup-cysics-6-million-raise">内容来源</a></p><hr><h3>观点：</h3><p><strong>Leo Fan（Cysic 联合创始人）：</strong>在 CPU 上运行多标度乘法（MSM）非常耗费功率和时间，因此 Cysic 专注于尝试使用 FPGA 加速这一组件，我们正在与供应链供应商合作构建高度定制 FPGA 服务器。我们最终目标是 ZKP 芯片。【原文为英文】</p><a href="https://www.theblock.co/post/212613/polychain-leads-zk-chip-startup-cysics-6-million-raise">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MicroStrategy 自 2022 年 9 月以来已通过出售 218,575 股 A 类普通股获得 4660 万美元收益]]></title>
+        <id>https://www.sec.gov/Archives/edgar/data/1050446/000119312523041097/d454381d424b5.htm</id>
+        <link href="https://www.sec.gov/Archives/edgar/data/1050446/000119312523041097/d454381d424b5.htm"/>
+        <updated>2023-02-18T02:45:40.000Z</updated>
+        <summary type="html"><![CDATA[<h3>MicroStrategy 自 2022 年 9 月以来已通过出售 218,575 股 A 类普通股获得 4660 万美元收益</h3>
+<p>据 MicroStrategy 提交给美国证券交易委员会（SEC）文件显示，自 2022 年 9 月与承销商 Cowen and Company 达成协议出售高达 5 亿美元普通股以来，已经通过出售 218,575 股 A 类普通股获得 4660 万美元收益。文件表示此次发行的净收益用于一般企业用途，包括购买比特币和营运资金，并根据市场条件，用于回购 2025 年到期的 0. 750% 可转换优先票据和 2027 年到期的 0% 可转换优先票据，并用于偿还全资子公司 MacroStrategy LLC 和 Silvergate Bank 之间的信贷和担保写一下的担保定期贷款。</p>
+<p><a href="https://www.sec.gov/Archives/edgar/data/1050446/000119312523041097/d454381d424b5.htm">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimism生态NFT市场Quix宣布代码库开源]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/o3ln4f9s.html</id>
