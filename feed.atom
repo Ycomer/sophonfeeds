@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-19T04:02:59.965Z</updated>
+    <updated>2023-02-19T05:02:41.253Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Axie Infinity将于2月22日开启Homeland Season 1，将引入新的ASX奖励]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/a15po2n1.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/a15po2n1.html"/>
+        <updated>2023-02-19T04:20:34.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月19日消息，据官方消息，P2E游戏Axie Infinity宣布，Homeland Alpha Season 1将于2月22日开启，将引入新的AXS奖励、升级被动冒险并提供特殊土地化妆品。此外排行榜和剧情进度将在Alpha Season 1开始和结束时重置。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Platypus正在制定用户补偿计划，或将在AAVE治理论坛上提出恢复提案]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/l9d9scke.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/l9d9scke.html"/>
+        <updated>2023-02-19T04:14:24.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月19日消息，据官方消息，稳定币交易项目Platypus宣布正在制定用户补偿计划，并提醒用户目前不要偿还稳定币USP。此外，用户无需担心清算问题，目前清算是暂停的，攻击后的稳定费将不计算在内。团队正在与各方合作以追回损失，但需要更多时间来确认结果。团队也在联系执法部门，一旦确认将进一步公布。此外，部分资金被困在AAVE中，团队正在探索一种可能收回这笔资金的方法，这将需要在AAVE的治理论坛上提出并通过一项恢复提案。据此前消息，Platypus在AAVE上遭遇闪电贷攻击，导致总价值约900万美元的资产损失。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buidler DAO：为什么 Dark Forest 是 top 0 级别的全链上游戏]]></title>
+        <id>https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw</id>
+        <link href="https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw"/>
+        <updated>2023-02-19T03:57:44.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Buidler DAO 成员 byeddy 撰文介绍 Dark Forest，认为其是 top 0 级别的全链上游戏，在全上链（fully on chain），战争迷雾（fog of war）和 MMORTS（大型多人在线的即时战略类游戏）的「不可能三角」当中取得了巧妙的平衡。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw">https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw</a></p>
+<p><strong>文章作者：</strong></p><p>byeddy</p><hr><h3>观点：</h3><p><strong>byeddy：</strong>Dark Forest 通过零知识证明的方式直接解决了全上链和战争迷雾之间的冲突。Dark Forest 核心需要隐藏的是星球的坐标信息。玩家通过链下消耗算力将宇宙地图计算出来，在已知区域内进行星球间的相互操作，运送能量、银矿和神器（本质是 ERC721 的 NFT），上链的过程需要计算零知识证明的 proof，之后才可以通过智能合约游戏的校验，计算 proof 的过程需要一段不长不短的等待时间，又一定程度上缓解了区块链底层平台吞吐率有限的尴尬。</p><a href="https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw">内容来源</a><p><strong>byeddy：</strong>客户端方面可分三个层次回应：首先，全链上游戏的客户端相对没那么重要，且允许玩家基于实际需求开发，ordengg、dfdao、DF Archon 等游戏生态内的 DAO 组织都在做出创新和努力；其次，Dark Forest 提供了完善的链上交互和前端星球展示的接口，玩家可以通过简单的 javascript 编程构建自己所需的游戏插件。plugins.zkga.me 上有社区维护的各种插件，通过组合可以极大程度的满足玩家需求。某种意义上说，玩家通过自己编写的插件构建了专属游戏体验；最后，目前 Dark Forest 还没有到大规模推广阶段， 上手门槛能够进行一定程度的筛选，有利于生态内部团结。</p><a href="https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw">内容来源</a><p><strong>byeddy：</strong>一个开放的无主世界是不需要经济模型的。某种程度上来说，智能合约所构建的这个数字世界的规则是中立的、残酷的、荒谬的。我们可能会在这一片荒谬的土壤上构建起自己的国度，但这个开放的无主世界本身依然是未被染色的现实。强行用旧有的思维去解构 Dark Forest 想创建的数字世界无异于一种僭越。</p><a href="https://mp.weixin.qq.com/s/8SP2nP7fQulMSsdgLsqnxw">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以太坊基金会：2022年Layer2社区Grants 22个获奖项目]]></title>
         <id>https://www.panewslab.com/zh/articledetails/sw1sx4av.html</id>
