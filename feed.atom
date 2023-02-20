@@ -2,10 +2,94 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-20T08:03:35.125Z</updated>
+    <updated>2023-02-20T08:55:32.037Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[解读Filecoin代币经济学：强势拉动存储版块的背后力量是什么？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/xh9x4hdy.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/xh9x4hdy.html"/>
+        <updated>2023-02-20T08:34:08.000Z</updated>
+        <summary type="html"><![CDATA[撰文：Vik Kalghatgi
+编译：Katie 辜，Odaily 星球日报
+自分布式存储网络 Filecoin 于上周发布 2023 年三项重大项目更新（FVM、数据计算、检索市场）后，FIL 在过去的一周不断打破自己的「天花板」，FIL 最新价格已经突破 9 USDT， 24 小时涨幅达 21.35% 。接下来 Odaily 星球日报就带大家一起来了解 Filecoin 代币经济对代币持有者和未来生态的影响。
+Filecoin 网络于 2020 年 10 月推出，为 IPFS 协议引入了激励层，并实现了数据的开放服务。如今，Filecoin 网络被大众所熟知主要是作为一种开放服务的存储。然而，早期的一篇总结网络方向的文章为 Filecoin 提出了更大的愿景，也包括「存储、分发和转换数据的基础设施」。
+Filecoin 执行这一愿景的「主要计划」首先要积累大量的硬件资源（存储容量和计算能力）。这一点很重要，因为 Web3 基础设施能够可靠地取代传统云储存（甚至不仅是与传统云储存竞争）的唯一途径是，它能够以超过当前产品的数量级和规模运行。虽然还没有 Web3 协议实现这一点，但目前已经取得了一定进展。
+此外，为了推动对网络资源（容量、检索和计算能力）的长期需求，至关重要的是用有效的数据引导网络，并开发软件和工具，以便在数据之上实现计算和可组合服务。最终对这些服务的需求将成为 Filecoin 区块链之上强劲经济的基础。
+Filecoin 的代币经济在设计时就考虑到了这一长期愿景，并有助于激励网络的快速增长和发展。到目前为止，该网络的承诺存储容量超过 16 EiB，生态系统的爆炸式发展推动了对网络资源的需求。这种增长和持续的成功归功于 Filecoin 社区的努力，这是一个由存储客户端、开发人员、存储提供商（SP）、生态系统合作伙伴和代币持有者组成的互联网络。
+这种全球数…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港证监会：将咨询是否准许持牌虚拟资产交易平台向零售投资者提供服务]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/l7w7so04.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/l7w7so04.html"/>
+        <updated>2023-02-20T08:32:26.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月20日消息，香港证监会在咨询文件中表示，证监会特别就以下事项征询市场意见：应否准许持牌平台营运者向零售投资者提供服务；如准许的话，除了所建议一系列妥善的投资者保障措施（包括在与客户建立业务关系时确保合适性和代币纳入的有关规定）外，还应实行哪些措施。
+此外，文件表示，计划申领牌照的虚拟资产交易平台（包括原有平台）的营运者应开始检视及修改有关系统及监控措施，为新制度作好准备。至于无意申领牌照的营运者，则应着手预备以有序方式结束其于香港的业务。证监会拟在其网站上发布数份名单，向公众列出各虚拟资产交易平台的监管状况，并将继续与投资者及理财教育委员会合作，以加强对香港大众的投资者教育工作。
+此前今日早些时候消息，香港证监会就有关监管虚拟资产交易平台的建议展开咨询。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主网上线”倒计时”，速览zkSync Era带来的ZK新面貌]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/4q49gsst.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/4q49gsst.html"/>
+        <updated>2023-02-20T08:24:09.000Z</updated>
+        <summary type="html"><![CDATA[2月16号，ZK系L2扩容解决方案zkSync宣布了2.0版本的上线，并将此版本称为Era，1.0版本将更名为lite，两者将长期并存，承担不同的任务类型。英文Era的意思是时代，这也意味着zkSync步入了发展的新时代。
+这是其经历的四个月测试网阶段后的首次主网上线，不同于测试网阶段的限制性使用，本次zkSync Era∎主网将向所有开发者开放，目前，其Github代码库已经可供审查，为确保安全，早期主网阶段将会存在一定的资金额度方面的限制，但最终会面向全体用户开放更多功能。
+在标准的zkSync区块生命周期中，基本上可以分为四步走，从交易启动到最终确认一般需要花费3-5个小时，这也是其比Optimistic平均一周确认时间的最大优势所在。
+
+为了满足更多实际用途，Era将会陆续支持以下功能：
+其中，最为重要的是L1和L2间的兼容性，zkSync将其分为L1至L2通信，和L2至L1间通信两部分，以最终实现L1和L2间双向的通信。
+在本次Era更新中，将集中在L1至L2间的通信，得益于和主网的兼容性，从以太坊主网向zkSync Era发送消息以调用智能合约并不困难，Era主要集中在Gas方面的设计和优化。
+目前的L1至L2的事务优先级以FIFO（先进先出）的模式进行排序和处理，但在未来会引入“优先级”概念，支持对事务进行特定排序以确定具体优先事项，以提升网络定制化和高频使用需求。
+其次，是未来主网有望实现的功能zkPorter，其特点是高安全性和比以太坊主网降低20倍的费用，最终实现低至几美分的交易费用，以支持大规模调用，但需要注意本次测试网仍未上线该功能。
+此外，zkSync Era将在智能合约的组合性和账户抽象方面发力，以支持复杂的DeFi堆栈等高级操作，并且保持跟以太坊主网迭代方向的同步。
+
+在Matter Labs的设想中，最终基于zkSync可以继续构建L3、L4…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港证监会就有关监管虚拟资产交易平台的建议展开咨询]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/240sx621.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/240sx621.html"/>
+        <updated>2023-02-20T08:22:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月20日消息，香港证监会就有关监管虚拟资产交易平台的建议展开咨询。香港证监会表示，根据将于2023年6月1日生效的新发牌制度，所有在香港经营业务或向香港投资者积极进行推广的中央虚拟资产交易平台，将需获证监会发牌。咨询将于3月31日结束。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】解析比特币新叙事 Ordinals：不止是「比特币 NFT」]]></title>
+        <id>https://twitter.com/delphi_digital/status/1626990321295929344</id>
+        <link href="https://twitter.com/delphi_digital/status/1626990321295929344"/>
+        <updated>2023-02-20T07:57:32.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>过去一个月内，有将近 140,000 个比特币 Ordinals NFT 被铸造。加密研究机构 Delphi Digital 从铸造方式、与 NFT 的区别及对比特币的影响等方面对 Ordinals 进行了探索分析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/delphi_digital/status/1626990321295929344">https://twitter.com/delphi_digital/status/1626990321295929344</a></p>
+<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>Ordinal 理论赋予每个比特币 sat 一个唯一的数字。用户将数据输入这些特定的 sat，可以说从根本上改变了比特币的可替代性。这种记录在 Ordinals 上的元数据永远存在于比特币上，通过 Taproot 路径支出脚本将记录的数据完全存储在链上。这与倾向于将元数据存储在中心化服务器上的传统 NFT 形成鲜明对比。【原文为英文】</p><a href="https://twitter.com/delphi_digital/status/1626990321295929344">内容来源</a><p><strong>Delphi Digital：</strong>Ordinals 和 NFT 之间存在细微差别。开发人员可以使用无限制的 NFT 来创建合约，而 Ordinals 则受到每个区块中 sat 数量的瓶颈。从理论上讲，比特币区块每个区块的最大容量应为 1MB，但借助 SegWit 和 Taproot，Ordinal 用户可以向每个区块添加 3MB 的数据。费用在攀升，区块越来越大，这增加了比特币的安全预算和矿工的盈利能力。【原文为英文】</p><a href="https://twitter.com/delphi_digital/status/1626990321295929344">内容来源</a><p><strong>Delphi Digital：</strong>更大的区块意味着随着链的增长，比特币节点必须存储更多的数据。随着节点存储需求的增加，这可能会使比特币集中化。同时还增加了支付给矿工的费用。Ordinals 已经占比特币每日费用的 12.5%。Ordinals 为比特币带来了新的用户群：用户铭刻费用来维护链，同时 Ordinals 将安全和文化都带到了链上。【原文为英文】</p><a href="https://twitter.com/delphi_digital/status/1626990321295929344">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Balancer 生态收益治理平台 Aura Finance 或成 LSD 战争最大赢家？]]></title>
+        <id>https://twitter.com/xavana0x/status/1627491099563462656</id>
+        <link href="https://twitter.com/xavana0x/status/1627491099563462656"/>
+        <updated>2023-02-20T07:46:55.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Aura Finance 将 AURA 代币作为生态系统中的治理和激励工具，通过汇总用户 BALL 存款和 Aura 原生代币 AURA 为 Balancer 上的 LP 和 BAL 质押者提供最大限度的激励。加密研究员 X 在本文中概述了他认为 Aura Finance 会成为 LSD 战争最大赢家的原因。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/xavana0x/status/1627491099563462656">https://twitter.com/xavana0x/status/1627491099563462656</a></p>
+<p><strong>文章作者：</strong></p><p>X</p><hr><h3>观点：</h3><p><strong>X：</strong>上海升级的质押以太坊的提取将推动 LSD 激励其 LP 以消除对单边质押的偏好。而 Aura 是实现这一目标的理想场所，因为它通过 Banlancer 上的投票激励促进了资本效率的流动性供应。且 Aura 已经和几乎所有主要的 LSD 协议建立和合作关系，包括 Lido、Rocketpool、Swell、Stakewise、Stader、Ankr 和 StaFi 等。【原文为英文】</p><a href="https://twitter.com/xavana0x/status/1627491099563462656">内容来源</a><p><strong>X：</strong>第一个认知到 Aura 潜力的项目是 Rocket Pool，3 个月前开始激励措施依赖，rETH-WETH 的流动性增加了 6 倍，这也导致了交易量和费用的大幅增加。从 Rocket Pool 我们可以得知 LSD 增长的基本规则如下：支付投票奖励以增加流动性和 TVL ，最后确保以构建护城河并使产品差异化。【原文为英文】</p><a href="https://twitter.com/xavana0x/status/1627491099563462656">内容来源</a><p><strong>X：</strong>其他催化剂：1）Frax Finance 正在讨论增强 FRAX 资金池的试点投票激励计划；2）Synapse Protocol 提议将 SYN 流动性迁移至 Balancer，并开始在 Aura 上开启投票激励；3）Redacted Cartel 计划在上海升级之后推出由 LSD 支持的稳定币 DINERO，并可能使用他们持有的 vlAURA 激励流动性；4）Alchemix 已将 ALCX 流动性迁移至 Balancer。【原文为英文】</p><a href="https://twitter.com/xavana0x/status/1627491099563462656">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[熊末牛初：比特币Ordinals是福是祸？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/46887ic3th9f.html</id>
