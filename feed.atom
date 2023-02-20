@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-20T11:32:04.699Z</updated>
+    <updated>2023-02-20T11:38:07.121Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】吸引 a16z 锁仓 200 万美元？ Arbitrium 生态 ve (3,3) 模型 DEX SolidLizard 究竟有何魅力？]]></title>
+        <id>https://twitter.com/neo110x/status/1627042715056873472</id>
+        <link href="https://twitter.com/neo110x/status/1627042715056873472"/>
+        <updated>2023-02-20T11:14:35.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>SolidLizard 是一个基于 Arbitrium 的 DEX，在过去 18 天内获得了 6000 万美元的锁仓量，A16z 也有 200 万美元的资产锁定在 SolidLizard 上。加密货币研究员 xNEO 从机制、特征、代币经济学等方面解读了此项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/neo110x/status/1627042715056873472">https://twitter.com/neo110x/status/1627042715056873472</a></p>
+<p><strong>文章作者：</strong></p><p>xNEO</p><hr><h3>观点：</h3><p><strong>xNEO：</strong>机制和特征：1）SolidLizard 基于 ve (3,3) 治理模型。用户可以锁定他们的 SLIZ 代币并获得可以用来投票的 ve 代币。锁定的代币越多，锁定期越长，ve 代币拥有的奖励和投票权就越大。代币持有者可以对他们喜欢的流动资金池进行投票。投票者决定哪些流动资金池应该获得更多奖励。【原文为英文】</p><a href="https://twitter.com/neo110x/status/1627042715056873472">内容来源</a><p><strong>xNEO：</strong>2）ve 代币持有者从交易费、排放和贿赂中获得奖励。流动性提供者仅从排放中获得奖励。SolidLizard 也有 POL（protocol owned liquidity ）来处理资金问题。 50% 的费用用于回购 SLIZ 并加深 SLIZ/ETH 的流动性，其中一部分用于销毁。【原文为英文】</p><a href="https://twitter.com/neo110x/status/1627042715056873472">内容来源</a><p><strong>xNEO：</strong>代币经济学：SLIZ 没有最大供应量。其总供应量为 4070 万，目前流通供应量为 1860 万，锁定供应量为 2110 万。市值为 950 万美元，FDV 为 1900 万美元。价格是 0.47 美元。SolidLizard 每周排放量分配给 LP 和 ve 代币持有者。LP 获得 62%，ve 代币持有者获得 33%，团队获得总排放量的 5%。排放量取决于 SLIZ 锁定的总价值。锁定的价值越大，排放量就越少。每个时期（一周）的排放量减少 3%。【原文为英文】</p><a href="https://twitter.com/neo110x/status/1627042715056873472">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PAData：以太坊链上交易格局生变，NFT交易次数占比18%超DeFi]]></title>
         <id>https://www.panewslab.com/zh/articledetails/w39o4db7.html</id>
