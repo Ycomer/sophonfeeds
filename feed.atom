@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-20T03:07:53.467Z</updated>
+    <updated>2023-02-20T04:02:57.933Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握Polygon上NFT一周关键数据（02.13—02.19）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ju1evv9g.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ju1evv9g.html"/>
+        <updated>2023-02-20T03:56:43.000Z</updated>
+        <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：价值近1900万美元的IMX代币将于2月25日解锁]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/8vcdem2q.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/8vcdem2q.html"/>
+        <updated>2023-02-20T03:35:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月20日消息，Token Unlocks数据显示，ImmutableX的IMX代币将于北京时间2月25日18:00解锁18,075,990.62枚IMX，价值约1878万美元，占总供应量（20亿枚）的0.904%。其中，项目发展解锁9,615,385枚，私人销售解锁8,460,606枚。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[融资周报 | 公开融资事件29起；Layer 1区块链项目Monad Labs完成 1900 万美元种子轮融资，Dragonfly Capital领投]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/39nr89xp.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/39nr89xp.html"/>
+        <updated>2023-02-20T03:19:30.000Z</updated>
+        <summary type="html"><![CDATA[本期看点
+据 PANews 不完全统计，上周（2.13-2.19）全球区块链有29起投融资事件，与前一周相比略有减少，概览如下:
+DeFi赛道未公布投融资事件；
+链游方面公布了5起事件，其中游戏公会YGG通过出售代币募集到1380万美元资金，DWF Labs和a16z Crypto参投；
+NFT和元宇宙领域表现稳定，公布了5起融资，其中Web3友好娱乐公司Superplastic完成2000万美元 A-4 轮融资，亚马逊风险投资部门Alexa Fund领投；
+基础设施与工具赛道继续升温，公布了11起事件，Web3基础设施提供商Caldera在两轮融资中筹集了900万美元，分别由红杉资本合伙人Shaun Maguire和Dragonfly合伙人Ani Pai领投；
+其他Web3/加密相关项目方面公布了6起事件，Web3 通信项目Sending Labs完成1250万美元种子轮融资，由 Insignia Venture Partners、MindWorks Capital 和 Signum Capital 领投；
+中心化金融领域热度大幅下跌，公布了2起融资，其中瑞士数字资产公司Taurus SA通过股权融资筹集了6500万美元，瑞士信贷集团 (Credit Suisse Group AG) 领投。
+下面我们一起来全盘回顾上周的投融资事件。
+游戏公会YGG通过出售代币募集1380万美元资金，a16z Crypto等参投
+游戏公会YGG周五宣布已通过出售代币募集到1380万美元资金，DWF Labs和知名风投a16z旗下Web3基金a16z Crypto参投。据YGG联合创始人Gabby Dizon透露，YGG将利用这笔新资金进一步开发其灵魂绑定声誉代币（soulbound reputation token）。
+链游开发商Unagi完成500万美元种子轮融资
+链游开发商Unagi宣…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】如何实现 0 无常损失：简析 Pendle V2 AMM 做市机制]]></title>
+        <id>https://twitter.com/pendle_fi/status/1626974445830283265</id>
+        <link href="https://twitter.com/pendle_fi/status/1626974445830283265"/>
+        <updated>2023-02-20T03:15:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Pendle Finance 是建立在以太坊上的 DeFi 协议，主打借贷和投资收益。Pendle 简单介绍了其 V2 AMM 机制引入的资产配对方式如何避免 LP 承受无常损失。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/pendle_fi/status/1626974445830283265">https://twitter.com/pendle_fi/status/1626974445830283265</a></p>
+<p><strong>文章作者：</strong></p><p>Pendle</p><hr><h3>观点：</h3><p><strong>Pendle：</strong>所有 Pendle 资金池都将基础代币（Principal Token，PT） 与它们的基础资产配对。所有的 PT 都可以在到期后 1:1 兑换成标的。例如，stETH 池由 PT-stETH 与 stETH 配对，无论是 50  PT-stETH + 50 stETH 或是 90 PT-stETH + 10 stETH 的资金池构成，两个池子到期后都价值 100 stETH。长期来看，所有的 PT = 标的资产，这意味着没有无常损失。【原文为英文】</p><a href="https://twitter.com/pendle_fi/status/1626974445830283265">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：BLUR空投已被领取近94%，Bidding Pools TVL超1.2亿美元再创新高]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ft2chxqm.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ft2chxqm.html"/>
+        <updated>2023-02-20T03:11:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月20日消息，Dune Analytics数据显示，3.6亿枚BLUR空投已被领取93.82%（约3.37亿枚），距离空投申领结束还有54天8小时。目前空投认领人数达111511人。其中40.5%的空投数量在100至1000之间，29.6%的空投数量在100以内，24.7%的空投数量在1000至10000之间。
+此外，Blur Bidding Pools TVL突破1亿美元，现约1.26亿美元，续创历史。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[PA图说 | 一图掌握BNBChain上NFT一周关键数据（02.13—02.19）]]></title>
         <id>https://www.panewslab.com/zh/articledetails/p9bhz3uk.html</id>

@@ -6,6 +6,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/pendle_fi/status/1626974445830283265",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle Finance 是建立在以太坊上的 DeFi 协议，主打借贷和投资收益。Pendle 简单介绍了其 V2 AMM 机制引入的资产配对方式如何避免 LP 承受无常损失。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/pendle_fi/status/1626974445830283265\">https://twitter.com/pendle_fi/status/1626974445830283265</a></p>\n<p><strong>文章作者：</strong></p><p>Pendle</p><hr><h3>观点：</h3><p><strong>Pendle：</strong>所有 Pendle 资金池都将基础代币（Principal Token，PT） 与它们的基础资产配对。所有的 PT 都可以在到期后 1:1 兑换成标的。例如，stETH 池由 PT-stETH 与 stETH 配对，无论是 50  PT-stETH + 50 stETH 或是 90 PT-stETH + 10 stETH 的资金池构成，两个池子到期后都价值 100 stETH。长期来看，所有的 PT = 标的资产，这意味着没有无常损失。【原文为英文】</p><a href=\"https://twitter.com/pendle_fi/status/1626974445830283265\">内容来源</a>",
+          "link": "https://twitter.com/pendle_fi/status/1626974445830283265",
+          "publishedOn": "2023-02-20T03:15:37.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】如何实现 0 无常损失：简析 Pendle V2 AMM 做市机制",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.coindesk.com/tech/2023/02/20/klaytn-foundation-to-make-changes-to-klay-tokenomics-and-governance-models/",
           "author": null,
           "description": "<h3>Klaytn 基金会将于 2 月 28 号公布修改 Klaytn 网络治理系统及原生代币 Klay 经济模型的提案</h3>\n<p>据 CoinDesk 报道，韩国区块链 Klaytn 的主要开发者和代码维护者之一 Klaytn 基金会正在对 Klaytn 的网络治理系统及其原生代币 KLAY 的经济模型进行更改。该基金会将与 Klaytn 治理委员会 (GC) 合作，帮助 Klaytn 区块链过渡到完全无需许可的验证器结构，为公众提供作为区块验证器参与的机会，并为 Klaytn 的社区成员引入参与决策过程的沟通渠道。此外，基金会将通过治理协议 Klaytn Square 实时披露 GC 的链上投票议程和状态，从而加强治理透明度。Klaytn 基金会将从周一开始向 GC 提交经过修改的代币经济模型提案，最终的议程和提案将于 2 月 28 日与 2023 年的技术路线图一起公布。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/02/20/klaytn-foundation-to-make-changes-to-klay-tokenomics-and-governance-models/\">内容来源</a></p><hr>",
@@ -2222,6 +2232,46 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/ju1evv9g.html",
+          "author": null,
+          "description": "PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
+          "link": "https://www.panewslab.com/zh/articledetails/ju1evv9g.html",
+          "publishedOn": "2023-02-20T03:56:43.000Z",
+          "wordCount": 982,
+          "title": "PA图说 | 一图掌握Polygon上NFT一周关键数据（02.13—02.19）",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/20/images/XvYZY55g4J.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/8vcdem2q.html",
+          "author": null,
+          "description": "PANews 2月20日消息，Token Unlocks数据显示，ImmutableX的IMX代币将于北京时间2月25日18:00解锁18,075,990.62枚IMX，价值约1878万美元，占总供应量（20亿枚）的0.904%。其中，项目发展解锁9,615,385枚，私人销售解锁8,460,606枚。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/8vcdem2q.html",
+          "publishedOn": "2023-02-20T03:35:51.000Z",
+          "wordCount": 969,
+          "title": "数据：价值近1900万美元的IMX代币将于2月25日解锁",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/39nr89xp.html",
+          "author": null,
+          "description": "本期看点\n据 PANews 不完全统计，上周（2.13-2.19）全球区块链有29起投融资事件，与前一周相比略有减少，概览如下:\nDeFi赛道未公布投融资事件；\n链游方面公布了5起事件，其中游戏公会YGG通过出售代币募集到1380万美元资金，DWF Labs和a16z Crypto参投；\nNFT和元宇宙领域表现稳定，公布了5起融资，其中Web3友好娱乐公司Superplastic完成2000万美元 A-4 轮融资，亚马逊风险投资部门Alexa Fund领投；\n基础设施与工具赛道继续升温，公布了11起事件，Web3基础设施提供商Caldera在两轮融资中筹集了900万美元，分别由红杉资本合伙人Shaun Maguire和Dragonfly合伙人Ani Pai领投；\n其他Web3/加密相关项目方面公布了6起事件，Web3 通信项目Sending Labs完成1250万美元种子轮融资，由 Insignia Venture Partners、MindWorks Capital 和 Signum Capital 领投；\n中心化金融领域热度大幅下跌，公布了2起融资，其中瑞士数字资产公司Taurus SA通过股权融资筹集了6500万美元，瑞士信贷集团 (Credit Suisse Group AG) 领投。\n下面我们一起来全盘回顾上周的投融资事件。\n游戏公会YGG通过出售代币募集1380万美元资金，a16z Crypto等参投\n游戏公会YGG周五宣布已通过出售代币募集到1380万美元资金，DWF Labs和知名风投a16z旗下Web3基金a16z Crypto参投。据YGG联合创始人Gabby Dizon透露，YGG将利用这笔新资金进一步开发其灵魂绑定声誉代币（soulbound reputation token）。\n链游开发商Unagi完成500万美元种子轮融资\n链游开发商Unagi宣…",
+          "link": "https://www.panewslab.com/zh/articledetails/39nr89xp.html",
+          "publishedOn": "2023-02-20T03:19:30.000Z",
+          "wordCount": 2346,
+          "title": "融资周报 | 公开融资事件29起；Layer 1区块链项目Monad Labs完成 1900 万美元种子轮融资，Dragonfly Capital领投",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/20/images/2Lin5j1gh4.jpg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ft2chxqm.html",
+          "author": null,
+          "description": "PANews 2月20日消息，Dune Analytics数据显示，3.6亿枚BLUR空投已被领取93.82%（约3.37亿枚），距离空投申领结束还有54天8小时。目前空投认领人数达111511人。其中40.5%的空投数量在100至1000之间，29.6%的空投数量在100以内，24.7%的空投数量在1000至10000之间。\n此外，Blur Bidding Pools TVL突破1亿美元，现约1.26亿美元，续创历史。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ft2chxqm.html",
+          "publishedOn": "2023-02-20T03:11:37.000Z",
+          "wordCount": 989,
+          "title": "数据：BLUR空投已被领取近94%，Bidding Pools TVL超1.2亿美元再创新高",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/p9bhz3uk.html",
           "author": null,
