@@ -6,6 +6,46 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/itsdennis_s/status/1627024950807904256",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>比特币 NFT 热度不减，铭文数量也即将突破 15 万。Blockworks CTO Dennis 从技术特性出发，对比了比特币 NFT 与以太坊 NFT 的优劣势，阐述了比特币 NFT 在购买、交易等环节面临的挑战。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/itsdennis_s/status/1627024950807904256\">https://twitter.com/itsdennis_s/status/1627024950807904256</a></p>\n<p><strong>文章作者：</strong></p><p>dennis</p><hr><h3>观点：</h3><p><strong>dennis：</strong>以太坊 NFT 文件存在于智能合约或合约的托管平台中，而比特币 NFT 存储在链上，因此受到比特币区块大小的限制。一个 Ordinal 的最大文件是 4MB，这使得我们不可能看到巨大的 3D 动画视频，也是比特币 NFT 难以被 1/1 艺术家认可的潜在原因。【原文为英文】</p><a href=\"https://twitter.com/itsdennis_s/status/1627024950807904256\">内容来源</a><p><strong>dennis：</strong>默认情况下，每个铭文与 10000 stats（0.0001 BTC）挂钩。这是一个铭文的最低金额，用户还需要根据图像大小来支付矿工费。例如，在 10 sats/vB 的费率下，用户需要为每 kb 图片大小支付 2500 sats（0.000025 BTC）。从技术上讲，每个 BTC 只能有 10K 铭文，相比之下，以太坊合约可以创造无限量的 NFT。这个概念使比特币 NFT 比以太坊 NFT 更稀缺。【原文为英文】</p><a href=\"https://twitter.com/itsdennis_s/status/1627024950807904256\">内容来源</a><p><strong>dennis：</strong>挑战：1. 想要购买比特币 NFT 需要运行一个完全同步的比特币节点和 ord 钱包；2. 转账有较大风险；3. 由于当前官方的比特币标准中没有去信任交易，所以要创建一个像 Opensea 那样的用户友好型市场并不容易。【原文为英文】</p><a href=\"https://twitter.com/itsdennis_s/status/1627024950807904256\">内容来源</a>",
+          "link": "https://twitter.com/itsdennis_s/status/1627024950807904256",
+          "publishedOn": "2023-02-20T06:58:33.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】比特币 NFT 与以太坊 NFT 对比：优劣及挑战",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/ThorHartvigsen/status/1626986724671758336",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>FactorDAO 是 Arbitrum 生态中的链上资产管理平台，具有可定制化金库。DeFi 研究员 Thor Hartvigsen 从主要产品、用例、代币经济模型、路线图，对 FactorDAO 进行全面分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ThorHartvigsen/status/1626986724671758336\">https://twitter.com/ThorHartvigsen/status/1626986724671758336</a></p>\n<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>FactorDAO 提供了三种不同的产品，它们都在 DeFi 中呈现了独特的用例，三个产品分别为：1）Tokenized baskets（通证化篮子），即用户可以创建代表链上可追踪投资组合和指数的自定义金库，而金库使用 ERC-4626 标准的修改版本表示为链上代币，以使其去中心化和无需许可。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626986724671758336\">内容来源</a><p><strong>Thor Hartvigsen：</strong>2）收益池，通过收益池，创建者可以部署具有任何收益率的代币和自定义抵押比率的自定义借贷策略。用户从低 / 高风险策略中提供和借入资产。3）衍生品，用户还可以在协议的任何基础资产上创建和交易衍生品。Tokenized baskets 和收益池的创作者会根据各种性能指标进行排名以获得奖励。这三个产品的用例包括：资产管理；DAO 资金安全管理；与协议合作（增加 TVL 和收入）。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626986724671758336\">内容来源</a><p><strong>Thor Hartvigsen：</strong>代币经济模型：最大供应量为 1 亿 $FCTR，上线时的供应量为 12.5%，其余在 3.5 年内解锁。$FCTR 持有者可以质押和锁定他们的代币 ($veFCTR) 进行治理，并获得协议收入的 50% 作为质押奖励。路线图：1）主网将在公售后不久推出，随后第一个金库和收益池的功能将进行扩展；2）衍生品和跨链资产整合；3）发展更多的合作伙伴关系；4）多链部署；5）原生 AMM。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1626986724671758336\">内容来源</a>",
+          "link": "https://twitter.com/ThorHartvigsen/status/1626986724671758336",
+          "publishedOn": "2023-02-20T06:51:39.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】一文了解 Arbitrum 生态的链上资产管理协议 FactorDAO",
+          "imageUrl": null
+        },
+        {
+          "id": "https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>主流论点认为以太坊 PoS 升级后，ETH 进入了通缩状态。区块链研究员 Jon Charbonneau 从 ETH 的资产属性出发，通过 ETH 在以太坊生态的流动性示例，论证了为何不能简单的通过净发行量下降定义 ETH 的通缩性质，并阐述了如何提高 ETH 的效用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part\">https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part</a></p>\n<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr><h3>观点：</h3><p><strong>Jon Charbonneau：</strong>ETH 的三个资产属性：1. 资本性资产：质押者和持有者赚取收益；2. 消耗性和可转换资产：gas；3. 价值存储资产：货币溢价。因此一个简单的 DCF 模型无法对其进行估值。【原文为英文】</p><a href=\"https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part\">内容来源</a><p><strong>Jon Charbonneau：</strong>反驳 ETH 是通缩代币：1.PoS 网络的代币发行不是网络的直接费用，它是从所有持有人到利益相关者的再分配，因此费用 - 发行≠「利润」；2. 净通胀网络并非天生不可持续，如果基于各种效用和价值捕获机制对基础代币有足够的需求，持有人可能会接受合理数量的正净发行量。【原文为英文】</p><a href=\"https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part\">内容来源</a><p><strong>Jon Charbonneau：</strong>如何促进以太坊形成良性循环：1. 建立强大的技术堆栈和社交层；2. 将 ETH 作为「货币」；3. 最大化 ETH 价值；4. 最大化 ETH 经济安全。【原文为英文】</p><a href=\"https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part\">内容来源</a>",
+          "link": "https://joncharbonneau.substack.com/p/eth-is-not-ultrasound-money-part",
+          "publishedOn": "2023-02-20T06:50:58.000Z",
+          "wordCount": 15542,
+          "title": "【英文】审视 ETH 的资产属性：如何发挥最大效用",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43c83196-83a5-4642-b89c-89039b2a489a_1562x968.png"
+        },
+        {
+          "id": "https://foresightnews.pro/article/detail/25814",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Layer2 Community Grants 2022 是由以太坊基金会资助的赠款计划，旨在鼓励围绕 Layer2 应用程序的开发和用户教育，以太坊基金会隐私与扩展探索团队于近日公布了获奖名单，该名单由以太坊基金会成员 Rodrigo Vasquez 撰写，中文版由 Foresight News 进行编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://foresightnews.pro/article/detail/25814\">https://foresightnews.pro/article/detail/25814</a></p>\n<p><strong>文章作者：</strong></p><p>Rodrigo Vasquez（以太坊基金会）</p><hr><h3>观点：</h3><p><strong>Rodrigo Vasquez（以太坊基金会）：</strong>网络安全领域：1）Candidelabs，ERC-4337 公共基础设施；2）Quantstamp ，Rollup 安全框架。用户体验领域：1）Spiro ，zkWallet ，旨在建立一个私有的多方钱包，通过采用账户抽象（EIP-4337）和零知识证明来屏蔽终端用户；2）Stackr Network，是一个 SDK，用于使用熟悉的类似 Web2 的工具来启动独立的可定制化的特定应用程序的 rollup；3）ScopeLift ，L2 优化器；4）Testinprod ，Layer1.5；5）ScopeLift ，具有灵活投票（Flexible Voting）的 Layer2 治理。6）Starksheet，旨在使链上资源（数据和逻辑）的访问与使用民主化；7）Typescript ERC-4337 Bundler；8）Soul Wallet - 开源 ERC-4337 钱包。</p><a href=\"https://foresightnews.pro/article/detail/25814\">内容来源</a><p><strong>Rodrigo Vasquez（以太坊基金会）：</strong>社区与教育领域：1）L2 en Español，是一个开放社区，旨在研究、教育和推动所有以太坊扩展解决方案的采用；2）MyFirstLayer2，一个开源的、社区驱动的、教育性的项目。数据分析领域：1）Blockscout，区块浏览器；2）Quantstamp，评估 Rollup 压缩；3）Diablobench ，Layer2 区块链系统的性能和安全评估；4）Web3-data ，Layer2 活动跟踪和比较套件；5）L2 Beat，通过扩展指标和教育，继续致力于对新兴的 L2 技术进行透明和可验证的洞察。</p><a href=\"https://foresightnews.pro/article/detail/25814\">内容来源</a><p><strong>Rodrigo Vasquez（以太坊基金会）：</strong>数据可视化领域：1）Quantstamp ，L2 区块浏览器后端 API 标准；2）Blobscan，支持 EIP-4844 中 blob 交易的第一个区块浏览器。密码学与零知识证明领域：1）Specular，利用 Geth 修改的 ORU，只有 99 行代码来支持 IFP 的构建；2）Nethermind， L2 部署证明系统的具体安全分析；3）Ethstorage ，使用以太坊 L1 合约的 L2 动态数据集的存储证明。</p><a href=\"https://foresightnews.pro/article/detail/25814\">内容来源</a>",
+          "link": "https://foresightnews.pro/article/detail/25814",
+          "publishedOn": "2023-02-20T06:36:45.000Z",
+          "wordCount": 2613,
+          "title": "一文速览以太坊基金会 2022 年 Layer2 社区捐赠计划获奖项目",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
           "id": "https://mirror.xyz/kamama.eth/L3wEq1ZktUofb3YU5dQeKB_ma3vLUFS_GBZzNR3z4l4",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Frax 是一个采用部分抵押的去中心化稳定币，除了 FRAX 和 Frax 价格指数（FPI）两种稳定币外，Frax Finance 还发布了 FraxFerry、FraxSwap 和 FraxLend 等多个产品确保资金流动性、有机采用和资本效率。加密研究员 kamama 深度解析了 Frax Finance 的生态构成、核心机制和协议指标，以及 Frax 近期面临的机遇和挑战。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mirror.xyz/kamama.eth/L3wEq1ZktUofb3YU5dQeKB_ma3vLUFS_GBZzNR3z4l4\">https://mirror.xyz/kamama.eth/L3wEq1ZktUofb3YU5dQeKB_ma3vLUFS_GBZzNR3z4l4</a></p>\n<p><strong>文章作者：</strong></p><p>kamama</p><hr><h3>观点：</h3><p><strong>kamama：</strong>Frax 的风险：1.Curve 和 Aave 正在推出自己的稳定币 crvUSD 和 GHO。这可能会降低 FRAX 的市值，因为这两种协议都在其行业内建立了强大的护城河（分别是稳定币 AMM 和贷款）。crvUSD 的推出可能会减少 FraxBP 和 Frax3crv 资金池所赚取的收入。2. 使用 USDC 作为抵押品会带来监管风险。一旦监管加强出现挤兑，可能会发生 FRAX 抵押不足的情况。【原文为英文】</p><a href=\"https://mirror.xyz/kamama.eth/L3wEq1ZktUofb3YU5dQeKB_ma3vLUFS_GBZzNR3z4l4\">内容来源</a><p><strong>kamama：</strong>Frax 的机会：1.BAMM（Borrow AMM）发布。BAMM 的目的是建立一个具有现货流动性且无需预言机即可借入的平台，将使 Frax 生态系统中的稳定币能够抓住长尾市场。2. 治理多元化。新的治理模块将排除核心团队的决策权，强化社区治理。3. 上海升级。上海升级的成功将增加 LSD 用户和流动性。4. 团队有兴趣申请美联储主账户，如果成功，将为协议注入大量资金。【原文为英文】</p><a href=\"https://mirror.xyz/kamama.eth/L3wEq1ZktUofb3YU5dQeKB_ma3vLUFS_GBZzNR3z4l4\">内容来源</a><p><strong>kamama：</strong>自成立以来，Frax Finance 获得了总计 4300 万美元的利润。Frax 目前在 Curve 上排名第四，TVL 为 4.53 亿美元。frxETH 的 TVL 已增长到 1.41 亿美元，总供应量为 95025 frxETH。当前，frxETH 储备占 Curve 池的 53%，年利率为 7.72%。活跃的验证者数量已达到 2240，平均每天赚取 11 ETH。【原文为英文】</p><a href=\"https://mirror.xyz/kamama.eth/L3wEq1ZktUofb3YU5dQeKB_ma3vLUFS_GBZzNR3z4l4\">内容来源</a>",
@@ -2272,6 +2312,36 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/46887ic3th9f.html",
+          "author": null,
+          "description": "近期，加密市场经历了2023年以来的首次重大回调，同时还有美国的监管举措和美国证券交易委员会SEC打击行动的消息。比特币上Ordinals和Inscriptions的出现正在为区块容量大小创造一种新的、意想不到的需求。\n加密市场经历了自 1 月份反弹以来的首次大幅回调，从每周高点 2.33 万美元回落至 2.15 万美元的低点。与此同时，来自美国的重大监管消息也随之而来。例如美国证券交易委员会对 Kraken 的质押服务处以罚款，美国证券交易委员会针对 Paxos发行 BUSD 稳定币的法律诉讼等。\n最近几周，比特币 NFT 以Ordinals协议和 Inscriptions 的形式被引入，已经创建了超过 6.9万个地址。因此，比特币网络活动显著增加，费用压力上升。\n本文，我们将从两个关键角度探索比特币网络： \n投资者在从局部高位回调期间的行为表现为新买家们高额的未实现利润点。\nOrdinals协议出现及其对链上活动和费用市场压力的独特影响。\n\n图1:2月6日-2月12日的比特币价格\n市场进入宏观过渡阶段\n随着比特币现货价格突破实现价格，市场进入了宏观过渡阶段，历史上该阶段通常受两种定价模型的约束：\n该区域的下限是已实现价格（蓝色）：1.98万美元，对应于市场的平均链上收购价格。\n该区域的上限为已实现价格与活跃度之比（橘色）：3.27 万美元，这是已实现价格的变体，反映了按 HODLing 活动程度加权的“隐含公允价值”。 \n通过分析上述范围的前期阶段，我们注意到当前市场与 2015-16 年和 2019 年的再积累期之间存在相似之处。\n\n图2:已实现价格与活跃度之比-比特币\n比特币价格在局部高点 2.36万美元处暂停上涨。我们可以利用积累趋势指数来考察投资者此时的行为，它反映了过去 30 天活跃投资者的总余额变化。较大的实体（例如鲸鱼和机构）占据的权重较高，值为 1（紫色…",
+          "link": "https://www.panewslab.com/zh/articledetails/46887ic3th9f.html",
+          "publishedOn": "2023-02-20T07:26:10.000Z",
+          "wordCount": 1714,
+          "title": "熊末牛初：比特币Ordinals是福是祸？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/images/1w14k60RNh.jpg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/jyugkvnw.html",
+          "author": null,
+          "description": "PANews 2月20日消息，据Lookonchain监测，Fantom基金会于今日13:49将750万枚FTM（约400万美元）转入币安。\n据统计，上次，Fantom基金会将FTM转入币安是在2022年5月LUNA/UST崩盘期间。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/jyugkvnw.html",
+          "publishedOn": "2023-02-20T07:14:27.000Z",
+          "wordCount": 965,
+          "title": "数据：Fantom基金会将价值约400万美元的FTM转入币安",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/6thnf96c.html",
+          "author": null,
+          "description": "PANews 2月20日消息，Web3知识图谱协议0xscope发推表示，经过6个月的休眠，疑似Voyager地址开始向交易所存入大量代币。2023年2月1日以来，这些地址向币安和Coinbase存入了价值4430美元的ETH、1750万美元的SHIB、283万美元的VGX以及155万美元的LINK，共计6618万美元。Voyager目前仍持有约3.21亿美元的加密货币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/6thnf96c.html",
+          "publishedOn": "2023-02-20T07:09:18.000Z",
+          "wordCount": 963,
+          "title": "Voyager地址在休眠6个月后，本月已向交易所共存入6618万美元的代币",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/xfrdm4nw.html",
           "author": null,
