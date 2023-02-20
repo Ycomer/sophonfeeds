@@ -6,6 +6,36 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化自治组织正在不断演变成新模式和用例，其中「ImpactDAO 」试图利用加密经济学与可验证和开源工具相结合实现可持续发展和再生生态系统的目标。BanklessDAO 研究员 Sardius 从基本概念、特征及用例等方面对 ImpactDAO 进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb\">https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb</a></p>\n<p><strong>文章作者：</strong></p><p>Sardius</p><hr><h3>观点：</h3><p><strong>Sardius：</strong>ImpactDAO 独特特征：1）可组合的再生网络。利用网络效应使工作复合化，并在 DAO 之间发挥更大的影响。可组合性使人才、能量和资源能够有效地流动到最需要的地方。2）再生设计。ImpactDAO 是专门为对其所构成的生态系统产生再生和可持续影响而设计的。在再生系统中，资源随着时间的推移而增加。 3）积极的外部性。每个 ImpactDAO 都创造了积极的外部因素，从而为生态系统的其他部分带来了价值。4）杠杆点。提供一个新的杠杆点，从系统内部向外扩散，以前对生态系统的开采或有害的行为。【原文为英文】</p><a href=\"https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb\">内容来源</a><p><strong>Sardius：</strong>用例：1）Regen Network 是一个为 ReFi 经济建立生态资产的 ImpactDAO。 在探索如何将生态健康的价值与经济价值联系起来的过程中，Regen Network 正在创建一个开源的、社区驱动的碳和生态资产登记处。2）Molecule 提供了一个研究市场、IP-NFTs 和可扩展的框架，用于建立生物技术 DAO。Molecule 的长期目标是将药物开发的所有权、融资和治理过程去中心化。3）Metropolis 正在围绕「将人置于设计中心的 DAO 治理」创建工具， 旨在最终实现一个可组合的元治理框架，可以作为「多 DAO 治理委员会的连接组织」【原文为英文】</p><a href=\"https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb\">内容来源</a><p><strong>Sardius：</strong>面临的挑战：协调成员实现真正的可持续成果，在没有传统等级制度的情况下进行成员协作，以及实际验证影响力，这些只是 ImpactDAO 面临的几个挑战。ImpactDAO 可能被迫在完成其任务和以新颖的方式使用 web3 技术之间做出权衡。【原文为英文】</p><a href=\"https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb\">内容来源</a>",
+          "link": "https://medium.com/bankless-dao/impactdaos-are-shaping-regenerative-organizations-e8345a5d85eb",
+          "publishedOn": "2023-02-20T08:59:57.000Z",
+          "wordCount": 4866,
+          "title": "【英文】ImpactDAO 解读：如何为生态系统创造正外部性？",
+          "imageUrl": "https://miro.medium.com/max/1200/0*NJucCao-DI2bC82y"
+        },
+        {
+          "id": "https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>随着 Layer1、Layer2 及智能合约、模块化基础设施的成熟，如何构建区块链应用的答案开始变得逐渐清晰起来。加密研究员 Jolestar 从演化角度对 Rollup Layer2 的发展以及演进进行了讨论，主要解答了 Rollup 如何工作、模块化能带来哪些可能性等问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/\">https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/</a></p>\n<p><strong>文章作者：</strong></p><p>jolestar</p><hr><h3>观点：</h3><p><strong>jolestar：</strong>模块化带来的可能性：1）Rooch Ethereum Layer2：Rooch 首先要运行的网络，以太坊提供安全保证，可以和以太坊上资产互通的 Move 运行平台，未来可以扩展到多链结算；2）Rooch Layer3 Rollup DApp ：如果应用把自己的结算和仲裁部署到 Rooch Layer2，它就是一个 Rooch 的 Layer3 应用；3）XChain Rollup DApp：开发者只需要通过 Move 语言编写自己的应用逻辑，资产可以和 XChain 互通的，独立环境的 Rollup 应用。</p><a href=\"https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/\">内容来源</a><p><strong>jolestar：</strong>4）Sovereign Rollup DApp：也可以将 Rooch 作为 Sovereign Rollup SDK，不部署 Bridge 以及 Arbitration 合约，State Commitment Chain 也保存在 DA；5）Arweave SCP DApp ：SCP 要求应用程序的代码也要保存到 DA；6）Move DApp Chain：MoveOS 可以作为一个独立的 Move 运行环境嵌入到任意的链的运行环境中去构建应用链或者新的公链。</p><a href=\"https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/\">内容来源</a><p><strong>jolestar：</strong>模块化带来的可能性：1）Rooch Ethereum Layer2：Rooch 首先要运行的网络，以太坊提供安全保证，可以和以太坊上资产互通的 Move 运行平台，未来可以扩展到多链结算；2）Rooch Layer3 Rollup DApp ：如果应用把自己的结算和仲裁部署到 Rooch Layer2，它就是一个 Rooch 的 Layer3 应用；3）XChain Rollup DApp：开发者只需要通过 Move 语言编写自己的应用逻辑，资产可以和 XChain 互通的，独立环境的 Rollup 应用。</p><a href=\"https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/\">内容来源</a>",
+          "link": "https://rooch.network/zh/blog/2023/2/14/The-Modular-Evolution-of-Rollup-Layer2/",
+          "publishedOn": "2023-02-20T08:55:30.000Z",
+          "wordCount": 818,
+          "title": "Rollup Layer2 模块化演进之路：有何可能性？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=23PR5",
+          "author": null,
+          "description": "<h3>香港证监会：据将于 2023 年 6 月 1 日生效的制度，中心化虚拟资产交易平台在香港需持牌运营</h3>\n<p>香港证监会就有关监管虚拟资产交易平台的建议展开咨询。咨询内容包括是否允许持牌平台营运者向零售投资者提供服务及应实行哪些措施保护投资者。根据将于 2023 年 6 月 1 日生效的制度，所有在香港经营业务或向香港投资者积极进行推广的中心化虚拟资产交易平台将需要获得证监会发行的牌照。计划申领牌照的虚拟资产交易平台营运者应检视及修改有关系统及监控措施。而无意申领牌照的营运者应该着手以有序方式结束其于香港的业务。</p>\n<p><a href=\"https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=23PR5\">内容来源</a></p><hr>",
+          "link": "https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=23PR5",
+          "publishedOn": "2023-02-20T08:46:41.000Z",
+          "wordCount": 43,
+          "title": "香港证监会：据将于 2023 年 6 月 1 日生效的制度，中心化虚拟资产交易平台在香港需持牌运营",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/delphi_digital/status/1626990321295929344",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>过去一个月内，有将近 140,000 个比特币 Ordinals NFT 被铸造。加密研究机构 Delphi Digital 从铸造方式、与 NFT 的区别及对比特币的影响等方面对 Ordinals 进行了探索分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/delphi_digital/status/1626990321295929344\">https://twitter.com/delphi_digital/status/1626990321295929344</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>Ordinal 理论赋予每个比特币 sat 一个唯一的数字。用户将数据输入这些特定的 sat，可以说从根本上改变了比特币的可替代性。这种记录在 Ordinals 上的元数据永远存在于比特币上，通过 Taproot 路径支出脚本将记录的数据完全存储在链上。这与倾向于将元数据存储在中心化服务器上的传统 NFT 形成鲜明对比。【原文为英文】</p><a href=\"https://twitter.com/delphi_digital/status/1626990321295929344\">内容来源</a><p><strong>Delphi Digital：</strong>Ordinals 和 NFT 之间存在细微差别。开发人员可以使用无限制的 NFT 来创建合约，而 Ordinals 则受到每个区块中 sat 数量的瓶颈。从理论上讲，比特币区块每个区块的最大容量应为 1MB，但借助 SegWit 和 Taproot，Ordinal 用户可以向每个区块添加 3MB 的数据。费用在攀升，区块越来越大，这增加了比特币的安全预算和矿工的盈利能力。【原文为英文】</p><a href=\"https://twitter.com/delphi_digital/status/1626990321295929344\">内容来源</a><p><strong>Delphi Digital：</strong>更大的区块意味着随着链的增长，比特币节点必须存储更多的数据。随着节点存储需求的增加，这可能会使比特币集中化。同时还增加了支付给矿工的费用。Ordinals 已经占比特币每日费用的 12.5%。Ordinals 为比特币带来了新的用户群：用户铭刻费用来维护链，同时 Ordinals 将安全和文化都带到了链上。【原文为英文】</p><a href=\"https://twitter.com/delphi_digital/status/1626990321295929344\">内容来源</a>",
@@ -2332,6 +2362,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/88azuv9c.html",
+          "author": null,
+          "description": "撰文：Morty\n在过去的一段时间中，Arbitrum 上发生了令人惊讶的 DeFi 创新。促成这一状态的主要原因之一在于去中心化衍生品交易所 GMX 在 Arbitrum 上的部署——得益于 DeFi 的乐高属性，其他 DeFi 协议开始基于 GMX 来构建产品。其中，最常见的设计便是基于 GLP 建立的产品框架。\n接下来，我们来详细拆解一下这类产品。\n首先，什么是 GLP？\n在 GMX 生态中，存在两种代币，一是治理和分红代币 GMX，二是流动性代币 GLP。\nGMX不是订单簿模式。在GMX的市场中，一方是流动性提供者，一方是交易者。投资者可以通过购买 GLP 来为 GMX 上的交易者提供流动性，相应的，投资者可以获得 70%的 GMX 交易手续费分成。流动性提供者和交易者之间是交易对手方，这也意味着，交易者盈利代表 GLP 持有者亏损，交易者亏损代表 GLP 持有者盈利。\nGLP 由一揽子主流资产构成——50%稳定币、28%ETH、20%WBTC和一些其他主流资产。流动性提供者通过铸造或销毁GLP进入或退出市场。\n在大多数 GLP 衍生产品的设计中，它们的主要目标便是降低投资者的风险，增加 GLP 持有者的收益，从而增加资产的资本效率。\n接下来，让我们来看一下这些协议的策略：\n向投资者提供 Delta 中性策略来获取用户是大部分 GLP 衍生协议的主流做法。\n根据维基百科的解释，在金融领域，如果一个投资组合由相关的金融产品组成，而且其价值不受标的资产小幅价格变动的影响，这样的投资组合具有 Delta 中性的性质。在传统金融中，旨在在横向市场中赚钱的投资组合策略被称为 Delta 中性策略。 \n也就是说，Delta 中性交易旨在是建立一个不会对标的资产价格的微小变化做出反应的头寸。因此，GLP Delta 中性策略的目标是在为 GLP 持有者提供收益的同时，降低了其对价…",
+          "link": "https://www.panewslab.com/zh/articledetails/88azuv9c.html",
+          "publishedOn": "2023-02-20T09:32:48.000Z",
+          "wordCount": 1789,
+          "title": "一览GLP衍生品策略，如何为GMX生态乐高“添砖加瓦”？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/20/images/haji6JwXVS.png"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/7562f35v.html",
           "author": null,
