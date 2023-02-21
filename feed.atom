@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T08:36:24.055Z</updated>
+    <updated>2023-02-21T08:43:42.920Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[a16z监管系列新文：如何在实践中应用Web3监管框架？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/hfl86imc.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/hfl86imc.html"/>
+        <updated>2023-02-21T08:37:25.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Regulate Web3 Apps, Not Protocols Part IV: Practical Application》byMiles Jennings 和 Brian Quintenz
+编译：DeFi 之道
+
+图片来源：由 Maze AI 生成
+本文是“监管 Web3 应用程序，而不是协议”系列的第四部分，该系列建立了一个 Web3 监管框架，以维护 Web3 技术的好处，保护互联网的未来，同时减少非法活动和消费者伤害的风险。该框架的核心原则是，企业应该是监管的重点，而不是去中心化的自主软件。
+本系列第一‌、第二‌和第三部分‌建立的“监管 Web3 应用程序，而不是协议”框架的基础是监管不可知的 -- 这意味着它对哪些类型的监管应适用于 Web3 没有固定的看法。相反，该框架提供了一种评估和应用 Web3 业务监管的方法，包括与市场结构、KYC、隐私或任何其他类型目前适用于 Web2 业务的监管。该框架只规定，监管应该有一个合法的目标，与它所要监管的实体和活动以及它要解决的风险相适应，并保持真正的“技术中立”（不是在新生技术中选择赢家）。
+在本系列的第四部分中，我们展示了该框架如何在实践中应用于假设的市场结构监管（即管理交易所数字资产交易的立法和相应监管）。我们首先定义了假设监管的范围，然后解释了监管的不同规则和要求如何适用于 web3 领域的不同类型的参与者和应用。这一分析表明，为什么监管中最苛刻的要求应适用于对用户构成最大风险的应用程序，而那些构成最小风险的应用程序应受到较少的监管。这种风险加权的方法确保了对消费者的保护，同时也保护了创新。
+虽然我们在此讨论的监管示例侧重于加密方向的金融用例，但该分析应表明“监管 Web3 应用程序，而不是协议”的框架在未来可用于适当定制一系列 Web3 监管，包括与社交媒体、零工经济和内容创建应用程序有关的监管。
+…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CoinShares 2022年全年综合总收入仅为300万英镑，环比减少97%]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/6p72fqqg.html</id>
