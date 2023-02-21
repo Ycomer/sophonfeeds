@@ -2499,6 +2499,26 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/956vq282.html",
+          "author": null,
+          "description": "“早安不再是GM，而是通用汽车”，本周，社区里开始流传这样的MEME。香港针对加密资产的政策利好使得近期加密货币市场热点不断。本扎根于国内的加密资产相关的项目代币不断上涨，带领其他与此概念沾边的项目代币轮流上涨，使得英文区投资者和加密资产项目方也开始关注相关项目并使用中文区社交软件，海外的KOL甚至还发起了中文推特。部分项目方和机构也发公告称，正在申请香港加密资产相关牌照。其中交易所有Huobi Global 、OKX、Bitget，以及Gate Group信托服务提供者Hippo Financial Services Limited。\n本文PANews将为你详解香港针对加密资产政策制度的始末、香港本土加密项目，以及长期的利好预期。\n2022年10月31日，PANews曾报道香港特别行政区政府新闻公告，香港政府阐明了政府为在香港发展具活力的虚拟资产行业和生态系统而订定的政策立场和方针。其中表明香港对全球从事虚拟资产业务的创新人员抱持开放和兼融的态度。同时，表明将整全监管框架以迎接由全球虚拟资产急速发展所带来的金融创新和科技发展。（推荐阅读：重磅全文！香港发布有关虚拟资产发展的政策宣言）\n并且筹备新虚拟资产服务提供者发牌制度，邀请有关交易所在香港开拓商机，欢迎在香港引入虚拟资产交易所买卖基金（ETF）。而后，2022年12月13日中国财富网报道称，南方东英资产管理有限公司正式推出亚洲首批虚拟资产ETF：南方东英比特币期货ETF（3066.HK）、南方东英以太坊期货ETF（3068.HK），三星比特币期货主动型ETF今年1月在港交所上市。\n2022年12月8日，据雅虎新闻报道，香港财经事务及库务局局长许正宇表示，新制度将于明年6月1日生效，虚拟资产交易平台将与现时传统金融机构一样，须遵守打击洗钱及恐怖分子资金筹集的规定。时隔两个月后，2023年2月16日，一份由推特用户发出的香…",
+          "link": "https://www.panewslab.com/zh/articledetails/956vq282.html",
+          "publishedOn": "2023-02-21T05:43:12.000Z",
+          "wordCount": 1027,
+          "title": "Web3社区都开始说中国话？香港热背后又有哪些本土加密项目？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/21/images/OnzhgZUv5M.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/7jbkyb87.html",
+          "author": null,
+          "description": "PANews 2月21日消息，据官方消息，Neutrino社区成员在治理论坛上发布了一项提案，建议暂时禁用或终止当前的Neutrino治理，直到发布明确的路线图。提案称，当前的Neutrino系统缺乏透明度和方向性，使得利益相关者无法了解其长期目标和战略。如果没有明确的方向，利益相关者就会对项目的未来一无所知，无法做出明智的决定或提供有价值的反馈来改进系统。\n此外，XTN在ViresFinance上被锁定的情况完全不清楚，这在社区内引起了混乱和担忧。这个问题应该公开解决并向社区解释，因为它正在影响做出明智决定的能力。通过在发布明确的路线图之前暂停当前的治理系统，也可以以更加透明和有效的方式处理和解决这个问题。提案还表示，大量利益相关者在最近的治理提案中投了弃权票。这并不是无知或脱离的迹象，而是一个明确的声明，表明许多利益相关者不同意该项目当前的方向。该提案已开启投票，目前支持率为99%，将于2月24日结束。\n此前1月31日消息，Neutrino 2.0简化版白皮书发布，提及USDN将转型为指数代币XTN，将以折扣激励代币发行。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/7jbkyb87.html",
+          "publishedOn": "2023-02-21T05:41:10.000Z",
+          "wordCount": 975,
+          "title": "Neutrino发起“在路线图发布前暂停或终止当前治理”的提案投票",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/i7aksoqu.html",
           "author": null,
           "description": "‍原文：《DAOrayaki ｜Starkware技术架构与生态应用梳理》\n作者：HackerDojo\n简介\nStarkEx 和 StarkNet 均为 StarkWare 团队开发的项目，前者类似 Iaas，类比应用链，StarkWare 帮助大型项目开发专有应用 Rollup；后者则是可部署通用应用的 Rollup。\n截止目前，StarkWare （StarkNet 背后团队）已经完成 6 轮融资，共计 2.73 亿美元。尤其是最近一轮融资金额达到 1 亿美元，使其估值翻了两番，达到 80 亿。作为L2 项目中估值最高的项目，本文特探讨Starkware的技术架构和生态应用。\n\nStarkEx：专有 ZKR 引擎\n简介\n在去年和今年上半年，StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）的商业模式，建立应用专有网络，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。\n整体架构\n\n工作流包括以下四个环节\nSHARP 是一个共享证明者，它同时为多个 StarkEx 客户/应用提供证明生成服务——生成计算完整性声明的证明。\nVerifier 是部署在以太坊上的智能合约，用于验证来自 StarkEx 的交易的正确性。\nStarkEx 应用程序（图中Exchange）是一系列支持可扩展和自我托管交易的应用程序，区分现货交易和杠杆交易。应用包括两个组件，智能合约和后端。\n\n标准流程\n参考链接：Introduction :: StarkEx Documentation\n高级概述\n如下图所示，StarkEx 系统旨在接受来自合作伙伴后端的用户交易。这些交易随后由 StarkEx 系统进行批处理和处理。结合前面智能合约和后端的介绍，整个 StarkEx 处理交易的过程和职责分…",
