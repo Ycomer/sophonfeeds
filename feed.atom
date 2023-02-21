@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T05:21:37.711Z</updated>
+    <updated>2023-02-21T05:28:19.782Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[详解Starkware技术架构与生态应用梳理]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/i7aksoqu.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/i7aksoqu.html"/>
+        <updated>2023-02-21T05:25:51.000Z</updated>
+        <summary type="html"><![CDATA[‍原文：《DAOrayaki ｜Starkware技术架构与生态应用梳理》
+作者：HackerDojo
+简介
+StarkEx 和 StarkNet 均为 StarkWare 团队开发的项目，前者类似 Iaas，类比应用链，StarkWare 帮助大型项目开发专有应用 Rollup；后者则是可部署通用应用的 Rollup。
+截止目前，StarkWare （StarkNet 背后团队）已经完成 6 轮融资，共计 2.73 亿美元。尤其是最近一轮融资金额达到 1 亿美元，使其估值翻了两番，达到 80 亿。作为L2 项目中估值最高的项目，本文特探讨Starkware的技术架构和生态应用。
+
+StarkEx：专有 ZKR 引擎
+简介
+在去年和今年上半年，StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）的商业模式，建立应用专有网络，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。
+整体架构
+
+工作流包括以下四个环节
+SHARP 是一个共享证明者，它同时为多个 StarkEx 客户/应用提供证明生成服务——生成计算完整性声明的证明。
+Verifier 是部署在以太坊上的智能合约，用于验证来自 StarkEx 的交易的正确性。
+StarkEx 应用程序（图中Exchange）是一系列支持可扩展和自我托管交易的应用程序，区分现货交易和杠杆交易。应用包括两个组件，智能合约和后端。
+
+标准流程
+参考链接：Introduction :: StarkEx Documentation
+高级概述
+如下图所示，StarkEx 系统旨在接受来自合作伙伴后端的用户交易。这些交易随后由 StarkEx 系统进行批处理和处理。结合前面智能合约和后端的介绍，整个 StarkEx 处理交易的过程和职责分…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以太坊再质押协议EigenLayer发布V1白皮书，模块列表包括MEV、排序等]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/63dvpus5.html</id>

@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-21 datetime="2023-02-21T05:06:51.000Z">2023-02-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-21 datetime="2023-02-21T05:06:51.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-21 datetime="2023-02-21T05:25:51.000Z">2023-02-21</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-21 datetime="2023-02-21T05:25:51.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,45 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/i7aksoqu.html"
+                        open
+                      >
+                        <summary class="article-expander__title">详解Starkware技术架构与生态应用梳理</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/i7aksoqu.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/21/images/3yegi1Foz6.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>‍原文：《DAOrayaki ｜Starkware技术架构与生态应用梳理》
+作者：HackerDojo
+简介
+StarkEx 和 StarkNet 均为 StarkWare 团队开发的项目，前者类似 Iaas，类比应用链，StarkWare 帮助大型项目开发专有应用 Rollup；后者则是可部署通用应用的 Rollup。
+截止目前，StarkWare （StarkNet 背后团队）已经完成 6 轮融资，共计 2.73 亿美元。尤其是最近一轮融资金额达到 1 亿美元，使其估值翻了两番，达到 80 亿。作为L2 项目中估值最高的项目，本文特探讨Starkware的技术架构和生态应用。
+
+StarkEx：专有 ZKR 引擎
+简介
+在去年和今年上半年，StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）的商业模式，建立应用专有网络，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。
+整体架构
+
+工作流包括以下四个环节
+SHARP 是一个共享证明者，它同时为多个 StarkEx 客户/应用提供证明生成服务——生成计算完整性声明的证明。
+Verifier 是部署在以太坊上的智能合约，用于验证来自 StarkEx 的交易的正确性。
+StarkEx 应用程序（图中Exchange）是一系列支持可扩展和自我托管交易的应用程序，区分现货交易和杠杆交易。应用包括两个组件，智能合约和后端。
+
+标准流程
+参考链接：Introduction :: StarkEx Documentation
+高级概述
+如下图所示，StarkEx 系统旨在接受来自合作伙伴后端的用户交易。这些交易随后由 StarkEx 系统进行批处理和处理。结合前面智能合约和后端的介绍，整个 StarkEx 处理交易的过程和职责分…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -18160,8 +18199,8 @@ Prof.Liu：Bitcoin core 面临艰难选择：选择 1：什么都不做，当年
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4229546931">
-        <time id="build-timestamp" datetime="2023-02-21T05:21:37.670Z">2023-02-21T05:21:37.670Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4229582377">
+        <time id="build-timestamp" datetime="2023-02-21T05:28:19.741Z">2023-02-21T05:28:19.741Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
