@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/anthonyonchain/status/1627408947203411969",
+          "author": null,
+          "description": "<h3>开发者将比特币 Ordinals 代码分叉至 Litecoin</h3>\n<p>澳大利亚开发者 Anthony Gurrera 将比特币 Ordinals 代码分叉至 Litecoin，并将 Mimblewimble 升级白皮书副本铸造为首个 Litecoin NFT 铭文。Guerrera 表示，在 Litecoin 上发布 NFT 的成本仅为 2 美分。</p>\n<p><a href=\"https://twitter.com/anthonyonchain/status/1627408947203411969\">内容来源</a></p><hr>",
+          "link": "https://twitter.com/anthonyonchain/status/1627408947203411969",
+          "publishedOn": "2023-02-21T12:45:37.000Z",
+          "wordCount": 498,
+          "title": "开发者将比特币 Ordinals 代码分叉至 Litecoin",
+          "imageUrl": null
+        },
+        {
           "id": "https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>NFT 安全事件频发，个人用户如何保证资产安全？浏览器交互作为 90% 的 NFT 用户最常用的操作方式，也是最容易出现问题的环境。慢雾从基本信息层、NFT 实时钓鱼检测层、基本操作层测试了当前市面上的 9 个防钓鱼浏览器插件，并给出了操作建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA\">https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA</a></p>\n<p><strong>文章作者：</strong></p><p>慢雾安全团队</p><hr><h3>观点：</h3><p><strong>慢雾安全团队：</strong>推荐一个使用组合 （不构成任何建议）：1、Rabby wallet + Scam Sniffer；2、Rabby wallet + Pocket Universe；3、MetaMask+ Pocket Universe；4、MetaMask+ Revoke.cash。</p><a href=\"https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA\">内容来源</a><p><strong>慢雾安全团队：</strong>我们发现在第一步（用户打开钓鱼网站）的识别上多数安全插件都做得不够好，只有 Scam Sniffer 识别到了这个 3 小时时差的最新 NFT 钓鱼网站，在第二步（用户连接钓鱼网站）开始 eth_sign、personal_sign 签名等危险操作时，Pocket Universe、Revoke.cash、Wallet Guard  均做出了安全风险识别等提醒。</p><a href=\"https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA\">内容来源</a>",
