@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T04:29:38.641Z</updated>
+    <updated>2023-02-21T04:37:44.770Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】观点：如何评估 Solidly 类项目]]></title>
+        <id>https://twitter.com/korpi87/status/1627782481666621444</id>
+        <link href="https://twitter.com/korpi87/status/1627782481666621444"/>
+        <updated>2023-02-21T04:30:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>近期，Fork 自 Solidly 的项目 SolidLizard 引起市场的大量关注，3 个月不到 TVL 突破 8000 万美元，且一度传出 a16z 锁仓 200 万美元的消息。推特 KOL korpi 对此发表观点，并探讨如何客观评估 Solidly 类项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/korpi87/status/1627782481666621444">https://twitter.com/korpi87/status/1627782481666621444</a></p>
+<p><strong>文章作者：</strong></p><p>korpi</p><hr><h3>观点：</h3><p><strong>korpi：</strong>TVL 只是一个虚荣的指标，如果没有可持续性，它将没有任何意义。 a16z 正在向很多协议存入资金，这是因为它们会提供高 APR。当新的 fork 出现且 APR 更高时，资金将会转移到那里。因此，锁仓并不意味看涨，相反，在持续抛压作用下，可能是一个看跌信号。【原文为英文】</p><a href="https://twitter.com/korpi87/status/1627782481666621444">内容来源</a><p><strong>korpi：</strong>Solidly 的模型具有高度通货膨胀性，除非通过锁定流动性来缓解通胀，否则它最终会扼杀价格。那么为什么会有人想要锁定代币（几乎永远）呢？答案是为了从「被动收入」中获利。被动收入需要合作项目。锁定者在池中投票，并获得交易费和贿赂，贿赂通常来自希望在 DEX 上获得流动性的项目。如果没有合作的项目和他们的贿赂，就没有什么动力去锁定。【原文为英文】</p><a href="https://twitter.com/korpi87/status/1627782481666621444">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一览NFTFi产业图谱：除了Blur外，还有哪些项目值得关注？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/qtr816oi.html</id>
@@ -33,6 +45,18 @@ Punk、Azuki、Doodles等图片、头像类NFT，以及纯粹的艺术画作类N
 在对概念进行理解和论述后，我们也需要…]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Starkware 技术架构与生态应用梳理]]></title>
+        <id>https://community.dorahacks.io/t/starkware/272</id>
+        <link href="https://community.dorahacks.io/t/starkware/272"/>
+        <updated>2023-02-21T03:46:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>截止目前，StarkWare 已完成 6 轮共计 2.73 亿美元融资，最近一轮融资金额达 1 亿美元，使其估值翻了两番，至 80 亿美元，是所有 L2 项目中估值最高的。本文研究项目由 Web3 开源知识社区 HackerDojo 资助，Maxlion 创作，主要探讨 Starkware 的技术架构和生态应用。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://community.dorahacks.io/t/starkware/272">https://community.dorahacks.io/t/starkware/272</a></p>
+<p><strong>文章作者：</strong></p><p>Maxlion</p><hr><h3>观点：</h3><p><strong>Maxlion：</strong>StarkWare 通过提供扩容技术解决方案 StarkEx 创立了扩容即服务（scaling as a service）商业模式，服务业内头部客户 dYdX 、Sorare、ImmutableX、DeversiFi 等。其工作流包括打包交易、确认交易和更新状态、为交易生成证明以及链上验证证明四个环节。StarkEx 应用程序是一系列支持可扩展和自我托管交易的应用程序，包括智能合约和后端两个组件，系统接受来自合作伙伴后端的用户交易，随后进行批处理和处理。</p><a href="https://community.dorahacks.io/t/starkware/272">内容来源</a><p><strong>Maxlion：</strong>StarkNet 是一个通用 ZK Rollup，链下执行计算并生成 ZK 证明，然后链上验证，最后把多个 L2 交易打包为以太坊上的一笔交易，具有更高 TPS 和更低 Gas。StarkNet 网络本身不兼容 EVM ，但设计了 ZK 友好的 Cairo VM，可以通过其他方式兼容以太坊。StarkNet 由五组成部分，分别是 StarkNet 上的 Prover（证明者），Sequencer（排序器）和全节点；以及以太坊上的验证者（Verifier）和核心状态合约（StarkNet Core）。不同于以太坊 EOA+CA 的双账户设计，StarkNet 实现了原生账户抽象，为账户可编程打开大门，其开发倡导者 David Barreto 也曾提到在 StarkNet 上实现手机硬钱包的思路。</p><a href="https://community.dorahacks.io/t/starkware/272">内容来源</a><p><strong>Maxlion：</strong>STARK 不需要和 SNARK 一样依赖「可信设置」，且带有更简单的密码学假设，避免了对椭圆曲线、配对和指数知识假设的需要，纯粹依赖哈希和信息论，因此抗量子攻击。STARK 的证明生成速度具备线性扩展性，验证时间和证明大小具备对数扩展性，缺点在于生成的证明尺寸更大，适合大规模应用。但随着证明规模增加，STARK 的验证成本会边际递减，这意味证明越大，总成本越低。总体来讲，STARK 比 SNARK 更安全，扩展性更强。</p><a href="https://community.dorahacks.io/t/starkware/272">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
