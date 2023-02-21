@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/muneeb/status/1627495604480884738",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Stacks 是支持智能合约的比特币 L2，Stacks 利用一个单独的分类账来存储比特币 L1 以外的数据，使得开发人员可以在这之上构建任何应用程序。Stacks 联合创始人 muneeb 解释了 Stacks 的技术实现以及与闪电网络的区别，并盘点了 Stacks 生态的发展现状。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/muneeb/status/1627495604480884738\">https://twitter.com/muneeb/status/1627495604480884738</a></p>\n<p><strong>文章作者：</strong></p><p>muneeb（Stacks 联合创始人）</p><hr><h3>观点：</h3><p><strong>muneeb（Stacks 联合创始人）：</strong>2021 年发布的 Stacks 初始版本包括：1. 安全编程语言 Clarity；2. 读取比特币状态的能力；3. 与 BTC 和任何 L2 资产的原子交换。今年晚些时候推出的新版本将增加：1.BTC 锚定资产 sBTC，方便资金进出；2. 安全升级，最终性需要 100% 的算力决定；3. 更快的速度，不再受 10 分钟出块时间的限制。【原文为英文】</p><a href=\"https://twitter.com/muneeb/status/1627495604480884738\">内容来源</a><p><strong>muneeb（Stacks 联合创始人）：</strong>Stacks 与闪电网络的区别？闪电网络是一个用于支付的 P2P 网络，Stacks 则侧重智能合约。STX 代币的效用？对矿工的激励和对 sBTC 签名者的激励。【原文为英文】</p><a href=\"https://twitter.com/muneeb/status/1627495604480884738\">内容来源</a><p><strong>muneeb（Stacks 联合创始人）：</strong>Stacks 上的 NFT：Stacks L2 上已经铸造了 65 万个比特币 NFT，所有这些 NFT 都自动哈希到比特币 L1；Stacks 生态 Xverse 和 Hiro 钱包现已支持 Ordinals NFT。Stacks 上的 DeFi：Stacks 合约中锁定了 2.5 亿美元，共计分发 2200 BTC 奖励。代表项目有 ALEX 和 Arkadiko 协议。【原文为英文】</p><a href=\"https://twitter.com/muneeb/status/1627495604480884738\">内容来源</a>",
+          "link": "https://twitter.com/muneeb/status/1627495604480884738",
+          "publishedOn": "2023-02-21T07:46:14.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】Stacks 如何将智能合约引入比特币：技术实现、发展规划和生态盘点",
+          "imageUrl": null
+        },
+        {
           "id": "https://mp.weixin.qq.com/s/rPJxyns5IqEKycsWsAl7Aw",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>IOSG Ventures 成员 Sally 首先从理论框架层面对 NFTFi 的概念和产业进行解构分层，而后基于此针对当前 NFTFi 赛道上仍在运营的 152 个项目绘制赛道图谱并进行细分研究。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/rPJxyns5IqEKycsWsAl7Aw\">https://mp.weixin.qq.com/s/rPJxyns5IqEKycsWsAl7Aw</a></p>\n<p><strong>文章作者：</strong></p><p>Sally G.</p><hr><h3>观点：</h3><p><strong>Sally G.：</strong>随着 NFT 市场逐渐回暖，交易市场对用户的争夺逐渐发展到白热化阶段。截至目前，新兴崛起的 NFT 聚合器项目 Blur 交易量已稳超 Opensea。与此同时，以 BendDAO 为代表的 NFT 借贷协议 TVL 正不断创下新高。另一方面，NFTFi 赛道中的其他龙头项目如 X2Y2、NFT.Fi、JPEG’d 等也自去年年末开始在宏观的借贷交易量上出现大幅跃升。这也许预示着，自去年夏季以来备受瞩目但尚未爆发的 NFTFi 赛道即将迎来一波真正的系统性机会。</p><a href=\"https://mp.weixin.qq.com/s/rPJxyns5IqEKycsWsAl7Aw\">内容来源</a><p><strong>Sally G.：</strong>我们更倾向于将  NFTFi 版图由上至下切分为三层：1）Marketplace、Aggregator、AMM 等提供 NFT 与 FT 兑换的直接交易层；2）lending、renting、crowdfunding 等提供 NFT 托管和抵押融资的间接交易层；3）options、futures、indexing fund 等推高交易风险和杠杆的金融衍生层。</p><a href=\"https://mp.weixin.qq.com/s/rPJxyns5IqEKycsWsAl7Aw\">内容来源</a><p><strong>Sally G.：</strong>从直接交易到间接交易再到金融衍生，这三个层面的演进也正是 NFT 从商品化，到金融化，再到证券化，一步一步金融深化（financial deepening）的体现。我们相信，兼具合理的定价机制、流畅的用户体验和可持续的交易模型的 NFT 流动性解决方案会最终引领 NFTFi 完整产业结构的不断夯实直至腾飞。</p><a href=\"https://mp.weixin.qq.com/s/rPJxyns5IqEKycsWsAl7Aw\">内容来源</a>",
@@ -2508,6 +2518,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/6p72fqqg.html",
+          "author": null,
+          "description": "PANews 2月21日消息，加密资产管理公司CoinShares发布2022年第四季度财报，该公司2022年第四季度收入为880万英镑，较2021年同期的2570万英镑减少65%，2022年全年收入为5150万英镑，较2021年同期的8080万英镑减少36%；2022年第四季度的总综合收入为-3700万英镑，2022年全年综合总收入为300万英镑，较2021年同期的1.134亿英镑减少97%。\n截至2022年12月31日，集团的管理资产总额为14.4亿英镑（约合17.31亿美元），其中10亿英镑在资产负债表上与XBT Provider和CoinShares Digital Securities Limited发行的集团ETP相关。剩余的4.4亿英镑归因于BLOCK指数，该指数未包含在资产负债表中。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/6p72fqqg.html",
+          "publishedOn": "2023-02-21T08:31:53.000Z",
+          "wordCount": 986,
+          "title": "CoinShares 2022年全年综合总收入仅为300万英镑，环比减少97%",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/hbb0dojg.html",
           "author": null,

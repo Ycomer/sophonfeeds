@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T08:27:30.823Z</updated>
+    <updated>2023-02-21T08:36:24.055Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CoinShares 2022年全年综合总收入仅为300万英镑，环比减少97%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/6p72fqqg.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/6p72fqqg.html"/>
+        <updated>2023-02-21T08:31:53.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月21日消息，加密资产管理公司CoinShares发布2022年第四季度财报，该公司2022年第四季度收入为880万英镑，较2021年同期的2570万英镑减少65%，2022年全年收入为5150万英镑，较2021年同期的8080万英镑减少36%；2022年第四季度的总综合收入为-3700万英镑，2022年全年综合总收入为300万英镑，较2021年同期的1.134亿英镑减少97%。
+截至2022年12月31日，集团的管理资产总额为14.4亿英镑（约合17.31亿美元），其中10亿英镑在资产负债表上与XBT Provider和CoinShares Digital Securities Limited发行的集团ETP相关。剩余的4.4亿英镑归因于BLOCK指数，该指数未包含在资产负债表中。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Stacks 如何将智能合约引入比特币：技术实现、发展规划和生态盘点]]></title>
+        <id>https://twitter.com/muneeb/status/1627495604480884738</id>
+        <link href="https://twitter.com/muneeb/status/1627495604480884738"/>
+        <updated>2023-02-21T07:46:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Stacks 是支持智能合约的比特币 L2，Stacks 利用一个单独的分类账来存储比特币 L1 以外的数据，使得开发人员可以在这之上构建任何应用程序。Stacks 联合创始人 muneeb 解释了 Stacks 的技术实现以及与闪电网络的区别，并盘点了 Stacks 生态的发展现状。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/muneeb/status/1627495604480884738">https://twitter.com/muneeb/status/1627495604480884738</a></p>
+<p><strong>文章作者：</strong></p><p>muneeb（Stacks 联合创始人）</p><hr><h3>观点：</h3><p><strong>muneeb（Stacks 联合创始人）：</strong>2021 年发布的 Stacks 初始版本包括：1. 安全编程语言 Clarity；2. 读取比特币状态的能力；3. 与 BTC 和任何 L2 资产的原子交换。今年晚些时候推出的新版本将增加：1.BTC 锚定资产 sBTC，方便资金进出；2. 安全升级，最终性需要 100% 的算力决定；3. 更快的速度，不再受 10 分钟出块时间的限制。【原文为英文】</p><a href="https://twitter.com/muneeb/status/1627495604480884738">内容来源</a><p><strong>muneeb（Stacks 联合创始人）：</strong>Stacks 与闪电网络的区别？闪电网络是一个用于支付的 P2P 网络，Stacks 则侧重智能合约。STX 代币的效用？对矿工的激励和对 sBTC 签名者的激励。【原文为英文】</p><a href="https://twitter.com/muneeb/status/1627495604480884738">内容来源</a><p><strong>muneeb（Stacks 联合创始人）：</strong>Stacks 上的 NFT：Stacks L2 上已经铸造了 65 万个比特币 NFT，所有这些 NFT 都自动哈希到比特币 L1；Stacks 生态 Xverse 和 Hiro 钱包现已支持 Ordinals NFT。Stacks 上的 DeFi：Stacks 合约中锁定了 2.5 亿美元，共计分发 2200 BTC 奖励。代表项目有 ALEX 和 Arkadiko 协议。【原文为英文】</p><a href="https://twitter.com/muneeb/status/1627495604480884738">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[打不过就加入？OpenSea为应对“Blur挑战”，首次向Traders低头]]></title>
         <id>https://www.panewslab.com/zh/articledetails/hbb0dojg.html</id>
