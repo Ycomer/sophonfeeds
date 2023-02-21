@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T06:55:41.675Z</updated>
+    <updated>2023-02-21T07:02:51.300Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hope Finance项目发生Rug Pull，诈骗者将186万美元ETH转至Tornado Cash]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/i113x1m6.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/i113x1m6.html"/>
+        <updated>2023-02-21T06:56:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月21日消息，据AegisWeb3监测，Hope Finance项目发生Rug Pull，诈骗者已通过Celer和Uniswap将ETH转移到以太坊区块链，并使用3个地址将1095枚ETH（约合186万美元）转移到Tornado Cash。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解读Cosmos首个流动性质押解决方案pSTAKE：通过ATOM质押凭证为Cosmos DeFi全生态赋能]]></title>
         <id>https://www.panewslab.com/zh/articledetails/09edxk40.html</id>
