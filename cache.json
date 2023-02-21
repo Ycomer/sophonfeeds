@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>NFT 安全事件频发，个人用户如何保证资产安全？浏览器交互作为 90% 的 NFT 用户最常用的操作方式，也是最容易出现问题的环境。慢雾从基本信息层、NFT 实时钓鱼检测层、基本操作层测试了当前市面上的 9 个防钓鱼浏览器插件，并给出了操作建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA\">https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA</a></p>\n<p><strong>文章作者：</strong></p><p>慢雾安全团队</p><hr><h3>观点：</h3><p><strong>慢雾安全团队：</strong>推荐一个使用组合 （不构成任何建议）：1、Rabby wallet + Scam Sniffer；2、Rabby wallet + Pocket Universe；3、MetaMask+ Pocket Universe；4、MetaMask+ Revoke.cash。</p><a href=\"https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA\">内容来源</a><p><strong>慢雾安全团队：</strong>我们发现在第一步（用户打开钓鱼网站）的识别上多数安全插件都做得不够好，只有 Scam Sniffer 识别到了这个 3 小时时差的最新 NFT 钓鱼网站，在第二步（用户连接钓鱼网站）开始 eth_sign、personal_sign 签名等危险操作时，Pocket Universe、Revoke.cash、Wallet Guard  均做出了安全风险识别等提醒。</p><a href=\"https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/HPe1WNUH6_-T_nAAK-8krA",
+          "publishedOn": "2023-02-21T11:46:41.000Z",
+          "wordCount": 10139,
+          "title": "NFT 防钓鱼指北：如何选择一款防钓鱼插件",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/qsQ2ibEw5pLZpQyzJH18kdyaGht1Ficv3qHwXUDbibAqHWib4BRrjnI76O9Xm9tyj5PGhHbsDXicnbznCygBKw4wiadQ/0?wx_fmt=jpeg"
+        },
+        {
           "id": "https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化协议拥有更高的抗审查性和隐私性，以及更强大的数据安全性和可靠性。Bing Ventures 研究员 Kyle 分析了去中心化社交协议赛道的三个典型产品：Nostr、Farcaster 和 Subsocial，聚焦于它们的核心架构和生态前景。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs\">https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs</a></p>\n<p><strong>文章作者：</strong></p><p>Bing Ventures</p><hr><h3>观点：</h3><p><strong>Bing Ventures：</strong>抗审查性出色：目前去中心化社交协议中抗审查性最高的仍然是 Nostr，它的抗审查能力体现在客户端可以同时使用多个中继器，而且中继器可以不断更换。这可能是去中心化社交协议层的最大价值，完全基于「公钥 + 私钥」去实现自我主权的价值流通。鉴于目前中继器数量仍然很少且存在一定的搭建门槛，Nostr 可以考虑以下几种激励中继器的方案：基于付费模型、基于抵押模型和基于挖矿模型。</p><a href=\"https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs\">内容来源</a><p><strong>Bing Ventures：</strong>背靠以太坊的网络效应：Farcaster 采用了以太坊上的智能合约技术来实现社交媒体应用的各种功能。其社交媒体应用的数据和功能都是由智能合约运行，不受单个中心化实体的控制。由于 Farcaster 仍然处于早期开发阶段且受到以太坊可扩展性的制约，因此潜力很大，但总体抗审查性仍然低于 Nostr 协议。</p><a href=\"https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs\">内容来源</a><p><strong>Bing Ventures：</strong>互操作性的未来：Subsocial 这类基于 Polkadot 和 IPFS 构建的去中心化社交协议提供了高度可扩展性和抗审查性。Subsocial 在其链层面不进行内容审查和屏蔽，但是每个社区可以设定自己的内容审查规则并进行审核。Subsocial 同样面临着较高的开发门槛和使用门槛，不过随着 Polkadot 的跨链功能的完善以及 Filecoin 引入 FVM，情况将得到很大的改善。</p><a href=\"https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs\">内容来源</a>",
@@ -2588,6 +2598,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/qapih9hi.html",
+          "author": null,
+          "description": "NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！\nPANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
+          "link": "https://www.panewslab.com/zh/articledetails/qapih9hi.html",
+          "publishedOn": "2023-02-21T12:30:50.000Z",
+          "wordCount": 998,
+          "title": "PA图说 | 一图掌握以太坊上NFT关键数据（2023.02.21）",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/21/images/014i4lhjWv.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/ssx93bcw.html",
           "author": null,
