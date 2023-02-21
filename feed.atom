@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T09:28:40.864Z</updated>
+    <updated>2023-02-21T09:35:00.977Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】EIP4844 重大改进：释放 Blobs]]></title>
+        <id>https://twitter.com/jcksie/status/1627621642443554817</id>
+        <link href="https://twitter.com/jcksie/status/1627621642443554817"/>
+        <updated>2023-02-21T09:29:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>释放 Blobs 是 EIP4844 的重大改进，模拟显示块传播延迟减少了 50%。加密货币 KOL Jacek Sieka 对其工作原理进行了解释。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/jcksie/status/1627621642443554817">https://twitter.com/jcksie/status/1627621642443554817</a></p>
+<p><strong>文章作者：</strong></p><p>Jacek Sieka</p><hr><h3>观点：</h3><p><strong>Jacek Sieka：</strong>改进本身很简单，我们不再发送一大块数据，而是将其分割成多个部分。正如 PR 所宣称的那样，这个改进在 4 个方面有所帮助，其中第一个方面我们今天要介绍的是：平行网格传播。为了理解这一点，首先需要了解共识客户端的通信方式。【原文为英文】</p><a href="https://twitter.com/jcksie/status/1627621642443554817">内容来源</a><p><strong>Jacek Sieka：</strong>默认情况下，每个客户端连接到许多节点，在这些节点中，我们通过订阅区块 gossip 话题来建立对区块数据的共同兴趣。在这些订阅者中，我们挑选 6-12 个节点纳入所谓的网格。这些网格是我们积极沟通的节点：当收到一个块时，我们对其进行验证，并将其转发给我们网格的对等体。不过要注意的是，网格最多只能连接 12 个对等体，而一个节点可能会连接多个对等体。【原文为英文】</p><a href="https://twitter.com/jcksie/status/1627621642443554817">内容来源</a><p><strong>Jacek Sieka：</strong>因此，释放 Blobs 有助于减少传播延迟的第一种方式：不将所有数据发送到一个网格，而是为 Blobs 和块使用 5 个 gossip 主题 -- 这意味着我们不是与 12 个对等体交谈，而是在带宽允许的情况下，使用多达 60 个对等体并行传输数据。另外，由于对等体集通常是不相连的，这也意味着各种数据在网络中沿着不同的路径传播。【原文为英文】</p><a href="https://twitter.com/jcksie/status/1627621642443554817">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解析链上游戏：链上复杂应用的未来]]></title>
+        <id>https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI</id>
+        <link href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI"/>
+        <updated>2023-02-21T09:25:52.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>链上游戏是指以合约的方式存在于区块链之中的游戏，区别于仅仅将游戏内资产铸造为代币的 GameFi 这类不完全链上游戏，链上游戏的状态存储、逻辑执行也在链上，因此它也具有去中心化、无需许可、可组合的特性。StarkNet Astro 作者 Maxlion 从值得关注的原因、现状、类别、引擎的现状等方面解析了链上游戏，认为 Starknet 是链上游戏最重要的生态。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI">https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI</a></p>
+<p><strong>文章作者：</strong></p><p>StarkNet Astro</p><hr><h3>观点：</h3><p><strong>StarkNet Astro：</strong>为什么需要关注链上游戏？1）在区块链基建创新的背景下，链上游戏可能是下一代杀手级应用的雏形。2）链上用户增长面临瓶颈，期望链上游戏可以为区块链可持续地带来更多活跃用户。3）随着区块链扩容提速，区块链的 4G 时代将推动链上复杂应用的创新。新公链、zkEVM/VM、模块化所具备的账户抽象、资产管理、并行处理和 ZK 特性，为低单位收益、高 TPS 的链上复杂应用奠定了基础。</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI">内容来源</a><p><strong>StarkNet Astro：</strong>链上游戏的现状如何？1）目前链上游戏处于探索产品形态和验证市场的早期阶段。至今还没有一个可称成熟的链上游戏诞生，大多数链上游戏的可玩性、完成度不尽人意。2）链上游戏相比传统游戏和 GameFi 仍有创新，如 Dark Forest、Isaac、Treaty 等链上游戏具有去中心、可组合、链上协作、合约化互动的特点。</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI">内容来源</a><p><strong>StarkNet Astro：</strong>为什么 Starknet 是链上游戏军火库？1）在性能方面，Starknet 理论上能达到 9000TPS，其 STARK 证明系统能够将 6000 万笔 L2 交易合并为以太坊上的一笔交易，Gas 有望低至 0.001 U。且 STARK 存在网络效应，交易成本会随着交易量的增加而减少，因此 Starknet 适合庞大用量的链上游戏。2）Starknet 原生账户抽象，合约钱包相比传统钱包更能适应链上游戏交互场景。3）Starknet 重视原生应用孵化。其开发团队 StarkWare 与 MatchBox、Only Dust、Volt Capital、Mask Network 等合作伙伴举办了多轮黑客松，孵化了大量链上游戏生态。</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/u2C45z_TXaA00Cyk5q1_6XVrtG3t-NyKohM5hy8JyvI">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解读香港证监会咨询文件：该如何监管虚拟资产交易？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/ze76rwhn.html</id>
@@ -22,6 +46,42 @@
 进入正题，此次公众咨询主要是为了讨论：是否应准许持牌平台营运者向零售投资…]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Ordinal Punks 能否为 BTC 开启新篇章？]]></title>
+        <id>https://twitter.com/alphanoncestaff/status/1627211264475934720</id>
+        <link href="https://twitter.com/alphanoncestaff/status/1627211264475934720"/>
+        <updated>2023-02-21T09:13:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Ordinal Punks 在颠覆最初的 ETH CryptoPunks 时引起了轰动。加密货币 KOL alphanonce  Intern 从背景、Ordinal BTC NFT 介绍、争议等方面对在 BTC 上存储图像等媒体文件产生的蝴蝶效应展开讨论。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/alphanoncestaff/status/1627211264475934720">https://twitter.com/alphanoncestaff/status/1627211264475934720</a></p>
+<p><strong>文章作者：</strong></p><p>alphanonce Intern</p><hr><h3>观点：</h3><p><strong>alphanonce Intern：</strong>背景：自 2014 年以来，BTC 已经取得了长足的进步。当时，每个区块中只能存储少量数据（80 字节）。但是今天，由于 2017 年的 SegWit 升级和 2021 年的 Taproot 升级，区块最多可以存储 4 MB 的数据。通过这两次升级，创造了一个可以在区块链上存储更大数据的环境。Ordinal 可以看作是使用该环境而生的。【原文为英文】</p><a href="https://twitter.com/alphanoncestaff/status/1627211264475934720">内容来源</a><p><strong>alphanonce Intern：</strong>Ordinal BTC NFT 是什么：每个铭文都按顺序发生，因此得名「Ordinals」。Ordinals NFT 不是被「铸造」，而是被项目创始人「铭刻」。因此，当提到铸造一个 Ordinals NFT 时，通常意味着从创始人那里购买一个已经铭刻的 NFT。Ordinal punks 是一个在比特币区块链上有 100 个供应量的 PFP 收藏品，并且是在前 650 个铭文中铸造的。【原文为英文】</p><a href="https://twitter.com/alphanoncestaff/status/1627211264475934720">内容来源</a><p><strong>alphanonce Intern：</strong>争议：Ordinal Punks 的推出在社区引发了激烈的争论，一些 BitMaxis 认为 BTC 应该仅限于金融交易。最大的原因是，如果比特币区块的存储空间被图像文件大量占用，那么它将损害 Satoshi 实现点对点金融交易的愿景。然而，其他人认为 Ordinal NFT 的流行是一种积极的催化剂，将推动区块链的进一步发展。 同时 Oridnal 协议是否会导致比特币 NFT 硬分叉也有待回答。【原文为英文】</p><a href="https://twitter.com/alphanoncestaff/status/1627211264475934720">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phi ：可视化链上身份协议]]></title>
+        <id>https://twitter.com/0xraiden/status/1627721764171309056</id>
+        <link href="https://twitter.com/0xraiden/status/1627721764171309056"/>
+        <updated>2023-02-21T09:04:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 社交游戏平台 Phi 允许用户基于 ENS 域名和钱包活动构建属于自己的元宇宙，实现可视化链上身份，最近筹集了 200 万美元的种子轮融资。加密货币 KOL Raiden 从产品功能、团队成员和近期计划等方面对该项目进行介绍。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xraiden/status/1627721764171309056">https://twitter.com/0xraiden/status/1627721764171309056</a></p>
+<p><strong>文章作者：</strong></p><p>Raiden</p><hr><h3>观点：</h3><p><strong>Raiden：</strong>1）通过 Phi Quests 发现探索新协议：包括限时活动和特殊主题活动等，用户可以通过与 web3 协议交互并完成任务赚取数字收藏品和 XP。2）参与 Yasai Lens Festival：完成任务后可获得 Lens 的特别合作收藏品。3）建设自己的链上土地，炫耀个人成就：拥有 ENS 域名可获得免费土地，根据链上活动收集独特物品，可将其放置在土地上或在二级市场出售。土地可以互相连接或与 web3 网站连接，且设立积分排行榜。【原文为英文】</p><a href="https://twitter.com/0xraiden/status/1627721764171309056">内容来源</a><p><strong>Raiden：</strong>Phi 可以帮助有经验的用户找到新协议并与之交互，同时允许用户灵活使用最稀有的收藏品。Phi 的使命是「通过 web3 生态系统的可视化和游戏化，让下一个百万级的用户加入去中心化世界」。接下来团队将改进 UI/UX，添加新的社交 / 游戏功能并扩大与更多协议的合作。【原文为英文】</p><a href="https://twitter.com/0xraiden/status/1627721764171309056">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Scroll 联创谈 zkEVM 开发：有哪些经验总结？]]></title>
+        <id>https://twitter.com/yezhang1998/status/1627713360967139329</id>
+        <link href="https://twitter.com/yezhang1998/status/1627713360967139329"/>
+        <updated>2023-02-21T08:49:35.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Scroll 联合创始人 Ye Zhang 发文回顾 Scroll 创建以来构建 zkEVM 的经验与体会，主要包括以下四点：社区驱动、重视协议安全、去中心化目标以及与以太坊开发相辅相成。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/yezhang1998/status/1627713360967139329">https://twitter.com/yezhang1998/status/1627713360967139329</a></p>
+<p><strong>文章作者：</strong></p><p>Ye Zhang（Scroll 联合创始人）</p><hr><h3>观点：</h3><p><strong>Ye Zhang（Scroll 联合创始人）：</strong>1. 完全社区驱动开发。「社区驱动的开发」不仅仅意味着开源，它应该通过有多少外部贡献者，以及项目是如何随着时间的推移而发展来衡量的。2. 重视安全并确保稳定发布。安全不仅仅是通过审计，而是让一个团队全职关注代码安全。【原文为英文】</p><a href="https://twitter.com/yezhang1998/status/1627713360967139329">内容来源</a><p><strong>Ye Zhang（Scroll 联合创始人）：</strong>3. 去中心化在每一层都很重要。我们正在技术堆栈、开发过程、生态系统、社区和社会多样性中追求去中心化。4. 不仅要建设 Scroll ，还要建设以太坊。项目开发要与以太坊「构建一个以太坊等效的 zkEVM」的目标保持一致。【原文为英文】</p><a href="https://twitter.com/yezhang1998/status/1627713360967139329">内容来源</a><p><strong>Ye Zhang（Scroll 联合创始人）：</strong>Scroll 实现以太坊等效的 zkEVM 的路径：实现一个字节码级别的兼容的 zkEVM，有一个健全的 zk 证明；提出协调第 1 层和 zkEVM 发展的倡议；达成社区标准并提出 EIP，推动以太坊迈向「Endgame」。【原文为英文】</p><a href="https://twitter.com/yezhang1998/status/1627713360967139329">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
