@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-21T11:30:43.628Z</updated>
+    <updated>2023-02-21T11:36:58.133Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -15,6 +15,18 @@
 Hive Blockchain表示，虽然该季度调整后的EBITDA1为150万美元，但由于按市值计算的会计惯例，截至2022年12月31日的季度净亏损为9000万美元，即每股亏损1.09美元，而2021年同期的利润为5120万美元，即每股收益为0.66美元。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读去中心化社交协议的「抗审查性」：Nostr、Farcaster 和 Subsocial]]></title>
+        <id>https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs</id>
+        <link href="https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs"/>
+        <updated>2023-02-21T10:39:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>去中心化协议拥有更高的抗审查性和隐私性，以及更强大的数据安全性和可靠性。Bing Ventures 研究员 Kyle 分析了去中心化社交协议赛道的三个典型产品：Nostr、Farcaster 和 Subsocial，聚焦于它们的核心架构和生态前景。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs">https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs</a></p>
+<p><strong>文章作者：</strong></p><p>Bing Ventures</p><hr><h3>观点：</h3><p><strong>Bing Ventures：</strong>抗审查性出色：目前去中心化社交协议中抗审查性最高的仍然是 Nostr，它的抗审查能力体现在客户端可以同时使用多个中继器，而且中继器可以不断更换。这可能是去中心化社交协议层的最大价值，完全基于「公钥 + 私钥」去实现自我主权的价值流通。鉴于目前中继器数量仍然很少且存在一定的搭建门槛，Nostr 可以考虑以下几种激励中继器的方案：基于付费模型、基于抵押模型和基于挖矿模型。</p><a href="https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs">内容来源</a><p><strong>Bing Ventures：</strong>背靠以太坊的网络效应：Farcaster 采用了以太坊上的智能合约技术来实现社交媒体应用的各种功能。其社交媒体应用的数据和功能都是由智能合约运行，不受单个中心化实体的控制。由于 Farcaster 仍然处于早期开发阶段且受到以太坊可扩展性的制约，因此潜力很大，但总体抗审查性仍然低于 Nostr 协议。</p><a href="https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs">内容来源</a><p><strong>Bing Ventures：</strong>互操作性的未来：Subsocial 这类基于 Polkadot 和 IPFS 构建的去中心化社交协议提供了高度可扩展性和抗审查性。Subsocial 在其链层面不进行内容审查和屏蔽，但是每个社区可以设定自己的内容审查规则并进行审核。Subsocial 同样面临着较高的开发门槛和使用门槛，不过随着 Polkadot 的跨链功能的完善以及 Filecoin 引入 FVM，情况将得到很大的改善。</p><a href="https://mirror.xyz/0x867A3f354c0eCB6622aEf1bF14C3BE79338AD889/e0pZp3rlkFVLLsl95eVvcqHi3maMTE-FWT2LKQmB1Xs">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
