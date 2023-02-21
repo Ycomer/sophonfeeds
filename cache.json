@@ -2579,6 +2579,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/06hgoj6g.html",
+          "author": null,
+          "description": "原文：《ETH 链上数据回暖，Staking 监管利好去中心化质押》\n作者：Ebunker\n\nETH 链上数据继续回暖\n\n自以太坊大合并（Merge）以来，ETH 总量非但没有增加，反而通过燃烧减少了 23,700 多枚，目前年通胀率为 -0.053%。\n\n近 30 天的 ETH 销毁贡献应用除了常规的 DEX、ETH 转账、稳定币、钱包之外，NFT 应用也在 Blu.io 的带动下开始活跃起来。自 2020 年 11 月以来，以太坊的 Defi 市场占比从约 96％降至约 60％。\nNTF 方面，Polygon 和 Solana 长期来看已经成为以太坊的两个潜在竞争者。Polygon 正在努力将迪士尼和 Meta 等 Web2 巨头吸引到 NFT 领域，而 Solana 在 FTX 事件后正在缓慢恢复，正在欢迎新用户和艺术家尝试 NFT。当然，以太坊区块链仍然是绝大多数 NFT 高级藏品的最佳选择。\n\n从 gas 费用的角度来看，去年整个下半年都处于低迷状态，而最近 gas 费用出现小幅上涨，表明链上活跃度开始有所起色。\n\n据加密分析公司 Santiment 的数据，储存在交易所的 ETH 数量继续下降。自 2022 年 9 月份以太坊合并以来，所有交易所的 ETH 数量减少了 37％。交易所的供应持续下降通常被认为是看涨的标志。\n\n最近，链上数据分析网站 Lookonchain 指出，在过去一周中，机构一直在买入 BTC 和 ETH。\n\n自 2 月 10 日以来，多个基金和机构已向加密货币市场投入了近 16 亿美元，这可能也是近期行情起色的重要原因之一。\n\n以质押时的价格对比，目前质押中的 ETH 仅有 21.1% 处于 1600 美元以下，而有 78.9% 的 ETH 质押时的价格是高于 1600 美元的，从上图可见，大部分参与质押的 ETH 价格集中在 2500–3…",
+          "link": "https://www.panewslab.com/zh/articledetails/06hgoj6g.html",
+          "publishedOn": "2023-02-21T10:37:27.000Z",
+          "wordCount": 1700,
+          "title": "以太坊质押赛道现状：链上数据持续回暖，Staking 监管利好去中心化质押",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/21/images/ctdY9krbie.jfif"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/w49yt0gw.html",
           "author": null,
           "description": "预热许久的Filecoin EVM（FVM）终于官宣定档3月14日，届时，主网将通过Filecoin nv18 Hygge升级正式获得EVM虚拟机兼容能力，成为一条兼顾数据存储和智能合约部署、dApp开发为一体的Layer 0级公链。\n为确保主网上线平稳，本次同步开放Hyperspace测试网，便于开发人员提前测试FVM的相关功能，其次，Filecoin.sol开发库也可以让Solidity语言在Filecoin上测试智能合约相关功能。\nFVM结合智能合约，让Data DAOs的设想也有望成为现实。数据DAO 的权益可以代币化，数据价值的发掘、存储和流转都可以在链上执行，结合当下火热的各类AI模型，FVM可以创建可组合的、模块化的数据层，组合成满足不同用途的Data DAO。\n不想当公链的存储网络不是好EVM。\n借鉴以太坊主网+测试网的多重结构，Filecoin也将会推出Hyperspace测试网，目的在于取代目前已经停用的Wallaby EVM兼容测试网，结合Calibration 存储测试网，目前Filecoin形成了主网加两条测试网的整体格局，主网具备存储和EVM兼容两种职能。\n\n借助EVM兼容性，目前的Filecoin已经实现公链+存储的格局，并且可以和其他EVM兼容链互通有无，在Filecoin上存储智能合约数据可以提高网络速度并降低gas费用。但要注意，数据本身仍然存储在链下，之后会生成可验证的CID（内容寻址符）和存储证明，这些记录在Filecoin链上，可以写入智能合约上。\n目前，Hyperspace测试网已经开放使用，并且直接集成至ChainList，可一键接入Metamask进行使用。\n在存储智能合约数据本职外，FVM将可以提供在Filecoin网络上运行智能合约的执行环境。这些智能合约不仅可以用Solidity编写，之后如Rust等可编译为WASM的语…",
