@@ -2789,6 +2789,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/esn1a1cd.html",
+          "author": null,
+          "description": "PANews 2月22日消息，据派盾预警监测，黄立成（推特账号Machi Big Brother）为准备Blur空投，在过去24小时已在Blur出售536枚NFT，包括342枚Otherdeed、63枚CloneX、54枚MAYC、21枚BAKC、13枚Azuki、12枚Moonbirds、2枚PudgyPenguins和BAYC等。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/esn1a1cd.html",
+          "publishedOn": "2023-02-22T08:10:11.000Z",
+          "wordCount": 989,
+          "title": "数据：黄立成过去24小时在Blur出售536枚NFT，包括342枚Otherdeed",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/fn5ossob.html",
           "author": null,
           "description": "PANews 2月22日消息，据治理论坛显示，Cosmos Hub的v9 Lambda升级提案已开启投票，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。投票将于3月8日截止。\n据悉，链间安全性(ICS) 是一组旨在提高Cosmos生态系统可扩展性的功能。这些ICS功能之一是Replicated Security，它专门将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者。用经济攻击审查或控制消费链的成本与审查与控制Cosmos Hub本身的成本相同。\nReplicated Security通过IBC协议工作。消费者链定期接收包含Cosmos Hub最新验证器集的IBC包，并使用此包更新自己的验证器集，有效地复制Hub的验证器集。这意味着Cosmos Hub的验证器可以使用相同的权益同时验证多个链。作为这项服务的交换，消费者链预计将他们的一部分费用和通货膨胀发送给Cosmos Hub验证者和委托者，这些代币将被包括在Cosmos Hub的质押奖励中。\n相关阅读：Cosmos 2.0时代开启，联合创始人回顾Cosmos“前世今生”",
