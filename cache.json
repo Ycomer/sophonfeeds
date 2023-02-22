@@ -2659,6 +2659,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/9j4m1qvl.html",
+          "author": null,
+          "description": "原文：《NFT聚合平台Blur热度狂飙，它面临的安全风险有哪些？》\n作者：Beosin\n2月14号，NFT聚合交易市场Blur推出了$Blur并发放总价值超过2亿美金的空投给该平台的用户，瞬间疯狂吸引市场热度。\n一周之后的数据也显示Blur的继续“狂飙”。\n2月21日，据Dune数据显示，NFT交易市场Blur的每日交易次数已连续5日超越Open Sea。\n其中，2月19日Blur的日交易次数为65,359次，OpenSea的日交易次数为39,835次。\n可以看到Blur作为NFT交易市场的后起之秀，已经开始从 OpenSea 夺取大量的市场份额。\n今天，我们就来解读一下这位NFT交易市场的“妖星”有何特别之处，以及盘一盘它面临着哪些风险或安全都有哪些？\n\n让NFT市场迎来新变局的Blur是什么？\n自Opensea寻求IPO而非发布代币后，对于Opensea的声讨就从未停止。加密圈需要一个真正可以把利润分给用户的NFT交易市场。于是在2022年年初，LooksRare ，X2Y2先后上线并推出代币激励措施，抢占了一部分Opensea的市场份额。而Blur在经过4个月的测试版后于2022年10月正式上线，其定位依然是Opensea的挑战者。\n让我们先来看看Blur的核心Exchange合约的整体架构如下图所示：\n\n图片来源：GitHub - code-423n4/2022-10-blur\nBlur会先在PolicyManager中校验订单的成交策略是否在白名单中，如果成交策略在白名单中，由MatchingPolicy模块继续判断限价订单是否可以匹配。\n如果匹配成功，再交由Exchange模块执行交易，最后由 ExecutionDelegate 负责转移代币。上述提到的白名单其实是Blur预先设定好的ERC721、ERC1155代币的限价单模式。\nBlur的交易模型和Opens…",
+          "link": "https://www.panewslab.com/zh/articledetails/9j4m1qvl.html",
+          "publishedOn": "2023-02-22T03:28:40.000Z",
+          "wordCount": 1087,
+          "title": "NFT聚合平台Blur火爆的背后暗藏着哪些风险？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/22/images/QVqfvjv142.jfif"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/26woypfa.html",
           "author": null,
           "description": "PANews 2月22日消息，据福布斯报道，Reddit联合创始人、Seven Seven Six领导者Alexis Ohanian透露，其曾在2014年以太坊预售期间，投资1.5万美元购买了约5万枚ETH，现在价值约8400万美元。Ohanian说:“事后看来，我的投资远没有达到我应该投资的水平。\n此外，Ohanian表示，2022年在获得RIA许可证后，Seven Seven Six于当年8月立即着手筹集1.76亿美元的加密货币基金，随着数字资产行业被加密熊市所吞噬，该基金减少到仅600万美元。Ohanian称其搞错了时机。\n虽然Ohanian在采访中讲述其寻找无法被扣押的财产的经历，但Ohanian表示：“如果你是个人投资者，隐私是没问题的，但注册投资顾问就不一样了。为了符合监管要求，Seven Seven Six将其数字资产存储在两个独立的受监管的第三方托管机构，这些机构可能会被迫移交或冻结资产。”\n此前2月9日消息，The Information报道报道称，风投公司Seven Seven Six计划为两只新基金募集7.76亿美元，预计30%将投向Web3公司。对此，Ohanian拒绝透露他的大部分投资组合的细节。\n相关阅读：Seven Seven Six离开了加密赛道投资的起跑线",
