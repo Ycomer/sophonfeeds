@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://insights.glassnode.com/the-week-onchain-week-08-2023/",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管美国持续施加监管压力，但比特币价格仍回升至 25000 美元以上，且添加到比特币区块链的文件总数突破 10 万。Glassnode 研究员 Checkmate 对比特币 NFT 及比特币价格等链上数据进行了分析，并评估了比特币长期及短期持有者行为、交易数据及盈亏等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://insights.glassnode.com/the-week-onchain-week-08-2023/\">https://insights.glassnode.com/the-week-onchain-week-08-2023/</a></p>\n<p><strong>文章作者：</strong></p><p>Checkmate</p><hr><h3>观点：</h3><p><strong>Checkmate：</strong>2023 年 2 月比特币网络引入新的数据存储方式后，开启了比特币 NFT 浪潮，数据显示，UTXO 总量达到 ATH，约为 1.37 亿。Taproot 的使用率也达到历史最高水平。但随着 NFT 总数超过 10 万，Taproot 脚本的使用率自该峰值以来下降了 65%，降至支出交易的 2.872%。此外，网络平均区块大小也发生了巨大变化，从上限 1.5MB 上升到今天的 2.0-2.5MB。【原文为英文】</p><a href=\"https://insights.glassnode.com/the-week-onchain-week-08-2023/\">内容来源</a><p><strong>Checkmate：</strong>有趣的是，尽管比特币价格走势有所上升，转移代币价值总量仍然极低。近六个月，比特币网络平均每天的总转账量少于 115,000 枚。且持有时间超过 6 个月的代币目前总体上处于极度休眠状态。这似乎是一个衡量长期主义者不太可能卖出的时期，表明市场处于超卖阶段，至少在短期内是这样。【原文为英文】</p><a href=\"https://insights.glassnode.com/the-week-onchain-week-08-2023/\">内容来源</a><p><strong>Checkmate：</strong>我们通过群组分析发现，短期持有者（STH）损失向市场周期低点的衰减模式，意味着现在买入成本较低。目前 STH 利润的爆炸式增长表明大部分代币供应已经积累到低于当前价格的水品。而长期持有者（LTH）损失主导地位逐渐增加，由于前一个周期的顶级买家逐渐开始动摇。【原文为英文】</p><a href=\"https://insights.glassnode.com/the-week-onchain-week-08-2023/\">内容来源</a>",
+          "link": "https://insights.glassnode.com/the-week-onchain-week-08-2023/",
+          "publishedOn": "2023-02-22T05:42:36.000Z",
+          "wordCount": 2054,
+          "title": "【英文】 Glassnode：比特币投资者链上行为达到拐点，或迎来新周期？",
+          "imageUrl": "https://insights.glassnode.com/content/images/2023/02/00_cover.png"
+        },
+        {
           "id": "https://twitter.com/Chandlhey/status/1628009167146582016",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Solidly 已经偃旗息鼓，但 AC 提出的 ve (3,3) 的生命力却持续在生发。基于 Solidly 改进的 AMM Velodrome 目前已经是 Optimism 生态锁仓量第一的 DEX。加密研究员 Jane 总结了 Velodrome 在 Solidly 模型基础上做出的改进。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">https://twitter.com/Chandlhey/status/1628009167146582016</a></p>\n<p><strong>文章作者：</strong></p><p>Jane</p><hr><h3>观点：</h3><p><strong>Jane：</strong>1）更合理的代币分配和增发节奏：Velodrome 供应量的 60% 都分发给社区，这样的分配比例旨在构建一个能够对 Velodrome 生态最有利的多样化持有人结构，且与 Optimism 团队捆绑共同助力冷启动，而其在增发节奏上也对核心参数进行了调整使其增发更可持续及长尾；</p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">内容来源</a><p><strong>Jane：</strong>2）给 ve 提供者适度的 rebase 奖励：Velodrome 给 ve 持有者的增发保护正比于锁定数量占比的三次方，且以一半的当期增发量为上限；3）内嵌贿选机制：目前贿选贡献了主要的 ve 奖励，而且每 1 美金的贿选可以带来 1.5-2 美金的 VELO 增发奖励。对于部分新协议，Velodrome 还会给予额外的 OP 奖励支持；</p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">内容来源</a><p><strong>Jane：</strong>4）对 veNFT 机制的延伸探索：包括 veNFT 即使在质押 / 投票时也可交易，veNFT 可分割，veNFT 的借贷等；5）引入白名单机制加强协议稳定性：还构建了 Commissaire 以废止恶意的 Gauge，后续还打算实施白名单相关的链上治理。</p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">内容来源</a>",
@@ -2728,6 +2738,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/1o0k6wmt.html",
+          "author": null,
+          "description": "PANews 2月22日消息，据官方公告，币安创新区将于2月22日18:30上线 Synapse（SYN），并开放以下SYN/BTC、SYN/USDT现货交易对。SYN充值通道现已开放，SYN提现预计于2月23日18:30开放。\n此外，币安逐仓杠杆将于2月22日18:30起的48小时内新增SYN资产，并开放SYN/USDT交易对。\n据介绍，Synapse是一个去中心化跨链基础设施，提供跨链桥梁、沟通协议及稳定币交易等产品。 SYN是项目的原生应用代币，用以支付桥梁交易费用、参与流动性挖掘和治理。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/1o0k6wmt.html",
+          "publishedOn": "2023-02-22T06:33:59.000Z",
+          "wordCount": 975,
+          "title": "币安创新区将上线Synapse（SYN）",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/81tqfqfv.html",
           "author": null,
