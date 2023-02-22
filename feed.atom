@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-22T10:26:02.949Z</updated>
+    <updated>2023-02-22T10:34:23.365Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[零知识证明开发指南：从入门到高阶]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/0o82b1se1g9h.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/0o82b1se1g9h.html"/>
+        <updated>2023-02-22T10:27:42.000Z</updated>
+        <summary type="html"><![CDATA[去年夏天，Vitalik 写了一篇博文，概述了不同类型的 zkEVM（零知识以太坊虚拟机）。Vitalik 根据性能和兼容性来定义与权衡。
+
+这是一个非常有用的启发式方法，以区分支持zkEVM的方法。然而，zkEVM是构建零知识应用程序的所有可能方法的一个子集。对于想要利用zk计算的独特属性，即简洁性、零知识和正确性的程序员来说，zkEVM可能不是最好的选择。通过阐述整个开发工具集，本文希望提供一个指南，帮助开发者在决策过程中选择合适的zk堆栈。
+在过去的一两年中，zk工具有了巨大的进步。使得普通软件的开发人员可以利用zk的强大属性，而不需要深入了解令人生畏的基础数学和工程。另一方面，为高级用户提供的工具激增，使 zk 专家能够极其精细地控制 zk 堆栈。
+现代软件是建立在无数的抽象层上的，以最大限度地提高专家的生产力。工程中的抽象有许多优势，这些优势在某种程度上是直观的--网络开发者不需要深入了解操作系统的工作原理。
+建立良好的、可重复使用的抽象层的关键是封装一个层的复杂性，然后为堆栈中更高的层提供简单但有表现力的接口。正确的做法是，这使得具有不同专业领域和知识的开发人员能够在整个堆栈中建立有用的工具。
+毫不奇怪，这些原则也适用于zk系统，而且这些抽象层正变得足够成熟，一个zk新手今天就可以开始使用它们并构建应用程序。
+
+zk堆栈与各层的一些工具/技术实例
+低级别的zk开发
+Arkworks-rs
+Arkworks-rs是一个Rust库的生态系统，它为zkSNARK应用程序的子组件提供高效和安全的实现。Arkworks为开发者提供了必要的接口，以定制zk应用程序的软件栈，而不必重新实现与其他现有库的共性。
+在Arkworks之前，创建一个新的zk应用程序的唯一方法是从头开始构建一切。与定制的垂直整合工具相比，Arkworks-rs的主要优势在于其灵活性水平，减少重复工程，…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avalanche 推出用于加速自定义虚拟机开发的工具 HyperSDK]]></title>
+        <id>https://medium.com/avalancheavax/introducing-hypersdk-a-foundation-for-the-fastest-blockchains-of-the-future-a6b1609a6862</id>
+        <link href="https://medium.com/avalancheavax/introducing-hypersdk-a-foundation-for-the-fastest-blockchains-of-the-future-a6b1609a6862"/>
+        <updated>2023-02-22T09:44:00.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Avalanche 推出用于加速自定义虚拟机开发的工具 HyperSDK</h3>
+<p>Avalanche 宣布推出 HyperSDK，第一个在 Avalanche 上构建高性能虚拟机的开箱即用的框架，旨在简化和加速自定义虚拟机的开发，为开发人员构建世界上最快的区块链提供基础。
+HyperSDK 的结构允许开发人员插入闪电般快速的执行环境，无需从头开始编写大量代码，从而将构建区块链运行时所需的时间从几个月缩短到几天。
+
+据悉，HyperSDK 的公共开发网络也将于后续公开发布，并提供原生 Avalanche Warp Messaging 支持。</p>
+<p><a href="https://medium.com/avalancheavax/introducing-hypersdk-a-foundation-for-the-fastest-blockchains-of-the-future-a6b1609a6862">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Immutable X 开发公司裁员 11%]]></title>
+        <id>https://www.smh.com.au/technology/australia-s-biggest-crypto-gaming-start-up-slashes-staff-20230222-p5cmii.html</id>
+        <link href="https://www.smh.com.au/technology/australia-s-biggest-crypto-gaming-start-up-slashes-staff-20230222-p5cmii.html"/>
+        <updated>2023-02-22T09:43:25.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Immutable X 开发公司裁员 11%</h3>
+<p>据「悉尼先驱晨报」报道，澳大利亚公司 Immutable（Immutable X 开发公司）宣布裁员 11%。Immutable 联合创始人兼首席执行官 James Ferguson 将裁员归咎于公司需要最大化其现金储备的持续时间，并将其资源用于最重要的项目。并表示受影响员工将获得平均 10 周的裁员费。
+
+据 Immutable 向澳大利亚证券和投资委员会提交的财政数据显示，该公司在过去一个财政年度共赚取 2700 万美元，但支出 8300 万美元，其中包括约 4500 万美元的员工、顾问和自由职业者的费用。</p>
+<p><a href="https://www.smh.com.au/technology/australia-s-biggest-crypto-gaming-start-up-slashes-staff-20230222-p5cmii.html">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网信办发布第11批境内区块链信息服务备案编号]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/my03m35g.html</id>
@@ -38,6 +89,18 @@
 那么，目前比特币生态有…]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】视频笔记：Osmosis 及  Celestia 两大创始人谈数据可用性和共享安全]]></title>
+        <id>https://twitter.com/LeThang137/status/1628085832031809537</id>
+        <link href="https://twitter.com/LeThang137/status/1628085832031809537"/>
+        <updated>2023-02-22T09:30:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Osmosis 联合创始人 Sunny Aggarwal 和 Celestia 创始人 Nick White 此前参与了 Cryptocito 主持的视频辩论会，其中谈到 Shared Security（共享安全）环境、Mesh Security 、Celestia 的数据可用（DA）层。加密研究员 Le Tang 对此视频会议进行了摘录总结。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/LeThang137/status/1628085832031809537">https://twitter.com/LeThang137/status/1628085832031809537</a></p>
+<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>Nick 对 Mesh Security 的担忧：很难在链上证明可罚没事件。如果验证者在消费者链上提交了一个错误的区块，那么在提供者链上几乎不可能证明这一点。而 Sunny 表示 IBC 的最终目标是将有效性证明作为核心协议的一部分，但技术还不存在，所以仍然必须依靠 social slashing（社会惩罚）。Nick 则建议使用共享的 DA 层。【原文为英文】</p><a href="https://twitter.com/LeThang137/status/1628085832031809537">内容来源</a><p><strong>Le Thang：</strong>Sunny 认为：1）大多数 Cosmos 链已经从 Tendermint 共识中获得了良好的 DA；2） 共享 DA 系统使验证者持有大量他们不关心的数据。他提出解决方案：每条链都可以选择加入并要求其节点运行 DA 轻客户端，以实现链的经济一致性。Nick 则回应：共享 DA 层将防止数据扣留攻击等事件。每个人都可以在一个大区块中发布他们的数据并下载他们真正关心的一小部分来验证，以此解决大区块问题。【原文为英文】</p><a href="https://twitter.com/LeThang137/status/1628085832031809537">内容来源</a><p><strong>Le Thang：</strong>对于构建新的区块链，Nick 觉得 Mesh Security 需要 bootstrap 一个新的验证器集和共识网络，但是可以通过一个利用 Celestia DA 和共识层的预先存在的网络来部署新的区块链，就像部署智能合约一样简单。Sunny 反驳：所有 rollup 都应该 bootstrap 他们的验证器集，而不是依赖单个节点中继器。【原文为英文】</p><a href="https://twitter.com/LeThang137/status/1628085832031809537">内容来源</a><p><strong>Le Thang：</strong>Nick 觉得，与 bootstrap 一组新的排序器不同，rollup 可以通过对排序器和执行层进行解耦来使用一组预先存在的排序器。总结：Nick 提倡模块化区块链堆栈，堆叠数百万个使用共享 da 层的 rollup；Sunny 不相信模块化论点，而 Osmosis 始终专注于垂直整合。【原文为英文】</p><a href="https://twitter.com/LeThang137/status/1628085832031809537">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
