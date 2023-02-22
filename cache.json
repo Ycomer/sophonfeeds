@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/Chandlhey/status/1628009167146582016",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Solidly 已经偃旗息鼓，但 AC 提出的 ve (3,3) 的生命力却持续在生发。基于 Solidly 改进的 AMM Velodrome 目前已经是 Optimism 生态锁仓量第一的 DEX。加密研究员 Jane 总结了 Velodrome 在 Solidly 模型基础上做出的改进。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">https://twitter.com/Chandlhey/status/1628009167146582016</a></p>\n<p><strong>文章作者：</strong></p><p>Jane</p><hr><h3>观点：</h3><p><strong>Jane：</strong>1）更合理的代币分配和增发节奏：Velodrome 供应量的 60% 都分发给社区，这样的分配比例旨在构建一个能够对 Velodrome 生态最有利的多样化持有人结构，且与 Optimism 团队捆绑共同助力冷启动，而其在增发节奏上也对核心参数进行了调整使其增发更可持续及长尾；</p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">内容来源</a><p><strong>Jane：</strong>2）给 ve 提供者适度的 rebase 奖励：Velodrome 给 ve 持有者的增发保护正比于锁定数量占比的三次方，且以一半的当期增发量为上限；3）内嵌贿选机制：目前贿选贡献了主要的 ve 奖励，而且每 1 美金的贿选可以带来 1.5-2 美金的 VELO 增发奖励。对于部分新协议，Velodrome 还会给予额外的 OP 奖励支持；</p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">内容来源</a><p><strong>Jane：</strong>4）对 veNFT 机制的延伸探索：包括 veNFT 即使在质押 / 投票时也可交易，veNFT 可分割，veNFT 的借贷等；5）引入白名单机制加强协议稳定性：还构建了 Commissaire 以废止恶意的 Gauge，后续还打算实施白名单相关的链上治理。</p><a href=\"https://twitter.com/Chandlhey/status/1628009167146582016\">内容来源</a>",
+          "link": "https://twitter.com/Chandlhey/status/1628009167146582016",
+          "publishedOn": "2023-02-22T04:57:38.000Z",
+          "wordCount": 498,
+          "title": "【长推】 Velodrome 经济模型思考：如何在 Solidly 模型上迭代发展？",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/CelestiaOrg/status/1628086046130049024",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>通过使用 Rollkit 的模块化框架，开发者可以定制 Rollup 并插入任意数据可用性和执行层。目前在 Celestia 的 Mocha 测试网上可使用 Rollkit 构建。Celestia 在本文中对 Rollkit 进行了简要介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CelestiaOrg/status/1628086046130049024\">https://twitter.com/CelestiaOrg/status/1628086046130049024</a></p>\n<p><strong>文章作者：</strong></p><p>Celestia</p><hr><h3>观点：</h3><p><strong>Celestia：</strong>Rollkit 提供了一个模块化节点，用于在数据可用性层之上运行 Rollup。同时它公开了一个兼容 ABCI 的客户端接口，可以用作兼容 ABCI 的区块链应用程序的 Tendermint 的替代品。Rollkit 的长期愿景是让开发者有多种选择以便他们可以轻松插入、切换或替换 Rollkit 功能。【原文为英文】</p><a href=\"https://twitter.com/CelestiaOrg/status/1628086046130049024\">内容来源</a><p><strong>Celestia：</strong>我们在 2021 年开始构建 Rollkit，目前 Rollkit Rollup 是具有单一序列器的主权 Rollup，支持 pessimistic 模式和 WIP optimistic 模式。此外，为了确保 Celestia 仍然是一个去中心化和可信中立数据可用层，我们决定将 Rollkit 从 Celestia Labs 中剥离出来独立运营。【原文为英文】</p><a href=\"https://twitter.com/CelestiaOrg/status/1628086046130049024\">内容来源</a>",
@@ -2718,6 +2728,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/h67sqz4w.html",
+          "author": null,
+          "description": "PANews 2月22日消息，Onchain Trade推特上宣布，已取消原定于2月27日在Camelot平台上进行IF0的计划。Onchain Trade表示，该项目于2个月前就在和Camelot洽谈0费用启动IF0的相关事宜，随后被告知将收取2%的费用，且被要求只在Camelot平台独家发行，不能与其他平台合作同时启动IF0，Onchain Trade最终选择结束合作，仅在Onchain Trade自家门户网站进行IF0。\nOnchain Trade劝告用户谨慎参与Camelot平台上的Launchpad。Onchain Trade表示，0 cap拍卖模式对个人投资者来说并不公平，大部分个人投资者没有风险意识，对项目估值一无所知，Onchain Trade不希望看到其忠实用户在IF0中亏损。据Onchain Trade曝料，Camelot平台很多Launchpad的项目目前尚未发布产品，且需要和Camelot私下签署协议，并满足其若干不合理要求。\n此前消息，PancakeSwap与电竞俱乐部ESPL因“ESPL ARENA”IF0发生纠纷，PancakeSwap将ESPL ARENA IF0筹集的资金向参与者全额退款。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/h67sqz4w.html",
+          "publishedOn": "2023-02-22T05:35:00.000Z",
+          "wordCount": 1007,
+          "title": "Onchain Trade与Camelot产生纠纷，宣布取消在该平台的IF0计划",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/rq1da7du.html",
           "author": null,
