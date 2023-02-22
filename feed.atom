@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-22T04:32:36.322Z</updated>
+    <updated>2023-02-22T04:40:32.559Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[交易量超GMX，Arbitrum衍生品DEX Vela Exchange的明牌空投怎么领？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/l382nl3o.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/l382nl3o.html"/>
+        <updated>2023-02-22T04:34:26.000Z</updated>
+        <summary type="html"><![CDATA[原文：《交互量超越Uniswap，确认空投的Vela Exchange怎么交互？》
+作者：Jaleel
+由于近期的空投预期，Arbitrum 生态的永续合约协议 Vela Exchange 在许多加密社区受到了极高的关注。根据 Dune Analytics 数据，Vela 的合约交互活跃度直线上升，远超 Uniswap，交易量也是迅速增长，过去 24 小时成交额高达 3.41 亿美元，而作为比较，Arbitrum 的 DeFi 龙头 GMX 同期的成交额也仅为 1.11 亿美元，这还包含了其在 Avalanche 生态的流量。
+
+本文将梳理 Vela Exchange 的基本结构和运行机制、其与 GMX 等协议不同的特点以及简单的交互流程。
+Vela Exchange 是一个去中心化永续合约平台，旨在利用链下订单簿和链上结算的混合模式，提高 DeFi 衍生品的交易速度和安全性。根据官方文档，Vela 用户可以根据合成资产的表现建仓，杠杆率高达 100 倍。Vela Exchange 的奖励结构经过仔细平衡后，以管理代币和奖励供应，同时保持流动性供应和交易的高激励。
+Vela Exchange 的基础架构包括 4 个主要部分。链下服务器缓存特定的链上数据以提高性能，比如历史交易数据、通知、配置文件数据、语言设置等，链上协议拥有所有未平仓资金、抵押品、VLP / Vela 质押功能，仓位管理触发器托管在服务器上以提高性能，在满足条件时推送到链上，数据门户向第三方公开 API，并从预言机、数据提供者那里提取数据。
+所有资产价格均由 Vela 团队通过名为 Vela Stream 的专有价格馈送服务全面运营和维护，并且旨在确保性能、安全性和灵活性。该平台目前直接从几个 CEX 和链上资源中提取数据到专有的 Vela Exchange 价格源中。Vela Stream 的价格源在链上…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：昨日Arbitrum交易笔数约110万次，首次超越以太坊]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ol1emas0.html</id>
@@ -15,6 +32,18 @@
 昨日，Arbitrum网络交易笔数达1,100,333次，以太坊主网交易笔数达 1,084,290次。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Rollkit 介绍：Celestia 旗下用于 Rollup 的模块化框架]]></title>
+        <id>https://twitter.com/CelestiaOrg/status/1628086046130049024</id>
+        <link href="https://twitter.com/CelestiaOrg/status/1628086046130049024"/>
+        <updated>2023-02-22T04:16:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>通过使用 Rollkit 的模块化框架，开发者可以定制 Rollup 并插入任意数据可用性和执行层。目前在 Celestia 的 Mocha 测试网上可使用 Rollkit 构建。Celestia 在本文中对 Rollkit 进行了简要介绍。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/CelestiaOrg/status/1628086046130049024">https://twitter.com/CelestiaOrg/status/1628086046130049024</a></p>
+<p><strong>文章作者：</strong></p><p>Celestia</p><hr><h3>观点：</h3><p><strong>Celestia：</strong>Rollkit 提供了一个模块化节点，用于在数据可用性层之上运行 Rollup。同时它公开了一个兼容 ABCI 的客户端接口，可以用作兼容 ABCI 的区块链应用程序的 Tendermint 的替代品。Rollkit 的长期愿景是让开发者有多种选择以便他们可以轻松插入、切换或替换 Rollkit 功能。【原文为英文】</p><a href="https://twitter.com/CelestiaOrg/status/1628086046130049024">内容来源</a><p><strong>Celestia：</strong>我们在 2021 年开始构建 Rollkit，目前 Rollkit Rollup 是具有单一序列器的主权 Rollup，支持 pessimistic 模式和 WIP optimistic 模式。此外，为了确保 Celestia 仍然是一个去中心化和可信中立数据可用层，我们决定将 Rollkit 从 Celestia Labs 中剥离出来独立运营。【原文为英文】</p><a href="https://twitter.com/CelestiaOrg/status/1628086046130049024">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -50,6 +79,18 @@ LayerZero表示，这是其一系列公共产品的首个产品，后续还将�
 相关阅读：解读香港交易所牌照咨询文件：什么类型的虚拟资产可被纳入交易]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】数据剖析 sudoswap 相关链上指标：与 Blur 有何不同？]]></title>
+        <id>https://twitter.com/apes_prologue/status/1628021953549287424</id>
+        <link href="https://twitter.com/apes_prologue/status/1628021953549287424"/>
+        <updated>2023-02-22T03:40:44.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>sudoswap 关于允许 SUDO 转账的社区提案已经获得通过，导致 SUDO 和 XMON 价值激增。Thanefield Capital 研究部分 An Ape's Prologue 研究了 XMON 和 SUDO 的链上活动，并从历史用户及年收入角度将 sudoswap 与 Blur 进行了对比分析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/apes_prologue/status/1628021953549287424">https://twitter.com/apes_prologue/status/1628021953549287424</a></p>
+<p><strong>文章作者：</strong></p><p>An Ape's Prologue</p><hr><h3>观点：</h3><p><strong>An Ape's Prologue：</strong>SUDO 是 sudoswap 发布的治理代币，XMON 持有者可以通过 locksrop 活动获得 SUDO，XMON 代币从合约部署开始计算锁定 1 个月，用户可以根据 10000:1 的比例获得 SUDO。可以看到 XMON 的价值主张主要是作为 NFT 收藏品，除非其有新的效用计划，否则其价值可能会在锁仓结束后急剧下降。【原文为英文】</p><a href="https://twitter.com/apes_prologue/status/1628021953549287424">内容来源</a><p><strong>An Ape's Prologue：</strong>SUDO 目前的流通供应量为总供应量的 36.5%，且主要由 XMON 持有者持有，锁仓结束后，SUDO 流通供应量可能会高达 44.9%。如果 2 月 20 日关于销毁 Lockdrop 合约及无人认领的空投 SUDO 代币提案通过，8% 的 SUDO 供应量将被销毁。【原文为英文】</p><a href="https://twitter.com/apes_prologue/status/1628021953549287424">内容来源</a><p><strong>An Ape's Prologue：</strong>鉴于 XMON 持有者历史持有倾向，且他们持有 SUDO 大部分供应量，我们监测了一些钱包地址，发现最大的卖盘来自小型交易商，大量资金流出主要与 LP 相关。目前流动性资金池的 TVL 为 500 万美元，但对链上流动资金仔细分析后发现它严重偏向于卖方，集中在一个比当前价格高很多的范围内。【原文为英文】</p><a href="https://twitter.com/apes_prologue/status/1628021953549287424">内容来源</a><p><strong>An Ape's Prologue：</strong>从历史用户活动和年收入比较 Blur 和 sudoswap 后，我们发现 Blur 过去几周存在大量用户活动，YTD 交易量为 5.64 亿美元，收入为 280 万美元，而 Sudoswap YTD 交易量仅为 800 万美元，收入为 4 万美元。此外，与 BLUR 19 的市盈率相比，SUDO 市盈率为 189。但和 BLUR 的激励相较，SUDO 的活动都是真实的，市场完全由社区拥有。【原文为英文】</p><a href="https://twitter.com/apes_prologue/status/1628021953549287424">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -112,6 +153,19 @@ Blur的交易模型和Opens…]]></summary>
 相关阅读：Seven Seven Six离开了加密赛道投资的起跑线]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solana 生态支付平台 TipLink 完成 600 万美元融资，红杉资本和 Multicoin Capital 领投]]></title>
+        <id>https://www.theblock.co/post/213491/tiplink-crypto-solana-funding-sequoia-multicoin</id>
+        <link href="https://www.theblock.co/post/213491/tiplink-crypto-solana-funding-sequoia-multicoin"/>
+        <updated>2023-02-22T03:15:37.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Solana 生态支付平台 TipLink 完成 600 万美元融资，红杉资本和 Multicoin Capital 领投</h3>
+<p>基于 Solana 区块链的加密支付平台 TipLink 完成 600 万美元种子轮融资，红杉资本和 Multicoin Capital 领投，参投方包括 Solana Ventures、Circle Ventures、Paxos 以及天使投资人 Vinny Lingham 和 Sarah Guo 等。TipLink 计划继续构建链接钱包功能，改进其 API，并扩大工程和业务开发团队。
+据 The Block 介绍，TipLink 允许用户通过链接发送加密货币、稳定币和 NFT，发送方必须连接到 Solana 钱包并通过存入他们想要发送的代币或 NFT 来创建 TipLink，然后可以复制 TipLink URL 并将其发送给任何人。接收方不必拥有加密钱包，甚至可以通过 Gmail 登录接收代币。</p>
+<p><a href="https://www.theblock.co/post/213491/tiplink-crypto-solana-funding-sequoia-multicoin">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
