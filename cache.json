@@ -12,6 +12,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aavegotchi 是一个基于 Aave 创建的 DeFi 赋能的 NFT 养成游戏，其核心产品是一款基于元宇宙 Play to Earn 的 Gotchiverse Realm 游戏，通过深度与传统的 DeFi 玩法相结合，旨在开创一个新型的区块链游戏模式。头等仓发布研报对 Aavegotchi 的项目进展、游戏玩法、经济模型等进行介绍，并从历史、现状和未来三方面对 Aavegotchi 的发展进行梳理及展望。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w\">https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w</a></p>\n<p><strong>文章作者：</strong></p><p>头等仓</p><hr><h3>观点：</h3><p><strong>头等仓：</strong>Aavegotchi 近期推出多项重大更新：1）关闭 GHST 联合曲线（Bonding Curve）：将 GHST 与 DAI 脱钩，固定其供应，使其成为自由流通的代币。对此，团队也计划为 GHST 进行更多赋能，如：计划在 2023 年上线 Polygon PoS 网络许可分支 Gotchichain，并使用 GHST 代币作为 gas 费用；2）上线 Aavegotchi Forge：引入创造和交易可穿戴设备的新玩法，增加玩家与可穿戴设备的互动能力，提高参与度。</p><a href=\"https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w\">内容来源</a><p><strong>头等仓：</strong>结合 Aavegotchi 此前发布的 2023 年路线图，团队还计划：1）持续推进 Aavegotchi DAO，将游戏协议的控制权完全移交社区，并在开曼群岛注册非营利资金会；2）推出 Gotchichain，实现 NFT 资产与 Polygon 的跨链集成；3）持续开发 The Gotchiverse；4）计划在 Gotchichain 推出一款跨平台移动生存游戏；5）将 Aavegotchis 整合到多个元宇宙和游戏中。</p><a href=\"https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w\">内容来源</a><p><strong>头等仓：</strong>用户可以通过以下几种方式参与到 Aavegotchi 中：1）质押挖矿；2）通过不断提升小鬼稀有度，获得团队 40% 的营收；3）边拍边赚（Bid2Earn）；4）赚取经验值（XP）；5）探索 Gotchiverse（通过强化土地、建立装置以及未来计划推出的 PvP 模式）等。整体上来看，为用户提供了不同渠道 / 层次的游戏互动体验。</p><a href=\"https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/F7V5J6Mghqez_yNTWBud9w",
+          "publishedOn": "2023-02-22T10:58:45.000Z",
+          "wordCount": 10064,
+          "title": "头等仓研报：NFT 养成游戏 Aavegotchi",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/yfOribbIF2I5fs0LXicBfKYKLaeout27UAYqsoKtEwvnJHr6e7SbHcnOK8TBbTicwh0BkQ4Y2aQ9P3exFlyibLOONg/0?wx_fmt=jpeg"
+        },
+        {
+          "id": "https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Perennial 是结合 Defi 及 Cefi 优点的衍生品协议 ，具有无滑点、抗 MEV 及低费用的交易模型，Prennial 联合创始人 Kevin Britz 及研究员 Jacob Phillips 从 Defi 衍生品不同类型的费用出发，解析其存在逻辑，并解释 Perennial 协议如何消减费用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261\">https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261</a></p>\n<p><strong>文章作者：</strong></p><p>Kevin Britz（Perennial 联合创始人）</p><hr><h3>观点：</h3><p><strong>Kevin Britz（Perennial 联合创始人）：</strong>1）Taker fee 及滑点：Taker fee 定义为在开仓、平仓或调整头寸时强加给 Taker 的成本。滑点即尝试执行价格与结算价格之间的差异。Perennial 最初倾向于延迟结算，这使得 Perennial 能够保持较低的交易费用（甚至根本没有）。且 Perennial 具有无许可池创建功能，因此任何人都可以使用不同的费用结构创建新的 LP 池。【原文为英文】</p><a href=\"https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261\">内容来源</a><p><strong>Kevin Britz（Perennial 联合创始人）：</strong>2）做市商费用：做市商站在 Taker 交易的对立面，这意味着在「Taker fee」部分的市场操纵和套利的风险同样适用于做市商。对于 Perennial，延迟结算机制可以解决这个问题，使做市商费用保持低位或不存在。【原文为英文】</p><a href=\"https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261\">内容来源</a><p><strong>Kevin Britz（Perennial 联合创始人）：</strong>3）资金费率：指市场的一方支付给另一方的费用。高资金费归结于低效率的机制设计。在 Perennial，每个市场都是针对特定收益量身定制的，因此费率与风险相匹配。4）掉期费用：Perennial 扩大掉期费用的范围，将所有隐藏在 Defi 衍生品协议中的非标准费用的包括在内。Perennial 是完全合成及现金结算的协议，意味着没有掉期或者额外的费用要求。【原文为英文】</p><a href=\"https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261\">内容来源</a><p><strong>Kevin Britz（Perennial 联合创始人）：</strong>5）资本效率（资本成本）：链上衍生品协议需要资金运作，资金不是免费的，它有机会成本并且需要一定的回报率。而 Perennial 的核心协议旨在实现最大的资本效率 ——LP 可以使用 20 倍以上的杠杆，就像 Taker 一样。【原文为英文】</p><a href=\"https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261\">内容来源</a>",
+          "link": "https://medium.com/perennial-protocol/a-deep-dive-on-fees-in-defi-derivatives-8c8680d96261",
+          "publishedOn": "2023-02-22T10:36:01.000Z",
+          "wordCount": 4290,
+          "title": "【英文】一文解析 Perennial 协议如何消减 Defi 衍生品的不同类型的费用",
+          "imageUrl": "https://miro.medium.com/max/1200/0*Jscnvz3cuQgXLWMk"
+        },
+        {
           "id": "https://medium.com/avalancheavax/introducing-hypersdk-a-foundation-for-the-fastest-blockchains-of-the-future-a6b1609a6862",
           "author": null,
           "description": "<h3>Avalanche 推出用于加速自定义虚拟机开发的工具 HyperSDK</h3>\n<p>Avalanche 宣布推出 HyperSDK，第一个在 Avalanche 上构建高性能虚拟机的开箱即用的框架，旨在简化和加速自定义虚拟机的开发，为开发人员构建世界上最快的区块链提供基础。\nHyperSDK 的结构允许开发人员插入闪电般快速的执行环境，无需从头开始编写大量代码，从而将构建区块链运行时所需的时间从几个月缩短到几天。\n\n据悉，HyperSDK 的公共开发网络也将于后续公开发布，并提供原生 Avalanche Warp Messaging 支持。</p>\n<p><a href=\"https://medium.com/avalancheavax/introducing-hypersdk-a-foundation-for-the-fastest-blockchains-of-the-future-a6b1609a6862\">内容来源</a></p><hr>",
