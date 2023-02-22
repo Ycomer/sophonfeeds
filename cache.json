@@ -2789,6 +2789,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/fn5ossob.html",
+          "author": null,
+          "description": "PANews 2月22日消息，据治理论坛显示，Cosmos Hub的v9 Lambda升级提案已开启投票，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。投票将于3月8日截止。\n据悉，链间安全性(ICS) 是一组旨在提高Cosmos生态系统可扩展性的功能。这些ICS功能之一是Replicated Security，它专门将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者。用经济攻击审查或控制消费链的成本与审查与控制Cosmos Hub本身的成本相同。\nReplicated Security通过IBC协议工作。消费者链定期接收包含Cosmos Hub最新验证器集的IBC包，并使用此包更新自己的验证器集，有效地复制Hub的验证器集。这意味着Cosmos Hub的验证器可以使用相同的权益同时验证多个链。作为这项服务的交换，消费者链预计将他们的一部分费用和通货膨胀发送给Cosmos Hub验证者和委托者，这些代币将被包括在Cosmos Hub的质押奖励中。\n相关阅读：Cosmos 2.0时代开启，联合创始人回顾Cosmos“前世今生”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/fn5ossob.html",
+          "publishedOn": "2023-02-22T07:43:23.000Z",
+          "wordCount": 1021,
+          "title": "Cosmos Hub的v9 Lambda升级提案已开启投票，拟激活“Replicated Security”功能",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/k7enc11d.html",
           "author": null,
           "description": "原文：《眺望牛市三大新叙事，浅谈比特币“新文化”运动》\n作者：比推Asher Zhang\n在2017年，ICO以及公链百花齐放成为加密牛市期间最为重要的叙事，众多开发者和资金进入市场，推动区块链技术快速发展迭代；2020年，DeFi、NFT以及元宇宙等再次成为加密市场的新叙事，推动区块链技术走向应用阶段，机构投资者开始快速进入加密市场。目前从链上数据看，加密市场已经开始进入到新的牛市周期，那么新的一轮加密叙事是否已经出现？本文认为，比特币“新文化运动”、加密监管走向成熟、以及区块链+AI等正在成为新一轮牛市的新趋势。\n\n比特币“新文化运动”，推动Web3走向繁荣\n加密市场似乎正在进行一场被命名为比特币“新文化\"的运动。不同于成为一种点对点电子支付系统的原始理念，随着比特币技术更新和加密市场的发展，比特币二层网络，DeFi协议，NFT协议，以及Web3社交应用等正在围绕比特币网络快速成长，并依托比特币强大的网络效应，推动Web3走向繁荣。\n过去几周，一个名为 Ordinals 的 NFT 协议在比特币网络备受关注。Dune Analytics 数据显示，目前Ordinals 协议累计铸造 NFT 量已突破 10 万个。过去一周，借由 Ordinals 协议刻写「铭文」（Inscriptions）花费的费用呈爆发式增长，50% 的比特币区块空间被「铭文」占据。有硬核 NFT 玩家选择直接销毁以太坊链 NFT，并在比特币链上重新发行新的 NFT。对于比特币NFT协议Ordinals 的诞生，虽然还有争议，但这次社区的力量似乎正在淹没比特币原教主义的反对声。\n另一个值得注意的就是Nostr 协议。Nostr 协议是一个极简的社交协议，其不依赖任何中心化服务器，客户端信息发布和传递由互不通信的中继端来完成，信息的发布和传输具有抗审查性。Nostr 的开发者 fiatjaf 同时也是比…",
