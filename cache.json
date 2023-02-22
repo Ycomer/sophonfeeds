@@ -12,6 +12,36 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/chaos_labs/status/1628036136454045696",
+          "author": null,
+          "description": "<h3>区块链风险管理公司 Chaos Labs 完成 2000 万美元种子轮融资，PayPal Ventures 和 Galaxy Digital 领投</h3>\n<p>区块链风险管理公司 Chaos Labs 宣布完成 2000 万美元种子轮融资，PayPal Ventures 和 Galaxy Digital 领投。参投方包括 Coinbase Ventures、Uniswap、 HashKey、Lightspeed 以及天使投资人 Coinbase 前首席技术官 Balaji Srinivasan、AngelList 前首席执行官 Naval Ravikant 等。Chaos Labs 将利用所筹资金自动化链上风险优化。\nChaos Labs 构建的一个 Web3 云能够复制客户运行的区块链，从而进行压力测试和模拟最坏情况。Chaos Labs 此前与部分 DeFi 协议合作，包括 Aave、Chainlink、Uniswap、BENQI 和 Osmosis，以保护和优化协议以防止操纵和黑天鹅市场事件，同时提供资本优化建议。</p>\n<p><a href=\"https://twitter.com/chaos_labs/status/1628036136454045696\">内容来源</a></p><hr>",
+          "link": "https://twitter.com/chaos_labs/status/1628036136454045696",
+          "publishedOn": "2023-02-22T03:14:25.000Z",
+          "wordCount": 498,
+          "title": "区块链风险管理公司 Chaos Labs 完成 2000 万美元种子轮融资，PayPal Ventures 和 Galaxy Digital 领投",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.ethereum.org/2023/02/21/sepolia-shapella-announcement",
+          "author": null,
+          "description": "<h3>以太坊 Shapella 网络升级将于 56832 epoch 在 Sepolia 网络上激活</h3>\n<p>以太坊基金会发布公告表示 Shapella 网络升级将于 56832 epoch（北京时间 2023 年 2 月 28 日 12:04:48）在 Sepolia 网络上激活。此次升级将允许验证者将他们的质押以太坊从信标链撤回到执行层，并为执行层和共识层引入新功能。此外，Zhejiang 测试网可用于在 Sepolia 升级之前测试 Shapella 功能。</p>\n<p><a href=\"https://blog.ethereum.org/2023/02/21/sepolia-shapella-announcement\">内容来源</a></p><hr>",
+          "link": "https://blog.ethereum.org/2023/02/21/sepolia-shapella-announcement",
+          "publishedOn": "2023-02-22T03:00:16.000Z",
+          "wordCount": 2122,
+          "title": "以太坊 Shapella 网络升级将于 56832 epoch 在 Sepolia 网络上激活",
+          "imageUrl": "https://storage.googleapis.com/ethereum-hackmd/upload_c721600b9f9448a141574b76a38159e6.jpg"
+        },
+        {
+          "id": "https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/",
+          "author": null,
+          "description": "<h3>Consensys 收购区块链通知工具 Hal</h3>\n<p>Consensys 收购区块链通知工具 Hal，具体条款尚未披露。通过这次收购，Consensys Web3 连接层 Infura 将能够使用 Hal 构建的可配置网络钩子或通知服务扩展其开发者堆栈，帮助开发者在协议层面为各种信号创建警报和通知。此外，Hal 将有 10 名员工加入 ConsenSys 团队。\n据 The Block 介绍，Hal 是一个无需代码的区块链开发工具平台，允许用户为交易、治理投票及税务合规等事项创建通知。</p>\n<p><a href=\"https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Eleazar Galano（Infura 联合创始人）：</strong>Infura 一直在投资于工具和功能以加强开发者的体验。我们发现让开发者获得无缝体验的关键目标是低代码或无代码解决方案。Hal 非常适合 Infura，因为它允许用户访问 40 多个用于区块链、链上监听和信号的高级 API。【原文为英文】</p><a href=\"https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/\">内容来源</a>",
+          "link": "https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/",
+          "publishedOn": "2023-02-22T02:37:36.000Z",
+          "wordCount": 4704,
+          "title": "Consensys 收购区块链通知工具 Hal",
+          "imageUrl": "https://cdn.consensys.net/uploads/2023/02/21143428/csiinfurahal-1.png"
+        },
+        {
           "id": "https://www.coindesk.com/business/2023/02/21/coinbase-q4-revenue-beats-expectations-but-transaction-volume-falls-12-from-q3/",
           "author": null,
           "description": "<h3>Coinbase 2022 年第四季度净收入为 6.05 亿美元，交易量环比下降 12%</h3>\n<p>加密交易所 Coinbase 2022 年第四季度净收入为 6.05 亿美元，高于分析师预期的 5.88 亿美元，较第三季度的 5.9 亿美元增长了 5%。据 FactSet 数据，本季度调整后的每股亏损为 2.46 亿美元，超过每股亏损 2.52 亿美元的预期。但由于整体交易量下降， Coinbase 交易量季度环比下降 12% 至 3.22 亿美元。此外，订阅和服务收入仍是 Coinbase 关注的领域，第四季度环比增长 34% 达 2.83 亿美元，主要得益于利息收入达 1.622 亿美元。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/02/21/coinbase-q4-revenue-beats-expectations-but-transaction-volume-falls-12-from-q3/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Coinbase：</strong>2023 年第一季度加密市场环境较 2022 年第四季度有所改善，Coinbase 在 2023 年 1 月产生了 1.2 亿美元的交易收入。此外，我们预计未来一年美国和其他国家会出台更多的加密监管政策。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/02/21/coinbase-q4-revenue-beats-expectations-but-transaction-volume-falls-12-from-q3/\">内容来源</a>",
@@ -2658,6 +2688,26 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/s03xcmor.html",
+          "author": null,
+          "description": "PANews 2月22日消息，NFT市场Blur创始人@PacmanBlur与推特上公开身份，表示在创建Blur前，17岁时从高中辍学进入Y Combinator，后进入麻省理工学院计算机系学习，曾获得泰尔奖学金，离开麻省理工学院后创建Namebase，出售Namebase到Namecheap。\n此外，还表示在当Blur前401天前，曾与@_anishagnihotri讨论是选择doxx还是匿名构建，而后选择先匿名然后再公开，并表示，在创建Blur的过程中非常享受这种私密性。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/s03xcmor.html",
+          "publishedOn": "2023-02-22T03:36:33.000Z",
+          "wordCount": 993,
+          "title": "Blur创始人公开身份：17岁时曾在Y Combinator工作，毕业于麻省理工学院",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/y4gx1h62.html",
+          "author": null,
+          "description": "PANews 2月22日消息，NFT项目rektguy创始人Mando发推表示：“经过深思熟虑，今天我们决定利用当前的NFT流动性在BAYC、MAYC上获利，我们仍拥有大量Yuga资产，以及继续看好其建设的东西”。\n此外，OpenSea数据显示，其地址（0xC8...36e8）在过去1个左右在Blur以约78 ETH的均价抛售71枚BAYC，以16.3 ETH的均价抛售11个MAYC，以15.14 ETH的均价抛售7枚Azuki，以及还包括几十个Otherside和Beanz。目前该钱包地址仍持有9枚MAYC。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/y4gx1h62.html",
+          "publishedOn": "2023-02-22T03:30:01.000Z",
+          "wordCount": 990,
+          "title": "NFT项目rektguy创始人为获利抛售大量NFT，包括71枚BAYC和11枚MAYC",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/9j4m1qvl.html",
           "author": null,

@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-22T03:29:24.711Z</updated>
+    <updated>2023-02-22T03:36:52.611Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Blur创始人公开身份：17岁时曾在Y Combinator工作，毕业于麻省理工学院]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/s03xcmor.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/s03xcmor.html"/>
+        <updated>2023-02-22T03:36:33.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月22日消息，NFT市场Blur创始人@PacmanBlur与推特上公开身份，表示在创建Blur前，17岁时从高中辍学进入Y Combinator，后进入麻省理工学院计算机系学习，曾获得泰尔奖学金，离开麻省理工学院后创建Namebase，出售Namebase到Namecheap。
+此外，还表示在当Blur前401天前，曾与@_anishagnihotri讨论是选择doxx还是匿名构建，而后选择先匿名然后再公开，并表示，在创建Blur的过程中非常享受这种私密性。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT项目rektguy创始人为获利抛售大量NFT，包括71枚BAYC和11枚MAYC]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/y4gx1h62.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/y4gx1h62.html"/>
+        <updated>2023-02-22T03:30:01.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月22日消息，NFT项目rektguy创始人Mando发推表示：“经过深思熟虑，今天我们决定利用当前的NFT流动性在BAYC、MAYC上获利，我们仍拥有大量Yuga资产，以及继续看好其建设的东西”。
+此外，OpenSea数据显示，其地址（0xC8...36e8）在过去1个左右在Blur以约78 ETH的均价抛售71枚BAYC，以16.3 ETH的均价抛售11个MAYC，以15.14 ETH的均价抛售7枚Azuki，以及还包括几十个Otherside和Beanz。目前该钱包地址仍持有9枚MAYC。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NFT聚合平台Blur火爆的背后暗藏着哪些风险？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/9j4m1qvl.html</id>
@@ -44,6 +66,31 @@ Blur的交易模型和Opens…]]></summary>
 相关阅读：Seven Seven Six离开了加密赛道投资的起跑线]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[区块链风险管理公司 Chaos Labs 完成 2000 万美元种子轮融资，PayPal Ventures 和 Galaxy Digital 领投]]></title>
+        <id>https://twitter.com/chaos_labs/status/1628036136454045696</id>
+        <link href="https://twitter.com/chaos_labs/status/1628036136454045696"/>
+        <updated>2023-02-22T03:14:25.000Z</updated>
+        <summary type="html"><![CDATA[<h3>区块链风险管理公司 Chaos Labs 完成 2000 万美元种子轮融资，PayPal Ventures 和 Galaxy Digital 领投</h3>
+<p>区块链风险管理公司 Chaos Labs 宣布完成 2000 万美元种子轮融资，PayPal Ventures 和 Galaxy Digital 领投。参投方包括 Coinbase Ventures、Uniswap、 HashKey、Lightspeed 以及天使投资人 Coinbase 前首席技术官 Balaji Srinivasan、AngelList 前首席执行官 Naval Ravikant 等。Chaos Labs 将利用所筹资金自动化链上风险优化。
+Chaos Labs 构建的一个 Web3 云能够复制客户运行的区块链，从而进行压力测试和模拟最坏情况。Chaos Labs 此前与部分 DeFi 协议合作，包括 Aave、Chainlink、Uniswap、BENQI 和 Osmosis，以保护和优化协议以防止操纵和黑天鹅市场事件，同时提供资本优化建议。</p>
+<p><a href="https://twitter.com/chaos_labs/status/1628036136454045696">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊 Shapella 网络升级将于 56832 epoch 在 Sepolia 网络上激活]]></title>
+        <id>https://blog.ethereum.org/2023/02/21/sepolia-shapella-announcement</id>
+        <link href="https://blog.ethereum.org/2023/02/21/sepolia-shapella-announcement"/>
+        <updated>2023-02-22T03:00:16.000Z</updated>
+        <summary type="html"><![CDATA[<h3>以太坊 Shapella 网络升级将于 56832 epoch 在 Sepolia 网络上激活</h3>
+<p>以太坊基金会发布公告表示 Shapella 网络升级将于 56832 epoch（北京时间 2023 年 2 月 28 日 12:04:48）在 Sepolia 网络上激活。此次升级将允许验证者将他们的质押以太坊从信标链撤回到执行层，并为执行层和共识层引入新功能。此外，Zhejiang 测试网可用于在 Sepolia 升级之前测试 Shapella 功能。</p>
+<p><a href="https://blog.ethereum.org/2023/02/21/sepolia-shapella-announcement">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -91,6 +138,19 @@ bid需要质押Blur获得veBlur，质押越多、权重越高、bid的限制也�
 祝我们好运。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Consensys 收购区块链通知工具 Hal]]></title>
+        <id>https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/</id>
+        <link href="https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/"/>
+        <updated>2023-02-22T02:37:36.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Consensys 收购区块链通知工具 Hal</h3>
+<p>Consensys 收购区块链通知工具 Hal，具体条款尚未披露。通过这次收购，Consensys Web3 连接层 Infura 将能够使用 Hal 构建的可配置网络钩子或通知服务扩展其开发者堆栈，帮助开发者在协议层面为各种信号创建警报和通知。此外，Hal 将有 10 名员工加入 ConsenSys 团队。
+据 The Block 介绍，Hal 是一个无需代码的区块链开发工具平台，允许用户为交易、治理投票及税务合规等事项创建通知。</p>
+<p><a href="https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/">内容来源</a></p><hr><h3>观点：</h3><p><strong>Eleazar Galano（Infura 联合创始人）：</strong>Infura 一直在投资于工具和功能以加强开发者的体验。我们发现让开发者获得无缝体验的关键目标是低代码或无代码解决方案。Hal 非常适合 Infura，因为它允许用户访问 40 多个用于区块链、链上监听和信号的高级 API。【原文为英文】</p><a href="https://consensys.net/blog/press-release/consensys-acquires-hal-to-augment-infuras-blockchain-notification-and-automation-capabilities/">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
