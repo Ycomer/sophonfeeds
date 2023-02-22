@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-22T12:23:38.859Z</updated>
+    <updated>2023-02-22T12:40:31.324Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】揭开关于 Arweave 的 10 个常见误解]]></title>
+        <id>https://twitter.com/warp_contracts/status/1628045142178541577</id>
+        <link href="https://twitter.com/warp_contracts/status/1628045142178541577"/>
+        <updated>2023-02-22T12:29:21.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Arweave 上数据驱动的智能合约 Warp Contracts 发推特对关于 Arweave 的 10 个常见误解进行回应。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/warp_contracts/status/1628045142178541577">https://twitter.com/warp_contracts/status/1628045142178541577</a></p>
+<p><strong>文章作者：</strong></p><p>Warp Contracts</p><hr><h3>观点：</h3><p><strong>Warp Contracts：</strong>1）Arweave 只是一个存储层：Arweave 通过提供信任最小化系统，在普遍信任缺乏的时代验证信息的真实性，彻底改变了信任，可以视为第一个内容区块链；2）数据公开，缺乏隐私：使用私有 Akord 库和 ArDrive 驱动可以实现端到端的加密文件存储，并具有完全的隐私；【原文为英文】</p><a href="https://twitter.com/warp_contracts/status/1628045142178541577">内容来源</a><p><strong>Warp Contracts：</strong>3）宏观费用低：Arweave 2.6 旨在通过降低企业级硬件优势实现挖矿民主化，使得商品硬件挖矿更容易获利，并鼓励更广泛的参与；4）无法扩展：虽然基础层对每个区块施加了 1000 txs 的限制，但 Arweave 的打包功能（多个提供了任意扩展的数据上传；5）与 Defi & Gaming 相反，DePIN 是无聊琐碎的：创建经济上可持续的基础设施生态系统被证明远比软件本身更具挑战性；【原文为英文】</p><a href="https://twitter.com/warp_contracts/status/1628045142178541577">内容来源</a><p><strong>Warp Contracts：</strong>6）与 Filecoin、BNB Greenfield 等类似：Arweave 基于一个单一奖励池和一个巨大数据堆的单一 merkle 根。向系统添加数据会更新 Merkle 树并向奖励池添加代币，但不会导致「臃肿」或维护链的计算量增加；7）生态低迷：Arweave 生态有 100 多个项目，可以解决其他技术无法解决的互联网和数字所有权的基本问题；8）AR 没有真正的价值主张：将在未来 200 多年内用于激励矿工；【原文为英文】</p><a href="https://twitter.com/warp_contracts/status/1628045142178541577">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[币安将在BNB Chain上销毁价值20亿美元的闲置BUSD，以太坊网络上的等值抵押品同步释放]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/62mxgjvd.html</id>
