@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.tencentcloud.com/zh/dynamic/news-details/100437",
+          "author": null,
+          "description": "<h3>腾讯云发布一站式 Web3 基础设施产品，并与 Ankr、Avalance、Scroll、Sui 达成合作协议</h3>\n<p>根据腾讯云消息表示，腾讯云在新加坡举行的「腾讯云 Web3 Build Day」上，宣布将积极支持 Web3 生态系统的发展，面向全球推出 Tencent Cloud Metaverse-in-a-Box 产品，并与 Web3 基础设施供应商 Ankr 签署合作备忘录，旨在携手开发一系列区块链 API 服务，以提供高性能、分布全球和去中心化的区块链远程调用（Remote Procedure Call，RPC）节点网络。腾讯云消息称，在次峰会上，腾讯云同时宣布与 Avalance、Scroll、Sui 达成战略伙伴协议，以构建更强大的基础设施。</p>\n<p><a href=\"https://www.tencentcloud.com/zh/dynamic/news-details/100437\">内容来源</a></p><hr>",
+          "link": "https://www.tencentcloud.com/zh/dynamic/news-details/100437",
+          "publishedOn": "2023-02-22T13:31:35.000Z",
+          "wordCount": 1761,
+          "title": "腾讯云发布一站式 Web3 基础设施产品，并与 Ankr、Avalance、Scroll、Sui 达成合作协议",
+          "imageUrl": null
+        },
+        {
           "id": "https://cmsholdings.substack.com/p/dydx",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>dYdx V3 已领先于其他去中心化永续平台，但 dYdX 却离开 Starkware 转向自己的原生链，从零开始重建大部分系统，进行 V4 升级。加密研究员 CMS Peary 撰文概述当前加密货币交易所格局，解析 dYdX V4 升级的优点及挑战。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://cmsholdings.substack.com/p/dydx\">https://cmsholdings.substack.com/p/dydx</a></p>\n<p><strong>文章作者：</strong></p><p>CMS Peary</p><hr><h3>观点：</h3><p><strong>CMS Peary：</strong>优点：1）可以让开发人员定制验证器的任务及各种区块链功能；2）提交或取消订单不会产生 gas ；3）新的区块链是垂直整合的，这意味着很容易添加和启用现货交易、借贷及期权。这将使 dYdX 具有中心化交易所的所有功能，同时坚持开放的去中心化原则。【原文为英文】</p><a href=\"https://cmsholdings.substack.com/p/dydx\">内容来源</a><p><strong>CMS Peary：</strong>挑战：所有现有的 Starkware 上的基础设施都需要从头开始重建。除了为交易目的自定义的核心节点之外，还需要索引器来支持 API 和 web socket 。dYdX 需要为 cosmos 构建 Graph 协议。除了后端和中间件，前端和移动用户界面也将彻底地改革。【原文为英文】</p><a href=\"https://cmsholdings.substack.com/p/dydx\">内容来源</a><p><strong>CMS Peary：</strong>通过提案治理，权利下放：1）在 v4 中，任何人都可以提议通过治理增加一个交易对。当提案通过，它将被放在隔离保证金中，根据流动性可以被添加到全仓保证金和完全免许可的交易中。2）V4 将允许通过治理来指导交易费用，最有可能是质押者和验证者收取费用，与现行的费用归权益持有者大不相同。【原文为英文】</p><a href=\"https://cmsholdings.substack.com/p/dydx\">内容来源</a><p><strong>CMS Peary：</strong>根据数据得出论点：三个长期的有利因素将推动去中心化永续合约系统的发展，包括加密货币交易量将增加；去中心化交易量相对于中心化交易量将增加；去中心化永续合约交易量相对于去中心化现货交易量将增加。交易所市场结构在本质上更具垄断性。dYdX 作为当前的市场领导者，即将推出的 V4 功能只会巩固其领先地位。【原文为英文】</p><a href=\"https://cmsholdings.substack.com/p/dydx\">内容来源</a>",
