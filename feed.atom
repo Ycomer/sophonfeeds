@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-23T05:49:24.493Z</updated>
+    <updated>2023-02-23T05:55:24.587Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Polygon：PolygonScan凌晨数据中断系节点失去同步所致，区块生产从未停止]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/bv02iedb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/bv02iedb.html"/>
+        <updated>2023-02-23T05:50:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月23日消息，针对今日凌晨区块链浏览器PolygonScan长时间数据不更新，Polygon官方在推特上表示，大约凌晨4:26左右，一些节点失去同步，这会导致一些节点短时间内无法验证块的反应。区块生产从未停止，然而，网络性能可能会出现暂时性下降。目前节点已重新同步，系统恢复正常。经PANews查看，PolygonScan上的数据现已恢复正常。
+此外据CoinDesk报道，Polygon上节点基础设施提供商Rivet的Greg Lang表示，Polygon的问题似乎源于一次“异常大”的区块重组，该重组发生在Polygon表示节点失去同步的两分钟之前。Lang表示，小规模的区块重组在Polygon和其他基于以太坊虚拟机(EVM)的网络上很常见，它们不一定引起关注，但这次的不同之处在于重组的规模，即157个区块。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cardano 2022 年度回望，新一年隐藏着哪些「草蛇灰线」？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/md99p3u1.html</id>
