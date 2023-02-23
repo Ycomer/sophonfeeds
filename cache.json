@@ -3109,6 +3109,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/3jwfgflk.html",
+          "author": null,
+          "description": "PANews 2月24日消息，据The Block报道，DeFi初创公司Huma Finance已完成830万美元的种子轮融资，Race Capital和Distributed Global共同领投，ParaFi、Circle Ventures和Robot Ventures等参投。资金将用于构建由未来收入支持的贷款协议。Huma的首个产品是链上保理市场，个人或企业能够以他们未来的收入而不是现有的代币资产作为抵押进行借款。该协议最初的合作伙伴包括稳定币发行商Circle以及区块链支付网络Request Network和Superfluid。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/3jwfgflk.html",
+          "publishedOn": "2023-02-23T23:51:42.000Z",
+          "wordCount": 1001,
+          "title": "Huma Finance完成830万美元种子轮融资",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/sjbofln9.html",
           "author": null,
           "description": "PANews 2月24日消息，据官方消息，稳定币交易项目Platypus在博客文章中表示，在成功追回上周被盗的900万美元的一部分后，它将向用户偿还至少63%的资金。该协议还与加密交易所币安合作确认了攻击者的身份。黑客使用一个通过了KYC检查的币安账户请求提款。Platypus表示，它已联系了法国执法部门并已上诉。该协议还表示，它还没有动用140万美元的资金来赔偿受害者，但如果无法追回更多资产，它可能会在未来六个月内使用这笔资金。但无论未来资金回收情况如何，补偿计划确保将向用户偿还至少63%的资金。如果Tether同意将冻结的USDT归还给Platypus且AAVE批准资金回收提案，则可以向用户偿还78%的资金。Platypus表示其目标是在下周重启稳定币互换协议。据此前消息，上周黑客利用Platypus偿付能力检查机制的一个漏洞，盗取了约920万美元的数字资产，导致其原生稳定币USP与美元脱钩。",
@@ -3167,6 +3177,16 @@
           "wordCount": 978,
           "title": "美国联邦银行监管机构就“加密资产市场脆弱性导致的流动性风险”发布联合声明",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/hmoulebd.html",
+          "author": null,
+          "description": "近日，新型EVM公链Flare完成了一场链上互操作性功能的展示，标志着其两项核心互操作性协议：状态连接器（State Connector）和Flare时间序列预言机（FTSO）的beta版本正式上链。通过这两个协议，用户可以在另一条区块链上以免信任方式购买任一NFT，并可以使用非原生代币完成交易。此次Demo展示了如何使用DOGE和XRP代币在Flare先行网Songbird上完成NFT的购买。\nFlare两项核心协议之一的状态连接器，它允许信息与Flare上基于EVM的智能合约一同使用，以安全、可扩展且免信任方式进行，而这些信息涵盖来自于其他区块链及互联网。因而，发生在非Flare链上的交易可以通过这一协议进行确认，同时包括验证支付参考信息的准确性。\n另一核心协议Flare时间序列预言机则无需依赖中心化提供商将数据上链，即可实现为去中心化应用程序（dapps）提供高度去中心化价格和数据信息。在Demo展示中，该协议可以提供该NFT的其他链加密货币价格，且实时更新。\n由于Flare基于EVM，它可实现所有以太坊及其他EVM兼容的区块链的功能。比如，在Demo展示中所铸造的NFTs是用Solidity编写的标准ERC721合约，并部署于Flare网络上。唯一的变化仅是增加集成FTSO和状态连接器的互操作方式。\nFlare首席执行官兼联合创始人Hugo Philion表示，“此次Demo充分展示了Flare网络的性能，它可以提供更多类型的链上数据，安全且去中心化，能够驱动行业的新功能和潜在用例的开发。”值得注意的是，各种加密货币可以在Flare网络上的dapps内实现免信任使用，而NFT购买仅为Flare解锁这些代币价值、Web 3实用性的一个用例而已。因此，Flare期待更多应用程序工程师能够利用其原生互操作性协议进行开发、创新。\n点击查看Demo展示\n \n\n \n通过公链Flare，开发者能够以去中心化方式来获取跨链、互联网数据，类型更多且更安全，这将促进全新的用例和变现模型的出现。同时，Flare的一次操作即可实现多链部署，服务多个生态体系，这对于dapps开发和采纳来说，亦具有很大吸引力。而从效用和采用角度出发，Flare致力成为推动去中心化经济的“链接”方式，通过为开发者提供一系列工具、技术堆栈以用于构建下一代互操作性去中心化应用，来帮助资产、信息和流动性在任意链间自由流动。",
+          "link": "https://www.panewslab.com/zh/articledetails/hmoulebd.html",
+          "publishedOn": "2023-02-23T15:35:00.000Z",
+          "wordCount": 1033,
+          "title": "Flare发布互操作性协议Demo展示，实现免信任、使用非原生代币完成NFT交易",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/24/images/BV77jxS8XU.png"
         },
         {
           "id": "https://www.panewslab.com/zh/articledetails/b3ae03li.html",
