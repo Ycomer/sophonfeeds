@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-23T00:18:37.278Z</updated>
+    <updated>2023-02-23T00:36:26.065Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Twitter已开始测试添加Coins功能，测试环境中显示可通过Stripe购买]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/0gg4atwa.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/0gg4atwa.html"/>
+        <updated>2023-02-23T00:29:57.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月23日消息，白帽黑客“Tree of Alpha”发推表示，Twitter已开始测试添加Twitter Coins功能，目前在测试环境中仅可通过Stripe购买Coins。
+Tree of Alpha回复网友时表示，需要将代码中的每个可选值从false替换为true，以启用Twitter的每个可选功能，并将环境更改为Live，然后显示在菜单下的Coins，之后可以参与测试。
+此前2月10日消息，App开发者Nima Owji披露，Twitter开发者版本App更新“Coins”功能及用法公告，确认Coins当前阶段仅用于打赏功能。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sui Network正募集Wave 3测试网验证者，2月28日截止]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/jxfnct8x.html</id>
