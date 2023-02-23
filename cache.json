@@ -2969,6 +2969,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/35627901479m.html",
+          "author": null,
+          "description": "2022 年，互操作性协议 LayerZero 的出现，使得 Omnichain 的概念变得火热。从单独的公链到跨链桥的出现，之后又从多链再到全链的诞生，区块链在加密领域和 Web3 的应用必然是沿着不断扩大、相互联通的方式前进。在确保安全的前提下，更低的通讯成本、更快的通讯速度，是现阶段区块链领域的需求，也是持续的需求。本篇，veDAO研究院将从分析 zkOmnichain 开始，对 Omnichain 展开更深入的了解。（相关阅读：《单链过去式，多链进行时，全链Layer0才是未来？解读“Web3新圣杯”zkOmnichain》）\n随着 L1、L2 各层链的生态发展，相比于以前的以太坊一家独大，大众开始接受多链并存的状态；但是每条区块链，本质都是一个独立的自定义账本，不同链之间数据难以互通，成为了一个个数据孤岛。要想充分使用一个应用程序，开发者和用户必须在不同链之间分配资源和时间，相比于 Web2 反而倒退了，因此跨链互联越来越成为 Web3 的一个重要命题。\n目前常见的实现全链覆盖跨链通信主要有 3 种方法：1. 经由一条居间共识协议的中间链与起始链、目标链进行互操作，在不同链之间验证和转发消息；2. 通过Optimistic机制来完成与其余各链的互操作；3. 通过基于零知识证明的全链互操作协议zkOmnichain与其余各链进行互操作。\nOmnichain 的创新之处就在于使用了超轻节点（ultra light node），本身不去传送信息，只负责对接，而验证和传递信息的工作则交给外部的预言机和中继器去完成，因此每个链上只需要部署一个包含较少信息的超轻节点，就可以和其他同样有节点的任何链互通信息，这里的链包括 L1、L2 以及非 EVM 和 EVM，这些节点共同形成了处于链之上的 Layer0 网络。\nLayerZero 作为消息传输层，旨在让智能合约轻松地在许多区…",
+          "link": "https://www.panewslab.com/zh/articledetails/35627901479m.html",
+          "publishedOn": "2023-02-23T05:25:00.000Z",
+          "wordCount": 1616,
+          "title": "以LayerZero为例，解读“Web3 新圣杯”zkOmnichain值得关注的原因",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/images/YcnGwoJZEg.jpg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/oerru8nz.html",
           "author": null,
           "description": "PANews 2月23日消息，据CoinDesk报道，音乐订阅服务商Spotify正在测试代币门控(Token-Enabled）音乐播放列表功能，该服务允许NFT持有者连接他们的钱包并收听精选音乐。\n目前，该服务只提供给Fluf、Moonbirds、Kingship和Overlord社区的代币持有者。在为期三个月的测试期间，精选的播放列表将会不断更新，并且只能由社区成员通过一个特定的链接访问。该试点项目目前仅适用于美国、英国、德国、澳大利亚和新西兰的Android用户。\n此前去年5月份消息，Spotify测试让艺术家在他们的个人资料中推广NFT。",
