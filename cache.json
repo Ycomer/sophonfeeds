@@ -2929,6 +2929,26 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/cxya0se8.html",
+          "author": null,
+          "description": "PANews 2月23日消息，据Lookonchain监测，一休眠3年以太坊融资参与者地址3个多小时前将5055枚ETH转入0x722开头新地址，价值约830万美元。\n此前，该参与者曾在以太坊融资中以0.31美元价格获得了10,100枚ETH，并于2020年2月将这笔ETH转入0x269开头地址。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/cxya0se8.html",
+          "publishedOn": "2023-02-23T03:05:36.000Z",
+          "wordCount": 985,
+          "title": "数据：休眠3年的以太坊融资参与者地址今日将5055枚ETH转入新地址",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/0fqmiv8e.html",
+          "author": null,
+          "description": "2月20日，The Block报道四名Coinbase的前员工推出了一个新型NFT借贷平台PaprMeme，并获得了Coinbase Ventures投资的300万美元。在Blur发行代币并进行流动性激励，从而大幅增加NFT流动性的情况下，NFT的借贷清算会更加容易，也更有利于NFTFi的发展。\n目前，NFT借贷平台Papr的产品已经上线，它是如何实现借贷的呢？\nPapr将借贷市场的实现简化成了代币交易过程，这个过程涉及三类角色：借方（Borrower）、贷方（Holder）和流动性提供者（LP）。\n借方将抵押品存入papr智能合约，铸造一种原生代币$paprMEME，并通过Uniswap V3卖出，兑换成ETH等资产。借款的利息会直接计入$paprMEME的目标价格，理论上，随着时间的推移，$paprMEME的价格会逐渐上升。借方在归还贷款时只需要支付和借入数量相等的$paprMEME，但因为价格上升，也就实现了利息的支付。\nLP需要自行在Uniswap V3中提供$paprMEME和ETH的流动性。如果要使$paprMEME的价格位于流动性区间内，那么就需要同时拥有$paprMEME和ETH这两种资产。目前官方推荐的交易手续费比例为1%，且在已上线的借贷产品中，所有LP均选择了这一档手续费。\n贷方也就是$paprMEME的买方。同理，贷方买入$paprMEME后持有，随着时间的推移价格上升，也就获得了利息收入。\n\n这种设计参考了Squeeth（Opyn）的机制。Squeeth首先基于Uniswap V3实现了有持续资金费率的永续合约。因为Squeeth中交易的是ETH价格的平方，直接做多和做空的收益并不匹配，多头需要持续的向空头支付资金费率。而在Papr中，借方也需要持续的向贷方支付利息。两者也都需要LP提供流动性。Papr代表的是Perpetual APR，即持续的A…",
+          "link": "https://www.panewslab.com/zh/articledetails/0fqmiv8e.html",
+          "publishedOn": "2023-02-23T03:03:39.000Z",
+          "wordCount": 1103,
+          "title": "一文读懂Coinbase工程师开发的NFT借贷平台Papr",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/23/images/nS8XqUY9FC.png"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/msw5ji3r.html",
           "author": null,
           "description": "PANews 2月23日消息，据推特用户Bit余烬监测，黄立成在昨天因接盘70多枚BAYC耗空Blur内存入的ETH后，分别从他存放稳定币的地址转来300万枚USDT买入1853枚ETH、从APE质押池赎回了20.2万APE（约110万美元）出售兑换成670枚ETH，共计将2523枚ETH存入Blur，但经过一晚上，已再次耗空。\n此外，Bit余烬还表示，黄立成于1月底时持有220万枚APE，目前仅剩25万枚，且他的APE购入成本不到4 USDT，卖出价格都在5.5 USDT以上，本月通过出售APE已获利超300万美元。",
