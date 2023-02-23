@@ -12,6 +12,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.calcalistech.com/ctechnews/article/rksbjrxro",
+          "author": null,
+          "description": "<h3>加密资产托管平台 Fireblocks 宣布裁员 5%</h3>\n<p>据 CTech 报道，加密资产托管平台 Fireblocks 宣布裁员 5%，约 30 名员工。这是该公司自高科技危机爆发以来首次裁员，其中约一半离开的员工来自以色列。\n据悉，2022 年 1 月，Fireblocks 以 80 亿美元估值完成 5.5 亿美元 E 轮融资。</p>\n<p><a href=\"https://www.calcalistech.com/ctechnews/article/rksbjrxro\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Michael Shaulov（Fireblocks 首席执行官）：</strong>在我们为下一波增长做准备时，我们希望确保我们经过优化，以捕获和服务 Fireblocks 的新垂直领域、用例和市场。由于这种需要，我们对全球团队进行了小规模重组，这将有助于我们在 2023 年更有效地满足我们的业务目标和客户需求。我们正在与每位受影响的员工合作，确保他们过渡到另一个机会，并感谢他们每个人对 Fireblocks 的贡献。【原文为英文】</p><a href=\"https://www.calcalistech.com/ctechnews/article/rksbjrxro\">内容来源</a>",
+          "link": "https://www.calcalistech.com/ctechnews/article/rksbjrxro",
+          "publishedOn": "2023-02-23T09:14:59.000Z",
+          "wordCount": 2689,
+          "title": "加密资产托管平台 Fireblocks 宣布裁员 5%",
+          "imageUrl": "https://images1.calcalist.co.il/picserver3/crop_images/2022/05/02/BytGLZ6H5/BytGLZ6H5_0_0_2500_1408_0_large.jpg"
+        },
+        {
+          "id": "https://twitter.com/NintendoDoomed/status/1628611633508655105",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密研究员 CapitalismLab 对整合改进 GMX+GNS 的衍生品项目 Lexer Markets 的机制与优劣势进行分析，并对 DEX Perp 赛道正确的迭代姿势进行探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/NintendoDoomed/status/1628611633508655105\">https://twitter.com/NintendoDoomed/status/1628611633508655105</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>Lexer Markets 主要做了这么几件事：1）加密货币用 GMX 的 Index Asset 模式，外汇 / 股票 / 商品用 GNS 的合成资产模式；2）将所有资产的交易整合到一个平台 ，全线支援 Spread/ Funding Fee 等先进机制；3）统一保证金，复合和部分平仓，头寸 NFT 化等交易体验优化。</p><a href=\"https://twitter.com/NintendoDoomed/status/1628611633508655105\">内容来源</a><p><strong>CapitalismLab：</strong>真正能改善产品竞争力的两点：1）LP 侧减小风险，增加收益；2）交易侧提升交易体验。Lexer 看来是 LP 侧选择整合目前的最优解，重点放在交易体验优化。在避免负优化上似乎特别在意，比如虽然支持先存入账户再交易的统一保证金模式，但也保留了直接开单的模式。其他交易体验改进包括：复合：帮你滚动加杠杆；部分平仓；头寸 NFT 化：换账户时可以直接把仓位「发」到另一个地址，节省成本。</p><a href=\"https://twitter.com/NintendoDoomed/status/1628611633508655105\">内容来源</a><p><strong>CapitalismLab：</strong>虽然 Lexer 整合两者优势并进行改进，但似乎缺乏爆点，有种「过于稳健」的感觉。毕竟面对 GMX/ GNS 的先发优势，后发平台如果体验优势不明显，很难吸引真实用户迁移。为了增长，团队在利益分配上与 GMX 相仿，平台币持有者和 LP 3/7 开，团队暂时不取。目前 GNS 仅有 19% 的费用收入给到 LP，但由于未完全开源且机制复杂，模仿难度很大，如果 Lexer 能在这里做到位，加上让利 LP ，或许也有一定机会。</p><a href=\"https://twitter.com/NintendoDoomed/status/1628611633508655105\">内容来源</a>",
+          "link": "https://twitter.com/NintendoDoomed/status/1628611633508655105",
+          "publishedOn": "2023-02-23T08:47:20.000Z",
+          "wordCount": 498,
+          "title": "【长推】探讨衍生品项目 Lexer Markets 的机制及优劣势",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.theblockbeats.info/news/34980",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>BlockBeats 作者 Jaleel 盘点 Y Combinator 最新孵化计划 Winter 2023 Batch 中入围的 8 家加密初创公司，主要涉及钱包、支付和隐私等基础设施领域。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.theblockbeats.info/news/34980\">https://www.theblockbeats.info/news/34980</a></p>\n<p><strong>文章作者：</strong></p><p>Jaleel</p><hr><h3>观点：</h3><p><strong>Jaleel：</strong>1）Wallbit Pay 是一个为远程工作者定制的支付平台，允许用户收取美元或加密货币，且可以以 1% 的低手续费将美元换成加密货币，无需多个中间交易平台。2）Map3 将加密服务连接到钱包、交易所和桥接器，以实现跨链存款，通过开放协议将用户直接连接到 250 多个钱包和交易所，大大降低了发送到错误链、地址的可能性。3）Littio 是为拉美人民定制的 USDC 数字美元银行账户，提供 USDC 储蓄和万事达借记卡的便捷访问方式。</p><a href=\"https://www.theblockbeats.info/news/34980\">内容来源</a><p><strong>Jaleel：</strong>4）Koywe 提供简单、文档齐全且完全合规的支付 API 和 SDK，以便开发人员可以利用加密技术提供汇款、美元钱包和投资等服务。5）Magik 是一家全球性法定货币转换加密货币的聚合器，可以帮助 web3 应用程序接受来自世界各地的付款，消除与不同地理区域的多个上行集成的需求。6）ZeroDev 是一个建立在 ERC-4337 上的 SDK，用于构建由帐户抽象提供支持的 Web3 应用程序。</p><a href=\"https://www.theblockbeats.info/news/34980\">内容来源</a><p><strong>Jaleel：</strong>7）Chataverse 是一款 NFT 社区消息传递应用程序，使 NFT 持有者和创作者能够以透明和加密的方式进行交流、社交和治理，定位为 NFT 社区的加密原生 Discord。8）Blyss SDK 使用同态加密作为增强隐私新技术，可以创建存储桶，将数据写入其中并进行私人检索，使用户可以在不泄露密码的同时检查自己是否已暴露在数据泄露中。</p><a href=\"https://www.theblockbeats.info/news/34980\">内容来源</a>",
@@ -3048,6 +3068,26 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/hkdi7p1o.html",
+          "author": null,
+          "description": "撰写：xNEO\n编译：深潮 TechFlow\nSolidLizard ( $SLIZ )是 Arbitrium 上的一个 Dex，它在过去 18 天内的 TVL 增加了 6000 万美元。\n本文将从机制、特征、代币经济学等方面分析项目。\n\n什么是 Solidlizard?\nSolidLizard 是一种无需许可的 ve(3,3) 去中心化交易所。它是 Solidly（Fantom 上的 dex）的一个分叉。\nSolidLizard 使用 ve(3,3)治理模式。这意味着，用户可以锁定他们的$SLIZ 代币，并获得一个 ve 代币，用户可以用它来投票。他们锁定的代币越多，锁定期越长，他们的 ve 代币的奖励和投票权就越大。\nve 代币持有人可以对他们喜欢的流动性资金池进行投票。他们的投票者只能从他们所投票的池子中获得费用。投票者决定哪些流动性池子应该得到更多的奖励。\n不同的协议还可以贿赂投票者在特定的投票池中投票以获得他们的选票。投票者在每个 7 天的时期结束时都能收到他们的奖励。ve 代币持有者从交易费、排放和贿赂中获得奖励。\n流动性提供者仅从排放中获得报酬，而不是通过贿赂和费用。50%的费用归投票者所有。\nSolidLizard 也有 POL，这是协议拥有的流动性，用于处理资金问题。50% 的费用用于回购 SLIZ 并加深 SLIZ/ETH 的流动性，其中一部分用于销毁。\nSLIZ 没有最大供应量。其总供应量为 4070 万，目前流通供应量为 1860 万，锁定供应量为 2110 万。市值为 950 万美元，FDV 为 1900 万美元。\n没有任何风险投资或任何形式的资金支持。SolidLizard 每周排放量分配给 LP 和 ve 代币持有者。LPs 得到 62%的排放量，ve 代币持有者得到 33%的排放量，团队得到总排放量的 5%。\n排放量取决于 SLIZ 锁定的总价值。锁定的价值越大，排放量就越少。每个时期（一周）的排放量减少 3%。\n在最开始的时候，团队铸造了 500 万个代币并添加到流动性中（这种流动性是锁定的）。 同时为团队和合作伙伴铸造了 1500 万个锁定四年的 ve 代币。",
+          "link": "https://www.panewslab.com/zh/articledetails/hkdi7p1o.html",
+          "publishedOn": "2023-02-23T09:35:29.000Z",
+          "wordCount": 1207,
+          "title": "简推：3分钟了解 Arbitrium上ve (3,3) 模型 DEX SolidLizard",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/23/images/AjJ1S2V9jT.png"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ng5txdkn.html",
+          "author": null,
+          "description": "PANews 2月23日消息，据路透社报道，总部位于特拉维夫的区块链芯片初创公司 Chain Reaction 周四表示已筹集 7000 万美元，用于扩大其工程团队，风险投资公司 Morgan Creek Digital 领投。融资总额达到 1.15 亿美元。\nChain Reaction 的联合创始人兼首席执行官 Alon Webman 表示，该公司将在今年第一季度开始量产其区块链芯片 Electrum，目标是最早在 2024 年底推出该芯片。该芯片旨在快速、高效地执行称为“散列”的区块链操作，也可用于挖掘比特币等数字货币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ng5txdkn.html",
+          "publishedOn": "2023-02-23T09:30:18.000Z",
+          "wordCount": 1041,
+          "title": "以色列区块链芯片公司Chain Reaction融资7000万美元，Morgan Creek Digital领投",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/pk5lmfoi.html",
           "author": null,
