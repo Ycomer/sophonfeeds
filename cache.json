@@ -2949,6 +2949,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/rtulvrak.html",
+          "author": null,
+          "description": "LayerZero 宣布推出新产品 Testnet Bridge，为用户提供了使用 $ETH 购买 Goerli-ETH 的解决方案。该跨链桥立即引发了 Twitter 上以太坊社区内的争论。虽然许多人对这个产品持肯定态度，但它也遭到了一群人的强烈反对，特别是以太坊开发人员。\n通过 Testnet Bridge，LayerZero 在主网（ETH /Goerli-ETH）和 Goerli 测试网（Goerli-ETH /Mainnet-ETH）分别部署了一个流动性池。用户可以将他们主网上的 $ETH 换成 Goerli-ETH，反之亦可。这给了 Goerli-ETH 货币价值。最初，Goerli-ETH 的价格被设置为0.1美元。这个市场允许以太坊上的开发人员在测试网上轻松获得 Goerli-ETH，而不必依赖 Goerli 水龙头。LayerZero 称这个跨链桥有利于“公众利益”。\n\n然而并非所有人都同意这一说法。ChainSafe 的联合创始人、Eth Core Dev 前成员 Gregory Markou 说，“这并不利于公共利益，而是有害的。以太坊没有金丝雀网络，这样做是在一个缺乏周密经济体制的网络上创造价值。”Gregory Markou 也是 Goerli-ETH 的最大持有者之一，他甚至将自己的 Twitter 名字改为“Greg | DON'T SELL GOERLI”。“测试应该是免费的。”他补充道。\n在评论区，一些开发者抱怨，通过水龙头获得 Goerli-ETH 耗时耗力，如果需要更多测试网代币，他们愿意购买。但 Gregory Markou 认为应用程序开发人员并不需要大量的 Goerli-ETH。他引用了一个以太坊基金会的视频，该视频建议开发人员使用 Sepolia 来测试他们的应用程序，而不是用 Goerli。以太坊基金会开发者 parthiosh 也持相同意见。他表示，“请不要（购买 Goerli-ETH），改用 Sepolia！”\n\n此外，以太坊基金会前成员 Hudson Jameson 认为，将测试网代币货币化不仅不能解决 Goerli-ETH 难以获得的问题，还会让新的开发者产生一种“你必须付钱才能参与以太坊测试网”的印象。\n尽管受到批评，但 Testnet Bridge 也拥有支持者，KOL 和开发人员 foobar 就是其中之一。他表示，“（他们说）‘测试网 ETH 应该是免费的。’好吧，但也没见你给我一些。你们真正的意思是，‘获取测试网 ETH 应该通过费时的行为。’你们的说教没有用，人们会进行权衡。”\n\n目前，1枚 $ETH 可以购买超过30,773个 Goerli-ETH，也就是说，Goerli-ETH 当前的价格约为0.053美元。",
+          "link": "https://www.panewslab.com/zh/articledetails/rtulvrak.html",
+          "publishedOn": "2023-02-23T04:25:06.000Z",
+          "wordCount": 1221,
+          "title": "LayerZero Testnet Bridge 引发争论：测试网代币能否自由交易？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/23/images/BL6N25X9an.jpg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/bwe89p7x.html",
           "author": null,
           "description": "PANews 2月23日消息，据官方推特，Camelot表示决定取消在Launchpad上启动OnChain Trade，并对“Camelot Launchpad存在炒作问题”的指控作出了回应。\nCamelot称：“1.销售模式并不是传闻所说的那样，而是可以根据项目的要求（hardcap、cap/wallet 等）按需自由调整；2.从一开始，就对OCT本次筹款活动收取2%的费用，由于希望支持生态系统并促进协议从zksync过渡，因此该设置远低于市场价；3.在提出销售模式后，OCT团队也在多个场合确认理解不能与其他平台合作同时启动IF0。”\n此前2月22日消息，Onchain Trade与Camelot产生纠纷，宣布取消在该平台的IF0计划。Onchain Trade指控Camelot Launchpad存在严重炒作问题。",
