@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-23T07:29:28.341Z</updated>
+    <updated>2023-02-23T07:35:47.912Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[硬件钱包 OneKey 以 8500 万美元估值完成 A+ 轮融资，IOSG Ventures 领投]]></title>
+        <id>https://medium.com/@masajp/weve-closed-our-series-a-round-6f28f98cf85b</id>
+        <link href="https://medium.com/@masajp/weve-closed-our-series-a-round-6f28f98cf85b"/>
+        <updated>2023-02-23T07:27:47.000Z</updated>
+        <summary type="html"><![CDATA[<h3>硬件钱包 OneKey 以 8500 万美元估值完成 A+ 轮融资，IOSG Ventures 领投</h3>
+<p>硬件钱包 OneKey 宣布以 8500 万美元估值完成 A + 轮融资，IOSG Ventures 领投。
+此前报道，2022 年 9 月 28 日，硬件钱包 OneKey 宣布完成 2000 万美元 A 轮融资，Dragonfly 及 Ribbit Capital 领投，Framework Ventures、Sky9 Capital、Folius Ventures、Ethereal Ventures、coinbase、santiagoroel 及个人投资者链闻前总编刘峰参投，IOSG 追投。</p>
+<p><a href="https://medium.com/@masajp/weve-closed-our-series-a-round-6f28f98cf85b">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[硬件钱包OneKey以8500万美元估值完成A+轮融资，IOSG Ventures领投]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/rdif2i88.html</id>
@@ -78,6 +91,18 @@ e) 每年至少要求 12 小时的持续专业培训（CPT）
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】一文读懂无限杠杆协议 Infinity Pools]]></title>
+        <id>https://twitter.com/wintersoldierxz/status/1628443266994802690</id>
+        <link href="https://twitter.com/wintersoldierxz/status/1628443266994802690"/>
+        <updated>2023-02-23T07:20:15.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Infinity Pools 允许用户以无限的杠杆交易任何资产。加密货币 KOL Winter Soldier 从协议架构、杠杆流程、费用和利息等方面介绍了此项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/wintersoldierxz/status/1628443266994802690">https://twitter.com/wintersoldierxz/status/1628443266994802690</a></p>
+<p><strong>文章作者：</strong></p><p>Winter Soldier</p><hr><h3>观点：</h3><p><strong>Winter Soldier：</strong>杠杆流程：通过 Uni V3 的杠杆作用创造了 5 个关键优势：无限杠杆、无限资产、免预言机、免清算、可扩展性，这些优势为 InfPool 模型的独特优势提供了背景。InfPools 将 LP 资产组合成一个集中的流动性 AMM，称为 Float Pool（类似于 Uni V3）。池中的资产可用于交易互换和贷款。当交易者存入抵押品以借入时，将创建包含 LP 代币的 Swapper。每个 Swapper 都有一个基于交易者的抵押品和所需杠杆的预定行使价。【原文为英文】</p><a href="https://twitter.com/wintersoldierxz/status/1628443266994802690">内容来源</a><p><strong>Winter Soldier：</strong>交易者可以按行使价利用 Swapper 的储备在 ETH /USDC 之间进行交换。行使价消除了清算的风险。当交易者使用杠杆时，InfPool 将 Swapper 中的 LP 代币赎回为 USDC，并与外部 DEX 交换成 ETH 。他们通过反向交易去杠杆化。【原文为英文】</p><a href="https://twitter.com/wintersoldierxz/status/1628443266994802690">内容来源</a><p><strong>Winter Soldier：</strong>费用和利息：定期贷款的利息是预先支付的（类似于期权费）。对变化期限等贷款基于利用率（类似于 Aave）。Swapper 中借用的 LP 代币越多，利率就越高。LP 从交换费用中赚取收益，并从向交易者提供杠杆贷款的利息中赚取收益。【原文为英文】</p><a href="https://twitter.com/wintersoldierxz/status/1628443266994802690">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Canto关于减少30%的CANTO代币增发量和流动性挖矿奖励的两项提案均已获投票通过]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/x0qxh3p3.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/x0qxh3p3.html"/>
@@ -86,6 +111,18 @@ e) 每年至少要求 12 小时的持续专业培训（CPT）
 根据两项提案，与之前相比，CANTO增发将减少30%，每个区块的增发奖励为5.6枚CANTO。与上期相比，流动性挖矿奖励将面临全面削减，流动性挖矿奖励将降至每个区块37.6枚CANTO。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】观点：为什么 Blur 不会取代 OpenSea]]></title>
+        <id>https://twitter.com/0xPrismatic/status/1628418941939863553</id>
+        <link href="https://twitter.com/0xPrismatic/status/1628418941939863553"/>
+        <updated>2023-02-23T07:11:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Blur 风头正劲，市场上充斥着 Blur 将会成为 OpenSea 杀手的观点。Delphi Digital 研究员 Teng Yan 不认同该观点，并从 Blur 的用户忠诚度、创作者关系、代币持有者权益等多个角度反驳了上述观点。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xPrismatic/status/1628418941939863553">https://twitter.com/0xPrismatic/status/1628418941939863553</a></p>
+<p><strong>文章作者：</strong></p><p>Teng Yan（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>NFT 市场的竞争护城河比我们想象的低得多。交易员和做市商在本质上是唯利是图的资本，NFT 市场转换成本很低，留住用户很困难。当前竞价池 TVL 数据被代币激励严重扭曲了。交易量和用户增长固然吸引眼球，仍要考虑真正重要的商业指标：CAC、LTV（取决于 Blur 的收入模式，目前还不清楚）和用户留存率。【原文为英文】</p><a href="https://twitter.com/0xPrismatic/status/1628418941939863553">内容来源</a><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>链上数据显示 Blur 的大部分交易量仅来自 500 个钱包，专业交易员的受众面很小，而 NFT 的发展趋势将会承载百万用户；忠诚度是一场闹剧，Blur 正在用额外的奖励贿赂人们；Blur 并非为创作者或散户创建，未来市场的关键竞争优势将是拥有与最佳创作者的关系；大部分利润将归于股权而不是 BLUR 代币持有人。【原文为英文】</p><a href="https://twitter.com/0xPrismatic/status/1628418941939863553">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>

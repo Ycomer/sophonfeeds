@@ -12,6 +12,36 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://medium.com/@masajp/weve-closed-our-series-a-round-6f28f98cf85b",
+          "author": null,
+          "description": "<h3>硬件钱包 OneKey 以 8500 万美元估值完成 A+ 轮融资，IOSG Ventures 领投</h3>\n<p>硬件钱包 OneKey 宣布以 8500 万美元估值完成 A + 轮融资，IOSG Ventures 领投。\n此前报道，2022 年 9 月 28 日，硬件钱包 OneKey 宣布完成 2000 万美元 A 轮融资，Dragonfly 及 Ribbit Capital 领投，Framework Ventures、Sky9 Capital、Folius Ventures、Ethereal Ventures、coinbase、santiagoroel 及个人投资者链闻前总编刘峰参投，IOSG 追投。</p>\n<p><a href=\"https://medium.com/@masajp/weve-closed-our-series-a-round-6f28f98cf85b\">内容来源</a></p><hr>",
+          "link": "https://medium.com/@masajp/weve-closed-our-series-a-round-6f28f98cf85b",
+          "publishedOn": "2023-02-23T07:27:47.000Z",
+          "wordCount": 1738,
+          "title": "硬件钱包 OneKey 以 8500 万美元估值完成 A+ 轮融资，IOSG Ventures 领投",
+          "imageUrl": "https://miro.medium.com/max/1200/1*HD0LQyEx1hiT4JHA5cNqeQ.png"
+        },
+        {
+          "id": "https://twitter.com/wintersoldierxz/status/1628443266994802690",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Infinity Pools 允许用户以无限的杠杆交易任何资产。加密货币 KOL Winter Soldier 从协议架构、杠杆流程、费用和利息等方面介绍了此项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wintersoldierxz/status/1628443266994802690\">https://twitter.com/wintersoldierxz/status/1628443266994802690</a></p>\n<p><strong>文章作者：</strong></p><p>Winter Soldier</p><hr><h3>观点：</h3><p><strong>Winter Soldier：</strong>杠杆流程：通过 Uni V3 的杠杆作用创造了 5 个关键优势：无限杠杆、无限资产、免预言机、免清算、可扩展性，这些优势为 InfPool 模型的独特优势提供了背景。InfPools 将 LP 资产组合成一个集中的流动性 AMM，称为 Float Pool（类似于 Uni V3）。池中的资产可用于交易互换和贷款。当交易者存入抵押品以借入时，将创建包含 LP 代币的 Swapper。每个 Swapper 都有一个基于交易者的抵押品和所需杠杆的预定行使价。【原文为英文】</p><a href=\"https://twitter.com/wintersoldierxz/status/1628443266994802690\">内容来源</a><p><strong>Winter Soldier：</strong>交易者可以按行使价利用 Swapper 的储备在 ETH /USDC 之间进行交换。行使价消除了清算的风险。当交易者使用杠杆时，InfPool 将 Swapper 中的 LP 代币赎回为 USDC，并与外部 DEX 交换成 ETH 。他们通过反向交易去杠杆化。【原文为英文】</p><a href=\"https://twitter.com/wintersoldierxz/status/1628443266994802690\">内容来源</a><p><strong>Winter Soldier：</strong>费用和利息：定期贷款的利息是预先支付的（类似于期权费）。对变化期限等贷款基于利用率（类似于 Aave）。Swapper 中借用的 LP 代币越多，利率就越高。LP 从交换费用中赚取收益，并从向交易者提供杠杆贷款的利息中赚取收益。【原文为英文】</p><a href=\"https://twitter.com/wintersoldierxz/status/1628443266994802690\">内容来源</a>",
+          "link": "https://twitter.com/wintersoldierxz/status/1628443266994802690",
+          "publishedOn": "2023-02-23T07:20:15.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】一文读懂无限杠杆协议 Infinity Pools",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/0xPrismatic/status/1628418941939863553",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 风头正劲，市场上充斥着 Blur 将会成为 OpenSea 杀手的观点。Delphi Digital 研究员 Teng Yan 不认同该观点，并从 Blur 的用户忠诚度、创作者关系、代币持有者权益等多个角度反驳了上述观点。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xPrismatic/status/1628418941939863553\">https://twitter.com/0xPrismatic/status/1628418941939863553</a></p>\n<p><strong>文章作者：</strong></p><p>Teng Yan（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>NFT 市场的竞争护城河比我们想象的低得多。交易员和做市商在本质上是唯利是图的资本，NFT 市场转换成本很低，留住用户很困难。当前竞价池 TVL 数据被代币激励严重扭曲了。交易量和用户增长固然吸引眼球，仍要考虑真正重要的商业指标：CAC、LTV（取决于 Blur 的收入模式，目前还不清楚）和用户留存率。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1628418941939863553\">内容来源</a><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>链上数据显示 Blur 的大部分交易量仅来自 500 个钱包，专业交易员的受众面很小，而 NFT 的发展趋势将会承载百万用户；忠诚度是一场闹剧，Blur 正在用额外的奖励贿赂人们；Blur 并非为创作者或散户创建，未来市场的关键竞争优势将是拥有与最佳创作者的关系；大部分利润将归于股权而不是 BLUR 代币持有人。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1628418941939863553\">内容来源</a>",
+          "link": "https://twitter.com/0xPrismatic/status/1628418941939863553",
+          "publishedOn": "2023-02-23T07:11:27.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】观点：为什么 Blur 不会取代 OpenSea",
+          "imageUrl": null
+        },
+        {
           "id": "https://route2fi.substack.com/p/the-bull-case-for-arbitrum-5-small",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 是以太坊迄今为止最大的 Layer 2。Layer 2 作为以太坊的扩展，在独立运行的同时受益于以太坊提供的安全保证。加密货币 KOL Route 2 Fi 总结了 Arbitrum 近期表现，并列出 5 个具有潜力的 DeFi 协议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://route2fi.substack.com/p/the-bull-case-for-arbitrum-5-small\">https://route2fi.substack.com/p/the-bull-case-for-arbitrum-5-small</a></p>\n<p><strong>文章作者：</strong></p><p>Route 2 FI</p><hr><h3>观点：</h3><p><strong>Route 2 FI：</strong>Arbitrum 表现：几个月来，Arbitrum 一直以惊人的速度增长，目前是 TVL 排名第四的链，也是 24 小时交易量排名第三的链。Arbitrum 是以太坊迄今为止最大的 Layer 2。【原文为英文】</p><a href=\"https://route2fi.substack.com/p/the-bull-case-for-arbitrum-5-small\">内容来源</a><p><strong>Route 2 FI：</strong>具有潜力的 DeFi 协议：1）FactorDAO，本质上是一个 “无代码 “资产管理平台，用于创建投资组合和指数，个人、建设者和基金经理可以在其中创建具有不同投资策略的 “金库 “。2） CamelotDEX ，是 Arbitrum 原生 DEX，自 11 月下旬推出协议以来，Camelot 的 TVL 在 2 月份从 600 万美元增长到 6900 万美元。3） Nitro Cartel，是一个 Arbitrum 原生的 DAO，其资金库旨在产生收益并进一步发展 Arbitrum 的生态系统。Nitro Cartel 旨在通过引入 Arbitrove 来实现让用户接触 Arbitrum 的生态系统资产，同时减少用户摩擦。【原文为英文】</p><a href=\"https://route2fi.substack.com/p/the-bull-case-for-arbitrum-5-small\">内容来源</a><p><strong>Route 2 FI：</strong>4）TridentDAO，是在 Arbitrum 上推出的 GameFi 项目，旨在为 GameFi 带来全新的可持续发展模式：Risk To Earn (R2E)。5）Arcadeum 已成为 GambleFi 叙事中的主要叙事。简而言之，GambleFi 本质上是将 DeFi 代币经济学整合到以赌场为主题的产品或 dapp 中的想法。【原文为英文】</p><a href=\"https://route2fi.substack.com/p/the-bull-case-for-arbitrum-5-small\">内容来源</a>",
