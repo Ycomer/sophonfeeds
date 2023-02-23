@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-23T04:32:34.850Z</updated>
+    <updated>2023-02-23T04:40:25.571Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[二十个要点：简单看懂香港最新加密货币咨询文件]]></title>
+        <id>https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA</id>
+        <link href="https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA"/>
+        <updated>2023-02-23T04:27:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2 月 20 日香港证监会就有关监管虚拟资产交易平台的建议展开咨询，引发关于香港加密监管的讨论。香港高等法院执业律师吴文谦提炼了该咨询文件的 22 个要点，涉及虚拟资产服务提供商（VASP）资质要求以及与旧型虚拟资产交易平台牌照的区别等关键问题。本文由吴说区块链授权发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA">https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA</a></p>
+<p><strong>文章作者：</strong></p><p>吴文谦</p><hr><h3>观点：</h3><p><strong>吴文谦：</strong>证监会提出的重点要求：不低于五百万港元的注资资本，并保有不低于 12 个月经营费用的流动资产；所有客户的资金及虚拟资产必须由 VASP 的子公司（有 TCSP 牌照）持有；3. 散户投资者只能投资于「大市值」虚拟资产（主要只限于前 3 或前 5 代币）；不得提供或交易虚拟资产期货合约或衍生品；提议取消之前的股权代币相关要求；提议不应向客户提供算法交易服务或质押 / 赚取服务。</p><a href="https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA">内容来源</a><p><strong>吴文谦：</strong>旧型虚拟资产交易平台牌照（OSL 和 Haskey 已获得）是用于监管证券代币交易，而新型 VASP 牌照制度则是用于监管非证券代币交易。如果一个交易平台希望同时交易证券代币和非证券代币，它们应同时申请两种牌照（单一综合申请）。</p><a href="https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA">内容来源</a><p><strong>吴文谦：</strong>所有 VASP 牌照申请者在提交牌照前和批准原则后获得 2 份独立的评估报告。要评估的主要领域包括：治理和人员配备；代币准入；虚拟资产托管；KYC、AML/CFT；市场监控；风险管理；网络安全。</p><a href="https://mp.weixin.qq.com/s/QoQd-dT8uyY0kqnsPCBazA">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LayerZero Testnet Bridge 引发争论：测试网代币能否自由交易？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/rtulvrak.html</id>
@@ -64,6 +76,18 @@ Camelot称：“1.销售模式并不是传闻所说的那样，而是可以根�
 Read the full entry]]></summary>
         <author>
             <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Frax Finance 社区通过将稳定币 FRAX 更改完全抵押的投票]]></title>
+        <id>https://snapshot.org/#/frax.eth/proposal/0x6d43531f54de3d52ad439dcb6c56e3eae1b833fceb4d484dcb3b20be070ca25d</id>
+        <link href="https://snapshot.org/#/frax.eth/proposal/0x6d43531f54de3d52ad439dcb6c56e3eae1b833fceb4d484dcb3b20be070ca25d"/>
+        <updated>2023-02-23T03:20:10.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Frax Finance 社区通过将稳定币 FRAX 更改完全抵押的投票</h3>
+<p>混合算法稳定币协议 Frax Finance 已通过将原生稳定币 FRAX 更改完全抵押支持的社区提案投票，支持率为 98.08%。投票批准了以下改动：1. 提高 FRAX 抵押率至 100%；2. 保留协议收入以支持抵押，包括暂停 FXS 回购；3. 授权每月购买 300 万美元的 frxETH 以支持抵押。</p>
+<p><a href="https://snapshot.org/#/frax.eth/proposal/0x6d43531f54de3d52ad439dcb6c56e3eae1b833fceb4d484dcb3b20be070ca25d">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
