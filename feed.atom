@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-23T08:30:16.518Z</updated>
+    <updated>2023-02-23T08:38:34.334Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[解读Optimism生态：为什么可以“乐观”看待OP的未来？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/wvkg9llu.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/wvkg9llu.html"/>
+        <updated>2023-02-23T08:30:45.000Z</updated>
+        <summary type="html"><![CDATA[原文：《一文了解 OP 生态和未来愿景》
+作者：Louis Wang
+编辑：Biteye 核心贡献者 Crush
+Optimism 作为以太坊二层 op-rollup 的双子星之一，最近由于代币价格猛烈上涨以及 Quest 活动，成为热点话题。
+从链上数据来看，OP 的链上资产稳步增长，总价值达到接近$2.4 B；日交易量在 Quest 活动结束后有所下降，但是依旧稳定在每日二十万条左右；独立用户数超过一百六十万人；gas 费比以太坊主网平均低了 150 倍。
+
+(https://chaineye.tools/optimism)
+那么 OP 生态如何能够够吸引和容纳丰富的链上活动和不断涌入的资金呢？
+虽然 OP 是以太坊的 Layer2，它本质上还是一条通用型的公链。这部分内容借助 Chaineye 的 OP 板块，为探索 OP 生态的 crypto 玩家提供一些指南。
+DeFi 永远是公链的重头戏，DeFi 项目的繁荣、创新会吸引、容纳大量的流动性，就像给发动机注入燃油一样，盘活整个公链生态。OP 的 DeFi 生态比较完善，去中心化交易所、借贷等一应俱全。
+除了以太坊龙头项目的迁移外，还有一些原生项目，如 Velodrome，这些生态项目得到 OP 的支持，添加流动性时还能额外收获 OP token 的质押奖励。
+2.1.1 DEX
+
+根据 Chaineye 显示，OP 上最大的 DEX 是 Velodrome，TVL 在所有 DEX 项目中遥遥领先，甚至超越第二名 Curve 一个数量级。
+Velodrome 是 OP 上的特色项目之一，定位为一个以 Solidly 为模型的 dex，希望在 Optimism 上构建一个主要的交易和流动性市场，并且融合了 Solidly、Curve、Olympus DAO、Votium 中如 veToken 以及博弈论等特点，同时对代…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[或被判定为证券，NBA Top Shot精彩时刻NFT面临监管“拷问”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/ofhnxymy.html</id>
@@ -35,6 +59,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Chainlink 如何成为 Web2 与 Web3 之间的中间件和基础设施层？]]></title>
+        <id>https://techflowpost.mirror.xyz/2aqbi30HKbhobwbKuEEftZxKJVhEw7AJpSkMLlKFZdI</id>
+        <link href="https://techflowpost.mirror.xyz/2aqbi30HKbhobwbKuEEftZxKJVhEw7AJpSkMLlKFZdI"/>
+        <updated>2023-02-23T08:26:12.000Z</updated>
+        <summary type="html"><![CDATA[Chainlink 如何成为 Web2 与 Web3 之间的中间件和基础设施层？ – 深潮TechFlow
+撰写：Minty
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[数据：黄立成地址今日已向Blur: Bidding存入约3064枚ETH]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/2v3pn6ad.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/2v3pn6ad.html"/>
@@ -42,6 +78,18 @@
         <summary type="html"><![CDATA[PANews 2月23日消息，Etherscan数据显示，按照北京时间，今日凌晨0时起，被标记为Jeffrey Huang（中国台湾歌手黄立成）的地址（0x020c开头）分8笔交易共向Blur: Bidding存入3063.9枚ETH，价值约511万美元。其中最大的一笔交易系约两个半小时前的1213.5万枚ETH。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Y Combinator 最新孵化计划 8 个 Web3 新项目一览]]></title>
+        <id>https://www.theblockbeats.info/news/34980</id>
+        <link href="https://www.theblockbeats.info/news/34980"/>
+        <updated>2023-02-23T08:00:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>BlockBeats 作者 Jaleel 盘点 Y Combinator 最新孵化计划 Winter 2023 Batch 中入围的 8 家加密初创公司，主要涉及钱包、支付和隐私等基础设施领域。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/34980">https://www.theblockbeats.info/news/34980</a></p>
+<p><strong>文章作者：</strong></p><p>Jaleel</p><hr><h3>观点：</h3><p><strong>Jaleel：</strong>1）Wallbit Pay 是一个为远程工作者定制的支付平台，允许用户收取美元或加密货币，且可以以 1% 的低手续费将美元换成加密货币，无需多个中间交易平台。2）Map3 将加密服务连接到钱包、交易所和桥接器，以实现跨链存款，通过开放协议将用户直接连接到 250 多个钱包和交易所，大大降低了发送到错误链、地址的可能性。3）Littio 是为拉美人民定制的 USDC 数字美元银行账户，提供 USDC 储蓄和万事达借记卡的便捷访问方式。</p><a href="https://www.theblockbeats.info/news/34980">内容来源</a><p><strong>Jaleel：</strong>4）Koywe 提供简单、文档齐全且完全合规的支付 API 和 SDK，以便开发人员可以利用加密技术提供汇款、美元钱包和投资等服务。5）Magik 是一家全球性法定货币转换加密货币的聚合器，可以帮助 web3 应用程序接受来自世界各地的付款，消除与不同地理区域的多个上行集成的需求。6）ZeroDev 是一个建立在 ERC-4337 上的 SDK，用于构建由帐户抽象提供支持的 Web3 应用程序。</p><a href="https://www.theblockbeats.info/news/34980">内容来源</a><p><strong>Jaleel：</strong>7）Chataverse 是一款 NFT 社区消息传递应用程序，使 NFT 持有者和创作者能够以透明和加密的方式进行交流、社交和治理，定位为 NFT 社区的加密原生 Discord。8）Blyss SDK 使用同态加密作为增强隐私新技术，可以创建存储桶，将数据写入其中并进行私人检索，使用户可以在不泄露密码的同时检查自己是否已暴露在数据泄露中。</p><a href="https://www.theblockbeats.info/news/34980">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
