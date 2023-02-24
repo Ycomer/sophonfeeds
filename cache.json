@@ -3299,6 +3299,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/h6ty4va2.html",
+          "author": null,
+          "description": "PANews 2月24日消息，以太坊二层ZK Rollup订单簿DEX ZigZag发推称，空投标准已经确定并公布。总共7轮空投（第一轮空投已完成），共空投约11万个地址，空投总量为3500万ZZ（占总供应量的35%）。具体空投类别有：交易员空投、Gitcoin捐赠者空投、Atlendis LP空投、ID0参与者空投、MM机器人空投、Discord会员空投和 POAP 持有人空投。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/h6ty4va2.html",
+          "publishedOn": "2023-02-24T09:51:52.000Z",
+          "wordCount": 991,
+          "title": "ZigZag公布空投标准：空投总量为3500万ZZ，共空投约11万个地址",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/39ugc9io401s.html",
           "author": null,
           "description": "原文标题：《The complete guide to GLP wars》\n作者：Henry Ang, Mustafa Yilham, Allen Zhao & Jermaine Wong，Bixin Ventures\n真实收益（Real Yield）被认为是人们可以在链上找到的最纯粹的收益形式，它不依赖于过多的代币释放，而是依赖协议实际交易产生的费用和收入。如果协议选择将利润分享给用户，那么这种可持续性的收益对DeFi农民来说极具吸引力。\nGMX是产生真实收益的代表性项目。作为一个受欢迎的永续交易平台，GMX使用GLP作为交易的流动性，用户交易产生的损失和平台费用的70%会以ETH或AVAX的形式分配给LPs和GMX Token持有者。换言之，作为DeFi协议中最大的费用产出者之一，GMX将大部分费用收入分配给利益相关者。\n\n图1：2月11日DeFi协议产生的费用\n自GMX上线以来，市场对GLP的需求猛增。目前，GMX锁定的总锁定资产价值超5亿美元，且一直处在增长状态，而GMX引发的真实收益叙事也获得了越来越多人追捧，开发者开始在GMX之上构建项目，并吸引GLP份额，GLP War随之而来。\n\n图2：GMX的TVL\nGLP War的起因\n在了解GLP War之前，我们先对GMX和GLP进行简单梳理。\nGLP是一个类似于Uniswap 的LPs流动资金池，它由下图所示的一篮子代币组成，其中48%是稳定币、52%是由其他币种组成，由于BTC、ETH等币种价格波动，整体价值会出现相应的波动。用户被激励质押GLP，以从交易者的损失中获利，同时获得esGMX和分享70%的平台交易费用。\n\n图3：GMX的GLP组合\n由于市场风险，GLP质押者获得收益的同时也可能出现亏损。下图对GLP的回报与收益进行了比较。自成立以来，GLP的回报率为-13%。\n\n图4：GLP 回报\n另外，GLP收益…",
