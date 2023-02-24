@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-24 datetime="2023-02-24T11:16:19.000Z">2023-02-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-24 datetime="2023-02-24T11:16:19.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-24 datetime="2023-02-24T11:38:53.000Z">2023-02-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-24 datetime="2023-02-24T11:38:53.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,52 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/d6qn0qp6b11o.html"
+                        open
+                      >
+                        <summary class="article-expander__title">基于Nostr协议的社交网络内容发现和中继使用思考</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/d6qn0qp6b11o.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/images/z2YDY6U2zl.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>01摘要
+本文将讨论，如何使用Nostr协议构建一个既安全又促进去中心化的基础 &quot;社交网络 &quot;应用。
+假设一个基础的 &quot;社交网络 &quot;应用就像Twitter一样。在twitter上，人们有3个page。
+主页动态：显示你关注的每个人的动态。
+个人Profile：个人资料视图，显示该用户的所有动态。
+回复：显示对某一特定动态的所有回复。
+一些Nostr客户端可能还想提供另一种体验，即显示所有人posts的全局流（Global Feed）。
+假设现有的中继可以分为三类：
+当一个用户开始关注某人时，可以通过4种不同的方式进行。
+当一个用户开始关注某人时，可以通过4种不同的方式进行。
+当这种情况发生时，预计引用（在e和p标签中）包含中继的URL，以便在第一次接触时将该人与一个中继URL联系起来。
+在情况 2 和 3 中，nprofile 和 NIP-05 地址都应该包含该人的首选中继列表，因此我们可以基于此为该人引导中继列表。
+在情况 4 中没有中继列表，因此要么通过弹出窗口或其他方式提示用户，要么尝试在已知的中继之一中搜索该公钥。 这仍然是备选方案。
+一旦有了给定配置文件的中继 URL，就可以使用这些中继从该公钥查询注释。 随着时间的推移，该用户可能会迁移到其他中继，或者可能会知道该用户也正在向其他中继发帖。 为了确保发现这些东西，我们必须注意在任何地方看到的所有事件的标签中发送的提示 - 来自任何人 - 以及类型 2 和 3 的事件，并相应地升级我们拥有配置文件和中继之间关系知识的本地数据库。
+根据我们目前收集到的信息，我们可以轻松呈现主页和个人资料视图。 为此，它仅使用有关配置文件和中继之间关系的本地信息并获取注释：
+由于我们要从中继获取非常具体的数据，我们并不关心是否安全的，因为我们可以选择过滤垃圾邮件的中继。
+现在，每当用户点击一条动态时，我们都希望显示回复状态。 在这种情况下，我们将只查询安全和关闭的中继，否则垃圾邮件可能会注入到应用程序中。 相同的原则适用于全局feed。
+本文并没有涵盖许多极端情况。 这只是为了描述一种对于去中心化的 Nostr 来说足够稳健的方式。
+例如，如何显示某人引用的笔记？ 如果它有中继提示，我们查询该中继。 如果没有，我们可以尝试与刚刚提到它的人相关联的中继，或者我们刚刚看到提到它的注释的同一个中继——因为，当提到它时，有人可能直接将它发布到自己的中继——等等。
+比所有这些更重要的是，我们必须牢记，Nostr只是一组非常松散的服务器，它们之间基本上没有任何联系，没有任何保证，而与他人保持联系和寻找内容的过程必须通过许多不同的Hackers尝试来解决。要编写Nostr应用程序和使用Nostr，就必须接受现在的混乱。
+DAOrayaki DAO研究奖金池：
+资助地址: DAOrayaki.eth
+投票进展：DAO Committee 3/0 通过
+研究种类：DAO, Governance
+贡献者：DAOctor@DAOrayaki
+审核者：Yofu @DAOrayaki
+原文：A vision for content discovery and relay usage for basic social-networking in Nostr</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -27575,8 +27621,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4262068903">
-        <time id="build-timestamp" datetime="2023-02-24T11:38:22.669Z">2023-02-24T11:38:22.669Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4262104245">
+        <time id="build-timestamp" datetime="2023-02-24T11:44:32.651Z">2023-02-24T11:44:32.651Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
