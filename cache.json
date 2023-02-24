@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/0xShinChannn/status/1628813270554644485",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Satin Exchange 是一个构建在 Polygon 上的 DEX，集稳定币兑换、代币交互、veNFT、协议投票治理一身，并在 solidly 的原始模型上作出优化。PANews 专栏作家 0xShinChan 从 ve（3，3）模型、产品特色、代币经济模型对其进行解读，分析其如何通过优化代币设计及稳定币 $CASH 达成收益迭代。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">https://twitter.com/0xShinChannn/status/1628813270554644485</a></p>\n<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Ve（3，3）模型理念：代币发行量根据锁仓代币数量进行调整；ve 代币的持有比例随着发行量调整而变化；锁仓代币的持有者可以将其仓位转换为 NFT，在二级市场交易。其主要目标是通过将 Curve 的「Ve-Token」与 Olympus 的「3,3」概念相结合，解决 DeFi 代币的分配和管理问题。</p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">内容来源</a><p><strong>0xShinChan：</strong>Satin 产品特色：1）$CASH 稳定币，由 100％抵押品支持的稳定币，与一篮子稳定币资产挂钩。2）$veSATIN 和变基收益分发，用户锁仓 $SATIN ，获取 $veSATIN。用户可以随时锁定更多的 $SATIN，累计更多的 $veSATIN。用户还可以锁定 SATIN / CASH LP 代币 (锁定期为 1-365 天) 获取 $veSATIN。由于 Satin 会通过分发 $CASH 的变基奖励于投票者，收益渠道会比一般的 Solidly 分叉更广。</p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">内容来源</a><p><strong>0xShinChan：</strong>代币经济模型：$SATIN 有别于其他 Solidly 分叉，是市场唯一具有最大供应量的代币，总供应量为 250 亿枚。代币分配如下：SATIN 每周初始发行量为 3 亿枚，之后每周会递减 2%。这意味着第二周发行量将减少到 2.94 亿 $SATIN，第三周为 2.88 亿 $SATIN，以此类推，有助降低 SATIN 通胀率，为长期持有者提供更大激励。</p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">内容来源</a>",
+          "link": "https://twitter.com/0xShinChannn/status/1628813270554644485",
+          "publishedOn": "2023-02-24T03:56:11.000Z",
+          "wordCount": 498,
+          "title": "一文解读 Polygon 生态基于 ve（3，3）模型的 DeFi 协议 Satin",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.coindesk.com/policy/2023/02/23/sec-objects-to-binanceus-1b-voyager-deal-alleging-sale-of-unregistered-securities",
           "author": null,
           "description": "<h3>美 SEC 指控 VGX 为未注册证券，反对 Binance.US 以 10.2 亿美元收购 Voyager Digital 资产的交易</h3>\n<p>据 Coindesk 报道，Binance.US 以 10.2 亿美元收购已倒闭的加密贷款机构 Voyager Digital 资产的交易遭到纽约和联邦金融监管机构的反对。SEC 表示，鉴于该计划设想如何偿还 Voyager 的前客户，拟议中的 Binance.US - Voyager 交易的内容也可能违反法律。美国证券交易委员会的一份文件称，根据协议，「为实现再平衡、将此类资产重新分配给账户持有人所必需的加密资产交易，可能违反了 1933 年证券法第 5 条中关于未经注册的要约、出售或售后交付的禁令」，其中特别引用了 Voyager 发行的 VGX 代币。纽约州金融服务部（NYDFS）和总检察长 Letitia James 在 2 月 22 日提交的两份文件中也反对这笔交易，其中包括指控 Voyager 非法为该州的客户提供服务。而 Voyager 此前曾辩称，与 Binance.US 的交易为债权人提供了可能的最佳结果，而 NYDFS 的反对意见是「虚伪的」，因为监管机构本身正在限制分发加密货币的能力。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/02/23/sec-objects-to-binanceus-1b-voyager-deal-alleging-sale-of-unregistered-securities\">内容来源</a></p><hr>",
@@ -3158,6 +3168,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/pf520m9l.html",
+          "author": null,
+          "description": "作者：Jesse Pollak\n编译：Azuma，Odaily星球日报 Azuma\n北京时间 2 月 23 日晚间，Coinbase宣布将基于 OP Stack推出以太坊 Layer2 网络Base，这是一个安全、低成本、开发者友好的以太坊 Layer2，旨在为 Web3 世界引入数以十亿计的新用户。\n在 Base 官宣后不久，Coinbase 开发主管（To C 方向）、Base 项目创始贡献者Jesse Pollak 于个人推特分享了 Base 诞生的故事，向外界详细介绍了该网络究竟是如何从一个点子变为现实的。\n下文为Jesse 推文内容，由 Odaily星球日报编译。\n\n1. 今天，我作为100 多名贡献者之一参与了 Base 的启动。Base 由 Coinbase 的builders 构建，并将为全世界的builders服务。我将在接下来的推文中讲述 Base 是如何形成的，你也可以在太平洋时间 9:30 加入我们的 Twitter Space 来了解更多信息。\n2. 我于 2017 年初加入了 Coinbase，距今已经有 6 年时间了，那刚好是在 Brian Armstrong（Coinbase创始人）撰写「Coinbase 秘密总计划」（Coinbase Secret Master Plan）6 个月后，该计划提到 Coinbase 希望为世界创建一个开放式的金融系统。\n3. 该计划分为四个阶段执行：\n该计划的最终愿景是通过开放式的 Crypto 经济来提高全球的经济自由度。\n\n4.10 年以来，Coinbase 一直在坚持不懈地执行这一计划 —— 吸引更多用户并帮助 Crypto 经济的发展。 最近，我们一直沉迷于推进第四阶段的工作，即创建可以承载 10 亿用户的 Dapps。\n5. 这里插一句话，需要注意的是 Coinbase 的这份总计划赚写于2016 …",
+          "link": "https://www.panewslab.com/zh/articledetails/pf520m9l.html",
+          "publishedOn": "2023-02-24T04:36:31.000Z",
+          "wordCount": 1498,
+          "title": "Coinbase开发主管亲述：曾2次计划发链，为何最终选择了发布新Layer2网络？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/24/images/tT54o66SmZ.png"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/nl40qc41.html",
           "author": null,

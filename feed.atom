@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-24T04:32:48.847Z</updated>
+    <updated>2023-02-24T04:40:45.301Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Coinbase开发主管亲述：曾2次计划发链，为何最终选择了发布新Layer2网络？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/pf520m9l.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/pf520m9l.html"/>
+        <updated>2023-02-24T04:36:31.000Z</updated>
+        <summary type="html"><![CDATA[作者：Jesse Pollak
+编译：Azuma，Odaily星球日报 Azuma
+北京时间 2 月 23 日晚间，Coinbase宣布将基于 OP Stack推出以太坊 Layer2 网络Base，这是一个安全、低成本、开发者友好的以太坊 Layer2，旨在为 Web3 世界引入数以十亿计的新用户。
+在 Base 官宣后不久，Coinbase 开发主管（To C 方向）、Base 项目创始贡献者Jesse Pollak 于个人推特分享了 Base 诞生的故事，向外界详细介绍了该网络究竟是如何从一个点子变为现实的。
+下文为Jesse 推文内容，由 Odaily星球日报编译。
+
+1. 今天，我作为100 多名贡献者之一参与了 Base 的启动。Base 由 Coinbase 的builders 构建，并将为全世界的builders服务。我将在接下来的推文中讲述 Base 是如何形成的，你也可以在太平洋时间 9:30 加入我们的 Twitter Space 来了解更多信息。
+2. 我于 2017 年初加入了 Coinbase，距今已经有 6 年时间了，那刚好是在 Brian Armstrong（Coinbase创始人）撰写「Coinbase 秘密总计划」（Coinbase Secret Master Plan）6 个月后，该计划提到 Coinbase 希望为世界创建一个开放式的金融系统。
+3. 该计划分为四个阶段执行：
+该计划的最终愿景是通过开放式的 Crypto 经济来提高全球的经济自由度。
+
+4.10 年以来，Coinbase 一直在坚持不懈地执行这一计划 —— 吸引更多用户并帮助 Crypto 经济的发展。 最近，我们一直沉迷于推进第四阶段的工作，即创建可以承载 10 亿用户的 Dapps。
+5. 这里插一句话，需要注意的是 Coinbase 的这份总计划赚写于2016 …]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BNB Chain：预计今年衍生品、合成资产等领域发展对DeFi至关重要]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/nl40qc41.html</id>
@@ -46,6 +68,18 @@ Orb Labs的目标是提供一个聚合端点，不同的开发人员可以根据
 Orb Las的本轮融资额并不高，但其代表了跨链桥的未来发展趋势，即构建真正意义上的多链互操作性，为此必须使跨链桥在足够灵活的同时保持足够的安全性，既能满足大规模调用的负载需求，也要保证其安全性不受影响。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文解读 Polygon 生态基于 ve（3，3）模型的 DeFi 协议 Satin]]></title>
+        <id>https://twitter.com/0xShinChannn/status/1628813270554644485</id>
+        <link href="https://twitter.com/0xShinChannn/status/1628813270554644485"/>
+        <updated>2023-02-24T03:56:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Satin Exchange 是一个构建在 Polygon 上的 DEX，集稳定币兑换、代币交互、veNFT、协议投票治理一身，并在 solidly 的原始模型上作出优化。PANews 专栏作家 0xShinChan 从 ve（3，3）模型、产品特色、代币经济模型对其进行解读，分析其如何通过优化代币设计及稳定币 $CASH 达成收益迭代。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xShinChannn/status/1628813270554644485">https://twitter.com/0xShinChannn/status/1628813270554644485</a></p>
+<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Ve（3，3）模型理念：代币发行量根据锁仓代币数量进行调整；ve 代币的持有比例随着发行量调整而变化；锁仓代币的持有者可以将其仓位转换为 NFT，在二级市场交易。其主要目标是通过将 Curve 的「Ve-Token」与 Olympus 的「3,3」概念相结合，解决 DeFi 代币的分配和管理问题。</p><a href="https://twitter.com/0xShinChannn/status/1628813270554644485">内容来源</a><p><strong>0xShinChan：</strong>Satin 产品特色：1）$CASH 稳定币，由 100％抵押品支持的稳定币，与一篮子稳定币资产挂钩。2）$veSATIN 和变基收益分发，用户锁仓 $SATIN ，获取 $veSATIN。用户可以随时锁定更多的 $SATIN，累计更多的 $veSATIN。用户还可以锁定 SATIN / CASH LP 代币 (锁定期为 1-365 天) 获取 $veSATIN。由于 Satin 会通过分发 $CASH 的变基奖励于投票者，收益渠道会比一般的 Solidly 分叉更广。</p><a href="https://twitter.com/0xShinChannn/status/1628813270554644485">内容来源</a><p><strong>0xShinChan：</strong>代币经济模型：$SATIN 有别于其他 Solidly 分叉，是市场唯一具有最大供应量的代币，总供应量为 250 亿枚。代币分配如下：SATIN 每周初始发行量为 3 亿枚，之后每周会递减 2%。这意味着第二周发行量将减少到 2.94 亿 $SATIN，第三周为 2.88 亿 $SATIN，以此类推，有助降低 SATIN 通胀率，为长期持有者提供更大激励。</p><a href="https://twitter.com/0xShinChannn/status/1628813270554644485">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
