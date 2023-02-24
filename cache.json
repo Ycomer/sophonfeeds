@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5185317",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊由于互联网级别的扩容方案和 L1 支持缺失，难以和 Web2 巨头抗衡。而 Optimism 的「超级链」旨在为未来数百、数千和数万条区块链提供支持，实现行业范式转变。Optimism 研究员 0xfF5 撰文从「超级链」概念和属性入手，解读 Optimism 的「野心」和现存痛点。本文中文版由星球日报编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185317\">https://www.odaily.news/post/5185317</a></p>\n<p><strong>文章作者：</strong></p><p>0xfF5A</p><hr><h3>观点：</h3><p><strong>0xfF5A：</strong>「超级链」基础概念：一种可互操作的区块链网络，可以将每个区块链视作商品，即「可互换的计算资源」，可满足水平可扩展性的需求而无需引入系统性风险，可以构建跨链应用程序。与多链设计不同的是，OP 链是标准化的，旨在用作可互换的资源，这将使开发人员能够构建以整个超级链为目标的应用程序，并抽象出运行应用程序的底层链。</p><a href=\"https://www.odaily.news/post/5185317\">内容来源</a><p><strong>0xfF5A：</strong>为了将 Optimism 升级为超级链，必须具备属性：1）共享 L1 区块链；2）所有 OP 链的共享桥；3）低成本 OP 链部署；4）OP 链的配置选项；5）安全交易和跨链消息。Optimism 需要在 Bedrock 发布后才能创建初始「超级链」，以使用 SystemConfig 合约定义 L2，并放置 L2 数据到超级链上。在超级链桥接安全模型中，安全性（即有效性）和活跃性（即抗审查性）能够得到保证。</p><a href=\"https://www.odaily.news/post/5185317\">内容来源</a><p><strong>0xfF5A：</strong>Optimism 想要升级到「超级链」仍需解决以下痛点：1）取款声明依赖于一组可信的链证明者；2）跨链交易很慢；3）跨链交易异步，打破执行原子跨链交易（如闪电贷）的能力；4）交易发布到超级链后不可扩展，因为交易数据必须提交到容量有限的 L1；5）没有简单框架来构建利用 OP 链的可扩展 dApp；6）没有简单的钱包来管理 OP 链上的资产和 dApp。</p><a href=\"https://www.odaily.news/post/5185317\">内容来源</a><p><strong>0xfF5A：</strong>Optimism 和 Coinbase 的强强联手无疑给「超级链」的发展开了个好头，从短期来看，其合作努力将 Optimism 主网、Base 和其他 L2 升级到一个初始的超级链结构， 并具有共享的桥接和排序，未来势必会有更多 L2 被纳入到「超级链」生态中；从长期来看，「超级链」可以发展成为一个庞大的网络，最大限度地提高互操作性、共享去中心化协议并标准化其核心原语。</p><a href=\"https://www.odaily.news/post/5185317\">内容来源</a>",
+          "link": "https://www.odaily.news/post/5185317",
+          "publishedOn": "2023-02-24T09:00:56.000Z",
+          "wordCount": 1910,
+          "title": "详解「超级链」概念：Base 只是 Optimism 的小「野心」",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.hashkey.com/en/newsroom/hashkey-obtains-sfc-approval-to-conduct-off-platform-virtual-asset-trading",
           "author": null,
           "description": "<h3>数字资产金融服务提供商 HashKey Group 获证监会批准进行场外虚拟资产交易</h3>\n<p>据 HashKey Group 官方消息，该公司已获得香港证券及期货事务监察委员会（证监会）的批准，可以为 Hash Blockchain Limited （ HBL ）开展场外虚拟资产交易业务（ OTC ）。 HBL 首席执行官 Colin Zhong 表示，「与场外交易业务通常不透明和不受监管的性质相比，受监管的交易所可以改变香港的场外交易市场，为投资者交易数字资产提供更安全和透明的环境」。据悉，HashKey Group 是全球首家获得香港证监会、日本金融厅颁发的包括场外交易牌照在内的虚拟资产牌照的数字资产集团。</p>\n<p><a href=\"https://www.hashkey.com/en/newsroom/hashkey-obtains-sfc-approval-to-conduct-off-platform-virtual-asset-trading\">内容来源</a></p><hr>",
