@@ -12,6 +12,46 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>几个月前，JPMC 进行了他们所谓的「DeFi 机构」交易。Vertalo 方案架构副总裁 Collin Sellers 撰文对其交易流程及重要性进行了解读，并解释了该交易对资本市场的未来意味着什么。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug\">https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug</a></p>\n<p><strong>文章作者：</strong></p><p>Collin Sellers</p><hr><h3>观点：</h3><p><strong>Collin Sellers：</strong>Onyx 在与 EVM 兼容的侧链 Polygon 上进行这项交易，以保持最低的交易费用和低延迟时间，但除此之外，他们构建的环境是一个许可的环境，协议本身只允许白名单上的交易者访问进入交易。换句话说，Onyx 没有使用私有区块链，而是选择使用公共区块链，但却是一个私有的许可协议，有链上身份和其他控制措施，使交易成为可能并符合规定。</p><a href=\"https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug\">内容来源</a><p><strong>Collin Sellers：</strong>该交易与标准外汇交易之间需要注意的重要区别如下：1）Aave 是一个借贷协议，这意味着 SBI 和 JPMC 分别抵押了他们的资产并收到对方资产作为交换；2）Aave 不是一个涉及法币的外汇支持协议，没有任何方法将法币从一个机构转移至另一个机构，这使得这项交易在使用他们技术创造全新市场领域符合法规；3）JPMC 的交易是代币化存款，而不是稳定币或法币本身。</p><a href=\"https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug\">内容来源</a><p><strong>Collin Sellers：</strong>大型金融机构在链上执行 DeFi 许可交易而言，Onyx 的「DiFi 机构」交易是非常独特，该过程包括：公共区块链、授权协议、授权的流动性池，Aave Arc、以及管理完整的合规组件、实体 ID 和交易者 ID 的链上身份、无 Gas（元）交易、代币化的银行存款（不是稳定币）、利用借贷协议的外汇交易。</p><a href=\"https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/SFZ4BL47rA0dRhlk99iUug",
+          "publishedOn": "2023-02-24T05:11:06.000Z",
+          "wordCount": 9543,
+          "title": "解读摩根大通的「DeFi 机构」外汇交易",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/PAaBQuko3BiaK5K6rBvw3PVVedYVYS52qav6fPcKRJWZ8LfPjQRBNls1NSROe5iclDqhP19looDGmcREjArjFeOg/0?wx_fmt=jpeg"
+        },
+        {
+          "id": "https://blog.namada.net/shaping-multichain-privacy/",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Namada 通过在多链中提供最大可能的统一隐私集，并通过播种 / 改造隐私保护操作来补充其他链，从而赋予隐私领域不同的形态。Namada 联合创始人 Awa Sun Yin 撰文解释目前隐私集有何缺失，并分析 Namda 的架构如何改变了多链隐私格局并促其显著改善。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://blog.namada.net/shaping-multichain-privacy/\">https://blog.namada.net/shaping-multichain-privacy/</a></p>\n<p><strong>文章作者：</strong></p><p>Awa Sun Yin</p><hr><h3>观点：</h3><p><strong>Awa Sun Yin：</strong>目前隐私集是碎片化的，隐私保证仅限于其用户群的规模。多链中的隐私集基本上是孤立的，并仅限于同质化资产，不能与非同质化资产组合。但 Namada 旨在解决隐私集的隔离问题，为任何同质化 / 非同质化代币创建了一个与资产无关的屏蔽池，并通过将资产与平台解耦并使它们能够转移到统一的隐私集，消除了平台的碎片化。【原文为英文】</p><a href=\"https://blog.namada.net/shaping-multichain-privacy/\">内容来源</a><p><strong>Awa Sun Yin：</strong>Namada 为想要在另一条链上使用源自一条主链的资产而不丢失隐私的用户播种隐私，将隐私改造为在透明链上创建和使用的资产。并可以充当透明链和私有链之间的私有桥梁，用户在 Namada 中将资产私有化，然后将它们桥接到 Penumbra 以实现私有 Defi。用户可以通过 Namada 屏蔽操作（Shielded actions）直接与其他链及其各自的 dApp 私下交互，屏蔽操作适用于连接到 Namada 的任何链。【原文为英文】</p><a href=\"https://blog.namada.net/shaping-multichain-privacy/\">内容来源</a><p><strong>Awa Sun Yin：</strong>Namada 的密码学已经升级以启用屏蔽集奖励，鼓励用户选择隐私传输而不是透明传输，并激励用户对其他链上创建的资产尽可能多地进行隐私改造。在 Namada，隐私被视为公共物品。Namada 将提供共享隐私，统一的屏蔽集可以在许多异构隐私链之间共享，使隐私具有反竞争性，同时私有桥还增强了跨链的隐私和用户体验。【原文为英文】</p><a href=\"https://blog.namada.net/shaping-multichain-privacy/\">内容来源</a>",
+          "link": "https://blog.namada.net/shaping-multichain-privacy/",
+          "publishedOn": "2023-02-24T05:09:37.000Z",
+          "wordCount": 2038,
+          "title": "【英文】塑造多链隐私？解读 Cosmos 生态隐私公链 Namada ：统一隐私集、播种及改造隐私......",
+          "imageUrl": "https://blog.namada.net/content/images/2023/02/Namada_-Use-case_Final-05-1.jpg"
+        },
+        {
+          "id": "https://twitter.com/blockworksres/status/1628787022700879872",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Axelar 作为区块链连接器，已成为 Cosmos 生态最大推动者之一。Blockworks Research 分析师 D 从 跨链网关协议（CGP）、通用消息传递（GMP）对 Axelar 进行解析，分析其如何创新跨链体验并吸引新用户。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockworksres/status/1628787022700879872\">https://twitter.com/blockworksres/status/1628787022700879872</a></p>\n<p><strong>文章作者：</strong></p><p>D (Blockworks Research 分析师）</p><hr><h3>观点：</h3><p><strong>D (Blockworks Research 分析师）：</strong>Axelar 的「秘方」：跨链网关协议（CGP），CGP 通过「网关」同步源链和目标链之间的状态。网关是 EVM 链上的智能合约或非 EVM 链上的应用程序，允许 Axelar 验证器执行读写操作、投票和证明所有事件。团队计划在未来要求所有验证者共同签署网关升级。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1628787022700879872\">内容来源</a><p><strong>D (Blockworks Research 分析师）：</strong>Axelar 通过通用消息传递（GMP）可以在 dApp 级别创建异步跨链可组合性。Squid Router 是 GMP 的第一个主要实例，执行一键式原生跨链交换，并与池无关，聚合链上所有资金池的报价，为用户提供最优惠的价格。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1628787022700879872\">内容来源</a><p><strong>D (Blockworks Research 分析师）：</strong>Axelar 迅速成为了 Cosmos 生态中从 EVM 到 IBC 的首要跨链桥，最常用的链对涉及 Terra、Osmosis、Avalance、Ethereum、Terra-2。Circle 计划将 Axelar 的 GMP 功能用于其跨链传输协议（CCTP)，将可组合的 UDSC 引入原生跨链 dApp。随着该计划推动及 Cosmos 生态获得更多的关注，Axelar 将从下一波加密采用中受益。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1628787022700879872\">内容来源</a>",
+          "link": "https://twitter.com/blockworksres/status/1628787022700879872",
+          "publishedOn": "2023-02-24T05:00:22.000Z",
+          "wordCount": 498,
+          "title": "【英文长推】Blockworks Research：解析基于 Cosmos SDK 的兼容 IBC 通用跨链通信网络 Axelar",
+          "imageUrl": null
+        },
+        {
+          "id": "https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Celestia 工程师 diego 在 Celestia 模块化研究员（Modular Fellows）支持计划中构造了一个使用 FuelVM 在 Celestia 上构建主权 Rollup 的实验。diego 在本文中对 Fuelmint 的组件及其如何协同工作进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups\">https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups</a></p>\n<p><strong>文章作者：</strong></p><p>diego</p><hr><h3>观点：</h3><p><strong>diego：</strong>Fuelmint 的构建需要使用 FuelVM 执行，使用 Celestia 用于数据可用性和共识，同时使用 Rollkit 进行结算。因此通过 Fuelmint 的构件，你在可以获得主权 Rollup 优势的同时还能利用 Fuel 提供的所有工具编写智能合约。【原文为英文】</p><a href=\"https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups\">内容来源</a><p><strong>diego：</strong>Rollkit 是一个模块化 Rollup 框架，允许开发者在整个模块化堆栈中部署 Rollup。其为 Rollups 提供了一个 ABCI 客户端实现，作为一个接口，ABCI 允许区块链客户端和应用程序相互通信，即使它们是用完全不同的语言编写的。而 Tendermint Core 是最知名的 ABCI 客户端实现。Rollkit 没有像 Tendermint 那样让区块经历一个共识过程，而是使用排序器排序交易，通过 ABCI 与应用程序进行通信，并提供类似 Tendermint 的 RPC 端点。【原文为英文】</p><a href=\"https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups\">内容来源</a><p><strong>diego：</strong>Fuelmint 使用的是 Penumbra 的 tower-abci，处理所有接收请求和发送相应的逻辑。另一个组件是 ABCIRelayer，允许 Rollkit 与应用逻辑所在的 tower-abci 服务器通信。但 Rollkit 不支持与应用程序的套接字链接，这就是中继器的作用所在。除了 Rollkit 排序器及能够处理 FuelVM 的应用程序，我们还需要一个 Fuel RPC 服务。与 Fuel 类似，Fuelmint 运行的是一个修改过的 Fuel GraphQL 客户端，通过这个稍加修改的 Fuel RPC 服务，可以开箱即用 Fuel 工具。【原文为英文】</p><a href=\"https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups\">内容来源</a><p><strong>diego：</strong>通过 Rollkit 和 ABCI，使用 FuelVM 作为 Rollup 执行环境变得简单，但也存在一些挑战：1）大部分构件 ABCI 应用的工具都是针对 Cosmos SDK 的，因此需要 Golang；2）之前唯一被 ABCI 包装的 EVM 的用例是在 Paradigm 的 N/B repo 中发现的；3）所有 Cosmos 链、测试网和项目中，只有两个用 Rust 编写的 ABCI 应用程序，repo 和 Penumbra。【原文为英文】</p><a href=\"https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups\">内容来源</a>",
+          "link": "https://diegoferrer.substack.com/p/fuelmint-sovereign-fuelvm-rollups",
+          "publishedOn": "2023-02-24T04:43:06.000Z",
+          "wordCount": 4815,
+          "title": "【英文】如何使用 FuelVM 在 Celestia 上构建主权 Rollup？解构 Fuelmint 组件及运作方式",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ee9565c-90ae-4000-8129-be9338e76316_607x429.png"
+        },
+        {
           "id": "https://twitter.com/0xShinChannn/status/1628813270554644485",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Satin Exchange 是一个构建在 Polygon 上的 DEX，集稳定币兑换、代币交互、veNFT、协议投票治理一身，并在 solidly 的原始模型上作出优化。PANews 专栏作家 0xShinChan 从 ve（3，3）模型、产品特色、代币经济模型对其进行解读，分析其如何通过优化代币设计及稳定币 $CASH 达成收益迭代。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">https://twitter.com/0xShinChannn/status/1628813270554644485</a></p>\n<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Ve（3，3）模型理念：代币发行量根据锁仓代币数量进行调整；ve 代币的持有比例随着发行量调整而变化；锁仓代币的持有者可以将其仓位转换为 NFT，在二级市场交易。其主要目标是通过将 Curve 的「Ve-Token」与 Olympus 的「3,3」概念相结合，解决 DeFi 代币的分配和管理问题。</p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">内容来源</a><p><strong>0xShinChan：</strong>Satin 产品特色：1）$CASH 稳定币，由 100％抵押品支持的稳定币，与一篮子稳定币资产挂钩。2）$veSATIN 和变基收益分发，用户锁仓 $SATIN ，获取 $veSATIN。用户可以随时锁定更多的 $SATIN，累计更多的 $veSATIN。用户还可以锁定 SATIN / CASH LP 代币 (锁定期为 1-365 天) 获取 $veSATIN。由于 Satin 会通过分发 $CASH 的变基奖励于投票者，收益渠道会比一般的 Solidly 分叉更广。</p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">内容来源</a><p><strong>0xShinChan：</strong>代币经济模型：$SATIN 有别于其他 Solidly 分叉，是市场唯一具有最大供应量的代币，总供应量为 250 亿枚。代币分配如下：SATIN 每周初始发行量为 3 亿枚，之后每周会递减 2%。这意味着第二周发行量将减少到 2.94 亿 $SATIN，第三周为 2.88 亿 $SATIN，以此类推，有助降低 SATIN 通胀率，为长期持有者提供更大激励。</p><a href=\"https://twitter.com/0xShinChannn/status/1628813270554644485\">内容来源</a>",
@@ -3168,6 +3208,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/q2gibbsu.html",
+          "author": null,
+          "description": "PANews 2月24日消息，据News1报道，韩国金融当局最近要求该国以韩元为基础的加密交易所证明其质押服务的驱动原理和商品性相关的证明。该国提供质押服务的以韩元为基础的加密交易所中有四分之三最近承认，他们收到了该国金融监督院对其质押服务进行调查的要求。\n报道称，该国金融当局之所以开始关注交易所的质押服务，是因为最近美国证券交易委员会（SEC）对Kraken的质押服务提出异议，认为其违反了证券法。据分析，虽然美国和韩国的法律体系不同，但当局已经开始检查该国的质押服务以及加密行业中值得关注的案例。业内人士担心质押也可能被纳入该国监管范围。\n此前2月14日消息，韩国金融监督院成立特别工作组审核具有证券属性的虚拟资产。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/q2gibbsu.html",
+          "publishedOn": "2023-02-24T05:37:04.000Z",
+          "wordCount": 984,
+          "title": "韩国金融当局正调查加密交易所的质押服务，或欲将质押纳入监管",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/5apw6ot3.html",
           "author": null,
