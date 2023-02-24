@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-24T07:33:07.419Z</updated>
+    <updated>2023-02-24T07:39:20.531Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -71,6 +71,18 @@ Polygon联合创始人Mihailo Bjelic对此回复称：“你说得对，重组�
 此前消息，昨日凌晨，Polygon出现一次“异常大”的区块重组，规模为157个区块，导致一些节点失去同步，且PolygonScan数据中断近两个小时。不过官方称区块生产从未停止。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊核心开发者：计划今年晚些时候推出新测试网]]></title>
+        <id>https://twitter.com/TimBeiko/status/1628823216574844928</id>
+        <link href="https://twitter.com/TimBeiko/status/1628823216574844928"/>
+        <updated>2023-02-24T06:50:29.000Z</updated>
+        <summary type="html"><![CDATA[<h3>以太坊核心开发者：计划今年晚些时候推出新测试网</h3>
+<p>以太坊核心开发者 Tim Beiko 发布推特表示，计划于今年晚些时候推出一个新的测试网 Holli，该网络名称可能会改成 Holešky。此外，为了让应用开发者方便访问测试网 ETH，及在转移至新测试网后让主要项目迁移并实现可组合性，Tim Beiko 给出了两个建议：将每个在主网、Goerli 和 Sepolia 上部署过合约的 ETH 地址添加至 genesis file 件中及与主要合约和基础设施开发商协调在创世后不久在网络上启动。</p>
+<p><a href="https://twitter.com/TimBeiko/status/1628823216574844928">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
