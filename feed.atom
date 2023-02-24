@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-24T12:29:34.716Z</updated>
+    <updated>2023-02-24T12:45:57.431Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[比特币钱包BlueWallet将于4月30日关闭LndHub连接并提醒用户尽快提取资金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/8n0zua15.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/8n0zua15.html"/>
+        <updated>2023-02-24T12:44:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月24日消息，据Cointelegraph报道，比特币钱包BlueWallet宣布目前正在取消与Lndhub的闪电网络节点连接，并将停止相关闪电网络比特币托管服务。不过据开发人员@Callebtc解释，本次不是BlueWallet本身关闭业务，只是不再为LndHub协议账户提供服务，以寻求推动自托管解决方案和更大程度的去中心化，据悉该服务将于4月30日关闭，因此提醒相关用户需要将sats转移到其他服务或钱包。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[基于Nostr协议的社交网络内容发现和中继使用思考]]></title>
         <id>https://www.panewslab.com/zh/articledetails/d6qn0qp6b11o.html</id>
