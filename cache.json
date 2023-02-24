@@ -3119,6 +3119,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/7499ej6j.html",
+          "author": null,
+          "description": "PANews 2月24日消息，据彭博社报道，USDC稳定币发行商Circle的首席执行官Jeremy Allaire在接受采访时表示：“我不认为SEC是稳定币的监管机构，在世界各地，包括美国，政府明确表示支付稳定币是一种支付系统和银行监管活动，这是有原因的。虽然所有的稳定币不都是平等的，但从政策的角度来看，全世界的统一观点是这是一个支付系统下的审慎监管空间。”\n此外，Allaire表示，他总体上支持美国证券交易委员会最近的一项提案，该提案将虚拟货币纳入受“合格托管人”要求约束的资产中。Allaire称：“我们认为拥有合格的托管人可以提供适当的控制结构和破产保护等，这是一个非常重要的市场结构，非常有价值。”\n此前消息，稳定币发行商Paxos因BUSD收到美SEC的韦尔斯通知后，Circle澄清其未收到韦尔斯通知。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/7499ej6j.html",
+          "publishedOn": "2023-02-24T02:13:04.000Z",
+          "wordCount": 993,
+          "title": "Circle CEO：稳定币应由银行业监管机构监管，而不是SEC",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/y1njgxm2.html",
           "author": null,
           "description": "PANews 2月24日消息，据CoinDesk报道，Coinbase在发布以太坊L2网络Base测试网的几个小时后，该网络就出现了故障，推特用户@0xfoobar附上Etherscan的交易列表截图并表示：“Base的桥开局很艰难。每一笔交易都在恢复，而且桥接合约都未经验证，所以没有人能弄清楚发生了什么。”不过其中一些交易似乎已经恢复。Coinbase表示，测试网的操作故障是由Coinbase钱包的一个问题引起的，该钱包错误地估计了执行用户交易所需的gas费。因此，用户支付的gas低于执行交易所需的gas，这促使Base恢复这些交易，而不是处理它们。\nCoinbase软件工程师Roberto Bayardo在发布几小时后在推特上解释说:“现在应该修复了。桥接合同在负载下会增加gas使用量，这是钱包没有正确估计的。现已硬编码了更高的gas限制。”据Bayardo说，突然涌入的用户可能已经使协议不堪重负，也是测试网发布当天出现问题的原因之一。\n此外，有推特用户发现，Base团队最初在其网站上承诺将20%的Sequencer收入捐赠给“资助公共产品”，但之后删除了这一百分比，更新为Base将为公共产品贡献一个未公开的百分比，或“Sequencer收入的一部分”Coinbase的一个代表对此表示，20%的数字已从Base的网站上删除，因为它与Optimism Collective合作，正在最终确定分配给公共产品的收入数额。",
