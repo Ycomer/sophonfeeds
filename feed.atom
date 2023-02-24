@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-24T08:56:08.473Z</updated>
+    <updated>2023-02-24T09:03:11.647Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[深度解析FOAKS当中的多项式承诺协议Brakedown]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/28g6puet.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/28g6puet.html"/>
+        <updated>2023-02-24T09:00:31.000Z</updated>
+        <summary type="html"><![CDATA[撰文：康水跃，Fox Tech CEO；孟铉济，Fox Tech 首席科学家
+在许多依赖多项式承诺的零知识证明系统当中，使用了不同的承诺协议。根据 a16z 的 Justin Thaler 在 2022 年 8 月文章「Measuring SNARK performance: Frontends, backends, and the future」的评估，Brakedown 虽然有较大的 Proof Size，但是无疑是当下最快的多项式承诺协议。
+FRI、KZG、Bulletproof 是更为常见的多项式承诺协议，但速度是它们的瓶颈。zkSync 采用的 Plonky、Polygon zkEVM 采用的 Plonky2、Scroll 采用的 Ultra-Plonk 等算法都是基于 KZG 的多项式承诺。Prover 涉及到大量的 FFT 计算和 MSM 运算生成多项式和承诺，这两者都会带来大量的计算负担。 虽然 MSM 有运行多线程加速的潜力，但需要大量内存，即使在高并行下也很慢，而大型 FFT 则严重依赖算法运行时数据的频繁洗牌，难以通过分布式加速跨计算集群加载。
+正是由于有了更为快速的多项式承诺协议 Brakedown，才使这类运算的复杂度大幅降低。
+FOAKS 即 Fast Objective Argument of Knowledges，是由 Fox Tech 提出的一种基于 Brakedown 的零知识证明系统框架。FOAKS 在 Orion 的基础上进一步减少 FFT 运算，目标是最终消除 FFT。此外，FOAKS 还设计出一种全新的非常精妙的证明递归方式来减少证明大小。FOAKS 框架的优势在于在实现线性证明时间的基础上有着较小的证明大小，非常适合应用于 zkRollup 场景当中。
+下文我们将详细介绍 FOAKS 所使用的多项式承诺协议 Brakedown。…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ERC-4626 的未来：给 DeFi 带来指数级的流动性和资本效率]]></title>
+        <id>https://techflowpost.mirror.xyz/gTbDbzG5hqNF0NS7qjJgGMAD0YzwG1p1f8NV2Rx_WmM</id>
+        <link href="https://techflowpost.mirror.xyz/gTbDbzG5hqNF0NS7qjJgGMAD0YzwG1p1f8NV2Rx_WmM"/>
+        <updated>2023-02-24T08:48:36.000Z</updated>
+        <summary type="html"><![CDATA[ERC-4626 的未来：给 DeFi 带来指数级的流动性和资本效率 – 深潮TechFlow
+撰写：ValHolla
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Waves创始人：我不是Waves上任何项目的受益者，所有生态代币都将捐​​给XTN金库]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/78n89jts.html</id>

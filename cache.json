@@ -3289,6 +3289,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/28g6puet.html",
+          "author": null,
+          "description": "撰文：康水跃，Fox Tech CEO；孟铉济，Fox Tech 首席科学家\n在许多依赖多项式承诺的零知识证明系统当中，使用了不同的承诺协议。根据 a16z 的 Justin Thaler 在 2022 年 8 月文章「Measuring SNARK performance: Frontends, backends, and the future」的评估，Brakedown 虽然有较大的 Proof Size，但是无疑是当下最快的多项式承诺协议。\nFRI、KZG、Bulletproof 是更为常见的多项式承诺协议，但速度是它们的瓶颈。zkSync 采用的 Plonky、Polygon zkEVM 采用的 Plonky2、Scroll 采用的 Ultra-Plonk 等算法都是基于 KZG 的多项式承诺。Prover 涉及到大量的 FFT 计算和 MSM 运算生成多项式和承诺，这两者都会带来大量的计算负担。 虽然 MSM 有运行多线程加速的潜力，但需要大量内存，即使在高并行下也很慢，而大型 FFT 则严重依赖算法运行时数据的频繁洗牌，难以通过分布式加速跨计算集群加载。\n正是由于有了更为快速的多项式承诺协议 Brakedown，才使这类运算的复杂度大幅降低。\nFOAKS 即 Fast Objective Argument of Knowledges，是由 Fox Tech 提出的一种基于 Brakedown 的零知识证明系统框架。FOAKS 在 Orion 的基础上进一步减少 FFT 运算，目标是最终消除 FFT。此外，FOAKS 还设计出一种全新的非常精妙的证明递归方式来减少证明大小。FOAKS 框架的优势在于在实现线性证明时间的基础上有着较小的证明大小，非常适合应用于 zkRollup 场景当中。\n下文我们将详细介绍 FOAKS 所使用的多项式承诺协议 Brakedown。…",
+          "link": "https://www.panewslab.com/zh/articledetails/28g6puet.html",
+          "publishedOn": "2023-02-24T09:00:31.000Z",
+          "wordCount": 2037,
+          "title": "深度解析FOAKS当中的多项式承诺协议Brakedown",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/24/images/1Dr1bhYc81.jfif"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/78n89jts.html",
           "author": null,
           "description": "PANews 2月24日消息，公链项目Waves、Vires Finance创始人Sasha Ivanov在推特上表示：“是时候澄清一些关于Waves生态系统和我参与其中的事情了。Waves已经成为一个由独立项目组成的去中心化生态系统，有自己的路线图。我不是Waves上任何项目的受益者，只是其中一些项目的顾问。我唯一的目标和动机是让生态系统运转起来。这就是为什么我也对影响整个生态系统的问题负责，并致力于解决这些问题。”\n此外，Ivanov宣布，Waves.exchange通过WX.network域上的新去中心化桥有效地重新启动（已于去年10月宣布）。目前的网关将在可预见的未来继续运行，它们的流动性问题将在大约一个月内得到解决。将推出新版本的借贷协议，支持新的桥梁，以及其他重大改进。Vires持有者将像以前一样获得协议利润。新版预计到三月中旬左右。\nIvanov还表示：“XTN（前USDN）将得到维护和开发。团队和我本人将捐赠生态系统代币以增加尽快价值并支撑XTN的市场价值，这最终将允许增加Vires的解锁限制。这个过程将于下周开始。我所有的生态系统代币都将捐赠​​给XTN金库。我目前不持有任何Waves或与此相关的任何其他加密货币，除了从Vires的坏账中承担的XTN。除了负责上面提到的问题，我还将致力于Waves 2.0的发布，以及新的PowerDao治理协议。”",
@@ -9265,6 +9275,16 @@
       "feedUrl": "https://techflowpost.mirror.xyz/feed/atom",
       "siteUrl": "https://techflowpost.mirror.xyz",
       "articles": [
+        {
+          "id": "https://techflowpost.mirror.xyz/gTbDbzG5hqNF0NS7qjJgGMAD0YzwG1p1f8NV2Rx_WmM",
+          "author": null,
+          "description": "ERC-4626 的未来：给 DeFi 带来指数级的流动性和资本效率 – 深潮TechFlow\n撰写：ValHolla\nRead the full entry",
+          "link": "https://techflowpost.mirror.xyz/gTbDbzG5hqNF0NS7qjJgGMAD0YzwG1p1f8NV2Rx_WmM",
+          "publishedOn": "2023-02-24T08:48:36.000Z",
+          "wordCount": 1348,
+          "title": "ERC-4626 的未来：给 DeFi 带来指数级的流动性和资本效率",
+          "imageUrl": "https://mirror-media.imgix.net/publication-images/kYhl9eUJKjNzNI_3CXXx8.png?height=446&width=892&h=446&w=892&auto=compress"
+        },
         {
           "id": "https://techflowpost.mirror.xyz/uEQ7g9WPJ5rLUWxEVn-aMF_rjHMn9XP1mWDaockzzUQ",
           "author": null,
