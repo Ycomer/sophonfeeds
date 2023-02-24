@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-24T08:27:56.151Z</updated>
+    <updated>2023-02-24T08:36:42.127Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bankless解读新Layer2 Base：Coinbase向币安发起的新挑战？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/y1c7p9u2.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/y1c7p9u2.html"/>
+        <updated>2023-02-24T08:34:16.000Z</updated>
+        <summary type="html"><![CDATA[原文：《? Unpacking the Coinbase L2 Opportunity》by Jack Inabinet
+编译：Yangz
+感受到那个蓝点了吗？在 Coinbase 发布了一个神秘的短视频‌，指定当天为 Big day 后，CT 一时间充斥着蓝点热潮。甚至 Optimism 也加入了这一行列！
+
+昨天一整天，CToors 一直宅阅读字里行间的内容，其中一些认为他们发现了传说中的 Arbitrum 空投！
+
+然而，这些说法是错误的，也是完全不符合事实的！那么，到底发生了什么？
+? Coinbase 正在推出自己的 optimistic L2 Rollup，称为 Base
+? 建立在 optimistic 的 OP Stack 之上
+Coinbase 告诉我们，他们曾两次考虑推出 Binance Smart Chain 式的 L1，但决定不采取这种做法，因为他们担心这样做会使他们的链与新兴的加密经济隔离。
+OP Stack--Optimism 的模块化、开源蓝图，用于创建高度可扩展、高度可互操作的各类区块链 -- 被证明是 Coinbase 的游戏改变者，为他们提供了建立自己的链的机会。
+在大约两个月内向主网推出，Base 将作为一个去权限的 L2 运作。尽管有相关猜测，但这不是 KYC 的区块链。我们得到的是一个直接的 optimistic L2 rollup，对所有的开发者和用户开放。不幸的是，在最开始，Coinbase 将是该链的唯一定序者，Base 被归类为一个完整的训练轮「阶段 0」rollup，与 Vitalik 的 rollup分类法相一致。
+Coinbase 对加密价值的总体忠诚度通过他们对去中心化和安全的承诺得以展示：
+有限训练轮阶段的广泛实现和 EIP-4844 的推出将使以太坊达到 Vitalik 的以太坊路线图上的「基本 rollup 扩…]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数字资产金融服务提供商 HashKey Group 获证监会批准进行场外虚拟资产交易]]></title>
+        <id>https://www.hashkey.com/en/newsroom/hashkey-obtains-sfc-approval-to-conduct-off-platform-virtual-asset-trading</id>
+        <link href="https://www.hashkey.com/en/newsroom/hashkey-obtains-sfc-approval-to-conduct-off-platform-virtual-asset-trading"/>
+        <updated>2023-02-24T08:23:22.000Z</updated>
+        <summary type="html"><![CDATA[<h3>数字资产金融服务提供商 HashKey Group 获证监会批准进行场外虚拟资产交易</h3>
+<p>据 HashKey Group 官方消息，该公司已获得香港证券及期货事务监察委员会（证监会）的批准，可以为 Hash Blockchain Limited （ HBL ）开展场外虚拟资产交易业务（ OTC ）。 HBL 首席执行官 Colin Zhong 表示，「与场外交易业务通常不透明和不受监管的性质相比，受监管的交易所可以改变香港的场外交易市场，为投资者交易数字资产提供更安全和透明的环境」。据悉，HashKey Group 是全球首家获得香港证监会、日本金融厅颁发的包括场外交易牌照在内的虚拟资产牌照的数字资产集团。</p>
+<p><a href="https://www.hashkey.com/en/newsroom/hashkey-obtains-sfc-approval-to-conduct-off-platform-virtual-asset-trading">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】分析发掘 Coinbase 财报要点：交易业务的周期性、USDC 业务互补]]></title>
+        <id>https://twitter.com/SovereignIntern/status/1628589710854754304</id>
+        <link href="https://twitter.com/SovereignIntern/status/1628589710854754304"/>
+        <updated>2023-02-24T08:18:32.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>推特 KOL Sovereign Intern 对加密交易所 Coinbase 2022 年第四季度财报进行分析，发掘出一些隐藏在财报数据下的要点，包括熊市周期对交易所业绩造成很明显的双杀。同时，Coinbase 通过 USDC 业务一定程度弥补并降低交易业务的周期性。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/SovereignIntern/status/1628589710854754304">https://twitter.com/SovereignIntern/status/1628589710854754304</a></p>
+<p><strong>文章作者：</strong></p><p>Sovereign Intern</p><hr><h3>观点：</h3><p><strong>Sovereign Intern：</strong>Institutional（机构）贡献 86% 的交易额但只贡献 4% 的收入，consumer（用户）贡献 14% 的交易额但是贡献了 96% 的收入，这个点超乎意料；加密周期对交易所的影响是极其大的，它的总收入多少由交易手续费和币价双重决定，熊市时手续费总量下降很多，同时收到的手续费都是币，币的价格也下降了很多。对业绩造成很明显的双杀。当然，如果市场好转，它的业绩双击也很明显。</p><a href="https://twitter.com/SovereignIntern/status/1628589710854754304">内容来源</a><p><strong>Sovereign Intern：</strong>Coinbase 应该是直接把 USDC 收入的 50% 计入它的收入报表 Interest income 这里，没有把 USDC  当作股权权益资产。USDC  带来的收益已经占到 Coinbase 季度收益的 25%（Coinbase 和 Circle 各自持有 USDC 发行公司 50% 股份，由 circle 运营）。Coinbase 的交易业务和 USDC 的业务是一组杠铃，在一定程度上降低了业绩的周期性。</p><a href="https://twitter.com/SovereignIntern/status/1628589710854754304">内容来源</a><p><strong>Colin Wu：</strong>对 Coinbase 财报的分析。蛮有意思的。平台没有散户的话，机构只能互割，其实就像鱼没了水。</p><a href="https://twitter.com/WutalkWu/status/1628956215257739265">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[潍坊正式发布两份元宇宙政策文件，拟到2026年相关产业规模达3500亿元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/2azeu7go.html</id>
@@ -16,6 +63,30 @@
 此前去年12月17日，潍坊市人民政府新闻办公室在召开新闻发布会时表示，专门研究制定了《潍坊市打造元宇宙技术创新与产业之都行动计划（2022-2026年）》和《潍坊市关于加快推动元宇宙产业发展的若干政策》，进一步明确了发展思路，拿出了最大诚意，打造具有全球影响力的元宇宙产业发展高地。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Bankeless 采访 Coinbase 开发主管 Jesse Pollak：Base 设计理念及其「超级链」愿景]]></title>
+        <id>https://twitter.com/BanklessHQ/status/1628757265728536578</id>
+        <link href="https://twitter.com/BanklessHQ/status/1628757265728536578"/>
+        <updated>2023-02-24T07:57:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Coinbase 宣布将基于 OP Stack 推出以太坊 Layer 2 网络 Base，Bankless 独家采访了其开发主管 Jesse Pollak，解读 Base 的设计理念和愿景。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/BanklessHQ/status/1628757265728536578">https://twitter.com/BanklessHQ/status/1628757265728536578</a></p>
+<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>Base 是完全开放的 L2，在 Base 上构建应用与在 Optimism 和 Arbitrum 上构建应用一样免许可。就目前而言，Coinbase 是 Base 交易的唯一排序器，但 Jesse Pollak 表示 Base 的愿景是最终拥有一个完全免许可的验证器集合。【原文为英文】</p><a href="https://twitter.com/BanklessHQ/status/1628757265728536578">内容来源</a><p><strong>Bankless：</strong>Base 是 Coinbase 为其 1.1 亿用户以及他们的 800 亿美元资产所构建的原生区块链，并将托管 Coinbase 的所有链上产品。并且 Base 没有发币计划。【原文为英文】</p><a href="https://twitter.com/BanklessHQ/status/1628757265728536578">内容来源</a><p><strong>Bankless：</strong>设计理念：首先，Coinbase 和 Optimism 基于 EIP4844 的合作很成功。其次，CB 想要建造桥梁而不是孤岛，以太坊的 L2 设计允许 CB 拥有自己的链，同时也成为更广泛的网络的一部分。而 Optimism 的 OP Stack 让 CB 构建一个高度可组合且可与其他 OP Stack 链互操作的 L2。很明显 CB 处于「超级链」的愿景中。【原文为英文】</p><a href="https://twitter.com/BanklessHQ/status/1628757265728536578">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】一文解读借贷协议 Archimedes 即将上线的第二轮杠杆轮]]></title>
+        <id>https://twitter.com/jake_pahor/status/1628541176973336578</id>
+        <link href="https://twitter.com/jake_pahor/status/1628541176973336578"/>
+        <updated>2023-02-24T07:37:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Archimedes 是一个建立在 Curve 之上的实验性借贷平台，加密研究员 Jake Pahor 从协议结构、杠杆轮概念入手，对 Archimedes 第二轮杠杆轮进行全面解读。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/jake_pahor/status/1628541176973336578">https://twitter.com/jake_pahor/status/1628541176973336578</a></p>
+<p><strong>文章作者：</strong></p><p>Jake Pahor</p><hr><h3>观点：</h3><p><strong>Jake Pahor：</strong>Archimedes 用户包括贷方（LP）和借方（LT）。贷方可以向 Archimedes 3CRV /lvUSD 池提供资产并收取利息，LT 从这些资金池中借款以创建可高达 10 倍的杠杆头寸，每个杠杆头寸都被打包为 NFT，无需平仓即可进行交易。Archimedes 旨在通过促进对稳定币池的大量投资同时保持长期可持续收益来支持 Curve 的长期增长。【原文为英文】</p><a href="https://twitter.com/jake_pahor/status/1628541176973336578">内容来源</a><p><strong>Jake Pahor：</strong>Archimedes 用户包括贷方（LP）和借方（LT）。贷方可以向 Archimedes 3CRV /lvUSD 池提供资产并收取利息，LT 从这些资金池中借款以创建可高达 10 倍的杠杆头寸，每个杠杆头寸都被打包为 NFT，无需平仓即可进行交易。Archimedes 旨在通过促进对稳定币池的大量投资同时保持长期可持续收益来支持 Curve 的长期增长。【原文为英文】</p><a href="https://twitter.com/jake_pahor/status/1628541176973336578">内容来源</a><p><strong>Jake Pahor：</strong>什么是杠杆轮？要想在 Archimedes 上杠杆，需要通过杠杆轮次拍卖 lvUSD。上一轮拍卖增加了 $ARCH 购买力，并使得杠杆变得更便宜。第二轮杠杆详细信息：扣除表现费之后的预计 APY 约为 33%；至少 100 万美元的杠杆；时间为 2 月 23 日，太平洋时间下午 4 点。参与方式：用户可从 DEX 购买稳定币 USDT、USDC 或 DAI ，Archimedes 将处理所有从稳定币到开仓所需的 $OUSD 和 $ARCH 的转换。【原文为英文】</p><a href="https://twitter.com/jake_pahor/status/1628541176973336578">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
