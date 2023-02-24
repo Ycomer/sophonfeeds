@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-24 datetime="2023-02-24T03:30:08.000Z">2023-02-24</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-24 datetime="2023-02-24T03:30:08.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-24 datetime="2023-02-24T04:01:58.000Z">2023-02-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-24 datetime="2023-02-24T04:01:58.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,47 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/u25fivfe.html"
+                        open
+                      >
+                        <summary class="article-expander__title">用模块化思路构建跨链桥，Orb Labs的多桥方案怎么做</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/u25fivfe.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/02/24/images/QmVb291Lz9.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>跨链桥开发商Orb Labs近期宣布获得由Bain领投、SevenX等参投的450万美元融资，将专注于开发跨链桥模型，以确保消息和资金在不同链上的低成本交换。
+跟以往跨链桥项目不同之处，在于Orb Labs将经济成本和安全置于相同的考量地位，将遵循成本、速度和规模等三重因素的均衡去设计产品，目前计划将推出Earlybird作为跨链消息传递协议，专注于满足对跨链通信和消息传递的需求。
+其次是基于Earlybird之上开发的Magiclane，将在消息传递功能之外具备跨链Token交换的功能，但其基本功能和框架将和Earlybird保持一致，以最低成本复用现有资产和代码资源。
+两款产品将供项目方按照自身需求选择，可低成本、快速部署高安全的跨链dApp，免去调用跨链桥的高昂费用和安全风险。
+首先从跨链桥的设计思路入手，目前存在着三种方法：
+以上三类均各具优势，但同时都遭受过安全危机，甚至遭受过累计10亿美元以上的资金被盗危机，即使是最安全的IBC，也会面临效率方面的取舍。
+而Orb Labs的思路并非是致力于解决以上三者的问题，而是引入了组合性、模块化的思路，其在Earlybird框架下，构建四个不同的跨链协议，分别用于不同需求的项目。
+其借鉴L2或者模块化公链的思路，可以将大规模的计算转移到更低成本的公链上，如各类Layer 2或者模块化公链，同时将资产仍旧存放在以太坊等底层L1公链上，只负责结算和最终确认。
+
+Orb Labs的目标是提供一个聚合端点，不同的开发人员可以根据不同的需求，选择不同的开发库去构建自己的跨链协议，比如说对于10万美元的消息传递，Gas Fee最优是首选，但是对于10亿美元的信息传递，安全性是首选。
+
+从以上机制可以发现，Orb Labs的思路就是不断叠加和解耦，在自身Earlybird产品线内集合目前所有的主流跨链桥特点，并对其进行重组和调用，以满足不同开发者的灵活性组合要求。
+在Earlybird之前，选择跨链桥是件“从一而终”的事，任何跨链桥都有其特点和局限性，而Earlybird让不同的dApp在区块大小、交易规模和交易类型方面进行权衡，如果是较为固定的需求，如DEX、转账等可选择安全第一，如果是较为灵活的需求，则可选择弹性较大的跨链协议。
+某种意义上，Orb Labs捕捉趋势的能力是敏锐的。实际上，跨链桥已经被“互操作性”（interoperability）一词取代，后者更贴切的描绘了跨链双方地位是平等的，单方面的操作能力并不能代表跨链的未来。
+而在互操作的对象上，Orb Labs认为未来Token等资产将会和信息一样，变得简单且安全，最终都会成为一种特殊的消息格式，而不用严格区分跨链对象的类型。
+在此基础上，Orb Labs将会推出基于Earlybird的资产跨链协议MagicLane，其专门负责代币在不同链间的传递和互换，计划支持以太坊、Moonbeam、Evmos、Polygon、Arbitrum、Optimism和Fantom，基本涵盖当下最主流的EVM、Cosmos和波卡生态，满足用户的基本需求。
+
+其最重要的功能是简化当下复杂的跨链协议，可以让开发人员使用单一合约和不同公链的Token/dApp进行交互，让开发人员轻松构建全链（OmniChain）应用程序。最终实现的是一切链上数据都变成跨链消息，不论用户从哪条公链进入，不论dApp运行在哪条公链上，后端都可将其涉及的计算、交易和信息回传移动到最佳性能的公链上。
+从用户侧的视角来看，会直接简化访问多链、跨链、全链dApp的途径，与用户交互的是统一的数据格式和信息类型，这也是大规模用户进入Web 3的唯一有效途径，只有足够的廉价和易用，才能解放链上的应用潜力，比如构建接近免费和高效的多链DEXs。
+
+在本次融资之后，Orb Labs表示会尽快发布白皮书和官方开发文档，以供开发人员测试产品，而实现这一宏大愿景的问题在于，当前的Orb Labs仅有Richard Adjei和Felix Madutsa两位技术创始人，目前仍在招聘全栈工程师和BD人员，对于其复杂的产品架构而言，当前的开发人员数量严重不足。
+Orb Las的本轮融资额并不高，但其代表了跨链桥的未来发展趋势，即构建真正意义上的多链互操作性，为此必须使跨链桥在足够灵活的同时保持足够的安全性，既能满足大规模调用的负载需求，也要保证其安全性不受影响。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -310,6 +351,42 @@ Warren Buffet 曾经说过，通过定期投资于指数基金，一个菜鸟投
 然而，一些单独的 DeFi 代币的表现远远超过了 ETH，所以一个精心设计的指数必须带来更高的上升潜力，同时将风险降到最低。
 例如…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >深潮TechFlow</button>
+                  <a class="source-heading__link" href="https://techflowpost.mirror.xyz">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://techflowpost.mirror.xyz/uEQ7g9WPJ5rLUWxEVn-aMF_rjHMn9XP1mWDaockzzUQ"
+                        open
+                      >
+                        <summary class="article-expander__title">拆解：为什么 OP 会是 DeFi 协议的首选？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://techflowpost.mirror.xyz/uEQ7g9WPJ5rLUWxEVn-aMF_rjHMn9XP1mWDaockzzUQ">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mirror-media.imgix.net/publication-images/jy3_Lxdi226gNAIxVuSCv.png?height&#x3D;380&amp;width&#x3D;759&amp;h&#x3D;380&amp;w&#x3D;759&amp;auto&#x3D;compress" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>拆解：为什么 OP 会是 DeFi 协议的首选？ – 深潮TechFlow
+撰写：Route 2 FI
+Read the full entry</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -26464,8 +26541,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4259196463">
-        <time id="build-timestamp" datetime="2023-02-24T03:55:22.449Z">2023-02-24T03:55:22.449Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4259227803">
+        <time id="build-timestamp" datetime="2023-02-24T04:02:18.835Z">2023-02-24T04:02:18.835Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
