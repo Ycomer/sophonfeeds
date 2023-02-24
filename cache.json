@@ -3289,6 +3289,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/u68vissk.html",
+          "author": null,
+          "description": "PANews 2月24日消息，币安在博客宣布推出其新的空投门户（Airdrop Portal），其中提供了币安支持的空投概览和其他相关信息。用户可以通过这个一站式门户随时了解正在进行的空投的最新进展。币安将继续定期更新空投门户。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/u68vissk.html",
+          "publishedOn": "2023-02-24T09:07:08.000Z",
+          "wordCount": 978,
+          "title": "币安宣布推出空投门户",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/28g6puet.html",
           "author": null,
           "description": "撰文：康水跃，Fox Tech CEO；孟铉济，Fox Tech 首席科学家\n在许多依赖多项式承诺的零知识证明系统当中，使用了不同的承诺协议。根据 a16z 的 Justin Thaler 在 2022 年 8 月文章「Measuring SNARK performance: Frontends, backends, and the future」的评估，Brakedown 虽然有较大的 Proof Size，但是无疑是当下最快的多项式承诺协议。\nFRI、KZG、Bulletproof 是更为常见的多项式承诺协议，但速度是它们的瓶颈。zkSync 采用的 Plonky、Polygon zkEVM 采用的 Plonky2、Scroll 采用的 Ultra-Plonk 等算法都是基于 KZG 的多项式承诺。Prover 涉及到大量的 FFT 计算和 MSM 运算生成多项式和承诺，这两者都会带来大量的计算负担。 虽然 MSM 有运行多线程加速的潜力，但需要大量内存，即使在高并行下也很慢，而大型 FFT 则严重依赖算法运行时数据的频繁洗牌，难以通过分布式加速跨计算集群加载。\n正是由于有了更为快速的多项式承诺协议 Brakedown，才使这类运算的复杂度大幅降低。\nFOAKS 即 Fast Objective Argument of Knowledges，是由 Fox Tech 提出的一种基于 Brakedown 的零知识证明系统框架。FOAKS 在 Orion 的基础上进一步减少 FFT 运算，目标是最终消除 FFT。此外，FOAKS 还设计出一种全新的非常精妙的证明递归方式来减少证明大小。FOAKS 框架的优势在于在实现线性证明时间的基础上有着较小的证明大小，非常适合应用于 zkRollup 场景当中。\n下文我们将详细介绍 FOAKS 所使用的多项式承诺协议 Brakedown。…",
