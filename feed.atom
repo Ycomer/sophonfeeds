@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-25T05:32:48.551Z</updated>
+    <updated>2023-02-25T05:39:00.784Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文】zkMint：基于零知识证明的 Tendermint 共识验证方案]]></title>
+        <id>https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9</id>
+        <link href="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9"/>
+        <updated>2023-02-25T05:31:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>模块化 IBC 网络协议 Polymer 推出基于零知识证明的 Tendermint 共识验证方案，通过优化区块头显著降低链上共识验证成本。Polymer 撰文分析了多种降低链上验证成本方案的优劣，以及 zkMint 的实现方式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9">https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9</a></p>
+<p><strong>文章作者：</strong></p><p>Polymer</p><hr><h3>观点：</h3><p><strong>Polymer：</strong>为了将 IBC 引入以太坊，我们需要能够在 EVM 中证明 Tendermint 共识。然而，在链上验证共识证明存在两个主要挑战：是否有任何有效的轻客户端算法来验证交易对手链的状态？验证的链上 gas 成本是否可以接受？【原文为英文】</p><a href="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9">内容来源</a><p><strong>Polymer：</strong>使用轻客户端验证其他链的成本很高。目前，EVM 上的 Tendermint BFT 验证成本高达每个区块头 2600 万 gas。zkMint 将 Tendermint 的共识算法修改为对 SNARK 友好，使 EVM 链能够在不丢失任何安全保证的情况下本地验证 Tendermint 共识。链上成本约每个区块头 30 万 gas，显著优化了 98.8％ 成本。【原文为英文】</p><a href="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9">内容来源</a><p><strong>Polymer：</strong>zkMint 是 Polymer 的多重签名 Tendermint BFT 共识引擎，每轮共识可以产生多个签名的区块头。通过 zkMint，Polymer 可以为连接到的任何执行环境优化区块头格式。zkMint 还允许 Polymer 向后兼容已部署的轻型客户端。【原文为英文】</p><a href="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】盘点 EigenLayer 白皮书中 5 个杀手级功能]]></title>
+        <id>https://twitter.com/0xjoxes/status/1628927423147376640</id>
+        <link href="https://twitter.com/0xjoxes/status/1628927423147376640"/>
+        <updated>2023-02-25T04:53:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>EigenLayer 提供一种新的安全方式，其旨在建立更好的生态系统。Wonderland 研究员 Joxes.eth 分析了 EigenLayer 白皮书中揭示的 5 个杀手级功能。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xjoxes/status/1628927423147376640">https://twitter.com/0xjoxes/status/1628927423147376640</a></p>
+<p><strong>文章作者：</strong></p><p>Joxes.eth</p><hr><h3>观点：</h3><p><strong>Joxes.eth：</strong>1）验证者现在可以充当风险投资家。EigenLayer 希望为服务提供安全性的项目建立自由的市场。这意味着每项服务都有自己的风险回报和简单的选择加入验证器。每项服务都有自己的规则，应该适当地奖励重质押者，并且这种管理允许创造性的启动策略，应当有利于早期作为中间件下注的验证者。【原文为英文】</p><a href="https://twitter.com/0xjoxes/status/1628927423147376640">内容来源</a><p><strong>Joxes.eth：</strong>2）委托团。不仅那些拥有以太坊验证者和全节点的人需要安装 Eigenlayer 服务的软件来赚取更多收益：他们可以信任其他人来完成这项工作。这称为信任模型。通过信任模型，重质押者可以信任运营商，允许他们通过提供资本条件的要求来参与服务的提供。3）无意识的削减。如果我们认为一项服务是经过实战检验的，我们就会假设一切正常。但如果它处于早期阶段呢？显而易见的解决方案是安全审计；另一个必要的选择是：否决委员会。【原文为英文】</p><a href="https://twitter.com/0xjoxes/status/1628927423147376640">内容来源</a><p><strong>Joxes.eth：</strong>4） 单槽终结。这不是在以太坊协议级别；是重质押者；它是建立在以太坊之上的一项功能，将有助于推进以太坊研究，就像 EigenDA 对以太坊数据可用性所做的那样。5）多代币仲裁。每项服务不一定「完全」由某种 ETH 保护。为重质押者和其他使用特定代币进行质押的运营商进行定制。如果一项服务需要自己的代币，就可以使用这个方法，同时要求重质押者进入以在早期阶段获得真正的经济安全。【原文为英文】</p><a href="https://twitter.com/0xjoxes/status/1628927423147376640">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】a16z 的加密投资布局：投资数据、青睐赛道与投资趋势]]></title>
         <id>https://twitter.com/CryptoKoryo/status/1629141685136510981</id>

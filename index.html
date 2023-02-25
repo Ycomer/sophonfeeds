@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-25 datetime="2023-02-25T04:09:38.000Z">2023-02-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-25 datetime="2023-02-25T04:09:38.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-25 datetime="2023-02-25T05:31:49.000Z">2023-02-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-25 datetime="2023-02-25T05:31:49.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,71 @@
                   <a class="source-heading__link" href="">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】zkMint：基于零知识证明的 Tendermint 共识验证方案</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/max/1200/1*MKCMiPVvE6cenSdBecPdIQ.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+模块化 IBC 网络协议 Polymer 推出基于零知识证明的 Tendermint 共识验证方案，通过优化区块头显著降低链上共识验证成本。Polymer 撰文分析了多种降低链上验证成本方案的优劣，以及 zkMint 的实现方式。
+文章来源：
+https://polymerlabs.medium.com/zkmint-the-first-zk-friendly-tendermint-consensus-engine-116000b9d4f9
+文章作者：
+Polymer
+
+观点：
+Polymer：为了将 IBC 引入以太坊，我们需要能够在 EVM 中证明 Tendermint 共识。然而，在链上验证共识证明存在两个主要挑战：是否有任何有效的轻客户端算法来验证交易对手链的状态？验证的链上 gas 成本是否可以接受？【原文为英文】
+内容来源
+Polymer：使用轻客户端验证其他链的成本很高。目前，EVM 上的 Tendermint BFT 验证成本高达每个区块头 2600 万 gas。zkMint 将 Tendermint 的共识算法修改为对 SNARK 友好，使 EVM 链能够在不丢失任何安全保证的情况下本地验证 Tendermint 共识。链上成本约每个区块头 30 万 gas，显著优化了 98.8％ 成本。【原文为英文】
+内容来源
+Polymer：zkMint 是 Polymer 的多重签名 Tendermint BFT 共识引擎，每轮共识可以产生多个签名的区块头。通过 zkMint，Polymer 可以为连接到的任何执行环境优化区块头格式。zkMint 还允许 Polymer 向后兼容已部署的轻型客户端。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/0xjoxes/status/1628927423147376640"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】盘点 EigenLayer 白皮书中 5 个杀手级功能</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0xjoxes/status/1628927423147376640">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+EigenLayer 提供一种新的安全方式，其旨在建立更好的生态系统。Wonderland 研究员 Joxes.eth 分析了 EigenLayer 白皮书中揭示的 5 个杀手级功能。
+文章来源：
+https://twitter.com/0xjoxes/status/1628927423147376640
+文章作者：
+Joxes.eth
+
+观点：
+Joxes.eth：1）验证者现在可以充当风险投资家。EigenLayer 希望为服务提供安全性的项目建立自由的市场。这意味着每项服务都有自己的风险回报和简单的选择加入验证器。每项服务都有自己的规则，应该适当地奖励重质押者，并且这种管理允许创造性的启动策略，应当有利于早期作为中间件下注的验证者。【原文为英文】
+内容来源
+Joxes.eth：2）委托团。不仅那些拥有以太坊验证者和全节点的人需要安装 Eigenlayer 服务的软件来赚取更多收益：他们可以信任其他人来完成这项工作。这称为信任模型。通过信任模型，重质押者可以信任运营商，允许他们通过提供资本条件的要求来参与服务的提供。3）无意识的削减。如果我们认为一项服务是经过实战检验的，我们就会假设一切正常。但如果它处于早期阶段呢？显而易见的解决方案是安全审计；另一个必要的选择是：否决委员会。【原文为英文】
+内容来源
+Joxes.eth：4） 单槽终结。这不是在以太坊协议级别；是重质押者；它是建立在以太坊之上的一项功能，将有助于推进以太坊研究，就像 EigenDA 对以太坊数据可用性所做的那样。5）多代币仲裁。每项服务不一定「完全」由某种 ETH 保护。为重质押者和其他使用特定代币进行质押的运营商进行定制。如果一项服务需要自己的代币，就可以使用这个方法，同时要求重质押者进入以在早期阶段获得真正的经济安全。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -28210,8 +28275,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4268555555">
-        <time id="build-timestamp" datetime="2023-02-25T05:32:48.484Z">2023-02-25T05:32:48.484Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4268577502">
+        <time id="build-timestamp" datetime="2023-02-25T05:39:00.722Z">2023-02-25T05:39:00.722Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
