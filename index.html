@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-25 datetime="2023-02-25T06:32:46.000Z">2023-02-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-25 datetime="2023-02-25T06:32:46.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-02-25 datetime="2023-02-25T06:40:49.000Z">2023-02-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-02-25 datetime="2023-02-25T06:40:49.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,27 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0rc9oj3w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：黄立成48小时抛售上千枚并买入900余枚NFT</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0rc9oj3w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 2月25日消息，据Nansen 分析师 Andrew Thurman推文，截至2月25日早间，中国台湾歌手黄立成在 48 小时内共计抛售 1010 枚 NFT，总计获得 11680 ETH（约 1860 万美元）。据悉，本次抛售活动中包括 90 枚 BAYC、191 枚 MAYC、114 枚 AZUKI 和 308 个 Otherdeed NFT 等。
+Thurman 表示，该行为可能是有史以来最大规模的 NFT 抛售。值得注意的是，黄立成在抛售后又迅速回购了 991 个 NFT，可能是计划在将部分利润落袋为安的同时，又可以通过频繁交易获取巨额 Blur 空投，或者说是一次“赤裸裸”的市场操纵行为。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -359,6 +380,38 @@ ZK硬件加速赛道…</span>
                   <a class="source-heading__link" href="">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/y_cryptoanalyst/status/1629127777017532416"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】讨论 Optimism 的挑战期：7 天挑战期能否缩短？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/y_cryptoanalyst/status/1629127777017532416">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+近日，Coinbase 宣布建立了一条基于 OP Stack 的 Layer 2--Base , 一时间「Bullish on Optimism」的情绪又再度被点燃。加密货币研究员 yyy 借此契机，撰文讨论 Optimism 的挑战期。
+文章来源：
+https://twitter.com/y_cryptoanalyst/status/1629127777017532416
+文章作者：
+yyy
+
+观点：
+yyy：Rollup 因验证交易有效性方式的不同分为 zk-Rollup 和 Optimistic Rollup。验证方式主要分类两大类：零知识证明和欺诈证明。基于欺诈证明的 ORUs, 交易的最终性取决于挑战期的长短，这也就解释了为什么 Optimism 资金从二层提现到主网需要 7 天。ORUs 机制下，乐观地认为由定序器提交上来的 Rollup 交易都是有效的。然后在挑战期内，验证者如果发现无效交易，可以发起欺诈证明。如果挑战期过后都没有人挑战的话，就默认这笔交易是有效的，此时交易具有最终性。
+内容来源
+yyy：但挑战期真的需要 7 天这么长时间吗。似乎无论从什么层面上看，挑战期也无需 7 天这么长的时间。很难能去想明白挑战期的长短跟安全性到底存在着怎样的非线性关系。或许 7 对于 Optimism 创始人来讲是个非常有意义的数字吧，就像比特币 4 年减半周期大家猜想中本聪是个足球爱好者一样。所以，能否在不降低安全性的情况下把 ORUs 的挑战期缩短？
+内容来源
+yyy：Mantle Network 是 BitDAO 孵化的一个 ORU, 可以将挑战期缩短至 1-2 天。挑战期的优化逻辑基于 MPC 方案。简单来讲，就是定序器不直接把交易批次提交到以太坊，而是先提交给 MPC 网络，由 MPC 节点共同签署，确认交易有效后再提交给以太坊。目的是为了降低 Rollup 执行结果的信任风险。但 MPC 验证归根结底还是链下的验证方案，聊胜于无，对用户来讲算多了一个心理安慰。期待未来能看到挑战期显著缩短的 ORUs 。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -28340,8 +28393,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4268763890">
-        <time id="build-timestamp" datetime="2023-02-25T06:34:44.969Z">2023-02-25T06:34:44.969Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4268789185">
+        <time id="build-timestamp" datetime="2023-02-25T06:42:21.964Z">2023-02-25T06:42:21.964Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
