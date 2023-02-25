@@ -4,7 +4,7 @@
   "description": "Use this template to create the UI and content of an RSS feed reader.",
   "main": "index.js",
   "scripts": {
-    "build": "osmosfeed"
+    "build": "feed"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/osmoscraft/osmosfeed-template#readme",
   "dependencies": {
-    "@osmoscraft/osmosfeed": "^1.2.2"
+    "@ycomer/feed": "^1.15.1"
   }
 }
