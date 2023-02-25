@@ -3369,6 +3369,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/tlgcv322.html",
+          "author": null,
+          "description": "作者：blockworks\n编译：PANews、王尔玉\nJump Crypto和Oasis（Maker Dao生态产品）携手攻击了2022年2月臭名昭著的Wormhole事件黑客，追回了被盗资金。\n大约一年前，Wormhole跨链桥遭遇了2022年最大规模的加密失窃事件之一。约12万枚ETH被盗，当时价值3.25亿美元。\n总部位于芝加哥的交易公司Jump Trading的加密分支Jump Crypto参与了Wormhole协议的开发，事件发生后，该公司为Wormhole投入12万枚ETH，以弥补损失。该公司在当时的推文中指出，Jump致力于“维护社区成员的完整利益，支持Wormhole继续发展”。Wormhole向黑客提出了1000万美元漏洞赏金和白帽协议方案，以换取资金返还，但似乎未能如愿。\n一个月后，Jump Trading集团总裁兼首席信息官Dave Olsen对彭博社表示：“我们正在与政府资源和私人资源进行密切磋商。有大量火力擅长追捕此类罪犯。我们已经长期参战。我们不会在下个月或明年就鸣金收兵，这是一场持久战。”\n根据Blockworks Research的链上分析，Jump最终赢得了这场战斗。三天前，资金似乎已经追回。\nJump Crypto拒绝置评，Oasis未回复置评请求。\n但Oasis在本文发表后发布了声明：“2023年2月21日，我方收到英格兰和威尔士高等法院的执行令，要求我方采取一切必要步骤，追回与2022年2月2日Wormhole攻击有关的钱包地址涉及的特定资产。此次行动是基于法院执行令和法律的要求进行的，过程中使用了Oasis Multisig，并与法院授权的一家第三方进行了合作。我方还可证实，根据法院执行令的要求，这些资产立即转移到了授权第三方控制的钱包中。我方没有对这些资产的控制权或访问权。”\nBlockworks Research分析师Dan Smith详细介绍了追回过程：转账记录显示，Jump Crypto和Oasis合作针对一份可升级的Oasis合约进行了逆攻击操作，从Wormhole黑客的金库（vaults）追回了被盗资金。\n黑客已通过各种以太坊应用程序不断转移被盗资金。最近他们开设了两个Oasis金库，针对两个ETH质押衍生品建立了杠杆多头头寸。重点是，这两个金库都使用了Oasis提供的自动化服务。\n几个钱包参与了此次逆攻击，分析中描述了每个地址的作用。\n· Oasis Multisig地址：拥有Oasis代理合约的“4 of 12”多重签名。\n· 持有地址：目前持有追回的资金，似乎由Jump所有。\n· 发送地址：负责执行逆攻击，似乎由Jump所有。\n逆攻击于2月21日启动，发送地址被添加为Oasis Multisig签名者。发送地址执行了五笔转账，为逆攻击铺路，随后被Oasis Multisig收回签名者身份。\n追回过程主要发生在发送地址对Oasis Multisig的第三笔转账中。为快速汇总转账，发送地址欺骗了Oasis合约，使其允许将抵押品和债务从黑客的金库转移至发送地址自己的金库。\n控制黑客金库后，Jump Crypto的一个钱包（若干分析公司认为该钱包属于Jump）向发送地址转移了8000万枚DAI，用于偿还金库的债务，并提取2.18亿美元的抵押品。随后，追回的抵押品被转移至目前的持有地址。\n目前尚不清楚发送地址和持有地址属于Oasis还是Jump。考虑到Jump偿还了债务以提取抵押品，它们很有可能由Jump掌控。Jump和Oasis均未证实这一点。\n综上所述，Jump似乎成功反击了Wormhole黑客，追回了一年前被盗的ETH。考虑到收回抵押品时支付的DAI，此次逆攻击的净回报约为1.4亿美元。”\n加密行业许多最大规模的失窃案都涉及跨链桥攻击，包括导致5.4亿美元损失的Ronin黑客事件，该事件后来被认为是朝鲜国家黑客组织Lazarus所为。\n不过，无需许可的区块链具备透明和开放的特性，事实证明，它也是一种打击金融犯罪的重要工具。\n针对此次事件，业内可能会掀起关于逆攻击的伦理甚至合法性问题的讨论。但目前而言，Jump Crypto至少到手了约1.4亿美元。\n同时，黑客可能后悔错过了获得1000万美元和“免罪卡”的机会。",
+          "link": "https://www.panewslab.com/zh/articledetails/tlgcv322.html",
+          "publishedOn": "2023-02-25T06:09:53.000Z",
+          "wordCount": 1195,
+          "title": "Jump Crypto如何与Oasis通过逆向攻击追回12万枚ETH的Wormhole被盗资金",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/02/25/images/Djd48lOGNK.png"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/9s5jy3p0.html",
           "author": null,
           "description": "PANews 2月25日消息，据上海证券报报道，证监会2月24日发布关于政协十三届全国委员会第五次会议第03009号（财税金融类199号）提案答复的函。其中提出，根据中央网信办《关于印发国家区块链创新应用试点名单的通知》（中网办秘字﹝2022﹞72号），人民银行、证监会积极配合中央网信办开展国家区块链创新应用试点工作，分别牵头建立全国“区块链+股权市场”、“区块链+贸易金融”特色领域试点。目前，应用试点工作正有序开展。下一步，人民银行、证监会将加强组织领导，注重协同推进，进一步强化能力建设，切实推动区块链技术在金融领域的创新应用。",
