@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-25T11:44:22.776Z</updated>
+    <updated>2023-02-25T11:50:22.300Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lido今日新增质押量超15万枚ETH创下纪录，已触发质押率限制安全功能]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/occe0l18.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/occe0l18.html"/>
+        <updated>2023-02-25T11:49:22.000Z</updated>
+        <summary type="html"><![CDATA[PANews 2月25日消息，流动性质押协议Lido发推称，今日流入其平台的质押ETH数量超过15万枚，创下迄今为止最高单日质押流量，但在达到这一数字后平台激活了安全限制功能“Staking Rate Limit”。该功能是一种动态机制，可在无需暂停质押存款的情况下应对大量质押代币流入可能带来的问题（比如稀释质押奖励），但会减少铸造stETH数量然后逐步补充。它的工作原理是根据最近的存款（移动的24小时窗口）减少在任何时候可以铸造的 stETH 总量，然后逐一区块补充这一容量。由于恢复速度约 6200 ETH/小时，大多数用户不太可能受到影响。
+Lido提醒，此限制会影响可能尝试Lido平台铸造stETH的各方，如果出现“此时无法铸造stETH”提示，可尝试小额数量或等待一段时间。
+据今日下午消息，被标记为“Justin Sun”（孙宇晨）的钱包地址在Lido上质押150100枚ETH，价值约2.4亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美财长：未建议彻底禁止加密活动，但需建立强有力的监管框架]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/14u3jxnf.html</id>
