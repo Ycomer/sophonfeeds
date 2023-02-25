@@ -24,8 +24,10 @@ jobs:
           scope: "@ycomer/feed"
       - name: Install dependencies
         run: npm i
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_REGISTRY_FEED }}
+      - name: Output config 
+        run: |
+          echo "@ycomer:registry=https://npm.pkg.github.com" >> .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
       - name: Build the feed
         run: npm run build
       - name: Deploy to GitHub Pages
