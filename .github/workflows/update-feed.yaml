@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.feedflow }}
+          NODE_AUTH_TOKEN: ${{ secrets.GH_REGISTRY_FEED }}
       - name: Build the feed
         run: npm run build
       - name: Deploy to GitHub Pages
