@@ -187,7 +187,7 @@
           "description": "<h3>跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon</h3>\n<p>跨链互操作协议 Celer Network 宣布推出具有多样化基准的零知识证明开发框架评测平台 Pantheon，目前已经使用 SHA-256 工作负载为包括 gnark、Arkworks、Circom+snarkjs/rapidsnark、Halo2（KZG）、Plonky2 和 Starky 在内的低级电路框架提供了全面基准测试。Celer 表示，正在邀请社区分享各种可复现的基准测试结构，最终目标是共同构建一个广受认可的测试平台，包括全套低级电路开发框架、高级 zkEVM 和编译器及硬件加速提供商。</p>\n<p><a href=\"https://twitter.com/CelerNetwork/status/1631143849300213760\">内容来源</a></p><hr>",
           "link": "https://twitter.com/CelerNetwork/status/1631143849300213760",
           "publishedOn": "2023-03-02T04:28:01.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>此前，BUSD 置身 SEC 和 NYDFS 的监管风波。Dose of DeFi 作者 Chris Powers 发文探讨另一类规模更小、稳定性更差的稳定币。它们试图在链上运行，且不受 TradFi 基础设施和法定支持的稳定币所面临的监管限制，最有潜力释放新的信贷创新和效率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins</a></p>\n<p><strong>文章作者：</strong></p><p>Chris Powers</p><hr><h3>观点：</h3><p><strong>Chris Powers：</strong>MakerDAO 在前两年不断发展壮大，代价是目前 Dai 近 60% 由法定稳定币支持，暴露出每个创新稳定币最终都会遇到的难题：如何完全依赖链上资产和执行机制来扩展和增加供应。虽然 MakerDAO 正在推进提高 Dai 储蓄率等战略举措，但它似乎已成为其自身成功的受害者，同时处于去中心化和增长模式，进行监管套利，但也在易受监管的真实世界资产上下重注；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>Aave 的稳定币 GHO 两周前已在测试网部署，设计方面没什么创新，它的成功将取决于利用 Aave 网络效应的能力。Aave 几年来一直在借贷领域处于领先地位。就像一家拥有广泛分布的银行一样，Aave 将尝试利用其现有贷款完成 GHO 超募。它如何处理挂钩并管理其对法币支持的稳定币的依赖是另一个问题；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>crvUSD 将基于一种创新设计，其中清算被特殊用途的 AMM 取代。提高抵押品效率的一种方法是通过提供流动性从中赚取费用；Gyroscope 是另一个即将在以太坊上推出的创新稳定币，通过元聚合和索引限制对单一预言机价格的依赖，它还引入了 Maker 的挂钩稳定模块的更新版本，试图防止陀螺仪稳定币（GYD）在寻求挂钩稳定时中被中心化的稳定币增选。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a>",
           "link": "https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins",
           "publishedOn": "2023-03-01T10:59:32.000Z",
-          "wordCount": 4269,
+          "wordCount": 4475,
           "title": "【英文】链上稳定币能否突破法币主导的市场？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b013d4f-652a-4b8f-8887-0e7606f5cfbc_4068x2450.png"
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>孙宇晨在 Lido 存入 150，000 个 ETH，成为 Lido 协议有史以来最大的日流入量，也是导致该协议激活称为 Staking Rate Limit 的安全功能的先例。加密研究员 francesco 撰推解释何为 Staking Rate Limit。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">https://twitter.com/francescoglt/status/1630149753165041667</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>正如 Lido 所解释的那样，Staking Rate Limit（质押率限制）是一种「动态机制，可以响应大量的质押流入并解决可能的副作用，例如奖励稀释，而无需明确暂停质押存款」。它被认为是系统的「安全阀」。如果存款超过 15 万个 ETH（根据协议定义），阀门将被激活。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a><p><strong>francesco：</strong>Staking Rate Limit：1）根据过去 24 小时内的存款，减少在任何给定时间可以铸造的 stETH 数量。减少的「恢复率」约为 6.2K ETH /hr，所以不太会对用户造成影响。2）在「区块到区块」的基础上补充此容量。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1630149753165041667",
           "publishedOn": "2023-02-28T07:30:17.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】孙宇晨在 Lido 存入 15 万个 ETH 触发 Staking Rate Limit？一文解读什么是 Staking Rate Limit",
           "imageUrl": null
         },
@@ -787,7 +787,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>人们对 zkRollup 的工作原理存在一些误解，认为其可扩展性受证明的限制。Polygon zkEVM 开发者 Jordi Baylina 撰推解释为何证明者不是限制因素，以及 zkRollup 的实际限制是什么。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/jbaylina/status/1629352597445394432\">https://twitter.com/jbaylina/status/1629352597445394432</a></p>\n<p><strong>文章作者：</strong></p><p>Jordi Baylina（Polygon zkEVM开发者）</p><hr><h3>观点：</h3><p><strong>Jordi Baylina（Polygon zkEVM开发者）：</strong>zkRollup 第一步即保持网络同步，但这不特定于 zkRollup，对任何链都是一样的。一旦同步了一个（或多个）节点，就需要为所有这些 batch（批处理交易）构建证明（我们将一个 batch 调用到 L2 区块以将其与 L1 区块区分开来）。要构建证明，需要重新执行 batch 并构建 zkProof，这可能需要一些时间和资源，但是这个过程可以并行运行。【原文为英文】</p><a href=\"https://twitter.com/jbaylina/status/1629352597445394432\">内容来源</a><p><strong>Jordi Baylina（Polygon zkEVM开发者）：</strong>一旦你拥有连续序列（链段）的所有 batch 证明，你就可以聚合它们。所以你可以构建一个证明树，其中根证明一个完整的链段。你可以用你想要的形状平行地建造这棵树。最后一步是将此聚合证明发送到链上。该证明将 rollup 状态存储在链上并允许用户提取资金。对于最后一步，证明从 STARK 转换为 SNARK (FFLONK)，这降低了在链上验证此证明的 gas 成本。【原文为英文】</p><a href=\"https://twitter.com/jbaylina/status/1629352597445394432\">内容来源</a><p><strong>Jordi Baylina（Polygon zkEVM开发者）：</strong>这里重要的参数是证明成本，因为这会影响交易费用。但与其他成本相比，这个成本变得微不足道，比如数据可用性成本、L1 交易的成本、维护成本甚至是 op rollup 的资本成本。所以，zkRollup 的可扩展性完全不受证明者的限制。所以 zkRollup 的可扩展性限制是什么？和其他 rollup 一样，是数据可用性。一旦解决了数据可用性，下一个瓶颈将是保持链同步。在这一点上，并行运行的多 rollup 生态系统的思考将很有意义。【原文为英文】</p><a href=\"https://twitter.com/jbaylina/status/1629352597445394432\">内容来源</a>",
           "link": "https://twitter.com/jbaylina/status/1629352597445394432",
           "publishedOn": "2023-02-27T06:52:39.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】证明者并非 zkRollup 的限制因素，一文解释其原因并总结 zkRollup 实际限制",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<h3>美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」</h3>\n<p>据雅虎财经报道，美国金融科技公司 Republic 受 FTX 崩溃和美国证券交易委员会（SEC） 影响，取消「Republic Realm Metaverse 房地产基金」。该基金于 2021 年 3 月推出，12 月发起 Test the Waters (TTW) Regulation A，向所有投资者开放，并在短时间内完成 7500 万美元的预定上限。该基金主要用于购买 Sandbox、Axie Infinity 和 Decentraland 等 NFT 游戏中的虚拟房地产，从 3 月首次启动到 12 月 Regulation A 融资，该基金的投资资本回报率为 145%。但随着 FTX 崩盘以及 SEC 监管，该资金现在一直处于停滞状态，Regulation A 将取消发行。</p>\n<p><a href=\"https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html\">内容来源</a></p><hr>",
           "link": "https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html",
           "publishedOn": "2023-02-27T02:25:16.000Z",
-          "wordCount": 14080,
+          "wordCount": 14048,
           "title": "美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」",
           "imageUrl": "https://media.zenfs.com/en/Benzinga/22c8531513d2cf19ff0a5d51aeefcc73"
         },
@@ -887,7 +887,7 @@
           "description": "<h3>印度已要求 IMF 和 FSB 提供加密监管综合文件以助于制定加密资产全面政策</h3>\n<p>据 Bitcoin.com 报道，在 G20 财长和央行行长首次会议后，印度政府发布了「G20 主席总结和成果文件」，加密监管是讨论的主题之一。其中，印度要求国际货币基金组织 (IMF) 和金融稳定委员会 (FSB) 于 2023 年 9 月联合提交一份整合加密资产宏观经济和监管视角的综合文件，有助于制定针对加密资产的协调和全面的政策方法。</p>\n<p><a href=\"https://news.bitcoin.com/india-asks-imf-and-fsb-for-joint-paper-to-help-formulate-comprehensive-crypto-policy/\">内容来源</a></p><hr>",
           "link": "https://news.bitcoin.com/india-asks-imf-and-fsb-for-joint-paper-to-help-formulate-comprehensive-crypto-policy/",
           "publishedOn": "2023-02-26T08:53:37.000Z",
-          "wordCount": 3491,
+          "wordCount": 3473,
           "title": "印度已要求 IMF 和 FSB 提供加密监管综合文件以助于制定加密资产全面政策",
           "imageUrl": "https://static.news.bitcoin.com/wp-content/uploads/2023/02/india-imf-fsb.jpg"
         },
