@@ -257,7 +257,7 @@
           "description": "<h3>Polygon 推出基于零知识证明的 Web3 身份解决方案 Polygon ID</h3>\n<p>Polygon 推出基于零知识证明的 Web3 身份解决方案 Polygon ID 。Polygon ID 利用了 Iden3 协议和 Circom ZK 工具包，任何用户都可以成为 Web3 身份发行者、验证者或持有者。链外数据现可以用于无信任的验证凭证格式进行的链上验证。Polygon 表示，Polygon ID 可用于 KYC 项目、电子商务入职、无密码登陆、银行发放担保不足贷款的工具及 DAO。</p>\n<p><a href=\"https://twitter.com/0xPolygon/status/1630997045703049238\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Polygon：</strong>Polygon ID 使一方能够发布关于用户的可验证凭证，而另一方则能够通过为自我主权身份（SSI）生态系统每个成员创建的一套工具来验证这些声明。【原文为英文】</p><a href=\"https://0xpolygonid.github.io/tutorials/\">内容来源</a><p><strong>Polygon Developers：</strong>PolygonID 允许用户生成 ZK 证明以证明基于真实世界文件的链上声明。它是一个 Web3 原生解决方案，具有去中心化、私人链上验证和可组合性等优势。与传统 VC 和 SBT 相比，Polygon ID 中 ZKP 的使用为用户增强了隐私，使用 ZKP 和 Merkle 数定义身份状态以使其和密钥对分离。【原文为英文】</p><a href=\"https://twitter.com/0xPolygonDevs/status/1630291923553353732\">内容来源</a>",
           "link": "https://twitter.com/0xPolygon/status/1630997045703049238",
           "publishedOn": "2023-03-02T01:04:54.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Polygon 推出基于零知识证明的 Web3 身份解决方案 Polygon ID",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>此前，BUSD 置身 SEC 和 NYDFS 的监管风波。Dose of DeFi 作者 Chris Powers 发文探讨另一类规模更小、稳定性更差的稳定币。它们试图在链上运行，且不受 TradFi 基础设施和法定支持的稳定币所面临的监管限制，最有潜力释放新的信贷创新和效率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins</a></p>\n<p><strong>文章作者：</strong></p><p>Chris Powers</p><hr><h3>观点：</h3><p><strong>Chris Powers：</strong>MakerDAO 在前两年不断发展壮大，代价是目前 Dai 近 60% 由法定稳定币支持，暴露出每个创新稳定币最终都会遇到的难题：如何完全依赖链上资产和执行机制来扩展和增加供应。虽然 MakerDAO 正在推进提高 Dai 储蓄率等战略举措，但它似乎已成为其自身成功的受害者，同时处于去中心化和增长模式，进行监管套利，但也在易受监管的真实世界资产上下重注；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>Aave 的稳定币 GHO 两周前已在测试网部署，设计方面没什么创新，它的成功将取决于利用 Aave 网络效应的能力。Aave 几年来一直在借贷领域处于领先地位。就像一家拥有广泛分布的银行一样，Aave 将尝试利用其现有贷款完成 GHO 超募。它如何处理挂钩并管理其对法币支持的稳定币的依赖是另一个问题；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>crvUSD 将基于一种创新设计，其中清算被特殊用途的 AMM 取代。提高抵押品效率的一种方法是通过提供流动性从中赚取费用；Gyroscope 是另一个即将在以太坊上推出的创新稳定币，通过元聚合和索引限制对单一预言机价格的依赖，它还引入了 Maker 的挂钩稳定模块的更新版本，试图防止陀螺仪稳定币（GYD）在寻求挂钩稳定时中被中心化的稳定币增选。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a>",
           "link": "https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins",
           "publishedOn": "2023-03-01T10:59:32.000Z",
-          "wordCount": 4475,
+          "wordCount": 4269,
           "title": "【英文】链上稳定币能否突破法币主导的市场？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b013d4f-652a-4b8f-8887-0e7606f5cfbc_4068x2450.png"
         },
@@ -317,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>每个生态系统都需要去中心化的稳定币。以太坊有 MKR 和 DAI ，那么比特币生态呢？加密货币 KOL Kaduna 从 Arkadiko Protocol 对于 Stacks 的重要性角度介绍了比特币的稳定币项目 Arkadiko Protocol。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">https://twitter.com/cryptokaduna/status/1630546387543928832</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Arkadiko 是一种基于 Stacks 的去中心化流动性协议，提供一系列 DeFi 解决方案。通过 Arkadiko 用户可以使用他们的 STX --Stacks 的原生代币 -- 作为抵押来铸造 Arkadikos 自己的稳定币 USDA 。然后，该 USDA 可用于在 Arkadiko 协议内 farm 以偿还贷款。farm 的收益是通过参与称为转移证明（POX）的 Stacks 共识机制产生的。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a><p><strong>Kaduna：</strong>通过持有 STX 代币，你可以将它们作为抵押品存入 Arkadiko，然后借入其价值 25% 的 USDA。由于 USDA 现在已抵押在我们之前谈到的 POX 共识中，因此奖励将自动用于偿还借入的 USDA。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a><p><strong>Kaduna：</strong>Stacks 作为一个平台实现了爆炸式增长，其 TVL 在短短几周内从 700 万美元飙升至 2200 万美元。随着这种增长，需要 DEX 作为用户参与生态系统的一种方式。Arkadiko 在 Stacks 之上构建了一个 DEX，以满足不仅希望参与 Arkadikos 贷款而且希望参与整个 Stacks 生态系统的用户。通过 ArakadikoSwap，用户可以通过提供流动性来赚取额外的被动收入。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a>",
           "link": "https://twitter.com/cryptokaduna/status/1630546387543928832",
           "publishedOn": "2023-03-01T08:18:31.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】一文了解比特币稳定币项目：Arkadiko Protocol",
           "imageUrl": null
         },
@@ -397,7 +397,7 @@
           "description": "<h3>固定收益 DeFi 平台 Term Labs 完成 250 万美元融资，Electric Capital 领投</h3>\n<p>固定利率借款 DeFi 协议 Term Finance 开发商 Term Labs 完成 250 万美元种子轮融资， Electric Capital 领投、Coinbase Ventures、Circle Ventures、Robot Ventures 和 MEXC Ventures 等参投。新资金将用于构建 Term Finance 协议，Term Finance 计划在 3 月底左右上线。</p>\n<p><a href=\"https://twitter.com/term_labs/status/1630569103592226816\">内容来源</a></p><hr>",
           "link": "https://twitter.com/term_labs/status/1630569103592226816",
           "publishedOn": "2023-03-01T04:21:54.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "固定收益 DeFi 平台 Term Labs 完成 250 万美元融资，Electric Capital 领投",
           "imageUrl": null
         },
@@ -427,7 +427,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>最早，LSD 旨在解决以太坊质押的痛点，初心是解放流动性，为用户质押的流动性发放流动性凭证。但如今收益率逐渐成了竞争焦点。深潮 TechFlow 介绍了三个建立在 LSD 资产上的 DeFi 协议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">https://twitter.com/techflowpost/status/1630505313341411328</a></p>\n<p><strong>文章作者：</strong></p><p>深潮 TechFlow</p><hr><h3>观点：</h3><p><strong>深潮 TechFlow：</strong>1）Yearn。Yearn 即将推出新的产品「yETH」，旨在以 yETH 的代币形式覆盖一篮子 LSD 资产，在分散风险的同时提升收益率。相当于 yETH 是基于 stETH 和 frxETH 等 LSD 资产构建，同时 yETH 还能够享有 Yearn 本身所持有的 veCRV 治理资源的倾斜。Yearn 和 Frax 不是直接竞争，因为 yETH 的底层支撑资产并非 ETH，而是 stETH 和 frxETH 等 LSD 资产，而 yETH 将会为 stETH 和 frxETH 持有者提供更高的收益，这将推动巨大的以太坊质押飞轮的出现或者说是新的套娃浪潮。</p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">内容来源</a><p><strong>深潮 TechFlow：</strong>2）Pendle Finance。Pendle 是一个建立在以太坊等协议上的，能够将收益代币化的 DeFi 协议，它允许用户对某些资产的未来收益进行代币化和售出。LSD 协议是帮用户质押 ETH，并寻求高收益率，而 Pendle 是在将 LSD 协议为用户提供的未来收益在当下变现。</p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">内容来源</a><p><strong>深潮 TechFlow：</strong>3）Aura Finance。目前， stETH 已经占据了 LSD 大部分份额，体量较小的参与方想要逆袭，最简单的办法就是提供更多激励：更高的收益率；增加流动性；集成 DeFi， Aura Finance 就可以做到，它是一个基于 Balancer 构建的生态收益治理平台，Aura 之于 Balancer，就好比 Convex 之于 Curve。</p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">内容来源</a>",
           "link": "https://twitter.com/techflowpost/status/1630505313341411328",
           "publishedOn": "2023-03-01T03:18:18.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】盘点建立在 LSD 资产上的 DeFi 协议：Yearn、Pendle Finance、Aura Finance",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<h3>Web3 钱包基础设施公司 Portal 完成 530 万美元融资，Haun Ventures 参投</h3>\n<p>据 CoinDesk 报道，Web3 钱包基础设施初创公司 Portal 完成 530 万美元融资，Slow Ventures、Haun Ventures、Acrew Capital、Chapter One 以及天使投资人 William Hockey（金融科技公司 Plaid 的联合创始人）、Henrique Dubagras（企业信贷公司 Brex 的联合创始人）和 Diogo Monica（机构加密平台 Anchorage Digital 创始人）等参投。Portal 提供钱包基础设施和去中心化应用程序 (dApp) 商店，使项目成为支持 Web3 的应用程序。开发人员工具包可帮助合作伙伴直接或从移动或桌面浏览器轻松连接到协议和 dApp。\nPortal 由前 Visa 全球加密产品部门负责人 Raj Parekh 联合创立，首席技术官 David Scrobonia 曾在 Web2 消费者数据平台 Segment 工作过。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/02/28/web3-infrastructure-startup-portal-raises-53m/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/02/28/web3-infrastructure-startup-portal-raises-53m/",
           "publishedOn": "2023-03-01T01:45:03.000Z",
-          "wordCount": 19470,
+          "wordCount": 19468,
           "title": "Web3 钱包基础设施公司 Portal 完成 530 万美元融资，Haun Ventures 参投",
           "imageUrl": "https://www.coindesk.com/resizer/1O_YcawVHq5V_HIahuScoCi1X5A=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/SKKN5JIBPJAC3JK6IS3TKEKVIE.png"
         },
@@ -477,7 +477,7 @@
           "description": "<h3>Visa、万事达均否认暂停与加密公司合作，将继续推进投资和合作</h3>\n<p>据 CoinDesk 报道，Visa 发言人否认暂停与加密公司合作的新闻，并将继续投资并支持该技术。该负责人表示，「加密行业近期遭遇的挫折没有改变 Visa 的加密策略，Visa 将继续致力于充当桥梁，帮助连接加密生态系统中出现的平台和技术。加密行业是 Visa 一直在投资并计划继续投资的行业」。万事达发言人也表示，「公司将继续与合作伙伴合作，将相关的支付解决方案和程序推向市场」。此前路透社报道称，受 FTX 破产影响，加密行业面临新的审查，Visa 和万事达卡正在暂停新的加密货币合作伙伴关系。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/02/28/visas-crypto-strategy-intact-despite-crypto-winter/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/02/28/visas-crypto-strategy-intact-despite-crypto-winter/",
           "publishedOn": "2023-03-01T01:38:58.000Z",
-          "wordCount": 19543,
+          "wordCount": 19541,
           "title": "Visa、万事达均否认暂停与加密公司合作，将继续推进投资和合作",
           "imageUrl": "https://www.coindesk.com/resizer/NhuCu6W-oqAdxz7HYo2dpiFR5MU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/RFTGMSFK5JCGVGG3OEALO3TB4M.jpg"
         },
@@ -557,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>借助着 Blur 的「Bid to Earn」风潮，许多蓝筹 NFT 的交易量发生了爆炸级增长，Trending 榜单上却出现新生客 Notable Pepes，NFT 研究员 WaTell 对该项目的创始人及其造富效应进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">https://twitter.com/0xWatell/status/1630102952814981120</a></p>\n<p><strong>文章作者：</strong></p><p>WaTell</p><hr><h3>观点：</h3><p><strong>WaTell：</strong>Notable Pepes，由「Pepe Checks」衍生而来，是由著名 NFT 收藏家 Vince Van Dough (VVD) 在 2 月 5 日发布的 OE 作品。作品设计不难看出其灵感来源于 Jack Butcher 的「推特蓝勾」，只是把 meme 变成了我们熟知的「悲伤青蛙 - Pepe」。但这仍然无法阻止这项作品的成功，许多 NFT OG 第一时间与其进行互动、转推扩散热度。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>VVD 被誉为「有史以来最积极的 NFT 收藏家」，他曾豪掷数千 ETH 购入艺术品 NFT，并且一直持有到现在。他还曾经于 2021 年 8 月与三箭资本合作成立了「NFT 收藏基金 - Starry Night Capital」，帮助他们购入「优质的 NFT 资产」。这在某些层面也能体现出 VVD 强大的社会关系。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>在公布「Pepe Checks」的 OE 铸造页面后，在短短 24 小时内，便铸造了 237,869 枚 NFT，总收入约为 975.2629 eth。2 月 18 日，VVD 公布了由「Pepe Checks」衍生而来的 Notable Pepes。首个作品便是「Pepe Cheques」，总量为 2000，1344 张进入「著名的 Pepes 金库」，但在当时并没有第一时间全部铸造完，而它的地板价现为 1.4 eth。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>2 月 26 号，Notable Pepes Collection 的「3~7」号作品正式上线。铸造价格为 0.069 eth，而即使是人气最低的作品「The Rarest Deck」，地板价也有 0.54 eth。人气最高的「Pepe's Chair」，地板价为 4.95 eth，拥有接近 70 倍的涨幅。需要注意：Notable Pepes 并不像其他 OE Collection，其采用的是白名单铸造机制。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a>",
           "link": "https://twitter.com/0xWatell/status/1630102952814981120",
           "publishedOn": "2023-02-28T07:33:01.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "「OpenEdition」与 meme 始祖 「Pepe」融合，解析 NFT 项目 Notable Pepes",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>孙宇晨在 Lido 存入 150，000 个 ETH，成为 Lido 协议有史以来最大的日流入量，也是导致该协议激活称为 Staking Rate Limit 的安全功能的先例。加密研究员 francesco 撰推解释何为 Staking Rate Limit。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">https://twitter.com/francescoglt/status/1630149753165041667</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>正如 Lido 所解释的那样，Staking Rate Limit（质押率限制）是一种「动态机制，可以响应大量的质押流入并解决可能的副作用，例如奖励稀释，而无需明确暂停质押存款」。它被认为是系统的「安全阀」。如果存款超过 15 万个 ETH（根据协议定义），阀门将被激活。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a><p><strong>francesco：</strong>Staking Rate Limit：1）根据过去 24 小时内的存款，减少在任何给定时间可以铸造的 stETH 数量。减少的「恢复率」约为 6.2K ETH /hr，所以不太会对用户造成影响。2）在「区块到区块」的基础上补充此容量。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1630149753165041667",
           "publishedOn": "2023-02-28T07:30:17.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】孙宇晨在 Lido 存入 15 万个 ETH 触发 Staking Rate Limit？一文解读什么是 Staking Rate Limit",
           "imageUrl": null
         },
@@ -597,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近期比特币一直在经历文化和技术上的转变，其中 Alex 正在 Stacks 上追求 DeFi 发展。加密研究员在对 Alex 进行研究后，认为 Alex 市值被严重低估了。凭借其永续期货去中心化交易所和 Launchpad 两大功能，Alex 正在显示出巨大的发展潜力。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CryptoKaduna/status/1630221869923090434\">https://twitter.com/CryptoKaduna/status/1630221869923090434</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Alex Labs 利用 Stacks 在比特币上实现智能合约、DeFi 和 NFT。其目前提供两个主要功能：Launchpad 和比特币 DEX。其中 Alex Labs DEX 允许在 BTC 上以完全去中心化的方式进行互换、质押和流动性挖矿。Alex Labs DEX 在测试网络上提供了一个 AMM 及一个链外订单簿，以允许用户进行杠杆交易。【原文为英文】</p><a href=\"https://twitter.com/CryptoKaduna/status/1630221869923090434\">内容来源</a><p><strong>Kaduna：</strong>随着越来越多的项目在 Stackss 上构建，Alex Labs 还启动了一个 Launchpad，其原生代币 ALEX 持有者可以获得访问权。此外，通过 Luanchpad 参与 IDO 还需要通过质押 ALEX 和使用 ALEX 进行流动性挖矿获得 APower。持有的 APower 越多，Launchpad 上收到的分配比例就越多。【原文为英文】</p><a href=\"https://twitter.com/CryptoKaduna/status/1630221869923090434\">内容来源</a>",
           "link": "https://twitter.com/CryptoKaduna/status/1630221869923090434",
           "publishedOn": "2023-02-28T05:48:31.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】读懂比特币一站式完整 DeFi 服务平台 Alex 特点及功能：被低估了吗？",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "<h3>Yuga Labs 推出基于比特币区块链的 NFT 系列 TwelveFold</h3>\n<p>据官方消息，Yuga Labs 宣布推出新的基于比特币的 NFT 系列 TwelveFold，该系列包含 300 件刻在比特币区块链上的限量版生成艺术作品，主要通过 Ordinal Theory 协议实现。每件 NFT 作品都是 12x12 网格，结合 3D 图形和手绘特征，由 Yuga Labs 内部艺术团队设计和创作，该公司表示 TwelveFold 与其任何一个以太坊链上 IP 均无关联，未来也不会有任何交互。这些 NFT 将在本周晚些时候举行的拍卖会上出售，所有出价都将以比特币进行。</p>\n<p><a href=\"https://mobile.twitter.com/yugalabs/status/1630342395295412232\">内容来源</a></p><hr>",
           "link": "https://mobile.twitter.com/yugalabs/status/1630342395295412232",
           "publishedOn": "2023-02-28T03:01:18.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Yuga Labs 推出基于比特币区块链的 NFT 系列 TwelveFold",
           "imageUrl": null
         },
@@ -697,7 +697,7 @@
           "description": "<h3>Coinbase 将于 3 月 14 日起暂停 BUSD 交易</h3>\n<p>Coinbase 将于北京时间 2023 年 3 月 14 日 00:00 左右暂停 Binance USD（BUSD）交易。BUSD 资金仍然可用，并能继续随时提取资金。但 Coinbase.com、Coinbase Pro、Coinbase Exchange 和 Coinbase Prime 的交易将暂停。</p>\n<p><a href=\"https://twitter.com/CoinbaseAssets/status/1630236377622228994\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Coinbase：</strong>我们暂停 BUSD 交易的决定是基于我们内部监控和审查流程，在审查 BUSD 时，我们确定它不再符合我们的上市标准。【原文为英文】</p><a href=\"https://www.theblock.co/post/215435/coinbase-to-halt-trading-of-binances-busd-for-not-meeting-listing-standards\">内容来源</a><p><strong>Mike Dudas：</strong>BUSD 由 Paxos 发行、完全由破产远程抵押品支持、在以太坊上交易，请问哪一部分是 「极度危险的」？这不是其他链上的 Binance-peg 封装的东西。【原文为英文】</p><a href=\"https://twitter.com/mdudas/status/1630262965113962496\">内容来源</a>",
           "link": "https://twitter.com/CoinbaseAssets/status/1630236377622228994",
           "publishedOn": "2023-02-28T01:06:02.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Coinbase 将于 3 月 14 日起暂停 BUSD 交易",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<h3>美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」</h3>\n<p>据雅虎财经报道，美国金融科技公司 Republic 受 FTX 崩溃和美国证券交易委员会（SEC） 影响，取消「Republic Realm Metaverse 房地产基金」。该基金于 2021 年 3 月推出，12 月发起 Test the Waters (TTW) Regulation A，向所有投资者开放，并在短时间内完成 7500 万美元的预定上限。该基金主要用于购买 Sandbox、Axie Infinity 和 Decentraland 等 NFT 游戏中的虚拟房地产，从 3 月首次启动到 12 月 Regulation A 融资，该基金的投资资本回报率为 145%。但随着 FTX 崩盘以及 SEC 监管，该资金现在一直处于停滞状态，Regulation A 将取消发行。</p>\n<p><a href=\"https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html\">内容来源</a></p><hr>",
           "link": "https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html",
           "publishedOn": "2023-02-27T02:25:16.000Z",
-          "wordCount": 14125,
+          "wordCount": 14218,
           "title": "美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」",
           "imageUrl": "https://media.zenfs.com/en/Benzinga/22c8531513d2cf19ff0a5d51aeefcc73"
         },
@@ -887,7 +887,7 @@
           "description": "<h3>印度已要求 IMF 和 FSB 提供加密监管综合文件以助于制定加密资产全面政策</h3>\n<p>据 Bitcoin.com 报道，在 G20 财长和央行行长首次会议后，印度政府发布了「G20 主席总结和成果文件」，加密监管是讨论的主题之一。其中，印度要求国际货币基金组织 (IMF) 和金融稳定委员会 (FSB) 于 2023 年 9 月联合提交一份整合加密资产宏观经济和监管视角的综合文件，有助于制定针对加密资产的协调和全面的政策方法。</p>\n<p><a href=\"https://news.bitcoin.com/india-asks-imf-and-fsb-for-joint-paper-to-help-formulate-comprehensive-crypto-policy/\">内容来源</a></p><hr>",
           "link": "https://news.bitcoin.com/india-asks-imf-and-fsb-for-joint-paper-to-help-formulate-comprehensive-crypto-policy/",
           "publishedOn": "2023-02-26T08:53:37.000Z",
-          "wordCount": 3502,
+          "wordCount": 3480,
           "title": "印度已要求 IMF 和 FSB 提供加密监管综合文件以助于制定加密资产全面政策",
           "imageUrl": "https://static.news.bitcoin.com/wp-content/uploads/2023/02/india-imf-fsb.jpg"
         },
@@ -2238,7 +2238,7 @@
           "description": "Aptos Labs is proud to support Web3 education and research with our latest grant award to Professor of Computer Science, Lorenzo Alvisi…",
           "link": "https://aptoslabs.medium.com/our-commitment-to-the-future-of-web3-1558d532fd66?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-02T16:28:39.000Z",
-          "wordCount": 1678,
+          "wordCount": 1681,
           "title": "Our Commitment to the Future of Web3",
           "imageUrl": "https://miro.medium.com/max/1200/1*l-FMELWycY37YVNhwe0b2Q.png"
         }
