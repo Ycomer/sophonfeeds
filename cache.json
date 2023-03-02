@@ -157,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一段时间以来， Eigenlayer 一直是加密领域最受期待的产品之一。Stratos 研究员 Eli Nuss 撰文探讨了 EigenLayer 的未来价值以及规模。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">https://twitter.com/nuss_eli/status/1630632582554460165</a></p>\n<p><strong>文章作者：</strong></p><p>Eli Nuss</p><hr><h3>观点：</h3><p><strong>Eli Nuss：</strong>EigenLayer 引入了重质押，它允许质押者重新使用质押的 ETH 来保护多个网络。这解决了主动验证服务 (AVS) 的安全问题分散性挑战。通过整合资金，相同数量的资金可以在多个网络中重复使用，从而大大减少可用于质押证明系统的资金稀缺性问题。【原文为英文】</p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">内容来源</a><p><strong>Eli Nuss：</strong>要了解重质押的潜在市场规模，一个很好的起点是看当下非 ETH 质押者产生的质押收入。在 2022 年第四季度，前 25 个质押证明网络（不包括以太坊）支付的年化质押收入约为 30 亿美元。过去 3 年的平均年复合增长率为 37%。据此预测，非 ETH AVS 质押奖励在未来十年可以超过 250 亿美元。假设 EigenLayer 的收益率为 10%（与 Lido Finance 一致），这意味着超过 25 亿美元的潜在收入将流经该平台。【原文为英文】</p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">内容来源</a><p><strong>Eli Nuss：</strong>我们的观点是，质押仍然相当早期，随着即将到来的 rollup 和其他模块化区块链的普及，将出现更多质押的需求。因此，EigenLayer 的 AVS 很可能是构成未来质押收入的重要部分。基于对收入的预测，我们估计 EigenLayer 可以成为价值数十亿美元的协议。【原文为英文】</p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">内容来源</a>",
           "link": "https://twitter.com/nuss_eli/status/1630632582554460165",
           "publishedOn": "2023-03-02T05:57:31.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】探讨 EigenLayer 未来的价值以及规模",
           "imageUrl": null
         },
@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ETHDenver 2023 活动已于 2 月 24 日在美国丹佛举行，Paradigm 首席技术官兼研究合伙人 Georgios Konstantopoulos 撰文概述了他认为 ETHDenver 期间有价值的 6 个项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">https://twitter.com/gakonst/status/1630740285293559808</a></p>\n<p><strong>文章作者：</strong></p><p>Georgios Konstantopoulos</p><hr><h3>观点：</h3><p><strong>Georgios Konstantopoulos：</strong>1）OP-Reth：OP Stack 实现了一个优化 Rollup 设计，旨在尽可能接近以太坊，我们希望其能够在 Reth 中实现，refcell.eth 正在为此努力；2）Wagmi：Web3 前端库，Wagmi CLI 通过与 Foundry 的集成允许全栈黑客马拉松项目迭代速度极快；3）使用 Ruint 的 ethabi：我们想用 recmo 的 Ruint 替换所有 Rust 代码中的原始类型，而最大的障碍是用 Ruint 替换 ethabi 内部类型；【原文为英文】</p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">内容来源</a><p><strong>Georgios Konstantopoulos：</strong>4）Ganache-UI：仅用于构建在 ICP 协议上的代币化和游戏化 L1 协议 Anvil；5）ABI：UI 生成，但我并没有抱有很大期望，我希望能够看到像 AMM、Lending、NFT 这样的无风格 React 组件；6）MEV-Share：可编程的隐私订单流，基于 MEV-Boost 构建，设计目标包括 MEV 再分配、搜索者无许可、向后兼容、可编程隐私等。【原文为英文】</p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">内容来源</a>",
           "link": "https://twitter.com/gakonst/status/1630740285293559808",
           "publishedOn": "2023-03-02T03:15:37.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】Paradigm 首席技术官：ETHDenver 2023 值得关注的 6 个项目",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>此前，BUSD 置身 SEC 和 NYDFS 的监管风波。Dose of DeFi 作者 Chris Powers 发文探讨另一类规模更小、稳定性更差的稳定币。它们试图在链上运行，且不受 TradFi 基础设施和法定支持的稳定币所面临的监管限制，最有潜力释放新的信贷创新和效率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins</a></p>\n<p><strong>文章作者：</strong></p><p>Chris Powers</p><hr><h3>观点：</h3><p><strong>Chris Powers：</strong>MakerDAO 在前两年不断发展壮大，代价是目前 Dai 近 60% 由法定稳定币支持，暴露出每个创新稳定币最终都会遇到的难题：如何完全依赖链上资产和执行机制来扩展和增加供应。虽然 MakerDAO 正在推进提高 Dai 储蓄率等战略举措，但它似乎已成为其自身成功的受害者，同时处于去中心化和增长模式，进行监管套利，但也在易受监管的真实世界资产上下重注；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>Aave 的稳定币 GHO 两周前已在测试网部署，设计方面没什么创新，它的成功将取决于利用 Aave 网络效应的能力。Aave 几年来一直在借贷领域处于领先地位。就像一家拥有广泛分布的银行一样，Aave 将尝试利用其现有贷款完成 GHO 超募。它如何处理挂钩并管理其对法币支持的稳定币的依赖是另一个问题；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>crvUSD 将基于一种创新设计，其中清算被特殊用途的 AMM 取代。提高抵押品效率的一种方法是通过提供流动性从中赚取费用；Gyroscope 是另一个即将在以太坊上推出的创新稳定币，通过元聚合和索引限制对单一预言机价格的依赖，它还引入了 Maker 的挂钩稳定模块的更新版本，试图防止陀螺仪稳定币（GYD）在寻求挂钩稳定时中被中心化的稳定币增选。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a>",
           "link": "https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins",
           "publishedOn": "2023-03-01T10:59:32.000Z",
-          "wordCount": 4269,
+          "wordCount": 4475,
           "title": "【英文】链上稳定币能否突破法币主导的市场？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b013d4f-652a-4b8f-8887-0e7606f5cfbc_4068x2450.png"
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Polygon 的 zkEVM 主网即将启动，加密分析师 Rekt Fencer 分享他认为 Polygon 上值得关注的几个项目，并盘点其代币市值、用途等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">https://twitter.com/rektfencer/status/1630661921858002946</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）Aavegotchi：开放世界类 Play-To-Earn NFT 角色扮演游戏。代币 GHST 现价 1.46 美元；市值 7700 万美元，TVL 1100 万美元；上线币安、OKX 和火币 ；作为生态系统基础货币，用以购买 Aavegotchi 链上资产；2）QuickswapDEX：Polygon 上最大的 DEX，基于开源软件，优先考虑去中心化、抗审查性和安全性。代币 QUICK 现价 105 美元；市值 4600 万美元，TVL 1.67 亿美元；上线 Binance、Coinbase 和 Kucion；用于治理；【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">内容来源</a><p><strong>Rekt Fencer：</strong>3）IDEX：具有高达 100 倍杠杆的永续掉期 DEX，使用订单簿和 AMM 混合系统。近期推出 V4 版本，已有 35 亿美元总交易量。代币 IDEX 现价 0.06 美元；市值 4500 万美元，TVL 450 万美元；上线 Coinbase、Gate、MEXC；用于质押以分享协议费用收益；4）DecentralGames：旗舰游戏是一款元宇宙扑克游戏 ICE Poker，用户可以通过不同活动获得 ICE 奖励和数字收藏品。代币 DG 现价 0.038 美元；市值 2500 万美元，FDV 3800 万美元；上线 Gate、MEXC、Kucoin；用于质押和购买可穿戴设备；【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">内容来源</a><p><strong>Rekt Fencer：</strong>5）Gains Network：允许用户以高达 150 倍的加密货币杠杆、1000 倍的外汇杠杆、100 倍的股票杠杆和 35 倍的指数杠杆进行交易。代币 GNS 现价 8.31 美元；市值 2.53 亿美元，TVL 1700 万美元；上线 Gate、Binance、MEXC；用作流动性效率机制；6）DFyn：Polygon 第二大原生 DEX。代币 DFYN 现价 0.051 美元；市值 900 万美元，TVL 1900 万美元；上线 Kucoin；用于治理和收益分享。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1630661921858002946",
           "publishedOn": "2023-03-01T09:29:03.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】zkEVM 主网启动在即，一览 Polygon 生态值得关注的项目",
           "imageUrl": null
         },
@@ -367,7 +367,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>OpenSea 多年来的市场主导地位几乎是绝对的，这使得 Blur 的惊人崛起更加令人印象深刻。Bankless 作者 Donovan Choy 深入探讨 OpenSea 和 Blur 平台之间的战争，并介绍 OpenSea 仍然占据优势的领域。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806412\">https://www.defidaonews.com/article/6806412</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>Blur 通过提供无摩擦的可选版税、零交易费市场来瞄准一小部分投机性 NFT  交易者。OpenSea 的初始定位试图站在创作者一边，并利用其市场主导地位，以促使交易者只向 OpenSea 买家上市，迫使创作者在 OpenSea 或 Blur 上赚取版税之间做出选择。然而，Blur 巧妙地利用了 OpenSea 的 Seaport 协议，并以此为基础构建了自己的市场。从用户的角度来看，「受限」 收藏品再次可以在 Blur 上交易。从创作者的角度来看，他们不再需要选择 —— 他们可以获得 OpenSea 和 Blur 的全部版税。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 市场策略的第二步：免费空投，空投围绕「忠诚度积分」系统设计，这激励鲸鱼雇佣兵承担实际风险，投入数百万美元的出价，为 Blur 市场创造流动性。Blur 的流动性激励设计虽然到目前为止是成功的，但并非没有风险。如果 NFT 市场陷入困境，当空投猎人意识到提供资金的风险 > Blur 忠诚度积分的收益时，这可能会导致一系列的出价被接受，导致市场进一步下跌。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 为激励流动性付出的数百万美元的巨额成本，而且 BLUR 代币也不过是一个 Meme 代币。虽然 Blur 在交易量上超过了 OpenSea，但后者在有机使用率方面仍然占据主导地位。Blur 的活动主要由少数富有的空投猎人主导，而更广泛的「普通」 市场仍在 OpenSea 上。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806412",
           "publishedOn": "2023-03-01T06:18:02.000Z",
-          "wordCount": 652,
+          "wordCount": 648,
           "title": "Bankless：OpenSea 和 Blur 之间的市场战争才刚刚开始",
           "imageUrl": "https://appserversrc.8btc.cn/lsyUxYlMIZxcMGGppA5DrFoGNdj7.png?imageView2/1/w/500/h/300"
         },
@@ -557,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>借助着 Blur 的「Bid to Earn」风潮，许多蓝筹 NFT 的交易量发生了爆炸级增长，Trending 榜单上却出现新生客 Notable Pepes，NFT 研究员 WaTell 对该项目的创始人及其造富效应进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">https://twitter.com/0xWatell/status/1630102952814981120</a></p>\n<p><strong>文章作者：</strong></p><p>WaTell</p><hr><h3>观点：</h3><p><strong>WaTell：</strong>Notable Pepes，由「Pepe Checks」衍生而来，是由著名 NFT 收藏家 Vince Van Dough (VVD) 在 2 月 5 日发布的 OE 作品。作品设计不难看出其灵感来源于 Jack Butcher 的「推特蓝勾」，只是把 meme 变成了我们熟知的「悲伤青蛙 - Pepe」。但这仍然无法阻止这项作品的成功，许多 NFT OG 第一时间与其进行互动、转推扩散热度。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>VVD 被誉为「有史以来最积极的 NFT 收藏家」，他曾豪掷数千 ETH 购入艺术品 NFT，并且一直持有到现在。他还曾经于 2021 年 8 月与三箭资本合作成立了「NFT 收藏基金 - Starry Night Capital」，帮助他们购入「优质的 NFT 资产」。这在某些层面也能体现出 VVD 强大的社会关系。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>在公布「Pepe Checks」的 OE 铸造页面后，在短短 24 小时内，便铸造了 237,869 枚 NFT，总收入约为 975.2629 eth。2 月 18 日，VVD 公布了由「Pepe Checks」衍生而来的 Notable Pepes。首个作品便是「Pepe Cheques」，总量为 2000，1344 张进入「著名的 Pepes 金库」，但在当时并没有第一时间全部铸造完，而它的地板价现为 1.4 eth。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>2 月 26 号，Notable Pepes Collection 的「3~7」号作品正式上线。铸造价格为 0.069 eth，而即使是人气最低的作品「The Rarest Deck」，地板价也有 0.54 eth。人气最高的「Pepe's Chair」，地板价为 4.95 eth，拥有接近 70 倍的涨幅。需要注意：Notable Pepes 并不像其他 OE Collection，其采用的是白名单铸造机制。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a>",
           "link": "https://twitter.com/0xWatell/status/1630102952814981120",
           "publishedOn": "2023-02-28T07:33:01.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "「OpenEdition」与 meme 始祖 「Pepe」融合，解析 NFT 项目 Notable Pepes",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊上海升级临近，LSD 赛道再次升温。加密研究员 CC2 认为 ssv.network 拥有巨大的上升空间，并从 SSV 和 DVT 的概念、代币经济学、SSV 和 L2 之间的区别及估值等方面对其发展潜力进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">https://twitter.com/CC2Ventures/status/1630235318497730560</a></p>\n<p><strong>文章作者：</strong></p><p>CC2</p><hr><h3>观点：</h3><p><strong>CC2：</strong>ssv.network 正在开发分布式验证器技术（DVT），DVT 允许一个验证器在多个节点或机器上运行，且个人运行的节点可以作为一个单一验证器一起运行。相较于单节点验证器，DVT 的优势在于即使有节点脱机也不会影响性能，且由于不需要节点备份，减少了 slash 的风险，且在较少机器上运行更多节点也降低了硬件成本。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a><p><strong>CC2：</strong>代币经济学：SSV 代币效用包括两个方面：SSV 只有这可以对 DAO 提案进行投票及作为 SSV 网络的支付工具。我认为作为支付工具具有很大的飞轮潜力，DVT 加速 ETH 去中心化，为 DAO 提供费用，让更多的项目获得资金并使用 DVT 构建应用程序，最后 DVT 使用增加也会获得更多费用。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a><p><strong>CC2：</strong>我认为 SSV 仍有很大上涨空间：1） SSV 在以太坊路线图中发挥很大的作用；2）在 DVT 领域具有先发优势，受到以太坊基金会委托让 ETH 更去中国你虚拟化、安全并增强审查能力；3）成立了一个 5000 万美元的基金以支持 DVT 建设；4）Lido 等公司正在利用其技术；5）良好的代币经济学，具有价值累积机制和飞轮潜力。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a>",
           "link": "https://twitter.com/CC2Ventures/status/1630235318497730560",
           "publishedOn": "2023-02-28T03:01:48.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】解析以太坊质押基础设施 ssv.network：未来增长点和估值分析",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<h3>美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」</h3>\n<p>据雅虎财经报道，美国金融科技公司 Republic 受 FTX 崩溃和美国证券交易委员会（SEC） 影响，取消「Republic Realm Metaverse 房地产基金」。该基金于 2021 年 3 月推出，12 月发起 Test the Waters (TTW) Regulation A，向所有投资者开放，并在短时间内完成 7500 万美元的预定上限。该基金主要用于购买 Sandbox、Axie Infinity 和 Decentraland 等 NFT 游戏中的虚拟房地产，从 3 月首次启动到 12 月 Regulation A 融资，该基金的投资资本回报率为 145%。但随着 FTX 崩盘以及 SEC 监管，该资金现在一直处于停滞状态，Regulation A 将取消发行。</p>\n<p><a href=\"https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html\">内容来源</a></p><hr>",
           "link": "https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html",
           "publishedOn": "2023-02-27T02:25:16.000Z",
-          "wordCount": 13924,
+          "wordCount": 13919,
           "title": "美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」",
           "imageUrl": "https://media.zenfs.com/en/Benzinga/22c8531513d2cf19ff0a5d51aeefcc73"
         },
