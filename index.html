@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-03 datetime="2023-03-03T10:06:46.000Z">2023-03-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-03 datetime="2023-03-03T10:06:46.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-03 datetime="2023-03-03T10:38:04.000Z">2023-03-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-03 datetime="2023-03-03T10:38:04.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,64 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html"
+                        open
+                      >
+                        <summary class="article-expander__title">3分钟读懂NFTFi项目Midaswap：多链部署，基于Liquidity Book的NFTS自动做市商协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/images/5r522wt7In.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>TL,DR
+流动性，在金融领域，尤其是Web3领域，几乎可以被称之为最为重要的要素。2022年一系列的清算浪潮，从Three Arrows Capital蔓延到Celsius Network、Babel Finance、BlockFi和Voyager Digital等加密机构。因为各种原因造成的流动性不足，从而引发的恶性挤兑的黑天鹅事件，已经充分说明了流动性的重要性。
+流动性问题不仅对DeFi的发展是致命的，对NFT也是如此。尽管Opensea、Magic Eden等世界前15大NFT交易市场，占据了全球NFT市场的绝大多数份额，但其总交易量依旧不到去中心化加密货币交易所的2%。流动性不足的问题，不仅影响NFT用户之间的交易体验，同时也阻碍了NFT进一步对外扩展的脚步。因此veDAO研究院特意对当前NFT流动性解决方案领域的Alpha项目进行总结和梳理，以飨读者。
+Midaswap是基于Liquidity Book的NFTS自动做市商 (AMM) 协议，它部署在Ethereum、Polygon、Arbitrum、Optimism和Celo上。旨在通过结合可定制的流动性头寸、Multihop Swap等手段，聚合同一个流动性池中不同LPS的不同定价策略，实现FT端资产流动性的充分聚合。
+团队背景：据悉，Midaswap团队前身为QilinDAO，是早期活跃的DeFi开发团队。但截至目前，Midaswap官方并未释放关于团队成员的更多详细消息。
+融资情况：据悉，Midaswap项目目前获得了Polygon Venture、Foresight等机构投资，预计首轮估值2000万美元。
+业务目的：Midaswap为NFT交易的流动性不足问题，提供了一套新的解决思路。
+当前NFT流动性解决方案主要有两种：
+NFT碎片化：本质上，NFT碎片化就是通过部署合约，生成与不可分割的ERC-721/1155 NFT相关联的多个ERC-20代币。这样，任何持有这些ERC-20代币的人都可以拥有关联NFT的部分所有权。广义上碎片化旨在让NFT可以转而成为成为流动的、有收益的生产性的FT资产。
+NFT AMM：NFT AMM是Opensea、X2Y2或Magic Eden等链下订单簿中心化NFT市场的去中心化替代方案，它主要利用流动池来实现无摩擦和低成本的交易。由于NFT的低可访问性，在当前中心化市场上，有时即使是蓝筹NFT也没有多少流动性。而通过NFT AMM，任何人都可以在链上为其添加流动性，并赚取一定的交易费用。
+业务说明：Midaswap选择的是后者，并在此基础上，通过实现将NFT：FT的交易对定义为LP，共同组建流动性池这一手段，实现了NFT流动性扩容。根据Midaswap白皮书披露：在流动性池之中，LP将在他们自己设定的价格范围内提供NFT或FT流动性。
+对于NFT流动性提供者来说，他设定的价格上限将决定他最后一个交易的NFT的价格，而下限则是第一个交易的NFT的价格。所有这些NFTS都默认按比例定价。
+对于FT流动性提供者，其设置的价格上限是其清算换取的第一个NFT的价格，而下限是最后一个NFT的价格。默认情况下，所有这些流动性仍按比例定价。
+实现机制：
+
+LP交易对：本质上是一个智能合约，可以让你在两种资产之间即时交换。在Midaswap中，每个NFT集合都对应一个介于NFT和FT（ETH/WETH/稳定币）之间的流动性池，这意味着持有该集合中的NFT的任何人都可以立即将它们交换为ETH或稳定币，反之亦然。
+流动性定价方式：恒定和做市商（CSMM）：X+Y&#x3D;K，流动性低，无滑点存在，适合交易中，价格变化较少的场景。但由于这一公式过于刚性，所以当出现X&amp;Y两个币种价差出现大行情时，很容易把资产池打破。于是Midaswap选择CSMM+限价订单的组合流动性定价方案，即在X&amp;Y价值崩塌临界点以内，设置有效的交易区间。
+
+协议收入来源
+隔夜利息：交易者交易LP提供的资产（包括NFTs和FTs）时，隔夜利息按百分比累积。费用不会自动重新投资到仓位，LPs需要从池中手动赎回。
+版税：版税是NFT项目方在发布时编码到智能合约中的固定收入率。在Midaswap中，每笔NFT的交易都会收取一定的使用费，固定比例的交易金额会被转入认领地址，由项目方设置的白名单进行认领。
+协议费用：Midaswap的内置协议率为10%。LP 赚取的交易费用的10%将转移到Midaswap的财政部。同时，对于在Midaswap限价挂单卖出NFTS的用户，交易过程中收取的手续费100%将转入Midaswap资金库。
+经济模型
+据Midaswap官方流出文档显示，Midaswap生态构成要素分为NFT和Utility Token：MIDAS。
+其中，NFT在生态中承担了投票/治理/闪电贷的功能。
+MIDAS主要作用在于通过燃烧代币来换取NFT；以及作为奖励发放给使用产品的用户。
+以下为MIDAS的代币分配信息：
+
+运营情况
+官网：https://midaswap.org/
+推特：https://twitter.com/Midaswap_
+Discord：https://discord.com/invite/FNkFwBQNaT
+目前，Midaswap整体运营程度还属于项目早期。
+产品侧：暂无可供测试产品露出。
+运营侧：推特人数2980人、Discord人数39人。
+Sudoswap：sudo AMM具有允许提供NFT或ETH的单边或双边流动性池、可随时调整流动性池参数、仅0.5%的平台交易费用、无版税等特点。
+Pikoswap：Pikoswap是一个链上NFT AMM，用户可以自由灵活地交易NFT，也可以建立自己的NFT流动性池，赚取交易费用。
+Goat Swap：Goat Swap是Solana上的一个NFT AMM，由Solana链上交易聚合器Jupiter Aggregator的联合创始人创立。通过GOAT Swap，用户可以自己创建流动性池来购买、出售和交易NFT。GOAT Swap中最常见的流动性池是NFTSOL池，任何持有流动性池中对应NFT的用户都可以将其换成SOL。
+总体而言，相较于市场上已经成熟NFT AMM产品而言，Midaswap具有一定创新性；但无论其团队背景还是VC背景则没有很令人惊艳。但不可否认的是，随着Web3行业的发展，NFT作为重要的载体和对外形象展示的最佳场景，势必将会获得更多人的青睐，而NFT AMM赛道势必拥有更广阔的发展前景。而Midaswap作为NFT主要承载公链Polygon生态的一员，未来很有可能凭借polygon链上NFT产品的繁荣而获得爆发的机会。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -3382,6 +3440,105 @@ Omnichain 上的资产根据 Token 是否同质化，可以分为 Omnichain-FT�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://foresightnews.pro/article/h5Detail/27079"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3 中的神秘东方力量：「中国概念」项目超级盘点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://foresightnews.pro/article/h5Detail/27079">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.foresightnews.pro/vertical_logo.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+随着香港加密监管政策的逐渐落地，一时间，「中国概念」成为加密圈近期追逐的热点。Foresight News 编辑部整理了一份国内以及由华人华侨所主导的 Web3 项目、公司、机构等。
+文章来源：
+https://foresightnews.pro/article/h5Detail/27079
+文章作者：
+Babywhale（Foresight News）
+
+观点：
+Babywhale（Foresight News）：Layer 1：Conflux、Nervos、VeChain、IoTeX、Injective、Oasis Network、Harmony、Neo、Ontology、Tron、IOST、REI Network、PlatON、Cortex Labs；Layer 2：Loopring、Taiko、Scroll、Zecrey。
+内容来源
+Babywhale（Foresight News）：基础设施：存储：Crust Network；支付：Alchemy Pay；身份：.bit；跨链：Celer Network、Multichain、Ren；预言机：Lithium Finance；其他：Ankr、Octopus Network。DeFi：WOO Network、Parallel Finance、dForce、DODO、Wombat Exchange、MDEX、Zenlink、Shield、ApeX Protocol。
+内容来源
+Babywhale（Foresight News）：NFT：X2Y2、Element、IRIS Network、The Weirdo Ghost Gang；游戏：Cocos-BCX、StarSharks；社交：Mask Network、RSS3、TwitterScan；元宇宙：The Sandbox、Highstreet、Digination；工具：BitKeep、TokenPocket；数据分析：DeBank、Footprint。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://frontier.tech/the-orderflow-auction-design-space"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】订单流拍卖（OFA）机制调研：核心框架、创新机制与发展方向</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://frontier.tech/the-orderflow-auction-design-space">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://potion.nyc3.cdn.digitaloceanspaces.com/63812136f84afb001891dd39/site_image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+订单流拍卖（OFA）机制将执行订单的权利拍卖给竞标人，并将中标金额提供给用户，OFA 承诺向用户返还他们通过订单创造的价值。Frontier Research 研究员 Stephane Gosselin 和 Ankit Chiplunkar 与 Consensys Research 合作，调研了 12 个独立的订单流拍卖方案，总结了一个通用的 OFA 核心架构以及四个设计方向。
+文章来源：
+https://frontier.tech/the-orderflow-auction-design-space
+文章作者：
+Stephane
+
+观点：
+Stephane：所有的 OFA 都有相同的核心框架，只是在实现方式上有所不同。流程：1. 发起人产生订单；2.OFA 与竞标者共享信息；3. 竞标者利用信息预估 MEV，并出价；4.OFA 选择中标者，并将其纳入。【原文为英文】
+内容来源
+Stephane：OFA 需要做出 5 个关键的设计决定：1. 接受哪些订单类型？2. 谁可以对订单进行竞标？3. 哪些信息是共享的？4. 如何选择中标者？5. 如何纳入中标结果？【原文为英文】
+内容来源
+Stephane：我们预测 OFA 的实施将围绕以下的四个设计进行：1. RFQ 拍卖；2. 独家批量拍卖；3. 交易执行服务；4. 区块空间聚合器。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;35
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3 休闲游戏全解析：会是下一个流量入口吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/kyxrcpZ9eZLbZyCx2xv4AMVNdaiaW0vOF3Mkw9bbicK4a2eN6g1So4Vp8G6PAYegSDAttniccdAUwCv9xXqHeIHZg/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Web3 领域现象级的应用都有一个共同的特点：破圈效应。 Puzzle Ventures 研究员 Jason 认为，休闲娱乐作为最底层、最基本的大众社会活动是最具破圈潜力的方向。作者论证了 Web3 休闲游戏相比 Web3 短视频 / 社交类应用具备的破圈优势，解析了当前代表性 Web3 休闲游戏的机制设计，并展望了 Web3 休闲游戏的潜在发展方向。
+文章来源：
+https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA
+文章作者：
+Jason（Puzzle Ventures）
+
+观点：
+Jason（Puzzle Ventures）：任何一款无论 Web2 还是 Web3 的高质量休闲游戏都有短时间爆炸性增长的可能性。休闲游戏的生命周期是前高后底，是更佳的引流工具。休闲游戏几乎不需要高效开发引擎、不需要算力、不需要渲染就可以创作出高质量的作品，这也是为什么休闲游戏可以和 Web3 共存并且相互赋能的原因，
+内容来源
+Jason（Puzzle Ventures）：上瘾机制是休闲游戏的底层逻辑，一方面需要优质的画面反馈，另一方面需要在故事性和可玩性上深耕、测试，这两点在 Web3 领域里并不会有独特的优势。在探索机制上，Web3 相比 Web2 有天然的优势，去中心化的开放世界和基于 NFT 的宝藏资源是天然促进探索心理的关键要素。
+内容来源
+Jason（Puzzle Ventures）：从目前的发展趋势上，可以总结出几个 Web3 休闲游戏目前比较火热的方向：1. 小游戏集合平台；2. 虚拟宠物与养成；3. 问答 PvP 类；4. 轻博彩类。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.defidaonews.com/article/6807012"
                         open
                       >
@@ -6338,51 +6495,6 @@ https://github.com/FuelLabs/awesome-fuel#projects-building-on-fuel
 最后，关于提高空投收益，我不建议使用女巫攻击的方法。相反，在操作中不要使用超过五个钱包，这样才能让你收到空投的可能性最大化。
 同时，要有策略的耕耘自己的空投操作，我的策略是：在两三个月内，每周至少使用一次协议。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/7r222ay7.html"
-                        open
-                      >
-                        <summary class="article-expander__title">12张图表解读2月加密行业：NFT引领加密市场早春回暖</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/7r222ay7.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/02/images/J9PIs4nKh7.jfif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>作者| The Block研究主管@Lars
-编译| PANews
-对于加密行业而言，早春二月是一个好坏参半的月份，一方面稳定币BUSD遭受冲击，另一方面NFT市场则引领了加密市场的回暖。
-1、调整后链上总交易额下降了0.7%，跌至1640亿美元，其中比特币链上交易额下降了4.3%， 以太坊链交易额则增长4.2%。
-
-2、调整后的稳定币链上交易额减少至5581亿美元，跌幅达到了17.6%；已发行稳定币供应量则进一步收缩至1284亿美元，降幅约为3.2%，其中美元稳定币USDT和USDC的市场份额分别上升至 55.7%和31%。另一方面，纽约州金融服务部命令Paxos Trust Co.停止发行更多的BUSD代币之后，已有价值约56亿美元的BUSD被销毁。
-
-3、比特币矿工收入上涨4.3%甚至6.271亿美元，以太坊质押收入增长幅度略低，约为2.9%，达到1.048亿美元。以太坊Shanghai-Capella主网升级预计将在三月进行，届时质押的ETH将会被允许提取。
-
-4、二月以太坊网络共销毁了84,885枚ETH，价值相当于1.381亿美元。数据显示，以太坊在整个二月期间都处于通缩状态，此外自2021年8月上旬实施EIP-1559以来，以太坊总计销毁了约295万枚ETH，约合90.2亿美元。
-
-5、二月以太坊链上NFT市场交易额达到了18.6亿美元，涨幅高达103.2%，这种上涨态势主要由NFT市场Blur推动，随着其BLUR代币推出，Blur在交易量等指标上已超越了OpenSea。
-
-6、合规中心化交易所（CEX）的现货量在二月份增加了11.4%，达到约6658亿美元。
-
-7、加密货币交易所的市场份额变化值得关注：币安在二月份的市场份额已超过八成达到81.9%，Coinbase为6%，BTSE为3.1%，Kraken为2.9%，Binance US为1.7%。
-
-8、灰度的比特币信托近GBTC日均交易额在二月下跌了25.4%，降至3260万美元。
-
-9、在加密期货方面，比特币和以太坊期货持仓量均出现上涨，其中比特币和以太坊期货持仓量涨幅一致，都为2%；在期货交易额方面，比特币和以太坊期货交易额也出现上涨，其中比特币期货交易额在2月涨幅约为16.8%，达到7660亿美元。
-
-10、芝商所二月比特币期货持仓量下降了15.3%，跌至18.8亿美元，日均成交金额则有所上涨，涨幅达到26%，升至12.4亿美元。
-
-11、在芝商所的以太坊期货方面，月均交易额达到4990亿美元，涨幅为3.7%。
-
-12、在加密货币期权方面，比特币和以太坊期权持仓量也都出现上涨，但涨幅较一月有所减少，其中比特币期权持仓量涨幅为3.3%，以太坊期权持仓量涨幅为18%。比特币和以太坊期权交易额同样普涨，其中比特币期权交易额在二月份增长了10%，达到176亿美元；以太坊期权交易额涨幅为22.4%，达到104亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12894,31 +13006,6 @@ Your Airdrop</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://mirror.xyz/yourairdrop.eth/HfA6RIc4a4uuubdORzmMfAek_mC_Yk1jyRra2fmuEUc"
-                        open
-                      >
-                        <summary class="article-expander__title">从 OP、兔子洞、Base 谈起：女巫与项目方的军备竞赛和博弈论</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/yourairdrop.eth/HfA6RIc4a4uuubdORzmMfAek_mC_Yk1jyRra2fmuEUc">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mirror-media.imgix.net/nft/So081aSlowmfhyPuigSUf.jpeg?h&#x3D;null&amp;w&#x3D;null&amp;auto&#x3D;compress" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-推特 KOL Your Airdrop 撰文对 Optimisim 第二次空投进行回顾，提出新的方法论，即通过博弈论思想研究项目方发放空投时的权衡与取舍。并对 Optimisim、兔子洞等后续空投参与形式提出预测意见。
-文章来源：
-https://mirror.xyz/yourairdrop.eth/HfA6RIc4a4uuubdORzmMfAek_mC_Yk1jyRra2fmuEUc
-文章作者：
-Your Airdrop</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://mp.weixin.qq.com/s/HISBmicZ-6szM6RY4ZWZyw"
                         open
                       >
@@ -12944,71 +13031,6 @@ Buidler DAO：目前 Lens 未发放代币，也没有公开明确的发币预期
 Buidler DAO：基于 Lens 的社交图谱，可以进一步衍生出信用图谱。信用图谱对信用进行量化，可能会给很多垂直行业带来新的模式可行性。以 Defi 领域为例，高信用价值用户可以享受低抵押贷款，从而提升资产利用效率。信用体系与电商的结合也令人期待，在社交电商、二手电商等场景中，买家和卖家的信用评级可能有助于促进交易达成，提升转化率（当然借助社交图谱，也可以做到更好的商品推荐）。此外，信用图谱还可以延伸应用到保险、招聘等领域。
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;37
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s/HISBmicZ-6szM6RY4ZWZyw"
-                        open
-                      >
-                        <summary class="article-expander__title">Buidler DAO x SevenX：Lens Protocol 深度研究报告</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/HISBmicZ-6szM6RY4ZWZyw">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/OxNicAuOrTfHwAEF3CsvrU6Y55vC3zlP407Jd1buOwEI5p0yNa5enedhpkxCs0ez2n2Tst87po0HrAYHwR6jVHw/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-本文对 Lens Protocol 的数据表现、技术范式、生态发展、与社交赛道其他项目的对比和未来展望进行全面剖析，由 SevenX 投资人 Yinghao，独立研究员 Jason，Sixdegree Lab 联合创始人 Louis，Buidler DAO 研究员 Jane 共同创作，Buidler DAO 发布。
-文章来源：
-https://mp.weixin.qq.com/s/HISBmicZ-6szM6RY4ZWZyw
-文章作者：
-Yinghao，Jason，Louis，Jane
-
-观点：
-Buidler DAO：Lens 的价值在于 4 点：1）用户拥有自己的数据，这是 Web3 原生的基础价值观；2）构建了一套开发者协议，降低了开发社交 Dapp 的难度；3）制定了数据格式的软标准，走完了破除数据孤岛的最后一公里；4）在支持场景上从社交协议衍生到创作者经济与 DAO 治理方向。开发者不再陷入传统 Web2 争抢用户的零和游戏，可以互相协作把蛋糕做大，每个使用 Lens Protocol 的应用程序都有利于整个生态系统；用户可以无障碍畅游在各个产品中；创作者不再需要担心因个别平台的算法、政策或竞争策略导致失去自己的数据。
-内容来源
-Buidler DAO：Lens 数据解读：1）市场参与欲望高：自 2022 年 11 月关闭免费铸造，仅限白单铸造以来，Lens Profile 的成交价在二级市场不断走高；2）用户参与炒作成分少：仅有 15% 的 Lens 域名由纯数字构成，并没有出现类 ENS 的炒作纯数字域名的情况发生，可以看出用户在铸造 Profile 时更多抱着使用而非炒作的心态；3）日活用户与用户留存情况好：尽管 Profile 铸造受限，Lens 的日活依旧维持的很好，即用户留存情况较好，活跃程度并不完全依赖于新账号的铸造。
-内容来源
-Buidler DAO：目前 Lens 未发放代币，也没有公开明确的发币预期。Lens 生态内付费行为非常普遍（收藏、关注、交易等），如何能使付费体验比较流畅是个重要的课题。目前来看，比较可能使用 GHO ( Aave 推出的稳定币）作为生态内货币。原生支付体系得以建立后，电商、投资等其他涉及交易的品类可能会迎来进一步爆发。届时，整个 Lens 生态就像一个大型价值网络，作品、货币、商品以及各种各样的价值载体都将在生态内顺畅流通。
-内容来源
-Buidler DAO：基于 Lens 的社交图谱，可以进一步衍生出信用图谱。信用图谱对信用进行量化，可能会给很多垂直行业带来新的模式可行性。以 Defi 领域为例，高信用价值用户可以享受低抵押贷款，从而提升资产利用效率。信用体系与电商的结合也令人期待，在社交电商、二手电商等场景中，买家和卖家的信用评级可能有助于促进交易达成，提升转化率（当然借助社交图谱，也可以做到更好的商品推荐）。此外，信用图谱还可以延伸应用到保险、招聘等领域。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;37
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/NintendoDoomed/status/1629766635404816385"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】GMX 生态新项目 Archi 解析：高收益背后的高风险不容忽视</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/NintendoDoomed/status/1629766635404816385">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Archi 是基于 GMX 生态的高杠杆收益聚合器，用户可以使用最高十倍杠杆来以两种不同的策略购入 GLP 赚取收益。加密研究员 CapitalismLab 认为，Archi 实际上是一个集成了多个协议的去中心化配资平台，在提供高收益的同时也面临着更大的风险。
-文章来源：
-https://twitter.com/NintendoDoomed/status/1629766635404816385
-文章作者：
-CapitalismLab
-
-观点：
-CapitalismLab：对于所谓去中心化配资平台，其机制为：1.  存款用户存入资金池中，获取利息收益；2. 借款用户借资金池的钱去进行套利等工作；3. 平台构建一套框架规则，约束借款用户的资金用途，以及在借款用户资产不健康时清算他。做平台和做产品的最大区别是将协议项目方从复杂的、偏中心化的资产管理中抽离出来，变成规则制定者和抽税者，变成「裁判」。
-内容来源
-CapitalismLab：Archi 目前做的 GLP Lego 策略应该是为了给用户一个更低的门槛，看了一下策略还是可编辑的，应该也是每个地址单独一个 Vault， 而非 GLP Lego 产品那类集中 Vault 的模式。这种模式风险控制的难度是非常高的：1. 清算时遇到流动性等问题可能导致穿仓，产生坏账；2. 其他协议的对手方风险也会导致其产生坏账。由于需要集成众多协议，实现起来相对较复杂，因此被攻击的风险自然也变大了。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -16756,8 +16778,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4322578353">
-        <time id="build-timestamp" datetime="2023-03-03T10:36:44.202Z">2023-03-03T10:36:44.202Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4322623699">
+        <time id="build-timestamp" datetime="2023-03-03T10:42:39.205Z">2023-03-03T10:42:39.205Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
