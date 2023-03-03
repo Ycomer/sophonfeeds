@@ -100,6 +100,64 @@ Goat Swap：Goat Swap是Solana上的一个NFT AMM，由Solana链上交易聚合�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html"
+                        open
+                      >
+                        <summary class="article-expander__title">3分钟读懂NFTFi项目Midaswap：多链部署，基于Liquidity Book的NFTS自动做市商协议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/images/5r522wt7In.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>TL,DR
+流动性，在金融领域，尤其是Web3领域，几乎可以被称之为最为重要的要素。2022年一系列的清算浪潮，从Three Arrows Capital蔓延到Celsius Network、Babel Finance、BlockFi和Voyager Digital等加密机构。因为各种原因造成的流动性不足，从而引发的恶性挤兑的黑天鹅事件，已经充分说明了流动性的重要性。
+流动性问题不仅对DeFi的发展是致命的，对NFT也是如此。尽管Opensea、Magic Eden等世界前15大NFT交易市场，占据了全球NFT市场的绝大多数份额，但其总交易量依旧不到去中心化加密货币交易所的2%。流动性不足的问题，不仅影响NFT用户之间的交易体验，同时也阻碍了NFT进一步对外扩展的脚步。因此veDAO研究院特意对当前NFT流动性解决方案领域的Alpha项目进行总结和梳理，以飨读者。
+Midaswap是基于Liquidity Book的NFTS自动做市商 (AMM) 协议，它部署在Ethereum、Polygon、Arbitrum、Optimism和Celo上。旨在通过结合可定制的流动性头寸、Multihop Swap等手段，聚合同一个流动性池中不同LPS的不同定价策略，实现FT端资产流动性的充分聚合。
+团队背景：据悉，Midaswap团队前身为QilinDAO，是早期活跃的DeFi开发团队。但截至目前，Midaswap官方并未释放关于团队成员的更多详细消息。
+融资情况：据悉，Midaswap项目目前获得了Polygon Venture、Foresight等机构投资，预计首轮估值2000万美元。
+业务目的：Midaswap为NFT交易的流动性不足问题，提供了一套新的解决思路。
+当前NFT流动性解决方案主要有两种：
+NFT碎片化：本质上，NFT碎片化就是通过部署合约，生成与不可分割的ERC-721/1155 NFT相关联的多个ERC-20代币。这样，任何持有这些ERC-20代币的人都可以拥有关联NFT的部分所有权。广义上碎片化旨在让NFT可以转而成为成为流动的、有收益的生产性的FT资产。
+NFT AMM：NFT AMM是Opensea、X2Y2或Magic Eden等链下订单簿中心化NFT市场的去中心化替代方案，它主要利用流动池来实现无摩擦和低成本的交易。由于NFT的低可访问性，在当前中心化市场上，有时即使是蓝筹NFT也没有多少流动性。而通过NFT AMM，任何人都可以在链上为其添加流动性，并赚取一定的交易费用。
+业务说明：Midaswap选择的是后者，并在此基础上，通过实现将NFT：FT的交易对定义为LP，共同组建流动性池这一手段，实现了NFT流动性扩容。根据Midaswap白皮书披露：在流动性池之中，LP将在他们自己设定的价格范围内提供NFT或FT流动性。
+对于NFT流动性提供者来说，他设定的价格上限将决定他最后一个交易的NFT的价格，而下限则是第一个交易的NFT的价格。所有这些NFTS都默认按比例定价。
+对于FT流动性提供者，其设置的价格上限是其清算换取的第一个NFT的价格，而下限是最后一个NFT的价格。默认情况下，所有这些流动性仍按比例定价。
+实现机制：
+
+LP交易对：本质上是一个智能合约，可以让你在两种资产之间即时交换。在Midaswap中，每个NFT集合都对应一个介于NFT和FT（ETH/WETH/稳定币）之间的流动性池，这意味着持有该集合中的NFT的任何人都可以立即将它们交换为ETH或稳定币，反之亦然。
+流动性定价方式：恒定和做市商（CSMM）：X+Y&#x3D;K，流动性低，无滑点存在，适合交易中，价格变化较少的场景。但由于这一公式过于刚性，所以当出现X&amp;Y两个币种价差出现大行情时，很容易把资产池打破。于是Midaswap选择CSMM+限价订单的组合流动性定价方案，即在X&amp;Y价值崩塌临界点以内，设置有效的交易区间。
+
+协议收入来源
+隔夜利息：交易者交易LP提供的资产（包括NFTs和FTs）时，隔夜利息按百分比累积。费用不会自动重新投资到仓位，LPs需要从池中手动赎回。
+版税：版税是NFT项目方在发布时编码到智能合约中的固定收入率。在Midaswap中，每笔NFT的交易都会收取一定的使用费，固定比例的交易金额会被转入认领地址，由项目方设置的白名单进行认领。
+协议费用：Midaswap的内置协议率为10%。LP 赚取的交易费用的10%将转移到Midaswap的财政部。同时，对于在Midaswap限价挂单卖出NFTS的用户，交易过程中收取的手续费100%将转入Midaswap资金库。
+经济模型
+据Midaswap官方流出文档显示，Midaswap生态构成要素分为NFT和Utility Token：MIDAS。
+其中，NFT在生态中承担了投票/治理/闪电贷的功能。
+MIDAS主要作用在于通过燃烧代币来换取NFT；以及作为奖励发放给使用产品的用户。
+以下为MIDAS的代币分配信息：
+
+运营情况
+官网：https://midaswap.org/
+推特：https://twitter.com/Midaswap_
+Discord：https://discord.com/invite/FNkFwBQNaT
+目前，Midaswap整体运营程度还属于项目早期。
+产品侧：暂无可供测试产品露出。
+运营侧：推特人数2980人、Discord人数39人。
+Sudoswap：sudo AMM具有允许提供NFT或ETH的单边或双边流动性池、可随时调整流动性池参数、仅0.5%的平台交易费用、无版税等特点。
+Pikoswap：Pikoswap是一个链上NFT AMM，用户可以自由灵活地交易NFT，也可以建立自己的NFT流动性池，赚取交易费用。
+Goat Swap：Goat Swap是Solana上的一个NFT AMM，由Solana链上交易聚合器Jupiter Aggregator的联合创始人创立。通过GOAT Swap，用户可以自己创建流动性池来购买、出售和交易NFT。GOAT Swap中最常见的流动性池是NFTSOL池，任何持有流动性池中对应NFT的用户都可以将其换成SOL。
+总体而言，相较于市场上已经成熟NFT AMM产品而言，Midaswap具有一定创新性；但无论其团队背景还是VC背景则没有很令人惊艳。但不可否认的是，随着Web3行业的发展，NFT作为重要的载体和对外形象展示的最佳场景，势必将会获得更多人的青睐，而NFT AMM赛道势必拥有更广阔的发展前景。而Midaswap作为NFT主要承载公链Polygon生态的一员，未来很有可能凭借polygon链上NFT产品的繁荣而获得爆发的机会。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/d39w1e31.html"
                         open
                       >
@@ -3473,6 +3531,39 @@ Babywhale（Foresight News）：NFT：X2Y2、Element、IRIS Network、The Weirdo
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://foresightnews.pro/article/h5Detail/27079"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3 中的神秘东方力量：「中国概念」项目超级盘点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://foresightnews.pro/article/h5Detail/27079">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.foresightnews.pro/vertical_logo.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+随着香港加密监管政策的逐渐落地，一时间，「中国概念」成为加密圈近期追逐的热点。Foresight News 编辑部整理了一份国内以及由华人华侨所主导的 Web3 项目、公司、机构等。
+文章来源：
+https://foresightnews.pro/article/h5Detail/27079
+文章作者：
+Babywhale（Foresight News）
+
+观点：
+Babywhale（Foresight News）：Layer 1：Conflux、Nervos、VeChain、IoTeX、Injective、Oasis Network、Harmony、Neo、Ontology、Tron、IOST、REI Network、PlatON、Cortex Labs；Layer 2：Loopring、Taiko、Scroll、Zecrey。
+内容来源
+Babywhale（Foresight News）：基础设施：存储：Crust Network；支付：Alchemy Pay；身份：.bit；跨链：Celer Network、Multichain、Ren；预言机：Lithium Finance；其他：Ankr、Octopus Network。DeFi：WOO Network、Parallel Finance、dForce、DODO、Wombat Exchange、MDEX、Zenlink、Shield、ApeX Protocol。
+内容来源
+Babywhale（Foresight News）：NFT：X2Y2、Element、IRIS Network、The Weirdo Ghost Gang；游戏：Cocos-BCX、StarSharks；社交：Mask Network、RSS3、TwitterScan；元宇宙：The Sandbox、Highstreet、Digination；工具：BitKeep、TokenPocket；数据分析：DeBank、Footprint。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://frontier.tech/the-orderflow-auction-design-space"
                         open
                       >
@@ -3496,6 +3587,72 @@ Stephane：OFA 需要做出 5 个关键的设计决定：1. 接受哪些订单�
 Stephane：我们预测 OFA 的实施将围绕以下的四个设计进行：1. RFQ 拍卖；2. 独家批量拍卖；3. 交易执行服务；4. 区块空间聚合器。【原文为英文】
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;35
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://frontier.tech/the-orderflow-auction-design-space"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】订单流拍卖（OFA）机制调研：核心框架、创新机制与发展方向</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://frontier.tech/the-orderflow-auction-design-space">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://potion.nyc3.cdn.digitaloceanspaces.com/63812136f84afb001891dd39/site_image.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+订单流拍卖（OFA）机制将执行订单的权利拍卖给竞标人，并将中标金额提供给用户，OFA 承诺向用户返还他们通过订单创造的价值。Frontier Research 研究员 Stephane Gosselin 和 Ankit Chiplunkar 与 Consensys Research 合作，调研了 12 个独立的订单流拍卖方案，总结了一个通用的 OFA 核心架构以及四个设计方向。
+文章来源：
+https://frontier.tech/the-orderflow-auction-design-space
+文章作者：
+Stephane
+
+观点：
+Stephane：所有的 OFA 都有相同的核心框架，只是在实现方式上有所不同。流程：1. 发起人产生订单；2.OFA 与竞标者共享信息；3. 竞标者利用信息预估 MEV，并出价；4.OFA 选择中标者，并将其纳入。【原文为英文】
+内容来源
+Stephane：OFA 需要做出 5 个关键的设计决定：1. 接受哪些订单类型？2. 谁可以对订单进行竞标？3. 哪些信息是共享的？4. 如何选择中标者？5. 如何纳入中标结果？【原文为英文】
+内容来源
+Stephane：我们预测 OFA 的实施将围绕以下的四个设计进行：1. RFQ 拍卖；2. 独家批量拍卖；3. 交易执行服务；4. 区块空间聚合器。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;35
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3 休闲游戏全解析：会是下一个流量入口吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/kyxrcpZ9eZLbZyCx2xv4AMVNdaiaW0vOF3Mkw9bbicK4a2eN6g1So4Vp8G6PAYegSDAttniccdAUwCv9xXqHeIHZg/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Web3 领域现象级的应用都有一个共同的特点：破圈效应。 Puzzle Ventures 研究员 Jason 认为，休闲娱乐作为最底层、最基本的大众社会活动是最具破圈潜力的方向。作者论证了 Web3 休闲游戏相比 Web3 短视频 / 社交类应用具备的破圈优势，解析了当前代表性 Web3 休闲游戏的机制设计，并展望了 Web3 休闲游戏的潜在发展方向。
+文章来源：
+https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA
+文章作者：
+Jason（Puzzle Ventures）
+
+观点：
+Jason（Puzzle Ventures）：任何一款无论 Web2 还是 Web3 的高质量休闲游戏都有短时间爆炸性增长的可能性。休闲游戏的生命周期是前高后底，是更佳的引流工具。休闲游戏几乎不需要高效开发引擎、不需要算力、不需要渲染就可以创作出高质量的作品，这也是为什么休闲游戏可以和 Web3 共存并且相互赋能的原因，
+内容来源
+Jason（Puzzle Ventures）：上瘾机制是休闲游戏的底层逻辑，一方面需要优质的画面反馈，另一方面需要在故事性和可玩性上深耕、测试，这两点在 Web3 领域里并不会有独特的优势。在探索机制上，Web3 相比 Web2 有天然的优势，去中心化的开放世界和基于 NFT 的宝藏资源是天然促进探索心理的关键要素。
+内容来源
+Jason（Puzzle Ventures）：从目前的发展趋势上，可以总结出几个 Web3 休闲游戏目前比较火热的方向：1. 小游戏集合平台；2. 虚拟宠物与养成；3. 问答 PvP 类；4. 轻博彩类。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9776,7 +9933,7 @@ William M. Peaster：3) Insrt Finance：长期收益策略 NFT 协议，其第�
 内容来源
 William M. Peaster：4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -16778,8 +16935,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4322623699">
-        <time id="build-timestamp" datetime="2023-03-03T10:42:39.205Z">2023-03-03T10:42:39.205Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4322661965">
+        <time id="build-timestamp" datetime="2023-03-03T10:48:03.633Z">2023-03-03T10:48:03.633Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
