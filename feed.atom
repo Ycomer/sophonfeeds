@@ -2,10 +2,506 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-03T02:38:26.372Z</updated>
+    <updated>2023-03-03T03:46:43.767Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Kinship Ventures拟为其首支基金募集7500万美元，将投资Web3等领域]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/m3ipdpm1.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/m3ipdpm1.html"/>
+        <updated>2023-03-03T03:41:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，据福布斯报道，风险投资公司Kinship Ventures正在为旗下首支基金募集7500万美元资金，该基金将专注于投资Web3、早期消费品等新兴领域。
+去年4月，Kinship Ventures参投了加密货币支付平台MoonPay的8700万美元融资，但Kinship Ventures未透露具体投资金额。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EIP-4337 账户抽象钱包方案能否开辟钱包新时代？]]></title>
+        <id>https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg</id>
+        <link href="https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg"/>
+        <updated>2023-03-03T03:33:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>随着 EIP-4377 账户抽象提案的到来，钱包门槛降低。BuidlerDAO 研究员菠菜菠菜从现阶段小白使用钱包的痛点入手，对账户抽象及其优点进行分析，并剖析其存在的不足和风险，认为账户抽象的实现会给加密世界带来一个全新的想象空间。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg">https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg</a></p>
+<p><strong>文章作者：</strong></p><p>@菠菜菠菜</p><hr><h3>观点：</h3><p><strong>@菠菜菠菜：</strong>现阶段小白用户使用钱包的痛点是什么？1）使用钱包必须先有 Gas 费；2）加密资产购买渠道以及眼花缭乱的主网选择；3）钱包安全问题。以太坊现有的钱包类型分为 EOA 外部拥有账户（Externally Owned Accounts）和 CA 合约账户（Contract Account），两种钱包账户类型目前都无法解决钱包使用体验复杂的问题。</p><a href="https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg">内容来源</a><p><strong>@菠菜菠菜：</strong>账户抽象（Account Abstraction）是以太坊一种待实现的钱包技术方案，最终愿景是除了拥有 CA 的可编程性外还可以摆脱 EOA 的依赖主动发起交易。新机制现实了签名方式的可定义，带来了代付 Gas 和聚合签名等更多应用场景。还支持除原生代币外的资产支付 Gas 费，使钱包的门槛更低，提供社交恢复等手段，解耦所有权和签名权，人们即便丢失了私钥也可以找回。</p><a href="https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg">内容来源</a><p><strong>@菠菜菠菜：</strong>以太坊选择 EIP-4337 作为最终方案，首先是其不需要进行共识协议层的修改就可以实现账户抽象，其次是 EIP-4337 以使用任意签名方式，在钱包门槛降低上更有优势。EIP-4337 中账户抽象钱包使用入口点合约来实现签名验证机制，允许使用不同签名形式。入口点合约可以用于避免中心化风险，以及控制 Flashbot 套利。 聚合签名验证合约实现聚合签名功能，可用于控制钱包。</p><a href="https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg">内容来源</a><p><strong>@菠菜菠菜：</strong>目前的账户抽象钱包更像是一种智能合约钱包的新标准，还无法摆脱对于需要 EOA 作为钱包拥有者的依赖。有何不足和风险？1）智能合约安全问题；2）更高的 Gas 费；3）技术实现问题。相信随着账户抽象的实现会给加密世界带来一个全新的想象空间，甚至可能在不久的将来会有一个意想不到更好的替代方案来取代账户抽象。</p><a href="https://mp.weixin.qq.com/s/qCbbngCHoKgRwG4ZNVUEPg">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase和Kraken高管：平台上无证券，即使被SEC认定也可通过调整对策在官司中取胜]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/80vsk46l.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/80vsk46l.html"/>
+        <updated>2023-03-03T03:30:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，据Blockworks报道，Coinbase全球监管政策副总裁Scott Bauguess周四在华盛顿举行的米尔肯研究所未来数字资产研讨会上的小组讨论中表示：“我们很高兴我们在美国提供的产品不是证券。”Bauguess补充说，Coinbase上的代币表现得不像证券，因为缺乏股息和剩余利息；但即使所有的代币都被认定为有价证券，Coinbase也能让它发挥作用。Bauguess称：“有合理的规则，这是可以做到的。”
+Kraken全球政策主管Jonanthan Jachym对此表示赞同。他补充说：“在推进交易政策方面，领导人需要考虑如何调整现行法律以适应加密货币，比如信息披露、市场诚信、利益冲突规则……这不是重新创造，这些政策已经存在很长时间了，但(这项技术)有细微差别。”
+Ledger的全球政策主管Seth Hertlein表示，和解不能为未来的纠纷创造先例，但法庭案件可能会改变游戏规则。 Hertlein说：“Kraken的和解协议并没有在美国创造任何新的规则或法律，它对Kraken以外的任何人都没有约束力。影响范围实际上相当有限。”Kraken的Jonanthan Jachym表示，Kraken此举是战略性的，交易所期待更多关于质押的指导。尽管Kraken决定不打官司，但Jachym表示该行业已准备好战斗。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PROOF联创：正在积极开发代币，Pass持有者将会在2025年后转换为Moonbirds Elders]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/wsa15vtv.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/wsa15vtv.html"/>
+        <updated>2023-03-03T03:14:41.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，据NFT项目Moonbirds在社交媒体披露，PROOF联合创始人Kevin Rose和Justin Mezzell在最新直播中称，PROOF通行证将于2025年1月1日结束，届时当前持有者将成为Moonbirds Elders（这是一个暂定名称），他们将拥有“boosters（助推器）”，以在未来获得独家代币投放等活动中获得独家权限。对于潜在的代币发行，Kevin Rose表示目前正在积极开发中，他强调未来推出的代币必须要能支持PROOF生态系统。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[链上链下，双管齐下：万字剖析MakerDAO终局形态的两大新产品]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/nwuth9u0.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/nwuth9u0.html"/>
+        <updated>2023-03-03T03:03:35.000Z</updated>
+        <summary type="html"><![CDATA[原文：《链上链下，双管齐下：万字剖析 MakerDAO 终局形态的两大新产品》
+MakerDAO是基于以太坊的去中心化超额抵押稳定币协议，核心是通过超额抵押来维持DAI与美元的1:1锚定，价格稳定机制本质是市场供需的博弈。作为DeFi老牌明星项目，整体机制较为成熟，生态也在不断扩张完善，近期计划进军借贷市场，预计今年四月份正式上线基于Aave v3智能合约的借贷协议Spark Protocol。
+MakerDAO的细分赛道为去中心化超额抵押稳定币赛道。
+MakerDAO是DeFi蓝筹项目，机制成熟，生态在不断扩张完善。协议核心是通过超额抵押借贷来维持DAI与美元的1:1锚定，价格稳定机制本质是市场供需的博弈，通过调整稳定利率调节市场供需。三一二极端事件后清算机制更改为2.0版本，在五一九事件中该清算版本受到较好的压力测试。创始人于去年提出名为“EndgamePlan”的路线图，计划在未来十年实现重组和去中心化，其中包括创建多个独立治理社区MetaDAO、推出质押衍生品EtherDAI等等。近期团队计划进军借贷市场，预计今年四月份正式上线基于Aavev3智能合约的借贷协议SparkProtocol。
+Tornado Cash被制裁事件让团队意识到对USDC的依赖是潜在的风险，因此对PSM池做一系列调整来降低对USDC的依赖，包括引进现实世界资产RWA作为抵押品，随着对RWA投资比例逐渐增加，改善收入结构的同时与“去中心化稳定币”目标相背离，同时可能带来监管风险和贷款违约风险。
+目前熊市的行情使得协议收入仍处于净亏损状态。从目前情况来看，USDC在Maker协议所有抵押品中占比接近40%，主要是通过PSM，其产生的收入贡献较低；资产组合中现实世界资产RWA的比例正在增加，对协议收入贡献最大，明显改善了收支情况。
+MakerDAO和Aave两大DeFi蓝筹项目目前的业务发展在互相渗透，稳定币在机制设计上大同小异，DAI目前无疑是去中心化稳定币赛道龙头，具有先发优势，GHO稳定币目前还处于测试网阶段，在短期内难以超越，应用场景还有待后期上线后观察。
+综上，MakerDAO项目值得关注。
+说明：头等仓最终评定的【关注】/【不关注】，是按照头等仓项目评估框架对项目当前基本面进行综合分析的结果，而非对项目代币未来价格涨跌的预测。影响代币价格的因素众多，项目基本面并非唯一因素，因此，不可因为研报判定为【不关注】，就认为项目价格一定会跌。此外，区块链项目的发展是动态的，被我们判定为【不关注】的项目，若其基本面发生重大的积极变化，我们将有可能会调整为【关注】，同样地，被我们判定为【关注】的项目，若发生重大恶性改变，我们将会警示所有会员，并有可能会调整为【不关注】。
+MakerDAO是基于以太坊的去中心化超额抵押稳定币协议，核心是通过超额抵押来维持DAI与美元的1:1锚定，整体机制较为成熟，生态也在不断扩张完善，近期计划通过Spark Protocol进军借贷市场；团队还推出了名为“Endgame Plan”的路线图计划在未来十年重组实现去中心化的目标。
+成立时间
+2015年3月
+发行时间
+2019年5月
+所属国家
+美国
+所属板块
+DeFi借贷
+代币符号
+MKR
+市值排名
+#76
+当前币价
+$772.90
+募资情况
+已披露融资金额7,950万美元
+流通市值
+$695,934,133
+流通量
+901,310
+代币总量
+1,000,000
+上线交易对
+177
+前10交易所
+10（Binance、Coinbase、Huobi、OKEx、Crypoto.com、Gemini、Kraken、Bitfinex、Gate、FTX）
+18.1.1至今最高价格
+$6,292.31 (2021年3月3日)
+18.1.1至今最低价格
+$168.36（2020年3月16日）
+Maker基金会在21年7月份宣布转向完全去中心化，将业务完全移交给MakerDAO，基金会于几个月后被正式解散。MakerDAO总部位于旧金山，自15年创立以来，团队规模日渐扩大，目前根据去年的财报披露团队成员共有104名，核心成员背景履历信息如下：
+
+RuneChristensen—创始人兼CEO：毕业于哥本哈根大学，在校期间联合创办了招聘公司Try China，负责招募客户和管理的业务；2015年3月创办了Maker协议，2016年推出了OasisDEX去中心化交易所，2017年正式在以太坊上线DAI。
+
+Steven Becker——COO：获得开普敦大学金融数学理学硕士学位，此前2001年3月加入Penryth Global Securities Lending任职产品开发主管；2002年在PSG投资银行任职，负责利率衍生品交易；2003年1月至2012年8月担任Polus Capital的首席执行官；18年4月加入到MakerDAO并担任首席运营官。
+
+MarianoDiPietrantonio—联合创始人兼战略主管：11年联合创办了Maiax移动软件，开发了移动平台游戏Reminiscene；17年创办了Be.Blockchain，随后组织了Chainevents.io活动，还加入Buenbit任职首席营销官；18年7月加入MakerDAO任职南美洲社区负责人，随后升职为高级营销经理，任职三年；目前在MakerDAO任职战略主管。
+
+NickUlven—软件工程师：毕业于美国麻省理工学院计算机科学专业，在校期间加入金融与政策中心和人工智能实验室参与项目开发，还加入数字货币计划；19年参与联合创办了AbelianAI咨询公司；20年加入Namebase任职软件工程师；随后加入到Ethereum Foundation从事开发工作；21年9月加入MakerDAO任职软件工程师。
+
+TylerSorensen—软件工程师：毕业于美国斯坦福大学计算机科学专业，曾在a16z从事过产品分析工作；16年8月加入到Angelist从事投资分析工作；随后加入到CoinList从事销售和运营工作；17年11月加入到Maker基金会，任职前端全栈软件工程师。
+
+AdrianLeBas—开发部主管：有多年的前端开发工作经验；11年加入到Freelancer任职前端开发人员和用户体验设计师，任职三年有余；16年6月加入iHeartRadio的前端开发人员；随后在Shuffler.fm和Sonos.Inc等公司担任产品经理；18年以技术产品经理身份加入MakerDAO，目前任职开发部主管。
+
+GonzaloBalabasquer—工程师：毕业于国立科技大学，有多年的开发工作经验；曾在Bumeran.com和UTN FRBA任职开发工作；10年阿计入Connaxis工作了8年有余，最初担任高级PHP开发人员，为欧美客户开发的项目编程，随后担任软件开发负责人，又成为了阿根廷区的总经理，在17年4月升职区块链软件架构师；16年9月加入MakerDAO至今任职区块链工程师。
+
+RafaelVenturaPedrolaGimeno—软件工程师：有着丰富的软件开发工作经验，毕业后就加入到TBSolutions Srl担任初级开发人员和技术支持，随后去了deinterfaz先后任职开发人员和首席技术官，参与移动应用程序的开发；2013年加入到ADESIS从事前端开发工作，还去了SONATA USA Corp担任后端开发人员；17年联合创办了erereo，担任高级软件工程师五年有余，还创办了Imbu；21年6月加入MakerDAO担任软件工程师。
+
+SeanTaylor—风险分析师：毕业于隆德大学经济管理学院，在校进行了数据分析工作；18年入圈，曾在比特币瑞士股份公司担任分析师；20年11月加入到MakerDAO至今担任风险分析师。
+MakerDAO团队核心成员的背景履历较为优秀，且区块链从业经验丰富，开发成员占比加高，具备后期搭建产品所需要的开发能力；自15年创立团队已有一定规模，目前仍在不断扩大，官网正在招聘工程师职位。
+截至目前，根据已披露的信息显示，MakerDAO进行了四轮的二级市场代币销售，募集到7,950万美元，其中投资方实力雄厚，不乏有a16z、Paradigm和Polychain Capital等加密行业知名投资机构，详情如下：
+2017年12月15日，Maker协议出售了1,200万美元的MKR代币（共4万枚，占总供应量的4%，成本约$300/MKR），私募融资参投机构包括有a16z、Polychain Capital、FBG Caipital、Wyre Capital、Distributed Capital Partners、Scante、Walden Bridge Capital和1Confimation。
+2018年9月24日，MakerDAO宣布a16z以1,500万美元增持MKR（共6万枚，占总供应量6%，成本约$250/MKR）。
+2019年4月26日，据Crunchbase信息显示MakerDAO完成2500万美元的融资，投资机构包括有COIND、TokenpotCapital、Crowd Venture Capital、To Kenz Capital等等，更多详情未披露。
+2019年12月19日，Maker基金会宣布完成2,750万美元的融资（共5.5万枚，占总供应量5.5%的MKR，成本约$500/MKR），投资方为风投基金DragonCapital Partners和Paradigm，两家公司表示将积极参与MakerDAO协议的去中心化治理。
+
+图2-1MakerDAO代码提交情况
+MakerDAO的代码库创建于2015年11月，截至目前已经提交了57,277次Commits，提出的问题有1,767条，贡献者有583人次；上图选取了过去一年代码库的提交情况，可见代码提交的较为频繁，近一年Commits提交数高达10,382次，团队成员解决问题也较为及时，开发人员较多，至少有30位开发成员；整体上代码库运行健康，开发进度良好。
+MakerDAO成立于2015年，该项目最初的开发是由Maker基金会领导，但目前是由DAO控制。协议推出的产品是去中心化超额抵押稳定币DAI系统，稳定币DAI是通过抵押链上资产，并按照一定超额抵押比例发行的ERC-20代币，目标价格是1美元，设计初衷是为了在波动巨大的市场中也能够保证代币价格的稳定。
+协议在2017年推出了单抵押DAI系统（即SCD），允许用户使用ETH作为抵押品来铸造DAI；接着团队又在2019年推出了多抵押品DAI系统（即MCD），接受ETH以外的抵押品类型，促进DAI的供应量不断上升。多抵押DAI标志着MakerDAO进入一个全新阶段，由之前的单一资产质押过渡到多种资产类型质押生成稳定币，主要变化在一是引进了DAI存款利率（DAI Saving Rate—DSR），支持系统内存DAI生息；二是将抵押债仓CDP更名为保险库Vault，单抵押系统生成的DAI更名为SAI。
+2.4.1运行逻辑
+MakerDAO是超额抵押稳定币协议，整体逻辑是用户抵押该协议支持的资产，从而获得锚定美元的去中心化稳定币DAI。对用户来说，涉及存入、取出、借出和偿还四项操作，这四个操作也就是DAI的发行和赎回过程；在借出的资产未偿还之前还会涉及到利率调整和清算这两个变量，实际上也是DAI稳定价格的手段。
+Vault金库是DAI系统运行的核心，用于管理DAI的发行和销毁。任何人都可以通过Maker协议的智能合约创建金库Vault，同时抵押资产生成DAI，生成DAI意味着产生一笔债务，这笔债务会将Vault中的抵押资产锁定，直到用户偿还DAI才可以拿回抵押品，持有Vault就意味着持有债务。
+
+图2-2 DAI系统运行机制
+DAI稳定币系统的工作逻辑如上图所示，包括以下四个步骤：
+1）存入—创建Vault智能合约
+Oasis是Maker协议在以太坊上推出的交易平台，用户通过Oasis来创建保险库Vault（多抵押系统迁移前称为CDP），同时发送一笔交易并明细抵押资产的种类和数量存储到生成DAI的Vault中。例如上图发送1 ETH（$100）并生成66 DAI，此时抵押比率为151%，钱包中就会有1个Vault。
+2）借出—从Vault生成DAI
+Vault持有者发送一笔交易并明细想要从Vault中生成DAI的数量，同时Vault也会产生同等价值的债务，此时用户钱包就会包含 1个Vault以及66 DAI的债务。
+3）偿还—借出债务和稳定费
+当用户希望赎回抵押资产时，他们需要偿还Vault中的债务以及这笔债务的稳定费用，稳定费只能用DAI支付。用户将向Vault支付所借出DAI的数量+稳定费DAI的数量，从而还清债务，Vault会将DAI销毁。
+4）赎回—取出抵押品并关闭Vault
+当债务和稳定费用偿还后，Vault持有者可以发送一笔交易给Maker并拿回所抵押1 ETH。
+2.4.2价格稳定机制
+DAI的初始目标设定的是与美元保持1:1锚定，但由于市场行为会造成一定的价差，因此需要相关机制来稳定DAI的价格。价格稳定机制主要依靠的利率调整和清算，其中利率调整使用过治理投票来进行，包括稳定利率调整和DAI存款利率（DAI Saving Rate—DSR）调整；清算主要是紧急关停手段来把控风险。
+1）稳定利率调整：指的是用户在抵押资产生成DAI时所需要支付的年化利率，本质上是贷款利息。当DAI的价格高于1美元时，通过降低稳定利率（即降低贷款利息）来鼓励用户创建Vault生成DAI；当DAI的市场价格低于1美元时，则通过增加稳定利率（即增加贷款利息）从而刺激用户关闭Vault，销毁DAI，减少DAI的市场供给。
+2）DAI存款利率（DSR）调整：用户可以将DAI锁进Maker协议的DSR合约能够自动获得储蓄收益，DSR决定了DAI持有者可以基于其存款能够获得的收益大小。DAI存款利息由借款利息支付，意味着存款利息由稳定费担保。对Maker协议来说，如果稳定费的收入无法弥补DAI存款利息的总支出，那么差额就是系统坏账，将通过增发MKR进行弥补，也就意味着MKR持有者是该部分的风险承担者。
+当DAI的市场价格偏离1美元的目标价格时，MKR代币持有者可以通过投票来更改DSR，从而维护DAI价格的稳定性。当DAI价格高于1美元，MKR持有者选择降低DSR，从而减少DAI市场的需求量；当DAI价格低于1美元，MKR持有者选择增加DSR，刺激需求量上升。
+3）紧急关停：发生在紧急情况时用来保证DAI持有者目标价格可兑付的最后手段，一旦出发紧急关停，用户就再也无法创建新的Vault或操作已创建的Vault，喂价机制也会被冻结。（详见下文2.5.5紧急关停）
+2.4.3锚定稳定模块（PSM）
+20年DeFi流动性挖矿的热潮让市场对DAI需求逐渐旺盛，Maker协议于20年7月份针对DAI的流动性推出了PSM（PegStabilizationModule，锚定稳定模块），本质上是基于DAI固定价格的货币互换协议，类似具有一定额度的刚性兑付，目的是为DAI的价格提供双边缓冲保护。该模块是基于SAI版本的代码调整，首次实现USDC PSM。
+用户可以存入USDC等协议支持的稳定币资产，按照1:1的固定汇率铸造出DAI，交易费用为0.1%。这部分存入的USDC也会存入流动性池作为储备资产，与Vault池不同，MKR持有人有权投票将PSM池中的储备金换成别的资产。同样的用户也可以用DAI按照1:1换回流动池中的USDC。
+
+图2-3 PSM模块工作逻辑
+目前开通PSM模块的资产有USDC、USDP和GUSD，根据官网所披露的数据，目前DAI的供应量约52.13亿，通过PSM模块铸造生成的DAI共有30.04亿枚，占比57.62%。
+
+图2-4 PSM模块生成的DAI的数量
+去年八月Tornado Cash被美国财政部（OFAC）制裁，要求USDC和USDT等各大中心化稳定币发行方冻结Tornado Cash钱包地址的资产。在MakerDAO系统中USDC是质押最多的资产，而在这场事件中USDC发行方Circle封禁用户地址的行为引起Maker社区成员的担忧，因此开始寻求多种方案来调整PSM池中资金组成，降低对单一资产USDC的依赖。
+金库风险参数调整
+对金库Vault的相关参数进行调整，包括WSTETH-B Vault的债务上限提高至3亿DAI，降低ETH-A、ETH-B、WSTETH-A、WBTC-A、WBTC-B、renBTC-A等Vault的稳定费。
+支持现实世界资产（RWA）
+MakerDAO在22年通过接受现实世界资产（Real World Asset—RWA）作为代币化房地产、发票和应收账款形式的抵押品的提案，致力于将现实世界的资产和协议相结合。去年七月MakerDAO就向成立于1871年的宾西法尼亚特许银行提供上限为1亿美元的贷款，成为首个向传统美国银行提供贷款的DeFi协议。
+Maker开设的支持RWA抵押品的金库已有一定的借贷需求，目前推出的前五个RWA保险库：1）商业地产开发担保贷款（6sCapital）；2）为主要住宅资产的购买或建设融资（New Silver）；3）抵押货运发票（ConsolFreight）；4）代币化和保护短期全球贸易应收账款（Harbour Trade Credit）；5）代币化现金流资产的收益和借贷协议（Fortunafi）。其中6sCapital是Maker协议首个RWA金库，其余的是通过Centeifuge协议运行的。
+MakerDAO还以71.19%的投票率通过了MIP65提案，该提案将激活MIP65金库，使用5亿美元来投资短期国债和公司债券，其中80%用于购买美国短期国债，剩下的20%用于购买投资级公司债券。
+
+图2-5 各类RWA金库借贷情况
+Coinbase合作
+去年9月份，Coinbase在MakerDAO中发起了MIP81提案，表示可以将PSM池子里的USDC托管至CoinbasePrime中，Coinbase每个月会根据MakerDAO托管的数量以及存入时间做加权平均值计算发放利息，于次月第五个工作日以USDC发放；并且承诺确保流动性，允许MakerDAO一次性在6分钟内提取所有的USDC。该提案已通过，并且将16亿USDC存放于CoinbasePrime，年化利率约1.5%，于22年底发放。
+2.4.4闪电铸造（FlashMint）
+Maker协议在21年7月激活了DAI的闪电贷FlashMint模块，允许用户最多铸造5亿枚DAI，但用户需要在同一笔交易中偿还这笔DAI贷款并支付0.05%的费用。该模块给套利者提供了机会，无需前提投入资金即可获取DAI，同时闪电贷也是Maker协议的收入来源之一。
+2.4.5质押衍生品EtherDAI
+去年九月，Maker协议提议将在未来的Endgame计划中推出由Maker治理所控制的流动性质押衍生品EtherDAI，用过质押ETH来生成，整体机制与FraxFinance的流动性质押类似。该产品包括了ETHD和EtherDAI Vault，其中ETHD是以流动性质押代币作为支持，例如Lido的stETH，用户将stETH封装为ETHD，并将其作为抵押品存入EtherDAI Vault中铸造出DAI，同时用户也可以用ETHD来赎回stETH。
+团队表示将通过Maker治理投票来决定ETHD的抵押品类型，未来上线时可能会通过Uniswap上的ETHD/DAI短期流动性挖矿来激励流动性；同时可能会将EtherDAI Vault的稳定费设置为0，来促进初始需求。
+2.5.1协议框架
+MakerDAO是Maker协议的治理组织，整个协议系统参与者包括有维护者（Maintainers）、治理者（Governors）和用户（Users），如下图所示：
+
+图2-6 MakerDAO协议系统框架
+1）维护者
+开发人员：负责整个协议代码的开发及日常维护，是部署所有智能合约的实体。
+预言机（Oracle）：价格信息输入系统，用于实时了解金库中抵押品资产的价格。（详见下文喂价机制）
+看护者（Keepers）：指的是将DAI维持在1美元目标价格的市场参与者，当DAI的市场价格超出目标价格时将其卖出，并在市场价格低于目标价格之时买入，这样做的目的是为了从市场长期价格趋同目标价格中获益。除此之外，Keepers还会在Vault金库被清算时参与债务拍卖及抵押品拍卖，或者参与Maker协议的盈余拍卖。
+2）治理者
+参与者分为MKR持有者和风险团队两者，其中风险团队也是由MKR持有人选举产生的，其职责是通过金融风险研究和起草关于引入新型抵押品和管理现有抵押 品的提案来支持Maker治理，MKR持有人通过投票决定提案通过与否。
+3）用户
+金库Vault所有者以及通过其他途径获得DAI的持有者。
+2.5.2喂价机制
+Maker协议需要获得Vault中抵押资产价格的实时信息，以便知道何时触发清算，因此喂价机制是维持Maker系统正常运行的重要环节，协议为每种抵押品都部署了Oracle模块，其工作核心是通过维护一份被授权发布价格更新的喂价合约白名单，从而为金库内的抵押品资产提供实时的报价。
+1）首先，喂价预言机是由MKR投票者选出一组可信赖的喂价节点来向Maker系统提供价格信息，群组的节点数量也是由MKR持有者来控制的；2）其次，Medianizer合约在每次收到节点发出的新的价格时都会计算这些价格的中位数并用于更新存储，然后发送给OSM合约（OracleSecurityModule，喂价安全模块）；3）最后，经过Spotter进行读取，Vault即可获得抵押品价格。
+
+图2-7喂价机制工作原理图
+为避免价格被操纵，协议在其中采取了喂价延迟和紧急关停这两个防御机制：
+喂价延迟：为了防止攻击者大部分控制喂价机的情况，Maker协议使用了OSM来获取价格信息，而非直接使用预言机。OSM架设在喂价机节点和Maker协议之间，是喂价节点和Maker协议之间的防御成，将价格更新延迟一个小时。
+紧急关停：在喂价期间，如果发现有喂价机被攻击，可通过紧急信息输入者（Emergency Oracle）或Maker治理投票将其冻结。紧急信息输入者是MKR持有人投票选出的，是保护治理流程和其他信息输入者免遭攻击的最后一道防线，其有权冻结单个喂价机（例如ETH喂价机），或单方触发紧急关停机制（Emergency Shutdown），以此降低大量用户试图在短时间内从Maker协议取回资产所产生的风险。
+2.5.3清算机制
+如果用户在协议里的抵押品价格大幅下降，没有及时平仓或增加抵押的资金，当跌破抵押率的时候，生态中的Keepers清算人就可以向合约发送请求强平这些抵押不足的仓位，从而触发清算程序。Vault内的抵押品将会被转移到拍卖模块，被拍卖出售来回收资产清偿债务，清算人能够使用DAI出价参与拍卖这些抵押品，存在套利的空间。Keepers清算人实际上就是链上套利机器人，任何人都可以成为清算人参与到拍卖中，团队也提供了开源的机器人代码。
+清算本质就是当抵押品价值低于资产的最低抵押率时，强制出售抵押品用于偿还用户从金库中借出的DAI，清算价格公式如下。被清算的Vault除了要偿还债务和稳定费，还需要额外支付一笔清算罚金。Maker社区的MKR持有者会针对不同的抵押品类型设定不同的清算罚金，例如ETH清算罚金比例配置为13%，其中3%的罚金会给到Keepers清算人，10%计入Maker系统。罚金比例较高，目的主要是为了抑制清算的发生，同时支付清算过程中产生的成本。被拍卖的抵押品价值和清算罚款的金额会一并进入到拍卖程序。
+
+举例说明：当ETH-Vault的清算比率为150%，即产生1美元的DAI需要至少1.5美元的抵押品，此时Alice选择抵押1ETH生成1,000 DAI，那么清算价格就是1,500美元（1000*150%/1），如果抵押品价格下跌到1,499美元，那么该Vault将会触发清算程序，Alice就需要支付稳定费以及清算罚金。
+1）清算2.0机制
+此前Maker使用的是清算1.0模块，称之为Cat版本，采用的是“英式拍卖机制”，即拍卖标的物的竞价按照竞价阶梯由低至高，阶梯递增，当到达拍卖截至时间时出价最高这成为竞买的赢家。但在经历了2020年3月12日的极端行情，MakerDAO推出了清算2.0模块，对拍卖机制进行了进一步的完善，更加注重清算效率，将荷兰式拍卖系统取代了1.0的英式拍卖系统，称之为Dog版本。
+荷兰式拍卖也称为“减价拍卖”，指的是拍卖竞标的价格由高到低，阶梯递减，随着拍卖进行，价格会随着时间的变动自动向下浮动，如果在浮动在某个价格时有竞拍者愿意出价，那么该次拍卖就成交。
+在Maker协议中由系统来先设定一个初始起拍价，然后依据时间-价格来确定购得的抵押品数量，一旦有清算者在该时间窗口内参与，即时成交。时间-价格曲线涉及到的参数如下：
+表2-1 时间-价格曲线参数
+参数
+含义
+性质
+价格缓冲系数
+该系数决定了抵押品的起拍价格
+决定抵押品拍卖曲线的模型
+价格函数
+该函数由价格变化间隔和更改系数（cut）两个参数决定，即每N秒下降的百分比
+拍卖价格最大回撤
+价格下跌百分比，一旦价格跌幅达到该阈值就需要重置拍卖价格曲线
+价格曲线重置条件
+最大拍卖期
+决定了拍卖时间窗口，一旦时间达到该阈值即重置拍卖价格曲线
+举例说明：假设起拍价格为240美元，预言机安全模块报价OSM为200美元，拍卖时间窗口期为21,600秒，每460.8s下降1%，系统初始债务为60,000 DAI，抵押品价值为347.32 ETH，所形成的拍卖时间价格曲线如下图。
+ETH价格随着时间不断下降，当价格下跌至195美元时（时间窗口8640s），如果有清算者Alice愿意出价50,000 DAI则可购得256.41 ETH，剩余90.91 ETH 返还给金库所有者；如果价格继续下跌至110美元时，清算者Bob愿意出价10,000 DAI（时间窗口16,200s），此时可以获得90.91ETH，到此目标债务还清。如果还没还清债务的话剩余抵押品将会继续拍卖，直到目标债务还清为止。一旦竞拍价格下跌至约50美元（回撤 79%），则该价格曲线就需要重置，或者在21,600秒的时间窗口内没有人竞拍，价格曲线也需要重置，目的是为了避免资不抵债。
+
+图2-8 拍卖时间-价格曲线
+2.5.4拍卖机制
+Maker协议中的拍卖机制包括了抵押品拍卖（CollateralAuction）、盈余拍卖（SurplusAuction）和债务拍卖（DebtAuction），其中抵押品拍卖即为上述清算过程中荷兰式拍卖收回债务的方式。
+Maker协议赚的钱都会储备在系统的盈余池子里，包括用户使用协议时产生的稳定费以及拍卖收益（如清算罚款等），该池子也就是MakerDAO的国库，这些资金会首先分配到缓冲金（MakerBuffer），其次再用于回购MKR和提供团队运营等各项支出。缓冲金（Maker Buffer）是一个不属于任何人的金库，如果抵押品拍卖不足以清偿金库的债务，那么亏损的部分将转换为Maker系统的负债，将由Maker缓冲金中的DAI来偿还，如果缓冲金中没有足够的DAI，就将会触发债务拍卖机制。
+
+图2-9 缓冲池当前统计数据
+所谓的债务拍卖就是指当缓冲池中的DAI不足以偿还债务时，Maker系统将通过增发MKR代币出售给那些使用DAI来参与竞拍的用户；另外为保证MKR不会严重超发，Maker协议还设置了盈余拍卖。当缓冲池扣去系统债务后的净值达到一定金额（该比例一般由Maker治理决定，目前是2.5亿枚DAI），超出的DAI就会被用于盈余拍卖，价高者得，竞拍成功者将支付MKR购买DAI，这部分MKR会被销毁从而减少MKR的总供给量。截至目前缓冲池的余额为74,595,012 DAI，设置最大余额为2.5亿DAI，远没有达到触发回购销毁机制的标准。
+
+图2-10不同拍卖机制应用场景
+2.5.5紧急关停机制
+紧急关停（Emergency Shutdown）是MakerDAO的最后一道防线，用于应对恶意治理行为、非法入侵和安全漏洞等极端情况。启动紧急关停的方式有两种，一是由紧急信息输入者（EmergencyOracle）启动，这是一个由MKR持有者投票选出的紧急预言机，能够冻结单个喂价预言机，并且在极端情况发生时，MKR持有者可以授权该预言机单方触发紧急关停机制；二是由紧急关停模块（EmergencyShutdownModule—ESM）启动，这是一个去中心化的紧急启动流程，需要MKR持有者通过在ESM中存入MKR，当锁定的MKR数量达到规定数值就会自动触发紧急关停，该数值由MKR持有者投票决定，最初提议50,000 MKR.
+紧急关停机制启动后会经历三个阶段：
+1）Maker协议关闭
+一旦关停触发，用户就无法再创建新的金库或操作已创建的金库，喂价机制也会冻结。冻结喂价机制可以确保所有用户都能取回其应得的资产净值。Maker金库的所有者可以立即取回金库中超过为债务担保所需的抵押品。
+2）拍卖机制启动
+紧急关停被触发之后，抵押品拍卖开始，且必须在特定时间段内完成。这个时间段是由Maker治理决定的，比最长的抵押品拍卖期限略长一些。这可以保证在拍卖流程结束之时，所有拍卖都能完成。
+3）赎回剩余抵押品
+拍卖结束后，DAI的持有者可按照固定的汇率用DAI赎回抵押品，并由MKR持有者开始决定重新启动系统。
+2.5.6治理机制
+治理机制主要涉及的是MKR代币在治理过程的使用，主要为了实现Maker协议内的各项风险参数，例如稳定利率、清算参数等，直接由MKR持有人通过投票决定且强制生效。Maker的治理流程包括提议投票和执行投票，提议投票的目的是在进行执行投票前征询社区意见，形成大致共识；执行投票的目的是批准或拒绝对系统状态的更改。
+每种投票类型都由智能合约管理，提议合约是通过编程的方式写入了一个或多个有效治理行为的智能合约，任意的以太坊地址都可以部署，但是只能执行一次。MKR持有人以投票形式选出最有效提议，有效提议会获得 Maker协议的内部治理参数的管理权限，进入执行投票阶段，在投票通过后执行。但是，如果投票者选择启动治理安全模块（GSM），这些参数更改会被推迟激活（最多48 小时），目的是给予MKR 持有人行动机会，反对恶意治理提案，如有必要，可触发紧急关停机制。
+Maker治理控制的风险参数如下表：
+表2-2 MakerVault的关键风险参数
+风险参数
+含义
+债务上限（DebtCeiling）
+指某种抵押品能生成的债务总额上限，一旦达到该阈值将不能产生更多债务，除非已有用户偿还部分 或全部金库债务，释放出债务空间。
+稳定费（StabilityFee）
+指依据金库所生成的DAI数量来计算年利息，稳定费由DAI支付，发送至Maker缓冲金。
+清算率（LiquidationRatio）
+清算率较低，意味着Maker治理对抵押品价格波动性的预期较低；清算率较高意味着对价格波动性的预期较高。
+清算罚金（LiquidationPenalty）
+清算罚金是在清算发生时根据金库中未偿还DAI的总量向用户收取的一笔额外费用，旨在激励金库所有者将其抵押率保持在适当水平，防止被清算。
+抵押品拍卖期
+（CollateralAuctionDuration）
+每种抵押品拍卖时间上限都是特定的，债务拍卖和盈余拍卖则是系统全局参数。
+竞拍时长（AuctionBidDuration）
+单次竞拍结束及终结之前的最低时长。
+最低加价幅度（AuctionStepSize）
+旨在激励拍卖中的早期竞拍者，防止加价幅度过低
+随着DAI的应用场景不断丰富，MakerDAO自身在不断的开发新的模块，其生态系统逐渐扩大，有超过400个应用和服务集成DAI，范围涵盖了钱包、DeFi平台和游戏等等。协议不断的发挥DeFi的可组合性，例如在21年9月还宣布支持GelatoNetwork协议的G-UNI Uniswapv3的LP代币作为抵押品，允许用户使用Unsiwapv3的头寸来铸造DAI。
+除了现有的DAI稳定币市场，Maker协议还在扩大其他市场，计划通过PhoenixLabs和SparkProtocol扩展借贷业务，同时进军流动性质押市场，SparkProtocol是其计划推出的首个借贷产品。
+2.6.1SparkProtocol
+近日，MakerDAO论坛宣布成立创建了Phoenix Labs开发公司，致力开发新的去中心化产品来扩大Maker生态。Spark Protocol是Phoenix Labs首个开发的产品，将使用MakerDAO的DAI稳定性以及其他加密资产作为抵押品，是基于借贷协议Aave升级的智能合约系统。
+SparkProtocol推出的首个产品是带有前端的借贷市场SparkLend，其建立在Aavev3的智能合约之上，目前SparkProtocol官网还未有详细资料。用户将高流动性的去中心化资产作为抵押品，如ETH、DAI、wstETH、Wbtc等，以设定的利率借出DAI，目前该利率为1%，其中ETH和wstETH抵押品还支持Aavev3的E-Mode模块，抵押wstETH可以借出98%的ETH。团队表示未来两年内当DAI借款规模达到1亿美元后，会将DAI市场上赚取的利润的10%分配给Aave，目前已经在Aave论坛上发起了提案，目前设置DAI贷款金库债务上限2亿美元。
+SparkLend前端页面支持MakerDAO的PSM和DSR，USDC持有者也可以直接通过Spark Protocol官网主页直接通过PSM将USDC转换成DAI，并通过DSR来获得存款利息。除此之外，SparkLend的另一作用是引导MakerDAO未来推出的流动性质押衍生产品EtherDAI，整体机制将会与FraxFinance相似，启动时也会提供MKR或DAI进行流动性挖矿。
+
+图2-11 SparkProtocol的官方路线图
+根据官方公布的路线图，产品上线将会在今年四月份完成，未来会添加固定利率借贷、弹性预言机、跨链支持和支持质押衍生品EtherDAI等功能。团队预计将会在今年下半年与Deco、Sense Finance和Element Finance合作。
+总结：MakerDAO协议作为DeFi的蓝筹项目，核心是通过超额抵押来维持DAI与美元的1:1锚定，整体的机制设计较为成熟，生态也在不断地扩张完善，近期计划通过SparkProtocol进军借贷市场。
+TornadoCash被制裁的事件让团队意识到USDC是DAI稳定币系统的潜在风险之一，因此对PSM资金池进行了多次调整，目的是降低对USDC的依赖。协议推出了引进现实世界资产RWA的解决方案，加大对其投资从而改善收入结构的同时将会与最初“去中心化稳定币”的目标相背离，同时可能带来监管风险和贷款违约风险。
+表3-1MakerDAO大事件
+2015.03
+Rune Christensen与Nikolai Mushegian等人创立MakerDAO。
+2016.06
+MakerDAO发布了以太坊上的第一个去中心化交易平台OasisDEX。
+2017.11
+MakerDAO开发成员启动并开始使用DAI的第一个版本，称为ProtoSai。
+2017.12.19
+MakerDAO正式发布了DAI稳定币系统的原始白皮书SAI的设计，并公布未来路线图。
+2019.11.18
+多抵押DAI（MCD）发布，用户可以抵押多样化加密资产接DAI，这是Maker基金会实现完全去中心化长期目标的一个重要里程碑。
+2020.02.22
+Maker基金会启动治理安全延迟模块，目的是在系统认为存在恶意攻击的时候延迟攻击生效的时间，并在该时间窗口内采取保护替换措施。
+2020.03.19
+MakerDAO启动首次债务拍卖用于弥补系统内的530万美元的债务亏空。
+2020.04.20
+MakerDAO多抵押DAI（MCD）系统白皮书（中文版）发布。
+2020.07.11
+MakerDAO为保证DAI的流动性推出了锚定稳定模块（PSM）。
+2021.04.20
+MakerDAO清算机制2.0正式上线执行，Link-A开始迁移到新的清算合约中。
+2021.06.22
+MakerDAO发布降低稳定费来促进DAI的铸造需求。
+2021.06.25
+MakerDAO社区成立Maker Growth Core Unit来致力于发展协议和DAI的稳定性。
+2021.06.30
+Gelato Network发布提案添加G-UNI DAI/USDC作为MakerDAO的抵押品类型。
+2021.07.21
+MakerDAO宣布将转向完全去中心化，基金会将在未来几个月内解散。
+2021.09.22
+MakerDAO宣布在Arbitrum One上发布官方DAI代币桥。
+2021.10.28
+MakerDAO宣布支持Lido Finance的wstETH代币作为抵押品来铸造DAI。
+2022.02.11
+MakerDAO宣布在Immunefi上启动最高1000万美元的漏洞赏金计划。
+2022.02.13
+MakerDAO宣布实施多链部署计划。
+2022.04.13
+MakerDAO宣布与借贷协议Maple Finance达成合作，将帮助扩大DAI的供应量。
+2022.05.18
+MakerDAO与Lido Finance的新保险库WSTETH-B上线DeFi平台Oasis。
+2022.05.31
+MakerDAO宣布已部署到StarkNet上，支持用户使用跨链桥来进行DAI转账。
+2022.06.17
+MakerDAO已通过将rETH作为抵押品的提案。
+2022.08.17
+MakerDAO宣布在Arbitrum Nova和以太坊之间启动了Canonical DAI。
+2022.10.25
+MakerDAO已通过16亿枚USDC转入Coinbase Prime的社区提案。
+2022.11.01
+MakerDAO架构师Nikolai Muchgian身亡，3天前曾发推文表示遭遇到威胁。
+2022.11.16
+MakerDAO为DAI推出多链传输基础设施Maker Tleport。
+2022.11.22
+MakerDAO新增支持rETH作为抵押资产，用户通过新的rETH-A金库来抵押生成DAI，设置最低抵押率为170%，稳定费1.5%，债务上限500万枚DAI。
+2022.12.04
+MakerDAO宣布正式批准将GnosisDAO治理代币GNO作为抵押品提案。
+2022.12.15
+MakerDAO宣布和BlockTower Credit推出2.2亿美元现实世界资产基金，其中MakerDAO将部署四个金库，共提供1.5亿美元的资本。
+2022.12.15
+MakerDAO宣布与GnosisDAO联手组建DAO-to-DAO 战略联盟。
+2023.01.24
+MakerDAO通过提案将在Yearn Finance上部署1亿美元的USDC。
+2023.01.29
+MakerDAO发布新提议将Compound D3M债务上限提高300%，并将同一金库的目标可用债务设置为500万DAI。
+2023.02.01
+MakerDAO宣布设立特殊基金（Defense Fund）提案获得投票通过，该基金将提供500万枚DAI的紧急预算用于法律辩护费用。
+2023.02.09
+MakerDAO社区参与者提议创建以DAI为重点的原生流动性市场Spark Protocol。
+2023.02.10
+MakerDAO宣布将Chainlink集成到Keeper系统，该系统负责维护DAI的稳定性。
+3.1.1312清算&519清算
+2020年3月12日加密货币市场出现暴跌的极端行情，一方面由于以太坊性能不足、区块链网络拥堵导致Maker系统清算机制无法正常运转，清算者参与度不足；另一方面由于暴跌导致金库选择偿还贷款关闭金库，市场对DAI的需求增加，导致DAI的流动性接近枯竭，两方面原因的叠加导致MakerDAO系统坏账达到了567万DAI，启动了上线以来的第一次债务拍卖。拍卖从3月19日持续到3月28日共发行了20,980枚MKR，总共进行了106次拍卖，获得530万枚DAI。
+针对312危机，Maker随后推出了清算2.0模块，对拍卖机制进一步的完善。2021年5月19日是加密货币行业经历的又一次大暴跌，当天以太坊清算总量高达3.6亿美元，借贷协议也迎来大规模清算。在ETH资产价值下跌45%的情况下，MakerDAO协议2.0清算系统处理了4,100万美元，是312清算规模的四倍；一共完成了177次拍卖清算债务，产生510万美元的清算费用；同时系统运转正常，没有产生坏账，在此期间DAI仍然与美元保持强劲挂钩，可见新的2.0清算系统得到较好的压力测试。
+3.2.1DAI供应量
+从DAI的发行量来看，DeFiSummer期间大量的流动性挖矿让DAI的发行量递增，甚至供不应求；但步入熊市后，随着市场对杠杆需求的减弱以及DeFi收益率的下降，DAI的规模出现了腰斩的现象。截至目前，DAI的发行量约52.06亿枚，Vault的债务上限约72.80亿枚DAI。
+从DAI目前的分布情况来看，DAI持有者（EOA）占比最高，达53.5%；其次是分布在DEX上的占比16.2%，集中分布在Curve、Uniswap上；在借贷平台中集中分布与Compound和Aave。
+
+图3-1 DAI分布图
+截至目前，抵押铸造DAI的资产规模高达82亿美元。从抵押品类别来看，可知USDC的占比是最高的，高达40%，其次是占比为11.5%的ETH；另外真实世界资产RWA抵押品规模在逐渐增加，目前占比9.6%；G-UNI抵押品也占据了一定的比例，占比8.1%。从DAI的供应路径上看，通过PSM方式铸造的DAI占比最高，包括了PSM-USDC-A、PSM-USDP-A和PSM-GUSD-A，共计36.6%，其中PSM-USDC-A占比25.3%。
+
+图3-2 DAI支持的抵押资产分布
+
+3.2.2协议收支分析
+通过前文的机制分析可知，MakerDAO目前的收入来源于三个方面：1）超额抵押Vault获得的稳定费收入；2）从清算金库中收取的清算罚金收入；3）通过PSM获得的稳定币交易费用。协议支出主要是来自团队员工薪资、协议治理以及未来发展等等；目前缓冲池的盈余约7,528万美元。
+从MakerDAO的收益分析图来看可知，在牛市行情中MakerDAO协议三方面的收入远超于支出，协议能够获得一定的盈余，在20年至21年5月份（519极端行情）期间，协议每个月的净收入呈现递增的现象，最高月净收入达到2,340美元。由于市场行情的变化以及对DAI需求的降低，协议收入出现下降；但随着协议逐渐加大对RWA资产的投资，改善了收支结构，在22年1月协议的净收入突破最高值，月盈利2,624万美元。目前的熊市行情导致协议当下每月处于净亏损状态。
+
+图3-3 MakerDAO收益图
+收入
+截至2022年1月份，MakerDAO协议的月收入为1,511,502美元，此前ETH-A金库Vault收取的稳定费和清算费是是每个月收入的最大来源，但随着逐渐增大对现实世界资产的投资，明显看出目前依赖于RWA盈利，盈利占比高达56.4%；ETH金库占比23.5%，稳定币PSM占比在14.4%左右。足以见得，现实世界资产RWA对协议收入的贡献最大。
+表3-2 主要资产的规模及收入占比
+资产
+铸造DAI规模占比
+收入占比
+ETH
+11.5%
+23.5%
+RWA
+9.6%
+56.4%
+稳定币
+57.6%
+14.4%
+支出
+从团队去年的年终财报中可知22年全年Maker协议的收入为3,775万美元，年度支出为3,409万美元，协议盈利并不多；在年度支出排行榜中用于协议开发的费用最多。目前协议每月支出在262万美元左右，月收入仅有约151万美元。
+
+图3-5协议2022年度支出排行
+3.3未来
+22年6月，创始人RuneChristensen提出了一项名为“EndgamePlan”的路线图，详细说明了未来十年内重组MakerDAO来实现去中心化的目标。其提议将Maker协议分为多个“MetaDAO”，即拥有Maker功能的小型社区。每个MetaDAO都会有自己的代币和资金库，操作自己的前端，由独立于Maker治理系统的委员会管理，从而将MakerDAO从双代币系统转变为多代币系统。按照Rune在完整计划中阐述的，MetaDAO的代币MDAO总共会有20亿枚，将会以挖矿的形式发放，其中20%分配给DAI农场、40%分配给ETHD农场、40%分配给MKR农场，从而促进抵押品的发展。
+
+图3-6 MetaDAO收益分配
+整体上创始人Rune考虑到RWA受到监管的程度将可能逐渐增加，因此针对未来发展提出了三种不用抵押品策略，分别为1）Piegon Stance：基本就是Maker现在的状态，大概将持续三年，专注于赚取收入，对RWA资产敞口无限制，保持DAI和美元的1:1挂钩；2）Eagle Stance：如果三年后DAI受到公信质疑，就切换为该策略，对RWA的风险敞口限制在25%，有可能在此阶段打破DAI与美元的挂钩；3）Phoenix Stance：如果RWA所有抵押品都没收，将会实施该策略。
+团队的计划路线图分为四个主要阶段，如下图所示。其中Pregame阶段将会在12个月内上线，包括构建ETHD、上线6个MetaDAO以及启动流动性挖矿等等。
+
+图3-7 Endgame Plan计划路线图
+总结：MakerDAO作为老牌明星项目，经过五年的发展已经较为成熟。此前USDC在Maker协议所有抵押品中占比接近50%，主要是通过PSM，其产生的收入贡献较低。TornadoCash被制裁事件也让团队意识到对USDC的依赖是潜在的风险，因此对PSM池做一系列调整来降低USDC比例。从目前情况来看，MakerDAO的资产组合中现实世界资产RWA的比例正在增加，对协议收入贡献最大，明显改善了收支情况，但整体上目前协议仍处于净亏损状态；另外RWA资产投资的增加与“去中心化”目标相背离，存在着监管风险。
+MakerDAO的原生代币MKR，初始代币总供给100万枚，但在实际运营中总量是不固定的，截至2023年2月13日流通的MKR有906,621枚。
+4.1.1拍卖
+在MakerDAO生态中，MKR的总量在运营过程是不固定的，存在增发和销毁机制，主要是通过拍卖机制这一环节。根据前文对拍卖机制的阐述可知盈余拍卖和抵押品拍卖是会不断的销毁MKR，而债务拍卖会铸造出MKR。
+根据官方给的信息，目前已经销毁的MKR共22,368枚（占比约2.24%），意味着目前MKR的总量供给为977,631枚，国库持有71,009枚MKR（占比约7.1%），流通中有906,621枚MKR。
+1）盈余拍卖
+在Maker协议中保险库是用于在借款人和Maker协议交互时存入抵押品并生成DAI，DAI通过从Vault收取的稳定费中产生。当稳定费的净盈余达到一定程度，智能合约将会自动的盈余的DAI拿到DEX上拍卖，Maker协议将利用这笔收入通过智能合约购买MKR并将其销毁，从而减少了MKR的流通量。
+2）抵押品拍卖
+当抵押品的价值达到阈值遭遇清算时，保险库会举办抵押品拍卖，所获得的稳定费收入和清算罚款被用于购买MKR并销毁。
+3）债务拍卖
+当抵押品的价值下降到无法支付协议的债务和清算费用时，将触发债务拍卖。系统首先会使用稳定费的盈余来偿还这笔债务，如果没有任何盈余可以弥补的话，系统会启动债务拍卖，中标的用户支付DAI来偿还债务，同时系统会新铸造一定量的MKR作为回报，从而增加了流通中的MKR数量。
+4.1.2代币分布
+
+图4-2 MKR持币地址分析
+根据etherscan.io的数据来看，MKR目前的持币地址有92,992个，前100名持仓占比83.68%；前10名持仓占比47.02%；第一名持仓占比20.06%，是MakerDAO的治理合约地址。整体上看，目前持币地址集中度较高。
+其中前10个地址中有5个合约地址，占比33.36%，扣去该部分占比，前100个地址总计占50%，排名最前的两个地址都是MakerDAO官方的地址，因此MKR的持币地址较为分散。
+MKR是协议的治理代币，其主要用途是参与协议的治理以及兜底风险，其中兜底是上文所指的债务拍卖机制，当系统出现负债时通过增发MKR来弥补债务。
+MKR参与的治理内容包括：1）引用新的抵押品类型，并为其设置一组风险参数；2）修改、增加一种或多种现有抵押品类型的风险参数；3）修改DAI存款利率（DSR）；4）选出喂价预言机的节点群组；5）选出紧急信息输入者群组；6）触发紧急关停机制；7）升级系统。
+总结：MKR代币经济模型设计合理，发挥着重要的治理作用和兜底的重任；同时代币MKR与协议本身的盈余收入相挂钩，当盈余超过2.5亿美元时将会回购销毁MKR，进入通缩模式；相反如果协议产生不良债务，将会增发MKR代币来弥补债务。目前已销毁约占总量2.4%的MKR。
+5.1.1定义
+MakerDAO协议所处的赛道是去中心化抵押稳定币赛道。
+稳定币从本质来说是一种具有“锚定”属性的数字货币，其目标是锚定美元等法币或其他价值稳定的资产，并与其保持相同的价值。
+5.1.2分类
+从中心化程度来看，当前市场上主要存在两种类型的稳定币，中心化稳定币和去中心化稳定币。中心化稳定币通常是由链下银行账户中的法币或者贵金属做抵押，在链上发行通证，这就需要对托管方存在一定的信任。去中心化稳定币则是完全由智能合约运行，发行规则透明。
+基于稳定币背后的锚定资产，又可以分为法币抵押稳定币、商品抵押稳定币、加密资产抵押稳定币和算法稳定币。
+法币抵押稳定币通常处于主导地位，其背后由一种或多种法币支持，最常使用的法币是美元、欧元、英镑，每个法币抵押的稳定币与相应的法币以1:1的比例挂钩；商品抵押稳定币与法币抵押稳定币的不同之处在于，其背后资产不是法币，而是一些贵金属，例如黄金，其他资产，如房地产、石油等也可以被用来做抵押品。以上两类稳定币通常属于中心化稳定币。最早发展起来的也是法币抵押稳定币。Tether（USDT）是由Tether Ltd.公司发行，是2015年在交易所上市的第一种稳定币，占据先发优势，成为市值第一的稳定币，该代币由存放在指定银行账户中的等值法币提供支撑。在最初设计时，Tether 为发行的每枚USDT都留存1美元储备金，因此存在中心化托管、银行账户不透明、超发等问题。2016年Coinbase交易所和Circle公司联合推出稳定币USDC，USDC与美元1:1锚定。Circle强调每枚USDC都有相应的美元作抵押，这些美元都存在需要定期审计和公开报告的账户中。经过Circle和Coinbase的共同努力，USDC供应量迅速增加，陆续与Bitmain、Blockchain Capital等公司展开合作，该项目在2020年度得到长足发展，市值排名第二。
+加密资产抵押稳定币主要是由比特币和以太坊等主流加密货币支持，其中超额抵押是加密资产抵押稳定币常见形式。相对于中心化稳定币，加密资产抵押稳定币通常是去中心化的，首先，其采用的是链上加密资产，其次，稳定币生成过程由智能合约执行，没有中心化托管风险。由于法币抵押稳定币存在中心化、账户不透明等问题，随后Maker DAO开发了加密货币抵押稳定币DAI。该项目在 2020年随着以太坊上DeFi的爆发而得到迅速发展，已是加密货币抵押稳定币的龙头。
+算法稳定币的背后则是没有加密资产或者法定资产支持，完全通过算法和智能合约来管理代币的发行。核心就是当稳定币的价格低于其所追踪的法定货币，算法系统将会减少市场中的货币供应；当价格高于法定货币价格时，将增加供应以此降低稳定币价格。此类代币又被称为无抵押稳定币，不过，倘若出现黑天鹅事件，算法稳定币也会拥有某种抵押品来应对市场的异常波动。这两种稳定币类型通常属于去中心化稳定币。2020年，随着 Ampleforth（AMPL）的推出，带来了一波算法稳定币热潮，是市场的一种创新，在不断迭代中走向成熟。算法稳定币在去中心化、资产利用率上相对前两种类型稳定币的确更有优势，但是其发展受限资产价格和稳定机制带来的死亡螺旋问题，从而导致应用场景的缺乏。
+除了以上这些主流稳定币之外，随着各大交易所链生态的不断发展，其原生稳定币，例如BUSD、HUSD等发行量也不断增大。
+5.1.3现状
+稳定币赛道发展至今，总发行量已经突破868亿美元，其中法定抵押稳定币占据着绝大多数的份额，USDC的发行规模达到311亿美元，占比33.1%；USDT的发行量突破304亿美元，占比32.3%。尽管法币抵押稳定币面临发行、承兑、监管等隐患，但是因为其门槛较低，仍然是流动性最大的稳定币类型。
+交易所原生稳定币BUSD也占据了一定的市场份额，发行规模达153亿美元，占比16.3%。加密货币抵押稳定币也有明显的发展，DAI的发行量约82亿美元，占比8.7%。
+
+图5-1稳定币发行规模
+目前市场上市值规模最大的去中心化稳定币是MakerDAO发行的DAI，在五一九清算期间MakerDAO抗住了压力测试，在经历了一场完整的牛熊后，MakerDAO为去中心化超额抵押稳定币赛道铺平了道路。Curve作为DeFi原生协议，团队CEO于去年七月份表明计划推出原生稳定币，去年年底推出了稳定币crvUSD的代码和白皮书，选择了ETH作为抵押品，产品的创新点在于引进了LLAMMA复杂AMM算法调整利率，目前crvUSD代码已经完成，团队表示由于受宏观大环境影响，预计在牛市初才会推出。同期DeFi借贷龙头Aave协议也表示将发行自己的超额抵押稳定币GHO，最初设想GHO将与美元挂钩，并且整合到Aavev3中，近期已经上线以太坊测试网。
+从目前的发展局势来看，MakerDAO的核心是DAI稳定币系统，近期计划采用Aavev3的智能合约推出Spark Lend来扩张到借贷市场；而对于Aave来说，借贷业务逐步完善下由推出了超额抵押稳定币GHO，二者同样作为DeFi的蓝筹项目，在业务发展上相互渗透，因此下文将详细对二者进行对比阐述。
+5.2.1Aave
+前身是ETHLend，项目早在2017年就启动ICO，最初做的是点对点借贷，但由于撮合效率低下，19年进行产品调整，转变为加密资产抵押借贷，产品包括闪电贷、信贷委托等。20年初，bZx的黑客攻击使得闪电贷这个新物种引起市场关注，同时也让Aave被加密市场熟知。20年底团队更改经济模型，增加安全储备板块以及启动流动相关挖矿；21年迎来价值爆发，主要原因Polygon的部署，经过五年的发展，Aave逐渐发展成为“DeFi借贷三巨头”。去年七月团队提出进军稳定币市场的计划，并计划推出与美元挂钩的超额抵押稳定币GHO，抵押品为aToken。目前Aavev3版本已于今年年初正式上线以太坊主网，稳定币GHO在2月9日上线了以太坊Goerli测试网，目前支持DAI、USDC、AAVE和LINK四种资产，预计不久后将正式上线。
+5.3.1产品逻辑
+整体机制上GHO与DAI的设计基本一致，同样是基于超额抵押保证与美元的1:1锚定，核心内容都是用户将所支持的抵押品类型存入铸币引擎中，能够获得一定数量的稳定币，在偿还或清算后，相应数量的稳定币将会被销毁，所有的费用都将进入DAO金库中。社区DAO能够对产品关键参数（包括利率等风险参数）进行投票治理。
+GHO协议的特点在于引进了Facilitator（促进者），Facilitator是授权与货币引擎互动的协议、实体等，能够无需许可的铸造GHO。每个Facilitator都会分配到一个Bucket，Bucket表示的是一个Facilitator能够铸造的最多货币量。协议宣布第一个Facilitator就是Aave v3协议本身，并且在GHO的白皮书中也能看到未来Facilitator也包括了现实世界资产（RWA）。
+
+图5-2 GHO工作原理图
+MakerDAO和Aave在设计稳定币产品细节上二者存在细微区别：
+表5-1 产品细节对比表
+MakerDAO
+Aave
+稳定币符号
+DAI
+GHO
+抵押资产
+多抵押DAI系统（MCD）
+aToken、stkAAVE
+利率
+稳定费根据抵押品的不同而不同，利率可变，由MKR持有者对提案投票来调整。
+核心参数利率和手续费等由AaveDAO投票治理。
+利率折扣
+无
+
+
+质押AAVE（即stkAAVE持有者）能够享受一定折扣
+信用铸造
+有FlashMint闪电贷模块
+Facilitator可无需许可铸造
+铸币上限
+无
+
+
+Bucket设置了一个Facilitator能够生成GHO的上限
+5.3.2稳定机制
+对于去中心化稳定币来说，稳定机制是衡量系统状态的重要指标。DAI系统的稳定机制主要是通过稳定利率调整和DAI存款利率（DSR）来调节市场供需，从而稳定DAI的市场价格。GHO的价值主要是通过套利机制来保持稳定，本质上也是供求关系。团队表示GHO将会在v3正式上线后开启内测，GHO将会整合Aavev3中，因此此处需要引进v3的机制来说明GHO的稳定性。
+1）隔离模式：在v3中隔离市场主要针对长尾资产，允许无许可上币，新币种会首先进入“隔离模式”，目的是切割新币种与主流币种之间的流动性风险。该种模式下的新资产会设置债务上限，当把该资产作为抵押品时，仅允许借出许可的稳定币。随着GHO稳定币被整合到v3中，Aave将会成为新铸造GHO的渠道，将会扩大Aave的资产负债表。
+2）高效模式：该模式是v3引进的另外一个功能，根据资产流动性等指标对资金进行分类，并依据资产类型设置风险参数，允许同类型资产间以低抵押率拆借，提高资金使用效率。例如当用户A选择该模式时，他提供的抵押品为DAI，借出的资产为稳定币USDT，那么他可以获得97%的借款额度，而在正常模式下DAI的借款额度仅为75%。当把GHO纳入到每个类别中，理论借款人可以用GHO来借入ETH增加多头仓位；也能够在资产价格下跌时存入稳定币借出更多的GHP来降低杠杆。
+
+图5-4高效模式
+因此当GHO价格高于1美元时，套利者就会去铸造新的GHO并向市场出售；由于供应量的增加GHO的价格会下降到1美元，套利者就可以再次以1美元价格购买GHO并偿还价值1美元的债务，从而获得盈利；当GHO价格低于1美元时，已有借款的铸币可以购买GHO并偿还价值GHO债务，从而导致GHO需求增加，价格提高。
+5.3.3业务发展
+目前GHO还处于测试网阶段，因此缺少相关实证数据来对比二者的规模大小。DAI目前是超额抵押稳定币的赛道龙头，铸造的DAI资产规模已达到52.06亿枚，具有一定的先发优势；GHO的机制与DAI大同小异，具有一定发展空间，但短期内难以超越DAI的规模。应用场景是衡量稳定币需求的重要指标，GHO的具体实证效果有待后期正式上线后观察。
+Aave从原先的借贷市场扩张到稳定币赛道，同样的MakerDAO也计划通过SparkLend产品进军到借贷市场，二者都选择渗透到对方的市场中争夺份额。Aave协议目前主要的收入是利率息差，发行GHO稳定币主要是为了捕获协议收入，未来将会增加GHO铸币费用。MakerDAO目前的收入来源包括稳定费、清算收入和PSM的交易费用，其中RWA资产对协议收入贡献最大，加大RWA资产的投资改善了收入情况，但也将带来监管风险。由于MakerDAO的Spark Protocol是建立在Aavev3智能合约之上，因此协议表示未来SparkLend发展规模逐步扩大，DAI的借款额度超过1亿美元时，10%的利润将会分给Aave，进一步增加了Aave协议的收入来源。
+总结：MakerDAO和Aave两大DeFi蓝筹项目目前的业务发展在互相渗透，在机制设计上大同小异，DAI目前无疑是去中心化稳定币赛道龙头，具有先发优势，GHO短期内难以超越，应用场景还有待正式上线后观察。
+1）代码风险：智能合约安全问题是所有DeFi项目的固有风险。
+2）监管风险：支持现实世界资产RWA作为抵押品可能会受到监管，导致去中心化DAI稳定币系统失去公信力。
+3）违约风险：从业务上MakerDAO目前不仅涉及抵押借贷还有信用借贷的业务，因此存在贷款违约无法收回的风险。
+— END —
+参考资料:
+MakerDAO官方文档，https://docs.makerdao.com/
+《估值展望，MakerDAO在新周期里的机遇和风险》,https://www.panewslab.com/zh/articledetails/26nu94y6kwgc.html
+《一文读懂MakerDAO：以太坊最疯狂的DAPP》,https://www.kejiwen.com/130164.html
+《稳定币之争：详解AAVE稳定币GHO》，https://www.bitpush.news/articles/3075542
+GHO官方文档，https://docs.gho.xyz/concepts/faq]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[亏损 10 亿美元，监管缠身，加密行业正在抛弃 Silvergate？]]></title>
+        <id>https://www.odaily.news/post/5185468</id>
+        <link href="https://www.odaily.news/post/5185468"/>
+        <updated>2023-03-03T03:00:43.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>自 Silvergate Bank 声称可能面临资本不足的问题且正在重新进行业务评估的消息传出后，多家加密公司纷纷表态「断交」，Silvergate 股票也如瀑布版下跌。Decrypt 作者 André Beganski 盘点了多家加密公司的声明，并对其无法按时提交年度财务报表的原因进行了解析。中文版本由 Odaily 星球日报编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.odaily.news/post/5185468">https://www.odaily.news/post/5185468</a></p>
+<p><strong>文章作者：</strong></p><p>André Beganski</p><hr><h3>观点：</h3><p><strong>André Beganski：</strong>1）Coinbase：最早宣布不再与 Silvergate 合作的加密交易所；2）Crypto.com：发言人确认通过 Silvergate 的存款和取款交易均已暂停；3）Bitstamp：已经为所有用户暂时取消 Silvergate Exchange Network 服务及通过 Silvergate Bank 提供的所有美元电汇支持；4）Gemini：声明在 Silvergate 中没有存放任何 GUSD 和客户资金；</p><a href="https://www.odaily.news/post/5185468">内容来源</a><p><strong>André Beganski：</strong>5）Circle：正在解除与 Silvergate 的部分服务；6）Paxos：对 Silvergate 没有太多实质性的风险敞口；7）Tether：对 Silvergate 没有风险敞口；8）Galaxy Digital：已停止接受或发起向 Silvergate 的资金转移交易；9）Cboe Digital：将暂停与 Silvergate 的所有交易；10）MicroStrategy：除一笔贷款外，没有任何其他财务关系。</p><a href="https://www.odaily.news/post/5185468">内容来源</a><p><strong>André Beganski：</strong>Silvergate 其实是 FTX 崩盘的另一个「牺牲品」，由于 FTX 倒闭，Silvergate 银行存款大幅下降，此前为了满足加密市场的大量提款需求，Silvergate 不得不从美国联邦住房贷款银行获得了 43 亿美元的贷款，并出售了价值约 52 亿美元的债务证券。而事实上，市场很早就嗅到了潜在风险，据 MarketWatch 数据显示，二月底 Silvergate 已成为华尔街做空最多的股票。</p><a href="https://www.odaily.news/post/5185468">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blur创始人：平台重视NFT版权且不会收集用户数据，未来发展将很大程度受社区影响]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/o28jm7os.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/o28jm7os.html"/>
+        <updated>2023-03-03T02:23:00.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，据CoinDesk报道，NFT市场Blur联合创始人Pacman在接受采访时表示，其真名为Tieshun Roquerre，是一名24岁的开发者和投资者。Roquerre透露，Blur代币经济学和增长战略的灵感来源于去中心化加密货币交易所Uniswap和电子商务平台淘宝。
+对于NFT版税，Roquerre称其立场是希望以可扩展、持久的方式最大限度地提高版权使用费，虽然有零版税的市场，但他决定通过激励交易者来远离这些市场（例如其对OpenSea的竞争策略）。
+对于Blur的隐私政策声明“平台收集浏览历史、电子邮件地址和工作历史等可用于创建消费者档案的信息”，Roquerre否认该平台正在收集用户数据，并表示其隐私政策“非常标准”。他补充说，它收集的数据在区块链上都是公开可见的。不过，他承诺会更新隐私政策以向用户阐明其意图。
+Roquerre还表示，该平台的未来将在很大程度上受到其社区的影响，该社区可以使用持有 BLUR代币总供应量39%的金库。他说：“社区可以对可用于开发功能或各种举措的财政拨款进行投票，还可以投票将财政拨款分配给新的经济设计，其中可能包括在某个时候引入平台费用以在未来产生额外的收入。”
+此外，报道称，Blur曾于2022年3月完成Paradigm领投的1100万美元的种子轮融资。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blur创始人：平台重视NFT版权且不会收集用户数据，未来发展将很大程度受社区影响]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/o28jm7os.html</id>
@@ -31,6 +527,29 @@ Roquerre还表示，该平台的未来将在很大程度上受到其社区的影
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[数据：BUSD市值跌破100亿美元，较去年11月高点缩水近139亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/nootzcw5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/nootzcw5.html"/>
+        <updated>2023-03-03T01:51:55.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，据Coingecko数据显示，BUSD市值已跌破100亿美元关口，截至目前为9,632,022,901美元，较2022年11月时234.9亿美元高点减少138.6亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NEAR 生态 NFT 市场 Few and Far 完成 1050 万美元融资，Pantera Capital 领投]]></title>
+        <id>https://near.org/blog/near-at-ethdenver-highlights/</id>
+        <link href="https://near.org/blog/near-at-ethdenver-highlights/"/>
+        <updated>2023-03-03T01:31:44.000Z</updated>
+        <summary type="html"><![CDATA[<h3>NEAR 生态 NFT 市场 Few and Far 完成 1050 万美元融资，Pantera Capital 领投</h3>
+<p>NEAR 生态 NFT 市场 Few and Far 完成 1050 万美元融资，Pantera Capital 领投，Cypher Capital、Huobi Ventures、Hypersphere、Metaweb、Mantis Partners、K5 Global 等参投。所筹资金将用于扩展平台、提升用户体验及增加 Web3 开发者数量。
+根据介绍，Few and Far 可用于开展下一代数字收藏品相关所有业务，包括一套开发者工具。</p>
+<p><a href="https://near.org/blog/near-at-ethdenver-highlights/">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Block 成立专注于改善闪电网络流动性和路由的公司 c=]]></title>
         <id>https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/</id>
         <link href="https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/"/>
@@ -127,14 +646,13 @@ Roquerre还表示，该平台的未来将在很大程度上受到其社区的影
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coinbase 不再接受或发起与加密友好银行 Silvergate 之间的付款，并为 Prime 客户将美元银行业务服务商切换至 Signature]]></title>
-        <id>https://twitter.com/coinbase/status/1631284093378756611</id>
-        <link href="https://twitter.com/coinbase/status/1631284093378756611"/>
+        <title type="html"><![CDATA[Silvergate Bank 推迟公布年度报告]]></title>
+        <id>https://www.bloomberg.com/news/articles/2023-03-02/silvergate-s-worsening-crypto-losses-feed-watchdogs-worst-fears</id>
+        <link href="https://www.bloomberg.com/news/articles/2023-03-02/silvergate-s-worsening-crypto-losses-feed-watchdogs-worst-fears"/>
         <updated>2023-03-03T01:10:53.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Coinbase 不再接受或发起与加密友好银行 Silvergate 之间的付款，并为 Prime 客户将美元银行业务服务商切换至 Signature</h3>
-<p>加密交易所 Coinbase 宣布出于谨慎考虑将不再接受或发起与 Silvergate 之间的付款，将通过其他银行合作伙伴促进客户之间的现金交易。Coinbase 还表示，客户现金存放在 FDIC 保险的美国银行，当客户存在大量美元余额时，Coinbase 会将其存放在美国政府货币市场基金中以保持安全性和流动性。此外，据 Coinbase 发送给客户的邮件显示，Coinbase 为其 Prime 客户将美元银行业务服务商从 Silvergate Bank 切换到 Signature Bank。
-此前加密友好银行 Silvergate 宣布将推迟提交 2022 财年的年度 10-K 报告。</p>
-<p><a href="https://twitter.com/coinbase/status/1631284093378756611">内容来源</a></p><hr><h3>观点：</h3><p><strong>Paxos：</strong>Paxos 与 Silvergate 没有任何实质性接触，Paxos 的首要任务始终是保护其客户的资金和资产，并利用多元化的银行合作伙伴网络。【原文为英文】</p><a href="https://twitter.com/PaxosGlobal/status/1631294873570799617">内容来源</a><p><strong>Paolo Ardoino（Tether 首席技术官）：</strong>Tether 对 Silvergate 没有任何敞口。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1631355032619589633">内容来源</a><p><strong>MicroStrategy：</strong>我们有一笔来自 Silvergate 直到 2025 年第一季度才到期的贷款，我们的 BTC 抵押品不是由 Silvergate 保管的，除了这笔贷款，我们与 Silvergate 没有任何其他财务关系。【原文为英文】</p><a href="https://twitter.com/MicroStrategy/status/1631366897378680835">内容来源</a><p><strong>Circle：</strong>我们目前也在关注市场对 Silvergate 的担忧，并且正在解除与 Silvergate 的部分合作关系，相关进展我们会及时通知客户。Circle 拥有多个储备和结算银行合作伙伴，负责管理 USDC 的现金储备，提供强大的流动性管理。目前包括 USDC 在内的所有 Circle 服务都在正常运转。【原文为英文】</p><a href="https://twitter.com/circle/status/1631338087212101633">内容来源</a><p><strong>Gemini：</strong>正在密切关注 Silvergate 的状况，Gemini 目前在 Silvergate 没有客户资金和 GUSD 资金。此外，我们已停止通过 ACH 接受处理客户存款和提款及通过 Silvergate 进行电汇。【原文为英文】</p><a href="https://twitter.com/Gemini/status/1631346061942857728">内容来源</a>]]></summary>
+        <summary type="html"><![CDATA[<h3>Silvergate Bank 推迟公布年度报告</h3>
+<p>据彭博社报道，加密友好银行 Silvergate Bank 于周三表示需要推迟提交 2022 财年年度 10-K 报告，需要更多时间评估 2022 年加密货币市场对其财务造成的损害程度，包括是否能够持续经营。据悉，该公司第四季度已经报告了 10 亿美元亏损，并表示这一数字可能会有所上升。</p>
+<p><a href="https://www.bloomberg.com/news/articles/2023-03-02/silvergate-s-worsening-crypto-losses-feed-watchdogs-worst-fears">内容来源</a></p><hr><h3>观点：</h3><p><strong>Paxos：</strong>Paxos 对 Silvergate 没有太多实质性的风险敞口，Paxos 的首要任务始终是保护其客户的资金和资产，并利用多元化的银行合作伙伴网络。【原文为英文】</p><a href="https://twitter.com/PaxosGlobal/status/1631294873570799617">内容来源</a><p><strong>Paolo Ardoino（Tether 首席技术官）：</strong>Tether 对 Silvergate 没有任何敞口。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1631355032619589633">内容来源</a><p><strong>MicroStrategy：</strong>我们有一笔来自 Silvergate 直到 2025 年第一季度才到期的贷款，我们的 BTC 抵押品不是由 Silvergate 保管的，除了这笔贷款，我们与 Silvergate 没有任何其他财务关系。【原文为英文】</p><a href="https://twitter.com/MicroStrategy/status/1631366897378680835">内容来源</a><p><strong>Circle：</strong>我们目前也在关注市场对 Silvergate 的担忧，并且正在解除与 Silvergate 的部分合作关系，相关进展我们会及时通知客户。Circle 拥有多个储备和结算银行合作伙伴，负责管理 USDC 的现金储备，提供强大的流动性管理。目前包括 USDC 在内的所有 Circle 服务都在正常运转。【原文为英文】</p><a href="https://twitter.com/circle/status/1631338087212101633">内容来源</a><p><strong>Gemini：</strong>正在密切关注 Silvergate 的状况，Gemini 目前在 Silvergate 没有客户资金和 GUSD 资金。此外，我们已停止通过 ACH 接受处理客户存款和提款及通过 Silvergate 进行电汇。【原文为英文】</p><a href="https://twitter.com/Gemini/status/1631346061942857728">内容来源</a><p><strong>Coinbase：</strong>鉴于近期事态发展以及出于谨慎考虑，Coinbase 不再接受或发起与 Silvergate 之间的付款，并为其 Prime 客户将美元银行业务从 Silvergate Bank 切换到 Signature Bank。</p><a href="https://twitter.com/coinbase/status/1631284093378756611">内容来源</a><p><strong>链研社：</strong>Silvergate 暴雷不会影响到 USDC：1）USDC 的发行和管理由 Circle 和 Coinbase 等机构负责，并由审计机构进行审计，Silvergate 只是托管银行并无法挪用；2）虽然 Silvergate 财报巨亏，并不会影响 USDC 的发行和流通，且 USDC 发行商可以随时更换托管银行；3）USDC 的稳定性和可靠性受到审计机构、发行商和托管银行的监管和管理。</p><a href="https://twitter.com/lianyanshe/status/1631275775164047362">内容来源</a><p><strong>Fiona_crypto：</strong>补充几点关于 Silvergate 的认知：1）虽然不会动摇到 USDC，但会有所影响，Silvergate 和 Signature 是 Circle 最主要的两家合作银行；2）之后合法出金渠道会变少，过程也会更复杂；3）真正不确定的是 Silvergate 如果破产，里面还有多少钱，又是谁的钱，及会引发怎样的蝴蝶效应。</p><a href="https://twitter.com/nft_hu/status/1631476850773102592">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -3090,12 +3608,12 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[币安计划再次申请新加坡加密货币服务许可证]]></title>
+        <title type="html"><![CDATA[加密资产托管公司Ceffu计划申请新加坡加密货币服务许可证]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/jcb5qa0f.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/jcb5qa0f.html"/>
         <updated>2023-03-02T05:06:01.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月2日消息，据日经新闻报道，币安计划再次尝试获得在新加坡提供加密货币服务的许可证，从零售客户转向企业客户。币安执法培训主管Jarek Jakubcek表示，将让其托管部门申请许可，以“在适当的时候”提供此类服务，币安一直在提高能力以满足监管机构的要求。
-币安在去年11月底推出了面向新加坡企业客户的改组业务，将Binance Custody更名为Ceffu。分拆迎合了寻求托管和其他数字资产服务的专业投资者。而币安希望获得许可的正是这项业务。]]></summary>
+        <summary type="html"><![CDATA[PANews 3月2日消息，独立于币安之外的托管伙伴、加密资产托管公司Ceffu尝试获得在新加坡提供加密货币服务的许可证，从零售客户转向企业客户。Ceffu副总裁Athena Yu表示，一旦《支付服务法》的相关修正案生效，为DPT 提供托管服务的许可活动的申请开放，Ceffu将向新加坡金融管理局 (MAS) 提出正式申请。
+此前2月9日消息，币安旗下托管服务Binance Custody更名为Ceffu。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -3660,17 +4178,6 @@ Carlson-Wee 不愿详述 DeFi 的内在矛盾。“我从来没有真正将权�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[消息人士：Bankless播客主持人正筹集3500万美元的加密风险投资基金]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/txh3mu16.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/txh3mu16.html"/>
-        <updated>2023-03-02T02:53:30.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月2日消息，据CoinDesk报道，消息人士表示，加密播客和时事通讯Bankless的主持人正在筹集3500万美元的风险投资基金，用于投资种子阶段的Web3公司。Bankless节目主持人David Hoffman和Ryan Sean Adams将成为该基金的普通合伙人。该基金计划作为独立于Bankless播客的法律实体，但仍将共享其品牌。
-据悉，Bankless由Adams和Hoffman于2020年创立，凭借其旗舰播客、时事通讯、YouTube频道和自己的去中心化自治组织 (DAO)，以及BANK治理代币，建立了具有影响力的多媒体形象。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[去中心化云平台 Impossible Cloud 完成 700 万美元种子轮融资，HV Capital 和 1kx 领投]]></title>
         <id>https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage</id>
         <link href="https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage"/>
@@ -3694,17 +4201,6 @@ Carlson-Wee 不愿详述 DeFi 的内在矛盾。“我从来没有真正将权�
 <p><a href="https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：Voyager今日将1278万美元的加密货币转入Coinbase，并提出5000万枚USDC]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/1zxg54ls.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/1zxg54ls.html"/>
-        <updated>2023-03-02T02:31:34.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月2日消息，据推特用户Bit余烬监测，Voyager今日将1278万美元的加密货币转入Coinbase，分别为4000枚ETH（约合642万美元）、3680亿枚SHIB（约合441万美元）、500万枚VGX（约合195万美元）。Voyager今日还从Coinbase提回5000万枚USDC。
-据悉，自2月14日以来Voyager几乎每天通过Coinbase出售加密资产。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -3761,64 +4257,6 @@ TVL
 
 从上述数据看，Radiant 在 Arbitrum 借贷市场上已经处于领先位置，如果未来能够打开全链借贷市场，有机会进一步提升市场规模。
 最后，在 DeFi 领域，任何时候会有潜在风险，这也是需要考虑的地方。除了 Radiant 自身，Radiant 还是基于 Layerzero 协议的技术，如果 Layerzero 出问题，也会影响到 Radiant。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radiant：始于Arbitrum的全链借贷市场]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/k2mn3xs9.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/k2mn3xs9.html"/>
-        <updated>2023-03-02T02:25:25.000Z</updated>
-        <summary type="html"><![CDATA[原文：《 Radiant：全链货币市场》
-作者：蓝狐笔记
-Radiant（RDNT）于 2022 年 7 月份推出，是 Arbitrum 上的原生借贷市场项目。
-从货币市场角度，它们类似。主要的不同在于，Radiant（RDNT）要做全链的货币市场。Radiant 的用户可以在其支持的不同链上进行跨链借贷。
-举例来说，用户在 Arbitrum 上存入 ETH、GMX 或 MAGIC 等（假设在有流动性前提下），可在 BSC 上借入 BNB、在 Solana 上借入 SOL、在 Optimism 上借入 OP、在以太坊上借入 ETH 等。在这个借贷的过程中，其用户无须进行资产的跨链操作（比如无须将其 Arbitrum 上的 ETH，存入到 Optimism 上）。也就是说，从用户的角度，不用将资产跨链到其他链，就可以在不同链或 L2 上完成借贷操作。
-目前多数的借贷协议都是在不同链 /L2 上部署不同的版本，比如在以太坊 L1、Arbitrum、Optimism、BSC、Solanan、Avalanche 等上面推出不同版本。相互之间不可互操作，彼此之间的流动性是割裂的。要想操作，须首先进行资产跨链。
-全链货币市场的本质就是整合不同链上的流动性，减少普通用户的操作麻烦，提升资产的利用率。根据 Defillama 的数据，截止到蓝狐笔记写稿时以太坊 L1 的 TVL 大约在 60% 左右，剩余的分布在各种其他不同链上。这些链上的借贷都是独立进行的，流动性是割裂的。
-
-从技术的角度，简化来说，Radiant（RDNT）是通过 LayerZero 的 Omnichain 技术来构建其全链的互操作性。
-一句话总结，Radiant（RDNT）试图解决不同链 /L2 之间流动性割裂的问题，从而构建出一个全链的借贷市场。
-Radiant 目前计划在未来几周内推出 RDNT V2，这也是社区比较关注的部分。简单来说，主要有如下几点：
-Radiant 使用增发的 RDNT 来激励借贷双方。RDNT V2 引入 dLP（dynamic Liquidity Provisioning）概念，也就是，动态流动性提供。
-要想获得 RDNT 的增发激励，用户必须提供一定的流动性，而这个流动性提供的价值的比例须至少在其总存款价值的 5% 以上。由于价值是动态变化的，所以称为动态的流动性提供。
-如果所提供的流动性价值比例低于 5%，将不会获得 RDNT 的增发奖励。这样一来，存款人要想获得 RDNT 的收益，就必须提供一定比例的流动性。一方面可以锁定一定比例的 RDNT，提升对它的需求；同时也可以提升 RDNT 的流动性，从而实现贡献者和协议长期发展利益的共生。
-
-
-将 ERC20 RDNT 代币改为 LayerZero Omnichain Fungible 代币格式
-
-其目的在于实现跨链的无缝体验，利于将更多新链集成进来
-V1 中，用户提取 RDNT 等待期为 28 天。在这个期间，如果提前任何一点时间，都会消减 50%，也就是说距离第 28 天最后一秒钟提取也会被消减 50% 的 RDNT。
-在 V2 设计，将归属期从 28 增加至 90 天，不过其提前退出则会按照线性的模式进行消减。一方面延长了归属期，减少潜在抛压；二方面通过线性模式，让消减惩罚变得更合理。
-V2 中，只有锁定的 RDNT 才有机会获得协议费用；过期后不会获得激励。
-V1 中，从借款人那里产生的费用，会在 RDNT 的锁定者和贷方之间分配，各 50%；而在 V2 中，60% 的费用分给 RDNT 的锁定者，25% 分给贷方，15% 分配给 DAO。
-也就是说，未来协议费用的最大受益者是 RDNT 的质押锁定者。如果协议持续发展，产生费用越多，RDNT 的质押锁定者收益越多，从而推动更多用户质押 RDNT，从而产生飞轮效应，推动借贷市场的发展。不过，反过来也会一样，飞轮效应的背面是死亡螺旋。此外，还有 15% 的费用分配给 DAO，这部分用于未来 DAO 发展的需求。
-截止到蓝狐笔记写稿时，Radiant（RDNT）目前整体借贷市场规模为 4.38 亿美元左右。
-
-
-协议给到 RDNT 质押者的费用
-
-目前给予 RDNT 质押者的累计费用为 562 万美元，也就是协议产生的 50% 费用分给了 RDNT 的质押锁定者。
-
-
-TVL
-
-根据 Defillama 的数据，目前 Radiant（RDNT）中存入资产的 TVL 为 1.26 亿美元；如果加上借的、质押的、Pool2 的，则整体 TVL 为 4.7 亿美元左右。
-
-从上述数据看，Radiant 在 Arbitrum 借贷市场上已经处于领先位置，如果未来能够打开全链借贷市场，有机会进一步提升市场规模。
-最后，在 DeFi 领域，任何时候会有潜在风险，这也是需要考虑的地方。除了 Radiant 自身，Radiant 还是基于 Layerzero 协议的技术，如果 Layerzero 出问题，也会影响到 Radiant。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Moonbirds母公司PROOF将于3月15日发布NFT系列“Archive of Feelings”]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/970a12w5.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/970a12w5.html"/>
-        <updated>2023-03-02T02:08:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月2日消息，据官方推特，Moonbirds母公司PROOF宣布将与Pace Verso合作，于3月15 日发布术家Mika Tajima的首个个人NFT项目“Archive of Feelings”系列NFT，总量1152枚，使用自定义情绪的算法来可视化美国12个地区的Twitter数据。
-PROOF Collective Pass持有者均可以0.1 ETH的价格铸造一枚NFT。Moonbirds和Pace Verso NFT持有者将有资格在第二轮进行铸造。若有剩余将可用于公开铸造。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -6138,18 +6576,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】解读 Stage #3：RSS3 诞生以来最大的更新]]></title>
-        <id>https://blog.rss3.io/RSS3%3A-Stage-%233</id>
-        <link href="https://blog.rss3.io/RSS3%3A-Stage-%233"/>
-        <updated>2023-02-26T06:20:48.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 信息传播协议 RSS3 此前进行了两次更新，为信息在 Open Web（开放网络）的自由流动奠定了基础，在此基础上 RSS3 发布第三次更新，并撰文从 Open Web、RSS3 网络和 API、hoot.it 三块内容对此更新进行解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://blog.rss3.io/RSS3%3A-Stage-%233">https://blog.rss3.io/RSS3%3A-Stage-%233</a></p>
-<p><strong>文章作者：</strong></p><p>RSS3</p><hr><h3>观点：</h3><p><strong>RSS3：</strong>Open Web：核心思想是建立一个具有开放代码、开放协议和开放信息的网络。我们想把 RSS3 的使命重新定义为 Open Web 的信息传播，包括区块链和 Open Web 的所有其他部分。我们致力于实现 Open Web 上信息流动的自由、效率和安全。事实上，我们已经在支持区块链以外的一些网络，我们将更积极地覆盖新兴的开放协议，如 Nostr。【原文为英文】</p><a href="https://blog.rss3.io/RSS3%3A-Stage-%233">内容来源</a><p><strong>RSS3：</strong>RSS3 网络及 API：RSS3 网络现在为 RSS3 生态系统中的所有应用程序提供了闪电般的响应，每月服务超过 4 亿个请求。随着我们继续扩大 Open Web 上所有信息的覆盖面和解释水平，将逐步推出公共节点。可以在 network.rss 3.io 上找到当前网络统计信息。还对 API 进行了重大改进，无论是构建社交、发布、扫描还是搜索应用程序，RSS3 API 都能在所有主要的 EVM 兼容网络以及 IPFS 和 Arweave 中提供信息。【原文为英文】</p><a href="https://blog.rss3.io/RSS3%3A-Stage-%233">内容来源</a><p><strong>RSS3：</strong>hoot.it : 其使命是成为 Open Web 所有信息和目的地的门户。在 Web2 中，数据被中心化的服务器囤积起来，并以 URL 作为身份几乎统一分布。在 RSS3，我们直接索引来自多个分散源的数据，这些数据以各种格式出现。在过去的一年里，我们已经投资并试验了许多不同的机制，只为了解决数据访问障碍。【原文为英文】</p><a href="https://blog.rss3.io/RSS3%3A-Stage-%233">内容来源</a><p><strong>RSS3：</strong>RSS3 为搜索引擎定义了一个初始范围：1）直接存储在去中心化网络上的数据；2）集中存储的数据作为其主要分散实体的补充；3）与 Open Web 的运行高度相关的数据；4）有助于增强 hoot.it 功能和用户体验的数据。rss3.io 涵盖了所有主要交易的主要链，随着 RSS3 生态系统的发展，rss3.io 将成为我们提供的一切的门户，浏览器将成为 hoot.it 的一部分。【原文为英文】</p><a href="https://blog.rss3.io/RSS3%3A-Stage-%233">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文】关于以 PoW 机制抑制 MEV 搜索者对  Arbitrum 排序器大规模女巫攻击的思考：有何替代方案？]]></title>
         <id>https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121</id>
         <link href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121"/>
@@ -6157,30 +6583,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Offchain Labs 正在开发一种 PoW 机制以抑制 MEV 搜索者对 Arbitrum 排序器大规模 Sybil 攻击。加密研究员 zkSTONKs 撰文描述了该机制存在的问题，并提出了更有效的替代机制。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121</a></p>
 <p><strong>文章作者：</strong></p><p>zkSTONKs</p><hr><h3>观点：</h3><p><strong>zkSTONKs：</strong>Arbitrum 核心开发人员于 2 月 23 日发布了 #1504 提案，标题为「添加一个中继器客户端连接 nonce」，该机制的目标是减轻排序器负荷。该提案实施了一个变化，即当一个新区块可用时，中继器将首先将它提供给 25 个 nonce 最低 feed 订阅用户，经过 50 毫秒认为延迟之后，中继器将向其他用户提供该区块。【原文为英文】</p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">内容来源</a><p><strong>zkSTONKs：</strong>出于环境和声誉的考虑，我认为可能的话我们应该避免使用 PoW 机制，该机制在经纪上过于浪费，目前 Arbitrum 生态 MEV 搜索者每年大约获利 500 至 2000 万美元。目前的建议会让这些资金的很大一部分用户 PoW 哈希值。【原文为英文】</p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">内容来源</a><p><strong>zkSTONKs：</strong>替代机制：1）支付 X ETH 给一些地址，让其在 24 小时内处于优先队列。X 可以每天调整，订阅的 feed 可以选择性的包含一个区块头，其中有一个 ECDSA 签名，来自过去 24 小时内支付过的 EOA；2）搜索者在 UTC 时间周日 12:00 前向电子邮件地址、网络表格或智能合约提交盲标。前 5 名竞标者支付第 6 名的出价。给予中标者 API 密钥或让他们通过 ECDSA 签名进行认证。【原文为英文】</p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】关于以 PoW 机制抑制 MEV 搜索者对  Arbitrum 排序器大规模女巫攻击的思考：有何替代方案？]]></title>
-        <id>https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121</id>
-        <link href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121"/>
-        <updated>2023-02-26T06:14:12.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Offchain Labs 正在开发一种 PoW 机制以抑制 MEV 搜索者对 Arbitrum 排序器大规模 Sybil 攻击。加密研究员 zkSTONKs 撰文描述了该机制存在的问题，并提出了更有效的替代机制。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121</a></p>
-<p><strong>文章作者：</strong></p><p>zkSTONKs</p><hr><h3>观点：</h3><p><strong>zkSTONKs：</strong>Arbitrum 核心开发人员于 2 月 23 日发布了 #1504 提案，标题为「添加一个中继器客户端连接 nonce」，该机制的目标是减轻排序器负荷。该提案实施了一个变化，即当一个新区块可用时，中继器将首先将它提供给 25 个 nonce 最低 feed 订阅用户，经过 50 毫秒认为延迟之后，中继器将向其他用户提供该区块。【原文为英文】</p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">内容来源</a><p><strong>zkSTONKs：</strong>出于环境和声誉的考虑，我认为可能的话我们应该避免使用 PoW 机制，该机制在经纪上过于浪费，目前 Arbitrum 生态 MEV 搜索者每年大约获利 500 至 2000 万美元。目前的建议会让这些资金的很大一部分用户 PoW 哈希值。【原文为英文】</p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">内容来源</a><p><strong>zkSTONKs：</strong>替代机制：1）支付 X ETH 给一些地址，让其在 24 小时内处于优先队列。X 可以每天调整，订阅的 feed 可以选择性的包含一个区块头，其中有一个 ECDSA 签名，来自过去 24 小时内支付过的 EOA；2）搜索者在 UTC 时间周日 12:00 前向电子邮件地址、网络表格或智能合约提交盲标。前 5 名竞标者支付第 6 名的出价。给予中标者 API 密钥或让他们通过 ECDSA 签名进行认证。【原文为英文】</p><a href="https://research.arbitrum.io/t/thoughts-on-arbitrums-proposal-to-score-connections-by-pow/8121">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Beosin：Jump Crypto 如何用逆向攻击追回 3.26 亿美元被盗资金？]]></title>
-        <id>https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w</id>
-        <link href="https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w"/>
-        <updated>2023-02-26T05:04:55.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>跨链协议 Wormhole 于 2022 年 2 月遭受黑客攻击被盗 12 万枚 ETH，据 Blockworks 的报道，似乎三天前这笔资金似乎已经追回。Beosin 安全团队对追过过程进行了重新梳理与大家分享。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w">https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w</a></p>
-<p><strong>文章作者：</strong></p><p>Beosin</p><hr><h3>观点：</h3><p><strong>Beosin：</strong>据了解，一直以来 Wormhole 黑客不断通过各种以太坊应用程序转移被盗资金，最近开设了两个 Oasis 金库，然而两个保险库都使用了 Oasis 提供的自动化服务。反制的关键在于 Oasis 自动化合约使用可升级的代理模式，这意味着合约所有者可以随时更改合约逻辑。</p><a href="https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w">内容来源</a><p><strong>Beosin：</strong>反制攻击发生于 2 月 21 日，当时 sender 地址 (负责执行反制攻击，似乎归 Jump 所有) 被添加为 Oasis 多重签名的签名者。Sender 地址执行了五笔交易用于反制，随后从 Oasis 多重签名中删除。主要部分发生在第三笔交易中，sender 升级了合约，使 sender 能够将质押物和借款从 30100 号金库中转移出控制权。Wormhole 黑客的错误是将 30100 号金库的访问权限授予了一个由多方签名控制的可升级代理合同。</p><a href="https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w">内容来源</a><p><strong>Beosin：</strong>在整个过程中，Authorizer 合约和 Executor 合约扮演了关键角色，但如果没有通过升级 AutomationExecutor 代理提供的完全控制，攻击将不可能实现。仅在 30 分钟后，Sender 就开始从 Jump1 收到 DAI。Jump1 总共发送了 8000 万枚 DAI。Sender 用 7830 万枚 DAI 来清算新创建的金库中的贷款，其余部分则发送给 Jump2。</p><a href="https://mp.weixin.qq.com/s/5xqkMTH0WpCyes1Y0yoq1w">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
