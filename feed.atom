@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-03T06:15:46.691Z</updated>
+    <updated>2023-03-03T06:26:55.954Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[对话 Loot Realms：如何打造一款世代永存的全链上游戏协议?]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/u4k06o94.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/u4k06o94.html"/>
+        <updated>2023-03-03T06:23:38.000Z</updated>
+        <summary type="html"><![CDATA[主持人：「StarkNet 中文社区」
+采访嘉宾：Loot Realms 团队
+
+「StarkNet 中文」社区和 Nurstar 推出全新采访系列《对话 Starknet 建设者》，采访 Starknet 生态建设者们，带大家深入了解 Starknet 生态建设的重要进程，从细节中发现Alpha。本系列涵盖全链游戏、开发团队、 基础设施等多领域，让用户对话 Starknet 项目背后的优秀团队。
+第一期采访邀请到的是 Loot Realms 团队，制作开发了 Starknet 生态中的 MMO 全链游戏《Realms: Eternum》，本期将重点采访：游戏经济模型设计、Dojo 游戏开发引擎、社区参与方式、了解「Play to Die」模式等问题，全方面探索 Loot Realms 团队。
+采访英文版由 Nurstar 发布，点击查看完整内容
+Bibliotheca DAO 是 Loot 生态游戏 Loot Realms 衍生的开放式、去中心化游戏开发工作室、孵化器、研究实验室。致力于打造一款基于以太坊和 Starknet 的全链游戏。同时积极参与游戏开发引擎 Dojo 开发。
+
+关于 Realms: ETERNUM
+《Realms: Eternum》是由 Bibliotheca DAO 在 Starknet 利用 L2 高扩展性开发的经济和军事战略游戏，作为 Loot 衍生即时战略 MMO 全链游戏，具备实时游玩，无最终状态，可组合性、模式多样化等特点。ETERNUM 部署在 Starknet 和以太坊网络上，目前处于内测阶段，所有的游戏逻辑和游戏状态都在链上进行。目前《Realms: Eternum》正在测试两个游戏模块：Bastions 和 Ruins。
+链游开发协议 Realms: Adventurers 采用全新「Play to Die」。
+
+精彩对话：
+本文对话经过编辑，以下是翻译后的采访内容
+Starknet 中文：请介绍一下 BibliothecaDAO、Loot Realms 和 《Realms: ETERNUM》
+Loot Realms：这个项目通常被称为「Realms」，但有些概念需了解：
+Starknet 中文：Realms 为什么选择在 StarkNet 上构建？
+Loot Realms：作为 DAO，我们希望在以太坊上开发游戏，它是现在最为去中心化和安全的智能合约网络。我们的目标是建立复杂的游戏，让玩家有很多自主权，并将游戏逻辑和状态保持在链上。因此，我们需要一个二层扩展解决方案，以使计算密集型的游戏玩法变得可行。我们在 2021 年第四季度在 Arbitrum 上创建了《Realms：Eternum》的原型。然而，我们在链上遇到了计算上的硬性限制，这意味着我们无法创建 DAO 想要制作的复杂游戏。EVM 链非常适合简单的计算，但我们需要更多的链上计算空间。我们后续研究了解到了 StarkNet。StarkNet 团队编写了零知识的手册，我们相信 Cairo 作为编程语言会最大化 Rollup 的潜力。我们相信 Cairo 和 StarkNet 拥有最好的技术，所以当我们的游戏准备好上主网时，相信属于全链游戏的市场也会准备好。
+Starknet 中文：什么是 Dojo？它有什么特别之处吗？
+Loot Realms：我们与 DoJo 密切合作，它是一个使用 Cairo 1.0 和 Rust 编写的即将推出的链上游戏引擎。链上游戏本质上很难构建，DoJo 旨在通过抽象大部分复杂性来解决这个问题，让开发人员专注于游戏而不是基础架构。StarkNet 生态系统中许多优秀的开发人员正在研究 DoJo，我们很自豪能与他们合作。我们将把它添加到 SDK 中，以便开发人员在开发与 Realms 链上游戏宇宙相关的游戏时可以使用。
+Starknet 中文：什么是「Play to Die」？
+Loot Realms：除了构建《Realms: Eternum》之外，我们还有一个名为《Realms: Adventurers》的单独计划。冒险家是链上角色。玩家可以花费少量成本（10 美元的 $Lords）铸造一个冒险家。这个链上角色可以进入小游戏，如果冒险家在游戏中死亡，该角色生命将被没收。我们称之为「Play to Die」。「Play to Die」是建立繁荣创作者生态系统的一种新颖方法。为什么？因为如果冒险家在你创建的游戏中死亡，你作为创作者，会收到用于铸造该冒险者的 $Lords 代币的分红。如果你的小游戏不好玩或没有奖励，就没有玩家来玩！这种推拉将创造一个繁荣的、包括玩家和创作者的双边市场。
+关于 Adventurers 的一个要点是它是建立在原始 Loot 包 NFT 上的。Bibliotheca DAO 正在创建原始物品，给予 Loot 包中的物品物理属性，如武士刀和圣袍。通过「Play to Die」机制，我们为建造者创造了一个无需许可的激励系统，以不断扩展 Realms 全链游戏宇宙。计划中的游戏包括类迷宫探索型游戏 (rogue-like games)、幸存者游戏、卡牌游戏......想象一下一个去中心化的Realms 全链游戏应用商店，你就明白我们的思路了。
+Starknet 中文：$LORDS 代币在今年一月份完成了销售，下一步将如何使用这笔资金帮助游戏构建发展？
+Loot Realms：在这次的代币销售中获得了超额认购（超过 6 倍），并在社区私募轮售罄并完成资金募集，为社区的力量感到自豪。代币销售计划是 DAO 对社区治理提案 (BIP-7) 进行投票后的结果。募集资金是为了资助链游《Realms: Eternum》和《Realms: Adventurers》下一阶段的发展。目前 DAO 成员正在精心设计提案，以增加 $LORDS 代币流动性，引进专业人才，如 3JS 工程师来升级 Realms 地图集。且将创建基金，让 Bibliotheca DAO 资助其他游戏开发者参与 Realms 全链游戏宇宙的开发。欢迎 Loot Realm NFT 持有者加入社区讨论。
+Starknet 中文：Realms 是否会采用双重或多重代币经济模型？如果是，为什么会在链游中采用这种模式？
+Loot Realms：除经济中的主要代币 $LORDS 外，还有其他的资源代币。当 Loot Realm NFT 结算时（即质押参与《Realms: Eternum》游戏），它可以产生资源。一共有 22 种 ERC1155 资源代币。玩家需要在游戏 AMM 中互相交易资源，用于建造建筑物和召集军队。而且每种资源都可以与 $LORDS ERC20 代币兑换。
+从 Realms 中生产新的资源需要花费资源成本。玩家必须决定哪些资源的生产更加可行。通过这种方式，可以避免游戏经济出现游戏玩家不参与游戏只挖掘资源的问题。最后，DAO 能够在 NFT 市场的交易费用中赚取 $ETH，作为 DAO 的固定流动资产。它可以在市场上出售来补充 DAO 国库，减少从 DAO 国库中出售 $LORDS 代币来资助 BIP 计划的需要。
+Starknet 中文：我们现在正处于链游的哪个发展阶段？
+Loot Realms：我们现在正处于全链游戏早期阶段，或称之为黎明时期。最令人兴奋的是，只要以太坊不断生产区块，我们开发的游戏就能永久存储在链上。我们希望开发出一款能够代代相传、具有深远影响的游戏。为什么我们以前没有全链游戏呢？大部分区块链用户上链的价值，如金融和艺术，人们对于将事物转移到链上产生了巨大的兴趣。因为区块链具备透明度、互操作性、真实所有权、永久性等多方面特质。创建全链游戏的需求一直存在，但扩容解决方案迟迟未出现。因为在 L1 的计算成本非常昂贵，导致在 L1 创建游戏难以实现。在合并完成后， L2 的扩展性能，如 Rollup 能够轻松解决成本问题。现在，像金融和艺术领域一样，我们看到了开发者们攻克了难题，克服区块链的限制，从而创建出真正的全链游戏。因此，当前还是非常早期阶段，但链游发展的步伐正在加快。
+Starknet 中文：Realms 如何看待全链游戏？其最重要的特质是什么？
+Loot Realms：任何游戏最重要的就是可玩性，这一点同样适用于全链游戏。如果游戏可玩度高，实现玩家之间的良性竞争，促进游戏生态积极发展，就会不断吸引更多新玩家参与其中。
+Starknet 中文：可以分享下《Realms: Eternum》游戏的未来计划吗？
+Loot Realms：《Realms: Eternum》游戏永远不会「完结」，因为开发者会不断扩展游戏。我们希望《Realms: Eternum》达成不断扩展、永存的、社区所有的元游戏 (Metagame)。希望未来能够将 Loot Realms 能够一直传承下去，到下一代、下下代…不断更迭，让源源不断的新玩家参与，继续游戏之旅。
+Starknet 中文：有多少贡献者或成员正在参与建设和发展？你们是如何协同工作的？
+Loot Realms：大约有十几名全职和兼职开发人员、通讯和社区贡献者。DAO 中有数百人每天做出小的贡献，例如训练 DAO 正在开发的文本转图像的自定义模型。
+Starknet 中文：我们都知道游戏开发是非常复杂的。那要如何通过社区去建立游戏呢？
+Loot Realms：Realms 是最早的全链游戏之一，在 2021 年 8 月开始构建。我们没有答案，但有正确的态度。我们每天都在让游戏变得更加透明，对贡献者更加包容，更加去中心化。我们很自豪有这样一个充满激情、才华和动力的社区，每天都在为最棒的全链游戏这一使命做出贡献。
+Starknet 中文：谁可以加入并为游戏做出贡献？如何加入？
+Loot Realms：任何人都可以！如果您想为《Realms：Eternum》做出贡献或使用 Adventurers 制作小游戏，请加入Realms x Bibliotheca DAO Discord，在其中询问 Loaf 或 Secretive。
+Starknet 中文：你有什么对开发者的建议吗？
+Loot Realms：学习 Cairo。我们非常看好 Cairo！Cairo 一开始可能看起来很劝退，但我们相信它是将 ZK 技术潜力最大化的完美语言。它不仅在StarkNet 上使用，而且还可以在非 EVM 网络上使用。如果想学习 Cairo，欢迎进入我们的 Discord 社区，我们有问必答。
+?Mirror 原文:
+https://mirror.xyz/starknet-zh.eth/mvQl3KegyWwoQmSe2_kcvBD3ENWk_z2CcyB1LXOuE3U
+?采访-EN 版：
+https://nurstardeepdive.substack.com/p/interview-with-the-realms-metaverse]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[市场恐慌又至？仅1000个客户的Silvergate走入加密“死胡同”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/knf0309s.html</id>
@@ -4657,81 +4712,6 @@ PARTY意为PANews' Restropect of The Year (PANews年度致敬)，活动已连续
 <p><a href="https://twitter.com/ceramicnetwork/status/1630569383130189827">内容来源</a></p><hr><h3>观点：</h3><p><strong>Ceramic：</strong>ComposeDB 文档：https://composedb.js.org/docs/0.4.x/introduction</p><a href="https://twitter.com/ceramicnetwork/status/1630569383130189827">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以Uniswap提案部署BNB Chain为例，探讨当前跨链桥的发展与隐忧]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/97rx766p.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/97rx766p.html"/>
-        <updated>2023-03-02T04:28:40.000Z</updated>
-        <summary type="html"><![CDATA[原文：TOM BLACKSTONE
-编译：0xAR
-
-据链上数据工具DefiLlama的信息显示，截至2月28日，跨链桥上锁定的资金已近100亿美元。过去随着黑客的频繁光顾和资金的大量损失，跨链桥的安全问题成为一个急迫的问题。
-
-分析工具Token Terminal曾发布一份惊人的数据，仅2021年到2022年的时间，跨链桥上就有超过25亿美元的加密资产被盗，超出第二名两倍多。
-尽管开发者不断尝试改善桥接的安全性，但从今年初Uniswap DAO论坛上展开的辩论来看，跨链桥仍暴露出不少的安全漏洞。
-去年12月，去中心化交易所Uniswap的自治组织Uniswap DAO提议将Uniswap v3部署到BNB Chain上并选择一个跨链桥协议部署资金桥接。
-结果随着讨论不断深入，成员们发现没有一个跨链桥协议能够满足所有人对资金安全的要求。
-
-顾名思义，跨链桥就是桥接两条区块链的协议。通过跨链桥，两条链上的数据和资金就能够从这一条链走到另一条链。最简单的例子，借助跨链桥，用户可以把USDC从以太坊发送到币安智能链。
-表面上看，资金是过桥了。但实际上，各条区块链包括以太坊和币安智能链都是封闭的，各自的网络架构和数据库都不同。本质上讲，转移前的USDC和转移后的USDC并不是同一个。
-此话怎讲？
-要实现资金的跨链转移，跨链桥的操作是这样的：还以上文为例，用户转移前，桥在以太坊这头会把USDC先锁起来，然后在用户点击转移之后，接着在币安智能链上再造一份同样数量的USDC资金。
-如果用户要把资金转移回来，币安智能链就会销毁造出来的“USDC”，并把以太坊这边的USDC解锁。所以从原理上看，跨链桥并没有真的把USDC从这条链移到那条链。但从应用角度讲，这已经能满足绝大多数用户转移资金的目的了。
-跨链桥一头锁定资金，另一头铸造资金，一般由相关的验证者负责把关。但只要骗过任何一头的验证都可以窃取不菲的资金。比如，这头资金没有锁定，但在另一头却铸造了新的资金。或者在转移回来时，没有把原本的资金销毁，这一头资金却成功解锁。
-也就是说，跨链桥被盗后不仅不丢失资金，反而凭空多出一份资金。比如币安链被盗。
-又或者不骗验证者，而是直接偷验证者，因为用户锁定的钱就存在验证者管理的多签钱包中。Ronin跨链桥便是一个实例。
-
-Ronin是区块链游戏Axie Infinity专门开发的侧链，方便玩家畅快游戏，但资金需要在以太坊上结算，所以跨链桥得以开发。
-该跨链桥验证者为9个验证节点，验证交易时需要至少5个节点签名，即便单个节点被攻击，黑客仍然无法获得盗取资金。
-结果，这9个验证节点中有4个验证节点的密钥掌握在Axie Infinity的开发者Sky Mavis手中，黑客在黑入Sky Mavis后，只攻击了剩余一个第三方节点就获得了验证权限，成功转移了钱包中价值6亿美元的加密资产。
-甚至，在资金被盗多天后，Sky Mavis都还不知情。还是在用户报告提不了现时，Sky Mavis才大惊居然丢了6个亿。
-
-新的跨链桥协议
-依靠多签验证的跨链桥被一轮又一轮黑哭之后，终于有人开发出新的跨链桥项目。
-Layer Zero
-Layer Zero用两个服务器来代替桥两头的验证者。第一个服务器被称为 "预言机"。用户如果锁定资金，预言机就会把锁定资金的区块信息发到另一条要转移资金的链上。
-第二台服务器被称为 "中继"。在用户确实锁定资金后，中继会向另一条链发送证明，也就是证明预言机说的没错，锁的资金确实是在那个区块里。
-但是预言机和中继是相互独立的，不存在串通。这样一来，黑客便没有办法一步绕开验证盗取资金。
-LayerZero使用Chainlink作为默认的预言机，并为应用开发者提供了默认的中继器，如果开发者愿意，甚至可以自定义开发这两种服务器。
-
-Celer
-Celer则用POS验证节点来验证加密资产是否锁定，直接采用权益证明网络来验证，只要三分之二的验证者认为用户锁定资金有效，验证即通过。
-Celer联合创始人Mo Dong表示，该协议还提供了与optimistic Rollup类似的机制。交易需要经过一个等待期，期间只要有一个验证者持有的信息跟与三分之二的节点不一致，这笔资金转移就不会通过。
-那谁能当验证者呢？Mo表示总共有21个验证者，这些验证者都是信誉很好的PoS验证者。是谁呢？是Binance、Everstake、InfStones、Ankr、Forbole、01Node、OKX、HashQuark、RockX等。
-
-Wormhole
-Wormhole则是直接加人，5个不够就19个，靠这19个验证者来阻止欺诈交易，并且19个验证人中必须有13个人同意，资金转移才能进行。
-Wormhole认为其网络更加分散，并且比同行拥有更多有信誉的验证者，其中就包括Staked、Figment、Chorus One、P2P等优质POS验证者。
-
-Debridge
-Debridge则是12个验证人组成的POS网络，并且只有8个人同意，资金转移才是有效的。而且试图通过欺诈性交易的验证人将受到惩罚。
-Debridge的联合创始人Alex Smirnov表示，所有deBridge的验证者 “都是专业的基础设施供应商，验证了许多其他协议和区块链”，“所有验证者都承担着声誉和财务风险。”
-但实际上，这些协议在Uniswap DAO的大讨论中，全都受到安全性和去中心化的质疑。
-LayerZero将权力交给了应用开发者
-LayerZero受到批评称就是一个变相的2人多签验证，而且还把验证权放在了应用开发者的手中。有人发现只要黑客控制了应用开发者的计算机系统，LayerZero上的预言机和中继甚至可以被规避。
-另一些人则批评，中继能证明预言机的正确性，却无法证明中继的正确性，而且中继本身还是闭源的，更让公链项目方无法快速开发自己的中继器。
-Celer安全模式也存在瑕疵
-在最初的投票中，Uniswap DAO确实选择了Celer作为Uniswap的官方跨链桥。结果在测试时，Celer安全模式受到严重质疑。
-测试方发现，Celer有一个可升级的MessageBus 智能合约，由五个多签验证者控制，而且黑客只要获得其中三个签名就可以控制整个协议。
-Celer联合创始人Mo表示，该合约由4个机构控制分别是InfStones、Binance Staking、OKX和Celer Network。他认为，需要保留MessageBus合约，从而用于修复未来可能出现的漏洞，以防万一。
-但这一点，显然不能让人完全信服。
-Wormhole没有惩罚机制
-Wormhole则是受到批评称没有机制惩罚作恶的验证者，而且据称其交易量比当初表示的交易量要低。
-
-Celer创始人Mo Dong表示，Wormhole超过99%的交易来自Pythnet一方，去掉后再看，过去7天里每天只有719笔交易信息。
-而DeBridge则很少有针对它的批评，不是因为本身很强，而是因为这项协议压根没人正眼看，大多数参与讨论的人都认为Celer、LayerZero和Wormhole才是主流。
-进入选择跨链桥的白热化阶段后，Debridge团队开始主张采用多桥解决方案。
-
-跨链桥到底能不能保证安全？
-用户锁定资金常见操作是将资金打入到另跨链桥地址。如果将提款权交到验证者多签钱包手中，一旦不法分子获得多签钱包的控制权，就能在用户不知情的情况下提走代币。
-本质上讲，这是变相的中心化，传达出的声音是让用户相信权威的人品，而不是去中心化的协议。
-另一方面，采用权益证明的验证网络又是极其复杂的，完全有可能出现bug难以及时解决。而且，桥接在去中心化的网络中无法通过硬分叉修复，这也是Celer有所保留的原因。
-所以跨链桥的开发者将继续面临权衡，是把升级交到可能被黑甚至作恶的权威手上，还是顶着无法修复漏洞的巨大压力，实现真正的但无法升级的去中心化。
-目前，随着百亿美元的资金不断在跨链桥上积累，随着加密生态的发展，跨链桥如何在安全和去中心化上实现平衡，这一需求只会愈加迫切。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
