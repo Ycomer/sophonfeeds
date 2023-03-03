@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-03T12:51:27.272Z</updated>
+    <updated>2023-03-03T13:02:13.396Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -15,6 +15,29 @@
 Waves创始人此前曾表示，Power空投将只在Waves链上进行，用户有两周时间将Waves代币从CEX取出以获得Power空投。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Waves将于3月10日进行快照，以用于Power代币空投]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/965mbijz.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/965mbijz.html"/>
+        <updated>2023-03-03T12:47:36.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，Waves 创始人 Sasha Ivanov 发推称，将于 3 月 10 日（下周五）对 Waves 链上 WAVES（以及所有锁定的 WAVES）进行快照，以用于 Power 代币空投。
+Waves创始人此前曾表示，Power空投将只在Waves链上进行，用户有两周时间将Waves代币从CEX取出以获得Power空投。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap 基金会成立 Uniswap Bridge 评估委员会，旨在提供指导性建议]]></title>
+        <id>https://gov.uniswap.org/t/cross-chain-bridge-assessment-process/20148/47</id>
+        <link href="https://gov.uniswap.org/t/cross-chain-bridge-assessment-process/20148/47"/>
+        <updated>2023-03-03T12:33:14.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Uniswap 基金会成立 Uniswap Bridge 评估委员会，旨在提供指导性建议</h3>
+<p>Uniswap 基金会宣布成立 Uniswap Bridge 评估委员会，旨在为 Uniswap 桥接相关问题提供短期建议和长期指导。委员会将评估 Axelar、Celer、deBridge、Hyperlane、LayerZero、Multichain、Router Protocol、Wormhole 等 8 种跨链桥解决方案，以及 Celer 团队创建的 Multi-bridge implementation、Gnosis 团队创构建的 Block Header Oracle based solution、ERC-5164：Cross-chain execution 3 种桥接器解决方案。Uniswap Bridge 评估委员会将由相关技术人员构成，目前拥有 6 位成员，并正在扩大人员规模。</p>
+<p><a href="https://gov.uniswap.org/t/cross-chain-bridge-assessment-process/20148/47">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -193,6 +216,18 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
 PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】新项目前瞻 | LongSwap：基于 TWAMM 机制的抗 MEV AMM 协议]]></title>
+        <id>https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E</id>
+        <link href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E"/>
+        <updated>2023-03-03T11:50:57.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>TWAMM（时间加权自动做市商）是由 Paradigm 提出的一种新型的 AMM，有助于降低交易滑点和抵抗三明治攻击。LongSwap TWAMM 在 Balancer v2 实现了该节制，本文为 LongSwap 的项目解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E">https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E</a></p>
+<p><strong>文章作者：</strong></p><p>LongSwap</p><hr><h3>观点：</h3><p><strong>LongSwap：</strong>在 LongSwap TWAMM 中，用户下单时需要填写一个额外参数：时间。LongSwap 将在这段时间内不断执行购买交易。最后，用户需要发起另一笔交易用于提取购买的代币。LongSwap 订单以更小的虚拟订单执行，从而在持续时间内更好的平均价格和抵抗 MEV 套利。【原文为英文】</p><a href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E">内容来源</a><p><strong>LongSwap：</strong>为什么在 Balancer 上构建？首先，Balancer 提供了一个框架来构建自定义池，这使开发人员可以灵活地实现像 TWAMM 这样复杂的东西。其次，Balancer 的闪兑等功能为套利者提供了较高的套利效率，套利者的高频操作将有利于长期订单的执行。【原文为英文】</p><a href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
