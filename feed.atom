@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-03T04:22:25.187Z</updated>
+    <updated>2023-03-03T04:39:59.468Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】V3 版本降至，DeFi 期权协议 Premia 会给「链上期权」带来哪些改变？]]></title>
+        <id>https://twitter.com/kindahangry/status/1631278232300396545</id>
+        <link href="https://twitter.com/kindahangry/status/1631278232300396545"/>
+        <updated>2023-03-03T04:30:40.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 期权协议 Premia 或将于 4 至 5 月期间推出 V3 版本，重点是为 Premia 引入集中流动性。V3 版本还有哪些其他预期变化？又将为 Premia 带来哪些改变？加密研究员 hangry 撰文带你一探究竟。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/kindahangry/status/1631278232300396545">https://twitter.com/kindahangry/status/1631278232300396545</a></p>
+<p><strong>文章作者：</strong></p><p>hangry</p><hr><h3>观点：</h3><p><strong>hangry：</strong>Premia 是一个基于点对池架构的多链去中心化期权市场，类似于期权市场的 Uniswap V2。Premia 提供针对资产和方向的期权池，用户可以利用市场趋势进行资本部署、使用 Delta 策略、做空特定资产波动率及跨越各种平台进行期权套利。且 Premia 是唯一一个提供链上美式期权的市场。【原文为英文】</p><a href="https://twitter.com/kindahangry/status/1631278232300396545">内容来源</a><p><strong>hangry：</strong>Premia V3 升级的重点是在 Premia 上引入 Uniswap V3 的集中流动性机制。这将会让 Premia 转变为一个混合 AMM / 订单簿。V3 版本其他的预期变化包括迁移至欧式期权、市场参与者能够在买入和卖出期权时同时作为做市商和买入者及区间订单。Premia V3 代码预计将于 3 月中旬完成，但没有确定日期，且在 V3 后 Premia 还将进行代币经济学改造。【原文为英文】</p><a href="https://twitter.com/kindahangry/status/1631278232300396545">内容来源</a><p><strong>hangry：</strong>Premia 的代币机制围绕 vxPREMIA 运作，类似于 veCRV ，区别在于基于使用率的奖励、以 USDC 为单位的奖励机制及平台费用折扣。且 PREMIA 的流通市场非常小，低于 1000 万美元。此外，Premia 的国库规模可观，包括 1400 万美元的 ETH 和 USDC。【原文为英文】</p><a href="https://twitter.com/kindahangry/status/1631278232300396545">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blur正走向“金融投机怪圈”？谈谈NFT的本质]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/4n5lc7su.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/4n5lc7su.html"/>
+        <updated>2023-03-03T04:10:56.000Z</updated>
+        <summary type="html"><![CDATA[来源：Aaron推文
+编译：念青，ChainCatcher
+由于空投预期，Blur 的热度一直在持续。在近期的总交易量上，Blur 也一度超越行业老大 OpenSea，加速抢占 NFT 交易市场份额。除了多轮空投的刺激，Blur 还试图通过提供无摩擦的可选版税、零交易费市场来瞄准一小部分投机性 NFT 交易者，而且加速了零版税的竞争。
+面对 Blur 的低价策略带来的竞争压力，一直倡导支持艺术家和创作者的 OpenSea 不得不低头，修改了版税政策，宣布将限制其市场上的创作者版税，除非创作者自愿阻止零版税市场（包括 Looksrare、X2Y2 和 Sudoswap）在其智能合约代码中交易其收藏品。
+但 Blur 因“刷空投”而带来的交易量上涨也招致了批评和质疑，例如其带来的不可持续性和操控市场等等。Blur 的创始人 Pacman 对此回应，Blur 的激励机制实际上是为 NFT 领域引入做市商概念，并进一步推动 NFT 行业向前发展。
+但以上的讨论更多侧重 NFT 的金融属性，加密货币 KOL Aaron 则呼吁行业应该警惕 Blur 为 NFT 空间带来的负面影响，他认为 NFT 的艺术属性和文化属性应该大于金融属性，而 Blur 不论是从交互界面和还是营销策略，都更像一个金融交易市场。
+原文翻译如下：
+Blur 是这个领域发生的最糟糕的事情。原因如下——
+NFT 并不全是关于金钱的。但 Blur 却在强调这一点，而且以此作为其特色。 Blur 用激励措施给你洗脑，并通过空投来吸引你。
+看看下面这张图就知道了。 你真的想让人们进入一个看起来像这样的 NFT 市场吗？ 艺术、项目描述或其他更详细的介绍在哪里？
+
+最近人们吹捧 Blur 的激励措施，并以此与这方面做得不足的 OpenSea 做比较。但是如果我们把激励措施放在一边，设想自己是一个刚进入 NFT 领域的小白。你真的想进入像 Blur 这样金融属性很强的 NFT 市场吗？还是想进入像 OpenSea 这种同样也在展示 NFT 艺术或文化属性的地方？
+的确，在熊市中， Blur 已经牢牢抓住了某些用户。 但从长远来看，这个市场真的有利于整个 NFT 空间吗？ 让我们来好好推敲一下。
+NFT 空间有两种人： 1） 对艺术、文化和技术潜力感兴趣的人 2）只关心快速获利的人。
+至于支持创作者、艺术家和那些致力于用这项技术创造更美好空间的人。OpenSea 可能是我们所有人第一次进入这个领域时使用的第一个市场。 它从一开始就支持创作者和艺术家。 而 Blur 一直没有这样做。
+
+就像一个刚出生的婴儿一样，你希望你的孩子（NFT 小白）使用和信奉什么？ Blur 还是 OpenSea？
+不论是 UI 上的设置和观感，还是 Blur 对用户的空投，这似乎都与 NFT 或我们应提倡的价值无关——金钱与贪婪 < 艺术与文化。
+到此为止。 我不讨厌 Blur，也不是用户。 我只是希望 NFT 空间可以将其镜头切换到我们过去的样子——关于艺术和文化（例如，Clubhouse 里那些猴子的有趣叫声，甚至是 Lazy Lion 的推特“突袭”），但不是今天 Blur 的样子。
+只是希望这个空间朝着正确的方向发展，而不是金钱/贪婪的一面。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blur正走向“金融投机怪圈”？谈谈NFT的本质]]></title>
         <id>https://www.panewslab.com/zh/articledetails/4n5lc7su.html</id>
@@ -48,6 +89,18 @@ NFT 空间有两种人： 1） 对艺术、文化和技术潜力感兴趣的人 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[美参议员要求币安提供美国用户数量、财务数据和反洗钱措施等信息，币安表示同意]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/xtqoy1gn.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/xtqoy1gn.html"/>
+        <updated>2023-03-03T03:50:54.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，据华尔街日报报道，三名美国参议员在给币安创始人赵长鹏和其美国最高副手Brian Shroder的信中表示：“币安及其相关实体故意逃避监管机构，将资产转移给犯罪分子和制裁逃避者，并向其客户和公众隐藏基本财务信息。”
+参议员要求赵长鹏和Brian Shroder提供币安自2017年以来的资产负债表副本，以及在此期间其平台上美国用户的数量。此外参议员还要求提供币安反洗钱政策和程序的文件；有关全球交易所与其美国附属公司之间关系的信息；以及披露任何涉嫌限制合规的通信，以及要求币安在 3 月 16 日之前做出回应。
+对此币安在一份声明中表示，关于公司的许多错误信息已经传播，但感谢参议员的要求，将提供信息以帮助他们更好地了解公司。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[加密分析师 Cyril：2023 年有哪些值得关注的低市值加密项目？]]></title>
         <id>https://techflowpost.mirror.xyz/pAwnz8xCSRRZNMekJdzeII65276ZDv0SYtoXXD7w2us</id>
         <link href="https://techflowpost.mirror.xyz/pAwnz8xCSRRZNMekJdzeII65276ZDv0SYtoXXD7w2us"/>
@@ -57,6 +110,42 @@ NFT 空间有两种人： 1） 对艺术、文化和技术潜力感兴趣的人 
 Read the full entry]]></summary>
         <author>
             <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密分析师 Cyril：2023 年有哪些值得关注的低市值加密项目？]]></title>
+        <id>https://techflowpost.mirror.xyz/pAwnz8xCSRRZNMekJdzeII65276ZDv0SYtoXXD7w2us</id>
+        <link href="https://techflowpost.mirror.xyz/pAwnz8xCSRRZNMekJdzeII65276ZDv0SYtoXXD7w2us"/>
+        <updated>2023-03-03T03:49:59.000Z</updated>
+        <summary type="html"><![CDATA[加密分析师 Cyril：2023 年有哪些值得关注的低市值加密项目？ – 深潮TechFlow
+撰写：Cyril - DeFi
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】VC 越来越看好创新协议？盘点五个近期筹资成功的 DeFi 创新项目]]></title>
+        <id>https://twitter.com/DefiIgnas/status/1631205806824919042</id>
+        <link href="https://twitter.com/DefiIgnas/status/1631205806824919042"/>
+        <updated>2023-03-03T03:47:08.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 研究员 Ignas 长期专注于观察知名 VC 的投资，他通过数据分析 2 月份加密整体及各个赛道的筹资情况，发现 VC 越来越看好创新协议，看涨 DeFi 赛道，并盘点介绍了五个在 2 月份筹资成功的创新项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/DefiIgnas/status/1631205806824919042">https://twitter.com/DefiIgnas/status/1631205806824919042</a></p>
+<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>2 月，募资下滑的情况得到逆转，共有 143 笔总价值为 11.3 亿美元的加密货币募资交易，高于 1 月的 107 笔交易，这是一个明显的看涨信号。其中 web3 和基础设施领域的交易最多。DeFi 占其中的 25 笔交易，高于 12 月份的 10 笔。DeFi 的 1.03 亿美元融资金额超过了 CeFi 的 3300 万美元。DeFi 赛道终于看涨。【原文为英文】</p><a href="https://twitter.com/DefiIgnas/status/1631205806824919042">内容来源</a><p><strong>Ignas | DeFi Research：</strong>2 月份筹资的五个创新项目：1）Alongside：建立了一个加密货币市场指数 - $AMKT，种子轮融资 1100 万美元，而 DeFi 项目通常只筹集 400 万美元，并且指数现在并不流行。2）Renegade：链上暗池的新型 DEX，为链上交易带来了匿名性，获得 Dragonfly Capital 等顶级 VC 的 340 万美元融资。【原文为英文】</p><a href="https://twitter.com/DefiIgnas/status/1631205806824919042">内容来源</a><p><strong>Ignas | DeFi Research：</strong>3）Affine：收益聚合器，正在开发跨链投资及储蓄。获得了由 Hack VC 和 Jump Crypto 领投的 510 万美元种子轮融资。4）Huma：使用收入和应收账款作为抵押品的去中心化借贷的 DeFi 协议，从几家 VC 筹集了 830 万美元。5）NFEX：用于交易蓝筹 NFT 永续合约的 DEX，在最近的种子轮融资中筹集了 300 万美元。【原文为英文】</p><a href="https://twitter.com/DefiIgnas/status/1631205806824919042">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币]]></title>
+        <id>https://www.defidaonews.com/article/6806784</id>
+        <link href="https://www.defidaonews.com/article/6806784"/>
+        <updated>2023-03-03T03:44:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.defidaonews.com/article/6806784">https://www.defidaonews.com/article/6806784</a></p>
+<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href="https://www.defidaonews.com/article/6806784">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href="https://www.defidaonews.com/article/6806784">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href="https://www.defidaonews.com/article/6806784">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3855,7 +3944,7 @@ Sui上的第一个IDO和INO平台，同时也是一个孵化器，以精选项�
         <id>https://twitter.com/nuss_eli/status/1630632582554460165</id>
         <link href="https://twitter.com/nuss_eli/status/1630632582554460165"/>
         <updated>2023-03-02T05:57:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一段时间以来， Eigenlayer 一直是加密领域最受期待的产品之一。Stratos 研究员 Eli Nuss 撰文探讨了 EigenLayer 的未来价值以及规模。</p>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一段时间以来， Eigenlayer 一直是加密领域最受期待的产品之一。Stratos 研究员 Eli Nuss 撰文探讨了 EigenLayer 的未来价值以及规模，认为 EigenLayer 有潜力成为价值数十亿美元的协议。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/nuss_eli/status/1630632582554460165">https://twitter.com/nuss_eli/status/1630632582554460165</a></p>
 <p><strong>文章作者：</strong></p><p>Eli Nuss</p><hr><h3>观点：</h3><p><strong>Eli Nuss：</strong>EigenLayer 引入了重质押，它允许质押者重新使用质押的 ETH 来保护多个网络。这解决了主动验证服务 (AVS) 的安全问题分散性挑战。通过整合资金，相同数量的资金可以在多个网络中重复使用，从而大大减少可用于质押证明系统的资金稀缺性问题。【原文为英文】</p><a href="https://twitter.com/nuss_eli/status/1630632582554460165">内容来源</a><p><strong>Eli Nuss：</strong>要了解重质押的潜在市场规模，一个很好的起点是看当下非 ETH 质押者产生的质押收入。在 2022 年第四季度，前 25 个质押证明网络（不包括以太坊）支付的年化质押收入约为 30 亿美元。过去 3 年的平均年复合增长率为 37%。据此预测，非 ETH AVS 质押奖励在未来十年可以超过 250 亿美元。假设 EigenLayer 的收益率为 10%（与 Lido Finance 一致），这意味着超过 25 亿美元的潜在收入将流经该平台。【原文为英文】</p><a href="https://twitter.com/nuss_eli/status/1630632582554460165">内容来源</a><p><strong>Eli Nuss：</strong>我们的观点是，质押仍然相当早期，随着即将到来的 rollup 和其他模块化区块链的普及，将出现更多质押的需求。因此，EigenLayer 的 AVS 很可能是构成未来质押收入的重要部分。基于对收入的预测，我们估计 EigenLayer 可以成为价值数十亿美元的协议。【原文为英文】</p><a href="https://twitter.com/nuss_eli/status/1630632582554460165">内容来源</a>]]></summary>
         <author>
@@ -7000,18 +7089,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】EigenPhi：微观层面理解 MEV 的机遇与挑战]]></title>
-        <id>https://eigenphi.io/report/MEV-Outlook-2023</id>
-        <link href="https://eigenphi.io/report/MEV-Outlook-2023"/>
-        <updated>2023-02-26T08:51:27.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>MEV 可以成为个人和监管机构在金融工程和量化方面的新蓝海，EigenPhi 从微观层面对 2022 年 MEV 市场进行了解读，并根据数据分析揭示主要趋势及新机会，希望让人们关注现有流动性数据的价值和风险。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://eigenphi.io/report/MEV-Outlook-2023">https://eigenphi.io/report/MEV-Outlook-2023</a></p>
-<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>EigenPhi：</strong>经过近两年的探索，我们发现：1）流动性是一种稀缺资源，需要更主动地追踪市场波动，调整流动性范围；2）套利者善于利用并发现流动性中的信息差异并赚取收入，而攻击者则制造差异获取价值；3）流动性存在优劣之分，区分流动性价值将能够提供另一个重要资产估值参考指标；4）由于闪电贷和无许可借贷平台，在 DeFi 中获取流动性资金的成本在时间和资金量上都有所降低。【原文为英文】</p><a href="https://eigenphi.io/report/MEV-Outlook-2023">内容来源</a><p><strong>EigenPhi：</strong>2022 年 MEV 市场：1）套利机器人的交易比三明治机器人和清算机器人更频繁，与传统套利机会相比，清算机会更取决于激烈的市场波动；2）主流 MEV 机器人在 2022 年至少产生了 3.07 亿美元的收入，套利机器人占比 47.5% 以上；3）盈利最多的 MEV 机器人从套利交易中获得了 920 万美元的总利润，但近一半的清算者都报告了亏损；【原文为英文】</p><a href="https://eigenphi.io/report/MEV-Outlook-2023">内容来源</a><p><strong>EigenPhi：</strong>4）以太坊 PoS 合并后，虽然区块空间的链外拍卖市场变化影响了 MEV 分配，但寡头垄断模式仍然没有改变；5）2022 年三明治机器人参与的 MEV 总量为 2870 亿美元，Uniswap V3 最受套利机器人和三明治机器人欢迎；6）BSC 上的 MEV 机会比以太坊成本效益更高，其套利机器人的平均成本收入比低于以太坊，因此利润总额相对较大。【原文为英文】</p><a href="https://eigenphi.io/report/MEV-Outlook-2023">内容来源</a><p><strong>EigenPhi：</strong>大部分人对 MEV 的印象都是负面的，且其还可能威胁到区块链本身的安全性和去中心化。但从 DeFi 协议角度看，MEV 机器人也可以提供一些价值，最常见的套利机器人对流动性池的价格偏差计算增强了市场价格发现的效率。清算机器人则监测抵押贷款的健康比率。另一方面，MEV 机器人与 DeFi 协议的其他参与者互动也变得更加复杂和重要，由于三明治机器人的存在，互换用户不一定会承担更多的滑点损失。【原文为英文】</p><a href="https://eigenphi.io/report/MEV-Outlook-2023">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文】以太坊基金会 Danny Ryan：对以太坊 2023 年关键问题的思考]]></title>
         <id>https://www.chaincatcher.com/article/2088242</id>
         <link href="https://www.chaincatcher.com/article/2088242"/>
@@ -7019,30 +7096,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>尽管 The Merge 为以太坊奠定了一个关键的可持续性和安全性里程碑，但考虑到监管行动、应用程序和 Layer2 协议渴望可扩展性和稳定的基础，以太坊还有许多问题待需解决。以太坊基金会研究员 Danny Ryan 撰文分析以太坊短期和中期需重点关注的问题，并总结他对这些问题的思考。本文中文版由链捕手编译。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://www.chaincatcher.com/article/2088242">https://www.chaincatcher.com/article/2088242</a></p>
 <p><strong>文章作者：</strong></p><p>Danny Ryan</p><hr><h3>观点：</h3><p><strong>Danny Ryan：</strong>1）目前的技术担忧包括 PoS 的演变，有大量研究、解释材料需进行建设，以将以太坊 PoS 演变为其最终、最安全、最可持续的形式；以及实践中的 DAS，数据可用性采样 (DAS) 是一种解决数据可用性问题的方案，问题并不棘手，但设计的范围相当大，难以快速在复杂性和稳健性之间达到适当的平衡。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a><p><strong>Danny Ryan：</strong>2）MEV ：协议必须意识到 MEV 存在，否则这种激励措施将破坏甚至摧毁网络的稳定。这就需要采取一些缓解措施，如 PBS，MEV 烧毁，SSF，以及 PBS 背景下的抗审查。是尽快推出 MEV 缓解措施（毕竟威胁真实存在），还是花更多的时间先研究问题，研究后提出解决方案，我犹豫不决。3）复杂性：以太坊很复杂，而且只会变得越来越复杂。我担心这个动态系统现在或将来会变得过于复杂，以至于我们无法处理、推理、保证其安全。核心协议的容量不应超过任何领域中所需的水平，否则带来不必要的复杂性。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a><p><strong>Danny Ryan：</strong>4）L1 协调游戏：不单打独斗仍然是协议健康发展的关键。共识层发展已取得极大进步，而执行层的客户端生态系统开始时有诸多不对称性问题，需要更多的时间来能达到类似的专业水平和可靠性。我建议在未来 5 年内尽可能少地增加额外的管理结构，而更多地关注一些软性的东西，建立只关注任务升级的强大文化，以及在不那么正式的论坛上促进开发者和扩容社区之间的双向交流。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a><p><strong>Danny Ryan：</strong>5）固化：也许对固化更有效的定义是，它是一种趋势，而不是最终结果 —— 要越来越困难、需要更多的理由、努力和时间才能将任何变化纳入协议。协议不会真的固化，我们能做的最大努力就是一直与固化对话。并且我们必须确保 L2 不仅继承以太坊的安全性，而且继承其合法性。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】以太坊基金会 Danny Ryan：对以太坊 2023 年关键问题的思考]]></title>
-        <id>https://www.chaincatcher.com/article/2088242</id>
-        <link href="https://www.chaincatcher.com/article/2088242"/>
-        <updated>2023-02-26T08:11:03.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>尽管 The Merge 为以太坊奠定了一个关键的可持续性和安全性里程碑，但考虑到监管行动、应用程序和 Layer2 协议渴望可扩展性和稳定的基础，以太坊还有许多问题待需解决。以太坊基金会研究员 Danny Ryan 撰文分析以太坊短期和中期需重点关注的问题，并总结他对这些问题的思考。本文中文版由链捕手编译。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.chaincatcher.com/article/2088242">https://www.chaincatcher.com/article/2088242</a></p>
-<p><strong>文章作者：</strong></p><p>Danny Ryan</p><hr><h3>观点：</h3><p><strong>Danny Ryan：</strong>1）目前的技术担忧包括 PoS 的演变，有大量研究、解释材料需进行建设，以将以太坊 PoS 演变为其最终、最安全、最可持续的形式；以及实践中的 DAS，数据可用性采样 (DAS) 是一种解决数据可用性问题的方案，问题并不棘手，但设计的范围相当大，难以快速在复杂性和稳健性之间达到适当的平衡。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a><p><strong>Danny Ryan：</strong>2）MEV ：协议必须意识到 MEV 存在，否则这种激励措施将破坏甚至摧毁网络的稳定。这就需要采取一些缓解措施，如 PBS，MEV 烧毁，SSF，以及 PBS 背景下的抗审查。是尽快推出 MEV 缓解措施（毕竟威胁真实存在），还是花更多的时间先研究问题，研究后提出解决方案，我犹豫不决。3）复杂性：以太坊很复杂，而且只会变得越来越复杂。我担心这个动态系统现在或将来会变得过于复杂，以至于我们无法处理、推理、保证其安全。核心协议的容量不应超过任何领域中所需的水平，否则带来不必要的复杂性。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a><p><strong>Danny Ryan：</strong>4）L1 协调游戏：不单打独斗仍然是协议健康发展的关键。共识层发展已取得极大进步，而执行层的客户端生态系统开始时有诸多不对称性问题，需要更多的时间来能达到类似的专业水平和可靠性。我建议在未来 5 年内尽可能少地增加额外的管理结构，而更多地关注一些软性的东西，建立只关注任务升级的强大文化，以及在不那么正式的论坛上促进开发者和扩容社区之间的双向交流。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a><p><strong>Danny Ryan：</strong>5）固化：也许对固化更有效的定义是，它是一种趋势，而不是最终结果 —— 要越来越困难、需要更多的理由、努力和时间才能将任何变化纳入协议。协议不会真的固化，我们能做的最大努力就是一直与固化对话。并且我们必须确保 L2 不仅继承以太坊的安全性，而且继承其合法性。</p><a href="https://www.chaincatcher.com/article/2088242">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】代币经济动态模型：代币设计如何影响代币价格及代币稳定性？]]></title>
-        <id>https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/</id>
-        <link href="https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/"/>
-        <updated>2023-02-26T07:06:56.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>牛市中，我们观察到很多代币采用和价格变动主要受高度投机行为的影响，这可能会掩盖代币经济设计选择的效用。6VM 研究员 mustafakqazi.eth 及 Crypto Carl 使用基于代理的模型（ABM）对基础设施经济建模，研究了代币设计对加密市场、代币通胀、激励及质押的影响。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/">https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/</a></p>
-<p><strong>文章作者：</strong></p><p>mustafakqazi.eth 及 Crypto Carl</p><hr><h3>观点：</h3><p><strong>Crypto Carl：</strong>加密市场影响：尽管每次运行的初始条件除宏观趋势外参数完全相同，但我们看到 L1 代币运动和代币价格之间存在高度相关性。这种程度的影响会让人相信，代币设计对现实世界结果印象不大。但我们认为糟糕的代币设计将会加速熊市崩溃，而有效的凋敝设计则会增加稳定性和代币价格表现。【原文为英文】</p><a href="https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/">内容来源</a><p><strong>Crypto Carl：</strong>代币设计的一个主要部分是通过膨胀率，常见的方式是在达到最大代币供应量后通货紧缩或保持稳定，一些协议可能还会采取销毁代币方式。我们研究发现稳定通货膨胀率（~+8%）稳定性最高，高通过膨胀率（~+37%）会让代币价格小幅下降，而通过紧缩（~-37%），会让代币价格小幅上升，稳定性下降。【原文为英文】</p><a href="https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/">内容来源</a><p><strong>Crypto Carl：</strong>双边市场究竟哪一方该得到激励？我们研究发现，激励供应商带来了更高代币增长，但会略微降低稳定性，而激励用户采用带来的代币增长明显减少，但会提高稳定性。此外，结果显示在基础设施经济体中，相较于激励用户，激励供应商影响更大。【原文为英文】</p><a href="https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/">内容来源</a><p><strong>Crypto Carl：</strong>为了研究不同质押激励的效果，我们研究了 0%、5%、12% 和 20% 之间的质押回报率。结果现实，在 20% 的质押回报率下带来了更多不稳定性。12% 则最接近质押收益平衡点，代币价格有了明显上升，但稳定性却没有损失。但这并不意味着每个协议都应该使用 12%。我们建议协议监测其经济中参与性与投机性投资者的比例亿调整质押率。【原文为英文】</p><a href="https://6thman.ventures/writing/simulating-token-economies-motivations-and-insights/">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
