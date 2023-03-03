@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-03T11:11:52.516Z</updated>
+    <updated>2023-03-03T11:19:16.340Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Uniswap基金会成立Uniswap Bridge评估委员会，并启动评估流程]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ogndmgsv.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ogndmgsv.html"/>
+        <updated>2023-03-03T11:13:53.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月3日消息，Uniswap 基金会宣布成立 Uniswap Bridge 评估委员会并启动评估流程。委员会将处理 Axelar、Celer、deBridge、Hyperlane、LayerZero、Multichain、Router Protocol、Wormhole 等 8 种跨链桥与由 Celer 团队创建的 Multi-bridge implementation、Gnosis 团队创构建的 Block Header Oracle based solution、ERC-5164: 跨链执行等 3 种桥接器解决方案，重点关注 Uniswap 管理需求，并在未来几周内为 Uniswap 社区如何处理桥问题提供短期建议。此外，委员会还将就理想的长期解决方案提供指导，并就 Uniswap 社区如何在空间发展过程中继续监测和调查桥提出建议。
+目前，委员会成员包括 Ermyas Abebe、Jasraj “Jazzy” Bedi、Sean Casey、Ben O’Neill、Peter Robinson 与 David Hyland-Wood，仍寻求在未来几周内扩大团队。
+今年1月底报道，Wormhole赢得了Uniswap关于以太坊和BNB Chain间跨链桥选择的Temperature Check阶段投票。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3分钟读懂NFTFi项目Midaswap：多链部署，基于Liquidity Book的NFTS自动做市商协议]]></title>
         <id>https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html</id>
@@ -4599,55 +4611,6 @@ Aptos Grant DAO报名通道长期开放，每两个月定期资助活跃的Grant
         <link href="https://www.panewslab.com/zh/sqarticledetails/68vta0xy.html"/>
         <updated>2023-03-02T09:44:43.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月2日消息，Jack Dorsey 旗下支付公司 Block 发布的新博文介绍了该公司正在开发的自托管比特币钱包的进展情况，Block 称该钱包的开发将不是由其独自完成，而是选择寻求与合作伙伴共同完成，并公布了选择合作伙伴的标准，包括出入金、客户体验、零售和分销、支付等方面。此外，Block 称，计划今年晚些时候将该产品推向市场。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年潜在的空投大礼包：5大可能超越Aptos的早期项目]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/iceiixij.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/iceiixij.html"/>
-        <updated>2023-03-02T09:29:27.000Z</updated>
-        <summary type="html"><![CDATA[作者：DeFI Saint
-翻译：Biteye 核心贡献者 Anci
-编辑：Biteye 核心贡献者 Crush
-零成本从 Defi 中赚钱最好的方式就是 Airdrop（空投）。最近我采访了一位大佬，虽然他并不认为自己是一位空投至上主义者，但他还是为我们讲述了自己是如何白手起家从空投中赚取 190 万美金的故事。
-这里我们盘点了 5 个被低估的空投项目，他们或许在未来超越 Aptos。
-Mantle 是一条 @BitDAO_Official 治理下的 Layer 2 的模块化区块链。Mantle 与 Eigen Layer 合作并可以从 EigenDA中获益。
-（译者注：Eigen Layer 推出的数据可用性服务，可以显著提升带宽）
-目前 Mantle 已经筹集了 1000 万枚 BIT 和 1400 万美金用于测试网络，测试周期大约六个月，并为测试网络提供激励措施。
-如何使用 Mantle 测试网络请参考：
-https://mirror.xyz/0xmantle.eth/qIDSO3AsFnXmwVLSYfODZWOpK_0K01UdvR3ZxUCtCjw
-Mantle 上可测试的协议有：
-https://www.notion.so/Mantle-Testnet-Applications-3b54cc83376e4d2faad1e995d62ff212
-一个帮助你获得 Mantle 测试网络或主网空投的建议：授权你持有的 BIT。
-Celestia 是一条 Layer 1 的模块化区块链（Modular Blockchain），不同于单链区块链（Monolithic Blockchain），模块化区块链不会在一条单链上解决所有层的问题。
-（译者注：如下图包括执行层/结算层/共识层/数据可用性层。模块化区块链会外包一部分功能给外部链实现，用以降低节点的运行成本。）
-
-Celestia 确认发币，筹集了 5500 万美金融资。
-
-2023 年有太多值得期待，包括有激励的测试网络和主网，这将第一次实现信任最小化的轻节点和可拓展数据可用性的结合。这也是自 2008 年中本聪发布 SPV clients 后许多人盼望已久的一件大事。
-（译者注：SPV，Simplified Payment Verification，简化交易证明，即无需下载整个区块便可验证交易有效性）
-关于如何使用 Celestia 测试网络可以参考：
-https://twitter.com/OlimpioCrypto/status/1587453739857629194
-出于数据可用性需要，Celestia 还分别在 Arabica 和 Mocha 上部署了两条测试网络，但这两条测试网络并不提供激励措施。
-有空投回报的测试网络目前只针对白名单用户，白名单已经锁定。对于其他用户，可以持续关注，蹲守机会。
-Scroll 是一个 type2 zkEVM 扩容方案，关于 zkEVM 的更多内容可以查看：
-https://twitter.com/TheDeFISaint/status/1615620080015925248
-（译者注：zkEVM，Zero Knowledge Ethereum Virtural Machine，是零知识和虚拟机的结合，旨在执行支持零知识技术的智能合约，在不牺牲安全性的前提下提高以太坊的可扩展性和效率，是一种 L2 解决方案。Vitalik 将 zkEVM 分为五类：1. 完全等同以太坊，2. 完全等同 EVM，2.5. 除了 gas 费完全等同 EVM，3. 几乎等同 EVM，4. 高级语言等同）
-Scroll 从合作者团队中筹集了 3000 万美金的初始资金，目前仍处在测试网络阶段。Scroll 之前的 Pre-Alpha 测试网络已升级为 Alpha 测试网络，并取得了一些成果：
-关于 Scroll 的操作指南可以参考：https://scroll.io/alpha
-Taiko 是一个 type1 zkEVM 扩容方案，目前还没有发币，仍在测试中。
-Taiko 的 Alpha1 测试网络将会实现以下功能：
-参与方式：你可以在 Github 上参与这个项目并认领贡献者 POAP。具体指南参考文档 https://taiko.xyz/docs
-Fuel 使用 Sway 语言构建，是执行速度最快的模块化区块链，这一点如果你使用过便会深有体会。
-Fuel 还没有发币，目前处于 Beta2 测试阶段。Beta1 测试网络已经结束，并取得以下成绩：
-关于 Fuel 测试网络的操作指南请参考：
-https://fuellabs.github.io/swayswap/
-可测试的协议有：
-https://github.com/FuelLabs/awesome-fuel#projects-building-on-fuel
-最后，关于提高空投收益，我不建议使用女巫攻击的方法。相反，在操作中不要使用超过五个钱包，这样才能让你收到空投的可能性最大化。
-同时，要有策略的耕耘自己的空投操作，我的策略是：在两三个月内，每周至少使用一次协议。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
