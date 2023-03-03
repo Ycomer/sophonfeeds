@@ -37,7 +37,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 660,
+          "wordCount": 668,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -157,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>头等仓出品的研究报告，从团队组成、产品运行逻辑、协议框架、经济模型、发展历史、协议现状及所面临的竞争等多方面对 MakerDAO 进行了详尽的调研。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-终极形态的两大新产品-f04dc31d48a2\">https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-终极形态的两大新产品-f04dc31d48a2</a></p>\n<p><strong>文章作者：</strong></p><p>头等仓</p><hr><h3>观点：</h3><p><strong>头等仓：</strong>MakerDAO 作为 DeFi 蓝筹项目，机制成熟，生态也不断扩张完善。协议核心是通过超额抵押维持 DAI 与美元的 1:1 锚定，本质是市场供需的博弈，通过调整稳定利率调节市场供需。创始人于去年提出「Endgame Plan」，计划在未来十年实现重组和去中心化，包括创建多个独立治理社区 MetaDAO、推出质押衍生品 EtherDAI 等等。近期计划于今年四月份上线基于 Aave v3 智能合约的借贷协议 Spark Protocol。</p><a href=\"https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-终极形态的两大新产品-f04dc31d48a2\">内容来源</a><p><strong>头等仓：</strong>此前 USDC 在 Maker 协议所有抵押品中占比近 40%，主要通过 PSM，产生的收入贡献较低。Tornado Cash 被制裁事件也让团队意识到对 USDC 的依赖是潜在风险，因此对 PSM 池做出一系列调整降低 USDC 比例。从目前看，MakerDAO 的资产组合中现实世界资产 RWA 的比例正在增加，对协议的收入贡献最大，明显改善了收支情况，但整体上协议仍处于净亏损状态。另外，RWA 投资比例增加与「去中心化」目标相背离，存在监管风险。</p><a href=\"https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-终极形态的两大新产品-f04dc31d48a2\">内容来源</a><p><strong>头等仓：</strong>MKR 代币经济模型设计合理，发挥着重要的治理作用和兜底重任；同时，代币 MKR 与协议本身的盈余收入挂钩，盈余超过 2.5 亿美元时将回购销毁 MKR，进入通缩模式；相反，如果协议产生不良债务，将增发 MKR 代币来弥补债务。目前已销毁 MKR 约占总量的 2.4%。</p><a href=\"https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-终极形态的两大新产品-f04dc31d48a2\">内容来源</a><p><strong>头等仓：</strong>MakerDAO 和 Aave 两大 DeFi 蓝筹项目目前的业务发展在互相渗透，在机制设计上大同小异，DAI 目前无疑是去中心化稳定币赛道龙头，具有先发优势，GHO 短期内难以超越，应用场景还有待正式上线后观察。</p><a href=\"https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-终极形态的两大新产品-f04dc31d48a2\">内容来源</a>",
           "link": "https://medium.com/@first.vip/%E9%93%BE%E4%B8%8A%E9%93%BE%E4%B8%8B-%E5%8F%8C%E7%AE%A1%E9%BD%90%E4%B8%8B-%E4%B8%87%E5%AD%97%E5%89%96%E6%9E%90-makerdao-%E7%BB%88%E6%9E%81%E5%BD%A2%E6%80%81%E7%9A%84%E4%B8%A4%E5%A4%A7%E6%96%B0%E4%BA%A7%E5%93%81-f04dc31d48a2",
           "publishedOn": "2023-03-02T09:58:51.000Z",
-          "wordCount": 1427,
+          "wordCount": 1435,
           "title": "万字剖析 MakerDAO 终极形态的两大新产品",
           "imageUrl": "https://miro.medium.com/max/1200/0*00iTHrPUNDzyvfYV.jpg"
         },
@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>OpenSea 多年来的市场主导地位几乎是绝对的，这使得 Blur 的惊人崛起更加令人印象深刻。Bankless 作者 Donovan Choy 深入探讨 OpenSea 和 Blur 平台之间的战争，并介绍 OpenSea 仍然占据优势的领域。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806412\">https://www.defidaonews.com/article/6806412</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>Blur 通过提供无摩擦的可选版税、零交易费市场来瞄准一小部分投机性 NFT  交易者。OpenSea 的初始定位试图站在创作者一边，并利用其市场主导地位，以促使交易者只向 OpenSea 买家上市，迫使创作者在 OpenSea 或 Blur 上赚取版税之间做出选择。然而，Blur 巧妙地利用了 OpenSea 的 Seaport 协议，并以此为基础构建了自己的市场。从用户的角度来看，「受限」 收藏品再次可以在 Blur 上交易。从创作者的角度来看，他们不再需要选择 —— 他们可以获得 OpenSea 和 Blur 的全部版税。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 市场策略的第二步：免费空投，空投围绕「忠诚度积分」系统设计，这激励鲸鱼雇佣兵承担实际风险，投入数百万美元的出价，为 Blur 市场创造流动性。Blur 的流动性激励设计虽然到目前为止是成功的，但并非没有风险。如果 NFT 市场陷入困境，当空投猎人意识到提供资金的风险 > Blur 忠诚度积分的收益时，这可能会导致一系列的出价被接受，导致市场进一步下跌。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 为激励流动性付出的数百万美元的巨额成本，而且 BLUR 代币也不过是一个 Meme 代币。虽然 Blur 在交易量上超过了 OpenSea，但后者在有机使用率方面仍然占据主导地位。Blur 的活动主要由少数富有的空投猎人主导，而更广泛的「普通」 市场仍在 OpenSea 上。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806412",
           "publishedOn": "2023-03-01T06:18:02.000Z",
-          "wordCount": 638,
+          "wordCount": 636,
           "title": "Bankless：OpenSea 和 Blur 之间的市场战争才刚刚开始",
           "imageUrl": "https://appserversrc.8btc.cn/lsyUxYlMIZxcMGGppA5DrFoGNdj7.png?imageView2/1/w/500/h/300"
         },
@@ -677,7 +677,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>孙宇晨在 Lido 存入 150，000 个 ETH，成为 Lido 协议有史以来最大的日流入量，也是导致该协议激活称为 Staking Rate Limit 的安全功能的先例。加密研究员 francesco 撰推解释何为 Staking Rate Limit。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">https://twitter.com/francescoglt/status/1630149753165041667</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>正如 Lido 所解释的那样，Staking Rate Limit（质押率限制）是一种「动态机制，可以响应大量的质押流入并解决可能的副作用，例如奖励稀释，而无需明确暂停质押存款」。它被认为是系统的「安全阀」。如果存款超过 15 万个 ETH（根据协议定义），阀门将被激活。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a><p><strong>francesco：</strong>Staking Rate Limit：1）根据过去 24 小时内的存款，减少在任何给定时间可以铸造的 stETH 数量。减少的「恢复率」约为 6.2K ETH /hr，所以不太会对用户造成影响。2）在「区块到区块」的基础上补充此容量。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1630149753165041667",
           "publishedOn": "2023-02-28T07:30:17.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】孙宇晨在 Lido 存入 15 万个 ETH 触发 Staking Rate Limit？一文解读什么是 Staking Rate Limit",
           "imageUrl": null
         },
@@ -757,7 +757,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊上海升级临近，LSD 赛道再次升温。加密研究员 CC2 认为 ssv.network 拥有巨大的上升空间，并从 SSV 和 DVT 的概念、代币经济学、SSV 和 L2 之间的区别及估值等方面对其发展潜力进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">https://twitter.com/CC2Ventures/status/1630235318497730560</a></p>\n<p><strong>文章作者：</strong></p><p>CC2</p><hr><h3>观点：</h3><p><strong>CC2：</strong>ssv.network 正在开发分布式验证器技术（DVT），DVT 允许一个验证器在多个节点或机器上运行，且个人运行的节点可以作为一个单一验证器一起运行。相较于单节点验证器，DVT 的优势在于即使有节点脱机也不会影响性能，且由于不需要节点备份，减少了 slash 的风险，且在较少机器上运行更多节点也降低了硬件成本。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a><p><strong>CC2：</strong>代币经济学：SSV 代币效用包括两个方面：SSV 只有这可以对 DAO 提案进行投票及作为 SSV 网络的支付工具。我认为作为支付工具具有很大的飞轮潜力，DVT 加速 ETH 去中心化，为 DAO 提供费用，让更多的项目获得资金并使用 DVT 构建应用程序，最后 DVT 使用增加也会获得更多费用。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a><p><strong>CC2：</strong>我认为 SSV 仍有很大上涨空间：1） SSV 在以太坊路线图中发挥很大的作用；2）在 DVT 领域具有先发优势，受到以太坊基金会委托让 ETH 更去中国你虚拟化、安全并增强审查能力；3）成立了一个 5000 万美元的基金以支持 DVT 建设；4）Lido 等公司正在利用其技术；5）良好的代币经济学，具有价值累积机制和飞轮潜力。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a>",
           "link": "https://twitter.com/CC2Ventures/status/1630235318497730560",
           "publishedOn": "2023-02-28T03:01:48.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】解析以太坊质押基础设施 ssv.network：未来增长点和估值分析",
           "imageUrl": null
         },
@@ -957,7 +957,7 @@
           "description": "<h3>美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」</h3>\n<p>据雅虎财经报道，美国金融科技公司 Republic 受 FTX 崩溃和美国证券交易委员会（SEC） 影响，取消「Republic Realm Metaverse 房地产基金」。该基金于 2021 年 3 月推出，12 月发起 Test the Waters (TTW) Regulation A，向所有投资者开放，并在短时间内完成 7500 万美元的预定上限。该基金主要用于购买 Sandbox、Axie Infinity 和 Decentraland 等 NFT 游戏中的虚拟房地产，从 3 月首次启动到 12 月 Regulation A 融资，该基金的投资资本回报率为 145%。但随着 FTX 崩盘以及 SEC 监管，该资金现在一直处于停滞状态，Regulation A 将取消发行。</p>\n<p><a href=\"https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html\">内容来源</a></p><hr>",
           "link": "https://finance.yahoo.com/news/republic-cancels-75-million-metaverse-060211106.html",
           "publishedOn": "2023-02-27T02:25:16.000Z",
-          "wordCount": 14129,
+          "wordCount": 14185,
           "title": "美国金融科技公司 Republic 受 FTX 和 SEC 影响，取消「Republic Realm Metaverse 房地产基金」",
           "imageUrl": "https://media.zenfs.com/en/Benzinga/22c8531513d2cf19ff0a5d51aeefcc73"
         },
@@ -1204,7 +1204,7 @@
           "description": "PANews 3月3日消息，据Cointelegraph报道，加密交易所币安发言人表示：“截至今天，我们正在积极招聘500多个职位，目标是在上半年结束前填补职位空缺。我们没有任何裁员计划。”该发言人表示，自2023年初以来，该公司已雇用了600多名员工。\n在撰写本文时，币安在其职位空缺页面上列出了463个职位，职位涉及业务开发、通信、客户支持和工程等。\n此前1月11日消息，赵长鹏表示，币安计划在2023年将员工人数增加15%至30%。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/uv0e50p9.html",
           "publishedOn": "2023-03-03T01:16:59.000Z",
-          "wordCount": 1122,
+          "wordCount": 1120,
           "title": "币安：没有裁员计划，拟在上半年再招聘500多人",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -1374,7 +1374,7 @@
           "description": "PANews 3月2日消息，据华尔街日报报道，由Elizabeth Warren (D-Ma), Chris Van Hollen (D-Md) and Roger Marshall (R-Ks) 三名美国参议员组成的两党团体已致信币安，要求提供有关其洗钱控制措施的详细信息，并指责该加密货币交易所是“非法金融活动的温床”。\n信中引用媒体报道表示，币安和相关实体“故意逃避监管，将资产转移给犯罪分子和制裁逃避者，并隐藏来自其客户和公众的基本财务信息，”参议员还要求币安提供有关全球交易所与其美国附属公司 Binance.US 之间关系的信息；以及任何关于涉嫌努力限制合规的通信。参议员们要求在 3 月 16 日之前做出回应。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/jswhifbw.html",
           "publishedOn": "2023-03-02T14:43:18.000Z",
-          "wordCount": 1167,
+          "wordCount": 1165,
           "title": "美国参议员要求币安提供有关其洗钱控制措施的详细信息",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
