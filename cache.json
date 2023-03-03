@@ -87,7 +87,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 534,
+          "wordCount": 544,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -97,7 +97,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2 月 25 日，Solana 网络再次中断，这是自 Solana 2020 年上线以来后的第 9 次宕机。网络中断频发、链上数据下降，Solana 似乎正在走下坡路。区块链研究员 francesco 通过 4 个链上指标论证了 Solana 当前不容乐观的发展形势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>反复出现的网络中断问题可能是因为 Solana 代码库真的很复杂，而且成千上万的验证器数量意味着测试新更新非常复杂。为了加快开发，他们在部署时可能会遇到一些问题。在 Solana 上的所有 TPS  中，只有 10% 是真实交易，其余均是验证者通信。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a><p><strong>francesco：</strong>指标 1&2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a>",
           "link": "https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain",
           "publishedOn": "2023-03-03T08:13:06.000Z",
-          "wordCount": 4527,
+          "wordCount": 4321,
           "title": "【英文】Solana 的困境：网络中断频发、链上数据下降…",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefdf471d-18b7-456b-9ef4-8f83aacf9b50_2400x1350.png"
         },
@@ -149,7 +149,7 @@
           "publishedOn": "2023-03-03T05:46:29.000Z",
           "wordCount": 2645,
           "title": "【英文】Offchain Labs 联创：Arbitrum 新交易排序策略解读",
-          "imageUrl": "https://miro.medium.com/max/1200/0*qnCYhATMzQO82xwQ.png"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*qnCYhATMzQO82xwQ.png"
         },
         {
           "id": "https://mp.weixin.qq.com/s/RVXPjJleiQ9imX24Z6yXyw",
@@ -217,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 654,
+          "wordCount": 658,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -267,7 +267,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20243,
+          "wordCount": 20249,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -427,7 +427,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum DeFi 生态系统正在状态，而 Arbitrum 原生协议 GMX 的表现也一直亮眼。但除了 GMX，还有一个 DeFi 衍生品新锐吸引了 Delphi Digital 研究员 Jordan Yeakley 的注意，最初部署在 Polygon 的合成衍生品平台 Gains Network。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">https://twitter.com/Delphi_Digital/status/1630979718680805415</a></p>\n<p><strong>文章作者：</strong></p><p>Jordan Yeakley</p><hr><h3>观点：</h3><p><strong>Jordan Yeakley：</strong>Gains Network 最初部署在 Polygon 上，借鉴了 MakerDAO 模式的一些概念，以类似于 Synthetix 的方式提供合成杠杆交易，但资本效率更高，用户可以通过质押 GNS 获得以 DAI 支付的平台费用。其产品 gTrade 是一个永续期货交易所，提供多种不同资产类别的杠杆交易。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">内容来源</a><p><strong>Jordan Yeakley：</strong>GMX 利用 GLP 充当交易员对手方， 通过 Gains，gDAI LP 作为交易商对手方，作为金库储户提供 DAI 以赚取交易费及清算收益。而 GNS 作为后盾并赚取交易商损失的一部分。由于其交易者和 LP 之间关系的简单性质，Gains 可以在费用上压倒 GMX。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">内容来源</a><p><strong>Jordan Yeakley：</strong>自从 Gains Network 上线 Arbitrum 后，其交易量数据紧追 GMX，但 GMX 仍有优势，尤其考虑到 Gains Network 交易量也包括 Polygon 的数据。不过 Gains Network 在不依赖代币释放的情况下提供真实收益，可持续代币经济的叙事将有助于推动 Gains Network 的进一步发展。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1630979718680805415",
           "publishedOn": "2023-03-02T06:08:08.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】Delphi Digital： Gains Network 和 GMX 对比分析",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 目前 TVL 奖金 1 亿美金，在 NFTFi 赛道排名仅次于 BendDAO。加密研究员 Vic TALK 就 ParaSpace 产品提供的服务进行了解析，Paraspace 是否能够超越 BendDAO？</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">https://twitter.com/victalk_eth/status/1631100882707152896</a></p>\n<p><strong>文章作者：</strong></p><p>Vic TALK</p><hr><h3>观点：</h3><p><strong>Vic TALK：</strong>ParaSpace 目前主要提供三种服务：1）蓝筹 NFT 及 UniV3 LP 借贷服务：机制类似于 BendDAO，其创新点在于除了 ETH 池子，还支持稳定币和 APE 池及提供基于 UniV3 LP NFT 借贷服务；</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a><p><strong>Vic TALK：</strong>2）APE 质押服务：其特点在于质押服务采取的是点对池模式，完美匹配原有接待池，且因为其他协议没有相似借贷池和足够流动性使其在该模式上占据优势，并且资本效率大幅提高；3）信用分期购买 /bid NFT 服务：降低了购买成本和门槛，也在一定程度上提升了流动性，但和 Blur 机制相比，对于流动性的提升稍显不足。</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a><p><strong>Vic TALK：</strong>ParaSpace 在没有代币的情况下 TVL 位居 NFTFi 赛道第二位，足以显示产品设计的优势及团队 BD 资源的丰富，尤其是 APE 质押设计领域。该协议未来可能还会做 NFT 永续合约交易相关业务。此外，Paraspace 的代币经济学或将是 TVL 是否能超越 bendDAO 的关键之一。</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a>",
           "link": "https://twitter.com/victalk_eth/status/1631100882707152896",
           "publishedOn": "2023-03-02T05:07:12.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【长推】NFT 借贷新秀 ParaSpace 详解：有何创新和挑战？",
           "imageUrl": null
         },
@@ -477,7 +477,7 @@
           "description": "<h3>跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon</h3>\n<p>跨链互操作协议 Celer Network 宣布推出具有多样化基准的零知识证明开发框架评测平台 Pantheon，目前已经使用 SHA-256 工作负载为包括 gnark、Arkworks、Circom+snarkjs/rapidsnark、Halo2（KZG）、Plonky2 和 Starky 在内的低级电路框架提供了全面基准测试。Celer 表示，正在邀请社区分享各种可复现的基准测试结构，最终目标是共同构建一个广受认可的测试平台，包括全套低级电路开发框架、高级 zkEVM 和编译器及硬件加速提供商。</p>\n<p><a href=\"https://twitter.com/CelerNetwork/status/1631143849300213760\">内容来源</a></p><hr>",
           "link": "https://twitter.com/CelerNetwork/status/1631143849300213760",
           "publishedOn": "2023-03-02T04:28:01.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>NFTfi 是目前加密经济增长最快的领域，Bankless 作者 William M. Peaster 发文介绍 5 个小众项目，包括 Caviar、Papr、Insrt Finance、MetaStreet 和 Hook，供 NFTfi 新手参考。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">https://newsletter.banklesshq.com/p/5-promising-nftfi-opps</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1）Caviar：用于交易 NFT 的 AMM 协议，支持通过 ERC20 对 NFT 碎片化，还提供「Desirability Classifier」系统，将 NFT 系列组织成子池，增加稀有 NFT 的流动性并激励 LP 交易活动；2) Papr：灵活、有弹性且无锁定期的 NFT 借贷协议。以 papr 代币为中心，借款人将 NFT 作为抵押品发送到 papr 控制器智能合约时铸造代币，并可按需出售，在 papr 交易价格和协议利率之间创造持续的反馈循环；【原文为英文】</p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">内容来源</a><p><strong>William M. Peaster：</strong>3) Insrt Finance：长期收益策略 NFT 协议，其第一类产品为 ShardVaults，描述为「部分 NFT 现货敞口与被动收益农业相结合」。Shard 是代表 ShardVault 基础 NFT 部分所有权的 NFT，通过其提供低价的蓝筹 NFT 所有权，随着基础 NFT 在 NFTfi 中运行，为持有者产生收益；【原文为英文】</p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">内容来源</a><p><strong>William M. Peaster：</strong>4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】</p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">内容来源</a>",
           "link": "https://newsletter.banklesshq.com/p/5-promising-nftfi-opps",
           "publishedOn": "2023-03-01T12:17:20.000Z",
-          "wordCount": 6004,
+          "wordCount": 5798,
           "title": "【英文】Bankless：5 个有潜力的小众 NFTFi 项目",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b645c02-a101-4be0-a1ca-38eb624d411f_2312x1301.jpeg"
         },
@@ -607,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>每个生态系统都需要去中心化的稳定币。以太坊有 MKR 和 DAI ，那么比特币生态呢？加密货币 KOL Kaduna 从 Arkadiko Protocol 对于 Stacks 的重要性角度介绍了比特币的稳定币项目 Arkadiko Protocol。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">https://twitter.com/cryptokaduna/status/1630546387543928832</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Arkadiko 是一种基于 Stacks 的去中心化流动性协议，提供一系列 DeFi 解决方案。通过 Arkadiko 用户可以使用他们的 STX --Stacks 的原生代币 -- 作为抵押来铸造 Arkadikos 自己的稳定币 USDA 。然后，该 USDA 可用于在 Arkadiko 协议内 farm 以偿还贷款。farm 的收益是通过参与称为转移证明（POX）的 Stacks 共识机制产生的。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a><p><strong>Kaduna：</strong>通过持有 STX 代币，你可以将它们作为抵押品存入 Arkadiko，然后借入其价值 25% 的 USDA。由于 USDA 现在已抵押在我们之前谈到的 POX 共识中，因此奖励将自动用于偿还借入的 USDA。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a><p><strong>Kaduna：</strong>Stacks 作为一个平台实现了爆炸式增长，其 TVL 在短短几周内从 700 万美元飙升至 2200 万美元。随着这种增长，需要 DEX 作为用户参与生态系统的一种方式。Arkadiko 在 Stacks 之上构建了一个 DEX，以满足不仅希望参与 Arkadikos 贷款而且希望参与整个 Stacks 生态系统的用户。通过 ArakadikoSwap，用户可以通过提供流动性来赚取额外的被动收入。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a>",
           "link": "https://twitter.com/cryptokaduna/status/1630546387543928832",
           "publishedOn": "2023-03-01T08:18:31.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】一文了解比特币稳定币项目：Arkadiko Protocol",
           "imageUrl": null
         },
@@ -637,7 +637,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Eigenlayer 提出的重质押方案，允许用户将 ETH、lsdETH 及 LP 代币质押在其他公链、预言机、中间件等，作为节点并得到验证奖励，并释放 ETH 共识层的安全性。加密分析师 kydo 阅读完其白皮书后提出了几个问题 / 思考，包括非原生质押及其安全性、NFT 头寸流动性、AVS（Active Validated Services）的活跃度、协议的去中心化等。本文由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2144\">https://www.techflowpost.com/article/2144</a></p>\n<p><strong>文章作者：</strong></p><p>kydo</p><hr><h3>观点：</h3><p><strong>kydo：</strong>1. 安全性：原生重质押和非原生重质押的安全模式是什么？鉴于基础资产的可组合性，如何证明安全性？2. NFT 头寸流动性：当你存入 EigenLayer 时，得到的是一个代表头寸的 NFT，这大大降低了整个系统的流动性。3. 保证活跃度：Slash 是确保安全的直接措施，但系统如何确保活跃度在白皮书中探讨的较少。猜测：Optimistic+bond + 防欺诈模型？</p><a href=\"https://www.techflowpost.com/article/2144\">内容来源</a><p><strong>kydo：</strong>4. 加密货币经济安全：对给定的 AVS 进行主动监控经济安全性是否可行？AVS 的安全保障量是由它产生的费用和运行服务的风险决定的，EigenLayer 如何缓解这些问题？5. 去中心化排序器：白皮书中 L2 将排序交给 EigenLayer 验证器的做法是否可行？6. 事件驱动的 MEV：事件驱动的 MEV 允许验证人与 MEV 方例如（构建者）达成协议，ETH 区块空间会不会因此而变成一种「订阅服务」？</p><a href=\"https://www.techflowpost.com/article/2144\">内容来源</a><p><strong>kydo：</strong>7. 以太坊平行链：暂且称其为以太坊平行链（Parallel Ethereum），平行链是否仍然具有与原始 ETH 链相同的最终性？8. 中心化问题：运行节点可能面临着巨大的带宽需求，对整个协议的去中心化帮助不大；9. 双重质押效用：如何调和两者的权重？使用另一个 AVS 作为价格预言机？还是使用原生的 AMM LP 权重？或是固定权重并依据社区治理调整？</p><a href=\"https://www.techflowpost.com/article/2144\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2144",
           "publishedOn": "2023-03-01T06:39:15.000Z",
-          "wordCount": 21706,
+          "wordCount": 21675,
           "title": "EigenLayer 白皮书中的 9 大潜在问题：安全性、流动性、去中心化…",
           "imageUrl": "https://assets.techflowpost.com/20230207/c274e05f1f244fc9bccb842eb5c273b2.png"
         },
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>OpenSea 多年来的市场主导地位几乎是绝对的，这使得 Blur 的惊人崛起更加令人印象深刻。Bankless 作者 Donovan Choy 深入探讨 OpenSea 和 Blur 平台之间的战争，并介绍 OpenSea 仍然占据优势的领域。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806412\">https://www.defidaonews.com/article/6806412</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>Blur 通过提供无摩擦的可选版税、零交易费市场来瞄准一小部分投机性 NFT  交易者。OpenSea 的初始定位试图站在创作者一边，并利用其市场主导地位，以促使交易者只向 OpenSea 买家上市，迫使创作者在 OpenSea 或 Blur 上赚取版税之间做出选择。然而，Blur 巧妙地利用了 OpenSea 的 Seaport 协议，并以此为基础构建了自己的市场。从用户的角度来看，「受限」 收藏品再次可以在 Blur 上交易。从创作者的角度来看，他们不再需要选择 —— 他们可以获得 OpenSea 和 Blur 的全部版税。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 市场策略的第二步：免费空投，空投围绕「忠诚度积分」系统设计，这激励鲸鱼雇佣兵承担实际风险，投入数百万美元的出价，为 Blur 市场创造流动性。Blur 的流动性激励设计虽然到目前为止是成功的，但并非没有风险。如果 NFT 市场陷入困境，当空投猎人意识到提供资金的风险 > Blur 忠诚度积分的收益时，这可能会导致一系列的出价被接受，导致市场进一步下跌。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 为激励流动性付出的数百万美元的巨额成本，而且 BLUR 代币也不过是一个 Meme 代币。虽然 Blur 在交易量上超过了 OpenSea，但后者在有机使用率方面仍然占据主导地位。Blur 的活动主要由少数富有的空投猎人主导，而更广泛的「普通」 市场仍在 OpenSea 上。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806412",
           "publishedOn": "2023-03-01T06:18:02.000Z",
-          "wordCount": 634,
+          "wordCount": 632,
           "title": "Bankless：OpenSea 和 Blur 之间的市场战争才刚刚开始",
           "imageUrl": "https://appserversrc.8btc.cn/lsyUxYlMIZxcMGGppA5DrFoGNdj7.png?imageView2/1/w/500/h/300"
         },
@@ -827,9 +827,9 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Hyperdrvie 由一群节点运营商组成的团队 NodeSet 创立，旨在帮助 Rocket Pool 在不影响基本安全模型的情况下提高其资本效率、可扩展性和验证器分布。NodeSet 团队撰文从项目目标、项目结构及一些常见问题对 Hyperdrive 进行介绍，并声明该项目不会有代币。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://nodeset.medium.com/project-hyperdrive-4819f22391dc\">https://nodeset.medium.com/project-hyperdrive-4819f22391dc</a></p>\n<p><strong>文章作者：</strong></p><p>NodeSet</p><hr><h3>观点：</h3><p><strong>NodeSet：</strong>项目目标：帮助 Rocket Pool 在不影响基本安全模型的情况下提高其资本效率、可扩展性和验证器分布。Rocket Pool 需要节点运营商（NO）提供保证金以保持安全性，Hyperdrive 的主要优势在于可以以完全非托管的方式向 NO 分配存款，以此来消除保证金要求。【原文为英文】</p><a href=\"https://nodeset.medium.com/project-hyperdrive-4819f22391dc\">内容来源</a><p><strong>NodeSet：</strong>Hyperdrive 架构：1）储户：Hyperdrive 还允许 RPL 与 ETH 一起存款。储户的资产换成完全流动的收据代币，这些代币称为 xrETH 和 xRPL。2）节点运营商：xrETH 和 xRPL 的奖励得益于 Hyperdrive 的 NO。这个过程大部分是自动化的，NO 只需像往常一样维护一个 Rocket Pool 节点即可获得 Hyperdrive 的奖励。【原文为英文】</p><a href=\"https://nodeset.medium.com/project-hyperdrive-4819f22391dc\">内容来源</a><p><strong>NodeSet：</strong>3）管理员：负责保持系统稳定，并通过协议赚取一部分 rETH 佣金（减去 NO 的份额）。为了履行其职责，管理员可以调整佣金率和存款池大小等参数，最重要的是，他们负责增加和维护节点运营商集。在发布时，管理员将采用链下实体的形式，未来可能会通过链上机制实现完全自动化。【原文为英文】</p><a href=\"https://nodeset.medium.com/project-hyperdrive-4819f22391dc\">内容来源</a><p><strong>NodeSet：</strong>常见问题：1）如果 xrETH 有更好的回报，它能取代 rETH 吗？xrETH 在数学上不可能实现比 rETH 更大的流动性深度 / TVL。2）Hyperdrive 会有治理代币吗？没有计划。3）为什么不能将其添加到 Rocket Pool 本身？Hyperdrive 作为一个建立在完全无许可基础协议之上的独立项目，具有更大的灵活性来放宽许可标准。【原文为英文】</p><a href=\"https://nodeset.medium.com/project-hyperdrive-4819f22391dc\">内容来源</a>",
           "link": "https://nodeset.medium.com/project-hyperdrive-4819f22391dc",
           "publishedOn": "2023-02-28T09:00:10.000Z",
-          "wordCount": 5121,
+          "wordCount": 5129,
           "title": "【英文】新项目前瞻 | Hyperdrvie：旨在成为「Rocket Pool 的 L2」的独立项目",
-          "imageUrl": "https://miro.medium.com/max/1124/0*d24eUDlyiDTya8oE"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1124/0*d24eUDlyiDTya8oE"
         },
         {
           "id": "https://twitter.com/optimismFND/status/1630333585524932609",
@@ -847,7 +847,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>借助着 Blur 的「Bid to Earn」风潮，许多蓝筹 NFT 的交易量发生了爆炸级增长，Trending 榜单上却出现新生客 Notable Pepes，NFT 研究员 WaTell 对该项目的创始人及其造富效应进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">https://twitter.com/0xWatell/status/1630102952814981120</a></p>\n<p><strong>文章作者：</strong></p><p>WaTell</p><hr><h3>观点：</h3><p><strong>WaTell：</strong>Notable Pepes，由「Pepe Checks」衍生而来，是由著名 NFT 收藏家 Vince Van Dough (VVD) 在 2 月 5 日发布的 OE 作品。作品设计不难看出其灵感来源于 Jack Butcher 的「推特蓝勾」，只是把 meme 变成了我们熟知的「悲伤青蛙 - Pepe」。但这仍然无法阻止这项作品的成功，许多 NFT OG 第一时间与其进行互动、转推扩散热度。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>VVD 被誉为「有史以来最积极的 NFT 收藏家」，他曾豪掷数千 ETH 购入艺术品 NFT，并且一直持有到现在。他还曾经于 2021 年 8 月与三箭资本合作成立了「NFT 收藏基金 - Starry Night Capital」，帮助他们购入「优质的 NFT 资产」。这在某些层面也能体现出 VVD 强大的社会关系。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>在公布「Pepe Checks」的 OE 铸造页面后，在短短 24 小时内，便铸造了 237,869 枚 NFT，总收入约为 975.2629 eth。2 月 18 日，VVD 公布了由「Pepe Checks」衍生而来的 Notable Pepes。首个作品便是「Pepe Cheques」，总量为 2000，1344 张进入「著名的 Pepes 金库」，但在当时并没有第一时间全部铸造完，而它的地板价现为 1.4 eth。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>2 月 26 号，Notable Pepes Collection 的「3~7」号作品正式上线。铸造价格为 0.069 eth，而即使是人气最低的作品「The Rarest Deck」，地板价也有 0.54 eth。人气最高的「Pepe's Chair」，地板价为 4.95 eth，拥有接近 70 倍的涨幅。需要注意：Notable Pepes 并不像其他 OE Collection，其采用的是白名单铸造机制。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a>",
           "link": "https://twitter.com/0xWatell/status/1630102952814981120",
           "publishedOn": "2023-02-28T07:33:01.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "「OpenEdition」与 meme 始祖 「Pepe」融合，解析 NFT 项目 Notable Pepes",
           "imageUrl": null
         },
@@ -867,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>FactorDAO Vault 用途广泛且可组合，可以为 DeFi 项目轻松创建和扩展协议。FactorDAO Vault 的可组合性带来了 DeFi 之外的潜在应用。加密货币 KOL Eli5_DeFi 展示了不同的领域集成 FactorDAO Vault 的用途。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eli5_defi/status/1630209948021035016\">https://twitter.com/eli5_defi/status/1630209948021035016</a></p>\n<p><strong>文章作者：</strong></p><p>Eli5_DeFi</p><hr><h3>观点：</h3><p><strong>Eli5_DeFi：</strong>1）GameFi 通过用游戏内代币、收藏品等奖励玩家，将游戏玩法与 DeFi 融合在一起。通过集成 FactorDAO Vault，游戏开发人员可以专注于改进游戏，同时消除额外的基础设施开发、安全和集成。2）GambleFi 的可扩展性挑战与其流动性激励相关，但将 FactorDAO 集成为中间件可以为流动性提供激励基础设施。这使 GambleFi 能够专注于为投机者和投资者扩展以及推出新产品。【原文为英文】</p><a href=\"https://twitter.com/eli5_defi/status/1630209948021035016\">内容来源</a><p><strong>Eli5_DeFi：</strong>3）MemeFi 代币具有高度投机性，几乎没有内在价值。然而，通过整合 Factor Vault，他们可以利用国库和流动资金池来产生额外的收入并增加社区参与度。4）NFTFi 将 DeFi 与 NFT 合并，以提高所有者的流动性。NFT 衍生品、借贷和质押的应用程序，可以与 Factor Vault 和套件集成为 NFT 持有者产生实际收益。【原文为英文】</p><a href=\"https://twitter.com/eli5_defi/status/1630209948021035016\">内容来源</a>",
           "link": "https://twitter.com/eli5_defi/status/1630209948021035016",
           "publishedOn": "2023-02-28T07:21:08.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】一文解读 FactorDAO Vault 的可组合性",
           "imageUrl": null
         },
@@ -937,7 +937,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊上海升级临近，LSD 赛道再次升温。加密研究员 CC2 认为 ssv.network 拥有巨大的上升空间，并从 SSV 和 DVT 的概念、代币经济学、SSV 和 L2 之间的区别及估值等方面对其发展潜力进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">https://twitter.com/CC2Ventures/status/1630235318497730560</a></p>\n<p><strong>文章作者：</strong></p><p>CC2</p><hr><h3>观点：</h3><p><strong>CC2：</strong>ssv.network 正在开发分布式验证器技术（DVT），DVT 允许一个验证器在多个节点或机器上运行，且个人运行的节点可以作为一个单一验证器一起运行。相较于单节点验证器，DVT 的优势在于即使有节点脱机也不会影响性能，且由于不需要节点备份，减少了 slash 的风险，且在较少机器上运行更多节点也降低了硬件成本。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a><p><strong>CC2：</strong>代币经济学：SSV 代币效用包括两个方面：SSV 只有这可以对 DAO 提案进行投票及作为 SSV 网络的支付工具。我认为作为支付工具具有很大的飞轮潜力，DVT 加速 ETH 去中心化，为 DAO 提供费用，让更多的项目获得资金并使用 DVT 构建应用程序，最后 DVT 使用增加也会获得更多费用。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a><p><strong>CC2：</strong>我认为 SSV 仍有很大上涨空间：1） SSV 在以太坊路线图中发挥很大的作用；2）在 DVT 领域具有先发优势，受到以太坊基金会委托让 ETH 更去中国你虚拟化、安全并增强审查能力；3）成立了一个 5000 万美元的基金以支持 DVT 建设；4）Lido 等公司正在利用其技术；5）良好的代币经济学，具有价值累积机制和飞轮潜力。【原文为英文】</p><a href=\"https://twitter.com/CC2Ventures/status/1630235318497730560\">内容来源</a>",
           "link": "https://twitter.com/CC2Ventures/status/1630235318497730560",
           "publishedOn": "2023-02-28T03:01:48.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】解析以太坊质押基础设施 ssv.network：未来增长点和估值分析",
           "imageUrl": null
         },
@@ -947,7 +947,7 @@
           "description": "<h3>Yuga Labs 推出基于比特币区块链的 NFT 系列 TwelveFold</h3>\n<p>据官方消息，Yuga Labs 宣布推出新的基于比特币的 NFT 系列 TwelveFold，该系列包含 300 件刻在比特币区块链上的限量版生成艺术作品，主要通过 Ordinal Theory 协议实现。每件 NFT 作品都是 12x12 网格，结合 3D 图形和手绘特征，由 Yuga Labs 内部艺术团队设计和创作，该公司表示 TwelveFold 与其任何一个以太坊链上 IP 均无关联，未来也不会有任何交互。这些 NFT 将在本周晚些时候举行的拍卖会上出售，所有出价都将以比特币进行。</p>\n<p><a href=\"https://mobile.twitter.com/yugalabs/status/1630342395295412232\">内容来源</a></p><hr>",
           "link": "https://mobile.twitter.com/yugalabs/status/1630342395295412232",
           "publishedOn": "2023-02-28T03:01:18.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "Yuga Labs 推出基于比特币区块链的 NFT 系列 TwelveFold",
           "imageUrl": null
         },
@@ -977,7 +977,7 @@
           "description": "<h3>通用互操作性平台 Axelar Network 推出 Axelar 虚拟机并启动 500 万美元开发者资助计划</h3>\n<p>通用互操作性平台 Axelar Network 推出 Axelar 虚拟机以简化开发者体验，Axelar 虚拟机包括两个产品：可随意连接到任何链的 Interchain Amplifier 及可通过协调多链 dApp 管理自动执行复杂任务的 Interchain Maestro。此外，Axelar 正在启动一项 500 万美元的开发者资助计划，以推进 Axelar 虚拟机的使用并扩展跨链。</p>\n<p><a href=\"https://twitter.com/axelarcore/status/1630290474790682625\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Axelar Network：</strong>Interchain Amplifier 简化了与链间生态系统的连接，并提供了与其他 dApp 的无限组合性。一旦连接到 Axelar，就可以获得对 N 个链的访问，并根据各种安全模式和其他标准定制。Interchain Maestro 简化了链间开发，协调多链程序的配置、协调和管理，例如部署新链及必要升级。【原文为英文】</p><a href=\"https://twitter.com/axelarcore/status/1630290474790682625\">内容来源</a>",
           "link": "https://twitter.com/axelarcore/status/1630290474790682625",
           "publishedOn": "2023-02-28T01:21:36.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "通用互操作性平台 Axelar Network 推出 Axelar 虚拟机并启动 500 万美元开发者资助计划",
           "imageUrl": null
         },
