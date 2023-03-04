@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T12:18:22.405Z</updated>
+    <updated>2023-03-04T12:31:43.841Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握以太坊上NFT关键数据（2023.03.04）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/thn6h9kz.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/thn6h9kz.html"/>
+        <updated>2023-03-04T12:28:03.000Z</updated>
+        <summary type="html"><![CDATA[NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
+PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[盘点主要的6种比特币扩容方案现状：Stacks数据增长较快，RSK支持EVM]]></title>
         <id>https://www.panewslab.com/zh/articledetails/4282ghjx.html</id>
@@ -4956,70 +4967,6 @@ Roquerre还表示，该平台的未来将在很大程度上受到其社区的影
 <p><a href="https://twitter.com/coinbase/status/1631284093378756611">内容来源</a></p><hr><h3>观点：</h3><p><strong>Paxos：</strong>Paxos 与 Silvergate 没有任何实质性接触，Paxos 的首要任务始终是保护其客户的资金和资产，并利用多元化的银行合作伙伴网络。【原文为英文】</p><a href="https://twitter.com/PaxosGlobal/status/1631294873570799617">内容来源</a><p><strong>Paolo Ardoino（Tether 首席技术官）：</strong>Tether 对 Silvergate 没有任何敞口。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1631355032619589633">内容来源</a><p><strong>MicroStrategy：</strong>我们有一笔来自 Silvergate 直到 2025 年第一季度才到期的贷款，我们的 BTC 抵押品不是由 Silvergate 保管的，除了这笔贷款，我们与 Silvergate 没有任何其他财务关系。【原文为英文】</p><a href="https://twitter.com/MicroStrategy/status/1631366897378680835">内容来源</a><p><strong>Circle：</strong>我们目前也在关注市场对 Silvergate 的担忧，并且正在解除与 Silvergate 的部分合作关系，相关进展我们会及时通知客户。Circle 拥有多个储备和结算银行合作伙伴，负责管理 USDC 的现金储备，提供强大的流动性管理。目前包括 USDC 在内的所有 Circle 服务都在正常运转。【原文为英文】</p><a href="https://twitter.com/circle/status/1631338087212101633">内容来源</a><p><strong>Gemini：</strong>正在密切关注 Silvergate 的状况，Gemini 目前在 Silvergate 没有客户资金和 GUSD 资金。此外，我们已停止通过 ACH 接受处理客户存款和提款及通过 Silvergate 进行电汇。【原文为英文】</p><a href="https://twitter.com/Gemini/status/1631346061942857728">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LSD竞争日渐白热化，一文速览 9 个潜力协议]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/ikl76tlo.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/ikl76tlo.html"/>
-        <updated>2023-03-03T01:05:03.000Z</updated>
-        <summary type="html"><![CDATA[撰文：Louis Cooper
-编译：0x11，Foresight News
-上海升级将释放价值超过 270 亿美元的 ETH，这意味着 LSD 市场的争夺战已经开始，它们将围绕提供最高 APR 展开。
-问题是，赢家会是谁？它可能来自下面的 9 个 LSD 协议： ? ?
-
-在正式开始之前，我们需要先了解以太坊上海升级。
-这是以太坊在转向 PoS 之后的第一次重大升级。它将上线质押 ETH 解锁功能，以帮助验证和保护以太坊网络。
-自 2020 年以来，以太坊验证者一直在质押他们的 ETH，没有任何回报……直到上海升级。
-那么 LSD 平台从何而来？要成为以太坊验证者，你需要高达 32 个 ETH。LSD 平台允许质押任意数量的 ETH（当然是收费的）。
-因此，随着奖励最终激活，日常 ETH 持有者参与质押的动机将会激增。LSD 平台的淘金热正在开启，能够持续提供最高 APR 的平台将获胜。让我们找出可能是谁?
-Pendle 可能是我最看好的 LSD 选手。
-为什么？Pendle 的 TVL 几乎是其市值的两倍，资产在其 V2 发布后大量流入。
-Pendle 创建了独特的代币化收益策略：本金代币 (PT) 和收益代币（YT）。（点击此处了解更多）
-乐观来讲，由于@CamelotDEX，Pendle 现在也可以在 Arbitrum 上使用。
-他们与其他利基市建立了战略合作伙伴关系，如@AuraFinance。这让我对以下方面充满信心：
-• 团队合法性
-• 希望提供真实、有竞争力的产品
-Stader 将要支持以太坊网络质押，并发布 ETHx，这将使对 ETH 节点的要求降低 8 倍（只需要 4 ETH）。重要的是，他们在 Stader 中也需要 0.4 ETH。这意味着供应紧缩和一个很好的机会。
-正如@NagatoDharma 指出的那样， SD 代币仍比其公售价格低 60%。
-有了可靠的市值与 TVL 比率，看到 5 美元以上的 SD 大有希望。
-阅读 Nagato 的贴文，以全面了解代币经济学 / 收入。
-作为 Dcentralab 的一部分，Hord 正在 Zokyo 的帮助下完成对 hETH 的审计。
-他们声称通过多种途径实现了更高的 APR：
-• ETH 质押
-• MEV 奖励
-• 额外的 HORD 奖励
-由于额外奖励，hETH 的价格不与 ETH 挂钩。
-
-Hord 团队制定了雄心勃勃的计划，但他们在 Dcentralab 的位置意味着他们拥有强劲的开发能力。
-HORD 已经出现大幅增长，但其 FDV 仍低于 2000 万美元，流通市值为 600 万美元。
-他们能吸引 ETH 持有者吗？
-
-Frax Finance
-Frax Finance 无需介绍，其 LSD 变体 frxETH 拥有 1.7 亿美元 TVL。
-frxETH 的 TVL 自去年 11 月以来增长了 100 倍，主要是由于其令人印象深刻的高收益率推动。
-我对 Bifrost 的兴趣是由@Crypt0_Andrew 以及 TVL/MC（质押的 ETH 价值 / 项目市值）的比例激发的。
-现在 Bifrost 的 FDV 为 700 万美元，质押了 1.8 万 ETH，TVL/MC 比率为 4！
-Bifrost 由来自 Polkadot 生态的 OG 团队操刀，BNC 的潜力值得期待。
-SharedStake 是我最冒险的选择，我从@CryptoShlug
-那里获知这个项目。
-SharedStake 中质押了 1.6 万 ETH，但其市值仅仅只有 100 万美元。他们通过结合以太坊质押和自己的 MEV 机器人来优化收入（产生超过 100ETH 的收益）。
-StakeWise 是另一个「更安全」的协议，其计划在上海升级之前启用 v3。从表面上看，该协议被低估了，TVL 为 1.4 亿美元，市值为 4000 万美元。
-然而，考虑到 SWISE 的月通胀率为 2% 且 FDV 为 1.8 亿美元，它的前景并不那么乐观。
-Liquid Staking Derivatives 是 LSD 聚合器，@iearnfinance 的竞争对手。他们设计了 veLSD/LSD 的巧妙飞轮，我很想看到它运行，它会吸引足够的 ETH 吗？
-Liquid Staking Derivatives 的市值为 200 万美元，它的收益潜力对我来说是显而易见的，但要谨慎行事。
-
-0xAcid Protocol
-最后一个项目是 0xAcid Protocol，一个雄心勃勃的 LSD 协议，希望筹集 4,000 ETH，我对此表示怀疑。
-0xAcid Protocol 声称是为了最大化 LSD 资产的回报，和前面提到的 frxETH、stETH 相同等。
-
-最后，还有许多我无法包括但仍有潜力的协议争夺 LSD 市场份额：
-……
-记住：任何人都可以贴上「构建 LSD 协议」的标签，小心。
-我错过了谁？ ?
-出于显而易见的原因，我没有提到 Lido。它现在完全主宰了 LSD 市场，但我预计随着竞争加剧，这种情况会发生变化。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
