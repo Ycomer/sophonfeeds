@@ -2,16 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T08:36:50.936Z</updated>
+    <updated>2023-03-04T08:43:16.216Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护]]></title>
+        <id>https://twitter.com/coinbase/status/1631780257987723265</id>
+        <link href="https://twitter.com/coinbase/status/1631780257987723265"/>
+        <updated>2023-03-04T08:27:31.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护</h3>
+<p>Coinbase 提醒用户将于太平洋时间 3 月 4 日按原定计划停机 8 小时进行技术升级维护。Coinbase 预计将于太平洋时间 3 月 4 日 8:00 至 9:00 开始（北京时间 3 月 5 日 0:00 至 1:00）暂停 Coinbase․com 上的交易和转账，停机维护将于太平洋时间 9:00 左右（北京时间 3 月 5 日 1:00）开始。</p>
+<p><a href="https://twitter.com/coinbase/status/1631780257987723265">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】观点：Uniswap 新推出的移动端钱包缺乏创新]]></title>
+        <id>https://twitter.com/defiignas/status/1631873148969943040</id>
+        <link href="https://twitter.com/defiignas/status/1631873148969943040"/>
+        <updated>2023-03-04T07:49:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>今天 Uniswap 宣布推出开源自托管移动端钱包测试版本。加密货币研究员 lgnas 认为该移动端钱包缺乏颠覆性的创新，Uniswap 本可以做出更多的功能，并阐述了理由。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/defiignas/status/1631873148969943040">https://twitter.com/defiignas/status/1631873148969943040</a></p>
+<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Uniswap 的移动钱包并没有什么革命性的东西。它仍然使用相同的助记词方法来创建一个钱包，可以在 iCloud 或纸上进行备份。但他们本可以做得更多，比如使用账户抽象法来创建一个带有电子邮件 / 电话号码的钱包。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Uniswap 并不是第一个推出移动应用的 DEX。1inch 一年前就推出了他们的 1inch 钱包。它虽然也没有使用账户抽象，但提供了比 Uniswap 的新钱包更多的功能，而且价格也更有优势。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a><p><strong>Ignas | DeFi Research：</strong>有一些技术比如 Biconomy 的 SDK 可以将多链体验抽象为一键点击。或者像 OKX Web3 这样的钱包支持一键跨链桥和互换交易。更好的体验是建立在一个单一的超级应用程序里，Uniswap 本可以这样做。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文】以太坊生态周报：Shapella 升级、Dencun 升级、ERC6596]]></title>
         <id>https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</id>
         <link href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023"/>
         <updated>2023-03-04T07:31:28.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；以太坊主网将于 Goerli 升级后约 4 周进行 Shapella 升级；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>
 <p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>]]></summary>
         <author>
@@ -8153,30 +8177,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Yuga Labs 宣布推出新的基于比特币区块链的 NFT 系列 TwelveFold，并发布了关于 TwelveFold 的详细介绍。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://news.yuga.com/twelvefold#">https://news.yuga.com/twelvefold#</a></p>
 <p><strong>文章作者：</strong></p><p>Greg Solano（Yuga Labs 联合创始人 ）</p><hr><h3>观点：</h3><p><strong>Greg Solano（Yuga Labs 联合创始人 ）：</strong>TwelveFold 是一个以 12 为基数的艺术系统，围绕着一个 12x12 的网格进行设计，这个网格是比特币区块链上数据视觉象征。该 NFT 包括高度渲染的 3D 元素以及手绘的特征，这些特征是对目前手工完成的 ordinal inscriptions 的致敬。所有这些选择都与 Yuga 一贯的风格不同，做一些预期之外的事情也挺不错的。【原文为英文】</p><a href="https://news.yuga.com/twelvefold#">内容来源</a><p><strong>Greg Solano（Yuga Labs 联合创始人 ）：</strong>比特币是一种同质化的数字货币，但比特币改进提案（BIP）描述了一种称为 “inscribing” 的方法，该方法允许创作者将数据连接到单个 satoshi（比特币的 1/100,000,000）和链上托管元数据（特别是艺术品）。实际上，这使 satoshis 能够像非同质化代币一样运行，本质上使比特币区块链上的 NFT 概念成为可能。一个月前进入 Ordinal Discord，感觉就像瞥见了 2017 年以太坊 NFT 生态系统的样子。这种充满活力和激情的氛围正是我们在 Yuga 所热爱的。【原文为英文】</p><a href="https://news.yuga.com/twelvefold#">内容来源</a><p><strong>Greg Solano（Yuga Labs 联合创始人 ）：</strong>接下来要做什么？接下来会有更多关于拍卖时间和机制的详细信息，我们将在未来一周内宣布。祝所有竞标者好运，我们期待与世界分享这个收藏品。【原文为英文】</p><a href="https://news.yuga.com/twelvefold#">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】新项目前瞻｜Yuga labs 最新推出的比特币 NFT 系列 TwelveFold]]></title>
-        <id>https://news.yuga.com/twelvefold#</id>
-        <link href="https://news.yuga.com/twelvefold#"/>
-        <updated>2023-02-28T05:58:10.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Yuga Labs 宣布推出新的基于比特币区块链的 NFT 系列 TwelveFold，并发布了关于 TwelveFold 的详细介绍。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://news.yuga.com/twelvefold#">https://news.yuga.com/twelvefold#</a></p>
-<p><strong>文章作者：</strong></p><p>Greg Solano（Yuga Labs 联合创始人 ）</p><hr><h3>观点：</h3><p><strong>Greg Solano（Yuga Labs 联合创始人 ）：</strong>TwelveFold 是一个以 12 为基数的艺术系统，围绕着一个 12x12 的网格进行设计，这个网格是比特币区块链上数据视觉象征。该 NFT 包括高度渲染的 3D 元素以及手绘的特征，这些特征是对目前手工完成的 ordinal inscriptions 的致敬。所有这些选择都与 Yuga 一贯的风格不同，做一些预期之外的事情也挺不错的。【原文为英文】</p><a href="https://news.yuga.com/twelvefold#">内容来源</a><p><strong>Greg Solano（Yuga Labs 联合创始人 ）：</strong>比特币是一种同质化的数字货币，但比特币改进提案（BIP）描述了一种称为 “inscribing” 的方法，该方法允许创作者将数据连接到单个 satoshi（比特币的 1/100,000,000）和链上托管元数据（特别是艺术品）。实际上，这使 satoshis 能够像非同质化代币一样运行，本质上使比特币区块链上的 NFT 概念成为可能。一个月前进入 Ordinal Discord，感觉就像瞥见了 2017 年以太坊 NFT 生态系统的样子。这种充满活力和激情的氛围正是我们在 Yuga 所热爱的。【原文为英文】</p><a href="https://news.yuga.com/twelvefold#">内容来源</a><p><strong>Greg Solano（Yuga Labs 联合创始人 ）：</strong>接下来要做什么？接下来会有更多关于拍卖时间和机制的详细信息，我们将在未来一周内宣布。祝所有竞标者好运，我们期待与世界分享这个收藏品。【原文为英文】</p><a href="https://news.yuga.com/twelvefold#">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】读懂比特币一站式完整 DeFi 服务平台 Alex 特点及功能：被低估了吗？]]></title>
-        <id>https://twitter.com/CryptoKaduna/status/1630221869923090434</id>
-        <link href="https://twitter.com/CryptoKaduna/status/1630221869923090434"/>
-        <updated>2023-02-28T05:48:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>近期比特币一直在经历文化和技术上的转变，其中 Alex 正在 Stacks 上追求 DeFi 发展。加密研究员在对 Alex 进行研究后，认为 Alex 市值被严重低估了。凭借其永续期货去中心化交易所和 Launchpad 两大功能，Alex 正在显示出巨大的发展潜力。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/CryptoKaduna/status/1630221869923090434">https://twitter.com/CryptoKaduna/status/1630221869923090434</a></p>
-<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Alex Labs 利用 Stacks 在比特币上实现智能合约、DeFi 和 NFT。其目前提供两个主要功能：Launchpad 和比特币 DEX。其中 Alex Labs DEX 允许在 BTC 上以完全去中心化的方式进行互换、质押和流动性挖矿。Alex Labs DEX 在测试网络上提供了一个 AMM 及一个链外订单簿，以允许用户进行杠杆交易。【原文为英文】</p><a href="https://twitter.com/CryptoKaduna/status/1630221869923090434">内容来源</a><p><strong>Kaduna：</strong>随着越来越多的项目在 Stackss 上构建，Alex Labs 还启动了一个 Launchpad，其原生代币 ALEX 持有者可以获得访问权。此外，通过 Luanchpad 参与 IDO 还需要通过质押 ALEX 和使用 ALEX 进行流动性挖矿获得 APower。持有的 APower 越多，Launchpad 上收到的分配比例就越多。【原文为英文】</p><a href="https://twitter.com/CryptoKaduna/status/1630221869923090434">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
