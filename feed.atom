@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T03:27:16.842Z</updated>
+    <updated>2023-03-04T03:32:54.321Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[华尔街日报：去年12月推特收入和调整后利润同比下降40%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5fhls6be.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5fhls6be.html"/>
+        <updated>2023-03-04T03:28:56.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月4日消息，据《华尔街日报》援引知情人士的话称，推特去年12月份的收入和调整后利润同比下降约40%。广告研究公司Standard Media Index的数据显示，在马斯克于去年10月27日执掌推特后，几家广告商大幅削减了在该平台的支出，导致去年12月推特的广告收入下降了71%。去年11月，马斯克曾警告推特可能破产。去年12月，他表示推特有望在2023年实现“现金流基本盈亏平衡”。今年1月，推特支付了首笔银行贷款利息，这笔贷款用于帮助马斯克在去年完成对推特的收购。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户]]></title>
         <id>https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5</id>
@@ -4511,16 +4521,6 @@ Omnichain 上的资产根据 Token 是否同质化，可以分为 Omnichain-FT�
         <link href="https://www.panewslab.com/zh/sqarticledetails/j3qrdkup.html"/>
         <updated>2023-03-02T23:47:07.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月3日消息，据官方消息，加密交易所Bitstamp表示，鉴于最新的市场消息，作为预防措施，将不再处理Silvergate的转账。银行转账服务现在将由其它银行合作伙伴提供。Bitstamp客户资金仍然安全，Bitstamp对Silvergate Bank没有重大风险敞口。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Circle：正在解除与Silvergate的部分服务]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/j6ewe56k.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/j6ewe56k.html"/>
-        <updated>2023-03-02T23:46:36.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月3日消息，美元稳定币USDC发行方Circle在社交媒体上发文称，Circle与多家银行合作伙伴都保持联系，目前也非常关注市场对Silvergate的担忧，并且正在解除与Silvergate的部分服务。Circle表示相关进展会及时通知客户，当前包括USDC在内的所有Circle服务都运转正常，Circle拥有多个储备和结算银行合作伙伴，负责管理USDC的现金储备，提供强大的流动性管理。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
