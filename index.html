@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T00:40:47.000Z">2023-03-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T00:40:47.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T01:41:26.000Z">2023-03-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T01:41:26.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,122 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/1o2o552j.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一文读懂社交通信协议Towns：对标Farcaster，为何值得a16z押注2250万美元？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/1o2o552j.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/Qms0mi8fOd.webp" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《社交通信协议 Towns：a16z 下注 2250 万美元的赛道新贵》
+作者：Jaleel
+Towns 希望通过去中心化和 Web3 创建一个数字城镇广场，成员可以在其中定义边界、制定规则并建立他们想要的世界，用户将成为数字城镇广场的主人。
+随着 web3 的发展，NFT 社区、游戏社区、DAO 组织也都越来越活络，尽管他们可以使用 discord，但 discord 并不是为 web3 社区而设计的，在使用的过程中需要各种插件和 bot 来实现各种治理行为。Towns 的诞生正是希望能解决这个问题。由 a16z 领投 2250 万美元的 Towns 是什么？解决什么问题？工作机制如何？BlockBeats 对此做了简单梳理。
+Towns 是一款专为在线社区而设计的群聊协议和应用程序，构建在以太坊上，由智能合约、去中心化节点网络和基于 Towns 协议构建的应用三个部分组成。实际上，Town 的市场定位与 Multicoin 投资的社交通信协议 Farcaster 十分相似，我们甚至可以将二者视为两家头部加密 VC 在同一领域对赌的赛马。
+Towns 最大的特点是采用了城镇广场的想法，将社区、NFT、游戏相结合，可以为用户提供一个基于以太坊的智能合约系统和端到端的加密聊天。Towns 允许社区成员真正拥有他们的城镇广场——并以完全去中心化、端到端加密的聊天协议与人们自由交流。
+Towns 为用户提供了创建理想社区的基础构建块。每个 Town 的所有权都存在链上，因此可以转让、出售或由另一个智能合约（如 DAO 或多重签名）持有，同时 Towns 赋予了社区创建可编程、自治的聚会空间进行交流的能力，可以构建新的客户端或 API，并保持完全控制和自定义，让任何团体都可以使用 Towns 组织并自由聊天，并设计出符合他们需求的规则。此外，社区所有者可以创建一些独特的社区、NFT、游戏的体验，如向特定频道出售访问密钥、奖励成员的贡献，或允许用户在聊天中直接交易 NFT 等等。
+
+Towns 团队认为，在过去的十年里互联网的用户像是一群「租客」，聚集的数字城镇广场一直被「房东」拥有的围墙花园所困住。除此之外，目前大多数社区面临的最大问题是如何协调合作释放每一个用户的集体思想实现共享。Towns 希望通过去中心化和 web3 创建一个数字城镇广场，成员可以在其中定义边界、制定规则并建立他们想要的世界，用户将成为数字城镇广场的主人，并对自己所在的在线社区有一种真正的归属感。
+目前已有越来越多的项目列表加入了 Towns，希望将 Web3 项目从 Discord 和 Telegram 等平台转移出去，包括来自分析平台 Nansen 的 Dragonchain 的 Den、Matrix、Console 和 Nansen Connect。
+节点 &amp; 去中心化聊天服务器
+Towns 的节点实际上是一个节点包，包括一个服务器、一个数据库和一个节点解析器。节点包将打包为 Docker 文件，以便于部署。节点操作员指南将在以后的 Towns 版本中提供。Towns 后端最初将在相对集中的 POW 工作量证明算法上运行，而后将会构建协议及时转移到以太坊 2.0 的 POS 权益证明算法。开发者可以使用 Towns 智能合约开发社交应用，Towns 节点在去中心化的权益证明网络上运行，消息被加密并作为事件存储在复制的 DAG 中验证。
+Towns 的智能合约是可扩展、可组合和可升级的，每个社区都可以起草建立自己的规则，以此来规定谁可以参与、参与什么以及如何参与。将来，GitHub 存储库中的 sample-app 目录将包含应用程序代码。开发者将能够逐步完成自述文件以探索 Towns 协议并部署本地组件和工具，并且能够调整示例应用程序以满足您社区的需求，制作自己的用例并帮助协议发展。
+每个 Towns 节点都有一个去中心化的聊天服务器。聊天消息通信分布在对等网络中，其中每个节点都连接到其他几个节点。去中心化聊天服务器的优势之一是它提供了更好的隐私和安全性，因为消息是加密的并在网络上分发。它还确保没有中央控制点或审查制度。我们的理念是所有 Towns 用户都免于监视或压制。
+Towns Protocol &amp; appTowns
+Towns 是一个基于以太坊的可组合智能合约，它让您控制自己的在线空间。合约可扩展、可组合和可升级，使社区能够编写自己的规则以实现审查、访问和货币化。Towns 网络是一个端到端加密的近实时通信系统，由 Towns 智能合约管理，由分散的、分布式权益证明网络的节点驱动。
+Towns 应用程序将协议实施的所有技术内容都提供在一个开源、端到端加密的令人愉悦的聊天体验中。该体验通过智能合约将用户身份和 Town 所有权联系起来，以表示访问权限、审查、隐私和声誉。应用程序与 Web3 生态系统的紧密集成允许用户以以前不可能的方式与社区进行交互。从参与 DAO 治理到链上游戏交互再到交易 NFT，所有这些都可以直接在正在发生的通信社区的 Town 中完成。虽然这将是第一个 Towns 应用程序，但它将是众多应用程序之一，因为任何人都可以根据自己的特定需求构建 Towns 协议的客户端。
+daoTowns
+Towns 将由 Towns DAO 管理和维护，该团体致力于支持协议的发展和发展。DAO 做出重要决策，例如投票决定核心开发路线图、技术升级和管理财政。DAO 将代表 Towns 生态系统中的关键利益攸关者群体，如用户、节点操作员、空间拥有者和核心贡献者。
+Towns 的创始团队是 Here Not There Labs，于 2020 年由 Rubin（Houseparty 和 Meerkat 的前首席执行官兼联合创始人）和 Brian Meek（STRIVR Labs 前首席技术官和 Skype 前工程总经理）共同创立。2023 年 2 月 23 日，Towns 完成了 2550 万美元的 A 轮融资，由 a16z Crypto 领投，Benchmark、Framework Ventures 等参投，还以几十万美元的低价获得了 Towns.com 域名。
+目前 Towns 已发布 Alpha 版本，用户可以在 Towns 官网找到申请入口，填写姓名、电子邮件，以及可以接收 alpha NFT 的钱包地址。在收到 alpha NFT 后，就可以进入官网注册并体验 Towns Alpha，铸造自己的城镇，并访问 Towns 的早期采用者社区 Pioneer Town。
+
+Towns 将在 6 个月后计划推出更广泛的测试版，让任何人都可以使用该协议创建自己的社区，并在之后接下来的几个月中推出移动网络应用程序，以及推出本地应用程序。Towns 还计划增加对 Apple 下一代登录密码密钥的支持技术。
+虽然 Here Not There Labs 在项目开始阶段负责管理 Towns，但随着项目往去中心化的方向继续发展，Towns 的治理和控制将逐步过渡到 Towns DAO，Towns 计划在将控制权移交给 DAO 后，成员就可以按协议的路线图、技术升级以及 DAO 的资金管理方式进行投票治理。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/2syhz1h3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一周精选丨LSD热度不减；ZK赛道起势；Silvergate“雷声”滚滚，引发市场恐慌</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/2syhz1h3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/Rv6uXE32Qk.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews编者按：PANews精选了一周的优质内容，帮助大家利用周末时间查漏补缺，点击标题即可阅读。今日PANews 2023年2月专栏作者影响力及专栏文章热度排行榜出炉，有哪些专栏作者和热门文章上榜呢？点此查看
+一览以色列Web3图景：不容小觑的Web3科技强国
+以色列拥有像Eli Ben Sasson、Shaffi Goldwasser、Yehuda Lindell、Aviv Zohar、Eran Tromer等知名密码学者，而且他们是MPC和ZKP等革命性技术的重要推动者。
+解析香港证监会20万字咨询文件：框架蓝图、机遇与挑战
+为更好地理解《咨询文件》，本文从框架蓝图、机遇与挑战三个方面进行解析。
+12张图表解读2月加密行业：NFT引领加密市场早春回暖
+对于加密行业而言，早春二月是一个好坏参半的月份，一方面稳定币BUSD遭受冲击，另一方面NFT市场则引领了加密市场的回暖。
+本轮上涨行情的推手找到了？链上分析某神秘基金动作与加密市场走势的关系
+神秘基金再出手，小牛顶来了吗？
+5个ve(3,3)类项目对比与现状：Velodrome、Equalizer、Thena的收入相对健康，Solidlizard和Solidly v2主要来自于代币补贴
+一览最近完成融资的 7 个有趣的 Web3 项目
+进入 2023 年，哪些有趣的新项目值得我们关注？在探索和撰写本文时，我发现新项目比以前的更有趣。新项目的整体质量正在提高，高估的趋势正在降低。尽管仍然会有许多荒谬的项目，但加密行业各个子领域的整体质量正在提高。
+详解GameFi新范式：基于全链游戏的“Battle To Play”模型
+什么样的游戏模式可能会是全链游戏的新玩法呢？我们提出了Battle To Play模型，即用户与游戏机制进行博弈或用户之间的博弈玩法。
+一文盘点Starknet上值得关注的10个头部项目
+我们将探讨2023 年最有前途的以太坊第 2 层生态系统——Starknet 的十个项目。但在此之前，让我们先了解一下 Starknet 以及让它如此特别的因素！
+详解新公链Sui及其生态
+Sui 是首个完全无需许可Layer 1区块链，特点在于安全、快速。它实现了平行交易，并在交互足够简单时不需要共识而是使用更简单、快速的结算方式，因此给金融、数字商务和游戏带来了巨大的可能性。
+Blur创始人公布身份，原来这些Web3大佬都来自麻省理工学院MIT
+除了 NFT 交易平台，在公链、交易所、VC、媒体、Layer2 等 Web3 和 Crypto 的多个赛道，麻省理工学院（MIT）的毕业生和教授们均有一席之地。
+市场恐慌又至？仅1000个客户的Silvergate走入加密“死胡同”
+加密友好型银行Silvergate正遭遇一连串暴击，股价单日跌幅近60%，在监管趋严的背景下，Silvergate能否有生还机会？
+速览Magic Eden投资的11家Web3游戏工作室
+本文PANews将对Magic Eden投资的11家工作室及其游戏进行简要介绍，或许这当中就有某个“潜力股”在将来会成长为爆款。
+Jump Crypto如何与Oasis通过逆向攻击追回12万枚ETH的Wormhole被盗资金
+Jump Crypto和Oasis合作针对一份可升级的Oasis合约进行了逆攻击操作，从Wormhole黑客的金库（vaults）追回了被盗资金。
+Web3中的隐私究竟是什么？
+Web3中的隐私就像房间里的大象，它既是与去中心化、匿名和无需信任并列的最大卖点，也因为难以忍受的KYC、易于追踪的PII和外界的怀疑目光而成为最大痛点。
+视频｜盘点艺人们的Web3之旅，在NFT道路上是大哥还是大割？
+正所谓加密圈一天，人间一年，Web3的魅力，除了吸引到众多凡人纷纷入圈外，更加让不少艺人也为之著迷，进军Web3，视频跟大家一起盘点艺人们的Web3之旅！
+数据透析Blur交易大战：地板价较Opensea低5%，高积分用户当前预估营收为负
+想要获得高积分，需要投入较大资金成本，并且，在积分规则的鼓励下，地板价有下行动力，用户需要持续地、动态地管理自己的成本-预估价值差。
+币安推出的Bicasso大火背后，还有哪些NFT项目正展开生成式AI叙事
+除了Bicasso，加密市场中还有哪些聚焦生成式AI的平台？
+旗下元宇宙基金被关闭，Republic重金押注的虚拟土地还是门好生意吗？
+美国SEC监管压力下Republic将正式退出虚拟土地的投资舞台？该平台曾购入的虚拟土地如今还“香”吗，发展现状究竟如何？
+超级链来临：深度解读Coinbase和Optimism联手打造的OP Stack
+一半是海水，一半是火焰。
+盘点近期ZK赛道重点融资项目：ZK-VM将如何构建Web3的未来
+本文PANews将通过介绍近期新出现的ZK融资项目，为大家梳理ZK赛道的关键概念和发展方向。
+为什么从Optimism转移资金到以太坊主网需要7天挑战期？
+为什么偏偏是 7 天呢？3 天？5 天不行吗？
+深度探讨比特币链上NFT：Ordinals 变革及比特币可扩展性
+对于投资者而言，一方面可以关注诸如 Ordinal Punk 等具有“创世”属性的高价值稀缺NFT的交易机会，另一方面可以关注莱特币等类似比特币网络的区块链引入Ordinals的新鲜叙事。但与此同时，也应注意短期热潮过后，投机者离场，资产价格下跌的风险。
+第三届PANews PARTY AWARD年度评选开启投票，将于3月23日截止
+OpenAI宣布开放API，开发人员可将ChatGPT集成到自己的产品中
+美SEC主席：除比特币外所有加密货币都是证券
+MicroStrategy：没有由Silvergate Capital托管的资产，不会因Silvergate破产而提前偿还贷款
+公链项目Conflux完成1000万美元代币融资
+孙宇晨向Lido存入1万枚ETH，目前共质押20万ETH
+Bitwise首席投资官：看好未来三年，加密市场将迎来前所未有的大牛市周期
+隐私网络Iron Fish将于3月14日上线主网，并空投94万枚主网代币
+Sui CTO ：Aptos刻意打压Sui和Move开发者，对其感到失望
+以太坊核心开发者：未来Goerli测试网最终会被关闭</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -105,12 +221,12 @@
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/29bh5q8c.html"
                         open
                       >
-                        <summary class="article-expander__title">Silvergate暂停SEN服务，存款服务仍正常运作</summary>
+                        <summary class="article-expander__title">Silvergate暂停SEN服务，存款服务仍正常运行</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/29bh5q8c.html">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>PANews 3月4日消息，据官方消息，Silvergate Capital Corp宣布暂停SilverGate Exchange Network（SEN）服务。该决定是基于风险做出的，将立即生效。所有其他存款相关服务仍正常运作。</span>
+                              <span>PANews 3月4日消息，据官方消息，Silvergate Capital Corp宣布暂停Silvergate Exchange Network（SEN）服务。该决定是基于风险做出的，将立即生效。所有其他存款相关服务仍正常运行。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -5213,7 +5329,7 @@ Ed Felten（Offchain Labs 联合创始人）：此外，该策略会导致没有
                         <summary class="article-expander__title">【英文】Offchain Labs 联创：Arbitrum 新交易排序策略解读</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://offchain.medium.com/time-boost-a-new-transaction-ordering-policy-for-arbitrum-5b3066382d62">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/max/1200/0*qnCYhATMzQO82xwQ.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/0*qnCYhATMzQO82xwQ.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Chainfeeds 导读：
 Offchain Labs 提议为 Arbitrum 排序器更改事务排序策略，在当前先到先得（FCFS）策略中加入「Time Boost」，即事务可以支付一笔优先费用获得排序中的优势。Offchain Labs 联创 Ed Felten 在本文中对现有策略的缺点及新策略的机制及优势进行了解读。
@@ -6455,46 +6571,6 @@ Read the full entry</span>
                               <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>PANews 3月3日消息，据CoinDesk报道，根据FTX破产律师提交的一份文件，FTX.com的资产存在“巨大缺口”。根据最新价格计算，在FTX.com相关账户的钱包中确定了22亿美元的总资产，其中只有6.94亿美元属于流动性最强的“A类资产”，包括法币、稳定币、比特币和以太币。FTX所有属于A类资产的代币都有赤字。其他资产包括3.85亿美元的客户应收账款，以及对FTX关联公司Alameda Research和相关方的重大索赔。Alameda从FTX.com钱包和账户中净借款93亿美元。与此同时，FTX团队确定的客户应付账款为70亿美元。此外，FTX US也显示出资产缺口，与该交易所相关账户钱包中的总资产为1.91亿美元，客户应收款项为2800万美元，关联方应收款项为1.55亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/6xlyshqd.html"
-                        open
-                      >
-                        <summary class="article-expander__title">破产律师：FTX资产存在“巨大缺口”，所有“A类资产”代币都有赤字</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/6xlyshqd.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，据CoinDesk报道，根据FTX破产律师提交的一份文件，FTX.com的资产存在“巨大缺口”。根据最新价格计算，在FTX.com相关账户的钱包中确定了22亿美元的总资产，其中只有6.94亿美元属于流动性最强的“A类资产”，包括法币、稳定币、比特币和以太币。FTX所有属于A类资产的代币都有赤字。其他资产包括3.85亿美元的客户应收账款，以及对FTX关联公司Alameda Research和相关方的重大索赔。Alameda从FTX.com钱包和账户中净借款93亿美元。与此同时，FTX团队确定的客户应付账款为70亿美元。此外，FTX US也显示出资产缺口，与该交易所相关账户钱包中的总资产为1.91亿美元，客户应收款项为2800万美元，关联方应收款项为1.55亿美元。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/u2x1t0iz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">MicroStrategy：没有由Silvergate Capital托管的资产，不会因Silvergate破产而提前偿还贷款</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/u2x1t0iz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，据CoinDesk报道，MicroStrategy周四表示，该公司没有由Silvergate Capital (SI) 托管的资产。除了一笔将于2025年到期的贷款外，与Silvergate没有任何其他财务联系。MicroStrategy负责购买比特币的子公司MacroStrategy于2022年3月通过Silvergate Exchange Network (SEN)杠杆计划从Silvergate获得了2.05亿美元的贷款。这笔贷款将于2025年第一季度到期，不会因为Silvergate的资不偿债或破产而提前还款。据此前消息，Silvergate Capital Corporation在提交给美国证券交易委员会(SEC)的文件中表示可能&quot;资本不足&quot;，正在&quot;重新评估其业务&quot;，将无法按时提交年报。在此消息公布后，包括Coinbase、Paxos、Galaxy Digital和Kraken在内的多家加密公司结束了与Silvergate的合作关系。Silvergate的股价周四下跌了57%。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -9617,7 +9693,7 @@ Georgios Konstantopoulos：4）Ganache-UI：仅用于构建在 ICP 协议上的�
                               <span>The Sandbox 的元宇宙业务将在今年年底推出一个 DAO
 据 The Block 报道，The Sandbox 的首席运营官 Sebastien Borget 表示，元宇宙平台的未来掌握在个人创作者而不是企业品牌手中。到目前为止，该平台的去中心化是通过其 SAND 代币和该代币出售由区块链支持的虚拟土地实现的。Sebastien Borget 称，The Sandbox 计划于年底前推出 DAO，并将通过 SAND 代币投票来进行拨款等决策。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;209
+                                &ensp;<span class="article-reading-time">(&hairsp;207
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9663,7 +9739,7 @@ Georgios Konstantopoulos：4）Ganache-UI：仅用于构建在 ICP 协议上的�
 去中心化云平台 Impossible Cloud 宣布完成 700 万美元种子轮融资，HV Capital 和 1kx 领投，Protocol Labs、TS Ventures 和 Very Early Ventures 参投。所筹资金将用于为其云存储解决方案提供资金及进一步扩大团队规模并在美国成立公司。
 据 The Block 介绍，Impossible Cloud 创始团队成员包括游戏工作室 Goodgame Studios 的创始人 Wawrzinek、前 Airbnb 主管 Kaul 以及前开源平台 D2iQ 的联合创始人兼首席技术官 Daniel Baker，旨在为希望深入研究 Web3 技术的 B2B 客户提供去中心化云服务。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;208
+                                &ensp;<span class="article-reading-time">(&hairsp;206
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9771,7 +9847,7 @@ Richard Meissner（Safe 联合创始人 ）：账户抽象化对于引入新用�
 观点：
 Richard Meissner（Safe 联合创始人 ）：账户抽象化对于引入新用户和提高 Web3 可用性至关重要，Safe Core 将能够吸引更多开发者在以太坊上进行构建，为 Web3 生态系统的发展做出贡献。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;205
+                                &ensp;<span class="article-reading-time">(&hairsp;203
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10765,7 +10841,7 @@ Web3 风险投资机构和全球数字资产做市商 DWF Labs 通过从项目�
 观点：
 龙凡（Conflux 联合创始人）：Conflux 是中国唯一符合监管要求的无许可区块链，该项目的核心研发团队完全是中国人我们从未做过 ICO 之类的活动。2021 年，上海市政府向 Conflux 提供了超过 500 万美元的资助。Conflux 的「树图」共识算法能够实现每秒 3000 笔交易，确认时间为 23 秒，同时保持高度的安全性。这将公共链技术提升到日常性能的新水平。超过 300 个平台、品牌和 IP 方已经认可、采用并战略性地整合了 Conflux。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;207
+                                &ensp;<span class="article-reading-time">(&hairsp;205
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10883,7 +10959,7 @@ kydo：4. 加密货币经济安全：对给定的 AVS 进行主动监控经济�
 内容来源
 kydo：7. 以太坊平行链：暂且称其为以太坊平行链（Parallel Ethereum），平行链是否仍然具有与原始 ETH 链相同的最终性？8. 中心化问题：运行节点可能面临着巨大的带宽需求，对整个协议的去中心化帮助不大；9. 双重质押效用：如何调和两者的权重？使用另一个 AVS 作为价格预言机？还是使用原生的 AMM LP 权重？或是固定权重并依据社区治理调整？
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;72
+                                &ensp;<span class="article-reading-time">(&hairsp;73
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11439,7 +11515,7 @@ https://twitter.com/techflowpost/status/1630505313341411328
                               <span>加密钱包 ZenGo 完成 1000 万美元 A 轮扩展融资，估值仍为 1 亿美元
 据 The Block 报道，加密钱包 ZenGo 通过发行可转换债券完成 1000 万美元 A 轮扩展融资，并计划在今年晚些时候进行 B 轮融资。在 A 轮扩展融资后，ZenGo 的估值为 1 亿美元，与两年前 A 轮融资估值相同。ZenGo 于 2021 年 4 月完成了 2000 万美元的 A 轮融资，Insight Partners 领投，Distributed Global、Austin Rief Ventures、Benson Oak、Samsung Next、Elron、Collider Ventures、FJ Labs 等参投。据悉，ZenGo 目前拥有超过 80 万名注册用户，今年的目标是将用户数量增加至 200 万名，年收入达到 100 万至 200 万美元。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;207
+                                &ensp;<span class="article-reading-time">(&hairsp;205
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11772,7 +11848,7 @@ Read the full entry</span>
                         <summary class="article-expander__title">Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source&#x3D;rss-70211828fe2e------2">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/max/1200/1*_F9OhBgtlRKVKOmtOiruLw.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
@@ -11792,7 +11868,7 @@ Read the full entry</span>
                         <summary class="article-expander__title">Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source&#x3D;rss-70211828fe2e------2">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://miro.medium.com/max/1200/1*_F9OhBgtlRKVKOmtOiruLw.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
@@ -17203,8 +17279,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4328579030">
-        <time id="build-timestamp" datetime="2023-03-04T01:13:55.694Z">2023-03-04T01:13:55.694Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4328731371">
+        <time id="build-timestamp" datetime="2023-03-04T01:51:43.448Z">2023-03-04T01:51:43.448Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
