@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T08:43:16.216Z</updated>
+    <updated>2023-03-04T08:48:20.406Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -14,6 +14,30 @@
         <summary type="html"><![CDATA[<h3>Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护</h3>
 <p>Coinbase 提醒用户将于太平洋时间 3 月 4 日按原定计划停机 8 小时进行技术升级维护。Coinbase 预计将于太平洋时间 3 月 4 日 8:00 至 9:00 开始（北京时间 3 月 5 日 0:00 至 1:00）暂停 Coinbase․com 上的交易和转账，停机维护将于太平洋时间 9:00 左右（北京时间 3 月 5 日 1:00）开始。</p>
 <p><a href="https://twitter.com/coinbase/status/1631780257987723265">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护]]></title>
+        <id>https://twitter.com/coinbase/status/1631780257987723265</id>
+        <link href="https://twitter.com/coinbase/status/1631780257987723265"/>
+        <updated>2023-03-04T08:27:31.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护</h3>
+<p>Coinbase 提醒用户将于太平洋时间 3 月 4 日按原定计划停机 8 小时进行技术升级维护。Coinbase 预计将于太平洋时间 3 月 4 日 8:00 至 9:00 开始（北京时间 3 月 5 日 0:00 至 1:00）暂停 Coinbase․com 上的交易和转账，停机维护将于太平洋时间 9:00 左右（北京时间 3 月 5 日 1:00）开始。</p>
+<p><a href="https://twitter.com/coinbase/status/1631780257987723265">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】观点：Uniswap 新推出的移动端钱包缺乏创新]]></title>
+        <id>https://twitter.com/defiignas/status/1631873148969943040</id>
+        <link href="https://twitter.com/defiignas/status/1631873148969943040"/>
+        <updated>2023-03-04T07:49:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>今天 Uniswap 宣布推出开源自托管移动端钱包测试版本。加密货币研究员 lgnas 认为该移动端钱包缺乏颠覆性的创新，Uniswap 本可以做出更多的功能，并阐述了理由。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/defiignas/status/1631873148969943040">https://twitter.com/defiignas/status/1631873148969943040</a></p>
+<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Uniswap 的移动钱包并没有什么革命性的东西。它仍然使用相同的助记词方法来创建一个钱包，可以在 iCloud 或纸上进行备份。但他们本可以做得更多，比如使用账户抽象法来创建一个带有电子邮件 / 电话号码的钱包。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Uniswap 并不是第一个推出移动应用的 DEX。1inch 一年前就推出了他们的 1inch 钱包。它虽然也没有使用账户抽象，但提供了比 Uniswap 的新钱包更多的功能，而且价格也更有优势。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a><p><strong>Ignas | DeFi Research：</strong>有一些技术比如 Biconomy 的 SDK 可以将多链体验抽象为一键点击。或者像 OKX Web3 这样的钱包支持一键跨链桥和互换交易。更好的体验是建立在一个单一的超级应用程序里，Uniswap 本可以这样做。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -47,7 +71,7 @@
         <id>https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</id>
         <link href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023"/>
         <updated>2023-03-04T07:31:28.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；以太坊主网将于 Goerli 升级后约 4 周进行 Shapella 升级；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>
 <p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>]]></summary>
         <author>
