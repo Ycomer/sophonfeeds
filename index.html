@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T09:15:01.000Z">2023-03-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T09:15:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-04 datetime="2023-03-04T10:09:13.000Z">2023-03-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-04 datetime="2023-03-04T10:09:13.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,55 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/4282ghjx.html"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点主要的6种比特币扩容方案现状：Stacks数据增长较快，RSK支持EVM</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/4282ghjx.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/04/images/kN0y3rRs58.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>比特币是最安全和去中心化的区块链网络，但存在不支持智能合约、每秒只能处理大约7笔交易、交易确认可能高达数十分钟等性能上的限制。1月30日，NFT协议“Ordinals”在比特币主网上启动，截至3月2日，Ordinals上的NFT数量已经超过25万。
+虽然此举引发了不少争议，“比特币原教旨主义”认为应该尽可能保持比特币网络的简单和稳定，但“比特币扩展者”希望能给比特币带来更多金融用例。不管怎样，Ordinals的出现引发了又一波在比特币之上开发应用的热潮。本文中，PANews将盘点常见的比特币扩容方案近期的发展状况。
+Stacks采用金字塔形的堆栈，底层是比特币基础结算层，然后是增加了智能合约和可编程性的Stacks，最上层是增加可扩展性和速度的Hiro。它使用自己的智能合约语言Clarity，并将历史交易记录写入到了比特币网络中，因此Stacks是一个比特币的Layer 2（以前Stacks也称自己为Layer 1）。Stacks发行有自己的代币$STX，作为比特币智能合约的代表，$STX也是近期表现最好的资产之一。
+
+由于目前在Stacks上建立的应用仍然主要为Arkadiko Protocol、ALEX、Stackswap、CityCoins、STX NFT这几个，和PANews一年前统计时并没有什么变化，这里就不再赘述。相关阅读：《为比特币提供智能合约的Stacks网络生态初起步，一文盘点主要项目》。
+根据Defi Llama的数据，近期Stacks上的资金确实有大幅提升，过去30天（2月1日～3月2日）TVL从756万美元升至2680万美元，增长254%。增长最多的是其中的DEX ALEX，过去一个月TVL上升316%，$ALEX的价格也从2月1日的0.015美元涨至现在的0.098美元。
+Rootstock（RSK）是比特币上的一条兼容EVM的侧链，它和比特币使用相同的SHA-256算法，比特币矿工在进行挖矿的时候可以进行“合并挖矿”（Merged Mining），不需要额外的资源消耗，同时可以获得Rootstock中的交易手续费收入。Rootstock中的原生代币是一种比特币锚定币Smart BTC（RBTC），也用于支付交易的手续费。
+RIF（Rootstock基础设施，RIF）则是一个建立在Rootstock之上的平台，旨在为开发者提供区块链基础设施和服务，包括域名、存储、身份验证等，以支持dApp的开发和部署。虽然Rootstock除RBTC外并没有发行其它代币，但Rootstock和RIF由同一家公司IOV Labs开发，RIF发行有自己的代币$RIF。
+从Defi Llama上可以看到，Rootstock的TVL为5651万美元，但近期的增长并不明显，过去30天上升3%。生态中有包括DEX、借贷协议、稳定币等类型的项目，也可以使用来自以太坊等其它链上的跨链资产。但即便Rootstock支持EVM，生态项目中的资金在过去30天也并未出现大幅上升，增长最的为DEX Sovryn，目前TVL为2024万美元，过去一个月上升18.31%。
+Liquid Network是Blockstream在2018年9月推出的一种侧链技术（也称自己为Layer 2），旨在为比特币用户提供更快、更便捷的交易体验，同时保证交易的安全性和隐私性。它由包括交易所、金融机构以及其它以比特币为重点的公司组成的Liquid联合委员会维护和治理。
+除了快速、便宜、隐私的转账功能外，Liquid Network还可以实现各种类型的智能合约功能，如搭建DeFi应用（DEX Sideswap、借贷平台Hodl Hodl等）、发行稳定币、发行证券代币、铸造NFT、进行多签交易等。
+Liquid Network上主要使用的仍然是由比特币1:1锚定发行的L-BTC，Liquid官网显示近期网络上的L-BTC发行量维持稳定，目前为3551枚，一月份和二月份的数据分别为3567和3562枚。
+
+Lightning Network
+比特币Lightning Network（闪电网络）是一种比特币Layer 2协议，通过在交易双方之间建立支付通道来提高比特币的交易速度和隐私性。
+支付通道建立后，双方可以发送链下交易来进行交易，交易仅记录在通道的双方之间，不需要在比特币网络中进行确认，因此交易速度快、费用低。交易的双方可以随时将交易记录提交到比特币网络上进行结算，从而实现比特币的转移。
+根据1ML的数据，目前闪电网络中的资金为5424 BTC，过去30天增加2.2%，节点数为16291个，通道数为76297个。
+
+Statechains
+Statechains是一种用于BTC链下转移的扩容技术，它与闪电网络类似，但又不完全相同。在闪电网络中，资产的转移是通过通道的所有权转移的，但在Statechains中资产的转移是通过BTC存款（UTXO）私钥（临时密钥）的所有权转移的。
+Statechains首先会在存款者和状态链实体之间创建一个拥有多个私钥的多重签名钱包，这些私钥掌握了与之相关联的比特币。私钥的持有者可以在Statechain上创建交易记录，将私钥转移给其他人，从而实现比特币资产的转移。Statechain中的交易也不需要每笔确认，从而提高交易速度，减少手续费。
+Statechains技术的一个解决方案是通过Commerceblock创建的Mercury钱包实现的。
+目前Mercury钱包中的总存款为23 BTC，总取款为19.8 BTC，应用仍然较少。BTC的流动性必须是特定的数量，如0.001 BTC、0.01 BTC、0.1 BTC 等，因此在进行充值或转移时，只能使用特定的数量。
+
+Drivechain
+Drivechain是一个比特币开放式侧链协议，可以根据不同的需求定制不同的侧链。它的设计来自于两个比特币改进提案，BIP 300“哈希率托管”（Hashrate Escrows）通过“Container UTXOs”将3-6个月的交易数据压缩成32字节，BIP 301“联合盲挖”（Blind Merged Mining）。和RSK一样，网络的安全性也通过联合挖矿的方式，由现有的比特币矿工维护。
+Drivechain的出现是为了在保持比特币的安全性和去中心化的情况下，与以太坊、Zcash、比特币分叉链等竞争，为比特币引入更多功能，这些侧链也使用比特币的锚定币，用于转账等功能。
+2022年12月，Drivechain的开发公司Layer2 Labs才宣布完成300万美元的种子轮融资，目前该项目还未发现有大规模的应用。
+在以上几种比特币扩容方案中，Stacks和RSK较为通用，RSK支持EVM，链上应用中的资金更多，但近期只有Stacks的数据增长较快。
+在主要用于BTC支付的几种方案中，Lightning Network中的BTC最多，Liquid Network同时在积极筹备DeFi、NFT等用例，Statechains的应用有限，Drivechain虽然可定制各种侧链，但还未见大规模应用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1773,7 +1822,7 @@ Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple
                               <span>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线
 以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;67
+                                &ensp;<span class="article-reading-time">(&hairsp;68
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1795,7 +1844,7 @@ Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple
                               <span>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线
 以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;68
+                                &ensp;<span class="article-reading-time">(&hairsp;67
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5729,27 +5778,6 @@ Silvergate此前的客户Coinbase、 Tether、Circle、Paxos、 Crypto.com、Bit
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/yyw1zc20.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Silvergate股价收报5.72美元，单日跌幅达57.72%</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/yyw1zc20.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，据新浪财经行情显示，加密友好银行Silvergate股价收报5.72美元，单日跌幅达57.72%，较240美元附近的盘中历史最高点（2021年12月31）已跌去约97.61%。
-Silvergate此前的客户Coinbase、 Tether、Circle、Paxos、 Crypto.com、Bitstamp、Cboe Digital Markets、LedgerX、Galaxy和Gemini纷纷表示他们将暂停与该银行的业务，Circle也表示正解除与其的部分服务，MicroStrategy也澄清与Silvergate的关系。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/n7jxnurc.html"
                         open
                       >
@@ -6716,7 +6744,7 @@ Gitcoin：Allo Protocol 是支持 Gitcoin Grants Stack 的底层技术，将具�
                         <summary class="article-expander__title">【英文】Offchain Labs 联创：Arbitrum 新交易排序策略解读</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://offchain.medium.com/time-boost-a-new-transaction-ordering-policy-for-arbitrum-5b3066382d62">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/0*qnCYhATMzQO82xwQ.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://miro.medium.com/max/1200/0*qnCYhATMzQO82xwQ.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Chainfeeds 导读：
 Offchain Labs 提议为 Arbitrum 排序器更改事务排序策略，在当前先到先得（FCFS）策略中加入「Time Boost」，即事务可以支付一笔优先费用获得排序中的优势。Offchain Labs 联创 Ed Felten 在本文中对现有策略的缺点及新策略的机制及优势进行了解读。
@@ -10011,7 +10039,7 @@ https://medium.com/@first.vip/链上链下-双管齐下-万字剖析-makerdao-�
                         <summary class="article-expander__title">万字剖析 MakerDAO 终极形态的两大新产品</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://medium.com/@first.vip/%E9%93%BE%E4%B8%8A%E9%93%BE%E4%B8%8B-%E5%8F%8C%E7%AE%A1%E9%BD%90%E4%B8%8B-%E4%B8%87%E5%AD%97%E5%89%96%E6%9E%90-makerdao-%E7%BB%88%E6%9E%81%E5%BD%A2%E6%80%81%E7%9A%84%E4%B8%A4%E5%A4%A7%E6%96%B0%E4%BA%A7%E5%93%81-f04dc31d48a2">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/0*00iTHrPUNDzyvfYV.jpg" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://miro.medium.com/max/1200/0*00iTHrPUNDzyvfYV.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Chainfeeds 导读：
 头等仓出品的研究报告，从团队组成、产品运行逻辑、协议框架、经济模型、发展历史、协议现状及所面临的竞争等多方面对 MakerDAO 进行了详尽的调研。
@@ -11814,7 +11842,7 @@ William M. Peaster：3) Insrt Finance：长期收益策略 NFT 协议，其第�
 内容来源
 William M. Peaster：4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11847,7 +11875,7 @@ William M. Peaster：3) Insrt Finance：长期收益策略 NFT 协议，其第�
 内容来源
 William M. Peaster：4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;34
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -18129,8 +18157,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4330508805">
-        <time id="build-timestamp" datetime="2023-03-04T10:13:16.434Z">2023-03-04T10:13:16.434Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4330543706">
+        <time id="build-timestamp" datetime="2023-03-04T10:22:24.407Z">2023-03-04T10:22:24.407Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
