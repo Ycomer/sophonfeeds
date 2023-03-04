@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T05:41:00.997Z</updated>
+    <updated>2023-03-04T05:46:42.298Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -24,6 +24,18 @@
         <summary type="html"><![CDATA[PANews 3月4日消息，据官方公告，由于Silvergate Bank持续存在的不确定性，稳定币发行商Circle已将Silvergate持有的一小部分USDC储备存款转移至其他银行合作伙伴。所有USDC储备都存放在几家资本充足的美国银行和Circle Reserve Fund中，Circle Reserve Fund目前持有约80%的USDC储备。德勤(Deloitte)每月都会对总储备进行审核和证明。此外，尽管Silvergate表示其存款相关服务不受影响，但Circle正在积极转移剩余Silvergate相关服务。据此前消息，Circle表示正在解除与Silvergate的部分服务，目前包括USDC在内的所有Circle服务都运转正常。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap 新钱包初体验，有哪些惊喜？]]></title>
+        <id>https://www.theblockbeats.info/news/35219</id>
+        <link href="https://www.theblockbeats.info/news/35219"/>
+        <updated>2023-03-04T04:50:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Uniswap 宣布推出开源自托管移动端钱包，由于 App Store 上架审核问题，目前仅可向 10,000 名用户发放 TestFlight 测试资格。BlockBeats 发文分享使用体验及其中惊喜之处。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35219">https://www.theblockbeats.info/news/35219</a></p>
+<p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>该钱包支持助记词和 iCloud 恢复以及面部识别解锁。当前版本仅支持一套助记词，如需新建多个钱包，将共享这一套助记词。钱包的功能比较完整，支持基本的 Token 收发、WalletConnect、Portfolio（持仓 ERC-20、NFT 以及交易记录）展示、Swap 和 Web3 浏览器。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>通过添加「view only」钱包，可以查看追踪其他地址的持仓动态，支持通过 ENS 域名添加；Swap 功能支持以太坊、Polygon、Arbitrum 和 Optimism 网络，当前版本暂不支持 NFT 交易；Web3 浏览器界面与 Uniswap 整合的十分彻底，Top tokens 显示可按照 Uniswap 上的成交额和 TVL 排名，支持已关注 Token 和地址展示。针对部分 Token，钱包也会做出「该 Token 未在美国头部 CEX 上架或者频繁交易」的风险警示。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>在引入更广泛用户成为 Web3 主流叙事的基调下，随着账户抽象、Web3 DID 等技术和基础设施逐步成熟、实现。一站式 Web3 门户势必成为加密领域的热门赛道，移动端钱包则是目前可以预见的最可能的形式。Uniswap 于当下推出开源移动端钱包可以说是审时度势之举。总体来说，目前这款钱包完成度已经较高，技术方面也很成熟。鉴于 Uniswap 作为 DEX 顶流拥有雄厚的用户基础，假以时日，必将在钱包赛道占据一席之地。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
