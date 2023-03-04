@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T06:37:03.580Z</updated>
+    <updated>2023-03-04T06:43:07.703Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Foresight Ventures: RaaS 是什么？什么样的 RaaS 会赢得市场]]></title>
+        <id>https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA</id>
+        <link href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA"/>
+        <updated>2023-03-04T05:49:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Foresight Ventures 成员 Yihan Xu 对 RaaS 进行全面解读，包括 RaaS 是什么、RaaS 的技术路径分析、市面上 RaaS 项目的分析、RaaS 的价值以及作者所理解的 RaaS 最终形态。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA</a></p>
+<p><strong>文章作者：</strong></p><p>Yihan Xu</p><hr><h3>观点：</h3><p><strong>Foresight Ventures：</strong>⽬前 RaaS 发挥的价值：定制化 > 单纯成本和效率。我认为现阶段对 RaaS 的需求有限，general purpose scaling 能满⾜ 90% 以上的需求。虽然在⼀些细分领域定制化的 rollup 已经开始发挥⽆法替代的作⽤，但毕竟不是主流。RaaS 创造的价值有限，需要在考虑⽣态、互操作性等综合因素的基础上进⼀步探索。</p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">内容来源</a><p><strong>Foresight Ventures：</strong>基于 OP 的 RaaS 的优势在于快速搭建⽣态，形成壁垒，但是单纯从成本和效率上带来的⼩幅提升并不⾜以吸引项⽬⽅，因此没有⻓期价值。⽽基于 ZK 的 RaaS 能在定制化功能上解决痛点，但需求依然不是主流。多层⽹络结构的设计使 L3 的 RaaS 获得更低的成本和更强的互操作性，这是构建⼀个⽣态繁荣的 RaaS 的基础。基于 ZK 的多层⽹络设计可以将定制化和低成本的优势叠加，⻓期看会成为市场最终的选择。</p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">内容来源</a><p><strong>Foresight Ventures：</strong>具备⾜够可扩展性的 RaaS 可以在保证 performance 的前提下满⾜所有项⽬⽅的定制化 rollup 需求。同时，RaaS 真正崛起⼜重度依赖⽣态的建设。因此，多个 RaaS 共存的格局显然是不 make sense 的。我认为终局⼀定是⼀个或者少数 RaaS 占据整个市场。</p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Circle：已将Silvergate持有的一小部分USDC储备存款转移至其他银行合作伙伴]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ulbl00ky.html</id>
@@ -8100,18 +8112,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>ve (3,3) 类项目在最近的反弹行情中取得了更好的成绩，Optimism 上的 Velodrome、BNB 链上的 Thena、Arbitrum 上的 Solidlizard、以太坊上的 Solidly v2、Fantom 上的 Equalizer 这几个分叉自 Solidly 的项目中，大多数在过去一个月的流动性增长都超过了 100%。PANews 作者蒋海波对这 5 个项目进行了对比以及现状分析。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">https://www.panewslab.com/zh/articledetails/3qitdp2t.html</a></p>
 <p><strong>文章作者：</strong></p><p>PANews</p><hr><h3>观点：</h3><p><strong>PANews：</strong>1）Velodrome 目前处于 Epoch 39 的时间段内，似乎已发展成为 Optimism 的流动性中心，流动性为 2.84 亿美元，过去一个月增长 125%。近期随着 VELO 代币价格的快速上涨，质押者投票的收益率却持续下降，veVELO 的增长也减慢。2）Thena 目前处于 Epoch 7 阶段，TVL 1.47 亿美元，过去 30 天增加 27.59%。在当前阶段，提供贿赂的外在资金能够给 veTHE 的持有者带来真实收入，官网显示投票的平均 APR 为 36.95%。</p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">内容来源</a><p><strong>PANews：</strong>3）Solidlizard 目前正处于 Epoch 5 阶段，得益于 Arbitrum 生态的快速发展，SolidLizard 的 TVL 为 1.14 亿美元，过去一周增长 196%。目前，大多数 veSLIZ 投票权仍然集中在团队手中，所以其他项目可能没有动力来持续收集增发出的 SLIZ 代币。因此 SLIZ 的质押率持续下降，ve (3,3) 的格局还未形成。4）Solidly v2 目前处于 Epoch8 阶段，TVL 8877 万美元，过去一个月上升 112%。整体上几乎没有项目在 Solidly v2 中进行贿赂，可能也难以有竞争积累投票权的现象，未来可能面临压力。</p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">内容来源</a><p><strong>PANews：</strong>5）Equalizer 目前处于 Epoch14 阶段，TVL 为 4565 万美元，过去一个月增长 138%，成为 Fantom 上第三大 DEX。Equalizer 中投票者的主要收入来自于交易手续费，约占 70%，且在这种情况下，投票者通常也能获得 80% 的 APR。高手续费收入加上资本效率较高，这套机制很可能维持。</p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】数据解读 LooksRare、X2Y2 和 Blur 空投策略：表现如何？对 NFT 市场有何启示？]]></title>
-        <id>https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8</id>
-        <link href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8"/>
-        <updated>2023-02-28T03:39:27.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>NFT 市场在过去一年里见证了一系列空投活动，但这些空投活动是否为平台带来了效用仍值得怀疑。加密研究员 J.Hackworth 对 LooksRare、X2Y2 和 Blur 空投数据进行了分析以探索每个空投活动在其各自市场上的成功程度。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8</a></p>
-<p><strong>文章作者：</strong></p><p>J.Hackworth</p><hr><h3>观点：</h3><p><strong>J.Hackworth：</strong>1）交易第一天，LOOKS 的交易价格在 2.1 美元左右，估计空投总金额为 2.06 亿美元，几周内 LooksRare 代币增长了 180%，但最终 59% 的 LOOKS 空投钱包选择抛售，4 个月内，LooksRare 上空投钱包保留率不到 10%。空投一年后，只有 0.2% 空投用户是活跃的； 2）X2Y2 只有 23% 的空投被领取，空投后超过 85% 的 X2Y2 钱包选择了抛售；【原文为英文】</p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">内容来源</a><p><strong>J.Hackworth：</strong>3）Blur：Blur 的空投有一个变化，就是空投与多轮活动同时进行。但依然不出所料，目前只有 21% 的空投地址保留了 BLUR。但一个值得考虑的指标是空投后 Blur 活跃地址数量有所增加，另一方面选择抛售和用户为活跃率较低的用户。但 Blur 平台交易量非常倾斜，接近 20% 的购买量由 25 个地址完成，此外，虽然 Blur 整体洗盘交易比例较低，约为 11%，但该平台上的顶级交易者参与了洗盘交易。【原文为英文】</p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">内容来源</a><p><strong>J.Hackworth：</strong>研究后发现，LooksRare、X2Y2 及 Blur 空投后都出现了大量抛售情况，用户活跃度急剧降低，虽然 Blur 通过引入多轮空投模式，但似乎存在小部分用户操纵交易量的情况。从数据中我们看到：1）大规模空投可能会适得其反；2）多轮空投的模式被证明在吸引用户注意力方面是有效的；3）对空投采取一刀切的做法并不奏效，相反利用链上数据激励用户可以通过寻找高质量用户来提高空投成功率。【原文为英文】</p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
