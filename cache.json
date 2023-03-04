@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；以太坊主网将于 Goerli 升级后约 4 周进行 Shapella 升级；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023\">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>\n<p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>",
           "link": "https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023",
           "publishedOn": "2023-03-04T07:31:28.000Z",
-          "wordCount": 3472,
+          "wordCount": 3266,
           "title": "【英文】以太坊生态周报：Shapella 升级、Dencun 升级、ERC6596",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28c0b138-1b77-4196-909f-9076a2ccdaa3_800x800.png"
         },
@@ -167,7 +167,7 @@
           "description": "<h3>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线</h3>\n<p>以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/",
           "publishedOn": "2023-03-04T02:04:25.000Z",
-          "wordCount": 20270,
+          "wordCount": 20265,
           "title": "ConsenSys zkEVM 公共测试网将于 3 月 28 日上线",
           "imageUrl": "https://www.coindesk.com/resizer/jHQlPxc8R3RvI0FegOjTgkyAm6g=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LBRTYFCLDREUBGV6F6RYKHX5RE.jpeg"
         },
@@ -247,7 +247,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 536,
+          "wordCount": 534,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -377,7 +377,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 662,
+          "wordCount": 666,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -427,7 +427,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20130,
+          "wordCount": 20137,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -499,7 +499,7 @@
           "publishedOn": "2023-03-02T09:58:51.000Z",
           "wordCount": 1435,
           "title": "万字剖析 MakerDAO 终极形态的两大新产品",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/0*00iTHrPUNDzyvfYV.jpg"
+          "imageUrl": "https://miro.medium.com/max/1200/0*00iTHrPUNDzyvfYV.jpg"
         },
         {
           "id": "https://sandboxgame.medium.com/notice-of-security-incident-february-2023-ea692ee8094b",
@@ -687,7 +687,7 @@
           "description": "<h3>以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络</h3>\n<p>据 Etherscan 数据和以太坊基金会安全研究员 Yoav Weiss 确认，以太坊账户抽象提案 ERC-4337 的核心合约已通过名为 EntryPoint 的智能合约完成部署，可用于所有以太坊虚拟机（EVM）兼容网络。且据知情人士透露，该合约已经通过安全审计。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>erc4337：</strong>ERC-4337 的核心合约已经通过了 Open Zeppelin 的审计，捆绑器（Bundlers）和支付网关包括 Stackup、Alchemy、Biconomy、Etherspot、CANDIDE 及 Blocknative 等。【原文为英文】</p><a href=\"https://twitter.com/erc4337/status/1631087958949531648\">内容来源</a><p><strong>Shruti Gandhi（Biconomy 产品）：</strong>ERC-4337 引入了一些执行者和一个被称为 UserOp 的新的类似交易的结构，用于这些执行者之间的通信。而新角色 bundlers 则负责将 userOp 转换为交易，并有一个 EOA 支付其 Gas。但也存在一个问题，恶意行为者让 Bundler 付款后不进行退还，因此我们引入了一个新的智能合约 EntryPoint（EP）。EP 会验证智能合约存款是否足以执行交易，交易结束后， Bundlers 会从 EP 存款中退还支付的 Gas。【原文为英文】</p><a href=\"https://twitter.com/shrewtea892/status/1630479210916757504\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/",
           "publishedOn": "2023-03-02T01:37:58.000Z",
-          "wordCount": 20711,
+          "wordCount": 20706,
           "title": "以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络",
           "imageUrl": "https://www.coindesk.com/resizer/pL4QDjZ1F_boKpthlDCGdRmOnCQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/B5ZTNK3UAZE3ZNKT2N4IFXIC6Y.jpg"
         },
@@ -737,7 +737,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>此前，BUSD 置身 SEC 和 NYDFS 的监管风波。Dose of DeFi 作者 Chris Powers 发文探讨另一类规模更小、稳定性更差的稳定币。它们试图在链上运行，且不受 TradFi 基础设施和法定支持的稳定币所面临的监管限制，最有潜力释放新的信贷创新和效率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins</a></p>\n<p><strong>文章作者：</strong></p><p>Chris Powers</p><hr><h3>观点：</h3><p><strong>Chris Powers：</strong>MakerDAO 在前两年不断发展壮大，代价是目前 Dai 近 60% 由法定稳定币支持，暴露出每个创新稳定币最终都会遇到的难题：如何完全依赖链上资产和执行机制来扩展和增加供应。虽然 MakerDAO 正在推进提高 Dai 储蓄率等战略举措，但它似乎已成为其自身成功的受害者，同时处于去中心化和增长模式，进行监管套利，但也在易受监管的真实世界资产上下重注；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>Aave 的稳定币 GHO 两周前已在测试网部署，设计方面没什么创新，它的成功将取决于利用 Aave 网络效应的能力。Aave 几年来一直在借贷领域处于领先地位。就像一家拥有广泛分布的银行一样，Aave 将尝试利用其现有贷款完成 GHO 超募。它如何处理挂钩并管理其对法币支持的稳定币的依赖是另一个问题；【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>crvUSD 将基于一种创新设计，其中清算被特殊用途的 AMM 取代。提高抵押品效率的一种方法是通过提供流动性从中赚取费用；Gyroscope 是另一个即将在以太坊上推出的创新稳定币，通过元聚合和索引限制对单一预言机价格的依赖，它还引入了 Maker 的挂钩稳定模块的更新版本，试图防止陀螺仪稳定币（GYD）在寻求挂钩稳定时中被中心化的稳定币增选。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a><p><strong>Chris Powers：</strong>规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】</p><a href=\"https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins\">内容来源</a>",
           "link": "https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins",
           "publishedOn": "2023-03-01T10:59:32.000Z",
-          "wordCount": 4475,
+          "wordCount": 4269,
           "title": "【英文】链上稳定币能否突破法币主导的市场？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4b013d4f-652a-4b8f-8887-0e7606f5cfbc_4068x2450.png"
         },
@@ -797,7 +797,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Eigenlayer 提出的重质押方案，允许用户将 ETH、lsdETH 及 LP 代币质押在其他公链、预言机、中间件等，作为节点并得到验证奖励，并释放 ETH 共识层的安全性。加密分析师 kydo 阅读完其白皮书后提出了几个问题 / 思考，包括非原生质押及其安全性、NFT 头寸流动性、AVS（Active Validated Services）的活跃度、协议的去中心化等。本文由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2144\">https://www.techflowpost.com/article/2144</a></p>\n<p><strong>文章作者：</strong></p><p>kydo</p><hr><h3>观点：</h3><p><strong>kydo：</strong>1. 安全性：原生重质押和非原生重质押的安全模式是什么？鉴于基础资产的可组合性，如何证明安全性？2. NFT 头寸流动性：当你存入 EigenLayer 时，得到的是一个代表头寸的 NFT，这大大降低了整个系统的流动性。3. 保证活跃度：Slash 是确保安全的直接措施，但系统如何确保活跃度在白皮书中探讨的较少。猜测：Optimistic+bond + 防欺诈模型？</p><a href=\"https://www.techflowpost.com/article/2144\">内容来源</a><p><strong>kydo：</strong>4. 加密货币经济安全：对给定的 AVS 进行主动监控经济安全性是否可行？AVS 的安全保障量是由它产生的费用和运行服务的风险决定的，EigenLayer 如何缓解这些问题？5. 去中心化排序器：白皮书中 L2 将排序交给 EigenLayer 验证器的做法是否可行？6. 事件驱动的 MEV：事件驱动的 MEV 允许验证人与 MEV 方例如（构建者）达成协议，ETH 区块空间会不会因此而变成一种「订阅服务」？</p><a href=\"https://www.techflowpost.com/article/2144\">内容来源</a><p><strong>kydo：</strong>7. 以太坊平行链：暂且称其为以太坊平行链（Parallel Ethereum），平行链是否仍然具有与原始 ETH 链相同的最终性？8. 中心化问题：运行节点可能面临着巨大的带宽需求，对整个协议的去中心化帮助不大；9. 双重质押效用：如何调和两者的权重？使用另一个 AVS 作为价格预言机？还是使用原生的 AMM LP 权重？或是固定权重并依据社区治理调整？</p><a href=\"https://www.techflowpost.com/article/2144\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2144",
           "publishedOn": "2023-03-01T06:39:15.000Z",
-          "wordCount": 21837,
+          "wordCount": 21806,
           "title": "EigenLayer 白皮书中的 9 大潜在问题：安全性、流动性、去中心化…",
           "imageUrl": "https://assets.techflowpost.com/20230207/c274e05f1f244fc9bccb842eb5c273b2.png"
         },
@@ -877,7 +877,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>最早，LSD 旨在解决以太坊质押的痛点，初心是解放流动性，为用户质押的流动性发放流动性凭证。但如今收益率逐渐成了竞争焦点。深潮 TechFlow 介绍了三个建立在 LSD 资产上的 DeFi 协议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">https://twitter.com/techflowpost/status/1630505313341411328</a></p>\n<p><strong>文章作者：</strong></p><p>深潮 TechFlow</p><hr><h3>观点：</h3><p><strong>深潮 TechFlow：</strong>1）Yearn。Yearn 即将推出新的产品「yETH」，旨在以 yETH 的代币形式覆盖一篮子 LSD 资产，在分散风险的同时提升收益率。相当于 yETH 是基于 stETH 和 frxETH 等 LSD 资产构建，同时 yETH 还能够享有 Yearn 本身所持有的 veCRV 治理资源的倾斜。Yearn 和 Frax 不是直接竞争，因为 yETH 的底层支撑资产并非 ETH，而是 stETH 和 frxETH 等 LSD 资产，而 yETH 将会为 stETH 和 frxETH 持有者提供更高的收益，这将推动巨大的以太坊质押飞轮的出现或者说是新的套娃浪潮。</p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">内容来源</a><p><strong>深潮 TechFlow：</strong>2）Pendle Finance。Pendle 是一个建立在以太坊等协议上的，能够将收益代币化的 DeFi 协议，它允许用户对某些资产的未来收益进行代币化和售出。LSD 协议是帮用户质押 ETH，并寻求高收益率，而 Pendle 是在将 LSD 协议为用户提供的未来收益在当下变现。</p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">内容来源</a><p><strong>深潮 TechFlow：</strong>3）Aura Finance。目前， stETH 已经占据了 LSD 大部分份额，体量较小的参与方想要逆袭，最简单的办法就是提供更多激励：更高的收益率；增加流动性；集成 DeFi， Aura Finance 就可以做到，它是一个基于 Balancer 构建的生态收益治理平台，Aura 之于 Balancer，就好比 Convex 之于 Curve。</p><a href=\"https://twitter.com/techflowpost/status/1630505313341411328\">内容来源</a>",
           "link": "https://twitter.com/techflowpost/status/1630505313341411328",
           "publishedOn": "2023-03-01T03:18:18.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【长推】盘点建立在 LSD 资产上的 DeFi 协议：Yearn、Pendle Finance、Aura Finance",
           "imageUrl": null
         },
@@ -997,7 +997,7 @@
           "description": "<h3>Optimism 将于三月份对 Optimism Georli 进行硬分叉</h3>\n<p>据 Optimism 官方消息报道， 以太坊二层解决方案 Optimism 宣布在 3 月份进行 Optimism Goerli 的硬分叉，确切时间将于下周发布。此次硬分叉旨在修复 API 中某些系统交易收据的不一致以改善 Bedrock 的开发体验，该 bug 是面向开发人员的，不会影响用户资金，但它确实需要分叉才能修复。op-geth 和 op-node 升级将在 3 月初发布，随后在 3 月中旬激活分叉。Optimism Goerli 用户无需采取任何行动，也不会遇到任何中断或停机，但其合作伙伴和项目运行节点需要在发布 op-geth 和 op-node 更新时升级他们的节点。</p>\n<p><a href=\"https://twitter.com/optimismFND/status/1630333585524932609\">内容来源</a></p><hr>",
           "link": "https://twitter.com/optimismFND/status/1630333585524932609",
           "publishedOn": "2023-02-28T07:54:25.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "Optimism 将于三月份对 Optimism Georli 进行硬分叉",
           "imageUrl": null
         },
