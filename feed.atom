@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T05:36:11.524Z</updated>
+    <updated>2023-03-04T05:41:00.997Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -24,6 +24,18 @@
         <summary type="html"><![CDATA[PANews 3月4日消息，据官方公告，由于Silvergate Bank持续存在的不确定性，稳定币发行商Circle已将Silvergate持有的一小部分USDC储备存款转移至其他银行合作伙伴。所有USDC储备都存放在几家资本充足的美国银行和Circle Reserve Fund中，Circle Reserve Fund目前持有约80%的USDC储备。德勤(Deloitte)每月都会对总储备进行审核和证明。此外，尽管Silvergate表示其存款相关服务不受影响，但Circle正在积极转移剩余Silvergate相关服务。据此前消息，Circle表示正在解除与Silvergate的部分服务，目前包括USDC在内的所有Circle服务都运转正常。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap 新钱包初体验，有哪些惊喜？]]></title>
+        <id>https://www.theblockbeats.info/news/35219</id>
+        <link href="https://www.theblockbeats.info/news/35219"/>
+        <updated>2023-03-04T04:50:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Uniswap 宣布推出开源自托管移动端钱包，由于 App Store 上架审核问题，目前仅可向 10,000 名用户发放 TestFlight 测试资格。BlockBeats 发文分享使用体验及其中惊喜之处。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35219">https://www.theblockbeats.info/news/35219</a></p>
+<p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>该钱包支持助记词和 iCloud 恢复以及面部识别解锁。当前版本仅支持一套助记词，如需新建多个钱包，将共享这一套助记词。钱包的功能比较完整，支持基本的 Token 收发、WalletConnect、Portfolio（持仓 ERC-20、NFT 以及交易记录）展示、Swap 和 Web3 浏览器。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>通过添加「view only」钱包，可以查看追踪其他地址的持仓动态，支持通过 ENS 域名添加；Swap 功能支持以太坊、Polygon、Arbitrum 和 Optimism 网络，当前版本暂不支持 NFT 交易；Web3 浏览器界面与 Uniswap 整合的十分彻底，Top tokens 显示可按照 Uniswap 上的成交额和 TVL 排名，支持已关注 Token 和地址展示。针对部分 Token，钱包也会做出「该 Token 未在美国头部 CEX 上架或者频繁交易」的风险警示。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>在引入更广泛用户成为 Web3 主流叙事的基调下，随着账户抽象、Web3 DID 等技术和基础设施逐步成熟、实现。一站式 Web3 门户势必成为加密领域的热门赛道，移动端钱包则是目前可以预见的最可能的形式。Uniswap 于当下推出开源移动端钱包可以说是审时度势之举。总体来说，目前这款钱包完成度已经较高，技术方面也很成熟。鉴于 Uniswap 作为 DEX 顶流拥有雄厚的用户基础，假以时日，必将在钱包赛道占据一席之地。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -8100,19 +8112,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>NFT 市场在过去一年里见证了一系列空投活动，但这些空投活动是否为平台带来了效用仍值得怀疑。加密研究员 J.Hackworth 对 LooksRare、X2Y2 和 Blur 空投数据进行了分析以探索每个空投活动在其各自市场上的成功程度。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8</a></p>
 <p><strong>文章作者：</strong></p><p>J.Hackworth</p><hr><h3>观点：</h3><p><strong>J.Hackworth：</strong>1）交易第一天，LOOKS 的交易价格在 2.1 美元左右，估计空投总金额为 2.06 亿美元，几周内 LooksRare 代币增长了 180%，但最终 59% 的 LOOKS 空投钱包选择抛售，4 个月内，LooksRare 上空投钱包保留率不到 10%。空投一年后，只有 0.2% 空投用户是活跃的； 2）X2Y2 只有 23% 的空投被领取，空投后超过 85% 的 X2Y2 钱包选择了抛售；【原文为英文】</p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">内容来源</a><p><strong>J.Hackworth：</strong>3）Blur：Blur 的空投有一个变化，就是空投与多轮活动同时进行。但依然不出所料，目前只有 21% 的空投地址保留了 BLUR。但一个值得考虑的指标是空投后 Blur 活跃地址数量有所增加，另一方面选择抛售和用户为活跃率较低的用户。但 Blur 平台交易量非常倾斜，接近 20% 的购买量由 25 个地址完成，此外，虽然 Blur 整体洗盘交易比例较低，约为 11%，但该平台上的顶级交易者参与了洗盘交易。【原文为英文】</p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">内容来源</a><p><strong>J.Hackworth：</strong>研究后发现，LooksRare、X2Y2 及 Blur 空投后都出现了大量抛售情况，用户活跃度急剧降低，虽然 Blur 通过引入多轮空投模式，但似乎存在小部分用户操纵交易量的情况。从数据中我们看到：1）大规模空投可能会适得其反；2）多轮空投的模式被证明在吸引用户注意力方面是有效的；3）对空投采取一刀切的做法并不奏效，相反利用链上数据激励用户可以通过寻找高质量用户来提高空投成功率。【原文为英文】</p><a href="https://rabbithole.mirror.xyz/s1BFIgK1oIDAiQnUpyIJtsfx18zvN0U6tWh4fW76DV8">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MakerDAO 关于「向 Cogent 银行提供 1 亿美元借款」的提案未通过]]></title>
-        <id>https://vote.makerdao.com/polling/QmRh87bm</id>
-        <link href="https://vote.makerdao.com/polling/QmRh87bm"/>
-        <updated>2023-02-28T03:03:57.000Z</updated>
-        <summary type="html"><![CDATA[<h3>MakerDAO 关于「向 Cogent 银行提供 1 亿美元借款」的提案未通过</h3>
-<p>MakerDAO 社区已投票否决向 Cogent 银行提供 1 亿美元借款的提案，其中共有 96,973.529 MKR 参与投票，反对率达 72.88%。根据该提案，Cogent 银行提议从 Maker 借入高达 1 亿美元的 DAI 稳定币，并将使用这笔资金向其企业和工业客户提供贷款。
-Cogent Bank 是一家总部位于佛罗里达州的州特许银行，总资产超过 10 亿美元，而去年 8 月，MakerDAO 社区曾投票批准向 Huntingdon Valley 银行提供类似结构的贷款。</p>
-<p><a href="https://vote.makerdao.com/polling/QmRh87bm">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
