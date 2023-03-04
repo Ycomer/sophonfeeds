@@ -27,7 +27,7 @@
           "description": "<h3>Uniswap 推出开源自托管移动端钱包，可通过 Apple TestFlight 下载</h3>\n<p>Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple TestFlight 下载。支持以太坊、Polygon、Arbiturm、Optimism 等网络的 Swap 功能；该钱包还提供价格监测工具，可监测 ERC-20 代币、钱包、NFT；支持通过 WalletConnect 连接以太坊主网和 Layer 2 上几乎所有的 dApp；支持 FaceID 解锁和 iCloud 加密助记词。\n据 Uniswap 表示，该钱包目前仅可向 10,000 名用户发放 TestFlight 测试资格，用户有机会通过 ETHDenver 的 Uniswap 展位获得测试资格，或关注 Uniswap 官方社区和社交媒体。</p>\n<p><a href=\"https://twitter.com/Uniswap/status/1631691330031169537\">内容来源</a></p><hr>",
           "link": "https://twitter.com/Uniswap/status/1631691330031169537",
           "publishedOn": "2023-03-04T02:05:18.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Uniswap 推出开源自托管移动端钱包，可通过 Apple TestFlight 下载",
           "imageUrl": null
         },
@@ -117,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 532,
+          "wordCount": 536,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -227,7 +227,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 期权协议 Premia 或将于 4 至 5 月期间推出 V3 版本，重点是为 Premia 引入集中流动性。V3 版本还有哪些其他预期变化？又将为 Premia 带来哪些改变？加密研究员 hangry 撰文带你一探究竟。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">https://twitter.com/kindahangry/status/1631278232300396545</a></p>\n<p><strong>文章作者：</strong></p><p>hangry</p><hr><h3>观点：</h3><p><strong>hangry：</strong>Premia 是一个基于点对池架构的多链去中心化期权市场，类似于期权市场的 Uniswap V2。Premia 提供针对资产和方向的期权池，用户可以利用市场趋势进行资本部署、使用 Delta 策略、做空特定资产波动率及跨越各种平台进行期权套利。且 Premia 是唯一一个提供链上美式期权的市场。【原文为英文】</p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">内容来源</a><p><strong>hangry：</strong>Premia V3 升级的重点是在 Premia 上引入 Uniswap V3 的集中流动性机制。这将会让 Premia 转变为一个混合 AMM / 订单簿。V3 版本其他的预期变化包括迁移至欧式期权、市场参与者能够在买入和卖出期权时同时作为做市商和买入者及区间订单。Premia V3 代码预计将于 3 月中旬完成，但没有确定日期，且在 V3 后 Premia 还将进行代币经济学改造。【原文为英文】</p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">内容来源</a><p><strong>hangry：</strong>Premia 的代币机制围绕 vxPREMIA 运作，类似于 veCRV ，区别在于基于使用率的奖励、以 USDC 为单位的奖励机制及平台费用折扣。且 PREMIA 的流通市场非常小，低于 1000 万美元。此外，Premia 的国库规模可观，包括 1400 万美元的 ETH 和 USDC。【原文为英文】</p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">内容来源</a>",
           "link": "https://twitter.com/kindahangry/status/1631278232300396545",
           "publishedOn": "2023-03-03T04:30:40.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】V3 版本降至，DeFi 期权协议 Premia 会给「链上期权」带来哪些改变？",
           "imageUrl": null
         },
@@ -247,7 +247,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 656,
+          "wordCount": 658,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -267,7 +267,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 Silvergate Bank 声称可能面临资本不足的问题且正在重新进行业务评估的消息传出后，多家加密公司纷纷表态「断交」，Silvergate 股票也如瀑布版下跌。Decrypt 作者 André Beganski 盘点了多家加密公司的声明，并对其无法按时提交年度财务报表的原因进行了解析。中文版本由 Odaily 星球日报编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185468\">https://www.odaily.news/post/5185468</a></p>\n<p><strong>文章作者：</strong></p><p>André Beganski</p><hr><h3>观点：</h3><p><strong>André Beganski：</strong>1）Coinbase：最早宣布不再与 Silvergate 合作的加密交易所；2）Crypto.com：发言人确认通过 Silvergate 的存款和取款交易均已暂停；3）Bitstamp：已经为所有用户暂时取消 Silvergate Exchange Network 服务及通过 Silvergate Bank 提供的所有美元电汇支持；4）Gemini：声明在 Silvergate 中没有存放任何 GUSD 和客户资金；</p><a href=\"https://www.odaily.news/post/5185468\">内容来源</a><p><strong>André Beganski：</strong>5）Circle：正在解除与 Silvergate 的部分服务；6）Paxos：对 Silvergate 没有太多实质性的风险敞口；7）Tether：对 Silvergate 没有风险敞口；8）Galaxy Digital：已停止接受或发起向 Silvergate 的资金转移交易；9）Cboe Digital：将暂停与 Silvergate 的所有交易；10）MicroStrategy：除一笔贷款外，没有任何其他财务关系。</p><a href=\"https://www.odaily.news/post/5185468\">内容来源</a><p><strong>André Beganski：</strong>Silvergate 其实是 FTX 崩盘的另一个「牺牲品」，由于 FTX 倒闭，Silvergate 银行存款大幅下降，此前为了满足加密市场的大量提款需求，Silvergate 不得不从美国联邦住房贷款银行获得了 43 亿美元的贷款，并出售了价值约 52 亿美元的债务证券。而事实上，市场很早就嗅到了潜在风险，据 MarketWatch 数据显示，二月底 Silvergate 已成为华尔街做空最多的股票。</p><a href=\"https://www.odaily.news/post/5185468\">内容来源</a>",
           "link": "https://www.odaily.news/post/5185468",
           "publishedOn": "2023-03-03T03:00:43.000Z",
-          "wordCount": 1979,
+          "wordCount": 1981,
           "title": "亏损 10 亿美元，监管缠身，加密行业正在抛弃 Silvergate？",
           "imageUrl": null
         },
@@ -297,7 +297,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20156,
+          "wordCount": 20163,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -417,7 +417,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 的崛起引起了市场热烈的讨论。加密货币 KOL Aaron 认为 NFT 不应该仅仅与金钱相关而忽视艺术和文化，Blur 只是利用金钱来吸引用户。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/aaronsage/status/1630937950321254401\">https://twitter.com/aaronsage/status/1630937950321254401</a></p>\n<p><strong>文章作者：</strong></p><p>Aaron</p><hr><h3>观点：</h3><p><strong>Aaron：</strong>NFT 不仅仅与金钱有关。Blur 只是用他们的激励措施给你洗脑，并给你免费的钱来吸引你。Blur 平台界面上关于艺术作品、项目描述或其他任何东西都没有。在熊市中，Blur 吸引了一部分人。但从长远来看，这个市场真的有利于整个 NFT 领域吗？【原文为英文】</p><a href=\"https://twitter.com/aaronsage/status/1630937950321254401\">内容来源</a><p><strong>Aaron：</strong>NFT 世界里有两类人：1) 对艺术、文化和技术潜力感兴趣的人 2）只关心快速获利的人。我们应该支持创作者、艺术家和那些致力于利用这项技术创造更美好空间的人们。Opeansea 是我们第一次进入这个领域时可能使用过的第一个市场，他们从一开始就支持创作者和艺术家。但是 Blur 没有。【原文为英文】</p><a href=\"https://twitter.com/aaronsage/status/1630937950321254401\">内容来源</a>",
           "link": "https://twitter.com/aaronsage/status/1630937950321254401",
           "publishedOn": "2023-03-02T07:33:43.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】观点：Blur 是 NFT 领域发生的最糟糕的事情",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "<h3>跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon</h3>\n<p>跨链互操作协议 Celer Network 宣布推出具有多样化基准的零知识证明开发框架评测平台 Pantheon，目前已经使用 SHA-256 工作负载为包括 gnark、Arkworks、Circom+snarkjs/rapidsnark、Halo2（KZG）、Plonky2 和 Starky 在内的低级电路框架提供了全面基准测试。Celer 表示，正在邀请社区分享各种可复现的基准测试结构，最终目标是共同构建一个广受认可的测试平台，包括全套低级电路开发框架、高级 zkEVM 和编译器及硬件加速提供商。</p>\n<p><a href=\"https://twitter.com/CelerNetwork/status/1631143849300213760\">内容来源</a></p><hr>",
           "link": "https://twitter.com/CelerNetwork/status/1631143849300213760",
           "publishedOn": "2023-03-02T04:28:01.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon",
           "imageUrl": null
         },
@@ -597,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>NFTfi 是目前加密经济增长最快的领域，Bankless 作者 William M. Peaster 发文介绍 5 个小众项目，包括 Caviar、Papr、Insrt Finance、MetaStreet 和 Hook，供 NFTfi 新手参考。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">https://newsletter.banklesshq.com/p/5-promising-nftfi-opps</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1）Caviar：用于交易 NFT 的 AMM 协议，支持通过 ERC20 对 NFT 碎片化，还提供「Desirability Classifier」系统，将 NFT 系列组织成子池，增加稀有 NFT 的流动性并激励 LP 交易活动；2) Papr：灵活、有弹性且无锁定期的 NFT 借贷协议。以 papr 代币为中心，借款人将 NFT 作为抵押品发送到 papr 控制器智能合约时铸造代币，并可按需出售，在 papr 交易价格和协议利率之间创造持续的反馈循环；【原文为英文】</p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">内容来源</a><p><strong>William M. Peaster：</strong>3) Insrt Finance：长期收益策略 NFT 协议，其第一类产品为 ShardVaults，描述为「部分 NFT 现货敞口与被动收益农业相结合」。Shard 是代表 ShardVault 基础 NFT 部分所有权的 NFT，通过其提供低价的蓝筹 NFT 所有权，随着基础 NFT 在 NFTfi 中运行，为持有者产生收益；【原文为英文】</p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">内容来源</a><p><strong>William M. Peaster：</strong>4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】</p><a href=\"https://newsletter.banklesshq.com/p/5-promising-nftfi-opps\">内容来源</a>",
           "link": "https://newsletter.banklesshq.com/p/5-promising-nftfi-opps",
           "publishedOn": "2023-03-01T12:17:20.000Z",
-          "wordCount": 6004,
+          "wordCount": 5798,
           "title": "【英文】Bankless：5 个有潜力的小众 NFTFi 项目",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b645c02-a101-4be0-a1ca-38eb624d411f_2312x1301.jpeg"
         },
@@ -687,7 +687,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>OpenSea 多年来的市场主导地位几乎是绝对的，这使得 Blur 的惊人崛起更加令人印象深刻。Bankless 作者 Donovan Choy 深入探讨 OpenSea 和 Blur 平台之间的战争，并介绍 OpenSea 仍然占据优势的领域。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806412\">https://www.defidaonews.com/article/6806412</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>Blur 通过提供无摩擦的可选版税、零交易费市场来瞄准一小部分投机性 NFT  交易者。OpenSea 的初始定位试图站在创作者一边，并利用其市场主导地位，以促使交易者只向 OpenSea 买家上市，迫使创作者在 OpenSea 或 Blur 上赚取版税之间做出选择。然而，Blur 巧妙地利用了 OpenSea 的 Seaport 协议，并以此为基础构建了自己的市场。从用户的角度来看，「受限」 收藏品再次可以在 Blur 上交易。从创作者的角度来看，他们不再需要选择 —— 他们可以获得 OpenSea 和 Blur 的全部版税。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 市场策略的第二步：免费空投，空投围绕「忠诚度积分」系统设计，这激励鲸鱼雇佣兵承担实际风险，投入数百万美元的出价，为 Blur 市场创造流动性。Blur 的流动性激励设计虽然到目前为止是成功的，但并非没有风险。如果 NFT 市场陷入困境，当空投猎人意识到提供资金的风险 > Blur 忠诚度积分的收益时，这可能会导致一系列的出价被接受，导致市场进一步下跌。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 为激励流动性付出的数百万美元的巨额成本，而且 BLUR 代币也不过是一个 Meme 代币。虽然 Blur 在交易量上超过了 OpenSea，但后者在有机使用率方面仍然占据主导地位。Blur 的活动主要由少数富有的空投猎人主导，而更广泛的「普通」 市场仍在 OpenSea 上。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806412",
           "publishedOn": "2023-03-01T06:18:02.000Z",
-          "wordCount": 642,
+          "wordCount": 630,
           "title": "Bankless：OpenSea 和 Blur 之间的市场战争才刚刚开始",
           "imageUrl": "https://appserversrc.8btc.cn/lsyUxYlMIZxcMGGppA5DrFoGNdj7.png?imageView2/1/w/500/h/300"
         },
@@ -807,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>免费游玩的游戏项目 TridentDAO 最近热度颇高，其原生代币 PSI 近期价格也表现良好。CoinGecko 专栏作家 Sarah P 撰文分析其 Risk to Earn 模型，并分析其与 TreasureDAO 竞争的优劣势。本文中文版由 ODAILY 编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185387\">https://www.odaily.news/post/5185387</a></p>\n<p><strong>文章作者：</strong></p><p>Sarah P</p><hr><h3>观点：</h3><p><strong>Sarah P：</strong>Risk to Earn 模型：玩家可以将在 Trident 上的游戏中下注，玩家下注的资产会存放在同一个池子，游戏的赢家将获得整个池子的资产，输家将失去所有下注的资产。与以往的 Play to earn 模式不同，该模式是可持续的，让资产在玩家之间流动，解决了严重的供应问题。PSI Token 也会在下注后永久销毁，Token 供应不会增加，Trident 团队更多是通过根据玩家基数数据调整 Token 供应量。</p><a href=\"https://www.odaily.news/post/5185387\">内容来源</a><p><strong>Sarah P：</strong>游戏生态分为：1）游戏，包括 Trident MMO、Sprite Duels 和 Trial of the Trident；2）NFT，Pseudo-Krakens NFT 为 Trident 首个 NFT 系列，限量供应 3000 个持有该 NFT 还能允许玩家对 Trident 关于未来游戏的决定事务进行投票，每个 NFT 代表一个投票权；3）徽章，为 Trident 忠实粉丝和合作伙伴社区提供独家机会，如获得游戏内装备、独家小游戏资格、获得限量版皮肤等独家事项。</p><a href=\"https://www.odaily.news/post/5185387\">内容来源</a><p><strong>Sarah P：</strong>与 TreasureDAO 的竞争：就目前来看，TreasureDAO 仍处于在领先的位置，不管是游戏种类、用户数、社交媒体关注度还是生态丰富程度。横向对比来看，TridentDAO 暂时还不具备优势，但是赌博概念 Risk to earn 的引入后以及纵向上随着 L1 向 L2 转移的趋势加强，Arbitrum 用户量进一步增长，未来有机会吸引更多的新用户参与，缩小二者之间差距。</p><a href=\"https://www.odaily.news/post/5185387\">内容来源</a>",
           "link": "https://www.odaily.news/post/5185387",
           "publishedOn": "2023-02-28T11:43:48.000Z",
-          "wordCount": 1932,
+          "wordCount": 1931,
           "title": "TreasureDAO 的最大竞品？一文读懂 TridentDAO 的 Risk to Earn 新模型",
           "imageUrl": null
         },
@@ -887,7 +887,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>孙宇晨在 Lido 存入 150，000 个 ETH，成为 Lido 协议有史以来最大的日流入量，也是导致该协议激活称为 Staking Rate Limit 的安全功能的先例。加密研究员 francesco 撰推解释何为 Staking Rate Limit。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">https://twitter.com/francescoglt/status/1630149753165041667</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>正如 Lido 所解释的那样，Staking Rate Limit（质押率限制）是一种「动态机制，可以响应大量的质押流入并解决可能的副作用，例如奖励稀释，而无需明确暂停质押存款」。它被认为是系统的「安全阀」。如果存款超过 15 万个 ETH（根据协议定义），阀门将被激活。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a><p><strong>francesco：</strong>Staking Rate Limit：1）根据过去 24 小时内的存款，减少在任何给定时间可以铸造的 stETH 数量。减少的「恢复率」约为 6.2K ETH /hr，所以不太会对用户造成影响。2）在「区块到区块」的基础上补充此容量。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1630149753165041667\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1630149753165041667",
           "publishedOn": "2023-02-28T07:30:17.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】孙宇晨在 Lido 存入 15 万个 ETH 触发 Staking Rate Limit？一文解读什么是 Staking Rate Limit",
           "imageUrl": null
         },
@@ -897,7 +897,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>FactorDAO Vault 用途广泛且可组合，可以为 DeFi 项目轻松创建和扩展协议。FactorDAO Vault 的可组合性带来了 DeFi 之外的潜在应用。加密货币 KOL Eli5_DeFi 展示了不同的领域集成 FactorDAO Vault 的用途。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eli5_defi/status/1630209948021035016\">https://twitter.com/eli5_defi/status/1630209948021035016</a></p>\n<p><strong>文章作者：</strong></p><p>Eli5_DeFi</p><hr><h3>观点：</h3><p><strong>Eli5_DeFi：</strong>1）GameFi 通过用游戏内代币、收藏品等奖励玩家，将游戏玩法与 DeFi 融合在一起。通过集成 FactorDAO Vault，游戏开发人员可以专注于改进游戏，同时消除额外的基础设施开发、安全和集成。2）GambleFi 的可扩展性挑战与其流动性激励相关，但将 FactorDAO 集成为中间件可以为流动性提供激励基础设施。这使 GambleFi 能够专注于为投机者和投资者扩展以及推出新产品。【原文为英文】</p><a href=\"https://twitter.com/eli5_defi/status/1630209948021035016\">内容来源</a><p><strong>Eli5_DeFi：</strong>3）MemeFi 代币具有高度投机性，几乎没有内在价值。然而，通过整合 Factor Vault，他们可以利用国库和流动资金池来产生额外的收入并增加社区参与度。4）NFTFi 将 DeFi 与 NFT 合并，以提高所有者的流动性。NFT 衍生品、借贷和质押的应用程序，可以与 Factor Vault 和套件集成为 NFT 持有者产生实际收益。【原文为英文】</p><a href=\"https://twitter.com/eli5_defi/status/1630209948021035016\">内容来源</a>",
           "link": "https://twitter.com/eli5_defi/status/1630209948021035016",
           "publishedOn": "2023-02-28T07:21:08.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】一文解读 FactorDAO Vault 的可组合性",
           "imageUrl": null
         },
@@ -3068,9 +3068,9 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1818,
+          "wordCount": 1826,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
-          "imageUrl": "https://miro.medium.com/max/1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         },
         {
           "id": "https://medium.com/p/1558d532fd66",
@@ -3078,9 +3078,9 @@
           "description": "Aptos Labs is proud to support Web3 education and research with our latest grant award to Professor of Computer Science, Lorenzo Alvisi…",
           "link": "https://aptoslabs.medium.com/our-commitment-to-the-future-of-web3-1558d532fd66?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-02T16:28:39.000Z",
-          "wordCount": 1689,
+          "wordCount": 1681,
           "title": "Our Commitment to the Future of Web3",
-          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*l-FMELWycY37YVNhwe0b2Q.png"
+          "imageUrl": "https://miro.medium.com/max/1200/1*l-FMELWycY37YVNhwe0b2Q.png"
         }
       ]
     }

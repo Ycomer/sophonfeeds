@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T02:54:19.110Z</updated>
+    <updated>2023-03-04T03:01:59.072Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户]]></title>
+        <id>https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5</id>
+        <link href="https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5"/>
+        <updated>2023-03-04T02:21:36.000Z</updated>
+        <summary type="html"><![CDATA[<h3>华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户</h3>
+<p>据「华尔街日报」报道，稳定币发行商 Tether 曾通过伪造文件和「影子中介」开立银行账户。报道称，Tether 在 2018 年使用以多家公司高管名义开立的银行账户，并对这些公司的名称进行了微调，以访问全球金融体系。此外，「影子银行」Crypto Capital Corp. 在 2018 年被当局关闭之前持有 Tether 资金，Bitfinex 和 Tether 在 2018 年 10 月「为亚洲空壳公司开立了至少 9 个新的银行账户」。</p>
+<p><a href="https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5">内容来源</a></p><hr><h3>观点：</h3><p><strong>Paolo Ardoino（Tether 首席技术官）：</strong>WSJ 的报道一如既往的包含大量错误信息和不准确之处。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1631736554686148608">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户]]></title>
         <id>https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5</id>
@@ -47,6 +59,31 @@
 <p>Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple TestFlight 下载。支持以太坊、Polygon、Arbiturm、Optimism 等网络的 Swap 功能；该钱包还提供价格监测工具，可监测 ERC-20 代币、钱包、NFT；支持通过 WalletConnect 连接以太坊主网和 Layer 2 上几乎所有的 dApp；支持 FaceID 解锁和 iCloud 加密助记词。
 据 Uniswap 表示，该钱包目前仅可向 10,000 名用户发放 TestFlight 测试资格，用户有机会通过 ETHDenver 的 Uniswap 展位获得测试资格，或关注 Uniswap 官方社区和社交媒体。</p>
 <p><a href="https://twitter.com/Uniswap/status/1631691330031169537">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap 推出开源自托管移动端钱包，可通过 Apple TestFlight 下载]]></title>
+        <id>https://twitter.com/Uniswap/status/1631691330031169537</id>
+        <link href="https://twitter.com/Uniswap/status/1631691330031169537"/>
+        <updated>2023-03-04T02:05:18.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Uniswap 推出开源自托管移动端钱包，可通过 Apple TestFlight 下载</h3>
+<p>Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple TestFlight 下载。支持以太坊、Polygon、Arbiturm、Optimism 等网络的 Swap 功能；该钱包还提供价格监测工具，可监测 ERC-20 代币、钱包、NFT；支持通过 WalletConnect 连接以太坊主网和 Layer 2 上几乎所有的 dApp；支持 FaceID 解锁和 iCloud 加密助记词。
+据 Uniswap 表示，该钱包目前仅可向 10,000 名用户发放 TestFlight 测试资格，用户有机会通过 ETHDenver 的 Uniswap 展位获得测试资格，或关注 Uniswap 官方社区和社交媒体。</p>
+<p><a href="https://twitter.com/Uniswap/status/1631691330031169537">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ConsenSys zkEVM 公共测试网将于 3 月 28 日上线]]></title>
+        <id>https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/</id>
+        <link href="https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/"/>
+        <updated>2023-03-04T02:04:25.000Z</updated>
+        <summary type="html"><![CDATA[<h3>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线</h3>
+<p>以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。</p>
+<p><a href="https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
