@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T07:36:22.353Z</updated>
+    <updated>2023-03-04T07:41:40.508Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文】以太坊生态周报：Shapella 升级、Dencun 升级、ERC6596]]></title>
+        <id>https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</id>
+        <link href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023"/>
+        <updated>2023-03-04T07:31:28.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>
+<p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】新项目前瞻｜市值小于一百万的 LSD 项目：Liquid Finance]]></title>
+        <id>https://twitter.com/cryptoblooom/status/1631652512330817538</id>
+        <link href="https://twitter.com/cryptoblooom/status/1631652512330817538"/>
+        <updated>2023-03-04T06:59:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>目前 LSD 领域的主要参与者有 LidoFinance、StakeWise、pStake Finance 等。市值较小的项目尚未受到市场关注。加密货币研究员 CryptoBlooom 简述了 LSD 概念，并从产品功能、风险等方面介绍了小市值 LSD 项目 -- Liquid Finance 。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/cryptoblooom/status/1631652512330817538">https://twitter.com/cryptoblooom/status/1631652512330817538</a></p>
+<p><strong>文章作者：</strong></p><p>CryptoBlooom</p><hr><h3>观点：</h3><p><strong>CryptoBlooom：</strong>产品：Liquid Finance 旨在通过 FraxFinance 的部分准备金模型为 DeFi 提供流动性。lqETH 和 LIQD 的双代币系统使项目能够稳定 lqETH 的价格。该协议将在增长阶段收集与 ETH 、 BTC 和 DAI 配对的 lqETH 的 LP，以从更广泛市场中的定价低效中捕获 MEV，并无限期地维持协议的收入。此外，还能够从闪电贷的定价低效中捕获 MEV。【原文为英文】</p><a href="https://twitter.com/cryptoblooom/status/1631652512330817538">内容来源</a><p><strong>CryptoBlooom：</strong>风险：团队是匿名的，找不到关于他们的任何信息；代币供应无上限。官方文档声称技术在模拟中经过了实战测试，然而 Luna 当时也有同样的说法，而它最后崩盘了。【原文为英文】</p><a href="https://twitter.com/cryptoblooom/status/1631652512330817538">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[盘点海外 AIGC 独角兽创始人，中国何时迎来自己的高光时刻？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/gz2eydc2.html</id>
@@ -114,6 +138,19 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
 这次，AIGC 的热潮又来了，或许不久也会颁布相关产业政策，但属于我们的 AIGC 独角兽创业者会到来吗？]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circle 已将 Silvergate 持有的一小部分 USDC 储备转移给至其他银行合作伙伴]]></title>
+        <id>https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank</id>
+        <link href="https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank"/>
+        <updated>2023-03-04T06:57:15.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Circle 已将 Silvergate 持有的一小部分 USDC 储备转移给至其他银行合作伙伴</h3>
+<p>据官方公告，由于 Silvergate Bank 持续存在的不确定性，稳定币发行商 Circle 已将 Silvergate 持有的一小部分 USDC 储备存款转移至其他银行合作伙伴。所有 USDC 储备都存放在几家资本充足的美国银行和 Circle Reserve Fund 中，Circle Reserve Fund 目前持有约 80% 的 USDC 储备。这些储备金由德勤每月审查和证明，目前已发布第一份证明报告。
+此外，Circle 的客户服务、运营、风险管理和财务团队已经将替代方案通知了其余依赖 Silvergate 的客户。尽管 Silvergate 表示其与存款相关的服务不受影响，但 Circle 正在努力迁移与 Silvergate Bank 相关的任何其他服务。</p>
+<p><a href="https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -8156,18 +8193,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】新项目前瞻 | 公共产品 Ethereum Attestation Service（EAS）：为证明创建一个通用层？]]></title>
-        <id>https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE</id>
-        <link href="https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE"/>
-        <updated>2023-02-28T05:04:53.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>缺乏一个标准化和开放的方式来进行链上或链下证明限制了去中心化应用信任层的发展，而公共产品 Ethereum Attestation Service（EAS）为该问题提供了解决方案。什么是 EAS？能解决什么问题？如何操作？未来有何规划？EAS 带你一探究竟。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE">https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE</a></p>
-<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>Ethereum Attestation Service（EAS）是一个用于创建、验证和撤销链上及链下证明的公共产品，允许任何人注册一个关于任何主题的模式，并使用该模式进行证明，目的是为证明创建一个通用层，可以被不同应用程序和协议使用及整合，可用于验证不同系统和社区信息的真实性和完整性。【原文为英文】</p><a href="https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE">内容来源</a><p><strong>Ethereum Attestation Service：</strong>EAS 是开源的、无许可及可组合的免费公共产品，任何用户都可以使用。此外，EAS 还创建了一些资源以帮助用户使用 EAS，包括任何人都可以浏览和验证证明的 EAS 浏览器、无代码模式构建器、无代码证明制作器、提高开发人员试验和整合 EAS 速度的 SDK、能够制作可验证的链外证明及了解 EAS 的教育资源等。【原文为英文】</p><a href="https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE">内容来源</a><p><strong>Ethereum Attestation Service：</strong>EAS 通过两个简单的智能合约进行操作，一个用于创建模式，另一个用于对模式进行证明。通过使用 EAS 可选的解析器合约，可以在制作证明时释放额外功能，包括附加付款或选择可以使用模式的特定地址。目前 EAS 已经在 Arbitrum 上线，将在未来几天内在主网部署，并计划在近期内迅速扩展至其他链上，例如 Optimsim。未来还将构建「EAS 驱动」的服务以提高采用率，并计划增加开发人员在 EVM 开发中的参与度及继续根据反馈改进 EAS。【原文为英文】</p><a href="https://mirror.xyz/0xeee68aECeB4A9e9f328a46c39F50d83fA0239cDF/jmpn9Ykymny7JNCwWKkaDUFCx3MYqykx5phzfrVHHuE">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[一文了解以太坊分布式验证器Obol DV：设计支柱、采用策略和路线图]]></title>
         <id>https://techflowpost.mirror.xyz/wn4yi1zO08YAEaWga5l1Yymtg7J-Fbkxp6Banr_f2Q8</id>
         <link href="https://techflowpost.mirror.xyz/wn4yi1zO08YAEaWga5l1Yymtg7J-Fbkxp6Banr_f2Q8"/>
@@ -8189,30 +8214,6 @@ Read the full entry]]></summary>
 Read the full entry]]></summary>
         <author>
             <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】新项目前瞻 | DeFi 策略协议 Ammalgam：如何解决 Uniswap V3 LP 资本效率低下问题？]]></title>
-        <id>https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM</id>
-        <link href="https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM"/>
-        <updated>2023-02-28T04:15:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Ammalgam 是一个 DeFi 策略协议，通过将借贷和交易结合至一个协议中以释放更多 DeFi，提高资本效率并为做市商解锁了无限策略。Ammalgam 在本文中对其机制设计和创新进行了解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM">https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM</a></p>
-<p><strong>文章作者：</strong></p><p>Ammalgam</p><hr><h3>观点：</h3><p><strong>Ammalgam：</strong>Ammalgam 的设计大大降低了 Delta 中性做市的成本，用户可以通过借入提供给 AMM 的部分资产修改 Delta 风险，且其允许直接从 AMM 池中发行债务，将成本降低到供应和借款利率之间的差价，并使借款人免于支付全部利率。且通过杠杆做市，用户可以估算集中流动性的风险和收益。</p><a href="https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM">内容来源</a><p><strong>Ammalgam：</strong>此外，Ammalgam 通过启用买入跨市（Long Straddles）允许用户在 AMM 公式 X * Y = K 中借用不变量单位 K 来创造无常收益。这使得套利者能够从 Ammalgam 借入流动性，并将其部署到互换率更高的其他 AMM。通过这种套利，Ammalgam 平衡了市场的利率，从而充当了流动性的聚集者。</p><a href="https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM">内容来源</a><p><strong>Ammalgam：</strong>虽然 Uniswap V3 引入集中流动性以提高资本效率，但很多被动 LP 并没有意识到无常损失的额外风险。而 Ammalgam 为 LP 提供了工具以更好地了解其头寸风险。将借贷和交易结合到一个协议中，既为交易者提供了工具，也为做市商提高了收益。交易者可以做空和做多任何东西，且无需白名单和治理的限制，而做市商在优化回报的同时获得了掉期费和借贷费。</p><a href="https://mirror.xyz/0x127d2749824e8a064Fe49246eD8DbD30859d4bCf/atbqPHYxaV2FOiyRUBiS6sLhoOkcP135SgQphEcu9wM">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 个 ve (3,3) 类项目对比与现状：Velodrome、Thena、Solidlizard、Solidly v2、Equalizer]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/3qitdp2t.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html"/>
-        <updated>2023-02-28T04:03:55.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>ve (3,3) 类项目在最近的反弹行情中取得了更好的成绩，Optimism 上的 Velodrome、BNB 链上的 Thena、Arbitrum 上的 Solidlizard、以太坊上的 Solidly v2、Fantom 上的 Equalizer 这几个分叉自 Solidly 的项目中，大多数在过去一个月的流动性增长都超过了 100%。PANews 作者蒋海波对这 5 个项目进行了对比以及现状分析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">https://www.panewslab.com/zh/articledetails/3qitdp2t.html</a></p>
-<p><strong>文章作者：</strong></p><p>PANews</p><hr><h3>观点：</h3><p><strong>PANews：</strong>1）Velodrome 目前处于 Epoch 39 的时间段内，似乎已发展成为 Optimism 的流动性中心，流动性为 2.84 亿美元，过去一个月增长 125%。近期随着 VELO 代币价格的快速上涨，质押者投票的收益率却持续下降，veVELO 的增长也减慢。2）Thena 目前处于 Epoch 7 阶段，TVL 1.47 亿美元，过去 30 天增加 27.59%。在当前阶段，提供贿赂的外在资金能够给 veTHE 的持有者带来真实收入，官网显示投票的平均 APR 为 36.95%。</p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">内容来源</a><p><strong>PANews：</strong>3）Solidlizard 目前正处于 Epoch 5 阶段，得益于 Arbitrum 生态的快速发展，SolidLizard 的 TVL 为 1.14 亿美元，过去一周增长 196%。目前，大多数 veSLIZ 投票权仍然集中在团队手中，所以其他项目可能没有动力来持续收集增发出的 SLIZ 代币。因此 SLIZ 的质押率持续下降，ve (3,3) 的格局还未形成。4）Solidly v2 目前处于 Epoch8 阶段，TVL 8877 万美元，过去一个月上升 112%。整体上几乎没有项目在 Solidly v2 中进行贿赂，可能也难以有竞争积累投票权的现象，未来可能面临压力。</p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">内容来源</a><p><strong>PANews：</strong>5）Equalizer 目前处于 Epoch14 阶段，TVL 为 4565 万美元，过去一个月增长 138%，成为 Fantom 上第三大 DEX。Equalizer 中投票者的主要收入来自于交易手续费，约占 70%，且在这种情况下，投票者通常也能获得 80% 的 APR。高手续费收入加上资本效率较高，这套机制很可能维持。</p><a href="https://www.panewslab.com/zh/articledetails/3qitdp2t.html">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
