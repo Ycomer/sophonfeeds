@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T02:39:37.524Z</updated>
+    <updated>2023-03-04T02:54:19.110Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户]]></title>
+        <id>https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5</id>
+        <link href="https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5"/>
+        <updated>2023-03-04T02:21:36.000Z</updated>
+        <summary type="html"><![CDATA[<h3>华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户</h3>
+<p>据「华尔街日报」报道，稳定币发行商 Tether 曾通过伪造文件和「影子中介」开立银行账户。报道称，Tether 在 2018 年使用以多家公司高管名义开立的银行账户，并对这些公司的名称进行了微调，以访问全球金融体系。此外，「影子银行」Crypto Capital Corp. 在 2018 年被当局关闭之前持有 Tether 资金，Bitfinex 和 Tether 在 2018 年 10 月「为亚洲空壳公司开立了至少 9 个新的银行账户」。</p>
+<p><a href="https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5">内容来源</a></p><hr><h3>观点：</h3><p><strong>Paolo Ardoino（Tether 首席技术官）：</strong>WSJ 的报道一如既往的包含大量错误信息和不准确之处。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1631736554686148608">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ripple CEO: 美国SEC起诉Ripple Labs案预计将于今年作出裁决]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/60e0c66m.html</id>
@@ -24,6 +36,31 @@
         <summary type="html"><![CDATA[PANews 3月4日消息，据彭博社报道，Ripple首席执行官Brad Garlinghouse表示，美国证券交易委员会（SEC）对其加密支付公司Ripple Labs Inc.提起的诉讼“将对整个行业产生关键影响”，他预计今年将对此案作出裁决。此外，他还表示，SEC最近增加了加密执法行动，使美国在建立有效的加密监管方面落后于其他国家。据此前消息，SEC于2020年底起诉Ripple，指控其将XRP作为未注册证券出售。随后Ripple Labs表示，SEC无法证明该公司销售XRP属于投资合同。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uniswap 推出开源自托管移动端钱包，可通过 Apple TestFlight 下载]]></title>
+        <id>https://twitter.com/Uniswap/status/1631691330031169537</id>
+        <link href="https://twitter.com/Uniswap/status/1631691330031169537"/>
+        <updated>2023-03-04T02:05:18.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Uniswap 推出开源自托管移动端钱包，可通过 Apple TestFlight 下载</h3>
+<p>Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple TestFlight 下载。支持以太坊、Polygon、Arbiturm、Optimism 等网络的 Swap 功能；该钱包还提供价格监测工具，可监测 ERC-20 代币、钱包、NFT；支持通过 WalletConnect 连接以太坊主网和 Layer 2 上几乎所有的 dApp；支持 FaceID 解锁和 iCloud 加密助记词。
+据 Uniswap 表示，该钱包目前仅可向 10,000 名用户发放 TestFlight 测试资格，用户有机会通过 ETHDenver 的 Uniswap 展位获得测试资格，或关注 Uniswap 官方社区和社交媒体。</p>
+<p><a href="https://twitter.com/Uniswap/status/1631691330031169537">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ConsenSys zkEVM 公共测试网将于 3 月 28 日上线]]></title>
+        <id>https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/</id>
+        <link href="https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/"/>
+        <updated>2023-03-04T02:04:25.000Z</updated>
+        <summary type="html"><![CDATA[<h3>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线</h3>
+<p>以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。</p>
+<p><a href="https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -8042,18 +8079,6 @@ Cogent Bank 是一家总部位于佛罗里达州的州特许银行，总资产�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[通用互操作性平台 Axelar Network 推出 Axelar 虚拟机并启动 500 万美元开发者资助计划]]></title>
-        <id>https://twitter.com/axelarcore/status/1630290474790682625</id>
-        <link href="https://twitter.com/axelarcore/status/1630290474790682625"/>
-        <updated>2023-02-28T01:21:36.000Z</updated>
-        <summary type="html"><![CDATA[<h3>通用互操作性平台 Axelar Network 推出 Axelar 虚拟机并启动 500 万美元开发者资助计划</h3>
-<p>通用互操作性平台 Axelar Network 推出 Axelar 虚拟机以简化开发者体验，Axelar 虚拟机包括两个产品：可随意连接到任何链的 Interchain Amplifier 及可通过协调多链 dApp 管理自动执行复杂任务的 Interchain Maestro。此外，Axelar 正在启动一项 500 万美元的开发者资助计划，以推进 Axelar 虚拟机的使用并扩展跨链。</p>
-<p><a href="https://twitter.com/axelarcore/status/1630290474790682625">内容来源</a></p><hr><h3>观点：</h3><p><strong>Axelar Network：</strong>Interchain Amplifier 简化了与链间生态系统的连接，并提供了与其他 dApp 的无限组合性。一旦连接到 Axelar，就可以获得对 N 个链的访问，并根据各种安全模式和其他标准定制。Interchain Maestro 简化了链间开发，协调多链程序的配置、协调和管理，例如部署新链及必要升级。【原文为英文】</p><a href="https://twitter.com/axelarcore/status/1630290474790682625">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Coinbase 将于 3 月 14 日起暂停 BUSD 交易]]></title>
         <id>https://twitter.com/CoinbaseAssets/status/1630236377622228994</id>
         <link href="https://twitter.com/CoinbaseAssets/status/1630236377622228994"/>
@@ -8061,30 +8086,6 @@ Cogent Bank 是一家总部位于佛罗里达州的州特许银行，总资产�
         <summary type="html"><![CDATA[<h3>Coinbase 将于 3 月 14 日起暂停 BUSD 交易</h3>
 <p>Coinbase 将于北京时间 2023 年 3 月 14 日 00:00 左右暂停 Binance USD（BUSD）交易。BUSD 资金仍然可用，并能继续随时提取资金。但 Coinbase.com、Coinbase Pro、Coinbase Exchange 和 Coinbase Prime 的交易将暂停。</p>
 <p><a href="https://twitter.com/CoinbaseAssets/status/1630236377622228994">内容来源</a></p><hr><h3>观点：</h3><p><strong>Coinbase：</strong>我们暂停 BUSD 交易的决定是基于我们内部监控和审查流程，在审查 BUSD 时，我们确定它不再符合我们的上市标准。【原文为英文】</p><a href="https://www.theblock.co/post/215435/coinbase-to-halt-trading-of-binances-busd-for-not-meeting-listing-standards">内容来源</a><p><strong>Mike Dudas：</strong>BUSD 由 Paxos 发行、完全由破产远程抵押品支持、在以太坊上交易，请问哪一部分是 「极度危险的」？这不是其他链上的 Binance-peg 封装的东西。【原文为英文】</p><a href="https://twitter.com/mdudas/status/1630262965113962496">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase 将于 3 月 14 日起暂停 BUSD 交易]]></title>
-        <id>https://twitter.com/CoinbaseAssets/status/1630236377622228994</id>
-        <link href="https://twitter.com/CoinbaseAssets/status/1630236377622228994"/>
-        <updated>2023-02-28T01:06:02.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Coinbase 将于 3 月 14 日起暂停 BUSD 交易</h3>
-<p>Coinbase 将于北京时间 2023 年 3 月 14 日 00:00 左右暂停 Binance USD（BUSD）交易。BUSD 资金仍然可用，并能继续随时提取资金。但 Coinbase.com、Coinbase Pro、Coinbase Exchange 和 Coinbase Prime 的交易将暂停。</p>
-<p><a href="https://twitter.com/CoinbaseAssets/status/1630236377622228994">内容来源</a></p><hr><h3>观点：</h3><p><strong>Coinbase：</strong>我们暂停 BUSD 交易的决定是基于我们内部监控和审查流程，在审查 BUSD 时，我们确定它不再符合我们的上市标准。【原文为英文】</p><a href="https://www.theblock.co/post/215435/coinbase-to-halt-trading-of-binances-busd-for-not-meeting-listing-standards">内容来源</a><p><strong>Mike Dudas：</strong>BUSD 由 Paxos 发行、完全由破产远程抵押品支持、在以太坊上交易，请问哪一部分是 「极度危险的」？这不是其他链上的 Binance-peg 封装的东西。【原文为英文】</p><a href="https://twitter.com/mdudas/status/1630262965113962496">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IOSG 周报｜ZK 跨链通信协议：安全低成本构建全链 DApp 的未来]]></title>
-        <id>https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w</id>
-        <link href="https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w"/>
-        <updated>2023-02-27T13:04:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>IOSG Ventures 成员 Yiping 从跨链通信协议对于开发者的重要性讲起，阐述如何通过 ZKP 实现低成本，安全的跨链通信，并对相关项目及具体应用场景进行介绍。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w">https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w</a></p>
-<p><strong>文章作者：</strong></p><p>Yiping（IOSG Ventures）</p><hr><h3>观点：</h3><p><strong>Yiping（IOSG Ventures）：</strong>TL;DR：1）ZK 为跨链通信提供了一种安全，低成本的方式；2）跨链通信协议仍处于早期阶段，但有望允许 DApp 访问不同链上的数据；3）DeFi，全链 DApp 将从跨链 DApp 的发展中受益；4）跨链 DApp 的影响预计在未来几年内会非常大，就像全球化的影响一样；5）开发人员正在努力探索构建跨链 DApp 的最佳模式；6）延迟，安全和成本是 ZK 跨链信息协议的主要指标；7）ZK 跨链协议四个主要的组件是：生成存储证明，结合存储证明和 ZKP，中继 ZKP， 展开承诺。</p><a href="https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w">内容来源</a><p><strong>Yiping（IOSG Ventures）：</strong>很多 ZK 桥项目希望能提高不同链的互操作性，降低潜在的黑客风险。Succinct Labs 使用轻客户端方法；Lagrange Labs 构建非交互式跨链状态证明；Lagrange Labs 构建非交互式跨链状态证明；zkBridge 使用 MPC 中继网络生成区块头的 ZKP 并将其中继到目标链；=nil; Foundation 也致力于 ZK 跨链消息协议，使开发人员能够在以太坊上访问 Mina 的状态。</p><a href="https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w">内容来源</a><p><strong>Yiping（IOSG Ventures）：</strong>ZKP 为跨链通信提供了一种全新的方式。虽然不能完全解决传统跨链桥的安全问题，但借助 ZKP 的力量，安全的跨链消息通信大大降低了成本，证明的大小比以前小得多，链上验证成本也降低了很多。能够在目标链上验证源链状态，实现类似 IBC 式的共享安全性。在过去是不可能低成本的实现的。</p><a href="https://mp.weixin.qq.com/s/Vs7t9G2k0rcm3kpAY3bF8w">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
