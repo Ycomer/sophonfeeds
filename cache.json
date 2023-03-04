@@ -37,7 +37,7 @@
           "description": "<h3>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线</h3>\n<p>以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/",
           "publishedOn": "2023-03-04T02:04:25.000Z",
-          "wordCount": 20291,
+          "wordCount": 20292,
           "title": "ConsenSys zkEVM 公共测试网将于 3 月 28 日上线",
           "imageUrl": "https://www.coindesk.com/resizer/jHQlPxc8R3RvI0FegOjTgkyAm6g=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LBRTYFCLDREUBGV6F6RYKHX5RE.jpeg"
         },
@@ -127,7 +127,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2 月 25 日，Solana 网络再次中断，这是自 Solana 2020 年上线以来后的第 9 次宕机。网络中断频发、链上数据下降，Solana 似乎正在走下坡路。区块链研究员 francesco 通过 4 个链上指标论证了 Solana 当前不容乐观的发展形势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>反复出现的网络中断问题可能是因为 Solana 代码库真的很复杂，而且成千上万的验证器数量意味着测试新更新非常复杂。为了加快开发，他们在部署时可能会遇到一些问题。在 Solana 上的所有 TPS  中，只有 10% 是真实交易，其余均是验证者通信。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a><p><strong>francesco：</strong>指标 1&2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a>",
           "link": "https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain",
           "publishedOn": "2023-03-03T08:13:06.000Z",
-          "wordCount": 4527,
+          "wordCount": 4321,
           "title": "【英文】Solana 的困境：网络中断频发、链上数据下降…",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefdf471d-18b7-456b-9ef4-8f83aacf9b50_2400x1350.png"
         },
@@ -247,7 +247,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 662,
+          "wordCount": 656,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -287,7 +287,7 @@
           "description": "<h3>Block 成立专注于改善闪电网络流动性和路由的公司 c=</h3>\n<p>Twitter 创始人 Jack Dorsey 旗下支付公司 Block 成立专注于改善闪电网络流动性和路由的公司 c=，C= 计划通过将比特币投入到闪电网络并建立基础设施提高网络可靠性来解决因地流动性和路有效率低下导致的交易失败问题。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/",
           "publishedOn": "2023-03-03T01:31:07.000Z",
-          "wordCount": 20280,
+          "wordCount": 20281,
           "title": "Block 成立专注于改善闪电网络流动性和路由的公司 c=",
           "imageUrl": "https://www.coindesk.com/resizer/XoRofoQ5Hnf9zhmwkMzwRUkfp9M=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/FFIFJF47FRCK5GVADQ2D5YSCVA.jpg"
         },
@@ -297,7 +297,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20164,
+          "wordCount": 20161,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -347,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>总体而言，二月是一个好坏参半的月份，The Block 研究主管 Lars 对本月加密市场的数据进行了整理总结。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">https://twitter.com/lars0x/status/1630937818728988682</a></p>\n<p><strong>文章作者：</strong></p><p>Lars（The Block 研究主管）</p><hr><h3>观点：</h3><p><strong>Lars（The Block 研究主管）：</strong>1）链上总交易量下降 0.7% 至 1640 亿美元（BTC -4.3%，ETH +4.2 %)；2）稳定币链上交易量下降 17.6% 至 5581 亿美元；已发行供应量进一步收缩 3.2% 至 1284 亿美元，其中 USDT 和 USDC 市场份额分别上升至 55.7% 和 31%。56 亿美元 BUSD 被赎回；【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a><p><strong>Lars（The Block 研究主管）：</strong>3）BTC 矿工收入增长 4.3% 至 6.271 亿美元，ETH 质押者收入增长 2.9% 至 1.048 亿美元。以太坊 Shanghai-Capella 主网升级预计将于本月进行，届时将支持提取质押的 ETH；4）2 月共销毁 84885 枚 ETH，约合 1.381 万美元。以太坊在整个 2 月都处于通缩状态，自 2021 年 8 月上旬实施 EIP-1559 以来，共销毁 295 万枚 ETH，约合 90.2 亿美元；5）以太坊链上 NFT 交易量增加 103.2% 至 18.6 亿美元；【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a><p><strong>Lars（The Block 研究主管）：</strong>6）合规 CEX 现货交易量增加 11.4% 至 6658 亿美元。CEX 市场份额：Binance 81.9%，Coinbase 6%，BTSE 3.1%，Kraken 2.9%，Binance US 1.7%；7）GBTC 日均交易量下降 25.4% 至 3260 万美元；【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a><p><strong>Lars（The Block 研究主管）：</strong>8）期货方面，BTC 和 ETH 期货持仓量均上涨 2%。芝商所的比特币期货持仓量减少 15.3% 至 18.8 亿美元，日均成交量上涨 26% 至 12.4 亿美元。同时，BTC 期货交易量增加 16.8% 至 7660 亿美元，ETH 期货交易量增长 3.7% 至 4990 亿美元； 9）期权方面，BTC 和 ETH 期权持仓量均上涨（BTC +3.3%，ETH +18%) 。同时，BTC 期权交易量增长 10% 至 176 亿美元，ETH 期权交易量增长 22.4% 至 104 亿美元。【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a>",
           "link": "https://twitter.com/lars0x/status/1630937818728988682",
           "publishedOn": "2023-03-02T11:44:46.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】The Block 研究主管：2 月加密市场数据总结",
           "imageUrl": null
         },
@@ -487,7 +487,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 目前 TVL 奖金 1 亿美金，在 NFTFi 赛道排名仅次于 BendDAO。加密研究员 Vic TALK 就 ParaSpace 产品提供的服务进行了解析，Paraspace 是否能够超越 BendDAO？</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">https://twitter.com/victalk_eth/status/1631100882707152896</a></p>\n<p><strong>文章作者：</strong></p><p>Vic TALK</p><hr><h3>观点：</h3><p><strong>Vic TALK：</strong>ParaSpace 目前主要提供三种服务：1）蓝筹 NFT 及 UniV3 LP 借贷服务：机制类似于 BendDAO，其创新点在于除了 ETH 池子，还支持稳定币和 APE 池及提供基于 UniV3 LP NFT 借贷服务；</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a><p><strong>Vic TALK：</strong>2）APE 质押服务：其特点在于质押服务采取的是点对池模式，完美匹配原有接待池，且因为其他协议没有相似借贷池和足够流动性使其在该模式上占据优势，并且资本效率大幅提高；3）信用分期购买 /bid NFT 服务：降低了购买成本和门槛，也在一定程度上提升了流动性，但和 Blur 机制相比，对于流动性的提升稍显不足。</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a><p><strong>Vic TALK：</strong>ParaSpace 在没有代币的情况下 TVL 位居 NFTFi 赛道第二位，足以显示产品设计的优势及团队 BD 资源的丰富，尤其是 APE 质押设计领域。该协议未来可能还会做 NFT 永续合约交易相关业务。此外，Paraspace 的代币经济学或将是 TVL 是否能超越 bendDAO 的关键之一。</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a>",
           "link": "https://twitter.com/victalk_eth/status/1631100882707152896",
           "publishedOn": "2023-03-02T05:07:12.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】NFT 借贷新秀 ParaSpace 详解：有何创新和挑战？",
           "imageUrl": null
         },
@@ -687,7 +687,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>OpenSea 多年来的市场主导地位几乎是绝对的，这使得 Blur 的惊人崛起更加令人印象深刻。Bankless 作者 Donovan Choy 深入探讨 OpenSea 和 Blur 平台之间的战争，并介绍 OpenSea 仍然占据优势的领域。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806412\">https://www.defidaonews.com/article/6806412</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>Blur 通过提供无摩擦的可选版税、零交易费市场来瞄准一小部分投机性 NFT  交易者。OpenSea 的初始定位试图站在创作者一边，并利用其市场主导地位，以促使交易者只向 OpenSea 买家上市，迫使创作者在 OpenSea 或 Blur 上赚取版税之间做出选择。然而，Blur 巧妙地利用了 OpenSea 的 Seaport 协议，并以此为基础构建了自己的市场。从用户的角度来看，「受限」 收藏品再次可以在 Blur 上交易。从创作者的角度来看，他们不再需要选择 —— 他们可以获得 OpenSea 和 Blur 的全部版税。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 市场策略的第二步：免费空投，空投围绕「忠诚度积分」系统设计，这激励鲸鱼雇佣兵承担实际风险，投入数百万美元的出价，为 Blur 市场创造流动性。Blur 的流动性激励设计虽然到目前为止是成功的，但并非没有风险。如果 NFT 市场陷入困境，当空投猎人意识到提供资金的风险 > Blur 忠诚度积分的收益时，这可能会导致一系列的出价被接受，导致市场进一步下跌。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a><p><strong>Bankless：</strong>Blur 为激励流动性付出的数百万美元的巨额成本，而且 BLUR 代币也不过是一个 Meme 代币。虽然 Blur 在交易量上超过了 OpenSea，但后者在有机使用率方面仍然占据主导地位。Blur 的活动主要由少数富有的空投猎人主导，而更广泛的「普通」 市场仍在 OpenSea 上。</p><a href=\"https://www.defidaonews.com/article/6806412\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806412",
           "publishedOn": "2023-03-01T06:18:02.000Z",
-          "wordCount": 636,
+          "wordCount": 634,
           "title": "Bankless：OpenSea 和 Blur 之间的市场战争才刚刚开始",
           "imageUrl": "https://appserversrc.8btc.cn/lsyUxYlMIZxcMGGppA5DrFoGNdj7.png?imageView2/1/w/500/h/300"
         },
@@ -717,7 +717,7 @@
           "description": "<h3>固定收益 DeFi 平台 Term Labs 完成 250 万美元融资，Electric Capital 领投</h3>\n<p>固定利率借款 DeFi 协议 Term Finance 开发商 Term Labs 完成 250 万美元种子轮融资， Electric Capital 领投、Coinbase Ventures、Circle Ventures、Robot Ventures 和 MEXC Ventures 等参投。新资金将用于构建 Term Finance 协议，Term Finance 计划在 3 月底左右上线。</p>\n<p><a href=\"https://twitter.com/term_labs/status/1630569103592226816\">内容来源</a></p><hr>",
           "link": "https://twitter.com/term_labs/status/1630569103592226816",
           "publishedOn": "2023-03-01T04:21:54.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "固定收益 DeFi 平台 Term Labs 完成 250 万美元融资，Electric Capital 领投",
           "imageUrl": null
         },
@@ -877,7 +877,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>借助着 Blur 的「Bid to Earn」风潮，许多蓝筹 NFT 的交易量发生了爆炸级增长，Trending 榜单上却出现新生客 Notable Pepes，NFT 研究员 WaTell 对该项目的创始人及其造富效应进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">https://twitter.com/0xWatell/status/1630102952814981120</a></p>\n<p><strong>文章作者：</strong></p><p>WaTell</p><hr><h3>观点：</h3><p><strong>WaTell：</strong>Notable Pepes，由「Pepe Checks」衍生而来，是由著名 NFT 收藏家 Vince Van Dough (VVD) 在 2 月 5 日发布的 OE 作品。作品设计不难看出其灵感来源于 Jack Butcher 的「推特蓝勾」，只是把 meme 变成了我们熟知的「悲伤青蛙 - Pepe」。但这仍然无法阻止这项作品的成功，许多 NFT OG 第一时间与其进行互动、转推扩散热度。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>VVD 被誉为「有史以来最积极的 NFT 收藏家」，他曾豪掷数千 ETH 购入艺术品 NFT，并且一直持有到现在。他还曾经于 2021 年 8 月与三箭资本合作成立了「NFT 收藏基金 - Starry Night Capital」，帮助他们购入「优质的 NFT 资产」。这在某些层面也能体现出 VVD 强大的社会关系。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>在公布「Pepe Checks」的 OE 铸造页面后，在短短 24 小时内，便铸造了 237,869 枚 NFT，总收入约为 975.2629 eth。2 月 18 日，VVD 公布了由「Pepe Checks」衍生而来的 Notable Pepes。首个作品便是「Pepe Cheques」，总量为 2000，1344 张进入「著名的 Pepes 金库」，但在当时并没有第一时间全部铸造完，而它的地板价现为 1.4 eth。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a><p><strong>WaTell：</strong>2 月 26 号，Notable Pepes Collection 的「3~7」号作品正式上线。铸造价格为 0.069 eth，而即使是人气最低的作品「The Rarest Deck」，地板价也有 0.54 eth。人气最高的「Pepe's Chair」，地板价为 4.95 eth，拥有接近 70 倍的涨幅。需要注意：Notable Pepes 并不像其他 OE Collection，其采用的是白名单铸造机制。</p><a href=\"https://twitter.com/0xWatell/status/1630102952814981120\">内容来源</a>",
           "link": "https://twitter.com/0xWatell/status/1630102952814981120",
           "publishedOn": "2023-02-28T07:33:01.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "「OpenEdition」与 meme 始祖 「Pepe」融合，解析 NFT 项目 Notable Pepes",
           "imageUrl": null
         },
@@ -977,7 +977,7 @@
           "description": "<h3>Yuga Labs 推出基于比特币区块链的 NFT 系列 TwelveFold</h3>\n<p>据官方消息，Yuga Labs 宣布推出新的基于比特币的 NFT 系列 TwelveFold，该系列包含 300 件刻在比特币区块链上的限量版生成艺术作品，主要通过 Ordinal Theory 协议实现。每件 NFT 作品都是 12x12 网格，结合 3D 图形和手绘特征，由 Yuga Labs 内部艺术团队设计和创作，该公司表示 TwelveFold 与其任何一个以太坊链上 IP 均无关联，未来也不会有任何交互。这些 NFT 将在本周晚些时候举行的拍卖会上出售，所有出价都将以比特币进行。</p>\n<p><a href=\"https://mobile.twitter.com/yugalabs/status/1630342395295412232\">内容来源</a></p><hr>",
           "link": "https://mobile.twitter.com/yugalabs/status/1630342395295412232",
           "publishedOn": "2023-02-28T03:01:18.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Yuga Labs 推出基于比特币区块链的 NFT 系列 TwelveFold",
           "imageUrl": null
         },
@@ -3068,9 +3068,9 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1818,
+          "wordCount": 1826,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
-          "imageUrl": "https://miro.medium.com/max/1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         },
         {
           "id": "https://medium.com/p/1558d532fd66",
@@ -3078,9 +3078,9 @@
           "description": "Aptos Labs is proud to support Web3 education and research with our latest grant award to Professor of Computer Science, Lorenzo Alvisi…",
           "link": "https://aptoslabs.medium.com/our-commitment-to-the-future-of-web3-1558d532fd66?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-02T16:28:39.000Z",
-          "wordCount": 1681,
+          "wordCount": 1689,
           "title": "Our Commitment to the Future of Web3",
-          "imageUrl": "https://miro.medium.com/max/1200/1*l-FMELWycY37YVNhwe0b2Q.png"
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*l-FMELWycY37YVNhwe0b2Q.png"
         }
       ]
     }
