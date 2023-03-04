@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T07:05:38.078Z</updated>
+    <updated>2023-03-04T07:12:57.869Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[盘点海外 AIGC 独角兽创始人，中国何时迎来自己的高光时刻？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/gz2eydc2.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/gz2eydc2.html"/>
+        <updated>2023-03-04T06:59:00.000Z</updated>
+        <summary type="html"><![CDATA[据不完全统计，全球 AIGC 创业公司中估值在 10 亿美元以上的已经多达 10 家。包括推出 ChatGPT 的 OpenAI，因《太空歌剧院》而走红的 Midjourney 等。这些独角兽背后的创业者都是谁？他们又是如何成为时代的开创者？本篇文章带你一看究竟。
+
+图片来源：由无界AI绘画工具生成。
+OpenAI 创始人 Sam Altman
+8 岁会编程，20 岁从斯坦福辍学创业，28 岁晋升为 YC 孵化器总裁。
+作为典型的天才型创业者，《纽约客》杂志将 OpenAI 创始人 Sam Altman 描述为“YC、硅谷与人类未来的天选之子”。
+
+图片来源：Scale AI
+2015 年，Sam Altman 与马斯克等人共同成立非营利组织 OpenAI。
+2019 年，Sam Altman 辞任 YC 孵化器总裁，全心投入到 OpenAI。
+2021 年 1 月，OpenAI 创造了文本到图像模型 DALL-E，此后众多创业公司加入文生图赛道。
+2022 年 11 月，OpenAI 发布 ChatGPT，中国科技公司竞相跟随。
+2023 年 1 月，微软正在谈判向 OpenAI 投资 100 亿美元，投后估值将达到 290 亿美元。
+2023 年 3 月，OpenAI 正式开放 ChatGPT API，每输出 100 万个单词价格 2.7 美元，开启全民 AIGC 时代。
+2021 年 8 月，前美国宇航局前神经科学研究员、AR/VR 硬件外设公司 Leap Motion 联合创始人 David Holz 自筹资金创办了独立研究室 Midjourney。
+
+图片来源：forbes
+2022 年 7 月，Midjourney 项目进入公测。2022 年 8 月，基于 MidJourney 生成的《太空歌剧院》绘画作品，战胜一众人类选手，斩获艺术比赛竞赛一等奖。
+目前，Midjourney 全职员工 11 人，社区成员超 1000 万，年营收约为 1 亿美元。
+Emad Mostaque 是在英国长大的孟加拉国人，毕业于牛津大学数学和计算机专业，在伦敦从事了 13 年的对冲基金工作。
+
+图片来源：Scale AI
+2020 年，Emad Mostaque 创办 Stability AI。
+2022 年 8 月，Stability AI 发布文本生成图片模型 Stable Diffusion。
+2022 年 10 月，Stability AI 宣布获得 1.01 亿美元融资，投后估值已攀升至 10 亿美元。
+2011 年，Dave Rogenmoser 毕业于堪萨斯州立大学。毕业后的 Rogenmoser 创办了多个项目，但都没有达到让自己实财务自由的程度。
+
+Dave Rogenmoser（中）
+2018 年，Rogenmoser 的公司被 Y Combinator 接纳。
+2020 年，OpenAI 推出 GPT-3，Rogenmoser 利用自己在 Y Combinator 的关系获得了内测资格。
+2021 年 1 月，Dave Rogenmoser 基于 GPT-3 推出 Jasper AI，最初的功能是为了帮助人们编写 Facebook 广告。
+2021 年 10 月，Jasper AI 获得 8500 万美元 A 轮融资。2022 年 10 月，Jasper 获得 1.25 亿美元融资，估值 15 亿美元。
+Rogenmoser 的梦想也从赚钱养家上升到通过构建 AI 内容平台为地球甚至火星上的每家公司和每位员工提供超能力。
+Dario Amodei 是加州理工学院和斯坦福大学学士、普林斯顿大学博士。
+
+图片来源：Future of Life Institute
+Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均不超过 1 年。
+2016 年 7 月，Dario Amodei 加入 OpenAI，历任 AI 安全研究组负责人、研究总监和研究副总裁。
+2020 年 12 月，Dario Amodei 从 OpenAI 离职。
+2021 年 2 月，Dario Amodei 与自己的妹妹、原 OpenAI 安全与政策副总裁 Daniela 联手创立 Anthropic。
+2023 年 2 月 4 日，谷歌旗下云计算部门 Google Cloud 宣布与 Anthropic 建立合作，谷歌向 Anthropic 投资约 3 亿美元，Anthropic 将与谷歌云计算平台深度绑定。
+随着 ChatGPT 影响日益扩大，“中国版的 ChatGPT”的呼声也越来越高。然而，除了像百度这种有技术沉淀和数据资源的大公司，小公司的发展前途似乎并不明朗。
+一方面，从上世纪 90 年代开始，国内互联网创业几乎都是按照“模式创新”的方式在做，比如百度（借鉴谷歌）、淘宝（借鉴 ebay）、腾讯 QQ（借鉴了 ICQ）、美团（借鉴了 Groupon）等。模式创新的好处是不用动脑子，拿着现成的技术找落地的商业场景，变现路径短。而“技术创新”这条路短期很难见成效，不划算。在过去的几十年，基于中国巨大的人口红利，“模式创新”的创业项目更容易获得成功。然而，随着中国在 2022 年人口首次负增长，基于人口红利的创业模式走到了尽头。而长达 30 年的根深蒂固的“模式创新”思维，短期又很难改变。AIGC 创业者从头研制算法模型不划算，用其他公司的开源模型又难以形成产品壁垒。这导致了投资人对国内 AIGC 谨慎，不愿意给高估值甚至不愿意投钱。
+另一方面，2018 年成为国内互联网创业浪潮的分水岭。在这一年，曾经火热的互联网金融创新 P2 P 平台连环暴雷，长租公寓连环爆雷，共享经济宠儿摩拜和 OfO 卖身或倒闭，赴美上市的中概股血流成河。大国博弈、金融去杠杆、资本寒冬、人口红利消失等一系列因素让 2018 年成为时代的转折点，也让年轻人和创业者心态发生了变化。苦战 3 年的疫情终于结束，然而就业和创业风气已经变了，当曾经被捧上神坛的创业英雄被打倒，当一个行业可以因一纸禁令被消灭，于是“躺平”、“内卷”文化逐渐流行，考公、进编制逐渐成为毕业生的首要选择。当美国硅谷的年轻人在谈如何改变世界，我们的年轻人在讨论“30 岁硕士如何用 100 万在云南躺平式养老”。
+最后，我们不停颁布产业政策，奇怪的是似乎见效不明显。2019 年，区块链作为核心技术自主创新重要突破口，多地发布区块链产业发展行动计划。2021 年，Meta all in 元宇宙，国内各地发布元宇宙产业发展行动计划。回头看，这些产业参与者除了央企和国企、大型互联网公司以及薅政府羊毛的皮包公司外，有多少真正做事的创业公司发展成长起来了呢。
+这次，AIGC 的热潮又来了，或许不久也会颁布相关产业政策，但属于我们的 AIGC 独角兽创业者会到来吗？]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[盘点海外 AIGC 独角兽创始人，中国何时迎来自己的高光时刻？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/gz2eydc2.html</id>
