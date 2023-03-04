@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-04T07:41:40.508Z</updated>
+    <updated>2023-03-04T07:46:25.463Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -14,6 +14,30 @@
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>
 <p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】以太坊生态周报：Shapella 升级、Dencun 升级、ERC6596]]></title>
+        <id>https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</id>
+        <link href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023"/>
+        <updated>2023-03-04T07:31:28.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>
+<p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】新项目前瞻｜市值小于一百万的 LSD 项目：Liquid Finance]]></title>
+        <id>https://twitter.com/cryptoblooom/status/1631652512330817538</id>
+        <link href="https://twitter.com/cryptoblooom/status/1631652512330817538"/>
+        <updated>2023-03-04T06:59:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>目前 LSD 领域的主要参与者有 LidoFinance、StakeWise、pStake Finance 等。市值较小的项目尚未受到市场关注。加密货币研究员 CryptoBlooom 简述了 LSD 概念，并从产品功能、风险等方面介绍了小市值 LSD 项目 -- Liquid Finance 。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/cryptoblooom/status/1631652512330817538">https://twitter.com/cryptoblooom/status/1631652512330817538</a></p>
+<p><strong>文章作者：</strong></p><p>CryptoBlooom</p><hr><h3>观点：</h3><p><strong>CryptoBlooom：</strong>产品：Liquid Finance 旨在通过 FraxFinance 的部分准备金模型为 DeFi 提供流动性。lqETH 和 LIQD 的双代币系统使项目能够稳定 lqETH 的价格。该协议将在增长阶段收集与 ETH 、 BTC 和 DAI 配对的 lqETH 的 LP，以从更广泛市场中的定价低效中捕获 MEV，并无限期地维持协议的收入。此外，还能够从闪电贷的定价低效中捕获 MEV。【原文为英文】</p><a href="https://twitter.com/cryptoblooom/status/1631652512330817538">内容来源</a><p><strong>CryptoBlooom：</strong>风险：团队是匿名的，找不到关于他们的任何信息；代币供应无上限。官方文档声称技术在模拟中经过了实战测试，然而 Luna 当时也有同样的说法，而它最后崩盘了。【原文为英文】</p><a href="https://twitter.com/cryptoblooom/status/1631652512330817538">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -138,6 +162,19 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
 这次，AIGC 的热潮又来了，或许不久也会颁布相关产业政策，但属于我们的 AIGC 独角兽创业者会到来吗？]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circle 已将 Silvergate 持有的一小部分 USDC 储备转移给至其他银行合作伙伴]]></title>
+        <id>https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank</id>
+        <link href="https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank"/>
+        <updated>2023-03-04T06:57:15.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Circle 已将 Silvergate 持有的一小部分 USDC 储备转移给至其他银行合作伙伴</h3>
+<p>据官方公告，由于 Silvergate Bank 持续存在的不确定性，稳定币发行商 Circle 已将 Silvergate 持有的一小部分 USDC 储备存款转移至其他银行合作伙伴。所有 USDC 储备都存放在几家资本充足的美国银行和 Circle Reserve Fund 中，Circle Reserve Fund 目前持有约 80% 的 USDC 储备。这些储备金由德勤每月审查和证明，目前已发布第一份证明报告。
+此外，Circle 的客户服务、运营、风险管理和财务团队已经将替代方案通知了其余依赖 Silvergate 的客户。尽管 Silvergate 表示其与存款相关的服务不受影响，但 Circle 正在努力迁移与 Silvergate Bank 相关的任何其他服务。</p>
+<p><a href="https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
