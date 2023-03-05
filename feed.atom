@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T08:39:32.849Z</updated>
+    <updated>2023-03-05T08:44:32.960Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】ERC4337 的两个挑战：中心化与经济模型]]></title>
+        <id>https://twitter.com/blockomotive/status/1631996549214482432</id>
+        <link href="https://twitter.com/blockomotive/status/1631996549214482432"/>
+        <updated>2023-03-05T08:00:08.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/blockomotive/status/1631996549214482432">https://twitter.com/blockomotive/status/1631996549214482432</a></p>
+<p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【长推】Gnosis 的创始人谈 L2 的局限性：畅想一个使用 ZK-bridge 连接的以太坊宇宙]]></title>
         <id>https://twitter.com/levi0214/status/1631924502354595840</id>
@@ -8294,18 +8306,6 @@ Read the full entry]]></summary>
 Read the full entry]]></summary>
         <author>
             <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[这 8 个顶级协议，背后有哪些「持币巨鲸」？]]></title>
-        <id>https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw</id>
-        <link href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw"/>
-        <updated>2023-02-28T11:00:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 研究员 Thor Hartvigsen 根据自创的数据库，通过研究代币持有者排行、风险投资 、「聪明投资者」钱包追踪器，花费了 3 周时间追踪了 8 个性能强劲的协议背后的顶级「持币巨鲸」。本推文中文版由白泽研究院编译。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw</a></p>
-<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Lido： Paradigm Capital， 7% （7000 万枚 $LDO）；Dragonfly Capital， 2.7% （2700 万枚 $LDO）。2）GMX：Arthur Hayes（BitMEX 联创），20.05 万枚 $GMX (价值约 1550 万美元) ；未知鲸鱼 1 ，19.6 万枚 $GMX 。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a><p><strong>Thor Hartvigsen：</strong>3）Rocket Pool：Patricio Worthalter (POAP 创始人)， 61.3 万枚 $RPL (价值约 3200 万美元) ；1kx (投资公司)： 53.4 万枚 $RPL (价值约 2790 万美元) 。4）Frax：fraximaxi.eth，658 万枚 $FXS (价值约 7500 万美元) ；fraxcetacean.eth： 190 万枚 $FXS (价值约 2160 万美元) ；Dragonfly Capital， 64.8 万枚 $FXS 。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a><p><strong>Thor Hartvigsen：</strong>5）Curve：创始人钱包 #2-4 ，3.96 亿枚 $CRV (价值约 4.67 亿美元)；Michael Egorov，3.4 亿枚 $CRV (价值约 4.01 亿美元) 。创始人持有的大部分 CRV 要么在未来几年内解锁，要么锁定为 veCRV。「投资者钱包」中还有大量 CRV 解锁。6）dYdX：Wintermute，650 万枚 $DYDX（价值约 2000 万美元）；Amber Group，285 万枚 $DYDX ，Hashkey： 220 万枚 $DYDX 。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a><p><strong>Thor Hartvigsen：</strong>7）Synthetix：Kain Warwick (创始人)，1290 万枚 $SNX（价值约 3380 万美元）；Jump trading，240 万枚 $SNX。8）Polygon：Republic Capital， 2450 万枚 $MATIC（价值约 3700 万美元）；Blockchain Capital，1770 万枚 $MATIC（价值约 2700 万美元）。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
