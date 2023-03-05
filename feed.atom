@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T22:29:17.114Z</updated>
+    <updated>2023-03-05T22:35:18.006Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[《华尔街日报》：币安曾试图聘请SEC主席Gary Gensler担任顾问，但遭到拒绝]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1p6zjkd3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1p6zjkd3.html"/>
+        <updated>2023-03-05T22:29:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月6日消息，据《华尔街日报》报道，加密交易所币安在Gary Gensler成为美国证券交易委员会(SEC)主席数年前就希望聘请他担任顾问，但遭到Gensler拒绝。报道中称，币安曾试图在2018年和2019年聘请Gensler，当时Gensler在麻省理工学院担任教授。在2018年10月的一次会议上，与会者包括Gensler、前币安风险投资部门负责人Ella Zhang和Harry Zhou。Zhou当时在币安投资的一家公司任职。Zhou在当时的聊天信息中写道：“我注意到，虽然Gensler拒绝担任顾问，但他在分享许可策略方面很慷慨。”币安此前曾聘请其他美国政府官员担任顾问，包括蒙大拿州前参议员Max Baucus。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一周预告 | Tornado Cash ( TORN )等代币将进行解锁；Dookey Dash开启新篇章“召唤”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/nn46gjgb.html</id>
@@ -3271,17 +3281,6 @@ Goat Swap：Goat Swap是Solana上的一个NFT AMM，由Solana链上交易聚合�
 <p><strong>文章作者：</strong></p><p>Stephane</p><hr><h3>观点：</h3><p><strong>Stephane：</strong>所有的 OFA 都有相同的核心框架，只是在实现方式上有所不同。流程：1. 发起人产生订单；2.OFA 与竞标者共享信息；3. 竞标者利用信息预估 MEV，并出价；4.OFA 选择中标者，并将其纳入。【原文为英文】</p><a href="https://frontier.tech/the-orderflow-auction-design-space">内容来源</a><p><strong>Stephane：</strong>OFA 需要做出 5 个关键的设计决定：1. 接受哪些订单类型？2. 谁可以对订单进行竞标？3. 哪些信息是共享的？4. 如何选择中标者？5. 如何纳入中标结果？【原文为英文】</p><a href="https://frontier.tech/the-orderflow-auction-design-space">内容来源</a><p><strong>Stephane：</strong>我们预测 OFA 的实施将围绕以下的四个设计进行：1. RFQ 拍卖；2. 独家批量拍卖；3. 交易执行服务；4. 区块空间聚合器。【原文为英文】</p><a href="https://frontier.tech/the-orderflow-auction-design-space">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[管理4亿美元的加密基金DACM因受Silvergate影响正寻求瑞士银行帮助]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/d39w1e31.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/d39w1e31.html"/>
-        <updated>2023-03-03T10:06:46.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月3日消息，据彭博社报道，目前管理着 4 亿美元的加密货币对冲基金 Digital Asset Capital Management(DACM) 正在寻求瑞士银行帮助填补由 Silvergate 银行系统造成的缺口。Digital Asset Capital Management 使用 Silvergate 的全天候实时网络将资金转移到 Coinbase 上，但 Coinbase、Crypto.com 和 Gemini 等交易所将不再接受或通过 Silvergate 发起支付。其联创 Richard Galvin 表示，找到银行合作伙伴可能需要一些时间。我们正在与一些瑞士银行交谈。
-昨日报道，加密银行Silvergate可能"资本不足"，正在"重新评估业务和战略"。无法按时提交年报。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
