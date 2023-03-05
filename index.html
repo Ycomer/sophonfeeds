@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T02:26:02.000Z">2023-03-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T02:26:02.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T02:55:37.000Z">2023-03-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T02:55:37.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,6 +42,212 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/zztma40n.html"
+                        open
+                      >
+                        <summary class="article-expander__title">RaaS是什么？什么样的RaaS会赢得市场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/zztma40n.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/BqyU80gXh6.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>作者: Yihan Xu@Foresight Ventures
+Overview
+通过本文你可以了解到：
+…
+1.RaaS是什么
+1.1 Rollup: 最具潜⼒的扩容⽅案
+Layer 2出现的初衷是缓解主⽹拥堵问题，在保证安全性的情况下以更低的成本、更⾼的TPS为Dapp提供服务。Rollup将⾼成本的transaction execution放到L2执⾏，并将交易打包到L1进⾏验证，同时确保完整的交易内容可以被验证。在继承以太坊安全性的前提下，具备更强的综合性能。因此，rollup已经在各种layer 2的解决⽅案中杀出了⼀条路，⽆疑是当下最具有潜⼒的链下scaling⽅案。
+1.2 Rollup-as-a-service: App-specific chain的其中⼀种形态
+随着⼀些dapp的逐渐壮⼤以及各种新应⽤的拓展，作为General purpose scaling的rollup显然⽆法完美地满⾜这些项⽬对⽤户体验和成本结构的追求。庞⼤的流量和对性能超⾼的要求(注重玩家交互的3A游戏)使得这些应⽤需要更加定制化的扩容解决⽅案。
+App-specific chain是对这些dapp来说就是当下最好的解决⽅案之⼀。
+App chain的概念并不陌⽣，不同项⽬可以针对⾃⾝应⽤场景和需求对blockchain进⾏定制化地设计，让dapp可以独享⼀条链上的资源，并且在保证不与其他⽣态割裂的基础上，获得更低的运营成本和更⾼的performance，为⽤户带来更好的使⽤体验。
+⽐如基于Terdermint共识的Cosmos就为Dapp提供了低成本搭建⼀条L1主权公链的⽣态环境。同时，基于IBC通信协议，不同app chain之间也能更轻易地实现资产/信息跨链。可以参考Cosmos官⽅给出的IBC packet lifecycle?
+
+抛开⽣态谈扩容是没有意义的。
+App chain这种解决⽅案的可⾏性⼀定是基于强⼤的互操作性和⽣态的⽀撑。⽐如Cosmos通过⽣态中的L1主权公链和IBC带来的跨链优势逐步完善⾃⼰的⽣态体系。
+基于以上认知，另⼀种app-specific chain的思路是通过定制化rollup的⽅式，实现dapp对定制化功能、⾼性能、低成本的追求。⼀些基于⼆层⽹络的RaaS也能让项⽬的交互更快捷，对⽣态布局产⽣正向影响。
+加密世界多链多rollup的格局似乎已经是⼀个必然的趋势，RaaS项⽬⾬后春笋般的涌现也为开拓新的dapp形态创造了基础。但是在这样的共识下我还是想反⽅向地问⼀个现实的问题:
+让任何⼈都可以快速的launch⼀个rollup确实很有吸引⼒，但是这件事除了⼤⽅向正确并且很酷之外，是否真的为有需求的⼈创造了⾜够⼤的价值？这个问题可以进⼀步拆成两点:
+市场上是否有⾜够多有需求的项⽬⽅存在⾜够⼤的motivation去⽤RaaS？
+RaaS是否为项⽬⽅创造了可观的价值？
+这个问题本质上是讨论需求和RaaS带来的价值。⾜够多的项⽬⽅有需求或者RaaS能提供有吸引⼒的提升。
+从需求上看，随着⼀些dapp的不断壮⼤，项⽬⽅确实迫切地需要去寻求：
+成本
+参考L2fees给出的数据，L2 rollup在成本优化上已经做到极致，相⽐Ethereum主⽹有⾮常⼤的提升。同时再看Caldera Chains的RaaS测试数据，可以发现成本上并没有质的改变，更像是99-100的优化。同时，EIP4844和danksharding的实现也会让L2 rollup的成本进⼀步降低，RaaS在成本和效率上带来的差异也会进⼀步缩⼩。
+可以⼤幅度降低transaction fee的⽅案是有吸引⼒的，但⼤多数RaaS并不能做到这⼀ 点。综合考虑迁移，整体⽣态，互操作性，安全性等多⽅⾯成本，项⽬⽅真的有⾜够的动⼒去使⽤RaaS吗？对于⼤多数常规dapp或者对性能和成本不那么敏感的⽤户来说，也许⽤general purpose scaling就⾜够了。
+
+性能
+L2 rollup已经具备提供超⾼的TPS的能⼒。参考Caldera给出的数据，在block time上基于Op的RaaS⼏乎没有带来优势。虽然ZK RaaS可以提供更定制化的数据存储和压缩，但对于这类服务的需求并不多。基于⼆层⽹络的RaaS确实可以通过在L2 settle交易带来更快的速度和更低的成本，进⽽提升⽤户体验。
+就像上⾯提到的，⾯对不完善的⽣态和其他迁移/开发成本，项⽬⽅是否还有⾜够的动⼒去使⽤RaaS？
+
+定制化功能
+从价值创造上看，⼀些RaaS确实可以提供⽬前很难实现功能或者在general purpose scaling中实现⽐较低效的设计。举例来说：
+⽬前L2的ZK电路设计的第⼀要素是兼容性，为了服务所有Dapp，因此电路设计⼀定程度上牺牲了效率，并没有针对特定的Dapps进⾏优化。RaaS的价值可以很明显的体现出来：对特定的dapp定制化地设计ZK circuit或者提供更⾼效的存储结构和数据压缩服务，以达到更⾼的performance；
+对隐私功能的实现。虽然ZKrollup对privacy友好，但出于去中⼼化和安全性的考虑，⽤户的交易数据仍需要在压缩后通过calldata发布到L1作为history log，允许所有⽤户验证。因此，当前 general purpose scaling的rollup并不能实现privacy。RaaS能定制化地在rollup甚⾄rollup of rollup的基础上实现隐私功能，为强隐私需求的项⽬创造价值。
+因此，⽬前RaaS发挥的价值：定制化 &gt; 单纯成本和效率。(不排除定制化带来的成本和效率提升)
+回答⼀开始的问题：RaaS是否真的为有需求的⼈创造了⾜够⼤的价值？
+我认为现阶段对RaaS的需求有限，general purpose scaling能满⾜90%以上的需求。虽然在⼀些细分领域定制化的rollup已经开始发挥⽆法替代的作⽤，但毕竟不是主流。RaaS创造的价值有限，需要在考虑⽣态、互操作性等综合因素的基础上进⼀步探索。
+从L2 rollup出现开始，关于RaaS的探索就⼀直没有停⽌，到现在为⽌市场上也出现了各 种各样的Rollup-as-a-service实现⽅案。参考Messari上的⽣态布局，可以⼤致看出不同RaaS的实现路径。那么最关键的问题是：
+什么⽅案是make sense的？
+什么样的RaaS会最终赢得市场？
+3.1 OP or ZK？
+关于optimistic还是zero knowledge的讨论⼀直没有停过，虽然ZKrollup理论上拥有更强的performance、远快于optimistic rollup的finality time以及更⾼的安全性，但optimistic rollup具备更好的兼容性和更低的门槛。
+在现有的RaaS项⽬中，⼤多数项⽬是基于optimistic rollup的，我认为主要是以下⼏点原因：
+⽣态永远在第⼀位。基于optimistic的RaaS具备更好的兼容性，极⼤地降低了项⽬⽅迁移/开发门槛，可以让更多项⽬⽅快速部署，迅速构建更繁荣的⽣态，占据先发优势；
+门槛更低，不依赖算⼒⽀持。基于optimistic的RaaS同样通过fraud proof验证交易的有效性，因此在算⼒上对机器性能和储备的要求更低。这也是很多RaaS⽆法上⼿就做ZK的限制因素。
+更容易规模化。基于optimistic的RaaS开发门槛更低，不像以追求性能和更为底层的定制化的ZK RaaS，需要提供者深度参与开发。同时，受限于⽣成ZKP的算⼒，ZK RaaS也很难像optimistic RaaS⼀样⼤规模部署。
+虽然optimistic rollup在⽣态布局上的优势明显，但基于ZK的RaaS也有很明显的⻓处
+真正的定制化，带来更好的performance和更低的成本。在rollup的定制设计上，基于ZK的RaaS能在功能和性能上给项⽬带来更⼤的，general purpose scaling很难实 现的价值，可以看作是⼀种从0到1的改变。⽽基于optimistic的RaaS更多是在成本和效率上做90-99的改变。
+更⾼的安全性。ZK的RaaS可以做到trustless，⽽基于op的服务需要信任challenger正常⼯作，防⽌sequencer作恶。
+更好的互操作性和finality time。基于OP的RaaS需要进⾏7天的fraud proof验证，⽽ZK trustless的特征使其具备更快的finality time，同时，7天的验证期使OP-RaaS在跨 rollup的建设上存在挑战。
+总结
+从短期看，基于optimistic的RaaS在⽣态上的优势⽆法撼动，但从⻓期需求和价值创造的 ⾓度出发，我认为基于ZK的RaaS⼀定会在未来收获更⼤市场。
+3.2 Layer 2 or Layer 3?
+根据不同RaaS的use case和实现⽬标，选择更合适的实现⽅案。关于这个问题最⼤的差异我认为在成本和⽤户体验(互操作性)。
+如果将L2作为settlement layer并布局RaaS做为L3，可以实现更低的交易成本和更快的跨rollup交互，也就带来了更好的体验。⽽基于ethereum的L2 RaaS虽然很好的继承的主⽹ 的安全性，但在跨链成本和速度上都远不及多层⽹络设计。
+因此L3 &gt; L2
+3.3 RaaS or L1 app chain: ⽣态和成本之间的权衡
+Cosmos和Polkadot最早提出了app-specific chain的解决⽅案，和同为app-specific chain的RaaS谁更适合为dapp提供定制化服务？
+
+互操作性
+对于L1 app chain，除了在第⼀节提到的基于IBC通信协议的Cosmos⽣态，应⽤可以 在Polkadot上建⽴parachain，并基于XCM进⾏跨链信息交互。然⽽由于安全性和成本的考虑，在实际应⽤中我们可以看到⼤多数项⽬还是仅仅基于Terdermint或者Substrate共识引擎进⾏定制化L1 app-chain的开发，⽽很少⽤到跨链通信的功能。这就导致了这些跨链⽣态之间的相对独⽴，⼀定程度上并不契合我对于app-chain的终极形态的设想，不同app-chain应该⼀起构成⼀个具备强⼤互操作性的繁荣⽣态。
+对于starknet这类基于⼆层⽹络做进⼀步延展的RaaS结构，在互操作性上具备更强的优势，不同dapp维护的rollup之间可以进⾏低成本跨链，并且由于可以在⼆层⽹络结算，速度和⽤户体验也会更好。但这⼀切互操作性的前提都是RaaS能构建⾜够强⼤的⽣态。
+安全性
+取决于RaaS的设计，DA基于ethereum的RaaS⼤多继承了以太坊L1等同的安全性，⾼于L1 app chain的安全性和去中⼼化程度。⽽基于DA layer或者side chain的RaaS，安全性 由这些⼆层⽹络保证。
+成本
+对于L1 app chain，交易成本收敛到dapp项⽬⽅本⾝的native token，可以做到极低 的运营成本；
+对于RaaS，L2 RaaS由于需要和ethereum主⽹直接进⾏数据交互，成本相对较⾼，⽽基于polygon, starknet的L3 RaaS由于可以在L2 settle，成本相对更低。
+⽬前正在开发或者已经部署的RaaS项⽬⾮常多，包括但不局限于StarkNet L3, Opside, Caldera, Celestia, Dymension, Sovereign, Stackr, Eclipse, Altlayer, Saga…
+下⾯挑了⼀些⽐较有代表性的进⾏分析。
+4.1 ZK系列
+包括但不局限于Sovereign Labs、Fractal、StarkNet、Opside、ZKsync
+4.1.1 StarkWare: 基于ZKRollup的定制化L3
+参考这张⽼图，StarkWare团队在⽂章 &quot;Fractal Scaling: From L2 to L3&quot; 中最先提出了以太坊多层⽹络的设计。但多层⽹络的提出绝不是单纯做进⼀步扩容，更多是在L2 general purpose scaling的基础上通过叠加定制化rollup的⽅式允许项⽬⽅掌控更多链上资源，提供L2 rollup⽆法达到的⽤户体验。
+
+虽然从计算⾓度看，可以对⼀堆ZKP⽣成⼀个ZKP来证明有效性，但数据没法压缩后继续压缩。由于需要保证数据可⽤性，允许任何⼈验证proof的有效性，rollup需要将完整或压缩后的交易内容发送到L1。
+因此，StarkWare的app-specific chain应⽤场景⼀定是追求⾼性能或者特定feature的。
+⾼性能：对性能要求⾼的游戏可以独享ZK电路资源以提供更好的⽤户体验；
+隐私：对于⼀些有隐私需求的项⽬，定制化地在rollup甚⾄rollup of rollup的基础上实现隐私功能；
+兼容性扩容：提供EVM兼容的环境，甚⾄兼容更多编程语⾔，为⽣态本⾝提供正向价值
+低成本：在牺牲⼀定去中⼼化和安全性的前提下，通过Validium极⼤地降低运营成本。
+StarkNet基于Validium的L3⽅案理论上是能直观降低成本的，同时互操作性也得到了保证。
+但从定制化的⾓度看，可以进⼀步推断这种基于ZKrollup的app-specific chain在提供可观的性能提升的同时，也拉⾼了项⽬⽅开发成本和参与门槛。因此，RaaS的提供者需要深度介⼊开发，在商业化过程中的扩展速度和规模有局限。
+4.1.2 Opside: 为app-specific chain设计的另⼀种三层⽹络结构
+参考下图，相⽐StarkWare, ZKsync基于L2 rollup的app-specific L3的设计，Opside提出了⼀种专为high TPS应⽤⽽设计的三层⽹络。基于PoS+PoW的共识设计了⼀个侧链作为L2，并将app-specific chain作为L3接⼊侧链。
+Opside通过开发的ZK-bridge进⾏数据交互，并且与传统侧链的不同在于，合法性的证明通过zkp完成，⽽不是多签，所以有着更⾼的安全性。同时，Opside通过native rollup将app-specific rollup集成进L2 sidechain的共识中，即从共识⾓度激励第三⽅维护L2侧链上 的rollup。
+互操作性对RaaS⾄关重要，Opside中的native rollup之间共享⼀个world state tree和global message queue。因此，app-specific rollup之间的资产、信息交互会⾮常⾼效且成本更低，跨链资产交互只需要在⼀个L3 rollup的合约中直接调⽤⽬标rollup的contract method。但是兼容性和⽣态的发展对于基于ZK的rollup仍是⼀个挑战。
+ZK所带来的trustless和更快finality time的tradeoff是RaaS的商业化规模受限于算⼒，需要硬件的⽀持来⽣成ZKP，这也是⼤多数RaaS不做ZK的原因之⼀。另外，侧链作为L2的设计在安全性上对RaaS的提供者也是⼀个挑战。
+4.2 Optimistic系列
+包括但不局限于Caldera、Eclipse
+4.2.1 Caldera: 基于Op stack将⽤户体验优化最⼤化
+Caldera是⼀个基于Op stack的RaaS，为项⽬⽅提供⾼通量、低延迟、定制化功能的L2 rollup。⽬前testnet允许任何⼈在很短的时间内创建⼀个L2 rollup，⽤户体验很丝滑，可以去体验⼀下: https://dashboard.caldera.xyz/
+基于Op stack的设计让Caldera在兼容性上获得了很⼤的优势，fully EVM compatibility加上团队在⽤户体验上的优化，极⼤地降低了迁移/开发门槛。同时，Caldera的RaaS在算⼒⽅⾯不受限于底层硬件的⽀持，因此综合来看能让更多项⽬⽅快速部署，构建更繁荣的⽣态。
+参考Caldera官⽅⽂档的结构图，Caldera Chains不仅可以在Ethereum上launch L2 rollup-as-a-service，也可以在任何EVM-compatible的L1上提供服务，通过向L1发送 fraud proof确保交易有效性。在数据可⽤层上，Caldera同样做了创新，将Data Availability Layer与Settlement Layer解耦，定制化的rollup可以将交易内容发送到 Ethereum，或者专门的DA层，⽐如Eigenlayer或者Celestia。这样的设计更⼤程度上优化了Caldera的可扩展性和交易成本。
+Caldera⽣态的互操作性由内部的跨链桥实现，通过在相应的L1和app-specific rollup上部署合约实现资产和数据的跨链，同时，Caldera也提供high-level javascript SDK帮助开发者在定制化的rollup中更⾼效地加⼊跨链功能。
+虽然Caldera在互操作性和跨链桥上做了很多，optimistic rollup需要7天fraud-proof time，因此构建rollup之间的互操作性是⼀个挑战。同时，基于optimistic的RaaS不能做到trustless，要信任⾄少有⼀个challenger存在来防⽌sequencer作恶。
+另外，在定制化上，Caldera这类基于Optimistic的RaaS更多的是在低成本和⾼TPS上发⼒，⽽很难做到像基于ZK的RaaS那样，在功能和性能上给项⽬发带来更⼤的价值。可以看到现在的general purpose scaling rollup已经能做到⾮常可观的block time、TPS和transaction cost，并且看数据和raas相差并不⼤，可以说已经完成了0-1的提升，那么基于Op的RaaS所带来的成本和通量的提升是不是当前市场所需要的还需要打个问号。
+4.3 Modular blockchain
+包括但不局限于Celestia、Dymension
+4.3.1 Celestia: 以DA层为基础构建模块化区块链
+Celestia本质上是⼀个data availability layer。基于Tendermint共识的DA层构建了⼀套可扩展性较强的区块链层级架构。通过rollmint(⼀种application blockchain Interfaceimplementation)，dapp可以搭建⾃⼰的rollup并部署到Celestia，数据在DA layer存储， ⽽state root和proof上传到L1进⾏验证。Celestia通过data availability sampling(DAS)对DA layer进⾏优化，⽹络中的每个light node只需要抽样并下载⼀⼩部分区块数据，因此 节点数量越多，每个区块中所能包含的transaction数量越多，达到scale DA layer的⽬的。这就很容易联想到熟悉的Validiums: ⼀种通过ZK算法对计算结果进⾏验证，数据不上传L1，⽽是依赖于validators托管的扩容⽅案。由于数据存在链下⽽⾮直接发布到Layer1， Validium降低了gas成本。但是从去中⼼化和安全性的⾓度看，Data Availability依赖于第 三⽅委员会，因此Validiums使⽤并不⼴泛。
+从实现⽅式上看，整个⽣态体系中的dapp相当于在搭建⾃⼰的validium，并维护sequencer和prover，由Celestia提供统⼀的数据存储空间。和Validiums类似，这样的实现⽅式降低了dapp的运营成本，但同时⼀定程度上牺牲了去中⼼化程度和安全性。相⽐其他继承Etheruem安全性的解决⽅案，Celestia上dapp链的安全性依赖于节点和DA layer。
+另外，Celestia⽬前并不⽀持fraud proof，因此节点需要基于悲观假设重新执⾏所有交易以确保有效性。同时，rollmint也只⽀持single sequencer，因此在效率和去中⼼化程度上都有很⼤的改善空间。
+但作为⼀个DA层，Celestia的想象空间绝不⽌于此，⽐如基于optimisitc的RaaS解决⽅案Eclipse就将Celestia作为共识和DA层。
+RaaS能直观的带来成本和性能的提升，但从performance推断这些优化并不具备很强的吸引⼒；更⼤的价值还需要和定制化功能绑定。⽬前市场需求有限，但未来crypto的发展，更⼤的流量会导致dapp对低成本和⾼性能的追求线性增⻓，定制化的rollup服务显然是⼀个可取的解决⽅案。
+回答最开始提出的问题，我理解的RaaS的最终形态是什么？什么样的RaaS会收割市场？
+从产品本⾝看
+基于OP的RaaS的优势在于快速搭建⽣态，形成壁垒，但是单纯从成本和效率上带来的⼩幅提升并不⾜以吸引项⽬⽅，因此没有⻓期价值。⽽基于ZK的RaaS能在定制化功能上解决痛点，但需求依然不是主流。
+多层⽹络结构的设计使L3的RaaS获得更低的成本和更强的互操作性。⽽强⼤的互操作性是构建⼀个⽣态繁荣的RaaS的基础，因此，基于ZK的多层⽹络设计可以将定制化和低成本的优势叠加，可以看到更⻓期的价值。
+我认为⻓期看基于ZK的多层⽹络RaaS会成为市场最终的选择。
+市场和需求
+具备⾜够可扩展性的RaaS可以在保证performance的前提下满⾜所有项⽬⽅的定制化rollup的需求。同时，RaaS真正崛起⼜重度依赖⽣态的建设。因此，多个RaaS共存的格局显然是不make sense的。
+我认为终局⼀定是⼀个或者少数RaaS占据整个市场。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/uydx9lrw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：持有超过1枚ETH的地址数量创一个月新高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/uydx9lrw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月5日消息，Glassnode数据显示，持有超过1枚ETH的地址数量为1,743,911个，创一个月新高。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/janejmr1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT创作者应对版税下降的 4 种方式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/janejmr1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/9j19Nh1nnQ.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>撰文：William M. Peaster
+编译：DeFi 之道 Yangz
+随着 NFT 生态系统的不断发展，零收费或低收费的市场不断涌现，许多创作者面临着二次销售的版税收入减少。
+
+因此，面临的挑战是，在这个版税趋于不支付的新环境中，产生可持续的收入流。
+好消息是，NFT 创作者可以使用多种策略来弥补呈下降趋势的版税收入。
+在本文中，我将分享创作者可以采用的四种途径，以便在这个不断变化的 NFT 版税环境中更好地定位。
+
+正如 DCinvestor 之前解释的那样，NFT 最好被理解为“去许可、抗审查的无记名资产”。换句话说，NFT 是去中心化的数字事物，可以直接在个人之间移动，不受中心化中介机构的干扰。
+由于 NFT 领域最近一直在努力应对由 Blur 和 OpenSea 之间的 NFT 市场战争推动的版税支付的下降趋势，一些方法 -- 如阻止转移、销毁非版税支付者的代币和市场封锁名单 -- 被提出来作为阻止收入下降的潜在途径。
+上述方法的问题在于，它们都是中心化的策略，侵蚀了 NFT 的基本价值主张，即作为去中心化的无记名资产。
+尽管如此，当涉及到补偿下降的版税时，NFT 创造者仍然有一系列的选择可以考虑。
+创作者或藏品团队可以考虑的第一个和最基本的方法是为自己保留一些 NFT 项目的供应。
+随着项目的发展，这些保留的供应量可以在之后用于主要的销售，无论是在一段时间内以 drip 的方式进行进一步的融资，还是像 Larva Labs 在 2022 年将其 CryptoPunk 供应量出售给 Yuga Labs 作为更广泛的 IP 交易的一部分。
+这种策略有两个一般的变化，即保留未铸造的供应（想想像 Chromie Squiggles 这样的按需铸造的系列，其中 + 250 个 NFT 仍然可以在该系列的最大供应量中为特殊场合铸造）或保留已铸造的供应（例如，Larva Labs 从 CryptoPunks 智能合约中铸造了第一批 1000 个 NFT，并随着时间推移从该批次中出售）。
+当然，仅仅因为一个项目为自己保留了一些供应并不意味着它不能试图赚取版税，尽管它们最近可能处于下降趋势。
+例如，Terraforms 的创造者采取了零版税的方法，只是选择了保留未铸币的供应，以便以后进行初级销售，并使自己与社区长期保持一致，但相比之下，当 goblintown.wtf 团队在 2022 年 5 月进行免费铸币时，他们保留了 1000 个 NFT，并开始对二级销售收取 7.5% 的版税（后来转移到了自己的定制市场，执行的是 5% 版税）。
+2 成为有供应的 LP
+在 NFTfi 领域，有一波越来越多的 NFT 自动做市商（AMM）协议，创造者或项目可以提供 NFT 以赚取掉期的交易费用。
+要点在于，项目可以将其 NFT 添加到流动性池中（提供流动性，又称 LPing），然后在人们通过该团队的流动性进行买卖时赚取分成。这种策略的一个有趣的优点是，它允许一个团队从他们的 NFT 中赚取收入，而无需进行初级销售。
+
+例如，Sappy Seals 团队获得了 50 个自己的 NFT，然后在 2022 年 8 月开始在 sudoswap 上用这些 NFT 做 LP。从那时起，该团队通过交易费赚取了价值数千美元的收入。其他使用这种 LPing 策略并取得类似成功的项目包括 Based Ghouls, Finiliar 和 Allstarz。
+
+这种方法的另一个更先进的变化是在 Abacus spot 池中进行 LPing，但目前还没有这样的例子。Abacus 是一个新的 NFT 评估协议，专注于 NFT 的定价。该团队提出了一种新的 NFT LPing 方式，即项目将其部分财库资金链接到 Abacus 上自己的流动性池中，以产生收入并为池中的所有 NFT 准确定价。在这里了解更多关于这个概念的信息。
+
+03 DIY 市场
+有时候，当你需要做一些事情时，你必须自己去做。在当代的 NFT 市场领域，想要执行版税的项目越来越多地推出自己的本地市场，并将活动集中在那里，以便将交易从 Blur、OpenSea 等目前不可靠的地方吸引过来。
+幸运的是，像 Reservoir 这样的 NFT 基础设施项目使创作者和藏品可以越来越容易地部署他们自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。
+
+例如，Finiliar 就使用了 Reservoir 来支撑其在 finiliar.com 上的本地市场系统。他们以自己喜欢的方式设置了前端，然后 Reservoir 负责所有实际的市场行为。
+
+ 
+4 激励版税
+尽管最近 NFT 的版税普遍呈下降趋势，但这并不意味着我们必须放弃对其的所有希望。事实上，一种可用的方法是通过直接激励来增加版税。
+有许多不同的方式可以实现这种激励。比如，NFT 团队可以使用索引系统来识别他们所有在过去一年中兑现版税的藏家，然后为这些支持版税的藏家推出独特的福利，如白名单，NFT 空投，设有代币门槛的聊天，排行榜比赛，等等。
+这个途径很有趣，因为它可以很容易地与上述其他方法一起使用（例如抑制供应，将注意力集中在 DIY 市场上），并引导 NFT 持有者成为更积极和有帮助的社区成员！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/2o0olbjt.html"
                         open
                       >
@@ -51,6 +257,46 @@
                               <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>PANews 3月5日消息，Yuga Labs在推特发文称，TwelveFold拍卖将于太平洋时间3月5日下午3点（北京时间3月6日上午7点）开始，并将于太平洋时间3月6日下午3点（北京时间3月7日上午7点）结束，持续24小时。据此前消息，Yuga Labs在比特币区块链上推出基于Ordinal协议的NFT系列TwelveFold。该系列将包含300件限量版生成艺术作品，每件都刻在比特币区块链上。每件NFT作品都是12x12网格，结合3D图形和手绘特征，由Yuga Labs内部艺术团队设计和创作。该公司表示“TwelveFold”与其任何一个以太坊链上IP均无关联，未来也不会有任何交互。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/2o0olbjt.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Yuga Labs NFT系列TwelveFold拍卖将于北京时间3月6日开始，持续24小时</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/2o0olbjt.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月5日消息，Yuga Labs在推特发文称，TwelveFold拍卖将于太平洋时间3月5日下午3点（北京时间3月6日上午7点）开始，并将于太平洋时间3月6日下午3点（北京时间3月7日上午7点）结束，持续24小时。据此前消息，Yuga Labs在比特币区块链上推出基于Ordinal协议的NFT系列TwelveFold。该系列将包含300件限量版生成艺术作品，每件都刻在比特币区块链上。每件NFT作品都是12x12网格，结合3D图形和手绘特征，由Yuga Labs内部艺术团队设计和创作。该公司表示“TwelveFold”与其任何一个以太坊链上IP均无关联，未来也不会有任何交互。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/vlb5hsnk.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Coinbase协议负责人：过去一年一直在快速迭代其NFT平台</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/vlb5hsnk.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月5日消息，据Decrypt报道，在以太坊丹佛大会ETH Denver上，Coinbase协议负责人Jesse Pollak表示，过去十年Coinbase一直以交易为中心。投资Base是为了创建一个“开发者可以轻松构建有用产品”的平台，用户也可以通过Coinbase和Coinbase钱包等界面使用这些产品。Jesse Pollak还表示，尽管去年推出的NFT市场没有达到预期效果，但Coinbase过去一年一直在快速迭代其NFT平台，已看到更多增长。此外，Coinbase还在ETH Denver上宣布收购数字资产管理公司One River Management。Pollak表示，这将帮助Coinbase以注册投资顾问的身份吸引新客户。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -270,7 +516,7 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>PANews 3月5日消息，据CoinDesk报道，Multicoin Capital的年度投资者信显示，该公司的对冲基金在2022年亏损了91.4%。信中将去年的亏损归因于加密货币波动以及FTX崩溃造成的直接和间接影响。在去年11月致投资者的另一封信中，Multicoin详细介绍了其对冲基金的财务状况，透露该基金有10%的资产被困在FTX上，以及持有大量FTT、SOL和SRM的敞口，这些代币都在去年11月遭遇了大幅抛售。Multicoin Capital于2017年10月推出了对冲基金策略，投资于流动性代币。该公司还运营着三只风险投资基金，并投资了FTX。尽管去年大幅缩水，但Multicoin的对冲基金从成立之初到2022年，扣除费用后仍上涨了1376%。随着今年加密市场反弹，Multicoin基金在2023年1月上涨了100.9%，从成立到今年1月的回报率达到2866%。Multicoin表示，仍然坚持其长期战略，没有计划进行短期投机操作。</span>
+                              <span>PANews 3月5日消息，据CoinDesk报道，Multicoin Capital的年度投资者信显示，该公司的对冲基金在2022年亏损了91.4%。信中将去年的亏损归因于加密货币波动以及FTX崩溃造成的直接和间接影响。在去年11月致投资者的另一封信中，Multicoin详细介绍了其对冲基金的财务状况，透露该基金有10%的资产被困在FTX上，以及持有大量FTT、SOL和SRM的敞口，这些代币都在去年11月遭遇了大幅抛售。Multicoin Capital于2017年10月推出了对冲基金策略，投资于流动性代币。该公司还运营着三只风险投资基金，并投资了FTX。尽管去年大幅缩水，但Multicoin的对冲基金从成立之初到2022年末，扣除费用后仍上涨了1376%。随着今年加密市场反弹，Multicoin基金在2023年1月上涨了100.9%，从成立到今年1月的回报率达到2866%。Multicoin表示，仍然坚持其长期战略，没有计划进行短期投机操作。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -4683,71 +4929,6 @@ https://nurstardeepdive.substack.com/p/interview-with-the-realms-metaverse</span
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/u4k06o94.html"
-                        open
-                      >
-                        <summary class="article-expander__title">对话 Loot Realms：如何打造一款世代永存的全链上游戏协议?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/u4k06o94.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/jh3F86uW14.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>主持人：「StarkNet 中文社区」
-采访嘉宾：Loot Realms 团队
-
-「StarkNet 中文」社区和 Nurstar 推出全新采访系列《对话 Starknet 建设者》，采访 Starknet 生态建设者们，带大家深入了解 Starknet 生态建设的重要进程，从细节中发现Alpha。本系列涵盖全链游戏、开发团队、 基础设施等多领域，让用户对话 Starknet 项目背后的优秀团队。
-第一期采访邀请到的是 Loot Realms 团队，制作开发了 Starknet 生态中的 MMO 全链游戏《Realms: Eternum》，本期将重点采访：游戏经济模型设计、Dojo 游戏开发引擎、社区参与方式、了解「Play to Die」模式等问题，全方面探索 Loot Realms 团队。
-采访英文版由 Nurstar 发布，点击查看完整内容
-Bibliotheca DAO 是 Loot 生态游戏 Loot Realms 衍生的开放式、去中心化游戏开发工作室、孵化器、研究实验室。致力于打造一款基于以太坊和 Starknet 的全链游戏。同时积极参与游戏开发引擎 Dojo 开发。
-
-关于 Realms: ETERNUM
-《Realms: Eternum》是由 Bibliotheca DAO 在 Starknet 利用 L2 高扩展性开发的经济和军事战略游戏，作为 Loot 衍生即时战略 MMO 全链游戏，具备实时游玩，无最终状态，可组合性、模式多样化等特点。ETERNUM 部署在 Starknet 和以太坊网络上，目前处于内测阶段，所有的游戏逻辑和游戏状态都在链上进行。目前《Realms: Eternum》正在测试两个游戏模块：Bastions 和 Ruins。
-链游开发协议 Realms: Adventurers 采用全新「Play to Die」。
-
-精彩对话：
-本文对话经过编辑，以下是翻译后的采访内容
-Starknet 中文：请介绍一下 BibliothecaDAO、Loot Realms 和 《Realms: ETERNUM》
-Loot Realms：这个项目通常被称为「Realms」，但有些概念需了解：
-Starknet 中文：Realms 为什么选择在 StarkNet 上构建？
-Loot Realms：作为 DAO，我们希望在以太坊上开发游戏，它是现在最为去中心化和安全的智能合约网络。我们的目标是建立复杂的游戏，让玩家有很多自主权，并将游戏逻辑和状态保持在链上。因此，我们需要一个二层扩展解决方案，以使计算密集型的游戏玩法变得可行。我们在 2021 年第四季度在 Arbitrum 上创建了《Realms：Eternum》的原型。然而，我们在链上遇到了计算上的硬性限制，这意味着我们无法创建 DAO 想要制作的复杂游戏。EVM 链非常适合简单的计算，但我们需要更多的链上计算空间。我们后续研究了解到了 StarkNet。StarkNet 团队编写了零知识的手册，我们相信 Cairo 作为编程语言会最大化 Rollup 的潜力。我们相信 Cairo 和 StarkNet 拥有最好的技术，所以当我们的游戏准备好上主网时，相信属于全链游戏的市场也会准备好。
-Starknet 中文：什么是 Dojo？它有什么特别之处吗？
-Loot Realms：我们与 DoJo 密切合作，它是一个使用 Cairo 1.0 和 Rust 编写的即将推出的链上游戏引擎。链上游戏本质上很难构建，DoJo 旨在通过抽象大部分复杂性来解决这个问题，让开发人员专注于游戏而不是基础架构。StarkNet 生态系统中许多优秀的开发人员正在研究 DoJo，我们很自豪能与他们合作。我们将把它添加到 SDK 中，以便开发人员在开发与 Realms 链上游戏宇宙相关的游戏时可以使用。
-Starknet 中文：什么是「Play to Die」？
-Loot Realms：除了构建《Realms: Eternum》之外，我们还有一个名为《Realms: Adventurers》的单独计划。冒险家是链上角色。玩家可以花费少量成本（10 美元的 $Lords）铸造一个冒险家。这个链上角色可以进入小游戏，如果冒险家在游戏中死亡，该角色生命将被没收。我们称之为「Play to Die」。「Play to Die」是建立繁荣创作者生态系统的一种新颖方法。为什么？因为如果冒险家在你创建的游戏中死亡，你作为创作者，会收到用于铸造该冒险者的 $Lords 代币的分红。如果你的小游戏不好玩或没有奖励，就没有玩家来玩！这种推拉将创造一个繁荣的、包括玩家和创作者的双边市场。
-关于 Adventurers 的一个要点是它是建立在原始 Loot 包 NFT 上的。Bibliotheca DAO 正在创建原始物品，给予 Loot 包中的物品物理属性，如武士刀和圣袍。通过「Play to Die」机制，我们为建造者创造了一个无需许可的激励系统，以不断扩展 Realms 全链游戏宇宙。计划中的游戏包括类迷宫探索型游戏 (rogue-like games)、幸存者游戏、卡牌游戏......想象一下一个去中心化的Realms 全链游戏应用商店，你就明白我们的思路了。
-Starknet 中文：$LORDS 代币在今年一月份完成了销售，下一步将如何使用这笔资金帮助游戏构建发展？
-Loot Realms：在这次的代币销售中获得了超额认购（超过 6 倍），并在社区私募轮售罄并完成资金募集，为社区的力量感到自豪。代币销售计划是 DAO 对社区治理提案 (BIP-7) 进行投票后的结果。募集资金是为了资助链游《Realms: Eternum》和《Realms: Adventurers》下一阶段的发展。目前 DAO 成员正在精心设计提案，以增加 $LORDS 代币流动性，引进专业人才，如 3JS 工程师来升级 Realms 地图集。且将创建基金，让 Bibliotheca DAO 资助其他游戏开发者参与 Realms 全链游戏宇宙的开发。欢迎 Loot Realm NFT 持有者加入社区讨论。
-Starknet 中文：Realms 是否会采用双重或多重代币经济模型？如果是，为什么会在链游中采用这种模式？
-Loot Realms：除经济中的主要代币 $LORDS 外，还有其他的资源代币。当 Loot Realm NFT 结算时（即质押参与《Realms: Eternum》游戏），它可以产生资源。一共有 22 种 ERC1155 资源代币。玩家需要在游戏 AMM 中互相交易资源，用于建造建筑物和召集军队。而且每种资源都可以与 $LORDS ERC20 代币兑换。
-从 Realms 中生产新的资源需要花费资源成本。玩家必须决定哪些资源的生产更加可行。通过这种方式，可以避免游戏经济出现游戏玩家不参与游戏只挖掘资源的问题。最后，DAO 能够在 NFT 市场的交易费用中赚取 $ETH，作为 DAO 的固定流动资产。它可以在市场上出售来补充 DAO 国库，减少从 DAO 国库中出售 $LORDS 代币来资助 BIP 计划的需要。
-Starknet 中文：我们现在正处于链游的哪个发展阶段？
-Loot Realms：我们现在正处于全链游戏早期阶段，或称之为黎明时期。最令人兴奋的是，只要以太坊不断生产区块，我们开发的游戏就能永久存储在链上。我们希望开发出一款能够代代相传、具有深远影响的游戏。为什么我们以前没有全链游戏呢？大部分区块链用户上链的价值，如金融和艺术，人们对于将事物转移到链上产生了巨大的兴趣。因为区块链具备透明度、互操作性、真实所有权、永久性等多方面特质。创建全链游戏的需求一直存在，但扩容解决方案迟迟未出现。因为在 L1 的计算成本非常昂贵，导致在 L1 创建游戏难以实现。在合并完成后， L2 的扩展性能，如 Rollup 能够轻松解决成本问题。现在，像金融和艺术领域一样，我们看到了开发者们攻克了难题，克服区块链的限制，从而创建出真正的全链游戏。因此，当前还是非常早期阶段，但链游发展的步伐正在加快。
-Starknet 中文：Realms 如何看待全链游戏？其最重要的特质是什么？
-Loot Realms：任何游戏最重要的就是可玩性，这一点同样适用于全链游戏。如果游戏可玩度高，实现玩家之间的良性竞争，促进游戏生态积极发展，就会不断吸引更多新玩家参与其中。
-Starknet 中文：可以分享下《Realms: Eternum》游戏的未来计划吗？
-Loot Realms：《Realms: Eternum》游戏永远不会「完结」，因为开发者会不断扩展游戏。我们希望《Realms: Eternum》达成不断扩展、永存的、社区所有的元游戏 (Metagame)。希望未来能够将 Loot Realms 能够一直传承下去，到下一代、下下代…不断更迭，让源源不断的新玩家参与，继续游戏之旅。
-Starknet 中文：有多少贡献者或成员正在参与建设和发展？你们是如何协同工作的？
-Loot Realms：大约有十几名全职和兼职开发人员、通讯和社区贡献者。DAO 中有数百人每天做出小的贡献，例如训练 DAO 正在开发的文本转图像的自定义模型。
-Starknet 中文：我们都知道游戏开发是非常复杂的。那要如何通过社区去建立游戏呢？
-Loot Realms：Realms 是最早的全链游戏之一，在 2021 年 8 月开始构建。我们没有答案，但有正确的态度。我们每天都在让游戏变得更加透明，对贡献者更加包容，更加去中心化。我们很自豪有这样一个充满激情、才华和动力的社区，每天都在为最棒的全链游戏这一使命做出贡献。
-Starknet 中文：谁可以加入并为游戏做出贡献？如何加入？
-Loot Realms：任何人都可以！如果您想为《Realms：Eternum》做出贡献或使用 Adventurers 制作小游戏，请加入Realms x Bibliotheca DAO Discord，在其中询问 Loaf 或 Secretive。
-Starknet 中文：你有什么对开发者的建议吗？
-Loot Realms：学习 Cairo。我们非常看好 Cairo！Cairo 一开始可能看起来很劝退，但我们相信它是将 ZK 技术潜力最大化的完美语言。它不仅在StarkNet 上使用，而且还可以在非 EVM 网络上使用。如果想学习 Cairo，欢迎进入我们的 Discord 社区，我们有问必答。
-?Mirror 原文:
-https://mirror.xyz/starknet-zh.eth/mvQl3KegyWwoQmSe2_kcvBD3ENWk_z2CcyB1LXOuE3U
-?采访-EN 版：
-https://nurstardeepdive.substack.com/p/interview-with-the-realms-metaverse</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/articledetails/knf0309s.html"
                         open
                       >
@@ -4779,133 +4960,6 @@ FTX崩溃后引发各个交易所的集中式提款运动，用户对交易所�
 总体上，Silvergate因为业务模式过度依赖加密市场，一个只有1000余个客户的银行，一荣俱荣一损俱损，一旦面临加密市场危机就就很容易进入死亡螺旋。
 Silvergate要渡过难关，关键在于能否获得足额的救助，以满足客户的提款需求的同时稳定市场信心，是否有“接盘侠”愿意收购，还是直接进入归零模式成为加密圈当下的又一个难题。但未来，随着加密监管的收紧，Silvergate依赖交易所的业务模式将无法持续，未来该如何调整自己的商业模式，成为Silvergate自身的巨大挑战。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/knf0309s.html"
-                        open
-                      >
-                        <summary class="article-expander__title">市场恐慌又至？仅1000个客户的Silvergate走入加密“死胡同”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/knf0309s.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/zEfe9RfR8q.jfif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>加密友好型银行Silvergate（SI.N）正遭遇一连串暴击。
-3月2日，Silvergate刚宣布推迟发布2022年度报告，承认自身已经“资本不足”。随后Coinbase、Paxos、Circle先后停止和Silvergate的业务合作，Tether、Gemini纷纷澄清在Silvergate没有敞口，受此影响其股价单日跌幅近60%。
-作为继Signature Bank之后的第二大加密银行服务商，其和多个交易所、做市商以及稳定币发行商均具有紧密联系，而其自身在FTX暴雷之后已经遭受一系列打击，而伴熊市而来的客户挤兑有可能加重流动性危机。
-但总体上，Silvergate仍旧处于SEC和银行业监管范畴内，其已经接受多笔贷款和救助资金，在监管部门介入后，如果能制止住严重的挤兑，提振市场和客户信心，有望将危机控制在一定范围内。
-按照其自述，Silvergate成立于1988年，位于美国加州，最早是一家社区零售银行，2013年CEO Alan Lane准备进入加密行业。
-从产品形态上划分，Silvergate在加密世界的经营模式可以分为三个板块：借贷、SEN和收购的Facebook胎死腹中的DIEM稳定币。其中借贷业务主要面向矿企Marathon和Microstrategy，其次是主要面向交易所的SEN网络主要客户对象是各大交易所和交易机构，帮助交易所和客户更好的进行出入金，起到了沟通传统银行系统和加密业务，以及法币和加密货币之间的联系的作用。截至2022年12月Silvergate总共有1620个客户，其中包括104家交易所。
-其中，最重要的业务板块是SEN（Silvergate 交易网络 ，Silvergate Exchange Network），可以使交易所和机构投资者不间断的在自身的 Silvergate 账户和其他 Silvergate 客户的账户之间发送美元，可以进行交易之间的实时结算。其研发的RESTful JSON APIs 可让客户查询电汇数据，避免因银行营业时间限制而导致交易延迟的问题，是全球加密货币市场能够24小时运行背后的重要支柱。SEN作为主要业务，帮助Silvergate赚取了转账和服务费，大约占其总收入的20%。
-创新的业务模式让Silvergate在上轮牛市期间赚得盆满钵满，2021年10月20日客户存款达112以美元，2021 年Q4，SEN 处理了总额超过 2,000 亿美元的业务往来，成为仅次于Signature的第二大加密友好型银行。至2022年三季度末Silvergate前10大存款人中的加密客户包括Coinbase、Paxos、Crypto.com、Gemini、Kraken、Bitstamp和Circle，存款规模约占该银行存款的一半。
-但从收入贡献上占比最高的实际是借贷业务，盈利模式也是传统银行常规的利差，即把短期存款拿去买债券和股票等投资或放贷，此外也包括低息数字资产抵押贷款。其中MacroStrategy就曾在2022年3月从Silvergate获得了2.05亿美元的贷款，将于2025年到期，他也表示不会因Silvergate破产而提前偿还贷款。为了获得更多的资金Silvergate还质押证券，从联邦住房贷款银行获得了43亿美元的预付款。
-
-Silvergate发展节点图
-FTX暴雷事件后Silvergate遭挤兑
-在资本市场，Silvergate曾一度成为股市的宠儿，Cathie Wood 的ARK Fintech Innovation，以及道富银行和做市商巨头Citadel均曾大幅持有其股票份额，助推其在2021年11月21日达到股价最高点239美元，市值也突破70亿美元。但是随着危机蔓延，Silvergate股价在今年1月5号跌破12美元的发行价，更严重的是70%以上的股票被做空，索罗斯也趁机买入了10万股看跌期权。
-但是这种模式严重依赖于市场环境，事实上，在2022年整个加密银行系统已经开始遭受严重危机，但对Silvergate最致命的影响是来自FTX的暴雷，FTX和Alameda均在Silvergate开设账户，随后美国司法部封禁其相关资产。
-FTX崩溃后引发各个交易所的集中式提款运动，用户对交易所的信心大受打击纷纷进行提款，交易所进而从合作的Silvergate进行提款，Silvergate只能不断出售自身资产，以应对接踵而至的提款需求。
-仅在2022年Q4，Silvergate加密货币相关存款暴跌 68%，并且处理了超过81亿美元的客户提款，给Silvergate造成了严重的流动性和偿付危机，并且累计亏损超过9.49亿美元，已经将自2013年以来的利润全部回吐，事实上已是负债运行状态。在2022年Q4，其累计折价出售价值52亿美元的债券，并且裁员40%（200名）的员工数量以自救。
-截止到2022年12月31日，Silvergate持有的现金以及现金等价物总值超过46亿美元，而客户总存款为38亿美元，总体上可以覆盖用户提款数额。但这些资产并不都是活期，由于存在期限错配，因此难以立刻完全满足用户的提款请求。与交易所需要全额的准备金来随时应对用户的提现需求不同，银行一直是部分储备金制度，因此一旦短期遭受大规模的提现需求，将引起严重的挤兑危机。
-截止目前，Silvergate仍未公布10-K报告，其偿付能力究竟如何引人担忧，10-K是SEC强制要求公布的报告类型，通常会比年报更为深入，包含详细的财务报表、资产负债表和现金流量表。Silvergate已经表示会出具，届时可一窥2023年的偿付能力。
-
-结语
-总体上，Silvergate因为业务模式过度依赖加密市场，一个只有1000余个客户的银行，一荣俱荣一损俱损，一旦面临加密市场危机就就很容易进入死亡螺旋。
-Silvergate要渡过难关，关键在于能否获得足额的救助，以满足客户的提款需求的同时稳定市场信心，是否有“接盘侠”愿意收购，还是直接进入归零模式成为加密圈当下的又一个难题。但未来，随着加密监管的收紧，Silvergate依赖交易所的业务模式将无法持续，未来该如何调整自己的商业模式，成为Silvergate自身的巨大挑战。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/s3afn8nb.html"
-                        open
-                      >
-                        <summary class="article-expander__title">3月加密叙事展望：LSD仍为核心事件，关注ZK发展趋势</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/s3afn8nb.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/1cVCsYnGkI.webp" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>这个展望是每个月初都会写一篇，谢谢大家的关注，我也就不多说客套话了。
-我会从我的角度把我所关注的事件分为 S、A、B、C 四个等级，以方便提前做出埋伏。文章将会呈现 S 级和 A 级两个板块。
-
-LSD
-
-可以确定的事，虽然不确定以太坊上海升级的具体时间（可能是 4 月），但是 LSD 风潮应该会贯穿后续 ETH 的发展。在「LSD 套娃战争再升级：不仅要有流动性，还要追求高收益」一文中，我介绍了三个项目$YFI、$PENDLE 和$AURA。要说最看好的，应该是$AURA，因为$AURA 将会是未来 Balancer War 的核心，相较 CRV/CVX，BAL/AURA 贿赂效率更高。具体逻辑我已经在上文中讲清楚了。它们都算是 LSD 大厦的第三层建筑。
-相关阅读：LSD 套娃战争再升级：流动性与高收益两手抓，谁能笑到最后？
-我简单算了一下，$AURA。不一定对。
-
- 
-第二层建筑就是那些提供 ETH 质押服务的协议，比如$Lido、$RPL 和$FXS 等等，它们相当于质押的基本面。我会关注另外一个即将发布质押产品的项目$SD。
-最底层的应用就是$SSV，$SSV 负责协调节点运营商。
-我会重点关注我提到的这些——因为 LSD 已经说太多了，所以我就不做过多复述。
-
-整体评价：看起来 FEVM 的宣布推动了$FIL 价格的上涨，我在去年 12 月就开始布局$FIL，事实证明，太早布局车会非常的颠簸，如果不是现货的话，可能就拿不住。所幸我是拿住了。$FIL 将带动存储风的来到，且 BNB 同样推出了存储相关产品。虽然去中心化存储是 Web3 行业的重要应用之一，但目前来看，采用低会限制其的价值发现，当下更多是热点驱动和炒作。
-FIL
-
-FEVM 的推出是$FIL 最大的催化剂。FEVM 的推出将推动 Filecoin 在数据存储方面的可塑性——毕竟引入了智能合约。我个人比较看好，但本质上想要$FIL价值发现，还需要FEVM的落实和生态协议以及TVL的增长。目前来看，$FIL的上涨其实是利好驱动。
-AR
-
-Arweave 将于 3 月 6 日发布 2.6 版本，新版本限制了计算密集型挖掘策略，使得 Arweave 挖矿更加节能，同时激励矿工存储更多数据，从而产生更高效的存储市场。配合存储风的到来，$AR 可能也会存在炒作空间。
-BNB
-
-BNB Greenfield 也没有什么好说的，它已经发布了白皮书。本质上，这里提到了它的原因是它也是存储风的推动者。因此，很多人会关注与 BNB 产生联系的项目，比如$BLZ。
-
-Zk 风的主要推动者其实是市场对于 zk-rollup 的发币预期和 Polygon ZkEVM 的推出。我目前主要关注的是 Polygon ZkEVM 的推出。Polygon ZkEVM 将于下周推出带有审计的测试网，Beta 版本主网将于 3 月 27 日发布。这时会有两个思路，第一个是埋伏 Zk 相关的项目，比如以$MINA 为首的 Zk 项目，还有就是$DUSK、$MUTE 等等。
-第二个思路是埋伏 Polygon 生态的项目，比如$GHST(Aavegotchi)和$QUICK，$GHST 是 Polygon 上的 NFT 游戏，$QUICK 是 Polygon 上 TVL 最高的 DEX。另外就是 Polygon 上的 NFT 项目，比如从 Solana 上迁移到 Polygon 上的 y00ts。不过，ZkEVM 的催化剂对 Polygon 上的 NFT 推动效果没有想象中那么好。
-值得一提的是，Aavegotchi（$GHST)的利好还有就是关闭联合曲线。Aavegotchi 联合曲线（Bonding Curve）交易关闭将使得 GHST 与 DAI 脱钩，这意味着固定 GHST 供应成为自由浮动的代币，整个游戏的代币经济学将发生转变。团队也计划为 GHST 进行更多赋能，如：计划在 2023 年上线 Polygon PoS 网络许可分支 Gotchichain，并使用 GHST 代币作为 gas 费用。
-就在 3 月 1 日，Aavegotchi 官方发文宣布，随着 AGIP64 和 AGIP65 的顺利通过（注：这两项投票均为在 Snapshot 上预先进行的非正式链下投票），即将在 Aragon 上发起关于关停 GHST Bonding Curve 并分配其内部 DAI 储备的正式链上投票。投票时间是 3 月 8 日。
-
-ATOM
-
-Cosmos 即将在 3 月 15 日进行 Lambda 升级，此次升级旨在激活 Cosmos 链间安全（ICS）的功能，这相当于是给予了$ATOM 更多的赋能。其他应用链只需要支付费用（可能会是它们的原生 Token）和通货膨胀奖励给 Cosmos Hub 验证者，$ATOM 便将为它们承担起对应链的验证（安全）工作。这相当于其他应用链的安全将由$ATOM 质押者共同维护。
-更多关于 Cosmos 2.0 的解读可以看我在去年 9 月 27 日的文章：https://mp.weixin.qq.com/s/MbyVa27p_BC8HjCWpqeXwQ
-了解我的人会知道我之前是非常喜欢的 Cosmos 的，但是从目前的发展态势来看，Cosmos 所面临的竞争非常激烈。这一点将会限制 Cosmos 的发展——因为未来$ATOM 的价值捕获是基于欣欣向荣的 Cosmos 生态的。越来越多应用链的加入，将会极大得促进$ATOM 的价值捕获能力。但是竞争激烈，导致 Cosmos 目标客户减少，就会削弱$ATOM 的价值捕获能力。
-其中需要注意的是，Paradigm解锁了一批$ATOM，2月22日解锁的，大概600万枚。
-值得关注的另一件事情是 dYdX 预计将会在三月底上线 v4 版本的个人测试网，也就是在 Cosmos 上构建 dYdX 应用链。不过 dYdX 应用链的安全性应该是由$DYDX 保障的。
-SNX
-
-Synthetix 已经在 2 月 23 日完成了 v3 升级。v3 的本质是旨在提升 sUSD 的数量（比如抵押其他资产来铸造 sUSD——光靠$SNX 是无法有效地推动 sUSD 增长的）。我之前介绍过，Synthetix的优势是巨鲸们可以以近乎无滑点的方式进行大额的代币兑换（原子交换）。这种方式的机制在于使用了 sUSD 作为中间媒介。提升 sUSD 的数量便可以提升Synthetix的交易深度——也就是说 Synthetix 正在通过这种方式持续来抢占 DeFi 市场。我还是之前的观点，看好$SNX。
-具体可以看这篇：https://foresightnews.pro/article/h5Detail/25820
-STG
-
-$STG 需要你关注的两件事情是：3 月 15 日换币和引入了新的做市商 GSR。我会对其保持关注。
-OKX 品牌建设
-
-OKX 最近在$Blur 事件和$CELT 事件中的危机公关做得很好，愿意给用户足够的补偿，刷了路人缘（营造品牌），结合 OKBChain 即将于 Q1 上线、OKXChain 调整代币经济学（降低$OKT 的总供给），我会关注$OKB、$OKT 和$CHE。
-OP
-
-关于$OP，我之前的观点是虽然我喜欢$OP 的治理结构，但是$OP 的 FDV 太高了，解锁太多，以及 OP 生态一直被 Arbitrum 压制，导致我去年对于$OP 产生了错误的判断。加之，今年是解锁大年，也推动了很多 Token 解锁上涨出货的态势。因此，从中短期的角度和这种态势，且$OP 不错的催化剂和产品推进速度来看，它似乎在今年能够拥有不错的表现，我会把$OP 加入到我今年的 watchlist 中。
-接下来我会列举一下$OP 值得关注的三个催化剂：
-1、Coinbase 宣布基于 OP Stack 推出 Layer2。这是一件已经发生一段时间的事情，但也说明 OP Stack 技术已经不是 PUA 市场的工具，而是即将要落地。我也期待更多企业开始基于 OP Stack 进行构建。
-2、3 月 15 日的 Bedrock 升级。
-3、以太坊 EIP-4844 的发布将有机会降低 100 倍 Layer2 Gas 费用，大幅度优化 Layer2 使用体验，$OP 将从中受益（Arb 当然也会，但是它没有 Token）。具体资料可看：https://foresightnews.pro/article/detail/21638
-但也需要注意其中的一些风险，比如某位巨鲸正在做空$OP。
-
-Crypto AI是一个很玄学的事情，主要看外界事件的推动。Crypto AI没有基本面，主要看热点事件和叙事的推动。我会关注$AGIX和$FET。
-
-PRIME
-
-Parallel（$PRIME）是一款由Paradigm领投，已经在Coinbase上线的卡牌游戏，内含Play2Earn的机制。按照Paradigm以5亿美元估值以及5000万美元投资额来看，机构的拿币成本应该是4.5u左右，先观望一下。具体的游戏我准备去玩玩看看。
-ILV
-
-Illuvium将于3月7日推出一款名为Beyond的新游戏。为了游玩游戏，玩家需要购买D1sk NFT：Standard D1sk 和 Mega D1sk。NFT也可以作为玩家Illuvium世界的Avatar使用（在Illuvium，Avatar被称为Illuvitar）。这款游戏将会在IMX上发布。
-GHST前文说过了，就不再复述。
-以及一些老GamaFi，比如星鲨、Raca都在放比较虚的利好，我个人谨慎看待，就不参与了。
-最后，马上就要312周年了，注意大盘风险。我会尽量在3月上半旬减少交易，当下也在减仓。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11854,7 +11908,7 @@ Chris Powers：crvUSD 将基于一种创新设计，其中清算被特殊用途�
 内容来源
 Chris Powers：规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -17911,8 +17965,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4333993958">
-        <time id="build-timestamp" datetime="2023-03-05T02:40:38.368Z">2023-03-05T02:40:38.368Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4334077355">
+        <time id="build-timestamp" datetime="2023-03-05T03:03:06.853Z">2023-03-05T03:03:06.853Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
