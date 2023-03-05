@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T04:09:36.453Z</updated>
+    <updated>2023-03-05T04:19:16.348Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[数据：Paxos金库今日销毁超1.3亿枚BUSD]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/jb97jmru.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/jb97jmru.html"/>
+        <updated>2023-03-05T04:12:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月5日消息，Whale Alert监控数据显示，北京时间今日10点38分，130,480,000枚BUSD在Paxos金库被销毁。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RaaS是什么？什么样的RaaS会赢得市场]]></title>
         <id>https://www.panewslab.com/zh/articledetails/zztma40n.html</id>
@@ -3845,33 +3855,6 @@ Read the full entry]]></summary>
 <p><strong>文章作者：</strong></p><p>Jack🔺0x137</p><hr><h3>观点：</h3><p><strong>Jack🔺0x137：</strong>自 2 月初 Blur 空投积分进入白热化阶段后，黄立成就一直在挂出高价 Bid，一边虹吸蓝筹资产，一边赚取 BLUR 空投，社区将这套策略总结为「麻吉飞轮」。而后当其在两天内大规模抛售后，蓝筹项目失去「麻吉流动性」，Bid 墙瞬间被砸穿，整个 NFT 市场的流动性也跟着跨下来。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a><p><strong>Jack🔺0x137：</strong>NFT 流动性的主力军一直都是机器人，它们通过在 OpenSea 上倒手 NFT 以实现盈利，但据一位机器人策略开发者表示，与以往的 NFT 追求的无损不同，现所有机器人策略都改为了刷分，相较于以往在 OpenSea 上进行倒买倒卖，在 Blur 上刷空投的收益有更高的确定性和投资回报比。这也正是 Blur 在流动性战争中打败 OpenSea 的重要因素之一：他们贿赂了市场流动性中的主力军，这些中坚流动性则做出了从 OpenSea 迁徙至 Blur 的选择。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a><p><strong>Jack🔺0x137：</strong>部分已被淘汰的刷分策略：1）MEV 抢跑：利用 Blur 在 Bid 成交流程中存在的漏洞进行零成本刷分，目前 Blur 官方已经修复了该积分漏洞；2）无限 Bid 新 NFT 合集：借助 Blur 对新上架 NFT 的交易禁令来进行某种程度上的「无限刷分」，Blur 团队也已经对新上 NFT 合集的交易禁令进行了调整，将 3 小时改为 1 小时。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a><p><strong>Jack🔺0x137：</strong>据 PROOF 研究总监 NFTstatistics.eth 发布数据显示，自 2 月 15 日至 3 月 1 日，前 10 大 Blur Bid Farmer 的交易收益均为负数。与这个数据形成呼应的是，Blur 总成交量的 20% 仅由 17 个钱包地址贡献，50% 仅由 292 个钱包地址贡献。NFT 要有 FT 化的体验，但绝不是在价值逻辑也向 FT 靠拢。当一个 NFT 基础设施用 Token 激励取代 NFT 项目的吸引力成为流动性的「发动机」，当中小创作者在这个市场里变得愈发步履维艰，我们应该感到一丝危险了。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安推出的Bicasso大火背后，还有哪些NFT项目正展开生成式AI叙事]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/9e5twzv8.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/9e5twzv8.html"/>
-        <updated>2023-03-03T06:40:10.000Z</updated>
-        <summary type="html"><![CDATA[3月1日，币安宣布发布AI驱动的NFT生成器测试版“Bicasso”，用户可通过上传提图片并输入关键词进行AI运算后生成NFT。该消息一经发布后，1万枚NFT铸造额度被秒杀，且因访问量激增而系统超载宕机，足以可见其火爆程度。
-实际上，现象级应用ChatGap打开AI应用市场空间后，生成式人工智能成为时下流行趋势。而除了Bicasso，加密市场中还有哪些聚焦生成式AI的平台？
-Bicasso的名字不由让人联想到西班牙著名艺术家毕加索Picasso。但与毕加索不同的是，前者凭着天赋和时间完成一幅作品，而Bicasso可允许用户在几秒内完成无门槛的NFT艺术创作，似乎实现了德国艺术家Joseph Beuys所说的“人人都是艺术家”的时代。
-与DALL-E或Midjourney等AI艺术生成器类似，Bicasso用户通过输入英文文字创意来生成独特的图像，也可上传人物、动物、风景等图像来自动生成图片，平台会生成4个不同图像供用户选择，并可通过币安链（BNB Chain）将挑选出的图像铸造成NFT。
-
-由于最初免费铸造上限为1万个NFT，且每位用户仅可铸造一张，Bicasso测试版发布后获得大量用户参与，共有9907名用户成功铸造。“Bicasso首次测试刚刚成功在2.5小时内铸造10k NFT。AI有点压力，但现在可以喘口气了。”币安创始人CZ在推特上称。
-虽然Bicasso暂时仅上线了测试版，但用户可申请进入等候名单（Waitlist），等待正式版本上线。
-值得一提的是，Web3构建者公会项目Hunt Town联合创始人“project7”及其团队成员“ggoma”在3月2日发推文指控Bicasso窃取了其在BNB Chain黑客松上提出的创意，而当时project7就发布推文称，OpenAI应用到NFT工具中会非常有趣，所以他连夜制作的Chatcasso项目，只需输入文字，AI就会生成一幅画。这是一个可以绘制图像、发布收藏甚至创建铸币界面的工具。目前，币安尚未对此作出回应。
-作为最先进的人工智能算法之一，内容生成式AI可以利用现有文本、音频文件或图像创建新内容。近年来，生成式AI迎来爆发式增长，OpenAI打造的聊天机器人ChatGPT爆红后，我们看到各行各业大量相关模型接连从实验室走向现实世界的各个应用场景之中。而著名科技咨询机构Gartner发布的一份2022年最有前景的技术预测榜中列举了十二种技术，其中生成式AI位列榜首。
-“生成式AI产品将服务于各种用例，从消费者‘只是为了好玩’制作内容，到创作者或个体企业家通过内容获利。”a16z曾撰文指出，生成式AI平台将成为下一个消费级平台。当下，有哪些加密项目正在开展内容生成式AI叙事。
-Solvo
-今年2月，加密初创公司Solvo宣布将使用生成式AI技术，用户可以生成自己的NFT，并通过上传或拍照的方式来设计自己的NFT，也可以通过输入描述他们想要的图像来实现。目前，Solvo在Optimism链上可以免费铸造AI生成的NFT。在未来的版本中，用户将能够存入和取出该NFT及其他NFT。
-Nicho
-近期，基于BNB Chain的NFT平台Nicho已在主网部署了新的功能AI Image Generator，该功能允许用户们将自己任何想法用文字表达出来，并会自动通过强大的AI算法直接生成图片，帮助用户用最简单的方式铸造自己的NFT而无需任何绘画技能。
-IgmnAI
-AI图像生成项目IgmnAI主要产品Nai是一个人工智能图像生成机器人，允许Discord和电报用户通过简单的文本命令生成艺术作品。IgmnAI正寻求以5000万美元估值融资750万美元。
-CharacterGPT
-研发工作室Alethea AI开发了一个多模态生成型人工智能系CharacterGPT，将允许任何人在Polygon上作为NFT快速创建、训练和交易AI角色。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
