@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T08:44:32.960Z</updated>
+    <updated>2023-03-05T08:49:27.900Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】ERC4337 的两个挑战：中心化与经济模型]]></title>
+        <id>https://twitter.com/blockomotive/status/1631996549214482432</id>
+        <link href="https://twitter.com/blockomotive/status/1631996549214482432"/>
+        <updated>2023-03-05T08:00:08.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/blockomotive/status/1631996549214482432">https://twitter.com/blockomotive/status/1631996549214482432</a></p>
+<p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】ERC4337 的两个挑战：中心化与经济模型]]></title>
         <id>https://twitter.com/blockomotive/status/1631996549214482432</id>
