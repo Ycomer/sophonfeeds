@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T06:44:58.176Z</updated>
+    <updated>2023-03-05T06:49:47.804Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mastodon 背后的去中心化社交协议 ActivityPub 解析：机制、生态与优缺点]]></title>
+        <id>https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso</id>
+        <link href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso"/>
+        <updated>2023-03-05T05:53:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Nostr、Farcaster 和 Lens Protocol 是当前最受关注的 3 个去中心化社交协议，事实上 ActivityPub 作为「去中心化」推特 Mastodon 的底层协议拥有近 400 万的用户数量，是现有生态最成熟、用户数量最多的去中心化社交协议。ANT Capital 研究员 mtyl.eth 对比了以上 4 种去中心化社交协议的机制、生态发展和优劣势，亮点是对 ActivityPub 协议的解读。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso</a></p>
+<p><strong>文章作者：</strong></p><p>Mtyl</p><hr><h3>观点：</h3><p><strong>Mtyl：</strong>用户如何创建账户并通信交流？ActivityPub 中有一个名叫 Instance（实例）的角色，可以把它简单理解为「服务器」。用户在自己指定的一个 Instance 中，注册自己的账号；当用户要发送信息的时候，先发至自己注册的 Instance，再由 Instance 负责和其它 Instance 通信。Instance 之间有一套通讯协议，用于互相传输、读取信息，这和单一项目方中心化服务器的角色非常像，只不过它是由一个联邦网络所组成的。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a><p><strong>Mtyl：</strong>用户的社交关系和内容数据存在哪里？存在用户连接的那个 Instance 里面。用户可以将其导出、自行存储。美中不足的是，如果一个 Instance 封杀了用户、或者因为各种原因宕机，且用户没有事先导出自己数据的话，那么用户的账号和数据就会丢失。从数据主权这个角度来看，Mastodon 像是处于一个中间态： 用户理论上拥有自己的数据、可以导出，然而服务器依旧拥有「生杀大权」。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a><p><strong>Mtyl：</strong>内容审查机制是如何设计的？由每个 Instance 自行设计内容审查机制。Instance 运行者的激励是什么？大多数 Instance 都没有来自于用户的收入，依靠社区捐赠来运行。这也导致了许多由个人爱好者构建的 Instance，运行了一段时间以后就停运了。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a><p><strong>Mtyl：</strong>ActivityPub 最大的优势在于其上的产品应用非常成熟、UX 对 Web2 用户非常友好，从而能吸引大量单纯反感中心化审查的 Web2 用户。Mastodon 已经积累了近 300 万用户。其中前三大实例站点拥有 60% 的用户数与 45% 的发帖量。这三大实例中除了 Mastodon.social 是官方运营的实例外，另外两大实例均来自日本。总用户数中日本用户占近 40%，排名其后的是美国（20%）和法国（10%）。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mastodon 背后的去中心化社交协议 ActivityPub 解析：机制、生态与优缺点]]></title>
         <id>https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso</id>
