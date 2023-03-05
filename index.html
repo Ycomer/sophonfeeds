@@ -173,6 +173,137 @@ RaaS能直观的带来成本和性能的提升，但从performance推断这些�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/zztma40n.html"
+                        open
+                      >
+                        <summary class="article-expander__title">RaaS是什么？什么样的RaaS会赢得市场</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/zztma40n.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/BqyU80gXh6.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>作者: Yihan Xu@Foresight Ventures
+Overview
+通过本文你可以了解到：
+…
+1.RaaS是什么
+1.1 Rollup: 最具潜⼒的扩容⽅案
+Layer 2出现的初衷是缓解主⽹拥堵问题，在保证安全性的情况下以更低的成本、更⾼的TPS为Dapp提供服务。Rollup将⾼成本的transaction execution放到L2执⾏，并将交易打包到L1进⾏验证，同时确保完整的交易内容可以被验证。在继承以太坊安全性的前提下，具备更强的综合性能。因此，rollup已经在各种layer 2的解决⽅案中杀出了⼀条路，⽆疑是当下最具有潜⼒的链下scaling⽅案。
+1.2 Rollup-as-a-service: App-specific chain的其中⼀种形态
+随着⼀些dapp的逐渐壮⼤以及各种新应⽤的拓展，作为General purpose scaling的rollup显然⽆法完美地满⾜这些项⽬对⽤户体验和成本结构的追求。庞⼤的流量和对性能超⾼的要求(注重玩家交互的3A游戏)使得这些应⽤需要更加定制化的扩容解决⽅案。
+App-specific chain是对这些dapp来说就是当下最好的解决⽅案之⼀。
+App chain的概念并不陌⽣，不同项⽬可以针对⾃⾝应⽤场景和需求对blockchain进⾏定制化地设计，让dapp可以独享⼀条链上的资源，并且在保证不与其他⽣态割裂的基础上，获得更低的运营成本和更⾼的performance，为⽤户带来更好的使⽤体验。
+⽐如基于Terdermint共识的Cosmos就为Dapp提供了低成本搭建⼀条L1主权公链的⽣态环境。同时，基于IBC通信协议，不同app chain之间也能更轻易地实现资产/信息跨链。可以参考Cosmos官⽅给出的IBC packet lifecycle?
+
+抛开⽣态谈扩容是没有意义的。
+App chain这种解决⽅案的可⾏性⼀定是基于强⼤的互操作性和⽣态的⽀撑。⽐如Cosmos通过⽣态中的L1主权公链和IBC带来的跨链优势逐步完善⾃⼰的⽣态体系。
+基于以上认知，另⼀种app-specific chain的思路是通过定制化rollup的⽅式，实现dapp对定制化功能、⾼性能、低成本的追求。⼀些基于⼆层⽹络的RaaS也能让项⽬的交互更快捷，对⽣态布局产⽣正向影响。
+加密世界多链多rollup的格局似乎已经是⼀个必然的趋势，RaaS项⽬⾬后春笋般的涌现也为开拓新的dapp形态创造了基础。但是在这样的共识下我还是想反⽅向地问⼀个现实的问题:
+让任何⼈都可以快速的launch⼀个rollup确实很有吸引⼒，但是这件事除了⼤⽅向正确并且很酷之外，是否真的为有需求的⼈创造了⾜够⼤的价值？这个问题可以进⼀步拆成两点:
+市场上是否有⾜够多有需求的项⽬⽅存在⾜够⼤的motivation去⽤RaaS？
+RaaS是否为项⽬⽅创造了可观的价值？
+这个问题本质上是讨论需求和RaaS带来的价值。⾜够多的项⽬⽅有需求或者RaaS能提供有吸引⼒的提升。
+从需求上看，随着⼀些dapp的不断壮⼤，项⽬⽅确实迫切地需要去寻求：
+成本
+参考L2fees给出的数据，L2 rollup在成本优化上已经做到极致，相⽐Ethereum主⽹有⾮常⼤的提升。同时再看Caldera Chains的RaaS测试数据，可以发现成本上并没有质的改变，更像是99-100的优化。同时，EIP4844和danksharding的实现也会让L2 rollup的成本进⼀步降低，RaaS在成本和效率上带来的差异也会进⼀步缩⼩。
+可以⼤幅度降低transaction fee的⽅案是有吸引⼒的，但⼤多数RaaS并不能做到这⼀ 点。综合考虑迁移，整体⽣态，互操作性，安全性等多⽅⾯成本，项⽬⽅真的有⾜够的动⼒去使⽤RaaS吗？对于⼤多数常规dapp或者对性能和成本不那么敏感的⽤户来说，也许⽤general purpose scaling就⾜够了。
+
+性能
+L2 rollup已经具备提供超⾼的TPS的能⼒。参考Caldera给出的数据，在block time上基于Op的RaaS⼏乎没有带来优势。虽然ZK RaaS可以提供更定制化的数据存储和压缩，但对于这类服务的需求并不多。基于⼆层⽹络的RaaS确实可以通过在L2 settle交易带来更快的速度和更低的成本，进⽽提升⽤户体验。
+就像上⾯提到的，⾯对不完善的⽣态和其他迁移/开发成本，项⽬⽅是否还有⾜够的动⼒去使⽤RaaS？
+
+定制化功能
+从价值创造上看，⼀些RaaS确实可以提供⽬前很难实现功能或者在general purpose scaling中实现⽐较低效的设计。举例来说：
+⽬前L2的ZK电路设计的第⼀要素是兼容性，为了服务所有Dapp，因此电路设计⼀定程度上牺牲了效率，并没有针对特定的Dapps进⾏优化。RaaS的价值可以很明显的体现出来：对特定的dapp定制化地设计ZK circuit或者提供更⾼效的存储结构和数据压缩服务，以达到更⾼的performance；
+对隐私功能的实现。虽然ZKrollup对privacy友好，但出于去中⼼化和安全性的考虑，⽤户的交易数据仍需要在压缩后通过calldata发布到L1作为history log，允许所有⽤户验证。因此，当前 general purpose scaling的rollup并不能实现privacy。RaaS能定制化地在rollup甚⾄rollup of rollup的基础上实现隐私功能，为强隐私需求的项⽬创造价值。
+因此，⽬前RaaS发挥的价值：定制化 &gt; 单纯成本和效率。(不排除定制化带来的成本和效率提升)
+回答⼀开始的问题：RaaS是否真的为有需求的⼈创造了⾜够⼤的价值？
+我认为现阶段对RaaS的需求有限，general purpose scaling能满⾜90%以上的需求。虽然在⼀些细分领域定制化的rollup已经开始发挥⽆法替代的作⽤，但毕竟不是主流。RaaS创造的价值有限，需要在考虑⽣态、互操作性等综合因素的基础上进⼀步探索。
+从L2 rollup出现开始，关于RaaS的探索就⼀直没有停⽌，到现在为⽌市场上也出现了各 种各样的Rollup-as-a-service实现⽅案。参考Messari上的⽣态布局，可以⼤致看出不同RaaS的实现路径。那么最关键的问题是：
+什么⽅案是make sense的？
+什么样的RaaS会最终赢得市场？
+3.1 OP or ZK？
+关于optimistic还是zero knowledge的讨论⼀直没有停过，虽然ZKrollup理论上拥有更强的performance、远快于optimistic rollup的finality time以及更⾼的安全性，但optimistic rollup具备更好的兼容性和更低的门槛。
+在现有的RaaS项⽬中，⼤多数项⽬是基于optimistic rollup的，我认为主要是以下⼏点原因：
+⽣态永远在第⼀位。基于optimistic的RaaS具备更好的兼容性，极⼤地降低了项⽬⽅迁移/开发门槛，可以让更多项⽬⽅快速部署，迅速构建更繁荣的⽣态，占据先发优势；
+门槛更低，不依赖算⼒⽀持。基于optimistic的RaaS同样通过fraud proof验证交易的有效性，因此在算⼒上对机器性能和储备的要求更低。这也是很多RaaS⽆法上⼿就做ZK的限制因素。
+更容易规模化。基于optimistic的RaaS开发门槛更低，不像以追求性能和更为底层的定制化的ZK RaaS，需要提供者深度参与开发。同时，受限于⽣成ZKP的算⼒，ZK RaaS也很难像optimistic RaaS⼀样⼤规模部署。
+虽然optimistic rollup在⽣态布局上的优势明显，但基于ZK的RaaS也有很明显的⻓处
+真正的定制化，带来更好的performance和更低的成本。在rollup的定制设计上，基于ZK的RaaS能在功能和性能上给项⽬带来更⼤的，general purpose scaling很难实 现的价值，可以看作是⼀种从0到1的改变。⽽基于optimistic的RaaS更多是在成本和效率上做90-99的改变。
+更⾼的安全性。ZK的RaaS可以做到trustless，⽽基于op的服务需要信任challenger正常⼯作，防⽌sequencer作恶。
+更好的互操作性和finality time。基于OP的RaaS需要进⾏7天的fraud proof验证，⽽ZK trustless的特征使其具备更快的finality time，同时，7天的验证期使OP-RaaS在跨 rollup的建设上存在挑战。
+总结
+从短期看，基于optimistic的RaaS在⽣态上的优势⽆法撼动，但从⻓期需求和价值创造的 ⾓度出发，我认为基于ZK的RaaS⼀定会在未来收获更⼤市场。
+3.2 Layer 2 or Layer 3?
+根据不同RaaS的use case和实现⽬标，选择更合适的实现⽅案。关于这个问题最⼤的差异我认为在成本和⽤户体验(互操作性)。
+如果将L2作为settlement layer并布局RaaS做为L3，可以实现更低的交易成本和更快的跨rollup交互，也就带来了更好的体验。⽽基于ethereum的L2 RaaS虽然很好的继承的主⽹ 的安全性，但在跨链成本和速度上都远不及多层⽹络设计。
+因此L3 &gt; L2
+3.3 RaaS or L1 app chain: ⽣态和成本之间的权衡
+Cosmos和Polkadot最早提出了app-specific chain的解决⽅案，和同为app-specific chain的RaaS谁更适合为dapp提供定制化服务？
+
+互操作性
+对于L1 app chain，除了在第⼀节提到的基于IBC通信协议的Cosmos⽣态，应⽤可以 在Polkadot上建⽴parachain，并基于XCM进⾏跨链信息交互。然⽽由于安全性和成本的考虑，在实际应⽤中我们可以看到⼤多数项⽬还是仅仅基于Terdermint或者Substrate共识引擎进⾏定制化L1 app-chain的开发，⽽很少⽤到跨链通信的功能。这就导致了这些跨链⽣态之间的相对独⽴，⼀定程度上并不契合我对于app-chain的终极形态的设想，不同app-chain应该⼀起构成⼀个具备强⼤互操作性的繁荣⽣态。
+对于starknet这类基于⼆层⽹络做进⼀步延展的RaaS结构，在互操作性上具备更强的优势，不同dapp维护的rollup之间可以进⾏低成本跨链，并且由于可以在⼆层⽹络结算，速度和⽤户体验也会更好。但这⼀切互操作性的前提都是RaaS能构建⾜够强⼤的⽣态。
+安全性
+取决于RaaS的设计，DA基于ethereum的RaaS⼤多继承了以太坊L1等同的安全性，⾼于L1 app chain的安全性和去中⼼化程度。⽽基于DA layer或者side chain的RaaS，安全性 由这些⼆层⽹络保证。
+成本
+对于L1 app chain，交易成本收敛到dapp项⽬⽅本⾝的native token，可以做到极低 的运营成本；
+对于RaaS，L2 RaaS由于需要和ethereum主⽹直接进⾏数据交互，成本相对较⾼，⽽基于polygon, starknet的L3 RaaS由于可以在L2 settle，成本相对更低。
+⽬前正在开发或者已经部署的RaaS项⽬⾮常多，包括但不局限于StarkNet L3, Opside, Caldera, Celestia, Dymension, Sovereign, Stackr, Eclipse, Altlayer, Saga…
+下⾯挑了⼀些⽐较有代表性的进⾏分析。
+4.1 ZK系列
+包括但不局限于Sovereign Labs、Fractal、StarkNet、Opside、ZKsync
+4.1.1 StarkWare: 基于ZKRollup的定制化L3
+参考这张⽼图，StarkWare团队在⽂章 &quot;Fractal Scaling: From L2 to L3&quot; 中最先提出了以太坊多层⽹络的设计。但多层⽹络的提出绝不是单纯做进⼀步扩容，更多是在L2 general purpose scaling的基础上通过叠加定制化rollup的⽅式允许项⽬⽅掌控更多链上资源，提供L2 rollup⽆法达到的⽤户体验。
+
+虽然从计算⾓度看，可以对⼀堆ZKP⽣成⼀个ZKP来证明有效性，但数据没法压缩后继续压缩。由于需要保证数据可⽤性，允许任何⼈验证proof的有效性，rollup需要将完整或压缩后的交易内容发送到L1。
+因此，StarkWare的app-specific chain应⽤场景⼀定是追求⾼性能或者特定feature的。
+⾼性能：对性能要求⾼的游戏可以独享ZK电路资源以提供更好的⽤户体验；
+隐私：对于⼀些有隐私需求的项⽬，定制化地在rollup甚⾄rollup of rollup的基础上实现隐私功能；
+兼容性扩容：提供EVM兼容的环境，甚⾄兼容更多编程语⾔，为⽣态本⾝提供正向价值
+低成本：在牺牲⼀定去中⼼化和安全性的前提下，通过Validium极⼤地降低运营成本。
+StarkNet基于Validium的L3⽅案理论上是能直观降低成本的，同时互操作性也得到了保证。
+但从定制化的⾓度看，可以进⼀步推断这种基于ZKrollup的app-specific chain在提供可观的性能提升的同时，也拉⾼了项⽬⽅开发成本和参与门槛。因此，RaaS的提供者需要深度介⼊开发，在商业化过程中的扩展速度和规模有局限。
+4.1.2 Opside: 为app-specific chain设计的另⼀种三层⽹络结构
+参考下图，相⽐StarkWare, ZKsync基于L2 rollup的app-specific L3的设计，Opside提出了⼀种专为high TPS应⽤⽽设计的三层⽹络。基于PoS+PoW的共识设计了⼀个侧链作为L2，并将app-specific chain作为L3接⼊侧链。
+Opside通过开发的ZK-bridge进⾏数据交互，并且与传统侧链的不同在于，合法性的证明通过zkp完成，⽽不是多签，所以有着更⾼的安全性。同时，Opside通过native rollup将app-specific rollup集成进L2 sidechain的共识中，即从共识⾓度激励第三⽅维护L2侧链上 的rollup。
+互操作性对RaaS⾄关重要，Opside中的native rollup之间共享⼀个world state tree和global message queue。因此，app-specific rollup之间的资产、信息交互会⾮常⾼效且成本更低，跨链资产交互只需要在⼀个L3 rollup的合约中直接调⽤⽬标rollup的contract method。但是兼容性和⽣态的发展对于基于ZK的rollup仍是⼀个挑战。
+ZK所带来的trustless和更快finality time的tradeoff是RaaS的商业化规模受限于算⼒，需要硬件的⽀持来⽣成ZKP，这也是⼤多数RaaS不做ZK的原因之⼀。另外，侧链作为L2的设计在安全性上对RaaS的提供者也是⼀个挑战。
+4.2 Optimistic系列
+包括但不局限于Caldera、Eclipse
+4.2.1 Caldera: 基于Op stack将⽤户体验优化最⼤化
+Caldera是⼀个基于Op stack的RaaS，为项⽬⽅提供⾼通量、低延迟、定制化功能的L2 rollup。⽬前testnet允许任何⼈在很短的时间内创建⼀个L2 rollup，⽤户体验很丝滑，可以去体验⼀下: https://dashboard.caldera.xyz/
+基于Op stack的设计让Caldera在兼容性上获得了很⼤的优势，fully EVM compatibility加上团队在⽤户体验上的优化，极⼤地降低了迁移/开发门槛。同时，Caldera的RaaS在算⼒⽅⾯不受限于底层硬件的⽀持，因此综合来看能让更多项⽬⽅快速部署，构建更繁荣的⽣态。
+参考Caldera官⽅⽂档的结构图，Caldera Chains不仅可以在Ethereum上launch L2 rollup-as-a-service，也可以在任何EVM-compatible的L1上提供服务，通过向L1发送 fraud proof确保交易有效性。在数据可⽤层上，Caldera同样做了创新，将Data Availability Layer与Settlement Layer解耦，定制化的rollup可以将交易内容发送到 Ethereum，或者专门的DA层，⽐如Eigenlayer或者Celestia。这样的设计更⼤程度上优化了Caldera的可扩展性和交易成本。
+Caldera⽣态的互操作性由内部的跨链桥实现，通过在相应的L1和app-specific rollup上部署合约实现资产和数据的跨链，同时，Caldera也提供high-level javascript SDK帮助开发者在定制化的rollup中更⾼效地加⼊跨链功能。
+虽然Caldera在互操作性和跨链桥上做了很多，optimistic rollup需要7天fraud-proof time，因此构建rollup之间的互操作性是⼀个挑战。同时，基于optimistic的RaaS不能做到trustless，要信任⾄少有⼀个challenger存在来防⽌sequencer作恶。
+另外，在定制化上，Caldera这类基于Optimistic的RaaS更多的是在低成本和⾼TPS上发⼒，⽽很难做到像基于ZK的RaaS那样，在功能和性能上给项⽬发带来更⼤的价值。可以看到现在的general purpose scaling rollup已经能做到⾮常可观的block time、TPS和transaction cost，并且看数据和raas相差并不⼤，可以说已经完成了0-1的提升，那么基于Op的RaaS所带来的成本和通量的提升是不是当前市场所需要的还需要打个问号。
+4.3 Modular blockchain
+包括但不局限于Celestia、Dymension
+4.3.1 Celestia: 以DA层为基础构建模块化区块链
+Celestia本质上是⼀个data availability layer。基于Tendermint共识的DA层构建了⼀套可扩展性较强的区块链层级架构。通过rollmint(⼀种application blockchain Interfaceimplementation)，dapp可以搭建⾃⼰的rollup并部署到Celestia，数据在DA layer存储， ⽽state root和proof上传到L1进⾏验证。Celestia通过data availability sampling(DAS)对DA layer进⾏优化，⽹络中的每个light node只需要抽样并下载⼀⼩部分区块数据，因此 节点数量越多，每个区块中所能包含的transaction数量越多，达到scale DA layer的⽬的。这就很容易联想到熟悉的Validiums: ⼀种通过ZK算法对计算结果进⾏验证，数据不上传L1，⽽是依赖于validators托管的扩容⽅案。由于数据存在链下⽽⾮直接发布到Layer1， Validium降低了gas成本。但是从去中⼼化和安全性的⾓度看，Data Availability依赖于第 三⽅委员会，因此Validiums使⽤并不⼴泛。
+从实现⽅式上看，整个⽣态体系中的dapp相当于在搭建⾃⼰的validium，并维护sequencer和prover，由Celestia提供统⼀的数据存储空间。和Validiums类似，这样的实现⽅式降低了dapp的运营成本，但同时⼀定程度上牺牲了去中⼼化程度和安全性。相⽐其他继承Etheruem安全性的解决⽅案，Celestia上dapp链的安全性依赖于节点和DA layer。
+另外，Celestia⽬前并不⽀持fraud proof，因此节点需要基于悲观假设重新执⾏所有交易以确保有效性。同时，rollmint也只⽀持single sequencer，因此在效率和去中⼼化程度上都有很⼤的改善空间。
+但作为⼀个DA层，Celestia的想象空间绝不⽌于此，⽐如基于optimisitc的RaaS解决⽅案Eclipse就将Celestia作为共识和DA层。
+RaaS能直观的带来成本和性能的提升，但从performance推断这些优化并不具备很强的吸引⼒；更⼤的价值还需要和定制化功能绑定。⽬前市场需求有限，但未来crypto的发展，更⼤的流量会导致dapp对低成本和⾼性能的追求线性增⻓，定制化的rollup服务显然是⼀个可取的解决⽅案。
+回答最开始提出的问题，我理解的RaaS的最终形态是什么？什么样的RaaS会收割市场？
+从产品本⾝看
+基于OP的RaaS的优势在于快速搭建⽣态，形成壁垒，但是单纯从成本和效率上带来的⼩幅提升并不⾜以吸引项⽬⽅，因此没有⻓期价值。⽽基于ZK的RaaS能在定制化功能上解决痛点，但需求依然不是主流。
+多层⽹络结构的设计使L3的RaaS获得更低的成本和更强的互操作性。⽽强⼤的互操作性是构建⼀个⽣态繁荣的RaaS的基础，因此，基于ZK的多层⽹络设计可以将定制化和低成本的优势叠加，可以看到更⻓期的价值。
+我认为⻓期看基于ZK的多层⽹络RaaS会成为市场最终的选择。
+市场和需求
+具备⾜够可扩展性的RaaS可以在保证performance的前提下满⾜所有项⽬⽅的定制化rollup的需求。同时，RaaS真正崛起⼜重度依赖⽣态的建设。因此，多个RaaS共存的格局显然是不make sense的。
+我认为终局⼀定是⼀个或者少数RaaS占据整个市场。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/uydx9lrw.html"
                         open
                       >
@@ -183,6 +314,81 @@ RaaS能直观的带来成本和性能的提升，但从performance推断这些�
                             <span class="media-object__text">
                               <span>PANews 3月5日消息，Glassnode数据显示，持有超过1枚ETH的地址数量为1,743,911个，创一个月新高。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/uydx9lrw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">数据：持有超过1枚ETH的地址数量创一个月新高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/uydx9lrw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月5日消息，Glassnode数据显示，持有超过1枚ETH的地址数量为1,743,911个，创一个月新高。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/janejmr1.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NFT创作者应对版税下降的 4 种方式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/janejmr1.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/9j19Nh1nnQ.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>撰文：William M. Peaster
+编译：DeFi 之道 Yangz
+随着 NFT 生态系统的不断发展，零收费或低收费的市场不断涌现，许多创作者面临着二次销售的版税收入减少。
+
+因此，面临的挑战是，在这个版税趋于不支付的新环境中，产生可持续的收入流。
+好消息是，NFT 创作者可以使用多种策略来弥补呈下降趋势的版税收入。
+在本文中，我将分享创作者可以采用的四种途径，以便在这个不断变化的 NFT 版税环境中更好地定位。
+
+正如 DCinvestor 之前解释的那样，NFT 最好被理解为“去许可、抗审查的无记名资产”。换句话说，NFT 是去中心化的数字事物，可以直接在个人之间移动，不受中心化中介机构的干扰。
+由于 NFT 领域最近一直在努力应对由 Blur 和 OpenSea 之间的 NFT 市场战争推动的版税支付的下降趋势，一些方法 -- 如阻止转移、销毁非版税支付者的代币和市场封锁名单 -- 被提出来作为阻止收入下降的潜在途径。
+上述方法的问题在于，它们都是中心化的策略，侵蚀了 NFT 的基本价值主张，即作为去中心化的无记名资产。
+尽管如此，当涉及到补偿下降的版税时，NFT 创造者仍然有一系列的选择可以考虑。
+创作者或藏品团队可以考虑的第一个和最基本的方法是为自己保留一些 NFT 项目的供应。
+随着项目的发展，这些保留的供应量可以在之后用于主要的销售，无论是在一段时间内以 drip 的方式进行进一步的融资，还是像 Larva Labs 在 2022 年将其 CryptoPunk 供应量出售给 Yuga Labs 作为更广泛的 IP 交易的一部分。
+这种策略有两个一般的变化，即保留未铸造的供应（想想像 Chromie Squiggles 这样的按需铸造的系列，其中 + 250 个 NFT 仍然可以在该系列的最大供应量中为特殊场合铸造）或保留已铸造的供应（例如，Larva Labs 从 CryptoPunks 智能合约中铸造了第一批 1000 个 NFT，并随着时间推移从该批次中出售）。
+当然，仅仅因为一个项目为自己保留了一些供应并不意味着它不能试图赚取版税，尽管它们最近可能处于下降趋势。
+例如，Terraforms 的创造者采取了零版税的方法，只是选择了保留未铸币的供应，以便以后进行初级销售，并使自己与社区长期保持一致，但相比之下，当 goblintown.wtf 团队在 2022 年 5 月进行免费铸币时，他们保留了 1000 个 NFT，并开始对二级销售收取 7.5% 的版税（后来转移到了自己的定制市场，执行的是 5% 版税）。
+2 成为有供应的 LP
+在 NFTfi 领域，有一波越来越多的 NFT 自动做市商（AMM）协议，创造者或项目可以提供 NFT 以赚取掉期的交易费用。
+要点在于，项目可以将其 NFT 添加到流动性池中（提供流动性，又称 LPing），然后在人们通过该团队的流动性进行买卖时赚取分成。这种策略的一个有趣的优点是，它允许一个团队从他们的 NFT 中赚取收入，而无需进行初级销售。
+
+例如，Sappy Seals 团队获得了 50 个自己的 NFT，然后在 2022 年 8 月开始在 sudoswap 上用这些 NFT 做 LP。从那时起，该团队通过交易费赚取了价值数千美元的收入。其他使用这种 LPing 策略并取得类似成功的项目包括 Based Ghouls, Finiliar 和 Allstarz。
+
+这种方法的另一个更先进的变化是在 Abacus spot 池中进行 LPing，但目前还没有这样的例子。Abacus 是一个新的 NFT 评估协议，专注于 NFT 的定价。该团队提出了一种新的 NFT LPing 方式，即项目将其部分财库资金链接到 Abacus 上自己的流动性池中，以产生收入并为池中的所有 NFT 准确定价。在这里了解更多关于这个概念的信息。
+
+03 DIY 市场
+有时候，当你需要做一些事情时，你必须自己去做。在当代的 NFT 市场领域，想要执行版税的项目越来越多地推出自己的本地市场，并将活动集中在那里，以便将交易从 Blur、OpenSea 等目前不可靠的地方吸引过来。
+幸运的是，像 Reservoir 这样的 NFT 基础设施项目使创作者和藏品可以越来越容易地部署他们自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。
+
+例如，Finiliar 就使用了 Reservoir 来支撑其在 finiliar.com 上的本地市场系统。他们以自己喜欢的方式设置了前端，然后 Reservoir 负责所有实际的市场行为。
+
+ 
+4 激励版税
+尽管最近 NFT 的版税普遍呈下降趋势，但这并不意味着我们必须放弃对其的所有希望。事实上，一种可用的方法是通过直接激励来增加版税。
+有许多不同的方式可以实现这种激励。比如，NFT 团队可以使用索引系统来识别他们所有在过去一年中兑现版税的藏家，然后为这些支持版税的藏家推出独特的福利，如白名单，NFT 空投，设有代币门槛的聊天，排行榜比赛，等等。
+这个途径很有趣，因为它可以很容易地与上述其他方法一起使用（例如抑制供应，将注意力集中在 DIY 市场上），并引导 NFT 持有者成为更积极和有帮助的社区成员！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11908,7 +12114,7 @@ Chris Powers：crvUSD 将基于一种创新设计，其中清算被特殊用途�
 内容来源
 Chris Powers：规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11943,7 +12149,7 @@ Chris Powers：crvUSD 将基于一种创新设计，其中清算被特殊用途�
 内容来源
 Chris Powers：规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -17965,8 +18171,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4334077355">
-        <time id="build-timestamp" datetime="2023-03-05T03:03:06.853Z">2023-03-05T03:03:06.853Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4334133558">
+        <time id="build-timestamp" datetime="2023-03-05T03:18:08.668Z">2023-03-05T03:18:08.668Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
