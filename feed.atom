@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T09:54:31.709Z</updated>
+    <updated>2023-03-05T09:59:48.633Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -136,6 +136,20 @@ CZ 知道 BTC-Fi 将是一个未来叙事。如果 CZ 不去探索叙事以获�
 <p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安赵长鹏确认出席“2023香港Web3嘉年华”并发表主旨演讲]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/0030v8lk.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/0030v8lk.html"/>
+        <updated>2023-03-05T07:11:57.000Z</updated>
+        <summary type="html"><![CDATA[币安创始人兼首席执行官赵长鹏先生确认将于2023年4月12日出席由万向区块链实验室、HashKey Group联合主办，W3ME承办的“2023香港Web3嘉年华（Hong Kong Web3 Festival 2023）”，并以线上直播连线的形式，作为活动首日的闭幕演讲嘉宾。
+4月12日-15日，2023香港Web3嘉年华将与香港特区政府和香港贸易发展局共同主办的“香港国际创科展（InnoEX）”同期在香港会议展览中心举办，并与其他活动共同组成“创新与科技商业周（BITWEEK）”。此前，香港特别行政区财政司司长陈茂波先生已确认出席该活动开幕式并发表主旨演讲。
+
+赵长鹏(CZ), 币安创始人兼首席执行官
+赵长鹏，别名CZ，是一位连续创业家，在创业方面有着傲人的业绩。他于2017年7月创立币安，只用了短短180天，就把币安发展成了全球最大的加密货币交易平台。作为区块链和交易系统领域的专家，赵长鹏将币安打造成了由币安交易平台、孵化器、Launchpad、学院、研究院、Trust Wallet、慈善、NFT等业务构成的领先区块链生态系统。他曾就读于蒙特利尔麦吉尔大学，在此之前一直在汉堡店打工。2005年，赵长鹏辞去了Bloomberg Tradebook期货交易软件研究与开发团队负责人一职，移居上海，成立了Fusion Systems。此后不久，他开始了解比特币，并加入了Blockchain.com成为技术总监。]]></summary>
+        <author>
+            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -3649,48 +3663,6 @@ FreeNFT 推广二代岛屿 Freemint 时 Twitter 一周内涨粉 26.9 万（目�
 2023.02.13 DigiDaigaku 广告亮相超级碗，并在这场上千万人瞩目的盛会上开展 DigiDaigaku Dragon 的 Free Mint，据报道，这场 30 秒的广告将花费 $650M.
 2023.02.16 宣布 DigiDaigaku Genesis 将在 BTC 上发布对应系列，DigiDaigaku Genesis 的持有人将获得免费的 BTC DigiDaigaku Genesis.
 ? 查看完整研报]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[版税不断降低，NFT创作者该如何应对？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/dcojcfvo.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/dcojcfvo.html"/>
-        <updated>2023-03-03T08:29:34.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：William M. Peaster
-原文编译：DeFi 之道
-随着 NFT 生态系统的不断发展，零收费或低收费的市场不断涌现，许多创作者面临着二次销售的版税收入减少。
-
-因此，面临的挑战是，在这个版税趋于不支付的新环境中，产生可持续的收入流。
-好消息是，NFT 创作者可以使用多种策略来弥补呈下降趋势的版税收入。
-在本文中，我将分享创作者可以采用的四种途径，以便在这个不断变化的 NFT 版税环境中更好地定位。
-
-图片来源：由 Maze AI 生成
-正如 DCinvestor 之前解释的那样，NFT 最好被理解为「去许可、抗审查的无记名资产」。换句话说，NFT 是去中心化的数字事物，可以直接在个人之间移动，不受中心化中介机构的干扰。
-由于 NFT 领域最近一直在努力应对由 Blur 和 OpenSea 之间的 NFT 市场战争推动的版税支付的下降趋势，一些方法 -- 如阻止转移、销毁非版税支付者的代币和市场封锁名单 -- 被提出来作为阻止收入下降的潜在途径。
-上述方法的问题在于，它们都是中心化的策略，侵蚀了 NFT 的基本价值主张，即作为去中心化的无记名资产。
-尽管如此，当涉及到补偿下降的版税时，NFT 创造者仍然有一系列的选择可以考虑。
-创作者或藏品团队可以考虑的第一个和最基本的方法是为自己保留一些 NFT 项目的供应。
-随着项目的发展，这些保留的供应量可以在之后用于主要的销售，无论是在一段时间内以 drip 的方式进行进一步的融资，还是像 Larva Labs 在 2022 年将其 CryptoPunk 供应量出售给 Yuga Labs 作为更广泛的 IP 交易的一部分。
-这种策略有两个一般的变化，即保留未铸造的供应（想想像 Chromie Squiggles 这样的按需铸造的系列，其中 + 250 个 NFT 仍然可以在该系列的最大供应量中为特殊场合铸造）或保留已铸造的供应（例如，Larva Labs 从 CryptoPunks 智能合约中铸造了第一批 1000 个 NFT，并随着时间推移从该批次中出售）。
-当然，仅仅因为一个项目为自己保留了一些供应并不意味着它不能试图赚取版税，尽管它们最近可能处于下降趋势。
-例如，Terraforms 的创造者采取了零版税的方法，只是选择了保留未铸币的供应，以便以后进行初级销售，并使自己与社区长期保持一致，但相比之下，当 goblintown.wtf 团队在 2022 年 5 月进行免费铸币时，他们保留了 1000 个 NFT，并开始对二级销售收取 7.5% 的版税（后来转移到了自己的定制市场，执行的是 5% 版税）。
-在 NFTfi 领域，有一波越来越多的 NFT 自动做市商（AMM）协议，创造者或项目可以提供 NFT 以赚取掉期的交易费用。
-要点在于，项目可以将其 NFT 添加到流动性池中（提供流动性，又称 LPing），然后在人们通过该团队的流动性进行买卖时赚取分成。这种策略的一个有趣的优点是，它允许一个团队从他们的 NFT 中赚取收入，而无需进行初级销售。
-
-例如，Sappy Seals 团队获得了 50 个自己的 NFT，然后在 2022 年 8 月开始在 sudoswap 上用这些 NFT 做 LP。从那时起，该团队通过交易费赚取了价值数千美元的收入。其他使用这种 LPing 策略并取得类似成功的项目包括 Based Ghouls, Finiliar 和 Allstarz。
-
-这种方法的另一个更先进的变化是在 Abacus spot 池中进行 LPing，但目前还没有这样的例子。Abacus 是一个新的 NFT 评估协议，专注于 NFT 的定价。该团队提出了一种新的 NFT LPing 方式，即项目将其部分财库资金链接到 Abacus 上自己的流动性池中，以产生收入并为池中的所有 NFT 准确定价。在这里了解更多关于这个概念的信息。
-
-3) DIY 市场
-有时候，当你需要做一些事情时，你必须自己去做。在当代的 NFT 市场领域，想要执行版税的项目越来越多地推出自己的本地市场，并将活动集中在那里，以便将交易从 Blur、OpenSea 等目前不可靠的地方吸引过来。
-幸运的是，像 Reservoir 这样的 NFT 基础设施项目使创作者和藏品可以越来越容易地部署他们自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。
-
-例如，Finiliar 就使用了 Reservoir 来支撑其在 finiliar.com 上的本地市场系统。他们以自己喜欢的方式设置了前端，然后 Reservoir 负责所有实际的市场行为。
-尽管最近 NFT 的版税普遍呈下降趋势，但这并不意味着我们必须放弃对其的所有希望。事实上，一种可用的方法是通过直接激励来增加版税。
-有许多不同的方式可以实现这种激励。比如，NFT 团队可以使用索引系统来识别他们所有在过去一年中兑现版税的藏家，然后为这些支持版税的藏家推出独特的福利，如白名单，NFT 空投，设有代币门槛的聊天，排行榜比赛，等等。
-这个途径很有趣，因为它可以很容易地与上述其他方法一起使用（例如抑制供应，将注意力集中在 DIY 市场上），并引导 NFT 持有者成为更积极和有帮助的社区成员！]]></summary>
         <author>
             <name>PANews News</name>
         </author>
