@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T09:48:29.000Z">2023-03-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T09:48:29.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-05 datetime="2023-03-05T10:06:42.000Z">2023-03-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-05 datetime="2023-03-05T10:06:42.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,52 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/hc2t43oq.html"
+                        open
+                      >
+                        <summary class="article-expander__title">抽丝剥茧，看穿流动性质押衍生品LSD高阶玩法的本质</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/hc2t43oq.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/pIrnW0TmXk.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文标题：《LSD 高阶玩法及其本质》
+撰文：CapitalismLab
+本文将从 Frax/Yearn 的 LSD 到杠杆 Staking 再到 re-staking，为你抽丝剥茧，一眼看穿这些 LSD 高阶玩法的本质。
+首先，我们用一张图来分析 Frax/ frxETH 的收益分配体系，用黄色标注出收益来源：
+
+1/2 无论是直接还是间接，本质上都是 Frax Finance 出的激励，无非是形式和包装不同。所以我们将此图简化一下，就非常明了，收益来源和分配就是：
+sfrxETH 吃「两份」 Staking 收益，APR 自然就高了。
+
+同理我们按此分析一下 Yearn 近期预计出品的 yETH：
+
+也把他简化一下，一眼就看出收益来源和分配就是：
+不过需要注意的是，这里所谓的 「协议资产」并非仅是 Yearn 的国库所有的，可能还包括 Yearn 从 yCRV 产品那里挪过来的投票权。
+
+是的，frxETH/st-yETH 超额收益来源都是协议资产在直接或间接的补贴！
+诶，这么看下去岂不是无限套娃了？但协议资产是有机会成本的，比如 vlCVX/ veCRV 本身是可以拿来赚取贿赂收益
+协议如果不是空气币，就要赋能，比如收入抽成，达到一定规模后补贴和抽成接近后，那么超额收益便不复存在了
+那这么做的意义在哪里？因为预期 LSD 在上海升级后将会迎来爆发，参照下方推文，LSD 是做大了也有护城河的，那么趁此扩大规模抢到门票，到时候便有可观的收益。
+超额收益有可持续性吗？质押资产 / 协议资产上升无疑会稀释超额收益，若协议资产由于价格等原因相对 ETH 在上升的话，那么将会延长这一过程，反之亦然，也就是说这个模式具有明显的反身性。因此这种模式虽然本质是补贴，但是精巧复杂的包装也是有必要的，通过更精彩的叙事可以提升协议资产的价值，从而推动正向螺旋。
+简化来看的话，收益来源就是协议资产和标的资产两侧，那么两端的资产类别其实也是可以更多样化？bestLSD 这个项目（名字挺土狗）就自称协议资产端和标的资产端放开来打，协议资产从 GMX/GLP 搞到 CRV/CVX/Velo，标的资产从 AMM LP 搞到杠杠 Staking ，总而言之是在两端合力推高收益。
+虽然这个玩意儿看上去有点野，不过这也提醒了我们，目前除了持有 CRV/CVX 的协议，持有任何其他生息资产的协议其实也都可以参与角逐，这块的门槛其实很低，将来可能会很卷。So it’s another use case for GLP and gDAI, gud!
+至于通过借贷协议做杠杆 staking 增大收益，参见下方推文，本质上就是息差套利。虽然看上去存款方有点吃亏被套利，但借款方也承担了额外的 LSD 协议风险和流动性风险。借贷协议充当了将质押利率传导到原生资产上的通道。
+
+再打一份工
+Re-staking，所谓第三方借用 ETH 主网安全性，不专业的但简单的形容就是：
+
+综上所述，协议资产激励、息差套利以及再打一份工是三种超额收益来源，必须强调的是，复杂的玩法会带来更多的风险，所以有必要评估超额收益是否能够覆盖增加的风险，毕竟无论是什么收益来源，最后都可能成为科学家的收益来源。
+LSD 本来涉及到和 Validators 这种线下实体的交互，是相对来说比较「重」的工作，但上面几种高阶玩法，通过包装 LSD 资产来运作，转化成了相对比较「轻」的工作，这里的门槛也显然会比传统 LSD 更低，花样自然也会更多，值得持续观察。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -5080,143 +5126,6 @@ Solcial平台的实用型代币为SLCL ，用户能通过 SLCL 来购买任何�
 今年，Solcial后续还将启动 Solcial DAO，并大规模部署高性能 P2P 网络以实现Solcial的完全去中心化。而该平台能否真正让用户从中收获足够的价值，仍然有待观察。
 参考链接</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/y1202972e1p8.html"
-                        open
-                      >
-                        <summary class="article-expander__title">超级碗广告金主 Limit Break 和它的 DigiDaigaku NFT：一场真正的 Web3 游戏范式实验</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/y1202972e1p8.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/60lsxS0eL4.jfif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>研究机构：Mint Ventures
-研究员：Scarlett Wu, Mint Ventures投资经理
-共同作者 : bobo, Mint Ventures外部研究员
-? 查看完整研报
-1. 核心投资逻辑
-
-Free to Own 范式的优越性
-
-充分利用了区块链特性，让游戏资产链上化，更容易定价、流转，这是信任的基础，更是项目核心收入来源——资产交易版税——的基础
-创作者主动把经济利益的获取方式长期化（用版税替代一次性发售），这就在商业模式上保证自己与玩家/社区利益的一致性，更容易获得玩家的用户和长期建设投入，形成真正有凝聚力和生命力的社区
-通过 NFT 游戏资产的预发和渐进式运营，保证核心的游戏项目上线前，已经具备了一个充满活力和期待的社区，降低了传统 Free to Play 游戏上线遇冷的风险
-
-
-现金充足，估值低谷
-
-融资：Limit Break 曾宣布 2 亿美元融资，目前现金充足，有长期建设的计划
-版税：仅 DigiDaigaku Genesis 交易量近 20k ETH，发布四个月已有版税收入 1000 ETH
-
-
-源源不断的机制创新和灵活快速的执行力
-
-配合融资信息放出 (Free, Own) 叙事，一开始就吸引了整个加密圈的火热讨论
-遇到版税挑战后，试图从技术上推动 NFT 和 Web3 游戏的高度融合，新叙事的想象空间更大
-抓住 BTC NFT 热点，或成为第一个官方进驻 BTC 生态的 NFT 蓝筹
-
-
-顶级团队，传统游戏 / Web3玩法皆备
-
-Machine Zone 出身的团队，Free to Play 玩法的元老级人物，擅长把握巨鲸用户的心理，曾有单个用户在游戏中消费 $8M，推出的游戏 Game of War: Fire Age 用户的付费金额是移动游戏玩家平均一年付费总额的五倍
-团队技术实力过硬，顶住了超级碗的流量压力让 free mint 操作丝滑，可编程版税协议具有创意
-通过创始人强大的号召力和“邪教化社区”的高凝聚力，跟多个项目达成合作（castaways, etherorc），一己之力带火其它游戏的社区，印证了自身流量的可迁移性。其中合作项目小木筏 Castaways 持续火爆，目前拥有12 万月活跃用户
-
-
-Digi 或将充分享受 Limit Break 蓬勃发展的价值捕获
-
-后续将实行的可编程版税协议，或将对现有的 Digi 系列持有人分成交易版税。
-预计发布的游戏中，可能会对 Digi 系列的 NFT 设计更多价值捕获。另外，Machine Zone 的游戏里不乏一掷上百万美元的鲸鱼玩家，而 2022 个 Digi Genesis 对于用户数千万、甚至可能上亿的游戏来说，有着绝对的稀有度。
-
-
-
-2.主要风险
-目前核心资产 DigiDaigaku 系列 NFT 主要面临两个方向的潜在风险，一个是 NFT，一个是游戏。
-NFT 方面，由于 Digi 系列 NFT 生态关系复杂，很容易让玩家短期内难以快速抓住生态重心。
-游戏则面临三个挑战：能否交付较高的游戏质量，实现良好的用户留存？庞大的 NFT 体系和项目的价值捕获能否良好地串珠成线？游戏产品和内容 IP 能否迎合年轻用户的审美？
-从近期 Digi 超级碗广告的表现来看，其物料相对单薄，效果或不及预期。
-详见「三、业务分析-风险」部分。
-3.估值
-考虑到 Digi 系列 NFT 的市值仅 $40M 左右，而 Limit Break 一级市场的估值虽然暂未公布，按出让 20% 股份的保守估计，为 10 亿美元，仅融资金额就有 2 亿美元。后续项目建设节奏稳定，现金流充足，且有游戏预期支撑，笔者谨慎认为 DigiDaigaku 系列 NFT 的目前市值处于低估区间。
-详见「四、初步价值评估-估值水平」部分。
-项目基本情况
-1.项目业务范围
-Limit Break 是一家 Web3 游戏公司，目前游戏仍在开发中，于 2022 年 8 月发行了 DigiDaigaku NFT 系列。
-DigiDaigaku 生态（后简称为 Digi 生态）由一系列 NFT 组成，其中主要包括两类：
-（1）核心 NFT，也叫“工厂” NFT，可以持续获得 Digi 生态发展过程中的空投和赋能
-（2）材料 NFT，通常由空投所得，用户通过特定方法燃烧材料 NFT 来生成核心 NFT
-
-在 DigiDaigaku 推出时，创始人 Gabriel Leydon 强调了其经营理念为 Free-to-Own （缩写为 F2O，字面意思为免费拥有）。Gabriel Leydon 随后进一步解释了 F2O 的含义：第一，所有 NFT 免费获得，不收取一级铸造费用（而是从交易费用中收取10%的创作者版税）。第二，核心 NFT 将在生态发展的过程中持续获得新 NFT 的空投。
-目前 Limit Break 和 Digi 生态均没有发行代币。
-2.项目历史和路线图
-2.1 Gabriel Leydon: F2P 的开拓者，携 F2O 归来
-纵观 Limit Break CEO Gabriel Leydon（下文简称 Gabe）的职业经历，可以看到一条跟 Digi 类似的“英雄之旅”叙事。1998 年，19 岁的 Gabe 高中毕业，在一家游乐场工作，每小时收入 3.25 美元，他对自己的评价是“一个无名无姓的失败者，感觉永远不会出头”。有一天，游乐场试运行了一款名为 San Francisco Rush, Alcatraz Edition 的赛车游戏，每周锦标赛的奖金是 500 美元，身为游乐园工作人员的 Gabe 拥有无限的代币，而游戏是他一生中最擅长的事情。于是，19 岁的 Gabe 深深沉迷于赛车游戏的锦标赛，每天玩十几个小时，以至于对自己的小拇指造成了永久性的伤害。
-由于对这款赛车游戏的擅长，很多人甚至会从 LA 开车到San Francisco来见 Gabe，这让他获得了自己的第二份工作——雅达利（Atari）的街机游戏测试。这本是一个相当简单和机械的工作：玩游戏，抱怨游戏，让开发者改进……他渴望游戏提升难度，作为一个硬核玩家来说，更大的比分差距和技术碾压的快感代表着自己的实力和地位，所以他不停地抱怨。有一次，游戏制作人 Steve Richie 听到了他的抱怨，他问 Gabe：“你知道游乐园最赚钱的街机是什么？”于是 Gabe 发现了一个打破他幻想的事实：最赚钱的赛车游戏是 Cruis’n in USA，这款赛车游戏特点在于，就算踏板碎裂、方向盘失灵，玩家也毫无知觉——赛车永远会按预设的轨道前行，而玩家永远会拿到第三名。
-这个 19 岁的瞬间奠定了 Gabe 整个职业生涯对游戏的理解：游戏不仅仅是游戏本身，它是一门生意，游戏制作人是艺术家，更是商人。他说：
-当你面试游戏设计师时，会发现他们都知道如何加入宠物系统、设计等级等等。他们都知道如何玩宝可梦，他们可能玩过上千年（夸张）的龙与地下城…… 但他们并不知道如何设计游戏在游戏体验之外，作为一门生意的另一面，或者说，他们实际上讨厌这一面。所以当我询问“如何设计一个价值一百万的功能”时，我会观察对方的理解，如果对方讨厌游戏商业化的那一面，那他一定不会擅长于此。
-So when you interview game designers, they all know how to add pets. They all know how to make levels or whatever. They all know how to play Pokemon. They’ve all been playing Dungeons and Dragons for thousands of years. They know how to do this stuff. But they don’t know how to do the other side at all and they actually hate it. So that’s why I ask the question because if you hate the business side of it, you’re not going to be good at it.
-Gabe 在街机游戏行业工作了 7 年的时间，先是 Atari，接着去了Tsunami Visual 和 Global VR，并设计了第一款服务于美国陆军的街机游戏。
-离开街机行业后，Gabe 拉着好友 Halbert Nakagawa 去了 Y Combinator。在这个硅谷知名的孵化器里曾诞生过 Airbnb, Coinbase, Doordash, Dropbox 等一系列人们耳熟能详的项目，也孵化了游戏化约会平台 Addmired，即Machine Zone 公司的前身。那是 2008 年，Facebook 在 2006 年尝试让开发者基于自己的平台生态创建应用，社交小游戏开发商 Zynga 无疑是其中最具代表性的参与者。线上扑克，农场游戏……巅峰时期，Zynga 的农场小镇用户量达到了 8000w，这在全球仅 30% 的家庭拥有电脑、iPhone 1 才刚刚发布半年的当时，是不可想象的。
-因为 Zynga 的成功，Addmired 选择在 Facebook 的竞品 Myspace 上开发社交小游戏，但结果相当惨淡——Zynga 选择融更多的钱，疯狂在 Facebook 上投放以获得更高的曝光，一度成为 Facebook 最大的广告商，而 Gabe 他们三个人的小团队只能选择每况愈下的社交平台 Myspace，拿着早期投资苦苦挣扎。于是他们选择另辟蹊径：既然 Zynga 还没有涉足移动市场，不如为 iPhone 做游戏。2009 – 2012 年，Admirred 一共做了 13 款游戏，包括四款 iOS 上的游戏 Original Gangstaz, iMob, iMob2 和 Global War Riot，虽然没有激起很大的水花，仍然是较为创新的尝试。
-2012 年 10 月，Machine Zone 推出了游戏 Game of War: Fire Age，这是一款 SLG（战争策略模拟）游戏，Gabe 声称自己将 A 轮的融资全部押注在这个项目，组建了 80 个人的团队，开发时间 18 个月，完全投入在这个项目中。2013 年，游戏开始在美国市场发行，并在 2014 和 2015 年成为最畅销的 App 之一。在解释它划时代的创新之前，有必要给出一些前置信息让大家重新理解那是一个怎样的时代：
-
-
-而在 Machine Zone 开发 Game of Wars 的时期，移动游戏也处在《愤怒的小鸟》时代——以休闲游戏为主，虽然有大量高质量游戏涌现，但大多受限于「主机/pc游戏照搬」的窠臼，并忍受着盗版/破解版对收入的侵蚀。 2011 年 12 月，游戏媒体 Gamesbrief 用相当欣喜的语气描述道：下列几款游戏很可能在 2011 年收入超过 2000 万美元——对比现在顶级手游数十亿美元的流水，当时的手游行业确实是相当早期。
-
-
-就在这样一个手游的收入远远没有被开发的时期，Machine Zone 推出了 Game of War: Fire Age，它的创新之处有 3 点：
- 
-
-Google Trend: Game of War: Fire Age 热度 (2011 – 2023)
-对于尚处早期的移动游戏行业而言，这无疑是巧妙的创新，尽管游戏的画质较为粗糙、深度和节奏控制站在现在的视角下并不尽人意，并不妨碍 Game of War 成为 Machine Zone 的印钞机。这一次，他们吸取了在 Admirred 被 Zynga 广告轰炸的教训，选择了大量的广告和投放：
-
-YouTube Game of War: Fire Age 关键词搜索，按热度排序
- 
-对此，业内人士的解读是：当你发现每投出 1 美元，都能产生高于 1 美元的收入，那为什么不呢？巅峰时期，（除中国外）全世界的男性都会至少每天 2 次刷到 Machine Zone 为旗下游戏投放的广告。
-2014 年，Machine Zone 完成了 JP Morgan 2.5 亿美元的投资，据《财富》杂志的报道，估值至少在 30 亿美元，足以一窥当时 Game of War 的辉煌。
-2015 年，Machine Zone 推出 Mobile Strike，这款游戏的机制跟 Game of War: Fire Age 极其相似，略有不同的是 Game of War 定位背景在中古世纪，而 Mobile Strike 则定位在现代战争，更符合年轻人的审美。
-
-左 Game of War: Fire Age; 右 Mobile Strike
-2016 年，Machine Zone 品牌升级为 MZ, 并完成新一轮估值 50 亿美元的融资，强调公司在社交和数据分析等游戏基础设施技术上的优势。同年 11 月，Machine Zone 和 Square Enix 合作推出了《最终幻想 15：新帝国》，这是一款最终幻想 15 的衍生手游。从游戏界面上看，几乎是 Game of War 和 Mobile Strike 的换皮复刻，除了采用最终幻想系列的皮肤和资源设置，各项玩法跟之前的系列极其相似。
-
-Final Fantasy XV: a New Empire
-而此时，市面上不断创新的游戏百花齐放。2015 年，腾讯推出《王者荣耀》；2016 年，市场上有利用 AR + LBS 技术极具创新的 Pokemon Go，也有 Supercell 研发并至今火热的《部落冲突：皇室战争》，深度、创新玩法、社交——消费者的品味已经提升，换汤不换药的游戏复刻并不会带来持续火爆的结局。《最终幻想 15: 新帝国》虽然在声量上依旧较高，但热度的下降飞速，Google Play 显示的实际下载量也远低于之前两款游戏。
-
-这三款游戏的收入也呈下滑趋势。
-
-2.2 从无人知晓 Free Mint 到炙手可热准蓝筹，DigiDaigaku 简史
-2021.06.08 Gabe 作客知名商业播客 Invest Like the Best, 讲述自己对设计数字经济系统的理解。（此时或已开始融资）
-2022.07.27 Limit Break（DigiDaigaku 母公司）的投资人，Standard Crypto 创始人 AlokVasudev 在 Invest Like the Best 提及自己曾投资 Gabe 创立的公司，并被 Gabe 转发。 这是 Limit Break 在公开市场上的第一次曝光，虽然大多数人都对此一无所知。
-2022.08.04 Gabe 在 Twitter 正式宣布自己和好朋友、也是 Machine Zone 的 cofounder Halbert Nakagawa 一同成立新公司 Limit Break，并列出投资人名单，在末尾表示“虽然现在没有更多分享的内容，我们会马上有小惊喜给大家”。 Paradigm 创始人 Matt Huang 转发并推荐了 Gabe 21 年的播客，表示：想要了解公司背后的理念，这期播客值得一听。
-2022.08.09 Gabe 在 Twitter 宣布“明晚 freemint”（现已删除）2022.08.10北京时间 08.10 凌晨 2 – 3 点，DigiDaigaku freemint 开始，即使没有做任何社区合作/推广，2022 个 Digi 仍在 17 分钟铸造一空。在一开始零星几个低于 1 E 的销售后，地板价直接稳在 3 E 左右。这次 freemint 在细节上也设置得相当用心，只允许通过网页前端进行铸造，有效避免了机器人拥有大量 NFT 的情况发生。
-2022.08.11-2022.08.28 Gabe 主持与投资人的 Twitter Space，讲述 Digi 的理念，并与著名游戏公会 YGG，知名 VC Delphi Digital 多次互动，转发 meme 造梗的同时，投票决定 Digi 下一步计划——空投。
-2022.08.29 宣布 Limit Break 的融资金额为 $200M，并展开了 Free to Own 的叙事，CZ 转发并评论“VC 又在老坛装新酒创造莫须有的叙事”。当晚，DigiDaigaku Genesis 的地板价最高到达 16.8 ETH，将热度推向高潮。 Gabe 在推特宣布会跟自己过往投资过的项目合作打造 Free to Own 宇宙，他曾投资 YGG, Castaways_gg 等多个 Web3 项目。
-2022.09.03 向 DigiDaigaku Genesis 的持有者空投 DigiDaigaku Spirits，开售地板价 4.3 ETH.2022.09.04燃烧 DigiDaigaku Spirits 获得 DigiDaigaku Heros 活动开始，Heros 的血统由燃烧 Spirit 的钱包是否拥有 DigiDaigaku Genesis 及其号码是否对应决定：
-– 持有者拥有和 Spirits 相同序号的 Genesis, 则 Hero 的血统为 Royal – 持有者拥有和 Spirits 不同序号的 Genesis, 则 Hero 的血统为 Warrior – 持有者仅拥有 Spirits，则 Hero 的血统为 Rogue
-另外，2022 个 DigiDaigaku Genesis 中有 5 个 Mythic（1/1）NFT，它们合成的 Hero 有 Mythic 血统，因为稀有血统的加成会有一定溢价，用户会愿意放弃 Royal 血统选择将不同序号的 Spirits 和 Mythic 血统的 Genesis 合成，得到 Mythic Warrior
-从生态地位上，Royal &gt; Warrior &gt; Rogue, 从实际地板价看，用户更青睐稀缺的 Mythic Warrior Hero，目前地板价是其它属性地板的 2 倍左右。
-2022.10.02 给 DigiDaigaku Genesis 持有者空投 Castaways Adventure Key, 持有者将获得 Castaways 中跟自己 Genesis 模样相似的小女孩角色，并参与排行榜争夺。 排行榜前列将获得 Castaways 的定制奖品，以及岛屿奖励（当时地板价 4E 左右）。 Castaways Adventure Key 开盘价 0.9 E.
-2022.10 – 2022.11 DigiDaigaku 南瓜雕刻活动，将挑选 2 个雕南瓜的视频进入 2023 年超级碗的广告。数百人踊跃参与南瓜雕刻，最终 2 人入选。
-2022.11.01 向 DigiDaigaku Genesis 和 DigiDaigaku Hero 空投 Dark Spirits，其中：
-– 每个 DigiDaigaku Genesis 持有者获得 2 个 Dark Spirits – DigiDaigeku Hero: 每个 Royal 和 (Mythic) Warrior 持有者获得 2 个 Dark Hero Spirits 每个 Rogue 持有者获得 1 个 Dark Hero Spirits
-2022.11.17 向 DigiDaigaku Genesis 持有人空投 EtherOrcs Adventure Key, 类似 Castaways Adventure Key, 持有者获得 EtherOrcs 中的特殊角色，争夺排行榜奖励。2022.12.02Dark Spirits 和 Dark Hero Spirits 系列开图，引入燃烧生成药水的机制：
-– 仅燃烧一个 Dark Spirits 或 Dark Hero Spirits，成为 Villain Potion – 燃烧一个 Dark Spirits + Dark Hero Spifits，成为 Super Villain Potion
-药水将为后续的 Villain 系列赋能，使得 Villain 在游戏中拥有不同等级的武器和属性增强。、
-2023.01.27 DigiDaigaku Masked Villain 发售，总量 10,000 个，采用 Free Mint 形式，Genesis 和 Hero 均可直接在官网 Claim NFT，其余 6000 个 Masked Villain 在 FreeNFT.xyz 抽奖分发，发售地板价 0.45 ETH. FreeNFT 也是 Gabe 曾投资的项目，将作为 Free to Own 生态的发射台。除 DigiDaigaku 曾在该平台上抽奖外，Castaways_gg 和 Dimensionals 都将与 FreeNFT 合作。该平台俨然成为了高质量 Freemint 项目方的首选， 主要优势在于：
-– 有强大的防机器人能力，筛选出来的账户真人比例较高，影响力较大 – 能带动高质量社区增长，Castaways_gg 创始人在一代岛的发售时 Twitter 涨粉较为缓慢，
-FreeNFT 推广二代岛屿 Freemint 时 Twitter 一周内涨粉 26.9 万（目前总粉丝数 33.6 万）
-2023.02.13 DigiDaigaku 广告亮相超级碗，并在这场上千万人瞩目的盛会上开展 DigiDaigaku Dragon 的 Free Mint，据报道，这场 30 秒的广告将花费 $650M.
-2023.02.16 宣布 DigiDaigaku Genesis 将在 BTC 上发布对应系列，DigiDaigaku Genesis 的持有人将获得免费的 BTC DigiDaigaku Genesis.
-? 查看完整研报</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -18454,8 +18363,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4335502247">
-        <time id="build-timestamp" datetime="2023-03-05T10:06:41.539Z">2023-03-05T10:06:41.539Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4335534998">
+        <time id="build-timestamp" datetime="2023-03-05T10:14:32.472Z">2023-03-05T10:14:32.472Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
