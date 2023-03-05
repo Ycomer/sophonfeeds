@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T07:38:12.889Z</updated>
+    <updated>2023-03-05T07:43:43.586Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【长推】Gnosis 的创始人谈 L2 的局限性：畅想一个使用 ZK-bridge 连接的以太坊宇宙]]></title>
+        <id>https://twitter.com/levi0214/status/1631924502354595840</id>
+        <link href="https://twitter.com/levi0214/status/1631924502354595840"/>
+        <updated>2023-03-05T06:58:21.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 创始人 Martin Köppelmann 在 EthDenver 上分享了他认为的 L2 方案的 4 个问题，包括状态扩容、交易成本、资产退出和适用性，并畅想了一个使用 ZK-bridge 连接的以太坊宇宙。加密研究员 Luyao 对演讲的关键内容进行了整理。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/levi0214/status/1631924502354595840">https://twitter.com/levi0214/status/1631924502354595840</a></p>
+<p><strong>文章作者：</strong></p><p>Luyao</p><hr><h3>观点：</h3><p><strong>Luyao：</strong>L2 最初的目的是，批量完成一堆交易，然后把结果同步回 L1。它是一种很临时的空间，而不是一个新的空间放一些永久的资产。长期来看， 即使 L2 被完美实现，依旧会有一些根本问题。问题 1：这个流程只适合状态不会膨胀的应用，比如交易所（只需要交易结果，不需要交易历史），但对于状态膨胀的应用无法扩容。</p><a href="https://twitter.com/levi0214/status/1631924502354595840">内容来源</a><p><strong>Luyao：</strong>问题 2：交易成本。L2 峰值 gas 有时会到 $1 以上，即使 EIP4844 落实，gas 能降低 90% ，但依旧有两方面问题：1. 它对于需要 gas 在 1 美分以下（sbu-cent）的场景依旧不适用；2. 需求增加后，gas 依旧会升高。问题 3：L2 资产退出问题：1. 小额资产可能不够支付退出的 gas 费；2. 退出的带宽有限。问题 4：有些 app 无法被 roll up。例如 CirclesUBI、POAP，它们创造了很多状态，这些状态无法被压缩，所以 L2 对他们没用。</p><a href="https://twitter.com/levi0214/status/1631924502354595840">内容来源</a><p><strong>Luyao：</strong>Köppelmann 提出了一个很有趣方案，类似于 Cosmos 的 IBC 模型。做另一个链，跟以太坊运行一样的东西，然后通过无信任的 ZK-bridge 来连接，组成一个以太坊宇宙（Ethereumverse）。 目前已有的 ZK-bridge 方案是利用 ZK 在一条链上运行另一条链的轻节点客户端，然后在其中去验证。这里无需信任，远比传统的 bridge 安全。</p><a href="https://twitter.com/levi0214/status/1631924502354595840">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mastodon 背后的去中心化社交协议 ActivityPub 解析：机制、生态与优缺点]]></title>
         <id>https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso</id>
@@ -8292,18 +8304,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 研究员 Thor Hartvigsen 根据自创的数据库，通过研究代币持有者排行、风险投资 、「聪明投资者」钱包追踪器，花费了 3 周时间追踪了 8 个性能强劲的协议背后的顶级「持币巨鲸」。本推文中文版由白泽研究院编译。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw</a></p>
 <p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Lido： Paradigm Capital， 7% （7000 万枚 $LDO）；Dragonfly Capital， 2.7% （2700 万枚 $LDO）。2）GMX：Arthur Hayes（BitMEX 联创），20.05 万枚 $GMX (价值约 1550 万美元) ；未知鲸鱼 1 ，19.6 万枚 $GMX 。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a><p><strong>Thor Hartvigsen：</strong>3）Rocket Pool：Patricio Worthalter (POAP 创始人)， 61.3 万枚 $RPL (价值约 3200 万美元) ；1kx (投资公司)： 53.4 万枚 $RPL (价值约 2790 万美元) 。4）Frax：fraximaxi.eth，658 万枚 $FXS (价值约 7500 万美元) ；fraxcetacean.eth： 190 万枚 $FXS (价值约 2160 万美元) ；Dragonfly Capital， 64.8 万枚 $FXS 。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a><p><strong>Thor Hartvigsen：</strong>5）Curve：创始人钱包 #2-4 ，3.96 亿枚 $CRV (价值约 4.67 亿美元)；Michael Egorov，3.4 亿枚 $CRV (价值约 4.01 亿美元) 。创始人持有的大部分 CRV 要么在未来几年内解锁，要么锁定为 veCRV。「投资者钱包」中还有大量 CRV 解锁。6）dYdX：Wintermute，650 万枚 $DYDX（价值约 2000 万美元）；Amber Group，285 万枚 $DYDX ，Hashkey： 220 万枚 $DYDX 。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a><p><strong>Thor Hartvigsen：</strong>7）Synthetix：Kain Warwick (创始人)，1290 万枚 $SNX（价值约 3380 万美元）；Jump trading，240 万枚 $SNX。8）Polygon：Republic Capital， 2450 万枚 $MATIC（价值约 3700 万美元）；Blockchain Capital，1770 万枚 $MATIC（价值约 2700 万美元）。</p><a href="https://mp.weixin.qq.com/s/Pjaph64oLWgVbdE7UDvZNw">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compound 社区发起将 Compound v3 部署到 Arbitrum 的提案]]></title>
-        <id>https://www.comp.xyz/t/deploy-compound-v3-on-arbitrum/4100/1</id>
-        <link href="https://www.comp.xyz/t/deploy-compound-v3-on-arbitrum/4100/1"/>
-        <updated>2023-02-28T10:23:29.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Compound 社区发起将 Compound v3 部署到 Arbitrum 的提案</h3>
-<p>据 Compound 社区消息，Compound 社区发起在 Arbitrum 部署 Compound v3 的提案。该提案由 FranklinDAO 发起，提案表示，根据 TVL 和实时 dApp 的数量，Arbitrum 是以太坊上领先的 Layer2 网络，将 Compound v3 部署至 Arbitrum 是协议发展的重要一步。</p>
-<p><a href="https://www.comp.xyz/t/deploy-compound-v3-on-arbitrum/4100/1">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
