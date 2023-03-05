@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-05T09:38:58.410Z</updated>
+    <updated>2023-03-05T09:44:24.559Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[重构 Venus 资产负债表：1.475 亿连环债务 + 5600 万美元坏账如何产生]]></title>
+        <id>https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA</id>
+        <link href="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA"/>
+        <updated>2023-03-05T08:50:53.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Venus 协议是 BNB Chain 上的「老牌」DeFi 协议，目前共锁定了 12.85 亿美元的用户资产。加密研究员 0xLoki 认为 Venus 的资产负债表并未能体现之前两起 Venus 攻击带来的 1.475 亿连环债务和 5600 万美元坏账问题，Venus 具有较高风险并建议用户提币。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA">https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA</a></p>
+<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>攻击 1：BNBChain 被攻击导致增发，其中 90.2 万枚 BNB 被质押在 Venus 上，并且借出了 5000 万 USDT、6250 万 BUSD 和 3500 万 USDC（合计 1.475 亿美元）。此后通过了一个提案，这 90.2 万枚 BNB 只能由 BNBChain 来清算。这笔借款应当被视为无抵押借贷，因为它的抵押物理应被销毁。</p><a href="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA">内容来源</a><p><strong>0xLoki：</strong>攻击 2：2021 年 5 月，有大户（也有说法称是项目团队）注入大量 XVS 充当抵押品后拉高 XVS 价格并借出了几千个 BTC 和几万个 ETH，随后该账户被清算，系统留下近亿美元的负债。通过链上地址追踪，已知的三个地址总计产生了 1902 个 BTC 和 6448 个 ETH 的坏账，合计约 5200 万美元。没有任何公开信息显示 Venus 将如何处理这笔坏账。</p><a href="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA">内容来源</a><p><strong>0xLoki：</strong>结论：Venus 存在 9000 万或 1.475 亿的连环债务以及 5600 万的坏账，理论上不具备足额准备金，建议所有人停止使用 Venus 并且全部提现。</p><a href="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】ERC4337 的两个挑战：中心化与经济模型]]></title>
         <id>https://twitter.com/blockomotive/status/1631996549214482432</id>
@@ -8270,18 +8282,6 @@ Portal 由前 Visa 全球加密产品部门负责人 Raj Parekh 联合创立，�
         <summary type="html"><![CDATA[The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…]]></summary>
         <author>
             <name>Aptos</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TreasureDAO 的最大竞品？一文读懂 TridentDAO 的 Risk to Earn 新模型]]></title>
-        <id>https://www.odaily.news/post/5185387</id>
-        <link href="https://www.odaily.news/post/5185387"/>
-        <updated>2023-02-28T11:43:48.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>免费游玩的游戏项目 TridentDAO 最近热度颇高，其原生代币 PSI 近期价格也表现良好。CoinGecko 专栏作家 Sarah P 撰文分析其 Risk to Earn 模型，并分析其与 TreasureDAO 竞争的优劣势。本文中文版由 ODAILY 编译。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.odaily.news/post/5185387">https://www.odaily.news/post/5185387</a></p>
-<p><strong>文章作者：</strong></p><p>Sarah P</p><hr><h3>观点：</h3><p><strong>Sarah P：</strong>Risk to Earn 模型：玩家可以将在 Trident 上的游戏中下注，玩家下注的资产会存放在同一个池子，游戏的赢家将获得整个池子的资产，输家将失去所有下注的资产。与以往的 Play to earn 模式不同，该模式是可持续的，让资产在玩家之间流动，解决了严重的供应问题。PSI Token 也会在下注后永久销毁，Token 供应不会增加，Trident 团队更多是通过根据玩家基数数据调整 Token 供应量。</p><a href="https://www.odaily.news/post/5185387">内容来源</a><p><strong>Sarah P：</strong>游戏生态分为：1）游戏，包括 Trident MMO、Sprite Duels 和 Trial of the Trident；2）NFT，Pseudo-Krakens NFT 为 Trident 首个 NFT 系列，限量供应 3000 个持有该 NFT 还能允许玩家对 Trident 关于未来游戏的决定事务进行投票，每个 NFT 代表一个投票权；3）徽章，为 Trident 忠实粉丝和合作伙伴社区提供独家机会，如获得游戏内装备、独家小游戏资格、获得限量版皮肤等独家事项。</p><a href="https://www.odaily.news/post/5185387">内容来源</a><p><strong>Sarah P：</strong>与 TreasureDAO 的竞争：就目前来看，TreasureDAO 仍处于在领先的位置，不管是游戏种类、用户数、社交媒体关注度还是生态丰富程度。横向对比来看，TridentDAO 暂时还不具备优势，但是赌博概念 Risk to earn 的引入后以及纵向上随着 L1 向 L2 转移的趋势加强，Arbitrum 用户量进一步增长，未来有机会吸引更多的新用户参与，缩小二者之间差距。</p><a href="https://www.odaily.news/post/5185387">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
