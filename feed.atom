@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T08:28:59.156Z</updated>
+    <updated>2023-03-06T08:38:02.632Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[次世代衍生品DEX之战打响：PVP AMM将成为“制胜武器”？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/c01l0w2zaau2.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/c01l0w2zaau2.html"/>
+        <updated>2023-03-06T08:31:40.000Z</updated>
+        <summary type="html"><![CDATA[GMX 去年提出 X4 计划，其中重要一环便是全新的交易模式 PVP AMM，由于 GMX 转向合成资产的开发，X4 便暂时搁置了
+近期又冒出 LionDEX ，声称已实现了 PVP AMM ，战火突然就在眼前
+本文将为你带来详尽的 PVP AMM 解读，提前一窥下一代 Perp DEX 风采
+PVP AMM 的核心奥义就在于:
+所谓 PVP，核心就在于 “相对”而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌
+GMX 的 X4 文档举了一个例子，我们以此为起点展开分析：
+我们分析下其中计算的逻辑，可知是把盈亏体现在 GD 数量上，即为：
+可以总结得出其核心公式如下：
+New GD Price = TVL/New GD Supply 
+表述即为：
+就是说 PVP 交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，你需要赚的相对比整体更多才能真的 U 本位赚到钱
+PVP AMM 的优势在于：
+对于单边行情，GMX 虽然在牛市如此推文所述问题不大，但是在熊市的话由于 GLP 价格下跌，心理压力还是会大一些的：
+PVP AMM 又将所面临什么样的挑战：
+而 LionDEX 这个声称已实现 PVP AMM 的项目看上去主要做了 4 件事：
+PVP AMM 中两个挑战有一个已经照顾到了，还需要看看其如何降低使用门槛，教育好用户。
+目前 GMX 转向合成资产开发，还未开始 X4 的开发，这块有较长的真空期，便有了新项目的机会。不过是骡子是马还得拉出来溜溜，其马上要发布公测，我们观察其公测效果如何即可。
+这还体现了一点，由于 GMX 创始人 X 是一个非常喜欢分享设计思路的开发者, 抢先实现 X 的设计也成为了 DEX Perp 赛道的一条路，未来这一块的竞争将会进一步提升该赛道竞争烈度。
+总而言之，如果说 GMX 现在的模式是存在一个“庄家” GLP，交易者依靠正确的判断从庄家手里赚钱；那么 PVP AMM 则没有庄家的存在，或者说人人都是庄家，交易者依赖从场内其他交易者手里赚钱。这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式，预计在不远的将来这类情况会越来越多。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Gnosis创始人EthDenver分享笔记：为什么Layer2仍有局限性？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/qa8k5ndt.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/qa8k5ndt.html"/>
@@ -740,6 +768,7 @@ NFT和元宇宙领域热度大涨，公布了9起融资，其中NEAR生态NFT市
 基础设施与工具赛道略有降温，公布了10起事件，去中心化移动网络服务商 REALLY 宣布完成 1800 万美元种子轮融资，Polychain 领投；
 其他Web3/加密相关项目方面，公布了2起事件，其中Web3内容创作平台REPUBLIK完成370万美元种子轮融资，投后估值为7500万美元；
 中心化金融领域未公布投融资事件。
+
 下面我们一起来全盘回顾上周的投融资事件。
 去中心化交易所DigiFT完成1050万美元Pre-A轮融资，HashKey Capital等参投
 去中心化证券型代币交易所DigiFT宣布完成1050万美元Pre-A轮融资，Shanda Group领投，HashKey Capital、Hash global、Xin Enterprise Pte. Ltd、North Beta Capital参投。新资金将支持该交易所的增长以及招聘更多新员工。DigiFT由曾任华美银行大中华区首席执行官、花旗银行和渣打银行中国区副首席执行官的Henry Zhang于2020年创立。DigiFT已在新加坡金融管理局 (MAS) 金融科技监管沙盒中注册，旨在为以太坊公共区块链产品提供受监管的去中心化金融解决方案，这是一种自动做市（AMM）机制，可促进由债券和股票等金融资产支持的证券代币的二级交易流动性。
@@ -3751,16 +3780,6 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
 <p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>该钱包支持助记词和 iCloud 恢复以及面部识别解锁。当前版本仅支持一套助记词，如需新建多个钱包，将共享这一套助记词。钱包的功能比较完整，支持基本的 Token 收发、WalletConnect、Portfolio（持仓 ERC-20、NFT 以及交易记录）展示、Swap 和 Web3 浏览器。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>通过添加「view only」钱包，可以查看追踪其他地址的持仓动态，支持通过 ENS 域名添加；Swap 功能支持以太坊、Polygon、Arbitrum 和 Optimism 网络，当前版本暂不支持 NFT 交易；Web3 浏览器界面与 Uniswap 整合的十分彻底，Top tokens 显示可按照 Uniswap 上的成交额和 TVL 排名，支持已关注 Token 和地址展示。针对部分 Token，钱包也会做出「该 Token 未在美国头部 CEX 上架或者频繁交易」的风险警示。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>在引入更广泛用户成为 Web3 主流叙事的基调下，随着账户抽象、Web3 DID 等技术和基础设施逐步成熟、实现。一站式 Web3 门户势必成为加密领域的热门赛道，移动端钱包则是目前可以预见的最可能的形式。Uniswap 于当下推出开源移动端钱包可以说是审时度势之举。总体来说，目前这款钱包完成度已经较高，技术方面也很成熟。鉴于 Uniswap 作为 DEX 顶流拥有雄厚的用户基础，假以时日，必将在钱包赛道占据一席之地。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PancakeSwap将于4月第一周上线V3，将推出空投和NFT等活动]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/713l6lba.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/713l6lba.html"/>
-        <updated>2023-03-04T04:47:00.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月4日消息，据官方消息，去中心化交易所PancakeSwap宣布将于4月第一周上线V3，会增加一系列新功能并推出空投、独家NFT和VIP计划等活动，将提供更好的流动性、更优惠的交易费用、交易奖励以及优化收益农场体验。V3新版本将在BNB Smart Chain（BSC）上率先推出，平台也将开展一连串粉丝回赠活动。截至目前，PancakeSwap总交易量超过4380亿美元，总锁定流动性超过25亿美元。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
