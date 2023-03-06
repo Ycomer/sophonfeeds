@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T07:39:32.551Z</updated>
+    <updated>2023-03-06T07:44:24.672Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -136,6 +136,18 @@ L2 的 sequencer 非常中心化。
 作者个人观点：这是一个非常有趣的、被低估的方案，如果你仔细想，会发现这真的可以解决前面这些问题中的一大部分。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】一文解读锚定资产定价风险的协议 Y2K Finance]]></title>
+        <id>https://twitter.com/0xShinChannn/status/1632369004647157760</id>
+        <link href="https://twitter.com/0xShinChannn/status/1632369004647157760"/>
+        <updated>2023-03-06T07:21:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 0xShinChan 撰推解读 Y2K Finance 协议原理、协议机制和代币经济模型，并剖析其收益等绩效指标，以及如何监控 Y2K 上的「聪明钱」。该 KOL 认为 Y2K 的低风险商业模式可以随着存款的增加而提高盈利能力，吸引寻求利润的交易者。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">https://twitter.com/0xShinChannn/status/1632369004647157760</a></p>
+<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Y2K Finance 提供了一套针对外来挂钩市场而设计的链上结构化产品，用户可以对特定挂钩资产偏离其「公平隐含市场价值」的风险进行对冲、杠杆、投机和交易以获得利润，其提供 3 种主要产品：1）Earthquake：承担风险 / 防止潜在资产绕行的金库；2）Tsunami：抵押债务驱动的借贷市场；3）Wildfire：购买 / 出售代币化 Earthquake 头寸的市场。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>协议机制：1）Earthquake 金库目前支持的锚定资产包括 DAI、FRAX、MIM、USDC 等。2）Earthquake 提供 2 个金库来应对不同的风险偏好，包括对冲金库和风险金库。3）每个金库由 3 个关键属性组成：Asset、Epoch、Strike。Asset：金库对冲的挂钩资产，Epoch：必须发生脱钩事件才能有效的操作周期，Strike：触发挂钩事件的价格阈值。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>在没有脱钩的情况下：1）对冲头寸被清算，导致交易员们损失了全部 ETH，赢取了 $Y2K。2）风险金库获胜，交易者从对冲金库中收到与金库大小成比例的 $ETH ，加上 $Y2K 并减去费用。如果发生脱钩则与之相反。此外，Y2K 财政部收取存入对冲和风险金库的资金的 5% 作为费用。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>绩效指标：自 2022 年 12 月下旬推出以来，Y2K 在 2.5 个月内产生了超过 52 万美元的收入。30% 的 Y2K 流通量被锁定。$USDT 是最常用的对冲资产，$USDC 是最常用的风险资产。其年化收益约为 250 万美元，市盈率为 32.4，相当疯狂的盈利预测。通过监控「聪明钱」发现两个最大的储户在一个星期的周期创造了超过 100%-200% 的 APR。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9080,18 +9092,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>每个生态系统都需要去中心化的稳定币。以太坊有 MKR 和 DAI ，那么比特币生态呢？加密货币 KOL Kaduna 从 Arkadiko Protocol 对于 Stacks 的重要性角度介绍了比特币的稳定币项目 Arkadiko Protocol。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">https://twitter.com/cryptokaduna/status/1630546387543928832</a></p>
 <p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Arkadiko 是一种基于 Stacks 的去中心化流动性协议，提供一系列 DeFi 解决方案。通过 Arkadiko 用户可以使用他们的 STX --Stacks 的原生代币 -- 作为抵押来铸造 Arkadikos 自己的稳定币 USDA 。然后，该 USDA 可用于在 Arkadiko 协议内 farm 以偿还贷款。farm 的收益是通过参与称为转移证明（POX）的 Stacks 共识机制产生的。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">内容来源</a><p><strong>Kaduna：</strong>通过持有 STX 代币，你可以将它们作为抵押品存入 Arkadiko，然后借入其价值 25% 的 USDA。由于 USDA 现在已抵押在我们之前谈到的 POX 共识中，因此奖励将自动用于偿还借入的 USDA。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">内容来源</a><p><strong>Kaduna：</strong>Stacks 作为一个平台实现了爆炸式增长，其 TVL 在短短几周内从 700 万美元飙升至 2200 万美元。随着这种增长，需要 DEX 作为用户参与生态系统的一种方式。Arkadiko 在 Stacks 之上构建了一个 DEX，以满足不仅希望参与 Arkadikos 贷款而且希望参与整个 Stacks 生态系统的用户。通过 ArakadikoSwap，用户可以通过提供流动性来赚取额外的被动收入。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Conflux 获 DWF Labs 1000 万美元投资]]></title>
-        <id>https://www.theblock.co/post/215934/conflux-raises-10-million-dwf-labs-token-round</id>
-        <link href="https://www.theblock.co/post/215934/conflux-raises-10-million-dwf-labs-token-round"/>
-        <updated>2023-03-01T07:39:32.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Conflux 获 DWF Labs 1000 万美元投资</h3>
-<p>Web3 风险投资机构和全球数字资产做市商 DWF Labs 通过从项目团队和基金会储备中购买 CFX 代币向区块链平台 Conflux 投资 1000 万美元，代币将「在一段时间内线性解锁」。资金将用于扩展其技术并扩大其用户群，并围绕香港新的 Web3 政策进一步扩展其生态系统。</p>
-<p><a href="https://www.theblock.co/post/215934/conflux-raises-10-million-dwf-labs-token-round">内容来源</a></p><hr><h3>观点：</h3><p><strong>龙凡（Conflux 联合创始人）：</strong>Conflux 是中国唯一符合监管要求的无许可区块链，该项目的核心研发团队完全是中国人我们从未做过 ICO 之类的活动。2021 年，上海市政府向 Conflux 提供了超过 500 万美元的资助。Conflux 的「树图」共识算法能够实现每秒 3000 笔交易，确认时间为 23 秒，同时保持高度的安全性。这将公共链技术提升到日常性能的新水平。超过 300 个平台、品牌和 IP 方已经认可、采用并战略性地整合了 Conflux。【原文为英文】</p><a href="https://www.theblock.co/post/215934/conflux-raises-10-million-dwf-labs-token-round">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
