@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T10:12:08.047Z</updated>
+    <updated>2023-03-06T10:22:02.684Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文速览闯进ETHDenver决赛的18个新项目]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/3xhu1l4b.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/3xhu1l4b.html"/>
+        <updated>2023-03-06T10:12:37.000Z</updated>
+        <summary type="html"><![CDATA[ETHDenver 2023 大会已进入尾声，刚刚大会官方公布了评委会选出的入选 BUIDLWeek 的 18 个项目。评委会在 DeFi、DAO、公共产品以及 NFT 元宇宙方面分别评选出了 3 个项目入选，而基础设施项目则是此次入围项目的最大类别，共有 6 个项目入选。根据《纽约时报》的 Mike Stepanovic 分享的项目名单，BlockBeats 根据现有信息对这 18 个项目进行简单整理如下。
+Sesame -- Top 5
+Sesame 是一个钱包项目，专为低带宽网速区域的新兴市场设计，其特点是具有「离线优先」功能，可在没有互联网连接的情况下缓存交易，并在用户设备重新联网时自动提交。
+
+测试版界面（大会演示用）
+Fundpg -- top 5
+为用户建立了一个无损捐赠池，用户可以将一定比例的收益直接用于公有事业，该项目目前正与 Gitcoin 和Creature World合作推出纪念短袖，出售所得资金将全部用于公有事业。
+
+图片来源：@FundPG
+Krypto Kredit
+Krypto Kredit 是一个专为新兴市场（尤其是亚洲和非洲）建立的 Web3 交易信用评分平台。
+
+图片来源：@EthereumDenver
+基础设施
+Bitcoin Vitalik's Vision (BVV)
+又名「Satoshi's Stack」，旨在帮助比特币网络实现更多功能。
+Swappy -- Top 5
+Swappy 是一个基于大语言模型（LLM）的跨链互操作协议，其愿景是帮助人类像和语音助手谈话一样进行跨链 Swap 操作。（想象一下指挥「ChatGPT」帮你完成跨链操作的场景）
+
+图片来源：@EthereumDenver
+Rhinestone
+一个基于零知识证明、账户抽象、erc-4337 标准的钱包项目，准确的来说，该项目更类似于钱包插件管理器，它允许用户使用来自若干不同钱包中最喜欢的功能来定制专属于个人的钱包使用体验。
+
+图片来源：@EthereumDenver
+Slang
+Slang 是一个开发者工具，旨在简化去中心化数据库交互的过程。
+
+图片来源：@EthereumDenver
+Inheritable
+Inheritable 是一个符合欧盟通用数据保护条例（GDPR）的遗嘱验证机制，帮助用户顺利继承链上遗产，目前建立在 Coinbase 的新 Layer 2—Base 上。
+
+图片来源：@EthereumDenver
+BlockBeats 注：Reentrancy Proxy 项目暂未出场演示，项目信息目前尚不可知。
+GovBlocks
+通过抽象的成员身份验证加强 DAO 治理。允许 DAO 成员使用 DAO 想要的任何标准来提议和投票倡议。
+M3mber
+ENS 的跨链域名封装器，允许对各种 NFT 门控或许可社区的访问控制。该团队还开发了基于 ENS 子域名的组织管理工具 ORG3。
+
+图片来源：@EthereumDenver
+Denoted
+一个类似 Notion 的产品，当用户输入「/」符号时，可以轻松访问区块链数据。
+
+图片来源：@EthereumDenver
+Metalance(NFT+游戏+元宇宙)
+Bazaark -- Top 5
+游戏 NFT 专属市场，通过向 NFT 输入 ZK 属性来实现持有和管理。适合在 MMO 游戏中广泛使用，并可以进行选择性展示。
+
+图片来源：@EthereumDenver
+Mymule
+一个链上宝可梦风格的虚拟宠物（以骡子形象为主题），需要像抚摸、喂食等那样的电子宠物风格的互动，发行的 Mymule Token 将作为收集收益。
+Synesthesia
+一款音乐 NFT 项目，计划与 Spotify 进行整合。
+
+图片来源：@EthereumDenver
+DeFi
+zkPoEx -- Top 5
+zkPoEx 是一种基于 ZK 的工具，旨在使黑客发现漏洞获得奖励，通过该工具，白帽黑客能够建立攻击证据，证明攻击类型。在不暴露攻击本身的前提下获得 bug 奖励。
+
+Tribe.credit
+Tribe.credit 是一个授权任何人提供或接收信用的点对点借贷协议，旨在增加和实施 DeFi 信用体系。
+
+图片来源：@EthereumDenver
+Gasly
+Gasly 用于扩展支付 Gas 时的 token 选项，可以实现任意链上以任何方式支付 Gas。
+
+图片来源：@EthereumDenver
+从此次入围项目看，加密与 Web3 通过易用化以金融、游戏、元宇宙等形式吸引更多圈外用户已经成为项目方开发项目的主要方向。虽然此次入围项目的创新点不是很明朗，但从他们身上仍然可以看出在可预见的未来，加密世界的走向以及下一波牛市的叙事脉络。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BIS(北欧)创新中心与以色列、瑞典等央行完成跨境零售CBDC实验项目Icebreaker]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/r6642z5a.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/r6642z5a.html"/>
+        <updated>2023-03-06T10:07:14.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月6日消息，国际清算银行 (BIS) 创新中心北欧中心与以色列、挪威和瑞典的中央银行共同完成了Project Icebreaker（破冰项目），该项目研究了在国际支付中使用零售中央银行数字货币 (CBDC) 的潜在好处和挑战。 并测试了在不同实验性零售 CBDC 系统之间进行跨境和跨货币交易的技术可行性。Icebreaker 项目探索了一种将 rCBDC 系统（轴辐式解决方案）与几个附加功能互连的特定方法，这些功能可以轻松扩展 Icebreaker 模型。跨境交易被分解为两个国内支付，由在两个国内系统中活跃的外汇提供商提供便利。因此，零售 CBDC 永远不需要离开自己的系统。Project Icebreaker 开辟了跨境零售 CBDC 支付新路径。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BIS(北欧)创新中心与以色列、瑞典等央行完成跨境零售CBDC实验项目Icebreaker]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/r6642z5a.html</id>
@@ -3656,83 +3742,6 @@ RaaS能直观的带来成本和性能的提升，但从performance推断这些�
         <link href="https://www.panewslab.com/zh/sqarticledetails/hbduzha0.html"/>
         <updated>2023-03-05T00:40:10.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月5日消息，据The Block报道，加密交易所Bybit停止接受通过银行转账进行的美元存款，理由是合作伙伴的“服务中断”。该公司在周六发布的一份公告称，“将不再支持通过WIFT和美国银行电汇进行的美元存款，立即生效”。Bybit强调，仍然支持通过加密钱包Advcash存款或使用信用卡购买加密货币。与此同时，用户可以在UTC时间3月10日0点前（北京时间13月11日8点）通过SWIFT或美国银行电汇提现。Bybit将很快推出Advcash钱包提现服务。该交易所表示，Bybit持有的美元资产是安全的。此前，Bybit推出了一个系统，允许客户验证其加密资产储备。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[视频｜福布斯爆料币安挪用资金！除比特币外都是证劵？孙哥质押巨额ETH]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/w5age8qk.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/w5age8qk.html"/>
-        <updated>2023-03-04T13:10:34.000Z</updated>
-        <summary type="html"><![CDATA[PANews PARTY AWARD 2023 年度评选投票入口：
-https://www.panewslab.com/party/2023/vote
-00:00 内容预告
-00:37 Aptos刻意打压Sui和Move开发者
-01:18 传言Visa和Mastercard暂停新的加密货币合作伙伴关係
-01:55 Coinbase发起“Crypto435 ”倡导运动
-02:29 Yuga Labs在比特币区块链上推出NFT系列
-03:17 孙宇晨近一月逾10亿美元ETH存入Lido
-04:28 未来Goerli测试网最终会被关闭
-05:16 Solana网络卡机
-05:57 以太坊Sepolia测试网已成功模拟“上海升级”
-06:25 除比特币外所有加密货币都是证券
-07:01 福布斯称币安挪用用户资金
-08:34 Coinbase拟于3月5日停机8小时进行系统升级
-08:50 好文分享
-本周十大事件：
-1. Sui CTO ：Aptos刻意打压Sui和Move开发者，对其感到失望
-https://www.panewslab.com/zh/sqarticledetails/b11la4fg.html
-2. 消息人士：Visa和Mastercard暂停新的加密货币合作伙伴关系
-https://www.panewslab.com/zh/sqarticledetails/1zm87khc.html
-Visa否认暂停与加密公司合作，将继续投资加密领域
-https://www.panewslab.com/zh/sqarticledetails/6ukj2ug2.html
-Mastercard否认暂停与加密公司合作，支付解决方案仍聚焦底层区块链技术
-https://www.panewslab.com/zh/sqarticledetails/prkh5ca1.html
-3. Coinbase在美国435个国会选区发起“Crypto435 ”倡导运动
-https://www.panewslab.com/zh/sqarticledetails/3rqg9dy3.html
-4. Yuga Labs将基于Ordinal协议在比特币区块链上推出NFT系列TwelveFold
-https://www.panewslab.com/zh/sqarticledetails/kp2l2j5l.html
-数据：Ordinals协议上线迄今已铸造了超20万枚NFT
-https://www.panewslab.com/zh/sqarticledetails/rm9ilon2.html
-5. 近一月逾10亿美元ETH存入Lido，孙宇晨或为最大个人质押者
-https://www.panewslab.com/zh/sqarticledetails/hrujmk43.html
-数据：孙宇晨通过3个钱包在Lido质押超30万枚ETH，约合5.04亿美元
-https://www.panewslab.com/zh/sqarticledetails/pyt1lvwe.html
-Lido今日新增质押量超15万枚ETH创下纪录，已触发质押率限制安全功能
-https://www.panewslab.com/zh/sqarticledetails/occe0l18.html
-6. 以太坊核心开发者：未来Goerli测试网最终会被关闭
-https://www.panewslab.com/zh/sqarticledetails/px3mdqas.html
-Goerli测试网版BAYC地板价达到28.5ETH
-https://www.panewslab.com/zh/sqarticledetails/c5l0yexy.html
-7. Solana网络遭遇分叉导致交易处理受限，验证器运营商和团队正在调查
-https://www.panewslab.com/zh/sqarticledetails/x9116raw.html
-Solana：2月25日发生的主网宕机原因尚未明确，正在积极调查中
-https://www.panewslab.com/zh/sqarticledetails/0f6gvnd6.html
-Solana发布改进网络升级计划，将组建对抗团队并改进重启过程
-https://www.panewslab.com/zh/sqarticledetails/879f6ytb.html
-8. 以太坊Sepolia测试网已成功模拟“上海升级”，3月21日或将进行Goerli测试网验证
-https://www.panewslab.com/zh/sqarticledetails/bk56zcqa.html
-以太坊Goerli测试网计划于3月14日进行上海升级，此后3-4周进行主网升级
-https://www.panewslab.com/zh/sqarticledetails/jx7eg499.html
-9. 美SEC主席：除比特币外所有加密货币都是证券
-https://www.panewslab.com/zh/sqarticledetails/xi619p0v.html
-10. 福布斯：币安曾于2022年挪用近18亿美元B-peg USDC抵押品
-https://www.panewslab.com/zh/sqarticledetails/xanu35ox.html
-币安回应福布斯：从未挪用用户资金，B-token抵押品始终保持1:1的资金储备
-https://www.panewslab.com/zh/sqarticledetails/ztuqsu3a.html
-赵长鹏：福布斯故意曲解事实，将用户提款称为“转移抵押品”
-https://www.panewslab.com/zh/sqarticledetails/tbyi6zs0.html
-Coinbase宣布将暂停BUSD交易
-https://www.panewslab.com/zh/sqarticledetails/z9zfwcdi.html
-Coinbase CEO：暂停BUSD交易是出于对流动性的担忧
-https://www.panewslab.com/zh/sqarticledetails/5zjgjk2s.html
-精选预告
-1. Coinbase拟于3月5日停机8小时进行系统升级
-https://www.panewslab.com/zh/sqarticledetails/79ssutq9.html
-好文分享：
-1. 超级链来临：深度解读Coinbase和Optimism联手打造的OP Stack
-https://www.panewslab.com/zh/articledetails/5l2vul37.html]]></summary>
         <author>
             <name>PANews News</name>
         </author>
