@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T07:07:40.009Z</updated>
+    <updated>2023-03-06T07:16:01.034Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -13,6 +13,39 @@
         <updated>2023-03-06T07:02:02.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月6日消息，据华盛顿邮报报道，如果Silvergate Capital Corp.倒闭，将可能成为第一家因不良负债而不是不良资产倒闭的银行，因为其坏账都是存款而不是资产。Silvergate的存款并不是正常意义上的存款，其特征更像是“速汇金”MoneyGram International或“西联汇款”Western Union等汇款公司持有的浮动现金，而Silvergate吸引现金的唯一原因是结算进出一组特定资产的交易，但Silvergate的存款移动速度可能比这种现金浮动速度慢的多，只要市场对加密货币兴趣下降，存款人就会开始消失。
 此前3月2日消息，Silvergate披露其可能"资本不足"，正在“重新评估业务和战略”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[外媒：Silvergate的坏账都是存款而不是资产]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/bpgx0jrl.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/bpgx0jrl.html"/>
+        <updated>2023-03-06T07:02:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月6日消息，据华盛顿邮报报道，如果Silvergate Capital Corp.倒闭，将可能成为第一家因不良负债而不是不良资产倒闭的银行，因为其坏账都是存款而不是资产。Silvergate的存款并不是正常意义上的存款，其特征更像是“速汇金”MoneyGram International或“西联汇款”Western Union等汇款公司持有的浮动现金，而Silvergate吸引现金的唯一原因是结算进出一组特定资产的交易，但Silvergate的存款移动速度可能比这种现金浮动速度慢的多，只要市场对加密货币兴趣下降，存款人就会开始消失。
+此前3月2日消息，Silvergate披露其可能"资本不足"，正在“重新评估业务和战略”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paradigm首席技术官：ETHDenver 2023 中值得关注的6个项目]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/b0b9wt1p.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/b0b9wt1p.html"/>
+        <updated>2023-03-06T07:00:53.000Z</updated>
+        <summary type="html"><![CDATA[撰文：Georgios Konstantopoulos，Paradigm 首席技术官
+编译：深潮 TechFlow
+本文是 Paradigm 首席技术官 Georgios Konstantopoulos 在 ETHDenver 期间分享的想法。他提到了六个他希望看到开发的潜力项目。
+第一个是OP-Reth，它是一个实现了 Optimistic Rollup 设计的 OP Stack。该设计旨在尽可能接近以太坊。他希望看到在 Reth 上实现的 OP-Reth。
+
+第二个项目是wagmi_sh x Foundry full-stack hacks。Wagmi 是一个 Web3 前端库，现在正在迅速崛起成为最受欢迎的前端库之一。Wagmi CLI 允许在具有 Foundry 集成的全栈黑客马拉松项目上进行快速迭代。
+
+第三个项目是使用 Ruint 替换 Rust 代码中的基本类型。他们希望将所有 Rust 代码中的原始类型都替换为 Recmo 的 Ruint。但是要解决 ethabi 内部类型与 Ruint 之间的替换问题。
+第四个项目是 Ganache-UI but for Anvil。Ganache-UI 是一个非常受欢迎的以太坊本地节点 GUI。Georgios 想看到一个类似的界面，但是用于 Anvil。
+
+
+第五个项目是 ABI -> UI generation。他希望看到像 AMM/Lending/NFT/...这样的 React 组件，可以抽象出常见的链上操作。因为 Georgios 认为现有的 Etherscan-esque 按钮和输入框无法满足需求，需要更多有见解的组件。
+最后一个是 MEV Share，这是一种可编程的私有订单流，通过赋予用户权力，重新分配 MEV，并迈向去中心化的区块构建。这个项目最近被提出，虽然它是可行的，但不适合新手。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
