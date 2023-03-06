@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T09:08:08.819Z</updated>
+    <updated>2023-03-06T09:16:38.432Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -12,7 +12,164 @@
         <link href="https://www.panewslab.com/zh/sqarticledetails/dx7jqb5t.html"/>
         <updated>2023-03-06T09:05:17.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月6日消息，据Natlawreview报道，美国犹他州立法机关于3月1日通过了HB 357法案，即《犹他州去中心化自治组织法案（犹他州DAO法案）》，由此，犹他州已成为第一个通过立法承认去中心化自治组织（DAO）的州。犹他州DAO法案授予DAO：1.法律认可和有限责任保护，解决了以前“将DAO包装进LLC实体”方法的局限性；2.建立了明确的税收待遇；3.对DAO参与者没有隐含的信托责任；4.使用“细则”来保护DAO参与者的匿名性；5.纳入技术把关，确保DAO确实是一个DAO。
+犹他州DAO法案在众议院和参议院委员会中都以微弱的批准通过。然而也有一些担忧和妥协。三个主要问题是：1.DAO基础的完全 "不负责任的 "匿名性；2.（原）税收语言与潜在的州和联邦税收显示不一致；3.缺乏启动时间，以确保犹他州公司部为处理新的申请做好准备。
+妥协的方法如下：1.问责制：要求每个DAO有一个公开的法律代表，同时仍然允许DAO的参与者保持匿名。法律代表个人不承担连带责任；2.税收语言：邀请犹他州税务专员办公室参与，提出可接受的税收语言，并与DAO的税收复杂性相一致；3.启动时间：同意将法案的生效日期定为2024年。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国犹他州立法机关已通过DAO法案，将于2024年生效]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/dx7jqb5t.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/dx7jqb5t.html"/>
+        <updated>2023-03-06T09:05:17.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月6日消息，据Natlawreview报道，美国犹他州立法机关于3月1日通过了HB 357法案，即《犹他州去中心化自治组织法案（犹他州DAO法案）》，由此，犹他州已成为第一个通过立法承认去中心化自治组织（DAO）的州。犹他州DAO法案授予DAO：1.法律认可和有限责任保护，解决了以前“将DAO包装进LLC实体”方法的局限性；2.建立了明确的税收待遇；3.对DAO参与者没有隐含的信托责任；4.使用“细则”来保护DAO参与者的匿名性；5.纳入技术把关，确保DAO确实是一个DAO。
 犹他州DAO法案在众议院和参议院委员会中都以微弱的批准通过。然而也有一些担忧和妥协。三个主要问题是：1.DAO基础的完全 "不负责任的 "匿名性；2.（原）税收语言与潜在的州和联邦税收现实不一致；3.缺乏启动时间，以确保犹他州公司部为处理新的申请做好准备。妥协的方法如下：1.问责制：要求每个DAO有一个公开的法律代表，同时仍然允许DAO的参与者保持匿名。法律代表个人不承担连带责任；2.税收语言：邀请犹他州税务专员办公室参与，提出可接受的税收语言，并与DAO的税收复杂性相一致；3.启动时间：同意将法案的生效日期定为2024年。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字解析MakerDAO全生态：万物生长，星火已燃]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/4xu7v9n2.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/4xu7v9n2.html"/>
+        <updated>2023-03-06T09:00:08.000Z</updated>
+        <summary type="html"><![CDATA[撰文：LD Capital
+
+摘要
+ 
+星星之火 SparkProtocol
+MakerDAO 创始人于去年 6 月提出「终局计划」（Endgame Plan） 计划时称，MakerDAO 需要在保持最大灵活性的情况下继续扩张。于是 2023 年 2 月 9 日 MakerDAO 的部分核心单元团队成员❶创建了 Phoenix Labs，该团队致力于开发新的去中心化金融产品扩大 Maker协议生态。
+Spark Protocol 是 Phoenix Labs 开发的首个协议，以稳定币 DAI 和其它主流加密资产作抵押进行超额借贷的通用借贷协议。作为照亮 Maker 新 DeFi 矩阵的首个协议，Spark 这个名字恰好也符合中文“星星之火可以燎原”的寓意。
+该协议基于Aave V3 代码构建，后者的借贷业务经过市场长期考验，用户将高流动性资产如 ETH、WBTC、stETH 等作为抵押品，依据利率模型借出相应需求的资产，理论上将与 Maker 系统内廉价的 D3M 借贷模块和针对稳定币的接近 100% 资本效率的 PSM 铸造池结合形成强大的协同作用，为 $DAI 全市场最有竞争力且相对稳定的利率。
+当然，Spark 团队已经表示，未来两年 DAI 借款规模达到 1 亿美元后，会将 DAI 市场赚取利润的 10% 分配给 Aave，已经在 Aave论坛发起提案。
+基于 Aave 成熟的代码修改而来，代码经过了历史的检验，安全性高。此外与 aToken 一样，存款方也可以得到头寸的代币化 (spTokens) 版本。spTokens 可以像以太坊上的任何其他加密资产一样移动和交易，利于进一步提高资金效率。
+Spark Lend 可以直接使用 Maker 的信用额度，称为 Dai 直接存款模块 (D3M❷)，理论上用户将能够以略高于❸ Dai 储蓄利率（所谓「DSR」目前为 1%）的利率借入任意数量的 Dai（不过初期有 2 亿限制）
+Spark Lend 也引入了 Aave V3 的 e-Mode 模块，ETH 类资产可以以高达 98% 的 LTV 进行互借，比如质押 wstETH 可以借出最多 98% 的 ETH，增大资金使用效率。
+Spark 或采用 ChroncileLabs（之前的 Maker Oracles）和 Chainlink 双数据源来提供链上价格。这两个数据源将通过 TWAPs（加权平均价格）、签名价格源和断路器三道关卡检验处理，以确保价格不会被操纵。
+协议代币发行完全通过流动性挖矿进行分配，没有任何预分配❹，公平的分配机制，能够吸引更多的人加入社区，提高社区的共识和价值。项目方也认为 Spark Protocol 需要在公平的环境中竞争，才能赢得 SubDAO 的支持，才能将其作为产品接受。
+Spark 并不是一个通常意义上的「独立三方」协议，协议虽然由 Phoenix Labs 开发，但由 Maker Governance 全资拥有（包括所有智能合约、商标、IP 等），意味着万一协议遭遇了任何无法独立解决的困境，Maker 大概率会出面兜底。
+Maker 的使命是创造一种「公平的世界货币」，但目前为止与 $USDT 的 700 亿 + 的市值相比， $DAI 的 $50 亿 + 市值相形见绌。那么，它如何扩展并最终超越中心化稳定币呢？
+Spark Protocol 的推出表明了 Maker 产品未来发展的三大方向，目的都是增加 DAI 的铸造量并降低使用成本：
+Spark Lend 整合 Maker 内部已经存在的 D3M❺，PSM ❻模块为稳定币 DAI 提供流动性。
+其中 D3M 最显著的优势是可以让二级市场直接铸造 $DAI，省去了需要先由一级铸造人在 Maker 里铸造，再把 DAI 存入二级市场应用的过程，将两层超额抵押合并成一层，提升 DAI 的实际资本效率。
+初步计划是为 Spark Lend 提供 3 亿美元的 D3M 流动性，其中 2 亿为第一期硬顶，1 亿为缓冲资金。这一规模限制理论上会根据实际市场借贷利率表现而进行调节。
+此外，Spark Lend 前端页面会支持 MakerDAO 的 PSM 和 DSR，USDC 持有者可以直接通过 Spark Protocol 官网将 PSM 内 USDC 转换成 DAI，并通过 DSR 获得存款利息，从需求侧促进 DAI 的使用。
+例如，正常路径下在借贷市场 Aave 流出 1 枚 $DAI，背后实际存在两层抵押物：约 1.5 美元的 Aave 抵押品 + Maker 金库里 1.5 美元抵押品❼，在不考虑循环借贷的情况下，这一常见场景实际占用了 3 美元加密资产抵押物，但整合了 D3M 和 PSM 以后，在 Spark 上借出 1 枚 DAI 只需要 1.5 美元抵押品（或 1 美元白名单稳定币如 $USDC），资本效率大大提高了。
+Spark Protocol 会引导 EtherDAI 的使用。EtherDAI 是围绕 ETH 创建的流动性质押衍生品，比如 Lido 的 stETH，用户可以将 stETH 封装为 ETHD，用作抵押品借出 DAI。
+Maker 治理将拥有对 ETHD 抵押品的后门访问权限，可能会通过在 Uniswap 上设置 ETHD/DAI 短期的流动性挖矿来激励流动性。另一方面，可能将 EtherDAI Vault 的稳定费设置为零，来引导对 EtherDAI Vault的需求。
+其次，以太上海升级之后，相当于以太坊官方会提供 4% 以上的基础收益，必然会迎来 ETH 资产的大规模迁移，Spark 支持流动性质押（LSD）封装 token 会防止 TVL 缩水，通过收益叠加甚至可能吸引更多资金进入协议，进而降低对 USDC 的依赖。
+更重要的是，TVL 代表协议内资金的锁仓价值，当协议内 TVL 上升时，随之而来的是流动性和可用性的增加，协议本身也可获得更多可观的收益。对于 Spark 来说，其可获得的显著收入来源就是存借款人之间的借贷利差。
+Maker + Spark = 市场最低且波动可预期的利率
+Spark 协议的问世还将使 Maker 能够更好地根据市场需求主动控制 DAI 供应，从而直接与其二级市场互动，目标是为其用户提供更好的利率，并增加 DAI供应。
+具体来说，DeFi 行业火热时，借贷利率往往飙升，这会让用户支付高于预期的贷款成本，从而对 $DAI 的供需市场产生负面影响。D3M 将通过稳定 $DAI 利率来影响主要的 $DAI 借贷市场 (Spark)。当市场对 $DAI 的需求很高时，Maker 可以扩大 Spark 铸造和供应 $DAI 的硬顶，以降低其利率。相反，如果需求低迷，$DAI 流动性将从 Spark 中移除，以提高其利率。
+综合起来，使 $DAI 在稳定币的「百团大战」中保持最便宜，且波动可预期的借贷利率是增加其使用量的关键竞争优势。通过 D3M 资金池可以实现 $DAI 借款利率的相对稳定性以及全市场最有竞争力的利率。
+MakerDAO 目前成本超过 4000 万美元 / 年，如果不是激进的投入了 RWA 理财，项目将出现 3～4 千万的净亏损，因此有了创始人提出的开源节流的「终局计划」。
+MakerDAO 目前的收入来源主要来自四个方面：
+加密资产 Vault 收取的稳定费曾是协议最重要的收益来源，当前 RWA 的理财收入反而成了最大收入来源。
+协议支出主要是员工薪资、市场增长 / 营销等费用，其中占比最大的还是维护协议核心的工程师薪资。
+在 2022 年 6 月，MakerDAO 联合创始人 Rune Christensen 公布的数据显示：MakerDAO 稳定费年度收入约为 5,140 万美元，但是要维护这个协议所需消耗为 6,090 万美元，其中包括 4,360 万美元的现金流以及以 $DAI 计价的 1,730 美元的 $MKR，成本支出已经超过协议收入，致使协议亏损约 940 万美元。
+致使协议亏损的很大原因在于：1）熊市市场环境下，协议收入骤减；2）团队支出慷慨；3）治理冗余。现有的治理流程复杂，需要庞大人员的参与而且治理周期过长，同时也制约了产品新功能的开发速度。
+所以，Rune Christensen 提出关于终局计划（The Endgame Plan）的构想，我们会在下文详细展开该计划。其计划中包括解决当下协议入不敷出的方案，即加大 RWA（现实资产）的增长。
+从上图可以看到：1）ETH Vault 在 2022 年 11 月之前一直是 MakerDAO 的重要获利来源；2）2022 年 11 月之后，RWA（现实资产）Vault 成为 MakerDAO 协议收入最大来源。
+RWA Vault 就是对链下金融市场的投资，主要是债券和抵押贷款。因为 RWA 抵押品能够给 MakerDAO 带来更高的稳定费收益，也的确如预期为 MakerDAO 协议带来了更高的收益。根据当前 6.96 亿美元的投资预期可以产生 2600 万美元以上的利息收益，占 Maker 收入的 40% 以上。
+但另一方面，RWA 受到监管的潜在扣押风险相对较大，因此「终局计划」提出了包括抵御 RWA 监管风险的一系列策略：在温和监管情势下，Maker 会通过优先保持 与美元 1:1 的锚定策略而不限制 RWA 敞口从而获得尽可能多的收入。创始人假定未来监管政策会越收越紧，那么 Maker 对 RWA 的敞口将不超过 25%，并在必要时候有可能与美元脱锚。终极姿态则是保持 DAI 的最大弹性和生存能力，不再允许容易被扣押的 RWA 作为抵押品，也可能会没有主要货币作为价格参考。
+所以，依赖 RWA 的收入也并非长久之计，尽可能地拓展 Maker 的收入来源，优化系统组织结构，以“开源节流”为目标才能最大程度地保证 Maker协议的可持续性。
+为了能更好的理解 Maker 生态即将到来的的重大变化及 $MKR 代币的供需关系改善，需要先了解「终局计划」（Endgame Plan），该计划虽然有很多为了应对监管、政治的讨论，但本质上将会使得 Maker 成为 Layer 1 一样的生态，让「万物生长」。
+终局计划最早被 Rune 于 2022 年 6 月提出，在治理论坛上目前已经至少进行了 3 个版本的全员讨论。这是一项对 MakerDAO 的结构性重组计划，该计划旨在使 MakerDAO 成为一个去中心化的、自主运营的 DAO（去中心化自治组织），以便更好地满足其稳定币 Dai 用户的需求。具体包括四个主要内容：
+其中，为了简化治理方式的复杂性，Maker 会创建一系列称为 MetaDAO❽ 的自我维持的 DAO。Rune 将 Maker Core 比喻为 L1 以太坊，它虽然安全，但运行缓慢且成本高。MetaDAO 则是一个 L2 解决方案，可以快速灵活地运行，但同时可以从 L1 获得安全性。通过 MetaDAO，MakerDAO 可以更加专注于其主要目标，即稳定币 Dai 的发行和稳定。同时，MetaDAO 可以为 MakerDAO 生态系统中的其他项目提供治理支持。
+所谓 MetaDAO 即将 Maker 协议模块化，每个 MetaDAO 都是小型的社区，可以拥有自己的代币和资金库。MataDAO 的核心价值主张是隔离、降低风险，以及并行化 Maker 高度复杂的治理流程。
+MetaDAO 的类型将分为三种：
+Maker Core 保留了 Maker 协议不可或缺且不可移除的所有组件，以充分发挥作用并实现其生成和维持 Dai 的目标。围绕 Core 的每种类型的 MetaDAO 都有自己的职能，其职能决定了它与 Maker Core 的交互：
+MetaDAO 内部同样拥有类似 Maker Core 的治理流程，通过部署新的 ERC-20 代币进行治理，这样也能克服当前 Maker 治理过程的单线程问题，允许 MetaDAO 并行执行，加快治理进程。
+但是 MetaDAO 是在 Maker Core 治理基础设施之上运行其治理流程，即由 MetaDAO 投票者传递治理信号，然后捆绑在 Maker 执行投票（Executive Vote）中执行。这意味着，MKR 持有者可充当「上诉法院」的角色，MetaDAO 的协议控制权实际由 MKR 投票者持有。
+终局计划分为四个阶段，Pregame 阶段团队预期在 2023 年内上线，包括构建 ETHD、上线 MetaDAO 以及启动流动性挖矿等等。
+Spark Protocol 将是首个 MetaDAO，预期在 2023 年 4 月上线，目前正在进行主网部署以及一系列的品牌计划。今年下半年，Spark 计划将跟 Element Finance 和 Sense Finance 进行整合，提供固定利率借款和更多元的收益策略。
+Endgame 计划初期，Maker 将上线 6 个 MetaDAO，且每个 MetaDAO 都将发行 Sub Token，虽然 Spark Protocol 没有在文档中明确介绍代币相关的部分，但依据该计划 和 Spark 创始人描述 Spark 应该会有自己的代币。
+同时，每个 Sub Token 都会与 $MKR 组成核心流动性池，Maker 团队计划通过每年发放 45,000 MKR 对该池进行 LP 激励，也就意味着 Endgame 期间，每个 MetaDAO 会积累 7,500 枚 MKR。当然， ETHD、DAI、 MKR 相关流动性池也会获得少量代币奖励。
+Spark 作为终局计划的首个应用，预期或给 Maker 带来年 1000 万美元 + 的收入增长，同时让 $MKR 代币第一次拥有了流动性挖矿场景，我们将在下文展开分析。
+Spark 协议将创建的借贷平台，将直接与 Aave、Compound 等老牌借贷协议竞争。尽管 Aave、Compound 曾整合 D3M❾ ，但未来 Maker 有限的 D3M 的额度资源❿将不可避免的优先倾斜给 Spark。 因为以太坊主流 DeFi 协议似乎已经纷纷开始进行「矩阵化」竞赛。
+各个 DeFi 应用正在基于用户资产或流动性的优势，开发更多原生嵌套应用，进而「矩阵化」已经成为趋势。例如:
+这些应用之中，MakerDAO 的 TVL 长期占据榜首，截止 2023 年 2 月 25 日，其抵押金库拥有价值 82 亿美元的抵押物，理论上可以全部释放成新的可供借贷的资金，如果实现将有望一举超过 Aave 变身成最大的借贷协议，所以其迈向 DeFi 矩阵的策略将为其生态扩张打开新的想象空间。
+目前 GHO 和 crvUSD 尚未正式上线，但我们认为，相对 Aave/Curve 把 GHO/crvUSD 稳定币做大的难度，Maker 把借贷业务做大的难度要小得多。因为：
+1.对于一个新生的稳定币卖出压力是确定的（一级铸造人除了质押就只能选择卖出），而买盘是不确定的，非常依赖 Aave/Curve 能否在自己生态和合作生态中创造足够的使用场景。以第二名的去中心化稳定币 Frax 问世两年来的表现看，其市值几乎没有超过 DAI 的四分之一，尽管 Frax 在 Curve War 中控制着相当大的投票权。可见即便通过补贴硬创造使用场景，其规模扩张的天花板依然明显。
+2. 稳定币的治理难度高，需要具有高度专业知识的治理代表参与维护。MakerDAO 是成立最早（ 2015 年成立）、治理最成熟的 DAO 之一，聚集了一批专业的 DeFi 和货币银行学研究者，带领 DAI 经历了数次加杠杆、去杠杆的螺旋，有效的积累了稳定币治理经验。需要承认， Aave/Curve 的治理论坛也非常活跃，但与借贷不同，稳定币的治理失败很容易导致「死亡螺旋」从而让协议一蹶不振，这一点来看 Aave/Curve 还有很长的路要走。
+3. 流动性的建立门槛高、窗口期有限。一个新的稳定币为了让用户愿意使用，除了在某些地方的质押收益高，更重要的还是需要在行使本职「交易媒介」时，深度好、滑点低。这意味着新的稳定币发行方早期可能需要非常大力度地补贴激励用户充值他们的稳定币对其它 token 的流动性，且在补贴下降到失去吸引力之前，需要培养用户足够的使用粘性，否则当补贴收益跌破一定阈值时，曾经的 LP 便开始撤离 — — 交易体验下降 — — depeg 频发，此时便是这个稳定币进入死亡螺旋的时刻。
+Spark 的上线将不仅是一次产品更新，代表着 Maker 生态重大变革的开端， $MKR 代币的边际改善最为明显，估值体系也需要从单一项目代币变成类似公链的生态代币。因为原本只有治理权的 $MKR 代币首次有了流动性挖矿的场景，或为 $MKR 质押提供 12%～37%APY，同时生态应用将有效的扩张 Maker 的资产负债表，基准情形下为 Maker 带来额外 1~2 千万美元的年收入，进而使得 $MKR 的销毁量出现 1~3 倍的提升。
+MakerDAO 作为 DeFi 协议的龙头项目，且 DeFi 协议的虹吸效应明显，Spark 能做到的 TVL 有望对标 Aave。Aave 资产类型中占比最重的就是 ETH 资产和稳定币，以 Aave V2 市场为例，市场总规模达到 54.4 亿美元，年度收益为 1,630 万美元，其中 $USDC、 $DAI、 $ETH、 $WBTC、 $stETH 五项资产市场规模约为 10 亿美元，占其市场总规模的 1/5。
+MakerDAO 协议内现在锁定的抵押品价值为 82 亿美元，单币资产（非 LP 代币、非 RWA 资产）价值为 66 亿美元。 $DAI 总供应为 52 亿枚，其中由 $USDC 质押产生的 $DAI 达到 40 亿，以这个数值来看，即使仅 PSM 放出 1/4 的 $USDC 就能达到 Aave 如今的TVL。
+以 Aave 协议年收入为参考，我们假设在流动性挖矿刺激下，MakerDAO 现有流动性（非 LP 代币、非 RWA 资产规模为 66 亿美元）能迁移过去 20%/35%/60%，Spark 协议收入表现将如下所示：
+
+Spark 官方团队同样假定了中性、悲观、乐观三种情形下 Spark 协议的收入表现，读者可以对比参考，在 Bull Case 下预期高于我们，意味着他们乐观估计或有 50 亿 +TVL，而中性、悲观的预期我们觉得相对合理：
+
+数据来源：forum.makerdao.com，Trend Research
+MakerDAO 将由目前的双代币（MKR/DAI）系统转换为多代币系统，MKR 开放流动性挖矿场景。
+预计新 MetaDAO 在推出时会部署 26 亿枚 MetaDAO（MDAO）代币，其中 20 亿会通过流动性挖矿释放，前两年释放 10 亿，之后每两年减半一次。4 亿分配给 MetaDAO 贡献者，2 亿分配给 MetaDAO Treasury。
+流动性挖矿分配方案：20% 用于激励 DAI 的需求，40% 分配给 ETHD Vault 持有者，40% 分配给 $MKR 质押者。
+质押挖矿对 $MKR 来说，是其经济模型中具有重要意义的变革，因为 $MKR 的供需关系将被重新调整。在此之前，$MKR 一直作为协议治理代币，捕获协议价值有限，导致市场需求动力不足。而且在发生债务亏空时还需增发代币进行兜底，存在通胀的可能性⓫。
+虽然协议盈余可以回购销毁 MKR 使其通缩，但是似乎并不可观。MKR 上线 5 年，总量 100 万枚代币仅销毁了 2.2 万枚，平均每年通缩率为 0.4%。
+因为 Spark 借贷业务的扩张会给 MakerDAO 带来额外的 TVL 进而产生额外的费用收入， Spark 对此也给出了 MakerDAO模拟收入作参考：
+
+如果按照平均 1.5% 的稳定费（年化铸造利息）和 $MKR 现价 $764⓬来计算三种情况 ，对应的 Maker 新增 TVL $MKR 年通缩率将有如下预期，基准情况下可能给 Maker 带来 8 亿美元新增 TVL、1,200 万年收入，以及 1.6% 的年通缩率，是目前的四倍，而悲观情况下可能仅带来不到 2 亿 TVL 增长和 275 万年收，但即便如此也可以对应年 0.37% 的 $MKR销毁：
+
+以上仅为线性销毁假设，实际上 MakerDAO 在协议盈余达到 2.5 亿美元时才会触发回购机制，现盈余仅有 7,400 万美元，还未达到回购销毁标准⓭。
+在 Maker 收入结构改善下，MKR 的通缩速率应该会加快，同时由于开放的质押挖矿场景会刺激市场对 MKR 的需求激增，很大程度上会促使流通中的 $MKR变得更有价值。
+围绕稳定币搭建 DeFi 生态矩阵，MakerDAO 从单一的货币协议向 DeFi应用链方向转变。
+稳定币的目标是尽可能地拓展其稳定币的接受范围和使用场景，所以 MakerDAO 一直致力于寻求跟外部顶级的 DeFi 协议合作，比如 Aave、Compound 等。在 MetaDAO 模型建立后，Maker 将围绕稳定币为核心搭建自己的 DeFi 生态矩阵，可以将稳定币价值回收到 Maker 生态内部，从而提升对 $MKR的整体估值。
+同样以现价 $764 的 $MKR 质押挖 Spark 代币为例进行模拟预测，同样假设 Spark token 在中性、悲观、乐观的情况下能达到 Aave token 35%/20%/60% 的估值，计算 20% 的 $MKR 参与质押挖矿 APR 范围在 12%～37% 之间：
+
+需要注意的是这是一个非常初步且静态的假设，实际 APR 需要等到更多 Spark token 经济模型细节放出，并且也取决于 $MKR价格的变化。
+通过把金融功能「外包」给新的团队，财库里的 MKR 未来的支出也将放缓，代币供需关系将进一步进入市场自然平衡状态。例如 2022 年 2 月至今财库共支出了近 1.3 万枚 MKR，或给市场带来了上千万美元的抛压。
+作为「终局计划」的首个应用， Spark Lend 问世的本质是将资本效率更高的 D3M 模块由原来的授权三方使用变成自用，排除了外部协议可能造成的安全、治理等风险，叠加 PSM 模块可以让 $DAI 在稳定币大战中保持成本上的最佳竞争优势，与 Aave 或 Compound 等可变利率竞争对手相比， $DAI 在收取的利率上也更具确定性，用户不用时常回来检查自己的借贷成本是否升的过高。
+自 Spark 之后将有一系列 subDAO 项目代币可供 MKR 质押挖矿，在隔离了风险的同时，大大增加 $MKR 的收益场景，让其第一次有了真正意义上的质押挖矿场景，叠加 Maker 生态可能进一步激励 $MKR/$DAI 对 subDAO 代币的交易流动性 LP，或许让市场对该代币的估值框架发生改变 — — 从单一项目代币，变成类似 Layer 1生态的代币。
+$DAI 作为最成功的去中心化稳定币已经被广泛使用在各种 DeFi 应用程序中，无论是借贷、交易、流动性矿或其他应用，都可以看到 $DAI 的身影。但缺点是 $DAI 的使用量上升对 Maker 生态的可持续性似乎没有产生足够对应的贡献，项目进入了越大反而亏损越多的状态，除了维持这一复杂庞大系统的技术运维，市场运维，还要对高质量治理人才、提案进行激励才有可能使得 Maker 具有足够的可持续性，鉴于主要的激励手段除了手续费收入只有 $MKR 代币，从这个角度来看，本次 Endgame 系列产品方面升级的本质可以理解成：
+结果将有望实现 Maker 生态内部资产锁定量，DAI 铸造量和 $MKR价格齐升。
+
+
+Spark 项目方市场营销能力尚未可知：一是创始人 Sam MacPherson 身兼数职， 目前还是游戏公司 Bellwood Studios 的 CTO 及联合创始人，其是否有充足精力投身 Spark 对该项目的未来发展是非常重要的。二是 Spark 运营负责人是 MakerDAO 现任首席增长官 @nad8802，按照以往的运营表现，其在市场运营方面相对佛系。
+DAI 有可能放弃和 USD 锚定，导致短期内大量用户流失，尽管这或许利好 DAI 成为终极去中心化且拥有稳定购买力（而不是美元汇率）的货币（社区并没有达成一致，是创始人 Rune 单方面的想法，按计划会在 2025 年前后成为讨论焦点），但 V 神曾对此表示担忧。
+
+
+MakerDAO 是基于以太坊的去中心化稳定币借贷协议，核心是以超额抵押资产做背书，借出与美元 1:1 锚定的稳定币 DAI。通过治理调节铸 DAI 的稳定费，让市场以套利方式实现 DAI 价格的稳定。在抵押资产价值不足时，由系统强制出售抵押品给清算人保证债务的偿还。
+Top 25 持币地址：代币分布相对分散
+MakerDAO Vault抵押品价值&类型
+主流借贷协议内 ETH/stETH 分布变化：MakerDAO 份额最大
+MakerDAO 协议年度收入一览
+RWA 债务分布：最大债务由 Monetalis Clydesdale 产生
+
+来源：Dune Analytics，Trend Research
+DAI 分布情况：占比最大的是 EOA 账户，其次是 DEX
+$MKR 治理权重分布
+MakerDAO 的历史重要事件和里程碑：
+参考资料
+《endgame-docs-staging》https://makerdao-1.gitbook.io/endgame-docs-staging/tokenomics/subdao-tokenomics
+《MIP116：D3M to SparkLend》
+https://forum.makerdao.com/t/mip116-d3m-to-spark-lend/19732
+《Announcing Phoenix Labs and Spark Protocol》
+https://forum.makerdao.com/t/announcing-phoenix-labs-and-spark-protocol/19731
+《MakerDAO Valuation》
+https://messari.io/report/makerdao-valuation
+《Endgame Communications Strategy &Plan》
+https://forum.makerdao.com/t/endgame-communications-strategy-plan-community-feedback/19818/2
+《Endgame Plan v3 complete overview》
+https://forum.makerdao.com/t/endgame-plan-v3-complete-overview/17427
+《MakerDAO Governance Risk Framework》
+https://blog.makerdao.com/makerdao-governance-risk-framework/
+脚注
+❶该团队原名 Crimson Creator Cluster 拥有 4 位核心成员，创始人 Sam MacPherson（推特 @Hexonaut）2017 年起加入 MakerDao 是该项目核心工程师，同时他还是游戏公司 Bellwood Studios 的 CTO及联合创始人。
+❷ D3M=Dai Direct Deposit Module 最早于 2021 年 11 月推出。
+❸根据 PhoenixLabs 2 月的描述，「略高于」是 10%，即如果 DSR 是 1%，用户的借款利率则是 1.1%
+❹根据 PhoenixLabs 创始人在推特上的描述是没有预分配的，但根据 Endgame 正在进行的讨论稿 subDAO 项目需要预留 4 亿（总量 26 亿）的代币用于激励 subDAO 的员工，所以这里可能存在不确定性。
+❺ D3M 模块推出时，作用是允许 Maker 在合作的借贷协议如 Aave 的 DAI 市场上执行最大可变借贷利率。它通过计算需要多少 DAI 供应才能将利率降至所需水平，然后针对 Aave 返回的 aDAI 进行铸造。
+D3M 具有特定的目标借贷利率 — — 比如当时设定为 4%。每当借贷市场中 DAI 的可变借贷利率超过 4% 时，任何人都可以调用金库的 exec() 功能来重新调整池中 DAI 的数量。在这种情况下，它将计算达到目标利率所需铸造的 DAI 数量，并将其放入 Aave 的借贷池中。这将继续增加 DAI，直到达到债务上限或达到 4%的目标。
+相反，当可变借款低于 4% 并且用户之前添加了流动性时，该 exec() 函数将计算要移除多少流动性才能使目标利率回到 4%。它将继续消除流动性，直到金库债务全部偿还或资金池的流动性耗尽为止。
+❻ PSM 允许用户以固定汇率（包括 0.1% 的费用）将白名单稳定币（USDC、USDP 、GUSD）以 1:1 的形式换成 D​​AI。它的主要目的是帮助保持 DAI与美元挂钩。
+❼假设 Maker 和 Aave 都是 150%抵押率。
+❽ 社区里后期改称其为 subDAO，直接反应「子 DAO」的含义❾Aave 的 D3M 合作模块于 2021 年 4 月推出，最初额度上限 1000 万 DAI，后逐渐上调制限 3 亿 DAI，2022 年 6 月因加密市场的动荡而被暂时关闭，Compound V2 D3M 模块于 2022 年 12 月开始运行，但截止发文额度上限仅 2000 万美元。
+❿因为 D3M 实质上绕过了 Maker 的 Stability Fee 系统采用了相对更低廉的 DSR 利率作为成本，过快增加 Dai 的发行量可能会导致供应过剩，进而导致 Dai 的价格 depeg，所以理论上早期 D3M 的规模上限不宜提高的太快，需要进一步观察其对 DAI 价格稳定性的影响。
+⓫2020 年 312 清算事件，导致 Maker 协议亏空 530 万美元，系统通过增发 20,980 枚 MKR进行弥补。
+⓬数据来源于 Coingecko，2023/02/27
+⓭因为市场不确定性升高，Maker 在 2022 年二季度关闭了 MKR 回购销毁，将所有协议收入发送到 DAI 缓冲区，通常来说 Maker 会使用 DAI 直接从 Uni V2 的 MKR-DAI 流动性池中购买 MKR 后销毁。不过，社区也正在讨论回购后不要销毁，用来做新的持币激励计划，或不全额回购改为先进行投资理财。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
