@@ -307,7 +307,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 提出了一种新的 Sequencer 交易排序策略，在当前的 FCFS （先进先出）策略中加入「Time Boost」机制，用户可以通过支付额外的手续费获得优先排序。区块链开发者 hhh_quickCreation 用通俗的语言解释了该机制，并分析了新机制为 Arbitrum 和 Sequencer 带来的收益。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">https://twitter.com/hhh69251498/status/1632037641184235520</a></p>\n<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>hhh_quickCreation：</strong>Arbitrum 目前使用的交易排序的方式是 FCFS（先进先出），但是这种方式有一个缺点，就是会造成延迟竞争（latency racing）。「延迟竞争」指的是，在当前 Arbitrum 的 Sequencer 的排序策略下，用户希望自己的交易比其他人的交易更快被接收，并且打包到 L1 的方法，就是向一个与 Sequencer 连接并且网络延迟最低的 fullnode 发送交易。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a><p><strong>hhh_quickCreation：</strong>为了避免物理资源浪费，Arbitrum 提出了一种 Time Boost 机制，你可以通过额外的手续费，让你的交易可以更快被处理（类似 bid for position）。这样可以带来一个很明显的好处，因为交易排序竞争而浪费的资源，现在转换成额外的交易手续费了，可以被 Arbitrum 网络去捕捉了。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a><p><strong>hhh_quickCreation：</strong>用户现在可以通过额外的收付费，将交易的 timestamp 提前，最多可以提前 0.5 秒。这是一条无限趋近于 0.5 秒加速的曲线，所以优先手续费实际上是上不封顶的，所以比如当 Arbitrum 网络上出现巨大的套利机会时，可以预见这部分套利的利润也有相当可观的部分会被 Sequencer 获取。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a>",
           "link": "https://twitter.com/hhh69251498/status/1632037641184235520",
           "publishedOn": "2023-03-05T03:48:04.000Z",
-          "wordCount": 529,
+          "wordCount": 547,
           "title": "【长推】白话解读 Arbitrum 新交易排序策略：对 Sequencer 和 Arbitrum 有何影响？",
           "imageUrl": null
         },
@@ -317,7 +317,7 @@
           "description": "<h3>Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖将于 3 月 6 日开始</h3>\n<p>Yuga Labs 在推特发文称，TwelveFold 拍卖将于北京时间 3 月 6 日上午 7 时开始，3 月 7 日上午 7 时结束，持续 24 小时。TwelveFold 是 Yuga Labs 推出的基于 Ordinal 协议的比特币 NFT 系列，包含 300 件限量版生成艺术作品，本次拍卖总共将拍卖 288 个 NFT。</p>\n<p><a href=\"https://twitter.com/yugalabs/status/1632162026641342469\">内容来源</a></p><hr>",
           "link": "https://twitter.com/yugalabs/status/1632162026641342469",
           "publishedOn": "2023-03-05T02:52:16.000Z",
-          "wordCount": 529,
+          "wordCount": 544,
           "title": "Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖将于 3 月 6 日开始",
           "imageUrl": null
         },
@@ -577,7 +577,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 532,
+          "wordCount": 552,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -707,7 +707,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 666,
+          "wordCount": 658,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -747,7 +747,7 @@
           "description": "<h3>Block 成立专注于改善闪电网络流动性和路由的公司 c=</h3>\n<p>Twitter 创始人 Jack Dorsey 旗下支付公司 Block 成立专注于改善闪电网络流动性和路由的公司 c=，C= 计划通过将比特币投入到闪电网络并建立基础设施提高网络可靠性来解决因地流动性和路有效率低下导致的交易失败问题。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/",
           "publishedOn": "2023-03-03T01:31:07.000Z",
-          "wordCount": 20532,
+          "wordCount": 20541,
           "title": "Block 成立专注于改善闪电网络流动性和路由的公司 c=",
           "imageUrl": "https://www.coindesk.com/resizer/XoRofoQ5Hnf9zhmwkMzwRUkfp9M=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/FFIFJF47FRCK5GVADQ2D5YSCVA.jpg"
         },
@@ -757,7 +757,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20415,
+          "wordCount": 20424,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -767,7 +767,7 @@
           "description": "<h3>以太坊开发者计划于 3 月 14 日在 Goerli 测试网进行上海升级</h3>\n<p>据 CoinDesk 报道，以太坊开发者将在 3 月 14 日让 Goerli 测试网完成上海升级（上海升级也称为 Shapella），以太坊的主网将在 Goerli 升级之后 3-4 个星期进行 Shapella 升级，这意味着质押的 ETH 提款时间将于 4 月份进行，比最初以太坊开发者设定的三月份时间表略有延迟。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/ethereum-developers-target-march-14-date-for-shanghai-upgrade-on-goerli-testnet/?utm_medium=social&utm_source=onecryptofeed&utm_campaign=headlines\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/ethereum-developers-target-march-14-date-for-shanghai-upgrade-on-goerli-testnet/?utm_medium=social&utm_source=onecryptofeed&utm_campaign=headlines",
           "publishedOn": "2023-03-03T01:27:02.000Z",
-          "wordCount": 20101,
+          "wordCount": 20110,
           "title": "以太坊开发者计划于 3 月 14 日在 Goerli 测试网进行上海升级",
           "imageUrl": "https://www.coindesk.com/resizer/ppLSnK-io3eNSNAQOJsPW3nnNc0=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/4PZ2PCM2QRFADCUF3BYE2RF7FI.jpg"
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ETHDenver 2023 活动已于 2 月 24 日在美国丹佛举行，Paradigm 首席技术官兼研究合伙人 Georgios Konstantopoulos 撰文概述了他认为 ETHDenver 期间有价值的 6 个项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">https://twitter.com/gakonst/status/1630740285293559808</a></p>\n<p><strong>文章作者：</strong></p><p>Georgios Konstantopoulos</p><hr><h3>观点：</h3><p><strong>Georgios Konstantopoulos：</strong>1）OP-Reth：OP Stack 实现了一个优化 Rollup 设计，旨在尽可能接近以太坊，我们希望其能够在 Reth 中实现，refcell.eth 正在为此努力；2）Wagmi：Web3 前端库，Wagmi CLI 通过与 Foundry 的集成允许全栈黑客马拉松项目迭代速度极快；3）使用 Ruint 的 ethabi：我们想用 recmo 的 Ruint 替换所有 Rust 代码中的原始类型，而最大的障碍是用 Ruint 替换 ethabi 内部类型；【原文为英文】</p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">内容来源</a><p><strong>Georgios Konstantopoulos：</strong>4）Ganache-UI：仅用于构建在 ICP 协议上的代币化和游戏化 L1 协议 Anvil；5）ABI：UI 生成，但我并没有抱有很大期望，我希望能够看到像 AMM、Lending、NFT 这样的无风格 React 组件；6）MEV-Share：可编程的隐私订单流，基于 MEV-Boost 构建，设计目标包括 MEV 再分配、搜索者无许可、向后兼容、可编程隐私等。【原文为英文】</p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">内容来源</a>",
           "link": "https://twitter.com/gakonst/status/1630740285293559808",
           "publishedOn": "2023-03-02T03:15:37.000Z",
-          "wordCount": 529,
+          "wordCount": 544,
           "title": "【英文长推】Paradigm 首席技术官：ETHDenver 2023 值得关注的 6 个项目",
           "imageUrl": null
         },
@@ -997,7 +997,7 @@
           "description": "<h3>The Sandbox 的元宇宙业务将在今年年底推出一个 DAO</h3>\n<p>据 The Block 报道，The Sandbox 的首席运营官 Sebastien Borget 表示，元宇宙平台的未来掌握在个人创作者而不是企业品牌手中。到目前为止，该平台的去中心化是通过其 SAND 代币和该代币出售由区块链支持的虚拟土地实现的。Sebastien Borget 称，The Sandbox 计划于年底前推出 DAO，并将通过 SAND 代币投票来进行拨款等决策。</p>\n<p><a href=\"https://www.theblock.co/post/215900/the-sandbox-sebastien-borget-future-corporate-partnerships\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/215900/the-sandbox-sebastien-borget-future-corporate-partnerships",
           "publishedOn": "2023-03-02T02:56:26.000Z",
-          "wordCount": 63193,
+          "wordCount": 63223,
           "title": "The Sandbox 的元宇宙业务将在今年年底推出一个 DAO",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/02/20230210_Sandbox3-1200x675.jpg"
         },
@@ -1007,7 +1007,7 @@
           "description": "<h3>去中心化云平台 Impossible Cloud 完成 700 万美元种子轮融资，HV Capital 和 1kx 领投</h3>\n<p>去中心化云平台 Impossible Cloud 宣布完成 700 万美元种子轮融资，HV Capital 和 1kx 领投，Protocol Labs、TS Ventures 和 Very Early Ventures 参投。所筹资金将用于为其云存储解决方案提供资金及进一步扩大团队规模并在美国成立公司。\n据 The Block 介绍，Impossible Cloud 创始团队成员包括游戏工作室 Goodgame Studios 的创始人 Wawrzinek、前 Airbnb 主管 Kaul 以及前开源平台 D2iQ 的联合创始人兼首席技术官 Daniel Baker，旨在为希望深入研究 Web3 技术的 B2B 客户提供去中心化云服务。</p>\n<p><a href=\"https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage",
           "publishedOn": "2023-03-02T02:39:44.000Z",
-          "wordCount": 62816,
+          "wordCount": 62846,
           "title": "去中心化云平台 Impossible Cloud 完成 700 万美元种子轮融资，HV Capital 和 1kx 领投",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/10/20221005_Funding_Roundup-1200x675.jpg"
         },
@@ -1017,7 +1017,7 @@
           "description": "<h3>以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络</h3>\n<p>据 Etherscan 数据和以太坊基金会安全研究员 Yoav Weiss 确认，以太坊账户抽象提案 ERC-4337 的核心合约已通过名为 EntryPoint 的智能合约完成部署，可用于所有以太坊虚拟机（EVM）兼容网络。且据知情人士透露，该合约已经通过安全审计。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>erc4337：</strong>ERC-4337 的核心合约已经通过了 Open Zeppelin 的审计，捆绑器（Bundlers）和支付网关包括 Stackup、Alchemy、Biconomy、Etherspot、CANDIDE 及 Blocknative 等。【原文为英文】</p><a href=\"https://twitter.com/erc4337/status/1631087958949531648\">内容来源</a><p><strong>Shruti Gandhi（Biconomy 产品）：</strong>ERC-4337 引入了一些执行者和一个被称为 UserOp 的新的类似交易的结构，用于这些执行者之间的通信。而新角色 bundlers 则负责将 userOp 转换为交易，并有一个 EOA 支付其 Gas。但也存在一个问题，恶意行为者让 Bundler 付款后不进行退还，因此我们引入了一个新的智能合约 EntryPoint（EP）。EP 会验证智能合约存款是否足以执行交易，交易结束后， Bundlers 会从 EP 存款中退还支付的 Gas。【原文为英文】</p><a href=\"https://twitter.com/shrewtea892/status/1630479210916757504\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/",
           "publishedOn": "2023-03-02T01:37:58.000Z",
-          "wordCount": 20984,
+          "wordCount": 20993,
           "title": "以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络",
           "imageUrl": "https://www.coindesk.com/resizer/pL4QDjZ1F_boKpthlDCGdRmOnCQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/B5ZTNK3UAZE3ZNKT2N4IFXIC6Y.jpg"
         },
