@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T05:45:31.715Z</updated>
+    <updated>2023-03-06T05:50:42.081Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -14,6 +14,30 @@
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LSD 战争正在迅速升温，但目前流动性质押面临中心化和可扩展性的挑战，DeFi 研究员 Poopman 介绍撰推介绍多链流动性质押协议 Stader，解析其如何通过多池架构和 DVT 实现仅使用 4ETH 质押，剖析其代币经济模型，认为 Stader 具有巨大潜力，可能会改变目前的质押游戏格局。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">https://twitter.com/poopmandefi/status/1632418517747388419</a></p>
 <p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>为解决 LSD 面临的中心化和可扩展性问题，Stader 引入价值增长代币「ETHx」，允许无许可节点运营商仅使用 4ETH 进行质押。如何做到？1）设计多池架构，每当用户存入 ETH 时，Stader 池管理器将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：无许可质押池，DVT 质押池，许可质押池。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】可能改变质押游戏的 「4 ETH 保证金」流动性质押协议：Stader]]></title>
+        <id>https://twitter.com/poopmandefi/status/1632418517747388419</id>
+        <link href="https://twitter.com/poopmandefi/status/1632418517747388419"/>
+        <updated>2023-03-06T05:37:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LSD 战争正在迅速升温，但目前流动性质押面临中心化和可扩展性的挑战，DeFi 研究员 Poopman 介绍撰推介绍多链流动性质押协议 Stader，解析其如何通过多池架构和 DVT 实现仅使用 4ETH 质押，剖析其代币经济模型，认为 Stader 具有巨大潜力，可能会改变目前的质押游戏格局。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">https://twitter.com/poopmandefi/status/1632418517747388419</a></p>
+<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>为解决 LSD 面临的中心化和可扩展性问题，Stader 引入价值增长代币「ETHx」，允许无许可节点运营商仅使用 4ETH 进行质押。如何做到？1）设计多池架构，每当用户存入 ETH 时，Stader 池管理器将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：无许可质押池，DVT 质押池，许可质押池。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Fantom 原生稳定币 fUSD 如何成为生态催化剂：以 Equalizer DEX 为例]]></title>
+        <id>https://twitter.com/levysaur/status/1632462908549664768</id>
+        <link href="https://twitter.com/levysaur/status/1632462908549664768"/>
+        <updated>2023-03-06T05:09:01.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Fantom 原生稳定币 fUSD 即将迎来 v2 升级，允许使用 fUSD 支付链上交易费用。Fantom 生态 TVL 排名前三的去中心化交易所 Equalizer 团队成员 levy 以 Equalizer 为例，设想了 fUSD 将如何与生态项目结合，创造新的增长飞轮。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/levysaur/status/1632462908549664768">https://twitter.com/levysaur/status/1632462908549664768</a></p>
+<p><strong>文章作者：</strong></p><p>levy</p><hr><h3>观点：</h3><p><strong>levy：</strong>fUSD 的一个关键特征是它可以使用 wFTM 和 sFTM 进行铸造。目前有 14 亿以上的质押的 FTM（约 5.8 亿美元），这 5.8 亿美元的闲置资产可以在 300% 的抵押率下，铸造 2 亿美元的 fUSD。由于当前 FTM 的 TVL 只有 4.58 亿美元，在生态系统中注入 2 亿美元的 fUSD 意味着 43% 的增长。【原文为英文】</p><a href="https://twitter.com/levysaur/status/1632462908549664768">内容来源</a><p><strong>levy：</strong>Equalizer 作为 Fantom 生态的去中心化交易所，可以在以下方面利用 fUSD 获得效益：1. 提供使用 fUSD 购买其他项目代币的服务；2. 开启 fUSD LP 流动性挖矿以获得更多 TVL；3. 在 dApp 中使用 fUSD 获得共同增长；4.fUSD 用于借贷，例如在 Tarot Finance 中获得杠杆。【原文为英文】</p><a href="https://twitter.com/levysaur/status/1632462908549664768">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
