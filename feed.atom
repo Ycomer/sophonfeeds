@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T22:51:49.729Z</updated>
+    <updated>2023-03-06T22:56:59.513Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[美国政府提起上诉，要求在FTX破产案中任命独立审查员]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3ny7286j.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3ny7286j.html"/>
+        <updated>2023-03-06T22:55:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据CoinDesk报道，美国政府周一对此前破产法官拒绝在FTX破产案中任命独立审查员的司法决定提出上诉。美国司法部(DOJ)下属的美国信托人(U.S. Trustee)此前曾辩称，破产法要求对任何此类规模的案件进行独立调查，尽管FTX的律师此前曾表示调查成本可能高达1亿美元。独立审查员可以调查那些对FTX管理不善负有责任的人是否仍在该公司。一个由两党参议员组成的小组也呼吁进行独立调查。然而，2月15日，美国特拉华州破产法官否决了任命一名独立审查员调查FTX破产案的动议。他表示，代价高昂的独立调查将会对案件的解决造成延缓。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Galaxy Digital总裁：公司仍有剩余资金进行收购，但首先要加强对此前收购的管理]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/b8ne737i.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/b8ne737i.html"/>
@@ -3668,20 +3678,6 @@ CZ 知道 BTC-Fi 将是一个未来叙事。如果 CZ 不去探索叙事以获�
 <p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href="https://twitter.com/blockomotive/status/1631996549214482432">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安赵长鹏确认出席“2023香港Web3嘉年华”并发表主旨演讲]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/0030v8lk.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/0030v8lk.html"/>
-        <updated>2023-03-05T07:11:57.000Z</updated>
-        <summary type="html"><![CDATA[币安创始人兼首席执行官赵长鹏先生确认将于2023年4月12日出席由万向区块链实验室、HashKey Group联合主办，W3ME承办的“2023香港Web3嘉年华（Hong Kong Web3 Festival 2023）”，并以线上直播连线的形式，作为活动首日的闭幕演讲嘉宾。
-4月12日-15日，2023香港Web3嘉年华将与香港特区政府和香港贸易发展局共同主办的“香港国际创科展（InnoEX）”同期在香港会议展览中心举办，并与其他活动共同组成“创新与科技商业周（BITWEEK）”。此前，香港特别行政区财政司司长陈茂波先生已确认出席该活动开幕式并发表主旨演讲。
-
-赵长鹏(CZ), 币安创始人兼首席执行官
-赵长鹏，别名CZ，是一位连续创业家，在创业方面有着傲人的业绩。他于2017年7月创立币安，只用了短短180天，就把币安发展成了全球最大的加密货币交易平台。作为区块链和交易系统领域的专家，赵长鹏将币安打造成了由币安交易平台、孵化器、Launchpad、学院、研究院、Trust Wallet、慈善、NFT等业务构成的领先区块链生态系统。他曾就读于蒙特利尔麦吉尔大学，在此之前一直在汉堡店打工。2005年，赵长鹏辞去了Bloomberg Tradebook期货交易软件研究与开发团队负责人一职，移居上海，成立了Fusion Systems。此后不久，他开始了解比特币，并加入了Blockchain.com成为技术总监。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
