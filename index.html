@@ -114,6 +114,78 @@ Starknet 的 Kakarot zkEVM 已经处于 Type 3 状态并且正在加速：https:
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/fnq7kq3z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK扩容赛道现状观察：谁能脱颖而出？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/fnq7kq3z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/06/images/10kc6lZ3oL.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《What’s New with ZKs?》by William M. Peaster
+编译：Kyle
+如果您深入了解加密世界，那么您已经听说过零知识证明（ZK Proof）及其应用已有一段时间了。他们已上线……或者非常接近上线……或者他们的某个版本就在眼前？这些信息很难跟踪。
+ZK 拥有各种各样的实现——今天我们将通过一些关于 ZK 世界如何发展的更新。
+在区块链术语中，我们认为以太坊生命的初始阶段是单体的。
+这意味着，在最初几年，「第一层（L1）」以太坊主网完全负责执行自己的交易，促进自己的网络安全，并为自己的数据可用性提供服务。
+在过去的几年里，以太坊一直在迅速转向模块化设计，这意味着围绕以太坊构建的外部第三方解决方案越来越多地被用来扩展以太坊的数据和执行需求。
+
+模块化以太坊丨来源：Ultra Scalable Ethereum
+在数据可用性方面，Celestia 和 Polygon Avail 等项目是竞争者。至于执行，近年来我们看到像 Arbitrum 和 zkSync 这样的「第二层（L2）」的兴起，它们在以太坊之外（即链下）执行交易，然后有效地将交易批量「汇总」（rollup）到以太坊 L1，在此过程中提供令人难以置信的实惠和快速的用户体验。
+今天，以太坊 L1 本身每秒促成可怜的约 30 笔交易（TPS）。为了更好地处理全球活动水平而不会出现严重的网络拥塞（高费用、缓慢的交易），以太坊越来越依赖于扩展创新来优化其执行能力。这里有两种主要的解决方案类型：链上扩展和链下扩展。
+链上扩展是指直接对区块链进行的更改，以提高其交易执行能力，即吞吐速度。对于以太坊来说，一个例子是分片，一旦这项创新得到实施，将把活动负载分散到几十个主要的、神圣的（enshrined）以太坊链上，而不是单一的主网上。
+
+以太坊 L2 + 分片的未来 - 来自Vitalik Buterin
+链下扩展是指外部执行环境，即 L2，它促进以太坊之外的廉价和快速交易，然后将交易数据批量发布到以太坊以完成活动并继承以太坊的安全性。链下扩展不是像分片那样将 L1 分成许多主链，而是培养了一个由许多外部 rollup 组成的二级层，这些层的可定制性非常好。
+谈到 L2，最流行的当代解决方案是零知识 rollup（ZK rollup）。值得注意的是，这些 rollup 可以促进大约 2,000 TPS，比以太坊目前的 30 TPS 速率增加了 6,500%！
+这种特殊的 L2 风格使用了「零知识证明（ZKP）」技术，例如 SNARKs，以加密方式验证并在以太坊上发布其交易批次。因此，通过零知识证明（ZKP）将链下执行与链上数据结合起来，您将获得 ZK rollup（相反，通过欺诈证明将链下执行与链上数据结合起来以获得 Optimistic rollup）。
+综上所述，L2 BEAT 目前跟踪的五个最大的 ZK rollup 如下：
+
+今天最大的 10 个 L2 中有四个是 ZK rollup - 来自 L2 BEAT
+当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得你关注，比如 Aztec Connect。
+然而，ZK rollup 并不是当代以太坊扩容场景中唯一值得注意的基于 ZK 的解决方案。这里要注意的另外两种扩展方式是 Validium 和 Volitions。
+Validiums 执行链下交易并通过链下零知识证明维护其数据。这种方法与 ZK rollups 如何将数据分批发送到以太坊上（即将其发布到链上）形成对比。那么，数据存储在哪里是 ZK rollups 和 validiums 之间的关键区别。
+Validiums 的「双链下」方法使它们最终成为托管的，因为数据由可信方维护。然而，validiums 在无信任方面所缺乏的，它们以出色的性能弥补了这一点，因为当今最强大的 validiums 可以促进 +20,000 TPS。
+目前，两个更知名的 validium 项目是 Immutable X，一个以 NFT 为中心的扩展解决方案，TVL 为 1.23 亿美元，以及 Sorare，一个幻想体育数字纸牌游戏，TVL 为 2100 万美元。目前值得关注的其他验证包括 ApeX、rhino.fi 和 Myria。
+至于 Volitions，它们是 StarkWare 团队创造的一项创新，它们是 ZK-rollup 和 validium 之间的交叉。这就是说，只要有意愿，用户就可以在链上和链下数据可用性之间进行选择。这为应用程序提供了 TPS 性能验证级别的选项，同时仍可与非托管 ZK-rollup 技术互操作。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。
+
+图片来源：Matter Labs
+zkEVM 作为扩展的圣杯
+考虑一下 ZK-rollup 的架构如何包含两个主要组件：接收和跟踪 L2 区块数据的链上以太坊智能合约，以及作为基于以太坊的交易的执行环境的链下虚拟机 (VM)。
+那么，zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK-rollup，即以太坊 L1 的执行环境。
+
+Polygon zkEVM 的一般扩展方法的图示
+在以太坊扩容竞赛之初，像 Arbitrum 和 Optimism 这样的 optimistic rollups 具有巨大的优势，因为这种风格的 rollups 最初更容易与 EVM 兼容甚至完全等效。这种技术亲和力使得应用程序可以轻松地移植他们的代码，并使用他们最喜欢的从 L1 迁移到 L2 的工具，这是很棒的 UX。
+相比之下，ZK 式扩展的特性使得 ZK rollups 从定制的 VM 开始，这意味着项目因此需要更广泛的工作来「解释」来自 EVM 的代码或使用从头开始编写的新代码。不过，截至 2023 年 3 月，多个 ZK rollups 项目现在明显即将公布他们自己的 zkEVM 实现！
+因此，zkEVM 的到来代表着 Vitalik Buterin 的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollups 将在所有用例中胜出。」由于使用加密证明，ZK rollups 比 optimistic rollups 具有内置的隐私和安全优势，因此当您将 EVM 兼容性添加到组合中时，ZK rollups 有可能在未来胜过 optimistic rollups。
+「扩展战争」一词指的是在 optimistic rollups 和 ZK rollups 团队之间发生的友好、非正式的竞争，以提供尽可能最好的区块链扩展解决方案。
+然而，在 ZK rollups 领域本身还有另一场比赛，这是一场非正式的比赛，看哪个团队能够实现 Vitalik Buterin 定义的第一个「1 型（Type 1）」和「2 型（Type 2）」zkEVM。
+
+Buterin 的 zkEVM 类型
+在 2022 年 8 月的一篇博文中，Buterin 提供了一种衡量 zkEVM 项目能力的方法，方法是提出从 Type 1 到 Type 4 的等级来对它们进行分级。Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。
+也就是说，由于涉及的所有工作，Type 1 zkEVM 实现还需要一段时间，但现在有多个项目正在研究 Type 2 zkEVM。
+
+当前主要的 zkEVM 努力丨来源：Immutable X
+例如，Polygon zkEVM 是 Type 3 zkEVM，并且正在成为 Type 2 zkEVM，即具有一些额外细微差别的 EVM 等价物。Scroll 是另一个著名的团队，目前正在构建 Type 2 zkEVM。相比之下，zkSync Era（以前称为 zkSync 2.0）是一种固执己见、有意为之的 Type 4 zkEVM，它通过自定义功能和 zkPorter 令人印象深刻的意志力功能得到增强。相应地，这里的可能性范围是敞开的。
+
+资料来源：Messari
+Polygon zkEVM 主网测试版将于 3 月 27 日开始：https://twitter.com/0xPolygon/status/1625529122561597440
+zkSync Era 刚刚向建设者推出了主网，普通用户可用的版本即将到来：https://twitter.com/zksync/status/1626235292268240902‌
+Scroll 刚刚发布了 Goerli zkEVM 测试网，这是主网上线之前的最后一步：https://twitter.com/Scroll_ZKP/status/1630258973856395264‌
+Starknet 的 Kakarot zkEVM 已经处于 Type 3 状态并且正在加速：https://twitter.com/dimahledba/status/1606270836922585098‌
+终有一天，以太坊本身可能会升级到 Type 1 zkEVM 以进一步进行链上扩展。与此同时，作为潜在升级的补充，从 Type 2 到 Type 4 的外部 zkEVM 将继续蓬勃发展，并为开发人员和用户提供独特的定制和 UX 增强，这是以太坊 L1 无法做到的。
+总而言之，ZK rollups 空间（也可以说是整个 L2 空间）的最终目标是 zkEVM，而这些努力中的第一个即将到来。2023 年将是日常加密货币用户将能够首次尝试 zkEVM 的一年，因此如果你想参与进来，请密切关注 Polygon、zkSync、Starknet 和 Scroll，因为这些团队的最新扩展进展已付诸实践！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/articledetails/3e020okj.html"
                         open
                       >
@@ -9968,7 +10040,7 @@ francesco：反复出现的网络中断问题可能是因为 Solana 代码库真
 内容来源
 francesco：指标 1&amp;2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -15364,7 +15436,7 @@ William M. Peaster：3) Insrt Finance：长期收益策略 NFT 协议，其第�
 内容来源
 William M. Peaster：4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -20662,8 +20734,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4342034185">
-        <time id="build-timestamp" datetime="2023-03-06T09:47:25.931Z">2023-03-06T09:47:25.931Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4342075523">
+        <time id="build-timestamp" datetime="2023-03-06T09:52:43.849Z">2023-03-06T09:52:43.849Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
