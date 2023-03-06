@@ -37,7 +37,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LSD 战争正在迅速升温，但目前流动性质押面临中心化和可扩展性的挑战，DeFi 研究员 Poopman 介绍撰推介绍多链流动性质押协议 Stader，解析其如何通过多池架构和 DVT 实现仅使用 4ETH 质押，剖析其代币经济模型，认为 Stader 具有巨大潜力，可能会改变目前的质押生态格局。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">https://twitter.com/poopmandefi/status/1632418517747388419</a></p>\n<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>为解决 LSD 面临的中心化和可扩展性问题，Stader 引入价值增长代币「ETHx」，允许无许可节点运营商仅使用 4ETH 进行质押。如何做到？1）设计多池架构，每当用户存入 ETH 时，Stader 池管理器将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：无许可质押池，DVT 质押池，许可质押池。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a><p><strong>Poopman：</strong>2）分布式验证器技术 (DVT)：通过利用 DVT 的高容错率，减少了罚没（slashing）的可能性，将无许可节点所需的保证金降低到 4ETH。DVT 的实施可以增强 LSD 的去中心化和可扩展性。为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商，有助于确保 ETHx 在早期的表现更加稳定。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a><p><strong>Poopman：</strong>代币经济模型分为两个阶段：1）要为 Stader 运行一个节点，每个验证者都必须存入（4 ETH + 0.4 ETH $SD）作为质押。额外的 $SD 在罚没的情况下起到保护作用，为了激励节点运营商，价值约 1-200 万美元的 $SD 代币将在运营的第一年分发给验证者。除了 $SD 质押奖励之外，用户还可以从其他用户汇集的 28 ETH 产生的质押奖励中获得 5% 的佣金。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a><p><strong>Poopman：</strong>2）节点运营商可以无抵押借入 $SD 以支付 $SD 保证金中的 0.4 ETH 。出借 $SD 的人可以获得 10% 的节点佣金，并获得额外的 $SD 激励。ETHx 质押将推动对 $SD 的需求，因为它是运行节点要求的一部分。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a>",
           "link": "https://twitter.com/poopmandefi/status/1632418517747388419",
           "publishedOn": "2023-03-06T05:37:41.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】新项目前瞻：主打 DVT 技术的多链流动性质押协议 Stader",
           "imageUrl": null
         },
@@ -117,7 +117,7 @@
           "description": "<h3>全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任</h3>\n<p>据上海证券报报道，今年全国两会，全国人大代表、中国人民银行沈阳分行行长付喜国拟提交关于修改《中华人民共和国中国人民银行法》的建议。付喜国认为，应完善人民币管理职责，重新对法定人民币的表现形式和制作方式等内容在法律规定中进行界定，赋予数字人民币与实物人民币同等的法定地位；根据数字人民币的特性，全面详细规定数字人民币的发行方式、流通方式、监管方式等内容，防范虚拟货币风险，明确制作和发售数字代币的法律责任。</p>\n<p><a href=\"https://news.cnstock.com/news,bwkx-202303-5026233.htm\">内容来源</a></p><hr>",
           "link": "https://news.cnstock.com/news,bwkx-202303-5026233.htm",
           "publishedOn": "2023-03-06T01:46:45.000Z",
-          "wordCount": 280,
+          "wordCount": 278,
           "title": "全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任",
           "imageUrl": null
         },
@@ -487,7 +487,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 526,
+          "wordCount": 532,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -617,7 +617,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 650,
+          "wordCount": 660,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -1689,6 +1689,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/hu4v3z34.html",
+          "author": null,
+          "description": "PANews 3月6日消息，据官方推特，隐私网络Iron Fish宣布空投kyc已开放，目前仅限参与Pull Request的用户。此外，在接下来的几天里，将按顺序向第1阶段、第2阶段和第3阶段的积分用户开放。\n此前消息，Iron Fish于2021年11月完成由A16z领投的2760万A轮融资；3月1日消息，隐私网络Iron Fish将于3月14日上线主网，并空投94万枚主网代币。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/hu4v3z34.html",
+          "publishedOn": "2023-03-06T06:56:38.000Z",
+          "wordCount": 1163,
+          "title": "隐私网络Iron Fish空投kyc已开放，随后将依次向三个阶段积分用户开放",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/52f6c90x.html",
           "author": null,
           "description": "PANews 3月6日消息，据Cointelegraph报道，Yuga Labs的TwelveFold拍卖模式引发了加密社区的不满，根据拍卖规则，竞标这被要求将其全部BTC投标金额发送到由Yuga控制的唯一BTC地址，中标者只需支付他们出价的BTC，而Yuga表示会将BTC返还给出价失败的人。一些人指出，对于不成功的竞标，必须手动进行退款，就像“石器时代”一样。\n推特用户@veryordinally表示：“Yuga Labs在这样的拍卖中建立了非常糟糕的优先级。他们接管了竞拍者的比特币，并承诺将不成功的出价退回。毫无疑问，他们会这么做，但这种模式是骗子喜欢的理想模式，可信的玩家需要树立更好的榜样。”比特币Ordinals协议创建者Anthony Guerrera表示，他赞同@veryordinally的观点，并称Yuga Labs这种做法是堕落的行为，并称如果Yuga Labs再进行类似的拍卖，他会鼓励其他人抵制该项目。\n今日早些时候消息，Yuga Labs宣布，TwelveFold拍卖已开始，前288名出价者将赢得铭文。",
@@ -1734,7 +1744,7 @@
           "description": "PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/r334mj81.html",
           "publishedOn": "2023-03-06T03:49:20.000Z",
-          "wordCount": 1169,
+          "wordCount": 1173,
           "title": "PA图说 | 一图掌握Polygon上NFT一周关键数据（02.27—03.05）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/06/images/E827j6yQiF.jpeg"
         },
@@ -1824,7 +1834,7 @@
           "description": "原文：《 Getting started with Scroll zkEVM 》by Gaurang (GT) Torvekar\n编译：MarsBit\n本文旨在介绍初学者如何与 L2 Dapps 交互。\n在本指南中，我将讨论如何开始使用Scroll zkEVM以及如何与以太坊 L2 Dapp 交互。理论上，在本指南中学到的技能可迁移至任何其他 2 层网络。文中，我将使用我创建的 Dapp 进行说明。这是一款链上 TicTacToe 游戏，可在 Scroll L2 网络上玩。\n准备工作—安装 Metamask（或任何类似的钱包）\n如果你已经安装了 Metamask，则可以跳过此步骤。如果没有，请访问https://metamask.io/download/并根据您的浏览器或移动设备安装合适的版本。\n\n第一步——搭建 Scroll L2 测试网和 Goerli 测试网\n目前，Scroll zkEVM 已经推出了一个 alpha 测试网。这是一个二层网络，与 EVM（Ethereum 虚拟机）兼容。这意味着在以太坊网络编写的任何智能合约都可以使用同一套工具在 Scroll zkEVM 上进行本地部署。Scroll L2 alpha testnet 目前 \"连接 \"到 Ethereum L1 上的 Goerli 测试网络。这意味着 Scroll L2 网络向 Goerli L1 网络发送成批的交易，以 \"最终确定 \"交易。因此，最终，他们仍然依赖于以太坊 L1 网络的 \"安全\"，但实现了可扩展性，因为不是每笔交易都需要在以太坊网络上发布。\n您可以通过访问https://scroll.io/alpha并按照说明将网络添加到 Metamask 来设置 Scroll L2 网络。在该页面上，您应该将 Goerli 网络添加到你的 Metamask（如果你尚未这样做）。\n\n第 2 步—获得一些 Goerli 测试 ETH\n通过上述步骤在 Metamask 中设置网络后，你必须从水龙头中获取一些 Goerli ETH。\n你可以使用以下个水龙头：\n1. https://goerlifaucet.com/—这个水龙头一次只给 0.2 ETH，你需要注册/登录 Alchemy 才能获得代币。\n2. https://goerli-faucet.pk910.de/——这个 PoW（工作证明）水龙头可以提供更多的 ETH，因为你需要保持页面打开并「挖」一些 ETH。相比第一个，我更喜欢这个水龙头。\n3. https://faucet.paradigm.xyz/——这个水龙头需要你用 Twitter 登录。你需要花费一段时间才能得到 0.1 ETH，因此不太方便。\n你可以使用上述水龙头中的一个，或三者结合使用。\n一旦你有足够的 ETH，请继续进行下一步。\n\n现在，下一步是将上面步骤 2 中积累的一些 ETH 桥接到 Scroll L2 测试网。为此，请前往桥接界面——https: //scroll.io/alpha/bridge\n按照页面上的说明将一些 ETH 转移到你在 Scroll L2 测试网上的地址。\n请注意，此交易不会立刻完成，需要一些时间才能转移 ETH。一旦 ETH 被转移，你就可以进入下一步来尝试很棒的链上 Tictactoe 游戏！\n\n在 https://onchain-tictactoe.vercel.app/查看游戏。将你的钱包连接到此页面并创建一个新游戏。由于这是一款多人游戏，你需要添加朋友的地址，甚至你的第二个钱包可以作为第二个玩家。\n一旦你创建了你的第一个游戏，你需要从下表中「选择」游戏，然后你就可以开始玩链上的 Tictactoe。\n这个游戏还有一个有趣的元素！如果你在其中一步犯了错误，或者不想输掉游戏，你可以随时「重置」游戏。\n注意——我已经开源了游戏的代码。你可以在 GitHub上找到它。\n如果你想在 Scroll 上测试其他 Dapps 和游戏，请查看此页面— https://ethdenver.scroll.systems/\n原文链接",
           "link": "https://www.panewslab.com/zh/articledetails/vg13i7ss.html",
           "publishedOn": "2023-03-06T01:07:35.000Z",
-          "wordCount": 1488,
+          "wordCount": 1492,
           "title": "ZK二层网络Scroll交互指南",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/05/images/rH92Rb4Svk.jfif"
         },
@@ -1914,7 +1924,7 @@
           "description": "原文标题：《LSD 高阶玩法及其本质》\n撰文：CapitalismLab\n本文将从 Frax/Yearn 的 LSD 到杠杆 Staking 再到 re-staking，为你抽丝剥茧，一眼看穿这些 LSD 高阶玩法的本质。\n首先，我们用一张图来分析 Frax/ frxETH 的收益分配体系，用黄色标注出收益来源：\n\n1/2 无论是直接还是间接，本质上都是 Frax Finance 出的激励，无非是形式和包装不同。所以我们将此图简化一下，就非常明了，收益来源和分配就是：\nsfrxETH 吃「两份」 Staking 收益，APR 自然就高了。\n\n同理我们按此分析一下 Yearn 近期预计出品的 yETH：\n\n也把他简化一下，一眼就看出收益来源和分配就是：\n不过需要注意的是，这里所谓的 「协议资产」并非仅是 Yearn 的国库所有的，可能还包括 Yearn 从 yCRV 产品那里挪过来的投票权。\n\n是的，frxETH/st-yETH 超额收益来源都是协议资产在直接或间接的补贴！\n诶，这么看下去岂不是无限套娃了？但协议资产是有机会成本的，比如 vlCVX/ veCRV 本身是可以拿来赚取贿赂收益\n协议如果不是空气币，就要赋能，比如收入抽成，达到一定规模后补贴和抽成接近后，那么超额收益便不复存在了\n那这么做的意义在哪里？因为预期 LSD 在上海升级后将会迎来爆发，参照下方推文，LSD 是做大了也有护城河的，那么趁此扩大规模抢到门票，到时候便有可观的收益。\n超额收益有可持续性吗？质押资产 / 协议资产上升无疑会稀释超额收益，若协议资产由于价格等原因相对 ETH 在上升的话，那么将会延长这一过程，反之亦然，也就是说这个模式具有明显的反身性。因此这种模式虽然本质是补贴，但是精巧复杂的包装也是有必要的，通过更精彩的叙事可以提升协议资产的价值，从而推动正向螺旋。\n简化来看的话，收益来源就是协议资产和标的资产两侧，那么两端的资产类别其实也是可以更多样化？bestLSD 这个项目（名字挺土狗）就自称协议资产端和标的资产端放开来打，协议资产从 GMX/GLP 搞到 CRV/CVX/Velo，标的资产从 AMM LP 搞到杠杠 Staking ，总而言之是在两端合力推高收益。\n虽然这个玩意儿看上去有点野，不过这也提醒了我们，目前除了持有 CRV/CVX 的协议，持有任何其他生息资产的协议其实也都可以参与角逐，这块的门槛其实很低，将来可能会很卷。So it’s another use case for GLP and gDAI, gud!\n至于通过借贷协议做杠杆 staking 增大收益，参见下方推文，本质上就是息差套利。虽然看上去存款方有点吃亏被套利，但借款方也承担了额外的 LSD 协议风险和流动性风险。借贷协议充当了将质押利率传导到原生资产上的通道。\n\n再打一份工\nRe-staking，所谓第三方借用 ETH 主网安全性，不专业的但简单的形容就是：\n\n综上所述，协议资产激励、息差套利以及再打一份工是三种超额收益来源，必须强调的是，复杂的玩法会带来更多的风险，所以有必要评估超额收益是否能够覆盖增加的风险，毕竟无论是什么收益来源，最后都可能成为科学家的收益来源。\nLSD 本来涉及到和 Validators 这种线下实体的交互，是相对来说比较「重」的工作，但上面几种高阶玩法，通过包装 LSD 资产来运作，转化成了相对比较「轻」的工作，这里的门槛也显然会比传统 LSD 更低，花样自然也会更多，值得持续观察。",
           "link": "https://www.panewslab.com/zh/articledetails/hc2t43oq.html",
           "publishedOn": "2023-03-05T10:06:42.000Z",
-          "wordCount": 1462,
+          "wordCount": 1466,
           "title": "抽丝剥茧，看穿流动性质押衍生品LSD高阶玩法的本质",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/05/images/pIrnW0TmXk.png"
         },
@@ -2084,7 +2094,7 @@
           "description": "NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！\nPANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/thn6h9kz.html",
           "publishedOn": "2023-03-04T12:28:03.000Z",
-          "wordCount": 1166,
+          "wordCount": 1170,
           "title": "PA图说 | 一图掌握以太坊上NFT关键数据（2023.03.04）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/04/images/F3ul9P6kK2.jpg"
         },
@@ -2094,7 +2104,7 @@
           "description": "比特币是最安全和去中心化的区块链网络，但存在不支持智能合约、每秒只能处理大约7笔交易、交易确认可能高达数十分钟等性能上的限制。1月30日，NFT协议“Ordinals”在比特币主网上启动，截至3月2日，Ordinals上的NFT数量已经超过25万。\n虽然此举引发了不少争议，“比特币原教旨主义”认为应该尽可能保持比特币网络的简单和稳定，但“比特币扩展者”希望能给比特币带来更多金融用例。不管怎样，Ordinals的出现引发了又一波在比特币之上开发应用的热潮。本文中，PANews将盘点常见的比特币扩容方案近期的发展状况。\nStacks采用金字塔形的堆栈，底层是比特币基础结算层，然后是增加了智能合约和可编程性的Stacks，最上层是增加可扩展性和速度的Hiro。它使用自己的智能合约语言Clarity，并将历史交易记录写入到了比特币网络中，因此Stacks是一个比特币的Layer 2（以前Stacks也称自己为Layer 1）。Stacks发行有自己的代币$STX，作为比特币智能合约的代表，$STX也是近期表现最好的资产之一。\n\n由于目前在Stacks上建立的应用仍然主要为Arkadiko Protocol、ALEX、Stackswap、CityCoins、STX NFT这几个，和PANews一年前统计时并没有什么变化，这里就不再赘述。相关阅读：《为比特币提供智能合约的Stacks网络生态初起步，一文盘点主要项目》。\n根据Defi Llama的数据，近期Stacks上的资金确实有大幅提升，过去30天（2月1日～3月2日）TVL从756万美元升至2680万美元，增长254%。增长最多的是其中的DEX ALEX，过去一个月TVL上升316%，$ALEX的价格也从2月1日的0.015美元涨至现在的0.098美元。\nRootstock（RSK）是比特币上的一条兼容EVM的侧链，它和比特币使用相同的SHA-256算法，比特币矿工在进行挖矿的时候可以进行“合并挖矿”（Merged Mining），不需要额外的资源消耗，同时可以获得Rootstock中的交易手续费收入。Rootstock中的原生代币是一种比特币锚定币Smart BTC（RBTC），也用于支付交易的手续费。\nRIF（Rootstock基础设施，RIF）则是一个建立在Rootstock之上的平台，旨在为开发者提供区块链基础设施和服务，包括域名、存储、身份验证等，以支持dApp的开发和部署。虽然Rootstock除RBTC外并没有发行其它代币，但Rootstock和RIF由同一家公司IOV Labs开发，RIF发行有自己的代币$RIF。\n从Defi Llama上可以看到，Rootstock的TVL为5651万美元，但近期的增长并不明显，过去30天上升3%。生态中有包括DEX、借贷协议、稳定币等类型的项目，也可以使用来自以太坊等其它链上的跨链资产。但即便Rootstock支持EVM，生态项目中的资金在过去30天也并未出现大幅上升，增长最的为DEX Sovryn，目前TVL为2024万美元，过去一个月上升18.31%。\nLiquid Network是Blockstream在2018年9月推出的一种侧链技术（也称自己为Layer 2），旨在为比特币用户提供更快、更便捷的交易体验，同时保证交易的安全性和隐私性。它由包括交易所、金融机构以及其它以比特币为重点的公司组成的Liquid联合委员会维护和治理。\n除了快速、便宜、隐私的转账功能外，Liquid Network还可以实现各种类型的智能合约功能，如搭建DeFi应用（DEX Sideswap、借贷平台Hodl Hodl等）、发行稳定币、发行证券代币、铸造NFT、进行多签交易等。\nLiquid Network上主要使用的仍然是由比特币1:1锚定发行的L-BTC，Liquid官网显示近期网络上的L-BTC发行量维持稳定，目前为3551枚，一月份和二月份的数据分别为3567和3562枚。\n\nLightning Network\n比特币Lightning Network（闪电网络）是一种比特币Layer 2协议，通过在交易双方之间建立支付通道来提高比特币的交易速度和隐私性。\n支付通道建立后，双方可以发送链下交易来进行交易，交易仅记录在通道的双方之间，不需要在比特币网络中进行确认，因此交易速度快、费用低。交易的双方可以随时将交易记录提交到比特币网络上进行结算，从而实现比特币的转移。\n根据1ML的数据，目前闪电网络中的资金为5424 BTC，过去30天增加2.2%，节点数为16291个，通道数为76297个。\n\nStatechains\nStatechains是一种用于BTC链下转移的扩容技术，它与闪电网络类似，但又不完全相同。在闪电网络中，资产的转移是通过通道的所有权转移的，但在Statechains中资产的转移是通过BTC存款（UTXO）私钥（临时密钥）的所有权转移的。\nStatechains首先会在存款者和状态链实体之间创建一个拥有多个私钥的多重签名钱包，这些私钥掌握了与之相关联的比特币。私钥的持有者可以在Statechain上创建交易记录，将私钥转移给其他人，从而实现比特币资产的转移。Statechain中的交易也不需要每笔确认，从而提高交易速度，减少手续费。\nStatechains技术的一个解决方案是通过Commerceblock创建的Mercury钱包实现的。\n目前Mercury钱包中的总存款为23 BTC，总取款为19.8 BTC，应用仍然较少。BTC的流动性必须是特定的数量，如0.001 BTC、0.01 BTC、0.1 BTC 等，因此在进行充值或转移时，只能使用特定的数量。\n\nDrivechain\nDrivechain是一个比特币开放式侧链协议，可以根据不同的需求定制不同的侧链。它的设计来自于两个比特币改进提案，BIP 300“哈希率托管”（Hashrate Escrows）通过“Container UTXOs”将3-6个月的交易数据压缩成32字节，BIP 301“联合盲挖”（Blind Merged Mining）。和RSK一样，网络的安全性也通过联合挖矿的方式，由现有的比特币矿工维护。\nDrivechain的出现是为了在保持比特币的安全性和去中心化的情况下，与以太坊、Zcash、比特币分叉链等竞争，为比特币引入更多功能，这些侧链也使用比特币的锚定币，用于转账等功能。\n2022年12月，Drivechain的开发公司Layer2 Labs才宣布完成300万美元的种子轮融资，目前该项目还未发现有大规模的应用。\n在以上几种比特币扩容方案中，Stacks和RSK较为通用，RSK支持EVM，链上应用中的资金更多，但近期只有Stacks的数据增长较快。\n在主要用于BTC支付的几种方案中，Lightning Network中的BTC最多，Liquid Network同时在积极筹备DeFi、NFT等用例，Statechains的应用有限，Drivechain虽然可定制各种侧链，但还未见大规模应用。",
           "link": "https://www.panewslab.com/zh/articledetails/4282ghjx.html",
           "publishedOn": "2023-03-04T10:09:13.000Z",
-          "wordCount": 1309,
+          "wordCount": 1307,
           "title": "盘点主要的6种比特币扩容方案现状：Stacks数据增长较快，RSK支持EVM",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/04/images/kN0y3rRs58.jpeg"
         },
@@ -3245,6 +3255,16 @@
       "feedUrl": "https://techflowpost.mirror.xyz/feed/atom",
       "siteUrl": "https://techflowpost.mirror.xyz",
       "articles": [
+        {
+          "id": "https://techflowpost.mirror.xyz/zulxwJmfg_uV8CJaXF_DQIYuF_cOla9u55wKepUG_ks",
+          "author": null,
+          "description": "二月NFT市场回顾：传统Web2产业和人员进军NFT，Blur带来的流动性是虚假的吗？ – 深潮TechFlow\n撰写：Teng Yan，Delphi Digital NFT 研究员\nRead the full entry",
+          "link": "https://techflowpost.mirror.xyz/zulxwJmfg_uV8CJaXF_DQIYuF_cOla9u55wKepUG_ks",
+          "publishedOn": "2023-03-06T06:30:17.000Z",
+          "wordCount": 1283,
+          "title": "二月NFT市场回顾：传统Web2产业和人员进军NFT，Blur带来的流动性是虚假的吗？",
+          "imageUrl": "https://mirror-media.imgix.net/publication-images/8Ws2orO6Av3DUPyKabaQw.png?height=300&width=600&h=300&w=600&auto=compress"
+        },
         {
           "id": "https://techflowpost.mirror.xyz/6Tl3OxuC-jNgSeMadzLnnEj5yBM0SZUl8BCgXFl56kM",
           "author": null,
