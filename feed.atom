@@ -2,10 +2,88 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T03:40:26.744Z</updated>
+    <updated>2023-03-06T03:45:34.533Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[融资周报 | 公开融资事件30起；去中心化移动网络服务商REALLY完成1800万美元种子轮融资，Polychain领投]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/6pw7ap6k.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/6pw7ap6k.html"/>
+        <updated>2023-03-06T03:36:19.000Z</updated>
+        <summary type="html"><![CDATA[本期看点
+据 PANews 不完全统计，上周（2.27-3.5）全球区块链有30起投融资事件，融资总规模约1.56亿美元，与前一周相比均有所减少，概览如下:
+DeFi赛道持续升温，公布了6起投融资事件；其中去中心化证券型代币交易所DigiFT宣布完成1050万美元Pre-A轮融资，Shanda Group领投；
+链游方面热度下跌，公布了3起事件，其中元宇宙游戏平台Avalon Corp完成1300万美元新一轮融资，Bitkraft Ventures等4家机构共同领投；
+NFT和元宇宙领域热度大涨，公布了9起融资，其中NEAR生态NFT市场Few and Far宣布完成1050万美元融资，Pantera Capital领投；
+基础设施与工具赛道略有降温，公布了10起事件，去中心化移动网络服务商 REALLY 宣布完成 1800 万美元种子轮融资，Polychain 领投；
+其他Web3/加密相关项目方面，公布了2起事件，其中Web3内容创作平台REPUBLIK完成370万美元种子轮融资，投后估值为7500万美元；
+中心化金融领域未公布投融资事件。
+下面我们一起来全盘回顾上周的投融资事件。
+去中心化交易所DigiFT完成1050万美元Pre-A轮融资，HashKey Capital等参投
+去中心化证券型代币交易所DigiFT宣布完成1050万美元Pre-A轮融资，Shanda Group领投，HashKey Capital、Hash global、Xin Enterprise Pte. Ltd、North Beta Capital参投。新资金将支持该交易所的增长以及招聘更多新员工。DigiFT由曾任华美银行大中华区首席执行官、花旗银行和渣打银行中国区副首席执行官的Henry Zhang于2020年创立。DigiFT已在新加坡金融管理局 (MAS) 金融科技监管沙盒中注册，旨在为以太坊公共区块链产品提供受监管的去中心化金融解决方案，这是一种自动做市（AMM）机制，可促进由债券和股票等金融资产支持的证券代币的二级交易流动性。
+去中心化交易所Mangrove完成740万美元A轮融资
+去中心化交易所Mangrove完成740万美元A轮融资，Cumberland和Greenfield Capital领投，CMT和Gumi Crypto Capital（gCC）参投。此次筹集的资金将用于在交易所提供功能和进行研究。据悉，Mangrove通过其“报价即代码（Offer-is-code）”方法提供流动性来建立其基于订单簿的去中心化交易所。Mangrove将首先在Polygon上发布，并将在今年推广到多个以太坊虚拟机 (EVM) 兼容链。Mangrove曾于2021年完成270万美元种子轮融资。
+非托管流动性质押平台Ether.Fi完成530万美元融资
+去中心化的非托管流动性质押平台Ether.Fi完成530万美元融资，North Island Ventures、Chapter One和Node Capital共同领投，BitMex创始人Arthur Hayes参投。该协议定于3月4日在ETHDenver启动。Ether.Fi的团队表示，他们的目标是到2023年年中质押100,000个ETH。Ether.Fi允许用户保持对其密钥的控制，同时将以太坊验证器操作委托给节点操作员。
+固定收益项目Term Labs完成250万美元种子轮融资
+用于固定利率借款的DeFi协议Term Finance开发商Term Labs完成250万美元种子轮融资， Electric Capital 领投、Coinbase Ventures、Circle Ventures、Robot Ventures 和 MEXC Ventures 等跟投。新资金将用于构建 Term Finance 协议，Term Finance 计划在 3 月底左右上线。
+DEX开发商DX25 Labs完成75万美元种子轮融资，将在MultiversX上推出单边流动性DEX
+DEX 开发商 DX25 Labs 宣布完成 75 万美元种子轮融资。据悉，DX25 Labs 是总部位于瑞士的 Web3 风险投资公司 Tacans AG 的 DeFi 开发部门，该团队即将推出一个基于 MultiversX 区块链的 DEX。DX25 是一种单边流动性 DEX，将为用户提供直观、易于使用的界面，具有集中流动性、多个费用水平、真实保证金和衍生品交易等功能。
+DeFi策略协议Ammalgam完成75万美元Pre-seed轮融资，Synthetix创始人和Compound创始人等参投
+DeFi 策略协议 Ammalgam 宣布于 2022 年第三季度完成 75 万美元 Pre-seed 轮融资，Synthetix 创始人 KainWarwick、Compound 创始人 RobertLeshner、Anton、Sergej、Mikhail、TarunChitra、SantiagoRSantos、BodhiVentures、BootNode、MarinVentures、KevinZhou、Factor 以及 ZealCapital 等参投。Ammalgam 通过将借贷和交易合并到一个协议中来释放更多 DeFi 功能。这种组合构成了收益来源，同时提高了资本效率并为做市商提供更多策略。
+元宇宙游戏平台Avalon完成1300万美元融资，Hashed等领投
+元宇宙游戏平台Avalon Corp完成1300万美元新一轮融资，Bitkraft Ventures、Hashed、Delphi Digital和Mechanism Capital共同领投，Coinbase Ventures、Yield Guild Games、Merit Circle、Avocado Guild和Morning Star Ventures参投。据悉，Avalon Corp 总部位于佛罗里达州，将通过游戏引擎和区块链技术构建一个可互操作的数字世界，包括解决实时交互和可扩展性等问题。
+Web3射击游戏Lowlife Forms完成300万美元pre-seed轮融资
+Web3 射击游戏 Lowlife Forms 开发商 VitalXP 完成 300 万美元pre-seed轮融资，该轮融资由 Streamlined Ventures 和 Marbruck Investments 领投。
+GameFi社交平台BEBO LAB完成230万美元融资
+GameFi 社交互动平台 BEBO LAB 宣布完成了 Hash9 基金和 ACF 基金领投的 230 万美元融资。该轮融资将用于推出 BEBO NFT 项目和开发 BEBO Social+GameFi 平台。BEBO NFT 预计将于 3 月 17 日开放铸造。
+3D技术公司Hexa完成2050万美元A轮融资， Point72 Ventures等参投
+3D资产可视化和管理平台Hexa宣布完成2050万美元A轮融资， Point72 Ventures、Samurai Incubate、Sarona Partners和手机制造商HTC参投。截至目前，Hexa融资总额达到2720万美元。据悉，Hexa为客户创建的3D元宇宙资产模型可以提供存储、管理、分发和分析服务。目前亚马逊、Unity等公司都在Hexa平台上制作、管理和部署3D资产，相关模型可以轻松迁移到网页、社交媒体网站或游戏引擎上。
+NFT市场Few and Far完成1050万美元融资，Pantera Capital领投
+NEAR生态NFT市场Few and Far宣布完成1050万美元融资，Pantera Capital领投，Cypher Capital、Huobi Ventures、Hypersphere、Metaweb、Mantis Partners、K5 Global等参投。新资金将有助于扩展平台的能力，提升用户体验，并增加Web3开发者的数量。IP所有者也将从该平台中受益。
+NFT初创公司Orange Comet完成超700万美元股权融资
+NFT初创公司Orange Comet完成超700万美元股权融资。该轮融资在2月23日提交给美国证券交易委员会 (SEC) 的文件中披露，该文件显示Orange Comet通过出售股权和证券筹集了2000万美元目标中的7,243,539美元。据悉，Orange Comet于2021年由电视和电影制片人Dave Broome、美国国家橄榄球联盟 (NFL) 名人堂成员Kurt Warner以及音乐家Gloria和Emilio Estefan共同创立。
+元宇宙项目平台Honio母公司Mapxus完成500万美元B轮融资，川崎重工领投
+元宇宙项目平台 Honio 母公司 Mapxus 完成 500 万美元 B 轮融资，川崎重工领投。Mapxus 是一家位于香港的室内地图系统研发公司，已与 NOIZChain 合作推出基于室内定位的 GameFi 元宇宙平台Honio，Honio 的目标是通过一款移动应用程序连接虚拟世界和物理世界，奖励用户在实体店花费的时间。预计到 2023 年在日本推出，到 2024 年在其他东南亚市场推出。
+NFT通信传输协议Redeem完成250万美元Pre-Seed轮融资
+NFT通信传输协议Redeem完成250万美元Pre-Seed轮融资，Kenetic领投，VC3 DAO、CMT Digital、Flyover Capital等参投。融资资金将用于在第二季度战略合作伙伴关系发布之前继续构建其核心功能集。据悉，Redeem由前阿里巴巴高管、生物识别初创公司EyeVerify创始人Toby Rush创立。Redeem希望提供一种基础设施，使个人能够仅使用电话号码参与Web3，可通过短信传输NFT。
+Insrt Labs通过SAFT完成220万美元融资，Hashkey Capital和Infinite Capital共同领投
+NFT 金融协议 Insrt Finance 的核心贡献者 Insrt Labs 在一轮种子前融资中筹集了 220 万美元。Hashkey Capital 和 Infinite Capital 共同领投，Sky9 Capital、Polygon 的 DeFi 负责人 Hamzah Khan 等人跟投。这笔资金是通过一项简单的未来代币协议 (SAFT) 实现的。Insrt 代币预计将于今年第三季度推出。Insrt Finance 协议于去年 12 月上线，允许用户获得 NFT 敞口并赚取回报。Insrt Finance 建立在以太坊之上，但计划在不久的将来支持其他区块链。
+NFT认证协议Wakweli完成110万美元种子轮融资，Summit等参投
+NFT 认证协议 Wakweli 宣布完成 110 万美元种子轮融资，区块链投资公司 Summit、Funfair Ventures 以及一批天使投资人参投。据悉，Wakweli 的目标是在社区和合作伙伴支持下增加 Web3 信任度，通过其「Proof-of-Democracy」（PoD）共识算法检测 NFT 真假，使 NFT 市场、买家和创作者能够从 NFT 和其他 Token 化资产的可证明性中受益。
+时尚NFT平台OWND完成75万美元Pre Seed轮融资，Founders和Skyfall共同领投
+时尚 NFT 平台 OWND 宣布完成 75 万美元 Pre Seed 轮融资，北欧风险投资公司 Founders 和 Skyfall 共同领投，Bessemer Venture Partners 支持的区块链技术社区 SteelDAO 参投。OWND 平台拟于今年 4 月推出，将支持客户使用 Apple Pay 或信用卡购买耐克、阿迪达斯、Gucci 等市场品牌推出的 NFT。
+Web3时尚初创公司DE Star完成70万美元种子轮融资
+Web3 时尚初创公司 DE Star 完成 70 万美元种子轮融资，该公司旨在通过利用 Web3 技术缩小客户与品牌之间的鸿沟。DE Star 即将空投 NFT，持有者可获得未来空投、空投福利、投票权和 phygital 独家活动。
+去中心化移动网络REALLY完成1800万美元种子轮融资，Polychain领投
+去中心化移动网络服务商 REALLY 宣布完成 1800 万美元种子轮融资，Polychain 领投，Floodgate 创始合伙人 Mike Maples Jr. 和其他战略合作伙伴参投。REALLY 将推出由去中心化移动网络 (DeWi) 提供支持的新电话服务。其今日推出的电话计划比较工具 REALLY.com 允许个人比较 56 家运营商和 379 种计划并切换到适合他们的服务。
+加密钱包ZenGo完成1000万美元A轮扩展融资，估值仍为1亿美元
+加密钱包ZenGo通过发行可转换债券完成1000万美元A轮扩展融资，并计划在今年晚些时候进行B轮融资。在A轮扩展融资后，ZenGo的估值为1亿美元，与两年前A轮融资完成后持平。ZenGo于2021年4月完成了2000万美元的A轮融资，投资者包括Insight Partners、Austin Rief Ventures和Samsung Next。据悉，ZenGo目前拥有超过80万名注册用户，今年的目标是将用户数量增加至200万名，年收入达到100万至200万美元。
+去中心化云平台Impossible Cloud完成700万美元种子轮融资
+总部位于德国的去中心化云平台 Impossible Cloud 筹集了 700 万美元的种子轮融资，由 HV Capital 和 1kx 领投，Protocol Labs、TS Ventures 和 Very Early Ventures 等参投。该公司将主要使用这笔资金为其云存储解决方案提供资金，增加更多员工并在美国注册成立。Impossible Cloud 希望为希望深入研究 web3 技术的 B2B 客户提供去中心化的云服务。这家初创公司于去年第三季度末开始筹款，本轮股权融资于上个月结束。
+身份验证平台Vouched完成630万美元A轮融资，BHG VC和SpringRock Ventures LLC领投
+基于人工智能的金融科技身份验证平台Vouched宣布完成630万美元A轮融资，BHG VC和SpringRock Ventures LLC领投，Darrell Cavens和Mark Vadon参投，截止目前其融资总金额达到1800万美元。据Vouched官方网站信息显示，该公司为加密货币投资者提供KYC身份验证服务，帮助加密公司和交易所安全吸引新客户并建立信任基线，此外其服务目前还拓展到300多家银行和金融科技公司。
+Web3钱包初创公司Portal完成530万美元融资，Haun Ventures等参投
+Web3钱包基础设施初创公司Portal宣布完成530万美元融资，Slow Ventures、Haun Ventures、Acrew Capital、Chapter One以及天使投资人等参投。据悉，Portal首席执行官Raj Parekh曾领导Visa的全球加密产品部门。Portal提供钱包基础设施和去中心化应用程序 (dApp) 商店，使项目成为支持Web3的应用程序。开发人员工具包可帮助门户合作伙伴直接或从移动或桌面浏览器轻松连接到协议和 dApp。Portal的嵌入式钱包使用多方计算（MPC）。
+Web3游戏和NFT分析平台Helika完成400万美元融资
+Web3游戏和NFT分析平台Helika完成400万美元融资，Diagram Ventures领投，Sfermion、Sparkle Ventures、Big Brain Holdings、Fenbushi和Builder Capital参投 。新资金将用于扩大团队和改进产品，并连接来自其他区块链的更多数据源。据悉，Helika是一个Web3技术平台，可提供实时分析并为游戏工作室和NFT项目增加用户获取和参与度。Helika专注于Web2、游戏内、链上和社交媒体数据的综合分析。
+基于多设备身份验证代币的金融科技公司Amwal完成250万美元pre-seed轮融资
+基于多设备身份验证代币的金融科技公司Amwal宣布完成250万美元pre-seed轮融资，Shorooq Partners、Outliers Venture Capital、以及数位天使投资人参投。Amwal公司希望将设备识别、欺诈预防和支付代币等功能集成到独立应用程序接口（API）中，以提供使用多设备身份验证代币的加密生物识别结算解决方案。
+区块链溯源服务公司Verofax完成75万美元融资
+区块链溯源服务公司Verofax宣布完成75万美元融资，本次融资是通过巴林中央银行许可和监管的众筹平台Beban Crowdfunding进行的。Verofax是一家应用区块链构建创新溯源服务的初创公司，利用区块链和人工智能等技术帮助品牌确保供应链合规且可持续，该公司曾在2020年完成过一笔未披露金额的Pre-Seed轮融资。
+加密支付初创公司FLUUS完成60万美元pre-seed轮融资， FHS Capital等参投
+加密支付初创公司 FLUUS 宣布完成 60 万美元 pre-seed 轮融资，FHS Capital、Encryptus.io 和一批天使投资人参投。据悉，FLUUS 即将发布 Beta 测试版，旨在帮助更多消费者访问 Web3 服务，比如 Token 质押和 Swap。
+AI加密项目Omniapp.ai完成Pre Seed轮融资，Meldstone Capital等参投
+AI 加密项目 Omniapp.ai 宣布完成 Pre Seed 轮融资，Meldstone Capital 等参投。Omniapp.ai 将在未来几周发布由 OMP 实用程序 Token 支持的人工智能应用程序、Telegram 和 discord 机器人。
+Web3内容创作平台REPUBLIK完成370万美元种子轮融资
+Web3内容创作平台REPUBLIK完成370万美元种子轮融资，投后估值为7500万美元。据介绍，REPUBLIK为内容创作者提供了一个平台，于2022年11月推出。内容创作者可以通过该平台与他们的观众联系，并利用内置的智能合约来处理货币化过程。它还允许观众获得奖励，并将其用于支持创作者或推荐朋友。
+Arbitrum生态健康生活方式应用Gosleep完成200万美元融资，Foresight Ventures领投
+Arbitrum 生态健康生活方式应用 Gosleep 宣布完成 200 万美元融资，Foresight Ventures 领投，CCC Capital、Amber Group、SevenX Ventures、KuCoin Ventures 和 Gate Labs 等参投。据悉，Gosleep 旨在激励玩家追求健康生活方式，通过对睡眠模式的个性化睡眠建议，帮助玩家逐渐养成健康的睡眠习惯。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[融资周报 | 公开融资事件30起；去中心化移动网络服务商REALLY完成1800万美元种子轮融资，Polychain领投]]></title>
         <id>https://www.panewslab.com/zh/articledetails/6pw7ap6k.html</id>
@@ -186,6 +264,54 @@ Digiconomist 的德弗里斯说：「那些永远不会改变比特币的人正�
 相关阅读：Bedrock架构会让Optimism成为最好的Rollup吗？]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】盘点与比较 Cosmos 生态流动性质押提供商：Stride、Lido、pStake 和 Quicksilver]]></title>
+        <id>https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</id>
+        <link href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking"/>
+        <updated>2023-03-06T03:31:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 生态流动性质押商 Stride 撰文将其与 Lido、pStake 和 Quicksilver 三个竞品进行对比，分析了四个项目的流动性技术、经济安全、审计、主链验证者选择方法等特征，认为每个项目都有不同的专业化竞争优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</a></p>
+<p><strong>文章作者：</strong></p><p>Stride</p><hr><h3>观点：</h3><p><strong>Stride：</strong>1）流动性质押技术：四个协议都使用称为链间账户（ICA）的新 Cosmos 技术。2）经济安全：Stride 和 Lido 计划使用 Cosmos Hub 的链间安全（ICS） V1，也称复制安全。Quicksilver 和 pStake 尚未承诺使用链间安全性。意味着 Quicksilver 和 Persistence 区块链的经济安全将与所有质押的 QCK 和 XPRT（其治理代币）的价值相关联。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>4）速率限制：是监控区块链安全的关键措施。Stride 协议以两种方式使用速率限制。Lido、pStake 和 Quicksilver 都没有宣布引入速率限制的计划。 5）链极简主义：指在区块链上使用尽可能少的代码，以最大限度地降低事故风险并减少攻击面的设计理念。Stride 区块链也是一条极简链。Lido 、pStake 和 Quicksilver 协议都不会托管在极简主义区块链上。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DAO 从此是 DAO - 犹他州通过创新 DAO 法案]]></title>
+        <id>https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw</id>
+        <link href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw"/>
+        <updated>2023-03-06T03:21:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>美国犹他州立法机构通过了《去中心化自治组织修正案》，Empower Labs 研究员王超对该法案中 DAO 的组织地位及责任、DAO 的形成规则、成员定义及责任，进行总结归纳。该法案的通过标志着 DAO 作为一种组织形式在美国获得了独立的法律地位。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw</a></p>
+<p><strong>文章作者：</strong></p><p>王超（Empower Labs）</p><hr><h3>观点：</h3><p><strong>王超（Empower Labs）：</strong>组织地位及责任：1）DAO 拥有法人资格，有开展任何合法事务的权利。2）DAO 为有限责任，责任上限为 DAO 的全部资产。3）成员个人不承担责任，但如果 DAO 不服从法律判决、投票决定不服从判决的成员个人则可能需承担判决中所需赔偿的金额，依据投票权大小拆分责任。</p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">内容来源</a><p><strong>王超（Empower Labs）：</strong>DAO 的形成：1）需要有自然人作为注册人，并需要设置公开联系人。2）需要有组织章程。3）需要部署在无许可的区块链上（公有链）、有去中心化治理体系、代码开源，地址公开。4）需要有一个授权法律代表，以便处理链上无法完成的事务。法律代表个人不承担连带责任。</p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">内容来源</a><p><strong>王超（Empower Labs）：</strong>成员定义及责任：1）所有成员视为共同管理人。2）治理代币持有人被视为 DAO 成员，在两种情况下生效，即主动持有代币开始，或首次和 DAO 进行链上交互。3）成员不可以以 DAO 无法退还其资金贡献为由要求解散 DAO。4）用于税收目的的情况，默认按合伙制方式执行，但 DAO 可以通过公开投票声明以公司形式进行纳税。5）在默认合伙制情况下，DAO 可以给成员分钱，成员按照合伙人方式缴纳个人所得税。</p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism]]></title>
+        <id>https://twitter.com/ameensol/status/1632083054272430080</id>
+        <link href="https://twitter.com/ameensol/status/1632083054272430080"/>
+        <updated>2023-03-06T03:04:55.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism</h3>
+<p>Tornado Cash 早期贡献者 Ameen Soleimani 发推称，Tornado Cash 分叉混币应用 Privacy Pools v0 现已上线 Optimism。Privacy Pools 具备可选择加入或退出的匿名集合，允许用户在无需透露整个交易历史的前提下，将自己从包含被盗或洗钱资金的匿名集合中删除。目前，发布的 Privacy Pools v0 是尚未经过审计的实验代码，是该协议的最小初始实现。</p>
+<p><a href="https://twitter.com/ameensol/status/1632083054272430080">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Pricacy Pools 代码库：https://github.com/ameensol/privacy-pools</p><a href="https://github.com/ameensol/privacy-pools">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化质押协议 Rocket Pool 计划于 4 月初进行 Atlas 升级，将与以太坊上海升级兼容]]></title>
+        <id>https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f</id>
+        <link href="https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f"/>
+        <updated>2023-03-06T03:04:33.000Z</updated>
+        <summary type="html"><![CDATA[<h3>去中心化质押协议 Rocket Pool 计划于 4 月初进行 Atlas 升级，将与以太坊上海升级兼容</h3>
+<p>去中心化质押协议 Rocket Pool 宣布将于 4 月初进行 Atlas 升级，使该协议与以太坊的上海升级兼容。Atlas 升级引入了 gas 优化、LEB（Lower ETH Bonded）Minipool、Solo Staker 迁移、Minipool 队列简化、动态存款池限额、Minipool ETH 分配等功能和更新。目前，Atlas 版本已经过 Sigma Prime 和 ConsenSys Diligence 的审计，并部署在在 Zhejiang 测试网上，目标是在 3 月底或 4 月初发布至以太坊主网。</p>
+<p><a href="https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -1819,7 +1945,7 @@ RaaS能直观的带来成本和性能的提升，但从performance推断这些�
         <updated>2023-03-05T02:51:43.000Z</updated>
         <summary type="html"><![CDATA[<h3>受 FTX 破产影响，Multicoin Capital 对冲基金 2022 年亏损 91.4%</h3>
 <p>据 CoinDesk 援引 Multicoin Capital 年度投资者信件报道，Multicoin Capital 对冲基金在 2022 年亏损了 91.4%，为历史最差表现。Multicoin 将去年的亏损归因于市场震荡，以及加密货币交易平台 FTX 破产的直接和间接影响。根据去年 11 月披露的 Multicoin 财务状况显示，该基金有 10% 的资产持有 FTX，并且大量持有 FTT、SOL 和 SRM。截至 2023 年 1 月，Multicoin Capital 对冲基金自成立以来（2017 年 10 月）的总回报率为 2866%。</p>
-<p><a href="https://www.coindesk.com/business/2023/03/04/multicoin-capitals-hedge-fund-lost-914-last-year-investor-letter-reveals/">内容来源</a></p><hr>]]></summary>
+<p><a href="https://www.coindesk.com/business/2023/03/04/multicoin-capitals-hedge-fund-lost-914-last-year-investor-letter-reveals/">内容来源</a></p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>翻译一下，Multicoin 意思是：我承认我有赌的成分，但是我赌错了，我还想继续赌而且还是要收你们的管理费，希望你们不要不识抬举。</p><a href="https://twitter.com/Loki_Zeng/status/1593570934434463746">内容来源</a><p><strong>Zhu Su：</strong>讽刺的是，不管 Multicoin 持有或是卖掉 SOL 大家都会生气。甚至已经有人造谣 Multicoin 卖掉了 SOL。我认识的几个 Multicoin Capital LP 都挺支持 Multicoin 的。【原文为英文】</p><a href="https://twitter.com/zhusu/status/1632418796374728704">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -8665,18 +8791,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[固定收益 DeFi 平台 Term Labs 完成 250 万美元融资，Electric Capital 领投]]></title>
-        <id>https://twitter.com/term_labs/status/1630569103592226816</id>
-        <link href="https://twitter.com/term_labs/status/1630569103592226816"/>
-        <updated>2023-03-01T04:21:54.000Z</updated>
-        <summary type="html"><![CDATA[<h3>固定收益 DeFi 平台 Term Labs 完成 250 万美元融资，Electric Capital 领投</h3>
-<p>固定利率借款 DeFi 协议 Term Finance 开发商 Term Labs 完成 250 万美元种子轮融资， Electric Capital 领投、Coinbase Ventures、Circle Ventures、Robot Ventures 和 MEXC Ventures 等参投。新资金将用于构建 Term Finance 协议，Term Finance 计划在 3 月底左右上线。</p>
-<p><a href="https://twitter.com/term_labs/status/1630569103592226816">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[一文了解 ALEX Lab：将永续 DEX 和 DeFi 带入比特币世界]]></title>
         <id>https://techflowpost.mirror.xyz/JW5U60Jqof9moGp5VQcmcfOuqWBP7dT4NCO63XoygvQ</id>
         <link href="https://techflowpost.mirror.xyz/JW5U60Jqof9moGp5VQcmcfOuqWBP7dT4NCO63XoygvQ"/>
@@ -8713,18 +8827,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vitalik ：我个人的一些 DApp 使用体验和建议]]></title>
-        <id>https://foresightnews.pro/article/detail/26807</id>
-        <link href="https://foresightnews.pro/article/detail/26807"/>
-        <updated>2023-03-01T03:45:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>除了高交易费用这一最重要的问题外，用户体验是许多以太坊用户经常选择中心化解决方案而不是链上去中心化替代方案的关键原因。以太坊联合创始人 Vitalik 结合自身的实际体验总结了当前以太坊在用户体验上尚待改进的方面和改进方向。本文由 Foresight News 翻译。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/26807">https://foresightnews.pro/article/detail/26807</a></p>
-<p><strong>文章作者：</strong></p><p>Vitalik Buterin（以太坊联合创始人）</p><hr><h3>观点：</h3><p><strong>Vitalik Buterin（以太坊联合创始人）：</strong>经验教训：1. 互联网并非完全可靠。我们需要更好的广播方式，如 NFC，客户二维码等，以允许客户将他们的交易数据直接传输给商家；2. 简单而强大的 UI 优于花哨而时尚的 UI。而且，大多数用户甚至不知道什么是 Gas 限制，所以我们真的需要提前设置好默认值。</p><a href="https://foresightnews.pro/article/detail/26807">内容来源</a><p><strong>Vitalik Buterin（以太坊联合创始人）：</strong>3. 交易延迟已经有相当简单的改善，但需要继续改进用户体验；4. 除非别无选择，否则基于秘密共享的链下社交恢复真的很脆弱，而且不是一个合适的解决方案。5. 钱包开发者应该开始更明确地考虑隐私问题。此外，我们需要更好的账户抽象形式来消除对中心化甚至联合中继的需求，并使中继角色商品化。</p><a href="https://foresightnews.pro/article/detail/26807">内容来源</a><p><strong>Vitalik Buterin（以太坊联合创始人）：</strong>其它问题：1. 许多应用程序仍然无法与 Brave 钱包或 Status 浏览器一起使用；2.Etherscan 上的 ERC20 转账页面很容易被利用于发送诈骗信息；3.Uniswap 不再提供兑换 + 转账整合交易，似的用户需要多支付一笔交易 gas；4.「使用以太坊登录」在多台设备上登录体验很差。</p><a href="https://foresightnews.pro/article/detail/26807">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文】开发者指南：Web3 安全技术栈全览]]></title>
         <id>https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack</id>
         <link href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack"/>
@@ -8732,30 +8834,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>随着 Web3 生态系统的不断发展，相关的安全解决方案需要跟上创新的步伐。Coinbase Ventures 研究员 Jonathan King 和 Steven Willinger 将常见的 Web3 安全攻击面分为四层：基础设施、智能合约语言、协议逻辑和生态系统，并盘点了每个层面对应的安全技术和代表项目。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack</a></p>
 <p><strong>文章作者：</strong></p><p>JK - jonathanking.eth（Coinbase Ventures）</p><hr><h3>观点：</h3><p><strong>JK - jonathanking.eth（Coinbase Ventures）：</strong>基础设施。钱包和私钥管理：多方计算（MPC）钱包有助于消除将私钥存储在一个地方的风险，项目：Coinbase、Fireblocks、Fordefi；访问管理：开发人员能够规范哪些用户或钱包帐户可以签署和执行交易，项目：web3auth、Moralis、District Labs；消费者安全：扫描、模拟、分析和保护用户与 Web3 应用程序交互，项目：Harpie、ChainPatrol、Blowfish；监控和可观察性：持续分析底层基础设施服务的健康状况、可靠性和正常运行时间，项目：Tenderly、Metrika、Scale3。【原文为英文】</p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">内容来源</a><p><strong>JK - jonathanking.eth（Coinbase Ventures）：</strong>智能合约和协议逻辑。安全测试工具：帮助开发人员更有效地执行区块链安全测试，项目：Mythril、Slither、OpenZeppelin、Pwned Nomore；形式验证：使用算法逻辑根据特定输入检查智能合约属性，项目：Certora 、Runtime Verification；审计服务提供商：项目代码库的外部安全评估，项目：ChainSecurity、Halborn、Trail of Bits；漏洞赏金平台：激励安全研究人员发现并披露漏洞，项目：Immunefi、Code4Arena。【原文为英文】</p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">内容来源</a><p><strong>JK - jonathanking.eth（Coinbase Ventures）：</strong>生态系统。协议风险管理：用于自动化风险管理、优化资本效率和模拟协议在极端市场条件下的表现，项目：Chaos Labs 、Gauntlet Network；威胁情报：了解网络罪犯的动机、目标和攻击行为的数据：Forta Network、Apostro ；区块链取证：检测、调查、遏制和补救安全威胁，项目：Chainalysis、TRM Labs。【原文为英文】</p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】开发者指南：Web3 安全技术栈全览]]></title>
-        <id>https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack</id>
-        <link href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack"/>
-        <updated>2023-03-01T03:18:55.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>随着 Web3 生态系统的不断发展，相关的安全解决方案需要跟上创新的步伐。Coinbase Ventures 研究员 Jonathan King 和 Steven Willinger 将常见的 Web3 安全攻击面分为四层：基础设施、智能合约语言、协议逻辑和生态系统，并盘点了每个层面对应的安全技术和代表项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack</a></p>
-<p><strong>文章作者：</strong></p><p>JK - jonathanking.eth（Coinbase Ventures）</p><hr><h3>观点：</h3><p><strong>JK - jonathanking.eth（Coinbase Ventures）：</strong>基础设施。钱包和私钥管理：多方计算（MPC）钱包有助于消除将私钥存储在一个地方的风险，项目：Coinbase、Fireblocks、Fordefi；访问管理：开发人员能够规范哪些用户或钱包帐户可以签署和执行交易，项目：web3auth、Moralis、District Labs；消费者安全：扫描、模拟、分析和保护用户与 Web3 应用程序交互，项目：Harpie、ChainPatrol、Blowfish；监控和可观察性：持续分析底层基础设施服务的健康状况、可靠性和正常运行时间，项目：Tenderly、Metrika、Scale3。【原文为英文】</p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">内容来源</a><p><strong>JK - jonathanking.eth（Coinbase Ventures）：</strong>智能合约和协议逻辑。安全测试工具：帮助开发人员更有效地执行区块链安全测试，项目：Mythril、Slither、OpenZeppelin、Pwned Nomore；形式验证：使用算法逻辑根据特定输入检查智能合约属性，项目：Certora 、Runtime Verification；审计服务提供商：项目代码库的外部安全评估，项目：ChainSecurity、Halborn、Trail of Bits；漏洞赏金平台：激励安全研究人员发现并披露漏洞，项目：Immunefi、Code4Arena。【原文为英文】</p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">内容来源</a><p><strong>JK - jonathanking.eth（Coinbase Ventures）：</strong>生态系统。协议风险管理：用于自动化风险管理、优化资本效率和模拟协议在极端市场条件下的表现，项目：Chaos Labs 、Gauntlet Network；威胁情报：了解网络罪犯的动机、目标和攻击行为的数据：Forta Network、Apostro ；区块链取证：检测、调查、遏制和补救安全威胁，项目：Chainalysis、TRM Labs。【原文为英文】</p><a href="https://www.coinbase.com/blog/a-developers-guide-to-the-web3-security-stack">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【长推】盘点建立在 LSD 资产上的 DeFi 协议：Yearn、Pendle Finance、Aura Finance]]></title>
-        <id>https://twitter.com/techflowpost/status/1630505313341411328</id>
-        <link href="https://twitter.com/techflowpost/status/1630505313341411328"/>
-        <updated>2023-03-01T03:18:18.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>最早，LSD 旨在解决以太坊质押的痛点，初心是解放流动性，为用户质押的流动性发放流动性凭证。但如今收益率逐渐成了竞争焦点。深潮 TechFlow 介绍了三个建立在 LSD 资产上的 DeFi 协议。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/techflowpost/status/1630505313341411328">https://twitter.com/techflowpost/status/1630505313341411328</a></p>
-<p><strong>文章作者：</strong></p><p>深潮 TechFlow</p><hr><h3>观点：</h3><p><strong>深潮 TechFlow：</strong>1）Yearn。Yearn 即将推出新的产品「yETH」，旨在以 yETH 的代币形式覆盖一篮子 LSD 资产，在分散风险的同时提升收益率。相当于 yETH 是基于 stETH 和 frxETH 等 LSD 资产构建，同时 yETH 还能够享有 Yearn 本身所持有的 veCRV 治理资源的倾斜。Yearn 和 Frax 不是直接竞争，因为 yETH 的底层支撑资产并非 ETH，而是 stETH 和 frxETH 等 LSD 资产，而 yETH 将会为 stETH 和 frxETH 持有者提供更高的收益，这将推动巨大的以太坊质押飞轮的出现或者说是新的套娃浪潮。</p><a href="https://twitter.com/techflowpost/status/1630505313341411328">内容来源</a><p><strong>深潮 TechFlow：</strong>2）Pendle Finance。Pendle 是一个建立在以太坊等协议上的，能够将收益代币化的 DeFi 协议，它允许用户对某些资产的未来收益进行代币化和售出。LSD 协议是帮用户质押 ETH，并寻求高收益率，而 Pendle 是在将 LSD 协议为用户提供的未来收益在当下变现。</p><a href="https://twitter.com/techflowpost/status/1630505313341411328">内容来源</a><p><strong>深潮 TechFlow：</strong>3）Aura Finance。目前， stETH 已经占据了 LSD 大部分份额，体量较小的参与方想要逆袭，最简单的办法就是提供更多激励：更高的收益率；增加流动性；集成 DeFi， Aura Finance 就可以做到，它是一个基于 Balancer 构建的生态收益治理平台，Aura 之于 Balancer，就好比 Convex 之于 Curve。</p><a href="https://twitter.com/techflowpost/status/1630505313341411328">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
