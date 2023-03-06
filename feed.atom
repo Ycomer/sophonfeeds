@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T22:11:41.393Z</updated>
+    <updated>2023-03-06T22:20:30.054Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lido：发现影响stMATIC取款的漏洞，已暂停Polygon上的质押和取款功能，所有资金仍安全]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/xqr2wm99.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/xqr2wm99.html"/>
+        <updated>2023-03-06T22:06:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，流动性质押协议Lido在推特发文称，由于发现了影响stMATIC取款的漏洞，Lido在Polygon上的质押和取款功能已暂停以进行故障排除。所有资金都是安全的，存取款将在未来几天内恢复。当用户请求在多个节点之间分配大量提现金额时，就会出现此问题。在故障排除期间，不会累积奖励。当恢复正常运营后，将发放追溯奖励。一份完整的事后分析报告将在未来几周内公布。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lido：发现影响stMATIC取款的漏洞，已暂停Polygon上的质押和取款功能，所有资金仍安全]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/xqr2wm99.html</id>
