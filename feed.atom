@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T09:37:09.430Z</updated>
+    <updated>2023-03-06T09:41:57.768Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -70,6 +70,18 @@
 网站链接：https://www.panewslab.com/zh/index.html]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一览 ETHDenver 进入决赛圈的 18 个新项目]]></title>
+        <id>https://www.theblockbeats.info/news/35273</id>
+        <link href="https://www.theblockbeats.info/news/35273"/>
+        <updated>2023-03-06T09:08:10.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>ETHDenver 2023 大会已进入尾声，官方公布了入选 BUIDLWeek 的 18 个项目。基础设施项目是此次入围项目的最大类别，共有 6 个项目入选。DeFi、DAO、公共产品以及 NFT 元宇宙方面分别有 3 个项目入选。BlockBeats 根据「纽约时报」Mike Stepanovic 分享的项目名单，对这 18 个项目进行简单整理。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35273">https://www.theblockbeats.info/news/35273</a></p>
+<p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>公共物品：1）Sesame：专为低带宽网速区域的新兴市场设计的钱包，具有「离线优先」功能，可在没有互联网连接的情况下缓存交易，并在设备重新联网时自动提交；2）Fundpg：为用户建立了一个无损捐赠池，可以将一定比例的收益直接用于公有事业；3）Krypto Kredit：专为新兴市场（尤其是亚洲和非洲）建立的 Web3 交易信用评分平台。</p><a href="https://www.theblockbeats.info/news/35273">内容来源</a><p><strong>BlockBeats：</strong>基础设施：1）Bitcoin Vitalik's Vision (BVV)：又名「Satoshi's Stack」，旨在帮助比特币网络实现更多功能；2）Swappy：基于大语言模型（LLM）的跨链互操作协议，愿景是帮助人类像和语音助手谈话一样进行跨链 Swap 操作；3）Rhinestone：基于零知识证明、账户抽象、erc-4337 标准的钱包项目，类似于钱包插件管理器，允许用户使用来自若干不同钱包中最喜欢的功能定制专属个人的钱包使用体验；4）Slang：开发者工具，旨在简化去中心化数据库交互的过程；5）Inheritable：符合欧盟通用数据保护条例（GDPR）的遗嘱验证机制，帮助用户顺利继承链上遗产，目前建立在 Base 上；</p><a href="https://www.theblockbeats.info/news/35273">内容来源</a><p><strong>BlockBeats：</strong>DAO&Community：1）GovBlocks：通过抽象的成员身份验证加强 DAO 治理，允许成员使用任何标准提议和投票倡议；2）M3mber：ENS 跨链域名封装器，允许对各种 NFT 门控或许可社区的访问控制。该团队还开发了基于 ENS 子域名的组织管理工具 ORG3；3）Denoted：类似 Notion，输入「/」符号可以轻松访问区块链数据。</p><a href="https://www.theblockbeats.info/news/35273">内容来源</a><p><strong>BlockBeats：</strong>Metalance（NFT + 游戏 + 元宇宙）：1）Bazaark：游戏 NFT 专属市场，通过向 NFT 输入 ZK 属性实现持有和管理。适合在 MMO 游戏中广泛使用，并可进行选择性展示；2）Mymule：链上宝可梦风格的虚拟宠物，需要抚摸、喂食等电子宠物风格的互动，代币将作为收集收益；3）Synesthesia：音乐 NFT 项目，计划与 Spotify 整合。</p><a href="https://www.theblockbeats.info/news/35273">内容来源</a><p><strong>BlockBeats：</strong>DeFi：1）zkPoEx：基于 ZK 的工具，旨在使黑客发现漏洞并获得奖励。通过该工具，白帽黑客能够建立攻击证据，证明攻击类型，在不暴露攻击本身的前提下获得 bug 奖励；2）Tribe.credit：授权任何人提供或接收信用的点对点借贷协议，旨在增加和实施 DeFi 信用体系；3）Gasly：用于扩展支付 Gas 时的 token 选项，可以实现任意链上以任何方式支付 Gas。</p><a href="https://www.theblockbeats.info/news/35273">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9353,18 +9365,6 @@ Impossible Cloud 希望为希望深入研究 web3 技术的 B2B 客户提供去�
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>NFTfi 是目前加密经济增长最快的领域，Bankless 作者 William M. Peaster 发文介绍 5 个小众项目，包括 Caviar、Papr、Insrt Finance、MetaStreet 和 Hook，供 NFTfi 新手参考。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://newsletter.banklesshq.com/p/5-promising-nftfi-opps">https://newsletter.banklesshq.com/p/5-promising-nftfi-opps</a></p>
 <p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1）Caviar：用于交易 NFT 的 AMM 协议，支持通过 ERC20 对 NFT 碎片化，还提供「Desirability Classifier」系统，将 NFT 系列组织成子池，增加稀有 NFT 的流动性并激励 LP 交易活动；2) Papr：灵活、有弹性且无锁定期的 NFT 借贷协议。以 papr 代币为中心，借款人将 NFT 作为抵押品发送到 papr 控制器智能合约时铸造代币，并可按需出售，在 papr 交易价格和协议利率之间创造持续的反馈循环；【原文为英文】</p><a href="https://newsletter.banklesshq.com/p/5-promising-nftfi-opps">内容来源</a><p><strong>William M. Peaster：</strong>3) Insrt Finance：长期收益策略 NFT 协议，其第一类产品为 ShardVaults，描述为「部分 NFT 现货敞口与被动收益农业相结合」。Shard 是代表 ShardVault 基础 NFT 部分所有权的 NFT，通过其提供低价的蓝筹 NFT 所有权，随着基础 NFT 在 NFTfi 中运行，为持有者产生收益；【原文为英文】</p><a href="https://newsletter.banklesshq.com/p/5-promising-nftfi-opps">内容来源</a><p><strong>William M. Peaster：</strong>4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】</p><a href="https://newsletter.banklesshq.com/p/5-promising-nftfi-opps">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】链上稳定币能否突破法币主导的市场？]]></title>
-        <id>https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins</id>
-        <link href="https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins"/>
-        <updated>2023-03-01T10:59:32.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>此前，BUSD 置身 SEC 和 NYDFS 的监管风波。Dose of DeFi 作者 Chris Powers 发文探讨另一类规模更小、稳定性更差的稳定币。它们试图在链上运行，且不受 TradFi 基础设施和法定支持的稳定币所面临的监管限制，最有潜力释放新的信贷创新和效率。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins">https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins</a></p>
-<p><strong>文章作者：</strong></p><p>Chris Powers</p><hr><h3>观点：</h3><p><strong>Chris Powers：</strong>MakerDAO 在前两年不断发展壮大，代价是目前 Dai 近 60% 由法定稳定币支持，暴露出每个创新稳定币最终都会遇到的难题：如何完全依赖链上资产和执行机制来扩展和增加供应。虽然 MakerDAO 正在推进提高 Dai 储蓄率等战略举措，但它似乎已成为其自身成功的受害者，同时处于去中心化和增长模式，进行监管套利，但也在易受监管的真实世界资产上下重注；【原文为英文】</p><a href="https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins">内容来源</a><p><strong>Chris Powers：</strong>Aave 的稳定币 GHO 两周前已在测试网部署，设计方面没什么创新，它的成功将取决于利用 Aave 网络效应的能力。Aave 几年来一直在借贷领域处于领先地位。就像一家拥有广泛分布的银行一样，Aave 将尝试利用其现有贷款完成 GHO 超募。它如何处理挂钩并管理其对法币支持的稳定币的依赖是另一个问题；【原文为英文】</p><a href="https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins">内容来源</a><p><strong>Chris Powers：</strong>crvUSD 将基于一种创新设计，其中清算被特殊用途的 AMM 取代。提高抵押品效率的一种方法是通过提供流动性从中赚取费用；Gyroscope 是另一个即将在以太坊上推出的创新稳定币，通过元聚合和索引限制对单一预言机价格的依赖，它还引入了 Maker 的挂钩稳定模块的更新版本，试图防止陀螺仪稳定币（GYD）在寻求挂钩稳定时中被中心化的稳定币增选。【原文为英文】</p><a href="https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins">内容来源</a><p><strong>Chris Powers：</strong>规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】</p><a href="https://doseofdefi.substack.com/p/stablecoins-part-2-can-on-chain-stablecoins">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
