@@ -107,7 +107,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5545,
+          "wordCount": 5339,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -217,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">https://twitter.com/blockomotive/status/1631996549214482432</a></p>\n<p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a>",
           "link": "https://twitter.com/blockomotive/status/1631996549214482432",
           "publishedOn": "2023-03-05T08:00:08.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】ERC4337 的两个挑战：中心化与经济模型",
           "imageUrl": null
         },
@@ -327,7 +327,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；以太坊主网将于 Goerli 升级后约 4 周进行 Shapella 升级；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023\">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>\n<p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>",
           "link": "https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023",
           "publishedOn": "2023-03-04T07:31:28.000Z",
-          "wordCount": 3471,
+          "wordCount": 3265,
           "title": "【英文】以太坊生态周报：Shapella 升级、Dencun 升级、ERC6596",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28c0b138-1b77-4196-909f-9076a2ccdaa3_800x800.png"
         },
@@ -527,7 +527,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 538,
+          "wordCount": 534,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2 月 25 日，Solana 网络再次中断，这是自 Solana 2020 年上线以来后的第 9 次宕机。网络中断频发、链上数据下降，Solana 似乎正在走下坡路。区块链研究员 francesco 通过 4 个链上指标论证了 Solana 当前不容乐观的发展形势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>反复出现的网络中断问题可能是因为 Solana 代码库真的很复杂，而且成千上万的验证器数量意味着测试新更新非常复杂。为了加快开发，他们在部署时可能会遇到一些问题。在 Solana 上的所有 TPS  中，只有 10% 是真实交易，其余均是验证者通信。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a><p><strong>francesco：</strong>指标 1&2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a>",
           "link": "https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain",
           "publishedOn": "2023-03-03T08:13:06.000Z",
-          "wordCount": 7595,
+          "wordCount": 4319,
           "title": "【英文】Solana 的困境：网络中断频发、链上数据下降…",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefdf471d-18b7-456b-9ef4-8f83aacf9b50_2400x1350.png"
         },
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 666,
+          "wordCount": 664,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -1814,7 +1814,7 @@
           "description": "撰文：王超\n美国时间 3 月 1 日下午，美国犹他州立法机构在激烈的讨论之后以微弱优势通过了 H.B. 357 法案 - 《去中心化自治组织修正案》，这标志着 DAO 作为一种组织形式在美国获得了独立的法律地位。\nDAO 拥有法律实体非常常见，并且越来越多的 DAO 都在进行这一步工作 ( 具体可以参考《DAO 的法律结构》一文），本人也曾参与在美国特拉华州注册 LLC 的 Venture DAO。除了 LLC，在不涉及投资业务的 DAO 里，更多则是选择以基金会、LCA、UNA、特别目的信托、合作社等不同形态来代表 DAO 以便进行业务同时实现 DAO 成员的法律保护。而 2021 年怀俄明州通过的 DAO 法案也是将 DAO 纳入 LLC 体系进行管理。\n因此无论采用以上哪种形态，本质上都是在 DAO 之外包了一层现有形式的法律实体。也就是过去在法律层面上并不存在 DAO 这个东西，它是 LLC，是公司、是合作社、是基金会、是信托，但选择以 DAO 组织形式方式去运营。\n而此次立法通过标注着 DAO 并不需要再进行实体包装，DAO 本身已经成为了一种被犹他州法律所认可的独有的组织形式。此外 DAO 法案还对 DAO 成员的法律和税务责任做了明确和保护、并且支持 DAO 以合伙制形式给成员分钱。\n昨天通读了一遍该法案，划重点如下：\n组织地位及责任\nDAO 的形成\n成员定义及责任\n通读下来可以看出方案比较专业，甚至针对区块链网络发生硬分叉的情况还有专门的一章进行详细说明，具备较强的实践性。随着时间发展很多 DAO 的业务正在进入深水区，犹他州给大家提供了一个很好的合规框架。\n该法案将于 2024 年 1 月 1 日起生效。\n( 作者不持有法学相关学位、解读可能存在错误、不构成法律建议）",
           "link": "https://www.panewslab.com/zh/articledetails/7g6hk8g7.html",
           "publishedOn": "2023-03-06T04:29:43.000Z",
-          "wordCount": 1382,
+          "wordCount": 1378,
           "title": "DAO不再处于灰色地带？一文梳理犹他州创新DAO法案的重点内容",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/06/images/uN2Laqtp10.jfif"
         },

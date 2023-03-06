@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T08:44:36.349Z</updated>
+    <updated>2023-03-06T08:49:53.998Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【长推】详解 LionDEX 的 PVP AMM 机制：优势及挑战]]></title>
+        <id>https://twitter.com/NintendoDoomed/status/1632628222268678144</id>
+        <link href="https://twitter.com/NintendoDoomed/status/1632628222268678144"/>
+        <updated>2023-03-06T08:31:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LionDEX 是部署在 Arbitrum 上的去中心化永续合约交易所，采用创新的 PVP AMM 机制。加密研究员 CapitalismLab 对这一机制的优势和挑战进行详细解读，并对 LionDEX 的具体实现方法进行简要介绍。CapitalismLab 认为，这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">https://twitter.com/NintendoDoomed/status/1632628222268678144</a></p>
+<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>PVP AMM 的核心奥义在于：1）Trader 把筹码即保证金放在一个池子里；2）「相对」赚的更多的分到更多的筹码，「相对」赚的少的就亏钱。所谓 PVP，核心就在于「相对」而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌。交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，需要赚的相对比整体更多才能真的 U 本位赚到钱。</p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">内容来源</a><p><strong>CapitalismLab：</strong>PVP AMM 的优势在于：1）纯 Alpha 交易，不需要太考虑大盘行情；2）可以不需要额外 LP；3）解决所谓单边行情问题。PVP AMM 面临的挑战：1）冷启动：需要有足够的 trader，交易体验才会好；2）使用门槛：机制复杂导致用户理解困难，需要教育好用户才能避免误会。</p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">内容来源</a><p><strong>CapitalismLab：</strong>LionDEX 主要做了 4 件事：1）实现了 GMX X4 计划中的 PVP AMM；2）LP 叠加 GLP 来做 （X4 例子中是 USDC），赚两份收益；3）做了一个保险模块，减少爆仓风险，提升高杠杆用户体验；4）做了一套促进交易的经济模型，解决鸡生蛋蛋生鸡问题。</p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【长推】详解 LionDEX 的 PVP AMM 机制：优势及挑战]]></title>
         <id>https://twitter.com/NintendoDoomed/status/1632628222268678144</id>
@@ -82,6 +94,30 @@ PVP AMM 中两个挑战有一个已经照顾到了，还需要看看其如何降
         <summary type="html"><![CDATA[<h3>隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放</h3>
 <p>隐私网络 Iron Fish 宣布开放空投 KYC，目前仅限参与 Pull Request 用户。接下来的几天里，将按顺序向第 1 阶段、第 2 阶段和第 3 阶段的积分用户开放。据悉，激励计划共计空投 94 万枚代币。此外，Iron Fish 将于 3 月 14 日上线主网，届时铸造完全私有的自定义资产、销毁、交易、挖矿和托管节点等功能均将可用。</p>
 <p><a href="https://twitter.com/ironfishcrypto/status/1632560634037518337">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放]]></title>
+        <id>https://twitter.com/ironfishcrypto/status/1632560634037518337</id>
+        <link href="https://twitter.com/ironfishcrypto/status/1632560634037518337"/>
+        <updated>2023-03-06T07:57:15.000Z</updated>
+        <summary type="html"><![CDATA[<h3>隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放</h3>
+<p>隐私网络 Iron Fish 宣布开放空投 KYC，目前仅限参与 Pull Request 用户。接下来的几天里，将按顺序向第 1 阶段、第 2 阶段和第 3 阶段的积分用户开放。据悉，激励计划共计空投 94 万枚代币。此外，Iron Fish 将于 3 月 14 日上线主网，届时铸造完全私有的自定义资产、销毁、交易、挖矿和托管节点等功能均将可用。</p>
+<p><a href="https://twitter.com/ironfishcrypto/status/1632560634037518337">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字分析衍生品王位之争：dYdX、GMX 与 SNX]]></title>
+        <id>https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08</id>
+        <link href="https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08"/>
+        <updated>2023-03-06T07:41:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 投资机构 Cipholio Ventures 出品的研报，内容涵盖衍生品领域的龙头项目：dYdX、GMX 和 SNX 的基本概况、项目团队、发展历程和现状、代币经济学、重要数据以及缺陷和风险等等。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08</a></p>
+<p><strong>文章作者：</strong></p><p>Cipholio Ventures</p><hr><h3>观点：</h3><p><strong>Cipholio Ventures：</strong>dYdX 目前最需要克服的是代币的效用问题，这个问题是否能解决需要等待其 V4 Cosmos 版本的到来，长期来看还是有上涨潜力的。目前，dYdX 拥有三个项目中最高的 FDV/TVL，为 7.75，且由于核心问题能不能解决还未成定数，近期的增长不一定能一直持续。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a><p><strong>Cipholio Ventures：</strong>GMX 目前的隐患是牛市死亡螺旋问题，长期稳定发展需要团队对逻辑的优化。但是其代币效用是三个之中最高的，在一段时间内会有较高的需求量。此外，GMX 在其他协议上的引入也拉动了需求量的上涨，短期内在市场上可能会有较好的表现。而且该项目带动了整个 Arbitrum 生态。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a><p><strong>Cipholio Ventures：</strong>SNX 的核心价值是 synth 之间的交易的低费用，这一价值已经在原子交换期间的高交易量中体现了。从 2018 年起至今，SNX 的整体交易数据与另两个不在一个量级，且 Synthetix 的产品过于复杂，要尽善尽美做全要更长的时间。主协议有流动性、交易费率上的硬伤，会削减代币效用。因此，投资周期会是三个项目里最长的。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
