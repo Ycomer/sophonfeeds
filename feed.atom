@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T10:31:26.818Z</updated>
+    <updated>2023-03-06T10:38:18.280Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一张Polygon zkEVM上线的海报，引发公链创始人们的扩展性大讨论]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/5d3wq6jf.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/5d3wq6jf.html"/>
+        <updated>2023-03-06T10:30:29.000Z</updated>
+        <summary type="html"><![CDATA[2月26日，Polygon zkEVM一张预告主网上线的宣传海报，却引发了“以太坊”等效性一词用法的争论，Scroll创始人Ye Zhang严正指出Polygon zkEVM不具备这一特性。从事后Polygon Labs负责人Ryan Wyatt的回应来看，这更像是团队内部营销人员和技术人员沟通不到位的结果。
+这并非小题大做，何种程度上的有效性甚至会直观关系到L1/L2性能和扩展性，就在此前2天，Solana联创Toly发文认为ZK L2s 不会是解决可扩展性的最佳方案。
+
+2月27日，而本次事件主角Polygon技术团队也在积极回应关于zkRollup工作原理，解释zkRollup的扩展性指向何处。
+3月1日，Solana也宣布“改进网络升级的计划”，重新扛起以太坊杀手的大旗，但是其在经历多次宕机后运作机制仍未根本革新，而更像是危机后的优化，也给高性能L1取代以太坊一事蒙上了阴影。
+本文将结合多位L1/L2创始人的推文，为大家揭示关于公链性能的大讨论的来龙去脉。
+Polygon的zkEVM，严格来说是一种zk VM机制，通过映射的方式在L2层面跟以太坊主网保持一致，zk技术的引入是其称为zk VM的原因，而在非严格意义上而言，只要能保持同步性，那么称为zk EVM便无伤大雅。
+但根据Scroll创始人Ye Zhang的观点，EVM等效性并不完全等于以太坊等效性，因为后者至少还需要在数据存储方面保持跟以太坊主网的一致。
+
+从更广泛的角度而言，目前的各类L2s或者以太坊跨链桥都不能宣称具备以太坊等效性，以太坊后续后更为模块化，更为复杂的堆栈也会带来更困难的兼容性。
+
+可以举一个简单的例子来直观理解二者的不同，Optimism在产品规划中涉及二者的区别，在其看来：
+EVM等效性：主要是从dApp开发者视角而言，其在OVM上的体验和在以太坊主网开发dApp别无二致，因此OVM便具备EVM等效性；
+以太坊等效性：主要是从协议开发者视角而言，需要在客户端、通信层、共识层和执行层等方面和以太坊保持较高的一致性。
+
+而在EVM等效性的争论之余，还应该注意到关于扩展性的争执，这也是目前各类基于以太坊L2和高性能L1之间的争夺焦点。
+就在Polygon zkEVM预告上线的前两天，即2月24日，Solana联创Toly便在推特发文质疑ZK L2s对公链扩展问题的解决能力，以抵消公众对Solana运作机制的质疑。
+他的主要观点如下:
+因此，ZK方案更适合单次、低频的场景，比如批量结算，而公链级的可扩展性还是需要Solana。
+但不凑巧的是，Solana在2月25号发生严重的宕机事故，社区、工程师和验证者在经历两次重启后才重新恢复主网，而屋漏偏逢连夜雨，“好事者”趁机对Solana的机制产生质疑，推特用户DBCryptoX认为“Solana上90-95%的交易都包含验证者消息和链上投票”。
+
+Solana使用PoS共识机制，其自称为 "历史证明 "（Proof of History）机制。PoH使网络能够更快地运行，因为节点不需要通过通信来验证一个区块，PoH使验证者能够精确确定某一时刻上的事件。
+一方面，这种机制带来了高度的统一性，带来了远超以太坊主网的TPS，但另一方面确实会严重占用链上区块空间，一旦出现问题，则很难取得共识以恢复网络。至少在2021-2023年间，每年均发生至少一次以上的主网宕机事件。
+宕机事件为Solana的可扩展性贡献了反面教训。Solana联创Toly认为ZK L2上的证明者（prover）无法做到实时执行，因此，最终ZK L2s的链上执行将和既定顺序不一致，为此，要么用户运行完整节点增加网络负担，要么依赖少数诚实节点以提高效率而走向中心化。
+但目前的事实证明，高性能L1 Solana似乎也无法解决实时执行问题，毕竟，垮掉的网络最后也会丢失既定顺序，而强行恢复后的数据也会变成人为认定的“共识”，而非网络本身的自发状态。
+Polygon zkEVM先是遭遇Solana质疑，后是宣发出现乌龙事件，被质疑不专业和具有误导性。因此其开发者Jordi Baylina跳出来承担了对专业性的挑战，集中在解释证明者（prover）并非是ZK L2s的限制因素，真正的阻碍者其实是DA（数据可用性）。
+首先是zkRollup的运作流程，如下图所示，大致可分为三步：
+保持网络同步，无论是何种架构的Rollup，只要涉及L2上的数据，都需要为批量处理的消息进行有效性证明，以在最终回传至L1时可以得到确认，
+聚合证明生成，需要使用zk证明方案（ZKP），并行处理可以加速这个过程，但批量证明的生成本身确实需要一些时间。甚至可以设计动态机制，网络证明者的数量可以根据网络需求进行增加或减少。
+在ZKP运行后，会对数据生成一个完整的树状证明网络，可以让不同的服务器进行数据验证，并将结果发送到L1链上。
+其次是成本问题，其中最关键的是证明成本，ZK运作调用的软硬件和时间都会被TX（交易）费用纳入计算因子，最终反映到网络的Gas Fee上，而不同的算法，如STARK/SNARK/FLONK等会大幅优化网络使用成本。而其中的关键还在于，数据的加载并不需要完全顺序执行，以便于并行化处理。
+因此，Solana联创Toly所认为的证明者（Prover）并不能阻碍ZK证明方案的运行，而真正的阻碍是数据可用性，需要ETH 2.0和DankSharding、EIP4844等方案来解决。
+
+结论：扩展性究竟走向何方
+围绕Polygon zkEVM的争论将继续进行，其中的关键在于zk EVM究竟能在多大程度上解决当前的扩展性问题，这也是一众L1/L2s接下来面临大规模dApp和用户量所直面的考验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一张Polygon zkEVM上线的海报，引发公链创始人们的扩展性大讨论]]></title>
         <id>https://www.panewslab.com/zh/articledetails/5d3wq6jf.html</id>
