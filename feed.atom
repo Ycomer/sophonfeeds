@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T07:44:24.672Z</updated>
+    <updated>2023-03-06T07:49:59.013Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -151,6 +151,18 @@ L2 的 sequencer 非常中心化。
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】一文解读锚定资产定价风险的协议 Y2K Finance]]></title>
+        <id>https://twitter.com/0xShinChannn/status/1632369004647157760</id>
+        <link href="https://twitter.com/0xShinChannn/status/1632369004647157760"/>
+        <updated>2023-03-06T07:21:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 0xShinChan 撰推解读 Y2K Finance 协议原理、协议机制和代币经济模型，并剖析其收益等绩效指标，以及如何监控 Y2K 上的「聪明钱」。该 KOL 认为 Y2K 的低风险商业模式可以随着存款的增加而提高盈利能力，吸引寻求利润的交易者。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">https://twitter.com/0xShinChannn/status/1632369004647157760</a></p>
+<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Y2K Finance 提供了一套针对外来挂钩市场而设计的链上结构化产品，用户可以对特定挂钩资产偏离其「公平隐含市场价值」的风险进行对冲、杠杆、投机和交易以获得利润，其提供 3 种主要产品：1）Earthquake：承担风险 / 防止潜在资产绕行的金库；2）Tsunami：抵押债务驱动的借贷市场；3）Wildfire：购买 / 出售代币化 Earthquake 头寸的市场。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>协议机制：1）Earthquake 金库目前支持的锚定资产包括 DAI、FRAX、MIM、USDC 等。2）Earthquake 提供 2 个金库来应对不同的风险偏好，包括对冲金库和风险金库。3）每个金库由 3 个关键属性组成：Asset、Epoch、Strike。Asset：金库对冲的挂钩资产，Epoch：必须发生脱钩事件才能有效的操作周期，Strike：触发挂钩事件的价格阈值。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>在没有脱钩的情况下：1）对冲头寸被清算，导致交易员们损失了全部 ETH，赢取了 $Y2K。2）风险金库获胜，交易者从对冲金库中收到与金库大小成比例的 $ETH ，加上 $Y2K 并减去费用。如果发生脱钩则与之相反。此外，Y2K 财政部收取存入对冲和风险金库的资金的 5% 作为费用。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>绩效指标：自 2022 年 12 月下旬推出以来，Y2K 在 2.5 个月内产生了超过 52 万美元的收入。30% 的 Y2K 流通量被锁定。$USDT 是最常用的对冲资产，$USDC 是最常用的风险资产。其年化收益约为 250 万美元，市盈率为 32.4，相当疯狂的盈利预测。通过监控「聪明钱」发现两个最大的储户在一个星期的周期创造了超过 100%-200% 的 APR。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Polygon NFT生态系统一览：Web2公司入场、PFP NFT、游戏和二级市场应用]]></title>
         <id>https://techflowpost.mirror.xyz/NCyc8_2XkAyhp1YlBG4AmrPqzmaeVvaq6AzqWhxP9hY</id>
         <link href="https://techflowpost.mirror.xyz/NCyc8_2XkAyhp1YlBG4AmrPqzmaeVvaq6AzqWhxP9hY"/>
@@ -180,6 +192,7 @@ Read the full entry]]></summary>
         <link href="https://www.panewslab.com/zh/sqarticledetails/bpgx0jrl.html"/>
         <updated>2023-03-06T07:02:02.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月6日消息，据华盛顿邮报报道，如果Silvergate Capital Corp.倒闭，将可能成为第一家因不良负债而不是不良资产倒闭的银行，因为其坏账都是存款而不是资产。Silvergate的存款并不是正常意义上的存款，其特征更像是“速汇金”MoneyGram International或“西联汇款”Western Union等汇款公司持有的浮动现金，而Silvergate吸引现金的唯一原因是结算进出一组特定资产的交易，但Silvergate的存款移动速度可能比这种现金浮动速度慢的多，只要市场对加密货币兴趣下降，存款人就会开始消失。
+大型银行必须保留足够的优质流动资产，以有能力应对30天的存款提取。而Silvergate冒了更大的风险，Silvergate将大部分新资金投入了较长期的债券中，在去年第三季度末其存款开始迅速缩水之前，仅有11%的流动性资产是储存在美国联邦储备银行和其他银行的现金，其余部分是证券。而这些证券中仅有11%是美国国债，其余大部分是具有10年以上合同到期期限的抵押贷款支持债券，因此在其开始抛售这些证券以满足提款需求之前，其债券持仓已经遭受了10亿美元的公允价值损失。Silvergate规模太小，不受流动性规则的约束。Silvergate无论如何都可能遇到这些问题，但考虑到其存款的极其快速增长和共同来源，其监管机构应该在资金迅速消失之前仔细调查。
 此前3月2日消息，Silvergate披露其可能"资本不足"，正在“重新评估业务和战略”。]]></summary>
         <author>
             <name>PANews News</name>
