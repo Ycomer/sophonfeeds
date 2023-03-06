@@ -37,7 +37,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LSD 战争正在迅速升温，但目前流动性质押面临中心化和可扩展性的挑战，DeFi 研究员 Poopman 介绍撰推介绍多链流动性质押协议 Stader，解析其如何通过多池架构和 DVT 实现仅使用 4ETH 质押，剖析其代币经济模型，认为 Stader 具有巨大潜力，可能会改变目前的质押生态格局。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">https://twitter.com/poopmandefi/status/1632418517747388419</a></p>\n<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>为解决 LSD 面临的中心化和可扩展性问题，Stader 引入价值增长代币「ETHx」，允许无许可节点运营商仅使用 4ETH 进行质押。如何做到？1）设计多池架构，每当用户存入 ETH 时，Stader 池管理器将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：无许可质押池，DVT 质押池，许可质押池。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a><p><strong>Poopman：</strong>2）分布式验证器技术 (DVT)：通过利用 DVT 的高容错率，减少了罚没（slashing）的可能性，将无许可节点所需的保证金降低到 4ETH。DVT 的实施可以增强 LSD 的去中心化和可扩展性。为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商，有助于确保 ETHx 在早期的表现更加稳定。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a><p><strong>Poopman：</strong>代币经济模型分为两个阶段：1）要为 Stader 运行一个节点，每个验证者都必须存入（4 ETH + 0.4 ETH $SD）作为质押。额外的 $SD 在罚没的情况下起到保护作用，为了激励节点运营商，价值约 1-200 万美元的 $SD 代币将在运营的第一年分发给验证者。除了 $SD 质押奖励之外，用户还可以从其他用户汇集的 28 ETH 产生的质押奖励中获得 5% 的佣金。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a><p><strong>Poopman：</strong>2）节点运营商可以无抵押借入 $SD 以支付 $SD 保证金中的 0.4 ETH 。出借 $SD 的人可以获得 10% 的节点佣金，并获得额外的 $SD 激励。ETHx 质押将推动对 $SD 的需求，因为它是运行节点要求的一部分。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1632418517747388419\">内容来源</a>",
           "link": "https://twitter.com/poopmandefi/status/1632418517747388419",
           "publishedOn": "2023-03-06T05:37:41.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】新项目前瞻：主打 DVT 技术的多链流动性质押协议 Stader",
           "imageUrl": null
         },
@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Fantom 原生稳定币 fUSD 即将迎来 v2 升级，允许使用 fUSD 支付链上交易费用。Fantom 生态 TVL 排名前三的去中心化交易所 Equalizer 团队成员 levy 以 Equalizer 为例，设想了 fUSD 将如何与生态项目结合，创造新的增长飞轮。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">https://twitter.com/levysaur/status/1632462908549664768</a></p>\n<p><strong>文章作者：</strong></p><p>levy</p><hr><h3>观点：</h3><p><strong>levy：</strong>fUSD 的一个关键特征是它可以使用 wFTM 和 sFTM 进行铸造。目前有 14 亿以上的质押的 FTM（约 5.8 亿美元），这 5.8 亿美元的闲置资产可以在 300% 的抵押率下，铸造 2 亿美元的 fUSD。由于当前 FTM 的 TVL 只有 4.58 亿美元，在生态系统中注入 2 亿美元的 fUSD 意味着 43% 的增长。【原文为英文】</p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">内容来源</a><p><strong>levy：</strong>Equalizer 作为 Fantom 生态的去中心化交易所，可以在以下方面利用 fUSD 获得效益：1. 提供使用 fUSD 购买其他项目代币的服务；2. 开启 fUSD LP 流动性挖矿以获得更多 TVL；3. 在 dApp 中使用 fUSD 获得共同增长；4.fUSD 用于借贷，例如在 Tarot Finance 中获得杠杆。【原文为英文】</p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">内容来源</a>",
           "link": "https://twitter.com/levysaur/status/1632462908549664768",
           "publishedOn": "2023-03-06T05:09:01.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】Fantom 原生稳定币 fUSD 如何成为生态催化剂：以 Equalizer DEX 为例",
           "imageUrl": null
         },
@@ -67,7 +67,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5325,
+          "wordCount": 5339,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -97,7 +97,7 @@
           "description": "<h3>Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism</h3>\n<p>Tornado Cash 早期贡献者 Ameen Soleimani 发推称，Tornado Cash 分叉混币应用 Privacy Pools v0 现已上线 Optimism。Privacy Pools 具备可选择加入或退出的匿名集合，允许用户在无需透露整个交易历史的前提下，将自己从包含被盗或洗钱资金的匿名集合中删除。目前，发布的 Privacy Pools v0 是尚未经过审计的实验代码，是该协议的最小初始实现。</p>\n<p><a href=\"https://twitter.com/ameensol/status/1632083054272430080\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Pricacy Pools 代码库：https://github.com/ameensol/privacy-pools</p><a href=\"https://github.com/ameensol/privacy-pools\">内容来源</a>",
           "link": "https://twitter.com/ameensol/status/1632083054272430080",
           "publishedOn": "2023-03-06T03:04:55.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism",
           "imageUrl": null
         },
@@ -127,7 +127,7 @@
           "description": "<h3>NFT 项目 Doodles 发布 DoodleMAP，将构建以 OG Collection 为中心的「Doodleverse」</h3>\n<p>NFT 项目 Doodles 发布 DoodleMAP，DoodleMAP 以 OG Collection 为中心，连接了 Doodlebank、Dooplicator、Doodles Records、The Stoodio、Planets、Space Doodles、Doodles2 和 Genesis Box 等产品。Doodles 表示，DoodleMAP 体现了其正在构建的宇宙及连接的方式，如地图所示将继续对以太坊生态系统和 Web3 的承诺进行大量投资，同时探索新​​的方式让新用户更容易加入和留在社区。</p>\n<p><a href=\"https://twitter.com/doodles/status/1631711599261098001\">内容来源</a></p><hr>",
           "link": "https://twitter.com/doodles/status/1631711599261098001",
           "publishedOn": "2023-03-06T01:42:50.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "NFT 项目 Doodles 发布 DoodleMAP，将构建以 OG Collection 为中心的「Doodleverse」",
           "imageUrl": null
         },
@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">https://twitter.com/blockomotive/status/1631996549214482432</a></p>\n<p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a>",
           "link": "https://twitter.com/blockomotive/status/1631996549214482432",
           "publishedOn": "2023-03-05T08:00:08.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】ERC4337 的两个挑战：中心化与经济模型",
           "imageUrl": null
         },
@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 创始人 Martin Köppelmann 在 EthDenver 上分享了他认为的 L2 方案的 4 个问题，包括状态扩容、交易成本、资产退出和适用性，并畅想了一个使用 ZK-bridge 连接的以太坊宇宙。加密研究员 Luyao 对演讲的关键内容进行了整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">https://twitter.com/levi0214/status/1631924502354595840</a></p>\n<p><strong>文章作者：</strong></p><p>Luyao</p><hr><h3>观点：</h3><p><strong>Luyao：</strong>L2 最初的目的是，批量完成一堆交易，然后把结果同步回 L1。它是一种很临时的空间，而不是一个新的空间放一些永久的资产。长期来看， 即使 L2 被完美实现，依旧会有一些根本问题。问题 1：这个流程只适合状态不会膨胀的应用，比如交易所（只需要交易结果，不需要交易历史），但对于状态膨胀的应用无法扩容。</p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">内容来源</a><p><strong>Luyao：</strong>问题 2：交易成本。L2 峰值 gas 有时会到 $1 以上，即使 EIP4844 落实，gas 能降低 90% ，但依旧有两方面问题：1. 它对于需要 gas 在 1 美分以下（sbu-cent）的场景依旧不适用；2. 需求增加后，gas 依旧会升高。问题 3：L2 资产退出问题：1. 小额资产可能不够支付退出的 gas 费；2. 退出的带宽有限。问题 4：有些 app 无法被 roll up。例如 CirclesUBI、POAP，它们创造了很多状态，这些状态无法被压缩，所以 L2 对他们没用。</p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">内容来源</a><p><strong>Luyao：</strong>Köppelmann 提出了一个很有趣方案，类似于 Cosmos 的 IBC 模型。做另一个链，跟以太坊运行一样的东西，然后通过无信任的 ZK-bridge 来连接，组成一个以太坊宇宙（Ethereumverse）。 目前已有的 ZK-bridge 方案是利用 ZK 在一条链上运行另一条链的轻节点客户端，然后在其中去验证。这里无需信任，远比传统的 bridge 安全。</p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">内容来源</a>",
           "link": "https://twitter.com/levi0214/status/1631924502354595840",
           "publishedOn": "2023-03-05T06:58:21.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【长推】Gnosis 的创始人谈 L2 的局限性：畅想一个使用 ZK-bridge 连接的以太坊宇宙",
           "imageUrl": null
         },
@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PFP 是 NFT 最早也是最为成功的用例之一，在以太坊各类 NFT 中，PFP 占了 NFT 总市值的 70%。Delphi Digital 研究员 yh.ΞTH 将 NFT 的成功归结于易于理解和炒作，通过盘点 BYAC、Azuki、RTFKT、Doodles 等主流 PFP 项目进展及发展规划，yh.ΞTH 认为 2023 年 PFP 项目将更多地关注和发展主流市场。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">https://twitter.com/yh_0x/status/1631734848405790720</a></p>\n<p><strong>文章作者：</strong></p><p>yh.eth（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>yh.eth（Delphi Digital 研究员）：</strong>Azuki 建​​立了一个以社区为中心的清晰生态系统，而 Hilumia 的推出很可能将所有这些联系在一起。我认为，Hilumia 很可能是一个带有游戏元素的虚拟中心。它还将以高度可视化的方式展示团队正在与社区一起构建的内容。未来的模式很可能是团队继续专注于扩展其 IP 以及和社区共同创造新内容，并开启更高层次的视觉叙事。【原文为英文】</p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">内容来源</a><p><strong>yh.eth（Delphi Digital 研究员）：</strong>Doodles 也刚刚发布了他们的 DoodleMap，清楚地展示了他们想要成为娱乐和生活方式品牌的愿景，一个超越 Web3 并将渗透到主流意识中的品牌。从 Doodles 2 开始，该团队就致力于向主流受众扩展。2023 年可能是 Doodles 继续扩展到游戏、音乐、动画等各种垂直娱乐领域的一年，目标是创造一种文化热潮，从而带来对 Doodles 2 系列的需求。【原文为英文】</p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">内容来源</a><p><strong>yh.eth（Delphi Digital 研究员）：</strong>PFP 项目的成功将不仅仅是空投和其他财务激励。需要通过讲故事和其他独特的价值主张与品牌建立情感联系和参与。留存很重要，但如何获得新受众和建立新收入流的问题也很重要。这些 PFP 项目在 Web3 中建立了强大的社区，并正在朝着有趣的未来路线图建设。2023 年将是 PFP 项目向主流受众拓展的关键一年。【原文为英文】</p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">内容来源</a>",
           "link": "https://twitter.com/yh_0x/status/1631734848405790720",
           "publishedOn": "2023-03-05T04:37:40.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】Delphi Digital：盘点主流 PFP 项目进展及发展规划",
           "imageUrl": null
         },
@@ -217,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 提出了一种新的 Sequencer 交易排序策略，在当前的 FCFS （先进先出）策略中加入「Time Boost」机制，用户可以通过支付额外的手续费获得优先排序。区块链开发者 hhh_quickCreation 用通俗的语言解释了该机制，并分析了新机制为 Arbitrum 和 Sequencer 带来的收益。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">https://twitter.com/hhh69251498/status/1632037641184235520</a></p>\n<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>hhh_quickCreation：</strong>Arbitrum 目前使用的交易排序的方式是 FCFS（先进先出），但是这种方式有一个缺点，就是会造成延迟竞争（latency racing）。「延迟竞争」指的是，在当前 Arbitrum 的 Sequencer 的排序策略下，用户希望自己的交易比其他人的交易更快被接收，并且打包到 L1 的方法，就是向一个与 Sequencer 连接并且网络延迟最低的 fullnode 发送交易。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a><p><strong>hhh_quickCreation：</strong>为了避免物理资源浪费，Arbitrum 提出了一种 Time Boost 机制，你可以通过额外的手续费，让你的交易可以更快被处理（类似 bid for position）。这样可以带来一个很明显的好处，因为交易排序竞争而浪费的资源，现在转换成额外的交易手续费了，可以被 Arbitrum 网络去捕捉了。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a><p><strong>hhh_quickCreation：</strong>用户现在可以通过额外的收付费，将交易的 timestamp 提前，最多可以提前 0.5 秒。这是一条无限趋近于 0.5 秒加速的曲线，所以优先手续费实际上是上不封顶的，所以比如当 Arbitrum 网络上出现巨大的套利机会时，可以预见这部分套利的利润也有相当可观的部分会被 Sequencer 获取。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a>",
           "link": "https://twitter.com/hhh69251498/status/1632037641184235520",
           "publishedOn": "2023-03-05T03:48:04.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【长推】白话解读 Arbitrum 新交易排序策略：对 Sequencer 和 Arbitrum 有何影响？",
           "imageUrl": null
         },
@@ -227,7 +227,7 @@
           "description": "<h3>Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖将于 3 月 6 日开始</h3>\n<p>Yuga Labs 在推特发文称，TwelveFold 拍卖将于北京时间 3 月 6 日上午 7 时开始，3 月 7 日上午 7 时结束，持续 24 小时。TwelveFold 是 Yuga Labs 推出的基于 Ordinal 协议的比特币 NFT 系列，包含 300 件限量版生成艺术作品，本次拍卖总共将拍卖 288 个 NFT。</p>\n<p><a href=\"https://twitter.com/yugalabs/status/1632162026641342469\">内容来源</a></p><hr>",
           "link": "https://twitter.com/yugalabs/status/1632162026641342469",
           "publishedOn": "2023-03-05T02:52:16.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖将于 3 月 6 日开始",
           "imageUrl": null
         },
@@ -267,7 +267,7 @@
           "description": "<h3>Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护</h3>\n<p>Coinbase 提醒用户将于太平洋时间 3 月 4 日按原定计划停机 8 小时进行技术升级维护。Coinbase 预计将于太平洋时间 3 月 4 日 8:00 至 9:00 开始（北京时间 3 月 5 日 0:00 至 1:00）暂停 Coinbase․com 上的交易和转账，停机维护将于太平洋时间 9:00 左右（北京时间 3 月 5 日 1:00）开始。</p>\n<p><a href=\"https://twitter.com/coinbase/status/1631780257987723265\">内容来源</a></p><hr>",
           "link": "https://twitter.com/coinbase/status/1631780257987723265",
           "publishedOn": "2023-03-04T08:27:31.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护",
           "imageUrl": null
         },
@@ -277,7 +277,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今天 Uniswap 宣布推出开源自托管移动端钱包测试版本。加密货币研究员 lgnas 认为该移动端钱包缺乏颠覆性的创新，仍然使用助记词方法来创建钱包，Uniswap 本可以做出更多的功能，并阐述了得出此观点的理由。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/defiignas/status/1631873148969943040\">https://twitter.com/defiignas/status/1631873148969943040</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Uniswap 的移动钱包并没有什么革命性的东西。它仍然使用相同的助记词方法来创建一个钱包，可以在 iCloud 或纸上进行备份。但他们本可以做得更多，比如使用账户抽象法来创建一个带有电子邮件 / 电话号码的钱包。【原文为英文】</p><a href=\"https://twitter.com/defiignas/status/1631873148969943040\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Uniswap 并不是第一个推出移动应用的 DEX。1inch 一年前就推出了他们的 1inch 钱包。它虽然也没有使用账户抽象，但提供了比 Uniswap 的新钱包更多的功能，而且价格也更有优势。【原文为英文】</p><a href=\"https://twitter.com/defiignas/status/1631873148969943040\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>有一些技术比如 Biconomy 的 SDK 可以将多链体验抽象为一键点击。或者像 OKX Web3 这样的钱包支持一键跨链桥和互换交易。更好的体验是建立在一个单一的超级应用程序里，Uniswap 本可以这样做。【原文为英文】</p><a href=\"https://twitter.com/defiignas/status/1631873148969943040\">内容来源</a>",
           "link": "https://twitter.com/defiignas/status/1631873148969943040",
           "publishedOn": "2023-03-04T07:49:11.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】观点：Uniswap 新推出的移动端钱包缺乏创新",
           "imageUrl": null
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 LSD 领域的主要参与者有 LidoFinance、StakeWise、pStake Finance 等。市值较小的项目尚未受到市场关注。加密货币研究员 CryptoBlooom 简述了 LSD 概念，并从产品功能、风险等方面介绍了小市值 LSD 项目 -- Liquid Finance 。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptoblooom/status/1631652512330817538\">https://twitter.com/cryptoblooom/status/1631652512330817538</a></p>\n<p><strong>文章作者：</strong></p><p>CryptoBlooom</p><hr><h3>观点：</h3><p><strong>CryptoBlooom：</strong>产品：Liquid Finance 旨在通过 FraxFinance 的部分准备金模型为 DeFi 提供流动性。lqETH 和 LIQD 的双代币系统使项目能够稳定 lqETH 的价格。该协议将在增长阶段收集与 ETH 、 BTC 和 DAI 配对的 lqETH 的 LP，以从更广泛市场中的定价低效中捕获 MEV，并无限期地维持协议的收入。此外，还能够从闪电贷的定价低效中捕获 MEV。【原文为英文】</p><a href=\"https://twitter.com/cryptoblooom/status/1631652512330817538\">内容来源</a><p><strong>CryptoBlooom：</strong>风险：团队是匿名的，找不到关于他们的任何信息；代币供应无上限。官方文档声称技术在模拟中经过了实战测试，然而 Luna 当时也有同样的说法，而它最后崩盘了。【原文为英文】</p><a href=\"https://twitter.com/cryptoblooom/status/1631652512330817538\">内容来源</a>",
           "link": "https://twitter.com/cryptoblooom/status/1631652512330817538",
           "publishedOn": "2023-03-04T06:59:54.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】新项目前瞻｜市值小于一百万的 LSD 项目：Liquid Finance",
           "imageUrl": null
         },
@@ -347,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>BTC 债权解锁、上海升级 ETH 提款、Silvergate 崩盘等因素或成为目前加密市场的主要阻力。加密货币 KOL Miles Deutscher 列出了 5 个主要市场阻力因素，并解读了每个因素将如何影响市场。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/milesdeutscher/status/1631696090067255296\">https://twitter.com/milesdeutscher/status/1631696090067255296</a></p>\n<p><strong>文章作者：</strong></p><p>Miles Deutscher</p><hr><h3>观点：</h3><p><strong>Miles Deutscher：</strong>1）BTC 债权解锁。142,000 BTC 将解锁给 Mt. Gox 债权人。我预计大量债权人将持有全部或部分原始 BTC 。由于相关变量的不可预测性，很难提供一个准确的预测，但 UBS 的策略师表示，新增供应将「不那么集中」。2）上海升级 ETH 提款。尽管上海升级可能是 ETH 质押行业的看涨催化剂，但普遍的共识是它将放大抛售压力。我预计抛售压力不会大大压倒需求，市场很可能通过前期的抛售来为这种影响定价。【原文为英文】</p><a href=\"https://twitter.com/milesdeutscher/status/1631696090067255296\">内容来源</a><p><strong>Miles Deutscher：</strong>3）Silvergate 崩盘。因为 FTX 崩盘，Silvergate 在 22 年第 4 季度亏损 10 亿美元，同时还面临美国司法部的监管调查，导致其股价暴跌。由于 Silvergate 与加密机构和 USDC 的紧密联系，如果出现全面崩盘，可能会产生下游的影响。4）宏观因素。近期 CPI 和 PCE 数据均超预期，这导致加息概率增加。5）监管。我们目前正处于美国有史以来最大规模的加密打击行动之中。如果 2 月预示着即将到来的事情，那么预计 2023 年剩余时间会有许多与 SEC 相关的新闻。【原文为英文】</p><a href=\"https://twitter.com/milesdeutscher/status/1631696090067255296\">内容来源</a>",
           "link": "https://twitter.com/milesdeutscher/status/1631696090067255296",
           "publishedOn": "2023-03-04T03:14:00.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】解读目前加密市场主要阻力因素：Mt. Gox 债权人比特币解锁...",
           "imageUrl": null
         },
@@ -487,7 +487,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 536,
+          "wordCount": 538,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -507,7 +507,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>前 Adidas Web3 项目负责人 Tareq Nazlawy 在 Overpriced JPEGs 的采访中分享了关于忠诚度 3.0、粉丝游戏、以及在 Adidas 从事 Web3 相关工作的经验。专注于 Web3 品牌研究的研究员 starzq.eth 摘录了其中关于 Web3 忠诚度的部分的讨论，将 Tareq 认为的 Web3 忠诚度带来的创新总结为：情感价值、交叉营销价值和社区共创价值。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/starzqeth/status/1631452594361991168\">https://twitter.com/starzqeth/status/1631452594361991168</a></p>\n<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>Web3 忠诚度计划 3 个创新优势：1. 情感价值：人们喜爱收集，可确权带来了真正拥有某个事物的感觉；2. 交叉营销价值：由于 NFT 是开放数据，各品牌之前的私域数据变成公域。基于更丰富的数据，每个品牌都可以做更精准的营销，每个用户也得到了更多权益；3. 社区共创价值：基于 NFT 的可组合性，品牌方只需要提供好的工具包和合理的激励机制，社区会自发创造。</p><a href=\"https://twitter.com/starzqeth/status/1631452594361991168\">内容来源</a>",
           "link": "https://twitter.com/starzqeth/status/1631452594361991168",
           "publishedOn": "2023-03-03T07:46:37.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【长推】前 Adidas Web3 项目负责人谈 Web3 忠诚度计划：3 个创新优势",
           "imageUrl": null
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mint Venture 投资经理吴思嘉及其研究员博博以 Free to Own Web3 游戏新范式为起点，撰写研报对 DigiDaigaku NFT 整体生态进行系统描述，并发推总结研报结论，思考为什么要做 Web3 游戏？什么样的游戏更适合与 Crypto 结合？</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">https://twitter.com/0xscarlettw/status/1631491500369379331</a></p>\n<p><strong>文章作者：</strong></p><p>吴思嘉（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>吴思嘉（Mint Ventures）：</strong>研报结论：1）Machine Zone 的成功是机制创新的胜利，但也是 2014 年前后手游贫瘠的大环境下时势造英雄的产物。2）更健康的收入结构，放眼长期跟社区互利的契约精神，与区块链特性更好结合，Free to Own 必然是大势所趋。3）Limit Break 显然在做另一款 Whale Hunting 的游戏。4）为什么要做 Web3 游戏？改变游戏的分发模式，也改变资产的分发模式。</p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>并得出思考：1）什么样的游戏适合跟 Web3 结合？强调社交，让巨鲸在冲动和快感里为自己的工会买单。2）证券化的数字资产将不可避免地成为我们生活的一部分，甚至「游戏资产具有价格」本身，也是游戏走向「实感」的功能性的部分。3）挑战依然存在：解决过往失败的原因，就一定会在新的纪元成功吗？</p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>4）对此次超级碗广告跟过往进行了对比，并认为这次超级碗广告的效果似乎不及预期。但龙的活动还远远没有结束，Digi 的可编程版税和自有 NFT 平台也似乎如火如荼 —— 团队能否直面挑战，做出真正的范式创新？我们期待且保持关注。</p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">内容来源</a>",
           "link": "https://twitter.com/0xscarlettw/status/1631491500369379331",
           "publishedOn": "2023-03-03T06:56:18.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "Mint Venture : 从 DigiDaigaku 思考 Web3 游戏的未来范式",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 雨中狂睡从个人角度将其所关注事件分为 S、A、B、C 四个等级，并撰推呈现 S 级和 A 级两个等级，其中囊括 LSD、存储、ZK、OP 等板块，分析了这些板块三月动向及其重要性。提醒：此为个人展望，不作为投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">https://twitter.com/qiaoyunzi1/status/1631225848966815744</a></p>\n<p><strong>文章作者：</strong></p><p>雨中狂睡</p><hr><h3>观点：</h3><p><strong>雨中狂睡：</strong>S 级：1）LSD，虽然不确定以太坊上海升级的具体时间（可能是 4 月），但是 LSD 风潮应该会贯穿后续 ETH 的发展。2）存储：FEVM 的宣布推动了 $FIL 价格的上涨，将带动存储风的来到，且 BNB 同样推出了存储相关产品。虽然去中心化存储是 Web3 行业的重要应用之一，但目前来看，采用低会限制其的价值发现，当下更多是热点驱动和炒作。3）ZK：主要推动者其实是市场对于 zk-rollup 的发币预期和 Polygon ZkEVM 的推出。</p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">内容来源</a><p><strong>雨中狂睡：</strong>A 级：1）ATOM：Cosmos 即将在 3 月 15 日进行 Lambda 升级，此次升级旨在激活 Cosmos 链间安全（ICS）的功能，相当于给予了 $ATOM 更多的赋能。2）SNX：Synthetix 已经在 2 月 23 日完成了 v3 升级，此升级旨在提升 sUSD 的数量。3）STG：3 月 15 日换币和引入了新的做市商 GSR。</p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">内容来源</a><p><strong>雨中狂睡：</strong>4）OKX 品牌建设：其最近在 $Blur 事件和 $CELT 事件中的危机公关做得很好，并且 OKBChain 即将于 Q1 上线、OKXChain 调整代币经济学（降低 $OKT 的总供给）。5）OP：基于 OP Stack 推出 Layer2；Bedrock 升级；以太坊 EIP-4844 的发布将有机会降低 100 倍 Layer2 Gas 费用，$OP 将从中受益。</p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">内容来源</a>",
           "link": "https://twitter.com/qiaoyunzi1/status/1631225848966815744",
           "publishedOn": "2023-03-03T05:16:04.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "个人展望 | 三月热门事件评级，LSD 风潮或贯穿后续 ETH 发展",
           "imageUrl": null
         },
@@ -597,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 期权协议 Premia 或将于 4 至 5 月期间推出 V3 版本，重点是为 Premia 引入集中流动性。V3 版本还有哪些其他预期变化？又将为 Premia 带来哪些改变？加密研究员 hangry 撰文带你一探究竟。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">https://twitter.com/kindahangry/status/1631278232300396545</a></p>\n<p><strong>文章作者：</strong></p><p>hangry</p><hr><h3>观点：</h3><p><strong>hangry：</strong>Premia 是一个基于点对池架构的多链去中心化期权市场，类似于期权市场的 Uniswap V2。Premia 提供针对资产和方向的期权池，用户可以利用市场趋势进行资本部署、使用 Delta 策略、做空特定资产波动率及跨越各种平台进行期权套利。且 Premia 是唯一一个提供链上美式期权的市场。【原文为英文】</p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">内容来源</a><p><strong>hangry：</strong>Premia V3 升级的重点是在 Premia 上引入 Uniswap V3 的集中流动性机制。这将会让 Premia 转变为一个混合 AMM / 订单簿。V3 版本其他的预期变化包括迁移至欧式期权、市场参与者能够在买入和卖出期权时同时作为做市商和买入者及区间订单。Premia V3 代码预计将于 3 月中旬完成，但没有确定日期，且在 V3 后 Premia 还将进行代币经济学改造。【原文为英文】</p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">内容来源</a><p><strong>hangry：</strong>Premia 的代币机制围绕 vxPREMIA 运作，类似于 veCRV ，区别在于基于使用率的奖励、以 USDC 为单位的奖励机制及平台费用折扣。且 PREMIA 的流通市场非常小，低于 1000 万美元。此外，Premia 的国库规模可观，包括 1400 万美元的 ETH 和 USDC。【原文为英文】</p><a href=\"https://twitter.com/kindahangry/status/1631278232300396545\">内容来源</a>",
           "link": "https://twitter.com/kindahangry/status/1631278232300396545",
           "publishedOn": "2023-03-03T04:30:40.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】V3 版本降至，DeFi 期权协议 Premia 会给「链上期权」带来哪些改变？",
           "imageUrl": null
         },
@@ -607,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 研究员 Ignas 长期专注于观察知名 VC 的投资，他通过数据分析 2 月份加密整体及各个赛道的筹资情况，发现 VC 越来越看好创新协议，看涨 DeFi 赛道，并盘点介绍了五个在 2 月份筹资成功的创新项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DefiIgnas/status/1631205806824919042\">https://twitter.com/DefiIgnas/status/1631205806824919042</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>2 月，募资下滑的情况得到逆转，共有 143 笔总价值为 11.3 亿美元的加密货币募资交易，高于 1 月的 107 笔交易，这是一个明显的看涨信号。其中 web3 和基础设施领域的交易最多。DeFi 占其中的 25 笔交易，高于 12 月份的 10 笔。DeFi 的 1.03 亿美元融资金额超过了 CeFi 的 3300 万美元。DeFi 赛道终于看涨。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1631205806824919042\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>2 月份筹资的五个创新项目：1）Alongside：建立了一个加密货币市场指数 - $AMKT，种子轮融资 1100 万美元，而 DeFi 项目通常只筹集 400 万美元，并且指数现在并不流行。2）Renegade：链上暗池的新型 DEX，为链上交易带来了匿名性，获得 Dragonfly Capital 等顶级 VC 的 340 万美元融资。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1631205806824919042\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>3）Affine：收益聚合器，正在开发跨链投资及储蓄。获得了由 Hack VC 和 Jump Crypto 领投的 510 万美元种子轮融资。4）Huma：使用收入和应收账款作为抵押品的去中心化借贷的 DeFi 协议，从几家 VC 筹集了 830 万美元。5）NFEX：用于交易蓝筹 NFT 永续合约的 DEX，在最近的种子轮融资中筹集了 300 万美元。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1631205806824919042\">内容来源</a>",
           "link": "https://twitter.com/DefiIgnas/status/1631205806824919042",
           "publishedOn": "2023-03-03T03:47:08.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】VC 越来越看好创新协议？盘点五个近期筹资成功的 DeFi 创新项目",
           "imageUrl": null
         },
@@ -617,7 +617,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 660,
+          "wordCount": 666,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -657,7 +657,7 @@
           "description": "<h3>Block 成立专注于改善闪电网络流动性和路由的公司 c=</h3>\n<p>Twitter 创始人 Jack Dorsey 旗下支付公司 Block 成立专注于改善闪电网络流动性和路由的公司 c=，C= 计划通过将比特币投入到闪电网络并建立基础设施提高网络可靠性来解决因地流动性和路有效率低下导致的交易失败问题。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/",
           "publishedOn": "2023-03-03T01:31:07.000Z",
-          "wordCount": 20507,
+          "wordCount": 20504,
           "title": "Block 成立专注于改善闪电网络流动性和路由的公司 c=",
           "imageUrl": "https://www.coindesk.com/resizer/XoRofoQ5Hnf9zhmwkMzwRUkfp9M=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/FFIFJF47FRCK5GVADQ2D5YSCVA.jpg"
         },
@@ -667,7 +667,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20387,
+          "wordCount": 20391,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -677,7 +677,7 @@
           "description": "<h3>以太坊开发者计划于 3 月 14 日在 Goerli 测试网进行上海升级</h3>\n<p>据 CoinDesk 报道，以太坊开发者将在 3 月 14 日让 Goerli 测试网完成上海升级（上海升级也称为 Shapella），以太坊的主网将在 Goerli 升级之后 3-4 个星期进行 Shapella 升级，这意味着质押的 ETH 提款时间将于 4 月份进行，比最初以太坊开发者设定的三月份时间表略有延迟。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/ethereum-developers-target-march-14-date-for-shanghai-upgrade-on-goerli-testnet/?utm_medium=social&utm_source=onecryptofeed&utm_campaign=headlines\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/ethereum-developers-target-march-14-date-for-shanghai-upgrade-on-goerli-testnet/?utm_medium=social&utm_source=onecryptofeed&utm_campaign=headlines",
           "publishedOn": "2023-03-03T01:27:02.000Z",
-          "wordCount": 20076,
+          "wordCount": 20073,
           "title": "以太坊开发者计划于 3 月 14 日在 Goerli 测试网进行上海升级",
           "imageUrl": "https://www.coindesk.com/resizer/ppLSnK-io3eNSNAQOJsPW3nnNc0=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/4PZ2PCM2QRFADCUF3BYE2RF7FI.jpg"
         },
@@ -717,7 +717,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>总体而言，二月是一个好坏参半的月份，The Block 研究主管 Lars 对本月加密市场的数据进行了整理总结。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">https://twitter.com/lars0x/status/1630937818728988682</a></p>\n<p><strong>文章作者：</strong></p><p>Lars（The Block 研究主管）</p><hr><h3>观点：</h3><p><strong>Lars（The Block 研究主管）：</strong>1）链上总交易量下降 0.7% 至 1640 亿美元（BTC -4.3%，ETH +4.2 %)；2）稳定币链上交易量下降 17.6% 至 5581 亿美元；已发行供应量进一步收缩 3.2% 至 1284 亿美元，其中 USDT 和 USDC 市场份额分别上升至 55.7% 和 31%。56 亿美元 BUSD 被赎回；【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a><p><strong>Lars（The Block 研究主管）：</strong>3）BTC 矿工收入增长 4.3% 至 6.271 亿美元，ETH 质押者收入增长 2.9% 至 1.048 亿美元。以太坊 Shanghai-Capella 主网升级预计将于本月进行，届时将支持提取质押的 ETH；4）2 月共销毁 84885 枚 ETH，约合 1.381 万美元。以太坊在整个 2 月都处于通缩状态，自 2021 年 8 月上旬实施 EIP-1559 以来，共销毁 295 万枚 ETH，约合 90.2 亿美元；5）以太坊链上 NFT 交易量增加 103.2% 至 18.6 亿美元；【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a><p><strong>Lars（The Block 研究主管）：</strong>6）合规 CEX 现货交易量增加 11.4% 至 6658 亿美元。CEX 市场份额：Binance 81.9%，Coinbase 6%，BTSE 3.1%，Kraken 2.9%，Binance US 1.7%；7）GBTC 日均交易量下降 25.4% 至 3260 万美元；【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a><p><strong>Lars（The Block 研究主管）：</strong>8）期货方面，BTC 和 ETH 期货持仓量均上涨 2%。芝商所的比特币期货持仓量减少 15.3% 至 18.8 亿美元，日均成交量上涨 26% 至 12.4 亿美元。同时，BTC 期货交易量增加 16.8% 至 7660 亿美元，ETH 期货交易量增长 3.7% 至 4990 亿美元； 9）期权方面，BTC 和 ETH 期权持仓量均上涨（BTC +3.3%，ETH +18%) 。同时，BTC 期权交易量增长 10% 至 176 亿美元，ETH 期权交易量增长 22.4% 至 104 亿美元。【原文为英文】</p><a href=\"https://twitter.com/lars0x/status/1630937818728988682\">内容来源</a>",
           "link": "https://twitter.com/lars0x/status/1630937818728988682",
           "publishedOn": "2023-03-02T11:44:46.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】The Block 研究主管：2 月加密市场数据总结",
           "imageUrl": null
         },
@@ -787,7 +787,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 的崛起引起了市场热烈的讨论。加密货币 KOL Aaron 认为 NFT 不应该仅仅与金钱相关而忽视艺术和文化，Blur 只是利用金钱来吸引用户。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/aaronsage/status/1630937950321254401\">https://twitter.com/aaronsage/status/1630937950321254401</a></p>\n<p><strong>文章作者：</strong></p><p>Aaron</p><hr><h3>观点：</h3><p><strong>Aaron：</strong>NFT 不仅仅与金钱有关。Blur 只是用他们的激励措施给你洗脑，并给你免费的钱来吸引你。Blur 平台界面上关于艺术作品、项目描述或其他任何东西都没有。在熊市中，Blur 吸引了一部分人。但从长远来看，这个市场真的有利于整个 NFT 领域吗？【原文为英文】</p><a href=\"https://twitter.com/aaronsage/status/1630937950321254401\">内容来源</a><p><strong>Aaron：</strong>NFT 世界里有两类人：1) 对艺术、文化和技术潜力感兴趣的人 2）只关心快速获利的人。我们应该支持创作者、艺术家和那些致力于利用这项技术创造更美好空间的人们。Opeansea 是我们第一次进入这个领域时可能使用过的第一个市场，他们从一开始就支持创作者和艺术家。但是 Blur 没有。【原文为英文】</p><a href=\"https://twitter.com/aaronsage/status/1630937950321254401\">内容来源</a>",
           "link": "https://twitter.com/aaronsage/status/1630937950321254401",
           "publishedOn": "2023-03-02T07:33:43.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】观点：Blur 是 NFT 领域发生的最糟糕的事情",
           "imageUrl": null
         },
@@ -827,7 +827,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum DeFi 生态系统正在状态，而 Arbitrum 原生协议 GMX 的表现也一直亮眼。但除了 GMX，还有一个 DeFi 衍生品新锐吸引了 Delphi Digital 研究员 Jordan Yeakley 的注意，最初部署在 Polygon 的合成衍生品平台 Gains Network。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">https://twitter.com/Delphi_Digital/status/1630979718680805415</a></p>\n<p><strong>文章作者：</strong></p><p>Jordan Yeakley</p><hr><h3>观点：</h3><p><strong>Jordan Yeakley：</strong>Gains Network 最初部署在 Polygon 上，借鉴了 MakerDAO 模式的一些概念，以类似于 Synthetix 的方式提供合成杠杆交易，但资本效率更高，用户可以通过质押 GNS 获得以 DAI 支付的平台费用。其产品 gTrade 是一个永续期货交易所，提供多种不同资产类别的杠杆交易。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">内容来源</a><p><strong>Jordan Yeakley：</strong>GMX 利用 GLP 充当交易员对手方， 通过 Gains，gDAI LP 作为交易商对手方，作为金库储户提供 DAI 以赚取交易费及清算收益。而 GNS 作为后盾并赚取交易商损失的一部分。由于其交易者和 LP 之间关系的简单性质，Gains 可以在费用上压倒 GMX。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">内容来源</a><p><strong>Jordan Yeakley：</strong>自从 Gains Network 上线 Arbitrum 后，其交易量数据紧追 GMX，但 GMX 仍有优势，尤其考虑到 Gains Network 交易量也包括 Polygon 的数据。不过 Gains Network 在不依赖代币释放的情况下提供真实收益，可持续代币经济的叙事将有助于推动 Gains Network 的进一步发展。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1630979718680805415\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1630979718680805415",
           "publishedOn": "2023-03-02T06:08:08.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】Delphi Digital： Gains Network 和 GMX 对比分析",
           "imageUrl": null
         },
@@ -837,7 +837,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前市场并没有真正抓住即将到来的 BTCFi 叙事，BTCFi 或是下一个 Alpha。Library Onchain 创始人 Zoomer Oracle 撰文讨论了他看好的四个 BTCFi 项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/zoomeroracle/status/1630642415412363271\">https://twitter.com/zoomeroracle/status/1630642415412363271</a></p>\n<p><strong>文章作者：</strong></p><p>Zoomer Oracle</p><hr><h3>观点：</h3><p><strong>Zoomer Oracle：</strong>1）Stacks。由于 BTC Ordinals 启动了比特币内部的新创新，人们（包括我）都在关注 STX。STX 的目标是成为比特币的一层并受到监管，基于当下热度，STX 价格上涨了很多。 BTC 层叙事就此诞生。2）BadgerDAO。Badger 上周宣布，他们将发布一个 LSD 支持的比特币，称为 eBTC。它是由 LSD 支持，以 BTC 计价，就像 DAI 是一个由一堆资产支持的稳定币，但以美元计价。对我来说，这听起来像是 BTC 和以太坊实际上可以合并在一起。【原文为英文】</p><a href=\"https://twitter.com/zoomeroracle/status/1630642415412363271\">内容来源</a><p><strong>Zoomer Oracle：</strong>3）Ren。Ren 是一个 OG 协议，自 2017 年以来一直活跃。有谣言称 Cz 会收购 Ren 作为 BTC 层。但对我来说，这是有意义的，Cz 知道 BTC-fi 将是一个叙述。Ren 一直很可靠，从来没有被黑客攻击过。Ren 蓬勃发展的新方式是专注于 BTC 层。4）Zero Dao。Zero Dao 是一个连接比特币和以太坊资产的信息传输协议。为了将以太坊生态系统与比特币层合并，需要一个适当的方式在比特币和以太坊之间发送资产。Zero Dao 曾经是基于 Ren 技术的。现在 Ren 关闭了他们的服务，Zero Dao 正在从头开始建立，并且很快就会上线（L0）。【原文为英文】</p><a href=\"https://twitter.com/zoomeroracle/status/1630642415412363271\">内容来源</a>",
           "link": "https://twitter.com/zoomeroracle/status/1630642415412363271",
           "publishedOn": "2023-03-02T06:00:46.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】盘点 BTCFi 叙事：Stacks、BadgerDAO、Ren、Zero Dao",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一段时间以来， Eigenlayer 一直是加密领域最受期待的产品之一。Stratos 研究员 Eli Nuss 撰文探讨了 EigenLayer 的未来价值以及规模，认为 EigenLayer 有潜力成为价值数十亿美元的协议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">https://twitter.com/nuss_eli/status/1630632582554460165</a></p>\n<p><strong>文章作者：</strong></p><p>Eli Nuss</p><hr><h3>观点：</h3><p><strong>Eli Nuss：</strong>EigenLayer 引入了重质押，它允许质押者重新使用质押的 ETH 来保护多个网络。这解决了主动验证服务 (AVS) 的安全问题分散性挑战。通过整合资金，相同数量的资金可以在多个网络中重复使用，从而大大减少可用于质押证明系统的资金稀缺性问题。【原文为英文】</p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">内容来源</a><p><strong>Eli Nuss：</strong>要了解重质押的潜在市场规模，一个很好的起点是看当下非 ETH 质押者产生的质押收入。在 2022 年第四季度，前 25 个质押证明网络（不包括以太坊）支付的年化质押收入约为 30 亿美元。过去 3 年的平均年复合增长率为 37%。据此预测，非 ETH AVS 质押奖励在未来十年可以超过 250 亿美元。假设 EigenLayer 的收益率为 10%（与 Lido Finance 一致），这意味着超过 25 亿美元的潜在收入将流经该平台。【原文为英文】</p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">内容来源</a><p><strong>Eli Nuss：</strong>我们的观点是，质押仍然相当早期，随着即将到来的 rollup 和其他模块化区块链的普及，将出现更多质押的需求。因此，EigenLayer 的 AVS 很可能是构成未来质押收入的重要部分。基于对收入的预测，我们估计 EigenLayer 可以成为价值数十亿美元的协议。【原文为英文】</p><a href=\"https://twitter.com/nuss_eli/status/1630632582554460165\">内容来源</a>",
           "link": "https://twitter.com/nuss_eli/status/1630632582554460165",
           "publishedOn": "2023-03-02T05:57:31.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】探讨 EigenLayer 未来的价值以及规模",
           "imageUrl": null
         },
@@ -857,7 +857,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 目前 TVL 奖金 1 亿美金，在 NFTFi 赛道排名仅次于 BendDAO。加密研究员 Vic TALK 就 ParaSpace 产品提供的服务进行了解析，Paraspace 是否能够超越 BendDAO？</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">https://twitter.com/victalk_eth/status/1631100882707152896</a></p>\n<p><strong>文章作者：</strong></p><p>Vic TALK</p><hr><h3>观点：</h3><p><strong>Vic TALK：</strong>ParaSpace 目前主要提供三种服务：1）蓝筹 NFT 及 UniV3 LP 借贷服务：机制类似于 BendDAO，其创新点在于除了 ETH 池子，还支持稳定币和 APE 池及提供基于 UniV3 LP NFT 借贷服务；</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a><p><strong>Vic TALK：</strong>2）APE 质押服务：其特点在于质押服务采取的是点对池模式，完美匹配原有接待池，且因为其他协议没有相似借贷池和足够流动性使其在该模式上占据优势，并且资本效率大幅提高；3）信用分期购买 /bid NFT 服务：降低了购买成本和门槛，也在一定程度上提升了流动性，但和 Blur 机制相比，对于流动性的提升稍显不足。</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a><p><strong>Vic TALK：</strong>ParaSpace 在没有代币的情况下 TVL 位居 NFTFi 赛道第二位，足以显示产品设计的优势及团队 BD 资源的丰富，尤其是 APE 质押设计领域。该协议未来可能还会做 NFT 永续合约交易相关业务。此外，Paraspace 的代币经济学或将是 TVL 是否能超越 bendDAO 的关键之一。</p><a href=\"https://twitter.com/victalk_eth/status/1631100882707152896\">内容来源</a>",
           "link": "https://twitter.com/victalk_eth/status/1631100882707152896",
           "publishedOn": "2023-03-02T05:07:12.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【长推】NFT 借贷新秀 ParaSpace 详解：有何创新和挑战？",
           "imageUrl": null
         },
@@ -867,7 +867,7 @@
           "description": "<h3>去中心化图谱数据库 ComposeDB 测试版本已上线 Ceramic 主网</h3>\n<p>去中心化数据库协议 Ceramic 宣布去中心化图谱数据库 ComposeDB 测试版本已上线 Ceramic 主网。根据介绍，ComposeDB 允许开发者使用 GraphQL 和即插即用的数据模型在 Ceramic 上构建可组合的 Web3 应用程序，且开发人员可以将 ComposeDB 作为 Web3 图形数据层使用，涵盖社交、身份和声誉、知识图谱和动作协作。 Ceramic 表示，测试版功能包括历史同步、性能查询、GraphQL 类型及适用于未来的模型等。</p>\n<p><a href=\"https://twitter.com/ceramicnetwork/status/1630569383130189827\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Ceramic：</strong>ComposeDB 文档：https://composedb.js.org/docs/0.4.x/introduction</p><a href=\"https://twitter.com/ceramicnetwork/status/1630569383130189827\">内容来源</a>",
           "link": "https://twitter.com/ceramicnetwork/status/1630569383130189827",
           "publishedOn": "2023-03-02T04:28:50.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "去中心化图谱数据库 ComposeDB 测试版本已上线 Ceramic 主网",
           "imageUrl": null
         },
@@ -877,7 +877,7 @@
           "description": "<h3>跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon</h3>\n<p>跨链互操作协议 Celer Network 宣布推出具有多样化基准的零知识证明开发框架评测平台 Pantheon，目前已经使用 SHA-256 工作负载为包括 gnark、Arkworks、Circom+snarkjs/rapidsnark、Halo2（KZG）、Plonky2 和 Starky 在内的低级电路框架提供了全面基准测试。Celer 表示，正在邀请社区分享各种可复现的基准测试结构，最终目标是共同构建一个广受认可的测试平台，包括全套低级电路开发框架、高级 zkEVM 和编译器及硬件加速提供商。</p>\n<p><a href=\"https://twitter.com/CelerNetwork/status/1631143849300213760\">内容来源</a></p><hr>",
           "link": "https://twitter.com/CelerNetwork/status/1631143849300213760",
           "publishedOn": "2023-03-02T04:28:01.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "跨链互操作协议 Celer Network 推出零知识证明开发框架评测平台 Pantheon",
           "imageUrl": null
         },
@@ -897,7 +897,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ETHDenver 2023 活动已于 2 月 24 日在美国丹佛举行，Paradigm 首席技术官兼研究合伙人 Georgios Konstantopoulos 撰文概述了他认为 ETHDenver 期间有价值的 6 个项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">https://twitter.com/gakonst/status/1630740285293559808</a></p>\n<p><strong>文章作者：</strong></p><p>Georgios Konstantopoulos</p><hr><h3>观点：</h3><p><strong>Georgios Konstantopoulos：</strong>1）OP-Reth：OP Stack 实现了一个优化 Rollup 设计，旨在尽可能接近以太坊，我们希望其能够在 Reth 中实现，refcell.eth 正在为此努力；2）Wagmi：Web3 前端库，Wagmi CLI 通过与 Foundry 的集成允许全栈黑客马拉松项目迭代速度极快；3）使用 Ruint 的 ethabi：我们想用 recmo 的 Ruint 替换所有 Rust 代码中的原始类型，而最大的障碍是用 Ruint 替换 ethabi 内部类型；【原文为英文】</p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">内容来源</a><p><strong>Georgios Konstantopoulos：</strong>4）Ganache-UI：仅用于构建在 ICP 协议上的代币化和游戏化 L1 协议 Anvil；5）ABI：UI 生成，但我并没有抱有很大期望，我希望能够看到像 AMM、Lending、NFT 这样的无风格 React 组件；6）MEV-Share：可编程的隐私订单流，基于 MEV-Boost 构建，设计目标包括 MEV 再分配、搜索者无许可、向后兼容、可编程隐私等。【原文为英文】</p><a href=\"https://twitter.com/gakonst/status/1630740285293559808\">内容来源</a>",
           "link": "https://twitter.com/gakonst/status/1630740285293559808",
           "publishedOn": "2023-03-02T03:15:37.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】Paradigm 首席技术官：ETHDenver 2023 值得关注的 6 个项目",
           "imageUrl": null
         },
@@ -927,7 +927,7 @@
           "description": "<h3>以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络</h3>\n<p>据 Etherscan 数据和以太坊基金会安全研究员 Yoav Weiss 确认，以太坊账户抽象提案 ERC-4337 的核心合约已通过名为 EntryPoint 的智能合约完成部署，可用于所有以太坊虚拟机（EVM）兼容网络。且据知情人士透露，该合约已经通过安全审计。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>erc4337：</strong>ERC-4337 的核心合约已经通过了 Open Zeppelin 的审计，捆绑器（Bundlers）和支付网关包括 Stackup、Alchemy、Biconomy、Etherspot、CANDIDE 及 Blocknative 等。【原文为英文】</p><a href=\"https://twitter.com/erc4337/status/1631087958949531648\">内容来源</a><p><strong>Shruti Gandhi（Biconomy 产品）：</strong>ERC-4337 引入了一些执行者和一个被称为 UserOp 的新的类似交易的结构，用于这些执行者之间的通信。而新角色 bundlers 则负责将 userOp 转换为交易，并有一个 EOA 支付其 Gas。但也存在一个问题，恶意行为者让 Bundler 付款后不进行退还，因此我们引入了一个新的智能合约 EntryPoint（EP）。EP 会验证智能合约存款是否足以执行交易，交易结束后， Bundlers 会从 EP 存款中退还支付的 Gas。【原文为英文】</p><a href=\"https://twitter.com/shrewtea892/status/1630479210916757504\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/",
           "publishedOn": "2023-03-02T01:37:58.000Z",
-          "wordCount": 20959,
+          "wordCount": 20956,
           "title": "以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络",
           "imageUrl": "https://www.coindesk.com/resizer/pL4QDjZ1F_boKpthlDCGdRmOnCQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/B5ZTNK3UAZE3ZNKT2N4IFXIC6Y.jpg"
         },
@@ -947,7 +947,7 @@
           "description": "<h3>Polygon 推出基于零知识证明的 Web3 身份解决方案 Polygon ID</h3>\n<p>Polygon 推出基于零知识证明的 Web3 身份解决方案 Polygon ID 。Polygon ID 利用了 Iden3 协议和 Circom ZK 工具包，任何用户都可以成为 Web3 身份发行者、验证者或持有者。链外数据现可以用于无信任的验证凭证格式进行的链上验证。Polygon 表示，Polygon ID 可用于 KYC 项目、电子商务入职、无密码登陆、银行发放担保不足贷款的工具及 DAO。</p>\n<p><a href=\"https://twitter.com/0xPolygon/status/1630997045703049238\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Polygon：</strong>Polygon ID 使一方能够发布关于用户的可验证凭证，而另一方则能够通过为自我主权身份（SSI）生态系统每个成员创建的一套工具来验证这些声明。【原文为英文】</p><a href=\"https://0xpolygonid.github.io/tutorials/\">内容来源</a><p><strong>Polygon Developers：</strong>PolygonID 允许用户生成 ZK 证明以证明基于真实世界文件的链上声明。它是一个 Web3 原生解决方案，具有去中心化、私人链上验证和可组合性等优势。与传统 VC 和 SBT 相比，Polygon ID 中 ZKP 的使用为用户增强了隐私，使用 ZKP 和 Merkle 数定义身份状态以使其和密钥对分离。【原文为英文】</p><a href=\"https://twitter.com/0xPolygonDevs/status/1630291923553353732\">内容来源</a>",
           "link": "https://twitter.com/0xPolygon/status/1630997045703049238",
           "publishedOn": "2023-03-02T01:04:54.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "Polygon 推出基于零知识证明的 Web3 身份解决方案 Polygon ID",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Polygon 的 zkEVM 主网即将启动，加密分析师 Rekt Fencer 分享他认为 Polygon 上值得关注的几个项目，并盘点其代币市值、用途等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">https://twitter.com/rektfencer/status/1630661921858002946</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）Aavegotchi：开放世界类 Play-To-Earn NFT 角色扮演游戏。代币 GHST 现价 1.46 美元；市值 7700 万美元，TVL 1100 万美元；上线币安、OKX 和火币 ；作为生态系统基础货币，用以购买 Aavegotchi 链上资产；2）QuickswapDEX：Polygon 上最大的 DEX，基于开源软件，优先考虑去中心化、抗审查性和安全性。代币 QUICK 现价 105 美元；市值 4600 万美元，TVL 1.67 亿美元；上线 Binance、Coinbase 和 Kucion；用于治理；【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">内容来源</a><p><strong>Rekt Fencer：</strong>3）IDEX：具有高达 100 倍杠杆的永续掉期 DEX，使用订单簿和 AMM 混合系统。近期推出 V4 版本，已有 35 亿美元总交易量。代币 IDEX 现价 0.06 美元；市值 4500 万美元，TVL 450 万美元；上线 Coinbase、Gate、MEXC；用于质押以分享协议费用收益；4）DecentralGames：旗舰游戏是一款元宇宙扑克游戏 ICE Poker，用户可以通过不同活动获得 ICE 奖励和数字收藏品。代币 DG 现价 0.038 美元；市值 2500 万美元，FDV 3800 万美元；上线 Gate、MEXC、Kucoin；用于质押和购买可穿戴设备；【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">内容来源</a><p><strong>Rekt Fencer：</strong>5）Gains Network：允许用户以高达 150 倍的加密货币杠杆、1000 倍的外汇杠杆、100 倍的股票杠杆和 35 倍的指数杠杆进行交易。代币 GNS 现价 8.31 美元；市值 2.53 亿美元，TVL 1700 万美元；上线 Gate、Binance、MEXC；用作流动性效率机制；6）DFyn：Polygon 第二大原生 DEX。代币 DFYN 现价 0.051 美元；市值 900 万美元，TVL 1900 万美元；上线 Kucoin；用于治理和收益分享。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1630661921858002946\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1630661921858002946",
           "publishedOn": "2023-03-01T09:29:03.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】zkEVM 主网启动在即，一览 Polygon 生态值得关注的项目",
           "imageUrl": null
         },
@@ -1007,7 +1007,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>每个生态系统都需要去中心化的稳定币。以太坊有 MKR 和 DAI ，那么比特币生态呢？加密货币 KOL Kaduna 从 Arkadiko Protocol 对于 Stacks 的重要性角度介绍了比特币的稳定币项目 Arkadiko Protocol。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">https://twitter.com/cryptokaduna/status/1630546387543928832</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Arkadiko 是一种基于 Stacks 的去中心化流动性协议，提供一系列 DeFi 解决方案。通过 Arkadiko 用户可以使用他们的 STX --Stacks 的原生代币 -- 作为抵押来铸造 Arkadikos 自己的稳定币 USDA 。然后，该 USDA 可用于在 Arkadiko 协议内 farm 以偿还贷款。farm 的收益是通过参与称为转移证明（POX）的 Stacks 共识机制产生的。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a><p><strong>Kaduna：</strong>通过持有 STX 代币，你可以将它们作为抵押品存入 Arkadiko，然后借入其价值 25% 的 USDA。由于 USDA 现在已抵押在我们之前谈到的 POX 共识中，因此奖励将自动用于偿还借入的 USDA。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a><p><strong>Kaduna：</strong>Stacks 作为一个平台实现了爆炸式增长，其 TVL 在短短几周内从 700 万美元飙升至 2200 万美元。随着这种增长，需要 DEX 作为用户参与生态系统的一种方式。Arkadiko 在 Stacks 之上构建了一个 DEX，以满足不仅希望参与 Arkadikos 贷款而且希望参与整个 Stacks 生态系统的用户。通过 ArakadikoSwap，用户可以通过提供流动性来赚取额外的被动收入。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1630546387543928832\">内容来源</a>",
           "link": "https://twitter.com/cryptokaduna/status/1630546387543928832",
           "publishedOn": "2023-03-01T08:18:31.000Z",
-          "wordCount": 529,
+          "wordCount": 496,
           "title": "【英文长推】一文了解比特币稳定币项目：Arkadiko Protocol",
           "imageUrl": null
         },
@@ -1689,6 +1689,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/qa8k5ndt.html",
+          "author": null,
+          "description": "撰文：Luyao\nGnosis 的创始人yu 3 月 4 日在 EthDenver 做了个分享，讲了 L2 的局限性，以及另一种扩容的方法。 我觉得非常有趣，我做了一些摘录和笔记：\nL2 最初的目的是，批量完成一堆交易，然后把结果同步回 L1。它是一种很临时的空间，而不是一个新的空间放一些永久的资产。\n\n长期来看， 即使被完美实现，L2 依旧会有一些根本问题。 比如：\n这种流程，它有一个问题，就是它只适合状态不会膨胀的应用，比如交易所（只需要交易结果，不需要交易历史），但对于状态膨胀的应用，它是没办法的扩容的。\n\n以 ENS 为例：\n假如全球 80 亿人口中有 10%（8 亿人）要注册 ENS，整个以太坊的交易处理能力都将被用来处理这些请求，需要 2 年的时间才能完成。在这 2 年中，以太坊将无法处理其他任何交易。\n\n以股票为例：\n假如全世界的股票（4.5万只），都用以太坊做结算层，那么每个股票每天只能进行不到 30 笔交易（即使你用了 L2）。\n\n问题 2\n交易成本 L2 峰值 gas 有时会到 $1 以上，即使 EIP4844 落实，gas 能降低 90% ，但依旧有两方面问题：\n1. 它对于需要 gas 在 1美分以下（sbu-cent）的场景依旧不适用，\n2. 需求增加后，gas 依旧会升高。\n\n问题 3\nL2 资产退出问题：\n1. 小额资产可能不够支付退出的gas费，\n2. 退出的带宽有限，如果大家都想出去，就会堵住……\n有些 app 无法被 roll up。\n例如 CirclesUBI、POAP，它们创造了很多状态，这些状态无法被压缩，所以 L2 对他们没用。\n\n那假如永远都留在 L2，不离开，把它当作一个永久的空间来用，行不行呢？\n\n这样会有几个问题。\nL2 的 sequencer 非常中心化。\n他们虽然没法拿走你的钱，但是他们有巨大的权力，可以决定是否接受你的交易，收你的交易多少gas ，谁在前谁在后……\n\n还顺道黑了一下 coinbase，说如果你要在 BASE 上做交易所，它可以很轻松地把来自它的交易排在你的交易前面……\n\n然后，中心化的 sequencer 非常有可能被审查，甚至强制 KYC （只接受来自 KYC 地址的交易）。\n作者强调从目前监管看来这是非常有可能的。\n\n问题 2\n这里作者提出了一个非常有趣的问题：\n如果我们要发行一个 L2 原生的、不存在于 L1 的资产，这种情况下要 L2 还有什么意义？\n因为 L2 之所以安全，是因为 L1，可是你都不要 L1 了，那干嘛非得 L2 呢。\n\n问题 3\n僵化问题。\n以太坊 L1 本身还在进化中， 往后 5-10 年还会做许多修改，这就给 L2 带来许多挑战！\n\n举例：我们用来投票的 Snapshot 就是在 L2 进行投票，然后将状态同步回 L1，它们在 L2 做 Merkle Proof。\n然而以太坊 L1 计划在未来一两年内从 Merkle Trees 切换到 Verkle Trees，这会导致当前版本的 Snapshot 不能再使用。\n因此，L2 可能需要某种“升级”机制，但这也会与其 trustless 目标相矛盾。\n\n解决方案\n作者提出了一个很有趣方案，类似于 Cosmos 的 IBC 模型。\n就是说：我们来做另一个链，跟以太坊运行一样的东西，然后通过无信任的 ZK-bridge 来连接，组成一个以太坊宇宙（Ethereumverse）。\n\n事实上 zk bridge 的实现方式我第一次听到的时候觉得非常科幻，结果这样的东西现在真的做出来了。\n就是利用 zk 在一条链上运行另一条链的轻节点客户端，然后在其中去验证…… 这里无需信任，远比传统的 bridge 安全。\n\n作者个人观点：这是一个非常有趣的、被低估的方案，如果你仔细想，会发现这真的可以解决前面这些问题中的一大部分。",
+          "link": "https://www.panewslab.com/zh/articledetails/qa8k5ndt.html",
+          "publishedOn": "2023-03-06T07:31:05.000Z",
+          "wordCount": 1584,
+          "title": "Gnosis创始人EthDenver分享笔记：为什么Layer2仍有局限性？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/06/images/h6C3sl5sdK.png"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/bpgx0jrl.html",
           "author": null,
           "description": "PANews 3月6日消息，据华盛顿邮报报道，如果Silvergate Capital Corp.倒闭，将可能成为第一家因不良负债而不是不良资产倒闭的银行，因为其坏账都是存款而不是资产。Silvergate的存款并不是正常意义上的存款，其特征更像是“速汇金”MoneyGram International或“西联汇款”Western Union等汇款公司持有的浮动现金，而Silvergate吸引现金的唯一原因是结算进出一组特定资产的交易，但Silvergate的存款移动速度可能比这种现金浮动速度慢的多，只要市场对加密货币兴趣下降，存款人就会开始消失。\n此前3月2日消息，Silvergate披露其可能\"资本不足\"，正在“重新评估业务和战略”。",
@@ -1944,7 +1954,7 @@
           "description": "原文标题：《LSD 高阶玩法及其本质》\n撰文：CapitalismLab\n本文将从 Frax/Yearn 的 LSD 到杠杆 Staking 再到 re-staking，为你抽丝剥茧，一眼看穿这些 LSD 高阶玩法的本质。\n首先，我们用一张图来分析 Frax/ frxETH 的收益分配体系，用黄色标注出收益来源：\n\n1/2 无论是直接还是间接，本质上都是 Frax Finance 出的激励，无非是形式和包装不同。所以我们将此图简化一下，就非常明了，收益来源和分配就是：\nsfrxETH 吃「两份」 Staking 收益，APR 自然就高了。\n\n同理我们按此分析一下 Yearn 近期预计出品的 yETH：\n\n也把他简化一下，一眼就看出收益来源和分配就是：\n不过需要注意的是，这里所谓的 「协议资产」并非仅是 Yearn 的国库所有的，可能还包括 Yearn 从 yCRV 产品那里挪过来的投票权。\n\n是的，frxETH/st-yETH 超额收益来源都是协议资产在直接或间接的补贴！\n诶，这么看下去岂不是无限套娃了？但协议资产是有机会成本的，比如 vlCVX/ veCRV 本身是可以拿来赚取贿赂收益\n协议如果不是空气币，就要赋能，比如收入抽成，达到一定规模后补贴和抽成接近后，那么超额收益便不复存在了\n那这么做的意义在哪里？因为预期 LSD 在上海升级后将会迎来爆发，参照下方推文，LSD 是做大了也有护城河的，那么趁此扩大规模抢到门票，到时候便有可观的收益。\n超额收益有可持续性吗？质押资产 / 协议资产上升无疑会稀释超额收益，若协议资产由于价格等原因相对 ETH 在上升的话，那么将会延长这一过程，反之亦然，也就是说这个模式具有明显的反身性。因此这种模式虽然本质是补贴，但是精巧复杂的包装也是有必要的，通过更精彩的叙事可以提升协议资产的价值，从而推动正向螺旋。\n简化来看的话，收益来源就是协议资产和标的资产两侧，那么两端的资产类别其实也是可以更多样化？bestLSD 这个项目（名字挺土狗）就自称协议资产端和标的资产端放开来打，协议资产从 GMX/GLP 搞到 CRV/CVX/Velo，标的资产从 AMM LP 搞到杠杠 Staking ，总而言之是在两端合力推高收益。\n虽然这个玩意儿看上去有点野，不过这也提醒了我们，目前除了持有 CRV/CVX 的协议，持有任何其他生息资产的协议其实也都可以参与角逐，这块的门槛其实很低，将来可能会很卷。So it’s another use case for GLP and gDAI, gud!\n至于通过借贷协议做杠杆 staking 增大收益，参见下方推文，本质上就是息差套利。虽然看上去存款方有点吃亏被套利，但借款方也承担了额外的 LSD 协议风险和流动性风险。借贷协议充当了将质押利率传导到原生资产上的通道。\n\n再打一份工\nRe-staking，所谓第三方借用 ETH 主网安全性，不专业的但简单的形容就是：\n\n综上所述，协议资产激励、息差套利以及再打一份工是三种超额收益来源，必须强调的是，复杂的玩法会带来更多的风险，所以有必要评估超额收益是否能够覆盖增加的风险，毕竟无论是什么收益来源，最后都可能成为科学家的收益来源。\nLSD 本来涉及到和 Validators 这种线下实体的交互，是相对来说比较「重」的工作，但上面几种高阶玩法，通过包装 LSD 资产来运作，转化成了相对比较「轻」的工作，这里的门槛也显然会比传统 LSD 更低，花样自然也会更多，值得持续观察。",
           "link": "https://www.panewslab.com/zh/articledetails/hc2t43oq.html",
           "publishedOn": "2023-03-05T10:06:42.000Z",
-          "wordCount": 1470,
+          "wordCount": 1466,
           "title": "抽丝剥茧，看穿流动性质押衍生品LSD高阶玩法的本质",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/05/images/pIrnW0TmXk.png"
         },
@@ -1974,7 +1984,7 @@
           "description": "作者 | Coindesk Tracy Wang\n编译 | PANews\nFTX崩盘的余波仍未消散，根据最新流出的一份年度投资者信件副本内容显示，对冲基金Multicoin Capital在2022年的亏损高达91.4%，主要原因有二，一是去年整个加密市场过于动荡，二是同样受到了FTX崩盘的“直接和间接”影响。\nMulticoin Capital在信件中坦言：“虽然在2022年初成功躲过了LUNA和三箭资本灾难性内爆事件的影响，但却没有躲过FTX崩盘，也没有想到FTX破产会蔓延到整个加密市场，在经历了表现非凡的2021年后，Multicoin Capital在2022年的表现是基金成立以来最差的一年。”\nMulticoin Capital是加密行业规模最大、历史最悠久的投资管理公司之一，通常也被认为是一家非常精明的加密投资管理公司，其管理合伙人Kyle Samani于 2017年10月推出对冲基金战略，旨在投资流动性代币，Multicoin Capital还经营着三支风险投资基金，并投资了现已破产的交易所 FTX。\n事实上，Multicoin Capital不仅将部分资产托管给了FTX，还进行了一些错误押注，比如长期看涨Solana原生代币SOL和基于Solana的资产Mango，此外还持有FTX.US股权和大量未完成的衍生品合约。在去年11月另一封投资者信函中，Multicoin Capital详细披露了其财务状况，透露大约10%的资产被FTX托管，而且持有大量FTT、SOL和SRM，但现在这些代币价格都已大幅跳水。\n实际上，在FTX破产消息传出后，Multicoin Capital的旗舰基金在短短两周内就损失了一半以上资金，当时跌幅达到55%，这一数字还不包括流动性、以及其他一些自负盈亏的投资。\n可是，与其他快速切断FTX关联并进行资产减记的投资公司相比，Multicoin Capital在战略决策上似乎也出现了问题，他们当时声称并没有及时关闭其旗舰产品或转为自营交易业务的计划，仅表示将改进运营和基础设施，努力降低交易对手风险。\n显然，这种判断是有问题的，之后的事情相信大家都知道，随着FTX无力回天进入破产程序，Multicoin Capital收回资产的可能性不断减小，最后才无奈决定将相关资产减记为零，尽管他们尚未具体说明注销金额，但市场专家认为相关减记数字可能超过8.5亿美元。\n“有趣”的是，Multicoin Capital的状况可能没有大家想象的那么糟糕，根据该基金在投资者信中披露数据显示，尽管基金规模大幅缩水，但自成立到2022年，Multicoin Capital对冲基金扣除费用后的增幅仍有1,376%，进入2023年后加密市场又迎来了一波短暂的低点反弹，又推动了其基金在今年一月上涨100.9%，自成立到2023年1月增长幅度达到2,866%。\n此外，Multicoin Capital去年的亏损主要因为其滞留在 FTX上的资产、以及持有直接受到FTX影响的代币，比如FTX原生代币FTT。根据Multicoin Capital在投资者信函中称，该基金已经在去年11月为受到FTX崩盘影响的资产创建了一个“侧袋（side pocket）”，将这些资产从主基金中剥离，包括留在FTX交易所的资产（目前正陷入破产程序）、以及从FTX撤出的资产（未来可能会因法律程序被收回）。\n不仅如此，Multicoin Capital还表示目前已采取新措施来“减轻交易对手风险”，比如——\nMulticoin Capital表示对其长期战略依然“保持坚定”，但不会贸然跟风市场。显然，在经历了FTX崩盘事件后，现在的Multicoin Capital应该吸取了一些教训。",
           "link": "https://www.panewslab.com/zh/articledetails/djpq0nwx.html",
           "publishedOn": "2023-03-05T04:16:43.000Z",
-          "wordCount": 1242,
+          "wordCount": 1238,
           "title": "受FTX崩盘影响亏损91.4%，Multicoin Capital投资者信中透露了哪些信息？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/05/images/ffiCJlvU96.jpg"
         },
@@ -1994,7 +2004,7 @@
           "description": "作者: Yihan Xu@Foresight Ventures\nOverview\n通过本文你可以了解到：\n…\n1.RaaS是什么\n1.1 Rollup: 最具潜⼒的扩容⽅案\nLayer 2出现的初衷是缓解主⽹拥堵问题，在保证安全性的情况下以更低的成本、更⾼的TPS为Dapp提供服务。Rollup将⾼成本的transaction execution放到L2执⾏，并将交易打包到L1进⾏验证，同时确保完整的交易内容可以被验证。在继承以太坊安全性的前提下，具备更强的综合性能。因此，rollup已经在各种layer 2的解决⽅案中杀出了⼀条路，⽆疑是当下最具有潜⼒的链下scaling⽅案。\n1.2 Rollup-as-a-service: App-specific chain的其中⼀种形态\n随着⼀些dapp的逐渐壮⼤以及各种新应⽤的拓展，作为General purpose scaling的rollup显然⽆法完美地满⾜这些项⽬对⽤户体验和成本结构的追求。庞⼤的流量和对性能超⾼的要求(注重玩家交互的3A游戏)使得这些应⽤需要更加定制化的扩容解决⽅案。\nApp-specific chain是对这些dapp来说就是当下最好的解决⽅案之⼀。\nApp chain的概念并不陌⽣，不同项⽬可以针对⾃⾝应⽤场景和需求对blockchain进⾏定制化地设计，让dapp可以独享⼀条链上的资源，并且在保证不与其他⽣态割裂的基础上，获得更低的运营成本和更⾼的performance，为⽤户带来更好的使⽤体验。\n⽐如基于Terdermint共识的Cosmos就为Dapp提供了低成本搭建⼀条L1主权公链的⽣态环境。同时，基于IBC通信协议，不同app chain之间也能更轻易地实现资产/信息跨链。可以参考Cosmos官⽅给出的IBC packet lifecycle?\n\n抛开⽣态谈扩容是没有意义的。\nApp chain这种解决⽅案的可⾏性⼀定是基于强⼤的互操作性和⽣态的⽀撑。⽐如Cosmos通过⽣态中的L1主权公链和IBC带来的跨链优势逐步完善⾃⼰的⽣态体系。\n基于以上认知，另⼀种app-specific chain的思路是通过定制化rollup的⽅式，实现dapp对定制化功能、⾼性能、低成本的追求。⼀些基于⼆层⽹络的RaaS也能让项⽬的交互更快捷，对⽣态布局产⽣正向影响。\n加密世界多链多rollup的格局似乎已经是⼀个必然的趋势，RaaS项⽬⾬后春笋般的涌现也为开拓新的dapp形态创造了基础。但是在这样的共识下我还是想反⽅向地问⼀个现实的问题:\n让任何⼈都可以快速的launch⼀个rollup确实很有吸引⼒，但是这件事除了⼤⽅向正确并且很酷之外，是否真的为有需求的⼈创造了⾜够⼤的价值？这个问题可以进⼀步拆成两点:\n市场上是否有⾜够多有需求的项⽬⽅存在⾜够⼤的motivation去⽤RaaS？\nRaaS是否为项⽬⽅创造了可观的价值？\n这个问题本质上是讨论需求和RaaS带来的价值。⾜够多的项⽬⽅有需求或者RaaS能提供有吸引⼒的提升。\n从需求上看，随着⼀些dapp的不断壮⼤，项⽬⽅确实迫切地需要去寻求：\n成本\n参考L2fees给出的数据，L2 rollup在成本优化上已经做到极致，相⽐Ethereum主⽹有⾮常⼤的提升。同时再看Caldera Chains的RaaS测试数据，可以发现成本上并没有质的改变，更像是99-100的优化。同时，EIP4844和danksharding的实现也会让L2 rollup的成本进⼀步降低，RaaS在成本和效率上带来的差异也会进⼀步缩⼩。\n可以⼤幅度降低transaction fee的⽅案是有吸引⼒的，但⼤多数RaaS并不能做到这⼀ 点。综合考虑迁移，整体⽣态，互操作性，安全性等多⽅⾯成本，项⽬⽅真的有⾜够的动⼒去使⽤RaaS吗？对于⼤多数常规dapp或者对性能和成本不那么敏感的⽤户来说，也许⽤general purpose scaling就⾜够了。\n\n性能\nL2 rollup已经具备提供超⾼的TPS的能⼒。参考Caldera给出的数据，在block time上基于Op的RaaS⼏乎没有带来优势。虽然ZK RaaS可以提供更定制化的数据存储和压缩，但对于这类服务的需求并不多。基于⼆层⽹络的RaaS确实可以通过在L2 settle交易带来更快的速度和更低的成本，进⽽提升⽤户体验。\n就像上⾯提到的，⾯对不完善的⽣态和其他迁移/开发成本，项⽬⽅是否还有⾜够的动⼒去使⽤RaaS？\n\n定制化功能\n从价值创造上看，⼀些RaaS确实可以提供⽬前很难实现功能或者在general purpose scaling中实现⽐较低效的设计。举例来说：\n⽬前L2的ZK电路设计的第⼀要素是兼容性，为了服务所有Dapp，因此电路设计⼀定程度上牺牲了效率，并没有针对特定的Dapps进⾏优化。RaaS的价值可以很明显的体现出来：对特定的dapp定制化地设计ZK circuit或者提供更⾼效的存储结构和数据压缩服务，以达到更⾼的performance；\n对隐私功能的实现。虽然ZKrollup对privacy友好，但出于去中⼼化和安全性的考虑，⽤户的交易数据仍需要在压缩后通过calldata发布到L1作为history log，允许所有⽤户验证。因此，当前 general purpose scaling的rollup并不能实现privacy。RaaS能定制化地在rollup甚⾄rollup of rollup的基础上实现隐私功能，为强隐私需求的项⽬创造价值。\n因此，⽬前RaaS发挥的价值：定制化 > 单纯成本和效率。(不排除定制化带来的成本和效率提升)\n回答⼀开始的问题：RaaS是否真的为有需求的⼈创造了⾜够⼤的价值？\n我认为现阶段对RaaS的需求有限，general purpose scaling能满⾜90%以上的需求。虽然在⼀些细分领域定制化的rollup已经开始发挥⽆法替代的作⽤，但毕竟不是主流。RaaS创造的价值有限，需要在考虑⽣态、互操作性等综合因素的基础上进⼀步探索。\n从L2 rollup出现开始，关于RaaS的探索就⼀直没有停⽌，到现在为⽌市场上也出现了各 种各样的Rollup-as-a-service实现⽅案。参考Messari上的⽣态布局，可以⼤致看出不同RaaS的实现路径。那么最关键的问题是：\n什么⽅案是make sense的？\n什么样的RaaS会最终赢得市场？\n3.1 OP or ZK？\n关于optimistic还是zero knowledge的讨论⼀直没有停过，虽然ZKrollup理论上拥有更强的performance、远快于optimistic rollup的finality time以及更⾼的安全性，但optimistic rollup具备更好的兼容性和更低的门槛。\n在现有的RaaS项⽬中，⼤多数项⽬是基于optimistic rollup的，我认为主要是以下⼏点原因：\n⽣态永远在第⼀位。基于optimistic的RaaS具备更好的兼容性，极⼤地降低了项⽬⽅迁移/开发门槛，可以让更多项⽬⽅快速部署，迅速构建更繁荣的⽣态，占据先发优势；\n门槛更低，不依赖算⼒⽀持。基于optimistic的RaaS同样通过fraud proof验证交易的有效性，因此在算⼒上对机器性能和储备的要求更低。这也是很多RaaS⽆法上⼿就做ZK的限制因素。\n更容易规模化。基于optimistic的RaaS开发门槛更低，不像以追求性能和更为底层的定制化的ZK RaaS，需要提供者深度参与开发。同时，受限于⽣成ZKP的算⼒，ZK RaaS也很难像optimistic RaaS⼀样⼤规模部署。\n虽然optimistic rollup在⽣态布局上的优势明显，但基于ZK的RaaS也有很明显的⻓处\n真正的定制化，带来更好的performance和更低的成本。在rollup的定制设计上，基于ZK的RaaS能在功能和性能上给项⽬带来更⼤的，general purpose scaling很难实 现的价值，可以看作是⼀种从0到1的改变。⽽基于optimistic的RaaS更多是在成本和效率上做90-99的改变。\n更⾼的安全性。ZK的RaaS可以做到trustless，⽽基于op的服务需要信任challenger正常⼯作，防⽌sequencer作恶。\n更好的互操作性和finality time。基于OP的RaaS需要进⾏7天的fraud proof验证，⽽ZK trustless的特征使其具备更快的finality time，同时，7天的验证期使OP-RaaS在跨 rollup的建设上存在挑战。\n总结\n从短期看，基于optimistic的RaaS在⽣态上的优势⽆法撼动，但从⻓期需求和价值创造的 ⾓度出发，我认为基于ZK的RaaS⼀定会在未来收获更⼤市场。\n3.2 Layer 2 or Layer 3?\n根据不同RaaS的use case和实现⽬标，选择更合适的实现⽅案。关于这个问题最⼤的差异我认为在成本和⽤户体验(互操作性)。\n如果将L2作为settlement layer并布局RaaS做为L3，可以实现更低的交易成本和更快的跨rollup交互，也就带来了更好的体验。⽽基于ethereum的L2 RaaS虽然很好的继承的主⽹ 的安全性，但在跨链成本和速度上都远不及多层⽹络设计。\n因此L3 > L2\n3.3 RaaS or L1 app chain: ⽣态和成本之间的权衡\nCosmos和Polkadot最早提出了app-specific chain的解决⽅案，和同为app-specific chain的RaaS谁更适合为dapp提供定制化服务？\n\n互操作性\n对于L1 app chain，除了在第⼀节提到的基于IBC通信协议的Cosmos⽣态，应⽤可以 在Polkadot上建⽴parachain，并基于XCM进⾏跨链信息交互。然⽽由于安全性和成本的考虑，在实际应⽤中我们可以看到⼤多数项⽬还是仅仅基于Terdermint或者Substrate共识引擎进⾏定制化L1 app-chain的开发，⽽很少⽤到跨链通信的功能。这就导致了这些跨链⽣态之间的相对独⽴，⼀定程度上并不契合我对于app-chain的终极形态的设想，不同app-chain应该⼀起构成⼀个具备强⼤互操作性的繁荣⽣态。\n对于starknet这类基于⼆层⽹络做进⼀步延展的RaaS结构，在互操作性上具备更强的优势，不同dapp维护的rollup之间可以进⾏低成本跨链，并且由于可以在⼆层⽹络结算，速度和⽤户体验也会更好。但这⼀切互操作性的前提都是RaaS能构建⾜够强⼤的⽣态。\n安全性\n取决于RaaS的设计，DA基于ethereum的RaaS⼤多继承了以太坊L1等同的安全性，⾼于L1 app chain的安全性和去中⼼化程度。⽽基于DA layer或者side chain的RaaS，安全性 由这些⼆层⽹络保证。\n成本\n对于L1 app chain，交易成本收敛到dapp项⽬⽅本⾝的native token，可以做到极低 的运营成本；\n对于RaaS，L2 RaaS由于需要和ethereum主⽹直接进⾏数据交互，成本相对较⾼，⽽基于polygon, starknet的L3 RaaS由于可以在L2 settle，成本相对更低。\n⽬前正在开发或者已经部署的RaaS项⽬⾮常多，包括但不局限于StarkNet L3, Opside, Caldera, Celestia, Dymension, Sovereign, Stackr, Eclipse, Altlayer, Saga…\n下⾯挑了⼀些⽐较有代表性的进⾏分析。\n4.1 ZK系列\n包括但不局限于Sovereign Labs、Fractal、StarkNet、Opside、ZKsync\n4.1.1 StarkWare: 基于ZKRollup的定制化L3\n参考这张⽼图，StarkWare团队在⽂章 \"Fractal Scaling: From L2 to L3\" 中最先提出了以太坊多层⽹络的设计。但多层⽹络的提出绝不是单纯做进⼀步扩容，更多是在L2 general purpose scaling的基础上通过叠加定制化rollup的⽅式允许项⽬⽅掌控更多链上资源，提供L2 rollup⽆法达到的⽤户体验。\n\n虽然从计算⾓度看，可以对⼀堆ZKP⽣成⼀个ZKP来证明有效性，但数据没法压缩后继续压缩。由于需要保证数据可⽤性，允许任何⼈验证proof的有效性，rollup需要将完整或压缩后的交易内容发送到L1。\n因此，StarkWare的app-specific chain应⽤场景⼀定是追求⾼性能或者特定feature的。\n⾼性能：对性能要求⾼的游戏可以独享ZK电路资源以提供更好的⽤户体验；\n隐私：对于⼀些有隐私需求的项⽬，定制化地在rollup甚⾄rollup of rollup的基础上实现隐私功能；\n兼容性扩容：提供EVM兼容的环境，甚⾄兼容更多编程语⾔，为⽣态本⾝提供正向价值\n低成本：在牺牲⼀定去中⼼化和安全性的前提下，通过Validium极⼤地降低运营成本。\nStarkNet基于Validium的L3⽅案理论上是能直观降低成本的，同时互操作性也得到了保证。\n但从定制化的⾓度看，可以进⼀步推断这种基于ZKrollup的app-specific chain在提供可观的性能提升的同时，也拉⾼了项⽬⽅开发成本和参与门槛。因此，RaaS的提供者需要深度介⼊开发，在商业化过程中的扩展速度和规模有局限。\n4.1.2 Opside: 为app-specific chain设计的另⼀种三层⽹络结构\n参考下图，相⽐StarkWare, ZKsync基于L2 rollup的app-specific L3的设计，Opside提出了⼀种专为high TPS应⽤⽽设计的三层⽹络。基于PoS+PoW的共识设计了⼀个侧链作为L2，并将app-specific chain作为L3接⼊侧链。\nOpside通过开发的ZK-bridge进⾏数据交互，并且与传统侧链的不同在于，合法性的证明通过zkp完成，⽽不是多签，所以有着更⾼的安全性。同时，Opside通过native rollup将app-specific rollup集成进L2 sidechain的共识中，即从共识⾓度激励第三⽅维护L2侧链上 的rollup。\n互操作性对RaaS⾄关重要，Opside中的native rollup之间共享⼀个world state tree和global message queue。因此，app-specific rollup之间的资产、信息交互会⾮常⾼效且成本更低，跨链资产交互只需要在⼀个L3 rollup的合约中直接调⽤⽬标rollup的contract method。但是兼容性和⽣态的发展对于基于ZK的rollup仍是⼀个挑战。\nZK所带来的trustless和更快finality time的tradeoff是RaaS的商业化规模受限于算⼒，需要硬件的⽀持来⽣成ZKP，这也是⼤多数RaaS不做ZK的原因之⼀。另外，侧链作为L2的设计在安全性上对RaaS的提供者也是⼀个挑战。\n4.2 Optimistic系列\n包括但不局限于Caldera、Eclipse\n4.2.1 Caldera: 基于Op stack将⽤户体验优化最⼤化\nCaldera是⼀个基于Op stack的RaaS，为项⽬⽅提供⾼通量、低延迟、定制化功能的L2 rollup。⽬前testnet允许任何⼈在很短的时间内创建⼀个L2 rollup，⽤户体验很丝滑，可以去体验⼀下: https://dashboard.caldera.xyz/\n基于Op stack的设计让Caldera在兼容性上获得了很⼤的优势，fully EVM compatibility加上团队在⽤户体验上的优化，极⼤地降低了迁移/开发门槛。同时，Caldera的RaaS在算⼒⽅⾯不受限于底层硬件的⽀持，因此综合来看能让更多项⽬⽅快速部署，构建更繁荣的⽣态。\n参考Caldera官⽅⽂档的结构图，Caldera Chains不仅可以在Ethereum上launch L2 rollup-as-a-service，也可以在任何EVM-compatible的L1上提供服务，通过向L1发送 fraud proof确保交易有效性。在数据可⽤层上，Caldera同样做了创新，将Data Availability Layer与Settlement Layer解耦，定制化的rollup可以将交易内容发送到 Ethereum，或者专门的DA层，⽐如Eigenlayer或者Celestia。这样的设计更⼤程度上优化了Caldera的可扩展性和交易成本。\nCaldera⽣态的互操作性由内部的跨链桥实现，通过在相应的L1和app-specific rollup上部署合约实现资产和数据的跨链，同时，Caldera也提供high-level javascript SDK帮助开发者在定制化的rollup中更⾼效地加⼊跨链功能。\n虽然Caldera在互操作性和跨链桥上做了很多，optimistic rollup需要7天fraud-proof time，因此构建rollup之间的互操作性是⼀个挑战。同时，基于optimistic的RaaS不能做到trustless，要信任⾄少有⼀个challenger存在来防⽌sequencer作恶。\n另外，在定制化上，Caldera这类基于Optimistic的RaaS更多的是在低成本和⾼TPS上发⼒，⽽很难做到像基于ZK的RaaS那样，在功能和性能上给项⽬发带来更⼤的价值。可以看到现在的general purpose scaling rollup已经能做到⾮常可观的block time、TPS和transaction cost，并且看数据和raas相差并不⼤，可以说已经完成了0-1的提升，那么基于Op的RaaS所带来的成本和通量的提升是不是当前市场所需要的还需要打个问号。\n4.3 Modular blockchain\n包括但不局限于Celestia、Dymension\n4.3.1 Celestia: 以DA层为基础构建模块化区块链\nCelestia本质上是⼀个data availability layer。基于Tendermint共识的DA层构建了⼀套可扩展性较强的区块链层级架构。通过rollmint(⼀种application blockchain Interfaceimplementation)，dapp可以搭建⾃⼰的rollup并部署到Celestia，数据在DA layer存储， ⽽state root和proof上传到L1进⾏验证。Celestia通过data availability sampling(DAS)对DA layer进⾏优化，⽹络中的每个light node只需要抽样并下载⼀⼩部分区块数据，因此 节点数量越多，每个区块中所能包含的transaction数量越多，达到scale DA layer的⽬的。这就很容易联想到熟悉的Validiums: ⼀种通过ZK算法对计算结果进⾏验证，数据不上传L1，⽽是依赖于validators托管的扩容⽅案。由于数据存在链下⽽⾮直接发布到Layer1， Validium降低了gas成本。但是从去中⼼化和安全性的⾓度看，Data Availability依赖于第 三⽅委员会，因此Validiums使⽤并不⼴泛。\n从实现⽅式上看，整个⽣态体系中的dapp相当于在搭建⾃⼰的validium，并维护sequencer和prover，由Celestia提供统⼀的数据存储空间。和Validiums类似，这样的实现⽅式降低了dapp的运营成本，但同时⼀定程度上牺牲了去中⼼化程度和安全性。相⽐其他继承Etheruem安全性的解决⽅案，Celestia上dapp链的安全性依赖于节点和DA layer。\n另外，Celestia⽬前并不⽀持fraud proof，因此节点需要基于悲观假设重新执⾏所有交易以确保有效性。同时，rollmint也只⽀持single sequencer，因此在效率和去中⼼化程度上都有很⼤的改善空间。\n但作为⼀个DA层，Celestia的想象空间绝不⽌于此，⽐如基于optimisitc的RaaS解决⽅案Eclipse就将Celestia作为共识和DA层。\nRaaS能直观的带来成本和性能的提升，但从performance推断这些优化并不具备很强的吸引⼒；更⼤的价值还需要和定制化功能绑定。⽬前市场需求有限，但未来crypto的发展，更⼤的流量会导致dapp对低成本和⾼性能的追求线性增⻓，定制化的rollup服务显然是⼀个可取的解决⽅案。\n回答最开始提出的问题，我理解的RaaS的最终形态是什么？什么样的RaaS会收割市场？\n从产品本⾝看\n基于OP的RaaS的优势在于快速搭建⽣态，形成壁垒，但是单纯从成本和效率上带来的⼩幅提升并不⾜以吸引项⽬⽅，因此没有⻓期价值。⽽基于ZK的RaaS能在定制化功能上解决痛点，但需求依然不是主流。\n多层⽹络结构的设计使L3的RaaS获得更低的成本和更强的互操作性。⽽强⼤的互操作性是构建⼀个⽣态繁荣的RaaS的基础，因此，基于ZK的多层⽹络设计可以将定制化和低成本的优势叠加，可以看到更⻓期的价值。\n我认为⻓期看基于ZK的多层⽹络RaaS会成为市场最终的选择。\n市场和需求\n具备⾜够可扩展性的RaaS可以在保证performance的前提下满⾜所有项⽬⽅的定制化rollup的需求。同时，RaaS真正崛起⼜重度依赖⽣态的建设。因此，多个RaaS共存的格局显然是不make sense的。\n我认为终局⼀定是⼀个或者少数RaaS占据整个市场。",
           "link": "https://www.panewslab.com/zh/articledetails/zztma40n.html",
           "publishedOn": "2023-03-05T02:55:37.000Z",
-          "wordCount": 1784,
+          "wordCount": 1777,
           "title": "RaaS是什么？什么样的RaaS会赢得市场",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/05/images/BqyU80gXh6.jpeg"
         },
@@ -2124,7 +2134,7 @@
           "description": "比特币是最安全和去中心化的区块链网络，但存在不支持智能合约、每秒只能处理大约7笔交易、交易确认可能高达数十分钟等性能上的限制。1月30日，NFT协议“Ordinals”在比特币主网上启动，截至3月2日，Ordinals上的NFT数量已经超过25万。\n虽然此举引发了不少争议，“比特币原教旨主义”认为应该尽可能保持比特币网络的简单和稳定，但“比特币扩展者”希望能给比特币带来更多金融用例。不管怎样，Ordinals的出现引发了又一波在比特币之上开发应用的热潮。本文中，PANews将盘点常见的比特币扩容方案近期的发展状况。\nStacks采用金字塔形的堆栈，底层是比特币基础结算层，然后是增加了智能合约和可编程性的Stacks，最上层是增加可扩展性和速度的Hiro。它使用自己的智能合约语言Clarity，并将历史交易记录写入到了比特币网络中，因此Stacks是一个比特币的Layer 2（以前Stacks也称自己为Layer 1）。Stacks发行有自己的代币$STX，作为比特币智能合约的代表，$STX也是近期表现最好的资产之一。\n\n由于目前在Stacks上建立的应用仍然主要为Arkadiko Protocol、ALEX、Stackswap、CityCoins、STX NFT这几个，和PANews一年前统计时并没有什么变化，这里就不再赘述。相关阅读：《为比特币提供智能合约的Stacks网络生态初起步，一文盘点主要项目》。\n根据Defi Llama的数据，近期Stacks上的资金确实有大幅提升，过去30天（2月1日～3月2日）TVL从756万美元升至2680万美元，增长254%。增长最多的是其中的DEX ALEX，过去一个月TVL上升316%，$ALEX的价格也从2月1日的0.015美元涨至现在的0.098美元。\nRootstock（RSK）是比特币上的一条兼容EVM的侧链，它和比特币使用相同的SHA-256算法，比特币矿工在进行挖矿的时候可以进行“合并挖矿”（Merged Mining），不需要额外的资源消耗，同时可以获得Rootstock中的交易手续费收入。Rootstock中的原生代币是一种比特币锚定币Smart BTC（RBTC），也用于支付交易的手续费。\nRIF（Rootstock基础设施，RIF）则是一个建立在Rootstock之上的平台，旨在为开发者提供区块链基础设施和服务，包括域名、存储、身份验证等，以支持dApp的开发和部署。虽然Rootstock除RBTC外并没有发行其它代币，但Rootstock和RIF由同一家公司IOV Labs开发，RIF发行有自己的代币$RIF。\n从Defi Llama上可以看到，Rootstock的TVL为5651万美元，但近期的增长并不明显，过去30天上升3%。生态中有包括DEX、借贷协议、稳定币等类型的项目，也可以使用来自以太坊等其它链上的跨链资产。但即便Rootstock支持EVM，生态项目中的资金在过去30天也并未出现大幅上升，增长最的为DEX Sovryn，目前TVL为2024万美元，过去一个月上升18.31%。\nLiquid Network是Blockstream在2018年9月推出的一种侧链技术（也称自己为Layer 2），旨在为比特币用户提供更快、更便捷的交易体验，同时保证交易的安全性和隐私性。它由包括交易所、金融机构以及其它以比特币为重点的公司组成的Liquid联合委员会维护和治理。\n除了快速、便宜、隐私的转账功能外，Liquid Network还可以实现各种类型的智能合约功能，如搭建DeFi应用（DEX Sideswap、借贷平台Hodl Hodl等）、发行稳定币、发行证券代币、铸造NFT、进行多签交易等。\nLiquid Network上主要使用的仍然是由比特币1:1锚定发行的L-BTC，Liquid官网显示近期网络上的L-BTC发行量维持稳定，目前为3551枚，一月份和二月份的数据分别为3567和3562枚。\n\nLightning Network\n比特币Lightning Network（闪电网络）是一种比特币Layer 2协议，通过在交易双方之间建立支付通道来提高比特币的交易速度和隐私性。\n支付通道建立后，双方可以发送链下交易来进行交易，交易仅记录在通道的双方之间，不需要在比特币网络中进行确认，因此交易速度快、费用低。交易的双方可以随时将交易记录提交到比特币网络上进行结算，从而实现比特币的转移。\n根据1ML的数据，目前闪电网络中的资金为5424 BTC，过去30天增加2.2%，节点数为16291个，通道数为76297个。\n\nStatechains\nStatechains是一种用于BTC链下转移的扩容技术，它与闪电网络类似，但又不完全相同。在闪电网络中，资产的转移是通过通道的所有权转移的，但在Statechains中资产的转移是通过BTC存款（UTXO）私钥（临时密钥）的所有权转移的。\nStatechains首先会在存款者和状态链实体之间创建一个拥有多个私钥的多重签名钱包，这些私钥掌握了与之相关联的比特币。私钥的持有者可以在Statechain上创建交易记录，将私钥转移给其他人，从而实现比特币资产的转移。Statechain中的交易也不需要每笔确认，从而提高交易速度，减少手续费。\nStatechains技术的一个解决方案是通过Commerceblock创建的Mercury钱包实现的。\n目前Mercury钱包中的总存款为23 BTC，总取款为19.8 BTC，应用仍然较少。BTC的流动性必须是特定的数量，如0.001 BTC、0.01 BTC、0.1 BTC 等，因此在进行充值或转移时，只能使用特定的数量。\n\nDrivechain\nDrivechain是一个比特币开放式侧链协议，可以根据不同的需求定制不同的侧链。它的设计来自于两个比特币改进提案，BIP 300“哈希率托管”（Hashrate Escrows）通过“Container UTXOs”将3-6个月的交易数据压缩成32字节，BIP 301“联合盲挖”（Blind Merged Mining）。和RSK一样，网络的安全性也通过联合挖矿的方式，由现有的比特币矿工维护。\nDrivechain的出现是为了在保持比特币的安全性和去中心化的情况下，与以太坊、Zcash、比特币分叉链等竞争，为比特币引入更多功能，这些侧链也使用比特币的锚定币，用于转账等功能。\n2022年12月，Drivechain的开发公司Layer2 Labs才宣布完成300万美元的种子轮融资，目前该项目还未发现有大规模的应用。\n在以上几种比特币扩容方案中，Stacks和RSK较为通用，RSK支持EVM，链上应用中的资金更多，但近期只有Stacks的数据增长较快。\n在主要用于BTC支付的几种方案中，Lightning Network中的BTC最多，Liquid Network同时在积极筹备DeFi、NFT等用例，Statechains的应用有限，Drivechain虽然可定制各种侧链，但还未见大规模应用。",
           "link": "https://www.panewslab.com/zh/articledetails/4282ghjx.html",
           "publishedOn": "2023-03-04T10:09:13.000Z",
-          "wordCount": 1307,
+          "wordCount": 1303,
           "title": "盘点主要的6种比特币扩容方案现状：Stacks数据增长较快，RSK支持EVM",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/04/images/kN0y3rRs58.jpeg"
         },
