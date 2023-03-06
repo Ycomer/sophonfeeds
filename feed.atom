@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T03:45:34.533Z</updated>
+    <updated>2023-03-06T03:50:39.890Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握Polygon上NFT一周关键数据（02.27—03.05）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/r334mj81.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/r334mj81.html"/>
+        <updated>2023-03-06T03:49:20.000Z</updated>
+        <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[融资周报 | 公开融资事件30起；去中心化移动网络服务商REALLY完成1800万美元种子轮融资，Polychain领投]]></title>
         <id>https://www.panewslab.com/zh/articledetails/6pw7ap6k.html</id>
@@ -279,6 +289,30 @@ Digiconomist 的德弗里斯说：「那些永远不会改变比特币的人正�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文】盘点与比较 Cosmos 生态流动性质押提供商：Stride、Lido、pStake 和 Quicksilver]]></title>
+        <id>https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</id>
+        <link href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking"/>
+        <updated>2023-03-06T03:31:02.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 生态流动性质押商 Stride 撰文将其与 Lido、pStake 和 Quicksilver 三个竞品进行对比，分析了四个项目的流动性技术、经济安全、审计、主链验证者选择方法等特征，认为每个项目都有不同的专业化竞争优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</a></p>
+<p><strong>文章作者：</strong></p><p>Stride</p><hr><h3>观点：</h3><p><strong>Stride：</strong>1）流动性质押技术：四个协议都使用称为链间账户（ICA）的新 Cosmos 技术。2）经济安全：Stride 和 Lido 计划使用 Cosmos Hub 的链间安全（ICS） V1，也称复制安全。Quicksilver 和 pStake 尚未承诺使用链间安全性。意味着 Quicksilver 和 Persistence 区块链的经济安全将与所有质押的 QCK 和 XPRT（其治理代币）的价值相关联。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>4）速率限制：是监控区块链安全的关键措施。Stride 协议以两种方式使用速率限制。Lido、pStake 和 Quicksilver 都没有宣布引入速率限制的计划。 5）链极简主义：指在区块链上使用尽可能少的代码，以最大限度地降低事故风险并减少攻击面的设计理念。Stride 区块链也是一条极简链。Lido 、pStake 和 Quicksilver 协议都不会托管在极简主义区块链上。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DAO 从此是 DAO - 犹他州通过创新 DAO 法案]]></title>
+        <id>https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw</id>
+        <link href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw"/>
+        <updated>2023-03-06T03:21:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>美国犹他州立法机构通过了《去中心化自治组织修正案》，Empower Labs 研究员王超对该法案中 DAO 的组织地位及责任、DAO 的形成规则、成员定义及责任，进行总结归纳。该法案的通过标志着 DAO 作为一种组织形式在美国获得了独立的法律地位。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw</a></p>
+<p><strong>文章作者：</strong></p><p>王超（Empower Labs）</p><hr><h3>观点：</h3><p><strong>王超（Empower Labs）：</strong>组织地位及责任：1）DAO 拥有法人资格，有开展任何合法事务的权利。2）DAO 为有限责任，责任上限为 DAO 的全部资产。3）成员个人不承担责任，但如果 DAO 不服从法律判决、投票决定不服从判决的成员个人则可能需承担判决中所需赔偿的金额，依据投票权大小拆分责任。</p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">内容来源</a><p><strong>王超（Empower Labs）：</strong>DAO 的形成：1）需要有自然人作为注册人，并需要设置公开联系人。2）需要有组织章程。3）需要部署在无许可的区块链上（公有链）、有去中心化治理体系、代码开源，地址公开。4）需要有一个授权法律代表，以便处理链上无法完成的事务。法律代表个人不承担连带责任。</p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">内容来源</a><p><strong>王超（Empower Labs）：</strong>成员定义及责任：1）所有成员视为共同管理人。2）治理代币持有人被视为 DAO 成员，在两种情况下生效，即主动持有代币开始，或首次和 DAO 进行链上交互。3）成员不可以以 DAO 无法退还其资金贡献为由要求解散 DAO。4）用于税收目的的情况，默认按合伙制方式执行，但 DAO 可以通过公开投票声明以公司形式进行纳税。5）在默认合伙制情况下，DAO 可以给成员分钱，成员按照合伙人方式缴纳个人所得税。</p><a href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DAO 从此是 DAO - 犹他州通过创新 DAO 法案]]></title>
         <id>https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw</id>
         <link href="https://mp.weixin.qq.com/s/OycqI8dAVTnO2H23CA5vaw"/>
@@ -298,6 +332,30 @@ Digiconomist 的德弗里斯说：「那些永远不会改变比特币的人正�
         <summary type="html"><![CDATA[<h3>Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism</h3>
 <p>Tornado Cash 早期贡献者 Ameen Soleimani 发推称，Tornado Cash 分叉混币应用 Privacy Pools v0 现已上线 Optimism。Privacy Pools 具备可选择加入或退出的匿名集合，允许用户在无需透露整个交易历史的前提下，将自己从包含被盗或洗钱资金的匿名集合中删除。目前，发布的 Privacy Pools v0 是尚未经过审计的实验代码，是该协议的最小初始实现。</p>
 <p><a href="https://twitter.com/ameensol/status/1632083054272430080">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Pricacy Pools 代码库：https://github.com/ameensol/privacy-pools</p><a href="https://github.com/ameensol/privacy-pools">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism]]></title>
+        <id>https://twitter.com/ameensol/status/1632083054272430080</id>
+        <link href="https://twitter.com/ameensol/status/1632083054272430080"/>
+        <updated>2023-03-06T03:04:55.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism</h3>
+<p>Tornado Cash 早期贡献者 Ameen Soleimani 发推称，Tornado Cash 分叉混币应用 Privacy Pools v0 现已上线 Optimism。Privacy Pools 具备可选择加入或退出的匿名集合，允许用户在无需透露整个交易历史的前提下，将自己从包含被盗或洗钱资金的匿名集合中删除。目前，发布的 Privacy Pools v0 是尚未经过审计的实验代码，是该协议的最小初始实现。</p>
+<p><a href="https://twitter.com/ameensol/status/1632083054272430080">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Pricacy Pools 代码库：https://github.com/ameensol/privacy-pools</p><a href="https://github.com/ameensol/privacy-pools">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化质押协议 Rocket Pool 计划于 4 月初进行 Atlas 升级，将与以太坊上海升级兼容]]></title>
+        <id>https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f</id>
+        <link href="https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f"/>
+        <updated>2023-03-06T03:04:33.000Z</updated>
+        <summary type="html"><![CDATA[<h3>去中心化质押协议 Rocket Pool 计划于 4 月初进行 Atlas 升级，将与以太坊上海升级兼容</h3>
+<p>去中心化质押协议 Rocket Pool 宣布将于 4 月初进行 Atlas 升级，使该协议与以太坊的上海升级兼容。Atlas 升级引入了 gas 优化、LEB（Lower ETH Bonded）Minipool、Solo Staker 迁移、Minipool 队列简化、动态存款池限额、Minipool ETH 分配等功能和更新。目前，Atlas 版本已经过 Sigma Prime 和 ConsenSys Diligence 的审计，并部署在在 Zhejiang 测试网上，目标是在 3 月底或 4 月初发布至以太坊主网。</p>
+<p><a href="https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -1957,7 +2015,7 @@ RaaS能直观的带来成本和性能的提升，但从performance推断这些�
         <updated>2023-03-05T02:51:43.000Z</updated>
         <summary type="html"><![CDATA[<h3>受 FTX 破产影响，Multicoin Capital 对冲基金 2022 年亏损 91.4%</h3>
 <p>据 CoinDesk 援引 Multicoin Capital 年度投资者信件报道，Multicoin Capital 对冲基金在 2022 年亏损了 91.4%，为历史最差表现。Multicoin 将去年的亏损归因于市场震荡，以及加密货币交易平台 FTX 破产的直接和间接影响。根据去年 11 月披露的 Multicoin 财务状况显示，该基金有 10% 的资产持有 FTX，并且大量持有 FTT、SOL 和 SRM。截至 2023 年 1 月，Multicoin Capital 对冲基金自成立以来（2017 年 10 月）的总回报率为 2866%。</p>
-<p><a href="https://www.coindesk.com/business/2023/03/04/multicoin-capitals-hedge-fund-lost-914-last-year-investor-letter-reveals/">内容来源</a></p><hr>]]></summary>
+<p><a href="https://www.coindesk.com/business/2023/03/04/multicoin-capitals-hedge-fund-lost-914-last-year-investor-letter-reveals/">内容来源</a></p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>翻译一下，Multicoin 意思是：我承认我有赌的成分，但是我赌错了，我还想继续赌而且还是要收你们的管理费，希望你们不要不识抬举。</p><a href="https://twitter.com/Loki_Zeng/status/1593570934434463746">内容来源</a><p><strong>Zhu Su：</strong>讽刺的是，不管 Multicoin 持有或是卖掉 SOL 大家都会生气。甚至已经有人造谣 Multicoin 卖掉了 SOL。我认识的几个 Multicoin Capital LP 都挺支持 Multicoin 的。【原文为英文】</p><a href="https://twitter.com/zhusu/status/1632418796374728704">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -3579,16 +3637,6 @@ Sui CTO ：Aptos刻意打压Sui和Move开发者，对其感到失望
         <link href="https://www.panewslab.com/zh/sqarticledetails/tcgubs5m.html"/>
         <updated>2023-03-04T00:40:47.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月4日消息，Bored Ape Yacht Club （BAYC）在推特发布公告称，经过内部审查，目前决定将召唤“Summoning”启动时间推迟一周至3月15日，但蟾蜍模式的分数审查仍将按计划在3月7日之前完成。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Silvergate暂停SEN服务，存款服务仍正常运行]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/29bh5q8c.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/29bh5q8c.html"/>
-        <updated>2023-03-04T00:32:58.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月4日消息，据官方消息，Silvergate Capital Corp宣布暂停Silvergate Exchange Network（SEN）服务。该决定是基于风险做出的，将立即生效。所有其他存款相关服务仍正常运行。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
