@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T04:43:37.450Z</updated>
+    <updated>2023-03-06T04:48:32.993Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -56,6 +56,30 @@ DAO 的形成
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>
 <p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PolyHedra Network 解读：如何构建「多边形」 ZK 生态]]></title>
+        <id>https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</id>
+        <link href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4"/>
+        <updated>2023-03-06T04:24:56.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>
+<p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？]]></title>
+        <id>https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</id>
+        <link href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse"/>
+        <updated>2023-03-06T03:55:04.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>
+<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -371,7 +395,7 @@ Digiconomist 的德弗里斯说：「那些永远不会改变比特币的人正�
         <updated>2023-03-06T03:31:02.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 生态流动性质押商 Stride 撰文将其与 Lido、pStake 和 Quicksilver 三个竞品进行对比，分析了四个项目的流动性技术、经济安全、审计、主链验证者选择方法等特征，认为每个项目都有不同的专业化竞争优势。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</a></p>
-<p><strong>文章作者：</strong></p><p>Stride</p><hr><h3>观点：</h3><p><strong>Stride：</strong>1）流动性质押技术：四个协议都使用称为链间账户（ICA）的新 Cosmos 技术。2）经济安全：Stride 和 Lido 计划使用 Cosmos Hub 的链间安全（ICS） V1，也称复制安全。Quicksilver 和 pStake 尚未承诺使用链间安全性。意味着 Quicksilver 和 Persistence 区块链的经济安全将与所有质押的 QCK 和 XPRT（其治理代币）的价值相关联。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>4）速率限制：是监控区块链安全的关键措施。Stride 协议以两种方式使用速率限制。Lido、pStake 和 Quicksilver 都没有宣布引入速率限制的计划。 5）链极简主义：指在区块链上使用尽可能少的代码，以最大限度地降低事故风险并减少攻击面的设计理念。Stride 区块链也是一条极简链。Lido 、pStake 和 Quicksilver 协议都不会托管在极简主义区块链上。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a>]]></summary>
+<p><strong>文章作者：</strong></p><p>Stride</p><hr><h3>观点：</h3><p><strong>Stride：</strong>1）流动性质押技术：四个协议都使用称为链间账户（ICA）的新 Cosmos 技术。2）经济安全：Stride 和 Lido 计划使用 Cosmos Hub 的链间安全（ICS） V1，也称复制安全。Quicksilver 和 pStake 尚未承诺使用链间安全性。意味着 Quicksilver 和 Persistence 区块链的经济安全将与所有质押的 QCK 和 XPRT（其治理代币）的价值相关联。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>3）审计：Stride 协议代码库已由三个独立的公司审计，还保留了 Informal Systems 以持续进行审计所有代码更改和升级。Neutron（Lido 将在其上运行的链）已经完成了对其测试网的一项审计，并计划再进行一次审计。Lido 可能会专注于他们在 Cosmos 上的代码库的安全性。pStake 完成了对 stkATOM 流动性质押协议的审计。Quicksilver 进行了两次审计，都考虑了代码库。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>4）速率限制：是监控区块链安全的关键措施。Stride 协议以两种方式使用速率限制。Lido、pStake 和 Quicksilver 都没有宣布引入速率限制的计划。 5）链极简主义：指在区块链上使用尽可能少的代码，以最大限度地降低事故风险并减少攻击面的设计理念。Stride 区块链也是一条极简链。Lido 、pStake 和 Quicksilver 协议都不会托管在极简主义区块链上。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>6）主链验证者选择：Stride 通过公开透明的方式，利益相关者行使最终批准权或拒绝集合。Lido 在以太坊上选择一组封闭的创始节点运营商来筛选，有权单方面拒绝申请验证者。pStake 通过满足设定的标准筛选并平均分配。Quicksilver 允许用户通过意图信号选择。7）流动性质押衍生品投票：Quicksilver 与 Stride 的投票权正在开发中，目前尚不清楚 Lido 或 pStake 是否会开发此类功能。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
