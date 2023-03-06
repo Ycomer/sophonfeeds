@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-06 datetime="2023-03-06T00:39:55.000Z">2023-03-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-06 datetime="2023-03-06T00:39:55.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-06 datetime="2023-03-06T01:07:35.000Z">2023-03-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-06 datetime="2023-03-06T01:07:35.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,120 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/vg13i7ss.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK二层网络Scroll交互指南</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/vg13i7ss.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/rH92Rb4Svk.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《 Getting started with Scroll zkEVM 》by Gaurang (GT) Torvekar
+编译：MarsBit
+本文旨在介绍初学者如何与 L2 Dapps 交互。
+在本指南中，我将讨论如何开始使用Scroll zkEVM以及如何与以太坊 L2 Dapp 交互。理论上，在本指南中学到的技能可迁移至任何其他 2 层网络。文中，我将使用我创建的 Dapp 进行说明。这是一款链上 TicTacToe 游戏，可在 Scroll L2 网络上玩。
+准备工作—安装 Metamask（或任何类似的钱包）
+如果你已经安装了 Metamask，则可以跳过此步骤。如果没有，请访问https://metamask.io/download/并根据您的浏览器或移动设备安装合适的版本。
+
+第一步——搭建 Scroll L2 测试网和 Goerli 测试网
+目前，Scroll zkEVM 已经推出了一个 alpha 测试网。这是一个二层网络，与 EVM（Ethereum 虚拟机）兼容。这意味着在以太坊网络编写的任何智能合约都可以使用同一套工具在 Scroll zkEVM 上进行本地部署。Scroll L2 alpha testnet 目前 &quot;连接 &quot;到 Ethereum L1 上的 Goerli 测试网络。这意味着 Scroll L2 网络向 Goerli L1 网络发送成批的交易，以 &quot;最终确定 &quot;交易。因此，最终，他们仍然依赖于以太坊 L1 网络的 &quot;安全&quot;，但实现了可扩展性，因为不是每笔交易都需要在以太坊网络上发布。
+您可以通过访问https://scroll.io/alpha并按照说明将网络添加到 Metamask 来设置 Scroll L2 网络。在该页面上，您应该将 Goerli 网络添加到你的 Metamask（如果你尚未这样做）。
+
+第 2 步—获得一些 Goerli 测试 ETH
+通过上述步骤在 Metamask 中设置网络后，你必须从水龙头中获取一些 Goerli ETH。
+你可以使用以下个水龙头：
+1. https://goerlifaucet.com/—这个水龙头一次只给 0.2 ETH，你需要注册/登录 Alchemy 才能获得代币。
+2. https://goerli-faucet.pk910.de/——这个 PoW（工作证明）水龙头可以提供更多的 ETH，因为你需要保持页面打开并「挖」一些 ETH。相比第一个，我更喜欢这个水龙头。
+3. https://faucet.paradigm.xyz/——这个水龙头需要你用 Twitter 登录。你需要花费一段时间才能得到 0.1 ETH，因此不太方便。
+你可以使用上述水龙头中的一个，或三者结合使用。
+一旦你有足够的 ETH，请继续进行下一步。
+
+现在，下一步是将上面步骤 2 中积累的一些 ETH 桥接到 Scroll L2 测试网。为此，请前往桥接界面——https: //scroll.io/alpha/bridge
+按照页面上的说明将一些 ETH 转移到你在 Scroll L2 测试网上的地址。
+请注意，此交易不会立刻完成，需要一些时间才能转移 ETH。一旦 ETH 被转移，你就可以进入下一步来尝试很棒的链上 Tictactoe 游戏！
+
+在 https://onchain-tictactoe.vercel.app/查看游戏。将你的钱包连接到此页面并创建一个新游戏。由于这是一款多人游戏，你需要添加朋友的地址，甚至你的第二个钱包可以作为第二个玩家。
+一旦你创建了你的第一个游戏，你需要从下表中「选择」游戏，然后你就可以开始玩链上的 Tictactoe。
+这个游戏还有一个有趣的元素！如果你在其中一步犯了错误，或者不想输掉游戏，你可以随时「重置」游戏。
+注意——我已经开源了游戏的代码。你可以在 GitHub上找到它。
+如果你想在 Scroll 上测试其他 Dapps 和游戏，请查看此页面— https://ethdenver.scroll.systems/
+原文链接</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/6xwo0d9j.html"
+                        open
+                      >
+                        <summary class="article-expander__title">彭博社：Babel Finance在损失7.66亿美元后计划发行“Babel Recovery Coins”以偿还债权人</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/6xwo0d9j.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月6日消息，据彭博社报道，加密借贷公司Babel Finance联合创始人、现任唯一董事的Yang Zhou计划向新加坡高等法院申请暂停保护，要求债权人在至多6个月内不要对该公司采取进一步行动，因为该公司正寻求债权人批准一项重组计划。
+在一份文件中，Yang Zhou提议用一个新的去中心化金融项目产生的收入来偿还欠债权人的债务，该项目铸造了所谓的“Babel Recovery Coins”。Yang Zhou拒绝置评。据知情人士透露，在此前卸任后重新领导Babel的Yang Zhou计划与香港的几名前Babel员工一起，在重组的中心建立名为Hope的DeFi项目。据其网站称，Hope的同名稳定币最初将使用比特币和以太坊作为抵押品，并通过对交易者的套利激励将其价值维持在接近1美元的水平。相比之下，USDC等流行的稳定币完全由现金和现金等价资产支持。Kirkland &amp; Ellis和Carey Olsen正在就该公司重组提供咨询。
+Babel去年在加密市场崩溃期间遇到了麻烦，该公司的自营交易部门使用客户资金产生了7.66亿美元的赤字。文件称，去年12月被解除公司领导职务的联合创始人Wang Li对亏损负有责任，称“高风险交易活动似乎完全是由Wang Li指示的”。Wang Li回应称，他知道法院的文件，但没有提供更多的评论。Babel估计，该公司及其客户拥有的价值5.24亿美元的比特币、以太坊和其他代币因Wang Li的交易活动而损失。另外，Babel的交易对手在无法满足大量追加保证金要求后清算抵押品，也造成了2.24亿美元的损失。
+相关阅读：重读贝宝金融模式调查：2年前3.12为何崩溃？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/4yknevr9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">科普 | Layer3 崭新亮相，它将给区块链世界带来什么？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/4yknevr9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/bnLMQuaX3b.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>作者：布噜说
+层，在区块链上被赋予了独特的概念和价值。作为区块链技术架构的基础单位，一个区块链从下至上，可被分为传输层、数据层、网络层、共识层、激励层、合约层和应用层。
+为了提升区块链世界的商业化效率，人们根据区块链技术层级架构，从功能角度，又划分出了 Layer0、Layer1、 Layer2 这样的区块链三层解决方案架构。
+其中，Layer0 就是传输层 ，传输层是区块链最底层的技术解决方案，属于区块链世界的数字基础设施，解决区块链上的通信传输问题。
+其次， Layer1 分布着区块链的数据层、网络层、共识层和激励层。区块链用户所谈的「公链」「区块链主网」，也是指 Layer1。Layer1 汇集了区块链最有代表性的技术架构层，而面临的技术难题则是「区块链不可能三角」。
+
+△ 区块链不可能三角
+为了解决 Layer1 面临的技术难题，Layer2 呼之欲出，并明确地设定了目标—— 由合约层、应用层共同构成的 Layer2，主要目的便是提升 Layer1 的效率。而提升效率的方法，就是分担一部分 Layer1 的计算工作量，让 Layer1 能够专注地去解决信任和共识的计算问题，从而，整体上实现智能合约处理速度的提高，实现链上交易吞吐量的效率提升。
+Layer0、Layer1、 Layer2 的提出与架构划分，对区块链行业发展变革性最大的部分就是在 Layer2。从 2021 年起，短短 2 年时间，参与 Layer2 扩容解决方案开发的市场参与者队伍迅速壮大，数字资产用户也切实感受到了扩容解决方案带来的好处，比如交易费用的减低。
+那么，区块链世界走向未来，如今的三层解决方案架构是否已经满足了发展需求？答案并非如此，不少行业人士认为，区块链世界的未来，也可能需要应对高度定制化的使用场景，在这种情况下，最好有一个新的功能层（Layer）来提供服务，才能确保计算效率，这就是区块链第四层解决方案 Layer3 概念的由来。
+从技术实现角度而言，Layer3 本质上也是一种扩容解决方案——如同 Layer2 之于 Layer1 的关系一样，Layer3 也要将数据打包压缩给 Layer2——这样的关系，显示了一种典型的嵌套结构。
+理论上，这种结构可以进一步提升计算效率、测试效率，也会进一步降低区块链网络使用成本，实现进一步扩容。
+但是以太坊创始人 Vitalik Buterin 提出，这种「rollups on top of rollups」的做法，实际上并不能为 Layer1 的扩容需求带来更大的优势，但这种做法可以用于其他的目的。
+以太坊创始人Vitalik Buterin 比较 Layer2 与 Layer3：
+
+△Layer3 架构 vs. Layer2 架构
+从上文的比较诠释中可以看出，Vitalik Buterin 所指的其他目的，正是在于 Layer3 与 Layer2 的两个最显著的差异：实现「自定义」与「定制功能」。
+
+△ 经典架构：StarkWare 团队提出的 Layer3 定制化架构设计，StarkWare 也是 Layer3 概念的首创者。
+而注重提供「定制功能」的 Layer3，还将可能解决一个 Layer2 没法解决的问题——跨链的互操作性。
+比如，在以太坊 Layer3 上，应用程序可以不使用以太坊虚拟机来执行代码，有助于不同的区块链网络平移到一个层面，来进行相互的通信、连接和交互，这也给 Layer3 生态的未来项目发展带来了更多的想象。
+从技术架构上看，Layer3 和 Layer2 一样，也包含了应用层，而 Layer3 又具备着更好的跨链互操作性，这也就意味着，可以迁徙到 Layer3 上面的用例将非常之多。
+并且，对于那些需要更大交易吞吐量支持、对进一步降低网络使用费用需求强烈的去中心化交易所、区块链游戏等类型的用例，也可以在 Layer3 上获得交易效率的提升、体验到真实的降本增效。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -3812,7 +3926,7 @@ Ignas | DeFi Research：有一些技术比如 Biconomy 的 SDK 可以将多链�
 https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023
 文章作者：
 abcoathup.eth</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4965,109 +5079,6 @@ DappRadar的最新报告显示，今年2月份NFT交易量突破20亿美元，�
                               <span>PANews 3月3日消息，Waves 创始人 Sasha Ivanov 发推称，将于 3 月 10 日（下周五）对 Waves 链上 WAVES（以及所有锁定的 WAVES）进行快照，以用于 Power 代币空投。
 Waves创始人此前曾表示，Power空投将只在Waves链上进行，用户有两周时间将Waves代币从CEX取出以获得Power空投。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/965mbijz.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Waves将于3月10日进行快照，以用于Power代币空投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/965mbijz.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月3日消息，Waves 创始人 Sasha Ivanov 发推称，将于 3 月 10 日（下周五）对 Waves 链上 WAVES（以及所有锁定的 WAVES）进行快照，以用于 Power 代币空投。
-Waves创始人此前曾表示，Power空投将只在Waves链上进行，用户有两周时间将Waves代币从CEX取出以获得Power空投。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/ilgxs0sc.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Coinbase发布二层网络Base，Rollup as a Service 赛道迎来转折点？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/ilgxs0sc.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/03/images/E654i7wppv.jfif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>作者：yyy
-Coinbase 正大刀阔斧地建设链上基础设施，近日宣布基于 OP Stack 构建一条二层 Rollup 链——Base, 一时间 Crypto 市场上掀起了「Bullish on Rollup」的呼声。Coinbase 作为全美第一大加密交易所，此番举措或将成为 Rollup 赛道发展、革新的催化剂。
-以太坊网络性能的局限性催生出了多样化的 Layer 2 扩容解决方案，Rollup 方案作为其中的翘楚领跑整个扩容赛道。以太坊通常被看成一个单体区块链网络，单体中主要由 3 大功能层级构成：数据可用性和共识层、结算层和执行层。由于区块空间是有限的，所有功能层级在单体中运行消耗了大量的链上资源，导致网络拥堵、链上 gas 费用飙升。Rollup 本质上是将执行层从单体区块链中分离出来的模块化扩容解决方案，将复杂运算转移到链下，再把链下执行结果传输到链上验证，在继承以太坊安全性的情况下大幅提高网络的性能。
-据 L2BEAT 数据显示，截止至 2023.03.02，Arbitrum TVL 为 34.3 亿美元，份额在整个 Layer 2 赛道中占比高达 54.25%；Optimism TVL 紧随其后，两者 TVL 总和已超过 80% 的市场份额。Layer 2 赛道竞争格局看似已由 Arbitrum 和 Optimism 捷足先登，实则风起云涌，越来越多的 Rollup 方案如雨后春笋般涌出，带着它们的创新叙事，企图蚕食一定的市场份额。
-
-而其中最引入注目的，是由此衍生出的一个被称为“Rollup as a Service”的全新赛道。顾名思义，RaaS 代表把 Rollup 的部署作为一种服务，为开发者从 0 到 1 构建 Rollup 提供了极大的便利。
-RaaS 理念的雏形最早可以追溯到 2021 年 Celestia 的 Optimint( 现更名为 Rollkit), 旨在为开发者提供一整套通用软件开发套件 (SDK). 由 Optimism 团队提出的 OP Stack 堆栈是这一赛道的代表性项目，近期 Coinbase 基于 OP Stack 构建其 Optimistic Rollup(ORU) Base, 这是一个起点同样也是一个契机，点燃了我对 RaaS 赛道的热情和憧憬。
-在讲 RaaS 赛道的具体项目之前，先来捋一捋这个赛道之所以出现、兴起或者说即将兴起的原因和驱动力。我始终认为最核心的驱动力是需求：以太坊性能的局限性催生了扩容的需求，所以有了 Rollup; 从 0 到 1 部署一条链并非易事，如果有通用的工具会事半功倍，因此出现了 RaaS. 当然，上述观点成立的大前提是 Rollup 本身具有需求，目前来看，通用型 Rollup 的需求已经得到市场的证明；特定应用型 Rollup 的需求还有待于市场验证。
-除了上述所说的 Optimism 的 OP Stack, Celestia 的 Rollkit, RaaS 赛道包含的项目还有很多。从是否需要编写代码角度，RaaS 项目可分为 2 类：SDK 和无代码 (No-Code) 方案。SDK 方案即为开发者提供一整套通用的软件开发套件，让部署 Rollup 和部署智能合约一样简单；无代码方案，顾名思义，即无需编写一行代码部署 Rollup( 一键发链 )。
-其中 OP Stack 和 Rollkit 均属于 SDK 方案，Dymension, Sovereign, Stackr 同属这一范畴。无代码部署 Rollup 的项目包括 AltLayer, Saga, Eclipse 和 Caldera. 这里不会花太长的篇幅对 RaaS 赛道的每个项目进行详解，仅做简答介绍。文章更多侧重于我自己对 RaaS 赛道的一些思考，希望能起到一点抛砖引玉之效。
-
-SDK
-1. OP Stack
-OP Stack 是 Optimism 团队为了实现模块化区块链架构的软件堆栈，将区块链网络分为共识层、结算层、执行层 3 大功能层级。通过将不同功能层级解耦，再以 API 软件堆栈的形式把所有层级组合起来，极大地简化了模块化区块链构建的流程。
-OP Stack 给 Rollup 开发者带来了更大的自主性，能够切换、替换、修改不同模块层级，就像切换 API 一样。Optimism 团队提出了他们认为的区块链终局形态“超级链”，即由一组高度集成的 OP Stack 链组成，链之间通过共享消息传递格式进行通信，实现 Rollup 链间互操作性。
-2. Rollkit
-Rollkit 是由 Celestia 社区开发的模块化发链 SDK, Rollkit 相对于 Rollup 就相当于 Tendermint 相对于 Cosmos Layer 1. 开发者可以基于 Celestia 提供的数据可用性 (DA) 和共识层构建 Rollup, 进一步提高可扩展性。另外，Rollkit 也带来了可定制化的优势，DA 层、排序器、执行环境、证明机制等都可以定制。
-
-3. Dymension
-Dymension 的 RollApp 开发套件 (RDK) 的功能与 Cosmos SDK 类似，帮助开发者在 Dymension 结算层上部署 RollApp( 基于特定应用的 Rollup). 结算层扮演的角色是维护所有 RollApp 的安全性，也被称为 Dymension Hub, 换句话说，所有基于 RDK 构建的 RollApp 共享 Dymension Hub 的安全性。值得注意的是，Dymension 在结算层中引入了 RollApp 虚拟机 (RVM), RVM 支持全新的争议解决机制，因此可以支持各种不同的执行环境。
-
-4. Stackr
-Stackr 是以太坊基金会主办的 Layer 2 Community Grants 2022 22 个获奖项目之一，它在 130+ 项目中脱颖而出。旨在通过 Stackr SDK, 让开发者更便捷地部署可定制化的 App-specific ORU.
-5. Sovereign
-Sovereign 相对于以上 4 个 Rollup SDK 项目而言稍显“另类”，上述 SDK 方案都是以构建基于欺诈证明的 ORU 为切入点，而 Sovereign 一开始便专注于基于零知识证明的 zk-rollup(zkRU) 的构建。零知识证明是密码学中非常难的一个分支，zk-rollup 的开发要求开发者拥有很扎实的密码学功底。Sovereign 提供的 SDK 能够让没有密码学专业背景的开发者也能使用零知识证明技术开发公链，让开发 zk-rollup 跟开发 Dapp 一样简单。
-1. AltLayer
-AltLayer 是具有代表性的无代码 Rollup 解决方案之一，旨在解决单一热门 Dapp 造成整个网络拥堵的问题。由于部署在同一区块链网络的不同 Dapp 共享有限的区块空间，当特定 Dapp 链上交易激增 ( 如限定时间的 NFT 铸造活动等 )，会造成整个网络拥堵 gas 费用飙升。AltLayer 通过提供部署 Flash Layer 提供一次性执行层，为 NFT 铸造事件提供专用的区块空间，与链上的其他项目完全隔离，在铸造活动结束后关闭执行层，进而提高网络的可扩展性。
-2. Saga
-Saga 是部署在 Cosmos 生态上的项目，愿景是通过横向扩容打造千链生态。Saga 的架构跟上述 SDK 方案 Dymension 类似，Rollup 在 Saga 架构中被称为 Chainlet. 由于基于 Saga 主网构建，所有的 Chainlet 共享 Saga 主网提供的安全性。通过共享安全，Chainlet 无需原生代币即可运行。由于链游底层基础设施的完善和扩容成为当下亟需解决的问题，Saga 最初将专注于游戏、娱乐链等 Web 3 基础设施。
-3. Eclipse
-Eclipse 旨在为任意 Layer 1 提供通用的结算层，Rollup 再基于 Eclipse 的结算层构建。Eclipse 为开发者提供了一个高度可组合的 Rollup 框架，可以自主选择虚拟机、数据可用性层等。目前，Eclipse 支持的 Layer 1 包括 Celestia, Polygon 和 EigenLayer, 后续将支持更多的 Layer 1 网络。
-
-4. Caldera
-Caldera 支持「一键发 ORU 链」，无需编写一行代码，将开发一条 Rollup 的时间缩短至分钟级别。Cladera 链模块化堆栈由 3 部分组成：Caldera Chain( 执行层 )/ EVM 结算层 / 数据可用性层 (DA). 它能基于任何 EVM 兼容链作为结算层，Caldera 的执行层是基于欺诈证明的 ORU, 即通过运行欺诈证明机制维护 Rollup 网络的安全性。
-
-Rollup 模块化架构
-从 Rollup 的模块化架构进行划分，大体可以分为 3 类：
-1）通用智能合约 Rollup;
-即 Layer 1( 如以太坊 / Polygon 等 ) 负责结算 + 共识 + 数据可用性，执行层 (Rollup) 从单片链中分离出来，代表性例子如 Optimism/ Arbitrum.
-2）结算 Rollup;
-即 Layer 1 负责共识 + 数据可用性，结算层作为独立的层级分离出来，Rollup 基于结算层构建，由此构建的 Rollup 共享结算层。结算 Rollup 根据功能不同又可以划分为特定应用结算 Rollup 和通用型结算 Rollup. 如基于 Dymesion Hub 构建的 RollApp, 基于 Saga Chain 构建的 Chainlet。
-3）主权 Rollup;
-即 Layer 1 负责共识 + 数据可用性，Rollup 负责结算 + 执行，由于 Rollup 可以决定其自身交易的有效性，所以我们认为它是有“主权”的。与结算 Rollup 类似，根据功能不同主权 Rollup 又可划分为特定应用主权 Rollup 和通用型主权 Rollup. 如基于 Celestia Rollkit 构建的 Rollup。
-更具体地，Rollup 可以分为 5 类：通用 Rollup, 特定应用 + 通用型结算 Rollup, 特定应用 + 通用型结算主权 Rollup. 如果再跟证明机制 ( 零知识证明 / 欺诈证明 ) 组合，可以衍生出 5 × 2 &#x3D; 10 种 Rollup 组合。再具体一点，开发者可以选择 Celestia/ Eigen DA 做数据可用性和共识层，Dymension/ Saga/ Eclipse 做结算层，构建 Rollup. 随着模块化项目的增多，由此形成的模块化 Rollup 组合甚至可以达到成百上千种，而所有的 Rollup 组合，都能通过 RaaS 相关项目提供的基础设施轻松便捷地部署，RaaS 赛道所散发出的潜力是不容忽略的。
-
-看好 RaaS 赛道的一些想法
-之所以看好 RaaS 赛道，主要基于以下的一些投资逻辑：( 仅做观点交流，没有任何投资建议。DYOR. NFA)
-1) RaaS 相关项目备受资金青睐；
-如 Coinbase 基于 OP Stack 做 Rollup; RaaS 赛道相关项目获得一众明星 VC 投资，如 Caldera 获得红杉、蜻蜓资本领投的 900 万美元融资；Sovereign 获得 Robot Ventures, Maven 11 等 VC 740 万美元融资；Eclipse 完成两轮共计 1500 万美元的融资，投资机构包括 PolyChain, Tribe Capital 等……
-2) RaaS 带来一种范式的模块化区块链底层创新；
-作为核心底层基础设施，RaaS 的完善将对区块链网络架构的革新带来深远的影响。RaaS 的普及极大地降低了开发者从 0 到 1 构建一条 Rollup 的门槛，准入门槛的降低将带来激励的竞争，能够很好地诠释优胜劣汰的“丛林法则”，进而倒逼 Rollup 的创新。
-3) Rollup 赛道尚未完全爆发，RaaS 赛道更是处于早期。
-虽然目前来看，以 Arbitrum 和 Optimism 为代表的 ORU 占据了该赛道超过 80% 的市场份额，但 zk 系的相关项目还处在蓄势待发的状态。zkSync 和 StarkNet 虽然都已上线主网，但上线时间不长且暂未迎来链上生态的大爆发。因此，现在说 Rollup 赛道大局已定还为时尚早。
-当然，机遇和挑战是并存的。无论是 Rollup 还是 RaaS, 都存在很多悬而未决的问题。如排序器的中心化 ( 虽然目前如 Rollkit/ Optimism/ Dymension 等都有提出去中心化排序器的解决方案，但目前都没有落地 )、流动性碎片化、ORU 的挑战期过长等问题都有待解决。虽然存在一些问题，但都有与之对应的解决方案，只需重点关注是否能落地以及落地的效果即可。
-早在公链大规模爆发之前，人们热议的焦点是未来的公链格局到底是单链还是多链。至少从目前来看，「Bullish on Multichain」的人更胜一筹，我们除了以太坊之外，还看到了 Polygon/ BNB/ Cosmos 等 L1 都在冉冉升起。
-而对于 Rollup, 我们面临同样的一个问题是：不远的未来，Rollup 的格局到底是单个 Rollup 一家独大还是 Multi-Rollup 竞相繁荣？我个人更期待看到的是 Multi-Rollup 的格局，借助 RaaS, Rollup 在竞争中发展，不断推陈出新。但最后谁会在激烈的竞争中存活，谁又会永远地退出 Rollup 的历史舞台？没有人知道，只有时间能告诉我们答案。
-毕竟，只有当大潮退去，才知道谁在裸泳。
-参考文献
-[1] 数据https://l2beat.com/scaling/tvl
-[2] Introducing Rollkit: a modular rollup frameworkhttps://blog.celestia.org/introducing-rollkit-a-modular-rollup-framework/
-[3] Litepaper: dYmension: Home of the RollAppshttps://litepaper.dymension.xyz/
-[4] Rollup as a Service: Opportunities and Challengeshttps://ethresear.ch/t/rollup-as-a-service-opportunities-and-challenges/13051
-[5] Vertically Scaling the Cosmos with Dymensionhttps://medium.com/@dymensionXYZ/vertically-scaling-the-cosmos-with-dymension-and-secret-network-2d573d6472fd</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7446,7 +7457,7 @@ francesco：反复出现的网络中断问题可能是因为 Solana 代码库真
 内容来源
 francesco：指标 1&amp;2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12043,7 +12054,7 @@ Georgios Konstantopoulos：4）Ganache-UI：仅用于构建在 ICP 协议上的�
                               <span>The Sandbox 的元宇宙业务将在今年年底推出一个 DAO
 据 The Block 报道，The Sandbox 的首席运营官 Sebastien Borget 表示，元宇宙平台的未来掌握在个人创作者而不是企业品牌手中。到目前为止，该平台的去中心化是通过其 SAND 代币和该代币出售由区块链支持的虚拟土地实现的。Sebastien Borget 称，The Sandbox 计划于年底前推出 DAO，并将通过 SAND 代币投票来进行拨款等决策。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;209
+                                &ensp;<span class="article-reading-time">(&hairsp;207
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12089,7 +12100,7 @@ Georgios Konstantopoulos：4）Ganache-UI：仅用于构建在 ICP 协议上的�
 去中心化云平台 Impossible Cloud 宣布完成 700 万美元种子轮融资，HV Capital 和 1kx 领投，Protocol Labs、TS Ventures 和 Very Early Ventures 参投。所筹资金将用于为其云存储解决方案提供资金及进一步扩大团队规模并在美国成立公司。
 据 The Block 介绍，Impossible Cloud 创始团队成员包括游戏工作室 Goodgame Studios 的创始人 Wawrzinek、前 Airbnb 主管 Kaul 以及前开源平台 D2iQ 的联合创始人兼首席技术官 Daniel Baker，旨在为希望深入研究 Web3 技术的 B2B 客户提供去中心化云服务。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;207
+                                &ensp;<span class="article-reading-time">(&hairsp;205
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12197,7 +12208,7 @@ Richard Meissner（Safe 联合创始人 ）：账户抽象化对于引入新用�
 观点：
 Richard Meissner（Safe 联合创始人 ）：账户抽象化对于引入新用户和提高 Web3 可用性至关重要，Safe Core 将能够吸引更多开发者在以太坊上进行构建，为 Web3 生态系统的发展做出贡献。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;205
+                                &ensp;<span class="article-reading-time">(&hairsp;203
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12842,7 +12853,7 @@ William M. Peaster：3) Insrt Finance：长期收益策略 NFT 协议，其第�
 内容来源
 William M. Peaster：4) MetaStreet：元宇宙去中心化利率协议，初期旗舰产品为 Capital Vaults，允许用户存入 ETH、DAI 和其他加密货币，使用资金收购基于 NFT 的 P2P 期票，通过利息支付和清算为用户提供收益；5) Hook：专注于欧式看涨期权的去中心化 NFT 衍生品协议，允许用户在特定时间范围推测 NFT 价格，赚取 NFT 溢价或以最佳价格出售，同时为交易者提供从投机多头或空头中获利的机会。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;20
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12910,7 +12921,7 @@ Chris Powers：crvUSD 将基于一种创新设计，其中清算被特殊用途�
 内容来源
 Chris Powers：规模上的差异不可忽视。Liquity 目前流通量为 6 亿美元，Rai 最高 1 亿美元，Frax 10 亿美元，Dai 50 亿美元，加起来仍然只占 USDC 规模的 15%，与 USDT 相比则更少。虽然在链上印钱对于构建借贷产品的生态系统来说永远是诱人和有利可图的，但法币支持的稳定币仍然是满足区块链上对美元的永无止境的需求的唯一途径。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -13191,31 +13202,8 @@ Web3 风险投资机构和全球数字资产做市商 DWF Labs 通过从项目�
 观点：
 龙凡（Conflux 联合创始人）：Conflux 是中国唯一符合监管要求的无许可区块链，该项目的核心研发团队完全是中国人我们从未做过 ICO 之类的活动。2021 年，上海市政府向 Conflux 提供了超过 500 万美元的资助。Conflux 的「树图」共识算法能够实现每秒 3000 笔交易，确认时间为 23 秒，同时保持高度的安全性。这将公共链技术提升到日常性能的新水平。超过 300 个平台、品牌和 IP 方已经认可、采用并战略性地整合了 Conflux。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;207
+                                &ensp;<span class="article-reading-time">(&hairsp;205
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.accesswire.com/741279/Provenance-Blockchain-Foundation-Announces-50-Million-Hash-Grants-Program-for-Blockchain-Developers"
-                        open
-                      >
-                        <summary class="article-expander__title">Provenance 区块链基金会推出 5000 万美元开发者资助计划</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.accesswire.com/741279/Provenance-Blockchain-Foundation-Announces-50-Million-Hash-Grants-Program-for-Blockchain-Developers">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Provenance 区块链基金会推出 5000 万美元开发者资助计划
-金融服务公共区块链 Provenance 基金会宣布推出针对开发者的 5000 万美元资助计划，该计划将奖励 5000 万美元的 HASH（Provenance 区块链原生代币），以支持开发人员构建核心服务和体验。 Provenance Blockchain 基金会将根据多项因素评估申请者，包括其为安全性、合规性、钱包、身份、开发人员工具和新金融资产用例做出贡献的能力。此外，所有获得资助的项目都必须经过 KYC 筛选。
-内容来源
-
-观点：
-Morgan McKenney（Provenance 区块链基金会 CEO）：成功地实现开放式创新是为全球企业和客户显着改善金融服务的方式，这就是为什么我们的资助计划的推出是一个令人振奋的里程碑。它进一步加深了我们与有才华和多样化的开发者的合作，希望创建一个持久和可持续的生态系统，以在链上启动和管理真实世界的数字原生金融资产，并使区块链技术在金融服务中持续得到主流采用。【原文为英文】
-内容来源</span>
                             </span>
                           </div>
                         </a>
@@ -13242,6 +13230,29 @@ Morgan McKenney（Provenance 区块链基金会 CEO）：成功地实现开放�
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.accesswire.com/741279/Provenance-Blockchain-Foundation-Announces-50-Million-Hash-Grants-Program-for-Blockchain-Developers"
+                        open
+                      >
+                        <summary class="article-expander__title">Provenance 区块链基金会推出 5000 万美元开发者资助计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.accesswire.com/741279/Provenance-Blockchain-Foundation-Announces-50-Million-Hash-Grants-Program-for-Blockchain-Developers">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Provenance 区块链基金会推出 5000 万美元开发者资助计划
+金融服务公共区块链 Provenance 基金会宣布推出针对开发者的 5000 万美元资助计划，该计划将奖励 5000 万美元的 HASH（Provenance 区块链原生代币），以支持开发人员构建核心服务和体验。 Provenance Blockchain 基金会将根据多项因素评估申请者，包括其为安全性、合规性、钱包、身份、开发人员工具和新金融资产用例做出贡献的能力。此外，所有获得资助的项目都必须经过 KYC 筛选。
+内容来源
+
+观点：
+Morgan McKenney（Provenance 区块链基金会 CEO）：成功地实现开放式创新是为全球企业和客户显着改善金融服务的方式，这就是为什么我们的资助计划的推出是一个令人振奋的里程碑。它进一步加深了我们与有才华和多样化的开发者的合作，希望创建一个持久和可持续的生态系统，以在链上启动和管理真实世界的数字原生金融资产，并使区块链技术在金融服务中持续得到主流采用。【原文为英文】
+内容来源</span>
                             </span>
                           </div>
                         </a>
@@ -13862,7 +13873,7 @@ https://twitter.com/techflowpost/status/1630505313341411328
                               <span>加密钱包 ZenGo 完成 1000 万美元 A 轮扩展融资，估值仍为 1 亿美元
 据 The Block 报道，加密钱包 ZenGo 通过发行可转换债券完成 1000 万美元 A 轮扩展融资，并计划在今年晚些时候进行 B 轮融资。在 A 轮扩展融资后，ZenGo 的估值为 1 亿美元，与两年前 A 轮融资估值相同。ZenGo 于 2021 年 4 月完成了 2000 万美元的 A 轮融资，Insight Partners 领投，Distributed Global、Austin Rief Ventures、Benson Oak、Samsung Next、Elron、Collider Ventures、FJ Labs 等参投。据悉，ZenGo 目前拥有超过 80 万名注册用户，今年的目标是将用户数量增加至 200 万名，年收入达到 100 万至 200 万美元。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;206
+                                &ensp;<span class="article-reading-time">(&hairsp;204
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -13885,7 +13896,7 @@ https://twitter.com/techflowpost/status/1630505313341411328
 据 CoinDesk 报道，Web3 钱包基础设施初创公司 Portal 完成 530 万美元融资，Slow Ventures、Haun Ventures、Acrew Capital、Chapter One 以及天使投资人 William Hockey（金融科技公司 Plaid 的联合创始人）、Henrique Dubagras（企业信贷公司 Brex 的联合创始人）和 Diogo Monica（机构加密平台 Anchorage Digital 创始人）等参投。Portal 提供钱包基础设施和去中心化应用程序 (dApp) 商店，使项目成为支持 Web3 的应用程序。开发人员工具包可帮助合作伙伴直接或从移动或桌面浏览器轻松连接到协议和 dApp。
 Portal 由前 Visa 全球加密产品部门负责人 Raj Parekh 联合创立，首席技术官 David Scrobonia 曾在 Web2 消费者数据平台 Segment 工作过。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;67
+                                &ensp;<span class="article-reading-time">(&hairsp;68
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -18703,8 +18714,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4338855331">
-        <time id="build-timestamp" datetime="2023-03-06T00:48:18.040Z">2023-03-06T00:48:18.040Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4338979368">
+        <time id="build-timestamp" datetime="2023-03-06T01:17:00.355Z">2023-03-06T01:17:00.355Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
