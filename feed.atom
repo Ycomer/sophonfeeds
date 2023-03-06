@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-06T08:38:02.632Z</updated>
+    <updated>2023-03-06T08:44:36.349Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【长推】详解 LionDEX 的 PVP AMM 机制：优势及挑战]]></title>
+        <id>https://twitter.com/NintendoDoomed/status/1632628222268678144</id>
+        <link href="https://twitter.com/NintendoDoomed/status/1632628222268678144"/>
+        <updated>2023-03-06T08:31:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LionDEX 是部署在 Arbitrum 上的去中心化永续合约交易所，采用创新的 PVP AMM 机制。加密研究员 CapitalismLab 对这一机制的优势和挑战进行详细解读，并对 LionDEX 的具体实现方法进行简要介绍。CapitalismLab 认为，这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">https://twitter.com/NintendoDoomed/status/1632628222268678144</a></p>
+<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>PVP AMM 的核心奥义在于：1）Trader 把筹码即保证金放在一个池子里；2）「相对」赚的更多的分到更多的筹码，「相对」赚的少的就亏钱。所谓 PVP，核心就在于「相对」而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌。交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，需要赚的相对比整体更多才能真的 U 本位赚到钱。</p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">内容来源</a><p><strong>CapitalismLab：</strong>PVP AMM 的优势在于：1）纯 Alpha 交易，不需要太考虑大盘行情；2）可以不需要额外 LP；3）解决所谓单边行情问题。PVP AMM 面临的挑战：1）冷启动：需要有足够的 trader，交易体验才会好；2）使用门槛：机制复杂导致用户理解困难，需要教育好用户才能避免误会。</p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">内容来源</a><p><strong>CapitalismLab：</strong>LionDEX 主要做了 4 件事：1）实现了 GMX X4 计划中的 PVP AMM；2）LP 叠加 GLP 来做 （X4 例子中是 USDC），赚两份收益；3）做了一个保险模块，减少爆仓风险，提升高杠杆用户体验；4）做了一套促进交易的经济模型，解决鸡生蛋蛋生鸡问题。</p><a href="https://twitter.com/NintendoDoomed/status/1632628222268678144">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[次世代衍生品DEX之战打响：PVP AMM将成为“制胜武器”？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/c01l0w2zaau2.html</id>
@@ -32,6 +44,58 @@ PVP AMM 中两个挑战有一个已经照顾到了，还需要看看其如何降
 总而言之，如果说 GMX 现在的模式是存在一个“庄家” GLP，交易者依靠正确的判断从庄家手里赚钱；那么 PVP AMM 则没有庄家的存在，或者说人人都是庄家，交易者依赖从场内其他交易者手里赚钱。这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式，预计在不远的将来这类情况会越来越多。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[次世代衍生品DEX之战打响：PVP AMM将成为“制胜武器”？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/c01l0w2zaau2.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/c01l0w2zaau2.html"/>
+        <updated>2023-03-06T08:31:40.000Z</updated>
+        <summary type="html"><![CDATA[GMX 去年提出 X4 计划，其中重要一环便是全新的交易模式 PVP AMM，由于 GMX 转向合成资产的开发，X4 便暂时搁置了
+近期又冒出 LionDEX ，声称已实现了 PVP AMM ，战火突然就在眼前
+本文将为你带来详尽的 PVP AMM 解读，提前一窥下一代 Perp DEX 风采
+PVP AMM 的核心奥义就在于:
+所谓 PVP，核心就在于 “相对”而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌
+GMX 的 X4 文档举了一个例子，我们以此为起点展开分析：
+我们分析下其中计算的逻辑，可知是把盈亏体现在 GD 数量上，即为：
+可以总结得出其核心公式如下：
+New GD Price = TVL/New GD Supply 
+表述即为：
+就是说 PVP 交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，你需要赚的相对比整体更多才能真的 U 本位赚到钱
+PVP AMM 的优势在于：
+对于单边行情，GMX 虽然在牛市如此推文所述问题不大，但是在熊市的话由于 GLP 价格下跌，心理压力还是会大一些的：
+PVP AMM 又将所面临什么样的挑战：
+而 LionDEX 这个声称已实现 PVP AMM 的项目看上去主要做了 4 件事：
+PVP AMM 中两个挑战有一个已经照顾到了，还需要看看其如何降低使用门槛，教育好用户。
+目前 GMX 转向合成资产开发，还未开始 X4 的开发，这块有较长的真空期，便有了新项目的机会。不过是骡子是马还得拉出来溜溜，其马上要发布公测，我们观察其公测效果如何即可。
+这还体现了一点，由于 GMX 创始人 X 是一个非常喜欢分享设计思路的开发者, 抢先实现 X 的设计也成为了 DEX Perp 赛道的一条路，未来这一块的竞争将会进一步提升该赛道竞争烈度。
+总而言之，如果说 GMX 现在的模式是存在一个“庄家” GLP，交易者依靠正确的判断从庄家手里赚钱；那么 PVP AMM 则没有庄家的存在，或者说人人都是庄家，交易者依赖从场内其他交易者手里赚钱。这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式，预计在不远的将来这类情况会越来越多。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放]]></title>
+        <id>https://twitter.com/ironfishcrypto/status/1632560634037518337</id>
+        <link href="https://twitter.com/ironfishcrypto/status/1632560634037518337"/>
+        <updated>2023-03-06T07:57:15.000Z</updated>
+        <summary type="html"><![CDATA[<h3>隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放</h3>
+<p>隐私网络 Iron Fish 宣布开放空投 KYC，目前仅限参与 Pull Request 用户。接下来的几天里，将按顺序向第 1 阶段、第 2 阶段和第 3 阶段的积分用户开放。据悉，激励计划共计空投 94 万枚代币。此外，Iron Fish 将于 3 月 14 日上线主网，届时铸造完全私有的自定义资产、销毁、交易、挖矿和托管节点等功能均将可用。</p>
+<p><a href="https://twitter.com/ironfishcrypto/status/1632560634037518337">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万字分析衍生品王位之争：dYdX、GMX 与 SNX]]></title>
+        <id>https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08</id>
+        <link href="https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08"/>
+        <updated>2023-03-06T07:41:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 投资机构 Cipholio Ventures 出品的研报，内容涵盖衍生品领域的龙头项目：dYdX、GMX 和 SNX 的基本概况、项目团队、发展历程和现状、代币经济学、重要数据以及缺陷和风险等等。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08</a></p>
+<p><strong>文章作者：</strong></p><p>Cipholio Ventures</p><hr><h3>观点：</h3><p><strong>Cipholio Ventures：</strong>dYdX 目前最需要克服的是代币的效用问题，这个问题是否能解决需要等待其 V4 Cosmos 版本的到来，长期来看还是有上涨潜力的。目前，dYdX 拥有三个项目中最高的 FDV/TVL，为 7.75，且由于核心问题能不能解决还未成定数，近期的增长不一定能一直持续。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a><p><strong>Cipholio Ventures：</strong>GMX 目前的隐患是牛市死亡螺旋问题，长期稳定发展需要团队对逻辑的优化。但是其代币效用是三个之中最高的，在一段时间内会有较高的需求量。此外，GMX 在其他协议上的引入也拉动了需求量的上涨，短期内在市场上可能会有较好的表现。而且该项目带动了整个 Arbitrum 生态。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a><p><strong>Cipholio Ventures：</strong>SNX 的核心价值是 synth 之间的交易的低费用，这一价值已经在原子交换期间的高交易量中体现了。从 2018 年起至今，SNX 的整体交易数据与另两个不在一个量级，且 Synthetix 的产品过于复杂，要尽善尽美做全要更长的时间。主协议有流动性、交易费率上的硬伤，会削减代币效用。因此，投资周期会是三个项目里最长的。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9047,18 +9111,6 @@ Impossible Cloud 希望为希望深入研究 web3 技术的 B2B 客户提供去�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】zkEVM 主网启动在即，一览 Polygon 生态值得关注的项目]]></title>
-        <id>https://twitter.com/rektfencer/status/1630661921858002946</id>
-        <link href="https://twitter.com/rektfencer/status/1630661921858002946"/>
-        <updated>2023-03-01T09:29:03.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Polygon 的 zkEVM 主网即将启动，加密分析师 Rekt Fencer 分享他认为 Polygon 上值得关注的几个项目，并盘点其代币市值、用途等。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/rektfencer/status/1630661921858002946">https://twitter.com/rektfencer/status/1630661921858002946</a></p>
-<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）Aavegotchi：开放世界类 Play-To-Earn NFT 角色扮演游戏。代币 GHST 现价 1.46 美元；市值 7700 万美元，TVL 1100 万美元；上线币安、OKX 和火币 ；作为生态系统基础货币，用以购买 Aavegotchi 链上资产；2）QuickswapDEX：Polygon 上最大的 DEX，基于开源软件，优先考虑去中心化、抗审查性和安全性。代币 QUICK 现价 105 美元；市值 4600 万美元，TVL 1.67 亿美元；上线 Binance、Coinbase 和 Kucion；用于治理；【原文为英文】</p><a href="https://twitter.com/rektfencer/status/1630661921858002946">内容来源</a><p><strong>Rekt Fencer：</strong>3）IDEX：具有高达 100 倍杠杆的永续掉期 DEX，使用订单簿和 AMM 混合系统。近期推出 V4 版本，已有 35 亿美元总交易量。代币 IDEX 现价 0.06 美元；市值 4500 万美元，TVL 450 万美元；上线 Coinbase、Gate、MEXC；用于质押以分享协议费用收益；4）DecentralGames：旗舰游戏是一款元宇宙扑克游戏 ICE Poker，用户可以通过不同活动获得 ICE 奖励和数字收藏品。代币 DG 现价 0.038 美元；市值 2500 万美元，FDV 3800 万美元；上线 Gate、MEXC、Kucoin；用于质押和购买可穿戴设备；【原文为英文】</p><a href="https://twitter.com/rektfencer/status/1630661921858002946">内容来源</a><p><strong>Rekt Fencer：</strong>5）Gains Network：允许用户以高达 150 倍的加密货币杠杆、1000 倍的外汇杠杆、100 倍的股票杠杆和 35 倍的指数杠杆进行交易。代币 GNS 现价 8.31 美元；市值 2.53 亿美元，TVL 1700 万美元；上线 Gate、Binance、MEXC；用作流动性效率机制；6）DFyn：Polygon 第二大原生 DEX。代币 DFYN 现价 0.051 美元；市值 900 万美元，TVL 1900 万美元；上线 Kucoin；用于治理和收益分享。【原文为英文】</p><a href="https://twitter.com/rektfencer/status/1630661921858002946">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Bankless：五个融合NFT实用性和DeFi解决方案的项目]]></title>
         <id>https://techflowpost.mirror.xyz/lAp3x6Qxy62oap5PA8_93JDlpSpuvYLu4JsBWQUxD8E</id>
         <link href="https://techflowpost.mirror.xyz/lAp3x6Qxy62oap5PA8_93JDlpSpuvYLu4JsBWQUxD8E"/>
@@ -9090,30 +9142,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 2 月 20 日，香港证监会就加密货币交易发布了「咨询文件」，标志着港府在放开加密货币交易领域迈出了重要一步。吴说特约研究员 William 重新解读「咨询文件」，从框架蓝图、机遇与挑战三个方面进行解析。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw</a></p>
 <p><strong>文章作者：</strong></p><p>William（吴说）</p><hr><h3>观点：</h3><p><strong>William（吴说）：</strong>三个重要框架性制度设计：1）双重牌照：加密货币交易平台需同时持有「证券及期货条例」下的牌照及「打击洗钱条例」下的 VASP 牌照；2）准入安排：对于零售投资者，其允许交易产品安排为「尽职审查 + 合资格的大型虚拟资产 + 书面批准」，这为除 BTC、ETH 以外的加密货币纳入交易产品序列提供了市场化制度保障；3）禁止事项：平台运营者不应就虚拟资产期货合约或相关衍生工具进行任何销售、交易或买卖活动；除少数情况，平台运营者不应参与自营交易。</p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">内容来源</a><p><strong>William（吴说）：</strong>未来机遇：1）KYC/AML 服务：诞生亚洲版的 ChainAnalysis；2）加密货币指数：市场战略业务；3）交易所配套服务：安全、监察、评估、保险。</p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">内容来源</a><p><strong>William（吴说）：</strong>未来挑战：1）银行账户：目前香港地区大多数商业银行不支持开设加密货币类业务的银行账户，这将是决定未来香港是否会成为 Web3.0 国际中心的重要因素之一；2）交易对问题：香港想要成为 Web3.0 中心，至少要开放币币交易对。计价货币的选择上可采用港元稳定币，以争取港元的行业话语权；3）财务稳健性问题：证监会可能需要对流动性监管另做特殊规定。</p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[被「低估的」雄心！解读香港加密货币咨询文件：三大挑战尚存]]></title>
-        <id>https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw</id>
-        <link href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw"/>
-        <updated>2023-03-01T08:25:57.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 2 月 20 日，香港证监会就加密货币交易发布了「咨询文件」，标志着港府在放开加密货币交易领域迈出了重要一步。吴说特约研究员 William 重新解读「咨询文件」，从框架蓝图、机遇与挑战三个方面进行解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw</a></p>
-<p><strong>文章作者：</strong></p><p>William（吴说）</p><hr><h3>观点：</h3><p><strong>William（吴说）：</strong>三个重要框架性制度设计：1）双重牌照：加密货币交易平台需同时持有「证券及期货条例」下的牌照及「打击洗钱条例」下的 VASP 牌照；2）准入安排：对于零售投资者，其允许交易产品安排为「尽职审查 + 合资格的大型虚拟资产 + 书面批准」，这为除 BTC、ETH 以外的加密货币纳入交易产品序列提供了市场化制度保障；3）禁止事项：平台运营者不应就虚拟资产期货合约或相关衍生工具进行任何销售、交易或买卖活动；除少数情况，平台运营者不应参与自营交易。</p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">内容来源</a><p><strong>William（吴说）：</strong>未来机遇：1）KYC/AML 服务：诞生亚洲版的 ChainAnalysis；2）加密货币指数：市场战略业务；3）交易所配套服务：安全、监察、评估、保险。</p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">内容来源</a><p><strong>William（吴说）：</strong>未来挑战：1）银行账户：目前香港地区大多数商业银行不支持开设加密货币类业务的银行账户，这将是决定未来香港是否会成为 Web3.0 国际中心的重要因素之一；2）交易对问题：香港想要成为 Web3.0 中心，至少要开放币币交易对。计价货币的选择上可采用港元稳定币，以争取港元的行业话语权；3）财务稳健性问题：证监会可能需要对流动性监管另做特殊规定。</p><a href="https://mp.weixin.qq.com/s/TA8ybIIwhTzDSUS8NBC5Aw">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】一文了解比特币稳定币项目：Arkadiko Protocol]]></title>
-        <id>https://twitter.com/cryptokaduna/status/1630546387543928832</id>
-        <link href="https://twitter.com/cryptokaduna/status/1630546387543928832"/>
-        <updated>2023-03-01T08:18:31.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>每个生态系统都需要去中心化的稳定币。以太坊有 MKR 和 DAI ，那么比特币生态呢？加密货币 KOL Kaduna 从 Arkadiko Protocol 对于 Stacks 的重要性角度介绍了比特币的稳定币项目 Arkadiko Protocol。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">https://twitter.com/cryptokaduna/status/1630546387543928832</a></p>
-<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>Arkadiko 是一种基于 Stacks 的去中心化流动性协议，提供一系列 DeFi 解决方案。通过 Arkadiko 用户可以使用他们的 STX --Stacks 的原生代币 -- 作为抵押来铸造 Arkadikos 自己的稳定币 USDA 。然后，该 USDA 可用于在 Arkadiko 协议内 farm 以偿还贷款。farm 的收益是通过参与称为转移证明（POX）的 Stacks 共识机制产生的。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">内容来源</a><p><strong>Kaduna：</strong>通过持有 STX 代币，你可以将它们作为抵押品存入 Arkadiko，然后借入其价值 25% 的 USDA。由于 USDA 现在已抵押在我们之前谈到的 POX 共识中，因此奖励将自动用于偿还借入的 USDA。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">内容来源</a><p><strong>Kaduna：</strong>Stacks 作为一个平台实现了爆炸式增长，其 TVL 在短短几周内从 700 万美元飙升至 2200 万美元。随着这种增长，需要 DEX 作为用户参与生态系统的一种方式。Arkadiko 在 Stacks 之上构建了一个 DEX，以满足不仅希望参与 Arkadikos 贷款而且希望参与整个 Stacks 生态系统的用户。通过 ArakadikoSwap，用户可以通过提供流动性来赚取额外的被动收入。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1630546387543928832">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
