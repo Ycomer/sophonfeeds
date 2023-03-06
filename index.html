@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-06 datetime="2023-03-06T09:29:48.000Z">2023-03-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-06 datetime="2023-03-06T09:29:48.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-06 datetime="2023-03-06T09:44:43.000Z">2023-03-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-06 datetime="2023-03-06T09:44:43.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,78 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/fnq7kq3z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK扩容赛道现状观察：谁能脱颖而出？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/fnq7kq3z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/06/images/10kc6lZ3oL.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《What’s New with ZKs?》by William M. Peaster
+编译：Kyle
+如果您深入了解加密世界，那么您已经听说过零知识证明（ZK Proof）及其应用已有一段时间了。他们已上线……或者非常接近上线……或者他们的某个版本就在眼前？这些信息很难跟踪。
+ZK 拥有各种各样的实现——今天我们将通过一些关于 ZK 世界如何发展的更新。
+在区块链术语中，我们认为以太坊生命的初始阶段是单体的。
+这意味着，在最初几年，「第一层（L1）」以太坊主网完全负责执行自己的交易，促进自己的网络安全，并为自己的数据可用性提供服务。
+在过去的几年里，以太坊一直在迅速转向模块化设计，这意味着围绕以太坊构建的外部第三方解决方案越来越多地被用来扩展以太坊的数据和执行需求。
+
+模块化以太坊丨来源：Ultra Scalable Ethereum
+在数据可用性方面，Celestia 和 Polygon Avail 等项目是竞争者。至于执行，近年来我们看到像 Arbitrum 和 zkSync 这样的「第二层（L2）」的兴起，它们在以太坊之外（即链下）执行交易，然后有效地将交易批量「汇总」（rollup）到以太坊 L1，在此过程中提供令人难以置信的实惠和快速的用户体验。
+今天，以太坊 L1 本身每秒促成可怜的约 30 笔交易（TPS）。为了更好地处理全球活动水平而不会出现严重的网络拥塞（高费用、缓慢的交易），以太坊越来越依赖于扩展创新来优化其执行能力。这里有两种主要的解决方案类型：链上扩展和链下扩展。
+链上扩展是指直接对区块链进行的更改，以提高其交易执行能力，即吞吐速度。对于以太坊来说，一个例子是分片，一旦这项创新得到实施，将把活动负载分散到几十个主要的、神圣的（enshrined）以太坊链上，而不是单一的主网上。
+
+以太坊 L2 + 分片的未来 - 来自Vitalik Buterin
+链下扩展是指外部执行环境，即 L2，它促进以太坊之外的廉价和快速交易，然后将交易数据批量发布到以太坊以完成活动并继承以太坊的安全性。链下扩展不是像分片那样将 L1 分成许多主链，而是培养了一个由许多外部 rollup 组成的二级层，这些层的可定制性非常好。
+谈到 L2，最流行的当代解决方案是零知识 rollup（ZK rollup）。值得注意的是，这些 rollup 可以促进大约 2,000 TPS，比以太坊目前的 30 TPS 速率增加了 6,500%！
+这种特殊的 L2 风格使用了「零知识证明（ZKP）」技术，例如 SNARKs，以加密方式验证并在以太坊上发布其交易批次。因此，通过零知识证明（ZKP）将链下执行与链上数据结合起来，您将获得 ZK rollup（相反，通过欺诈证明将链下执行与链上数据结合起来以获得 Optimistic rollup）。
+综上所述，L2 BEAT 目前跟踪的五个最大的 ZK rollup 如下：
+
+今天最大的 10 个 L2 中有四个是 ZK rollup - 来自 L2 BEAT
+当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得你关注，比如 Aztec Connect。
+然而，ZK rollup 并不是当代以太坊扩容场景中唯一值得注意的基于 ZK 的解决方案。这里要注意的另外两种扩展方式是 Validium 和 Volitions。
+Validiums 执行链下交易并通过链下零知识证明维护其数据。这种方法与 ZK rollups 如何将数据分批发送到以太坊上（即将其发布到链上）形成对比。那么，数据存储在哪里是 ZK rollups 和 validiums 之间的关键区别。
+Validiums 的「双链下」方法使它们最终成为托管的，因为数据由可信方维护。然而，validiums 在无信任方面所缺乏的，它们以出色的性能弥补了这一点，因为当今最强大的 validiums 可以促进 +20,000 TPS。
+目前，两个更知名的 validium 项目是 Immutable X，一个以 NFT 为中心的扩展解决方案，TVL 为 1.23 亿美元，以及 Sorare，一个幻想体育数字纸牌游戏，TVL 为 2100 万美元。目前值得关注的其他验证包括 ApeX、rhino.fi 和 Myria。
+至于 Volitions，它们是 StarkWare 团队创造的一项创新，它们是 ZK-rollup 和 validium 之间的交叉。这就是说，只要有意愿，用户就可以在链上和链下数据可用性之间进行选择。这为应用程序提供了 TPS 性能验证级别的选项，同时仍可与非托管 ZK-rollup 技术互操作。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。
+
+图片来源：Matter Labs
+zkEVM 作为扩展的圣杯
+考虑一下 ZK-rollup 的架构如何包含两个主要组件：接收和跟踪 L2 区块数据的链上以太坊智能合约，以及作为基于以太坊的交易的执行环境的链下虚拟机 (VM)。
+那么，zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK-rollup，即以太坊 L1 的执行环境。
+
+Polygon zkEVM 的一般扩展方法的图示
+在以太坊扩容竞赛之初，像 Arbitrum 和 Optimism 这样的 optimistic rollups 具有巨大的优势，因为这种风格的 rollups 最初更容易与 EVM 兼容甚至完全等效。这种技术亲和力使得应用程序可以轻松地移植他们的代码，并使用他们最喜欢的从 L1 迁移到 L2 的工具，这是很棒的 UX。
+相比之下，ZK 式扩展的特性使得 ZK rollups 从定制的 VM 开始，这意味着项目因此需要更广泛的工作来「解释」来自 EVM 的代码或使用从头开始编写的新代码。不过，截至 2023 年 3 月，多个 ZK rollups 项目现在明显即将公布他们自己的 zkEVM 实现！
+因此，zkEVM 的到来代表着 Vitalik Buterin 的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollups 将在所有用例中胜出。」由于使用加密证明，ZK rollups 比 optimistic rollups 具有内置的隐私和安全优势，因此当您将 EVM 兼容性添加到组合中时，ZK rollups 有可能在未来胜过 optimistic rollups。
+「扩展战争」一词指的是在 optimistic rollups 和 ZK rollups 团队之间发生的友好、非正式的竞争，以提供尽可能最好的区块链扩展解决方案。
+然而，在 ZK rollups 领域本身还有另一场比赛，这是一场非正式的比赛，看哪个团队能够实现 Vitalik Buterin 定义的第一个「1 型（Type 1）」和「2 型（Type 2）」zkEVM。
+
+Buterin 的 zkEVM 类型
+在 2022 年 8 月的一篇博文中，Buterin 提供了一种衡量 zkEVM 项目能力的方法，方法是提出从 Type 1 到 Type 4 的等级来对它们进行分级。Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。
+也就是说，由于涉及的所有工作，Type 1 zkEVM 实现还需要一段时间，但现在有多个项目正在研究 Type 2 zkEVM。
+
+当前主要的 zkEVM 努力丨来源：Immutable X
+例如，Polygon zkEVM 是 Type 3 zkEVM，并且正在成为 Type 2 zkEVM，即具有一些额外细微差别的 EVM 等价物。Scroll 是另一个著名的团队，目前正在构建 Type 2 zkEVM。相比之下，zkSync Era（以前称为 zkSync 2.0）是一种固执己见、有意为之的 Type 4 zkEVM，它通过自定义功能和 zkPorter 令人印象深刻的意志力功能得到增强。相应地，这里的可能性范围是敞开的。
+
+资料来源：Messari
+Polygon zkEVM 主网测试版将于 3 月 27 日开始：https://twitter.com/0xPolygon/status/1625529122561597440
+zkSync Era 刚刚向建设者推出了主网，普通用户可用的版本即将到来：https://twitter.com/zksync/status/1626235292268240902‌
+Scroll 刚刚发布了 Goerli zkEVM 测试网，这是主网上线之前的最后一步：https://twitter.com/Scroll_ZKP/status/1630258973856395264‌
+Starknet 的 Kakarot zkEVM 已经处于 Type 3 状态并且正在加速：https://twitter.com/dimahledba/status/1606270836922585098‌
+终有一天，以太坊本身可能会升级到 Type 1 zkEVM 以进一步进行链上扩展。与此同时，作为潜在升级的补充，从 Type 2 到 Type 4 的外部 zkEVM 将继续蓬勃发展，并为开发人员和用户提供独特的定制和 UX 增强，这是以太坊 L1 无法做到的。
+总而言之，ZK rollups 空间（也可以说是整个 L2 空间）的最终目标是 zkEVM，而这些努力中的第一个即将到来。2023 年将是日常加密货币用户将能够首次尝试 zkEVM 的一年，因此如果你想参与进来，请密切关注 Polygon、zkSync、Starknet 和 Scroll，因为这些团队的最新扩展进展已付诸实践！</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -2386,6 +2458,40 @@ EOS 是最著名的区块链项目之一——但并不总是最好的。在 ENF
                   <a class="source-heading__link" href="">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblockbeats.info/news/35273"
+                        open
+                      >
+                        <summary class="article-expander__title">一览 ETHDenver 进入决赛圈的 18 个新项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblockbeats.info/news/35273">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+ETHDenver 2023 大会已进入尾声，官方公布了入选 BUIDLWeek 的 18 个项目。基础设施项目是此次入围项目的最大类别，共有 6 个项目入选。DeFi、DAO、公共产品以及 NFT 元宇宙方面分别有 3 个项目入选。BlockBeats 根据「纽约时报」Mike Stepanovic 分享的项目名单，对这 18 个项目进行简单整理。
+文章来源：
+https://www.theblockbeats.info/news/35273
+文章作者：
+BlockBeats
+
+观点：
+BlockBeats：公共物品：1）Sesame：专为低带宽网速区域的新兴市场设计的钱包，具有「离线优先」功能，可在没有互联网连接的情况下缓存交易，并在设备重新联网时自动提交；2）Fundpg：为用户建立了一个无损捐赠池，可以将一定比例的收益直接用于公有事业；3）Krypto Kredit：专为新兴市场（尤其是亚洲和非洲）建立的 Web3 交易信用评分平台。
+内容来源
+BlockBeats：基础设施：1）Bitcoin Vitalik&#x27;s Vision (BVV)：又名「Satoshi&#x27;s Stack」，旨在帮助比特币网络实现更多功能；2）Swappy：基于大语言模型（LLM）的跨链互操作协议，愿景是帮助人类像和语音助手谈话一样进行跨链 Swap 操作；3）Rhinestone：基于零知识证明、账户抽象、erc-4337 标准的钱包项目，类似于钱包插件管理器，允许用户使用来自若干不同钱包中最喜欢的功能定制专属个人的钱包使用体验；4）Slang：开发者工具，旨在简化去中心化数据库交互的过程；5）Inheritable：符合欧盟通用数据保护条例（GDPR）的遗嘱验证机制，帮助用户顺利继承链上遗产，目前建立在 Base 上；
+内容来源
+BlockBeats：DAO&amp;Community：1）GovBlocks：通过抽象的成员身份验证加强 DAO 治理，允许成员使用任何标准提议和投票倡议；2）M3mber：ENS 跨链域名封装器，允许对各种 NFT 门控或许可社区的访问控制。该团队还开发了基于 ENS 子域名的组织管理工具 ORG3；3）Denoted：类似 Notion，输入「/」符号可以轻松访问区块链数据。
+内容来源
+BlockBeats：Metalance（NFT + 游戏 + 元宇宙）：1）Bazaark：游戏 NFT 专属市场，通过向 NFT 输入 ZK 属性实现持有和管理。适合在 MMO 游戏中广泛使用，并可进行选择性展示；2）Mymule：链上宝可梦风格的虚拟宠物，需要抚摸、喂食等电子宠物风格的互动，代币将作为收集收益；3）Synesthesia：音乐 NFT 项目，计划与 Spotify 整合。
+内容来源
+BlockBeats：DeFi：1）zkPoEx：基于 ZK 的工具，旨在使黑客发现漏洞并获得奖励。通过该工具，白帽黑客能够建立攻击证据，证明攻击类型，在不暴露攻击本身的前提下获得 bug 奖励；2）Tribe.credit：授权任何人提供或接收信用的点对点借贷协议，旨在增加和实施 DeFi 信用体系；3）Gasly：用于扩展支付 Gas 时的 token 选项，可以实现任意链上以任何方式支付 Gas。
+内容来源</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -5809,55 +5915,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
                             <span class="media-object__text">
                               <span>NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
 PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/4282ghjx.html"
-                        open
-                      >
-                        <summary class="article-expander__title">盘点主要的6种比特币扩容方案现状：Stacks数据增长较快，RSK支持EVM</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/4282ghjx.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/04/images/kN0y3rRs58.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>比特币是最安全和去中心化的区块链网络，但存在不支持智能合约、每秒只能处理大约7笔交易、交易确认可能高达数十分钟等性能上的限制。1月30日，NFT协议“Ordinals”在比特币主网上启动，截至3月2日，Ordinals上的NFT数量已经超过25万。
-虽然此举引发了不少争议，“比特币原教旨主义”认为应该尽可能保持比特币网络的简单和稳定，但“比特币扩展者”希望能给比特币带来更多金融用例。不管怎样，Ordinals的出现引发了又一波在比特币之上开发应用的热潮。本文中，PANews将盘点常见的比特币扩容方案近期的发展状况。
-Stacks采用金字塔形的堆栈，底层是比特币基础结算层，然后是增加了智能合约和可编程性的Stacks，最上层是增加可扩展性和速度的Hiro。它使用自己的智能合约语言Clarity，并将历史交易记录写入到了比特币网络中，因此Stacks是一个比特币的Layer 2（以前Stacks也称自己为Layer 1）。Stacks发行有自己的代币$STX，作为比特币智能合约的代表，$STX也是近期表现最好的资产之一。
-
-由于目前在Stacks上建立的应用仍然主要为Arkadiko Protocol、ALEX、Stackswap、CityCoins、STX NFT这几个，和PANews一年前统计时并没有什么变化，这里就不再赘述。相关阅读：《为比特币提供智能合约的Stacks网络生态初起步，一文盘点主要项目》。
-根据Defi Llama的数据，近期Stacks上的资金确实有大幅提升，过去30天（2月1日～3月2日）TVL从756万美元升至2680万美元，增长254%。增长最多的是其中的DEX ALEX，过去一个月TVL上升316%，$ALEX的价格也从2月1日的0.015美元涨至现在的0.098美元。
-Rootstock（RSK）是比特币上的一条兼容EVM的侧链，它和比特币使用相同的SHA-256算法，比特币矿工在进行挖矿的时候可以进行“合并挖矿”（Merged Mining），不需要额外的资源消耗，同时可以获得Rootstock中的交易手续费收入。Rootstock中的原生代币是一种比特币锚定币Smart BTC（RBTC），也用于支付交易的手续费。
-RIF（Rootstock基础设施，RIF）则是一个建立在Rootstock之上的平台，旨在为开发者提供区块链基础设施和服务，包括域名、存储、身份验证等，以支持dApp的开发和部署。虽然Rootstock除RBTC外并没有发行其它代币，但Rootstock和RIF由同一家公司IOV Labs开发，RIF发行有自己的代币$RIF。
-从Defi Llama上可以看到，Rootstock的TVL为5651万美元，但近期的增长并不明显，过去30天上升3%。生态中有包括DEX、借贷协议、稳定币等类型的项目，也可以使用来自以太坊等其它链上的跨链资产。但即便Rootstock支持EVM，生态项目中的资金在过去30天也并未出现大幅上升，增长最的为DEX Sovryn，目前TVL为2024万美元，过去一个月上升18.31%。
-Liquid Network是Blockstream在2018年9月推出的一种侧链技术（也称自己为Layer 2），旨在为比特币用户提供更快、更便捷的交易体验，同时保证交易的安全性和隐私性。它由包括交易所、金融机构以及其它以比特币为重点的公司组成的Liquid联合委员会维护和治理。
-除了快速、便宜、隐私的转账功能外，Liquid Network还可以实现各种类型的智能合约功能，如搭建DeFi应用（DEX Sideswap、借贷平台Hodl Hodl等）、发行稳定币、发行证券代币、铸造NFT、进行多签交易等。
-Liquid Network上主要使用的仍然是由比特币1:1锚定发行的L-BTC，Liquid官网显示近期网络上的L-BTC发行量维持稳定，目前为3551枚，一月份和二月份的数据分别为3567和3562枚。
-
-Lightning Network
-比特币Lightning Network（闪电网络）是一种比特币Layer 2协议，通过在交易双方之间建立支付通道来提高比特币的交易速度和隐私性。
-支付通道建立后，双方可以发送链下交易来进行交易，交易仅记录在通道的双方之间，不需要在比特币网络中进行确认，因此交易速度快、费用低。交易的双方可以随时将交易记录提交到比特币网络上进行结算，从而实现比特币的转移。
-根据1ML的数据，目前闪电网络中的资金为5424 BTC，过去30天增加2.2%，节点数为16291个，通道数为76297个。
-
-Statechains
-Statechains是一种用于BTC链下转移的扩容技术，它与闪电网络类似，但又不完全相同。在闪电网络中，资产的转移是通过通道的所有权转移的，但在Statechains中资产的转移是通过BTC存款（UTXO）私钥（临时密钥）的所有权转移的。
-Statechains首先会在存款者和状态链实体之间创建一个拥有多个私钥的多重签名钱包，这些私钥掌握了与之相关联的比特币。私钥的持有者可以在Statechain上创建交易记录，将私钥转移给其他人，从而实现比特币资产的转移。Statechain中的交易也不需要每笔确认，从而提高交易速度，减少手续费。
-Statechains技术的一个解决方案是通过Commerceblock创建的Mercury钱包实现的。
-目前Mercury钱包中的总存款为23 BTC，总取款为19.8 BTC，应用仍然较少。BTC的流动性必须是特定的数量，如0.001 BTC、0.01 BTC、0.1 BTC 等，因此在进行充值或转移时，只能使用特定的数量。
-
-Drivechain
-Drivechain是一个比特币开放式侧链协议，可以根据不同的需求定制不同的侧链。它的设计来自于两个比特币改进提案，BIP 300“哈希率托管”（Hashrate Escrows）通过“Container UTXOs”将3-6个月的交易数据压缩成32字节，BIP 301“联合盲挖”（Blind Merged Mining）。和RSK一样，网络的安全性也通过联合挖矿的方式，由现有的比特币矿工维护。
-Drivechain的出现是为了在保持比特币的安全性和去中心化的情况下，与以太坊、Zcash、比特币分叉链等竞争，为比特币引入更多功能，这些侧链也使用比特币的锚定币，用于转账等功能。
-2022年12月，Drivechain的开发公司Layer2 Labs才宣布完成300万美元的种子轮融资，目前该项目还未发现有大规模的应用。
-在以上几种比特币扩容方案中，Stacks和RSK较为通用，RSK支持EVM，链上应用中的资金更多，但近期只有Stacks的数据增长较快。
-在主要用于BTC支付的几种方案中，Lightning Network中的BTC最多，Liquid Network同时在积极筹备DeFi、NFT等用例，Statechains的应用有限，Drivechain虽然可定制各种侧链，但还未见大规模应用。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -20605,8 +20662,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4341994320">
-        <time id="build-timestamp" datetime="2023-03-06T09:41:57.724Z">2023-03-06T09:41:57.724Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4342034185">
+        <time id="build-timestamp" datetime="2023-03-06T09:47:25.931Z">2023-03-06T09:47:25.931Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
