@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T09:32:58.070Z</updated>
+    <updated>2023-03-07T09:39:02.214Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[项目评级丨稳定币协议Liquity近期为何大火？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/szj90hyc.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/szj90hyc.html"/>
+        <updated>2023-03-07T09:30:32.000Z</updated>
+        <summary type="html"><![CDATA[Liquity 是什么？
+Liquity是一个借贷平台，也是一个稳定币发行平台。该协议于 2021 年 4 月 5 日上线以太坊，目前也只支持以太坊。Liquity 有两种原生资产，一种是挂钩美元的稳定币$LUSD，一种是实用治理通证$LQTY。
+在 Liquity 上，用户可以存入$ETH，借出 $LUSD，最小的抵押率为 110%（即，借出价值 100 美元的 $LUSD 至少需要抵押价值 110 美元的 $ETH）。与其他超额抵押稳定币比，Liquity 有几个显著的特点：
+TokenInsight 对 Liquity 目前的表现进行了评级，结果为BB，展望正面。Liquity 的同类项目还包括：Maker（A）、Frax Share（BBB）等。
+Liquity 评级结果的具体解析得分情况如下：
+
+
+在风险方面，Liquity 采用了一种多层风险管理机制。首先，Liquity 使用整个协议的抵押率来衡量整体的风险水平，当整个协议的抵押率大于 150% 时为低风险，小于 150% 为高风险。
+其次，Liquity 的清算机制也分为两层。
+
+另外，Liquity 有一个很大的特点是，其协议几乎完全由智能合约管理的，开发团队没有相关合约的管理权限。Liquity 也没有自己的交互界面，完全由第三方平台自发支持。这样的目的是增强协议的去中心化程度，减少人为干预。不过虽然，Liquity 的本意是让第三方平台互相竞争进而为用户提供更好的服务。但就目前而言，各个平台功能和产品设计都有差异，整体用户体验不是很好。
+同时，一个由合约控制的平台，代码的安全性就显得尤为重要了。Liquity 的合约代码在 2021 年接受过 2 家机构（Trail of Bits 和 Coinspect）的多次审计。审计覆盖的内容较为全面，报告显示部分风险未被修复。截至目前，Liquity 的合约还没有引发过安全事件。
+Liquity 有发行了原生治理通证 $LQTY 以及稳定币 $LUSD。
+$LUSD 是由 $ETH 超额抵押支持的稳定币。$LUSD 可以存入稳定币池，赚取协议的清算收益以及 $LQTY 奖励。
+除超额抵押外，$LUSD 还有一种稳定机制，叫做赎回（Redemption）。赎回是指任何 $LUSD 的持有者（无论是否通过抵押借款获得）都可以随时以 1 $LUSD 兑换 $1 的 $ETH。该赎回将从风险最高的仓位开始。如果你在 Liquity 开了仓，被赎回就是指别人用 $LUSD 换走了你的抵押物。由于 $LUSD 的价值最终会趋近于一美元，借款人并不会发生实际的损失。并且在每次用户赎回是协议的基础利率会上升，也就是说借款费用和赎回的手续费都会上升，一方面可以避免大规模赎回，另一方面可以降低借款，进一步促进 $LUSD 流通减少，帮助币价稳定。然而，相较于其他稳定币，$LUSD 的价格波动幅度较大。
+
+$LQTY 于 2021 年 4 月，平台上线时发行。Liquity 一开始的愿景是一个无需治理的平台，完全由合约控制。因此，$LQTY 一开始只能用于质押，赚取平台的收入分成（包括借款费用和赎回费用）。不过，Liquity 在 2023 年 1 月开设了社区治理 LiquiFrens，赋予了 $LQTY 投票权（目前处于试用期，三个月）。
+$LQTY 的初始分配计划如图，总供应量 1 亿，其中 56.6% 分配给了投资者、团队和顾问。团队和顾问的份额在 3.25 年内解锁。早期投资者的份额将在锁仓一年解锁，具体解锁计划并未披露。
+
+路线图与进展情况（56.67%）
+Liquity 没有披露具体的发展路线图，但其每个季度会发报告总披露项目进展。根据 2022 年第 4 季度的报告，项目方打算进一步提升 $LUSD 在 Arbitrum 的流动性。此外，项目方每个月会对社区提案进行投票，也可以了解到一些项目动态，具体可参见其Snapshot。
+目前，Liquity 的总 $LUSD 发行量约为 230m，协议总 TVL 约为 $600m，平台的总抵押率为 259.9%。自熊市以来，$LUSD 供应量整体呈下降趋势，过去一年下降了 ，但 Trove 从 2022 年 6 月起持续上升，已经基本恢复去年年初水平。不过大部分 Trove 都是 100 $ETH 以内的小仓位，10k-100k $ETH 的只有7个。
+$LQTY 目前的流通量为 91m，53.43m $LQTY 在质押，约占 58.72%。$LQTY 的质押量从 2022 年 4 月开始持续上升，但近期因为价格上升导致今日的质押量相比 27 号下降了 99,011.84 $LQTY。$LUSD 稳定池和 $LQTY 质押的收益率（APR）分别为 5.74% 和 0.76%。
+
+
+来源：Dune Analytics@dani
+
+生态发展情况（51.55%）
+截至年 2023 年 3 月，Liquity 在官网列出了 20 个前端，其中活跃用户数最高的是Liquity.App。
+ 
+来源：Dune Analytics@dani
+根据 Liquity 的报告披露，现在 $LUSD 生态的三个主要部署方向分别是：Chicken Bond、Layer2 和借贷。
+ 
+来源：Dune Analytics@dani、Dune Analytics@SebVentures
+从 $LUSD 的分布来看，除稳定池外，$LUSD 大部分在 Curve 和 Uniswap，Layer2 和其他借贷协议上的分布并不多。根据 DefiLlama 的数据统计，目前 OP 上的稳定币总市值为 $656.9m，最多的是 USDC 占 54.97%，$LUSD 仅占 0.89%。
+下图为 $LQTY 近 90 天的价格走势。可以看出 $LQTY 受益于今年 2 月在$BUSD 的舆论风波，从 2 月 1 日到 27 日，$LQTY 价格从 $0.711 到 $1.278。2月28日，$LQTY 上线 Binance，其价格进一步翻倍。目前价格维持在 $2.2 附近。
+ 
+来源：Liquity 在 TokenInsight 的币种详情页
+Liquity 由Robert Lauko和Rick Pardoe创立，目前由Michael Svoboda担任 CEO。两位创始人均有 5 年以上的区块链相关工作经验。
+据统计，Liquity 在 2020 到 2021 年共完成了两轮融资，共计 $8.4m。主要投资者包括：Polychain Capital、Pantera Capital、Alameda Research、IOSG Ventures、1kx、Tomahawk.VC 等。
+Liquity 本身去中心化程度很高，协议完全由合约支撑运营，且社区和开发团队对于协议本身的干预程度很低。但其在用户体验上也有一些不足，由于 Liquity 没有自己的前端，第三方开发的前端形态各异、功能不一，可能会造成一些使用上的不便。
+机制上，Liquity 只支持 $ETH 抵押物，并且只收取一次性的借贷费用。与 Maker 的多抵押物，多种利率模式相比更有千秋。但 $LUSD 在价格的稳定性上不如其他稳定币，波动更高，但相对套利空间也更大。
+目前，$LUSD 相较于其他稳定币生态较弱，使用场景还不够丰富。由于 $LQTY 治理刚上线不久，其功能性相对于其他协议的治理通证也有待提高。不过整体来说，不管是 $LUSD 还是 $LQTY 的质押率都相对较高。
+虽说由合约管理运行，Liquity 的合约还没出现过安全问题，持续稳定经营。但是目前，其生态较弱，通证的使用场景还不够丰富。未来，随着行业对去中心化的重视程度提高，该协议的被认可度可能会逐渐提升，对于生态发展也会有积极作用。
+基于以上信息，TokenInsight 给予 Liquity 的评级为BB，展望正面]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[项目评级丨稳定币协议Liquity近期为何大火？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/szj90hyc.html</id>
