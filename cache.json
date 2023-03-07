@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LSD 杠杆 Staking 高收益的本质是什么，是否可持续？风险点在哪里？加密货币研究员 0xLoki 认为杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，ETH 开放 Staking 赎回以后利差会缩小，并详述了其原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/loki_zeng/status/1632599301322076161\">https://twitter.com/loki_zeng/status/1632599301322076161</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，而之所以存在利差，是因为两种类型的标的具备不同的风险特征和流动性特征。利差本质上就是流动性溢价和风险暴露溢价，选择 Staking 需要牺牲资产的流动性并且承担更大的损失。</p><a href=\"https://twitter.com/loki_zeng/status/1632599301322076161\">内容来源</a><p><strong>0xLoki：</strong>当前之所以能够存在这么高的利率，主要是因为上海升级的不确定性。所以 ETH 开放 Staking 赎回以后，一个高确定性的结果是利差缩小，最终形成平衡，杠杆 Staking 的收益回到一个合理区间。另一个高确定性的结果是借贷成为 Staking 的加杠杆方式之一，LSD 的借贷市场变得更加繁荣。</p><a href=\"https://twitter.com/loki_zeng/status/1632599301322076161\">内容来源</a>",
           "link": "https://twitter.com/loki_zeng/status/1632599301322076161",
           "publishedOn": "2023-03-07T05:38:47.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】探讨 LSD 杠杆 Staking 高收益的本质",
           "imageUrl": null
         },
@@ -97,7 +97,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个更安全的桥梁端点必须只在多个底层机制之间达成共识后报告有效的消息，而不是完全依赖一个机制。以太坊初级副总裁 Auryn.eth 撰文概述了一个促进跨链安全的新机制 Hashi，并对其概念、特点及进展进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/auryn_macmillan/status/1632696493525323778\">https://twitter.com/auryn_macmillan/status/1632696493525323778</a></p>\n<p><strong>文章作者：</strong></p><p>Auryn.eth Ĝ⌣Ĝ</p><hr><h3>观点：</h3><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 是一个 EVM 区块头预言机聚合器，旨在促进跨链安全的原则性方法，本质上而言，这是一种跨链桥的多重验证，每个跨链桥都被视为任何给定区块头的一个预言机，用户可以自己选择使用哪种组合，满足 m/n 条件即生效。【原文为英文】</p><a href=\"https://twitter.com/auryn_macmillan/status/1632696493525323778\">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 智能合约非常简单且容易审计，攻击面相对较小，用于在不同跨链桥之间分配信任。此外，Hashi 验证的是区块头而不是消息，这意味着 Hashi 可以用来验证任何执行环境下的链或层的状态，包括信标链。当然这也意味着需要在 Hashi 上构建另一种机制来验证状态或消息，Axiom 是我们在考虑的构建途径。【原文为英文】</p><a href=\"https://twitter.com/auryn_macmillan/status/1632696493525323778\">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>目前我们已经开始为 Gnosis Chain 的 ABM 和 Wormhole 跨链桥编写 Hashi 预言机适配器，并且收到了来自 ConnextNetwork 的编写适配器的请求。未来我们还将编写更多的适配器，包括为 Succinct、Dendreth 及 Norm 等。【原文为英文】</p><a href=\"https://twitter.com/auryn_macmillan/status/1632696493525323778\">内容来源</a>",
           "link": "https://twitter.com/auryn_macmillan/status/1632696493525323778",
           "publishedOn": "2023-03-07T03:16:13.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】新项目前瞻 | EVM 区块头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？",
           "imageUrl": null
         },
@@ -197,7 +197,7 @@
           "description": "<h3>Arweave 2.6 版本正式上线，难度和出块速度已趋于稳定</h3>\n<p>去中心化存储协议 Arweave 创始人 Sam Williams 发推特表示，Arweave 2.6 版本已上线，挖矿难度和出块速度已趋于稳定。\n\n据悉，Arweave 2.6 版本限制了计算密集型挖掘策略，使 Arweave 挖矿更加节能，同时激励矿工存储更多数据，从而产生更高效的存储市场。</p>\n<p><a href=\"https://twitter.com/samecwilliams/status/1632693912103014400\">内容来源</a></p><hr>",
           "link": "https://twitter.com/samecwilliams/status/1632693912103014400",
           "publishedOn": "2023-03-06T11:17:58.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "Arweave 2.6 版本正式上线，难度和出块速度已趋于稳定",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 20142,
+          "wordCount": 20139,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -467,7 +467,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 提出了一种新的 Sequencer 交易排序策略，在当前的 FCFS （先进先出）策略中加入「Time Boost」机制，用户可以通过支付额外的手续费获得优先排序。区块链开发者 hhh_quickCreation 用通俗的语言解释了该机制，并分析了新机制为 Arbitrum 和 Sequencer 带来的收益。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">https://twitter.com/hhh69251498/status/1632037641184235520</a></p>\n<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>hhh_quickCreation：</strong>Arbitrum 目前使用的交易排序的方式是 FCFS（先进先出），但是这种方式有一个缺点，就是会造成延迟竞争（latency racing）。「延迟竞争」指的是，在当前 Arbitrum 的 Sequencer 的排序策略下，用户希望自己的交易比其他人的交易更快被接收，并且打包到 L1 的方法，就是向一个与 Sequencer 连接并且网络延迟最低的 fullnode 发送交易。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a><p><strong>hhh_quickCreation：</strong>为了避免物理资源浪费，Arbitrum 提出了一种 Time Boost 机制，你可以通过额外的手续费，让你的交易可以更快被处理（类似 bid for position）。这样可以带来一个很明显的好处，因为交易排序竞争而浪费的资源，现在转换成额外的交易手续费了，可以被 Arbitrum 网络去捕捉了。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a><p><strong>hhh_quickCreation：</strong>用户现在可以通过额外的收付费，将交易的 timestamp 提前，最多可以提前 0.5 秒。这是一条无限趋近于 0.5 秒加速的曲线，所以优先手续费实际上是上不封顶的，所以比如当 Arbitrum 网络上出现巨大的套利机会时，可以预见这部分套利的利润也有相当可观的部分会被 Sequencer 获取。</p><a href=\"https://twitter.com/hhh69251498/status/1632037641184235520\">内容来源</a>",
           "link": "https://twitter.com/hhh69251498/status/1632037641184235520",
           "publishedOn": "2023-03-05T03:48:04.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】白话解读 Arbitrum 新交易排序策略：对 Sequencer 和 Arbitrum 有何影响？",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "<h3>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线</h3>\n<p>以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/",
           "publishedOn": "2023-03-04T02:04:25.000Z",
-          "wordCount": 20220,
+          "wordCount": 20217,
           "title": "ConsenSys zkEVM 公共测试网将于 3 月 28 日上线",
           "imageUrl": "https://www.coindesk.com/resizer/jHQlPxc8R3RvI0FegOjTgkyAm6g=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LBRTYFCLDREUBGV6F6RYKHX5RE.jpeg"
         },
@@ -767,7 +767,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mint Venture 投资经理吴思嘉及其研究员博博以 Free to Own Web3 游戏新范式为起点，撰写研报对 DigiDaigaku NFT 整体生态进行系统描述，并发推总结研报结论，思考为什么要做 Web3 游戏？什么样的游戏更适合与 Crypto 结合？</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">https://twitter.com/0xscarlettw/status/1631491500369379331</a></p>\n<p><strong>文章作者：</strong></p><p>吴思嘉（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>吴思嘉（Mint Ventures）：</strong>研报结论：1）Machine Zone 的成功是机制创新的胜利，但也是 2014 年前后手游贫瘠的大环境下时势造英雄的产物。2）更健康的收入结构，放眼长期跟社区互利的契约精神，与区块链特性更好结合，Free to Own 必然是大势所趋。3）Limit Break 显然在做另一款 Whale Hunting 的游戏。4）为什么要做 Web3 游戏？改变游戏的分发模式，也改变资产的分发模式。</p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>并得出思考：1）什么样的游戏适合跟 Web3 结合？强调社交，让巨鲸在冲动和快感里为自己的工会买单。2）证券化的数字资产将不可避免地成为我们生活的一部分，甚至「游戏资产具有价格」本身，也是游戏走向「实感」的功能性的部分。3）挑战依然存在：解决过往失败的原因，就一定会在新的纪元成功吗？</p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>4）对此次超级碗广告跟过往进行了对比，并认为这次超级碗广告的效果似乎不及预期。但龙的活动还远远没有结束，Digi 的可编程版税和自有 NFT 平台也似乎如火如荼 —— 团队能否直面挑战，做出真正的范式创新？我们期待且保持关注。</p><a href=\"https://twitter.com/0xscarlettw/status/1631491500369379331\">内容来源</a>",
           "link": "https://twitter.com/0xscarlettw/status/1631491500369379331",
           "publishedOn": "2023-03-03T06:56:18.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "Mint Venture : 从 DigiDaigaku 思考 Web3 游戏的未来范式",
           "imageUrl": null
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 雨中狂睡从个人角度将其所关注事件分为 S、A、B、C 四个等级，并撰推呈现 S 级和 A 级两个等级，其中囊括 LSD、存储、ZK、OP 等板块，分析了这些板块三月动向及其重要性。提醒：此为个人展望，不作为投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">https://twitter.com/qiaoyunzi1/status/1631225848966815744</a></p>\n<p><strong>文章作者：</strong></p><p>雨中狂睡</p><hr><h3>观点：</h3><p><strong>雨中狂睡：</strong>S 级：1）LSD，虽然不确定以太坊上海升级的具体时间（可能是 4 月），但是 LSD 风潮应该会贯穿后续 ETH 的发展。2）存储：FEVM 的宣布推动了 $FIL 价格的上涨，将带动存储风的来到，且 BNB 同样推出了存储相关产品。虽然去中心化存储是 Web3 行业的重要应用之一，但目前来看，采用低会限制其的价值发现，当下更多是热点驱动和炒作。3）ZK：主要推动者其实是市场对于 zk-rollup 的发币预期和 Polygon ZkEVM 的推出。</p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">内容来源</a><p><strong>雨中狂睡：</strong>A 级：1）ATOM：Cosmos 即将在 3 月 15 日进行 Lambda 升级，此次升级旨在激活 Cosmos 链间安全（ICS）的功能，相当于给予了 $ATOM 更多的赋能。2）SNX：Synthetix 已经在 2 月 23 日完成了 v3 升级，此升级旨在提升 sUSD 的数量。3）STG：3 月 15 日换币和引入了新的做市商 GSR。</p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">内容来源</a><p><strong>雨中狂睡：</strong>4）OKX 品牌建设：其最近在 $Blur 事件和 $CELT 事件中的危机公关做得很好，并且 OKBChain 即将于 Q1 上线、OKXChain 调整代币经济学（降低 $OKT 的总供给）。5）OP：基于 OP Stack 推出 Layer2；Bedrock 升级；以太坊 EIP-4844 的发布将有机会降低 100 倍 Layer2 Gas 费用，$OP 将从中受益。</p><a href=\"https://twitter.com/qiaoyunzi1/status/1631225848966815744\">内容来源</a>",
           "link": "https://twitter.com/qiaoyunzi1/status/1631225848966815744",
           "publishedOn": "2023-03-03T05:16:04.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "个人展望 | 三月热门事件评级，LSD 风潮或贯穿后续 ETH 发展",
           "imageUrl": null
         },
@@ -867,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 659,
+          "wordCount": 669,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -907,7 +907,7 @@
           "description": "<h3>Block 成立专注于改善闪电网络流动性和路由的公司 c=</h3>\n<p>Twitter 创始人 Jack Dorsey 旗下支付公司 Block 成立专注于改善闪电网络流动性和路由的公司 c=，C= 计划通过将比特币投入到闪电网络并建立基础设施提高网络可靠性来解决因地流动性和路有效率低下导致的交易失败问题。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/block-launches-new-service-provider-to-make-lightning-more-reliable/",
           "publishedOn": "2023-03-03T01:31:07.000Z",
-          "wordCount": 20209,
+          "wordCount": 20206,
           "title": "Block 成立专注于改善闪电网络流动性和路由的公司 c=",
           "imageUrl": "https://www.coindesk.com/resizer/XoRofoQ5Hnf9zhmwkMzwRUkfp9M=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/FFIFJF47FRCK5GVADQ2D5YSCVA.jpg"
         },
@@ -917,7 +917,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20089,
+          "wordCount": 20092,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -927,7 +927,7 @@
           "description": "<h3>以太坊开发者计划于 3 月 14 日在 Goerli 测试网进行上海升级</h3>\n<p>据 CoinDesk 报道，以太坊开发者将在 3 月 14 日让 Goerli 测试网完成上海升级（上海升级也称为 Shapella），以太坊的主网将在 Goerli 升级之后 3-4 个星期进行 Shapella 升级，这意味着质押的 ETH 提款时间将于 4 月份进行，比最初以太坊开发者设定的三月份时间表略有延迟。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/02/ethereum-developers-target-march-14-date-for-shanghai-upgrade-on-goerli-testnet/?utm_medium=social&utm_source=onecryptofeed&utm_campaign=headlines\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/02/ethereum-developers-target-march-14-date-for-shanghai-upgrade-on-goerli-testnet/?utm_medium=social&utm_source=onecryptofeed&utm_campaign=headlines",
           "publishedOn": "2023-03-03T01:27:02.000Z",
-          "wordCount": 19778,
+          "wordCount": 19775,
           "title": "以太坊开发者计划于 3 月 14 日在 Goerli 测试网进行上海升级",
           "imageUrl": "https://www.coindesk.com/resizer/ppLSnK-io3eNSNAQOJsPW3nnNc0=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/4PZ2PCM2QRFADCUF3BYE2RF7FI.jpg"
         },
