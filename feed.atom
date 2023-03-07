@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T08:46:27.831Z</updated>
+    <updated>2023-03-07T08:51:40.398Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？]]></title>
+        <id>https://www.defidaonews.com/article/6807138</id>
+        <link href="https://www.defidaonews.com/article/6807138"/>
+        <updated>2023-03-07T08:32:51.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.defidaonews.com/article/6807138">https://www.defidaonews.com/article/6807138</a></p>
+<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href="https://www.defidaonews.com/article/6807138">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href="https://www.defidaonews.com/article/6807138">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href="https://www.defidaonews.com/article/6807138">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href="https://www.defidaonews.com/article/6807138">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？]]></title>
         <id>https://www.defidaonews.com/article/6807138</id>
@@ -311,6 +323,18 @@ DeFi数据：https://defillama.com/]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PKUBA Space 总结：资深分析师们今年看好哪些赛道？以太坊仍是核心]]></title>
+        <id>https://twitter.com/0x_claudia/status/1632745025036775425</id>
+        <link href="https://twitter.com/0x_claudia/status/1632745025036775425"/>
+        <updated>2023-03-07T07:54:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>PKUBA 联合深潮邀请包括 LD Capital 合伙人 Joy Lou 在内的多名资深加密分析师，全面公开资金的研究框架和逻辑，分享其今年看好哪些赛道，PKUBA 研究员兼深潮分析师 Claudia 对该 Space 进行了重点提炼和总结。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0x_claudia/status/1632745025036775425">https://twitter.com/0x_claudia/status/1632745025036775425</a></p>
+<p><strong>文章作者：</strong></p><p>Claudia（深潮 TechFlow）</p><hr><h3>观点：</h3><p><strong>Joy Lou（了得资本合伙人）：</strong>赛道核心是以太坊升级。LSD 短期资金出去一点，长期无法逃过。接下来，Layer2、Dank sharding 4844 、Op stack、 zk、 Coinbase 的 L2，轮动过程中再加上 DeFi（稳定币、借贷、LSD …… 相互抢地盘）、存储等辅助赛道。DeFi 里的 NFTFi、衍生品也要覆盖，交易量很大。除了以太坊，还有可能的生态是 Cosmos，但是要看看它的持续性。</p><a href="https://twitter.com/0x_claudia/status/1632745025036775425">内容来源</a><p><strong>CapitalismLab：</strong>把精力集中在比较主线的叙事，核心就是 LSD、L2 和 衍生品 这三个方面，只能覆盖长期确定性强的赛道。 比较喜欢 Arbitrum ，因为不需要发币就能实现有机增长，有差异化体验、有人用的产品。</p><a href="https://twitter.com/0x_claudia/status/1632745025036775425">内容来源</a><p><strong>DeFi Cheetah：</strong>可以布局的赛道是链上衍生品。Restaking 很重要，模块化区块链也重要。</p><a href="https://twitter.com/0x_claudia/status/1632745025036775425">内容来源</a><p><strong>Kiwibig.eth：</strong>V 神发文章是引导资本关注特定赛道。今年节奏的核心是跟着 V 神走。以太坊宇宙，在以太坊上解决 IBC 问题。看好 Cosmos，头部应用和钱都在进入生态。偏好硬件类项目，以太坊占据共识层，硬件缺得很多。</p><a href="https://twitter.com/0x_claudia/status/1632745025036775425">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？]]></title>
         <id>https://www.chaincatcher.com/article/2088732</id>
         <link href="https://www.chaincatcher.com/article/2088732"/>
@@ -318,6 +342,30 @@ DeFi数据：https://defillama.com/]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://www.chaincatcher.com/article/2088732">https://www.chaincatcher.com/article/2088732</a></p>
 <p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href="https://www.chaincatcher.com/article/2088732">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href="https://www.chaincatcher.com/article/2088732">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？]]></title>
+        <id>https://www.chaincatcher.com/article/2088732</id>
+        <link href="https://www.chaincatcher.com/article/2088732"/>
+        <updated>2023-03-07T07:41:34.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.chaincatcher.com/article/2088732">https://www.chaincatcher.com/article/2088732</a></p>
+<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href="https://www.chaincatcher.com/article/2088732">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href="https://www.chaincatcher.com/article/2088732">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sui Network 发布 0.28 新版本文档，包括推出可编程新型交易等更改]]></title>
+        <id>https://docs.sui.io/doc-updates/sui-breaking-changes</id>
+        <link href="https://docs.sui.io/doc-updates/sui-breaking-changes"/>
+        <updated>2023-03-07T07:40:13.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Sui Network 发布 0.28 新版本文档，包括推出可编程新型交易等更改</h3>
+<p>Layer1 公链 Sui Network 发布下一个版本 0.28 的文档，该版本可能会导致现有应用程序和设施停止运行，下周官方将发布有关如何解决因此停止运行的项目的信息。根据该具体功能更改包括：1. 新的可编程交易功能引入了一种新的交易类型，取代了批量交易和普通交易（特殊系统交易除外），这些交易允许执行一系列命令（各种小型交易），命令的结果可用于后续命令。2. SuiAddress 和 ObjectID 从 20 字节调整到 32 字节。3. 更改 Gas Budget，使用 SUI 而不是 Gas 单位等等。</p>
+<p><a href="https://docs.sui.io/doc-updates/sui-breaking-changes">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -1269,7 +1317,7 @@ Meta发言人周一拒绝就这些计划置评。知情人士表示，一些员�
         <id>https://twitter.com/auryn_macmillan/status/1632696493525323778</id>
         <link href="https://twitter.com/auryn_macmillan/status/1632696493525323778"/>
         <updated>2023-03-07T03:16:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个更安全的桥梁端点必须只在多个底层机制之间达成共识后报告有效的消息，而不是完全依赖一个机制。以太坊初级副总裁 Auryn.eth 撰文概述了一个促进跨链安全的新机制 Hashi，并对其概念、特点及进展进行了解析。</p>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个更安全的桥梁端点必须只在多个底层机制之间达成共识后报告有效的消息，而不是完全依赖一个机制。Gnosis subDAO 成员 Auryn.eth 撰文概述了一个促进跨链安全的新机制 Hashi，并对其概念、特点及进展进行了解析。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">https://twitter.com/auryn_macmillan/status/1632696493525323778</a></p>
 <p><strong>文章作者：</strong></p><p>Auryn.eth Ĝ⌣Ĝ</p><hr><h3>观点：</h3><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 是一个 EVM 区块头预言机聚合器，旨在促进跨链安全的原则性方法，本质上而言，这是一种跨链桥的多重验证，每个跨链桥都被视为任何给定区块头的一个预言机，用户可以自己选择使用哪种组合，满足 m/n 条件即生效。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 智能合约非常简单且容易审计，攻击面相对较小，用于在不同跨链桥之间分配信任。此外，Hashi 验证的是区块头而不是消息，这意味着 Hashi 可以用来验证任何执行环境下的链或层的状态，包括信标链。当然这也意味着需要在 Hashi 上构建另一种机制来验证状态或消息，Axiom 是我们在考虑的构建途径。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>目前我们已经开始为 Gnosis Chain 的 ABM 和 Wormhole 跨链桥编写 Hashi 预言机适配器，并且收到了来自 ConnextNetwork 的编写适配器的请求。未来我们还将编写更多的适配器，包括为 Succinct、Dendreth 及 Norm 等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a>]]></summary>
         <author>
