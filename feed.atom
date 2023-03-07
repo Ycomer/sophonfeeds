@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T07:36:25.695Z</updated>
+    <updated>2023-03-07T07:41:30.641Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -239,6 +239,18 @@ Arbitrum生态链最火阶段已过，fomo情绪或不足。
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】EigenLayer 创始人：关于 Rollkit 支持比特币主权 Rollup 的一些见解]]></title>
+        <id>https://twitter.com/sreeramkannan/status/1632622108822962178</id>
+        <link href="https://twitter.com/sreeramkannan/status/1632622108822962178"/>
+        <updated>2023-03-07T07:03:31.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>EigenLayer 创始人从安全属性的角度对 Rollup 框架产品 Rollkit 支持比特币主权 Rollup 进行了解析，他表示主权 Rollup 为原生资产保留了比特币安全性，但没有办法安全地进行比特币桥接活动。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">https://twitter.com/sreeramkannan/status/1632622108822962178</a></p>
+<p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>1）该系统基本上让主权 Rollup 用户直接将交易写入比特币，然后在链下解释账本，这在比特币领域是一个比较老的想法；2）安全性及有效性始终是确认规则的属性，并不是一个链的属性；3）抗重组性、抗审查、数据可用性及有效性共同决定了一条链的安全性；4）如果我们将比特币作为写入交易的层，那我们从比特币继承了抗重组性、抗审查及数据可用性；【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>5）如果我们为主权 Rollup 运行一个全节点，我们可以直接推断有效性；6）如果系统具有链外欺诈 / 有效性证明，那么对于主权 Rollup 的轻节点而言，也可以继承比特币的安全性和灵活性；7）但我们目前没有办法在比特币上写入一个全节点或轻节点的主权 Rollup，因此没有验证的跨链桥可以在主权 Rollup 中转移资产；【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>8） Rollkit 支持比特币主权 Rollup 有用吗？如果目标是构建 NFT 或其他基于比特币的链，并在链下对比特币安全性进行解释，那肯定是有用的；9）但是它并非是高性能的，质押比特币安全的唯一方法需要将所有数据写入比特币，但区块限制是 4MB/10 分钟，因此数据率为 53 kpbs；10）如果接收链上有一个 BTC 轻客户端桥及 ZK 证明验证器，那么 BTC Rollup 有效性就可以得到检验。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[美国法院拒绝SEC主要证人作证，Ripple根据最新法院裁决提交“合理通知”辩护]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/yif163v7.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/yif163v7.html"/>
@@ -901,13 +913,13 @@ Meta发言人周一拒绝就这些计划置评。知情人士表示，一些员�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】新项目前瞻 | EVM 标头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？]]></title>
+        <title type="html"><![CDATA[【英文长推】新项目前瞻 | EVM 区块头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？]]></title>
         <id>https://twitter.com/auryn_macmillan/status/1632696493525323778</id>
         <link href="https://twitter.com/auryn_macmillan/status/1632696493525323778"/>
         <updated>2023-03-07T03:16:13.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个更安全的桥梁端点必须只在多个底层机制之间达成共识后报告有效的消息，而不是完全依赖一个机制。以太坊初级副总裁 Auryn.eth 撰文概述了一个促进跨链安全的新机制 Hashi，并对其概念、特点及进展进行了解析。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">https://twitter.com/auryn_macmillan/status/1632696493525323778</a></p>
-<p><strong>文章作者：</strong></p><p>Auryn.eth Ĝ⌣Ĝ</p><hr><h3>观点：</h3><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 是一个 EVM 标头预言机聚合器，旨在促进跨链安全的原则性方法，本质上而言，这是一种跨链桥的多重验证，每个桥接机制都被视为任何给定标头的一个预言机，用户可以对信任哪种桥接组合进行选择。Hashi 允许用户使用自己想用的任何预言机机制构建自定义预言机适配器合约及查询在给定链上的给定区块的区块头的预言机标头等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 智能合约非常简单且容易审计，攻击面相对较小，用于聚合和分配数量不同标头的预言机机制之间的信任。此外，Hashi 验证的是区块头而不是消息，这意味着 Hashi 可以用来验证任何执行环境下的链或层的状态，包括信标链。当然这也意味着需要在 Hashi 上构建另一种机制来验证状态或消息，Axiom 是我们在考虑的构建途径。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>目前我们已经开始为 Gnosis Chain 的 ABM 和 Wormhole 跨链桥编写 Hashi 预言机适配器，并且收到了来自 ConnextNetwork 的编写适配器的请求。未来我们还将编写更多的适配器，包括为 Succinct、Dendreth 及 Norm 等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a>]]></summary>
+<p><strong>文章作者：</strong></p><p>Auryn.eth Ĝ⌣Ĝ</p><hr><h3>观点：</h3><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 是一个 EVM 区块头预言机聚合器，旨在促进跨链安全的原则性方法，本质上而言，这是一种跨链桥的多重验证，每个跨链桥都被视为任何给定区块头的一个预言机，用户可以自己选择使用哪种组合，满足 m/n 条件即生效。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 智能合约非常简单且容易审计，攻击面相对较小，用于在不同跨链桥之间分配信任。此外，Hashi 验证的是区块头而不是消息，这意味着 Hashi 可以用来验证任何执行环境下的链或层的状态，包括信标链。当然这也意味着需要在 Hashi 上构建另一种机制来验证状态或消息，Axiom 是我们在考虑的构建途径。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>目前我们已经开始为 Gnosis Chain 的 ABM 和 Wormhole 跨链桥编写 Hashi 预言机适配器，并且收到了来自 ConnextNetwork 的编写适配器的请求。未来我们还将编写更多的适配器，包括为 Succinct、Dendreth 及 Norm 等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -9359,18 +9371,6 @@ ZK 可能产生巨大影响的最后一个地方是构建去信任的、用户�
         <summary type="html"><![CDATA[<h3>CryptoQuant 报告：已质押的 ETH 60% 目前处于亏损状态，预计上海升级后 ETH 抛售压力较低</h3>
 <p>据链上数据平台 CryptoQuant 发布的报告称，在以太坊上海升级后，ETH 的质押提款可能将面临较低的抛售压力。该结论来自对质押的 ETH 的损益分析。该分析基于两个原因：1. 大部分质押的 ETH（60% 或 1030 万枚）目前处于亏损状态（将当前的 ETH 价格与每个 ETH 质押时的价格进行比较）；2. 平均最大质押池的存款人目前也处于亏损状态。通常，当市场参与者坐拥巨额利润时，就会出现抛售压力，但目前所质押 ETH 的情况并非如此。此外，大部分获利的 ETH 质押时间不到一年，而且大部分涨幅仅在 20-30% 之间，这种回报在过去并不符合重大获利事件 (抛售)。</p>
 <p><a href="https://cryptoquant.com/insights/research/63ff5c624b67fa3f48535916-01-MAR-2023-ETH-Selling-Pressure-Analysis-Ahead-of-the-Shanghai-Upgrade-the-Prof">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】观点：Blur 是 NFT 领域发生的最糟糕的事情]]></title>
-        <id>https://twitter.com/aaronsage/status/1630937950321254401</id>
-        <link href="https://twitter.com/aaronsage/status/1630937950321254401"/>
-        <updated>2023-03-02T07:33:43.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Blur 的崛起引起了市场热烈的讨论。加密货币 KOL Aaron 认为 NFT 不应该仅仅与金钱相关而忽视艺术和文化，Blur 只是利用金钱来吸引用户。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/aaronsage/status/1630937950321254401">https://twitter.com/aaronsage/status/1630937950321254401</a></p>
-<p><strong>文章作者：</strong></p><p>Aaron</p><hr><h3>观点：</h3><p><strong>Aaron：</strong>NFT 不仅仅与金钱有关。Blur 只是用他们的激励措施给你洗脑，并给你免费的钱来吸引你。Blur 平台界面上关于艺术作品、项目描述或其他任何东西都没有。在熊市中，Blur 吸引了一部分人。但从长远来看，这个市场真的有利于整个 NFT 领域吗？【原文为英文】</p><a href="https://twitter.com/aaronsage/status/1630937950321254401">内容来源</a><p><strong>Aaron：</strong>NFT 世界里有两类人：1) 对艺术、文化和技术潜力感兴趣的人 2）只关心快速获利的人。我们应该支持创作者、艺术家和那些致力于利用这项技术创造更美好空间的人们。Opeansea 是我们第一次进入这个领域时可能使用过的第一个市场，他们从一开始就支持创作者和艺术家。但是 Blur 没有。【原文为英文】</p><a href="https://twitter.com/aaronsage/status/1630937950321254401">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
