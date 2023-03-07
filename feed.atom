@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T09:09:57.373Z</updated>
+    <updated>2023-03-07T09:19:10.133Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文了解ETHDenver 2023上的新趋势、重点方向、新项目和未来增量市场]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/y81jda72.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/y81jda72.html"/>
+        <updated>2023-03-07T09:16:31.000Z</updated>
+        <summary type="html"><![CDATA[2023年2月24日～3月5日，ETHDenver 2023在美国丹佛举行，这被誉为世界上规模最大、持续时间最长的ETH活动。活动主要分为两个部分，2月24日～3月1日为“BUIDLingWeek”，现场会举办开源活动和聚会；3月2日～3月5日则为“BUIDLathon+Festival”，大家分享并见证区块链创新的未来。
+根据参会的受访者回顾，本次去丹佛参加活动的有将近4万人，以太坊生态中的很多顶级项目团队到达现场，周边会议中的zkDAY、Github活动、Coinbase活动等比较受欢迎。嘉宾演讲中，“Layer2的限制”、“账户抽象和ERC-4337钱包”、“测试网上的ETH斗争：稀缺、可交易的商品或公共利益”、“如何让钱包停止收集个人数据”等话题引起了较多讨论。
+本次ETHDenver活动展现了哪些新的趋势，会议中哪些方面的话题更受关注呢？PANews采访了前去参加活动的Manta Network联合创始人Vitor Ji、ScalingX联合创始人Chichi、OKX Web3 Wallet高级业务拓展经理另维、SevenX投资总监Yinghao、Mask Network & Next.ID开源社区经理段少等，分享来自Denver会议一线的感受和收获。
+与去年的1.5万人相比，今年参加ETHDenver活动的人达到了2.5万人，预计因为Crypto相关活动涌入丹佛的人数高达4万，其中既包括了50多岁的女性，也有10多岁的小孩。参加活动的BuidLer非常多，最终有大约300多个项目出炉。参会人员普遍表示，这是一个以开发者为主的活动，主要进行深度的技术讨论。
+
+SevenX投资总监Yinghao从中看到了东西方Web3世界的交错与融合，美国本土Web3创业仍以强基础设施叙事驱动，亚洲的web3创业以产品和用户视角驱动。同时亚洲创业者向美国本土的扩展和渗透非常快速，呈现一种意识形态从割裂到双边扩散的状态。Web3的西方霸权主义暂时无法打破，美国本土头部资金、头部创业者生态圈和头部项目方结成了一个闭环，外部任何一个要素渗入都有难度，非本土的玩家要进行艰难的突破。
+在基础设施、DeFi、NFT、GameFi、元宇宙等各类项目中，受访者表示本次活动大家更关心的是基础设施。DeFi和NFT更多的是工具类和公共产品，没有太强调token的作用，GameFi主要集中在全链游戏，而国内关注更多的元宇宙则少有人讨论。
+基础设施叙事到达了一个近1年阶段性的高峰，创新性话题滞涨，围绕热门基础设施话题Buidle的创业者非常多。可以预见无论从行业发展、叙事还是人才溢出的角度，叙事中心将会逐渐向应用和场景方向转移。
+值得一提的是，ZK成为这次Denver会议最受关注的主题。Manta Network联合创始人Vitor Ji表示，ZK在基础设施中占据了主导地位，它有更多的方案，更好的性能，在应用中的价值也逐渐显现出来，ZK和模块化方向的结合也是一个重要的部分。Manta Network和投资机构Polychain Capital共同举办的zkDAY也是最受欢迎的周边会议之一。
+OKX Web3 Wallet高级业务拓展经理另维认为，ZK系经过过去一年的飞速发展，圈子文化开始渐渐明朗，已经有组织有规划，很会抱团做开发者社区，ZK世界里很多华人项目和开发者都在国际舞台上认可度高。Manta Network、Scroll和Aleo三兄弟带着他们的金主Polychain，不断吸纳优秀的新成员，比如去年在一级市场大放异彩、抢疯了的ZK编译器Nil和可编程的ZK预言机HyperOracle。
+ScalingX的联合创始人Chichi表示，ZK依然是大家关注的亮点，这次大会其中一个周边会议，由Delendum Research主办的Future Computing Research Workshop邀请到了诸多ZK领域的大咖，包括伯克利大学教授Dawn Song、密码学专家Wei Dai等。Wei Dai也受邀将作为ScalingX 4月份ZK主题的孵化器评委。
+ZK系的Scroll在3月6日宣布以18亿美元估值完成8300万美元融资。除了几乎达成共识的看好ZK系项目外，受访者表示Devner会议上LST（流动性质押代币，主流流动性质押项目正合力做用户教育，想要避免LSD中衍生品derivative的称呼）、ChatGPT相关的项目也让人印象深刻。
+另维表示，在以太坊上海升级的大背景下，LST类项目也有很好的叙事。这次会议的Shared Security Summit主要讨论以太坊安全层，主要针对staking和restaking，各种Liquidity staking项目方都到达了现场，如Lido、Eigen Layer、Rocket Finance、Stader。
+Arbitrum的运营能力也让另维印象深刻，不仅线上的TVL和用户增长，对项目的造星能力开始形成品牌，吸引了链游等应用层项目涌入，线下的运营能力也进步很大。他们组织了一系列的活动，从现场booth赞助，到几位创始人对Arbitrum的技术和愿景分享，到直接面对社区和项目方的包餐厅请客吃饭活动，从上到下每一个环节都精准打到，并做到了很好的社区传播。
+Mask Network & Next.ID开源社区经理段少则在新项目上给了我们一些启示，他表示用DeFi + ChatGPT做出来的Swappy和面向全球数字游民的OPOLIS让他印象深刻。
+Swappy是#BuidLathon 最后Demo Day的5个获奖项目之一，交互界面简单到只有一个类似于谷歌搜索的输入框。当用户键入，比如“拿2个USDC换一下MATIC” 后，会自动弹出UI，用户再进行下一步操作。这种因为ChatGPT才出现的交互方式，相信之后会越来越多。
+
+OPOLIS可以方便地向数字游民发放工资，交社保医保。它的主导人之一John Paller也正是ETH Denver的创始人。ETH Denver背后的组织Spork DAO，是一个Co-op（合作社）。同时，来自科罗拉多大学博尔德分校的教授Nathan Schneider也是这种理念的拥护者。他在Web3 Social House（Mask Network 筹办）分享了一个 Mastodon实例Social.coop，用户必须付费才能成为成员。“你如果不在经济上进行贡献、直接免费使用某个产品，你就会沦为这个产品的一部分”。
+
+驱动下轮牛市的引擎
+对于自己看好的方向、吸引新用户进入的增量市场和下一轮牛市的引擎，各位受访者则有自己不同的看法，整体上倾向于自己所在的方向。
+Vitor Ji作为Manta Network的联合创始人，自身比较看好ZK和模块化。他认为ZK是和区块链有相同愿景的技术，能让整个社会有更多的所有权。模块化更为早期，但却是降低成本最有效的一步。另外从增量市场看最有效的增量来自Web2有现金流业务和人们花时间的业务的去中心化，以及服务这些应用的工具和技术。
+另维对LST、Layer2、ZK、GameFi、开发者工具、去中心化世界的一站式解决方案这几类项目比较看好。去年最大的有效增量市场来自STEPN，300万用户，最多有100万的每日活跃用户。NFT也是无缝承接新增用户的主要场景，比如Polygon和Reddit合作的NFT，让250万人无知无觉的拥有了钱包和NFT。因此他认为增量市场的任务，还是会落在能让web2人轻易听懂和上手的游戏、NFT肩上。去中心化世界里的一站式解决方案也是降低web3整体入场门槛的工具。这方面交易所和钱包可能占据一定优势。OKX对自己的定位也一直是科技公司，是web3的工具提供者。OKX Web3致力于为未来web3提供最好的使用感受，降低行业门槛。目前自托管钱包已经接入了50条公链，有自己的Dex, Swap, Bridge, Yield和NFT聚合器。
+Yinghao则对游戏、支付和现实世界结合的三个方向比较看好。游戏类包括内容、基础设施、产业链升级和前沿叙事，具有主动获取用户、扩充NFT资产容量、反哺基础设施进化的能力。支付方向则包括钱包和稳定币支付。现实世界包括web3原生品牌产品化，传统品牌web3延展、PoPW等。
+段少看好的方向则是DID和智能合约钱包。他认为只有进一步降低新Web2用户进入Web3的门槛，才能让整个Crpyto圈的共识扩大。而驱动下一轮牛市的引擎，必然是做社交的产品，但基建成熟度还不足以撑起做全民社交的规模，可能是某个垂直领域跑出来的社交。
+ 
+相关阅读：
+《ETHDenver参会所闻所感：哪些趋势值得关注？》
+《Gnosis创始人EthDenver分享笔记：为什么Layer2仍有局限性？》
+《Paradigm首席技术官：ETHDenver 2023 中值得关注的6个项目》
+《一文速览闯进ETHDenver决赛的18个新项目》]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GMX全链乐高来势汹汹，会威胁到dYdX的龙头地位吗？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/950wl08r.html</id>
@@ -4082,28 +4122,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[PANews 3月6日消息，据华盛顿邮报报道，如果Silvergate Capital Corp.倒闭，将可能成为第一家因不良负债而不是不良资产倒闭的银行，因为其坏账都是存款而不是资产。Silvergate的存款并不是正常意义上的存款，其特征更像是“速汇金”MoneyGram International或“西联汇款”Western Union等汇款公司持有的浮动现金，而Silvergate吸引现金的唯一原因是结算进出一组特定资产的交易，但Silvergate的存款移动速度可能比这种现金浮动速度慢的多，只要市场对加密货币兴趣下降，存款人就会开始消失。
 大型银行必须保留足够的优质流动资产，以有能力应对30天的存款提取。而Silvergate冒了更大的风险，Silvergate将大部分新资金投入了较长期的债券中，在去年第三季度末其存款开始迅速缩水之前，仅有11%的流动性资产是储存在美国联邦储备银行和其他银行的现金，其余部分是证券。而这些证券中仅有11%是美国国债，其余大部分是具有10年以上合同到期期限的抵押贷款支持债券，因此在其开始抛售这些证券以满足提款需求之前，其债券持仓已经遭受了10亿美元的公允价值损失。Silvergate规模太小，不受流动性规则的约束。Silvergate无论如何都可能遇到这些问题，但考虑到其存款的极其快速增长和共同来源，其监管机构应该在资金迅速消失之前仔细调查。
 此前3月2日消息，Silvergate披露其可能"资本不足"，正在“重新评估业务和战略”。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paradigm首席技术官：ETHDenver 2023 中值得关注的6个项目]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/b0b9wt1p.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/b0b9wt1p.html"/>
-        <updated>2023-03-06T07:00:53.000Z</updated>
-        <summary type="html"><![CDATA[撰文：Georgios Konstantopoulos，Paradigm 首席技术官
-编译：深潮 TechFlow
-本文是 Paradigm 首席技术官 Georgios Konstantopoulos 在 ETHDenver 期间分享的想法。他提到了六个他希望看到开发的潜力项目。
-第一个是OP-Reth，它是一个实现了 Optimistic Rollup 设计的 OP Stack。该设计旨在尽可能接近以太坊。他希望看到在 Reth 上实现的 OP-Reth。
-
-第二个项目是wagmi_sh x Foundry full-stack hacks。Wagmi 是一个 Web3 前端库，现在正在迅速崛起成为最受欢迎的前端库之一。Wagmi CLI 允许在具有 Foundry 集成的全栈黑客马拉松项目上进行快速迭代。
-
-第三个项目是使用 Ruint 替换 Rust 代码中的基本类型。他们希望将所有 Rust 代码中的原始类型都替换为 Recmo 的 Ruint。但是要解决 ethabi 内部类型与 Ruint 之间的替换问题。
-第四个项目是 Ganache-UI but for Anvil。Ganache-UI 是一个非常受欢迎的以太坊本地节点 GUI。Georgios 想看到一个类似的界面，但是用于 Anvil。
-
-
-第五个项目是 ABI -> UI generation。他希望看到像 AMM/Lending/NFT/...这样的 React 组件，可以抽象出常见的链上操作。因为 Georgios 认为现有的 Etherscan-esque 按钮和输入框无法满足需求，需要更多有见解的组件。
-最后一个是 MEV Share，这是一种可编程的私有订单流，通过赋予用户权力，重新分配 MEV，并迈向去中心化的区块构建。这个项目最近被提出，虽然它是可行的，但不适合新手。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
