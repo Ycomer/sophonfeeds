@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T01:58:56.082Z</updated>
+    <updated>2023-03-07T02:33:32.350Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[项目研报丨Aura Finance：Balancer生态收益聚合器和元治理平台]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/b3agvc8b.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/b3agvc8b.html"/>
+        <updated>2023-03-07T02:15:17.000Z</updated>
+        <summary type="html"><![CDATA[文中数据均截至 2023/3/4。
+Aura Finance 是围绕 Balancer 生态 veBAL 打造的收益提升和元治理平台，由 Sushiswap 前 CEO 0xMaki 建立。Aura 之于 Balancer，相当于 Convex 之于 Curve，Aura 的核心功能和 Convex 类似，但当前的资本效率远高于 Convex，已与多个 LSD 协议达成合作。
+2022 年第一季度，Balancer 参考 Curve 的 veCRV 上线了 veBAL 代币经济模型，是针对原生代币 BAL 的治理效用/价值捕获的升级，主要逻辑和 veCRV 类似，如下：
+锁仓 BPT 获得 veBAL：用户锁定 80BAL/20WETH BPT 可获得 veBAL（即锁定 Balancer 上 80%BAL/20%WETH 池的 LP 代币，为和其他池 LP 区分，下文该池 LP 均称为 BPT）。锁定时间从一周到一年不等，锁定越久获得 veBAL 越多，锁定一年可以 1:1 获得 veBAL。veBAL 不可转让或交易。
+综上可以看出，veBAL 和 veCRV 相比，主要改进在于两点：
+veCRV 仅锁仓 CRV 代币，veBAL 锁的是 BPT，可以在大部分 BAL 被锁仓的情况下还能保证池子的流动性和深度。
+veBAL 最多锁一年，相比 veCRV 的四年，提升了部分灵活性。
+从 Curve War 的历史可以得知，veBAL 这套模型也是在走选举大战的路子。对于在 Balancer 上建池的项目方而言，想要项目长期保持活力，就需要自己的池子里保持足够的流动性。流动性都是趋向高收益的，吸引流动性的最佳方式就是提升池子的 BAL 奖励分配权重，唯一的途径就是投票，要么对 veBAL 持有人贿选，要么自己购买 BAL 锁仓去投票。
+对于在 Balancer 建池的 LSD 项目而言，例如 Rocket Pool 的 rETH，在 Balancer 上对应的池子 rETH/WETH，该池的 BAL 奖励分配权重越高，就会吸引越多的人在 Rocket Pool 质押 ETH 获得 rETH，然后到 Balancer 提供流动性进行挖矿，使 Rocket Pool 在 LSD 赛道的市占率上升。同时，池子的流动性越高，rETH 的脱锚风险也就越小。
+按照传统的流动性奖励模式，吸引流动性往往要用到项目方的原生代币，例如直接给 rETH/WETH 的 LP 额外提供原生代币 RPL 的奖励。而在 veBAL 模型下，可以通过贿赂选民（veBAL 的持有者），例如提供一些 RPL 代币空投，让该池获得更高的 BAL 奖励分配权重，以达到提升池子收益、吸引流动性的目的。
+这样的做法资本效率更高，也许提供价值 $10000 的 RPL 空投贿赂，就能为池子争取到价值 $20000 的 BAL 分配。如此一来，veBAL 持有人获得空投，LP 获得更高的 BAL 挖矿收益，项目方小钱办大事，对于 Balancer 而言，也不必担心 BAL 每周的奖励释放带来过多通胀，因为用户会不断锁仓 BAL，以换取投票权和最高 2.5 倍的 LP 挖矿加成。
+在 Curve 生态，Convex 对 veCRV 的模型进行了补充和升级，将 veCRV 的收益和治理分离，用户可以锁定 Convex 的原生代币 CVX 对 Curve 进行元治理，而在 Balancer 生态承担这一角色的便是 Aura Finance。
+在 Aura 平台锁定 80BAL/20WETH BPT，可以获得 auraBAL，和 veBAL 相比，特点如下：
+永久锁仓：auraBAL 不能解锁为 BPT，相当于永久锁仓 BPT，或者说是将 BPT 永久交给了 Aura 换回了 auraBAL。
+收益与治理分离：auraBAL 仅具备收益属性，不具备治理属性。相当于用户把 BPT 都交给了 Aura，Aura 去 Balancer 以最长时间锁仓获得 veBAL，锁仓收益发给 auraBAL 质押者，而治理权则由 Aura 通过其他方式分配，下文详述。
+可随时退出：auraBAL 可以转让和交易，auraBAL 持有者可以在二级市场卖出换成 BPT（在 Balancer 有 auraBAL/[80BAL/20WETH BPT] 池），相当于随时可以解放流动性。想要锁仓 BPT 换取 auraBAL 的用户，也可以直接在二级市场购买 auraBAL。
+提升收益：除了获得与 veBAL 相同的收益外，质押 auraBAL 还会获得额外的 AURA（Aura 原生代币）奖励，以及全平台 LP 挖矿加成奖励的 20.5%（下文详述）。
+用户在 Balancer 提供流动性后，可以将 LP 质押到 Aura，除了可以获得额外的 AURA 奖励外，还可以在不持有 veBAL 的前提下获得挖矿奖励加成。
+前文提到，直接在 Balancer 进行 LP 挖矿，可以通过锁仓 80BAL/20WETH BPT（持有 veBAL）获得最高 2.5 倍的挖矿加成。在 Aura，用户锁仓 BPT 只换回了 auraBAL，没有 veBAL，所以用户个人在 Aura 锁了多少 BAL 和 LP 挖矿加成没有任何关系，而是由 Aura 拿着用户的 BPT 到 Balancer 统一锁仓，再统一给所有质押在 Aura 的 LP 进行加成。
+Aura 全平台所有的 LP 挖矿收益（BAL 收益）中，会拿出最高 25%作为平台费用，分配给以下几方：
+20.5%：分配给 auraBAL 质押者（Aura 平台上 LP 挖矿的加成幅度与 BPT 的锁仓量相关，该项激励利于提升锁仓量），以 BAL 代币形式分配。
+4%：分配给 AURA 锁仓者，即 vlAURA 持有者（下文详述），以 auraBAL 代币形式分配。
+0.5%：分配给 Harvest caller 用于覆盖协议操作的 Gas 费用，以 BAL 代币形式分配。
+使用 auraBAL 为 Balancer 上的 auraBAL/[80BAL/20WETH BPT] 池添加流动性，并将 LP 质押到 Aura，可以获得 AURA 代币奖励，享受独立的奖励池。
+在 Aura 锁仓原生代币 AURA 16 周可获得 vlAURA，可以获得上述的平台费用，还将获得治理权，除了对 Aura 平台事务的治理权外，还有 Aura 平台所持 veBAL 的治理权，可以对 Balancer 进行元治理。
+Aura 整个平台的治理逻辑如下：
+用户永久锁仓 BPT 到 Aura，获得 auraBAL；
+Convex 拿着用户锁的 BPT 到 Balancer 锁仓获得 veBAL；
+veBAL 产生的收益交给用户，治理权则交给 AURA 锁仓者（vlAURA）；
+如果有足够多的 BPT 通过 Aura 锁仓，以至于大部分投票权（veBAL）都由 vlAURA 控制，那么 vlAURA 将能够控制底层协议 Balancer（主要是 Balancer 上各池的 BAL 奖励分配权重）。
+数据显示，目前 veBAL 已铸造总量约为 1044.49 万，其中 Aura 是排名第一的持有者，持有约 276.95 万 veBAL，占比约 26.53%。
+
+由此也意味着 Aura 平台整体占据了 Balancer 约 26.53%的治理权，贿赂 vlAURA 的持有者也成为了项目方们的一个重要选择。目前可以在 Hidden Hand 平台为 BAL 奖励分配权重的选举进行贿赂，吸引 vlAURA 的持有者投票给对应的池子。
+
+
+
+根据 DefiLlama 的数据，当前 Aura 的 TVL 为 6.25 亿。
+
+
+
+根据 Llama Airforce 的数据，自 2022/6/28 第一轮投票以来，Aura 平台的贿赂累计价值约为 619 万美元，平均每 1 美元的贿赂可以为池子争取到价值 1.59 美元的 BAL+AURA 代币分配（高于 1 美元即代表：贿赂相比使用传统的流动性奖励有更高的资本效率），Curve 生态的 Convex 该值为 1.08。
+
+
+
+AURA 代币供应上限为 1 亿，公平启动无 VC，初始设定的分配如下：
+50%：奖励给质押在 Aura 的 LP，根据 LP 获得的 BAL 数量按比例分配，下文详述
+10%：奖励给 auraBAL/BPT LP 的质押者，释放期 4 年
+2%：Balancer LBP
+3%：在 Balancer 80AURA/20ETH 池添加初始流动性
+17.5%：国库，释放期 4 年
+2.5%：空投给 Balancer、Convex Finance 和 LobsterDAO 社区
+1%：未来的空投
+2%：BAL 国库，释放期 2 年
+2%：veBAL 引导奖励
+10%：贡献者，释放期 2 年
+在代币发行初期，由于 LBP 没有被完全认领，以及调整初始流动性、空投等问题，有 282 万 AURA 流入了国库。
+50% 的 AURA 释放给在 Aura 质押的 LP（铸造新币），这部分的释放规则参照下方公式：
+AURA 释放量 = (((500 - (totalSupply() - 50000000) / 100000) * 2.5 + 700) / 500) * BAL 奖励数量
+简单来说，LP 每挖到 1 个 BAL，就会按比例铸造出若干 AURA 奖励给 LP。在第一天，挖到 1 个 BAL 将奖励 3.9 AURA，随着 AURA 的总发行量的增加，该数值将慢慢减少，最终变为 1.4 AURA。
+总体的代币释放趋势如下图所示，TGE 时间为 2022 年 6 月。
+
+根据官方 Dune 统计的数据，近期每周新铸造 AURA（用于平台奖励）的数量为 15 万-30 万左右，2023 年 2 月（以四周粗略计）新铸造量约为 106.58 万 AURA；同时，每月还有约 41.67 万 AURA 释放给贡献者（团队），所以当前每月释放量约在 150 万左右。初始国库的 1750 万 AURA 虽已释放约 328 万但至今未动，不计算在内。
+
+
+
+根据区块浏览器及 CoinGecko 的数据，目前 AURA 代币已发行约 5811 万，减去国库/奖励等各项未流通的部分，目前流通量为 2251 万 AURA，AURA 代币价格为 3.16 美元，流通市值约为 7129 万美元，FDV 约为 3.16 亿美元。
+目前流通的 AURA 代币中，包含约 1344 万锁仓 16 周的 AURA，锁仓占流通量的比例约为 59.26%。数据显示，AURA 锁仓量处于持续稳定上涨状态。
+
+对比近三个月 AURA 代币的新增锁仓量和新增释放量，数据如下：
+2023 年 2 月：新增约 71 万锁仓/新增约 148 万流通，锁仓比约 48%
+2023 年 1 月：新增约 154 万锁仓/新增约 136 万流通，锁仓比约 113%
+2022 年 12 月：新增约 57 万锁仓/新增约 94 万流通，锁仓比约 61%
+根据 Aura 平台持有的 veBAL 总量和锁仓的 AURA 数量（即 vlAURA 数量），每个 vlAURA 相当于控制着约 0.21 个 veBAL，每个 vlAURA 的实际治理价值约 3.43 美元，与当前 AURA 代币 3.16 美元的价格接近。
+LSD 是今年的主要叙事之一，LSD 相关资产在 Balancer 上有着庞大的 TVL。目前 Balancer 流动性最大的前三个池子分别为 wstETH/WETH、BAL/WETH、rETH/WETH，第二名是与 veBAL 相关，另外两个池均为 LSD 相关（Lido 和 Rocket Pool）。
+
+Aura 作为 Balancer 生态的龙头，已经与一系列 LSD 协议建立了合作关系，包含 Lido、Rocketpool、Frax、Swell、Stakewise、Stader、Ankr 和 StaFi 等。
+此外，进入 2023 年以来，Aura 增加了很多合作伙伴和投资者/拥护者，下面列举部分。
+OlympusDAO 卖掉了 CVX 转投 AURA，购买了 20 万美元的 AURA 代币，并准备在接下来 4 个月内再购买 80 万美元。
+加密资管公司 Arca 在 2 月初陆续购入了近 30 万 ARUA。
+Alchemix 将其代币 ALCX 的流动性从 Sushiswap 迁移到了 Balancer，并购买 AURA 以锁定并参与治理，激励其流动池。
+Synapse 通过投票，决定将 SYN 代币的流动性从 Sushiswap 转移到 Balancer，并向 vlAURA 行贿以实现对 LP 的激励。
+Aura 作为 Balancer 生态的龙头，和 Balancer 的发展是相辅相成的，目前包含大量 LSD 协议在内的项目方涌入 Aura，本质原因在于其资本效率优于传统的流动性奖励模式，也优于同赛道的 Convex。从当前每 1 美元所得的贿赂价值计算，Aura 的资本效率（1.59）比 Convex 的资本效率（1.08）高 47%。
+AURA 代币的内在价值主要来源于 vlAURA 对于 Balancer 的元治理，前文提到，目前每个 vlAURA 等同于 0.21 个 veBAL 的投票权，那么单个 vlAURA 的治理价值可折算为 3.43 美元，当前币价相比治理价值低 8%，和 Convex 相比，CVX 币价比其治理价值高约 22%，仅按照该单一指标计算，AURA 有一定的上涨空间。但 AURA 相比 CVX，流通比例和 TVL 更低，虽然流通市值部分仅占 CVX 的 1/6，但 FDV 已超过 CVX 的 1/2，而 TVL 仅为 Convex 的 1/7。
+对于该类项目而言，行贿的项目方需要更高的资本效率，也就意味着平台存入 BPT（铸造 auraBAL）的速度要高于 AURA 代币释放的速度；受贿者和持币者需要更高的治理价值，也就意味着需要更多行贿方的涌入，提供更多价值的贿赂；同时也要尽可能吸引更多的 LP，带来更多的 BAL 奖励（会部分分配给 auraBAL 持有者），吸引更多 BPT 的存入，当然，LP 的增加也会使 AURA 新增流通量增多。
+综上，Aura 环环相扣，关注点较多，auraBAL 铸造量、AURA 代币新增流通量、贿赂总价值、TVL 等均需关注，这些数据的变动会影响到核心点：资本效率和单个 vlAURA 的治理价值。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[破产法官：不能因监管机构间难以理清的权力之争拖延Voyager的破产重组]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/32030i4y.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/32030i4y.html"/>
+        <updated>2023-03-07T02:13:15.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据Coindesk报道，周一Voyager破产听证会已进入第三天，虽然听证会的前两天重点询问与Voyager、Binance US和其他参与拟议交易的其他相关人士，但第三天更侧重于对Voyager出售计划本身的反对意见。纽约南区破产法院的美国破产法官Michael Wiles表示，双方试图在“合理的范围内”给予SEC监管自由，但破产本身更为紧迫。SEC高级出庭律师Therese Scheuer反对提案中的一些披露，而法官似乎对这一点持异议。
+法官Michael Wiles表示：“我不知道我能无所事事地等多久，直到国会和相互竞争的监管机构彼此理清，谁对这件事的哪些方面有什么权力，什么样的权力。我不知道这需要多长时间，我们不能在破产时这样做。我们不能仅仅因为不确定监管机构最终将如何就他们似乎争论了多年的问题做出决定，就把一切都搁置起来。”
+美国受托人办公室、德克萨斯州总检察长办公室和纽约金融服务部的代表也在听证会上发表了意见。法官表示，他可能会在周二恢复听证会时尽快做出决定。
+此前昨日消息，Voyager表示，若与Binance.US的10亿美元交易延迟，将使公司每月损失1000万美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[消息人士：亚马逊NFT将与真实资产挂钩，或于自研私链上发行]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/uy8p4208.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/uy8p4208.html"/>
+        <updated>2023-03-07T01:35:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据Blockworks报道，消息人士表示，亚马逊计划发行的NFT将与现实资产挂钩，更像是一种数字所有权。亚马逊计划在其数字收藏品计划上线前或上线时通过邮件订阅通知每一位亚马逊Prime客户，而亚马逊目前在美国拥有大约1.67亿Prime会员。
+两位消息人士称，尽管亚马逊宣布日期为4月24日，但该产品很可能延期，最迟将于今年5月推出。目前，其后端区块链技术尚不明确，但自从该计划开展后，亚马逊已经接触Layer1区块链、区块链游戏公司等多种数字资产项目，但亚马逊很有可能创建私有区块链，但目前尚不清楚这是否可以通过现有协议的分叉来实现。此外，亚马逊已经雇用或正在寻求雇用或与数十名面向Web3的开发人员合作。消息人士还透露，亚马逊或将发行代币成为交易的一部分，但目前尚未确定。
+此前昨日消息，亚马逊将于4月24日推出其NFT平台“ Amazon Digital Marketplace”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[消息人士：亚马逊NFT将与真实资产挂钩，或于自研私链上发行]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/uy8p4208.html</id>
@@ -32,6 +151,19 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem]]></title>
+        <id>https://twitter.com/wagmi_sh/status/1632814443972395010</id>
+        <link href="https://twitter.com/wagmi_sh/status/1632814443972395010"/>
+        <updated>2023-03-07T01:34:32.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem</h3>
+<p>Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem，专注于稳定性、开发者体验、包大小和性能。Wagmi 表示，viem 将通过模块化和灵活的构建方式、用于自动完成、类型推断和静态验证的强类型 API 及完全记录的 API 提供良好的开发者体验。此外，viem 只有 27kB，因此终端用户不应该被要求下载超过 100kB 的文件与以太坊进行交互。且与 wagmi 不同，viem 适用于以太坊低级和无状态接口，包括库、工具、服务器端开发及脚本等。
+此前消息，Paradigm 正在赞助 Tom Meagher 和 Jake Moxey 全职开发 Web3 前端开发库 wagmi。根据介绍，wagmi 是一个用于 Web3 前端的 Javascript 库，为开发者提供了简单的钩子（如 useBalance）来与以太坊进行互动。</p>
+<p><a href="https://twitter.com/wagmi_sh/status/1632814443972395010">内容来源</a></p><hr><h3>观点：</h3><p><strong>wagmi-dev.eth：</strong>我们之所以构建 viem，是因为我们知道一个稳定的、可预测的、具有极小的包尺寸和高性能模块的实现对于与以太坊生态系统进行交互非常重要。viem 将与 wagmi 整合，因此用户无需太多前期转换成本。此外，wagmi v1 将在未来几个月内发布，将从 Ethers.js 移植到 viem。【原文为英文】</p><a href="https://twitter.com/wagmi_sh/status/1632814443972395010">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[去中心化社交项目Bluesky支持通过自定义域名注册账户]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html"/>
@@ -39,6 +171,29 @@
         <summary type="html"><![CDATA[PANews 3月7日消息，据官方博客，由Twitter创始人Jack Dorsey资助的去中心化社交项目Bluesky宣布已支持用户将自定义域名注册作为该应用程序的Handle。自定义域名Handle是Bluesky改善信任状态和控制用户在线社交身份的一种方式。它建立在现有的DNS基础设施之上。Bluesky表示：“我们很高兴这一功能能够作为协议功能路线图中的第一步发布，这将创建一个更受用户控制的社交网络。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化社交项目Bluesky支持通过自定义域名注册账户]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html"/>
+        <updated>2023-03-07T01:30:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据官方博客，由Twitter创始人Jack Dorsey资助的去中心化社交项目Bluesky宣布已支持用户将自定义域名注册作为该应用程序的Handle。自定义域名Handle是Bluesky改善信任状态和控制用户在线社交身份的一种方式。它建立在现有的DNS基础设施之上。Bluesky表示：“我们很高兴这一功能能够作为协议功能路线图中的第一步发布，这将创建一个更受用户控制的社交网络。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊扩容项目 Scroll 完成 5000 万美元融资]]></title>
+        <id>https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation</id>
+        <link href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation"/>
+        <updated>2023-03-07T01:21:08.000Z</updated>
+        <summary type="html"><![CDATA[<h3>以太坊扩容项目 Scroll 完成 5000 万美元融资</h3>
+<p>以太坊扩容项目 Scroll 完成 5000 万美元融资，Polychain Capital、红杉中国、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures 和启明创投参投。所筹资金将用于产品构建、启动主网及扩大生态系统。据知情人士表示，该轮融资估值达 18 亿美元。Scroll 联合创始人 Sandy Peng 表示，Scroll 主网预计将于未来三至四个月内推出，且他希望将其目前 60 人的团队规模增加至近 100 人。
+Scroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goerli 上推出 Alpha 测试网，任何用户都可无许可地参与测试。</p>
+<p><a href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href="https://twitter.com/Scroll_ZKP/status/1632813708174041088">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -170,6 +325,19 @@ VELO 价格、锁仓率 & veVELO APR 变化：
 只有当 VELO Price 上涨，Bribes 金额增加，锁仓 APR 降低三者协同才能够让飞轮继续运行下去。而随着 Velodrome 的体量不断扩大，推动飞轮所需的动力也在变大，锁仓率及 Bribes 是我们观察其飞轮运作的最佳“动力指标”。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请]]></title>
+        <id>https://twitter.com/WalletConnect/status/1632536852367577090</id>
+        <link href="https://twitter.com/WalletConnect/status/1632536852367577090"/>
+        <updated>2023-03-07T01:08:23.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请</h3>
+<p>Web3 通信协议 WalletConnect 宣布推出 Web3 信息传递应用 Web3Inbox，支持钱包间的聊天和推送通知服务，等待名单已开放申请。
+此前消息，WalletConnect 宣布正在为 Web3 构建信息传递协议，第一步是连接 Web3 生态系统中所有不同的钱包和应用程序，下一步是使这些钱包的用户在不同的链上使用不同的钱包相互聊天。</p>
+<p><a href="https://twitter.com/WalletConnect/status/1632536852367577090">内容来源</a></p><hr><h3>观点：</h3><p><strong>WalletConnect：</strong>等待名单申请地址：https://web3inbox.com/</p><a href="https://twitter.com/WalletConnect/status/1632536852367577090">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3351,50 +3519,6 @@ Layer0、Layer1、 Layer2 的提出与架构划分，对区块链行业发展变
 比如，在以太坊 Layer3 上，应用程序可以不使用以太坊虚拟机来执行代码，有助于不同的区块链网络平移到一个层面，来进行相互的通信、连接和交互，这也给 Layer3 生态的未来项目发展带来了更多的想象。
 从技术架构上看，Layer3 和 Layer2 一样，也包含了应用层，而 Layer3 又具备着更好的跨链互操作性，这也就意味着，可以迁徙到 Layer3 上面的用例将非常之多。
 并且，对于那些需要更大交易吞吐量支持、对进一步降低网络使用费用需求强烈的去中心化交易所、区块链游戏等类型的用例，也可以在 Layer3 上获得交易效率的提升、体验到真实的降本增效。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科普 | Layer3 崭新亮相，它将给区块链世界带来什么？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/4yknevr9.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/4yknevr9.html"/>
-        <updated>2023-03-06T00:39:55.000Z</updated>
-        <summary type="html"><![CDATA[作者：布噜说
-层，在区块链上被赋予了独特的概念和价值。作为区块链技术架构的基础单位，一个区块链从下至上，可被分为传输层、数据层、网络层、共识层、激励层、合约层和应用层。
-为了提升区块链世界的商业化效率，人们根据区块链技术层级架构，从功能角度，又划分出了 Layer0、Layer1、 Layer2 这样的区块链三层解决方案架构。
-其中，Layer0 就是传输层 ，传输层是区块链最底层的技术解决方案，属于区块链世界的数字基础设施，解决区块链上的通信传输问题。
-其次， Layer1 分布着区块链的数据层、网络层、共识层和激励层。区块链用户所谈的「公链」「区块链主网」，也是指 Layer1。Layer1 汇集了区块链最有代表性的技术架构层，而面临的技术难题则是「区块链不可能三角」。
-
-△ 区块链不可能三角
-为了解决 Layer1 面临的技术难题，Layer2 呼之欲出，并明确地设定了目标—— 由合约层、应用层共同构成的 Layer2，主要目的便是提升 Layer1 的效率。而提升效率的方法，就是分担一部分 Layer1 的计算工作量，让 Layer1 能够专注地去解决信任和共识的计算问题，从而，整体上实现智能合约处理速度的提高，实现链上交易吞吐量的效率提升。
-Layer0、Layer1、 Layer2 的提出与架构划分，对区块链行业发展变革性最大的部分就是在 Layer2。从 2021 年起，短短 2 年时间，参与 Layer2 扩容解决方案开发的市场参与者队伍迅速壮大，数字资产用户也切实感受到了扩容解决方案带来的好处，比如交易费用的减低。
-那么，区块链世界走向未来，如今的三层解决方案架构是否已经满足了发展需求？答案并非如此，不少行业人士认为，区块链世界的未来，也可能需要应对高度定制化的使用场景，在这种情况下，最好有一个新的功能层（Layer）来提供服务，才能确保计算效率，这就是区块链第四层解决方案 Layer3 概念的由来。
-从技术实现角度而言，Layer3 本质上也是一种扩容解决方案——如同 Layer2 之于 Layer1 的关系一样，Layer3 也要将数据打包压缩给 Layer2——这样的关系，显示了一种典型的嵌套结构。
-理论上，这种结构可以进一步提升计算效率、测试效率，也会进一步降低区块链网络使用成本，实现进一步扩容。
-但是以太坊创始人 Vitalik Buterin 提出，这种「rollups on top of rollups」的做法，实际上并不能为 Layer1 的扩容需求带来更大的优势，但这种做法可以用于其他的目的。
-以太坊创始人Vitalik Buterin 比较 Layer2 与 Layer3：
-
-△Layer3 架构 vs. Layer2 架构
-从上文的比较诠释中可以看出，Vitalik Buterin 所指的其他目的，正是在于 Layer3 与 Layer2 的两个最显著的差异：实现「自定义」与「定制功能」。
-
-△ 经典架构：StarkWare 团队提出的 Layer3 定制化架构设计，StarkWare 也是 Layer3 概念的首创者。
-而注重提供「定制功能」的 Layer3，还将可能解决一个 Layer2 没法解决的问题——跨链的互操作性。
-比如，在以太坊 Layer3 上，应用程序可以不使用以太坊虚拟机来执行代码，有助于不同的区块链网络平移到一个层面，来进行相互的通信、连接和交互，这也给 Layer3 生态的未来项目发展带来了更多的想象。
-从技术架构上看，Layer3 和 Layer2 一样，也包含了应用层，而 Layer3 又具备着更好的跨链互操作性，这也就意味着，可以迁徙到 Layer3 上面的用例将非常之多。
-并且，对于那些需要更大交易吞吐量支持、对进一步降低网络使用费用需求强烈的去中心化交易所、区块链游戏等类型的用例，也可以在 Layer3 上获得交易效率的提升、体验到真实的降本增效。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yuga Labs：TwelveFold拍卖已开始，前288名出价者将赢得铭文]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/8u7vil69.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/8u7vil69.html"/>
-        <updated>2023-03-06T00:12:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月6日消息，Yuga Labs发推文宣布，基于Ordinal协议的NFT系列TwelveFold的拍卖已经开始，并将于北京时间2023年3月7日7:00之前结束。
-据悉，该系列将包含300件限量版生成艺术作品，其中288件作品参与拍卖，12件用于捐助或慈善。参与拍卖的用户需要两个比特币钱包地址。如果用户要出价，需输入一个空的自托管比特币Taproot启用钱包地址以在那里接收铭文。如果出价成功，这将是铭文的接收地址，如果出价没有进入前288名，这将是退货地址。输入收货地址后，将能看到一个唯一的地址，用户可以将出价发送到该地址。前288名出价者将赢得铭文。整个拍卖过程中将有一个排行榜，显示当前的出价排名。中标者将在拍卖结束后一周内收到他们的TwelveFold序号铭文。
-官方数据显示，该系列目前最高出价为0.59枚BTC，约合13268美元。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
