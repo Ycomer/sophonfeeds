@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T06:23:34.626Z</updated>
+    <updated>2023-03-07T06:32:57.226Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -22,7 +22,7 @@
         <id>https://www.panewslab.com/zh/sqarticledetails/52h4nm7r.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/52h4nm7r.html"/>
         <updated>2023-03-07T06:03:22.000Z</updated>
-        <summary type="html"><![CDATA[Foresight News 消息，Layer1公链Sui Network发布下一个版本0.28的重大变化，该版本可能会导致现有应用程序和实现停止按预期运行，下周官方将发布包括有关如何解决或更新可能因这些更改而中断的项目的信息。
+        <summary type="html"><![CDATA[PANews 3月7日消息，Layer1公链Sui Network发布下一个版本0.28的重大变化，该版本可能会导致现有应用程序和实现停止按预期运行，下周官方将发布包括有关如何解决或更新可能因这些更改而中断的项目的信息。
 根据该具体功能更改包括：1.新的可编程交易功能引入了一种新的交易类型，它取代了批处理交易和普通事务(特殊系统事务除外)，这些交易允许执行一系列命令（各种迷你交易），其中命令的结果可用于后续命令。2.SuiAddress和ObjectID从20字节调整到32字节（在十六进制中，从40增加到64）；3.更改Gas预算以使用SUI而不是Gas单位等等。]]></summary>
         <author>
             <name>PANews News</name>
