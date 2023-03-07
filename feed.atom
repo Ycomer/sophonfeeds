@@ -2,10 +2,79 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T03:45:00.773Z</updated>
+    <updated>2023-03-07T03:51:18.237Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[以灯塔游戏为例，探讨TreasureDAO诞生现象级链游可能性]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/8yc7cekz.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/8yc7cekz.html"/>
+        <updated>2023-03-07T03:48:28.000Z</updated>
+        <summary type="html"><![CDATA[撰文：Tiga，W3.Hitchhiker
+灯塔游戏是一款 PVE 游戏，玩家可以使用上下左右四个按键对角色进行异动，使用鼠标左右键进行普通攻击和重击。游戏通常设置 3 个关卡，通过前两关较为容易，此时选择放弃最后关卡可获得一个道具的随机奖励。最后一关较难，通过后可获得三个道具奖励。
+当前灯塔是弱经济模型模式，玩游戏无法获得代币，只能获得 NFT 道具，如皮肤饰品，装饰饰品等。这些饰品均可以通过 NFT 市场 Trove 市场进行出售。灯塔游戏目前在 Trove 市场有三种类别的 NFT 可买卖，分别是人物，宠物，饰品。
+
+人物总共有 45180 个，目前的地板价是 20 个 MAGIC，挂单量为 824（1.82%）；宠物总量 4096 个， 目前地板价 217MAGIC，挂单量 278（6.79%）；物品当前总量 33214，并且随着玩家的不断通关，会不断产出，目前挂单量为 4600（13.7%），且游戏物品种类众多，买卖非常靠缘分，普通物品即便挂地板价成交概率也不高。买卖 NFT 的手续费为作者版权 5%，Trove 手续费 2.5%。
+人物可与皮肤饰品组合出售，也可将各个单品单独出售。
+
+房屋装饰物品可装饰自己的房子，也可将每个单品单独出售。将游戏中的道具提取到自己的账户中，游戏方将收取 0.0003 的提取费。
+
+未来的发展路线
+未来灯塔游戏会开放组队战斗 + 社交玩法，不过目前这一部分现在还没有落地，团队还有许多工作需要完成。
+灯塔游戏目前是 TreasureDAO 的钻石合作伙伴（最高级别合作伙伴）未来灯塔游戏极大概率可以 TreasureDAO 顶格 600w 个 MAGIC 代币的收割机（harvester）资助，该收割机资助用于支付玩家打金收益。
+灯塔游戏的可玩性在 GameFi 中算能玩，上轮牛市的 GameFi 大部分属于不能玩，纯粹是 DeFi。目前在游戏打金属性约等于 0 的情况下，Discord 不管中文还是英文频道，都有很多人真正的去玩游戏，还有一些玩家真的氪金，去购买稀有的饰品皮肤，上传自己的通关视频。
+在 Discord 中文频道，观察到的纯玩家还是少数，目前留存的中文玩家中，大部分是对灯塔游戏开打金模式抱有期待。加上游戏也确实可以玩，人物和宠物的 NFT 地板价并没有蹦，也不需要割肉。忠实玩家依然每天再享受游戏。
+各种生态都有从 0 起步的游戏，不过各方面来看，做出一点成绩的项目很少。背靠大生态或者大 IP，确实成功的概率会高一点，市场表现会好一些。
+灯塔最开始作为一个默默无闻的小项目方，凭借自己的能力做宣发难度较大。早期 TreasureDAO 及 Arbitrum 都多次为灯塔游戏进行宣发，举行多次 AMA 活动。TreasureDAO 作为规模还比较大的社区，有一定规模的群众基础，并且 TreasureDAO 占据了 Arbitrum 生态的游戏龙头位置，在整个 Arbitrum 生态有一定的话语权。TreasureDAO 的宣发为灯塔游戏的火爆助力不少。
+从另一个角度，MAGIC 上线 Coinbase 和币安也可以看作是一次广告，币安上线一个新币，感兴趣的人会去了解这个币大概是做什么，业务做得怎么样。MAGIC 代币也有一定的交易量，总会有人看到 MAGIC 代币，也会有人想去了解。
+目前至少明面上没有看到灯塔游戏收到 Treasure DAO 的资金支持。未来灯塔游戏会收到 TreasureDAO 的资金扶持。TreasureDAO 作为一个已发币的社区，有 15% 代币分配给生态基金，还有 3000w+ 的 MAGIC 代币可以通过游戏「挖矿『的方式产出。
+根据灯塔游戏的公告，打金 Harvester（收割机）从 3 月上线推迟到 5 月。灯塔有很大的概率拿到顶格的 600w 个 MAGIC 代币奖励，配合游戏活动产出代币。
+当前环境下的链游，都需要如下的几种配套服务：
+灯塔游戏上周与恐龙（Kaijukingz）进行了合作，灯塔在游戏中开了一个特殊关卡，动画形象是恐龙的，玩家打败 BOSS 后有机会抽奖获得限量版的皇冠头盔饰品，二级市场看到的最高的成交价是 500MAGIC。目前的地板价是 180MAGIC。
+
+恐龙是一个 NFT 项目，目前在 OpenSea 地板价为 0.18ETH。
+
+3 月 13 日，灯塔将和 TreasureDAO 生态的 Smolverse 合作，合作形式也是开个一个特殊关卡，设置一个联名 BOSS，产出一个限量版联名道具。Arbitrum PFP 头牌 Smol Brains（地板价约 700 个 MAGIC）也是 Smolverse 旗下的 NFT 系列。
+
+TreasureDAO 的全方位扶持
+Treasure 与 Arbitrum 合作推出一个 Game Builders Program(GBP) 计划。主要目的是扶持 Arbitrum 生态的游戏开发者，扶持更多有潜力的游戏项目进入 Arbitrum 和 Treasure。
+
+合作关系分为两级：钻石级和黄金级。钻石级合作关系为最高级别的合作关系，TreasureDAO 将对灯塔游戏进行全方位的资助，包括技术，战略，游戏设计，上市，社区建设，运营和资金。合作公告是 2 月初发布的，具体的合作效果后续需要观察。
+TreasureDAO 是目前游戏平台项目的 TOP3（IMX,GALA,MAGIC），在 Arbitrum 生态内有一定地位，在玩家社区中有一定号召力，在 MagicSwap，Trove 配套产业上有一定的用户基础，后续也有多款游戏将会上线，总的来看 TreasureDAO 至少在目前的观察项目中算比较不错的。不过对于游戏板块的项目，依然有许多问题存在，需要长期观察，深入调研：
+TreasureDAO 目前 FDV 大约 6 亿。这个估值中，有大一部分的数字是给予社区还有未来的预期，这部分也是估值中最难的一点。对于社区的估值需要看 TreasureDAO 的变现能力，而对于市场对于 TreasureDAO 及 GameFi 板块的未来预期则很难量化。
+目前能想到的护城河就是 TreasureDAO 占据 Arbitrum 的 GameFi 龙头位置，加上目前数量还算庞大的玩家社区。当然这个护城河并不深，如果未来出现一个像当时 Stepn 这样的爆款游戏就能轻松翻转局面。
+GameFi 赛道大趋势：游戏赛道无论是从最近一年的融资端还是观察到的人员流动端，总体呈现都是像游戏板块汇集。游戏和社交也是比较容易出圈的 web3 产品，游戏是符合未来 web3 逐步普及的大趋势。
+平台：Arbitrum 目前是 L2 龙头，生态 + 社区 +TVL 都是龙头，至少中期来看 Arbitrum 都会稳稳占据 L2 龙头的地位。在 Arbitrum 上推出一个游戏，获得的关注度和玩家的参与度会与其他生态有很大差别。
+天时与地利 TreasureDAO 都算占到了一个好位置。关键是人和，生态内能不能出现象级的产品，这个问题目前无法得出答案，需要持续的观察，走一步看一步。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[彭博社：Meta因财务问题计划最快在本周再裁员数千人]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/2aep2pt8.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/2aep2pt8.html"/>
+        <updated>2023-03-07T03:46:25.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据彭博社报道，知情人士透露，Facebook和Instagram的母公司Meta Platforms Inc.正计划进行新一轮裁员，最快将于本周裁减数千名员工。知情人士表示，即将到来的一轮削减是由财务目标推动的，与“扁平化”的计划是分开的；Meta已经看到广告收入放缓，并将重点转移到名元宇宙虚拟现实平台，一直在要求董事和副总裁列出可以解雇的员工名单；这一阶段的裁员可能会在下周完成，该公司希望在首席执行官扎克伯格为他的第三个孩子休育儿假之前准备好裁员，因此裁员可能迫在眉睫的。
+Meta发言人周一拒绝就这些计划置评。知情人士表示，一些员工表示担心，如果他们提前失业，他们是否能收到定于本月发放的奖金。
+此前2月23日消息，华盛顿邮报报道了Meta计划裁员数千名员工的消息，但遭到了Meta发言人Andy Stone的否认。去年11月，Meta裁员超过1.1万人，占其员工总数的13%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】新项目前瞻 | EVM 标头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？]]></title>
+        <id>https://twitter.com/auryn_macmillan/status/1632696493525323778</id>
+        <link href="https://twitter.com/auryn_macmillan/status/1632696493525323778"/>
+        <updated>2023-03-07T03:16:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个更安全的桥梁端点必须只在多个底层机制之间达成共识后报告有效的消息，而不是完全依赖一个机制。以太坊初级副总裁 Auryn.eth 撰文概述了一个促进跨链安全的新机制 Hashi，并对其概念、特点及进展进行了解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">https://twitter.com/auryn_macmillan/status/1632696493525323778</a></p>
+<p><strong>文章作者：</strong></p><p>Auryn.eth Ĝ⌣Ĝ</p><hr><h3>观点：</h3><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 是一个 EVM 标头预言机聚合器，旨在促进跨链安全的原则性方法，本质上而言，这是一种跨链桥的多重验证，每个桥接机制都被视为任何给定标头的一个预言机，用户可以对信任哪种桥接组合进行选择。Hashi 允许用户使用自己想用的任何预言机机制构建自定义预言机适配器合约及查询在给定链上的给定区块的区块头的预言机标头等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 智能合约非常简单且容易审计，攻击面相对较小，用于聚合和分配数量不同标头的预言机机制之间的信任。此外，Hashi 验证的是区块头而不是消息，这意味着 Hashi 可以用来验证任何执行环境下的链或层的状态，包括信标链。当然这也意味着需要在 Hashi 上构建另一种机制来验证状态或消息，Axiom 是我们在考虑的构建途径。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>目前我们已经开始为 Gnosis Chain 的 ABM 和 Wormhole 跨链桥编写 Hashi 预言机适配器，并且收到了来自 ConnextNetwork 的编写适配器的请求。未来我们还将编写更多的适配器，包括为 Succinct、Dendreth 及 Norm 等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】新项目前瞻 | EVM 标头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？]]></title>
         <id>https://twitter.com/auryn_macmillan/status/1632696493525323778</id>
@@ -38,6 +107,18 @@ SEC主席Gary Gensler在公告中表示，“执法部门的加密资产和网�
 SEC主席Gary Gensler在公告中表示，“执法部门的加密资产和网络部门已经成功地对那些试图利用加密市场投资者的人提起了数十起诉讼。通过将这一关键部门的规模扩大近一倍，美国证券交易委员会将能够更好地监管不法行为在加密市场，同时继续识别与网络安全有关的披露和控制问题。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[$EQUAL如何在$FTM生态系统中利用fUSD v2催化剂实现增长？]]></title>
+        <id>https://techflowpost.mirror.xyz/LXxTlCFi9w5MsKbiXxN1e-ks-S-q3T8entGaH-FfSj4</id>
+        <link href="https://techflowpost.mirror.xyz/LXxTlCFi9w5MsKbiXxN1e-ks-S-q3T8entGaH-FfSj4"/>
+        <updated>2023-03-07T03:07:15.000Z</updated>
+        <summary type="html"><![CDATA[$EQUAL如何在$FTM生态系统中利用fUSD v2催化剂实现增长？ – 深潮TechFlow
+*撰写：Gains Goblin *
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -94,6 +175,18 @@ Read the full entry]]></summary>
 虽然首次赔偿的债权人及比特币数量尚未可知，但Mt. Gox完成所有的数据统计预计还需要一定时间，且债权人的偿还方式有着多种形式及是多阶段的，甚至部分为获得更多赔偿还需耗费几年时间，这意味着这部分比特币的释放量或将不会非常集中，并不会造成非常集中的市场冲击。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lido 因发现影响 stMATIC 取款的错误暂时暂停在 Polygon 上的质押和提款功能]]></title>
+        <id>https://twitter.com/LidoFinance/status/1632783634192007168</id>
+        <link href="https://twitter.com/LidoFinance/status/1632783634192007168"/>
+        <updated>2023-03-07T02:44:22.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Lido 因发现影响 stMATIC 取款的错误暂时暂停在 Polygon 上的质押和提款功能</h3>
+<p>流动性质押协议 Lido 发布推特称，由于发现了一个影响 stMATIC 取款的错误，Lido 在 Polygon 的质押和提款功能已暂时暂停以进行故障排除。目前所有资金都是安全的，存取款将在未来几天内回复。Lido 表示，该问题发生在用户要求在多个节点之间分割大额提款时，排除故障期间，奖励不会累积，恢复正常运营后，将会发放追溯奖励。</p>
+<p><a href="https://twitter.com/LidoFinance/status/1632783634192007168">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -517,7 +610,7 @@ Scroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goe
         <summary type="html"><![CDATA[<h3>以太坊扩容项目 Scroll 完成 5000 万美元融资</h3>
 <p>以太坊扩容项目 Scroll 完成 5000 万美元融资，Polychain Capital、红杉中国、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures 和启明创投参投。所筹资金将用于产品构建、启动主网及扩大生态系统。据知情人士表示，该轮融资估值达 18 亿美元。Scroll 联合创始人 Sandy Peng 表示，Scroll 主网预计将于未来三至四个月内推出，且他希望将其目前 60 人的团队规模增加至近 100 人。
 Scroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goerli 上推出 Alpha 测试网，任何用户都可无许可地参与测试。</p>
-<p><a href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href="https://twitter.com/Scroll_ZKP/status/1632813708174041088">内容来源</a><p><strong>Suji Yan（ Mask Network 创始人）：</strong>迫不及待地想在更多社交应用程序中使用 Scroll 和 zkEVM。【原文为英文】</p><a href="https://twitter.com/suji_yan/status/1632825254958739456">内容来源</a>]]></summary>
+<p><a href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href="https://twitter.com/Scroll_ZKP/status/1632813708174041088">内容来源</a><p><strong>Suji Yan（ Mask Network 创始人）：</strong>迫不及待地想在更多社交应用程序中使用 Scroll 和 zkEVM。【原文为英文】</p><a href="https://twitter.com/suji_yan/status/1632825254958739456">内容来源</a><p><strong>头等仓：</strong>Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。</p><a href="https://twitter.com/firstvip61/status/1632920805687562240">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -3519,29 +3612,6 @@ Reed更明确地看好 BitMEX 夺回部分市场份额的可能性。他说：�
         <updated>2023-03-06T02:11:09.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月6日消息，据官方博客，去中心化质押协议Rocket Pool宣布将于4月初进行Atlas升级，使该协议与以太坊的上海升级兼容，后者将允许验证者开始提取他们在信标链上质押的ETH，并且扩展协议以满足更高的需求和保持去中心化。升级后的主要功能包括Solo Staker迁移、优化Minipool队列ETH、动态存款池限额等，其他功能包括优化Minipool的gas效率、奖励系统自动跟踪每个节点运营商的有效RPL权益。
 据悉，Atlas是Rocket Pool自上线主网以来的第二次重大升级，目前已经过Sigma Prime和ConsenSys Diligence的审计。Rocket Pool正在Zhejiang testnet上部署测试版本，目标是在3月底或4月初将Atlas发布到以太坊主网。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rocket Pool拟于4月初进行Atlas升级，以与以太坊上海升级兼容]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/lmbcwexv.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/lmbcwexv.html"/>
-        <updated>2023-03-06T02:11:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月6日消息，据官方博客，去中心化质押协议Rocket Pool宣布将于4月初进行Atlas升级，使该协议与以太坊的上海升级兼容，后者将允许验证者开始提取他们在信标链上质押的ETH，并且扩展协议以满足更高的需求和保持去中心化。升级后的主要功能包括Solo Staker迁移、优化Minipool队列ETH、动态存款池限额等，其他功能包括优化Minipool的gas效率、奖励系统自动跟踪每个节点运营商的有效RPL权益。
-据悉，Atlas是Rocket Pool自上线主网以来的第二次重大升级，目前已经过Sigma Prime和ConsenSys Diligence的审计。Rocket Pool正在Zhejiang testnet上部署测试版本，目标是在3月底或4月初将Atlas发布到以太坊主网。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：MakerDAO联创昨晚再次出售76万枚LDO并买入2788枚MKR]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/egjo6wjt.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/egjo6wjt.html"/>
-        <updated>2023-03-06T01:51:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月6日消息，据推特用户Bit余烬监测，MakerDAO联合创始人Rune昨晚又出售了76万 枚LDO（约190万美元）和买入2788枚MKR （约合262万美元）。LDO售出均价为2.6美元，MKR买入均价为940美元。
-在此前3月1日统计数据后过去仅四天时间，Rune就又出售了143万LDO和买入了4171MKR。
-此前3月1日消息，MakerDAO联创近三个半月已购入超2万枚MKR。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
