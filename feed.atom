@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T08:32:36.768Z</updated>
+    <updated>2023-03-07T08:40:04.292Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -260,6 +260,17 @@ PS：1.已发行代币量，指的是项目已排放的权益代币总量，包�
 Curve综合数据看板（@mrblocktw创建）：https://dune.com/mrblock_buidl/Curve.fi
 Balancer收入：https://dune.com/balancerlabs/Balancer-V2-Revenues-Overview
 DeFi数据：https://defillama.com/]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fantom主网发布新版本，交易或区块处理时间缩短约30%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1lpk660q.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1lpk660q.html"/>
+        <updated>2023-03-07T08:27:58.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据官方博客，Fantom基金会宣布发布Fantom主网的新版本（go-opera版本1.1.2-rc.5），升级内容包括P2P和事件/区块处理得到显著改进，使得交易/区块处理时间缩短约30%；Genesis file处理速度最多快3倍（存档Genesis file除外）。
+此外，新版本对数据库层做了一些调整，可以集成多种数据存储类型（LevelDB和PebbleDB），还支持用于创世处理和去同步化数据刷新的数据库批处理。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -3847,6 +3858,17 @@ Read the full entry]]></summary>
 
 第五个项目是 ABI -> UI generation。他希望看到像 AMM/Lending/NFT/...这样的 React 组件，可以抽象出常见的链上操作。因为 Georgios 认为现有的 Etherscan-esque 按钮和输入框无法满足需求，需要更多有见解的组件。
 最后一个是 MEV Share，这是一种可编程的私有订单流，通过赋予用户权力，重新分配 MEV，并迈向去中心化的区块构建。这个项目最近被提出，虽然它是可行的，但不适合新手。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[隐私网络Iron Fish空投kyc已开放，随后将依次向三个阶段积分用户开放]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/hu4v3z34.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/hu4v3z34.html"/>
+        <updated>2023-03-06T06:56:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月6日消息，据官方推特，隐私网络Iron Fish宣布空投kyc已开放，目前仅限参与Pull Request的用户。此外，在接下来的几天里，将按顺序向第1阶段、第2阶段和第3阶段的积分用户开放。
+此前消息，Iron Fish于2021年11月完成由A16z领投的2760万A轮融资；3月1日消息，隐私网络Iron Fish将于3月14日上线主网，并空投94万枚主网代币。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
