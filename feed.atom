@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T01:16:55.007Z</updated>
+    <updated>2023-03-07T01:58:56.082Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[消息人士：亚马逊NFT将与真实资产挂钩，或于自研私链上发行]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/uy8p4208.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/uy8p4208.html"/>
+        <updated>2023-03-07T01:35:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据Blockworks报道，消息人士表示，亚马逊计划发行的NFT将与现实资产挂钩，更像是一种数字所有权。亚马逊计划在其数字收藏品计划上线前或上线时通过邮件订阅通知每一位亚马逊Prime客户，而亚马逊目前在美国拥有大约1.67亿Prime会员。
+两位消息人士称，尽管亚马逊宣布日期为4月24日，但该产品很可能延期，最迟将于今年5月推出。目前，其后端区块链技术尚不明确，但自从该计划开展后，亚马逊已经接触Layer1区块链、区块链游戏公司等多种数字资产项目，但亚马逊很有可能创建私有区块链，但目前尚不清楚这是否可以通过现有协议的分叉来实现。此外，亚马逊已经雇用或正在寻求雇用或与数十名面向Web3的开发人员合作。消息人士还透露，亚马逊或将发行代币成为交易的一部分，但目前尚未确定。
+此前昨日消息，亚马逊将于4月24日推出其NFT平台“ Amazon Digital Marketplace”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem]]></title>
+        <id>https://twitter.com/wagmi_sh/status/1632814443972395010</id>
+        <link href="https://twitter.com/wagmi_sh/status/1632814443972395010"/>
+        <updated>2023-03-07T01:34:32.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem</h3>
+<p>Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem，专注于稳定性、开发者体验、包大小和性能。Wagmi 表示，viem 将通过模块化和灵活的构建方式、用于自动完成、类型推断和静态验证的强类型 API 及完全记录的 API 提供良好的开发者体验。此外，viem 只有 27kB，因此终端用户不应该被要求下载超过 100kB 的文件与以太坊进行交互。且与 wagmi 不同，viem 适用于以太坊低级和无状态接口，包括库、工具、服务器端开发及脚本等。
+此前消息，Paradigm 正在赞助 Tom Meagher 和 Jake Moxey 全职开发 Web3 前端开发库 wagmi。根据介绍，wagmi 是一个用于 Web3 前端的 Javascript 库，为开发者提供了简单的钩子（如 useBalance）来与以太坊进行互动。</p>
+<p><a href="https://twitter.com/wagmi_sh/status/1632814443972395010">内容来源</a></p><hr><h3>观点：</h3><p><strong>wagmi-dev.eth：</strong>我们之所以构建 viem，是因为我们知道一个稳定的、可预测的、具有极小的包尺寸和高性能模块的实现对于与以太坊生态系统进行交互非常重要。viem 将与 wagmi 整合，因此用户无需太多前期转换成本。此外，wagmi v1 将在未来几个月内发布，将从 Ethers.js 移植到 viem。【原文为英文】</p><a href="https://twitter.com/wagmi_sh/status/1632814443972395010">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化社交项目Bluesky支持通过自定义域名注册账户]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html"/>
+        <updated>2023-03-07T01:30:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据官方博客，由Twitter创始人Jack Dorsey资助的去中心化社交项目Bluesky宣布已支持用户将自定义域名注册作为该应用程序的Handle。自定义域名Handle是Bluesky改善信任状态和控制用户在线社交身份的一种方式。它建立在现有的DNS基础设施之上。Bluesky表示：“我们很高兴这一功能能够作为协议功能路线图中的第一步发布，这将创建一个更受用户控制的社交网络。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊扩容项目 Scroll 完成 5000 万美元融资]]></title>
+        <id>https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation</id>
+        <link href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation"/>
+        <updated>2023-03-07T01:21:08.000Z</updated>
+        <summary type="html"><![CDATA[<h3>以太坊扩容项目 Scroll 完成 5000 万美元融资</h3>
+<p>以太坊扩容项目 Scroll 完成 5000 万美元融资，Polychain Capital、红杉中国、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures 和启明创投参投。所筹资金将用于产品构建、启动主网及扩大生态系统。据知情人士表示，该轮融资估值达 18 亿美元。Scroll 联合创始人 Sandy Peng 表示，Scroll 主网预计将于未来三至四个月内推出，且他希望将其目前 60 人的团队规模增加至近 100 人。
+Scroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goerli 上推出 Alpha 测试网，任何用户都可无许可地参与测试。</p>
+<p><a href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href="https://twitter.com/Scroll_ZKP/status/1632813708174041088">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解读Velodrome ：何以成为Optimism的DeFi发动机？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/ntilgg5z.html</id>
@@ -61,6 +109,88 @@ VELO 价格、锁仓率 & veVELO APR 变化：
 因为 rebase 奖励每周都在降低，而总锁仓量在增长，所以若要维持住目前锁仓率 80%，锁仓 APR 54%，VELO Price 0.185 这三个数据，则需要每周新增 Bribes 金额。这显然不可持续，因为当 Bribes 价值=每周排放价值时，流动性激励杠杆便不存在，协议们便没有动力再增加贿赂。
 
 只有当 VELO Price 上涨，Bribes 金额增加，锁仓 APR 降低三者协同才能够让飞轮继续运行下去。而随着 Velodrome 的体量不断扩大，推动飞轮所需的动力也在变大，锁仓率及 Bribes 是我们观察其飞轮运作的最佳“动力指标”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读Velodrome ：何以成为Optimism的DeFi发动机？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ntilgg5z.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ntilgg5z.html"/>
+        <updated>2023-03-07T01:09:43.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Velodrome：Optimism 的 DeFi 发动机》
+注：本文主要通过数据角度来分析 Velodrome 的经济模型，不作为任何投资建议。
+Optimism 是基于以太坊的 Layer 2 扩容解决方案，在今年的表现堪称惊艳，TVL 和 token price 涨幅都超过了 100%，近期公布了多个利好预期：
+随着以太坊上海升级的临近，Layer2 正在迅速赶超其他公链，目前 Arbitrum 和 Optimism 在所有公链中 TVL 排名分别为第 4 和第 6，其上面的生态项目正在不断涌现。
+L2 赛道内的竞争已经接近白热化，Arbitrum 在启动初期积累了较大的优势，而 OP 通过发 token 正在追赶 Arbitrum 的步伐。目前在 TVL、转账笔数和活跃地址数上，Arbitrum 较 Optimism 都有 1 倍左右的领先优势。
+
+(资料来源：dune)
+从本质上来看，OP 与 AR 两者都采用 Optimism Rollup，并不存在较大的技术壁垒。从数据上来看，Optimsm 暂时落后于 Arbitrum，但其成为多链 L2 平台的目标构成了宏大的叙事，接下来将进行 Bedrock 的重大升级并且还会有更多轮的 Drops 激励，值得我们对其多加关注。
+Velodrome 是目前 Optimism 上 TVL 最大的 dex 协议，目前 TVL 为 3.1 亿$,占整个 Optimism 生态 TVL 的 34%。Velodrome 主要 folked from Andre Cronje 创建的 Solidly（fantom 上的 dex,TVL 曾高达 2B$）。Solidly 解体后，其最大的协议参与者 veDAO 团队吸取了经验教训，对 Solidly 的机制做出了部分改进，于 2022 年 6 月在 Optimism 上创立了 Velodrome 。（相关阅读：《Velodrome的TVL炼金术：ve(3,3)机制、veVELO分布与贿赂情况》）
+Velodrome 核心采用了 AC 提出的 ve(3,3) 机制，该机制主要激励用户锁仓 token，认为当大家都质押 token 而非卖出时，所有人的收益都将更高。
+1) VELO 初始供应 400M，按照以下比例进行多元化分配：
+2）VELO 会在每周(UTC 时间星期三 23:59 之后)增发，从15M 开始按每周 1% 的速率衰减。LP 持有者仅可获得这部分增发奖励。2 月 28 日几个主要池子的 LP APR 如下图所示：
+3)锁仓 VELO 可以获得 veVELO,兑换的 veVELO 数量与锁仓时间成正比，1 个 VELO 锁仓 4 年可获得 1 个 veVELO。目前有 1 周，1 月，1 年，4 年 这 4 个锁仓时间选项；
+4)veVELO 代表协议治理权，决定每周增发的 VELO 分配给每个流动性池的权重；所有的交易手续费收入将按比例分配给投票给该池的用户，而非 LP 持有者；
+5) 可贿赂选票，通过 Velodrome 内置的 Bribe 功能，可向任意池子发送贿赂，这些贿赂资金会按比例分配给投票给该池的用户。目前每 1 美金的贿选可以带来 1.5-2 美金的 VELO 增发奖励，协议们可以通过贿选撬动 VElO 奖励杠杆来增加自身的流动性，因此近期贿赂奖励迅速增长；
+6) veVELO 是一种 NFT，根据质押的 VELO 数量及锁定时间产生不同的 NFT，加总得到 veNFT 余额。Velodrome 计划在 2023 年 Q1 上线 veNFT 的 trade、lending 功能，届时 veVELO 将被赋予流动性，用户将会有更多的投资选择，这点是相对 Curve 的最大创新；
+7) veVELO 持有者将受部分稀释保护，当每周增发 VELO 时，veVELO 将获得一定比例的 rebase 奖励。
+每周rebase金额=(veVELO.totalSupply ÷ VELO.totalsupply)³ × 0.5 × 排放量
+锁定的 VELO 比例越高，rebase 的占比也将越高，上限为当期排放量的 50%；
+了解完上述机制后，我们就可以通过数据来观察 Velodrome 的飞轮是如何运作的。
+1)TVL 及交易量
+受益于 1 月的市场复苏、Layer2 赛道火热，Velodrome 的 TVL 快速增长，从 1 月 1 日的 0.75 亿$增长到了目前的 3.18 亿$，今年 TVL 增幅高达 322%；
+Velodrome 目前日均交易量 3000 万$，OP、WETH、VELO 对 USDC 的交易量占据了 60%；
+2）锁仓率
+
+锁仓率（上图灰线）从 2022 年 6 月的 50%升至目前(第 39 周)的 80%，新增流通量少，9 成以上排放被锁仓。不过最近一周内，锁仓增速开始放缓，新增排放量/新增锁仓量降至 60%。
+目前共锁定了 688.7M 个 VELO，生成 626.5M 个 veVELO，约 90% 的 VELO 被锁定了最长的 4 年。
+3）增发与供应曲线
+
+目前为第 39 周，正处于 rebase 拐点（上图蓝线），当前 rabase APR 为 15.69%。按照目前 80% 的锁仓率估算，总供应量（上图红线）将在第 200 周达到 2000M，目前为 854M。
+4）veVELO APR
+veVELO 的奖励包括三部分：手续费，rebase 奖励，Bribes。在项目启动初期锁仓量较少，每周排放量大，所以 rebase 对 veVELO APR 的贡献较高。随着贿选启动，Bribes 奖励成为 veVELO APR 的大头。
+
+(资料来源：dune)
+在第 10-33 周内，veVELO 的平均 APR 始终高于 100%，峰值超过了 200%。虽然总奖励快速增长，但由于 VELO Price上涨的更为快速，整体的 APR 从第 33 周（23 年初）开始回落至目前的 54%；
+5）veVELO 分布
+目前共有 626.5M 个 veVELO，分布在 9.2k 个地址上。持有量排名前 20 内有 8 家是协议方，包括 Beefy、Optimism、Revenant Labs、Synthetix、Liquity 等持有了近 20%的 veVELO。
+
+(资料来源：dune)
+6）Velodrome 的飞轮路径
+高 APR 吸引用户 Farming, TVL 增长；
+协议们参与贿选，杠杆激励自己的流动性池（协议每贿赂 1$ 给 veVELO 投票用户，Velodrome 会对应的增加 1.5-2$ 对该池子的 VELO 奖励）；
+高锁仓 APR 吸引更多的 VELO 锁仓，锁仓率增加（90%的 VELO 锁仓 4 年获得更多投票权）；
+VELO 新增流通极少，Price上涨，维持流动性激励杠杆；
+VELO 价格、锁仓率 & veVELO APR 变化：
+
+当锁仓率下降 VELO 会下跌 锁仓 APR 会提高，当锁仓率上升 VELO 会上涨 锁仓 APR 会下降。锁仓率、锁仓 APR、Price三者之间会达到一个动态平衡。
+因为 rebase 奖励每周都在降低，而总锁仓量在增长，所以若要维持住目前锁仓率 80%，锁仓 APR 54%，VELO Price 0.185 这三个数据，则需要每周新增 Bribes 金额。这显然不可持续，因为当 Bribes 价值=每周排放价值时，流动性激励杠杆便不存在，协议们便没有动力再增加贿赂。
+
+只有当 VELO Price 上涨，Bribes 金额增加，锁仓 APR 降低三者协同才能够让飞轮继续运行下去。而随着 Velodrome 的体量不断扩大，推动飞轮所需的动力也在变大，锁仓率及 Bribes 是我们观察其飞轮运作的最佳“动力指标”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请]]></title>
+        <id>https://twitter.com/WalletConnect/status/1632536852367577090</id>
+        <link href="https://twitter.com/WalletConnect/status/1632536852367577090"/>
+        <updated>2023-03-07T01:08:23.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请</h3>
+<p>Web3 通信协议 WalletConnect 宣布推出 Web3 信息传递应用 Web3Inbox，支持钱包间的聊天和推送通知服务，等待名单已开放申请。
+此前消息，WalletConnect 宣布正在为 Web3 构建信息传递协议，第一步是连接 Web3 生态系统中所有不同的钱包和应用程序，下一步是使这些钱包的用户在不同的链上使用不同的钱包相互聊天。</p>
+<p><a href="https://twitter.com/WalletConnect/status/1632536852367577090">内容来源</a></p><hr><h3>观点：</h3><p><strong>WalletConnect：</strong>等待名单申请地址：https://web3inbox.com/</p><a href="https://twitter.com/WalletConnect/status/1632536852367577090">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coinbase CEO：L2网络Base或会采取交易监控和反洗钱措施]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/nn7lxe41.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/nn7lxe41.html"/>
+        <updated>2023-03-07T01:02:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，据Cryptoslate报道，Coinbase首席执行官Brian Armstrong表示，公司最新推出的以太坊L2网络Base可能会采取交易监控和反洗钱措施。他坦言Base将具有一些“中心化组件”，但会随着时间的推移变得越来越去中心化，现在需要在交易监控方面负有责任，这意味着尽管Base将向所有开发人员开放，但最终将成为“Coinbase链上产品的大本营”。据推测，Coinbase与Base集成的任何现有产品都将维持其原始的KYC/AML措施。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -3379,118 +3509,6 @@ EOS EVM：自 2022 年初以来，ENF 一直在资助和开发 EOS EVM 解决方
 EOS 网络的增长将继续由 ENF 推动。如上所述，ENF 已经建立了多个资助系统和生态系统基金，包括 Pomelo、Direct Grant Framework 和 EOS Network Ventures。ENF 通过 2% 的网络通货膨胀获得资金，目前相当于每年价值约 2600 万美元的 EOS 资金。
 作为Antelope Coalition的一部分，ENF 还帮助资助和开发技术改进。该联盟承诺每年为 Antelope 开发提供 800 万美元的资金。
 EOS 是最著名的区块链项目之一——但并不总是最好的。在 ENF 的推动下，社区在过去一年半的时间里一直致力于重建 EOS 的技术堆栈和生态系统。尽管交易数量等一些指标最近有所改善，但要使 EOS 的生态系统和网络指标与顶级智能合约平台并肩，仍有许多工作要做。最近和计划中的技术升级，包括 Antelope IBC、新的共识机制和 EOS EVM，以及新的增长战略，可以为新一波 EOS 用户和开发人员奠定基础。如果升级成功并且采用率跟进，EOS 可能会又一次复兴。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[重建中的EOS：“初代以太坊杀手”要回来了？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/zj8f7jcc040v.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/zj8f7jcc040v.html"/>
-        <updated>2023-03-06T00:04:05.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Messari - Peter Horton
-编译：BlockTurbo
-EOS曾被认为是Layer 1领域最有前途的区块链之一。在推出时，EOS 是市值排名前五的加密货币。但从那以后，EOS 未能达到早前的预期，社区成员在很大程度上将其归因于创始团队缺乏开发和投资。
-2021年，EOS 社区开始逆转方向，首先正式将创始团队与项目拉开距离。在由社区组成的 EOS 网络基金会 (ENF) 的领导下，社区投票决定在 2021 年冻结创始团队的代币释放合约，并在 2022 年分叉开源代码库。ENF 工作组推动了生态系统和协议的改进，包括最近的IBC 实现。EOS有一些失去的时间需要弥补，但 ENF 计划通过实施共识机制升级、EVM 解决方案和新的增长战略来吸引新一波用户。
-开源 EOSIO 区块链协议由区块链软件公司 Block.one (B1) 于 2017 年创立。B1 由 CEO Brendan Blumer 和 CTO Dan Larimer 领导，前者曾创立多家软件和游戏相关公司，后者是加密领域的知名人物，曾创建权益证明 (PoS) 变体 Delegated PoS 和去中心化自治组织 (DAO) 的概念。
-从 2017 年 6 月开始，B1 在以太坊上进行了为期一年的首次代币发行。到最后，B1 筹集了 41 亿美元，是历史上最大的一次。2019 年，SEC 指控 B1 进行了未经注册的证券发行，B1 同意支付 2400 万美元的民事罚款，但既没有承认也没有否认调查结果。
-B1 于 2018 年年中发布了开源 EOSIO 代码库。一周后，使用 EOSIO 框架构建的 EOS 网络启动。上线后，B1 慢慢停止了对核心 EOSIO 协议的升级和维护。基本上没有将 收益重新投资回 EOS 网络和生态系统，而是将资源引导到 EOS 之外的其他项目，包括社交网络 Voice 和中心化交易所 Bullish。
-EOS 社区对 B1 缺乏承诺越来越感到沮丧。他们很快意识到他们需要采取行动来防止 EOSIO 代码库和 EOS 生态系统的进一步衰退。2021 年 8 月，非营利性 EOS 网络基金会 (ENF) 由区块生产者和节点基础设施公司 EOS Nation 前首席执行官 Yves La Rose 创立。在网络区块生产者的资金支持下，ENF 开始对 EOS 的技术和生态系统进行广泛审查，确定改进领域并通过工作组和拨款提出解决方案。
-2021 年 12 月，EOS 区块生产者通过了一项冻结 B1 的 EOS 代币释放合约的提案（B1 在发布时收到了 EOS 初始供应量的 10%，并在 10 年内线性解锁）。冻结合约是正式将 EOS 与 B1 分开并将所有权归还社区的决定性步骤。
-2022 年 9 月，社区所有权的努力最终导致从 EOSIO 代码库到新的 Antelope 代码库的硬分叉，以及一些新功能。开源 Antelope 协议由 Antelope Coalition 维护和升级，Antelope Coalition 是一组来自 EOS、WAX、Telos 和 UX Network 的团队——所有这些网络最初都是基于 EOSIO 的。
-共识机制
-EOS 是一种基于拜占庭容错 (BFT) 的区块链，它使用流行的权益证明 (PoS) 变体委托权益证明 (DPoS)。在这个系统中，EOS 代币持有者可以将他们的代币委托给验证者（“区块生产者”或“BP”），由他们生产和验证区块。
-与其他一些 PoS 系统不同，委托人不会将他们的代币抵押给特定的区块生产者。相反，他们通常将代币抵押给系统，然后投票选出最多 30 个 BP。如果用户质押 100 万个代币，则无论用户投票给 1 个或 30 个 BP，他们投票给的每个 BP 将获得 100 万票（忽略投票权衰减，详见下文）。
-根据投票排名排名前 21 位的区块生产者被称为“活跃 BP”，他们参与每一轮的共识。共识轮持续 126 秒，由 252 个区块组成（每个持续半秒）。在每一轮开始时，选择活跃的 BP 并按字母顺序排序。然后每个 BP 一次产生 12 个块，直到回合结束，再重复该过程。
-每个活跃的 BP 每轮生产 4.76% 的区块，无论股权如何，EOS 限制了区块生产的集中度。前 21 名之外的区块生产者被称为“备用 BP”，并且不参与该轮的共识。
-奖惩
-区块生产者通过 1% 的网络通胀获得区块奖励。在这 1% 中：
-委托人需要每周投票（即，将他们的代币委托给BP）以保持他们的全部投票权。如果他们不这样做，他们的投票权会以一年的半衰期缓慢衰减，但一旦他们再次投票，投票权就会恢复到最大。委托人可以让代理人代表他们投票，而不是自己管理。委托人没有协议级别的奖励，但许多 BP 与代理分享部分奖励，代理将奖励传递给委托人。
-除了缺少一部分 0.25% 的通货膨胀奖励外，对于 BP 的不当行为或不活跃，没有协议级别的惩罚。
-智能合约编程语言
-EOS 的智能合约是用 C++ 编写的，但用于 Rust、Go 和 AssemblyScript 的更多 SDK 正在开发中。开发团队也在构建一个支持最流行的 Web3 语言 Solidity 的 EVM 解决方案。
-资源模型
-许多区块链都有基于gas的资源模型。用户花费gas代币来支付交易的各种成本，包括处理交易和存储数据。在 EOS 上，通常将资源合并到一个 gas 费用中，然后将其分成各自的组成部分。
-EOS 上的三个资源组件是：
-带宽
-NET 和 CPU 共同承担了网络的带宽成本。这些资源的分配模型已经发展了好几次。
-最初，NET 和 CPU 是可再生资源，用户可以根据他们持有的 EOS 份额按比例保留。当用户进行交易时，他们的可用带宽会减少该交易所需的 NET 和 CPU。但资源只是暂时消耗了。24 小时后，用户将可以再次访问其全部 NET 和 CPU。
-为了防止资源分配效率低下，EOS 在 2019 年推出了资源交易所（REX）。该功能允许用户抵押 EOS 并将其多余的带宽资源借给借款人。作为回报，贷方会收到一个 REX 代币，这是 EOS 代币的变基版本，它会产生 REX 借贷费用、RAM 交易费用（见下文）以及高级 EOS 账户名拍卖产生的费用。
-2021 年初，EOS 开始过渡到当前 B1 提出的 PowerUp 资源模型。此模型有助于使资源管理更加用户友好和高效。用户无需抵押 EOS 来预留带宽，而是可以支付少量 EOS 费用来为他们的账户带宽提供 24 小时的服务。为了进一步提升用户体验，许多钱包每天提供免费的 PowerUp 补贴，并将资源管理抽象给用户。用户通常还可以从区块浏览器等其他基础设施提供商那里获得免费的 PowerUp 补贴。
-就目前而言，REX不再用于资源借贷，但它仍将前面提到的来源的所有费用以及 PowerUp 费用分配给 EOS 质押者。目前，REX TVL 超过 6200 万美元。
-状态存储
-通过 RAM，用户直接支付与在其账户中存储数据相关的费用，包括任何可替代代币、NFT、NFT 列表等。RAM 是一种可以用 EOS 买卖的有限资源。RAM/EOS 市场使用 Bancor 流动性算法定价。市场收取 0.5% 的费用，该费用会在资源交易所中收取并重新分配给 EOS 利益相关者。与典型的gas代币不同，RAM 并不总是永久消耗。例如，如果用户将 RAM 分配给他们持有的 NFT，那么如果他们销毁 NFT，那么该 RAM 将返回给他们（将 NFT 出售或转移到另一个帐户不会释放回 RAM）。
-帐户
-EOS 账户有两种不同类型的密钥：
-此外，所有者密钥可以设置具有自定义权限的活动密钥。例如，可能有一个活动密钥只能从一个指定的合约中铸造 NFT。用户还可以创建多个密钥并需要多个签名才能执行交易。等待计时器功能允许所有者密钥设置活动密钥，以便在执行签名交易之前有一个输入时间延迟。
-该系统具有与账户抽象类似的效果，因为与非智能合约的传统账户相比，它显著提高了用户体验和安全性。而帐户抽象多年来一直在以太坊的路线图上。
-Antelope IBC
-Antelope的首批举措之一是实施基于轻客户端的区块链间通信 (IBC) 协议。该设计类似于 Cosmos 的 IBC，建立在 0rigin 的工作之上，0rigin 是基于 Antelope 的链 UX Network 的开发团队。实施 Antelope IBC 允许基于 Antelope 的区块链安全地相互通信并横向扩展。例如，一个流行的 dapp 可以启动 Antelope 侧链和验证器集，以拥有自己的执行环境，同时保持与生态系统的连接。
-2023年1月，Antelope IBC上线EOS主网，EOS与UX Network的试点交易成功。
-概述
-EOS Network 的原生代币 EOS 用于安全性（验证者和委托者质押）和资源分配（CPU、NET 和 RAM 费用）。自发布以来，EOS 代币经济学发生了数次变化。目前，EOS 以每年 3% 的速度通胀，没有销毁机制。
-初始分配
-公开代币销售（90%）：B1 在为期一年的反向荷兰式拍卖中以约 41 亿美元的价格出售了 9 亿个代币，从 2017 年年中到 2018 年年中每 24 小时一次。它公开承诺将 10 亿美元的收益用于 EOS 生态系统和开发。然而，B1 对这一承诺没有法律义务，并决定不将承诺的金额投资回 EOS。
-团队和创始人（10%）：在网络启动时，参与者同意向 B1 分发另外 1 亿个 EOS 代币，在 10 年内线性释放。2021 年 12 月，由于缺乏 B1 的开发，EOS 区块生产者投票决定停止代币释放。在冻结之前，B1 收到了大约 3200 万个代币，还有大约 6800 万个被冻结。这些代币目前仍在抵押中，没有解冻、销毁或对它们做任何其他事情的计划。
-历史代币经济学变化
-在发布时，EOS 通货膨胀率设置为 5%：
-储蓄账户：尽管储蓄账户的总通货膨胀率为 4%，但它从来没有明确的用途。区块生产者认为该基金变得过多，并且成为攻击者的潜在目标。因此，区块生产者多次选择销毁账户中的所有代币。他们在 2019 年 5 月首先销毁了 3400 万个代币（当时价值 1.65 亿美元）。2020 年 2 月，他们销毁了账户中剩余的 3400 万个代币（当时价值约 1.4 亿美元）。随着第二次销毁，他们通过了一项取消储蓄账户分配的提案，将通货膨胀率降至 1%。储蓄账户后来于 2021 年 8 月以 2% 的利率重新启用，以为 ENF 创造持续的资金。
-RAM 交易费用：在推出时，RAM 交易的 0.5% 费用进入 eosio.ramfee 账户，该账户由区块生产者控制。2019 年 5 月，区块生产者通过了一项提案，改为将费用发送给Resources交易所。然而，区块生产者仍然需要决定如何处理 eosio.ramfee 账户中累积的费用。区块生产者后来在 2021 年 8 月通过了一项提案，将这些代币连同之前的高级 EOS 账户名称拍卖的累积费用一起转移到 eosio.grants 账户。这些费用共同构成了 ENF 的初始资金（当时价值约 1600 万美元）。
-ENV 基金：2022 年 11 月，区块生产者通过了一项提议，创建并资助一个由 EOS Network Ventures (ENV) 管理的新生态系统基金，拥有约 6800 万个代币，与之前销毁的数量相当。ENV 使用该基金投资生态系统项目，并启动加速器和孵化计划。
-当前通货膨胀率
-目前的通货膨胀率为 3%。其中三分之一分配给区块生产者，三分之二分配给 ENF。
-用户
-自 2021 年初以来，每日交易量下降了 65%，但每日活跃地址增加了 7%。每日交易量的下降趋势在 2022 年 10 月逆转。此后，每日交易量增加了 218%，尽管每日活跃地址减少了 25%。这一最近的趋势表明高级用户在增加。
-年初至今，该网络平均每天有 130 万笔交易和 38,000 个每日活跃地址。然而，后一个数字被一个大的异常值夸大了。2023 年 1 月 31 日，每日活跃地址激增至 436,000。峰值没有明确的原因，ENF 不确定是什么导致了它。几乎整个激增是由于地址与 EOS 系统合约交互——它管理委托、资源管理等功能——而不是任何与 dapp 相关的活动的增加。
-到 2023 年为止，EOS 平均每天新增 1,785 个地址，比 2022 年（超过 2,600 个）和 2021 年（近 13,000 个）有所下降。
-验证人和委托人
-虽然一次只能有 21 个 BP 参与，但自上线以来共有 65 个 BP 出块。其他人只是作为备用BP参与，目前有100个BP有投票权。
-总共有来自近 100,000 个地址的超过 3.17 亿个 EOS（占代币总供应量的 27.6%）被抵押。但是，只有大约三分之二的质押代币用于投票。最值得注意的是，冻结的 B1 代币（6400 万个代币）被抵押但不参与治理。因此，委托给 BP 的代币数量接近 2.12 亿个 EOS（截至 2023 年 2 月 22 日为 2.54 亿美元），约占总供应量的 18.5%。
-概述
-EOS 的生态系统包括 DeFi 应用程序和程序、NFT 市场和项目、游戏应用程序等。
-所有 EOS dapp 的每日活跃地址在 2021 年增加，并在 2022 年 1 月达到顶峰，然后在 2022 年下降。这一轨迹在很大程度上与从加密牛市到熊市的更广泛转变一致。在那段时间里，按日活跃地址计算的热门 dapp 包括虚拟财产游戏 Upland、去中心化社交应用 Yup、MMO 策略游戏 Prospectors、即玩即赚游戏 Crypto Dynasty 和 NFT 市场 AtomicHub。
-考虑到所有合约交互，而不仅仅是 dapp 合约，Upland 应用程序及其代币目前拥有的每日唯一地址比 EOS 上所有其他合约的总和还要多。
-然而，当仅过滤新地址交互时，数据看起来非常不同，新地址交互为在创建地址的同一天调用合约的地址。在新地址中，Upland 及其代币占唯一地址合约交互的 6%，明显低于所有合约交互的 56%。
-事实上，新地址通常不与任何 dapp 进行交互——EOS 系统合约和 EOS 代币合约几乎占了所有新地址交互。这可能是一个迹象，表明新地址加入 EOS 通常是为了在网络上持有 EOS 或抵押它，而不是针对特定的 dapp 用例。
-DeFi
-在过去的一年里，以美元计算的 EOS DeFi TVL 下降了 62%，目前在所有链中排名第 37 位左右。然而，以 EOS 计算的 DeFi TVL 仅下降了 32%，表明美元 TVL 的下降可能部分归因于价格贬值。
-超过 75% 的 TVL 来自去中心化交易和借贷协议 Defibox。截至 2023 年 2 月 21 日，Defibox 的平均每日交易量约为 470,000 美元。该交易所的顶级交易池是 EOS/USDT，截至 2023 年 2 月 21 日，TVL 约为 620 万美元，每日交易量约为 380,000 美元。
-EOS 是 Tether 正式支持原生 USDT 铸造和赎回的 11 个区块链之一。2022 年 12 月，币安交易所上线 EOS 原生 USDT，进一步帮助流动性和网络接入。目前有超过 8500 万个 USDT 代币在 EOS 上流通。
-ENF 工作组提出了两个计划来支持 EOS 的 DeFi 生态系统：
-NFT 和游戏
-EOS 上最受欢迎的 dapp 是 Upland，这是一款 Play-to-Earn 数字房地产和元宇宙游戏，于 2019 年推出。年初至今，Upland 平均每天有大约 20,000 个活跃地址和 60 个每日新地址。
-其他游戏包括 Prospectors、Crypto Dynasty 和 Wombat，但到目前为止，Upland 在活动地址方面的活动最多。
-AtomicHub 是该网络的主要 NFT 市场，拥有 5,000 多个收藏品。
-截至 2023 年 3 月 2 日，AtomicHub 的日销售额为 1,400 美元。
-赠款
-自社区改革以来，已经建立了几个不同的赠款计划和其他增长计划。
-Pomelo
-Pomelo 是一个以 Gitcoin 为蓝本的开源公益众筹平台。与 Gitcoin 一样，Pomelo 使用二次筹资机制，即使用由合作伙伴资助的匹配池来增加个人捐款。Pomelo 的第一季于 2021 年第 4 季度推出，ENF 提供了 500,000 美元的匹配池。在其四个赛季中，Pomelo 通过数百个项目共筹集了 260 万美元。
-ENF Direct Grant Framework
-ENF 还根据里程碑完成情况直接向项目提供赠款，而不是像 Pomelo 那样提供前期资金。Direct Grant Framework 以协议开发为目标，类别包括 Antelope 升级、开发人员工具、UI 和后端开发以及密码学。申请由 EOS 社区高级成员组成的委员会进行评估，其中包括一些具有技术专长的成员。自 2022 年第二季度启动以来，ENF 已批准 52 份申请中的 11 份，其中 4 份已经完成。到目前为止，已为这些项目分配了总计 211,000 美元，另有 444,000 美元已同意并等待进一步的里程碑完成。
-EOS 网络风险投资公司 (ENV)
-如上所述，2022 年 11 月，EOS 区块生产者通过了一项提议，为 ENV 管理的生态系统基金铸造约 6800 万个 EOS（截至 2023 年 2 月 22 日约为 8000 万美元）。除了投资生态系统项目，ENV 还计划推出加速器和孵化器计划。
-黑客马拉松
-22年Q4，ENF举办了两场黑客马拉松。它与 Helios 共同举办了 EVMxIdeation 黑客马拉松，向 EOS 建设者提供了 88,000 美元的奖金。他们还举办了针对 EOS GameFi 和 EVM 开发的 DoraHacks Trust EVM 黑客马拉松。
-技术改进
-自接管以来，在工作组的推动下，ENF 一直在检查 EOS 网络的各个方面并寻找改进领域。它计划发布一份新的白皮书，以反映迄今为止所做的更改并详细说明计划的技术升级。技术路线图将包括一个带来即时终结的新共识机制和一个 EVM 解决方案。
-共识机制：ENF 与联盟的其他成员一起，一直在努力改革 Antelope 的共识机制。2022 年年中，EOS、WAX 和 Telos 同意向 UX Network 开发团队 0rigin 提供为期 24 个月、基于里程碑的价值 380 万美元的原生代币赠款。该团队的任务是升级共识机制以实现即时确定性并开发 Antelope IBC。
-在 0rigin 工作的推动下，该联盟计划实施 HotStuff 的修改变体，这是一种基于 BFT 的协议，由 Facebook 团队开发，致力于 Libra，现在为 Aptos 网络提供支持。升级将实现多项改进，包括将验证器数量扩展到 21 个以上，并带来近乎即时的最终确定性。除了解决 Antelope 的三分钟交易流程外，即时确定性还将补充 Antelope IBC，并允许近乎即时的跨链消息传递。这些升级将于 2023 年夏季在测试网上上线，并于年底在主网上启动。
-EOS EVM：自 2022 年初以来，ENF 一直在资助和开发 EOS EVM 解决方案。与 NEAR 上的 Aurora 一样，EOS EVM 将作为 EOS 上的智能合约实施。EOS EVM 将使用 EOS 作为其原生代币。最新版本成功完成审核并于 2023 年 1 月在测试网上启动。计划的主网启动时间为 2023 年 4 月 14 日。
-增长战略
-EOS 网络的增长将继续由 ENF 推动。如上所述，ENF 已经建立了多个资助系统和生态系统基金，包括 Pomelo、Direct Grant Framework 和 EOS Network Ventures。ENF 通过 2% 的网络通货膨胀获得资金，目前相当于每年价值约 2600 万美元的 EOS 资金。
-作为Antelope Coalition的一部分，ENF 还帮助资助和开发技术改进。该联盟承诺每年为 Antelope 开发提供 800 万美元的资金。
-EOS 是最著名的区块链项目之一——但并不总是最好的。在 ENF 的推动下，社区在过去一年半的时间里一直致力于重建 EOS 的技术堆栈和生态系统。尽管交易数量等一些指标最近有所改善，但要使 EOS 的生态系统和网络指标与顶级智能合约平台并肩，仍有许多工作要做。最近和计划中的技术升级，包括 Antelope IBC、新的共识机制和 EOS EVM，以及新的增长战略，可以为新一波 EOS 用户和开发人员奠定基础。如果升级成功并且采用率跟进，EOS 可能会又一次复兴。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《华尔街日报》：币安曾试图聘请SEC主席Gary Gensler担任顾问，但遭到拒绝]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/1p6zjkd3.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/1p6zjkd3.html"/>
-        <updated>2023-03-05T22:29:12.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月6日消息，据《华尔街日报》报道，加密交易所币安在Gary Gensler成为美国证券交易委员会(SEC)主席数年前就希望聘请他担任顾问，但遭到Gensler拒绝。报道中称，币安曾试图在2018年和2019年聘请Gensler，当时Gensler在麻省理工学院担任教授。在2018年10月的一次会议上，与会者包括Gensler、前币安风险投资部门负责人Ella Zhang和Harry Zhou。Zhou当时在币安投资的一家公司任职。Zhou在当时的聊天信息中写道：“我注意到，虽然Gensler拒绝担任顾问，但他在分享许可策略方面很慷慨。”币安此前曾聘请其他美国政府官员担任顾问，包括蒙大拿州前参议员Max Baucus。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -9346,18 +9364,6 @@ Carlson-Wee 不愿详述 DeFi 的内在矛盾。“我从来没有真正将权�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Sandbox 的元宇宙业务将在今年年底推出一个 DAO]]></title>
-        <id>https://www.theblock.co/post/215900/the-sandbox-sebastien-borget-future-corporate-partnerships</id>
-        <link href="https://www.theblock.co/post/215900/the-sandbox-sebastien-borget-future-corporate-partnerships"/>
-        <updated>2023-03-02T02:56:26.000Z</updated>
-        <summary type="html"><![CDATA[<h3>The Sandbox 的元宇宙业务将在今年年底推出一个 DAO</h3>
-<p>据 The Block 报道，The Sandbox 的首席运营官 Sebastien Borget 表示，元宇宙平台的未来掌握在个人创作者而不是企业品牌手中。到目前为止，该平台的去中心化是通过其 SAND 代币和该代币出售由区块链支持的虚拟土地实现的。Sebastien Borget 称，The Sandbox 计划于年底前推出 DAO，并将通过 SAND 代币投票来进行拨款等决策。</p>
-<p><a href="https://www.theblock.co/post/215900/the-sandbox-sebastien-borget-future-corporate-partnerships">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[消息人士：Bankless播客主持人正筹集3500万美元的加密风险投资基金]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/txh3mu16.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/txh3mu16.html"/>
@@ -9366,19 +9372,6 @@ Carlson-Wee 不愿详述 DeFi 的内在矛盾。“我从来没有真正将权�
 据悉，Bankless由Adams和Hoffman于2020年创立，凭借其旗舰播客、时事通讯、YouTube频道和自己的去中心化自治组织 (DAO)，以及BANK治理代币，建立了具有影响力的多媒体形象。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[去中心化云平台 Impossible Cloud 完成 700 万美元种子轮融资，HV Capital 和 1kx 领投]]></title>
-        <id>https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage</id>
-        <link href="https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage"/>
-        <updated>2023-03-02T02:39:44.000Z</updated>
-        <summary type="html"><![CDATA[<h3>去中心化云平台 Impossible Cloud 完成 700 万美元种子轮融资，HV Capital 和 1kx 领投</h3>
-<p>去中心化云平台 Impossible Cloud 宣布完成 700 万美元种子轮融资，HV Capital 和 1kx 领投，Protocol Labs、TS Ventures 和 Very Early Ventures 参投。所筹资金将用于为其云存储解决方案提供资金及进一步扩大团队规模并在美国成立公司。
-据 The Block 介绍，Impossible Cloud 创始团队成员包括游戏工作室 Goodgame Studios 的创始人 Wawrzinek、前 Airbnb 主管 Kaul 以及前开源平台 D2iQ 的联合创始人兼首席技术官 Daniel Baker，旨在为希望深入研究 Web3 技术的 B2B 客户提供去中心化云服务。</p>
-<p><a href="https://www.theblock.co/post/216051/impossible-cloud-raises-7-million-to-decentralize-storage">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9461,18 +9454,6 @@ TVL
 PROOF Collective Pass持有者均可以0.1 ETH的价格铸造一枚NFT。Moonbirds和Pace Verso NFT持有者将有资格在第二轮进行铸造。若有剩余将可用于公开铸造。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络]]></title>
-        <id>https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/</id>
-        <link href="https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/"/>
-        <updated>2023-03-02T01:37:58.000Z</updated>
-        <summary type="html"><![CDATA[<h3>以太坊账户抽象提案 ERC-4337 核心合约已完成部署，可用于所有 EVM 兼容网络</h3>
-<p>据 Etherscan 数据和以太坊基金会安全研究员 Yoav Weiss 确认，以太坊账户抽象提案 ERC-4337 的核心合约已通过名为 EntryPoint 的智能合约完成部署，可用于所有以太坊虚拟机（EVM）兼容网络。且据知情人士透露，该合约已经通过安全审计。</p>
-<p><a href="https://www.coindesk.com/tech/2023/03/01/ethereum-activates-account-abstraction-touted-by-founder-buterin-as-key-advance/">内容来源</a></p><hr><h3>观点：</h3><p><strong>erc4337：</strong>ERC-4337 的核心合约已经通过了 Open Zeppelin 的审计，捆绑器（Bundlers）和支付网关包括 Stackup、Alchemy、Biconomy、Etherspot、CANDIDE 及 Blocknative 等。【原文为英文】</p><a href="https://twitter.com/erc4337/status/1631087958949531648">内容来源</a><p><strong>Shruti Gandhi（Biconomy 产品）：</strong>ERC-4337 引入了一些执行者和一个被称为 UserOp 的新的类似交易的结构，用于这些执行者之间的通信。而新角色 bundlers 则负责将 userOp 转换为交易，并有一个 EOA 支付其 Gas。但也存在一个问题，恶意行为者让 Bundler 付款后不进行退还，因此我们引入了一个新的智能合约 EntryPoint（EP）。EP 会验证智能合约存款是否足以执行交易，交易结束后， Bundlers 会从 EP 存款中退还支付的 Gas。【原文为英文】</p><a href="https://twitter.com/shrewtea892/status/1630479210916757504">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
