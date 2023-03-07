@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-07 datetime="2023-03-07T00:32:12.000Z">2023-03-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-07 datetime="2023-03-07T00:32:12.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-07 datetime="2023-03-07T01:09:43.000Z">2023-03-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-07 datetime="2023-03-07T01:09:43.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,116 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/ntilgg5z.html"
+                        open
+                      >
+                        <summary class="article-expander__title">解读Velodrome ：何以成为Optimism的DeFi发动机？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/ntilgg5z.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/06/images/73QuJtwaT2.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《Velodrome：Optimism 的 DeFi 发动机》
+注：本文主要通过数据角度来分析 Velodrome 的经济模型，不作为任何投资建议。
+Optimism 是基于以太坊的 Layer 2 扩容解决方案，在今年的表现堪称惊艳，TVL 和 token price 涨幅都超过了 100%，近期公布了多个利好预期：
+随着以太坊上海升级的临近，Layer2 正在迅速赶超其他公链，目前 Arbitrum 和 Optimism 在所有公链中 TVL 排名分别为第 4 和第 6，其上面的生态项目正在不断涌现。
+L2 赛道内的竞争已经接近白热化，Arbitrum 在启动初期积累了较大的优势，而 OP 通过发 token 正在追赶 Arbitrum 的步伐。目前在 TVL、转账笔数和活跃地址数上，Arbitrum 较 Optimism 都有 1 倍左右的领先优势。
+
+(资料来源：dune)
+从本质上来看，OP 与 AR 两者都采用 Optimism Rollup，并不存在较大的技术壁垒。从数据上来看，Optimsm 暂时落后于 Arbitrum，但其成为多链 L2 平台的目标构成了宏大的叙事，接下来将进行 Bedrock 的重大升级并且还会有更多轮的 Drops 激励，值得我们对其多加关注。
+Velodrome 是目前 Optimism 上 TVL 最大的 dex 协议，目前 TVL 为 3.1 亿$,占整个 Optimism 生态 TVL 的 34%。Velodrome 主要 folked from Andre Cronje 创建的 Solidly（fantom 上的 dex,TVL 曾高达 2B$）。Solidly 解体后，其最大的协议参与者 veDAO 团队吸取了经验教训，对 Solidly 的机制做出了部分改进，于 2022 年 6 月在 Optimism 上创立了 Velodrome 。（相关阅读：《Velodrome的TVL炼金术：ve(3,3)机制、veVELO分布与贿赂情况》）
+Velodrome 核心采用了 AC 提出的 ve(3,3) 机制，该机制主要激励用户锁仓 token，认为当大家都质押 token 而非卖出时，所有人的收益都将更高。
+1) VELO 初始供应 400M，按照以下比例进行多元化分配：
+2）VELO 会在每周(UTC 时间星期三 23:59 之后)增发，从15M 开始按每周 1% 的速率衰减。LP 持有者仅可获得这部分增发奖励。2 月 28 日几个主要池子的 LP APR 如下图所示：
+3)锁仓 VELO 可以获得 veVELO,兑换的 veVELO 数量与锁仓时间成正比，1 个 VELO 锁仓 4 年可获得 1 个 veVELO。目前有 1 周，1 月，1 年，4 年 这 4 个锁仓时间选项；
+4)veVELO 代表协议治理权，决定每周增发的 VELO 分配给每个流动性池的权重；所有的交易手续费收入将按比例分配给投票给该池的用户，而非 LP 持有者；
+5) 可贿赂选票，通过 Velodrome 内置的 Bribe 功能，可向任意池子发送贿赂，这些贿赂资金会按比例分配给投票给该池的用户。目前每 1 美金的贿选可以带来 1.5-2 美金的 VELO 增发奖励，协议们可以通过贿选撬动 VElO 奖励杠杆来增加自身的流动性，因此近期贿赂奖励迅速增长；
+6) veVELO 是一种 NFT，根据质押的 VELO 数量及锁定时间产生不同的 NFT，加总得到 veNFT 余额。Velodrome 计划在 2023 年 Q1 上线 veNFT 的 trade、lending 功能，届时 veVELO 将被赋予流动性，用户将会有更多的投资选择，这点是相对 Curve 的最大创新；
+7) veVELO 持有者将受部分稀释保护，当每周增发 VELO 时，veVELO 将获得一定比例的 rebase 奖励。
+每周rebase金额&#x3D;(veVELO.totalSupply ÷ VELO.totalsupply)³ × 0.5 × 排放量
+锁定的 VELO 比例越高，rebase 的占比也将越高，上限为当期排放量的 50%；
+了解完上述机制后，我们就可以通过数据来观察 Velodrome 的飞轮是如何运作的。
+1)TVL 及交易量
+受益于 1 月的市场复苏、Layer2 赛道火热，Velodrome 的 TVL 快速增长，从 1 月 1 日的 0.75 亿$增长到了目前的 3.18 亿$，今年 TVL 增幅高达 322%；
+Velodrome 目前日均交易量 3000 万$，OP、WETH、VELO 对 USDC 的交易量占据了 60%；
+2）锁仓率
+
+锁仓率（上图灰线）从 2022 年 6 月的 50%升至目前(第 39 周)的 80%，新增流通量少，9 成以上排放被锁仓。不过最近一周内，锁仓增速开始放缓，新增排放量/新增锁仓量降至 60%。
+目前共锁定了 688.7M 个 VELO，生成 626.5M 个 veVELO，约 90% 的 VELO 被锁定了最长的 4 年。
+3）增发与供应曲线
+
+目前为第 39 周，正处于 rebase 拐点（上图蓝线），当前 rabase APR 为 15.69%。按照目前 80% 的锁仓率估算，总供应量（上图红线）将在第 200 周达到 2000M，目前为 854M。
+4）veVELO APR
+veVELO 的奖励包括三部分：手续费，rebase 奖励，Bribes。在项目启动初期锁仓量较少，每周排放量大，所以 rebase 对 veVELO APR 的贡献较高。随着贿选启动，Bribes 奖励成为 veVELO APR 的大头。
+
+(资料来源：dune)
+在第 10-33 周内，veVELO 的平均 APR 始终高于 100%，峰值超过了 200%。虽然总奖励快速增长，但由于 VELO Price上涨的更为快速，整体的 APR 从第 33 周（23 年初）开始回落至目前的 54%；
+5）veVELO 分布
+目前共有 626.5M 个 veVELO，分布在 9.2k 个地址上。持有量排名前 20 内有 8 家是协议方，包括 Beefy、Optimism、Revenant Labs、Synthetix、Liquity 等持有了近 20%的 veVELO。
+
+(资料来源：dune)
+6）Velodrome 的飞轮路径
+高 APR 吸引用户 Farming, TVL 增长；
+协议们参与贿选，杠杆激励自己的流动性池（协议每贿赂 1$ 给 veVELO 投票用户，Velodrome 会对应的增加 1.5-2$ 对该池子的 VELO 奖励）；
+高锁仓 APR 吸引更多的 VELO 锁仓，锁仓率增加（90%的 VELO 锁仓 4 年获得更多投票权）；
+VELO 新增流通极少，Price上涨，维持流动性激励杠杆；
+VELO 价格、锁仓率 &amp; veVELO APR 变化：
+
+当锁仓率下降 VELO 会下跌 锁仓 APR 会提高，当锁仓率上升 VELO 会上涨 锁仓 APR 会下降。锁仓率、锁仓 APR、Price三者之间会达到一个动态平衡。
+因为 rebase 奖励每周都在降低，而总锁仓量在增长，所以若要维持住目前锁仓率 80%，锁仓 APR 54%，VELO Price 0.185 这三个数据，则需要每周新增 Bribes 金额。这显然不可持续，因为当 Bribes 价值&#x3D;每周排放价值时，流动性激励杠杆便不存在，协议们便没有动力再增加贿赂。
+
+只有当 VELO Price 上涨，Bribes 金额增加，锁仓 APR 降低三者协同才能够让飞轮继续运行下去。而随着 Velodrome 的体量不断扩大，推动飞轮所需的动力也在变大，锁仓率及 Bribes 是我们观察其飞轮运作的最佳“动力指标”。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/nn7lxe41.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Coinbase CEO：L2网络Base或会采取交易监控和反洗钱措施</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/nn7lxe41.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月7日消息，据Cryptoslate报道，Coinbase首席执行官Brian Armstrong表示，公司最新推出的以太坊L2网络Base可能会采取交易监控和反洗钱措施。他坦言Base将具有一些“中心化组件”，但会随着时间的推移变得越来越去中心化，现在需要在交易监控方面负有责任，这意味着尽管Base将向所有开发人员开放，但最终将成为“Coinbase链上产品的大本营”。据推测，Coinbase与Base集成的任何现有产品都将维持其原始的KYC/AML措施。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/1fpua50p.html"
+                        open
+                      >
+                        <summary class="article-expander__title">美SEC起诉BKCoin及其联创涉嫌1亿美元的加密资产欺诈计划</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/1fpua50p.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月7日消息，美国证券交易委员会(SEC)宣布已对加密对冲基金BKCoin Management及其联合创始人Kevin Kang提起紧急诉讼，成功冻结资产、任命接管人和其他紧急救济人员，原因是该公司涉及加密资产欺诈计划。至少从2018年10月到2022年9月，BKCoin从至少55名投资者那里筹集了大约1亿美元用于投资加密资产，但BKCoin和Kang却将部分资金用于庞氏式支付和个人使用。
+根据SEC的投诉，BKCoin和Kang向投资者保证他们的资金将主要用于交易加密资产，并表示BKCoin将通过单独管理的账户和五个账户为投资者产生回报私募基金，被告无视基金结构，混合投资者资产，并使用超过360万美元向基金投资者进行庞氏式支付。起诉书还称，Kang 挪用了至少371,000美元的投资者资金，其中包括支付假期、体育赛事门票和纽约市公寓的费用。Kang还试图通过向某些资金的第三方管理人提供银行账户余额虚增的篡改文件来掩盖未经授权使用投资者资金的行为。此外，BKCoin向一些投资者严重歪曲了BKCoin或其中一只基金收到了“四大审计师”的审计意见，而实际上BKCoin和任何基金都没有收到任何审计意见。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -265,7 +375,7 @@ Blur 是否实现了“产品-市场匹配”？可能实现了，但让我们�
                           <div class="article-summary-box-inner media-object">
                               <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>PANews 3月7日消息，据CoinDesk报道，美国政府周一对此前破产法官拒绝在FTX破产案中任命独立审查员的司法决定提出上诉。美国司法部(DOJ)下属的美国信托人(U.S. Trustee)此前曾辩称，破产法要求对任何此类规模的案件进行独立调查，尽管FTX的律师此前曾表示调查成本可能高达1亿美元。独立审查员可以调查那些对FTX管理不善负有责任的人是否仍在该公司。一个由两党参议员组成的小组也呼吁进行独立调查。然而，2月15日，美国特拉华州破产法官否决了任命一名独立审查员调查FTX破产案的动议。他表示，代价高昂的独立调查将会对案件的解决造成延缓。</span>
+                              <span>PANews 3月7日消息，据CoinDesk报道，美国政府周一对此前破产法官拒绝在FTX破产案中任命独立审查员的司法决定提出上诉。美国司法部(DOJ)下属的美国信托人(U.S. Trustee)此前曾辩称，破产法要求对任何此类规模的案件进行独立调查，尽管FTX的律师此前曾表示调查成本可能高达1亿美元。独立审查员可以调查那些对FTX管理不善负有责任的人是否仍在该公司。一个由两党参议员组成的小组也呼吁进行独立调查。然而，2月15日，美国特拉华州破产法官否决了任命一名独立审查员调查FTX破产案的动议。他表示，代价高昂的独立调查将会延缓案件的解决。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -5432,104 +5542,6 @@ Aptos ( APT )代币计划于3月12日解锁</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/nn46gjgb.html"
-                        open
-                      >
-                        <summary class="article-expander__title">一周预告 | Tornado Cash ( TORN )等代币将进行解锁；Dookey Dash开启新篇章“召唤”</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/nn46gjgb.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/Tlj2jOojsO.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>要闻预告：
-更多一周预告请点击下载PANews APP，关注PANews推出的事件日历活动板块，在PANews随时随地阅读更多区块链即时快讯和深度好文。
-交易所：
-韩国金融当局将从3月6日开始对加密交易所GDAC进行现场检查
-韩国金融服务委员会下属的金融情报部门（FIU）将于3月6日开始对该国币市市场交易所GDAC进行现场检查，主要针对反洗钱（AML）体系的建立和运行情况。这是金融当局首次通过现场检查的方式，对币市市场交易所进行详细检查。GDAC交易所曾于2月23日收到监管机构关于现场检查的通知。
-Coinbase L2网络Base纪念NFT铸造时间延长至3月6日
-Coinbase L2网络Base纪念NFT系列Base,Introduced的免费铸造时间将延长一周（即北京时间3月6日13:00），以确保包括在ETHDenver上的开发者和更多用户庆祝Base网络的诞生。
-项目动态：
-Yuga Labs NFT系列TwelveFold拍卖将于北京时间3月6日开始，持续24小时
-TwelveFold拍卖将于北京时间3月6日上午7点开始，并将于次日上午7点结束，持续24小时。据此前消息，Yuga Labs在比特币区块链上推出基于Ordinal协议的NFT系列TwelveFold。该系列将包含300件限量版生成艺术作品，每件都刻在比特币区块链上。每件NFT作品都是12x12网格，结合3D图形和手绘特征，由Yuga Labs内部艺术团队设计和创作。该公司表示“TwelveFold”与其任何一个以太坊链上IP均无关联，未来也不会有任何交互。
-区块链存储协议Arweave拟于3月6日激活硬分叉
-区块链存储协议Arweave于2月上线Arweave 2.6版本，新版本主要提高了网络及其存储市场的能源效率，并且激励矿工存储更多数据。网络硬分叉大约在3月6日激活，随着网络难度的重新调整，未捆绑的Arweave交易届时可能会在处理过程中出现暂停，预计将持续几个小时，但捆绑服务的用户应该不会受到影响。 Sam Williams还透露，硬分叉完成后的几周或几个月内还将发布一个或多个调整版本，但相关升级不会对用户造成太大干扰。
-tZero加密交易应用程序将于3月6日停止运营
-加密交易应用程序tZero Crypto将于3月6日停止运营，用户应尽快提取资产，在此期间托管人将继续保管客户的加密货币。据悉，TZero Crypto于2019年推出，客户可以在该平台交易加密货币、基于区块链的证券和传统股票。据此前消息，tZERO完成战略融资，美国洲际交易所（ICE）领投，Overstock.com、区块链基金Medici Ventures, L.P.等参投。
-项目动态：
-Dookey Dash游戏的蟾蜍模式已于3月2日凌晨关闭，分数审核将持续至3月7日
-Bored Ape Yacht Club（BAYC）在推特上表示，Dookey Dash游戏的下水道将于北京时间3月2日02:30关闭。在此之前，分数显示为“N/A”的通行证需要至少在蟾蜍模式下运行一次才有资格进行召唤。更多细节如下。一旦下水道关闭，蟾蜍模式的分数将锁定通行证。审查期将持续到2023年3月7日，最终的蟾蜍模式结果将更新到Sewer Pass上。在审查期结束后，Sewer Pass将在特征中显示是或否，这取决于通行证是否在蟾蜍模式中赢得同伴。
-美妆购物平台丝芙兰中国限量发布30万份PFP数字藏品，活动将于3月7日截止
-LVMH集团旗下美妆购物平台丝芙兰中国在会员日活动中发布首个数字藏品，限量30万份，系基于ERC-721协议PFP头像：Sephora Beauty Pass Family，可作为丝芙兰会员体系中的用户头像永久保存。此次活动时间2月22日00:01至3月7日23:59，根据活动规则，该数字藏品仅服务于用户在丝芙兰会员体系中的体验，不得用于任何其他商业目的。目前不可转赠、不可售卖或以其它任何形式进行转让。本次活动定制数字藏品知识版权归属干丝芙兰中国。
-Illuvium将在Illuvium：Beyond中推出可定制NFT集合Illuvitar，3月7日开放铸造
-RPG链游Illuvium于2月宣布推出Illuvium：Beyond计划，在Illuvium：Beyond中，玩家根据Illuvium的游戏角色竞争收集Illuvitar NFT，Illuvitar是一个可定制的NFT集合，其中包含拥有各种配件、背景和表情的Illuvials插图。Illuvitars铸造计划于2023年3月7日推出。为确保所有用户都有机会收集最稀有的物品，Illuvitars将以两种类型的打包出售，即Illuvitar D1SK和Mega D1SK。Illuvitar D1SK包括1件奖励等级Illuvitar、1件随机Illuvitar、3个配件，Mega D1SK包括1件稀有物、1件随机Illuvitar、3个配件。用户可以在销售窗口期间铸造无限数量的Illuvitars。一旦销售结束，这些Illuvitars将永远不会再铸造。
-灰度诉SEC“拒绝BTC现货ETF”一事提前至当地时间3月7日，双方届时将进行口头辩论
-针对美国证券交易委员会（SEC）拒绝灰度（Grayscale Investment）的现货比特币交易平台交易基金（BTC ETF）的申请一事，双方将于当地时间3月7日上午9点30分在哥伦比亚特区上诉法院进行法庭辩论以陈述各自论点。
-LedgerX的拍卖将于3月7日举行，Blockchain.com、Gemini和Kalshi等有意
-截至11月17日提交的文件，LedgerX持有约3.03亿美元现金，是FTX破产程序中为数不多的有偿付能力的子公司之一。LedgerX的初始投标于1月25日到期，将于3月7日举行拍卖，投标人尚未公开，但据称Blockchain.com、Gemini和Kalshi等加密参与者对竞标感兴趣。
-社区活动：
-Celestia推出激励测试网计划Blockspace竞赛，其第一阶段从3月7日开始
-模块化区块链网络Celestia推出激励测试网计划Blockspace竞赛。该竞赛将选择1000名参与者，包括验证者、桥接节点、全存储节点和轻节点。该测试网的新功能包括：IBC传输、更高效的同步以及用于与Celestia数据可用性节点交互改进的API。Blockspace竞赛分为五个阶段，为期九周。在每个阶段，参与者将收到与其角色相关的分配任务，通过完成任务来争夺积分，第一阶段从3月7日开始。
-项目动态：
-BAYC游戏Dookey Dash的新篇章“召唤”将于3月8日开启
-此前Bored Ape Yacht Club（BAYC）在推特上宣布，2023年3月8日，玩家将能够使用通行证召唤能量源。此前在蟾蜍模式分数最终确定后显示N/A与0分绑定的通行证将没有资格参加2023年3月8日开始的召唤。
-Celsius债权人委员会提议起诉Celsius联创和其他高管，听证会将于2023年3月8日举行
-Celsius债权人的官方委员会提议起诉Celsius联合创始人亚Alex Mashinsky和其他高管，指控他们“欺诈、鲁莽、严重管理不善和自利行为”，最终导致了这家加密货币贷款机构的倒闭。Celsius债权人委员会表示，拟议的投诉只是其调查Celsius前高管可能的不当行为和向受害者返还资产的“许多步骤中的第一步” 。关于拟议投诉的听证会将于2023年3月8日举行。
-治理投票：
-Cosmos Hub的v9 Lambda升级提案将于3月8日结束投票，其拟激活“Replicated Security”功能
-Cosmos Hub的v9 Lambda升级提案已开启投票，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。投票将于3月8日截止。据悉，链间安全性(ICS) 是一组旨在提高Cosmos生态系统可扩展性的功能。这些ICS功能之一是Replicated Security，它专门将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者。用经济攻击审查或控制消费链的成本与审查与控制Cosmos Hub本身的成本相同。
-Aavegotchi关于关闭GHST联合曲线的提案将进行链上投票，预计3月8日开始
-Aave生态NFT游戏Aavegotchi关于关闭协议代币GHST联合曲线的提案已获得链下投票通过，该提案最终支持率为91.17%。据悉，该提案正式链上投票预计将于3月8日发起。提案认为，AavegotchiDAO经过两年的发展已经具备足够的成熟度和流动性来满足项目发展，因此提议关闭GHST联合曲线，将GHST与DAI脱钩，固定其供应，并使GHST成为自由流通的代币。此外，曲线中的2000万枚DAI将用于项目的持续开发以及提高流动性，以促进GHST的推广使用。
-代币解锁：
-Tornado Cash ( TORN )预计将在3月8日释放175,000枚代币，价值140万美元
-项目动态：
-知情人士：美国众议院数字资产小组委员会将于3月9日召开首场听证会
-据三位知情人士透露，美国众议院金融服务委员新成立的数字资产小组委员会将于3月9日召开关于加密货币监管“攻击”的首场听证会。尽管小组委员会尚未最终确定证人名单，但听证会将权衡金融监管机构最近对加密公司采取的行动。共和党代表 French Hill 是新数字资产小组委员会的主席。
-日本金融监管机构将FTX Japan的业务停止令定为3月9日
-去年12月，日本关东地方财政局今日在其官网上宣布，对FTX Japan的业务停止令从2022年12月19日将延长至2023年3月9日，除非该公司能够迅速返还投资者委托的保证金，或该公司实施的场外衍生品交易相关的业务进行了适当可行的全面整顿。该停止令勒令FTX Japan停止与场外衍生品交易相关的业务以及与该业务相关的投资者的保证金等托管业务。
-ENS推出支持域名封装器“Name Wrapper”的App，3月9日前发现漏洞可获得奖励
-以太坊域名服务ENS宣布推出支持域名封装器“Name Wrapper”的全新App。目前该应用程序已经上线Goerli测试网，用户可以将钱包切换到Goerli后参与测试。 此外，ENS还推出了10 ETH的漏洞奖金池，3月9日前发现漏洞可获得激励。
-项目动态：
-Waves将于3月10日进行快照，以用于Power代币空投
-Waves 创始人 Sasha Ivanov 发推称，将于3月10日对 Waves 链上 WAVES（以及所有锁定的 WAVES）进行快照，以用于 Power 代币空投。Waves创始人此前曾表示，Power空投将只在Waves链上进行，用户有两周时间将Waves代币从CEX取出以获得Power空投。
-Mt.Gox债权人登记截止日期为3月10日
-据 Mt.Gox 官网公告信息，Mt.Gox 债权人登记截止日期从 1 月 10 日推迟至 3 月 10 日（日本时间），同时，基本还款期限、早期一次性还款期限和中期还款期限也将从 2023 年 7 月 31 日延后至 2023 年 9 月 30 日。
-NFT策略游戏Metroverse将于3月10日正式关闭，因用户对其丧失兴趣
-NFT策略游戏Metroverse宣布终止开发，在接下来的一周，Metroverse将采取以下步骤逐步结束这个项目，即2023年3月10日前完成以下工作：关闭Metroverse Discord服务器；将Metroverse Mayors将在空投给获胜者；与开源Metroverse智能合约代码库共享一个repo；将所有藏品的版税设置为0%。虽然这款游戏无法继续保持目前的形式，但社区拥有广泛的自由裁量权，可以使用开源材料来构建其他游戏。针对关闭的原因，Metroverse称过去8个月用户参与度显著下降，与去年同期相比网站访问量下降了约96%，由于人气低迷因此开发无法继续。
-代币解锁：
-Moonbeam ( GLMR )代币计划于3月11日解锁
-代币解锁：
-Aptos ( APT )代币计划于3月12日解锁</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/5rd7c8bo.html"
-                        open
-                      >
-                        <summary class="article-expander__title">PA图说 | 一图掌握以太坊上NFT关键数据（2023.03.05）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/5rd7c8bo.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/05/images/LaOGLALyyg.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
-PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/articledetails/5rd7c8bo.html"
                         open
                       >
@@ -7546,7 +7558,7 @@ Ignas | DeFi Research：有一些技术比如 Biconomy 的 SDK 可以将多链�
 https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023
 文章作者：
 abcoathup.eth</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                &ensp;<span class="article-reading-time">(&hairsp;11
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7571,7 +7583,7 @@ abcoathup.eth</span>
 https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023
 文章作者：
 abcoathup.eth</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                &ensp;<span class="article-reading-time">(&hairsp;12
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8153,7 +8165,7 @@ Uniswap 宣布推出开源自托管移动端钱包测试版本，可通过 Apple
                               <span>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线
 以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;67
+                                &ensp;<span class="article-reading-time">(&hairsp;68
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10840,7 +10852,7 @@ francesco：反复出现的网络中断问题可能是因为 Solana 代码库真
 内容来源
 francesco：指标 1&amp;2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                &ensp;<span class="article-reading-time">(&hairsp;14
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10871,7 +10883,7 @@ francesco：反复出现的网络中断问题可能是因为 Solana 代码库真
 内容来源
 francesco：指标 1&amp;2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11843,7 +11855,7 @@ NEAR 生态 NFT 市场 Few and Far 完成 1050 万美元融资，Pantera Capital
                               <span>Block 成立专注于改善闪电网络流动性和路由的公司 c&#x3D;
 Twitter 创始人 Jack Dorsey 旗下支付公司 Block 成立专注于改善闪电网络流动性和路由的公司 c&#x3D;，C&#x3D; 计划通过将比特币投入到闪电网络并建立基础设施提高网络可靠性来解决因地流动性和路有效率低下导致的交易失败问题。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;67
+                                &ensp;<span class="article-reading-time">(&hairsp;68
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -21417,8 +21429,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4349434282">
-        <time id="build-timestamp" datetime="2023-03-07T00:48:05.026Z">2023-03-07T00:48:05.026Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4349605708">
+        <time id="build-timestamp" datetime="2023-03-07T01:16:54.945Z">2023-03-07T01:16:54.945Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
