@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-07T05:36:48.412Z</updated>
+    <updated>2023-03-07T05:42:20.247Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【长推】探讨 LSD 杠杆 Staking 高收益的本质]]></title>
+        <id>https://twitter.com/loki_zeng/status/1632599301322076161</id>
+        <link href="https://twitter.com/loki_zeng/status/1632599301322076161"/>
+        <updated>2023-03-07T05:38:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LSD 杠杆 Staking 高收益的本质是什么，是否可持续？风险点在哪里？加密货币研究员 0xLoki 认为杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，ETH 开放 Staking 赎回以后利差会缩小，并详述了其原因。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">https://twitter.com/loki_zeng/status/1632599301322076161</a></p>
+<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，而之所以存在利差，是因为两种类型的标的具备不同的风险特征和流动性特征。利差本质上就是流动性溢价和风险暴露溢价，选择 Staking 需要牺牲资产的流动性并且承担更大的损失。</p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">内容来源</a><p><strong>0xLoki：</strong>当前之所以能够存在这么高的利率，主要是因为上海升级的不确定性。所以 ETH 开放 Staking 赎回以后，一个高确定性的结果是利差缩小，最终形成平衡，杠杆 Staking 的收益回到一个合理区间。另一个高确定性的结果是借贷成为 Staking 的加杠杆方式之一，LSD 的借贷市场变得更加繁荣。</p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据：某巨鲸从币安、OKX等交易所提取360万枚MASK，约合1480万美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html"/>
+        <updated>2023-03-07T05:35:38.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月7日消息，Lookonchain数据显示，一巨鲸地址通过多个地址从币安、OKX、KuCoin和Huobi提取约360万枚MASK（约1480万美元）。MASK代币价格今天从3.27美元上涨到4.16美元，涨幅达27%。
+Lookonchain分析称，据统计，0xEf7C开头地址历史上的MASK转入大多会导致MASK的价格上涨，转出会导致MASK价格的下降。该地址从Upbit提取0.5 ETH作为Gas费，并且是Upbit的用户。Upbit宣布今天15:00将开放MASK现货交易。该地址也许会将MASK转到Upbit出售。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[数据：某巨鲸从币安、OKX等交易所提取360万枚MASK，约合1480万美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html</id>
@@ -61,6 +84,61 @@ AA账户抽象
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ETHDenver参会所闻所感：哪些趋势值得关注？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/0ve9ns60.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/0ve9ns60.html"/>
+        <updated>2023-03-07T05:34:54.000Z</updated>
+        <summary type="html"><![CDATA[刚从Denver回来，过去的一周精彩不已。分享一下个人感受，和整个会议传递的新趋势。
+整体而言，EthDenver整体感受非常好，远胜Consensus，Token2049。
+据说整个ETHDenver来了35000人，7500 hackers。我住的酒店离downtown开车要15分钟，但是基本每天电梯里都能见到参会者，大家一看胸牌，互相一秒熟络。从业者里，项目方：VC约5:1。项目方颇具全球性，除了美国本土，中国，加拿大，英国，新加坡，欧洲是最大的集合。和ArkStream好几个北美欧洲的portfolio，终于见上了。VC领域，大部分活跃的一二线基金都有来人，尤其是过去很少出现的一些欧洲地区资本。
+与Consensus不同，ETHdenver的开发者文化使得整个活动都非常加密原生。与项目方见面基本都是直接坐下，当场电脑展示demo，30分钟就把产品给聊得很透彻。这点我非常喜欢，仿佛回到了2017年刚入行时的感觉。
+
+随处可见的hacker
+2. 参会指南
+ArkStream作为VC，我们最重要的还是source项目。因为活动太多，最高效的方式依然是小型活动+定向搜索。
+小型活动一般以20-100人的brunch，seminar和party组成。这次参与的几个好的活动有Meet the VC Brekky, Brunch party with Fabric/SevenX, zkNight Afterparty, MIT Alumni founder’s lunch, Cosmos on Tap, IOSG old friend Reunion, Founders Club启动仪式，收获了很多高效对话，和重要连接。
+定向搜索则是我们过去5年认为的最高效的crypto社交方式。在参会前团队花了两天把几个分会场如ZK Day, StarkDenver等项目方背景全部source一遍，然后和项目定向约1:1 coffee chat。一周下来筛选到20多个不错的早期项目，新的创新也使得我们非常兴奋。
+
+ZkDay Denver会场
+3. 赛道与新叙事
+ETHDenver分了好几个会场，涵盖Infra, DeFi, DAO, NFT和Impact+Public Goods。
+zk是本次大会的重心，各大赛道进展飞速
+1，基础设施类的项目逐渐尝试ZK技术优化改造，例如不同于传统跨链桥或跨链终极网络的链间共识机制传输的Succinct Labs，在The Graph和Chainlink基础之上结合zkWASM技术的Hyper Oracle；
+2，不管是知名已久的zkEVM型/zkVM型二层网络，抑或是原生的ZK一层网络，纷纷到场参会展示各自的进展及进行生态扩展，例如StarkNet，Scroll，Manta Network，Aleo等；
+3，在ZK的核心服务指标，证明生成方面同样基于各种优化算法，例如涌现了一些硬件加速类项目方的身影，例如Cysic，Ingonyama
+4，出现不少基于StarkNet技术栈研发的全链游戏，比较抽象而有意思的是Topology
+5，模块化区块链的执行层服务商，打造ZK版本Rollup的SDK，Sovereign Labs等
+6，当然，ZK类应用层在不断衍生DID赛道，不仅有以太基金会旗下PSE的底层技术栈Semaphore，也有直面用户的Axiom等
+
+AA账户抽象
+其次是AA账户抽象。虽然卷的不能再卷，但依然是风口的热点。前阵子有账户抽象提案 EIP-4337 联合发起人 Kristof Gazso提出的Pimlico项目，转眼正式迎来以太坊EVM层面兼容的ERC4337功能核心合约。在ETHDenver，时不时听到Bundler，UserOperation，EntryPoint这些开发术语，也会在AA的推进过程尝试Gasless、社交恢复和远超于多签钱包Safe功能的账户体验。更多的AA基础设施类项目，可以选择性地配合MPC-TSS，以SDK之类为主的打造产品，逐渐展露身手。
+当然，原有的EOA类钱包必然会拥抱这场AA的进化，Walletcon的不少项目方，同样在资金安全、出入金、用户体验和多链支持等方面持续优化。总的来说，AA的完善将会为10亿的web2用户进入打开大门，是新周期的绝对大赛道。
+新叙事来说，在社交领域看到一些新的应用突破。经历了过去两年的Social狂热，今年的项目更加落地思考如何搭建属于web3用户的社交产品。破局点预测会来源于基于DID的会员体系，支付+信息一体化，与粉丝经济。
+非常惊喜的是，是聊到几个AI的项目，不乏资深AI从业者创立的。大部分基于OpenAI的开源算法搭建，主攻链上数据+AI+Smart money，比如可以自然语言实现闪电贷这种复杂合约操作，抗MEV等。这对于crypto这种基于算法的黑暗森林来说，可谓是不小的福音。
+关于未来，Layer 2和别的infra的逐渐完善和入口的成熟，2023开始的新周期的机会会往应用层靠拢。我们预计会相继在游戏和社交领域出现，与现实世界的连接也更加紧密。
+本次ETHDenver华人项目占比大概有20%，远超印度，与日韩东南亚。整体而言，创始人背景比2020年提升很大，并且在应用层有平分秋色的势头。
+
+优秀的华人创始团队一般为两类，一类是在web2大厂或创业公司有过成功产品经验，且对crypto有重度exposure的新创业者，这类创业者在2021年底开始大量出现，其产品和迭代上都有经验优势。
+另一类是在海外长期求学，工作，对英文世界非常熟悉的创始人，来自纽约，洛杉矶和湾区居多，这类创业者胜在BD和融资，拿海外融资没有任何劣势。
+整体而言，随着华人创业者背景的显著上升，和方兴未艾的应用层大浪潮。Long China将是每个从业者的必修课。
+2022年大家经历了市场低估与疫情与折磨，情绪非常压抑。ETHDenver像是一个池子，全球各地的潮水奔涌而至。华人创业者奔赴世界各地，新生的力量此起彼伏。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOSG 周报｜GMX 全链乐高能否挑战 dYdX 龙头地位吗？]]></title>
+        <id>https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A</id>
+        <link href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A"/>
+        <updated>2023-03-07T05:33:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>IOSG Ventures 研究员 Momir Amidzic 在本文中对后 FTX 时代 DEX 衍生品市场的状况进行了探索，表示如果要赢得加密衍生品市场份额，DEX 必须击败 CEX。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A</a></p>
+<p><strong>文章作者：</strong></p><p>Momir（IOSG Ventures）</p><hr><h3>观点：</h3><p><strong>Momir（IOSG Ventures）：</strong>去中心化交易所衍生品市场可能仍处于初期结算，但 GMX 在 FTX 崩盘后的市场中表现出了令人印象深刻的实力。假设在 FTX 崩盘当天对 GMX 和 dYdX 分别投资 1000 美元，截至今日，GMX 的回报约为 1400 美元，而 dYdX 回报则约为 800 万美元。这无疑表示 GMX 已经在竞争激烈的 DEX 衍生品市场中占据了强有力的地位。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a><p><strong>Momir（IOSG Ventures）：</strong>GMX 产品仍然存在一些资产选择较小、流动性扩张问题、风控不足等等的限制。但其中一切缺点可能是有意为之的取舍，也正是这些取舍帮助其找到了 PMF，成为了具备最有机需求的去中心化衍生品交易所。第一个进入市场并不重要。最先找到 PMF（产品 / 市场匹配）的，才往往是长期的赢家。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a><p><strong>Momir（IOSG Ventures）：</strong>市场表明，仅仅从中心化交易所的非托管属性吸引用户并非易事，相反，DEX 需要在自己的游戏中击败 CEX，提供同样好的用户体验，包括入门难度、交易成本、延迟、价格影响、资产提供、高级交易功能、可用性、可靠性，甚至是丢失资金的恢复。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Dapper Labs已不再支持ACH提现，但仍支持通过电汇和USDC提现]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/7r5b0kjg.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/7r5b0kjg.html"/>
@@ -186,6 +264,18 @@ OnePlanet 通过精心筛选来精选项目。此外，他们还推出了自己�
 Polygon 的另一个优势是交易费用低，这使其成为 NFT 创作者和收藏者的一个有吸引力的选择。随着人们对区块链技术和 NFT 的兴趣和采用日益增长，Polygon NFT 生态系统很可能在未来继续发展壮大。在接下来的几个月和几年里，看看该平台如何发展以及 Polygon 上会出现哪些新项目和合作将会非常有趣。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】10 个 DeFi 协议盈利能力解读：以太坊、Gains Network、GMX......]]></title>
+        <id>https://twitter.com/ThorHartvigsen/status/1632687223643725824</id>
+        <link href="https://twitter.com/ThorHartvigsen/status/1632687223643725824"/>
+        <updated>2023-03-07T04:43:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一般具有正收益的 DeFi 协议代币表现能力是最好的，但只有极少数 DeFi 协议是处于盈利状态的。加密研究员 Thor Hartvigsen 从费用、收入、代币释放等数据盘点了 10 个  DeFi 协议的盈利能力。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ThorHartvigsen/status/1632687223643725824">https://twitter.com/ThorHartvigsen/status/1632687223643725824</a></p>
+<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）以太坊：2 月收入为 6060 万美元。以太坊目前已经从每年膨胀 500 万枚降为每年膨胀 60 万枚；2）Gains Network：2 月收入为 196 万美元，其宣布在 Arbitrum 上推出后交易量大增，其运作几乎没有产生过链上费用；3）GMX：2 月产生了 1880 万美元的费用，其中 70% 用于支付流动性，30% 分配给 GMX 持有者，而且产生了 1270 万美元的代币奖励，使得其收益为 -700 万美元；【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1632687223643725824">内容来源</a><p><strong>Thor Hartvigsen：</strong>4）Convex：2 月收入为 103 万美元；5）Arbitrum：由于其没有与代币释放相关的成本，收入为链上费用减去给以太坊验证者的费用，2 月收入为 78.5 万美元；6）Radiant：2 月收入为 32 万美元，V2 版本即将推出；7）ENS：2 月收入为 190 万美元，ENS 的收入来源为用户注册和续费，不存在链上成本；【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1632687223643725824">内容来源</a><p><strong>Thor Hartvigsen：</strong>8）dYdX：截止目前，3 月收入为 68.8 万美元，主要从交易中赚取大量费用，但其有自己的订单簿，因此无需向流动性供应商支付费用，但值得注意的是，除了 3 月，dYdX 每个月的收益均为负数；9）Aave：2 月收入为 20.5 万美元，这是其 2023 年初以来首次正收益，主要原因是其近期 AAVE 释放的减少；10）Opensea 2 月收入为 630 万美元，SuperRare 为 41.2 万美元，Looksrare 为 12 万美元、Sudoswap 为 3.3 万美元，Blur 则由于所有费用及版权费都支付给创作者，其收入为 0 美元。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1632687223643725824">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9329,30 +9419,6 @@ Sui上的第一个IDO和INO平台，同时也是一个孵化器，以精选项�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[万神殿 Patheon：零知识证明开发框架评测平台]]></title>
-        <id>https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg</id>
-        <link href="https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg"/>
-        <updated>2023-03-02T06:08:10.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>CelerNetwork 技术社区推出了零知识证明开发框架评测平台「万神殿 Pantheon」，并撰文描述构建 ZKP Pantheon 的第一步，比较了 SHA-256 在各种 zk-SNARK 和 zk-STARK 开发框架上的性能测试结果，以期可以帮助需要为 SHA-256 操作生成简洁证明的开发者。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg">https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg</a></p>
-<p><strong>文章作者：</strong></p><p>CelerNetwork 技术社区</p><hr><h3>观点：</h3><p><strong>CelerNetwork 技术社区：</strong>证明系统：我们根据成熟度和开发者采用情况精心挑选了以下证明系统作为测试对象：Circom + snarkjs /rapidsnark、gnark、Arkworks、Halo2 (KZG)、Plonky2、Starky。我们的目标是提供不同前端 / 后端组合的代表性样本。</p><a href="https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg">内容来源</a><p><strong>CelerNetwork 技术社区：</strong>性能评测方法论：我们计算了 N 字节数据的 SHA-256 哈希值，其中我们对 N = 64、128、...、64K 进行了实验（Starky 是一个例外，其中电路重复 SHA-256 固定 64 字节输入的计算，但保持相同的消息块总数）。并且使用证明生成时间（包括见证生成时间）、证明生成期间的内存使用峰值、证明生成期间的平均 CPU 使用率百分比对每个系统进行了性能测试。</p><a href="https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg">内容来源</a><p><strong>CelerNetwork 技术社区：</strong>性能评测结果：Groth16 框架（例如 rapidsnark、gnark）在生成证明方面比 Plonk 框架（例如 Halo2、Plonky2）更快。Plonkish 算术化中的查找表在使用较大的原像尺寸时显着减少了 SHA-256 的约束和证明时间。此外，gnark 和 rapidsnark 展示了利用多核以并行化运作的出色能力。另一方面，Starky 的证明生成时间要短得多，但代价是证明大小要大得多。在内存效率方面，rapidsnark 和 Starky 优于其他框架。</p><a href="https://mp.weixin.qq.com/s/1M8C2SokJl2A1xkKBfFmFg">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】Delphi Digital： Gains Network 和 GMX 对比分析]]></title>
-        <id>https://twitter.com/Delphi_Digital/status/1630979718680805415</id>
-        <link href="https://twitter.com/Delphi_Digital/status/1630979718680805415"/>
-        <updated>2023-03-02T06:08:08.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum DeFi 生态系统正在状态，而 Arbitrum 原生协议 GMX 的表现也一直亮眼。但除了 GMX，还有一个 DeFi 衍生品新锐吸引了 Delphi Digital 研究员 Jordan Yeakley 的注意，最初部署在 Polygon 的合成衍生品平台 Gains Network。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Delphi_Digital/status/1630979718680805415">https://twitter.com/Delphi_Digital/status/1630979718680805415</a></p>
-<p><strong>文章作者：</strong></p><p>Jordan Yeakley</p><hr><h3>观点：</h3><p><strong>Jordan Yeakley：</strong>Gains Network 最初部署在 Polygon 上，借鉴了 MakerDAO 模式的一些概念，以类似于 Synthetix 的方式提供合成杠杆交易，但资本效率更高，用户可以通过质押 GNS 获得以 DAI 支付的平台费用。其产品 gTrade 是一个永续期货交易所，提供多种不同资产类别的杠杆交易。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1630979718680805415">内容来源</a><p><strong>Jordan Yeakley：</strong>GMX 利用 GLP 充当交易员对手方， 通过 Gains，gDAI LP 作为交易商对手方，作为金库储户提供 DAI 以赚取交易费及清算收益。而 GNS 作为后盾并赚取交易商损失的一部分。由于其交易者和 LP 之间关系的简单性质，Gains 可以在费用上压倒 GMX。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1630979718680805415">内容来源</a><p><strong>Jordan Yeakley：</strong>自从 Gains Network 上线 Arbitrum 后，其交易量数据紧追 GMX，但 GMX 仍有优势，尤其考虑到 Gains Network 交易量也包括 Polygon 的数据。不过 Gains Network 在不依赖代币释放的情况下提供真实收益，可持续代币经济的叙事将有助于推动 Gains Network 的进一步发展。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1630979718680805415">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文长推】Delphi Digital： Gains Network 和 GMX 对比分析]]></title>
         <id>https://twitter.com/Delphi_Digital/status/1630979718680805415</id>
         <link href="https://twitter.com/Delphi_Digital/status/1630979718680805415"/>
@@ -9373,18 +9439,6 @@ Sui上的第一个IDO和INO平台，同时也是一个孵化器，以精选项�
 据悉，之前，XMON持有者可以锁定他们的代币以接收Sudoswap的治理代币SUDO，即锁投。推特用户@lumpsugar53分析称，XMON价格暴跌或与XMON质押解锁有关，且未来XMON代币很可能与Sudoswap治理无关。此外，推特用户@apes_prologue此前曾分析称，随着转向SUDO作为Sudoswap的唯一治理代币，XMON的价值主张将主要是作为NFT收藏品。除非为XMON计划了一个新的实用程序，否则它的价值可能会在lockdrop（锁投）结束后立即急剧下降。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】盘点 BTCFi 叙事：Stacks、BadgerDAO、Ren、Zero Dao]]></title>
-        <id>https://twitter.com/zoomeroracle/status/1630642415412363271</id>
-        <link href="https://twitter.com/zoomeroracle/status/1630642415412363271"/>
-        <updated>2023-03-02T06:00:46.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>目前市场并没有真正抓住即将到来的 BTCFi 叙事，BTCFi 或是下一个 Alpha。Library Onchain 创始人 Zoomer Oracle 撰文讨论了他看好的四个 BTCFi 项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/zoomeroracle/status/1630642415412363271">https://twitter.com/zoomeroracle/status/1630642415412363271</a></p>
-<p><strong>文章作者：</strong></p><p>Zoomer Oracle</p><hr><h3>观点：</h3><p><strong>Zoomer Oracle：</strong>1）Stacks。由于 BTC Ordinals 启动了比特币内部的新创新，人们（包括我）都在关注 STX。STX 的目标是成为比特币的一层并受到监管，基于当下热度，STX 价格上涨了很多。 BTC 层叙事就此诞生。2）BadgerDAO。Badger 上周宣布，他们将发布一个 LSD 支持的比特币，称为 eBTC。它是由 LSD 支持，以 BTC 计价，就像 DAI 是一个由一堆资产支持的稳定币，但以美元计价。对我来说，这听起来像是 BTC 和以太坊实际上可以合并在一起。【原文为英文】</p><a href="https://twitter.com/zoomeroracle/status/1630642415412363271">内容来源</a><p><strong>Zoomer Oracle：</strong>3）Ren。Ren 是一个 OG 协议，自 2017 年以来一直活跃。有谣言称 Cz 会收购 Ren 作为 BTC 层。但对我来说，这是有意义的，Cz 知道 BTC-fi 将是一个叙述。Ren 一直很可靠，从来没有被黑客攻击过。Ren 蓬勃发展的新方式是专注于 BTC 层。4）Zero Dao。Zero Dao 是一个连接比特币和以太坊资产的信息传输协议。为了将以太坊生态系统与比特币层合并，需要一个适当的方式在比特币和以太坊之间发送资产。Zero Dao 曾经是基于 Ren 技术的。现在 Ren 关闭了他们的服务，Zero Dao 正在从头开始建立，并且很快就会上线（L0）。【原文为英文】</p><a href="https://twitter.com/zoomeroracle/status/1630642415412363271">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
