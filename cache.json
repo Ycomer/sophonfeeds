@@ -77,7 +77,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1008,
+          "wordCount": 1023,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -237,7 +237,7 @@
           "description": "<h3>Kraken 首席法务官 Marco Santori：Kraken 有望很快推出银行</h3>\n<p>加密交易所 Kraken 首席法务官 Marco Santori 在 The Scoop 播客中表示，Kraken 正在推进自己的银行计划，有望很快推出，且其银行关系是安全的。\n此前消息，加密货币交易所 Kraken 将终止其面向美国用户的加密货币质押服务，并支付 3000 万美元以了结 SEC 对其提供未注册证券的指控。</p>\n<p><a href=\"https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Marco Santori：</strong>未来几年里那些对如何为加密货币经济提供基础设施有新想法的人的路会走的非常艰难，但我并不认为美国对加密行业存在阴谋性打压。【原文为英文】</p><a href=\"https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place\">内容来源</a>",
           "link": "https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place",
           "publishedOn": "2023-03-07T01:46:09.000Z",
-          "wordCount": 65095,
+          "wordCount": 64188,
           "title": "Kraken 首席法务官 Marco Santori：Kraken 有望很快推出银行",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/03/20230301_BankruptCompanies_Kraken-1200x675.jpg"
         },
@@ -257,7 +257,7 @@
           "description": "<h3>以太坊扩容项目 Scroll 完成 5000 万美元融资</h3>\n<p>以太坊扩容项目 Scroll 完成 5000 万美元融资，Polychain Capital、红杉中国、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures 和启明创投参投。所筹资金将用于产品构建、启动主网及扩大生态系统。据知情人士表示，该轮融资估值达 18 亿美元。Scroll 联合创始人 Sandy Peng 表示，Scroll 主网预计将于未来三至四个月内推出，且他希望将其目前 60 人的团队规模增加至近 100 人。\nScroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goerli 上推出 Alpha 测试网，任何用户都可无许可地参与测试。</p>\n<p><a href=\"https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href=\"https://twitter.com/Scroll_ZKP/status/1632813708174041088\">内容来源</a><p><strong>Suji Yan（ Mask Network 创始人）：</strong>迫不及待地想在更多社交应用程序中使用 Scroll 和 zkEVM。【原文为英文】</p><a href=\"https://twitter.com/suji_yan/status/1632825254958739456\">内容来源</a><p><strong>头等仓：</strong>Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。</p><a href=\"https://twitter.com/firstvip61/status/1632920805687562240\">内容来源</a>",
           "link": "https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation",
           "publishedOn": "2023-03-07T01:21:08.000Z",
-          "wordCount": 64359,
+          "wordCount": 63452,
           "title": "以太坊扩容项目 Scroll 完成 5000 万美元融资",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/02/20230227_Scroll_News-1200x675.jpg"
         },
@@ -267,7 +267,7 @@
           "description": "<h3>Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请</h3>\n<p>Web3 通信协议 WalletConnect 宣布推出 Web3 信息传递应用 Web3Inbox，支持钱包间的聊天和推送通知服务，等待名单已开放申请。\n此前消息，WalletConnect 宣布正在为 Web3 构建信息传递协议，第一步是连接 Web3 生态系统中所有不同的钱包和应用程序，下一步是使这些钱包的用户在不同的链上使用不同的钱包相互聊天。</p>\n<p><a href=\"https://twitter.com/WalletConnect/status/1632536852367577090\">内容来源</a></p><hr><h3>观点：</h3><p><strong>WalletConnect：</strong>等待名单申请地址：https://web3inbox.com/</p><a href=\"https://twitter.com/WalletConnect/status/1632536852367577090\">内容来源</a>",
           "link": "https://twitter.com/WalletConnect/status/1632536852367577090",
           "publishedOn": "2023-03-07T01:08:23.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请",
           "imageUrl": null
         },
@@ -397,7 +397,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Fantom 原生稳定币 fUSD 即将迎来 v2 升级，允许使用 fUSD 支付链上交易费用。Fantom 生态 TVL 排名前三的去中心化交易所 Equalizer 团队成员 levy 以 Equalizer 为例，设想了 fUSD 将如何与生态项目结合，创造新的增长飞轮。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">https://twitter.com/levysaur/status/1632462908549664768</a></p>\n<p><strong>文章作者：</strong></p><p>levy</p><hr><h3>观点：</h3><p><strong>levy：</strong>fUSD 的一个关键特征是它可以使用 wFTM 和 sFTM 进行铸造。目前有 14 亿以上的质押的 FTM（约 5.8 亿美元），这 5.8 亿美元的闲置资产可以在 300% 的抵押率下，铸造 2 亿美元的 fUSD。由于当前 FTM 的 TVL 只有 4.58 亿美元，在生态系统中注入 2 亿美元的 fUSD 意味着 43% 的增长。【原文为英文】</p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">内容来源</a><p><strong>levy：</strong>Equalizer 作为 Fantom 生态的去中心化交易所，可以在以下方面利用 fUSD 获得效益：1. 提供使用 fUSD 购买其他项目代币的服务；2. 开启 fUSD LP 流动性挖矿以获得更多 TVL；3. 在 dApp 中使用 fUSD 获得共同增长；4.fUSD 用于借贷，例如在 Tarot Finance 中获得杠杆。【原文为英文】</p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">内容来源</a>",
           "link": "https://twitter.com/levysaur/status/1632462908549664768",
           "publishedOn": "2023-03-06T05:09:01.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】Fantom 原生稳定币 fUSD 如何成为生态催化剂：以 Equalizer DEX 为例",
           "imageUrl": null
         },
@@ -527,7 +527,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">https://twitter.com/blockomotive/status/1631996549214482432</a></p>\n<p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a>",
           "link": "https://twitter.com/blockomotive/status/1631996549214482432",
           "publishedOn": "2023-03-05T08:00:08.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】ERC4337 的两个挑战：中心化与经济模型",
           "imageUrl": null
         },
@@ -577,7 +577,7 @@
           "description": "<h3>Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖将于 3 月 6 日开始</h3>\n<p>Yuga Labs 在推特发文称，TwelveFold 拍卖将于北京时间 3 月 6 日上午 7 时开始，3 月 7 日上午 7 时结束，持续 24 小时。TwelveFold 是 Yuga Labs 推出的基于 Ordinal 协议的比特币 NFT 系列，包含 300 件限量版生成艺术作品，本次拍卖总共将拍卖 288 个 NFT。</p>\n<p><a href=\"https://twitter.com/yugalabs/status/1632162026641342469\">内容来源</a></p><hr>",
           "link": "https://twitter.com/yugalabs/status/1632162026641342469",
           "publishedOn": "2023-03-05T02:52:16.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖将于 3 月 6 日开始",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 LSD 领域的主要参与者有 LidoFinance、StakeWise、pStake Finance 等。市值较小的项目尚未受到市场关注。加密货币研究员 CryptoBlooom 简述了 LSD 概念，并从产品功能、风险等方面介绍了小市值 LSD 项目 -- Liquid Finance 。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptoblooom/status/1631652512330817538\">https://twitter.com/cryptoblooom/status/1631652512330817538</a></p>\n<p><strong>文章作者：</strong></p><p>CryptoBlooom</p><hr><h3>观点：</h3><p><strong>CryptoBlooom：</strong>产品：Liquid Finance 旨在通过 FraxFinance 的部分准备金模型为 DeFi 提供流动性。lqETH 和 LIQD 的双代币系统使项目能够稳定 lqETH 的价格。该协议将在增长阶段收集与 ETH 、 BTC 和 DAI 配对的 lqETH 的 LP，以从更广泛市场中的定价低效中捕获 MEV，并无限期地维持协议的收入。此外，还能够从闪电贷的定价低效中捕获 MEV。【原文为英文】</p><a href=\"https://twitter.com/cryptoblooom/status/1631652512330817538\">内容来源</a><p><strong>CryptoBlooom：</strong>风险：团队是匿名的，找不到关于他们的任何信息；代币供应无上限。官方文档声称技术在模拟中经过了实战测试，然而 Luna 当时也有同样的说法，而它最后崩盘了。【原文为英文】</p><a href=\"https://twitter.com/cryptoblooom/status/1631652512330817538\">内容来源</a>",
           "link": "https://twitter.com/cryptoblooom/status/1631652512330817538",
           "publishedOn": "2023-03-04T06:59:54.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】新项目前瞻｜市值小于一百万的 LSD 项目：Liquid Finance",
           "imageUrl": null
         },
@@ -837,7 +837,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 546,
+          "wordCount": 533,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 659,
+          "wordCount": 669,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -2039,6 +2039,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/beed8f08.html",
+          "author": null,
+          "description": "PANews 3月7日消息，据TechCrunch报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/beed8f08.html",
+          "publishedOn": "2023-03-07T15:00:21.000Z",
+          "wordCount": 1206,
+          "title": "游戏公司Believer完成5500万美元融资，Lightspeed领投，a16z等参投",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/w46exwyk.html",
           "author": null,
           "description": "PANews 3月7日消息，加密KOL、DeFi 研究员 Ignas 表示，Three Arrows Capital 创始人 Su Zhu 和 Kyle Davies 等人创办的加密索赔交易和衍生品的公共市场“OPNX”已经筹集了 2500 万美元。Zhu Su 转发了该推文。另外，OPNX 将收购 CoinFLEX 的所有资产，包括人员、技术和代币。FLEX 将是他们的主要代币。可能的品牌重塑为：将以 1:1 的比例交换（无锁定），类似于 AAVE/LEND 品牌重塑。\nOPNX 将对类似的破产索赔进行分组，并将其代币化，这些代币化索索赔在订单簿交易所进行交易。OPNX 将允许以破产债权作为抵押品对主要资产进行永续合约交易。",
@@ -2064,7 +2074,7 @@
           "description": "PANews 3月7日消息，据The Block报道，连续创业者、前美国驻奥地利大使 Trevor Traina 为一款名为 Kresus 的 web3 超级应用筹集了 2500 万美元。A 轮融资由 Liberty City Ventures 领投。其他支持者包括 Franklin Templeton、JetBlue Ventures 和 Salesforces 的 Marc Benioff。这些资金将用于继续构建该应用程序，并促进招聘工作和关键合作伙伴关系。\nKresus 的网站将这款尚未推出的应用描述为“部分交换、部分钱包和部分指南”。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/7p7mj5a0.html",
           "publishedOn": "2023-03-07T13:37:23.000Z",
-          "wordCount": 1182,
+          "wordCount": 1186,
           "title": "Web3超级应用Kresus完成2500万美元A轮融资，Liberty City Ventures领投",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -2104,7 +2114,7 @@
           "description": "PANews 3月7日消息，加密交易所CoinFLEX发布公告称，重组申请已获得塞舌尔法院的批准。CoinFLEX预计法院将在本周公布书面命令。锁定资产（LUSD、LETH 等）的交易已停止。CoinFLEX希望尽快实施重组，并在法院命令发布后24小时内不会重启锁定资产交易，以便让所有锁定资产持有人充分了解情况。CoinFLEX将在收到书面法庭命令后详细说明后续步骤。\n加密交易所CoinFLEX于去年8月在塞舌尔法院申请重组。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/fd9mve0c.html",
           "publishedOn": "2023-03-07T12:25:21.000Z",
-          "wordCount": 1108,
+          "wordCount": 1111,
           "title": "CoinFLEX的重组申请已获得塞舌尔法院的批准",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -2274,7 +2284,7 @@
           "description": "GoSleep是一款结合GameFi、SocialFi和HealthFi的Web3生活方式应用程序，将根据用户提供的睡眠模式数据，为用户提供个性化睡眠建议，用户可以养成良好的睡眠方式可获得奖励(即sleep to earn) ,  该项目是X To Earn商业模式的又有一个创新应用，2023年2月22日 Gosleep已在Arbitrum上正式上线，GoSleep或将开启 “x to earn” 的新篇章。\n人一生中约有1/3的时间都在睡眠中度过，但如今，失眠已经成为了一个影响现代人健康的困扰。据健康卫生权威公布的数据显示，全球成年人中有六成以上存在睡眠问题，四分之一的成年人失眠，而且年轻人群体比例逐渐增高。\n地球上所有的生物都有“生物钟”，睡眠生物钟是人类长期以来形成的“昼夜睡眠节律”，不规律的睡眠作息会导致生物钟紊乱，相当于使身体器官在下班的时候工作，在工作的时候下班。最终导致提前衰老、心血管疾病、甚至癌症等后果，睡眠问题也是引起每年大约10万起起车祸（估计造成1500人死亡）的重要原因，这可以与飞机和船只事故、核反应堆熔毁等许多灾难相提并论了。所以规律睡眠作息对于人非常的重要，人们面临的睡眠问题越来越多，但截止目前仍没有什么好的解决方案。GoSleep协议就致力于为解决人们面临的睡眠问题提供一项解决方案。\n\nGoSleep的解决方案\nGoSleep团队在深刻理解睡眠问题的基础上，为用户提供了一个基于个人睡眠数据的科学专业的睡眠助手，该睡眠助手基于真实的个人健康数据（从设备收集）、大数据和专业数据来支持GoSleep用户的睡眠问题解决旅程。用户可以很容易地理解他们遇到的问题，并与遇到同样睡眠问题伙伴以及GoSleep团队一起解决问题。\n良好的睡眠应该是一件快乐的、自然的、可以实现的事情，GoSleep凭借强大的游戏解决方案背景，推出了超越传统数据和时间管理工具的解决方案,依据强大的游戏和社交属性留住用户，用户在游戏中建立自己的虚拟睡眠环境，达到良好睡眠，又可以获得奖励，并相互学习和分享自己的睡眠经验。通过利用Web3技术，GoSleep让事情变得简单和可能，用户从拥有一个睡觉的卧室NFT开始，围绕这个NFT，GoSleep建立了非常多样化的功能，NFT完全由用户拥有。\n\nGoSleep的玩法  \nGoSleep的玩法和其他x to earn项目的玩法基本类似，想要参与游戏首先需要一个NFT，在GoSleep中这个NFT就是一个卧室。 \n基于NFT的睡眠室功能是GoSleep生态系统的基础。一切都从我们卧室NFT开始。通过拥有这个NFT，用户打开了GoSleep世界的入口。\n\n卧室NFT是一个动态的NFT。用户的游戏、社交、睡觉、得分都会从这个NFT中体现和积累。从这个NFT中，用户和自己朋友可以很清楚的了解用户之前的睡眠旅程具体是怎样的。由于NFT对于GoSleep整个生态来说非常的重要，其设计也很有美感。\n\nNFT类型\n不同的NFT在同样的睡眠游戏中会导致不同的结果。\nGoSleep根据用户持有的NFT的类型授予用户不同的服务，但所有用户都是从最低级别获得必要的服务，项目又对不同的更高级别NFT提供递增的增值服务。\n免费NFT：赚取游戏代币，要求其他用户；高级NFT：赚取游戏代币，要求其他用户，升级，与其他NFT结合，修复耐久度。\n\nNFT稀有度\n从低到高，五个稀有度分别是免费、普通、稀有、史诗和传奇。通过NFT的稀有度识别具有不同需求的用户。稀有度高的用户往往期待更好的服务和更多的玩法。NFT只有到最高的稀有度（传奇），NFT通过游戏生产的才是治理代币而不是游戏代币。\nGoSleep社区将不断为高级版和免费版制作新的NFT，项目提供设计了一个公平和可持续的机制，来支持NFT的内在价值。\n交易：与其他的NFT生态系统一样，交易是人们正常获得NFT的方式。 GoSleep提供了一个内部市场，用户可以在其中交易他们的NFT。GoSleep对每笔交易收取5%的交易费用。用户还可以使用OpenSea等外部市场来交易他们的NFT。\n升级：在游戏过程中，用户将获得代币。通过消耗他们赚取的游戏代币和material NFT，用户可以将他们的NFT升级到更高的稀有度。升级带来了可能性。一旦失败，用户将失去一个material NFT和所有消费代币，系统会自动挑选价值较低的NFT进行消耗。\n合并：用户可以由elemental NFT（例如床、枕头、窗帘等）通过合并生成新的高级NFT。用户可以不断迭代他们的卧室NFT，NFT是用户的代币和游戏结果的主要决定因素。\nNFT的level决定用户游戏获得代币的数量，让用户不断构建更高Level的NFT，从而收获更多的奖励。\nLevel：通过日常游戏，用户当前状态NFT不仅会产生代币，还会有升Level的进度，一旦达到最高Level，用户就可以将NFT升级到更高的稀有度。\nNFT 的Level分以下几个方面\n效率：效率是用户每次成功参与游戏会产生多少游戏代币 (NCT) 的基础值。例如，用户将根据他们的睡眠分数在每次睡眠中获得代币。这里的效率将作为决定范围内最终结果数量的参数发挥作用。\n舒适度：舒适度只会影响最稀有的NFT。这类似于效率，但决定了另一种类型的代币——治理代币 (ZZZ)。 治理Token向用户开放所有游戏玩法。\n幸运值：幸运值是NFT升级的关键，幸运值越高，升级成功的可能性就越大，用户还可以抵押Gov Tokens以提高升级的成功率。\n用户持有的NFT需要维护，设计了NFT的耐用性以实现用户不断参与游戏。\n维修：NFT在失去所有耐久度后需要修复。否则，NFT将不能在游戏中使用，例如生成代币。但即使NFT由于耐久度而无法使用，用户仍将保留NFT。\n成本：维修NFT需要消耗代币,用户通过修复NFT可以增加其Level。\n用户在加入项目的NFT后，首先授权GoSleep获取自己的睡眠等健康数据，基于用户的当前的具体睡眠情况，GoSleep会帮助用户识别、理解自己遇到的睡眠问题，然后用户使用GoSleep制定睡眠改善计划和目标，通过不断提供帮助，与用户一起通过游戏和社交轻松愉快的实现良好睡眠这一目标。\n用户将根据其睡眠计划的完成情况获得奖励。\nGoSleep提供了一个奖励系统，该系统结合了用户的睡眠分数（来自他们的睡眠计划、结果和质量），睡眠分数并不是代币奖励的唯一决定因素，睡眠分数、游戏结果和社交行为共同决定了用户最终能获得代币的数量。\n代币的产出数量主要由NFT的等级和稀有度决定， NFT等级越稀有、等级越高，用户在睡眠游戏中产生的代币数量就越多。\n用户设置睡眠计划后，睡眠分数将根据睡眠质量每天得出结果。睡眠分数和NFT条件决定了用户获得的代币数量。\n社交是GoSleep游戏玩法的重要组成部分，这对于用户建立良好睡眠也很重要。用户可以从第一天开始就邀请自己的朋友和家人加入睡眠社区。允许用户对朋友和家人进行分组，与他们竞争和分享，一起实现良好睡眠。\nGoSleep还设计了一种私人社交方式，用户可以建立亲密伴侣共同游戏。\nGoSleep还设计了一种私人社交方式，用户可以建立亲密伴侣共同“睡眠”，用户和亲密伴侣由共同的睡眠计划，各自有各自的NFT，这个设计是为同枕共睡眠的夫妻设计的。\n虽然睡眠问题多种多样，但总有一些人有类似的睡眠问题或睡眠计划，他们应该也可以相互帮助。\nGoSleep允许用户创建睡眠社交群组，用户可以自由加入睡眠组，从说早安和晚安开始，组内成员可以通过分享自己的睡眠数据，互相提供自己的睡眠数据和经验，互相帮助，互相学习。这有助于小组中的每个人更好的了解他们的睡眠问题，并从其他人那里发现立即即用的或更好的睡眠问题解决方案。\nGoSleep与当今大多数游戏和社交应用程序一样，允许用户在应用程序或跨应用程序中，在私人空间内或公共空间内共享他们的睡眠记录、睡眠阶段和代币奖励：睡个好觉，就分享你的成就！睡不好，就分享求助。\n睡眠追踪：GoSleep从大数据和可穿戴设备，可以轻松了解用户的睡眠行为。\n手机行为：诸如屏幕时间、使用情况等是非常直接的数据，可以用来识别用户当前是否在睡觉。通过手机行为可以了解用户的专注行为、反应速度等，可以了解用户的意识状态。除此之外，也从不同的角度了解用户的健康状况。\n可穿戴设备：Apple Watch、Fitbits等可穿戴设备要先进得多，可以不断、即时、持续地了解用户的健康状况和睡眠状况。项目方已经与可穿戴设备制造商建立了联系。将来，将专门为GoSleep的解决方案配备自己指定的设备。用户将从中获得更好的体验。\n大数据：在大数据的支持下，GoSleep向每个用户学习并与每个用户分享这些知识。\n使用Web3技术，用户在提供数据以实现分析的同时，仍然可以保持自己的完全数据所有权和匿名性。\n睡眠分数很重要，它揭示了用户的睡眠状况。睡眠评分主要考虑以下因素：\nØ 用户的睡眠计划和实际结果。\nØ 用户的整体睡眠质量。\nØ 用户的 NFT。\nØ 用户的游戏和社交活动。\n结合GoSleep对用户每次睡眠打分的所有因素来指导用户建立健康的睡眠习惯。\nGoSleep从用户那里收集数据并将其进行分析。从真实数据中挖掘可以让GoSleep深入全面了解用户睡眠的真实情况。其已经有成熟的方法可以从睡眠数据中进行学习分析，并科学地遵循众所周知且经过验证的睡眠数据分析模式。\n从不同的角度，GoSleep可以在从健康科学、用户行为和大数据中深度分析学习后，为项目的最终用户提供睡眠建议，引导用户建立健康的睡眠习惯。\nGoSleep团队在设计代币经济模型时采用了双币系统，分别是应用内产出的睡眠积分代币NGT和GoSleep生态系统的治理代币ZZZ。代币经济学模型使GoSleep的生态系统可持续发展,项目是循环代币经济学模型，从生成（赚取）到消费（支付/支出），代币总量保持在必要数量以下，以保持整体价值免受通货膨胀的影响。\n睡眠积分代币NGT作为应用内产出的代币，代币总量不设上限，用户使用GoSleep完成睡眠任务就可以获得NGT代币奖励。NGT在应用内有以下几点用途：\nNFT升级；\nNFT修复；\n开NFT宝箱；\n铸造新的NFT主要还是用于道具NFT的升级。\nZZZ作为GoSleep生态内的治理代币，总量为6亿枚。ZZZ的应用场景：\n锁仓ZZZ代币，获得治理投票权和Staking奖励。\n在应用内消耗，包括对NFT升级、铸造出新的NFT和质押提高NFT升品概率等；在GoSleep应用中，用户铸造新的NFT需要消耗一定数量的ZZZ代币和NGT代币。\n\n \n治理代币ZZZ的初始分配情况如下：\n\n核心团队\nCEO Dream：是一名成功的科技创业家，曾经创立一家面向特定市场的创业公司，并成为该领域的领军企业之一。他在技术领域有着超过10年的工作经验，先后就职于微软和Workday等知名企业。在过去15年中，他一直从事编程工作，对包括CRM、HCM、电子商务和区块链在内的不同技术栈有着深入的了解。\nCMO Jonathon：毕业于田纳西大学，是早期的区块链从业者，曾在多个区块链明星项目中担任市场负责人，包括Marlin Protocol、Abeatsgame和Realy Metaverse。他在NFT和区块链社区以及KOL和媒体资源方面拥有广泛的资源。\nCTO Frank：拥有超过8年的大型科技公司高级软件工程师工作经验，曾就职于微软等大型科技公司，对大型分布式系统、云技术和高频交易等领域有着广泛的知识。在过去几年中，他参与了多个Web3项目，包括SocialFi、NFT和区块链基础设施。\n\n路线图\n以下是Go Sleep项目的路线图：\n\n\n\n2022年Q4：社区建设、游戏玩法设计、NFT设计、应用程序开发、OG、Beta版发布\n2023年Q1：正式版本。Hypnos发布 启动平台IDOTGE\n2023年02月至04月：社交游戏、个人健康助手、DAO支持\n2024年Q1至Q4：构建健康生态系统、社区驱动的产品开发\n2023年2月28日Gosleep宣布完成200万美元融资，Foresight Ventures领投，CCC Capital、Amber Group、SevenX Ventures、KuCoin Ventures和Gate Labs等参投。\n\n参与机会\n“X to earn” 模式已出过几款爆款项目，Arbitrum还没有强的游戏项目，所以Gosleep有强大的先发优势。产品正在新一轮的内测阶段，项目立足于躺赚效应，用户参与门槛低、有发币和空投预期，且有诸多buff加持，GoSleep是否能成为Arbitrum生态中的爆款应用，我们会持续关注。\n2月22日和3月1日，星光版两轮5000个NFT已经Mint完毕，第二轮Mint价格为0.05555 ETH。Opensea上当前Starlight Edition地板价为0.079 ETH，Nightscaper Edition版NFT当前地板价0.7 ETH。\n3月3日到3月6日上午10:00（UTC）进行测试快照。项目将根据用户NFT的稀有度和等级将空投奖励设置为最高。游戏细节：3月6日快照中的地址将允许您通过导入钱包进入应用程序并在当天中午12:00（UTC）开始玩Gosleep。只有同时出现在起始和结束快照中的地址才有资格获得代币奖励。代币奖励将根据结束快照地址的NFT持有量计算。具体奖励详情请见： \n链接：https://medium.com/@gosleep1/gosleep-closed-beta-test-52be567177e9\n对于已经mint到NFT的稳健型投资者，现在可以选择卖出，稳稳赚到不错的收益，近期mint到的NFT收益超过50%了。\n为了获得更多家具抽奖票，建议把持有的NFT分到更多数量的钱包去。\n持有NFT可以获得项目的代币空投的机会，但不用分到更多的钱包去（对于空投分与不分是一样的）。\n如果持有NFT且看好后期行情，可以参与封闭测试（结束：3月17日上午10:00（UTC))，有机会获得更多空投机会。\n如果当前没有持有NFT, 且比较看好项目的激进投资者可以选择买入NFT，再参与上述活动以获得代币激励。\n\n \n项目风险\n\n\n“X to earn”模式已经火过一次，整个赛道缺乏强的增长点，热度衰退较大。用户对“X to earn”模式的庞氏影响较深。\n没有看到项目的反作弊机制的细节，没有很好的防止作弊行为的机制项目很难跑起来。\n代币经济模型上的独特创新略显不足。\nArbitrum生态链最火阶段已过，fomo情绪或不足。\n项目对外宣称融资200万，融资规模偏中等。",
           "link": "https://www.panewslab.com/zh/articledetails/8f76rtxng1f0.html",
           "publishedOn": "2023-03-07T07:30:30.000Z",
-          "wordCount": 1468,
+          "wordCount": 1466,
           "title": "一文详解Arbitrum最新X2E项目Gosleep：睡觉即赚钱",
           "imageUrl": "https://cdn-img.panewslab.com/panews/images/2luz0XvE85.jpg"
         },
