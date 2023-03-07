@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1007,
+          "wordCount": 1016,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -177,7 +177,7 @@
           "description": "<h3>Kraken 首席法务官 Marco Santori：Kraken 有望很快推出银行</h3>\n<p>加密交易所 Kraken 首席法务官 Marco Santori 在 The Scoop 播客中表示，Kraken 正在推进自己的银行计划，有望很快推出，且其银行关系是安全的。\n此前消息，加密货币交易所 Kraken 将终止其面向美国用户的加密货币质押服务，并支付 3000 万美元以了结 SEC 对其提供未注册证券的指控。</p>\n<p><a href=\"https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Marco Santori：</strong>未来几年里那些对如何为加密货币经济提供基础设施有新想法的人的路会走的非常艰难，但我并不认为美国对加密行业存在阴谋性打压。【原文为英文】</p><a href=\"https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place\">内容来源</a>",
           "link": "https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place",
           "publishedOn": "2023-03-07T01:46:09.000Z",
-          "wordCount": 63804,
+          "wordCount": 63680,
           "title": "Kraken 首席法务官 Marco Santori：Kraken 有望很快推出银行",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/03/20230301_BankruptCompanies_Kraken-1200x675.jpg"
         },
@@ -197,7 +197,7 @@
           "description": "<h3>以太坊扩容项目 Scroll 完成 5000 万美元融资</h3>\n<p>以太坊扩容项目 Scroll 完成 5000 万美元融资，Polychain Capital、红杉中国、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures 和启明创投参投。所筹资金将用于产品构建、启动主网及扩大生态系统。据知情人士表示，该轮融资估值达 18 亿美元。Scroll 联合创始人 Sandy Peng 表示，Scroll 主网预计将于未来三至四个月内推出，且他希望将其目前 60 人的团队规模增加至近 100 人。\nScroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goerli 上推出 Alpha 测试网，任何用户都可无许可地参与测试。</p>\n<p><a href=\"https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href=\"https://twitter.com/Scroll_ZKP/status/1632813708174041088\">内容来源</a><p><strong>Suji Yan（ Mask Network 创始人）：</strong>迫不及待地想在更多社交应用程序中使用 Scroll 和 zkEVM。【原文为英文】</p><a href=\"https://twitter.com/suji_yan/status/1632825254958739456\">内容来源</a><p><strong>头等仓：</strong>Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。</p><a href=\"https://twitter.com/firstvip61/status/1632920805687562240\">内容来源</a>",
           "link": "https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation",
           "publishedOn": "2023-03-07T01:21:08.000Z",
-          "wordCount": 63092,
+          "wordCount": 62968,
           "title": "以太坊扩容项目 Scroll 完成 5000 万美元融资",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/02/20230227_Scroll_News-1200x675.jpg"
         },
@@ -237,7 +237,7 @@
           "description": "<h3>Arweave 2.6 版本正式上线，难度和出块速度已趋于稳定</h3>\n<p>去中心化存储协议 Arweave 创始人 Sam Williams 发推特表示，Arweave 2.6 版本已上线，挖矿难度和出块速度已趋于稳定。\n\n据悉，Arweave 2.6 版本限制了计算密集型挖掘策略，使 Arweave 挖矿更加节能，同时激励矿工存储更多数据，从而产生更高效的存储市场。</p>\n<p><a href=\"https://twitter.com/samecwilliams/status/1632693912103014400\">内容来源</a></p><hr>",
           "link": "https://twitter.com/samecwilliams/status/1632693912103014400",
           "publishedOn": "2023-03-06T11:17:58.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Arweave 2.6 版本正式上线，难度和出块速度已趋于稳定",
           "imageUrl": null
         },
@@ -277,7 +277,7 @@
           "description": "<h3>隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放</h3>\n<p>隐私网络 Iron Fish 宣布开放空投 KYC，目前仅限参与 Pull Request 用户。接下来的几天里，将按顺序向第 1 阶段、第 2 阶段和第 3 阶段的积分用户开放。据悉，激励计划共计空投 94 万枚代币。此外，Iron Fish 将于 3 月 14 日上线主网，届时铸造完全私有的自定义资产、销毁、交易、挖矿和托管节点等功能均将可用。</p>\n<p><a href=\"https://twitter.com/ironfishcrypto/status/1632560634037518337\">内容来源</a></p><hr>",
           "link": "https://twitter.com/ironfishcrypto/status/1632560634037518337",
           "publishedOn": "2023-03-06T07:57:15.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放",
           "imageUrl": null
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 0xShinChan 撰推解读 Y2K Finance 协议原理、协议机制和代币经济模型，并剖析其收益等绩效指标，以及如何监控 Y2K 上的「聪明钱」。该 KOL 认为 Y2K 的低风险商业模式可以随着存款的增加而提高盈利能力，吸引寻求利润的交易者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">https://twitter.com/0xShinChannn/status/1632369004647157760</a></p>\n<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Y2K Finance 提供了一套针对外来挂钩市场而设计的链上结构化产品，用户可以对特定挂钩资产偏离其「公平隐含市场价值」的风险进行对冲、杠杆、投机和交易以获得利润，其提供 3 种主要产品：1）Earthquake：承担风险 / 防止潜在资产绕行的金库；2）Tsunami：抵押债务驱动的借贷市场；3）Wildfire：购买 / 出售代币化 Earthquake 头寸的市场。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a><p><strong>0xShinChan：</strong>协议机制：1）Earthquake 金库目前支持的锚定资产包括 DAI、FRAX、MIM、USDC 等。2）Earthquake 提供 2 个金库来应对不同的风险偏好，包括对冲金库和风险金库。3）每个金库由 3 个关键属性组成：Asset、Epoch、Strike。Asset：金库对冲的挂钩资产，Epoch：必须发生脱钩事件才能有效的操作周期，Strike：触发挂钩事件的价格阈值。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a><p><strong>0xShinChan：</strong>在没有脱钩的情况下：1）对冲头寸被清算，导致交易员们损失了全部 ETH，赢取了 $Y2K。2）风险金库获胜，交易者从对冲金库中收到与金库大小成比例的 $ETH ，加上 $Y2K 并减去费用。如果发生脱钩则与之相反。此外，Y2K 财政部收取存入对冲和风险金库的资金的 5% 作为费用。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a><p><strong>0xShinChan：</strong>绩效指标：自 2022 年 12 月下旬推出以来，Y2K 在 2.5 个月内产生了超过 52 万美元的收入。30% 的 Y2K 流通量被锁定。$USDT 是最常用的对冲资产，$USDC 是最常用的风险资产。其年化收益约为 250 万美元，市盈率为 32.4，相当疯狂的盈利预测。通过监控「聪明钱」发现两个最大的储户在一个星期的周期创造了超过 100%-200% 的 APR。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a>",
           "link": "https://twitter.com/0xShinChannn/status/1632369004647157760",
           "publishedOn": "2023-03-06T07:21:12.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】一文解读锚定资产定价风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<h3>全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任</h3>\n<p>据上海证券报报道，今年全国两会，全国人大代表、中国人民银行沈阳分行行长付喜国拟提交关于修改《中华人民共和国中国人民银行法》的建议。付喜国认为，应完善人民币管理职责，重新对法定人民币的表现形式和制作方式等内容在法律规定中进行界定，赋予数字人民币与实物人民币同等的法定地位；根据数字人民币的特性，全面详细规定数字人民币的发行方式、流通方式、监管方式等内容，防范虚拟货币风险，明确制作和发售数字代币的法律责任。</p>\n<p><a href=\"https://news.cnstock.com/news,bwkx-202303-5026233.htm\">内容来源</a></p><hr>",
           "link": "https://news.cnstock.com/news,bwkx-202303-5026233.htm",
           "publishedOn": "2023-03-06T01:46:45.000Z",
-          "wordCount": null,
+          "wordCount": 273,
           "title": "全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 20139,
+          "wordCount": 20156,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 557,
+          "wordCount": 549,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -907,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 665,
+          "wordCount": 644,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
