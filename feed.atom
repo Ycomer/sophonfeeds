@@ -2,10 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T10:44:39.900Z</updated>
+    <updated>2023-03-08T10:49:54.486Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一文看懂什么是BTC NFT以及未来潜力]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/d6rlbh0xot7w.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/d6rlbh0xot7w.html"/>
+        <updated>2023-03-08T10:40:07.000Z</updated>
+        <summary type="html"><![CDATA[春节过后，Web3行业最大的热点来源，不是L2新星Arbitrum的强势崛起、也不是两大新型王牌公链Aptos和Sui的明争暗斗。反而是来自Web3活化石的BTC。自从去年12月14日，Ordinals协议推出以来，截至3月6日，已经有超过30万枚NFT被铸造，而第一个使用Ordinals免费铸造的10K集合Bitcoin Punks在不到一天的时间内便被一抢而空。这在以前，几乎不敢想象，BTC一直以来，几乎就是迟缓和昂贵的代名词。
+人们除了关心比特币的价格走势以外，不会对它倾注更多的关注度。以至于比特币被戏谑为：“纯金打造的老爷车，最大价值就是在博物馆里展览。”
+但现在，BTC毫无疑问迎来了第二春。根据Dune显示，比特币NFT在今年2月迎来了高峰：
+链接：https://dune.com/dgtl_assets/bitcoin-ordinals-analysis
+
+可能到现在，还有许多人对「比特币生态繁荣」、「比特币出NFT」这些概念还一脸懵逼。接下来我们就一一为大家说明：
+如果用一句话来形容：BTC NFT就是基于BTC生态所发布的NFT产品。听上去，似乎和ETH NFT Polygon NFT没什么区别。
+但事实上，BTC链上NFT的发行，是基于BTC网络最小计量单位Sats（聪）来定义的。首先我们需要先了解下什么是Sats：比特币小数点后第8位的名称，与BTC比值为1亿:1，为了纪念Satoshi（中本聪）的伟大创举而以Sats命名。那么BTC网络上，是如何用Sats来发行NFT的呢？这里就不得不提一个协议：Ordinals。
+链接：https://ordinals.com/
+Ordinals是基于BTC网络的一种NFT协议，旨在为每satoshis（sat）分配唯一身份。通过使用Ord软件，该协议将数据添加到这些sats，并允许软件用户基于一个序数（ordinal numbers）系统来跟踪它们。换言之，Ordinal协议将比特币最小单位sats以NFT的形式表现出来，并为sats赋予了理由充分的交易价值和收藏价值。当最小单位成为新的炒作标的，某种程度上，也算对比特币做了一次扩容。
+自从Ordinals协议诞生后，用户就可以在比特币链上铭刻信息，包括文字/图片/音频/视频，从而创造出了比特币链上的NFT。
+就好比在一张1毛钱的货币上刻上你的名字和图片，这样，这张1毛钱就变成了Non - Fungible Token。譬如这编号为dd082adcb3aab2882185e3a2f927bbff53cf6ffe8ab472d57740ea9f95c0acdai0，就有以下的特征：这枚Sats被挖出的时间，百分位，名字，挖出的所在的区块还有稀缺度，等等，同时这枚Satoshi还被铭刻上了一张可视化的jepg，根据这些特征，你都可以很方便的寻找到它。这枚Sats也叫做Inscription 338381，也就是它是第338381号被篆刻的铭文。
+
+与智能合约相比有什么不同？
+通过上文，我们了解了BTC NFT的由来，那么它和当前市面上常规的ETH NFT等有何不同呢？首先我们需要先明确一下智能合约NFT的定义。
+Smart Contract NFT：如何实现唯一性&不可分割性：由整数构成的Token ID映射到包含NFT metadata（名字、描述、图片地址）的URL中，再以合约作为集合边界，于是通过合约地址→TokenID→metadata就可以一层层的将某个特定NFT检索到。
+Collection：用721或1155协议合约来进行NFT Collection的发行，转移。
+Metadata：通常存储在IFPS或中心化服务器，Collection的智能合约中有metadata的属性，设置metadata指向一个URL存储地址
+交易：通过Marketplace交易合约，将NFT转移权限授权给交易合约
+也就是说，一个NFT至少应该具备四种要素：唯一性、不可分割性、可转移性以及可描述性。我们来看看BTC NFT是如何实现的？
+唯一性：Ordinals序数理论：序数是按照聪被开采的顺序将其从0开始编号，第一个区块中的第一个聪的序号为 0，第二个聪的序号为 1，最后一个聪的序号为 4999999999，从而每个聪具备了ID属性。
+不可分割性：上文可知，Sats是BTC最小单位，无法再被拆分。
+可转移性：将交易输入中的聪按先进先出的顺序转移到输出sats，从而实现定向转移。但目前交易过程，由于没有智能合约，因此需要一个中心化的平台来充当仲裁者。
+可描述性：存储在BTC链上，因此有大小限制。因铭文在链上，无法引用链下内容，所以无法被修改，而不像是以太坊NFT通过链下的IPFS或者AWS中去索引，但也因无智能合约等问题所以铭文无法支持链上版税。
+硬件要求
+电脑1t以上固态硬盘，一般大家都会用自己的个人电脑去安装比特币全节点，除去自己使用的空间外，至少还需要600g的空间存放比特币区块。
+正常的网络环境，同步需要时间比较长， 大概需要10个小时左右，国内用户可能需要翻墙，或者需要更长的时间。
+流程
+需要下载BitCoin Core并同步全节点 ，500Gb+空间；
+需要下载Ordinal并创建Ordinal钱包；
+使用ord协议的指令进行Satoshi的刻画；
+转入BTC到钱包。
+设置铸造机器人：方便铸造和接收订单。
+铸造NFT：可以很简单地上传图片/音频/视频，让机器人帮我们铸造成NFT。文件大小越大，铸造所需要花费的汽油费越多，则越贵。
+铸造Sats域名：比特币上的域名购买一次，永久免费，不需要每年续费。
+https://docs.sats.id/sats-names/about
+设置铭文，比特币的铭文可以是一个图片，也可以是一个txt文档，下面以txt文档为例，铸造一个sats域名。
+打开‘文本编辑’这个自带的软件，输入sats官方要求的内容
+格式-制作纯文本，然后保存为txt文件，复制文件保存的路径。
+在ordinals命令窗口中，输入 ./ord wallet inscribe ‘文件路径’ - - fee -rate <当前费率>。可以在这里查看当前的最优先费率。这里要注意，一定要手动设置费率，因为默认的费率是1，不设置会被卡住无法确认交易。
+https://hub.cryptocell.guru/ordinalsturbo/
+等待区块确认，运行 ./ord wallet inscriptions 即可查看铭文信息。或者去ordinals官网也能看到最新的信息。
+以上流程为全节点搭建的BTC NFT铸造方法，这样做的前提需要用户在自己的电脑上同步BTC的全节点，尽管很麻烦，但能够减少铸造过程中的手续费损耗，也有利于深度参与之后的BTC NFT生态。
+如果用户认为搭建全节点太过麻烦，事实上，目前业内也已经有许多第三方的节点来替代铸造。比如：ordinalsbot、Gamma、unisat_wallet等等。这些第三方的好处在于用户能很简化铸造流程，但也意味着需要支付更多的手续费和产品服务费。关于这些产品的说明在下文中有所阐述。
+（1）Yuga Labs：NFT领域最强IP缔造者Yuga Labs官宣一项计划：将基于Ordinal协议在比特币区块链上推出NFT系列TwelveFold。TwelveFold基于12 x 12大小的网格，这是比特币区块链数据制图的视觉寓言。此外，与BAYC等PFP此列不同，构成TwelveFold系列的作品由Yuga Labs的艺术团队使用3D建模、算法构造和高端渲染工具在内部制作，以致敬目前手工完成的序号铭文。
+链接：https://yuga.com/
+（2）DeGodsNFT：Solana生态NFT项目DeGods已经将其535个NFT在Solana链上销毁，并利用Ordinals协议在比特币链上一个单独的区块中铸造为“铭文”（inscription）
+链接：https://degods.com/
+（3）Crypto Punks：Crypto Punks是第一个在比特币网络发行NFT的项目，目前BAYC也考虑在比特币中发行NFT。
+链接：https://bitcoinpunks.com/
+（4）Gamma.io: Gamma平台旨在将收藏家、创作者和投资者聚集在比特币生态系统中。该平台由NFT市场、Launchpad以及社交互动三个核心产品组成。用户可以使用Gamma机器人提供的工具铸造NFT，解决了在比特币网路上创建NFT技术门槛较高、复杂且耗时的痛点。
+链接：https://gamma.io/
+（5）Ordinals Bot: Ordinals Bot同样也是一款在Ordinals协议上铸造比特币NFT的工具，该工具可免去用户在铸造比特币NFT时运行比特币节点的麻烦。玩家可以上传你需要铸造的NFT文件，填写你需要接收的NFT地址（地址建议是bc1开头），点击"Submit & Pay Invoice"后会弹出付款地址和付款二维码，付款即可。这个比较友好的是付款支持闪电网络和比特币主网。因为比特币网络较慢，所以付款之后可能10～60分钟才可能会正式被网络确认生效。
+链接：https://ordinalsbot.com/
+（6）Stacks：Stacks是一个由比特币建设者发起的开源项目，是可使用智能合约的比特币Layer 2。严格意义上来讲，任何能在以太坊、Solana上构建的，都可以在Stacks L2s上构建。目前Stacks L2上的合约已锁定了2.5亿美元，并已向用户发放了2200枚比特币作为奖励。Stacks今年即将推出的下一版本将增加一个去中心化的BTC锚定，可以轻松实现将BTC转入或转出Stacks L2。
+链接：https://www.stacks.co/
+（7）getAlby：支持比特币闪电网络支付
+链接：https://getalby.com/
+（8）Xverse：支持BTC NFT储存
+链接：https://www.xverse.app/
+目前基于BTC NFT概念诞生的项目非常丰富，本文在此汇总几个标杆性的项目代表。veDAO研究院接下来会发布关于更详细的BTC NFT生态汇总，敬请期待。
+尽管BTC NFT生态非常繁荣，但目前比特币板块的融资情况却不容乐观。截止到2月22日，据The Block的数据，过去一年目前比特币生态只有5亿美元，和整个行业近300亿美元融资总额相比，实在不符合比特币作为区块链霸主的身份。
+除了融资问题以外，当前BTC NFT也有诸多诟病：
+首先是门槛奇高：
+内存需求高；
+操作流程繁琐；
+Gas昂贵，消耗资金量大，小玩家难以负担。
+其次，被BTC原教旨主义者所抵制：
+上文所讲，将Sats赋予价值和意义，某种程度上算是一种为BTC扩量的行为，这会让许多BTC原教旨主义者认为影响了BTC的稀缺性。
+此外，将比特币赋予NFT的功能，也被BTC原教旨主义者视为违背了比特币白皮书所倡导的精神内核。
+但不论怎么样，此次Ordinals的NFT创新，一定程度上也是对古老比特币未来发展路径的一种新颖的尝试，再加上btb生态本身资金体量巨大，随着比特币生态逐渐被重视，比特币内部所积蓄的潜力也将被进一步释放。
+@Jason_chen998
+@CH_909]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一文看懂什么是BTC NFT以及未来潜力]]></title>
         <id>https://www.panewslab.com/zh/articledetails/d6rlbh0xot7w.html</id>
@@ -290,6 +372,18 @@ Aura 作为 Balancer 生态的龙头，和 Balancer 的发展是相辅相成的�
 本质原因在于其资本效率优于传统的流动性奖励模式，也优于同赛道的 Convex。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据解读以太坊质押赛道：市场份额、增长率、节点运营商表现…]]></title>
+        <id>https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E</id>
+        <link href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E"/>
+        <updated>2023-03-08T09:47:09.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>去中心化交易平台 DODO 旗下加密研究机构 Dr.DODO 根据自建 Dune 数据面板、引用多个数据源，对 LSD 赛道数据进行详尽分析，平行对比分析 LSD 第一第二梯队项目。并从市场份额、市场增长率、节点运营商表现、折价表现、LSD 用处去向等多种数据维度，分析展现 LSD 赛道的市场现状。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E</a></p>
+<p><strong>文章作者：</strong></p><p>Dr.DODO</p><hr><h3>观点：</h3><p><strong>Dr.DODO：</strong>TL;DR：1）以太坊质押率较低，增量空间巨大，LSD 市场增长可持续；2）上海升级将打通 LSD 产品最后的提现环节，LSD 的锚定性和流动性将大幅提升；3）Lido 头部效应明显，复合增长率长时间处于高位，底层节点运营商竞争力强，DeFi 乐高丰富，综合来看竞争力最强，捕获了 LSD 大部分增量，是第一梯队龙头项目；4）第二第三梯队项目差距不大，之后将会迎来较大竞争；5）LSD 将带动整个 DeFi 板块，各种 DeFi 协议将围绕 LSD 展开竞争，LSD War 刚刚拉开序幕。</p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">内容来源</a><p><strong>Dr.DODO：</strong>1）增长率：Lido 增长率一直很高，大部分时间保持增长状态，并多次有大额质押带动巨额增长；Rocket Pool 增长率基本为正，近期波动收窄；Frax 一月到二月初增长率保持较高水平，近期增长率为负，表现不佳；Stakewise 大部分时间增长率较低或为负，市场竞争力差；2）节点运营商表现：Lido APR 保持第一；众包模式的 Rocket Pool 罚没较多，APR 相对较低；Ankr APR 表现最差。</p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">内容来源</a><p><strong>Dr.DODO：</strong>3）折价表现：stETH 在去年 Luna 崩盘等事件中有大幅脱锚情况，一段时间后回复锚定，总体来看能维持锚定。SETH2（Stakewise）类似；RETH（Stafi）波动较大；rETH（Rocket Pool）长期保持溢价且溢价有所上升；ankrETH 曾大幅折价，近期恢复锚定；frxETH 数据较少，早期波动较大；4）LSD 的用处去向：超过 50% 的 stETH 流动性被释放到 DeFi 协议中，三大去处：封装 stETH，享受质押收益的同时接入 DeFi；AAVE 抵押；Curve 挖矿。</p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
