@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-08 datetime="2023-03-08T10:18:13.000Z">2023-03-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-08 datetime="2023-03-08T10:18:13.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-08 datetime="2023-03-08T10:40:07.000Z">2023-03-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-08 datetime="2023-03-08T10:40:07.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,6 +42,98 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/d6rlbh0xot7w.html"
+                        open
+                      >
+                        <summary class="article-expander__title">一文看懂什么是BTC NFT以及未来潜力</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/d6rlbh0xot7w.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/images/4124ulGY05.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>春节过后，Web3行业最大的热点来源，不是L2新星Arbitrum的强势崛起、也不是两大新型王牌公链Aptos和Sui的明争暗斗。反而是来自Web3活化石的BTC。自从去年12月14日，Ordinals协议推出以来，截至3月6日，已经有超过30万枚NFT被铸造，而第一个使用Ordinals免费铸造的10K集合Bitcoin Punks在不到一天的时间内便被一抢而空。这在以前，几乎不敢想象，BTC一直以来，几乎就是迟缓和昂贵的代名词。
+人们除了关心比特币的价格走势以外，不会对它倾注更多的关注度。以至于比特币被戏谑为：“纯金打造的老爷车，最大价值就是在博物馆里展览。”
+但现在，BTC毫无疑问迎来了第二春。根据Dune显示，比特币NFT在今年2月迎来了高峰：
+链接：https://dune.com/dgtl_assets/bitcoin-ordinals-analysis
+
+可能到现在，还有许多人对「比特币生态繁荣」、「比特币出NFT」这些概念还一脸懵逼。接下来我们就一一为大家说明：
+如果用一句话来形容：BTC NFT就是基于BTC生态所发布的NFT产品。听上去，似乎和ETH NFT Polygon NFT没什么区别。
+但事实上，BTC链上NFT的发行，是基于BTC网络最小计量单位Sats（聪）来定义的。首先我们需要先了解下什么是Sats：比特币小数点后第8位的名称，与BTC比值为1亿:1，为了纪念Satoshi（中本聪）的伟大创举而以Sats命名。那么BTC网络上，是如何用Sats来发行NFT的呢？这里就不得不提一个协议：Ordinals。
+链接：https://ordinals.com/
+Ordinals是基于BTC网络的一种NFT协议，旨在为每satoshis（sat）分配唯一身份。通过使用Ord软件，该协议将数据添加到这些sats，并允许软件用户基于一个序数（ordinal numbers）系统来跟踪它们。换言之，Ordinal协议将比特币最小单位sats以NFT的形式表现出来，并为sats赋予了理由充分的交易价值和收藏价值。当最小单位成为新的炒作标的，某种程度上，也算对比特币做了一次扩容。
+自从Ordinals协议诞生后，用户就可以在比特币链上铭刻信息，包括文字/图片/音频/视频，从而创造出了比特币链上的NFT。
+就好比在一张1毛钱的货币上刻上你的名字和图片，这样，这张1毛钱就变成了Non - Fungible Token。譬如这编号为dd082adcb3aab2882185e3a2f927bbff53cf6ffe8ab472d57740ea9f95c0acdai0，就有以下的特征：这枚Sats被挖出的时间，百分位，名字，挖出的所在的区块还有稀缺度，等等，同时这枚Satoshi还被铭刻上了一张可视化的jepg，根据这些特征，你都可以很方便的寻找到它。这枚Sats也叫做Inscription 338381，也就是它是第338381号被篆刻的铭文。
+
+与智能合约相比有什么不同？
+通过上文，我们了解了BTC NFT的由来，那么它和当前市面上常规的ETH NFT等有何不同呢？首先我们需要先明确一下智能合约NFT的定义。
+Smart Contract NFT：如何实现唯一性&amp;不可分割性：由整数构成的Token ID映射到包含NFT metadata（名字、描述、图片地址）的URL中，再以合约作为集合边界，于是通过合约地址→TokenID→metadata就可以一层层的将某个特定NFT检索到。
+Collection：用721或1155协议合约来进行NFT Collection的发行，转移。
+Metadata：通常存储在IFPS或中心化服务器，Collection的智能合约中有metadata的属性，设置metadata指向一个URL存储地址
+交易：通过Marketplace交易合约，将NFT转移权限授权给交易合约
+也就是说，一个NFT至少应该具备四种要素：唯一性、不可分割性、可转移性以及可描述性。我们来看看BTC NFT是如何实现的？
+唯一性：Ordinals序数理论：序数是按照聪被开采的顺序将其从0开始编号，第一个区块中的第一个聪的序号为 0，第二个聪的序号为 1，最后一个聪的序号为 4999999999，从而每个聪具备了ID属性。
+不可分割性：上文可知，Sats是BTC最小单位，无法再被拆分。
+可转移性：将交易输入中的聪按先进先出的顺序转移到输出sats，从而实现定向转移。但目前交易过程，由于没有智能合约，因此需要一个中心化的平台来充当仲裁者。
+可描述性：存储在BTC链上，因此有大小限制。因铭文在链上，无法引用链下内容，所以无法被修改，而不像是以太坊NFT通过链下的IPFS或者AWS中去索引，但也因无智能合约等问题所以铭文无法支持链上版税。
+硬件要求
+电脑1t以上固态硬盘，一般大家都会用自己的个人电脑去安装比特币全节点，除去自己使用的空间外，至少还需要600g的空间存放比特币区块。
+正常的网络环境，同步需要时间比较长， 大概需要10个小时左右，国内用户可能需要翻墙，或者需要更长的时间。
+流程
+需要下载BitCoin Core并同步全节点 ，500Gb+空间；
+需要下载Ordinal并创建Ordinal钱包；
+使用ord协议的指令进行Satoshi的刻画；
+转入BTC到钱包。
+设置铸造机器人：方便铸造和接收订单。
+铸造NFT：可以很简单地上传图片/音频/视频，让机器人帮我们铸造成NFT。文件大小越大，铸造所需要花费的汽油费越多，则越贵。
+铸造Sats域名：比特币上的域名购买一次，永久免费，不需要每年续费。
+https://docs.sats.id/sats-names/about
+设置铭文，比特币的铭文可以是一个图片，也可以是一个txt文档，下面以txt文档为例，铸造一个sats域名。
+打开‘文本编辑’这个自带的软件，输入sats官方要求的内容
+格式-制作纯文本，然后保存为txt文件，复制文件保存的路径。
+在ordinals命令窗口中，输入 ./ord wallet inscribe ‘文件路径’ - - fee -rate 。可以在这里查看当前的最优先费率。这里要注意，一定要手动设置费率，因为默认的费率是1，不设置会被卡住无法确认交易。
+https://hub.cryptocell.guru/ordinalsturbo/
+等待区块确认，运行 ./ord wallet inscriptions 即可查看铭文信息。或者去ordinals官网也能看到最新的信息。
+以上流程为全节点搭建的BTC NFT铸造方法，这样做的前提需要用户在自己的电脑上同步BTC的全节点，尽管很麻烦，但能够减少铸造过程中的手续费损耗，也有利于深度参与之后的BTC NFT生态。
+如果用户认为搭建全节点太过麻烦，事实上，目前业内也已经有许多第三方的节点来替代铸造。比如：ordinalsbot、Gamma、unisat_wallet等等。这些第三方的好处在于用户能很简化铸造流程，但也意味着需要支付更多的手续费和产品服务费。关于这些产品的说明在下文中有所阐述。
+（1）Yuga Labs：NFT领域最强IP缔造者Yuga Labs官宣一项计划：将基于Ordinal协议在比特币区块链上推出NFT系列TwelveFold。TwelveFold基于12 x 12大小的网格，这是比特币区块链数据制图的视觉寓言。此外，与BAYC等PFP此列不同，构成TwelveFold系列的作品由Yuga Labs的艺术团队使用3D建模、算法构造和高端渲染工具在内部制作，以致敬目前手工完成的序号铭文。
+链接：https://yuga.com/
+（2）DeGodsNFT：Solana生态NFT项目DeGods已经将其535个NFT在Solana链上销毁，并利用Ordinals协议在比特币链上一个单独的区块中铸造为“铭文”（inscription）
+链接：https://degods.com/
+（3）Crypto Punks：Crypto Punks是第一个在比特币网络发行NFT的项目，目前BAYC也考虑在比特币中发行NFT。
+链接：https://bitcoinpunks.com/
+（4）Gamma.io: Gamma平台旨在将收藏家、创作者和投资者聚集在比特币生态系统中。该平台由NFT市场、Launchpad以及社交互动三个核心产品组成。用户可以使用Gamma机器人提供的工具铸造NFT，解决了在比特币网路上创建NFT技术门槛较高、复杂且耗时的痛点。
+链接：https://gamma.io/
+（5）Ordinals Bot: Ordinals Bot同样也是一款在Ordinals协议上铸造比特币NFT的工具，该工具可免去用户在铸造比特币NFT时运行比特币节点的麻烦。玩家可以上传你需要铸造的NFT文件，填写你需要接收的NFT地址（地址建议是bc1开头），点击&quot;Submit &amp; Pay Invoice&quot;后会弹出付款地址和付款二维码，付款即可。这个比较友好的是付款支持闪电网络和比特币主网。因为比特币网络较慢，所以付款之后可能10～60分钟才可能会正式被网络确认生效。
+链接：https://ordinalsbot.com/
+（6）Stacks：Stacks是一个由比特币建设者发起的开源项目，是可使用智能合约的比特币Layer 2。严格意义上来讲，任何能在以太坊、Solana上构建的，都可以在Stacks L2s上构建。目前Stacks L2上的合约已锁定了2.5亿美元，并已向用户发放了2200枚比特币作为奖励。Stacks今年即将推出的下一版本将增加一个去中心化的BTC锚定，可以轻松实现将BTC转入或转出Stacks L2。
+链接：https://www.stacks.co/
+（7）getAlby：支持比特币闪电网络支付
+链接：https://getalby.com/
+（8）Xverse：支持BTC NFT储存
+链接：https://www.xverse.app/
+目前基于BTC NFT概念诞生的项目非常丰富，本文在此汇总几个标杆性的项目代表。veDAO研究院接下来会发布关于更详细的BTC NFT生态汇总，敬请期待。
+尽管BTC NFT生态非常繁荣，但目前比特币板块的融资情况却不容乐观。截止到2月22日，据The Block的数据，过去一年目前比特币生态只有5亿美元，和整个行业近300亿美元融资总额相比，实在不符合比特币作为区块链霸主的身份。
+除了融资问题以外，当前BTC NFT也有诸多诟病：
+首先是门槛奇高：
+内存需求高；
+操作流程繁琐；
+Gas昂贵，消耗资金量大，小玩家难以负担。
+其次，被BTC原教旨主义者所抵制：
+上文所讲，将Sats赋予价值和意义，某种程度上算是一种为BTC扩量的行为，这会让许多BTC原教旨主义者认为影响了BTC的稀缺性。
+此外，将比特币赋予NFT的功能，也被BTC原教旨主义者视为违背了比特币白皮书所倡导的精神内核。
+但不论怎么样，此次Ordinals的NFT创新，一定程度上也是对古老比特币未来发展路径的一种新颖的尝试，再加上btb生态本身资金体量巨大，随着比特币生态逐渐被重视，比特币内部所积蓄的潜力也将被进一步释放。
+@Jason_chen998
+@CH_909</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/yu6l0bnp.html"
                         open
                       >
@@ -3062,6 +3154,1097 @@ SD 激励数量取决于节点运营商每月质押的 SD 比例（每个验证�
 节点运营商可以无抵押借入 SD 用于质押。借出 SD 的人可以获得 10% 的节点佣金，并获得额外的 SD 激励。（了解更多）
 ETHx 质押将推动对 SD 代币的需求，因为它是运行节点的要求之一。正如@NagatoDharma 指出的那样，SD 价格仍比其 ICO 的 3.3 美元低 65%。在当前 TVL 为 115M 的情况下， SD 代币可能被低估了。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ChainFeeds精选</button>
+                  <a class="source-heading__link" href="">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E"
+                        open
+                      >
+                        <summary class="article-expander__title">数据解读以太坊质押赛道：市场份额、增长率、节点运营商表现…</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mirror-media.imgix.net/publication-images/aEv4tGb5ylOY1m3GIvq5R.png?height&#x3D;512&amp;width&#x3D;1024&amp;h&#x3D;512&amp;w&#x3D;1024&amp;auto&#x3D;compress" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+去中心化交易平台 DODO 旗下加密研究机构 Dr.DODO 根据自建 Dune 数据面板、引用多个数据源，对 LSD 赛道数据进行详尽分析，平行对比分析 LSD 第一第二梯队项目。并从市场份额、市场增长率、节点运营商表现、折价表现、LSD 用处去向等多种数据维度，分析展现 LSD 赛道的市场现状。
+文章来源：
+https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E
+文章作者：
+Dr.DODO
+
+观点：
+Dr.DODO：TL;DR：1）以太坊质押率较低，增量空间巨大，LSD 市场增长可持续；2）上海升级将打通 LSD 产品最后的提现环节，LSD 的锚定性和流动性将大幅提升；3）Lido 头部效应明显，复合增长率长时间处于高位，底层节点运营商竞争力强，DeFi 乐高丰富，综合来看竞争力最强，捕获了 LSD 大部分增量，是第一梯队龙头项目；4）第二第三梯队项目差距不大，之后将会迎来较大竞争；5）LSD 将带动整个 DeFi 板块，各种 DeFi 协议将围绕 LSD 展开竞争，LSD War 刚刚拉开序幕。
+内容来源
+Dr.DODO：1）增长率：Lido 增长率一直很高，大部分时间保持增长状态，并多次有大额质押带动巨额增长；Rocket Pool 增长率基本为正，近期波动收窄；Frax 一月到二月初增长率保持较高水平，近期增长率为负，表现不佳；Stakewise 大部分时间增长率较低或为负，市场竞争力差；2）节点运营商表现：Lido APR 保持第一；众包模式的 Rocket Pool 罚没较多，APR 相对较低；Ankr APR 表现最差。
+内容来源
+Dr.DODO：3）折价表现：stETH 在去年 Luna 崩盘等事件中有大幅脱锚情况，一段时间后回复锚定，总体来看能维持锚定。SETH2（Stakewise）类似；RETH（Stafi）波动较大；rETH（Rocket Pool）长期保持溢价且溢价有所上升；ankrETH 曾大幅折价，近期恢复锚定；frxETH 数据较少，早期波动较大；4）LSD 的用处去向：超过 50% 的 stETH 流动性被释放到 DeFi 协议中，三大去处：封装 stETH，享受质押收益的同时接入 DeFi；AAVE 抵押；Curve 挖矿。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资
+据美 SEC 官网公告，以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资，目前已筹集近 5600 万美元。
+此前报道，2 月 4 日，据 The Block 引援消息人士报道，以太坊重质协议 EigenLayer 正在筹集 5000 万美元的 A 轮融资，该轮融资将为 EigenLayer 提供 2.5 亿美元的融资后股权估值和 5 亿美元的代币估值或完全稀释估值（FDV）。消息人士称，该轮融资早在去年 11 月 FTX 交易所崩溃事件之前已经开始，预计将很快完成。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml"
+                        open
+                      >
+                        <summary class="article-expander__title">以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资
+据美 SEC 官网公告，以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资，目前已筹集近 5600 万美元。
+此前报道，2 月 4 日，据 The Block 引援消息人士报道，以太坊重质协议 EigenLayer 正在筹集 5000 万美元的 A 轮融资，该轮融资将为 EigenLayer 提供 2.5 亿美元的融资后股权估值和 5 亿美元的代币估值或完全稀释估值（FDV）。消息人士称，该轮融资早在去年 11 月 FTX 交易所崩溃事件之前已经开始，预计将很快完成。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/"
+                        open
+                      >
+                        <summary class="article-expander__title">理解 Curve 的正确姿势：头部流动性市场的业务现状、生态发展、护城河及估值对比</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://research.mintventures.fund/wp-content/uploads/2022/03/WechatIMG17.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Mint Ventures 研究伙伴 Alex Xu 撰写的 Curve 研报，着重从流动性市场角度对 Curve 的生态、护城河和估值进行研究，并与流动性市场的主要挑战者 Balancer 和 Aura 生态进行对比。
+文章来源：
+https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/
+文章作者：
+Alex Xu
+
+观点：
+Alex Xu：当下 Curve 已公布的未来产品里程碑，是稳定币产品 crvUSD 的上线以及交互 Gas 的持续优化（有利于被各类交易聚合器分配到更多小额交易）。其中 crvUSD 虽然采用超额抵押机制，但其分段清算的机制设计，很好地结合了 Curve 巨量流动性的优势，对整个加密市场都有稳定的作用，但截至目前，crvUSD 尚未公布具体上线时间表。
+内容来源
+Alex Xu：Curve 的核心业务是：现货交易；流动性的采购、分发和管理。现货交易是用户量最庞大、资金交换最频繁的加密商业场景。据 DeFillama 数据，2023 年 1 月 DEXs 月总交易量仅占加密资产现货总交易量的 7.21%。长期来看，DEXs 赛道将受益于：资产类别和交易总量的增加（行业 Beta）；对 CEXs 交易市场份额的逐渐蚕食（赛道 Alpha）。流动性市场的规模上涨同样受两个因素推动：整个加密世界总的资产类别和价值规模的增长；用户资金从中心化机构托管转向链上自管的趋势。
+内容来源
+Alex Xu：Curve 所在的 DeFi 领域的残酷竞争，远不止功能创新的赛跑、用户的激烈争夺，还在于代币发行机制的存在。Web3 项目引入代币机制最重要的价值是可以拥有灵活的货币政策选择，迅速扩张业务，争取比竞争对手更早形成「网络效应的领先」，从而构建起对于后来者的竞争壁垒。用自己的代币对业务的双边进行刺激，推动跨边网络效应尽快形成，是众多 Web3 项目，尤其是 DeFi 项目的起手式。
+内容来源
+Alex Xu：Curve 生态的各类伴生项目，对于 Curve 的主要价值是「产品功能和体验创新」的分包商，以及 CRV 锁仓体系的直接或间接维护者，而这两点正是 Curve 在 DEXs 和流动性市场这场「无限战争」中能否存活到「自然垄断形成」那一刻来临的关键要素。Curve 有良好的团队履约历史、执行力和安全记录，其主要发展风险来自于越来越激烈的市场竞争，以及生态内的利益协调，并要防范熊市时币价 - 业务负螺旋的可能性。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/"
+                        open
+                      >
+                        <summary class="article-expander__title">理解 Curve 的正确姿势：头部流动性市场的业务现状、生态发展、护城河及估值对比</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://research.mintventures.fund/wp-content/uploads/2022/03/WechatIMG17.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Mint Ventures 研究伙伴 Alex Xu 撰写的 Curve 研报，着重从流动性市场角度对 Curve 的生态、护城河和估值进行研究，并与流动性市场的主要挑战者 Balancer 和 Aura 生态进行对比。
+文章来源：
+https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/
+文章作者：
+Alex Xu
+
+观点：
+Alex Xu：当下 Curve 已公布的未来产品里程碑，是稳定币产品 crvUSD 的上线以及交互 Gas 的持续优化（有利于被各类交易聚合器分配到更多小额交易）。其中 crvUSD 虽然采用超额抵押机制，但其分段清算的机制设计，很好地结合了 Curve 巨量流动性的优势，对整个加密市场都有稳定的作用，但截至目前，crvUSD 尚未公布具体上线时间表。
+内容来源
+Alex Xu：Curve 的核心业务是：现货交易；流动性的采购、分发和管理。现货交易是用户量最庞大、资金交换最频繁的加密商业场景。据 DeFillama 数据，2023 年 1 月 DEXs 月总交易量仅占加密资产现货总交易量的 7.21%。长期来看，DEXs 赛道将受益于：资产类别和交易总量的增加（行业 Beta）；对 CEXs 交易市场份额的逐渐蚕食（赛道 Alpha）。流动性市场的规模上涨同样受两个因素推动：整个加密世界总的资产类别和价值规模的增长；用户资金从中心化机构托管转向链上自管的趋势。
+内容来源
+Alex Xu：Curve 所在的 DeFi 领域的残酷竞争，远不止功能创新的赛跑、用户的激烈争夺，还在于代币发行机制的存在。Web3 项目引入代币机制最重要的价值是可以拥有灵活的货币政策选择，迅速扩张业务，争取比竞争对手更早形成「网络效应的领先」，从而构建起对于后来者的竞争壁垒。用自己的代币对业务的双边进行刺激，推动跨边网络效应尽快形成，是众多 Web3 项目，尤其是 DeFi 项目的起手式。
+内容来源
+Alex Xu：Curve 生态的各类伴生项目，对于 Curve 的主要价值是「产品功能和体验创新」的分包商，以及 CRV 锁仓体系的直接或间接维护者，而这两点正是 Curve 在 DEXs 和流动性市场这场「无限战争」中能否存活到「自然垄断形成」那一刻来临的关键要素。Curve 有良好的团队履约历史、执行力和安全记录，其主要发展风险来自于越来越激烈的市场竞争，以及生态内的利益协调，并要防范熊市时币价 - 业务负螺旋的可能性。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/optimismFND/status/1633122710032113665"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/optimismFND/status/1633122710032113665">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本
+以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。
+
+对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/optimismFND/status/1633122710032113665"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/optimismFND/status/1633122710032113665">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本
+以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。
+
+对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】Gearbox V2 复盘：现状、评估与改进</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*n5WzDNeQFiA1SzfIPiZgfw.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。
+文章来源：
+https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6
+文章作者：
+mugglesect
+
+观点：
+mugglesect：Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】
+内容来源
+mugglesect：需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】Gearbox V2 复盘：现状、评估与改进</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*n5WzDNeQFiA1SzfIPiZgfw.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。
+文章来源：
+https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6
+文章作者：
+mugglesect
+
+观点：
+mugglesect：Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】
+内容来源
+mugglesect：需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】主权 zk-rollups 如何实现快速最终性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mirror-media.imgix.net/publication-images/3igGCuNxGljKaCvmnGwkQ.png?h&#x3D;800&amp;w&#x3D;800" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密领域存在广泛误解，认为 zk-rollups 的最终确定时间很长，且主权 rollups 无法与 L1 桥接。Sovereign Labs 解析了主权 zk-rollups 的交易证明机制，及其如何实现快速最终性。
+文章来源：
+https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y
+文章作者：
+Sovereign
+
+观点：
+Sovereign：对于大多数 zk-rollup，最大的开支之一是证明验证。太坊上的 rollup 可能会花费 300k 到 5m gas 来验证单个证明，因此当前大多数 zk-rollup 在提交证明之前会等待积累大量交易来降低每笔交易的成本。这带来了糟糕的用户体验。【原文为英文】
+内容来源
+Sovereign：解决方案：实时创建证明，使用递归将它们聚合成批量证明，然后通过 p2p 网络立即分发增量证明，轻客户端就会体验到快速的最终性。由于仍然只是在链上发布较慢的批量证明，因此不必再支付额外的链上验证费用。【原文为英文】
+内容来源
+Sovereign：如何选择一个规范的分叉？通过将 calldata 绑定回 L1 区块头，我们可以添加一条声明「我已经扫描了 DA 层的证明（从区块 X 开始到区块 Y 结束），并且这个证明建立在最近的有效证明之上」。这让我们可以直接证明分叉选择规则，而不是在客户端强制执行。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】主权 zk-rollups 如何实现快速最终性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mirror-media.imgix.net/publication-images/3igGCuNxGljKaCvmnGwkQ.png?h&#x3D;800&amp;w&#x3D;800" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密领域存在广泛误解，认为 zk-rollups 的最终确定时间很长，且主权 rollups 无法与 L1 桥接。Sovereign Labs 解析了主权 zk-rollups 的交易证明机制，及其如何实现快速最终性。
+文章来源：
+https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y
+文章作者：
+Sovereign
+
+观点：
+Sovereign：对于大多数 zk-rollup，最大的开支之一是证明验证。太坊上的 rollup 可能会花费 300k 到 5m gas 来验证单个证明，因此当前大多数 zk-rollup 在提交证明之前会等待积累大量交易来降低每笔交易的成本。这带来了糟糕的用户体验。【原文为英文】
+内容来源
+Sovereign：解决方案：实时创建证明，使用递归将它们聚合成批量证明，然后通过 p2p 网络立即分发增量证明，轻客户端就会体验到快速的最终性。由于仍然只是在链上发布较慢的批量证明，因此不必再支付额外的链上验证费用。【原文为英文】
+内容来源
+Sovereign：如何选择一个规范的分叉？通过将 calldata 绑定回 L1 区块头，我们可以添加一条声明「我已经扫描了 DA 层的证明（从区块 X 开始到区块 Y 结束），并且这个证明建立在最近的有效证明之上」。这让我们可以直接证明分叉选择规则，而不是在客户端强制执行。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/PeckShieldAlert/status/1633331896083181570"
+                        open
+                      >
+                        <summary class="article-expander__title">【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/PeckShieldAlert/status/1633331896083181570">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址
+据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。
+内容来源
+
+观点：
+glassnode：约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/PeckShieldAlert/status/1633331896083181570"
+                        open
+                      >
+                        <summary class="article-expander__title">【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/PeckShieldAlert/status/1633331896083181570">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址
+据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。
+内容来源
+
+观点：
+glassnode：约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd"
+                        open
+                      >
+                        <summary class="article-expander__title">Cobo 神鱼：历史就是你每天的经历</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/TOJicXicDckd4uevvgfoNhKGUu8LVCAFicGAOWgmUBGt66kYlD1PdEpWKBCzEGb5xtpicd4PiagzFVxFhPSCztrD6xg/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+近期，Cobo 联合创始人兼 CEO 神鱼接受了新加坡区块链新媒体平台 DeThings 专访，分享了对当前市场、FTX 事件影响、DeFi 创新、DEX 未来等多个话题的看法和底层思考。
+文章来源：
+https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd
+文章作者：
+DiscusFish
+
+观点：
+DiscusFish：当前市场：2022 年的这次熊市和以往几次熊市相比，我个人感觉，绝望程度是不够的 —— 和以前的绝望程度没法比。围绕着模块区块链和二层网络这样的扩容方案，也有一些早期的方案开始出现。所以，在行业未来和行业信心方面，这一轮的市场反倒没有像之前那样让那么多人萌生退意。
+内容来源
+DiscusFish：DeFi 创新：整个 DeFi 底层的金融框架是成熟了，上面可能还有大量的可组合性的金融创新，目前还不成熟，只是有一些少量的尝试。我觉得，未来 DeFi 的核心模块会退化成链上的典型协议，其他的一些应用像 NFT、GameFi 可以直接来调这些协议使用。
+内容来源
+DiscusFish：DEX 的未来：站在今天来看，FTX 的这个事情基本上标志着中心化交易所黄昏的到来。未来一段时间，会出现一些去中心化与中心化相结合的方式，去规避这些风险。甚至一些长尾的需求，我们就直接在去中心化去解决掉了，可能效率更高一些。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd"
+                        open
+                      >
+                        <summary class="article-expander__title">Cobo 神鱼：历史就是你每天的经历</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/TOJicXicDckd4uevvgfoNhKGUu8LVCAFicGAOWgmUBGt66kYlD1PdEpWKBCzEGb5xtpicd4PiagzFVxFhPSCztrD6xg/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+近期，Cobo 联合创始人兼 CEO 神鱼接受了新加坡区块链新媒体平台 DeThings 专访，分享了对当前市场、FTX 事件影响、DeFi 创新、DEX 未来等多个话题的看法和底层思考。
+文章来源：
+https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd
+文章作者：
+DiscusFish
+
+观点：
+DiscusFish：当前市场：2022 年的这次熊市和以往几次熊市相比，我个人感觉，绝望程度是不够的 —— 和以前的绝望程度没法比。围绕着模块区块链和二层网络这样的扩容方案，也有一些早期的方案开始出现。所以，在行业未来和行业信心方面，这一轮的市场反倒没有像之前那样让那么多人萌生退意。
+内容来源
+DiscusFish：DeFi 创新：整个 DeFi 底层的金融框架是成熟了，上面可能还有大量的可组合性的金融创新，目前还不成熟，只是有一些少量的尝试。我觉得，未来 DeFi 的核心模块会退化成链上的典型协议，其他的一些应用像 NFT、GameFi 可以直接来调这些协议使用。
+内容来源
+DiscusFish：DEX 的未来：站在今天来看，FTX 的这个事情基本上标志着中心化交易所黄昏的到来。未来一段时间，会出现一些去中心化与中心化相结合的方式，去规避这些风险。甚至一些长尾的需求，我们就直接在去中心化去解决掉了，可能效率更高一些。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHDenver 见闻及创业方向思考</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/pZlQgRmVmbKQWyib6dqtKgqpFOOTwga0Vmj5OPEriabQrNbmNticn5JgC2gOBEMzn592jcwhibaukKsVicSQleRdp8w/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+全球规模最大的 crypto 会议 ETHDenver 已结束。光源资本创始成员 Min 撰文总结了 ETHDenver 见闻以及由 ETHDenver 所激发的对 Web3.0 创业方向的思考。
+文章来源：
+https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig
+文章作者：
+xmin.eth
+
+观点：
+xmin.eth：ETHDenver：1）质量高，buidl 氛围浓厚。2）规模大，人次远超往届。3）讨论主题反映行业最新趋势和方向、明显主次有分。
+内容来源
+xmin.eth：创业方向的启发：1）Consumer Application。ZK、AA 如此火，都是为了降低用户进入门槛、降低交易成本同时保护安全、真正实现 massive adoption。2）Web3 Social。不管 dapp 还是 protocol，提供 web3-specific 的体验是制胜关键。3）Web3 Game。两个方向：onboard 更广泛的用户、带来更大流量、把游戏体验和消费跟金融模型结合；fully on-chain game，非常 web3 native 的，但是很难出圈。
+内容来源
+xmin.eth：4）Infra。specific for game/nft/defi 的 vertical chain 会是一个非常值得探索的方向，因为在具体的产品设计、生态运营和对项目方的深度孵化上，都会跟 general chain 不太一样。5）DeFi。虽然 DEX 依然是 Defi 里最好的垂直赛道，但做其他「有用的事儿」，解决用户的问题，也可以有不错的变现模式。6）与 AIGC 的结合。AI 目前实际可落地的几个方向主要是，AI 应用于 on-chain data analysis、chatGPT 使得前端交互更加友好；AI 应用于游戏领域等。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHDenver 见闻及创业方向思考</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/pZlQgRmVmbKQWyib6dqtKgqpFOOTwga0Vmj5OPEriabQrNbmNticn5JgC2gOBEMzn592jcwhibaukKsVicSQleRdp8w/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+全球规模最大的 crypto 会议 ETHDenver 已结束。光源资本创始成员 Min 撰文总结了 ETHDenver 见闻以及由 ETHDenver 所激发的对 Web3.0 创业方向的思考。
+文章来源：
+https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig
+文章作者：
+xmin.eth
+
+观点：
+xmin.eth：ETHDenver：1）质量高，buidl 氛围浓厚。2）规模大，人次远超往届。3）讨论主题反映行业最新趋势和方向、明显主次有分。
+内容来源
+xmin.eth：创业方向的启发：1）Consumer Application。ZK、AA 如此火，都是为了降低用户进入门槛、降低交易成本同时保护安全、真正实现 massive adoption。2）Web3 Social。不管 dapp 还是 protocol，提供 web3-specific 的体验是制胜关键。3）Web3 Game。两个方向：onboard 更广泛的用户、带来更大流量、把游戏体验和消费跟金融模型结合；fully on-chain game，非常 web3 native 的，但是很难出圈。
+内容来源
+xmin.eth：4）Infra。specific for game/nft/defi 的 vertical chain 会是一个非常值得探索的方向，因为在具体的产品设计、生态运营和对项目方的深度孵化上，都会跟 general chain 不太一样。5）DeFi。虽然 DEX 依然是 Defi 里最好的垂直赛道，但做其他「有用的事儿」，解决用户的问题，也可以有不错的变现模式。6）与 AIGC 的结合。AI 目前实际可落地的几个方向主要是，AI 应用于 on-chain data analysis、chatGPT 使得前端交互更加友好；AI 应用于游戏领域等。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;32
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/cryptokaduna/status/1633187498150215681"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/cryptokaduna/status/1633187498150215681">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。
+文章来源：
+https://twitter.com/cryptokaduna/status/1633187498150215681
+文章作者：
+Kaduna
+
+观点：
+Kaduna：用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】
+内容来源
+Kaduna：目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/cryptokaduna/status/1633187498150215681"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/cryptokaduna/status/1633187498150215681">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。
+文章来源：
+https://twitter.com/cryptokaduna/status/1633187498150215681
+文章作者：
+Kaduna
+
+观点：
+Kaduna：用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】
+内容来源
+Kaduna：目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth"
+                        open
+                      >
+                        <summary class="article-expander__title">Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://go.gitcoin.co/hubfs/01%20%E2%86%92%201200x600.jpg#keepProtocol" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资
+Gitcoin 和 Index Coop 合作推出 Gitcoin Staked ETH Index （gtcETH），可通过 ETH 质押奖励为 Gitcoin Grants 提供资金。 gtcETH 是一种 ERC-20 代币，代币持有者能够通过单一代币获得 ETH 流动质押代币，同时为公共物品筹资作出贡献，它将构建在 Index Protocol 上，并包含 Rocket Pool、Lido 和 StakeWise 的流动性质押代币。gtcETH 采用 dsETH 方法，该方法促进去中心化和流动性质押协议之间的竞争。
+内容来源
+
+观点：
+Kyle Weiss（Gitcoin联合创始人）：Index Coop 一直是创建新型指数代币的领导者，为市场领先协议和趋势提供敞口。gtcETH 是他们产品的绝佳补充，并确保当人们想为公共产品提供资金时，可以使用「设置和取消」选项。我们乐观地认为，随着池中价值的增长，这将为公共产品提供长期可持续的资金。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth"
+                        open
+                      >
+                        <summary class="article-expander__title">Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://go.gitcoin.co/hubfs/01%20%E2%86%92%201200x600.jpg#keepProtocol" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资
+Gitcoin 和 Index Coop 合作推出 Gitcoin Staked ETH Index （gtcETH），可通过 ETH 质押奖励为 Gitcoin Grants 提供资金。 gtcETH 是一种 ERC-20 代币，代币持有者能够通过单一代币获得 ETH 流动质押代币，同时为公共物品筹资作出贡献，它将构建在 Index Protocol 上，并包含 Rocket Pool、Lido 和 StakeWise 的流动性质押代币。gtcETH 采用 dsETH 方法，该方法促进去中心化和流动性质押协议之间的竞争。
+内容来源
+
+观点：
+Kyle Weiss（Gitcoin联合创始人）：Index Coop 一直是创建新型指数代币的领导者，为市场领先协议和趋势提供敞口。gtcETH 是他们产品的绝佳补充，并确保当人们想为公共产品提供资金时，可以使用「设置和取消」选项。我们乐观地认为，随着池中价值的增长，这将为公共产品提供长期可持续的资金。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/rubywxt1/status/1633256234341244929"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/rubywxt1/status/1633256234341244929">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。
+文章来源：
+https://twitter.com/rubywxt1/status/1633256234341244929
+文章作者：
+Rubywang.eth
+
+观点：
+Rubywang.eth：现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。
+内容来源
+Rubywang.eth：猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。
+内容来源
+Rubywang.eth：Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/rubywxt1/status/1633256234341244929"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/rubywxt1/status/1633256234341244929">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。
+文章来源：
+https://twitter.com/rubywxt1/status/1633256234341244929
+文章作者：
+Rubywang.eth
+
+观点：
+Rubywang.eth：现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。
+内容来源
+Rubywang.eth：猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。
+内容来源
+Rubywang.eth：Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jumpcrypto.com/bridging-and-finality-ethereum/"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】跨链应用如何权衡网络延迟和回滚风险：来自以太坊 PoS 共识机制的启示</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jumpcrypto.com/bridging-and-finality-ethereum/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://jumpcrypto.com/static/Blog---Bridging---Finality_-ETH-Blog--1--032e3b35294c8cf468fc2df5d919c39f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Jump Crypto 发布其跨链桥系列第二篇文章，分析了当前以太坊 PoS 共识主要阶段中针对网络延迟和回滚风险采取的机制，并总结了跨链应用可以从中得到的经验及需要额外注意的问题。
+文章来源：
+https://jumpcrypto.com/bridging-and-finality-ethereum/
+文章作者：
+John（Jump Crypto）
+
+观点：
+John（Jump Crypto）：区块提议：理想情况下，提案每 12 秒发生一次，但从存档的全节点历史来看，两次提议之间的间隔是一分钟。该阶段面临的风险是恶意提议者的双重提议。可以安全地使用区块提议来确认桥接交易的用例是不具有重大价值的服务，例如跨链电子邮件。【原文为英文】
+内容来源
+John（Jump Crypto）：GHOST 机制：LMD GHOST 的分叉选择规则被应用于提议的区块，随着子树的增长和证明权重的积累，回滚的风险会降低。但由于桥接交易可以包含独特形式的 MEV，因此可以为攻击者进行重组攻击提供额外的激励。【原文为英文】
+内容来源
+John（Jump Crypto）：Casper FFG：在 Casper 下的最终性是在证明之后通过额外的投票（32 个 slot 或 6.4 分钟）实现的。该阶段的回滚风险基本上归结为攻击者控制了 2/3 的验证者集合（按当前 ETH 价格计算，攻击成本约为 200 亿美元）。高风险的应用（如代币的桥接）应该要求尽可能高的安全水平。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jumpcrypto.com/bridging-and-finality-ethereum/"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】跨链应用如何权衡网络延迟和回滚风险：来自以太坊 PoS 共识机制的启示</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jumpcrypto.com/bridging-and-finality-ethereum/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://jumpcrypto.com/static/Blog---Bridging---Finality_-ETH-Blog--1--032e3b35294c8cf468fc2df5d919c39f.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Jump Crypto 发布其跨链桥系列第二篇文章，分析了当前以太坊 PoS 共识主要阶段中针对网络延迟和回滚风险采取的机制，并总结了跨链应用可以从中得到的经验及需要额外注意的问题。
+文章来源：
+https://jumpcrypto.com/bridging-and-finality-ethereum/
+文章作者：
+John（Jump Crypto）
+
+观点：
+John（Jump Crypto）：区块提议：理想情况下，提案每 12 秒发生一次，但从存档的全节点历史来看，两次提议之间的间隔是一分钟。该阶段面临的风险是恶意提议者的双重提议。可以安全地使用区块提议来确认桥接交易的用例是不具有重大价值的服务，例如跨链电子邮件。【原文为英文】
+内容来源
+John（Jump Crypto）：GHOST 机制：LMD GHOST 的分叉选择规则被应用于提议的区块，随着子树的增长和证明权重的积累，回滚的风险会降低。但由于桥接交易可以包含独特形式的 MEV，因此可以为攻击者进行重组攻击提供额外的激励。【原文为英文】
+内容来源
+John（Jump Crypto）：Casper FFG：在 Casper 下的最终性是在证明之后通过额外的投票（32 个 slot 或 6.4 分钟）实现的。该阶段的回滚风险基本上归结为攻击者控制了 2/3 的验证者集合（按当前 ETH 价格计算，攻击成本约为 200 亿美元）。高风险的应用（如代币的桥接）应该要求尽可能高的安全水平。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151"
+                        open
+                      >
+                        <summary class="article-expander__title">Aave 官方发布协议稳定币 GHO 创世参数提议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://europe1.discourse-cdn.com/standard21/uploads/aave/optimized/2X/4/4cbcbd7b999331a07ed3596f94edf9636749a201_2_1024x614.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Aave 官方发布协议稳定币 GHO 创世参数提议
+Aave 官方在治理论坛发布协议稳定币 GHO 创世参数研究提议，建议 GHO 在最初发布时的借款利率（BR）为 2% 至 2.5%；stkAAVE 贴现率（DR）为 25%，且由 AAVE 质押者铸造的 GHO 最高不超过总供应量的 25%；促进者供应上限为 5000 万或以太坊 V3 市场 25% 的活跃借贷量；DEX 流动性池目标为 1500 万美元 GHO 的稳定流动性池。Aave 提出了一个渐进式增长计划，将根据 DEX 流动性池规模大小调整上述数据。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151"
+                        open
+                      >
+                        <summary class="article-expander__title">Aave 官方发布协议稳定币 GHO 创世参数提议</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://europe1.discourse-cdn.com/standard21/uploads/aave/optimized/2X/4/4cbcbd7b999331a07ed3596f94edf9636749a201_2_1024x614.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Aave 官方发布协议稳定币 GHO 创世参数提议
+Aave 官方在治理论坛发布协议稳定币 GHO 创世参数研究提议，建议 GHO 在最初发布时的借款利率（BR）为 2% 至 2.5%；stkAAVE 贴现率（DR）为 25%，且由 AAVE 质押者铸造的 GHO 最高不超过总供应量的 25%；促进者供应上限为 5000 万或以太坊 V3 市场 25% 的活跃借贷量；DEX 流动性池目标为 1500 万美元 GHO 的稳定流动性池。Aave 提出了一个渐进式增长计划，将根据 DEX 流动性池规模大小调整上述数据。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/hhh69251498/status/1633027375398273024"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/hhh69251498/status/1633027375398273024">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。
+文章来源：
+https://twitter.com/hhh69251498/status/1633027375398273024
+文章作者：
+hhh_quickCreation
+
+观点：
+0xhhh：用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。
+内容来源
+0xhhh：黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。
+内容来源
+0xhhh：总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/hhh69251498/status/1633027375398273024"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/hhh69251498/status/1633027375398273024">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。
+文章来源：
+https://twitter.com/hhh69251498/status/1633027375398273024
+文章作者：
+hhh_quickCreation
+
+观点：
+0xhhh：用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。
+内容来源
+0xhhh：黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。
+内容来源
+0xhhh：总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/0xstrobe/status/1633228325576474626"
+                        open
+                      >
+                        <summary class="article-expander__title">DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0xstrobe/status/1633228325576474626">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为
+DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/0xstrobe/status/1633228325576474626"
+                        open
+                      >
+                        <summary class="article-expander__title">DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0xstrobe/status/1633228325576474626">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为
+DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/"
+                        open
+                      >
+                        <summary class="article-expander__title">美国破产法官批准币安以 13 亿美元收购 Voyager</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs&#x3D;/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>美国破产法官批准币安以 13 亿美元收购 Voyager
+据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/"
+                        open
+                      >
+                        <summary class="article-expander__title">美国破产法官批准币安以 13 亿美元收购 Voyager</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs&#x3D;/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>美国破产法官批准币安以 13 亿美元收购 Voyager
+据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://venturebeat.com/wp-content/uploads/2023/03/redemption-reloaded-art.jpg?w&#x3D;1200&amp;strip&#x3D;all" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投
+据 VentureBeat 报道，游戏工作室 Redemption Games 宣布完成 700 万美元新一轮融资，Play Ventures 领投，Bitkraft、Merit Circle DAO、Orange DAO 等参投。
+
+Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出的独立工作室，目前正在利用区块链技术、数字藏品和人工智能解决方案开发能够推向大众市场的游戏，并且将在游戏中加入能在交易所交易的数字资产等 Web3 元素。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://venturebeat.com/wp-content/uploads/2023/03/redemption-reloaded-art.jpg?w&#x3D;1200&amp;strip&#x3D;all" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投
+据 VentureBeat 报道，游戏工作室 Redemption Games 宣布完成 700 万美元新一轮融资，Play Ventures 领投，Bitkraft、Merit Circle DAO、Orange DAO 等参投。
+
+Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出的独立工作室，目前正在利用区块链技术、数字藏品和人工智能解决方案开发能够推向大众市场的游戏，并且将在游戏中加入能在交易所交易的数字资产等 Web3 元素。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize&#x3D;1200,633" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投
+据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
+Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/"
+                        open
+                      >
+                        <summary class="article-expander__title">游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize&#x3D;1200,633" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投
+据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
+Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters"
+                        open
+                      >
+                        <summary class="article-expander__title">泰国将为发行投资代币的公司和投资人免税</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.tbstat.com/wp/uploads/2022/05/20220526_Bangkok-Thailand-Tax-Calculator-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>泰国将为发行投资代币的公司和投资人免税
+据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;209
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters"
+                        open
+                      >
+                        <summary class="article-expander__title">泰国将为发行投资代币的公司和投资人免税</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.tbstat.com/wp/uploads/2022/05/20220526_Bangkok-Thailand-Tax-Calculator-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>泰国将为发行投资代币的公司和投资人免税
+据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;209
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3252,1064 +4435,6 @@ Read the full entry</span>
 撰写：Kryptzo
 Read the full entry</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ChainFeeds精选</button>
-                  <a class="source-heading__link" href="">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资
-据美 SEC 官网公告，以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资，目前已筹集近 5600 万美元。
-此前报道，2 月 4 日，据 The Block 引援消息人士报道，以太坊重质协议 EigenLayer 正在筹集 5000 万美元的 A 轮融资，该轮融资将为 EigenLayer 提供 2.5 亿美元的融资后股权估值和 5 亿美元的代币估值或完全稀释估值（FDV）。消息人士称，该轮融资早在去年 11 月 FTX 交易所崩溃事件之前已经开始，预计将很快完成。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml"
-                        open
-                      >
-                        <summary class="article-expander__title">以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.sec.gov/Archives/edgar/data/1936115/000156761923004289/xslFormDX01/primary_doc.xml">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资
-据美 SEC 官网公告，以太坊重质押协议 EigenLayer 开发商 Layr Labs 即将完成 6400 万美元 A 轮融资，目前已筹集近 5600 万美元。
-此前报道，2 月 4 日，据 The Block 引援消息人士报道，以太坊重质协议 EigenLayer 正在筹集 5000 万美元的 A 轮融资，该轮融资将为 EigenLayer 提供 2.5 亿美元的融资后股权估值和 5 亿美元的代币估值或完全稀释估值（FDV）。消息人士称，该轮融资早在去年 11 月 FTX 交易所崩溃事件之前已经开始，预计将很快完成。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/"
-                        open
-                      >
-                        <summary class="article-expander__title">理解 Curve 的正确姿势：头部流动性市场的业务现状、生态发展、护城河及估值对比</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://research.mintventures.fund/wp-content/uploads/2022/03/WechatIMG17.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Mint Ventures 研究伙伴 Alex Xu 撰写的 Curve 研报，着重从流动性市场角度对 Curve 的生态、护城河和估值进行研究，并与流动性市场的主要挑战者 Balancer 和 Aura 生态进行对比。
-文章来源：
-https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/
-文章作者：
-Alex Xu
-
-观点：
-Alex Xu：当下 Curve 已公布的未来产品里程碑，是稳定币产品 crvUSD 的上线以及交互 Gas 的持续优化（有利于被各类交易聚合器分配到更多小额交易）。其中 crvUSD 虽然采用超额抵押机制，但其分段清算的机制设计，很好地结合了 Curve 巨量流动性的优势，对整个加密市场都有稳定的作用，但截至目前，crvUSD 尚未公布具体上线时间表。
-内容来源
-Alex Xu：Curve 的核心业务是：现货交易；流动性的采购、分发和管理。现货交易是用户量最庞大、资金交换最频繁的加密商业场景。据 DeFillama 数据，2023 年 1 月 DEXs 月总交易量仅占加密资产现货总交易量的 7.21%。长期来看，DEXs 赛道将受益于：资产类别和交易总量的增加（行业 Beta）；对 CEXs 交易市场份额的逐渐蚕食（赛道 Alpha）。流动性市场的规模上涨同样受两个因素推动：整个加密世界总的资产类别和价值规模的增长；用户资金从中心化机构托管转向链上自管的趋势。
-内容来源
-Alex Xu：Curve 所在的 DeFi 领域的残酷竞争，远不止功能创新的赛跑、用户的激烈争夺，还在于代币发行机制的存在。Web3 项目引入代币机制最重要的价值是可以拥有灵活的货币政策选择，迅速扩张业务，争取比竞争对手更早形成「网络效应的领先」，从而构建起对于后来者的竞争壁垒。用自己的代币对业务的双边进行刺激，推动跨边网络效应尽快形成，是众多 Web3 项目，尤其是 DeFi 项目的起手式。
-内容来源
-Alex Xu：Curve 生态的各类伴生项目，对于 Curve 的主要价值是「产品功能和体验创新」的分包商，以及 CRV 锁仓体系的直接或间接维护者，而这两点正是 Curve 在 DEXs 和流动性市场这场「无限战争」中能否存活到「自然垄断形成」那一刻来临的关键要素。Curve 有良好的团队履约历史、执行力和安全记录，其主要发展风险来自于越来越激烈的市场竞争，以及生态内的利益协调，并要防范熊市时币价 - 业务负螺旋的可能性。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/"
-                        open
-                      >
-                        <summary class="article-expander__title">理解 Curve 的正确姿势：头部流动性市场的业务现状、生态发展、护城河及估值对比</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://research.mintventures.fund/wp-content/uploads/2022/03/WechatIMG17.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Mint Ventures 研究伙伴 Alex Xu 撰写的 Curve 研报，着重从流动性市场角度对 Curve 的生态、护城河和估值进行研究，并与流动性市场的主要挑战者 Balancer 和 Aura 生态进行对比。
-文章来源：
-https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/
-文章作者：
-Alex Xu
-
-观点：
-Alex Xu：当下 Curve 已公布的未来产品里程碑，是稳定币产品 crvUSD 的上线以及交互 Gas 的持续优化（有利于被各类交易聚合器分配到更多小额交易）。其中 crvUSD 虽然采用超额抵押机制，但其分段清算的机制设计，很好地结合了 Curve 巨量流动性的优势，对整个加密市场都有稳定的作用，但截至目前，crvUSD 尚未公布具体上线时间表。
-内容来源
-Alex Xu：Curve 的核心业务是：现货交易；流动性的采购、分发和管理。现货交易是用户量最庞大、资金交换最频繁的加密商业场景。据 DeFillama 数据，2023 年 1 月 DEXs 月总交易量仅占加密资产现货总交易量的 7.21%。长期来看，DEXs 赛道将受益于：资产类别和交易总量的增加（行业 Beta）；对 CEXs 交易市场份额的逐渐蚕食（赛道 Alpha）。流动性市场的规模上涨同样受两个因素推动：整个加密世界总的资产类别和价值规模的增长；用户资金从中心化机构托管转向链上自管的趋势。
-内容来源
-Alex Xu：Curve 所在的 DeFi 领域的残酷竞争，远不止功能创新的赛跑、用户的激烈争夺，还在于代币发行机制的存在。Web3 项目引入代币机制最重要的价值是可以拥有灵活的货币政策选择，迅速扩张业务，争取比竞争对手更早形成「网络效应的领先」，从而构建起对于后来者的竞争壁垒。用自己的代币对业务的双边进行刺激，推动跨边网络效应尽快形成，是众多 Web3 项目，尤其是 DeFi 项目的起手式。
-内容来源
-Alex Xu：Curve 生态的各类伴生项目，对于 Curve 的主要价值是「产品功能和体验创新」的分包商，以及 CRV 锁仓体系的直接或间接维护者，而这两点正是 Curve 在 DEXs 和流动性市场这场「无限战争」中能否存活到「自然垄断形成」那一刻来临的关键要素。Curve 有良好的团队履约历史、执行力和安全记录，其主要发展风险来自于越来越激烈的市场竞争，以及生态内的利益协调，并要防范熊市时币价 - 业务负螺旋的可能性。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/optimismFND/status/1633122710032113665"
-                        open
-                      >
-                        <summary class="article-expander__title">Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/optimismFND/status/1633122710032113665">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本
-以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。
-
-对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/optimismFND/status/1633122710032113665"
-                        open
-                      >
-                        <summary class="article-expander__title">Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/optimismFND/status/1633122710032113665">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本
-以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。
-
-对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】Gearbox V2 复盘：现状、评估与改进</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*n5WzDNeQFiA1SzfIPiZgfw.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。
-文章来源：
-https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6
-文章作者：
-mugglesect
-
-观点：
-mugglesect：Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】
-内容来源
-mugglesect：需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】Gearbox V2 复盘：现状、评估与改进</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*n5WzDNeQFiA1SzfIPiZgfw.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。
-文章来源：
-https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6
-文章作者：
-mugglesect
-
-观点：
-mugglesect：Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】
-内容来源
-mugglesect：需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】主权 zk-rollups 如何实现快速最终性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mirror-media.imgix.net/publication-images/3igGCuNxGljKaCvmnGwkQ.png?h&#x3D;800&amp;w&#x3D;800" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密领域存在广泛误解，认为 zk-rollups 的最终确定时间很长，且主权 rollups 无法与 L1 桥接。Sovereign Labs 解析了主权 zk-rollups 的交易证明机制，及其如何实现快速最终性。
-文章来源：
-https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y
-文章作者：
-Sovereign
-
-观点：
-Sovereign：对于大多数 zk-rollup，最大的开支之一是证明验证。太坊上的 rollup 可能会花费 300k 到 5m gas 来验证单个证明，因此当前大多数 zk-rollup 在提交证明之前会等待积累大量交易来降低每笔交易的成本。这带来了糟糕的用户体验。【原文为英文】
-内容来源
-Sovereign：解决方案：实时创建证明，使用递归将它们聚合成批量证明，然后通过 p2p 网络立即分发增量证明，轻客户端就会体验到快速的最终性。由于仍然只是在链上发布较慢的批量证明，因此不必再支付额外的链上验证费用。【原文为英文】
-内容来源
-Sovereign：如何选择一个规范的分叉？通过将 calldata 绑定回 L1 区块头，我们可以添加一条声明「我已经扫描了 DA 层的证明（从区块 X 开始到区块 Y 结束），并且这个证明建立在最近的有效证明之上」。这让我们可以直接证明分叉选择规则，而不是在客户端强制执行。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】主权 zk-rollups 如何实现快速最终性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mirror-media.imgix.net/publication-images/3igGCuNxGljKaCvmnGwkQ.png?h&#x3D;800&amp;w&#x3D;800" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密领域存在广泛误解，认为 zk-rollups 的最终确定时间很长，且主权 rollups 无法与 L1 桥接。Sovereign Labs 解析了主权 zk-rollups 的交易证明机制，及其如何实现快速最终性。
-文章来源：
-https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y
-文章作者：
-Sovereign
-
-观点：
-Sovereign：对于大多数 zk-rollup，最大的开支之一是证明验证。太坊上的 rollup 可能会花费 300k 到 5m gas 来验证单个证明，因此当前大多数 zk-rollup 在提交证明之前会等待积累大量交易来降低每笔交易的成本。这带来了糟糕的用户体验。【原文为英文】
-内容来源
-Sovereign：解决方案：实时创建证明，使用递归将它们聚合成批量证明，然后通过 p2p 网络立即分发增量证明，轻客户端就会体验到快速的最终性。由于仍然只是在链上发布较慢的批量证明，因此不必再支付额外的链上验证费用。【原文为英文】
-内容来源
-Sovereign：如何选择一个规范的分叉？通过将 calldata 绑定回 L1 区块头，我们可以添加一条声明「我已经扫描了 DA 层的证明（从区块 X 开始到区块 Y 结束），并且这个证明建立在最近的有效证明之上」。这让我们可以直接证明分叉选择规则，而不是在客户端强制执行。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/PeckShieldAlert/status/1633331896083181570"
-                        open
-                      >
-                        <summary class="article-expander__title">【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/PeckShieldAlert/status/1633331896083181570">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址
-据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。
-内容来源
-
-观点：
-glassnode：约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/PeckShieldAlert/status/1633331896083181570"
-                        open
-                      >
-                        <summary class="article-expander__title">【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/PeckShieldAlert/status/1633331896083181570">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址
-据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。
-内容来源
-
-观点：
-glassnode：约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd"
-                        open
-                      >
-                        <summary class="article-expander__title">Cobo 神鱼：历史就是你每天的经历</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/TOJicXicDckd4uevvgfoNhKGUu8LVCAFicGAOWgmUBGt66kYlD1PdEpWKBCzEGb5xtpicd4PiagzFVxFhPSCztrD6xg/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-近期，Cobo 联合创始人兼 CEO 神鱼接受了新加坡区块链新媒体平台 DeThings 专访，分享了对当前市场、FTX 事件影响、DeFi 创新、DEX 未来等多个话题的看法和底层思考。
-文章来源：
-https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd
-文章作者：
-DiscusFish
-
-观点：
-DiscusFish：当前市场：2022 年的这次熊市和以往几次熊市相比，我个人感觉，绝望程度是不够的 —— 和以前的绝望程度没法比。围绕着模块区块链和二层网络这样的扩容方案，也有一些早期的方案开始出现。所以，在行业未来和行业信心方面，这一轮的市场反倒没有像之前那样让那么多人萌生退意。
-内容来源
-DiscusFish：DeFi 创新：整个 DeFi 底层的金融框架是成熟了，上面可能还有大量的可组合性的金融创新，目前还不成熟，只是有一些少量的尝试。我觉得，未来 DeFi 的核心模块会退化成链上的典型协议，其他的一些应用像 NFT、GameFi 可以直接来调这些协议使用。
-内容来源
-DiscusFish：DEX 的未来：站在今天来看，FTX 的这个事情基本上标志着中心化交易所黄昏的到来。未来一段时间，会出现一些去中心化与中心化相结合的方式，去规避这些风险。甚至一些长尾的需求，我们就直接在去中心化去解决掉了，可能效率更高一些。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd"
-                        open
-                      >
-                        <summary class="article-expander__title">Cobo 神鱼：历史就是你每天的经历</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/TOJicXicDckd4uevvgfoNhKGUu8LVCAFicGAOWgmUBGt66kYlD1PdEpWKBCzEGb5xtpicd4PiagzFVxFhPSCztrD6xg/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-近期，Cobo 联合创始人兼 CEO 神鱼接受了新加坡区块链新媒体平台 DeThings 专访，分享了对当前市场、FTX 事件影响、DeFi 创新、DEX 未来等多个话题的看法和底层思考。
-文章来源：
-https://mp.weixin.qq.com/s?__biz&#x3D;Mzk0OTI3NDAzMQ&#x3D;&#x3D;&amp;mid&#x3D;2247484573&amp;idx&#x3D;1&amp;sn&#x3D;6ff5d8d46c6a5797334faeae0ca5be99&amp;chksm&#x3D;c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd
-文章作者：
-DiscusFish
-
-观点：
-DiscusFish：当前市场：2022 年的这次熊市和以往几次熊市相比，我个人感觉，绝望程度是不够的 —— 和以前的绝望程度没法比。围绕着模块区块链和二层网络这样的扩容方案，也有一些早期的方案开始出现。所以，在行业未来和行业信心方面，这一轮的市场反倒没有像之前那样让那么多人萌生退意。
-内容来源
-DiscusFish：DeFi 创新：整个 DeFi 底层的金融框架是成熟了，上面可能还有大量的可组合性的金融创新，目前还不成熟，只是有一些少量的尝试。我觉得，未来 DeFi 的核心模块会退化成链上的典型协议，其他的一些应用像 NFT、GameFi 可以直接来调这些协议使用。
-内容来源
-DiscusFish：DEX 的未来：站在今天来看，FTX 的这个事情基本上标志着中心化交易所黄昏的到来。未来一段时间，会出现一些去中心化与中心化相结合的方式，去规避这些风险。甚至一些长尾的需求，我们就直接在去中心化去解决掉了，可能效率更高一些。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig"
-                        open
-                      >
-                        <summary class="article-expander__title">ETHDenver 见闻及创业方向思考</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/pZlQgRmVmbKQWyib6dqtKgqpFOOTwga0Vmj5OPEriabQrNbmNticn5JgC2gOBEMzn592jcwhibaukKsVicSQleRdp8w/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-全球规模最大的 crypto 会议 ETHDenver 已结束。光源资本创始成员 Min 撰文总结了 ETHDenver 见闻以及由 ETHDenver 所激发的对 Web3.0 创业方向的思考。
-文章来源：
-https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig
-文章作者：
-xmin.eth
-
-观点：
-xmin.eth：ETHDenver：1）质量高，buidl 氛围浓厚。2）规模大，人次远超往届。3）讨论主题反映行业最新趋势和方向、明显主次有分。
-内容来源
-xmin.eth：创业方向的启发：1）Consumer Application。ZK、AA 如此火，都是为了降低用户进入门槛、降低交易成本同时保护安全、真正实现 massive adoption。2）Web3 Social。不管 dapp 还是 protocol，提供 web3-specific 的体验是制胜关键。3）Web3 Game。两个方向：onboard 更广泛的用户、带来更大流量、把游戏体验和消费跟金融模型结合；fully on-chain game，非常 web3 native 的，但是很难出圈。
-内容来源
-xmin.eth：4）Infra。specific for game/nft/defi 的 vertical chain 会是一个非常值得探索的方向，因为在具体的产品设计、生态运营和对项目方的深度孵化上，都会跟 general chain 不太一样。5）DeFi。虽然 DEX 依然是 Defi 里最好的垂直赛道，但做其他「有用的事儿」，解决用户的问题，也可以有不错的变现模式。6）与 AIGC 的结合。AI 目前实际可落地的几个方向主要是，AI 应用于 on-chain data analysis、chatGPT 使得前端交互更加友好；AI 应用于游戏领域等。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig"
-                        open
-                      >
-                        <summary class="article-expander__title">ETHDenver 见闻及创业方向思考</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/pZlQgRmVmbKQWyib6dqtKgqpFOOTwga0Vmj5OPEriabQrNbmNticn5JgC2gOBEMzn592jcwhibaukKsVicSQleRdp8w/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-全球规模最大的 crypto 会议 ETHDenver 已结束。光源资本创始成员 Min 撰文总结了 ETHDenver 见闻以及由 ETHDenver 所激发的对 Web3.0 创业方向的思考。
-文章来源：
-https://mp.weixin.qq.com/s/GuciyzkuMgWhFnf_4oU_ig
-文章作者：
-xmin.eth
-
-观点：
-xmin.eth：ETHDenver：1）质量高，buidl 氛围浓厚。2）规模大，人次远超往届。3）讨论主题反映行业最新趋势和方向、明显主次有分。
-内容来源
-xmin.eth：创业方向的启发：1）Consumer Application。ZK、AA 如此火，都是为了降低用户进入门槛、降低交易成本同时保护安全、真正实现 massive adoption。2）Web3 Social。不管 dapp 还是 protocol，提供 web3-specific 的体验是制胜关键。3）Web3 Game。两个方向：onboard 更广泛的用户、带来更大流量、把游戏体验和消费跟金融模型结合；fully on-chain game，非常 web3 native 的，但是很难出圈。
-内容来源
-xmin.eth：4）Infra。specific for game/nft/defi 的 vertical chain 会是一个非常值得探索的方向，因为在具体的产品设计、生态运营和对项目方的深度孵化上，都会跟 general chain 不太一样。5）DeFi。虽然 DEX 依然是 Defi 里最好的垂直赛道，但做其他「有用的事儿」，解决用户的问题，也可以有不错的变现模式。6）与 AIGC 的结合。AI 目前实际可落地的几个方向主要是，AI 应用于 on-chain data analysis、chatGPT 使得前端交互更加友好；AI 应用于游戏领域等。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;32
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/cryptokaduna/status/1633187498150215681"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/cryptokaduna/status/1633187498150215681">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。
-文章来源：
-https://twitter.com/cryptokaduna/status/1633187498150215681
-文章作者：
-Kaduna
-
-观点：
-Kaduna：用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】
-内容来源
-Kaduna：目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/cryptokaduna/status/1633187498150215681"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/cryptokaduna/status/1633187498150215681">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。
-文章来源：
-https://twitter.com/cryptokaduna/status/1633187498150215681
-文章作者：
-Kaduna
-
-观点：
-Kaduna：用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】
-内容来源
-Kaduna：目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth"
-                        open
-                      >
-                        <summary class="article-expander__title">Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://go.gitcoin.co/hubfs/01%20%E2%86%92%201200x600.jpg#keepProtocol" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资
-Gitcoin 和 Index Coop 合作推出 Gitcoin Staked ETH Index （gtcETH），可通过 ETH 质押奖励为 Gitcoin Grants 提供资金。 gtcETH 是一种 ERC-20 代币，代币持有者能够通过单一代币获得 ETH 流动质押代币，同时为公共物品筹资作出贡献，它将构建在 Index Protocol 上，并包含 Rocket Pool、Lido 和 StakeWise 的流动性质押代币。gtcETH 采用 dsETH 方法，该方法促进去中心化和流动性质押协议之间的竞争。
-内容来源
-
-观点：
-Kyle Weiss（Gitcoin联合创始人）：Index Coop 一直是创建新型指数代币的领导者，为市场领先协议和趋势提供敞口。gtcETH 是他们产品的绝佳补充，并确保当人们想为公共产品提供资金时，可以使用「设置和取消」选项。我们乐观地认为，随着池中价值的增长，这将为公共产品提供长期可持续的资金。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth"
-                        open
-                      >
-                        <summary class="article-expander__title">Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://go.gitcoin.co/hubfs/01%20%E2%86%92%201200x600.jpg#keepProtocol" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资
-Gitcoin 和 Index Coop 合作推出 Gitcoin Staked ETH Index （gtcETH），可通过 ETH 质押奖励为 Gitcoin Grants 提供资金。 gtcETH 是一种 ERC-20 代币，代币持有者能够通过单一代币获得 ETH 流动质押代币，同时为公共物品筹资作出贡献，它将构建在 Index Protocol 上，并包含 Rocket Pool、Lido 和 StakeWise 的流动性质押代币。gtcETH 采用 dsETH 方法，该方法促进去中心化和流动性质押协议之间的竞争。
-内容来源
-
-观点：
-Kyle Weiss（Gitcoin联合创始人）：Index Coop 一直是创建新型指数代币的领导者，为市场领先协议和趋势提供敞口。gtcETH 是他们产品的绝佳补充，并确保当人们想为公共产品提供资金时，可以使用「设置和取消」选项。我们乐观地认为，随着池中价值的增长，这将为公共产品提供长期可持续的资金。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/rubywxt1/status/1633256234341244929"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/rubywxt1/status/1633256234341244929">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。
-文章来源：
-https://twitter.com/rubywxt1/status/1633256234341244929
-文章作者：
-Rubywang.eth
-
-观点：
-Rubywang.eth：现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。
-内容来源
-Rubywang.eth：猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。
-内容来源
-Rubywang.eth：Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/rubywxt1/status/1633256234341244929"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/rubywxt1/status/1633256234341244929">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。
-文章来源：
-https://twitter.com/rubywxt1/status/1633256234341244929
-文章作者：
-Rubywang.eth
-
-观点：
-Rubywang.eth：现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。
-内容来源
-Rubywang.eth：猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。
-内容来源
-Rubywang.eth：Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://jumpcrypto.com/bridging-and-finality-ethereum/"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】跨链应用如何权衡网络延迟和回滚风险：来自以太坊 PoS 共识机制的启示</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jumpcrypto.com/bridging-and-finality-ethereum/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://jumpcrypto.com/static/Blog---Bridging---Finality_-ETH-Blog--1--032e3b35294c8cf468fc2df5d919c39f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Jump Crypto 发布其跨链桥系列第二篇文章，分析了当前以太坊 PoS 共识主要阶段中针对网络延迟和回滚风险采取的机制，并总结了跨链应用可以从中得到的经验及需要额外注意的问题。
-文章来源：
-https://jumpcrypto.com/bridging-and-finality-ethereum/
-文章作者：
-John（Jump Crypto）
-
-观点：
-John（Jump Crypto）：区块提议：理想情况下，提案每 12 秒发生一次，但从存档的全节点历史来看，两次提议之间的间隔是一分钟。该阶段面临的风险是恶意提议者的双重提议。可以安全地使用区块提议来确认桥接交易的用例是不具有重大价值的服务，例如跨链电子邮件。【原文为英文】
-内容来源
-John（Jump Crypto）：GHOST 机制：LMD GHOST 的分叉选择规则被应用于提议的区块，随着子树的增长和证明权重的积累，回滚的风险会降低。但由于桥接交易可以包含独特形式的 MEV，因此可以为攻击者进行重组攻击提供额外的激励。【原文为英文】
-内容来源
-John（Jump Crypto）：Casper FFG：在 Casper 下的最终性是在证明之后通过额外的投票（32 个 slot 或 6.4 分钟）实现的。该阶段的回滚风险基本上归结为攻击者控制了 2/3 的验证者集合（按当前 ETH 价格计算，攻击成本约为 200 亿美元）。高风险的应用（如代币的桥接）应该要求尽可能高的安全水平。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://jumpcrypto.com/bridging-and-finality-ethereum/"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】跨链应用如何权衡网络延迟和回滚风险：来自以太坊 PoS 共识机制的启示</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jumpcrypto.com/bridging-and-finality-ethereum/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://jumpcrypto.com/static/Blog---Bridging---Finality_-ETH-Blog--1--032e3b35294c8cf468fc2df5d919c39f.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Jump Crypto 发布其跨链桥系列第二篇文章，分析了当前以太坊 PoS 共识主要阶段中针对网络延迟和回滚风险采取的机制，并总结了跨链应用可以从中得到的经验及需要额外注意的问题。
-文章来源：
-https://jumpcrypto.com/bridging-and-finality-ethereum/
-文章作者：
-John（Jump Crypto）
-
-观点：
-John（Jump Crypto）：区块提议：理想情况下，提案每 12 秒发生一次，但从存档的全节点历史来看，两次提议之间的间隔是一分钟。该阶段面临的风险是恶意提议者的双重提议。可以安全地使用区块提议来确认桥接交易的用例是不具有重大价值的服务，例如跨链电子邮件。【原文为英文】
-内容来源
-John（Jump Crypto）：GHOST 机制：LMD GHOST 的分叉选择规则被应用于提议的区块，随着子树的增长和证明权重的积累，回滚的风险会降低。但由于桥接交易可以包含独特形式的 MEV，因此可以为攻击者进行重组攻击提供额外的激励。【原文为英文】
-内容来源
-John（Jump Crypto）：Casper FFG：在 Casper 下的最终性是在证明之后通过额外的投票（32 个 slot 或 6.4 分钟）实现的。该阶段的回滚风险基本上归结为攻击者控制了 2/3 的验证者集合（按当前 ETH 价格计算，攻击成本约为 200 亿美元）。高风险的应用（如代币的桥接）应该要求尽可能高的安全水平。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151"
-                        open
-                      >
-                        <summary class="article-expander__title">Aave 官方发布协议稳定币 GHO 创世参数提议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://europe1.discourse-cdn.com/standard21/uploads/aave/optimized/2X/4/4cbcbd7b999331a07ed3596f94edf9636749a201_2_1024x614.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aave 官方发布协议稳定币 GHO 创世参数提议
-Aave 官方在治理论坛发布协议稳定币 GHO 创世参数研究提议，建议 GHO 在最初发布时的借款利率（BR）为 2% 至 2.5%；stkAAVE 贴现率（DR）为 25%，且由 AAVE 质押者铸造的 GHO 最高不超过总供应量的 25%；促进者供应上限为 5000 万或以太坊 V3 市场 25% 的活跃借贷量；DEX 流动性池目标为 1500 万美元 GHO 的稳定流动性池。Aave 提出了一个渐进式增长计划，将根据 DEX 流动性池规模大小调整上述数据。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151"
-                        open
-                      >
-                        <summary class="article-expander__title">Aave 官方发布协议稳定币 GHO 创世参数提议</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://europe1.discourse-cdn.com/standard21/uploads/aave/optimized/2X/4/4cbcbd7b999331a07ed3596f94edf9636749a201_2_1024x614.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aave 官方发布协议稳定币 GHO 创世参数提议
-Aave 官方在治理论坛发布协议稳定币 GHO 创世参数研究提议，建议 GHO 在最初发布时的借款利率（BR）为 2% 至 2.5%；stkAAVE 贴现率（DR）为 25%，且由 AAVE 质押者铸造的 GHO 最高不超过总供应量的 25%；促进者供应上限为 5000 万或以太坊 V3 市场 25% 的活跃借贷量；DEX 流动性池目标为 1500 万美元 GHO 的稳定流动性池。Aave 提出了一个渐进式增长计划，将根据 DEX 流动性池规模大小调整上述数据。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/hhh69251498/status/1633027375398273024"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/hhh69251498/status/1633027375398273024">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。
-文章来源：
-https://twitter.com/hhh69251498/status/1633027375398273024
-文章作者：
-hhh_quickCreation
-
-观点：
-0xhhh：用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。
-内容来源
-0xhhh：黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。
-内容来源
-0xhhh：总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/hhh69251498/status/1633027375398273024"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/hhh69251498/status/1633027375398273024">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。
-文章来源：
-https://twitter.com/hhh69251498/status/1633027375398273024
-文章作者：
-hhh_quickCreation
-
-观点：
-0xhhh：用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。
-内容来源
-0xhhh：黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。
-内容来源
-0xhhh：总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/0xstrobe/status/1633228325576474626"
-                        open
-                      >
-                        <summary class="article-expander__title">DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0xstrobe/status/1633228325576474626">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为
-DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/0xstrobe/status/1633228325576474626"
-                        open
-                      >
-                        <summary class="article-expander__title">DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0xstrobe/status/1633228325576474626">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为
-DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/"
-                        open
-                      >
-                        <summary class="article-expander__title">美国破产法官批准币安以 13 亿美元收购 Voyager</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs&#x3D;/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>美国破产法官批准币安以 13 亿美元收购 Voyager
-据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/"
-                        open
-                      >
-                        <summary class="article-expander__title">美国破产法官批准币安以 13 亿美元收购 Voyager</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs&#x3D;/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>美国破产法官批准币安以 13 亿美元收购 Voyager
-据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/"
-                        open
-                      >
-                        <summary class="article-expander__title">游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://venturebeat.com/wp-content/uploads/2023/03/redemption-reloaded-art.jpg?w&#x3D;1200&amp;strip&#x3D;all" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投
-据 VentureBeat 报道，游戏工作室 Redemption Games 宣布完成 700 万美元新一轮融资，Play Ventures 领投，Bitkraft、Merit Circle DAO、Orange DAO 等参投。
-
-Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出的独立工作室，目前正在利用区块链技术、数字藏品和人工智能解决方案开发能够推向大众市场的游戏，并且将在游戏中加入能在交易所交易的数字资产等 Web3 元素。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/"
-                        open
-                      >
-                        <summary class="article-expander__title">游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://venturebeat.com/games/redemption-games-spins-out-of-applovin-and-raises-7m/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://venturebeat.com/wp-content/uploads/2023/03/redemption-reloaded-art.jpg?w&#x3D;1200&amp;strip&#x3D;all" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>游戏工作室 Redemption Games 完成 700 万美元融资，Play Ventures 领投
-据 VentureBeat 报道，游戏工作室 Redemption Games 宣布完成 700 万美元新一轮融资，Play Ventures 领投，Bitkraft、Merit Circle DAO、Orange DAO 等参投。
-
-Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出的独立工作室，目前正在利用区块链技术、数字藏品和人工智能解决方案开发能够推向大众市场的游戏，并且将在游戏中加入能在交易所交易的数字资产等 Web3 元素。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/"
-                        open
-                      >
-                        <summary class="article-expander__title">游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize&#x3D;1200,633" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投
-据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
-Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/"
-                        open
-                      >
-                        <summary class="article-expander__title">游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize&#x3D;1200,633" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投
-据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
-Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters"
-                        open
-                      >
-                        <summary class="article-expander__title">泰国将为发行投资代币的公司和投资人免税</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.tbstat.com/wp/uploads/2022/05/20220526_Bangkok-Thailand-Tax-Calculator-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>泰国将为发行投资代币的公司和投资人免税
-据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;209
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters"
-                        open
-                      >
-                        <summary class="article-expander__title">泰国将为发行投资代币的公司和投资人免税</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.tbstat.com/wp/uploads/2022/05/20220526_Bangkok-Thailand-Tax-Calculator-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>泰国将为发行投资代币的公司和投资人免税
-据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;209
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5485,26 +5610,6 @@ VC：参加ETHDenver期间，笔者在个人社交媒体上写到，“‘钱很
 简而言之，从ETHDenver的活动上，可以看出华人在逐渐摆脱519的阴影并在业内重建影响力。希望华人可以继续在Crypto和Web3领域发光发热，引领行业更大的发展。要知道Crypto行业从来都不是比谁更能赚钱，而是比谁能活得更久。Crypto行业现在的市值还太小，需要持续地Build才能茁壮发展。作者坚信下一个Crypto行业革命有且仅会发生在美国，但一定是由生命力更顽强的华语社区引领。
 师未
 2023/3/5</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/4gooqnrv.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Tender.fi暂停所有借贷，疑似遭白帽黑客攻击</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/4gooqnrv.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月7日消息，Arbitrum 生态借贷协议 Tender.fi 疑似遭受攻击，官方发推表示，目前正在调查该协议异常数量的借贷，已暂停所有借贷。 据 0xScope 研究员 Cobie 分析称，本次事件为白帽黑客所为，其留言表示 Tender.fi 的预言机配置有错误，试图与 Tender.fi 取得联系，目前初步预估有 160 万美元资金受到本次事件影响。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -17419,39 +17524,6 @@ Stephane：我们预测 OFA 的实施将围绕以下的四个设计进行：1. R
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://frontier.tech/the-orderflow-auction-design-space"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】订单流拍卖（OFA）机制调研：核心框架、创新机制与发展方向</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://frontier.tech/the-orderflow-auction-design-space">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://potion.nyc3.cdn.digitaloceanspaces.com/63812136f84afb001891dd39/site_image.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-订单流拍卖（OFA）机制将执行订单的权利拍卖给竞标人，并将中标金额提供给用户，OFA 承诺向用户返还他们通过订单创造的价值。Frontier Research 研究员 Stephane Gosselin 和 Ankit Chiplunkar 与 Consensys Research 合作，调研了 12 个独立的订单流拍卖方案，总结了一个通用的 OFA 核心架构以及四个设计方向。
-文章来源：
-https://frontier.tech/the-orderflow-auction-design-space
-文章作者：
-Stephane
-
-观点：
-Stephane：所有的 OFA 都有相同的核心框架，只是在实现方式上有所不同。流程：1. 发起人产生订单；2.OFA 与竞标者共享信息；3. 竞标者利用信息预估 MEV，并出价；4.OFA 选择中标者，并将其纳入。【原文为英文】
-内容来源
-Stephane：OFA 需要做出 5 个关键的设计决定：1. 接受哪些订单类型？2. 谁可以对订单进行竞标？3. 哪些信息是共享的？4. 如何选择中标者？5. 如何纳入中标结果？【原文为英文】
-内容来源
-Stephane：我们预测 OFA 的实施将围绕以下的四个设计进行：1. RFQ 拍卖；2. 独家批量拍卖；3. 交易执行服务；4. 区块空间聚合器。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;35
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://mp.weixin.qq.com/s/hoRRgrEOQlaWuUQyuOtGxA"
                         open
                       >
@@ -26654,8 +26726,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4363473258">
-        <time id="build-timestamp" datetime="2023-03-08T10:39:16.986Z">2023-03-08T10:39:16.986Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4363516039">
+        <time id="build-timestamp" datetime="2023-03-08T10:44:39.825Z">2023-03-08T10:44:39.825Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
