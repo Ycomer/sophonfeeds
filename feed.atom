@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T11:37:55.762Z</updated>
+    <updated>2023-03-08T11:43:13.983Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nansen 推出多链数据访问产品 Nansen Query]]></title>
+        <id>https://twitter.com/nansen_ai/status/1633407437930901506</id>
+        <link href="https://twitter.com/nansen_ai/status/1633407437930901506"/>
+        <updated>2023-03-08T11:36:58.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Nansen 推出多链数据访问产品 Nansen Query</h3>
+<p>区块链数据平台 Nansen 宣布推出多链数据访问产品 Nansen Query，允许加密原生团队以编程方式访问策划好的数据集和专业集成，以便为客户、产品和投资用例做出更好的决策。
+Nansen Query 基于 Google Cloud 平台构建，可以轻松集成到现有技术堆栈中，为企业提供安全、可靠、高度可扩展的数据管道，能够实时处理百万亿字节的数据。Nansen Query 覆盖了 17 条区块链中 95% 的链上 TVL 和 98% 的稳定币存款，包括比特币、以太坊、BNB Chain、Polygon、Avalanche、Fantom、Solana、Arbitrum、Optimism 和 Tron 等等。</p>
+<p><a href="https://twitter.com/nansen_ai/status/1633407437930901506">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安的现货市场份额已增至2月份的61.8%，连续第四个月扩大]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/9plnmdge.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/9plnmdge.html"/>
+        <updated>2023-03-08T11:33:02.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，据CoinDesk报道，加密货币交易所币安已连续第四个月扩大其在加密货币交易所的现货市场份额。据加密市场数据提供商 CryptoCompare 的一份报告，该交易所市场份额从 1 月份的 59.4% 增加到 2 月份的 61.8%。币安的现货交易量增长了 13.7%，达到 5040 亿美元，创下该交易所的历史最高市场份额。Coinbase 的交易量仅次于币安，交易额为 399 亿美元（环比下降 29%），其次是 Kraken，交易额为 193 亿美元（环比下降 11%）。
+报告称，2 月份，币安在衍生品交易所的市场份额也有所增长，攀升至 62.9%，创下有史以来最高的月度市场份额记录。交易所 OKX 和 Bybit 分别以 14% 和 13.3% 的市场份额紧随其后。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[币安的现货市场份额已增至2月份的61.8%，连续第四个月扩大]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/9plnmdge.html</id>
@@ -227,6 +251,18 @@ Séraphie de Tracy 拥有巴黎 HEC 商学院管理学硕士学位和 CEMS 双�
 2022 年 5月 Séraphie de Tracy 创办基于 NFT 的数字参与平台 Cohort 并担任首席执行官。Cohort是一个总部位于法国的Web3 SaaS解决方案，使用NFT（非可替代令牌）来帮助品牌创造创新体验和产品，而无需任何技术或大量时间承诺。通过Salesforce和Shopify等集成，Cohort通过“无代码、无加密、无钱包”解决方案消除采用障碍，使所有品牌和客户都可以访问web3。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】DeFi 3.0 会是什么样子？哪些加密项目将引领潮流？]]></title>
+        <id>https://twitter.com/JackNiewold/status/1632890500188459012</id>
+        <link href="https://twitter.com/JackNiewold/status/1632890500188459012"/>
+        <updated>2023-03-08T11:02:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Crypto Pragmatist 创始人 Jack Niewold 发文从多链、资本效率、激励重新设计、产品流动性飞轮几方面对 DeFi 3.0 的愿景进行展望。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">https://twitter.com/JackNiewold/status/1632890500188459012</a></p>
+<p><strong>文章作者：</strong></p><p>Jack Niewold</p><hr><h3>观点：</h3><p><strong>Jack Niewold：</strong>多链协议在统一流动性和愿景方面，面临着精力分散、产品使用和流动性被分割的困难，Radiant 解决了这一问题。Radiant V2 允许用户存入本地抵押品（如 Arbitrum 上的 USDC），将 USDC 进行抵押并在新链上借出 ETH，出售成另一种资产。在产品层面上，Radiant 成为了大本营，而不是具体链本身，进而解决了流动性统一问题，更易吸引流动性。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">内容来源</a><p><strong>Jack Niewold：</strong>资本效率方面，Radiant 将借贷和杠杆相结合，解锁了效率。激励重新设计方面的代表是 Solidly Fork。虽然 DeFi 2.0 的 Solidly 有失败的通胀代币模型，但它开创了新的激励设计类型。经过重新设计的 Solidly Fork 找到了协调不同利益相关者群体的方法，Satin Exchange、Velodrome、Thena 和 SolidLizard 等协议都推动了 Solidly Fork 的 TVL 稳步上升。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">内容来源</a><p><strong>Jack Niewold：</strong>产品流动性飞轮将由 GMX 开创。此前，DeFi 1.0 和 2.0 是先发行代币，然后缓慢增加代币供应以激励流动性，DeFi 3.0 则创造出不需要代币激励的模型。GMX 和 Vela Exchange 证明了流动性驱动不需要代币激励，代币用以充当股权。SentimenTrader 和 DefiLlama 也证明了没有代币激励也可以拥有巨大的用户量。用户而不是协议支付流动性的模型使代币持有者能够坐享收益，更加可持续。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -10025,18 +10061,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[从 Coinbase 的二层布局看 Rollup as a Service 赛道的革新]]></title>
-        <id>https://mirror.xyz/0xd5Eb8F3f1eD7DDA719DAFA19B9C9C7f67513D779/KqlMzfYRTrJO7_YTkm09JJeUAaiam0Hqpp5EBOGSCgE</id>
-        <link href="https://mirror.xyz/0xd5Eb8F3f1eD7DDA719DAFA19B9C9C7f67513D779/KqlMzfYRTrJO7_YTkm09JJeUAaiam0Hqpp5EBOGSCgE"/>
-        <updated>2023-03-03T11:05:02.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Coinbase 推出基于 OP Stack 的二层 Rollup 链 Base 成为了 RaaS（Rollup as a Service）赛道的一个强力催化剂。加密 KOL yyy 盘点了 Raas 赛道现有方案，并结合 Rollup 模块化畅想了实际的结合形式，以及看好 RaaS 的原因。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0xd5Eb8F3f1eD7DDA719DAFA19B9C9C7f67513D779/KqlMzfYRTrJO7_YTkm09JJeUAaiam0Hqpp5EBOGSCgE">https://mirror.xyz/0xd5Eb8F3f1eD7DDA719DAFA19B9C9C7f67513D779/KqlMzfYRTrJO7_YTkm09JJeUAaiam0Hqpp5EBOGSCgE</a></p>
-<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>随着模块化项目的增多，由此形成的模块化 Rollup 组合甚至可以达到成百上千种，而所有的 Rollup 组合，都能通过 RaaS 相关项目提供的基础设施轻松便捷地部署，RaaS 赛道所散发出的潜力是不容忽略的。</p><a href="https://mirror.xyz/0xd5Eb8F3f1eD7DDA719DAFA19B9C9C7f67513D779/KqlMzfYRTrJO7_YTkm09JJeUAaiam0Hqpp5EBOGSCgE">内容来源</a><p><strong>yyy：</strong>RaaS 赛道的投资逻辑：1.RaaS 相关项目备受资金青睐；2.RaaS 带来一种范式的模块化区块链底层创新；3.Rollup 赛道尚未完全爆发，RaaS 赛道更是处于早期。</p><a href="https://mirror.xyz/0xd5Eb8F3f1eD7DDA719DAFA19B9C9C7f67513D779/KqlMzfYRTrJO7_YTkm09JJeUAaiam0Hqpp5EBOGSCgE">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[3分钟读懂NFTFi项目Midaswap：多链部署，基于Liquidity Book的NFTS自动做市商协议]]></title>
         <id>https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/wwl1v1rpo9wi.html"/>
@@ -10082,18 +10106,6 @@ Goat Swap：Goat Swap是Solana上的一个NFT AMM，由Solana链上交易聚合�
 总体而言，相较于市场上已经成熟NFT AMM产品而言，Midaswap具有一定创新性；但无论其团队背景还是VC背景则没有很令人惊艳。但不可否认的是，随着Web3行业的发展，NFT作为重要的载体和对外形象展示的最佳场景，势必将会获得更多人的青睐，而NFT AMM赛道势必拥有更广阔的发展前景。而Midaswap作为NFT主要承载公链Polygon生态的一员，未来很有可能凭借polygon链上NFT产品的繁荣而获得爆发的机会。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3 中的神秘东方力量：「中国概念」项目超级盘点]]></title>
-        <id>https://foresightnews.pro/article/h5Detail/27079</id>
-        <link href="https://foresightnews.pro/article/h5Detail/27079"/>
-        <updated>2023-03-03T10:32:37.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>随着香港加密监管政策的逐渐落地，一时间，「中国概念」成为加密圈近期追逐的热点。Foresight News 编辑部整理了一份国内以及由华人华侨所主导的 Web3 项目、公司、机构等。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/h5Detail/27079">https://foresightnews.pro/article/h5Detail/27079</a></p>
-<p><strong>文章作者：</strong></p><p>Babywhale（Foresight News）</p><hr><h3>观点：</h3><p><strong>Babywhale（Foresight News）：</strong>Layer 1：Conflux、Nervos、VeChain、IoTeX、Injective、Oasis Network、Harmony、Neo、Ontology、Tron、IOST、REI Network、PlatON、Cortex Labs；Layer 2：Loopring、Taiko、Scroll、Zecrey。</p><a href="https://foresightnews.pro/article/h5Detail/27079">内容来源</a><p><strong>Babywhale（Foresight News）：</strong>基础设施：存储：Crust Network；支付：Alchemy Pay；身份：.bit；跨链：Celer Network、Multichain、Ren；预言机：Lithium Finance；其他：Ankr、Octopus Network。DeFi：WOO Network、Parallel Finance、dForce、DODO、Wombat Exchange、MDEX、Zenlink、Shield、ApeX Protocol。</p><a href="https://foresightnews.pro/article/h5Detail/27079">内容来源</a><p><strong>Babywhale（Foresight News）：</strong>NFT：X2Y2、Element、IRIS Network、The Weirdo Ghost Gang；游戏：Cocos-BCX、StarSharks；社交：Mask Network、RSS3、TwitterScan；元宇宙：The Sandbox、Highstreet、Digination；工具：BitKeep、TokenPocket；数据分析：DeBank、Footprint。</p><a href="https://foresightnews.pro/article/h5Detail/27079">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
