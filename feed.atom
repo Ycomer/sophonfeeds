@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T10:24:05.337Z</updated>
+    <updated>2023-03-08T10:32:47.078Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -12,6 +12,108 @@
         <link href="https://www.panewslab.com/zh/sqarticledetails/yu6l0bnp.html"/>
         <updated>2023-03-08T10:18:13.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月8日消息，币安 NFT 市场宣布 Polygon 网络已添加到其支持的链列表中，用户现在可以在币安 NFT 市场上从 Polygon 网络购买、存入、提取和铸造NFT。截止目前，币安 NFT 市场已兼容 BNB 智能链 (BSC)、以太坊 (ETH) 网络和 Polygon (MATIC) 网络。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安NFT市场新增支持Polygon网络]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/yu6l0bnp.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/yu6l0bnp.html"/>
+        <updated>2023-03-08T10:18:13.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，币安 NFT 市场宣布 Polygon 网络已添加到其支持的链列表中，用户现在可以在币安 NFT 市场上从 Polygon 网络购买、存入、提取和铸造NFT。截止目前，币安 NFT 市场已兼容 BNB 智能链 (BSC)、以太坊 (ETH) 网络和 Polygon (MATIC) 网络。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么Aura Finance可能成为LSD最大的黑马？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/9ynlo1fy.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/9ynlo1fy.html"/>
+        <updated>2023-03-08T10:14:21.000Z</updated>
+        <summary type="html"><![CDATA[原文：《下一轮由LSD驱动的DeFi Summer中，Aura Finance能否成为黑马？》
+作者：
+本文介绍Aura Finance的基本情况，为什么它能够在LSD驱动的DeFi Summer中成为一匹黑马。
+
+LSD，全称Liquid Staking Derivatives，即流动性质押衍生品。也是笔者之前通过数篇文章着重分析的赛道。
+LSD协议是伴随着ETH2.0升级成长起来的DeFi衍生品赛道，随着Lido的TVL超越MakerDAO跃居DeFi榜首，RocketPool、Stakewise等产品的资产规模也不断扩张，俨然LSD已经成为一个蓬勃发展的赛道，方兴未艾。
+尤其以太坊上海升级临近，LSD赛道火热，可以说是今年2023年的一个主旋律。
+随着美国SEC对Kraken平台的处罚，为中心化质押业务敲响了警钟。并且市场也在不断捧高SSV这种，能够帮助质押协议更加去中心化的技术。
+长久看来，无论是从监管层面还是生态系统性安全的考虑，以太坊质押都将走向更加去中心化的道路。
+那么第一个问题就来了，去中心化协议上需要充足的流动性来保证stETH这类流行性衍生品的兑付能力。
+其中笔者认为潜力最大的项目是 Aura Finance，它是由0x Maki 创建的基于 Balancer 生态的收益治理平台。
+用户通过持有 BAL（Balancer）和 AURA（Aura Financ），为 Balancer 上的 LP 和 BAL 质押者提供最大程度的收益激励。
+不过，相比其他 LSD 协议，Aura Finance 关注度并没有那么高，很有可能是上海升级LSD赛道最大潜力股。（相关阅读：《项目研报丨Aura Finance：Balancer生态收益聚合器和元治理平台》）
+首先Aura Finance之于Balancer，就极其类似于Convex之于Curve。因此要来解释为什么Aura 能够影响协议的流动性，我们就用大家更为熟悉的Convex和Curve来解释，并最后替换一下主体即可。
+在 Curve 设计的机制中，持有者只有凭借将 CRV 在锁定后获得的 veCRV，才能够捕获 Curve的价值、发挥代币的功能并行使治理权力。
+这种治理权利可以在每周决定每一个池子排放CRV奖励的权重，APY 更高的池子，自然会吸引到更多的 LP 资金前来获取收益，更多的LP资金也就意味着个更好的深度，滑点更低的兑换。
+所以本质上，veCRV 就代表了对 Curve 的控制权。
+我们可以看到Lido的stETH在Curve上的交易对ETH-stETH的TVL为17亿美金，日交易量450万美元。
+如此庞大的TVL为stETH提供了充沛的流动性，保证了它的兑付能力，用户就可以放心拿着stETH做各种事情了。
+因此我们能够看出veCRV的投票权带来特定池子的高收益，进而带来的充沛流动性的重要性。
+
+那么现在就来到Convex了，在Convex 中用户通过质押 CRV 1:1的持有 cvxCRV，即可获得更高的收益，即Curve 平台费用收入+3Crv 奖励，以及 CVX 奖励，但却损失了直接持有veCRV的投票治理权力。
+也就是说用户通过让渡自己 CRV 的潜在投票权，换取了比正常在 Curve 质押更高的一站式收益（增加了CVX的奖励）。
+CVX 是 Convex 的原生代币，最大供应量为1亿枚，持有 CVX 便相当于拥有了对 Convex 的控制权——CVX 作为 Convex 平台的治理代币，通过锁定 CVX 便可以让 LP 对 Convex 的 veCRV 治理决策进行投票。
+一言以蔽之，控制了 CVX，就是控制了 Convex，而控制了 Convex，就等同于控制了 Curve。
+那么接下来显而易见的事情就发生了，如果项目方要获得充足的流动性，那么他就可以去购买足够的Convex或者去贿赂Convex的持有者。
+最终将治理决策权放在自己的手里，将高收益分配到自己的池子里去，吸引大量追求高收益的LP入驻，从而增加流动性。
+现在我们把Aura Finance当成Convex，将Balancer当成Curve，就可以大致理解为什么Aura Finance能够在流动性的选择上发挥作用了。
+数据显示，目前 veBAL 已铸造总量约为 1044.49 万，其中 Aura 是排名第一的持有者，持有约 276.95 万 veBAL，占比约 26.53%。
+
+由此也意味着 Aura 平台整体占据了 Balancer 约 26.53% 的治理权，贿赂 vlAURA 的持有者也成为了项目方们的一个重要选择。
+目前可以在 Hidden Hand 平台为 BAL 奖励分配权重的选举进行贿赂，吸引 vlAURA 的持有者投票给对应的池子。
+
+2、为什么选择Aura Finance而不是Convex
+更高的APY
+Aura Finance有不少机制设计来保证相对高的收益。
+例如，对于LP来说，Aura 消除了 Balancer Gauge 加速池系统（gauge boosting system）的复杂性，为所有 Balancer 流动性 Gauge 存款提供流畅的使用流程。
+Aura 允许 LP 通过协议拥有的 veBAL 提升高额收益，同时还可以积累额外的 AURA 奖励。
+
+上图左边是Curve，右图是Balancer，下图是Aura Finance，很明显能够看出Aura Finance的rETH-WETH的收益率高达6.75%，相比其他两个平台的收益将近是两倍的差距。
+更高的资本效率
+项目方通过贿赂获得这种收益和贿赂成本的比值也叫做资本效率，数据显示，每消耗 1 美元就会产生 2.35 美元的排放量，Aura Finance 的资本效率比 Convex 高出 64% ，这样的结果就会吸引更多的项目方。
+
+更低的Gas费用
+在其他 DeFi 协议上进行交易时，token 通常在多个池之间转移，包括逻辑在内，这是一个高度消耗 Gas 的过程，被称之为多跳交易（multi-hop trading）。
+比如，下图是 BTC 和 stETH 之间的示例（可以看到其中的 Gas 消耗很高）。
+
+在 Balancer 上，此类大量消耗 Gas 的操作得到了改善，所有的账户都在一个环境之下，只有最终数量的 token 被转移到 vault 和从 vault 转出。
+BTC > stETH，Balancer 消除了对 Gas 频繁消耗逻辑的需求，这种创新被称为 BatchSwap（批量交换）。
+Gas费消耗的降低，有利于散户的进入和高频交易，是行业发展的必定趋势。
+庞大的合作关系网络
+Aura Finance的创始人是0xMaki，也是Sushiswap曾经杰出的领导者，在Maki接受了Sushiswap之后，组建了核心团队，并且与DeFi蓝筹协议建立了合作关系。
+最重要的是创造了与Uniswap不同的发展路线图，帮助Sushiswap成了当时足以撼动Uniswap的DEX之一。
+正是由于Maki的特殊身份，这次创业也极大的发挥了他个人的价值和关系网络，Aura Finance 已然默默与几乎所有主流 LSD 协议建立了合作关系。
+其中包括 Lido、Rocketpool、Frax、Swell、Stakewise、Stader、Ankr 和 StaFi 等，所有这些协议都将在上海升级阶段开始提供激励措施。此外，期待更多其他项目（EtherFi、Diva、Swell）的跟进。
+Rocketpool 算是第一个意识到 AURA 潜力的项目，自 3 个月前开始激励以来，rETH-WETH 的流动性增加了 6 倍，导致交易量和费用大幅增加，目前 RPL 仍然是 Aura Finance 上最大的参与者之一。
+
+正如前面分析Curve和Convex的案例所描述的，对于在 Balancer 建池的 Rocket Pool而言，只要rETH/WETH池的 BAL 奖励分配权重越高，就会吸引越多的人在 Rocket Pool 质押 ETH 获得 rETH，然后到 Balancer 提供流动性进行挖矿，使 Rocket Pool 在 LSD 赛道的市占率上升。
+同时，池子的流动性越高，rETH 的脱锚风险也就越小。
+对于新的LSD协议来说，尚未开垦的经济模型是他们的最大优势，直接以代币激励的方式挖矿吸引资金流入，对老牌协议发起一场类似“吸血鬼攻击”，说不定来一场 LSD 挖矿Summer呢？
+Aura Finance背靠Balancer 的流动性支持，或许也能成为一匹黑马。
+RPL 的做法为基本的 LSD 增长给出了范例：支付投票奖励——增加流动性和 TVL——集成以建立安全和差异化的产品。从结果上看，其他合作的协议效仿并开始抢夺投票权只是时间问题。
+
+OlympusDAO 购买了 20 万美元，并将在未来 4 个月内再次购入 80 万美元，最近还在 Aura 中存入了价值约 7000 万美元的 BPT。此外，他们还卖出了 CVX 头寸用来买入 AURA。
+Frax Finance 也正在寻求积累 AURA，正如其 founder Sam 所暗示的那样，Frax 正在讨论针对增强型 FRAX 池的试点投票激励计划。
+Synapse Protocol 也提议将 SYN 流动性迁移至 Balancer，并开始在 Aura 上提供投票激励。每轮大约 10 万美元的投票奖励，这将使 vlAURA 收入增加约 30% 。
+Redacted cartel 将在上海升级后推出其 LSD 支持的稳定 DINERO，且很可能通过其 vlAURA 持有来激励流动性。
+Stargate Finance 是 Aura 的主要利益相关者，最近也提供了 21 万美元的激励措施，也是其迄今为止投入 Aura 的最大一笔激励资金。
+Aave 的激励计划近期也提上了日程，将在未来几天推动锁定 veBAL 的提案，也可以通过 Aura 激励 GHO 流动性。
+
+Alchemixfi 已将其 ALCX 的流动性转移至 Balancer，并将通过其 TOKE 持有的资金购入 AURA，未来的 Alchemix 资产可能会被整合，并且关于提供投票激励的讨论已经在进行中。
+谈及 Arbitrum，一旦可以进行跨链，可能会看到很多 Arbitrum 项目进入其 Aura 生态。比如，当 MAGIC、JONES、GMX、GNS、DOPEX、VSTA 等都开始与 LSD 一起激励 vlAURA 投票时会发生什么？
+与 Aura 的合作还在继续，后续新的合作伙伴包括 Ribbon、Liquity、Pendle、Gearbox、Euler 等。
+最近的解锁的 vlAURA 的 70-80% 都进行了再次锁定，几乎没有卖出。像 Gnosis、Badger 和 Messi 这样的大户都是长期持有的，他们每几周都会不断累积锁定 AURA。
+
+Nansen smart money 通过在过去一个月内的积累，token 数量涨了 5 倍。Arca也在过去一个月内大量买入：
+
+4、总结
+根据 DefiLlama 的数据，当前 Aura 的 TVL 为 6.17 亿。
+
+Aura 作为 Balancer 生态的龙头，和 Balancer 的发展是相辅相成的，目前包含大量 LSD 协议在内的项目方涌入 Aura。
+目前 Balancer 流动性最大的前三个池子分别为 wstETH/WETH、BAL/WETH、rETH/WETH，第二名是与 veBAL 相关，另外两个池均为 LSD 相关（Lido 和 Rocket Pool）。
+本质原因在于其资本效率优于传统的流动性奖励模式，也优于同赛道的 Convex。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
