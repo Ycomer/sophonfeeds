@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T07:41:52.822Z</updated>
+    <updated>2023-03-08T07:47:26.521Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本]]></title>
+        <id>https://twitter.com/optimismFND/status/1633122710032113665</id>
+        <link href="https://twitter.com/optimismFND/status/1633122710032113665"/>
+        <updated>2023-03-08T07:37:28.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</h3>
+<p>以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。
+
+对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。</p>
+<p><a href="https://twitter.com/optimismFND/status/1633122710032113665">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[288张小图片1天狂揽1.14亿，Yuga Labs在比特币上制造了一台“印钞机”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/v4g4a935.html</id>
@@ -133,6 +147,30 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文】Gearbox V2 复盘：现状、评估与改进]]></title>
+        <id>https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6</id>
+        <link href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6"/>
+        <updated>2023-03-08T07:08:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6</a></p>
+<p><strong>文章作者：</strong></p><p>mugglesect</p><hr><h3>观点：</h3><p><strong>mugglesect：</strong>Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】</p><a href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">内容来源</a><p><strong>mugglesect：</strong>需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】</p><a href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】主权 zk-rollups 如何实现快速最终性]]></title>
+        <id>https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y</id>
+        <link href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"/>
+        <updated>2023-03-08T07:04:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密领域存在广泛误解，认为 zk-rollups 的最终确定时间很长，且主权 rollups 无法与 L1 桥接。Sovereign Labs 解析了主权 zk-rollups 的交易证明机制，及其如何实现快速最终性。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y</a></p>
+<p><strong>文章作者：</strong></p><p>Sovereign</p><hr><h3>观点：</h3><p><strong>Sovereign：</strong>对于大多数 zk-rollup，最大的开支之一是证明验证。太坊上的 rollup 可能会花费 300k 到 5m gas 来验证单个证明，因此当前大多数 zk-rollup 在提交证明之前会等待积累大量交易来降低每笔交易的成本。这带来了糟糕的用户体验。【原文为英文】</p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">内容来源</a><p><strong>Sovereign：</strong>解决方案：实时创建证明，使用递归将它们聚合成批量证明，然后通过 p2p 网络立即分发增量证明，轻客户端就会体验到快速的最终性。由于仍然只是在链上发布较慢的批量证明，因此不必再支付额外的链上验证费用。【原文为英文】</p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">内容来源</a><p><strong>Sovereign：</strong>如何选择一个规范的分叉？通过将 calldata 绑定回 L1 区块头，我们可以添加一条声明「我已经扫描了 DA 层的证明（从区块 X 开始到区块 Y 结束），并且这个证明建立在最近的有效证明之上」。这让我们可以直接证明分叉选择规则，而不是在客户端强制执行。【原文为英文】</p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[第 156 次以太坊执行层核心开发者会议笔记：测试网进展、上海升级时间和坎昆升级内容]]></title>
         <id>https://www.panewslab.com/zh/articledetails/pdynd7ke.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/pdynd7ke.html"/>
@@ -176,6 +214,18 @@ Nethermind 发现了有少量坏块，但与上海升级的代码无关。开发
 EIP-6046：用 DEACTIVATE 取代 SELFDESTRUCT (https://eips.ethereum.org/EIPS/eip-6046)。6046 聪明的地方在于它使用 nonce 来标记被“ SELFDESTRUCT”的合约，然后允许在相同地址上重新部署。不好的地方在于，它并不清理存储，这会导致被攻击。随着坎昆升级逐渐成型，开发者们在未来几周/月都会继续探讨这个设计空间。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址]]></title>
+        <id>https://twitter.com/PeckShieldAlert/status/1633331896083181570</id>
+        <link href="https://twitter.com/PeckShieldAlert/status/1633331896083181570"/>
+        <updated>2023-03-08T06:56:33.000Z</updated>
+        <summary type="html"><![CDATA[<h3>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</h3>
+<p>据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。</p>
+<p><a href="https://twitter.com/PeckShieldAlert/status/1633331896083181570">内容来源</a></p><hr><h3>观点：</h3><p><strong>glassnode：</strong>约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】</p><a href="https://twitter.com/glassnode/status/1633243962457878538">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -185,7 +235,7 @@ EIP-6046：用 DEACTIVATE 取代 SELFDESTRUCT (https://eips.ethereum.org/EIPS/ei
         <updated>2023-03-08T06:37:37.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>近期，Cobo 联合创始人兼 CEO 神鱼接受了新加坡区块链新媒体平台 DeThings 专访，分享了对当前市场、FTX 事件影响、DeFi 创新、DEX 未来等多个话题的看法和底层思考。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s?__biz=Mzk0OTI3NDAzMQ==&mid=2247484573&idx=1&sn=6ff5d8d46c6a5797334faeae0ca5be99&chksm=c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">https://mp.weixin.qq.com/s?__biz=Mzk0OTI3NDAzMQ==&mid=2247484573&idx=1&sn=6ff5d8d46c6a5797334faeae0ca5be99&chksm=c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd</a></p>
-<p><strong>文章作者：</strong></p><p>DiscusFish</p><hr><h3>观点：</h3><p><strong>DiscusFish：</strong>当前市场：2022 年的这次熊市和以往几次熊市相比，我个人感觉，绝望程度是不够的 —— 和以前的绝望程度没法比。围绕着模块区块链和二层网络这样的扩容方案，也有一些早期的方案开始出现。所以，在行业未来和行业信心方面，这一轮的市场反倒没有像之前那样让那么多人萌生退意。</p><a href="https://mp.weixin.qq.com/s?__biz=Mzk0OTI3NDAzMQ==&mid=2247484573&idx=1&sn=6ff5d8d46c6a5797334faeae0ca5be99&chksm=c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">内容来源</a>]]></summary>
+<p><strong>文章作者：</strong></p><p>DiscusFish</p><hr><h3>观点：</h3><p><strong>DiscusFish：</strong>当前市场：2022 年的这次熊市和以往几次熊市相比，我个人感觉，绝望程度是不够的 —— 和以前的绝望程度没法比。围绕着模块区块链和二层网络这样的扩容方案，也有一些早期的方案开始出现。所以，在行业未来和行业信心方面，这一轮的市场反倒没有像之前那样让那么多人萌生退意。</p><a href="https://mp.weixin.qq.com/s?__biz=Mzk0OTI3NDAzMQ==&mid=2247484573&idx=1&sn=6ff5d8d46c6a5797334faeae0ca5be99&chksm=c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">内容来源</a><p><strong>DiscusFish：</strong>DeFi 创新：整个 DeFi 底层的金融框架是成熟了，上面可能还有大量的可组合性的金融创新，目前还不成熟，只是有一些少量的尝试。我觉得，未来 DeFi 的核心模块会退化成链上的典型协议，其他的一些应用像 NFT、GameFi 可以直接来调这些协议使用。</p><a href="https://mp.weixin.qq.com/s?__biz=Mzk0OTI3NDAzMQ==&mid=2247484573&idx=1&sn=6ff5d8d46c6a5797334faeae0ca5be99&chksm=c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">内容来源</a><p><strong>DiscusFish：</strong>DEX 的未来：站在今天来看，FTX 的这个事情基本上标志着中心化交易所黄昏的到来。未来一段时间，会出现一些去中心化与中心化相结合的方式，去规避这些风险。甚至一些长尾的需求，我们就直接在去中心化去解决掉了，可能效率更高一些。</p><a href="https://mp.weixin.qq.com/s?__biz=Mzk0OTI3NDAzMQ==&mid=2247484573&idx=1&sn=6ff5d8d46c6a5797334faeae0ca5be99&chksm=c35b905df42c194b63129280d43891baf677c16976222b7e580aef282cee0635222a46978335#rd">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -9504,30 +9554,6 @@ FreeNFT 推广二代岛屿 Freemint 时 Twitter 一周内涨粉 26.9 万（目�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】Solana 的困境：网络中断频发、链上数据下降…]]></title>
-        <id>https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain</id>
-        <link href="https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain"/>
-        <updated>2023-03-03T08:13:06.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2 月 25 日，Solana 网络再次中断，这是自 Solana 2020 年上线以来后的第 9 次宕机。网络中断频发、链上数据下降，Solana 似乎正在走下坡路。区块链研究员 francesco 通过 4 个链上指标论证了 Solana 当前不容乐观的发展形势。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain">https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain</a></p>
-<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>反复出现的网络中断问题可能是因为 Solana 代码库真的很复杂，而且成千上万的验证器数量意味着测试新更新非常复杂。为了加快开发，他们在部署时可能会遇到一些问题。在 Solana 上的所有 TPS  中，只有 10% 是真实交易，其余均是验证者通信。【原文为英文】</p><a href="https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain">内容来源</a><p><strong>francesco：</strong>指标 1&2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】</p><a href="https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【长推】前 Adidas Web3 项目负责人谈 Web3 忠诚度计划：3 个创新优势]]></title>
-        <id>https://twitter.com/starzqeth/status/1631452594361991168</id>
-        <link href="https://twitter.com/starzqeth/status/1631452594361991168"/>
-        <updated>2023-03-03T07:46:37.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>前 Adidas Web3 项目负责人 Tareq Nazlawy 在 Overpriced JPEGs 的采访中分享了关于忠诚度 3.0、粉丝游戏、以及在 Adidas 从事 Web3 相关工作的经验。专注于 Web3 品牌研究的研究员 starzq.eth 摘录了其中关于 Web3 忠诚度的部分的讨论，将 Tareq 认为的 Web3 忠诚度带来的创新总结为：情感价值、交叉营销价值和社区共创价值。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/starzqeth/status/1631452594361991168">https://twitter.com/starzqeth/status/1631452594361991168</a></p>
-<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>Web3 忠诚度计划 3 个创新优势：1. 情感价值：人们喜爱收集，可确权带来了真正拥有某个事物的感觉；2. 交叉营销价值：由于 NFT 是开放数据，各品牌之前的私域数据变成公域。基于更丰富的数据，每个品牌都可以做更精准的营销，每个用户也得到了更多权益；3. 社区共创价值：基于 NFT 的可组合性，品牌方只需要提供好的工具包和合理的激励机制，社区会自发创造。</p><a href="https://twitter.com/starzqeth/status/1631452594361991168">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【长推】前 Adidas Web3 项目负责人谈 Web3 忠诚度计划：3 个创新优势]]></title>
         <id>https://twitter.com/starzqeth/status/1631452594361991168</id>
         <link href="https://twitter.com/starzqeth/status/1631452594361991168"/>
@@ -9712,30 +9738,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Mint Venture 投资经理吴思嘉及其研究员博博以 Free to Own Web3 游戏新范式为起点，撰写研报对 DigiDaigaku NFT 整体生态进行系统描述，并发推总结研报结论，思考为什么要做 Web3 游戏？什么样的游戏更适合与 Crypto 结合？</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">https://twitter.com/0xscarlettw/status/1631491500369379331</a></p>
 <p><strong>文章作者：</strong></p><p>吴思嘉（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>吴思嘉（Mint Ventures）：</strong>研报结论：1）Machine Zone 的成功是机制创新的胜利，但也是 2014 年前后手游贫瘠的大环境下时势造英雄的产物。2）更健康的收入结构，放眼长期跟社区互利的契约精神，与区块链特性更好结合，Free to Own 必然是大势所趋。3）Limit Break 显然在做另一款 Whale Hunting 的游戏。4）为什么要做 Web3 游戏？改变游戏的分发模式，也改变资产的分发模式。</p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>并得出思考：1）什么样的游戏适合跟 Web3 结合？强调社交，让巨鲸在冲动和快感里为自己的工会买单。2）证券化的数字资产将不可避免地成为我们生活的一部分，甚至「游戏资产具有价格」本身，也是游戏走向「实感」的功能性的部分。3）挑战依然存在：解决过往失败的原因，就一定会在新的纪元成功吗？</p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>4）对此次超级碗广告跟过往进行了对比，并认为这次超级碗广告的效果似乎不及预期。但龙的活动还远远没有结束，Digi 的可编程版税和自有 NFT 平台也似乎如火如荼 —— 团队能否直面挑战，做出真正的范式创新？我们期待且保持关注。</p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mint Venture : 从 DigiDaigaku 思考 Web3 游戏的未来范式]]></title>
-        <id>https://twitter.com/0xscarlettw/status/1631491500369379331</id>
-        <link href="https://twitter.com/0xscarlettw/status/1631491500369379331"/>
-        <updated>2023-03-03T06:56:18.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Mint Venture 投资经理吴思嘉及其研究员博博以 Free to Own Web3 游戏新范式为起点，撰写研报对 DigiDaigaku NFT 整体生态进行系统描述，并发推总结研报结论，思考为什么要做 Web3 游戏？什么样的游戏更适合与 Crypto 结合？</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">https://twitter.com/0xscarlettw/status/1631491500369379331</a></p>
-<p><strong>文章作者：</strong></p><p>吴思嘉（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>吴思嘉（Mint Ventures）：</strong>研报结论：1）Machine Zone 的成功是机制创新的胜利，但也是 2014 年前后手游贫瘠的大环境下时势造英雄的产物。2）更健康的收入结构，放眼长期跟社区互利的契约精神，与区块链特性更好结合，Free to Own 必然是大势所趋。3）Limit Break 显然在做另一款 Whale Hunting 的游戏。4）为什么要做 Web3 游戏？改变游戏的分发模式，也改变资产的分发模式。</p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>并得出思考：1）什么样的游戏适合跟 Web3 结合？强调社交，让巨鲸在冲动和快感里为自己的工会买单。2）证券化的数字资产将不可避免地成为我们生活的一部分，甚至「游戏资产具有价格」本身，也是游戏走向「实感」的功能性的部分。3）挑战依然存在：解决过往失败的原因，就一定会在新的纪元成功吗？</p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">内容来源</a><p><strong>吴思嘉（Mint Ventures）：</strong>4）对此次超级碗广告跟过往进行了对比，并认为这次超级碗广告的效果似乎不及预期。但龙的活动还远远没有结束，Digi 的可编程版税和自有 NFT 平台也似乎如火如荼 —— 团队能否直面挑战，做出真正的范式创新？我们期待且保持关注。</p><a href="https://twitter.com/0xscarlettw/status/1631491500369379331">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1900 万美元砸穿整个 NFT 市场，重新审视 Blur 带来的流动性]]></title>
-        <id>https://www.theblockbeats.info/news/35206</id>
-        <link href="https://www.theblockbeats.info/news/35206"/>
-        <updated>2023-03-03T06:41:05.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>从地板价「画门」到「NFT 史上最大砸盘」，当前 NFT 市场流动性究竟是来自机制创新的增量，还是存量资金的内卷滚动？BlockBeats 作者 Jack 及 Cookie 复盘了上周末「NFT 史上最大砸盘」，并就「激素流动性」下的 NFT 百态进行了解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35206">https://www.theblockbeats.info/news/35206</a></p>
-<p><strong>文章作者：</strong></p><p>Jack🔺0x137</p><hr><h3>观点：</h3><p><strong>Jack🔺0x137：</strong>自 2 月初 Blur 空投积分进入白热化阶段后，黄立成就一直在挂出高价 Bid，一边虹吸蓝筹资产，一边赚取 BLUR 空投，社区将这套策略总结为「麻吉飞轮」。而后当其在两天内大规模抛售后，蓝筹项目失去「麻吉流动性」，Bid 墙瞬间被砸穿，整个 NFT 市场的流动性也跟着跨下来。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a><p><strong>Jack🔺0x137：</strong>NFT 流动性的主力军一直都是机器人，它们通过在 OpenSea 上倒手 NFT 以实现盈利，但据一位机器人策略开发者表示，与以往的 NFT 追求的无损不同，现所有机器人策略都改为了刷分，相较于以往在 OpenSea 上进行倒买倒卖，在 Blur 上刷空投的收益有更高的确定性和投资回报比。这也正是 Blur 在流动性战争中打败 OpenSea 的重要因素之一：他们贿赂了市场流动性中的主力军，这些中坚流动性则做出了从 OpenSea 迁徙至 Blur 的选择。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a><p><strong>Jack🔺0x137：</strong>部分已被淘汰的刷分策略：1）MEV 抢跑：利用 Blur 在 Bid 成交流程中存在的漏洞进行零成本刷分，目前 Blur 官方已经修复了该积分漏洞；2）无限 Bid 新 NFT 合集：借助 Blur 对新上架 NFT 的交易禁令来进行某种程度上的「无限刷分」，Blur 团队也已经对新上 NFT 合集的交易禁令进行了调整，将 3 小时改为 1 小时。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a><p><strong>Jack🔺0x137：</strong>据 PROOF 研究总监 NFTstatistics.eth 发布数据显示，自 2 月 15 日至 3 月 1 日，前 10 大 Blur Bid Farmer 的交易收益均为负数。与这个数据形成呼应的是，Blur 总成交量的 20% 仅由 17 个钱包地址贡献，50% 仅由 292 个钱包地址贡献。NFT 要有 FT 化的体验，但绝不是在价值逻辑也向 FT 靠拢。当一个 NFT 基础设施用 Token 激励取代 NFT 项目的吸引力成为流动性的「发动机」，当中小创作者在这个市场里变得愈发步履维艰，我们应该感到一丝危险了。</p><a href="https://www.theblockbeats.info/news/35206">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
