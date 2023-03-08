@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T13:39:37.498Z</updated>
+    <updated>2023-03-08T13:44:33.183Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -29,6 +29,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[将结合 Web3 的足球游戏公司 Matchday 完成 2100 万美元融资，梅西旗下基金 Play Time 领投]]></title>
+        <id>https://www.fastcompany.com/90861956/lionel-messi-invests-matchday-mobile-gaming-startup-soccer</id>
+        <link href="https://www.fastcompany.com/90861956/lionel-messi-invests-matchday-mobile-gaming-startup-soccer"/>
+        <updated>2023-03-08T13:08:28.000Z</updated>
+        <summary type="html"><![CDATA[<h3>将结合 Web3 的足球游戏公司 Matchday 完成 2100 万美元融资，梅西旗下基金 Play Time 领投</h3>
+<p>据 Fast Company 报道，专注于足球比赛的互动娱乐初创公司 Matchday 宣布完成 2100 万美元种子轮融资，梅西旗下基金 Play Time 领投。Matchday 计划将 Web3 和移动游戏结合起来，创建一套由 FIFA 授权的足球游戏，吸引更多球迷用户。首款游戏预计将于今年第二季度发布。</p>
+<p><a href="https://www.fastcompany.com/90861956/lionel-messi-invests-matchday-mobile-gaming-startup-soccer">内容来源</a></p><hr><h3>观点：</h3><p><strong>Sebastien de Halleux（Matchday 首席游戏官）：</strong>我们相信真正的所有权对于为游戏玩家创造一系列新体验非常重要。对我们来说，这都关于可访问性。我们正在谈论将数以亿计的球迷带入我们的游戏，他们甚至不知道 Web3 是什么，我们的座右铭是「让复杂性消失」。【原文为英文】</p><a href="https://www.fastcompany.com/90861956/lionel-messi-invests-matchday-mobile-gaming-startup-soccer">内容来源</a><p><strong>Derrick Ko（Matchday 首席执行官）：</strong>我们的长期观点是，游戏的数字所有权是未来将会发生并存在的事情。区块链是实现这一目标的一种方式，是我们现在的解决方案。我们不认为自己是一家 Web3 公司或 Web3 游戏。我们「使用它」与所有游戏都使用现有的最新技术来实现新体验一样。【原文为英文】</p><a href="https://www.fastcompany.com/90861956/lionel-messi-invests-matchday-mobile-gaming-startup-soccer">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[PA日报｜Consensys发布ETH质押提款指南；Shibarium公测版将于本周发布]]></title>
         <id>https://www.panewslab.com/zh/articledetails/25k6vsuo.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/25k6vsuo.html"/>
@@ -192,6 +204,18 @@ The Block数据显示，比特币和以太坊期货和期权交易量在今年2�
 报告称，2 月份，币安在衍生品交易所的市场份额也有所增长，攀升至 62.9%，创下有史以来最高的月度市场份额记录。交易所 OKX 和 Bybit 分别以 14% 和 13.3% 的市场份额紧随其后。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解读最新 Final 的 ERC-6147：极简的半强制性 NFT 产权分离标准]]></title>
+        <id>https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ</id>
+        <link href="https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ"/>
+        <updated>2023-03-08T12:53:19.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 3 月 7 日，由 10K Universe 提出 EIP-6147 移至 Final 版本。该标准是 ERC-721 的扩展，分离了 NFT 和 SBT 的持有权和转让权，并定义可设置到期时间的「守卫者」角色 Guard，可使 NFT 防盗、借贷、租赁、SBT 等更灵活。本文系统讲述 ERC-6147 的实现机制，对比往期 NFT 租赁协议专案 ERC-4907 和 ERC-5055，综合分析点评此协议及适合的应用场景。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ">https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ</a></p>
+<p><strong>文章作者：</strong></p><p>十四君</p><hr><h3>观点：</h3><p><strong>十四君：</strong>ERC-6147 定义了 Guard（守卫者）角色，和 4907 的 UserInfo 很相似。Guard 有该 NFT 当前所有者及有代扣权限的地址，可通过 changeGuard 设置。设置成功后，都可以通过 guardInfo 查询。沿用了 4907 基于时间戳的设计，到期无需二次上链交易，自动失效。</p><a href="https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ">内容来源</a><p><strong>十四君：</strong>对于设置了 Guard 的 NFT，进行 transferFrom 时会查询交易发起方是否为守卫地址，是才能转移。原持有者只有持有权，没有转移权。使用原生 transferFrom 或 safeTransferFrom 转移 NFT 后守卫设置并不会自动清除，如果后续使用 Guard，需检验是否使用 transferAndRemove 在转移后清除守卫者信息。Guard 不能设置代扣。一方面是因为本质上该 NFT 的转移权被限制到 Guard 上，不需要考虑代扣授权者。另一方面是 Guard 不能设置 Approve，以防守卫者归还转移权后转移 NFT。</p><a href="https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ">内容来源</a><p><strong>十四君：</strong>对比于同样重磅的 4907 而言， 6147 更多是强在兼容性的优化。另外，6147 也提出了「可管理的 SBT」和「有效的 SBT」概念。现在的 SBT 提案设计太注重 Vitalik 提出的「不可转移」特性，忽略了 NFT 的潜在管理场景，比如社交恢复、收回 SBT（比如学术不端收回学位，或 DAO 成员在社区作恶，需要收回其 SBT 权限）。</p><a href="https://mp.weixin.qq.com/s/dbOqW0UdWgdPxwTK4TMowQ">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3962,7 +3986,7 @@ OPNX 将对类似的破产索赔进行分组，并将其代币化，这些代币
         <id>https://www.panewslab.com/zh/sqarticledetails/w46exwyk.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/w46exwyk.html"/>
         <updated>2023-03-07T14:48:48.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月7日消息，加密KOL、DeFi 研究员 Ignas 表示，Three Arrows Capital 创始人 Su Zhu 和 Kyle Davies 等人创办的加密索赔交易和衍生品的公共市场“OPNX”已经筹集了 2500 万美元。Zhu Su 转发了该推文。另外，OPNX 将收购 CoinFLEX 的所有资产，包括人员、技术和代币。FLEX 将是他们的主要代币。可能的品牌重塑为：将以 1:1 的比例交换（无锁定），类似于 AAVE/LEND 品牌重塑。
+        <summary type="html"><![CDATA[PANews 3月7日消息，加密KOL、DeFi 研究员 Ignas 表示，Three Arrows Capital 创始人 Su Zhu 和 Kyle Davies 等人创办的加密索赔交易和衍生品的公共市场“OPNX”已经筹集了 2500 万美元。Zhu Su 转发了该推文。另外，OPNX 将收购 CoinFLEX 的所有资产，包括人员、技术和代币。FLEX 将是他们的主要代币。可能的品牌重塑为：将以 1:1 的比例交换（无锁定），类似于 AAVE/LEND 品牌重塑。Ignas 称，由于用户需要通过 KYC，不允许美国公民，因此将不会启用代币的提取，以避免代币与美国人互动的风险。
 OPNX 将对类似的破产索赔进行分组，并将其代币化，这些代币化索索赔在订单簿交易所进行交易。OPNX 将允许以破产债权作为抵押品对主要资产进行永续合约交易。]]></summary>
         <author>
             <name>PANews News</name>
@@ -10124,18 +10148,6 @@ Waves创始人此前曾表示，Power空投将只在Waves链上进行，用户�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Uniswap 基金会成立 Uniswap Bridge 评估委员会，旨在提供指导性建议]]></title>
-        <id>https://gov.uniswap.org/t/cross-chain-bridge-assessment-process/20148/47</id>
-        <link href="https://gov.uniswap.org/t/cross-chain-bridge-assessment-process/20148/47"/>
-        <updated>2023-03-03T12:33:14.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Uniswap 基金会成立 Uniswap Bridge 评估委员会，旨在提供指导性建议</h3>
-<p>Uniswap 基金会宣布成立 Uniswap Bridge 评估委员会，旨在为 Uniswap 桥接相关问题提供短期建议和长期指导。委员会将评估 Axelar、Celer、deBridge、Hyperlane、LayerZero、Multichain、Router Protocol、Wormhole 等 8 种跨链桥解决方案，以及 Celer 团队创建的 Multi-bridge implementation、Gnosis 团队创构建的 Block Header Oracle based solution、ERC-5164：Cross-chain execution 3 种桥接器解决方案。Uniswap Bridge 评估委员会将由相关技术人员构成，目前拥有 6 位成员，并正在扩大人员规模。</p>
-<p><a href="https://gov.uniswap.org/t/cross-chain-bridge-assessment-process/20148/47">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Coinbase发布二层网络Base，Rollup as a Service 赛道迎来转折点？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/ilgxs0sc.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/ilgxs0sc.html"/>
@@ -10216,18 +10228,6 @@ Rollup 模块化架构
 PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】新项目前瞻 | LongSwap：基于 TWAMM 机制的抗 MEV AMM 协议]]></title>
-        <id>https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E</id>
-        <link href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E"/>
-        <updated>2023-03-03T11:50:57.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>TWAMM（时间加权自动做市商）是由 Paradigm 提出的一种新型的 AMM，有助于降低交易滑点和抵抗三明治攻击。LongSwap TWAMM 在 Balancer v2 实现了该节制，本文为 LongSwap 的项目解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E">https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E</a></p>
-<p><strong>文章作者：</strong></p><p>LongSwap</p><hr><h3>观点：</h3><p><strong>LongSwap：</strong>在 LongSwap TWAMM 中，用户下单时需要填写一个额外参数：时间。LongSwap 将在这段时间内不断执行购买交易。最后，用户需要发起另一笔交易用于提取购买的代币。LongSwap 订单以更小的虚拟订单执行，从而在持续时间内更好的平均价格和抵抗 MEV 套利。【原文为英文】</p><a href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E">内容来源</a><p><strong>LongSwap：</strong>为什么在 Balancer 上构建？首先，Balancer 提供了一个框架来构建自定义池，这使开发人员可以灵活地实现像 TWAMM 这样复杂的东西。其次，Balancer 的闪兑等功能为套利者提供了较高的套利效率，套利者的高频操作将有利于长期订单的执行。【原文为英文】</p><a href="https://mirror.xyz/longswap-xyz.eth/Ud9CF0TyLD4dBFzeTzhrQuxXH_2PkP49RjF5BdT-t5E">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
