@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T04:46:13.961Z</updated>
+    <updated>2023-03-08T04:51:22.202Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -471,6 +471,18 @@ https://www.coindesk.com/policy/2022/12/07/early-bitcoin-pioneer-ian-freeman-goe
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金]]></title>
+        <id>https://twitter.com/hhh69251498/status/1633027375398273024</id>
+        <link href="https://twitter.com/hhh69251498/status/1633027375398273024"/>
+        <updated>2023-03-08T03:41:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/hhh69251498/status/1633027375398273024">https://twitter.com/hhh69251498/status/1633027375398273024</a></p>
+<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>0xhhh：</strong>用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。</p><a href="https://twitter.com/hhh69251498/status/1633027375398273024">内容来源</a><p><strong>0xhhh：</strong>黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。</p><a href="https://twitter.com/hhh69251498/status/1633027375398273024">内容来源</a><p><strong>0xhhh：</strong>总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。</p><a href="https://twitter.com/hhh69251498/status/1633027375398273024">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为]]></title>
         <id>https://twitter.com/0xstrobe/status/1633228325576474626</id>
         <link href="https://twitter.com/0xstrobe/status/1633228325576474626"/>
@@ -488,7 +500,7 @@ https://www.coindesk.com/policy/2022/12/07/early-bitcoin-pioneer-ian-freeman-goe
         <link href="https://twitter.com/0xstrobe/status/1633228325576474626"/>
         <updated>2023-03-08T03:38:03.000Z</updated>
         <summary type="html"><![CDATA[<h3>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</h3>
-<p>DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。</p>
+<p>DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。</p>
 <p><a href="https://twitter.com/0xstrobe/status/1633228325576474626">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
@@ -7361,7 +7373,7 @@ Multicoin Capital表示对其长期战略依然“保持坚定”，但不会贸
         <updated>2023-03-05T03:48:04.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 提出了一种新的 Sequencer 交易排序策略，在当前的 FCFS （先进先出）策略中加入「Time Boost」机制，用户可以通过支付额外的手续费获得优先排序。区块链开发者 hhh_quickCreation 用通俗的语言解释了该机制，并分析了新机制为 Arbitrum 和 Sequencer 带来的收益。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">https://twitter.com/hhh69251498/status/1632037641184235520</a></p>
-<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>hhh_quickCreation：</strong>Arbitrum 目前使用的交易排序的方式是 FCFS（先进先出），但是这种方式有一个缺点，就是会造成延迟竞争（latency racing）。「延迟竞争」指的是，在当前 Arbitrum 的 Sequencer 的排序策略下，用户希望自己的交易比其他人的交易更快被接收，并且打包到 L1 的方法，就是向一个与 Sequencer 连接并且网络延迟最低的 fullnode 发送交易。</p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">内容来源</a><p><strong>hhh_quickCreation：</strong>为了避免物理资源浪费，Arbitrum 提出了一种 Time Boost 机制，你可以通过额外的手续费，让你的交易可以更快被处理（类似 bid for position）。这样可以带来一个很明显的好处，因为交易排序竞争而浪费的资源，现在转换成额外的交易手续费了，可以被 Arbitrum 网络去捕捉了。</p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">内容来源</a><p><strong>hhh_quickCreation：</strong>用户现在可以通过额外的收付费，将交易的 timestamp 提前，最多可以提前 0.5 秒。这是一条无限趋近于 0.5 秒加速的曲线，所以优先手续费实际上是上不封顶的，所以比如当 Arbitrum 网络上出现巨大的套利机会时，可以预见这部分套利的利润也有相当可观的部分会被 Sequencer 获取。</p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">内容来源</a>]]></summary>
+<p><strong>文章作者：</strong></p><p>0xhhh</p><hr><h3>观点：</h3><p><strong>0xhhh：</strong>Arbitrum 目前使用的交易排序的方式是 FCFS（先进先出），但是这种方式有一个缺点，就是会造成延迟竞争（latency racing）。「延迟竞争」指的是，在当前 Arbitrum 的 Sequencer 的排序策略下，用户希望自己的交易比其他人的交易更快被接收，并且打包到 L1 的方法，就是向一个与 Sequencer 连接并且网络延迟最低的 fullnode 发送交易。</p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">内容来源</a><p><strong>0xhhh：</strong>为了避免物理资源浪费，Arbitrum 提出了一种 Time Boost 机制，你可以通过额外的手续费，让你的交易可以更快被处理（类似 bid for position）。这样可以带来一个很明显的好处，因为交易排序竞争而浪费的资源，现在转换成额外的交易手续费了，可以被 Arbitrum 网络去捕捉了。</p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">内容来源</a><p><strong>0xhhh：</strong>用户现在可以通过额外的收付费，将交易的 timestamp 提前，最多可以提前 0.5 秒。这是一条无限趋近于 0.5 秒加速的曲线，所以优先手续费实际上是上不封顶的，所以比如当 Arbitrum 网络上出现巨大的套利机会时，可以预见这部分套利的利润也有相当可观的部分会被 Sequencer 获取。</p><a href="https://twitter.com/hhh69251498/status/1632037641184235520">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
