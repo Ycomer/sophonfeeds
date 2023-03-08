@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T05:09:26.604Z</updated>
+    <updated>2023-03-08T05:18:39.494Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[Optimism：最新版本存在问题，已更新者需回滚至op-geth版本]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ketn4lux.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ketn4lux.html"/>
+        <updated>2023-03-08T05:15:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，以太坊L2网络Optimism发推称，此前要求基础设施提供商在Optimism Goerli硬分叉之前将op-geth更新到新版本，但现在已发现最新版本存在问题，目前正在更新代码存储库以解决相关问题。
+对于已经更新了版本的基础设施提供商，Optimism要求回滚到以前版本的op-geth，如果尚未更新则无需执行任何操作，Optimism将很快分享更新版本。
+此前3月6日消息，Optimism将于3月18日进行Optimism Goerli硬分叉升级。目前官方已删除此推文，并称这是因为相关信息不准确。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LocalBitcoins的兴衰十年：从OTC之王到黯然离场，“去中心化人设”崩塌的必然结局]]></title>
         <id>https://www.panewslab.com/zh/articledetails/8dmjgz1x.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/8dmjgz1x.html"/>
@@ -4136,17 +4148,6 @@ Arbitrum生态链最火阶段已过，fomo情绪或不足。
 <p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，而之所以存在利差，是因为两种类型的标的具备不同的风险特征和流动性特征。利差本质上就是流动性溢价和风险暴露溢价，选择 Staking 需要牺牲资产的流动性并且承担更大的损失。</p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">内容来源</a><p><strong>0xLoki：</strong>当前之所以能够存在这么高的利率，主要是因为上海升级的不确定性。所以 ETH 开放 Staking 赎回以后，一个高确定性的结果是利差缩小，最终形成平衡，杠杆 Staking 的收益回到一个合理区间。另一个高确定性的结果是借贷成为 Staking 的加杠杆方式之一，LSD 的借贷市场变得更加繁荣。</p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：某巨鲸从币安、OKX等交易所提取360万枚MASK，约合1480万美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html"/>
-        <updated>2023-03-07T05:35:38.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月7日消息，Lookonchain数据显示，一巨鲸地址通过多个地址从币安、OKX、KuCoin和Huobi提取约360万枚MASK（约1480万美元）。MASK代币价格今天从3.27美元上涨到4.16美元，涨幅达27%。
-Lookonchain分析称，据统计，0xEf7C开头地址历史上的MASK转入大多会导致MASK的价格上涨，转出会导致MASK价格的下降。该地址从Upbit提取0.5 ETH作为Gas费，并且是Upbit的用户。Upbit宣布今天15:00将开放MASK现货交易。该地址也许会将MASK转到Upbit出售。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
