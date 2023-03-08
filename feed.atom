@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T06:34:28.514Z</updated>
+    <updated>2023-03-08T06:41:21.299Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[香港概念龙头Conflux生态盘点：离岸人民币稳定币成亮点，合规数藏遍地开花]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/mnkw65e0.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/mnkw65e0.html"/>
+        <updated>2023-03-08T06:36:08.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Conflux 生态项目盘点：突破离岸人民币 侧重数藏元宇宙》
+作者：Maverick
+本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规。
+
+美国经济潜在的衰退、日益趋严的监管政策与香港大力拥抱 Web3 形成强烈的反差，老外纷纷将 Crypto 增长势头的动力指向以香港为代表的中国市场和投资者，甚至还喊出了“Long China”的口号。从曾经极力掩饰“国产团队”到如今主动秀出汉语增强归属感，不少项目在一夜间完成了由国外向国内身份 180° 的大切换。作为主打中国区块链的 Conflux 先后与小红书、中国电信等国内大厂达成战略合作，并结合国内政策环境，形成了其他公链所没有的、独特的数藏生态。本文将为大家盘点来自于 Conflux 生态项目。
+Fluent（https://fluentwallet.com/）
+由 Conflux 官方支持和推荐的钱包，用户可以在 Chrome、FireFox 和 Edge 浏览器上作为插件使用。Fluent 支持包括 Conflux eSpace、Ethereum 等 EVM 链，用户可以在一个拓展钱包中使用 Conflux Core 和 eSpace 进行资产的转移和存储。此外，Fluent 还支持 HD 钱包和硬件钱包。
+AnyWeb（https://anyweb.cc/）
+AnyWeb 数连是针对中国用户使用习惯设计的区块链资产钱包，支持标准 NFT 资产管理、App、移动端H5、小程序以及 Conflux 公链。AnyWeb 无 Token 相关功能、实名上链以及由热钱包云端加密托管，并支持官方 SDK 无缝接入。
+Swappi（https://app.swappi.io/#/swap）
+
+Swappi 是 Conflux 链上最常用的 DEX，用户可以使用交易、流动性挖矿、质押、彩票以及 Launchpad 等功能，支持包括 BNB、ETH、WBTC 、USDC、CFX 在内的 15 种资产交易，以及 CFX-ETH、CFX-USDT、CFX-WBTC 、CFX-USDC 等 19 种流动性挖矿 LP。Swappi 已推出治理 Token PPI 以及 Genesis Pass NFT ，该 NFT 可以给持有者带来白名单、其他 Conflux eSpace 项目的空投资格等权益。据 DeFiLlama 数据，当前 Swappi TVL 约 1200 万美元，占 Conflux 全链 TVL 的 82%。
+Moonswap（https://moonswap.fi/）
+Moonswap 是 Conflux 上第二大 DEX，由 Conflux Network 和跨链资产协议 ShuttleFlow 支持，并且使用不需要用户支付 Gas，由 Conflux 合约代为付费。该项目完全由社区驱动，目前支持 ERC20、CRC20、ERC721 和 ERC1155 的多种 FT 和 NFT 资产。用户可以在该平台上进行交易和提供流动性以及 Conflux 链上的 NFT 交易和拍卖。另外，Moonswap 还提供治理系统，持有不可交易 Token XGenesis 的社区用户可以投票参与，而 XGenesis 由 Genesis NFT、Believer NFT、Dreamer NFT、Aspirant NFT、Resonator NFT 或 Idealist NFT 兑换。
+Nucleon（https://www.nucleon.space/#/data/stake）
+
+Nucleon 是 Conflux PoS 的流动性质押解决方案，允许用户在无需锁定资产或维护基础设施条件下质押 CFX。当用户使用该平台进行质押时，会收到 1:1 比例的 xCFX（代表其所质押的 CFX）。xCFX 可以帮助用户赚取收益和贷款奖励，并会每天更新余额以反映 CFX 质押奖励。Nucleon 对质押用户收取质押收益中的 10% 作为服务费。Nucleon 已推出 NUT，持有者可以对使用国库资金的提案进行投票。当前 Nucleon 上共质押了超过 1200 万枚 CFX，价值超过 680 万美元，APY 约 18.7%。
+Goledo（https://www.goledo.cash/）
+
+Goledo 是一个 Fork Aave 的借贷协议。平台收入来自于借贷利息差和闪电贷费用，其中收入的 50% 分配给 GOL 质押者和锁仓用户，另一半则流入 Goledo 国库。此外，与无锁仓期的质押不同，对于锁仓 GOL 的用户将会有三个月的锁仓期，除了也可以享受平台收入外，如果提前取出，则会面临 50% 的罚款，罚款将分配给其他 GOL 锁仓用户。
+CNHC（https://www.cnhc.to/）
+CNHC（CNH Coin）是一种以 1:1 的比例与人民币挂钩的稳定币，目前已在 Conflux 和 Ethereum 上发行。CNHC 集团的法币储备由国际知名托管银行持有的持牌信托保护，独立审计公司会定期审查 CNHC 的离岸人民币储备。不过由于合规原因，CNHC 不对中国大陆的用户提供服务。除了 Conflux 外，CNHC 的合作伙伴还包括 Circle 和 KuCoin。
+INS3（https://conflux.ins3.insure/#/ins3/overall）
+
+INS3 是去中心化的跨链保险和保险提供商，采用"DeFi+NFT+oracle+跨链"创新模式为用户提供 CDS 商业保险，该项目在偿付机制上通过预言机和用户公平博弈的方式实现自动化偿付判断，用户可以在 Conflux、Ethereum、HECO、BSC 和 Polygon 上购买保险服务。在 Conflux 链上，INS3 保护着约 2.5 万美元的资产。
+ShuttleFlow（https://shuttleflow.io/）
+
+ShuttleFlow 通过 Conflux 链作为中继桥梁支持资产跨链，支持 Fluent 或 MetaMask。当前 ShuttleFlow 支持 ETH、LINK、USDC 等 49 种资产在 Conflux、BSC、Ethereum、Bitcoin、HECO、OKExChain 六个网络上跨链。
+淘派（https://www.taopainft.com/）
+淘派是由上海树图区块链研究院内部孵化，基于 Conflux 公链的 Web3 和元宇宙解决方案平台，包含区块链底层技术、NFT 发行交易平台、Web3 生态整合、元宇宙虚拟技术等。2022 年 1 月 11 日，数字藏品发行与交易平台淘派正式上线，合作发行过冬奥冠军徐梦桃个人 Q 版、《尚食》系列、《凹凸世界》国漫等数字藏品。此外，淘派官方还发布过由 AI 算法生成的《烤仔的朋友》头像系列，并登陆了《新民周刊》封面。
+薄盒 Mints（https://mintstech.cn/）
+薄盒提供模块化的区块链解决方案，可以为企业定制数字藏品 Saas 系统帮助企业管理自己的数字藏品平台；另外薄荷还提供品牌资源聚合，帮助品牌发行数字藏品。此前，薄盒与周杰伦合作打造了“周杰伦限量珍藏 Demo 空间”，包含了《青花瓷》《爱在西元前》等 5 首 Demo 音乐数字藏品。
+双镜（http://www.shuangjingbowu.cn/）
+双镜是一站式的数字藏品解决方案供应商，拥有自主数藏发行平台双镜博物，可为项目方提供藏品、盲盒、空投等多种模式并存的发行方案。目前双镜与⻄安博物院、南京博物总馆等多个国内博物馆、多个国家级⾮遗项⽬代表性传承⼈打成长期合作，发行了北京⽟雕【⾦镶⽟ 福⻁添翼】、京绣【⻰凤双喜同合袍】等燕京⼋绝系列。此外，双镜还打造其独特的数字 IP 形象泽宝系列，并作为双镜吉祥物，渗透到数藏发行、社区运营（头像、表情包、潮玩）等多个环节中。
+Conflux 目前已与多个 Web2 品牌进行数字藏品/NFT 方面的合作（如下图）。Conflux 联合创始人张元杰曾在去年 10 月时表示，现已经有超过 800 万个数字藏品在 Conflux 发行，超过 300 万的独立用户，服务了超过 300 个品牌 IP，其中不乏爱奇艺、解放日报、开心麻花等知名国内品牌。
+Conflux Name Service（https://app.web3verse.space/）
+
+".web3 用户名"是基于 Conflux 链的用户名系统。首批支持 .web3 用户名的有：Anyweb，ConfluxScan，Fluent，heyfoo，数盒，晒啦，Meta Name，区块积木，淘派等。目前开放注册 5 位及 5 位以上的用户名，费用为 30 元一年，可通过支付宝扫码支付；后续会逐步开放注册 5 位以下的用户名，目前仅面向中国大陆市场开放。
+宇现 Discoverse
+Discoverse 宇现将在 Conflux 上自建适应 SBT 协议的去中心化数据服务层，并通过汇总多链的 SBT 数据提供数据开放和分析服务。项目 MVP 预计在今年 6 月前上线，包括 H5 小程序、APP 和官网，将支持四类灵魂凭证的点对点签收、发放和销毁，并打造种子用户社区。
+CaTalk
+CaTalk 定位是基于 Conflux DID 的 Web3 社群。用户将在链上拥有诸如数字资产 NFT、数字身份 SBT 等的全新身份属性。基于全新的身份将会产生全新的社交链接，以同一种身份的群将成为社交的重点形态，CaTalk 将把这个群在 DID 的基础上重建。目前 CaTalk 已自建 NFT/数藏发行平台超喵，并计划在短期内与国内 50 个数藏项目合作，建立项目持仓群聊，并进一步完善群聊+话题为核心的平台基础服务与功能细节。
+莫塞元宇宙（https://www.mossai.com/）
+莫塞 MOSSAI 元宇宙力打可持续蓝色元宇宙的品牌口号，通过 AI 将全球岛屿（包括消失岛屿）生成为 NFT 海岛。MOSSAI 元宇宙有三大岛屿生态，分别是原生岛、躺平岛和涌现岛，其中的每一个岛屿都是一个独立的智能合约。莫塞元宇宙还包含莫塞利安人——灵魂绑定分身 SBA、加密元水母 NFG、涌现未来城（公寓、商铺等）等生态。目前亚马逊云科技、斑马中国、航天文创、艺术家谭恩等企业或个人入驻了莫塞元宇宙。
+参考：
+https://mp.weixin.qq.com/s/1-O2XW_447fXzpTTPbz9bw]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么我们需要全新的跨链解决方案 Omnichain？]]></title>
+        <id>https://techflowpost.mirror.xyz/RkhKFVFhwlvB5Mz7TfpfMRQQVwchjyo8XfJ7GnKpozs</id>
+        <link href="https://techflowpost.mirror.xyz/RkhKFVFhwlvB5Mz7TfpfMRQQVwchjyo8XfJ7GnKpozs"/>
+        <updated>2023-03-08T06:15:03.000Z</updated>
+        <summary type="html"><![CDATA[为什么我们需要全新的跨链解决方案 Omnichain？ – 深潮TechFlow
+撰写：Kryptzo
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[为什么我们需要全新的跨链解决方案 Omnichain？]]></title>
         <id>https://techflowpost.mirror.xyz/RkhKFVFhwlvB5Mz7TfpfMRQQVwchjyo8XfJ7GnKpozs</id>
@@ -3874,122 +3941,6 @@ DeFi数据：https://defillama.com/]]></summary>
 <p><a href="https://docs.sui.io/doc-updates/sui-breaking-changes">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文详解Arbitrum最新X2E项目Gosleep：睡觉即赚钱]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/8f76rtxng1f0.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/8f76rtxng1f0.html"/>
-        <updated>2023-03-07T07:30:30.000Z</updated>
-        <summary type="html"><![CDATA[GoSleep是一款结合GameFi、SocialFi和HealthFi的Web3生活方式应用程序，将根据用户提供的睡眠模式数据，为用户提供个性化睡眠建议，用户可以养成良好的睡眠方式可获得奖励(即sleep to earn) ,  该项目是X To Earn商业模式的又有一个创新应用，2023年2月22日 Gosleep已在Arbitrum上正式上线，GoSleep或将开启 “x to earn” 的新篇章。
-人一生中约有1/3的时间都在睡眠中度过，但如今，失眠已经成为了一个影响现代人健康的困扰。据健康卫生权威公布的数据显示，全球成年人中有六成以上存在睡眠问题，四分之一的成年人失眠，而且年轻人群体比例逐渐增高。
-地球上所有的生物都有“生物钟”，睡眠生物钟是人类长期以来形成的“昼夜睡眠节律”，不规律的睡眠作息会导致生物钟紊乱，相当于使身体器官在下班的时候工作，在工作的时候下班。最终导致提前衰老、心血管疾病、甚至癌症等后果，睡眠问题也是引起每年大约10万起起车祸（估计造成1500人死亡）的重要原因，这可以与飞机和船只事故、核反应堆熔毁等许多灾难相提并论了。所以规律睡眠作息对于人非常的重要，人们面临的睡眠问题越来越多，但截止目前仍没有什么好的解决方案。GoSleep协议就致力于为解决人们面临的睡眠问题提供一项解决方案。
-
-GoSleep的解决方案
-GoSleep团队在深刻理解睡眠问题的基础上，为用户提供了一个基于个人睡眠数据的科学专业的睡眠助手，该睡眠助手基于真实的个人健康数据（从设备收集）、大数据和专业数据来支持GoSleep用户的睡眠问题解决旅程。用户可以很容易地理解他们遇到的问题，并与遇到同样睡眠问题伙伴以及GoSleep团队一起解决问题。
-良好的睡眠应该是一件快乐的、自然的、可以实现的事情，GoSleep凭借强大的游戏解决方案背景，推出了超越传统数据和时间管理工具的解决方案,依据强大的游戏和社交属性留住用户，用户在游戏中建立自己的虚拟睡眠环境，达到良好睡眠，又可以获得奖励，并相互学习和分享自己的睡眠经验。通过利用Web3技术，GoSleep让事情变得简单和可能，用户从拥有一个睡觉的卧室NFT开始，围绕这个NFT，GoSleep建立了非常多样化的功能，NFT完全由用户拥有。
-
-GoSleep的玩法  
-GoSleep的玩法和其他x to earn项目的玩法基本类似，想要参与游戏首先需要一个NFT，在GoSleep中这个NFT就是一个卧室。 
-基于NFT的睡眠室功能是GoSleep生态系统的基础。一切都从我们卧室NFT开始。通过拥有这个NFT，用户打开了GoSleep世界的入口。
-
-卧室NFT是一个动态的NFT。用户的游戏、社交、睡觉、得分都会从这个NFT中体现和积累。从这个NFT中，用户和自己朋友可以很清楚的了解用户之前的睡眠旅程具体是怎样的。由于NFT对于GoSleep整个生态来说非常的重要，其设计也很有美感。
-
-NFT类型
-不同的NFT在同样的睡眠游戏中会导致不同的结果。
-GoSleep根据用户持有的NFT的类型授予用户不同的服务，但所有用户都是从最低级别获得必要的服务，项目又对不同的更高级别NFT提供递增的增值服务。
-免费NFT：赚取游戏代币，要求其他用户；高级NFT：赚取游戏代币，要求其他用户，升级，与其他NFT结合，修复耐久度。
-
-NFT稀有度
-从低到高，五个稀有度分别是免费、普通、稀有、史诗和传奇。通过NFT的稀有度识别具有不同需求的用户。稀有度高的用户往往期待更好的服务和更多的玩法。NFT只有到最高的稀有度（传奇），NFT通过游戏生产的才是治理代币而不是游戏代币。
-GoSleep社区将不断为高级版和免费版制作新的NFT，项目提供设计了一个公平和可持续的机制，来支持NFT的内在价值。
-交易：与其他的NFT生态系统一样，交易是人们正常获得NFT的方式。 GoSleep提供了一个内部市场，用户可以在其中交易他们的NFT。GoSleep对每笔交易收取5%的交易费用。用户还可以使用OpenSea等外部市场来交易他们的NFT。
-升级：在游戏过程中，用户将获得代币。通过消耗他们赚取的游戏代币和material NFT，用户可以将他们的NFT升级到更高的稀有度。升级带来了可能性。一旦失败，用户将失去一个material NFT和所有消费代币，系统会自动挑选价值较低的NFT进行消耗。
-合并：用户可以由elemental NFT（例如床、枕头、窗帘等）通过合并生成新的高级NFT。用户可以不断迭代他们的卧室NFT，NFT是用户的代币和游戏结果的主要决定因素。
-NFT的level决定用户游戏获得代币的数量，让用户不断构建更高Level的NFT，从而收获更多的奖励。
-Level：通过日常游戏，用户当前状态NFT不仅会产生代币，还会有升Level的进度，一旦达到最高Level，用户就可以将NFT升级到更高的稀有度。
-NFT 的Level分以下几个方面
-效率：效率是用户每次成功参与游戏会产生多少游戏代币 (NCT) 的基础值。例如，用户将根据他们的睡眠分数在每次睡眠中获得代币。这里的效率将作为决定范围内最终结果数量的参数发挥作用。
-舒适度：舒适度只会影响最稀有的NFT。这类似于效率，但决定了另一种类型的代币——治理代币 (ZZZ)。 治理Token向用户开放所有游戏玩法。
-幸运值：幸运值是NFT升级的关键，幸运值越高，升级成功的可能性就越大，用户还可以抵押Gov Tokens以提高升级的成功率。
-用户持有的NFT需要维护，设计了NFT的耐用性以实现用户不断参与游戏。
-维修：NFT在失去所有耐久度后需要修复。否则，NFT将不能在游戏中使用，例如生成代币。但即使NFT由于耐久度而无法使用，用户仍将保留NFT。
-成本：维修NFT需要消耗代币,用户通过修复NFT可以增加其Level。
-用户在加入项目的NFT后，首先授权GoSleep获取自己的睡眠等健康数据，基于用户的当前的具体睡眠情况，GoSleep会帮助用户识别、理解自己遇到的睡眠问题，然后用户使用GoSleep制定睡眠改善计划和目标，通过不断提供帮助，与用户一起通过游戏和社交轻松愉快的实现良好睡眠这一目标。
-用户将根据其睡眠计划的完成情况获得奖励。
-GoSleep提供了一个奖励系统，该系统结合了用户的睡眠分数（来自他们的睡眠计划、结果和质量），睡眠分数并不是代币奖励的唯一决定因素，睡眠分数、游戏结果和社交行为共同决定了用户最终能获得代币的数量。
-代币的产出数量主要由NFT的等级和稀有度决定， NFT等级越稀有、等级越高，用户在睡眠游戏中产生的代币数量就越多。
-用户设置睡眠计划后，睡眠分数将根据睡眠质量每天得出结果。睡眠分数和NFT条件决定了用户获得的代币数量。
-社交是GoSleep游戏玩法的重要组成部分，这对于用户建立良好睡眠也很重要。用户可以从第一天开始就邀请自己的朋友和家人加入睡眠社区。允许用户对朋友和家人进行分组，与他们竞争和分享，一起实现良好睡眠。
-GoSleep还设计了一种私人社交方式，用户可以建立亲密伴侣共同游戏。
-GoSleep还设计了一种私人社交方式，用户可以建立亲密伴侣共同“睡眠”，用户和亲密伴侣由共同的睡眠计划，各自有各自的NFT，这个设计是为同枕共睡眠的夫妻设计的。
-虽然睡眠问题多种多样，但总有一些人有类似的睡眠问题或睡眠计划，他们应该也可以相互帮助。
-GoSleep允许用户创建睡眠社交群组，用户可以自由加入睡眠组，从说早安和晚安开始，组内成员可以通过分享自己的睡眠数据，互相提供自己的睡眠数据和经验，互相帮助，互相学习。这有助于小组中的每个人更好的了解他们的睡眠问题，并从其他人那里发现立即即用的或更好的睡眠问题解决方案。
-GoSleep与当今大多数游戏和社交应用程序一样，允许用户在应用程序或跨应用程序中，在私人空间内或公共空间内共享他们的睡眠记录、睡眠阶段和代币奖励：睡个好觉，就分享你的成就！睡不好，就分享求助。
-睡眠追踪：GoSleep从大数据和可穿戴设备，可以轻松了解用户的睡眠行为。
-手机行为：诸如屏幕时间、使用情况等是非常直接的数据，可以用来识别用户当前是否在睡觉。通过手机行为可以了解用户的专注行为、反应速度等，可以了解用户的意识状态。除此之外，也从不同的角度了解用户的健康状况。
-可穿戴设备：Apple Watch、Fitbits等可穿戴设备要先进得多，可以不断、即时、持续地了解用户的健康状况和睡眠状况。项目方已经与可穿戴设备制造商建立了联系。将来，将专门为GoSleep的解决方案配备自己指定的设备。用户将从中获得更好的体验。
-大数据：在大数据的支持下，GoSleep向每个用户学习并与每个用户分享这些知识。
-使用Web3技术，用户在提供数据以实现分析的同时，仍然可以保持自己的完全数据所有权和匿名性。
-睡眠分数很重要，它揭示了用户的睡眠状况。睡眠评分主要考虑以下因素：
-Ø 用户的睡眠计划和实际结果。
-Ø 用户的整体睡眠质量。
-Ø 用户的 NFT。
-Ø 用户的游戏和社交活动。
-结合GoSleep对用户每次睡眠打分的所有因素来指导用户建立健康的睡眠习惯。
-GoSleep从用户那里收集数据并将其进行分析。从真实数据中挖掘可以让GoSleep深入全面了解用户睡眠的真实情况。其已经有成熟的方法可以从睡眠数据中进行学习分析，并科学地遵循众所周知且经过验证的睡眠数据分析模式。
-从不同的角度，GoSleep可以在从健康科学、用户行为和大数据中深度分析学习后，为项目的最终用户提供睡眠建议，引导用户建立健康的睡眠习惯。
-GoSleep团队在设计代币经济模型时采用了双币系统，分别是应用内产出的睡眠积分代币NGT和GoSleep生态系统的治理代币ZZZ。代币经济学模型使GoSleep的生态系统可持续发展,项目是循环代币经济学模型，从生成（赚取）到消费（支付/支出），代币总量保持在必要数量以下，以保持整体价值免受通货膨胀的影响。
-睡眠积分代币NGT作为应用内产出的代币，代币总量不设上限，用户使用GoSleep完成睡眠任务就可以获得NGT代币奖励。NGT在应用内有以下几点用途：
-NFT升级；
-NFT修复；
-开NFT宝箱；
-铸造新的NFT主要还是用于道具NFT的升级。
-ZZZ作为GoSleep生态内的治理代币，总量为6亿枚。ZZZ的应用场景：
-锁仓ZZZ代币，获得治理投票权和Staking奖励。
-在应用内消耗，包括对NFT升级、铸造出新的NFT和质押提高NFT升品概率等；在GoSleep应用中，用户铸造新的NFT需要消耗一定数量的ZZZ代币和NGT代币。
-
- 
-治理代币ZZZ的初始分配情况如下：
-
-核心团队
-CEO Dream：是一名成功的科技创业家，曾经创立一家面向特定市场的创业公司，并成为该领域的领军企业之一。他在技术领域有着超过10年的工作经验，先后就职于微软和Workday等知名企业。在过去15年中，他一直从事编程工作，对包括CRM、HCM、电子商务和区块链在内的不同技术栈有着深入的了解。
-CMO Jonathon：毕业于田纳西大学，是早期的区块链从业者，曾在多个区块链明星项目中担任市场负责人，包括Marlin Protocol、Abeatsgame和Realy Metaverse。他在NFT和区块链社区以及KOL和媒体资源方面拥有广泛的资源。
-CTO Frank：拥有超过8年的大型科技公司高级软件工程师工作经验，曾就职于微软等大型科技公司，对大型分布式系统、云技术和高频交易等领域有着广泛的知识。在过去几年中，他参与了多个Web3项目，包括SocialFi、NFT和区块链基础设施。
-
-路线图
-以下是Go Sleep项目的路线图：
-
-
-
-2022年Q4：社区建设、游戏玩法设计、NFT设计、应用程序开发、OG、Beta版发布
-2023年Q1：正式版本。Hypnos发布 启动平台IDOTGE
-2023年02月至04月：社交游戏、个人健康助手、DAO支持
-2024年Q1至Q4：构建健康生态系统、社区驱动的产品开发
-2023年2月28日Gosleep宣布完成200万美元融资，Foresight Ventures领投，CCC Capital、Amber Group、SevenX Ventures、KuCoin Ventures和Gate Labs等参投。
-
-参与机会
-“X to earn” 模式已出过几款爆款项目，Arbitrum还没有强的游戏项目，所以Gosleep有强大的先发优势。产品正在新一轮的内测阶段，项目立足于躺赚效应，用户参与门槛低、有发币和空投预期，且有诸多buff加持，GoSleep是否能成为Arbitrum生态中的爆款应用，我们会持续关注。
-2月22日和3月1日，星光版两轮5000个NFT已经Mint完毕，第二轮Mint价格为0.05555 ETH。Opensea上当前Starlight Edition地板价为0.079 ETH，Nightscaper Edition版NFT当前地板价0.7 ETH。
-3月3日到3月6日上午10:00（UTC）进行测试快照。项目将根据用户NFT的稀有度和等级将空投奖励设置为最高。游戏细节：3月6日快照中的地址将允许您通过导入钱包进入应用程序并在当天中午12:00（UTC）开始玩Gosleep。只有同时出现在起始和结束快照中的地址才有资格获得代币奖励。代币奖励将根据结束快照地址的NFT持有量计算。具体奖励详情请见： 
-链接：https://medium.com/@gosleep1/gosleep-closed-beta-test-52be567177e9
-对于已经mint到NFT的稳健型投资者，现在可以选择卖出，稳稳赚到不错的收益，近期mint到的NFT收益超过50%了。
-为了获得更多家具抽奖票，建议把持有的NFT分到更多数量的钱包去。
-持有NFT可以获得项目的代币空投的机会，但不用分到更多的钱包去（对于空投分与不分是一样的）。
-如果持有NFT且看好后期行情，可以参与封闭测试（结束：3月17日上午10:00（UTC))，有机会获得更多空投机会。
-如果当前没有持有NFT, 且比较看好项目的激进投资者可以选择买入NFT，再参与上述活动以获得代币激励。
-
- 
-项目风险
-
-
-“X to earn”模式已经火过一次，整个赛道缺乏强的增长点，热度衰退较大。用户对“X to earn”模式的庞氏影响较深。
-没有看到项目的反作弊机制的细节，没有很好的防止作弊行为的机制项目很难跑起来。
-代币经济模型上的独特创新略显不足。
-Arbitrum生态链最火阶段已过，fomo情绪或不足。
-项目对外宣称融资200万，融资规模偏中等。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
