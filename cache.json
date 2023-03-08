@@ -77,7 +77,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1027,
+          "wordCount": 1013,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -97,7 +97,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1279,
+          "wordCount": 1302,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -167,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一般具有正收益的 DeFi 协议代币表现能力是最好的，但只有极少数 DeFi 协议是处于盈利状态的。加密研究员 Thor Hartvigsen 从费用、收入、代币释放等数据盘点了 10 个  DeFi 协议的盈利能力。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ThorHartvigsen/status/1632687223643725824\">https://twitter.com/ThorHartvigsen/status/1632687223643725824</a></p>\n<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）以太坊：2 月收入为 6060 万美元。以太坊目前已经从每年膨胀 500 万枚降为每年膨胀 60 万枚；2）Gains Network：2 月收入为 196 万美元，其宣布在 Arbitrum 上推出后交易量大增，其运作几乎没有产生过链上费用；3）GMX：2 月产生了 1880 万美元的费用，其中 70% 用于支付流动性，30% 分配给 GMX 持有者，而且产生了 1270 万美元的代币奖励，使得其收益为 -700 万美元；【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1632687223643725824\">内容来源</a><p><strong>Thor Hartvigsen：</strong>4）Convex：2 月收入为 103 万美元；5）Arbitrum：由于其没有与代币释放相关的成本，收入为链上费用减去给以太坊验证者的费用，2 月收入为 78.5 万美元；6）Radiant：2 月收入为 32 万美元，V2 版本即将推出；7）ENS：2 月收入为 190 万美元，ENS 的收入来源为用户注册和续费，不存在链上成本；【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1632687223643725824\">内容来源</a><p><strong>Thor Hartvigsen：</strong>8）dYdX：截止目前，3 月收入为 68.8 万美元，主要从交易中赚取大量费用，但其有自己的订单簿，因此无需向流动性供应商支付费用，但值得注意的是，除了 3 月，dYdX 每个月的收益均为负数；9）Aave：2 月收入为 20.5 万美元，这是其 2023 年初以来首次正收益，主要原因是其近期 AAVE 释放的减少；10）Opensea 2 月收入为 630 万美元，SuperRare 为 41.2 万美元，Looksrare 为 12 万美元、Sudoswap 为 3.3 万美元，Blur 则由于所有费用及版权费都支付给创作者，其收入为 0 美元。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1632687223643725824\">内容来源</a>",
           "link": "https://twitter.com/ThorHartvigsen/status/1632687223643725824",
           "publishedOn": "2023-03-07T04:43:14.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】10 个 DeFi 协议盈利能力解读：以太坊、Gains Network、GMX......",
           "imageUrl": null
         },
@@ -237,7 +237,7 @@
           "description": "<h3>Kraken 首席法务官 Marco Santori：Kraken 有望很快推出银行</h3>\n<p>加密交易所 Kraken 首席法务官 Marco Santori 在 The Scoop 播客中表示，Kraken 正在推进自己的银行计划，有望很快推出，且其银行关系是安全的。\n此前消息，加密货币交易所 Kraken 将终止其面向美国用户的加密货币质押服务，并支付 3000 万美元以了结 SEC 对其提供未注册证券的指控。</p>\n<p><a href=\"https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Marco Santori：</strong>未来几年里那些对如何为加密货币经济提供基础设施有新想法的人的路会走的非常艰难，但我并不认为美国对加密行业存在阴谋性打压。【原文为英文】</p><a href=\"https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place\">内容来源</a>",
           "link": "https://www.theblock.co/post/217177/kraken-is-on-track-to-launch-bank-very-soon-despite-regulatory-weird-place",
           "publishedOn": "2023-03-07T01:46:09.000Z",
-          "wordCount": 65322,
+          "wordCount": 65304,
           "title": "Kraken 首席法务官 Marco Santori：Kraken 有望很快推出银行",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/03/20230301_BankruptCompanies_Kraken-1200x675.jpg"
         },
@@ -257,7 +257,7 @@
           "description": "<h3>以太坊扩容项目 Scroll 完成 5000 万美元融资</h3>\n<p>以太坊扩容项目 Scroll 完成 5000 万美元融资，Polychain Capital、红杉中国、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures 和启明创投参投。所筹资金将用于产品构建、启动主网及扩大生态系统。据知情人士表示，该轮融资估值达 18 亿美元。Scroll 联合创始人 Sandy Peng 表示，Scroll 主网预计将于未来三至四个月内推出，且他希望将其目前 60 人的团队规模增加至近 100 人。\nScroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goerli 上推出 Alpha 测试网，任何用户都可无许可地参与测试。</p>\n<p><a href=\"https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href=\"https://twitter.com/Scroll_ZKP/status/1632813708174041088\">内容来源</a><p><strong>Suji Yan（ Mask Network 创始人）：</strong>迫不及待地想在更多社交应用程序中使用 Scroll 和 zkEVM。【原文为英文】</p><a href=\"https://twitter.com/suji_yan/status/1632825254958739456\">内容来源</a><p><strong>头等仓：</strong>Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。</p><a href=\"https://twitter.com/firstvip61/status/1632920805687562240\">内容来源</a>",
           "link": "https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation",
           "publishedOn": "2023-03-07T01:21:08.000Z",
-          "wordCount": 64617,
+          "wordCount": 64599,
           "title": "以太坊扩容项目 Scroll 完成 5000 万美元融资",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/02/20230227_Scroll_News-1200x675.jpg"
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mint Ventures 投资经理 Jessica Shen 首先对 Blur 当前的机遇和挑战展开讨论，其次谈论了从 Web3.0 创业和投资角度来看 Blur 值得学习的点，深挖项目细节，最后简单探讨围绕 Blur 的潜在投资机会。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://research.mintventures.fund/2023/03/06/zh-thoughts-on-blur-boom/\">https://research.mintventures.fund/2023/03/06/zh-thoughts-on-blur-boom/</a></p>\n<p><strong>文章作者：</strong></p><p>Jessica Shen</p><hr><h3>观点：</h3><p><strong>Jessica Shen：</strong>Blur 面临的挑战：1）缺乏底层技术创新改善流动性问题；2）未来参数调整存在流失用户和交易量风险；3）代币补贴结束后的竞争格局变化；4）第二季空投预期过高；5）代币价值捕获能力较弱。机遇：1）宏观市场及 NFT 行情改善；2）赛道竞争优势助力业务横向拓展；3）代币经济学模型存在各种业务增长、代币增值可能。</p><a href=\"https://research.mintventures.fund/2023/03/06/zh-thoughts-on-blur-boom/\">内容来源</a><p><strong>Jessica Shen：</strong>我们能从 Blur 中学到什么？创业：1）清晰了解市场需求，打造真实解决市场痛点的产品；2）利基市场产品定位，反而掌握市场核心用户；3）增长优先战略，快速攻城略地；4）运营技巧方面，持续的空投预期与产品新功能的节奏完美契合，牢牢锁定用户和市场关注度；5）代币经济学展现团队长期建设产品的决心和 DAO 治理的愿景。</p><a href=\"https://research.mintventures.fund/2023/03/06/zh-thoughts-on-blur-boom/\">内容来源</a><p><strong>Jessica Shen：</strong>投资：1）Web3.0 急需 Mass Adoption 的不是用户，而是优秀的创业者、开发者；2）解决行业真实痛点的产品不畏惧红海竞争；3）团队认知决定了产品上限；4）投资是个互相选择、共同成长的过程。</p><a href=\"https://research.mintventures.fund/2023/03/06/zh-thoughts-on-blur-boom/\">内容来源</a>",
           "link": "https://research.mintventures.fund/2023/03/06/zh-thoughts-on-blur-boom/",
           "publishedOn": "2023-03-06T11:49:03.000Z",
-          "wordCount": 3714,
+          "wordCount": 3738,
           "title": "Blur 投资漫谈：挑战与机遇、创业与投资收获、潜在投资机会…",
           "imageUrl": "https://research.mintventures.fund/wp-content/uploads/2022/08/2.png"
         },
@@ -417,7 +417,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5347,
+          "wordCount": 5346,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -477,7 +477,7 @@
           "description": "<h3>NFT 项目 Doodles 发布 DoodleMAP，将构建以 OG Collection 为中心的「Doodleverse」</h3>\n<p>NFT 项目 Doodles 发布 DoodleMAP，DoodleMAP 以 OG Collection 为中心，连接了 Doodlebank、Dooplicator、Doodles Records、The Stoodio、Planets、Space Doodles、Doodles2 和 Genesis Box 等产品。Doodles 表示，DoodleMAP 体现了其正在构建的宇宙及连接的方式，如地图所示将继续对以太坊生态系统和 Web3 的承诺进行大量投资，同时探索新​​的方式让新用户更容易加入和留在社区。</p>\n<p><a href=\"https://twitter.com/doodles/status/1631711599261098001\">内容来源</a></p><hr>",
           "link": "https://twitter.com/doodles/status/1631711599261098001",
           "publishedOn": "2023-03-06T01:42:50.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "NFT 项目 Doodles 发布 DoodleMAP，将构建以 OG Collection 为中心的「Doodleverse」",
           "imageUrl": null
         },
@@ -487,7 +487,7 @@
           "description": "<h3>币安曾邀请美 SEC 主席 Gary Gensler 担任顾问</h3>\n<p>据华尔街日报报道，在 2018 年和 2019 年期间，币安工作人员曾邀请前商品期货交易委员会主席、现任美国证券交易委员会主席 Gary Gensler 担任顾问。当时在麻省理工学院任教的 Gensler，「如果民主党赢得 2020 年大选，可能会回到监管机构」。时任币安风险投资部门负责人的 Ella Zhang 和 Harry Zhou 于 2018 年 10 月会见了 Gensler ，Zhou 写到：「虽然 Gensler 拒绝担任顾问，但他在分享许可策略方面很慷慨」。</p>\n<p><a href=\"https://www.wsj.com/articles/texts-from-crypto-giant-binance-reveal-plan-to-elude-u-s-authorities-3a17ddeb\">内容来源</a></p><hr>",
           "link": "https://www.wsj.com/articles/texts-from-crypto-giant-binance-reveal-plan-to-elude-u-s-authorities-3a17ddeb",
           "publishedOn": "2023-03-06T01:36:40.000Z",
-          "wordCount": 7311,
+          "wordCount": 7280,
           "title": "币安曾邀请美 SEC 主席 Gary Gensler 担任顾问",
           "imageUrl": "https://images.wsj.net/im-736222/social"
         },
@@ -727,7 +727,7 @@
           "description": "<h3>华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户</h3>\n<p>据「华尔街日报」报道，稳定币发行商 Tether 曾通过伪造文件和「影子中介」开立银行账户。报道称，Tether 在 2018 年使用以多家公司高管名义开立的银行账户，并对这些公司的名称进行了微调，以访问全球金融体系。此外，「影子银行」Crypto Capital Corp. 在 2018 年被当局关闭之前持有 Tether 资金，Bitfinex 和 Tether 在 2018 年 10 月「为亚洲空壳公司开立了至少 9 个新的银行账户」。</p>\n<p><a href=\"https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Paolo Ardoino（Tether 首席技术官）：</strong>WSJ 的报道一如既往的包含大量错误信息和不准确之处。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1631736554686148608\">内容来源</a><p><strong>Tether：</strong>「华尔街日报」关于很久以前陈旧指控的报道完全不准确且具有误导性。Bitfinex 和 Tether 拥有世界一流的合规计划，并遵守适用的反洗钱、KYC 和反恐融资（AML）法律要求。【原文为英文】</p><a href=\"https://tether.to/en/more-tether-fud-from-wsj/\">内容来源</a>",
           "link": "https://www.wsj.com/articles/crypto-companies-behind-tether-used-falsified-documents-and-shell-companies-to-get-bank-accounts-f798b0a5",
           "publishedOn": "2023-03-04T02:21:36.000Z",
-          "wordCount": 7775,
+          "wordCount": 7749,
           "title": "华尔街日报：Tether 曾使用伪造文件和空壳公司开立银行账户",
           "imageUrl": "https://images.wsj.net/im-735403/social"
         },
@@ -837,7 +837,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 551,
+          "wordCount": 543,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Aave 和 Curve 正在寻求协议内稳定币的发展以建立新收入来源。Bankless 分析师 Ben Giove 对 GHO 和 crvUSD 进行了探讨，并表示受益于与其他协议的集成，GHO 和 crvUSD 或将开拓出一个利基市场，用廉价资本刺激链上经济。中文版本由 DeFi 之道编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6806784\">https://www.defidaonews.com/article/6806784</a></p>\n<p><strong>文章作者：</strong></p><p>Ben Giove（Bankless 分析师）</p><hr><h3>观点：</h3><p><strong>Ben Giove（Bankless 分析师）：</strong>超额抵押稳定币 GHO 由 Aave V3 的存款支持，独特之处在于其借款利率由治理者手动设定。未来，GHO 将能够通过被称为促进者的白名单实体从 Aave V3 以外的其他场所铸币。crvUSD 是由 Curve 发行的去中心化稳定币，其机制为借贷清算 AMM 算法（LLAMA）,crvUSD 也应该受益于 Curve 的 guage 系统。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>市场影响：1）发行 DAO 收入的增加：协议内稳定币能够为协议带来额外收入来源，虽然取决于借款需求，并且是周期性的，但理论上仍可能使收入组合多样化；2）代币持有者潜在价值积累：发行稳定币然后与持有者分享收入将会使代币更具吸引力，但存在监管风险，也有可能以其他方式为其代币增加效用；</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a><p><strong>Ben Giove（Bankless 分析师）：</strong>3）贿赂和流动性碎片化：通过贿赂发行者能够在需要的基础上租用所需场景的流动性，贿赂热潮的另一个收益者是 otium 等市场平台。但其也将以流动性碎片化的形式让终端用户付出代价；4）信贷热潮：为了竞争，Aave 和 Curve 等稳定币不得不以低借贷利率提供 GHO 和 crvUSD，能够广泛刺激 DeFi 和加密市场。</p><a href=\"https://www.defidaonews.com/article/6806784\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6806784",
           "publishedOn": "2023-03-03T03:44:38.000Z",
-          "wordCount": 657,
+          "wordCount": 661,
           "title": "Bankless 丨 DeFi「野猫时代」：探寻协议内的特定稳定币",
           "imageUrl": "https://appserversrc.8btc.cn/lrw3AnD0Yd1zLoWqu-szzSFAVFqw.png?imageView2/1/w/500/h/300"
         },
@@ -1017,7 +1017,7 @@
           "description": "<h3>NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏</h3>\n<p>据 CoinDesk 报道，NFT 市场 Magic Eden 将于 3 月份在以太坊、Solana 和 Polygon 推出 13 款 Web3 游戏。此次游戏发布被称为「Mint Madness」，包括了第一人称射击游戏 Shrapnel 和游戏元宇宙 Planet Mojo，这些游戏都使用 NFT 来实现游戏内功能。Magic Eden 将在其社交媒体渠道上发布 Mint Madness 活动 NFT 交易者排行榜。Polygon 上交易量排名前 10 的交易员将分享 20,000 枚 MATIC 的奖金，第一名获胜者将获得 4,500 枚 MATIC 的奖金。据悉，去年 12 月，该公司聘请了前 Electronic Arts 高管 Chris Akhavan 担任其首席游戏官，上周，其风险投资部门 Magic Eden Ventures 投资了 11 个 Web3 游戏工作室。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/web3/2023/03/01/magic-eden-launches-mint-madness-with-free-web3-gaming-mints/",
           "publishedOn": "2023-03-03T01:28:11.000Z",
-          "wordCount": 20284,
+          "wordCount": 20283,
           "title": "NFT 市场 Magic Eden 将在 3 月份推出一系列 Web3 游戏",
           "imageUrl": "https://www.coindesk.com/resizer/ujIUgS7ilkdeSs9iJUcKJEdlGAI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IKPP3YLXIJDH3PKICAMGCMRPLE.jpg"
         },
@@ -2039,12 +2039,32 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/76f12x69.html",
+          "author": null,
+          "description": "原文：《V神看好的ERC-4337即将上线，都有什么新特性？》\n作者：Leo\n对于加密原住民来说，钱包安全一直是令人头疼的问题，丢失私钥、助记词，丢失资产，无法授权等都会导致用户失去对自己资产的所有权；而对于加密新人来说，很难同时弄清这些不同的概念，且交易期间频繁地授权批准也会使加密新人感到复杂。这间接地提高了进入 Web 3 的门槛，而即将到来的 ERC-4337 标准的诸多特性正是可以帮助用户解决这些问题的新标准，也是可以普及加密的必要之路。\n以太坊作为开发人员最受欢迎的基于区块链的计算平台，供开发人员基于其构建和部署去中心化应用，此前宣布将推出一个名为 ERC-4337 的新标准，该标准旨在善用户体验，防止私钥丢失，优化交易流程等。\nERC-4337 是由以太坊创始人 Vitalik Buterin 联合 Yoav Weis、Dror Tirosh 等人发布的账户抽象提案。该提案旨在使以太坊钱包更加友好（对用户），并防止任何密钥丢失。Vitalik 和他的团队提议将用户的外部拥有账户（EOA）变成智能合约账户（CA），这将允许使用户保持对他们的加密货币访问的内置机制。\n通俗地讲，ERC-4337 标准旨在使以太坊钱包更易于使用，并帮助防止用户失去对加密货币的访问权。为实现这一点，以太坊的创建者提议将钱包变成智能合约。智能合约具有内置机制，可以帮助用户保护其加密货币的安全，即使他们忘记密码或丢失私钥，这一关键功能包括要求多人批准交易的选项，以及一个系统，其中多个用户可以在有人丢失其私钥时帮助恢复其对帐户的访问。\n以太坊有两种不同类型的账户，外部拥有账户（EOA）与合约账户（CA），简单来说，EOA 由公钥和私钥组成，就像 MetaMask，通过助记词、私钥，用户可以对账户进行交易、访问。\n而对于 CA 来说，合约账户是没有私钥，智能合约是由其中的代码逻辑控制，它们不受用户控制。这里的关键问题在于可以通过代码定义合约账户做什么，而 EOA 是用户控制用来做什么，一个是用户手动，一个是基于用户想法下的自动。智能合约有能力做任何你可以用代码编写的事情，而 EOA 基本上只能签署交易。\n而现实是，「Not your keys, Not your crypto」，你如果丢失或被盗了私钥、密码，你的资产就不再是你的资产了，用户并未对自己的账户有着绝对的所有权，仅仅是通过这些密钥、密码来暂时拥有，一旦丢失，分币不剩。\n而 ERC-4337 作为一个新标准，可以解决以上的账户缺陷或者说是可以完善用户体验。\n账户恢复\nERC-4337 标准提供了几个关键特性，使其从其他标准中脱颖而出。它的主要特性之一是社会恢复系统，传统的以太坊账户用户需要记下并秘密保存 12-24 个英文单词、私钥。如前文所述，若账户所有者丢失私钥或者相关密保，那么账户无法再次找回，而该系统使多个用户能够恢复所有者对帐户的访问，降低了资金永久损失的风险，并提供了额外的安全保障。例如，用户可以选择受信赖的人来帮助关联自己的账户，类似于传统银行业务，这也大大增加了加密的主流采用。\n多签功能\nERC-4337 的另一个关键特性是能够创建多签钱包，此功能需要多个用户签署交易，提高系统的安全性和信任度。此外，该标准合并了外部拥有账户（EOA）和合约账户（CA），使以太坊钱包更加安全和用户友好。例如，用户可以指定一组特定的人（律师、家庭成员、信任的朋友），如果他们都同意，就可以访问该帐户。还可以使用生物识别等类似于智能手机的功能来控制对帐户的访问。\nGas 优化\nERC-4337 还有 Gas 帮助支付功能，用户还可以使用不同的 toekn 甚至链下信用卡进行支付，因此无需 ETH 即可进行交易，现在任何类型的系统或个人 Gas 支付方式都是可能的。此外，还允许其他人来为你支付 Gas 费，无需钱包中的必要的 Gas。这种做法会带来很多好处，尤其是针对新用户入行时，比如，新用户在一些交易过程中，你可以帮助他支付 Gas。\n预先批准交易\nERC-4337 的一个使用案例是预先批准特定时间段和/或特定 Dapp 的交易批准的能力。可以想象：用户在 L 2 上玩一款链游，不需要用户每次买/卖东西都经历签名过程，而是有着基于预先批准的自动和无缝的交易体验，这会增加 Dapp 的流畅体验，且更加人性化。\n捆绑交易\n捆绑交易也是 ERC-4337 的一个重要特性，它允许用户将多个交易捆绑在一起，只需要一次签名就可以完成交易需要的所有过程。例如，用户在 Uni 上进行 swap 或者添加流动性，其中授权，不同的 token 授权，允许 swap，添加流动性等阶段都需要钱包确认，而捆绑交易一次性解决了这一过程的频繁确认问题，增加了交易效率。\n订阅模式\nETH 的订阅模式是指以太坊网络提供的一种机制，允许开发者订阅特定的事件或数据更新（合约事件订阅、区块链数据订阅），当这些事件或数据更新发生时，以太坊网络会自动通知开发者，这种机制可以帮助开发者更轻松地实现实时数据同步、实时通知等功能。以往的 ETH 订阅是需要钱包批准后由智能合约执行，而 ERC-4337 通过本地集成简化了这一过程。\nERC-4337 对于加密原住民和想要进入加密的新人来说是一项变革性的技术，对于加密的普及很有帮助，通过 ERC-4337 加密不再是「高高在上」和「难以触及」，而是任何人都可以进入的领域，All in Crypto 到 All people in Crypto 的那一刻不再遥远。",
+          "link": "https://www.panewslab.com/zh/articledetails/76f12x69.html",
+          "publishedOn": "2023-03-08T01:10:50.000Z",
+          "wordCount": 1341,
+          "title": "预览ERC-4337新特性：Web2级丝滑体验离我们还有多远？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/07/images/C3cHfOPtes.jfif"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/7t3xiu55.html",
+          "author": null,
+          "description": "PANews 3月8日消息，Jack Dorsey旗下支付公司Block在官方博客上表示，其正在考虑构建比特币挖矿开发工具包或MDK，目前设想的MDK将包括：1.强大、可靠、工业级的比特币挖矿算力板；2.专为与算力板配合使用而设计的定制控制器板；3.开源固件、软件API和Web前端；3.丰富的参考资料和支持文档，方便算力板的轻松定制。Block将在接下来的几周和几个月内进一步更新其挖矿硬件计划。\n文章表示：“MDK旨在是为开发人员提供一套工具，以帮助释放比特币挖矿硬件的创造力和创新。我们预计MDK对专注于将比特币挖矿集成到各种新用例(如加热解决方案、离网挖矿、家庭挖矿或间歇性电力应用)的开发项目非常有用，以及为传统商业挖矿操作优化比特币挖矿硬件。通过MDK，我们看到了增加比特币挖矿硬件的可访问性和开放性的重大机会，以加速该领域的创新。”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/7t3xiu55.html",
+          "publishedOn": "2023-03-08T01:01:58.000Z",
+          "wordCount": 1118,
+          "title": "Jack Dorsey旗下支付公司Block计划构建比特币挖矿开发工具包",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/bov44lnj.html",
           "author": null,
           "description": "PANews 3月8日消息，据路透社报道，美国联邦上诉法院法官周二质疑美国证券交易委员会 (SEC)拒绝Grayscale Investment（灰度）的现货比特币ETF申请是否正确，因为该机构此前已批准比特币期货产品。华盛顿哥伦比亚特区上诉法院的一个法官小组就灰度的论点向美国证券交易委员会施压，该委员会称，由于监管机构此前批准了某些监管协议，以防止基于比特币期货的ETF出现欺诈行为，因此同样的设置也适用于灰度的现货基金，因为现货和期货基金都依赖于比特币价格。\n法官Neomi Rao表示：“对于一个机构来说，我们需要更多信息，但似乎这里有很多关于这些市场如何协同工作的信息，而美国证券交易委员会没有提供任何解释。”灰度首席法律顾问、奥巴马时代的美国总检察长Donald Verrilli Jr.在法庭上表示，比特币现货ETF将“更好地保护投资者”，因为根据与比特币期货交易场所芝加哥商品交易所达成的监管协议，比特币现货ETF将让投资者受益于监管。\n此外，据The Block报道，灰度与SEC之间的裁决可能需要等3到6个月的时间。彭博高级ETF分析师Eric Balchunas发推文称：“我们的高级诉讼分析师在今天上午（当地时间）听完灰度与SEC辩论后，将灰度公司的胜算从40%提高到70%。”数据显示，GBTC现报12.9美元，单日涨幅达9.6%，目前负溢价收窄至42.11%。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/bov44lnj.html",
           "publishedOn": "2023-03-08T00:34:31.000Z",
-          "wordCount": 1127,
+          "wordCount": 1129,
           "title": "灰度诉美SEC案开庭首日，法官质疑SEC拒绝灰度的现货比特币ETF申请",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -2354,7 +2374,7 @@
           "description": "原文：《IOSG Weekly Brief ｜GMX全链乐高会挑战dYdX龙头地位吗？#164》\n作者：Momir Amidzic,IOSG Ventures\n没有解决方案，只有取舍\n加密货币衍生品交易量一直超过现货市场，这种趋势并没有减缓的迹象。2022年，前10家衍生品集中交易所（CEX）的日均交易量约为950亿美元，而前10家现货CEX的交易量约为310亿美元。随着行业的不断成熟，我们可以预期衍生品与现货交易量的比例将达到类似传统资产类别的水平。\n然而，当我们将注意力转向去中心化交易所（DEX）时，情况有所不同。衍生品交易量仅相当于现货市场交易量的56％，表明衍生品DEX的相对不成熟。当我们比较特定垂直领域内DEX与CEX的比例时，这一点尤为明显：衍生品DEX仅占CEX交易量的1.5％，而在现货市场上这一比例更接近8％。\n\nSource: IOSG Ventures\n值得注意的是，虽然衍生品在传统金融和中心化加密货币交易所中产生了更大的名义交易量，但这并不一定意味着我们会在去中心化的参与者中看到同样的趋势。事实上，目前只有一个加密货币衍生品市场，它有可能在没有去中心化交易所的任何贡献下继续超过加密现货市场。\n如果说有什么时刻可以作为推动去中心化衍生品交易所增长的强有力催化剂，那一定是FTX在2022年因一系列争议事件申请破产。这种前所未有的冲击作为一种醒目的提醒，告诉我们不要信任中心化的参与者。但问题仍然存在：这一次我们真正吸取了教训吗？\n尽管FTX破产带来前所未有的冲击，最近的数据表明，我们可能没有完全吸取教训，或者说现有的DEX解决方案可能无法满足需求。去中心化衍生品和现货交易所对总加密货币交易量的贡献甚至有所下降，这些平台仅占CEX交易量的约1.3%和6%。这提醒我们，虽然行业已经取得了进展，但仍有许多工作要做，才能构建一个真正去中心化和值得信赖的系统。\n\nSource: IOSG Ventures\n仔细观察GMX和dYdX等领先者的市场表现，似乎没有明显增加对这些项目未来的热情。它们各自的代币价格仍然与FTX崩溃前期类似或更低的倍数（FDV/年化收入），而最近倍数的增加反映了整个市场的回暖，这表明人们缺乏对它们通过大幅增长交易量来超越市场的能力的信心。\nMarket Proxy包括具有收入能力的协议，并计算它们各自的FDV/收入比率的平均值。它包括以下项目：Lido、AAVE、Maker、Pancake Swap、Compound、Balancer和Sushiswap。\n那么，去中心化交易所真的能够接管加密货币交易吗？我们已经有了一些重要的考虑因素，包括去中心化交易所与中心化交易所的主要区别。但除此之外，我们还需要深入探讨差异点实际带来的影响，并查看可能支持或削弱其重要性的各种事件。\n例如，如果监管机构对中心化交易所进行限制，这可能会在用户寻求替代交易选择时创造更多短期需求。另一方面，如果市场经历了长时间的稳定期，用户可能不太关心与中心化交易所相关的潜在风险，并选择青睐他们所提供的便利和效率。\n\nSource: IOSG Ventures\n在过去两年中，已经有数十个DEX试图在加密衍生品市场上占据一席之地，但大多数DEX无法吸引到原生增长，因为大量交易量是由机器人和想赚取代币的交易者产生的。\n例如，根据TokenTerminal，dYdX和Synthetix是最大的收益差距前5名dApps之一。具体而言，dYdX和Synthetix的负余额分别为7.5亿美元和6.5亿美元，表明它们支付的奖励超过了所获得的费用。\n尽管Synthetix选择使用其奖励来激励供应方，即Stakers，但dYdX选择通过其交易挖矿计划直接激励交易活动。这些奖励可能会导致难以确定真正的原生需求。\n例如，一些奖励间接激励交易活动，因为项目可能通过代币挖矿奖励膨胀的流动性。\n在奖励明确针对交易活动的情况下，例如dYdX，仍然很难确定没有这样的奖励的真实交易量的范围。\n代币价格上涨是由于交易量上涨，即基本面更好，还是反之亦然？\n本质上，交易挖矿有可能创建飞轮效应，即：\n因此，dYdX每天创造数十亿美元的交易量。然而，这种可持续的活动程度有多大，与纯粹的交易挖矿有什么关系？最终，dYdX将耗尽燃料支持交易活动，其成功将完全取决于原生需求。\n\nSource: IOSG Ventures\ndYdX Fees/Incentives Ratio\nGMX：巨鲸的宠儿\nGMX是一个基于Arbitrum和Avalanche运行的去中心化加密货币衍生品和现货交易所。该平台允许用户在无需中介的点对池形式下交易加密货币。GMX提供了各种高级交易功能，包括限价单、止损单和最多50倍杠杆的保证金交易。\nGMX的设计是为大型交易者而建。这是由于它的零价格影响交易。它通过利用流动性池模型（GLP）和有些集中化的预言机价格喂送来实现零价格影响交易。它允许交易者以10个基点的交易费和每小时的借款成本，以当前市场价格从池中“租用”所有的流动性。\n我们使用每日100,000美元的交易量作为定义巨鲸交易者的门槛，我们观察到大约不到10%的GMX交易者可以被归类为鲸鱼，但是这群交易者在平台上持续产生90%以上的交易量。这与大多数一级DeFi协议成功的原因相一致，数次经验证明，PMF的实现需要协议做出更多有利于巨鲸的权衡。\nOne Whale is Worth Thousands of Turtles\nGMX上的活动有多少是有机的？\nGMX也在尝试创新的方式利用代币来启动活动，但其激励并不是为了创造虚假的交易量，原因如下：\na）GMX没有直接为交易者提供激励，例如交易挖矿计划\nb）它主要关注增加其TVL，但同时实施了保护其LP免受对抗性交易量影响的设计，即不支付LP在池中坐享套利交易费用。\n因此，GMX上大部分的交易量的确是有机的。除了有些交易者可能会去博取给Arbitrum生态系统dApps用户发放的潜在空投。\n与典型的永续合约相比，GMX衍生品的上限更为严格，因为未平仓合约（OI）受限于流动性池的深度，以确保协议的偿债能力。因此，“扩大流动性池”是GMX的优先目标，这些目标也已反映在GMX代币经济中。\n对于GMX来说，ETH和BTC的流动性最为关键，因为交易者主要希望租用这些资产的敞口，这点也显示在这些资产的历史最高借贷费用上。\nGLP能否在流动性挖矿后保持足够的TVL水平？\n即使我们忽略代币挖掘奖励，GLP持有人仍能够获得两位数的APY，最近的波动在15％至30％之间。\n批评者可能会认为GLP提供的收益与GLP持有者面临的重大定向风险敞口不成比例。然而，这种批评忽视了一个事实，即GLP持有者不一定是被动的做市者。虽然GLP可能没有内置的风控手段，但单个GLP持有者有能力实施积极的对冲策略。我们有理由假设许多GLP持有者正在这样做:\n1）对GLP资产篮子进行对冲，例如在LP对池中某些代币的波动性敞口感到不适\n2）对偏斜的市场需求进行对冲\n由于对冲需求通常在链下得到满足，因此很难衡量单个GLP持有者的确切盈亏。但是，考虑到收益率并假设合理的对冲成本，即使在完全对冲其敞口后，复杂的市场参与者也可以获得高个位数到低两位数的APY（不考虑代币奖励）。\n目前，GLP的目标是将不稳定和稳定资产的比例定为50：50，然而，考虑到稳定币的利用率大大不足，可能有探索不同目标权重的空间。或者，GMX应该找到一种方法来增加稳定币资产的利用率。\n具体而言，GMX面临的一个挑战是流动性池即GLP是每笔交易的交易对手方，这意味着无论需求偏向如何，都必须向池支付借贷费用。这为不平衡和GLP持有者的更大定向风险留下了空间。相比之下，对于常规的永续合约，如果市场处于主导看涨状态，则意味着维持多头仓位的成本更高，但同时也能通过对冲交易获得资金付款的能力。因此，假设市场是有效的，如果可以在其他交易所开设空头头寸并获利，那么没有理性的交易者会为GMX支付空头头寸的费用。同样地，当整个市场看跌时，开设GMX的多头头寸将缺乏激励。然而，由于市场倾向于在看涨情绪中加大杠杆，这也并没那么令人担忧了。\n利用front-running套利是DeFi领域中常见的事件，也是区块链上的主要活动驱动因素。尽管如此，协议已经能够在存有front-running风险的情况下成功运行。然而，零价格影响设计会带来更大的风险，因为交易者可以利用任何信息优势来耗尽流动性提供者的资源。\nfront-running可能是以下原因导致的：\na）预言机相关问题：例如，如果预言机由于某种原因miss了喂价更新或出现了更多的延迟，那么就存在套利者front-running喂价，利用预言机过时价差套利的风险。\nb）MEV：即使预言机按设计正常运行，在以太坊主网上，套利者也可以读取mempool数据，并通过支付额外的gas成本来三明治攻击价格走势更新。\n此外，在以太坊L1上，套利者可能会读取mempool数据，并尝试在预言机价格更新之前将其交易推入块中，从而利用SNX质押者。\n尽管GMX在Arbitrum上运行，具有集中式排序并避免了问题b），但他们不得不设计创新解决方案来规避a）的危险。\n滑点≠价格影响\nGMX解决预言机问题的方式是在UX部分接受某些权衡。换句话说，用户可能会受到潜在的大滑点影响，因为他们的订单只有在发送给GMX后几秒钟才会被执行，即用户知道价格的延迟很大。用户可以通过定义可接受的滑点范围来控制与滑点相关的风险，然而，在波动市场中，紧密的滑点范围可能意味着高数量的订单取消。\n当然，这并不是从零价格影响和以预言机为中心的解决方案中得出的唯一权衡。为了保护流动性提供者免受各种攻击向量的攻击，GMX必须将其提供的配对限制在只有少数高度流动的代币。\n例如，如果GMX支持一些较长尾的资产，交易者可以在GMX上使用大量的稳定币流动性，而无需任何价格影响即可做空这些代币，即使类似规模的交易在最流动的交易场所如币安上可能会显著影响市场。\n这不仅意味着LP正在以低于其真实成本的价格出售流动性，而且还存在潜在的（昂贵的）利用风险，即一个持有充足资本且经验老道的实体可以先在GMX上开立头寸，然后操纵市场价格发生变动，接着在GMX上关闭头寸获利。\nGMX可以通过实施动态持仓限制和费用来解决这些问题，这些限制和费用可以将标的资产的流动性作为计算因素之一。\n然而，即使做出这些修正，GLP设计仍会对更多元化的资产提供构成障碍。向GLP中添加新的高风险资产可能会大大改变其风险特征，从而可能会限制其吸引LP的能力，因为这意味着增加了对冲复杂性和成本以及长期风险，而LP有可能不愿意承担。因此，更为谨慎的做法是考虑创建具有不同风险特征的独立新池。\n最后，GLP要求资产在链上存在才能发行其衍生品，而其他一些参与者能够支持任何有可靠预言机喂价的链下资产的衍生品。\n\n后FTX时代的市场吸引力\n去中心化交易所（DEX）衍生品市场可能仍处于初期阶段，但GMX在FTX崩盘后的市场中表现出了令人印象深刻的实力。自那时以来，GMX成功吸引了超过40,000名新的衍生品交易者，他们每天平均贡献接近1亿美元的衍生品交易量。\n这种强劲的基本面体现在GMX相对于其主要竞争对手自FTX崩盘以来的表现上。在FTX崩盘当天，假设对GMX和dYdX分别投资1000美元，截至今日，GMX的回报约为1400美元，而dYdX的回报则约为800美元。虽然这些结果并不一定能预测未来的表现，但它们表明GMX已经在竞争激烈的DEX衍生品市场中占据了强有力的地位。\nGMX的产品远非完美，存在一些比如资产选择较小、流动性扩张问题、风控不足等等的限制。此外，平台的一些权衡，如牺牲去中心化原则和在用户体验上引入摩擦，也不应被忽视。\n然而，其中一些缺点可能是有意为之的取舍，也正是这些取舍帮助GMX找到了PMF，成为了具备最有机需求的去中心化衍生品交易所。\n第一个进入市场并不重要。最先找到PMF（产品/市场匹配）的，才往往是长期的赢家。\n这种PMF不仅表现在GMX强大的基本面上，而且还表现在它被fork数量上，使其成为有史以来被fork最多的DeFi协议之一。\n假设内部动态保持良好，没有黑天鹅事件发生，那么这可能会使GMX处于一个最佳位置，去逐渐解决所有缺点并发展成为衍生品垂直类中的主导者。\n但是，要从中心化交易所吸引用户并非易事。市场表明，仅仅是非托管属性是不够的。相反，DEX需要在自己的游戏中击败CEX，提供同样好的用户体验，包括入门难度、交易成本、延迟、价格影响、资产提供、高级交易功能、可用性、可靠性，甚至是丢失资金的恢复。\n不幸的是，现在在“不作恶”和“不能作恶”交易所的谱系上，最佳用户体验需要交易所更靠近谱系的左侧建设。\n\n然而，随着技术的成熟，我们可以朝着右侧移动而不以牺牲用户体验为代价。因此，从长远来看，去中心化交易所位于获胜方的位置。\n当然CEXs在这个过程中并非缺乏追赶的资源。我们将期望他们逐步提高标准，并尝试通过采用密码学方案来捍卫他们现有的市场地位，首先提供一种混合模型，以减少托管和透明度相关的顾虑，最后一旦原始方案进化到足以不需要牺牲用户体验，甚至可以实现完全去中心化。",
           "link": "https://www.panewslab.com/zh/articledetails/950wl08r.html",
           "publishedOn": "2023-03-07T09:01:01.000Z",
-          "wordCount": 1485,
+          "wordCount": 1479,
           "title": "GMX全链乐高来势汹汹，会威胁到dYdX的龙头地位吗？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/07/images/ojPcWg4nPn.jfif"
         },
@@ -2404,7 +2424,7 @@
           "description": "原文：《DAO监管拐点出现？美两州法案出台引争议》\n作者：肖飒法律团队\n2023年2月，犹他州发布了最新DAO监管法案，与2021怀俄明州DAO法案相比，新法在法人资格和有限责任方面更进一步，主要看点如下：\n（相关阅读：《DAO不再处于灰色地带？一文梳理犹他州创新DAO法案的重点内容》）\n1. 法案赋予了DAO一种独有的、新型的法律认可形式。犹他州决定不采取怀俄明州“旧瓶装新酒”的监管思路套用有限责任公司（limited liability company，LLC）模式对DAO进行监管，而是将DAO和LLC做明确区分，以具有开创性的立法思路为DAO单独创造了一种新型法人实体；\n2.法案明确DAO组织为有限责任制，解决了在2022年美国商品期货交易委员会（CFTC）诉bZx DAO（后改名为Ooki DAO）案中关于DAO成员是否需以个人资产对外承担无限连带责任的争议；\n3.建立了DAO的税收制度；\n4. 明确DAO参与者没有隐含的信托责任，除非已明确声明这些义务适用于参与者；\n5. 保护DAO参与者的匿名性；\n6. 纳入“技术把关”措施以确保DAO实质上是一个DAO。\n\n一、犹他州DAO法案概述\n关于什么是DAO飒姐团队已经进行过系统的介绍，感兴趣的伙伴们可以参考：《原创 | DAO，会是未来的新型“公司”吗？》今天我们就不再赘述。DAO作为一种近些年来刚刚出现的新型商业实体，在人员组成、运营管理、收益分配和税收等多种层面上与现有的商业架构存在明显的区别，因此一直以来对DAO的法律性质和监管措施都存在争议，各国虽然已经有了许多DAO的实案例，但这些DAO在监管措施和法律性质上依然处于“旧瓶装新酒”的状态。这一现状的产生，主要是因为怀俄明州在2021年发布的DAO法案中开了一个先例：将DAO与现实世界中较为相似，且已经发展成熟的LLC进行类比监管，甚至允许怀俄明州的DAO与LLC进行相互转换。换言之，在这种监管思路下，DAO即是LLC，LLC即是DAO。\n说实话，面对新科技，类比旧事物进行监管是最为常见的策略，但实质上也是立法机关、监管机构一种不得已的妥协：类比监管虽然可解燃眉之急，却漠视了新兴事物自身的独特性，不利于长远发展。\n因此，经过慎重考虑和激烈的讨论，犹他州在虚拟资产监管领域迈出了一大步，以实际的立法行动表达了拥抱虚拟资产的诚心：犹他州去中心化自治组织”法案（“Utah Decentralized Autonomous Organizations”Act）简称“犹他州DAO法案”。这部法案的诸多内容很大程度上参考了加密社区COALA所提出的DAO示范法模板（DAO Model Law），因此，犹他州法案在关于DAO的法人资格和承担有限责任上做出了一些非常具有“创新性”的规定。\n\n二、怀俄明州VS 犹他州，DAO监管有何异同？\n怀俄明和犹他州，对于大部分不熟悉美国的伙伴们来说，存在感非常低，既没有叫得出口的大城市也没有享誉全球的好大学，甚至连知名的土特产都数不出来几个。除了知名度外，怀俄明和犹他州还有非常多类似的地方：同样的风景秀丽、矿产资源丰富，但经济发展却相对落后；同样以农业（畜牧业）和矿产加工业为主要支柱产业；同样的土地辽阔却人烟稀少；同样对虚拟资产行业持积极欢迎的态度......\n而在DAO监管上，怀俄明和犹他州也是前后脚出台了相关法案，关于怀俄明的答案飒姐团队已经介绍过（详情参见：《原创 | DAO，会是未来的新型“公司”吗？》以及《飒姐团队 | DAO，可以在中国合法经营吗？》）今天，我们在对比的基础上，为大家讲一讲犹他州的创新。\n\n总的来说，怀俄明州的DAO法案规定较为粗糙，且没有针对DAO的诸多技术特征做出规定，而是简单的以LLC作为参考进行类比监管；而犹他州的DAO法案则更为详细，不仅尝试性的对虚拟资产征税这一老大难问题给出了自己的解答，甚至还对硬分叉等技术做出了规定。但是，怀俄明虽然偷懒，但其DAO法案却比较接地气且与现有的商业制度匹配度高，犹他州DAO法案充满着理想主义，但实际执行效果如何，飒姐团队却难以预测。\n\n三、犹他州DAO法案，妥协还是宽容？\n飒姐团队认为，虽然犹他州的DAO法案为虚拟资产行业的从业者们提供了一个更新更具前瞻性的监管框架，但是同样也存在不少现实问题有待解决。\n首先就是法案的可执行性。过于新颖的法人格创新和有限责任制规定在美国当前的公司法制度体系下不一定具有足够的规范供给，执法机关也不一定具备法案所要求的监管能力。通俗讲，就是犹他州DAO法案的高尚理想难以在现实世界中找到落地的支点，这是因为过于前沿的制度创新与美国现有的商业规则不匹配，从而可能破坏了一个已经形成且相对稳定的规则体系。目前这种矛盾已经逐渐产生，一方面，犹他州DAO法案关于税收的规定与以往惯例不同且与联邦税收制度存在一定的出入，如何解决税收矛盾并创建一种适用于虚拟资产和DAO组织的计税和征税规则是未来需要考虑的重点；另一方面，犹他州作为一个以传统畜牧业和制造业为支柱行业的州，本身对于金融、商业监管就缺乏经验，相关执法机关缺乏法案所要求的相关监管执法能力。\n其次，犹他州在参考怀俄明州DAO法案和COALA模范法后出台的法案过于仓促，缺乏相关规范的实践。该法案虽然在具体规定中凸显了区块链技术的特性，且对硬分叉、区块链升级等方面做出了看似具有可操作性的规定，但实际是否可行还有待后续考察。当前世界各国、各地区选择暂缓对NFT、DAO等新兴事物进行立法，并不是因为缺乏相关立法经验或技术，而是因为这些新兴事物依然处于快速发展期，过于仓促的立法很可能会不当的限制了新技术的发展。因此，与其说犹他州的DAO法案是在现有制度下对加密行业的一种“宽容”，不如说是该州急迫想要通过加密行业实现振兴和发展的一种“妥协”。\n\n四、写在最后\n如果一个理想化的法案不仅不能解决现实中的问题，甚至还会对金融安全和社会稳定产生消极影响，那不如回到旧瓶装新酒的时代。但是，我们同样非常肯定犹他州在DAO法案中对虚拟资产行业展示的善意和包容，以及让DAO的归DAO、LLC的归LLC这一制度上的创新。但是，人类的商业制度和争议解决机制已经历了千百年的演变，形成了一套既定的规则体系，短期内想要做出改变是一件非常困难的事，在此期间，虚拟资产从业者们保持足够的耐心和信心才是关键。",
           "link": "https://www.panewslab.com/zh/articledetails/y9j2uqg3.html",
           "publishedOn": "2023-03-07T06:33:33.000Z",
-          "wordCount": 1253,
+          "wordCount": 1249,
           "title": "DAO监管拐点出现？一文对比犹他州与怀俄明州DAO法案的区别",
           "imageUrl": "https://cdn-img.panewslab.com//panews/2022/3/7/images/298a6f77e57d47630be45e8283937e3c.jpeg"
         },
@@ -2434,7 +2454,7 @@
           "description": "刚从Denver回来，过去的一周精彩不已。分享一下个人感受，和整个会议传递的新趋势。\n整体而言，EthDenver整体感受非常好，远胜Consensus，Token2049。\n据说整个ETHDenver来了35000人，7500 hackers。我住的酒店离downtown开车要15分钟，但是基本每天电梯里都能见到参会者，大家一看胸牌，互相一秒熟络。从业者里，项目方：VC约5:1。项目方颇具全球性，除了美国本土，中国，加拿大，英国，新加坡，欧洲是最大的集合。和ArkStream好几个北美欧洲的portfolio，终于见上了。VC领域，大部分活跃的一二线基金都有来人，尤其是过去很少出现的一些欧洲地区资本。\n与Consensus不同，ETHdenver的开发者文化使得整个活动都非常加密原生。与项目方见面基本都是直接坐下，当场电脑展示demo，30分钟就把产品给聊得很透彻。这点我非常喜欢，仿佛回到了2017年刚入行时的感觉。\n\n随处可见的hacker\n2. 参会指南\nArkStream作为VC，我们最重要的还是source项目。因为活动太多，最高效的方式依然是小型活动+定向搜索。\n小型活动一般以20-100人的brunch，seminar和party组成。这次参与的几个好的活动有Meet the VC Brekky, Brunch party with Fabric/SevenX, zkNight Afterparty, MIT Alumni founder’s lunch, Cosmos on Tap, IOSG old friend Reunion, Founders Club启动仪式，收获了很多高效对话，和重要连接。\n定向搜索则是我们过去5年认为的最高效的crypto社交方式。在参会前团队花了两天把几个分会场如ZK Day, StarkDenver等项目方背景全部source一遍，然后和项目定向约1:1 coffee chat。一周下来筛选到20多个不错的早期项目，新的创新也使得我们非常兴奋。\n\nZkDay Denver会场\n3. 赛道与新叙事\nETHDenver分了好几个会场，涵盖Infra, DeFi, DAO, NFT和Impact+Public Goods。\nzk是本次大会的重心，各大赛道进展飞速\n1，基础设施类的项目逐渐尝试ZK技术优化改造，例如不同于传统跨链桥或跨链终极网络的链间共识机制传输的Succinct Labs，在The Graph和Chainlink基础之上结合zkWASM技术的Hyper Oracle；\n2，不管是知名已久的zkEVM型/zkVM型二层网络，抑或是原生的ZK一层网络，纷纷到场参会展示各自的进展及进行生态扩展，例如StarkNet，Scroll，Manta Network，Aleo等；\n3，在ZK的核心服务指标，证明生成方面同样基于各种优化算法，例如涌现了一些硬件加速类项目方的身影，例如Cysic，Ingonyama\n4，出现不少基于StarkNet技术栈研发的全链游戏，比较抽象而有意思的是Topology\n5，模块化区块链的执行层服务商，打造ZK版本Rollup的SDK，Sovereign Labs等\n6，当然，ZK类应用层在不断衍生DID赛道，不仅有以太基金会旗下PSE的底层技术栈Semaphore，也有直面用户的Axiom等\n\nAA账户抽象\n其次是AA账户抽象。虽然卷的不能再卷，但依然是风口的热点。前阵子有账户抽象提案 EIP-4337 联合发起人 Kristof Gazso提出的Pimlico项目，转眼正式迎来以太坊EVM层面兼容的ERC4337功能核心合约。在ETHDenver，时不时听到Bundler，UserOperation，EntryPoint这些开发术语，也会在AA的推进过程尝试Gasless、社交恢复和远超于多签钱包Safe功能的账户体验。更多的AA基础设施类项目，可以选择性地配合MPC-TSS，以SDK之类为主的打造产品，逐渐展露身手。\n当然，原有的EOA类钱包必然会拥抱这场AA的进化，Walletcon的不少项目方，同样在资金安全、出入金、用户体验和多链支持等方面持续优化。总的来说，AA的完善将会为10亿的web2用户进入打开大门，是新周期的绝对大赛道。\n新叙事来说，在社交领域看到一些新的应用突破。经历了过去两年的Social狂热，今年的项目更加落地思考如何搭建属于web3用户的社交产品。破局点预测会来源于基于DID的会员体系，支付+信息一体化，与粉丝经济。\n非常惊喜的是，是聊到几个AI的项目，不乏资深AI从业者创立的。大部分基于OpenAI的开源算法搭建，主攻链上数据+AI+Smart money，比如可以自然语言实现闪电贷这种复杂合约操作，抗MEV等。这对于crypto这种基于算法的黑暗森林来说，可谓是不小的福音。\n关于未来，Layer 2和别的infra的逐渐完善和入口的成熟，2023开始的新周期的机会会往应用层靠拢。我们预计会相继在游戏和社交领域出现，与现实世界的连接也更加紧密。\n本次ETHDenver华人项目占比大概有20%，远超印度，与日韩东南亚。整体而言，创始人背景比2020年提升很大，并且在应用层有平分秋色的势头。\n\n优秀的华人创始团队一般为两类，一类是在web2大厂或创业公司有过成功产品经验，且对crypto有重度exposure的新创业者，这类创业者在2021年底开始大量出现，其产品和迭代上都有经验优势。\n另一类是在海外长期求学，工作，对英文世界非常熟悉的创始人，来自纽约，洛杉矶和湾区居多，这类创业者胜在BD和融资，拿海外融资没有任何劣势。\n整体而言，随着华人创业者背景的显著上升，和方兴未艾的应用层大浪潮。Long China将是每个从业者的必修课。\n2022年大家经历了市场低估与疫情与折磨，情绪非常压抑。ETHDenver像是一个池子，全球各地的潮水奔涌而至。华人创业者奔赴世界各地，新生的力量此起彼伏。",
           "link": "https://www.panewslab.com/zh/articledetails/0ve9ns60.html",
           "publishedOn": "2023-03-07T05:34:54.000Z",
-          "wordCount": 1286,
+          "wordCount": 1288,
           "title": "ETHDenver参会所闻所感：哪些趋势值得关注？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/07/images/M53gMUoxOz.png"
         },
