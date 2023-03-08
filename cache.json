@@ -47,7 +47,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 11159,
+          "wordCount": 10255,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -127,7 +127,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1017,
+          "wordCount": 1001,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -147,7 +147,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1309,
+          "wordCount": 1296,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -397,7 +397,7 @@
           "description": "<h3>隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放</h3>\n<p>隐私网络 Iron Fish 宣布开放空投 KYC，目前仅限参与 Pull Request 用户。接下来的几天里，将按顺序向第 1 阶段、第 2 阶段和第 3 阶段的积分用户开放。据悉，激励计划共计空投 94 万枚代币。此外，Iron Fish 将于 3 月 14 日上线主网，届时铸造完全私有的自定义资产、销毁、交易、挖矿和托管节点等功能均将可用。</p>\n<p><a href=\"https://twitter.com/ironfishcrypto/status/1632560634037518337\">内容来源</a></p><hr>",
           "link": "https://twitter.com/ironfishcrypto/status/1632560634037518337",
           "publishedOn": "2023-03-06T07:57:15.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "隐私协议 Iron Fish 已开放空投 KYC，随后将依次向三个阶段积分用户开放",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Fantom 原生稳定币 fUSD 即将迎来 v2 升级，允许使用 fUSD 支付链上交易费用。Fantom 生态 TVL 排名前三的去中心化交易所 Equalizer 团队成员 levy 以 Equalizer 为例，设想了 fUSD 将如何与生态项目结合，创造新的增长飞轮。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">https://twitter.com/levysaur/status/1632462908549664768</a></p>\n<p><strong>文章作者：</strong></p><p>levy</p><hr><h3>观点：</h3><p><strong>levy：</strong>fUSD 的一个关键特征是它可以使用 wFTM 和 sFTM 进行铸造。目前有 14 亿以上的质押的 FTM（约 5.8 亿美元），这 5.8 亿美元的闲置资产可以在 300% 的抵押率下，铸造 2 亿美元的 fUSD。由于当前 FTM 的 TVL 只有 4.58 亿美元，在生态系统中注入 2 亿美元的 fUSD 意味着 43% 的增长。【原文为英文】</p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">内容来源</a><p><strong>levy：</strong>Equalizer 作为 Fantom 生态的去中心化交易所，可以在以下方面利用 fUSD 获得效益：1. 提供使用 fUSD 购买其他项目代币的服务；2. 开启 fUSD LP 流动性挖矿以获得更多 TVL；3. 在 dApp 中使用 fUSD 获得共同增长；4.fUSD 用于借贷，例如在 Tarot Finance 中获得杠杆。【原文为英文】</p><a href=\"https://twitter.com/levysaur/status/1632462908549664768\">内容来源</a>",
           "link": "https://twitter.com/levysaur/status/1632462908549664768",
           "publishedOn": "2023-03-06T05:09:01.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】Fantom 原生稳定币 fUSD 如何成为生态催化剂：以 Equalizer DEX 为例",
           "imageUrl": null
         },
@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5552,
+          "wordCount": 5346,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -897,7 +897,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 541,
+          "wordCount": 529,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -907,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2 月 25 日，Solana 网络再次中断，这是自 Solana 2020 年上线以来后的第 9 次宕机。网络中断频发、链上数据下降，Solana 似乎正在走下坡路。区块链研究员 francesco 通过 4 个链上指标论证了 Solana 当前不容乐观的发展形势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>反复出现的网络中断问题可能是因为 Solana 代码库真的很复杂，而且成千上万的验证器数量意味着测试新更新非常复杂。为了加快开发，他们在部署时可能会遇到一些问题。在 Solana 上的所有 TPS  中，只有 10% 是真实交易，其余均是验证者通信。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a><p><strong>francesco：</strong>指标 1&2 每日活跃地址和每日（非投票）交易：日活跃用户未能从 2022 年的熊市中完全恢复，每日交易量接近历史最低点；指标 3 DeFi TVL：目前，Solana DeFi 的 TVL 只有 2.57 亿美元，在所有区块链中排名第 12 位，自 2022 年 6 月以来，TVL 减少了 10 倍；指标 4 部署的独立合约：与 Avalanche 超过 1000、Fantom 超过 1800 相比，Solana 的指标不到 80。【原文为英文】</p><a href=\"https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain\">内容来源</a>",
           "link": "https://fraxcesco.substack.com/p/solanas-struggle-analyzing-on-chain",
           "publishedOn": "2023-03-03T08:13:06.000Z",
-          "wordCount": 4525,
+          "wordCount": 4319,
           "title": "【英文】Solana 的困境：网络中断频发、链上数据下降…",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefdf471d-18b7-456b-9ef4-8f83aacf9b50_2400x1350.png"
         },
@@ -2099,6 +2099,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ud7zyt98.html",
+          "author": null,
+          "description": "PANews 3月8日消息，Shiba Inu在推特上宣布，Shiba生态Layer 2区块链解决方案Shibarium将于本周发布公共测试版本。Shiba Inu将通过官方推特渠道公布如何访问测试版网站的详细信息。\n据悉，Shibarium测试网将使用BONE测试代币，以允许用户和开发人员在网络上进行大规模测试。此前2月27日消息，Shibarium已上线新网站和接收系统，即将发布的Beta版上所有代币和产品仅用于测试。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ud7zyt98.html",
+          "publishedOn": "2023-03-08T04:01:09.000Z",
+          "wordCount": 1140,
+          "title": "Shiba Inu二层解决方案Shibarium将于本周发布公测版",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/plv0ncne.html",
           "author": null,
           "description": "1年前，Web3初创公司PROOF凭借解锁“PASS+PFP”新叙事，一时间名气大增。但NFT熊市来临后，母公司PROOF商业模式似乎陷入瓶颈，不断发行的新系列NFT正不断消耗其热度，这也倒逼着该项目不得不探索更多的创新玩法。\n近日，PROOF联合创始人Kevin Rose和Justin Mezzell在最新直播中表示，PROOF通行证将于2025年1月1日结束，其持有者将成为Moonbirds Elders（暂定名称），将拥有“boosters（助推器）”，以在未来获得独家代币投放等活动中获得独家权限。这也意味着未来Moonbirds和PROOF Collective将整合至同一生态中，这能否为PROOF带来发展转机？\nPROOF的两位联创发布了第一季度更新报告播客，并在长达一个多小时的视频里介绍了该品牌的宗旨和未来计划。“我们希望艺术能成为PROOF、Moonbirds和Oddities体验的基石。如今，PROOF Collective是‘一个支持数字文艺复兴的艺术团体’，它为艺术家提供展示作品和收藏家获取作品的平台，并且该NFT为持有者提供3年的会员资格，直到2025年1月，在此期间的艺术展览将全年持续进行。”\n而PROOF将促使Moonbirds成为艺术收藏家的终极PFP，因此PROOF通行证将于2025年1月1日结束，取而代之的是所有持有者将成为Moonbirds Elders，即2025年后Moonbirds和PROOF Collective都将统一到同一个生态系。“现在我们将统一整个PROOF生态系的愿景，生态系统将通过一个简单的目的连接起来，‘为收藏家创造独特的体验，让他们与艺术家建立联系，拥有并拥护他们的艺术’。”\n\n此外，该团队透露称，2025年1月后，Moonbirds衍生系列NFTMoonbirds Mythics将扩展到更广泛的Moonbirds社区和“数字文艺复兴的建设者和公民”，但这类NFT持有者将无法获得艺术空投。而Moonbirds和Elders的持有者则均可以使用Grails和其他Collective专属产品，将获得Moonbirds的所有权限，还将拥有boosters（比如更好的mint机会），在未来生态系中获得代币投放等活动中的独家权限。\n\n值得一提的是，Kevin Rose还提及了目前团队正在积极开发用于Moonbirds整个生态系的代币。\nPROOF这块“金字招牌”的市场号召力似乎不复从前。2022月4年，PROOF凭借着Moonbirds打开了头像类NFT的生命周期，一举使后者成为现象级蓝筹项目，并在之后完成了由a16z领投的5000万美元A轮融资。手握明星项目和大额资本加持下，PROOF趁热打铁陆续推出了多个项目，除了原先的PROOF Collective和Moonbirds，旗下NFT还包括Moonbirds Oddities、Grails及即将推出的Archive of Feelings和Moonbirds Mythics。\n\n三种类型的Mythic Eggs\n然而，旗下这些NFT系列如今也难逃价格持续下滑的困境。NFTGO数据显示，截至3月7日，PROOF Collective价格从最高129 ETH跌至目前15 ETH，跌幅超88.3%；日销售额从最高926 ETH跌至90 ETH，下降了超90.2%。而Moonbirds价格从最高价格44 ETH下跌了86.3%，现仅为6 ETH，而日销售额则仅为NFT发售时的3%，目前为1653 ETH。Oddities则从4 ETH的最高价格跌至目前的0.75 ETH，现日交易额也下滑至73 ETH。\n但PROOF系列NFT Holder的长期持有意愿较高，PROOF Collective超过3个月的Holder数量占比高达79.8%，Moonbirds为79.4%，Oddities则为74.5%等。这意味着大多数持有者均为钻石手。而Moonbirds也暂定将于4月18日举行钻石手的奖励计划，只有在日前Nest活动中达到钻石等级的持有者才可以参加该活动，并获得Mythics Eggs随机空投的机会。\n或是为了自救，PROOF团队接连推出了上述提到的新NFT项目，还推出了Lunar Society（即Moonbirds DAO）、同名Web3社交平台、与品牌合作授权Moonbirds及将Moonbirds转向CC0协议等，但从价格来看市场并没有买单。其中，开放版权还引起了不少持有者的反对，并一度造成其蓝筹持有人数量下滑。\n而在近期，PROOF又因取消原本在今年五月举办的活动Proof of Conference，并退还门票费用和通过他们下订的机票和饭店费用再度引发社区不满，许多成员痛批该团队为何一场实体活动都办不起来，“如果最关键的东西都可以取消了，那长期计划还能期待什么？”、“我想知道你们怎么能在这么短的时间内搞砸这么多的信任，Kevin在一开始就说。承诺不足，交付有余，到目前为止，它是反过来的。”\n由此来看，社区对PROOF不做事的质疑声正越来越强。而Kevin Rose曾于今年1月回应社区的不满称，如果6个月内我不做出点实际的东西，我就带头FUD我自己”。而新规划下的PROOF能否真正突破生态开发能力不足的瓶颈，摘掉“不断发行小图片”的标签，书写新故事还有待时间验证。",
@@ -2201,10 +2211,10 @@
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/fdtrm9e7.html",
           "author": null,
-          "description": "PANews 3月8日消息，Consensys发布《ETH质押提款指南》，指南中提到，Shanghai/Capella升级的主要成果是允许质押者提取他们质押的ETH，但更具体地说，它将提供与提款相关的三个关键功能：1.能够将以太坊验证器的取款凭证从旧的0x00类型（源自BLS密钥）更新为较新的0x01类型（源自以太坊地址）。2.部分提款，或从活跃验证者的余额(超过32 ETH)中定期自动“退出”获得的共识层奖励。3.全额提款，或收回“退出”验证者的全部余额。只有具有较新的0x01类型提款凭证的验证者才有资格进行部分和全部提款，然而，目前还没有这样做的必要，因为0x00认证的验证者将继续像信标链诞生以来那样获得奖励。请注意，一旦验证者将其取款凭证从0x00类型更新为0x01类型，就无法再更改。这是从0x00到0x01类型的提款凭证的一次性单向更改。\n部分提款使质押者受益，因为质押者可以定期访问他们的验证者获得的CL质押奖励（扣除任何罚款），而不会产生任何gas成本，也不必退出他们的验证者。此外，由于以太坊验证者的有效余额上限为32 ETH，因此验证者余额上的任何剩余ETH都是无用的。部分提款允许质押者访问这些过剩的、非生产性的ETH，并将其重新部署以激活新的以太坊验证器或其他地方。部分提款也应该通过防止过长的退出队列和过多的验证者流失而使以太坊网络受益，这可能会破坏网络的稳定性。\n目前，58%的人拥有0x00类型的取款凭据。在剩下的42%中，使用0x01类型的取款凭证，大约61%（或所有以太坊验证器的25%）由Lido验证器集操作。\n此外，为庆祝升级，ConsenSys将在3月下旬/4月中旬升级上线时推出其第二个纪念NFT系列，并邀请Web3爱好者通过领取NFT参与。",
+          "description": "PANews 3月8日消息，Consensys发布《ETH质押提款指南》，指南中提到，Shanghai/Capella升级的主要成果是允许质押者提取他们质押的ETH，但更具体地说，它将提供与提款相关的三个关键功能：1.能够将以太坊验证器的取款凭证从旧的0x00类型（源自BLS密钥）更新为较新的0x01类型（源自以太坊地址）。2.部分提款，或从活跃验证者的余额(超过32 ETH)中定期自动“退出”获得的共识层奖励。3.全额提款，或收回“退出”验证者的全部余额。只有具有较新的0x01类型提款凭证的验证者才有资格进行部分和全部提款，然而，目前还没有这样做的必要，因为0x00认证的验证者将继续像信标链诞生以来那样获得奖励。请注意，一旦验证者将其取款凭证从0x00类型更新为0x01类型，就无法再更改。这是从0x00到0x01类型的提款凭证的一次性单向更改。\n部分提款使质押者受益，因为质押者可以定期访问他们的验证者获得的CL质押奖励（扣除任何罚款），而不会产生任何gas成本，也不必退出他们的验证者。此外，由于以太坊验证者的有效余额上限为32 ETH，因此验证者余额上的任何剩余ETH都是无用的。部分提款允许质押者访问这些过剩的、非生产性的ETH，并将其重新部署以激活新的以太坊验证器或其他地方。部分提款也应该通过防止过长的退出队列和过多的验证者流失而使以太坊网络受益，这可能会破坏网络的稳定性。\n目前，58%的人拥有0x00类型的取款凭据。在剩下的42%中，使用0x01类型的取款凭证，大约61%（或所有以太坊验证器的25%）由Lido验证器集操作。\n此外，为庆祝升级，ConsenSys将在3月下旬/4月中旬升级上线时推出其第二个纪念NFT系列，并邀请Web3爱好者通过领取NFT参与。\n相关阅读：以太坊官网更新上海升级提款信息，有哪些要点值得注意？",
           "link": "https://www.panewslab.com/zh/sqarticledetails/fdtrm9e7.html",
           "publishedOn": "2023-03-08T00:08:16.000Z",
-          "wordCount": 1118,
+          "wordCount": 1122,
           "title": "Consensys发布《ETH质押提款指南》并推荐选择部分提款，届时将推出纪念NFT",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },

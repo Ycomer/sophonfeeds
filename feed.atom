@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T03:57:55.346Z</updated>
+    <updated>2023-03-08T04:04:24.494Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[Shiba Inu二层解决方案Shibarium将于本周发布公测版]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ud7zyt98.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ud7zyt98.html"/>
+        <updated>2023-03-08T04:01:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，Shiba Inu在推特上宣布，Shiba生态Layer 2区块链解决方案Shibarium将于本周发布公共测试版本。Shiba Inu将通过官方推特渠道公布如何访问测试版网站的详细信息。
+据悉，Shibarium测试网将使用BONE测试代币，以允许用户和开发人员在网络上进行大规模测试。此前2月27日消息，Shibarium已上线新网站和接收系统，即将发布的Beta版上所有代币和产品仅用于测试。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为]]></title>
         <id>https://twitter.com/0xstrobe/status/1633228325576474626</id>
         <link href="https://twitter.com/0xstrobe/status/1633228325576474626"/>
@@ -910,7 +921,8 @@ ERC-4337 对于加密原住民和想要进入加密的新人来说是一项变�
         <summary type="html"><![CDATA[PANews 3月8日消息，Consensys发布《ETH质押提款指南》，指南中提到，Shanghai/Capella升级的主要成果是允许质押者提取他们质押的ETH，但更具体地说，它将提供与提款相关的三个关键功能：1.能够将以太坊验证器的取款凭证从旧的0x00类型（源自BLS密钥）更新为较新的0x01类型（源自以太坊地址）。2.部分提款，或从活跃验证者的余额(超过32 ETH)中定期自动“退出”获得的共识层奖励。3.全额提款，或收回“退出”验证者的全部余额。只有具有较新的0x01类型提款凭证的验证者才有资格进行部分和全部提款，然而，目前还没有这样做的必要，因为0x00认证的验证者将继续像信标链诞生以来那样获得奖励。请注意，一旦验证者将其取款凭证从0x00类型更新为0x01类型，就无法再更改。这是从0x00到0x01类型的提款凭证的一次性单向更改。
 部分提款使质押者受益，因为质押者可以定期访问他们的验证者获得的CL质押奖励（扣除任何罚款），而不会产生任何gas成本，也不必退出他们的验证者。此外，由于以太坊验证者的有效余额上限为32 ETH，因此验证者余额上的任何剩余ETH都是无用的。部分提款允许质押者访问这些过剩的、非生产性的ETH，并将其重新部署以激活新的以太坊验证器或其他地方。部分提款也应该通过防止过长的退出队列和过多的验证者流失而使以太坊网络受益，这可能会破坏网络的稳定性。
 目前，58%的人拥有0x00类型的取款凭据。在剩下的42%中，使用0x01类型的取款凭证，大约61%（或所有以太坊验证器的25%）由Lido验证器集操作。
-此外，为庆祝升级，ConsenSys将在3月下旬/4月中旬升级上线时推出其第二个纪念NFT系列，并邀请Web3爱好者通过领取NFT参与。]]></summary>
+此外，为庆祝升级，ConsenSys将在3月下旬/4月中旬升级上线时推出其第二个纪念NFT系列，并邀请Web3爱好者通过领取NFT参与。
+相关阅读：以太坊官网更新上海升级提款信息，有哪些要点值得注意？]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -3790,17 +3802,6 @@ AA账户抽象
 <p><strong>文章作者：</strong></p><p>Momir（IOSG Ventures）</p><hr><h3>观点：</h3><p><strong>Momir（IOSG Ventures）：</strong>去中心化交易所衍生品市场可能仍处于初期结算，但 GMX 在 FTX 崩盘后的市场中表现出了令人印象深刻的实力。假设在 FTX 崩盘当天对 GMX 和 dYdX 分别投资 1000 美元，截至今日，GMX 的回报约为 1400 美元，而 dYdX 回报则约为 800 万美元。这无疑表示 GMX 已经在竞争激烈的 DEX 衍生品市场中占据了强有力的地位。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a><p><strong>Momir（IOSG Ventures）：</strong>GMX 产品仍然存在一些资产选择较小、流动性扩张问题、风控不足等等的限制。但其中一切缺点可能是有意为之的取舍，也正是这些取舍帮助其找到了 PMF，成为了具备最有机需求的去中心化衍生品交易所。第一个进入市场并不重要。最先找到 PMF（产品 / 市场匹配）的，才往往是长期的赢家。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a><p><strong>Momir（IOSG Ventures）：</strong>市场表明，仅仅从中心化交易所的非托管属性吸引用户并非易事，相反，DEX 需要在自己的游戏中击败 CEX，提供同样好的用户体验，包括入门难度、交易成本、延迟、价格影响、资产提供、高级交易功能、可用性、可靠性，甚至是丢失资金的恢复。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dapper Labs已不再支持ACH提现，但仍支持通过电汇和USDC提现]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/7r5b0kjg.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/7r5b0kjg.html"/>
-        <updated>2023-03-07T05:30:55.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月7日消息，据CoinDesk报道，NFT开发商Dapper Labs表示，由于其支付伙伴Circle删除对应功能，因此已不再支持ACH（自动清算中心）提现选项，但将继续支持通过电汇和USDC提现。
-曾经为加密货币提供服务的银行Silvergate Bank面临重大的财务压力和监管审查，导致过去一个月大多数Silvergate客户停止使用其ACH服务，包括Coinbase、Circle、Paxos和Crypto.com等。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
