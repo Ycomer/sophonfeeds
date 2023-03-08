@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T05:37:48.969Z</updated>
+    <updated>2023-03-08T05:43:15.094Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lido关于在以太坊上V2版本升级的提案已获投票通过]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/6l79yc7s.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/6l79yc7s.html"/>
+        <updated>2023-03-08T05:37:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，Snapshot页面显示，Lido关于在以太坊上V2版本升级的提案以100%的支持率获得投票通过。根据该提案，V2版本升级将包括对以太坊提款的支持以及质押路由器。Lido计划在提案通过后于3月7日至31日期间在Goerli测试网上进行测试。V2版本在主网上的部署则取决于以太坊Shapella升级时间以及审计结束时间。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不要收益，只谈公益？gtcETH或许是最“政治正确”的LSD产品]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/thdy0irf.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/thdy0irf.html"/>
+        <updated>2023-03-08T05:32:54.000Z</updated>
+        <summary type="html"><![CDATA[原文：《浅析gtcETH：或许是最“政治正确”的LSD产品》
+作者：Azuma
+3 月 8 日凌晨，去中心化捐赠平台 Gitcoin 于官推正式公布了其与指数协议 Index Coop 联合推出的流动性质押指数代币 Gitcoin Staked ETH Index（gtcETH）的详细信息，并在附带的官网文章中公开了 Index Coop 上的 gtcETH 交易及铸造前端。
+
+然而，截至发文的综合数据来看，市场对于gtcETH 所主打的“公益”叙事似乎并不太买账。截至发文，gtcETH 的流通供应仅为 61 枚，流通总市值尚不足 10 万美元。
+
+最“政治正确”的 LSD 产品
+gtcETH 是由 Gitcoin 和 IndexCoop 联合推出的一款 LSD 指数代币，双方发行该代币的主要目的是为了探索一种全新的、行之有效的、具备可持续性的公共物品（public goods）捐赠机制。
+作为一个 ERC-20 标准的代币，gtcETH 与我们所熟知的 stETH、rETH 等 LSD 代币有着诸多共同点，比如：
+然而，gtcETH 与此类代币也有一定的区别，比如：
+在 gtcETH 的设计中，究竟该剥离出多少收益，取决于streaming fee 这一参数。当前，streaming fee参数为 2%（收益百分比基础上直接做减法），具体由流向 Gitcoin Grants 的 1.75% 以及流向IndexCoop 的 0.25% 组成。
+
+Gitcoin 官方举了个例子，假设 ETH 稳定在 1700 美元，质押收益稳定在 5% 左右，那么一年下来 1 单位的 ETH 将可获得 0.05 ETH 的质押收益。如果用户选择持有 gtcETH，那么 0.05 ETH 中的 0.03 ETH 将归用户所有，剩余 0.02% 将被剥离，其中 0.0175 将流向 Gitcoin Grants 用于捐增，剩余 0.0025 则将作为费用流向IndexCoop。
+在该条件下（ETH 1700 美元），gtcETH 内每100 万美元的 TVL 每年将为 Gitcoin Grants 贡献约 17500 美元的资金，从而改善公共物品捐赠渠道较少、开发资金不足的问题。
+从 gtcETH 的设计中不难看出，由于需要剥离一小半的质押收益，持有gtcETH 的被动收益率将永远低于普通的 LSD 代币，更别提其他添加了额外激励措施的衍生代币了。
+根据IndexCoop所给的资料，gtcETH 初期的支撑资产将由 wstETH（Lido）、rETH（Rocket Pool）、sETH2（StakeWise）等三种 LSD 代币组成，三者的比例分别约为 30%、44%、26%。
+
+在将三种代币的实时收益率、费用情况以及组合比例加权计算后，gtcETH 的实时收益率在扣除了 2% 的streaming fee 后将仅有约 2.53%，该收益水平在当前“卷到飞起”的 LSD 赛道实在有些不够看。逐利是资金的天性，因此就不难理解为什么gtcETH 的供应数据会如此“惨淡”了。
+不过，反市场而行的gtcETH 也并非没有自己的独特优势。
+由于 gtcETH天然的“政治正确”性，对于品牌、形象有着宣传需求的个人、项目和机构或许会考虑舍弃部分收益，利用 gtcETH 来支持公共物品的开发工作，从而换取一定社区声誉。
+此外多少有些脑补的另一种可能是，gtcETH 的属性决定了其持有者会持续不断地为公共事业作出贡献（收益被剥离），因此在推特上也有部分用户认为 gtcETH 有潜力成为行业未来的一项空投标准。这条路子虽然投机色彩过浓，但如果能够刺激 gtcETH 的供应，从而扩大对公共事业的捐赠力度，也未尝不是一件好事。
+综合来看，延续了 Gitcoin 基因的 gtcETH 在定位上就与常规 LSD 代币完全不同，将其强行列入 LSD 大战之内其实也不太合理。随着上海升级的临近，LSD 正逐渐成为整个加密货币行业的主流叙事，在其他项目想方设法地抬高激励、抢占市场之余，我们很高兴能够看到 gtcETH 围绕着 LSD 做出方向截然不同的创新，甚至期望看到更多的项目走上类似的道路。
+它或许不会带来什么财富效应，但却有望毗益整个行业。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[不要收益，只谈公益？gtcETH或许是最“政治正确”的LSD产品]]></title>
         <id>https://www.panewslab.com/zh/articledetails/thdy0irf.html</id>
@@ -83,6 +125,30 @@ Gitcoin 官方举了个例子，假设 ETH 稳定在 1700 美元，质押收益�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文】跨链应用如何权衡网络延迟和回滚风险：来自以太坊 PoS 共识机制的启示]]></title>
+        <id>https://jumpcrypto.com/bridging-and-finality-ethereum/</id>
+        <link href="https://jumpcrypto.com/bridging-and-finality-ethereum/"/>
+        <updated>2023-03-08T05:02:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Jump Crypto 发布其跨链桥系列第二篇文章，分析了当前以太坊 PoS 共识主要阶段中针对网络延迟和回滚风险采取的机制，并总结了跨链应用可以从中得到的经验及需要额外注意的问题。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">https://jumpcrypto.com/bridging-and-finality-ethereum/</a></p>
+<p><strong>文章作者：</strong></p><p>John（Jump Crypto）</p><hr><h3>观点：</h3><p><strong>John（Jump Crypto）：</strong>区块提议：理想情况下，提案每 12 秒发生一次，但从存档的全节点历史来看，两次提议之间的间隔是一分钟。该阶段面临的风险是恶意提议者的双重提议。可以安全地使用区块提议来确认桥接交易的用例是不具有重大价值的服务，例如跨链电子邮件。【原文为英文】</p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">内容来源</a><p><strong>John（Jump Crypto）：</strong>GHOST 机制：LMD GHOST 的分叉选择规则被应用于提议的区块，随着子树的增长和证明权重的积累，回滚的风险会降低。但由于桥接交易可以包含独特形式的 MEV，因此可以为攻击者进行重组攻击提供额外的激励。【原文为英文】</p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">内容来源</a><p><strong>John（Jump Crypto）：</strong>Casper FFG：在 Casper 下的最终性是在证明之后通过额外的投票（32 个 slot 或 6.4 分钟）实现的。该阶段的回滚风险基本上归结为攻击者控制了 2/3 的验证者集合（按当前 ETH 价格计算，攻击成本约为 200 亿美元）。高风险的应用（如代币的桥接）应该要求尽可能高的安全水平。【原文为英文】</p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aave 官方发布协议稳定币 GHO 创世参数提议]]></title>
+        <id>https://governance.aave.com/t/arfc-gho-genesis-parameters/12151</id>
+        <link href="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151"/>
+        <updated>2023-03-08T05:00:26.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Aave 官方发布协议稳定币 GHO 创世参数提议</h3>
+<p>Aave 官方在治理论坛发布协议稳定币 GHO 创世参数研究提议，建议 GHO 在最初发布时的借款利率（BR）为 2% 至 2.5%；stkAAVE 贴现率（DR）为 25%，且由 AAVE 质押者铸造的 GHO 最高不超过总供应量的 25%；促进者供应上限为 5000 万或以太坊 V3 市场 25% 的活跃借贷量；DEX 流动性池目标为 1500 万美元 GHO 的稳定流动性池。Aave 提出了一个渐进式增长计划，将根据 DEX 流动性池规模大小调整上述数据。</p>
+<p><a href="https://governance.aave.com/t/arfc-gho-genesis-parameters/12151">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LocalBitcoins的兴衰十年：从OTC之王到黯然离场，“去中心化人设”崩塌的必然结局]]></title>
         <id>https://www.panewslab.com/zh/articledetails/8dmjgz1x.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/8dmjgz1x.html"/>
@@ -4018,18 +4084,6 @@ Arbitrum生态链最火阶段已过，fomo情绪或不足。
 <p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>1）该系统基本上让主权 Rollup 用户直接将交易写入比特币，然后在链下解释账本，这在比特币领域是一个比较老的想法；2）安全性及有效性始终是确认规则的属性，并不是一个链的属性；3）抗重组性、抗审查、数据可用性及有效性共同决定了一条链的安全性；4）如果我们将比特币作为写入交易的层，那我们从比特币继承了抗重组性、抗审查及数据可用性；【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>5）如果我们为主权 Rollup 运行一个全节点，我们可以直接推断有效性；6）如果系统具有链外欺诈 / 有效性证明，那么对于主权 Rollup 的轻节点而言，也可以继承比特币的安全性和灵活性；7）但我们目前没有办法在比特币上写入一个全节点或轻节点的主权 Rollup，因此没有验证的跨链桥可以在主权 Rollup 中转移资产；【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>8） Rollkit 支持比特币主权 Rollup 有用吗？如果目标是构建 NFT 或其他基于比特币的链，并在链下对比特币安全性进行解释，那肯定是有用的；9）但是它并非是高性能的，质押比特币安全的唯一方法需要将所有数据写入比特币，但区块限制是 4MB/10 分钟，因此数据率为 53 kpbs；10）如果接收链上有一个 BTC 轻客户端桥及 ZK 证明验证器，那么 BTC Rollup 有效性就可以得到检验。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1632622108822962178">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国法院拒绝SEC主要证人作证，Ripple根据最新法院裁决提交“合理通知”辩护]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/yif163v7.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/yif163v7.html"/>
-        <updated>2023-03-07T06:36:33.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月7日消息，据Blockworks和U.today报道，美国证券交易委员会(SEC)和Ripple Labs之间正在进行的法律斗争随着一项新的法院裁决继续进行。法院现在已经对双方的动议做出了裁决，即决判决和审判中不考虑专家证词。在判决中，法官Analisa Torres批准了部分动议，驳回了其他动议，原告和被告都没有占上风。然而，该裁决的一个关键结果是排除了1号专家Patrick Doody就合理的瑞波币购买者的看法作证。值得注意的是，SEC此前曾聘请Doody来分析代币购买者的期望，但法官现在批准了Ripple的动议，排除他的证词。没有Doody的证词，目前尚不清楚SEC将如何证明投资者对XRP有“合理的”利润预期。
-此外，Ripple最近提交的文件指向了最高法院最近就Bittner案的一项裁决，该裁决涉及Ripple律师采用的所谓“合理通知”辩护。美国宪法的正当程序条款要求个人被公平告知哪些行为是法律禁止的。对于Ripple来说，公平通知的辩护为：它不可能知道要在证券监管机构注册XRP，因为该机构从未就加密环境下的证券构成提供足够明确的说明。Ripple Labs的律师认为Bittner和Ripple高管之间存在相似之处，并表示Bittner最近的裁决类似于它与SEC的斗争，应该予以考虑。Ripple Labs依赖于SEC之前的声明和行动，这些声明和行动使他们明白XRP不是证券，或者说它的辩护是这样的。因此，该公司没有理由相信他们违反了证券法。
-据悉，Ripple Labs与美国证券交易委员会(SEC)的漫长斗争即将结束。双方一直在等待法官Analisa Torres对Ripple多年来出售XRP是否构成未注册证券发行做出裁决。结论可能需要几个月的时间，但SEC和Ripple仍可以向法院提交申请，以考虑新的信息。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -10015,30 +10069,6 @@ GHST前文说过了，就不再复述。
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Shapella （Shanghai / Capella）升级即将到来，ConsenSys 撰写 ETH 质押提款终极指南，介绍用户需要了解的包括不同的提款类型在内的 Shapella 升级的所有信息，并分析 Shapella 对质押者和 Web3 生态系统具有何影响，认为提款后，质押的可移植性增加可能会引发大规模重新分配事件，从而极大地改变整个以太坊质押行业的市场份额分布。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://consensys.net/shanghai-capella-upgrade/">https://consensys.net/shanghai-capella-upgrade/</a></p>
 <p><strong>文章作者：</strong></p><p>ConsenSys</p><hr><h3>观点：</h3><p><strong>ConsenSys：</strong>Shanghai / Capella 升级的主要成果是允许质押者提取他们质押的 ETH，它将提供与提款相关的三个关键功能：1）能够将以太坊验证器的取款凭证从旧的 0x00 类型（源自 BLS 密钥）更新为较新的 0x01 类型（源自以太坊地址）。 2）部分取款，从活跃验证者的余额（超过 32 ETH）中赚取的共识层奖励定期自动提取。3）全额提款，收回「退出」验证者的全部余额。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a><p><strong>ConsenSys：</strong>Shanghai / Capella 分叉准备从共识层「解锁」质押 ETH，并使其可提取到以太坊执行地址。取款将对整个以太坊质押生态系统产生广泛影响 —— 从 ETH 的流动性供应到以太坊质押提供商的竞争力。超过 100 万个 ETH 可能会通过部分提款的方式变为流动性，每天可以完全撤回多达 1,800 个验证者（或约 57,600 ETH）。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a><p><strong>ConsenSys：</strong>1）Lido：为 stETH 持有者提出了两步流程，用户向协议提交提款请求并获得代表他们在 Lido 特定队列位置的 NFT，该 NFT 可进行交易，提款队列将以 Turbo 和 Bunker 两种模式处理；2）Rocket Pool：如果 rETH 无法通过协议提供的流动性兑换成 ETH，用户将会转向二级市场，理性的 minipool 池运营商将会被激励以折扣率购买 rETH 并通过智能合约进行销毁；3）StakeWise：StakeWise V3 目前尚未在以太坊主网上线，用户只能使用协议中 LSD 进行铸造 osETH。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a><p><strong>ConsenSys：</strong>对于散户和机构质押者而言，ETH 质押的准入门槛正在逐步降低，流动性质押通常是首选的质押方式，特别是对于散户。拥有超过 32 ETH 的人更有可能选择质押服务提供商，而不是流动性质押协议。Shapella 升级对 DeFi 的影响：1）长期验证者可能会大量提取 ETH；2）流动性质押提供商的使用量有所增加。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】ConsenSys：ETH 质押提款终极指南]]></title>
-        <id>https://consensys.net/shanghai-capella-upgrade/</id>
-        <link href="https://consensys.net/shanghai-capella-upgrade/"/>
-        <updated>2023-03-03T04:41:56.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Shapella （Shanghai / Capella）升级即将到来，ConsenSys 撰写 ETH 质押提款终极指南，介绍用户需要了解的包括不同的提款类型在内的 Shapella 升级的所有信息，并分析 Shapella 对质押者和 Web3 生态系统具有何影响，认为提款后，质押的可移植性增加可能会引发大规模重新分配事件，从而极大地改变整个以太坊质押行业的市场份额分布。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://consensys.net/shanghai-capella-upgrade/">https://consensys.net/shanghai-capella-upgrade/</a></p>
-<p><strong>文章作者：</strong></p><p>ConsenSys</p><hr><h3>观点：</h3><p><strong>ConsenSys：</strong>Shanghai / Capella 升级的主要成果是允许质押者提取他们质押的 ETH，它将提供与提款相关的三个关键功能：1）能够将以太坊验证器的取款凭证从旧的 0x00 类型（源自 BLS 密钥）更新为较新的 0x01 类型（源自以太坊地址）。 2）部分取款，从活跃验证者的余额（超过 32 ETH）中赚取的共识层奖励定期自动提取。3）全额提款，收回「退出」验证者的全部余额。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a><p><strong>ConsenSys：</strong>Shanghai / Capella 分叉准备从共识层「解锁」质押 ETH，并使其可提取到以太坊执行地址。取款将对整个以太坊质押生态系统产生广泛影响 —— 从 ETH 的流动性供应到以太坊质押提供商的竞争力。超过 100 万个 ETH 可能会通过部分提款的方式变为流动性，每天可以完全撤回多达 1,800 个验证者（或约 57,600 ETH）。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a><p><strong>ConsenSys：</strong>1）Lido：为 stETH 持有者提出了两步流程，用户向协议提交提款请求并获得代表他们在 Lido 特定队列位置的 NFT，该 NFT 可进行交易，提款队列将以 Turbo 和 Bunker 两种模式处理；2）Rocket Pool：如果 rETH 无法通过协议提供的流动性兑换成 ETH，用户将会转向二级市场，理性的 minipool 池运营商将会被激励以折扣率购买 rETH 并通过智能合约进行销毁；3）StakeWise：StakeWise V3 目前尚未在以太坊主网上线，用户只能使用协议中 LSD 进行铸造 osETH。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a><p><strong>ConsenSys：</strong>对于散户和机构质押者而言，ETH 质押的准入门槛正在逐步降低，流动性质押通常是首选的质押方式，特别是对于散户。拥有超过 32 ETH 的人更有可能选择质押服务提供商，而不是流动性质押协议。Shapella 升级对 DeFi 的影响：1）长期验证者可能会大量提取 ETH；2）流动性质押提供商的使用量有所增加。【原文为英文】</p><a href="https://consensys.net/shanghai-capella-upgrade/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】V3 版本降至，DeFi 期权协议 Premia 会给「链上期权」带来哪些改变？]]></title>
-        <id>https://twitter.com/kindahangry/status/1631278232300396545</id>
-        <link href="https://twitter.com/kindahangry/status/1631278232300396545"/>
-        <updated>2023-03-03T04:30:40.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 期权协议 Premia 或将于 4 至 5 月期间推出 V3 版本，重点是为 Premia 引入集中流动性。V3 版本还有哪些其他预期变化？又将为 Premia 带来哪些改变？加密研究员 hangry 撰文带你一探究竟。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/kindahangry/status/1631278232300396545">https://twitter.com/kindahangry/status/1631278232300396545</a></p>
-<p><strong>文章作者：</strong></p><p>hangry</p><hr><h3>观点：</h3><p><strong>hangry：</strong>Premia 是一个基于点对池架构的多链去中心化期权市场，类似于期权市场的 Uniswap V2。Premia 提供针对资产和方向的期权池，用户可以利用市场趋势进行资本部署、使用 Delta 策略、做空特定资产波动率及跨越各种平台进行期权套利。且 Premia 是唯一一个提供链上美式期权的市场。【原文为英文】</p><a href="https://twitter.com/kindahangry/status/1631278232300396545">内容来源</a><p><strong>hangry：</strong>Premia V3 升级的重点是在 Premia 上引入 Uniswap V3 的集中流动性机制。这将会让 Premia 转变为一个混合 AMM / 订单簿。V3 版本其他的预期变化包括迁移至欧式期权、市场参与者能够在买入和卖出期权时同时作为做市商和买入者及区间订单。Premia V3 代码预计将于 3 月中旬完成，但没有确定日期，且在 V3 后 Premia 还将进行代币经济学改造。【原文为英文】</p><a href="https://twitter.com/kindahangry/status/1631278232300396545">内容来源</a><p><strong>hangry：</strong>Premia 的代币机制围绕 vxPREMIA 运作，类似于 veCRV ，区别在于基于使用率的奖励、以 USDC 为单位的奖励机制及平台费用折扣。且 PREMIA 的流通市场非常小，低于 1000 万美元。此外，Premia 的国库规模可观，包括 1400 万美元的 ETH 和 USDC。【原文为英文】</p><a href="https://twitter.com/kindahangry/status/1631278232300396545">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
