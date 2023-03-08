@@ -77,7 +77,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">https://twitter.com/cryptokaduna/status/1633187498150215681</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">内容来源</a><p><strong>Kaduna：</strong>目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">内容来源</a>",
           "link": "https://twitter.com/cryptokaduna/status/1633187498150215681",
           "publishedOn": "2023-03-08T06:13:09.000Z",
-          "wordCount": 529,
+          "wordCount": 492,
           "title": "【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives",
           "imageUrl": null
         },
@@ -127,7 +127,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">https://twitter.com/hhh69251498/status/1633027375398273024</a></p>\n<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>0xhhh：</strong>用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a><p><strong>0xhhh：</strong>黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a><p><strong>0xhhh：</strong>总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a>",
           "link": "https://twitter.com/hhh69251498/status/1633027375398273024",
           "publishedOn": "2023-03-08T03:41:13.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金",
           "imageUrl": null
         },
@@ -247,7 +247,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1011,
+          "wordCount": 1023,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -267,7 +267,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1254,
+          "wordCount": 1240,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -317,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LSD 杠杆 Staking 高收益的本质是什么，是否可持续？风险点在哪里？加密货币研究员 0xLoki 认为杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，ETH 开放 Staking 赎回以后利差会缩小，并详述了其原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/loki_zeng/status/1632599301322076161\">https://twitter.com/loki_zeng/status/1632599301322076161</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，而之所以存在利差，是因为两种类型的标的具备不同的风险特征和流动性特征。利差本质上就是流动性溢价和风险暴露溢价，选择 Staking 需要牺牲资产的流动性并且承担更大的损失。</p><a href=\"https://twitter.com/loki_zeng/status/1632599301322076161\">内容来源</a><p><strong>0xLoki：</strong>当前之所以能够存在这么高的利率，主要是因为上海升级的不确定性。所以 ETH 开放 Staking 赎回以后，一个高确定性的结果是利差缩小，最终形成平衡，杠杆 Staking 的收益回到一个合理区间。另一个高确定性的结果是借贷成为 Staking 的加杠杆方式之一，LSD 的借贷市场变得更加繁荣。</p><a href=\"https://twitter.com/loki_zeng/status/1632599301322076161\">内容来源</a>",
           "link": "https://twitter.com/loki_zeng/status/1632599301322076161",
           "publishedOn": "2023-03-07T05:38:47.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】探讨 LSD 杠杆 Staking 高收益的本质",
           "imageUrl": null
         },
@@ -377,7 +377,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 725,
+          "wordCount": 745,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 0xShinChan 撰推解读 Y2K Finance 协议原理、协议机制和代币经济模型，并剖析其收益等绩效指标，以及如何监控 Y2K 上的「聪明钱」。该 KOL 认为 Y2K 的低风险商业模式可以随着存款的增加而提高盈利能力，吸引寻求利润的交易者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">https://twitter.com/0xShinChannn/status/1632369004647157760</a></p>\n<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Y2K Finance 提供了一套针对外来挂钩市场而设计的链上结构化产品，用户可以对特定挂钩资产偏离其「公平隐含市场价值」的风险进行对冲、杠杆、投机和交易以获得利润，其提供 3 种主要产品：1）Earthquake：承担风险 / 防止潜在资产绕行的金库；2）Tsunami：抵押债务驱动的借贷市场；3）Wildfire：购买 / 出售代币化 Earthquake 头寸的市场。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a><p><strong>0xShinChan：</strong>协议机制：1）Earthquake 金库目前支持的锚定资产包括 DAI、FRAX、MIM、USDC 等。2）Earthquake 提供 2 个金库来应对不同的风险偏好，包括对冲金库和风险金库。3）每个金库由 3 个关键属性组成：Asset、Epoch、Strike。Asset：金库对冲的挂钩资产，Epoch：必须发生脱钩事件才能有效的操作周期，Strike：触发挂钩事件的价格阈值。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a><p><strong>0xShinChan：</strong>在没有脱钩的情况下：1）对冲头寸被清算，导致交易员们损失了全部 ETH，赢取了 $Y2K。2）风险金库获胜，交易者从对冲金库中收到与金库大小成比例的 $ETH ，加上 $Y2K 并减去费用。如果发生脱钩则与之相反。此外，Y2K 财政部收取存入对冲和风险金库的资金的 5% 作为费用。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a><p><strong>0xShinChan：</strong>绩效指标：自 2022 年 12 月下旬推出以来，Y2K 在 2.5 个月内产生了超过 52 万美元的收入。30% 的 Y2K 流通量被锁定。$USDT 是最常用的对冲资产，$USDC 是最常用的风险资产。其年化收益约为 250 万美元，市盈率为 32.4，相当疯狂的盈利预测。通过监控「聪明钱」发现两个最大的储户在一个星期的周期创造了超过 100%-200% 的 APR。【原文为英文】</p><a href=\"https://twitter.com/0xShinChannn/status/1632369004647157760\">内容来源</a>",
           "link": "https://twitter.com/0xShinChannn/status/1632369004647157760",
           "publishedOn": "2023-03-06T07:21:12.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【英文长推】一文解读锚定资产定价风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -597,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5346,
+          "wordCount": 5552,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：Sepolia 测试网成功升级到 Shapella；Goerli 测试网将于 3 月 14 日升级到 Shapella；以太坊主网将于 Goerli 升级后约 4 周进行 Shapella 升级；Dencun 升级讨论：SSZ、EIP4788（EVM 中的信标状态根）、EIP2537（BLS 预编译）和删除 SELFDESTRUCT；Geth 提议删除 eth/66，待定块和预合并同步。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023\">https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023</a></p>\n<p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>",
           "link": "https://weekinethereum.substack.com/p/week-in-ethereum-news-march-4-2023",
           "publishedOn": "2023-03-04T07:31:28.000Z",
-          "wordCount": 3265,
+          "wordCount": 3471,
           "title": "【英文】以太坊生态周报：Shapella 升级、Dencun 升级、ERC6596",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28c0b138-1b77-4196-909f-9076a2ccdaa3_800x800.png"
         },
@@ -1017,7 +1017,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Blur 和 OpenSea 之间的 NFT 市场战争推动了版税支付的下降趋势，随着零版税和低版税的市场不断涌现，创作者如何应对二次销售的版税收入减少的局面？Bankless 分享了 4 个创作者可以采用的方案，分别为：抑制供应、提供 LP 流动性、DIY 市场以及激励版税。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807012\">https://www.defidaonews.com/article/6807012</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>1. 抑制供应：最基本的方法是保留一些 NFT 项目的供应用于之后的销售，既可以保留未铸造的供应（例如：Chromie Squiggles），也可以保留已铸造的供应（例如：CryptoPunks）；2. 提供 LP 流动性：项目可以将其 NFT 添加到流动性池中提供流动性，从而无需进行初级销售也能赚取收益（例如：Sappy Seals）。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a><p><strong>William M. Peaster：</strong>3.DIY 市场：诸如 Reservoir 一类的 NFT 基础设施允许创作者和项目部署自己定制的、对版税有利的市场，并提供聚合的 NFT 列表。4. 激励版税：通过直接激励来增加版税。比如，给予历史版税支付者独特的权益等。</p><a href=\"https://www.defidaonews.com/article/6807012\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807012",
           "publishedOn": "2023-03-03T08:41:48.000Z",
-          "wordCount": 535,
+          "wordCount": 543,
           "title": "Bankless：NFT 创作者应对版税下降的 4 种方式",
           "imageUrl": "https://appserversrc.8btc.cn/FvB7BjWpzq23NSKNH29FOfFkeds7.png?imageView2/1/w/500/h/300"
         },
@@ -2664,7 +2664,7 @@
           "description": "自2月27日落地丹佛至3月4日乘机离开，在又干又冷海拔1600米的丹佛参与了今年目前为止最大的Web3行业盛会。和众多项目方学习并了解最新的行业动向，包括ZK(零知识证明)、Layer2、基础设施、ETH2.0等，收获颇丰。\n众所周知目前以太坊还存在许多问题，包括但不限于：Layer1 TPS极低、拥堵时期Gas Fee高昂、ETH2.0质押流程复杂等。\n与比特币致力于达成去中心化“点对点电子货币”价值储存功能不同，笔者认为以太坊Ethereum功能上更接近iOS/Android平台，其最主要的特征为可以部署智能合约，附带功能为发行Token(这也是2017年ETH凭借爱希欧爆发的原因——人人可发token)，也可以推测未来以太坊市值存在对标苹果/Google的可能。\n因此不少能人志士提出了多种方案来解决目前以太坊遇到的“区块链不可能三角”问题。笔者在ETHDenver上也分别和下述项目方进行了讨论：\nLayer1：Aptos/Sui：作为Move语言的Layer1代表项目，Aptos和Sui走到了天平的两个极端。已经发币的Aptos通过高调的宣传和数倍涨幅吸引了大量交易者的目光，但是其上发布的多数项目质量较低，散户参与财富效应不明显。而Sui则与Aptos完全相反，发币计划一拖再拖，同时在ETHDenver组织了为期一周的BuilderHouse支持开发者在Sui上开发、部署项目。对于Layer1公链项目来说，一个链上项目数量及质量将直接影响其链上TVL，并最终影响生态参与人数和币价。在处理区块链不可能三角的问题下，Aptos和Sui均致力于提高区块链的可扩展性，但去中心化和安全性尚待验证。\nLayer2：Arbitrum/OP/Scroll/ZKSync：目前Layer2领域最受瞩目的4个项目。\nArbitrum：最为吸金，目前TVL接近$2billions，并且其上许多项目已经基于其Top项目GMX完成构建。本次Arbitrum虽然仅有一个展台，却吸引了不少参会者驻足停留，并积极和基金会工作人员探讨学习。\nOP：在ETHDenver开始前宣布和Coinbase合作推出基于OP Stacks的Layer2协议Base。本次合作是基于目前OP用户结构松散且头部协议不突出的情况下开展的合作，目的是为OP和Coinbase带来更活跃的用户群和大量TVL。但是OP目前没有引入欺诈证明以及Base链潜在的KYC风险，导致用户需要对其去中心化和安全性存疑。Base的展台前的参会者也寥寥可数。\nScroll：目前欧美大火的ZK+Layer2，号称最接近以太坊Layer1的ZK+EVM项目。Scroll的大火和其国人背景分不开——代码更新快、智能合约兼容性最强，目前其测试网每日交易数可以达到50万+笔。如果后续Scroll可以在Arbitrum和OP的前后夹击中，尽早完成开发并发币，可以在日趋转好的大环境下吸引大量项目方和TVL部署到其链上，完成对于前两者的弯道超车。\nZKSync：目前ZKSync2.0已经上线测试网，但是目前单日链上交互数不足100笔，开发进度缓慢且智能合约部署难度高是导致其目前链上生态不活跃的主要原因。希望项目方可以把更多的精力放在开发端而不是花钱在每一次的行业大会上买最大最贵的展位。\n基础设施：除公链外，许多钱包项目方也参与了本次活动，并且一齐合办了WalletCon来更好地推广钱包产品。除传统Metamask，以太坊第一个钱包MEV Wallet外，还有多种钱包产品，如有望大规模应用的MPC钱包、基于EIP-4337的账户抽象钱包、DeFi项目方推出的自研钱包，如Uniswap Wallet、1inch等。基于笔者本人多年钱包使用经验，目前钱包的发展趋势已经开始向多链及取消助记词/私钥进行发展。因此一款包括但不限于支持BTC/EVM/MOVE/Layer2的钱包更有可能在下一轮牛市获得更大的用户量。反人性的助记词钱包则也可能会被MPC钱包或者账户抽象钱包取代。在以太坊完成分片Sharding升级前，账户抽象钱包完成大规模普及的可能性较低，因此MPC钱包可能会更快完成大规模普及。\n目前toC的MPC钱包有中间件钱包Web3Auth和Particle Network。其中Particle Network已经和许多欧美项目达成钱包端合作。网页钱包OpenBlock则在大会期间上线了手机客户端及跨链、NFT内置交易多项功能更新。致力于转型MPC的OKXwallet则宣布和YFI等Top项目合作谋求拓展更大的用户群体。在DeFi和NFT群体数量增长逐渐稳定的背景下，MPC钱包更接近Web2和无助记词的使用体验更可能在下一轮牛市期间完成大规模普及。\n新玩法：DeFi、NFT、游戏、DID\n本次ETHDenver最让我失望的就是链上应用没有新玩法。比如本次大会上有非常多的DID项目，但很不幸，绝大部分域名项目都是在模仿ENS，所以他们一定不能超过ENS。因为同一个地址绑定多个DID对于用户来说不是刚需。\nDeFi：除Uniswap和1inch财大气粗地购入会场内最大最惹眼的站台外，仅有少量ETH2.0流动性质押类的展位且门可罗雀。也在侧面说明DeFi类项目遇到了发展瓶颈。除头部项目外，其余项目受交易量、流动性的影响无法创造稳定的现金流和收入。\n游戏：绝大多数的游戏项目目前遇到的问题是GameFi到底是Game重要，还是Fi更重要？要知道区块链并不是一个有效率的网络，无法实时处理链上游戏所需的大量数据。但如果游戏部署在链下并仅添加一个Web3钱包入口，那么这是否属于一个去中心化的游戏？\n这就要提到一个非常经典的区块链悖论：\n去中心化的协议加上中心化的网站，这是否是一个去中心化的项目？\n中心化的协议加上去中心化的页面，这是否是一个去中心化的项目？\n中心化的项目加上去中心化的钱包，这是否是一个去中心化的项目？\n如果仅仅是为了满足资产可交易，积分可提现，那么Steam上的游戏绝大多数都可以满足并且可玩性更高。因此目前GameFi项目遇到的窘境是，如果不能赚钱，用户为什么要来玩不如Steam好玩的中心化游戏？ETHDenver上多数游戏要么属于先有游戏后连钱包，要么是游戏本身基于Web3品牌打造(如Worldwide Webb)。\nNFT也遇到了同样的窘境：NFT本身是非常中心化的(价格受发行方掣肘)，并且除头部项目外其余NFT项目的流动性非常非常差。尤其是在价格下跌期间，用户即使选择低于地板价的挂单也难以卖出，导致价格螺旋下跌甚至流动性归零(无人接盘)。在ETHDenver上对于NFT流动性提出了2个解决办法，1是将NFT代币化，为NFT注入流动性，缺点是需要额外引入流动性；2是将NFT碎片化，用户可以购买0.xxx个NFT，缺点是NFT碎片化对于低价/影响力小的NFT项目促进程度不高。尤其在Blur空投背景下的价值1300万美元的百只BAYC爆砸导致NFT市场整体流动性几乎归零，NFT是否还是下一轮周期的热点仍然需要关注。\nVC：参加ETHDenver期间，笔者在个人社交媒体上写到，“‘钱很真实’”，VC们都在投基建，不投NFT和DAO”。本次大会期间笔者采访了多个投资人，多数投资人表示本次ETHDenver没有让人眼前一亮的项目，基金的关注点主要着眼于基础设施，即公链、钱包等。\n综上所述，笔者对于本次ETHDenver活动喜忧参半：\n喜的是行业基础设施发展非常扎实，Layer0、Layer1、Layer2、Layer3层出不穷。新人入场可以使用更安全更易入手的基础设施，行业对于下一轮周期区块链的大规模普及做了一定程度的准备。\n悲的是，很多项目完全背离了Crypto的初衷。要知道加密货币的三要素是去中心化、匿名性/抗审查、不可变性(同质化，1BTC=1BTC)。本次大会上推出的某个Web3 ID协议让笔者本人非常不解，前辈们花费十余年时间打造的全球匿名区块链系统，为什么要在自己的ETH地址上绑定Web2信息乃至真实世界的姓名/家庭住址？项目方的解释是为了适应Web2的需要，但是加密货币从来都不应该去适应法律法规，而是各国政策应当顺应加密货币的发展而对法律法规做出相应调整。除交易所外，所有主动去适应合规的Crypto项目最终都会被大众抛弃。因为Crypto行业本来就是一群反抗传统金融和高压政策的人们建立起的乌托邦。Bitcoin不需要迎合法律，Ethereum同样也不需要。因此，对于WEB3身份绑定类项目持观望态度。\n简而言之，从ETHDenver的活动上，可以看出华人在逐渐摆脱519的阴影并在业内重建影响力。希望华人可以继续在Crypto和Web3领域发光发热，引领行业更大的发展。要知道Crypto行业从来都不是比谁更能赚钱，而是比谁能活得更久。Crypto行业现在的市值还太小，需要持续地Build才能茁壮发展。作者坚信下一个Crypto行业革命有且仅会发生在美国，但一定是由生命力更顽强的华语社区引领。\n师未\n2023/3/5",
           "link": "https://www.panewslab.com/zh/articledetails/7219ay4b249k.html",
           "publishedOn": "2023-03-07T11:30:14.000Z",
-          "wordCount": 1188,
+          "wordCount": 1187,
           "title": "It's Denver! —— 从ETHDenver窥见行业发展",
           "imageUrl": "https://cdn-img.panewslab.com/panews/images/0XfQ7mwZx2.jpg"
         },
