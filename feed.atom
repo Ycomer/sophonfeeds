@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T08:40:19.155Z</updated>
+    <updated>2023-03-08T08:46:25.411Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[美团创始人王兴将参与王慧文AI公司“光年之外”的A轮投资，并出任董事]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/piqo1dtz.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/piqo1dtz.html"/>
+        <updated>2023-03-08T08:42:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，据澎湃新闻报道，3月8日，美团创始人王兴在朋友圈中表示，将以个人身份参与王慧文创业公司“光年之外”的A轮投资，并出任董事。王兴表示：“AI大模型让我既兴奋于即将创造出来的巨大生产力，又忧虑它未来对整个世界的冲击。老王和我在创业路上同行近二十年，既然他决心拥抱这次大浪潮，那我必须支持。”
+此前2月13日消息，原美团联创王慧文出资5000万美元进军人工智能，称将打造中国的OpenAI。其发文透露，将成立北京光年之外科技有限公司，王慧文出资5000万美元，估值2亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blur 狂潮下，NFTFi 解困 NFT 流动性难题]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/wnwv311oad34.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/wnwv311oad34.html"/>
+        <updated>2023-03-08T08:34:00.000Z</updated>
+        <summary type="html"><![CDATA[本月 NFT 赛道新贵 Blur 公布了第二轮激励计划，该平台的交易市场热火朝天。在去年年末一度取代 OpenSea 成为第一的 NFT 交易平台，目前占据了超过 50% 的市场份额。Blur 凭何能够在熊市周期中直逼赛道龙头 OpenSea？
+与一般 NFT 交易平台不同，Blur 是一个面向专业 NFT 交易者的聚合平台。其汇集了 OpenSea 、 LooksRare 和 X2Y2 等交易列表，清楚地展示了各 NFT 的地板价、属性、排名、成本价，以及近期的价格变动等信息，且该平台交易速度十分快，支持批量买卖和零版税费用。
+
+不难看出，Blur 专业的聚合 NFT 平台 Bid-to-Earn(“边拍边赚”) 的商业模式专攻买方市场，借鉴了传统 DEX 订单簿模式，解决了收益率不足、无人提供流动性的尴尬局面。而一定程度上解决了 NFT 流动性问题的 Blur 也被视为 NFTFi 发展的先驱，或将带动整个赛道形成较大的造富效应。
+回看当下 NFT 赛道，上一轮牛市中出现的数字藏品投机者还大量存在，且 OpenSea 这样的主流交易市场在每笔交易中又收取过高的费用，NFT 持有者常常面临出手难的尴尬处境。归根结底，NFT 的流动性难题掣肘了该赛道的长远发展。而今年 Blur 的横空出世让我们看到了 NFT 流动性问题的突破口，下文我们将从其定义出发，一窥 NFTFi 项目如何打破 NFT 流动性困境。
+在了解 NFTFi 之前，让我们回归 NFT 概念。NFT 是 Non-Fungible Tokens，不可替代性是其根本属性。为了便于理解 NFT 的金融化，首先将 NFT 分为两类，一是具备收藏价值的纯粹艺术 NFT；二是具备特殊的使用价值的实用 NFT。
+艺术 NFT
+实用 NFT
+不可代替性(Non-fungible)
+半可替代(Semi-fungible)
+不具备使用价值(Without utility)
+具备使用价值(With utility)
+不具备基本面(Without fundamentals)
+具备一定基本功能(With certain fundamentals)
+定价主观判断(Valuation based on personal sentiment）
+定价基于其功能性(Valuation based on functions)
+据上表可知，不同类型的 NFT 从内在上看具有不一样的属性。头像类、艺术画作类 NFT 观赏、收藏的价值更高，用户购买之后的目的不是为了出手，更多的是为了收藏。因此我们不能强制要求所有 NFT 都具有高流动性。
+而星巴克 Odyssey 这样品牌方发行的会员通证类 NFT 则具备使用价值，其同让 NFT 流动性更高的金融化趋势更为契合。因此，下文所提及的 NFTFi 主要针对这些实用 NFT。
+经历了上一轮牛市周期的 NFT 的疯狂买卖和交易之后，流动性问题成为金融紧缩时期 NFT 赛道发展的瓶颈所在，由此导致 NFT 赛道存在以下关键问题：
+除了上文提及的艺术品 NFT，大部分的 NFT 持有者希望自己的数字藏品具有更多价值，提高资产利用率。否则，单凭低买高卖的模式难以吸引长期用户。
+Nftperp 是由 Perpetual Protocol 开发的建立在虚拟自动做市商 (vAMM) 之上 NFT 永续合约交易协议。Nftperp 能够追踪 NFT 系列地板价，并允许 NFT 交易者使用 vAMM 模型、任何数量的抵押品进行交易、实时 NFT 价格信息等功能。目前该项目所有智能合约均经过 PeckShield 审计，之后会开源。
+
+
+
+
+
+
+JPEG'd
+
+
+
+
+
+JPEG'd 旨要让 NFT 的持有者能够利用他们的 NFT 作为抵押品。用户可以将他们列入白名单的 NFT 作为抵押品存入 JPEG 的智能合约中，并开始用它来利用借贷机制。这将有效地将 NFT 从静态艺术品转变为收益产品，如果用户使用完他们的贷款，他们就会偿还本金和累积的利息，并且可以 JPEG 的保险库中取回他们的NFT。
+值得关注的是，JPEG'd 还开发了一种新颖的保险机制，允许储户在遭遇清算时从 DAO 回购他们的 NFT。但只有在 JPEG'd DAO 为所有已发行债务提供担保时，才有可能实现这一点。用户可以购买可选的保险来在清算时回购他们的 NFT。
+
+
+
+
+
+
+LinoSwap
+
+
+
+
+
+LinoSwap 可以说是 NFT AMM 市场上比较具创新性的协议。其将稀有度与定价机制结合的创新性 NFT AMM。LinoSwap 不仅实现了 NFT 的自动做市功能，还引入了 Rarity Function（稀有度函数）和 Rarity-Value Curve（稀有-价值曲线），对高稀有度 NFT 进行估值和定价，解决了高稀有 NFT 在 AMM NFT 交易市场中的不被重视的问题。在这样的场景下，根据所持有的 NFT 稀有度是高、低可以得到合理的估价。
+
+
+结语
+TinTinLand 在《年度 NFT 市场回顾，2023 NFT 是开发者的最优选择吗？》一文中回顾与展望了 NFT 市场的发展情况，尽管目前市场处于下行趋势，但 NFT 赛道表现出了非凡的持久力。值得关注的是，蓝筹 NFT（BAYC、CryptoPunks、Azuki、Moonbirds）的市值高达 35 亿美元，这也将成为激发 NFTFi 建设者和开发者的动力，吸引更多开发者和用户的加入。
+综合前文对 NFTFi 赛道的分析，不难看出 NFTFi 仍将是 2023 年的重点之一。探索 NFTFi、开创更多可能也将为正在寻找空间进入 NFT 的开发者带来一个更具机会和优势的领域，让 NFT 持续成为用户进入 Web3 最便利与最具吸引力的门径之一。
+（本文内容仅供参考，不应作为法律、商业、投资建议。）]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blur 狂潮下，NFTFi 解困 NFT 流动性难题]]></title>
         <id>https://www.panewslab.com/zh/articledetails/wnwv311oad34.html</id>
@@ -3427,36 +3501,6 @@ Polygon 于 2021 年以 2.5 亿美元收购了 Hermez Network，随后于 2022 �
 <p><strong>文章作者：</strong></p><p>Midoji</p><hr><h3>观点：</h3><p><strong>Midoji：</strong>Derivio 推出带有永续和数字期权（二元期权）的产品，涵盖广泛的资产：代币、外汇、NFT 和大宗商品。从交易者的角度看，它带来了一整套衍生品和深度的流动性，从 LP 的角度看，它提供了资本保护和真实收益。增强了交易者和 LP 之间的良性循环，促进了流动性的有机增长。【原文为英文】</p><a href="https://twitter.com/midoji7/status/1632764263004778498">内容来源</a><p><strong>Midoji：</strong>是什么让它与众不同？1）大多数基于预言机的去中心化交易所在多头 / 空头头寸之间缺乏平衡，使它们容易受到市场波动的影响。Derivio 引入市场中性流动性，如果交易者将市场推向极端，它会促进相反方向的套利机会，从而导致中性押注。由于流动资金池作为交易对手，它们的风险敞口趋于市场中性。【原文为中文】</p><a href="https://twitter.com/midoji7/status/1632764263004778498">内容来源</a><p><strong>Midoji：</strong>2）在永续期权市场中性流动性方面，Derivio 引入了资金率，即使用多空比率 (LSR) 和借款利率计算，保护池子免受多头 / 空头不平衡的影响，解决永续 DEX 的交易者抽空池子和操纵滑点两个主要问题。3）在数字期权市场中性流动性方面，其支出是一个 LSR 的函数。通过平衡 LSR，交易者支出更加公平，流动性受到保护。4）取决于投资者的风险厌恶程度，Derivio 将为其提供 3 种不同的风险调整池。【原文为英文】</p><a href="https://twitter.com/midoji7/status/1632764263004778498">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密友好银行Signature“软着陆”：收紧用户，主动降加密存款规模]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/1qyy33md.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/1qyy33md.html"/>
-        <updated>2023-03-07T10:00:01.000Z</updated>
-        <summary type="html"><![CDATA[在SilverGate因未能按时提交10-K报告而遭遇FUD的当下，同为加密友好型银行的Signature Bank在3月2日提交10-K报告，并于3日公布2023Q1中期财务状况更新，向市场证明自己的持续运营能力。
-两家银行跟FTX暴雷事件都密不可分，均遭受参与其中或知情不报的质疑和指控。但是Signature Bank在2022年Q4宣布减少加密客户的存款份额，并同期获得超过100亿美元左右的贷款，以缓解用户提款造成的流动性危机。
-截止目前，Signature Bank的财务状况逐步稳定，Coinbase、Circle等机构纷纷“弃Silvergate转Signature”，本文将汇总10-K报告和2023Q1中期报告精要，一窥加密银行龙头未来走向。
-Signature Bank是美国加密生态的重要一环和背后支柱。不同于币安、火币和OK等华人交易所的C2C出入金模式，加密友好型银行给予了美国等地区客户合法的法币出入金通道。换句话说，在华人系交易所中，市场运作的核心是USDT等稳定币，它们承担着法币出入金和加密市场交易对定价的双重作用，而在Coinbase、Kraken、FTX等海外交易所内，整个架构的基础都是银行，不论是Silvergate的SEN还是Signature的SigNet，都承担着连接加密货币和法币的桥梁作用。
-这样做的好处实际上要优于稳定币体系，如果没有FTX暴雷危机的话。监管部门可以直接根据银行监管体系来追踪资金流向，交易所和机构等客户也可以放心在银行存放大额资金，个人散户也免去汇兑资金带来的安全问题。
-
- 
-Signature的发迹跟加密货币市场，尤其是交易所密不可分。2018年Signature进入加密市场，主要面向交易所、投资机构、比特币矿工和OTC以及做市商和稳定币发行方提供服务。2019年，推出基于区块链的Signet网络，这也成为吸引加密客户的主要手段。
-在遭遇FTX事件后，大部分加密友好型银行均遭遇经营危机。目前的信息披露中，Signature最早在2020年6月Signet便探测到FTX可能存在欺诈行为，但是为了自身利益选择了熟视无睹。2022年Q3，大部分加密友好型银行均出现严重的存款流失问题，按存款金额计，2022年Q3，两家最大的加密银行 Signature Bank 和 Silvergate 分别报告了 8.9% 和 10.8% 的季度跌幅。
-2022年第四季度Signature宣布将逐步压缩加密货币存款份额，并逐步退出稳定币市场业务，清退了一些小规模的账户，理想目标是降至15%以下，计划减少80-100亿美元。截至2022年12月31日，Signature存款总额减少了175.4亿美元，其中加密资产减少了123.9亿美元，存款总额降低至885.9亿美元，加密存款总额为177.9亿美元，占总存款的20％左右
-目前，Signature有1103.6亿美元的总资产，共计有885.9亿美元的存款，以及742.9亿美元的贷款，80.1亿美元的股权资本和51.7亿美元的管理资产。从存款结构而言，无息存款和NOW存款（可转让支付命令帐户，计息的活期存款）占2022年12月31日总存款的35.6％，定期存款占总存款的2.98％。
-事实上，Signature的业务多元化是可主动降低加密存款的前提。Signature在2021年便启动面向企业的金融业务，在2022年Q2启动面向医疗保健方面的业务。业务多元化也是成功的，Signature2022第四季度的净收入为 3.01 亿美元，而年净收入达13亿美元。
-
-一览Signature重要发展节点
-现金流不稳健，但具备充足偿付能力
-Signature主要的问题在于现金流仍然不稳健，大约260亿的证券投资业务无法及时响应流动性需求，其中主要为MBS（Mortgage-Backed Security，不动产抵押贷款证券），叠加还有大量的贷款需要2年以上的回款周期，并不能立刻响应提款需求。截至2022年12月31日，虽然Signature宣称大约98%的融资贷款都有抵押物，但也有部分无担保的贷款，通常是提供给拥有大量净资产的个人。
-此前1月份，华尔街日报报道，FHLB（美国联邦住宅贷款银行）曾在2022年第四季度向Signature提供了100亿美元贷款。在这笔贷款的支持下，Signature仍然可维持的正常运行，为客户提供存贷款服务。但同时，Signature也被要求在每年年初，必须持有未支付的住宅抵押贷款和相关债务本金总额的1.0％的联邦储蓄银行的股票。截至2022年12月31日，FHLB持有102.1亿美元的商业房地产贷款和184.5亿美元的证券，其中部分被用来充当抵押品。
-从10-K报告来看，Signature Bank的多元化业务是成功的，并且也并未真正放弃加密市场，其仍然保持跟大部分主流交易所的合作，目前的现金流也具备较为充足的偿付能力。但因为Signature限制小额活动，币安、Coinbase和Kraken都在逐步针对与Signature合作的非企业或散户账户进行限制措施，这对散户来讲并不友好，意味着又少了一个资金出入的渠道。
-3月3日，Signature公布其2023年Q1的财务更新说明，主要聚焦点在于存款结构的更新。2023年Q1平均存款额为887.9亿美元，高于2022年12月31日的885.9亿美元，但低于2022年Q4的986亿美元。净存款额减少了约8.26亿美元，其中存款增加了6.82亿美元，但是取款达到了15.1亿美元。
-并且，持续压缩贷款规模，以缓解现金流压力，减少较大业务线的贷款余额， 现货抵押贷款额减少约17.1亿美元，并且保证不会以加密资产为贷款抵押物。
-目前来看，Signature的财务状况远比Silvergate要好，但收紧与加密用户的合作也成为加密圈的阵痛。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
