@@ -217,7 +217,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5504,
+          "wordCount": 5482,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -257,7 +257,7 @@
           "description": "<h3>Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投</h3>\n<p>据 TechCrunch 报道，Solana 生态 NFT 交易平台 Tensor 完成了 300 万美元种子轮融资，由 Placeholder 领投， Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。Tensor 曾在 2022 年赢得两次 Solana 黑客松比赛，获得了大约 6 万至 7 万美元的奖金。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/",
           "publishedOn": "2023-03-07T12:46:41.000Z",
-          "wordCount": 8777,
+          "wordCount": 7873,
           "title": "Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1329996497-1.jpg?resize=1200,800"
         },
@@ -267,7 +267,7 @@
           "description": "<h3>Sui 开发团队 Mysten Labs 与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统</h3>\n<p>Sui 开发团队 Mysten Labs 表示在昨日 Alibaba Cloud Day Dubai Summit 2023 上已与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统。据悉，此前 Mysten Labs 于 2 月份与腾讯云达成合作，双方将通过在 GameFi、支付和云服务领域的协作来发展 Sui 生态。</p>\n<p><a href=\"https://twitter.com/Mysten_Labs/status/1633064620926574594\">内容来源</a></p><hr>",
           "link": "https://twitter.com/Mysten_Labs/status/1633064620926574594",
           "publishedOn": "2023-03-07T12:31:56.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "Sui 开发团队 Mysten Labs 与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统",
           "imageUrl": null
         },
@@ -337,7 +337,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1284,
+          "wordCount": 1272,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -447,7 +447,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 735,
+          "wordCount": 730,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -577,7 +577,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LionDEX 是部署在 Arbitrum 上的去中心化永续合约交易所，采用创新的 PVP AMM 机制。加密研究员 CapitalismLab 对这一机制的优势和挑战进行详细解读，并对 LionDEX 的具体实现方法进行简要介绍。CapitalismLab 认为，这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">https://twitter.com/NintendoDoomed/status/1632628222268678144</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>PVP AMM 的核心奥义在于：1）Trader 把筹码即保证金放在一个池子里；2）「相对」赚的更多的分到更多的筹码，「相对」赚的少的就亏钱。所谓 PVP，核心就在于「相对」而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌。交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，需要赚的相对比整体更多才能真的 U 本位赚到钱。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a><p><strong>CapitalismLab：</strong>PVP AMM 的优势在于：1）纯 Alpha 交易，不需要太考虑大盘行情；2）可以不需要额外 LP；3）解决所谓单边行情问题。PVP AMM 面临的挑战：1）冷启动：需要有足够的 trader，交易体验才会好；2）使用门槛：机制复杂导致用户理解困难，需要教育好用户才能避免误会。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a><p><strong>CapitalismLab：</strong>LionDEX 主要做了 4 件事：1）实现了 GMX X4 计划中的 PVP AMM；2）LP 叠加 GLP 来做 （X4 例子中是 USDC），赚两份收益；3）做了一个保险模块，减少爆仓风险，提升高杠杆用户体验；4）做了一套促进交易的经济模型，解决鸡生蛋蛋生鸡问题。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a>",
           "link": "https://twitter.com/NintendoDoomed/status/1632628222268678144",
           "publishedOn": "2023-03-06T08:31:48.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】详解 LionDEX 的 PVP AMM 机制：优势及挑战",
           "imageUrl": null
         },
@@ -667,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5552,
+          "wordCount": 5346,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -757,7 +757,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 20611,
+          "wordCount": 20565,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -787,7 +787,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 创始人 Martin Köppelmann 在 EthDenver 上分享了他认为的 L2 方案的 4 个问题，包括状态扩容、交易成本、资产退出和适用性，并畅想了一个使用 ZK-bridge 连接的以太坊宇宙。加密研究员 Luyao 对演讲的关键内容进行了整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">https://twitter.com/levi0214/status/1631924502354595840</a></p>\n<p><strong>文章作者：</strong></p><p>Luyao</p><hr><h3>观点：</h3><p><strong>Luyao：</strong>L2 最初的目的是，批量完成一堆交易，然后把结果同步回 L1。它是一种很临时的空间，而不是一个新的空间放一些永久的资产。长期来看， 即使 L2 被完美实现，依旧会有一些根本问题。问题 1：这个流程只适合状态不会膨胀的应用，比如交易所（只需要交易结果，不需要交易历史），但对于状态膨胀的应用无法扩容。</p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">内容来源</a><p><strong>Luyao：</strong>问题 2：交易成本。L2 峰值 gas 有时会到 $1 以上，即使 EIP4844 落实，gas 能降低 90% ，但依旧有两方面问题：1. 它对于需要 gas 在 1 美分以下（sbu-cent）的场景依旧不适用；2. 需求增加后，gas 依旧会升高。问题 3：L2 资产退出问题：1. 小额资产可能不够支付退出的 gas 费；2. 退出的带宽有限。问题 4：有些 app 无法被 roll up。例如 CirclesUBI、POAP，它们创造了很多状态，这些状态无法被压缩，所以 L2 对他们没用。</p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">内容来源</a><p><strong>Luyao：</strong>Köppelmann 提出了一个很有趣方案，类似于 Cosmos 的 IBC 模型。做另一个链，跟以太坊运行一样的东西，然后通过无信任的 ZK-bridge 来连接，组成一个以太坊宇宙（Ethereumverse）。 目前已有的 ZK-bridge 方案是利用 ZK 在一条链上运行另一条链的轻节点客户端，然后在其中去验证。这里无需信任，远比传统的 bridge 安全。</p><a href=\"https://twitter.com/levi0214/status/1631924502354595840\">内容来源</a>",
           "link": "https://twitter.com/levi0214/status/1631924502354595840",
           "publishedOn": "2023-03-05T06:58:21.000Z",
-          "wordCount": 492,
+          "wordCount": 529,
           "title": "【长推】Gnosis 的创始人谈 L2 的局限性：畅想一个使用 ZK-bridge 连接的以太坊宇宙",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<h3>Gitcoin 联创推出 ReFi 孵化器 Supermodular</h3>\n<p>据 Decrypt 报道，Gitcoin 联合创始人 Kevin Owocki 宣布推出 ReFi（再生金融项目）孵化器 Supermodular。Supermodular 旨在帮助开发人员推进 Web3 技术，同时「保护关键资源和全球公共产品」。Owocki 本人在 2022 年完全离开了 Gitcoin，他将其持有的大量治理代币委托给管理人员，以支持去中心化工作。</p>\n<p><a href=\"https://decrypt.co/122681/gitcoin-kevin-owocki-refi-incubator-supermodular\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Kevin Owocki（Gitcoin 创始人）：</strong>我们希望通过奖励产生积极影响的项目来扩大公共资金模型，并设计出源源不断的收入流。【原文为英文】</p><a href=\"https://decrypt.co/122681/gitcoin-kevin-owocki-refi-incubator-supermodular\">内容来源</a>",
           "link": "https://decrypt.co/122681/gitcoin-kevin-owocki-refi-incubator-supermodular",
           "publishedOn": "2023-03-05T02:40:11.000Z",
-          "wordCount": 7661,
+          "wordCount": 7583,
           "title": "Gitcoin 联创推出 ReFi 孵化器 Supermodular",
           "imageUrl": "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2021/09/gitcoin-kevin-owocki-mcon-gID_4.png@png"
         },
@@ -1007,7 +1007,7 @@
           "description": "<h3>ConsenSys zkEVM 公共测试网将于 3 月 28 日上线</h3>\n<p>以太坊基础设施开发公司 ConsenSys 将于 3 月 28 日推出零知识以太坊虚拟机 (zkEVM) 公共测试网。据 ConsenSys 研发主管兼 ZK 业务集团负责人 Nicolas Liochon 表示，测试网阶段或将于 2023 年年底完成。据悉，ConsenSys 自去年 12 月推出 zkEVM 私人测试网后，以处理超过 350000 笔交易。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/tech/2023/03/03/consensys-developer-of-ethereum-software-says-zkevm-public-testnet-to-go-live-march-28/",
           "publishedOn": "2023-03-04T02:04:25.000Z",
-          "wordCount": 20689,
+          "wordCount": 20643,
           "title": "ConsenSys zkEVM 公共测试网将于 3 月 28 日上线",
           "imageUrl": "https://www.coindesk.com/resizer/jHQlPxc8R3RvI0FegOjTgkyAm6g=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LBRTYFCLDREUBGV6F6RYKHX5RE.jpeg"
         },
