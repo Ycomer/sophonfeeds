@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T00:00:03.605Z</updated>
+    <updated>2023-03-08T00:26:21.781Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Consensys发布《ETH质押提款指南》并推荐选择部分提款，届时将推出纪念NFT]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/fdtrm9e7.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/fdtrm9e7.html"/>
+        <updated>2023-03-08T00:08:16.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，Consensys发布《ETH质押提款指南》，指南中提到，Shanghai/Capella升级的主要成果是允许质押者提取他们质押的ETH，但更具体地说，它将提供与提款相关的三个关键功能：1.能够将以太坊验证器的取款凭证从旧的0x00类型（源自BLS密钥）更新为较新的0x01类型（源自以太坊地址）。2.部分提款，或从活跃验证者的余额(超过32 ETH)中定期自动“退出”获得的共识层奖励。3.全额提款，或收回“退出”验证者的全部余额。只有具有较新的0x01类型提款凭证的验证者才有资格进行部分和全部提款，然而，目前还没有这样做的必要，因为0x00认证的验证者将继续像信标链诞生以来那样获得奖励。请注意，一旦验证者将其取款凭证从0x00类型更新为0x01类型，就无法再更改。这是从0x00到0x01类型的提款凭证的一次性单向更改。
+部分提款使质押者受益，因为质押者可以定期访问他们的验证者获得的CL质押奖励（扣除任何罚款），而不会产生任何gas成本，也不必退出他们的验证者。此外，由于以太坊验证者的有效余额上限为32 ETH，因此验证者余额上的任何剩余ETH都是无用的。部分提款允许质押者访问这些过剩的、非生产性的ETH，并将其重新部署以激活新的以太坊验证器或其他地方。部分提款也应该通过防止过长的退出队列和过多的验证者流失而使以太坊网络受益，这可能会破坏网络的稳定性。
+目前，58%的人拥有0x00类型的取款凭据。在剩下的42%中，使用0x01类型的取款凭证，大约61%（或所有以太坊验证器的25%）由Lido验证器集操作。
+此外，为庆祝升级，ConsenSys将在3月下旬/4月中旬升级上线时推出其第二个纪念NFT系列，并邀请Web3爱好者通过领取NFT参与。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3分钟读懂Stader：会成为LSD黑马吗？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/9jr68mhx.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/9jr68mhx.html"/>
+        <updated>2023-03-08T00:01:27.000Z</updated>
+        <summary type="html"><![CDATA[撰文：Poopman
+编译：0x11，Foresight News
+LSD 战争正在迅速升温。如果你正在寻找下一个隐藏的宝石?，我为你准备了年度最大的 Alpha。Stader 可能会成为质押游戏规则的改变者。
+在这篇推文中，我将介绍：
+Liquid Staking 一直是以太坊生态的一个重要领域，但它面临着一些重大挑战：中心化?和可扩展性↔️。
+中心化
+Lido、Coinbase 和 Kraken 控制着超过 50% 的 ETH 质押量，其中 90% 委托给了获许可的运营商。
+可扩展性
+由于以太坊抵押质押门槛高 ，具有无许可节点的 LSD 服务难以满足普通用户需求。
+
+为解决这些问题，多链流动性质押协议 Stader 引入了「ETHx」，它大大降低了无许可节点运营商的门槛，仅仅只需要 4 ETH。
+它是如何做到的呢？答案是：多池架构和分布式验证器技术（DVT）。
+多池架构
+每当用户存入 ETH 时，Stader Pools Manager 将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：
+
+无许可质押池
+无许可模型意味着不需要白名单就可以运行节点。在这个池中，Stader 允许节点以同行竞争者中最低的保证金要求（4 ETH）运行。但这怎么可能呢？
+通过与 SSV 合作， Stader 模拟极端运行条件并得出结论，4 ETH 足以覆盖所有关键的尾部风险，包括
+DVT 在这些情况中扮演着重要作用。
+
+分布式验证器技术 (DVT)
+DVT 允许验证器的职责分散在多个节点之间。因此，即使其中一台机器离线或出现故障，验证器也可以继续运行而不会中断。
+
+通过利用 DVT 的高容错率，减少罚没的可能性，Stader 将无许可节点所需的保证金降低到 4 ETH。（了解 DVT，请参阅。）
+DVT 的实施可以增强 LSD 的去中心化和可扩展性。归功于较低的进入门槛，更多的验证者可以安全地加入网络。
+但是，目前尚不清楚串通攻击的后果以及实际发生削减的情况。
+为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商。这有助于确保 ETHx 在早期的稳定表现。
+ETHx 代币经济模型分两个阶段。
+要为 Stader 运行一个节点，每个验证者必须存入 4 ETH 和价值 0.4 ETH 的 SD 代币作为抵押品。
+额外质押的 SD 在削减发生的情况下充当保护机制，类似于@Rocket_Pool。
+SD 激励
+为了激励节点运营商，Stader 将在第一年为验证者发放价值约 100-200 万美元的 SD 代币。
+SD 激励数量取决于节点运营商每月质押的 SD 比例（每个验证者最多质押价值 8 ETH 的 SD 代币）。
+
+除了 SD 质押激励之外，用户还可以从其他用户质押的 28 ETH 产生的质押奖励中获得 5% 的佣金。
+与其他 LSD 方案相比，ETHx 为质押者提供了更高的收益率，只需要更少的资金。（了解更多信息）
+节点运营商可以无抵押借入 SD 用于质押。借出 SD 的人可以获得 10% 的节点佣金，并获得额外的 SD 激励。（了解更多）
+ETHx 质押将推动对 SD 代币的需求，因为它是运行节点的要求之一。正如@NagatoDharma 指出的那样，SD 价格仍比其 ICO 的 3.3 美元低 65%。在当前 TVL 为 115M 的情况下， SD 代币可能被低估了。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tender.fi黑客已返还资金，获得62 ETH赏金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ymaj785q.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ymaj785q.html"/>
+        <updated>2023-03-07T23:58:05.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，链上数据显示，攻击Arbitrum生态借贷协议Tender.fi的黑客已返还了资金，Tender.fi团队同意向黑客支付62 ETH(96,500美元)作为赏金。官方团队表示，事后审查正在进行中。据此前消息，Tender.fi疑似遭白帽黑客攻击，损失159万美元。官方表示，已暂停所有借贷。 安全公司PeckShield和BlockSec的调查显示，黑客利用Tender.fi配置错误的预言机借入价值159万美元的加密资产，而抵押品仅为一个价值70美元的GMX代币。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tender.fi黑客已返还资金，获得62 ETH赏金]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ymaj785q.html</id>
@@ -3797,16 +3867,6 @@ AURA 代币的内在价值主要来源于 vlAURA 对于 Balancer 的元治理，
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[去中心化社交项目Bluesky支持通过自定义域名注册账户]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/csrxslzb.html"/>
-        <updated>2023-03-07T01:30:03.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月7日消息，据官方博客，由Twitter创始人Jack Dorsey资助的去中心化社交项目Bluesky宣布已支持用户将自定义域名注册作为该应用程序的Handle。自定义域名Handle是Bluesky改善信任状态和控制用户在线社交身份的一种方式。它建立在现有的DNS基础设施之上。Bluesky表示：“我们很高兴这一功能能够作为协议功能路线图中的第一步发布，这将创建一个更受用户控制的社交网络。”]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[以太坊扩容项目 Scroll 完成 5000 万美元融资]]></title>
         <id>https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation</id>
         <link href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation"/>
@@ -3830,65 +3890,6 @@ Scroll 此前已经在两轮融资中筹资 3300 万美元，并于上周在 Goe
 <p><a href="https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation">内容来源</a></p><hr><h3>观点：</h3><p><strong>Scroll：</strong>我们将继续把我们的资源投入到主网启动工作上。上周在 Goerli 上推出的 Alpha 测试网目前已经拥有 18 万个唯一钱包地址，并产生了 665000 笔交易。此外，我们正在计划推出一个公共产品及捐赠计划以帮助支持未来应用发展。我们还在进一步研究去中心化验证器和排序器网络。【原文为英文】</p><a href="https://twitter.com/Scroll_ZKP/status/1632813708174041088">内容来源</a><p><strong>Suji Yan（ Mask Network 创始人）：</strong>迫不及待地想在更多社交应用程序中使用 Scroll 和 zkEVM。【原文为英文】</p><a href="https://twitter.com/suji_yan/status/1632825254958739456">内容来源</a><p><strong>头等仓：</strong>Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。</p><a href="https://twitter.com/firstvip61/status/1632920805687562240">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解读Velodrome ：何以成为Optimism的DeFi发动机？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/ntilgg5z.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/ntilgg5z.html"/>
-        <updated>2023-03-07T01:09:43.000Z</updated>
-        <summary type="html"><![CDATA[原文：《Velodrome：Optimism 的 DeFi 发动机》
-注：本文主要通过数据角度来分析 Velodrome 的经济模型，不作为任何投资建议。
-Optimism 是基于以太坊的 Layer 2 扩容解决方案，在今年的表现堪称惊艳，TVL 和 token price 涨幅都超过了 100%，近期公布了多个利好预期：
-随着以太坊上海升级的临近，Layer2 正在迅速赶超其他公链，目前 Arbitrum 和 Optimism 在所有公链中 TVL 排名分别为第 4 和第 6，其上面的生态项目正在不断涌现。
-L2 赛道内的竞争已经接近白热化，Arbitrum 在启动初期积累了较大的优势，而 OP 通过发 token 正在追赶 Arbitrum 的步伐。目前在 TVL、转账笔数和活跃地址数上，Arbitrum 较 Optimism 都有 1 倍左右的领先优势。
-
-(资料来源：dune)
-从本质上来看，OP 与 AR 两者都采用 Optimism Rollup，并不存在较大的技术壁垒。从数据上来看，Optimsm 暂时落后于 Arbitrum，但其成为多链 L2 平台的目标构成了宏大的叙事，接下来将进行 Bedrock 的重大升级并且还会有更多轮的 Drops 激励，值得我们对其多加关注。
-Velodrome 是目前 Optimism 上 TVL 最大的 dex 协议，目前 TVL 为 3.1 亿$,占整个 Optimism 生态 TVL 的 34%。Velodrome 主要 folked from Andre Cronje 创建的 Solidly（fantom 上的 dex,TVL 曾高达 2B$）。Solidly 解体后，其最大的协议参与者 veDAO 团队吸取了经验教训，对 Solidly 的机制做出了部分改进，于 2022 年 6 月在 Optimism 上创立了 Velodrome 。（相关阅读：《Velodrome的TVL炼金术：ve(3,3)机制、veVELO分布与贿赂情况》）
-Velodrome 核心采用了 AC 提出的 ve(3,3) 机制，该机制主要激励用户锁仓 token，认为当大家都质押 token 而非卖出时，所有人的收益都将更高。
-1) VELO 初始供应 400M，按照以下比例进行多元化分配：
-2）VELO 会在每周(UTC 时间星期三 23:59 之后)增发，从15M 开始按每周 1% 的速率衰减。LP 持有者仅可获得这部分增发奖励。2 月 28 日几个主要池子的 LP APR 如下图所示：
-3)锁仓 VELO 可以获得 veVELO,兑换的 veVELO 数量与锁仓时间成正比，1 个 VELO 锁仓 4 年可获得 1 个 veVELO。目前有 1 周，1 月，1 年，4 年 这 4 个锁仓时间选项；
-4)veVELO 代表协议治理权，决定每周增发的 VELO 分配给每个流动性池的权重；所有的交易手续费收入将按比例分配给投票给该池的用户，而非 LP 持有者；
-5) 可贿赂选票，通过 Velodrome 内置的 Bribe 功能，可向任意池子发送贿赂，这些贿赂资金会按比例分配给投票给该池的用户。目前每 1 美金的贿选可以带来 1.5-2 美金的 VELO 增发奖励，协议们可以通过贿选撬动 VElO 奖励杠杆来增加自身的流动性，因此近期贿赂奖励迅速增长；
-6) veVELO 是一种 NFT，根据质押的 VELO 数量及锁定时间产生不同的 NFT，加总得到 veNFT 余额。Velodrome 计划在 2023 年 Q1 上线 veNFT 的 trade、lending 功能，届时 veVELO 将被赋予流动性，用户将会有更多的投资选择，这点是相对 Curve 的最大创新；
-7) veVELO 持有者将受部分稀释保护，当每周增发 VELO 时，veVELO 将获得一定比例的 rebase 奖励。
-每周rebase金额=(veVELO.totalSupply ÷ VELO.totalsupply)³ × 0.5 × 排放量
-锁定的 VELO 比例越高，rebase 的占比也将越高，上限为当期排放量的 50%；
-了解完上述机制后，我们就可以通过数据来观察 Velodrome 的飞轮是如何运作的。
-1)TVL 及交易量
-受益于 1 月的市场复苏、Layer2 赛道火热，Velodrome 的 TVL 快速增长，从 1 月 1 日的 0.75 亿$增长到了目前的 3.18 亿$，今年 TVL 增幅高达 322%；
-Velodrome 目前日均交易量 3000 万$，OP、WETH、VELO 对 USDC 的交易量占据了 60%；
-2）锁仓率
-
-锁仓率（上图灰线）从 2022 年 6 月的 50%升至目前(第 39 周)的 80%，新增流通量少，9 成以上排放被锁仓。不过最近一周内，锁仓增速开始放缓，新增排放量/新增锁仓量降至 60%。
-目前共锁定了 688.7M 个 VELO，生成 626.5M 个 veVELO，约 90% 的 VELO 被锁定了最长的 4 年。
-3）增发与供应曲线
-
-目前为第 39 周，正处于 rebase 拐点（上图蓝线），当前 rabase APR 为 15.69%。按照目前 80% 的锁仓率估算，总供应量（上图红线）将在第 200 周达到 2000M，目前为 854M。
-4）veVELO APR
-veVELO 的奖励包括三部分：手续费，rebase 奖励，Bribes。在项目启动初期锁仓量较少，每周排放量大，所以 rebase 对 veVELO APR 的贡献较高。随着贿选启动，Bribes 奖励成为 veVELO APR 的大头。
-
-(资料来源：dune)
-在第 10-33 周内，veVELO 的平均 APR 始终高于 100%，峰值超过了 200%。虽然总奖励快速增长，但由于 VELO Price上涨的更为快速，整体的 APR 从第 33 周（23 年初）开始回落至目前的 54%；
-5）veVELO 分布
-目前共有 626.5M 个 veVELO，分布在 9.2k 个地址上。持有量排名前 20 内有 8 家是协议方，包括 Beefy、Optimism、Revenant Labs、Synthetix、Liquity 等持有了近 20%的 veVELO。
-
-(资料来源：dune)
-6）Velodrome 的飞轮路径
-高 APR 吸引用户 Farming, TVL 增长；
-协议们参与贿选，杠杆激励自己的流动性池（协议每贿赂 1$ 给 veVELO 投票用户，Velodrome 会对应的增加 1.5-2$ 对该池子的 VELO 奖励）；
-高锁仓 APR 吸引更多的 VELO 锁仓，锁仓率增加（90%的 VELO 锁仓 4 年获得更多投票权）；
-VELO 新增流通极少，Price上涨，维持流动性激励杠杆；
-VELO 价格、锁仓率 & veVELO APR 变化：
-
-当锁仓率下降 VELO 会下跌 锁仓 APR 会提高，当锁仓率上升 VELO 会上涨 锁仓 APR 会下降。锁仓率、锁仓 APR、Price三者之间会达到一个动态平衡。
-因为 rebase 奖励每周都在降低，而总锁仓量在增长，所以若要维持住目前锁仓率 80%，锁仓 APR 54%，VELO Price 0.185 这三个数据，则需要每周新增 Bribes 金额。这显然不可持续，因为当 Bribes 价值=每周排放价值时，流动性激励杠杆便不存在，协议们便没有动力再增加贿赂。
-
-只有当 VELO Price 上涨，Bribes 金额增加，锁仓 APR 降低三者协同才能够让飞轮继续运行下去。而随着 Velodrome 的体量不断扩大，推动飞轮所需的动力也在变大，锁仓率及 Bribes 是我们观察其飞轮运作的最佳“动力指标”。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
