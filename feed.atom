@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-08T05:18:39.494Z</updated>
+    <updated>2023-03-08T05:26:26.134Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[派盾：美国执法部门将4.9万枚BTC转至Coinbase和另外两个地址]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3j3nac10.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3j3nac10.html"/>
+        <updated>2023-03-08T05:20:53.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，派盾监测数据显示，美国执法部门相关地址将4.9万枚BTC（价值约合10亿美元）转至Coinbase（超过9,800枚BTC）、bc1qf2开头地址（超过3万枚BTC）和bc1qe7开头地址（约9,000枚BTC）。这部分BTC是美国执法部门于2021年11月和2022年3月扣押的Silk Road非法所得。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimism：最新版本存在问题，已更新者需回滚至op-geth版本]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ketn4lux.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ketn4lux.html"/>
+        <updated>2023-03-08T05:15:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月8日消息，以太坊L2网络Optimism发推称，此前要求基础设施提供商在Optimism Goerli硬分叉之前将op-geth更新到新版本，但现在已发现最新版本存在问题，目前正在更新代码存储库以解决相关问题。
+对于已经更新了版本的基础设施提供商，Optimism要求回滚到以前版本的op-geth，如果尚未更新则无需执行任何操作，Optimism将很快分享更新版本。
+此前3月6日消息，Optimism将于3月18日进行Optimism Goerli硬分叉升级。目前官方已删除此推文，并称这是因为相关信息不准确。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimism：最新版本存在问题，已更新者需回滚至op-geth版本]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ketn4lux.html</id>
@@ -4052,17 +4074,6 @@ Arbitrum生态链最火阶段已过，fomo情绪或不足。
 
 四、写在最后
 如果一个理想化的法案不仅不能解决现实中的问题，甚至还会对金融安全和社会稳定产生消极影响，那不如回到旧瓶装新酒的时代。但是，我们同样非常肯定犹他州在DAO法案中对虚拟资产行业展示的善意和包容，以及让DAO的归DAO、LLC的归LLC这一制度上的创新。但是，人类的商业制度和争议解决机制已经历了千百年的演变，形成了一套既定的规则体系，短期内想要做出改变是一件非常困难的事，在此期间，虚拟资产从业者们保持足够的耐心和信心才是关键。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公链Sui 0.28新版本将涵盖引入新编程交易类型、字节调整等更新]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/52h4nm7r.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/52h4nm7r.html"/>
-        <updated>2023-03-07T06:03:22.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月7日消息，Layer1公链Sui Network发布下一个版本0.28的重大变化，该版本可能会导致现有应用程序和实现停止按预期运行，下周官方将发布包括有关如何解决或更新可能因这些更改而中断的项目的信息。
-根据该具体功能更改包括：1.新的可编程交易功能引入了一种新的交易类型，它取代了批处理交易和普通事务(特殊系统事务除外)，这些交易允许执行一系列命令（各种迷你交易），其中命令的结果可用于后续命令。2.SuiAddress和ObjectID从20字节调整到32字节（在十六进制中，从40增加到64）；3.更改Gas预算以使用SUI而不是Gas单位等等。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
