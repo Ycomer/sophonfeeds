@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T03:43:51.955Z</updated>
+    <updated>2023-03-09T03:49:11.446Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -125,6 +125,18 @@ ASCII的全称是“美国信息交换标准代码”，利用这个标准，当
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文】什么是轻节点？一文了解其类型及运作模式]]></title>
+        <id>https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</id>
+        <link href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits"/>
+        <updated>2023-03-09T03:02:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>
+<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[赵长鹏：币安在Silvergate上没有资产损失]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/2af5jqh3.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/2af5jqh3.html"/>
@@ -186,7 +198,8 @@ PANews已上线Hong Kong Web3 Festival 2023活动汇总（持续更新），点�
 6. 香港路边有些crypto ATM，我看了下没去试，但听说手续费很高，而且这里容易遇到黑钱，业内人士不建议使用。
 7.申请入驻数码港拿补贴对Web3，项目容易些，科技园门槛高，但据说3年下来可以拿千万补贴。
 
-8. 香港本地的web3也是分小圈子，大陆圈、港人圈和老外金融圈，后者比较clubby，大家相对各玩各的，如果要去老外圈BD，公司基本也招的老外。香港本地的公开活动其实不多，大都是闭门活动，不过4月会成为香港活动月。 期待和大家4月份在香港见，我们也会举办周边活动。 以上，如有不对请本地业者指正。]]></summary>
+8. 香港本地的web3也是分小圈子，大陆圈、港人圈和老外金融圈，后者比较clubby，大家相对各玩各的，如果要去老外圈BD，公司基本也招的老外。香港本地的公开活动其实不多，大都是闭门活动，不过4月会成为香港活动月。 期待和大家4月份在香港见，我们也会举办周边活动。 以上，如有不对请本地业者指正。
+PANews已上线Hong Kong Web3 Festival 2023活动汇总（持续更新），点此查看更多活动日程：]]></summary>
         <author>
             <name>PANews News</name>
         </author>
