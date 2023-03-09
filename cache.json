@@ -97,7 +97,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">https://twitter.com/balancer/status/1633490690788462592</a></p>\n<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a>",
           "link": "https://twitter.com/balancer/status/1633490690788462592",
           "publishedOn": "2023-03-09T07:12:14.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响",
           "imageUrl": null
         },
@@ -117,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>多链 DeFi 管理协议 Instadapp 推出的智能合约钱包 Avocado，支持多网络交易，所有网络的 Gas 以 USDC 形式支持，无需管理多个本地 Gas 代币。加密研究员 Ignas 对其工作原理和重要性进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">https://twitter.com/DefiIgnas/status/1633626328330289152</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Avocado 改变了我们目前与 dApp 的交互方式。Avocado 拥有自己的 RPC，其钱包地址是一个确定性的智能合约，在算法上和你的钱包地址相连，是一个非托管的账户抽象钱包。用户将任何支持的链中的代币发送至该地址后，余额将会出现在 Avocado 网络上。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>在添加 Avocado 时，所有网络 Gas 将以 USDC 形式支持，无需为不同区块链管理不同 Gas 代币。使用 Avocado 进行交易时，需要向相应链签署一个消息，Avocado 将签署的消息转发至相应链上，并在相应链上以原生代币支付 Gas。且用户还可以将任何 dApp 连接至 Avocado 钱包，批准的是来自 Avocado 钱包的交易而不是 dApp 本身。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Avocado 其他关键路线图升级包括 2FA 安全、跨链余额统一、白名单、内置 DeFi 策略及将 Avocado 直接集成到 dApp 的激励计划。Avocado 会额外收取 20% 的 Gas 费，一半费用将流向支持 Avocado 的 dApp，另一半则会导向 INST 国库。此外，团队还将很快推出一个移动应用程序和浏览器扩展程序以进一步改善用户体验。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a>",
           "link": "https://twitter.com/DefiIgnas/status/1633626328330289152",
           "publishedOn": "2023-03-09T06:03:16.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】新项目前瞻 | Instadapp 推出智能合约钱包 Avocado，如何运作？有何创新之处？",
           "imageUrl": null
         },
@@ -137,7 +137,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 为用户提供了多种策略来更有效地交易、对冲和管理收益。加密货币 KOL Tindorr 从概念、用户策略、路线图和潜力等方面介绍了此项目，并分析了他看涨的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">https://twitter.com/0xtindorr/status/1633156442760044545</a></p>\n<p><strong>文章作者：</strong></p><p>Tindorr</p><hr><h3>观点：</h3><p><strong>Tindorr：</strong>Pendle 允许任何人交易「收益率」。 「收益率」是指从 Lido 上的 stETH、sAPE（质押 APE）、GMX 上的 GLP 等这些资产（也称为收益率代币）中获得的 APY 或利率。Pendle 将每个收益率代币化为 2 个代币：本金代币（PT）和收益代币 （YT）。此功能为 DeFi 解锁了新策略。 可以在 Pendle 上使用的策略：1）购买 PT （Principal） = 在到期日之前获得固定收益。2）买入 YT （Yield） = 做多收益代币。【原文为英文】</p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">内容来源</a><p><strong>Tindorr：</strong>Pendle 有非常好的路线图，他们即将在 Arbitrum 上上线的池子会吸引更多用户。他们团队平易近人，乐于提供更多信息，上市战略很好。网站上的用户体验 / 用户界面也非常出色，并且是 DeFi 的真正应用。【原文为英文】</p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">内容来源</a>",
           "link": "https://twitter.com/0xtindorr/status/1633156442760044545",
           "publishedOn": "2023-03-09T05:34:14.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】解读交易资产利率的 DeFi 协议：Pendle",
           "imageUrl": null
         },
@@ -307,7 +307,7 @@
           "description": "<h3>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</h3>\n<p>以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。\n\n对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。</p>\n<p><a href=\"https://twitter.com/optimismFND/status/1633122710032113665\">内容来源</a></p><hr>",
           "link": "https://twitter.com/optimismFND/status/1633122710032113665",
           "publishedOn": "2023-03-08T07:37:28.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 9204,
+          "wordCount": 9243,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1010,
+          "wordCount": 1012,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -547,7 +547,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PKUBA 联合深潮邀请包括 LD Capital 合伙人 Joy Lou 在内的多名资深加密分析师，全面公开资金的研究框架和逻辑，分享其今年看好哪些赛道，PKUBA 研究员兼深潮分析师 Claudia 对该 Space 进行了重点提炼和总结。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">https://twitter.com/0x_claudia/status/1632745025036775425</a></p>\n<p><strong>文章作者：</strong></p><p>Claudia（深潮 TechFlow）</p><hr><h3>观点：</h3><p><strong>Joy Lou（了得资本合伙人）：</strong>赛道核心是以太坊升级。LSD 短期资金出去一点，长期无法逃过。接下来，Layer2、Dank sharding 4844 、Op stack、 zk、 Coinbase 的 L2，轮动过程中再加上 DeFi（稳定币、借贷、LSD …… 相互抢地盘）、存储等辅助赛道。DeFi 里的 NFTFi、衍生品也要覆盖，交易量很大。除了以太坊，还有可能的生态是 Cosmos，但是要看看它的持续性。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>CapitalismLab：</strong>把精力集中在比较主线的叙事，核心就是 LSD、L2 和 衍生品 这三个方面，只能覆盖长期确定性强的赛道。 比较喜欢 Arbitrum ，因为不需要发币就能实现有机增长，有差异化体验、有人用的产品。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>DeFi Cheetah：</strong>可以布局的赛道是链上衍生品。Restaking 很重要，模块化区块链也重要。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>Kiwibig.eth：</strong>V 神发文章是引导资本关注特定赛道。今年节奏的核心是跟着 V 神走。以太坊宇宙，在以太坊上解决 IBC 问题。看好 Cosmos，头部应用和钱都在进入生态。偏好硬件类项目，以太坊占据共识层，硬件缺得很多。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a>",
           "link": "https://twitter.com/0x_claudia/status/1632745025036775425",
           "publishedOn": "2023-03-07T07:54:19.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "PKUBA Space 总结：资深分析师们今年看好哪些赛道？以太坊仍是核心",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Proof 研究总监 NFTstatistics.eth 对 CryptoPunk 上架 Blur 前后的销量、地板价等数据进行了分析后表示，上架 Blur 或将为 Punks 带来流动性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">https://twitter.com/punk9059/status/1632865981440872448</a></p>\n<p><strong>文章作者：</strong></p><p>NFTStatistics.eth</p><hr><h3>观点：</h3><p><strong>NFTStatistics.eth：</strong>1）过去 18 个月内，Larva Labs 网站以外的 Punks 销量没有一周超过 10%，但上架 Blur 后，本周已经有 42% 的 Punks 销量来自 Larva Labs 网站以外；2） 96.8% 的 Punks 在 2023 年未被出售过，是蓝筹中最低的，但上架 Blur 后有 18 个 Punks 完成了 2023 年首次交易；【原文为英文】</p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">内容来源</a><p><strong>NFTStatistics.eth：</strong>3）Punks 地板价已经超 220 天没有出现一周 10% 的波动，但上架 Blur 后，过去两天内，Punks 地板价上涨了 5.5%。鉴于地板价的稳定性，CryptoPunks 可能会成为 Blur 空投挖矿的对象；【原文为英文】</p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">内容来源</a><p><strong>NFTStatistics.eth：</strong>上架 Blur 解决了 Larva Labs 网站存在的三个问题，更有助于收集 bid、有效使用 ETH 及解决了前端运行问题。这种对 Punks 的影响是中性或积极的，可能会为 Punks 带来流动性。当然也会有人反驳新的持有者只是为了炒作，但其中或许也会有几个长期持有者出现。【原文为英文】</p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">内容来源</a>",
           "link": "https://twitter.com/punk9059/status/1632865981440872448",
           "publishedOn": "2023-03-07T03:43:41.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Proof 研究总监：数据角度解析  CryptoPunk 上架 Blur 的影响",
           "imageUrl": null
         },
@@ -667,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 738,
+          "wordCount": 750,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>VLG Digital 首席 Web3 分析师 Yugi AI 发表推特，对流动性质押领域的趋势提出见解，总结出 DeFi 整合、无许可节点、多链和真实收益 4 个方向。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xYugiAI/status/1631693240167432196\">https://twitter.com/0xYugiAI/status/1631693240167432196</a></p>\n<p><strong>文章作者：</strong></p><p>Yugi AI</p><hr><h3>观点：</h3><p><strong>Yugi AI：</strong>1）DeFi 整合：流动性质押允许用户使用质押资产作为抵押品，进行借贷、DEX 交易或参与流动性池。可以期待其在 DeFi 中的广泛创新应用，从指数投资到聚合，从挖矿到杠杆策略。Index Coop 最近便推出了多元化质押 ETH 指数。【原文为英文】</p><a href=\"https://twitter.com/0xYugiAI/status/1631693240167432196\">内容来源</a><p><strong>Yugi AI：</strong>2）无许可节点：许多协议已经推出或公布无需许可即可运行的节点，允许用户运行无许可节点，并从协议用户处赚取奖励作为费用，无需跟踪记录或性能历史。以太坊目前中心化的流动性堆栈存在风险，无许可节点在 LSD 去中心化中发挥了关键作用，代表项目为 Rocket Pool 和 Stader。【原文为英文】</p><a href=\"https://twitter.com/0xYugiAI/status/1631693240167432196\">内容来源</a><p><strong>Yugi AI：</strong>3）多链：除以太坊外，其他链也在积极开发类似的解决方案，虽然目前采用有限，但很有潜力。4）真实收益：真实收益是 Crypto 的趋势之一。原生代币持有者可以获得协议收入的一部分。流动性质押项目可以不断产生费用，符合这一趋势。Stader 也为其代币 SD 引入了真实收益用例。【原文为英文】</p><a href=\"https://twitter.com/0xYugiAI/status/1631693240167432196\">内容来源</a>",
           "link": "https://twitter.com/0xYugiAI/status/1631693240167432196",
           "publishedOn": "2023-03-06T10:26:37.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】流动性质押领域的 4 个显著趋势",
           "imageUrl": null
         },
@@ -877,7 +877,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>\n<p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a>",
           "link": "https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4",
           "publishedOn": "2023-03-06T04:24:56.000Z",
-          "wordCount": 872,
+          "wordCount": 869,
           "title": "PolyHedra Network 解读：如何构建「多边形」 ZK 生态",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:830/1*iENbqA6ctCMVW8Dz5Mr1sg.png"
         },
@@ -927,7 +927,7 @@
           "description": "<h3>去中心化质押协议 Rocket Pool 计划于 4 月初进行 Atlas 升级，将与以太坊上海升级兼容</h3>\n<p>去中心化质押协议 Rocket Pool 宣布将于 4 月初进行 Atlas 升级，使该协议与以太坊的上海升级兼容。Atlas 升级引入了 gas 优化、LEB（Lower ETH Bonded）Minipool、Solo Staker 迁移、Minipool 队列简化、动态存款池限额、Minipool ETH 分配等功能和更新。目前，Atlas 版本已经过 Sigma Prime 和 ConsenSys Diligence 的审计，并部署在在 Zhejiang 测试网上，目标是在 3 月底或 4 月初发布至以太坊主网。</p>\n<p><a href=\"https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f\">内容来源</a></p><hr>",
           "link": "https://medium.com/rocket-pool/rocket-pool-atlas-upgrade-7c69e39a3d5f",
           "publishedOn": "2023-03-06T03:04:33.000Z",
-          "wordCount": 4794,
+          "wordCount": 4797,
           "title": "去中心化质押协议 Rocket Pool 计划于 4 月初进行 Atlas 升级，将与以太坊上海升级兼容",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*sZP5GMgfYtKgMwnanu9QKg.png"
         },
@@ -957,7 +957,7 @@
           "description": "<h3>币安曾邀请美 SEC 主席 Gary Gensler 担任顾问</h3>\n<p>据华尔街日报报道，在 2018 年和 2019 年期间，币安工作人员曾邀请前商品期货交易委员会主席、现任美国证券交易委员会主席 Gary Gensler 担任顾问。当时在麻省理工学院任教的 Gensler，「如果民主党赢得 2020 年大选，可能会回到监管机构」。时任币安风险投资部门负责人的 Ella Zhang 和 Harry Zhou 于 2018 年 10 月会见了 Gensler ，Zhou 写到：「虽然 Gensler 拒绝担任顾问，但他在分享许可策略方面很慷慨」。</p>\n<p><a href=\"https://www.wsj.com/articles/texts-from-crypto-giant-binance-reveal-plan-to-elude-u-s-authorities-3a17ddeb\">内容来源</a></p><hr>",
           "link": "https://www.wsj.com/articles/texts-from-crypto-giant-binance-reveal-plan-to-elude-u-s-authorities-3a17ddeb",
           "publishedOn": "2023-03-06T01:36:40.000Z",
-          "wordCount": 7334,
+          "wordCount": 7331,
           "title": "币安曾邀请美 SEC 主席 Gary Gensler 担任顾问",
           "imageUrl": "https://images.wsj.net/im-736222/social"
         },
