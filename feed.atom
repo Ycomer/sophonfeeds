@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T03:37:27.493Z</updated>
+    <updated>2023-03-09T03:43:51.955Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[加密货币始祖遇上“科技与狠活” ：给比特币“雕花” 增值还是累赘？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/md0yg1po.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/md0yg1po.html"/>
+        <updated>2023-03-09T03:29:23.000Z</updated>
+        <summary type="html"><![CDATA[原文：《给比特币“雕花” 增值还是累赘？》
+作者：凯尔 编辑：文刀
+比特币网络也能发NFT了，大玩家快速入场。3月6日，Yuga Labs开启了TwelveFold拍卖会，该项目是Yuga Labs在比特币区块链网络上发行的首个NFT合集，内含300个艺术品。
+在没有智能合约的比特币网络造NFT，没那么友好。但Web3的开发者们想出了办法，今年1月，Ordinals协议诞生，它能给比特币（BTC）的最小交易单位“聪”编码，完成区分后在聪的数据里“镌刻”图片，进而生成NFT。
+“给数字黄金比特币雕刻NFT艺术”，听上去就很“吸金”。于是，比特币版的一款NFT卖了9.5 BTC，折合148万多元。赚钱效应下，包括Yuga Labs在内大批“雕花匠”赶来，酝酿着各种比特币版的NFT。
+然而，本就拥堵不堪的比特币网络因为NFT的链上流转，变得更加拥塞，区块大小的激增也拉高了节点的存储成本。“比特币不需要NFT”的反对声正在响起。
+3月6日，Yuga Labs旗下新NFT项目TwelveFold启动拍卖，区别于该机构过往基于以太坊发行Bored Ape Yacht Club（BAYC无聊猿）等项目，TwelveFold是其在比特币区块链上发行的首个NFT系列。
+作为NFT圈最知名的发行商之一，Yuga Labs的号召力不容小觑。根据规则，参与拍卖的用户需要填写一个用于接收NFT的比特币钱包地址，然后点击“出价”按钮，可获得一个比特币收款地址，随后用户可将出价发送到该地址进行竞价。最低出价金额为20000聪，按当前比特币价格计算，约为 5 美元。
+TwelveFold在2月28日就官宣了，它被Yuga Labs定义为“限量版实验性收藏品”，包含300件“刻”在比特币网络最小单位“聪”上的艺术作品，每个作品以“12x12”网格定位，Yuga Labs解释，“这是比特币区块链数据制图的视觉语言。”
+此次拍卖中，将有288个TwelveFold NFT售向市场，剩余的12个将保留给贡献者或用于未来的捐赠和慈善事业。尽管Yuga Labs声明，这些作品不会与任何以前的、正在进行的或未来基于以太坊的 Yuga 项目互动或相关，但参与拍卖的人不在少数，且“土豪”居多。
+根据3月7日的拍卖结果来看，排在前288名的地址最高出价达到7.1159 BTC（约110.8万元），最低出价也有2.2501 BTC（约35万元），这意味着在发售阶段，TwelveFold NFT的地板价就价值一辆宝马3系，又是一个妥妥的“贵族”项目。
+许多人将Yuga Labs的入场视为比特币NFT的里程碑事件，毕竟，手握BAYC无聊猿、CryptoPunks等蓝筹NFT项目的Yuga Labs，是当前市场公认的NFT第一大厂。
+那么，作为最“古老”的区块链网络，比特币以前为什么没有NFT？要知道，比特币是区块链网络最早的应用，一些加密圈原教旨主义者认为，区块链这个概念都是从比特币上凝集而来的。
+但作为第一代区块链，比特币并没有智能合约的概念，是纯粹的“点对点价值传输”网络，只能产出比特币。到了以太坊，智能合约成为二者的重要区别，任何人都可以用智能合约发布“代币”（Token），比如加密市场上各种买来卖去的“币”，很多都诞生于以太坊网络，后来随着智能合约标准的发展，非同质化的NFT来了。
+一直以来，用比特币网络发行NFT是不太可行的，直到今年1月，一个叫做“Ordinals”的协议出现，比特币网络得以用特别方式“+NFT”。Ordinals中文翻译为“序列号”，该协议的功能就是给比特币的最小交易单位“聪”（Satoshi）排序编号，让每个聪得以编号区分，进而能够被单独跟踪或交易。
+这种改变，给NFT在比特币网络的诞生提供了条件。给聪编号后，Ordinals协议支持对聪进行“刻字”，即用户可以在聪的数据里增加文字、图片等信息，从而制作NFT。
+与以太坊等区块链上每个NFT都具有“独立性”不同，比特币上的NFT更像是附加在聪上的附属品。这导致，要交易比特币上的NFT，必须发送该NFT对应的聪才能完成。
+一个协议就为比特币生态增加了玩法，加密社区嗨了。Yuga Labs称，当一个月前踏入Ordinals社群，感觉就像瞥见了2017年的以太坊NFT生态系统，“人们已经习惯的以太坊 NFT 的工具和结构并不存在，我们对比特币的数字文物前景感到兴奋。”
+长久以来，加密艺术一直被视为加密世界里特别的文化，早在2011年，就曾有人尝试过在比特币网络上创建艺术。当时，有人将消息放在比特币区块链上，并用这些消息创建了ASCII 艺术。
+ASCII的全称是“美国信息交换标准代码”，利用这个标准，当时的艺术家在发送比特币交易时附上了用文字画就的图像，很像20年前人们发短信时用字符作画送祝福一样，那是个没有表情包的时代。与短信里的符文图不同的是，给比特币交易信息里“加图”，这些信息将被打包进区块，永久地保留在区块链上。
+有一幅ASCII艺术品在加密圈很出名，为了致敬逝世的早期比特币开发者 Len Sassaman以及时任美联储主席本·伯南克 (Ben Bernanke) ，当时的加密艺术家用字符在区块链上呈现了两幅人物面孔。这件作品短暂地掀起过加密艺术风潮。
+当时的ASCII作品虽然很艺术，但没有流行太久，这是因为，这些数字艺术品无法被拥有，它只是被记录在链上，不属于任何人，也无法交易。缺乏收藏和投资回报价值，也就没能在以炒作为主的比特币生态中泛起活力。
+如今，在以太坊、Solana等区块链网络将NFT普及后，比特币NFT姗姗来迟。聪明的Ordinals协议制造者让人们仿佛“雕花”般给比特币附加艺术价值。这看起来是一种新鲜的尝试，但实际上，事情可能并没那么美好。
+截至目前，比特币区块链上已经诞生了超过5万个NFT。首个项目是仿照Cryptopunks发行的Ordinal Punk系列，多个NFT卖出了1BTC以上的高价，售价最高的Inscription 620价格甚至达到9.5 BTC（约148万元）。
+一夜之间，NFT项目和玩家将比特币网络视为掘金新大陆。然而，以太坊上的NFT可以由智能合约删除元数据，但每个使用Ordinals制作的NFT都会永远地存储在比特币区块链上，这看上去更金贵了，但事实上导致了比特币网络节点的存储成本大幅升高。
+数据显示，自Ordinals被引入后，比特币的区块大小从约 0.7mb跃升至超过2.2mb，数据量的攀升让网络节点们（比特币网络交易数据记录者）不得不提升成本来“记账”。
+扩展性不足导致的交易卡顿、手续费高昂一直是比特币的主要痛点，NFT出现后，拥堵更严重了：区块大小在增加，市场情绪带来了更加频繁的交易操作。Dune数据显示，今年以来，支持Ordinals协议的比特币扩展工具Taproot的利用率大幅增加，这往往意味着交易成本走高，网络也更加堵塞。
+曾有人将比特币NFT比喻“数字黄金上的雕刻艺术”，但本身比特币“数字黄金”的定位本身就有待商榷。毕竟在过去2年全球通胀的加剧周期里，比特币没有如像黄金一样“保值”，反而频繁地暴涨暴跌，让金融投资者对它“避险资产”定位产生怀疑。
+一名加密KOL认为，对于比特币来说，它并不需要引入新的用例，也不需要采取其他手段提高人气，因为比特币在创造者中本聪的定义里，最重要的职能就是“点对点的电子现金系统”，“如果强加场景，而且是以加剧拥堵为代价，是得不偿失了。”
+中本聪用加密技术模拟现金交易场景造出了比特币系统，原始的应用场景是支付，它诞生于2008年全球金融危机时，后来因为出现价格形成了投资和炒作市场，被人们加上了“避险资产”、“数字黄金”的定位，但这些“人设”因为比特币暴涨暴跌的市场反而遭到怀疑。毫无疑问，在投资市场，想给比特币加上其他故事，并不容易。
+因此，有观点认为，引入NFT是在为在比特币下一次（2024年）产出减半前，为其增加新的叙事，烘托比特币的投资价值。但至少从目前看，比特币NFT只是带来了新的炒作空间，还给网络带来了负担，这反而会喝退比特币网络的采用者。
+一名行业观察者评价，“没有人做好了接受比特币NFT的准备，甚至连比特币本身也没有。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[加密货币始祖遇上“科技与狠活” ：给比特币“雕花” 增值还是累赘？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/md0yg1po.html</id>
@@ -72,6 +113,18 @@ ASCII的全称是“美国信息交换标准代码”，利用这个标准，当
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文】什么是轻节点？一文了解其类型及运作模式]]></title>
+        <id>https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</id>
+        <link href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits"/>
+        <updated>2023-03-09T03:02:49.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>
+<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[赵长鹏：币安在Silvergate上没有资产损失]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/2af5jqh3.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/2af5jqh3.html"/>
@@ -110,7 +163,8 @@ ASCII的全称是“美国信息交换标准代码”，利用这个标准，当
 6. 香港路边有些crypto ATM，我看了下没去试，但听说手续费很高，而且这里容易遇到黑钱，业内人士不建议使用。
 7.申请入驻数码港拿补贴对Web3，项目容易些，科技园门槛高，但据说3年下来可以拿千万补贴。
 
-8. 香港本地的web3也是分小圈子，大陆圈、港人圈和老外金融圈，后者比较clubby，大家相对各玩各的，如果要去老外圈BD，公司基本也招的老外。香港本地的公开活动其实不多，大都是闭门活动，不过4月会成为香港活动月。 期待和大家4月份在香港见，我们也会举办周边活动。 以上，如有不对请本地业者指正。]]></summary>
+8. 香港本地的web3也是分小圈子，大陆圈、港人圈和老外金融圈，后者比较clubby，大家相对各玩各的，如果要去老外圈BD，公司基本也招的老外。香港本地的公开活动其实不多，大都是闭门活动，不过4月会成为香港活动月。 期待和大家4月份在香港见，我们也会举办周边活动。 以上，如有不对请本地业者指正。
+PANews已上线Hong Kong Web3 Festival 2023活动汇总（持续更新），点此查看更多活动日程：]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -10146,20 +10200,6 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
         <summary type="html"><![CDATA[<h3>Coinbase 收购机构数字资产管理公司 One River Digital Asset Management</h3>
 <p>Coinbase 宣布收购 One River Digital Asset Management（ORDAM），ORDAM 是一家机构数字资产管理公司，并是在美国证券交易委员会（SEC）注册的投资顾问。ORDAM 将转型为 Coinbase 资产管理公司（CBAM），并将作为独立业务和 Coinbase 的全资子公司运营。Eric Peters 将继续担任 ORDAM CEO/CIO。此外，Coinbase Ventures 也是 ORDAM 的早期投资者。</p>
 <p><a href="https://www.coinbase.com/blog/coinbase-has-acquired-one-river-digital-asset-management">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密货币银行 Silvergate Bank 暂停 SEN 交易网络]]></title>
-        <id>https://www.silvergate.com/</id>
-        <link href="https://www.silvergate.com/"/>
-        <updated>2023-03-04T02:52:00.000Z</updated>
-        <summary type="html"><![CDATA[<h3>加密货币银行 Silvergate Bank 暂停 SEN 交易网络</h3>
-<p>加密货币银行 Silvergate Bank 于官网宣布基于风险决定暂停 Silvergate Exchange Network（SEN）交易网络，该决定立即生效，所有其他存款相关服务仍正常运作。
-
-据悉，SEN 是一种全天候即时结算服务，允许拥有账户的数字货币公司和机构投资者客户彼此之间瞬时发送法定货币。</p>
-<p><a href="https://www.silvergate.com/">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
