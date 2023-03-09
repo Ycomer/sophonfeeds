@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T11:43:58.095Z</updated>
+    <updated>2023-03-09T11:48:54.522Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mint Ventures：加密世界的原生基准利率该如何定义？]]></title>
+        <id>https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</id>
+        <link href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/"/>
+        <updated>2023-03-09T11:27:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>链上世界到底有没有债券市场？加密原生 crypto native 的债券市场可能会有什么样的发展模式？Mint Ventures 研究员 Colin Li 从加密原生的无风险利率（risk free rate) 切入，试图寻找在加密市场中什么样的经济活动可能达到风险与收益相匹配。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</a></p>
+<p><strong>文章作者：</strong></p><p>ColinLy</p><hr><h3>观点：</h3><p><strong>ColinLy：</strong>无风险利率不包含信用风险、期限风险等，在传统世界中一般被认为是短期国债利率，或央行制定的基准利率水平。如果将名义无风险利率拆开，可以看到一部分是价格预期（通胀），另一部分是经济体本身的增长预期（实际利率）。当然，这个利率存在一些前提假设，比如国家相对稳定，监管机构没有被破坏等等。所以无风险利率，不是绝对没有风险。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a><p><strong>ColinLy：</strong>不论 POS 还是 POW 机制，为了维持正常运行，都需要为矿工 /validator 提供一定奖励。这部分收益率包含了公链代币的新发放（激励），即「国家货币」的通胀，和链上活动的活跃程度。以 POS 机制为例，MEV 主要来源于套利、清算、三明治攻击，都与链上活动息息相关。不过，从风险角度看，获得这笔收益需要承担硬件、软件（客户端）、网络、slashing 罚金等维持公链运行必须的风险。总的来看，POS 收益率更贴合「国家」叙事层面下的「无风险利率」。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a><p><strong>ColinLy：</strong>总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通胀的公链项目的收益率呈现出与现实世界非常类似的情况：经济体越成熟，提供的利率水平相对越低。通过简单观测 POS 收益率和 TVL 排名，有利于部署不同的公链投资策略：对于稳健的投资者，应该寻找 POS 收益率偏低且实际 POS 收益率为正的公链项目；对于激进的投资者，或许盈亏比更大的项目在 POS 收益率偏高且实际 POS 收益率为负的公链中。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mint Ventures：加密世界的原生基准利率该如何定义？]]></title>
         <id>https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</id>
