@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T07:39:35.411Z</updated>
+    <updated>2023-03-09T07:44:46.120Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -81,6 +81,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】盘点 10 个有潜力的 GambleFi 项目：Rollbit，BetFury，Kineko...]]></title>
+        <id>https://twitter.com/misaflips/status/1633452887509733376</id>
+        <link href="https://twitter.com/misaflips/status/1633452887509733376"/>
+        <updated>2023-03-09T07:28:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>基于区块链的赌博平台通过 VRF 和 ZK 等技术为玩家提供监管保护和公平环境，或将吸引更多企业进入 Web3。加密货币 KOL Misa 列出了十个有增长指标并被市场相对低估的项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/misaflips/status/1633452887509733376">https://twitter.com/misaflips/status/1633452887509733376</a></p>
+<p><strong>文章作者：</strong></p><p>Misa</p><hr><h3>观点：</h3><p><strong>Misa：</strong>1）Rollbit。该平台集合了赌场、体育博彩、期货、NFT 市场等多项功能。有 100 万注册用户，每天下注 2000 万美元，总下注金额超过 30 亿美元。市值：9500 万。【原文为英文】</p><a href="https://twitter.com/misaflips/status/1633452887509733376">内容来源</a><p><strong>Misa：</strong>2）BetFury。提供大量的赌场游戏。与 BFG 代币持有者共享平台收入。有挖矿计划，玩家玩游戏可以获得 BFG 代币。使用 SHA256 技术的可验证公平原则来确保公正。市值：5800 万。【原文为英文】</p><a href="https://twitter.com/misaflips/status/1633452887509733376">内容来源</a><p><strong>Misa：</strong>3）Kineko。拥有赌博许可证和 DeFi 整合的在线博彩公司，可以进行赌场和体育博彩。市值：1600 万。【原文为英文】</p><a href="https://twitter.com/misaflips/status/1633452887509733376">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[以太坊Goerli测试网预计将于3月15日上午激活Shapella升级]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/uxu3j698.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/uxu3j698.html"/>
@@ -100,6 +112,18 @@
 此前2月28日消息，以太坊Sepolia测试网已成功模拟“上海升级”。根据3月2日的报道，在此次Goerli测试网升级后，主网升级将在此后的3至4周进行。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响]]></title>
+        <id>https://twitter.com/balancer/status/1633490690788462592</id>
+        <link href="https://twitter.com/balancer/status/1633490690788462592"/>
+        <updated>2023-03-09T07:12:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/balancer/status/1633490690788462592">https://twitter.com/balancer/status/1633490690788462592</a></p>
+<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href="https://twitter.com/balancer/status/1633490690788462592">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href="https://twitter.com/balancer/status/1633490690788462592">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -1161,7 +1185,7 @@ MixBytes建议在3月15日之前停止接受新的DOT和KSM进行流动性质押
         <updated>2023-03-09T01:39:22.000Z</updated>
         <summary type="html"><![CDATA[<h3>Web3 内容平台 Mirror 推出 NFT 订阅铸造 「Subscribe to Mint 」功能</h3>
 <p>去中心化内容发布平台 Mirror 宣布推出 「订阅铸造（Subscribe to Mint）」功能，收藏家需要使用电子邮件订阅创作者的 Mirror 出版物才能够进行铸造，目前已在以太坊、Optimism 和 Polygon 链上部署。新功能将有两个潜在用例：1、创世 Drop，Web3 项目可以将发布内容与包含项目 logo 或吉祥物的 NFT 配对，并且使用「Subscribe to Mint」功能通过内容更新和后续 NFT 投放与项目受众互动。2、推出可收藏 NFT 系列，持有者可以完成铸造 NFT 并鼓励新用户注册成为订阅者以参与未来 NFT 投放。「Subscribe to Mint」功能对创作者是完全免费的，创作者将获得所售 NFT 的 100 % 收益。此外，「订阅铸造（Subscribe to Mint）」功能将在未来两周内进行社区测试，只有 Mirror Genesis NFT 持有者可以访问。</p>
-<p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a></p><hr><h3>观点：</h3><p><strong>Mirror：</strong>「订阅铸造（Subscribe to Mint）」功能扩展了 Mirror Web3 原生发布功能，包括于 2022 年 5 月推出的将文章铸造成  NFT 的功能及 2022 年 7 月推出的 Web3 订阅功能。【原文为英文】</p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a><p><strong>starzq.eth：</strong>时隔 2 个月 Mirror 终于有了更新，「Subscribe to Mint」， 又给创作者打开了创收的方式。为什么是「又给」，因为半年前 Mirror 刚关掉了其最受欢迎的创收方式「众筹」，改变定位为 ToC，这下又变成 ToB。「Subscribe to Mint」其实就是一个基于订阅者的 Open Edition， 和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户。1 年前我就详细比较过 Mirror 和 Substack， ToC 体验上 Substack 完胜。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a>]]></summary>
+<p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a></p><hr><h3>观点：</h3><p><strong>Mirror：</strong>「订阅铸造（Subscribe to Mint）」功能扩展了 Mirror Web3 原生发布功能，包括于 2022 年 5 月推出的将文章铸造成  NFT 的功能及 2022 年 7 月推出的 Web3 订阅功能。【原文为英文】</p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a><p><strong>starzq.eth：</strong>时隔 2 个月 Mirror 终于有了更新，「Subscribe to Mint」， 又给创作者打开了创收的方式。为什么是「又给」，因为半年前 Mirror 刚关掉了其最受欢迎的创收方式「众筹」，改变定位为 ToC，这下又变成 ToB。「Subscribe to Mint」其实就是一个基于订阅者的 Open Edition， 和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户。1 年前我就详细比较过 Mirror 和 Substack， ToC 体验上 Substack 完胜。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>CryptoNerdCn：</strong>从一个开发者的角度来看，抛弃 plugin，转单纯 toC 又以一种奇怪的方法转回来，并且至今还有不少基础功能没实现以及越来越丑的 UI，这可能说明了 Mirror 从来就没有过充足的开发人手。竞品 Matters 除了 UI 实在很廉价之外其他功能都好过 Mirror，虽然用的人更少。</p><a href="https://twitter.com/cryptonerdcn/status/1633717293007138816">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -10250,30 +10274,6 @@ METI 的数据描绘了日本石油供应集中风险的黯淡图景。2023 年 
         <summary type="html"><![CDATA[<h3>Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护</h3>
 <p>Coinbase 提醒用户将于太平洋时间 3 月 4 日按原定计划停机 8 小时进行技术升级维护。Coinbase 预计将于太平洋时间 3 月 4 日 8:00 至 9:00 开始（北京时间 3 月 5 日 0:00 至 1:00）暂停 Coinbase․com 上的交易和转账，停机维护将于太平洋时间 9:00 左右（北京时间 3 月 5 日 1:00）开始。</p>
 <p><a href="https://twitter.com/coinbase/status/1631780257987723265">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护]]></title>
-        <id>https://twitter.com/coinbase/status/1631780257987723265</id>
-        <link href="https://twitter.com/coinbase/status/1631780257987723265"/>
-        <updated>2023-03-04T08:27:31.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Coinbase 将于北京时间 3 月 5 日凌晨停机 8 小时进行技术升级维护</h3>
-<p>Coinbase 提醒用户将于太平洋时间 3 月 4 日按原定计划停机 8 小时进行技术升级维护。Coinbase 预计将于太平洋时间 3 月 4 日 8:00 至 9:00 开始（北京时间 3 月 5 日 0:00 至 1:00）暂停 Coinbase․com 上的交易和转账，停机维护将于太平洋时间 9:00 左右（北京时间 3 月 5 日 1:00）开始。</p>
-<p><a href="https://twitter.com/coinbase/status/1631780257987723265">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】观点：Uniswap 新推出的移动端钱包缺乏创新]]></title>
-        <id>https://twitter.com/defiignas/status/1631873148969943040</id>
-        <link href="https://twitter.com/defiignas/status/1631873148969943040"/>
-        <updated>2023-03-04T07:49:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>今天 Uniswap 宣布推出开源自托管移动端钱包测试版本。加密货币研究员 lgnas 认为该移动端钱包缺乏颠覆性的创新，仍然使用助记词方法来创建钱包，Uniswap 本可以做出更多的功能，并阐述了得出此观点的理由。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/defiignas/status/1631873148969943040">https://twitter.com/defiignas/status/1631873148969943040</a></p>
-<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Uniswap 的移动钱包并没有什么革命性的东西。它仍然使用相同的助记词方法来创建一个钱包，可以在 iCloud 或纸上进行备份。但他们本可以做得更多，比如使用账户抽象法来创建一个带有电子邮件 / 电话号码的钱包。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Uniswap 并不是第一个推出移动应用的 DEX。1inch 一年前就推出了他们的 1inch 钱包。它虽然也没有使用账户抽象，但提供了比 Uniswap 的新钱包更多的功能，而且价格也更有优势。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a><p><strong>Ignas | DeFi Research：</strong>有一些技术比如 Biconomy 的 SDK 可以将多链体验抽象为一键点击。或者像 OKX Web3 这样的钱包支持一键跨链桥和互换交易。更好的体验是建立在一个单一的超级应用程序里，Uniswap 本可以这样做。【原文为英文】</p><a href="https://twitter.com/defiignas/status/1631873148969943040">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
