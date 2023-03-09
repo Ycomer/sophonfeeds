@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T11:38:39.888Z</updated>
+    <updated>2023-03-09T11:43:58.095Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mint Ventures：加密世界的原生基准利率该如何定义？]]></title>
+        <id>https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</id>
+        <link href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/"/>
+        <updated>2023-03-09T11:27:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>链上世界到底有没有债券市场？加密原生 crypto native 的债券市场可能会有什么样的发展模式？Mint Ventures 研究员 Colin Li 从加密原生的无风险利率（risk free rate) 切入，试图寻找在加密市场中什么样的经济活动可能达到风险与收益相匹配。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</a></p>
+<p><strong>文章作者：</strong></p><p>ColinLy</p><hr><h3>观点：</h3><p><strong>ColinLy：</strong>无风险利率不包含信用风险、期限风险等，在传统世界中一般被认为是短期国债利率，或央行制定的基准利率水平。如果将名义无风险利率拆开，可以看到一部分是价格预期（通胀），另一部分是经济体本身的增长预期（实际利率）。当然，这个利率存在一些前提假设，比如国家相对稳定，监管机构没有被破坏等等。所以无风险利率，不是绝对没有风险。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a><p><strong>ColinLy：</strong>不论 POS 还是 POW 机制，为了维持正常运行，都需要为矿工 /validator 提供一定奖励。这部分收益率包含了公链代币的新发放（激励），即「国家货币」的通胀，和链上活动的活跃程度。以 POS 机制为例，MEV 主要来源于套利、清算、三明治攻击，都与链上活动息息相关。不过，从风险角度看，获得这笔收益需要承担硬件、软件（客户端）、网络、slashing 罚金等维持公链运行必须的风险。总的来看，POS 收益率更贴合「国家」叙事层面下的「无风险利率」。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a><p><strong>ColinLy：</strong>总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通胀的公链项目的收益率呈现出与现实世界非常类似的情况：经济体越成熟，提供的利率水平相对越低。通过简单观测 POS 收益率和 TVL 排名，有利于部署不同的公链投资策略：对于稳健的投资者，应该寻找 POS 收益率偏低且实际 POS 收益率为正的公链项目；对于激进的投资者，或许盈亏比更大的项目在 POS 收益率偏高且实际 POS 收益率为负的公链中。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2 月加密市场回顾：BTC 链上活动乏力，宏观上行压力增加]]></title>
         <id>https://www.panewslab.com/zh/articledetails/5dms782b159k.html</id>
@@ -10239,18 +10251,6 @@ CZ 知道 BTC-Fi 将是一个未来叙事。如果 CZ 不去探索叙事以获�
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Nostr、Farcaster 和 Lens Protocol 是当前最受关注的 3 个去中心化社交协议，事实上 ActivityPub 作为「去中心化」推特 Mastodon 的底层协议拥有近 400 万的用户数量，是现有生态最成熟、用户数量最多的去中心化社交协议。ANT Capital 研究员 mtyl.eth 对比了以上 4 种去中心化社交协议的机制、生态发展和优劣势，亮点是对 ActivityPub 协议的解读。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso</a></p>
 <p><strong>文章作者：</strong></p><p>Mtyl</p><hr><h3>观点：</h3><p><strong>Mtyl：</strong>用户如何创建账户并通信交流？ActivityPub 中有一个名叫 Instance（实例）的角色，可以把它简单理解为「服务器」。用户在自己指定的一个 Instance 中，注册自己的账号；当用户要发送信息的时候，先发至自己注册的 Instance，再由 Instance 负责和其它 Instance 通信。Instance 之间有一套通讯协议，用于互相传输、读取信息，这和单一项目方中心化服务器的角色非常像，只不过它是由一个联邦网络所组成的。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a><p><strong>Mtyl：</strong>用户的社交关系和内容数据存在哪里？存在用户连接的那个 Instance 里面。用户可以将其导出、自行存储。美中不足的是，如果一个 Instance 封杀了用户、或者因为各种原因宕机，且用户没有事先导出自己数据的话，那么用户的账号和数据就会丢失。从数据主权这个角度来看，Mastodon 像是处于一个中间态： 用户理论上拥有自己的数据、可以导出，然而服务器依旧拥有「生杀大权」。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a><p><strong>Mtyl：</strong>内容审查机制是如何设计的？由每个 Instance 自行设计内容审查机制。Instance 运行者的激励是什么？大多数 Instance 都没有来自于用户的收入，依靠社区捐赠来运行。这也导致了许多由个人爱好者构建的 Instance，运行了一段时间以后就停运了。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a><p><strong>Mtyl：</strong>ActivityPub 最大的优势在于其上的产品应用非常成熟、UX 对 Web2 用户非常友好，从而能吸引大量单纯反感中心化审查的 Web2 用户。Mastodon 已经积累了近 300 万用户。其中前三大实例站点拥有 60% 的用户数与 45% 的发帖量。这三大实例中除了 Mastodon.social 是官方运营的实例外，另外两大实例均来自日本。总用户数中日本用户占近 40%，排名其后的是美国（20%）和法国（10%）。</p><a href="https://mirror.xyz/mtyl.eth/LibaJKuNBqtRVvd_1e6sfzQnw2qXt-yC76oJjXZIkso">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】Delphi Digital：盘点主流 PFP 项目进展及发展规划]]></title>
-        <id>https://twitter.com/yh_0x/status/1631734848405790720</id>
-        <link href="https://twitter.com/yh_0x/status/1631734848405790720"/>
-        <updated>2023-03-05T04:37:40.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>PFP 是 NFT 最早也是最为成功的用例之一，在以太坊各类 NFT 中，PFP 占了 NFT 总市值的 70%。Delphi Digital 研究员 yh.ΞTH 将 NFT 的成功归结于易于理解和炒作，通过盘点 BYAC、Azuki、RTFKT、Doodles 等主流 PFP 项目进展及发展规划，yh.ΞTH 认为 2023 年 PFP 项目将更多地关注和发展主流市场。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/yh_0x/status/1631734848405790720">https://twitter.com/yh_0x/status/1631734848405790720</a></p>
-<p><strong>文章作者：</strong></p><p>yh.eth（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>yh.eth（Delphi Digital 研究员）：</strong>Azuki 建​​立了一个以社区为中心的清晰生态系统，而 Hilumia 的推出很可能将所有这些联系在一起。我认为，Hilumia 很可能是一个带有游戏元素的虚拟中心。它还将以高度可视化的方式展示团队正在与社区一起构建的内容。未来的模式很可能是团队继续专注于扩展其 IP 以及和社区共同创造新内容，并开启更高层次的视觉叙事。【原文为英文】</p><a href="https://twitter.com/yh_0x/status/1631734848405790720">内容来源</a><p><strong>yh.eth（Delphi Digital 研究员）：</strong>Doodles 也刚刚发布了他们的 DoodleMap，清楚地展示了他们想要成为娱乐和生活方式品牌的愿景，一个超越 Web3 并将渗透到主流意识中的品牌。从 Doodles 2 开始，该团队就致力于向主流受众扩展。2023 年可能是 Doodles 继续扩展到游戏、音乐、动画等各种垂直娱乐领域的一年，目标是创造一种文化热潮，从而带来对 Doodles 2 系列的需求。【原文为英文】</p><a href="https://twitter.com/yh_0x/status/1631734848405790720">内容来源</a><p><strong>yh.eth（Delphi Digital 研究员）：</strong>PFP 项目的成功将不仅仅是空投和其他财务激励。需要通过讲故事和其他独特的价值主张与品牌建立情感联系和参与。留存很重要，但如何获得新受众和建立新收入流的问题也很重要。这些 PFP 项目在 Web3 中建立了强大的社区，并正在朝着有趣的未来路线图建设。2023 年将是 PFP 项目向主流受众拓展的关键一年。【原文为英文】</p><a href="https://twitter.com/yh_0x/status/1631734848405790720">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
