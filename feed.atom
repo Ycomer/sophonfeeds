@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T10:44:35.774Z</updated>
+    <updated>2023-03-09T10:49:51.708Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[浅析Pendle Finance：3个月3倍，如何讲述LSD叙事？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/6l7rwwcm.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/6l7rwwcm.html"/>
+        <updated>2023-03-09T10:42:32.000Z</updated>
+        <summary type="html"><![CDATA[作者：Trissy，DeFi 研究员
+编译：Leo，BlockBeats
+Pendle 是以太坊上一种无许可的 DeFi 交易收益协议，用户可以通过它执行各种收益管理策略，目前 Pendle 已成为收益市场中表现最好的协议之一，可能会将 DeFi 提升到一个新的水平。DeFi 研究员 Trissy 撰写了关于「为什么 Pendle 是我下一次牛市之前的最大投资之一」文章，BlockBeats 整理编译如下：
+Pendle 的目标是通过简单地增加用户在牛市中的收益敞口和对冲熊市中的收益下降，为其用户提供最大的收益。用户可以通过其双重收益 token 执行各种收益策略。在 Tradfi 中，机构参与者依靠各种对冲来保护他们的头寸，例如未来收益合约。
+Pendle 将收益资产 wrap 化为 SY（standardized yield token：标准化收益 token），SY 又被分为两种：PT（principal token：本金 token）和 YT（yield token：收益 token）。
+
+例如：
+1 GLP（0.92 美元）= 1 PT GLP（0.78 美元) + 1 YT GLP（0.14 美元）
+此功能也为 DeFi 解锁了几种新策略。比如，你可以以 0.78 美元（16.6% 的折扣）购买 1 个 PT GLP，并在到期日时获得 1 个 GLP。1 YT GLP 允许你获得 1 GLP 的收益（收取收益直至到期，可随时取出）。
+协议简易性是经常被忽视的东西，DeFi 是一个复杂的生态，由于其技术性质导致进入的门槛很高。我最喜欢 Pendle 的地方是我能在短短一个小时内阅读其白皮书并了解其产品。
+一种 token 不会进入我的投资组合，除非它有很强的激励措施。Pendle 从 YT（收益 token）产生的所有收益中收取 3% 的费用。目前，这笔费用会 100% 分配给 vePENDLE 持有者，团队不收取任何费用。通过持有 vePENDLE 赋能 Pendle 上的激励机制，vePENDLE 持有者投票并将奖励流向不同的池，有效地激励他们投票的池中流动性。
+
+如果你在持有 vePENDLE 时在并向池中提供流动性，你所有 LP 的 PENDLE 激励和奖励也将根据你持有 vePENDLE 的价值进一步提升，最高可达 250%。
+
+这就产生了收益的飞轮效应，你投入的 vePENDLE 越多，获得的激励就越多。随着 token 的锁定，更多的供应从市场上消失，并且 LP 提升高达 250%。
+用户可以在 Pendle 上践行几种策略：
+-购买 PT（1Hour）GLP——在到期前获得固定收益，你可以看到 GLP 在 GMX 上的 APR 是 20%（基础 APY），但 Pendle 可以为用户提供固定利率的隐含 APY 是 16.9%。这可能不是一个好时机，因为你会得到比实际更低的利率。
+购买 PT GLP（1Day）并获得 27.5% 的固定利率，这是一笔不错的交易（27.5% 固定利率 vs 20.9% 基础利率）。
+-购买 YT——收益 token 的做多利率。
+该情况是做多 YT GLP。我相信 GLP 的收益率 (APY) 在一段时间内将保持在 20% 左右，但隐含 APY 为 16.6%，这是 Pendle 提供的固定 APY。我认为 Pendle 的隐含收益率仍然存在差距：16.6% 与 20% 左右。因此，购买 YT GLP 并期望收益率上升可能是一个不错的选择。
+我的预测是 LSD 将开始主宰 ETH 质押生态。我的推理归结为两个选项：
+-LSD 的效用系数很高，因为它们可以用作存款抵押品来赚取收益，也可以通过借入/借出协议借出来赚取附加利息；
+-用户的流动性需求；上海升级后，还有 27 小时的等待时间。这造成资产流动性不足，投资者将更喜欢通过 LSD 即时解锁的扩展解决方案。
+这对 Pendle 意味着什么？在 LSD 占主导地位的情况下，大多数持有者都希望提高他们的 ETH 收益率，这是 Pendle 的机会，用户在解决了质押和流动性的同时，还可以获得两位数的 APY。
+Pendle 的公告显示，Pendle 目前集成的项目并不少，比如：GMX、LayerZero Labs、Balancer、Arua Finance、Rocket Pool。
+业务发展对于提高 Pendle 的知名度和流动性至关重要。以他们当前的估值水平，可以做到这个水平已经很好。此外，Pendle 有着非常好的路线图，他们即将在 Arbitrum 上列出的池子会吸引更多用户。
+达成一个宏伟目标之前，需要考虑当前的流通市值和稀释市值。例如，如果 Pendle 的流通市值约为 2000 万美元，则完全稀释市值会将约为 20 亿美元。
+考虑到解锁可能需要的时间，这最终可能会扩展到额外 20% 的 token 解锁到总供应，LSD 质押增压可能会催化 Pendle 到更高的位置。
+以上一次牛市前的 DeFi 协议为例，最关键的问题无非三点：
+Pendle 在这三点上都做的不错，希望你能明白为什么我对这个项目持乐观态度。最后，Pendle 拥有强大的营销手段，几位顶级的 DeFi 投资者和研究人员都非常看好。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[浅析Pendle Finance：3个月3倍，如何讲述LSD叙事？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/6l7rwwcm.html</id>
@@ -54,6 +93,32 @@ Pendle 在这三点上都做的不错，希望你能明白为什么我对这个�
 Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea、ConsenSys等加密公司的股权正在二级市场上大幅折价出售]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/zjqrvrx0.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/zjqrvrx0.html"/>
+        <updated>2023-03-09T10:40:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月9日消息，据The Block报道，二级市场交易平台 Birel 首席执行官 Richard Freemanson 证实，许多加密初创公司的股权目前在 Birel.io 上以相当大的折扣出售。这些初创公司包括 Alchemy、Blockchain.com、Chainalysis、Kraken、ConsenSys、Blockdaemon、CoinDCX 和 OpenSea。上述公司发售的大宗股权规模从 300 万美元到 5000 万美元不等，而且折扣差别很大。 最引人注目的是 Blockchain.com 和 ConsenSys，他们的股权分别以较最新一轮融资折让 74% 和 71% 的价格发售。Chainalysis 股权以 61% 的折扣出售，OpenSea 股权以 51% 的折扣出售。Alchemy、Blockdaemon 和 Kraken 的股权分别折价 31%、30% 和 9%。但也有部分公司如比特币基础设施公司 Bitfury 的股权以小幅溢价出售。
+Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSea、ConsenSys 等加密初创公司股票正大幅折价出售]]></title>
+        <id>https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts</id>
+        <link href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts"/>
+        <updated>2023-03-09T10:25:15.000Z</updated>
+        <summary type="html"><![CDATA[<h3>OpenSea、ConsenSys 等加密初创公司股票正大幅折价出售</h3>
+<p>二级交易市场 Birel 首席执行官 Richard Freemanson 证实，许多加密初创公司的股票目前在 Birel.io 上以相当大的折扣出售。这些初创公司包括 Alchemy、Blockchain.com、Chainalysis、Kraken、ConsenSys、Blockdaemon、CoinDCX 和 OpenSea。
+
+上述公司发售的大宗股票规模从 300 万美元到 5000 万美元不等，且折扣差别很大。最引人注目的是 Blockchain.com 和 ConsenSys，他们的股票分别以较最新一轮融资折让 74% 和 71% 的价格发售。Chainalysis 股票以 61% 的折扣出售，OpenSea 股票以 51% 的折扣出售。Alchemy、Blockdaemon 和 Kraken 的股票分别折价 31%、30% 和 9%。
+对此，Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。</p>
+<p><a href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts">内容来源</a></p><hr><h3>观点：</h3><p><strong>Richard Freemanson（Birel 首席执行官）：</strong>我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】</p><a href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -231,6 +296,18 @@ PAData综合了比特币的链上数据（1月21日至3月7日）和OrdinalsNFT�
 https://www.galaxy.com/research/whitepapers/bitcoin-ordinals-inscriptions-5-billion-nft-market/]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mt.Gox 索赔申请截止日期延后至 4 月 6 日]]></title>
+        <id>https://www.chainfeeds.xyz/rss/Mt.Gox%20%E7%B4%A2%E8%B5%94%E7%94%B3%E8%AF%B7%E6%88%AA%E6%AD%A2%E6%97%A5%E6%9C%9F%E5%BB%B6%E5%90%8E%E8%87%B3%204%20%E6%9C%88%206%20%E6%97%A5</id>
+        <link href="https://www.chainfeeds.xyz/rss/Mt.Gox%20%E7%B4%A2%E8%B5%94%E7%94%B3%E8%AF%B7%E6%88%AA%E6%AD%A2%E6%97%A5%E6%9C%9F%E5%BB%B6%E5%90%8E%E8%87%B3%204%20%E6%9C%88%206%20%E6%97%A5"/>
+        <updated>2023-03-09T10:03:46.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Mt.Gox 索赔申请截止日期延后至 4 月 6 日</h3>
+<p>据 Mt.Gox 官网显示，经法院同意，索赔申请截止日期从 2023 年 3 月 10 日变更为 4 月 6 日；还款截止日期从 2023 年 9 月 30 日推迟到 10 月 31 日。除非有不可避免的原因，进一步延长最后期限将很困难。Mt.Gox 目前剩余待赔付金额大约为 142,000 枚 BTC、143,000 比特现金 (BCH) 和 690 亿日元。</p>
+<p><a href="Mt.Gox 索赔申请截止日期延后至 4 月 6 日">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
