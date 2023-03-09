@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-09 datetime="2023-03-09T12:29:56.000Z">2023-03-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-09 datetime="2023-03-09T12:29:56.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-09 datetime="2023-03-09T12:43:42.000Z">2023-03-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-09 datetime="2023-03-09T12:43:42.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,143 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/w839x7ih.html"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点以太坊可扩展未来的关键：zkEVM赛道的6大潜力项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/w839x7ih.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/09/images/f6x2XY0geG.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>编译 | Cindy，SophonLabs
+Layer 2 扩展是区块链行业最关键的问题之一，因为以太坊的第一层（也称为Layer 1或L1）是由以太坊本身实现的，它是在以太坊区块链上运行的智能合约平台。然而，由于以太坊的原始架构存在吞吐量限制和高昂的交易手续费，因此需要构建第二层扩展解决方案来提高交易速度和降低成本。好多优质的Web3公司在下一次牛市之前开发出强大的解决方案。因为在2022 年初出现了很多问题以太坊 L1 被成千上万的交易堵塞，给 NFT 买家和 Defi 交易者带来了很多阻塞的体验，也使得zkEVMs 是最具创新性和最受欢迎的解决方案之一！Layer 2通过将交易从以太坊主链中移除，使得以太坊主链可以专注于更基础的交易处理，而更高级的交易可以在L2上进行处理，从而提高整个以太坊系统的扩展能力。
+zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。
+zkEVM 允许以保护合同条款和合同中涉及的数据隐私的方式执行智能合同。这是通过零知识证明实现的，零知识证明是一种加密证明，允许一方向另一方证明某项陈述是真实的，而无需透露有关该陈述的任何其他信息。zkEVM的基本思想是，在以太坊的智能合约执行过程中，部分数据可以在不泄露原始数据的情况下进行处理和验证。具体来说，zkEVM采用零知识证明技术，使得原始数据保持隐私的同时，验证执行结果的正确性。
+zkEVM的引入可以有效提高智能合约的隐私性和性能。使用zkEVM，用户可以在保护隐私的前提下，以更快的速度执行包含秘密计算的智能合约。这对于一些场景比较敏感的应用非常重要，例如金融、医疗等领域。目前zkEVM还处于研究和开发阶段，但已经吸引了很多关注和投入。预计在未来几年中，zkEVM将逐渐成为以太坊生态系统中不可或缺的一部分。zkEVM 解决方案种类繁多，虽然这些类型中的每一种都在努力构建最好的 zkEVM，但它们都以不同的方式尝试实现这一目标。
+如果要获得更加深刻的解读在 Vitalik 的博客中找到更深入的技术解释以及每种类型的 zkEVM 的优缺点。
+zk-rollup 是一种用于区块链网络的第 2 层扩展解决方案。它允许交易在链下处理，然后“汇总”到单个链上交易中，从而减少主区块链上的负载并提高交易吞吐量。
+在 zk-rollup 中，交易由一组负责确保交易正确性的验证器处理。这些验证器创建了一个零知识证明，这是一种密码学证明，可以证明一个陈述是真实的，但不会透露任何关于该陈述的额外信息。然后将零知识证明添加到链上交易中，允许对交易进行验证，而无需在主区块链上处理每笔交易。
+zk-rollups 和 zkEVMs 之间的一个主要区别是 zk-rollup 侧重于可扩展性，而 zkEVM 侧重于隐私。zk-rollup 允许在链下处理大量交易，同时仍保持以太坊主链的安全性和完整性。另一方面，zkEVM 允许以保护隐私的方式执行智能合约，允许在以太坊平台上创建私人、机密的交易。
+zk-rollup 和 zkEVM 都是重大创新，有助于提高以太坊的可扩展性和隐私性。它们都有可能显着增强以太坊平台的功能，并使其对广泛的应用程序更有用。
+了解了 zkEVM 和 zk-rollups 的基础知识后，让我们仔细看看实现 zkEVM 的不同项目。
+zkSync是以太坊的第 2 层扩展解决方案，旨在提高以太坊网络的可扩展性和速度。它基于零知识证明，允许在不泄露基础数据的情况下验证交易。这允许 zkSync 处理链下交易，这意味着它们不会记录在以太坊区块链本身上。相反，它们被记录在一个单独的链下数据结构中，称为“Merkle 树”。zkSync 的一个关键特性是它使用“乐观”传输，它允许用户发送和接收交易，而无需等待它们在以太坊区块链上得到确认。这显着减少了交易时间并允许更高的交易吞吐量。
+除了使用零知识证明和乐观传输之外，zkSync 还利用其他几种技术来提高可扩展性和安全性。其中包括签名聚合，它允许将多个签名压缩为一个签名，以及多链支持，这有助于 zkSync 与其他区块链网络进行交互。
+总体而言，zkSync 旨在为去中心化应用程序 (dApp) 和其他基于以太坊的项目提供一个可扩展且安全的平台。通过允许更快、更高效的交易，它旨在让开发人员更容易构建和部署 dApp，并让用户更容易与之交互。
+zkSync 面临的主要挑战之一是需要平衡可扩展性和安全性。虽然使用零知识证明和其他技术可以实现更快、更高效的交易，但它也带来了额外的复杂性和潜在的漏洞。因此，zkSync 不断努力改进和完善其技术，以确保其尽可能安全和稳健。
+尽管面临这些挑战，zkSync 自 2020 年推出以来取得了重大进展，并且已经在开发人员和用户中赢得了强大的追随者。其扩展以太坊的独特方法吸引了相当多的关注和投资，并有可能在以太坊生态系统的未来发展中发挥重要作用。
+Starkware是一个开发了名为 StarkNet 的协议的项目。StarkNet 是一种第 2 层扩展解决方案，旨在提高区块链的效率和可扩展性，尤其是那些使用智能合约的区块链。
+StarkNet 的一个关键特性是它使用 STARKs，这是一种零知识证明系统，允许用户在不泄露底层数据的情况下证明计算的正确性。这允许在网络上提供更大的隐私和安全性，并且能够在不需要受信任的第三方的情况下执行复杂的计算。
+StarkNet 还利用分片技术，这种技术允许将区块链分成多个可以并行处理的较小链或“分片”。这允许更大的吞吐量和更快的交易时间，因为每个分片都可以独立于其他分片进行处理。StarkNet 的主要目标之一是能够大规模创建去中心化金融 (DeFi) 应用程序。DeFi 应用程序通常依赖于智能合约和其他复杂的计算，这会给底层区块链带来压力并限制其可扩展性。通过使用 StarkNet，DeFi 开发人员可以创建更高效和可扩展的应用程序，以处理更大量的交易。
+StarkNet 已经与几个流行的区块链集成，包括以太坊、币安智能链和 Polkadot。这允许开发人员使用 StarkNet 在这些平台之上构建 DeFi 应用程序，而不必担心可扩展性问题。除了专注于 DeFi，StarkNet 还被用于其他各种应用，包括供应链管理、投票系统，甚至医学研究。该协议的多功能性和可扩展性使其成为广泛用例的有吸引力的选择。
+总体而言，Starkware 的 StarkNet 协议代表了区块链技术的重大进步。它使用 STARKs 和分片可以提高效率、隐私和可扩展性，使其成为各种应用程序的理想解决方案，尤其是 DeFi 领域的应用程序。
+Polygon 区块链项目最近引入了一项名为Hermez zkEVM的新技术。该技术旨在提高以太坊区块链的可扩展性和隐私性。
+Hermez zkEVM 旨在通过使用零知识证明来解决以太坊区块链的可扩展性问题，从而在以太坊网络上实现更快、更便宜的交易。在 Hermez zkEVM 的背景下，可以使用零知识证明来验证交易的正确性，而无需透露具体细节。这允许更快的交易处理和减少费用，因为不需要整个网络来验证每笔交易。
+除了提高可扩展性，Hermez zkEVM 还增强了以太坊网络的隐私性。通过使用零知识证明，Hermez zkEVM 允许进行机密交易，对除发送方和接收方以外的各方隐藏交易的具体细节。这对各种应用程序都很有用，例如允许个人在不透露身份的情况下进行金融交易，或者允许公司在不披露敏感财务信息的情况下开展业务。正如前面在各种类型的 zkEVM 中提到的，Polygon 的这种实现在字节码级别而不是在语言级别兼容。
+Hermez zkEVM 是以太坊网络和更广泛的区块链社区的一个有前途的发展。通过提高可扩展性和隐私性，它有可能使以太坊网络对广泛的 dApp 和用例更具吸引力。看看这项技术如何被采用以及它如何影响以太坊网络和其他区块链平台的未来发展将会很有趣。
+Scroll是一种去中心化协议，旨在为以太坊区块链带来可扩展性和更高的安全性。Scroll 的一个关键特性是它使用 zk-rollups，这是一种第 2 层扩展解决方案，允许更快、更便宜的交易，同时保持主区块链的安全性。
+在 zk-rollup 中，交易被捆绑在一起，并由主区块链上的智能合约进行验证。这允许更高的交易吞吐量，因为验证每个单独交易的负担从主链中移除并放在汇总合约上。Scroll 特别专注于创建与 EVM 兼容的 zk-rollup，这意味着它可以支持与以太坊相同的编程语言和智能合约。这很重要，因为它允许开发人员轻松地将他们现有的应用程序迁移到 Scroll 网络，而无需对其代码进行任何更改。
+总的来说，Scroll 是一个很有前途的项目，致力于将 zk-rollups 的好处带入以太坊生态系统。通过创建与 EVM 兼容的解决方案，Scroll 可以为开发人员提供一种简单的方法来扩展他们的应用程序并利用 zk-rollups 提高的安全性和效率。随着以太坊网络的不断发展和对可扩展解决方案的需求增加，像 Scroll 这样的项目将在区块链行业的发展中发挥至关重要的作用。
+ConsenSys和Infura是以太坊生态系统中最著名的两个名字，它们正在开发一个名为 zkEVM 的新版本的以太坊虚拟机 (EVM)。该项目旨在提高以太坊的可扩展性，这也一直是该平台面临的重大挑战。
+ConsenSys 和 Infura 正致力于将 zkEVM 集成到以太坊主网中，让网络上的任何人都可以使用它。对于以太坊社区来说这是一个令人兴奋的发展，因为它有可能解决过去阻碍该平台发展的一些可扩展性挑战。
+虽然该公司尚未发布有关该项目的许多细节、他们的实施方法和其他事情，但这仍然是开发人员关注的最令人兴奋的项目之一。Consensys 已经构建了一些支撑以太坊生态系统的核心基础设施，如果此 zkEVM 实施成为人群中最受欢迎的实施之一，也就不足为奇了。
+Taiko在其网站上将自己产品定位为“Type 1 zkEVM——完全去中心化、等同于以太坊的 zk-rollup”。他们声称，与此列表中的其他项目相比，作为 Type 1 zkEVM 是主要的区别之一。他们几乎没有对以太坊架构进行任何更改，包括哈希函数、状态树或 gas 成本。通过这样做，他们可以在尽可能少的修改的情况下重用执行客户端实现。使用像 Taiko 这样的 Type 1 zkEVM 的主要优势之一是无需对代码进行太多更改即可轻松迁移。例如，您可以部署在以太坊 L1 上，然后迁移到 Taiko。另一方面，您也可以先部署在 Taiko 上，然后再迁移到任何其他 EVM 兼容链。
+zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。它允许以保护合同条款和合同中涉及的数据隐私的方式执行智能合同。zkEVM的基本思想是，在以太坊的智能合约执行过程中，部分数据可以在不泄露原始数据的情况下进行处理和验证。
+与zkEVM不同，zk-rollup是一种第二层扩展解决方案，它侧重于可扩展性而非隐私。它允许在链下处理大量交易，然后将交易汇总到单个链上交易中，从而减少主区块链上的负载并提高交易吞吐量。在zk-rollup中，交易由一组验证器处理，并创建一个零知识证明，以证明交易正确性，这些验证器负责确保交易正确性。
+虽然zkEVM和zk-rollup有不同的重点，但它们都是重大创新，有助于提高以太坊的可扩展性和隐私性。它们有可能显着增强以太坊平台的功能，并使其对广泛的应用程序更有用。
+本文介绍了6个zkEVM项目，包括zkSync、Starkware StarkNet、Polygon Hermez、Scroll、Consensys和Infura、Taiko。这些项目旨在提高以太坊的可扩展性和安全性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。总之，这些zkEVM项目的发展有望对以太坊生态系统和区块链技术的未来产生重要影响。它们正在努力提高以太坊的可扩展性和隐私性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。这些项目的成功将有助于推动以太坊的发展，使其更具有竞争力，并使其对广泛的应用程序更有用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/mrtevyaw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3开发工具提供商Cubist完成700万美元种子轮融资，Polychain Capital领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/mrtevyaw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月9日消息，据The Block报道，Web3 开发工具提供商 Cubist 在由 Polychain Capital 领投的种子轮融资中获得了 700 万美元，Dao5、Polygon、Amplify Partners 和 Axelar 也参与了此次融资。该轮融资将用于招聘以及扩展和宣传 SDK。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/l8zw2g89.html"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币头部Layer2 Stacks未来能走多远？解析Stacks技术特性及生态</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/l8zw2g89.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/09/images/VRFK5r6YfK.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《比特币明星公链 Stacks，未来能走多远》
+作者：Daniel Li
+随着比特币NFT协议Ordinals的火爆，整个比特币NFT市场开启了新一轮的竞争。作为首批能够生产比特币序数的区块链之一，Stacks从中获益颇丰。在过去的十多天里，其代币STX价格翻了两番。虽然近期大盘开启了下行趋势，STX价格也回落至0.69美元，但仍然是热门币种，受到许多投资者的青睐。然而，Ordinals的火爆也引发了一个问题，随着越来越多的比特币NFT项目涌现，比特币网络可能会出现拥塞，这将考验比特币极简主义的理念。对于作为比特币L2公链的Stacks来说，这既是一个挑战，也是一个难得的机遇。
+区块链一直存在一个被称为“不可能三角”的技术难题，即在去中心化、安全性和可扩展性三个方面，只能同时满足其中两个。作为最早的公链之一，比特币也遵循了这一原则。比特币在去中心化和安全性方面做得最好，但在可扩展性方面做出了很大的妥协，导致其可扩展性非常差，10分钟才能写入一个新区块、并且交易确认时间更是高达数十分钟，因为有这些限制，比特币虽然已经发展了十几年，但它仍然被当做一个纯粹的价值公链而存在。
+除了技术方面，社会分歧也是影响比特币扩容的原因之一，比特币原教旨主义者认为当前比特币作为价值公链已经足够好了，无需扩容来提高交易速度。他们认为扩容有可能会改变比特币的共识机制，导致比特币出现硬分叉，影响比特币安全性和去中心化的特性。此外，在比特币网络上部署各种复杂的智能合约和应用，也会导致比特币网络拥堵，助涨了 Gas 费用，这偏离中本聪将比特币作为点对点（P2P）现金系统的愿景。因此他们反对比特币扩容，主张维持比特币网络的简单和稳定。
+
+技术难题和社区分歧使得比特币扩容进程缓慢而曲折，在Stacks问世之前，也曾有不少项目试图改善比特币的可扩展性，但它们大多销声匿迹，只有少数分叉项目因炒作而短暂走红。相比之下，Stacks无疑是最为成功的一项。
+Stacks的成功主要源之于它在比特币原教旨主义和扩容派之间寻找到了平衡点。
+比特币原生网络本身并没有支持智能合约和去中心化应用程序，因此需要借助第二层协议来实现这些功能。Stacks就是这样一个协议，它通过构建一个新的区块链，实现了在比特币网络上部署智能合约和去中心化应用程序的功能。Stacks区块链与比特币网络交互，使用比特币的安全性和网络效应来确保其安全性和去中心化性，同时又不会对比特币网络做任何修改，保持比特币网络的简单和稳定性。
+近期因为Ordinals的火爆，公众开始把目光聚焦在了之前并未过多关注的比特币扩容问题上，人们才惊奇发现了Stacks的存在，当人们习惯性地认为Stacks也是一款短期的网红产品时，却不知道Stacks在构建比特比二层网络这条路上已经默默耕耘了将近10年。
+Stacks是基于比特币区块链的独立区块链，由Muneeb Ali和Ryan Shea于2013年创建。采用&quot;Proof of Transfer&quot;（PoX）协议，利用比特币的安全性和Stacks代币（STX）实现智能合约。早期专注于DApps开发和结合比特币安全性提供去中心化体验。随着比特币拥堵和高费用，Stacks开始研究使用比特币的第二层技术（如闪电网络）扩展网络吞吐量和交易速度，推出了Stacks 2.0，实现高吞吐量、低成本和即时结算的交易。
+Stacks在技术方面具有许多优势，具体体现在以下几个方面：
+(1) PoX挖矿机制：Stacks使用PoX挖矿机制代替了传统的PoW或PoS挖矿机制，从而解决了传统挖矿机制中存在的许多问题，例如能源消耗、算力竞赛等问题。
+(2) Clarity智能合约语言：Stacks开发了一种名为Clarity的智能合约语言，该语言具有强类型系统和明确的执行逻辑，可以在不需要中间人的情况下执行安全的智能合约，从而提高了智能合约的可靠性和可操作性。
+(3) 去中心化身份验证：Stacks提供了一种名为Blockstack的身份验证系统，该系统使用区块链技术和公钥基础设施来实现用户的去中心化身份验证和管理，从而提高了用户隐私和安全性。
+(4) 与比特币集成：Stacks与比特币集成，可以将比特币的安全性、可靠性和市场参与度扩展到Stacks生态系统中，从而实现更高的去中心化和安全性。
+(5) 兼容现有Web技术：Stacks可以与现有Web技术进行兼容，例如使用JavaScript开发去中心化应用程序，从而使得开发者可以更容易地构建去中心化应用程序。
+总之，Stacks在技术上的创新和优势使得其能够实现更高的去中心化、更高的安全性和可靠性，并且具有更好的可扩展性和可持续性，为其生态系统的发展提供了强大的支持。
+Ordinals的出现引发了比特币应用领域的又一波热潮。作为比特币代表性L2项目，Stacks正处于受益于市场炒作的绝佳位置。根据Defi Llama的数据，最近30天（2月1日~3月2日）Stacks上的资金增加了254%，TVL从756万美元升至2680万美元。Stacks原生代币STX在过去短短的十多天里已经翻了两倍。尽管最近几天受大行情下跌的影响，STX的价格出现了回调，但投资者普遍看好STX的未来。
+投资者看好STX主要是基于2024年比特币减半行情的预期。作为比特币二层扩容协议的代币，STX的价值与比特币密切相关。因此，尽管现在STX似乎已经耗尽了基于Ordinals利好所带来的增长趋势，但由于比特币未来减半的行情和Stacks良好的发展趋势，STX仍被视为一个值得长期投资的加密货币。
+Ordinals掀起的比特币NFT热潮越来越大，今年或许将会成为比特币NFT的Summer。这对于Stacks等比特币扩容协议来说是一个绝佳的发展机遇。特别是Stacks，它不仅在技术上与比特币生态系统高度集成，而且其经济模型也更加持续和去中心化，使其比其他公链具备更大的发展空间。
+除了利好的一面之外，Ordinal的爆火也引发了之前的一个问题：如果NFT导致网络拥塞，比特币极简主义意识形态将面临考验。比特币社区是否会允许这种投机活动或阻塞网络长期发展下去。
+目前反对派的观点集中在NFT损害了比特币原始用例。有社区成员表示，“允许比特币用于NFT有点像允许医院用于狂欢派对”。支持者则认为比特币NFT的兴起在传统的价值存储之外找到了新的应用场景，为比特币提供了更多的玩法和金融用例。从数据上看，两方的观点都能得到验证。根据OKLink的数据显示，Ordinal的“铭文”正在消耗50%的比特币区块空间，区块空间利用率已经达到了100%。另一方面，从矿工群体来看，比特币NFT的出现也为他们带来了新的收益增长途径。在过去一周，借由Ordinal协议刻写“铭文”的费用已经累计达到了88万美元。
+目前双方都无法说服彼此。这似乎又回到了Stacks最初所面临的比特币原教旨主义者与扩容派之间的论战。上次Stacks在双方之间找到了一个平衡点，这次关于比特币NFT所引发的论战，能否找到双方都能接受的平衡点，这对Stacks等比特币二层网络来说是一个严峻的挑战。
+随着比特币NFT热潮的兴起，越来越多的投资者看好Stacks。作为比特币生态系统的重要组成部分，Stacks为用户提供更加安全、高效、可持续的智能合约服务，并具备与其他加密货币项目和传统金融市场进行协同创新的潜力。鉴于比特币庞大的用户群体，Stacks与比特币生态系统的紧密结合、更加可持续和去中心化的经济模型、更好的隐私保护以及更高的性能等，使其相较于其他公链具备更大的发展空间。在当前，值得关注的Stacks项目：
+Alex
+近期，比特币通过Ordinals和Stacks经历了文化和技术的转型。在Stacks上，一个有望在未来脱颖而出的项目是ALEX。ALEX是专为比特币设计的DEX，它是第一个通过Stacks在比特币上提供一站式DeFi服务的平台。
+
+ALEX协议的核心功能包括去中心化交易和去中心化借贷。用户可以在去中心化交易所上进行交易，并从流动性提供商那里获得流动性。借助基于抵押品的借贷，用户可以抵押数字资产来获得稳定币，以便在不需要出售资产的情况下进行资金管理。ALEX还发行了治理代币ALEX，持有ALEX代币的用户可以参与协议的治理过程，包括提出提案、投票和决策等。通过流动性挖矿机制，ALEX Labs激励用户提供流动性，参与到协议的生态中来，通过提供流动性获得ALEX代币作为奖励。
+Gamma
+Gamma是一个基于Stacks生态系统的NFT市场，早期被称为STXNFT。该市场旨在成为Web3中心，吸引收藏家、创作者和投资者通过比特币生态系统来探索、交易和展示NFT。
+最近，随着BTCNFT（Ordinals技术）的兴起，Stacks上的NFT活动也在逐渐增加。据DappRadar数据显示，Gamma在过去30天内的交易量增长超过了300%。这主要得益于Stacks生态系统提供的低成本和快速的NFT铸造速度。
+
+Gamma是一个一流的NFT市场，用户可以在其中探索数十种不同系列，这些系列越来越受欢迎。此外，Gamma平台还为数字艺术家提供专业的、创作者优先的NFT Launchpad，帮助他们寻找部署低代码智能合约的简单方法。使用Gamma，即使是没有经验的艺术家也可以在几分钟内为他们的NFT创建智能合约功能，从而确保其NFT的所有权并保护他们的作品，就像版权一样。除此之外，Gamma还充当了一个社交平台，让创作者可以聚集在一起协作和分享想法。Gamma目前已经拥有许多流行的NFT集合，这些集合在Web3世界中建立了狂热的追随者。实际上，许多系列已经很抢手了，一些项目甚至推出了二次收藏，以降低进入其社区的门槛。
+Arkadiko
+Arkadiko是一个建立在Stacks生态系统上的DeFi平台，旨在为用户提供各种金融产品和服务，包括借贷、交易、抵押、赚取收益等等。与其他DeFi平台不同的是，Arkadiko建立在Stacks生态系统上，采用Stacks独特的技术架构，这意味着它可以在比特币区块链上实现去中心化金融服务。
+
+Arkadiko平台的主要应用是抵押资产铸造平台的USDA稳定币，模式与MakerDAO类似，用户在Arkadiko的Vault中存入STX，通过超额抵押的方式，铸造软锚定于美元的稳定币USDA，存入其中的STX还可以依靠Stacks的PoX机制获得收益。除此之外，用户还可以使用STX代币作为交易和支付费用的工具，并通过抵押STX代币来获得借款，Arkadiko的借贷利率较低，对用户而言非常有吸引力。另外，Arkadiko 还提供了流动性池、稳定币交易和收益农场等功能，让用户可以参与到更多的DeFi产品和服务中。同时，Arkadiko的开发团队致力于提供更多的创新性DeFi产品和服务，为用户提供更好的金融体验。
+CityCoins
+CityCoins是一种加密货币，旨在为城市提供财务支持，促进城市经济的发展。该项目于2021年由Muneeb Ali和Ryan Shea共同创立，由Stacks生态系统提供支持。
+
+CityCoins的主要功能是为城市提供融资，并帮助他们实现可持续的发展。持有CityCoins的人可以选择将它们投入到特定城市的基金中，从而为该城市提供资金支持。这些资金可以用于城市的各种项目，如基础设施建设、公共服务和社区发展等。持有CityCoins的人可以从基金中获得收益，并获得CityCoins的优惠。此外，CityCoins还可以用于购买特定城市的商品和服务。例如，旅游者可以使用CityCoins购买餐馆、酒店和旅游景点的门票，以及其他城市商品和服务。总的来说，CityCoins旨在为城市提供更多的经济支持，同时也为持有者带来经济回报。这种创新的加密货币模型为城市的可持续发展提供了一种新的融资机制，并为持有者提供了一种有趣的投资方式。
+随着Ordinals的盛行，比特币NFT市场正在迅速发展。这既是Stacks的一次重要机遇，也是一次严峻的挑战。为了满足比特币NFT项目的高吞吐量需求，Stacks需要进一步发挥其在比特币二层扩展方案上的技术优势，推出更加可扩展的网络方案。同时，Stacks还需要进一步加强与比特币网络的集成，以确保其安全性，同时不影响比特币网络的稳定性。如果Stacks能够成功克服这些挑战，它将成为比特币领域最为成功的扩容方案之一，为比特币网络的未来发展奠定基础。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -3528,7 +3665,7 @@ ColinLy：总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通�
 观点：
 Richard Freemanson（Birel 首席执行官）：我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;215
+                                &ensp;<span class="article-reading-time">(&hairsp;214
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4406,7 +4543,7 @@ DinoEggs.eth：轻节点可以根据验证信息进行分类：1）共识验证�
 内容来源
 DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4459,7 +4596,7 @@ DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可�
                               <span>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品
 美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;218
+                                &ensp;<span class="article-reading-time">(&hairsp;217
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5165,120 +5302,6 @@ Read the full entry</span>
                               <span>PANews 3月8日消息，据Fortune报道，加密薪酬合规发放公司Toku完成2000万美元融资， Blockchain Capital、 Orrick、Alchemy、GMJP、OrangeDAO、Reverie、Quantstamp、Next Web Capital、Protocol Labs创始人Juan Benet、Cameron、Tyler Winklevoss等参投。
 该公司旨在帮助加密公司处理与代币相关的薪酬发放的税法工作，它声称已经在数十个国家创建了一个系统来跟踪与加密相关的税法和法规，目前拥有30家客户，包括Filecoin Foundation、Gitcoin等。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/0pvw6qn0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">加密薪酬合规公司Toku完成2000万美元融资， Blockchain Capital等参投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/0pvw6qn0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月8日消息，据Fortune报道，加密薪酬合规发放公司Toku完成2000万美元融资， Blockchain Capital、 Orrick、Alchemy、GMJP、OrangeDAO、Reverie、Quantstamp、Next Web Capital、Protocol Labs创始人Juan Benet、Cameron、Tyler Winklevoss等参投。
-该公司旨在帮助加密公司处理与代币相关的薪酬发放的税法工作，它声称已经在数十个国家创建了一个系统来跟踪与加密相关的税法和法规，目前拥有30家客户，包括Filecoin Foundation、Gitcoin等。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/25k6vsuo.html"
-                        open
-                      >
-                        <summary class="article-expander__title">PA日报｜Consensys发布ETH质押提款指南；Shibarium公测版将于本周发布</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/25k6vsuo.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/08/images/yC6IW70AnB.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>今日要闻提示：
-鲍威尔：我们在加密领域看到了相当多欺诈行为和风险存在
-Consensys发布《ETH质押提款指南》并推荐选择部分提款，届时将推出纪念NFT
-Lido关于在以太坊上V2版本升级的提案已获投票通过
-Shiba Inu二层解决方案Shibarium将于本周发布公测版
-灰度诉美SEC案开庭首日，法官质疑SEC拒绝灰度的现货比特币ETF申请
-币安NFT市场新增支持Polygon网络
-派盾：美国执法部门将4.9万枚BTC转至Coinbase和另外两个地址
-币安的现货市场份额已增至2月份的61.8%，连续第四个月扩大
-监管消息
-鲍威尔：我们在加密领域看到了相当多欺诈行为和风险存在
-美联储主席鲍威尔在出席参议院听证会时发言表示，我们正在关注加密货币领域，因为这一领域波动很大。我们在加密领域看到了相当多欺诈行为和风险存在。其还称，美联储准备在数据允许的情况下加快加息步伐。
-NFT
-
-Consensys发布《ETH质押提款指南》并推荐选择部分提款，届时将推出纪念NFT
-Consensys发布《ETH质押提款指南》，指南中提到，部分提款使质押者受益，因为质押者可以定期访问他们的验证者获得的CL质押奖励（扣除任何罚款），而不会产生任何gas成本，也不必退出他们的验证者。此外，由于以太坊验证者的有效余额上限为32 ETH，因此验证者余额上的任何剩余ETH都是无用的。部分提款允许质押者访问这些过剩的、非生产性的ETH，并将其重新部署以激活新的以太坊验证器或其他地方。部分提款也应该通过防止过长的退出队列和过多的验证者流失而使以太坊网络受益，这可能会破坏网络的稳定性。
-目前，58%的人拥有0x00类型的取款凭据。在剩下的42%中，使用0x01类型的取款凭证，大约61%（或所有以太坊验证器的25%）由Lido验证器集操作。
-此外，为庆祝升级，ConsenSys将在3月下旬/4月中旬升级上线时推出其第二个纪念NFT系列，并邀请Web3爱好者通过领取NFT参与。
-项目动态
-彭博社：Silvergate正与美国联邦存款保险公司磋商如何维持经营
-据彭博社援引知情人士的话称，美国联邦存款保险公司(FDIC)官员一直在与陷入困境的加密银行Silvergate Capital高管就如何帮助该公司继续经营进行磋商。一位消息人士称，其中一个选择为招募加密行业投资者，以帮助提高Silvergate的流动性。上周美联储已授权FDIC的审查人员前往Silvergate位于加州拉霍亚的总部，美联储是Silvergate的主要联邦监管机构。据此前消息，Silvergate上周宣布将推迟提交年报，因为它需要接受监管机构的询问和调查。该公司进一步警告称，其“继续经营”的能力可能会受到影响。随后Silvergate的股价下跌超过50%，创历史新低。Silvergate还宣布，将暂停Silvergate Exchange Network (SEN)服务。
-数字人民币App新增“微信支付”
-据证券日报报道，2023年3月份，数字人民币App（试点版）“钱包快付管理”中正式新增“微信支付”。目前用户已经可以在数字人民币App（试点版）开通微信支付钱包快付。依据数字人民币App现行规则，单笔支付限额为2万元，日累计支付限额为2万元，用户也可以进行相应限额设置。
-此前2022年12月份，支付宝官宣作为首家支付平台正式加入数字人民币受理网络。
-Lido关于在以太坊上V2版本升级的提案已获投票通过
-Snapshot页面显示，Lido关于在以太坊上V2版本升级的提案以100%的支持率获得投票通过。根据该提案，V2版本升级将包括对以太坊提款的支持以及质押路由器。Lido计划在提案通过后于3月7日至31日期间在Goerli测试网上进行测试。V2版本在主网上的部署则取决于以太坊Shapella升级时间以及审计结束时间。
-Optimism：最新版本存在问题，已更新者需回滚至op-geth版本
-以太坊L2网络Optimism发推称，此前要求基础设施提供商在Optimism Goerli硬分叉之前将op-geth更新到新版本，但现在已发现最新版本存在问题，目前正在更新代码存储库以解决相关问题。
-对于已经更新了版本的基础设施提供商，Optimism要求回滚到以前版本的op-geth，如果尚未更新则无需执行任何操作，Optimism将很快分享更新版本。
-此前3月6日消息，Optimism将于3月18日进行Optimism Goerli硬分叉升级。目前官方已删除此推文，并称这是因为相关信息不准确。
-Shiba Inu二层解决方案Shibarium将于本周发布公测版
-Shiba Inu在推特上宣布，Shiba生态Layer 2区块链解决方案Shibarium将于本周发布公共测试版本。Shiba Inu将通过官方推特渠道公布如何访问测试版网站的详细信息。
-据悉，Shibarium测试网将使用BONE测试代币，以允许用户和开发人员在网络上进行大规模测试。此前2月27日消息，Shibarium已上线新网站和接收系统，即将发布的Beta版上所有代币和产品仅用于测试。
-Cosmos Hub将于3月15日进行V9 Lambda升级，将激活“Replicated Security”功能
-据治理页面显示，Cosmos Hub关于v9 Lambda升级提案以99.48%的支持率获得投票通过。Cosmos Hub在官方推特上宣布将于3月15日进行V9 Lambda升级。
-根据该提案，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。Replicated Security功能可将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者。
-Gitcoin推出以太坊质押指数代币gtcETH，通过质押ETH为公共产品筹资
-据官方博客，Gitcoin和Index Coop合作推出Gitcoin Staked ETH Index (gtcETH)，以提供一种被动资助公共产品的方式。gtcETH是一种ERC-20代币，将构建在Index Protocol上，包含Rocket Pool、Lido和StakeWise流动性质押代币。gtcETH将使代币持有者能够通过单一代币访问各种ETH流动性质押代币，同时为公共产品融资作出贡献。
-文章称，gtcETH为那些有兴趣为公共产品捐款的人提供了一个双赢的解决方案。标的资产获得的部分质押奖励将逐步增值，并以升值的形式变现。除了保留对ETH的价格敞口外，代币持有者还可以在为公共物品捐款的同时获得一些质押奖励。这与直接捐赠不同，用户必须放弃他们的ETH。通过购买和持有gtcETH代币，Gitcoin贡献者现在可以：1.保留他们的ETH并保持价格敞口；2.获得质押和执行层奖励；3.为Gitcoin Grants捐款。此外，该代币还通过多个流动代币使投资组合多样化，并促进流动代币生态系统内的去中心化。
-在gtcETH 2%的年化流费用中，1.75%归Gitcoin, 0.25%归Index Coop。在用户持有1枚gtcETH代币一年并赚取5%总质押APR的情况下（假设ETH价格恒定为1,700美元），由此产生的对Gitcoin的贡献大约是参与者以前在Gitcoin Grants中平均贡献的两倍。以100万美元的TVL（总价值锁定）计算，gtcETH每年将为Gitcoin Grants贡献约17,500美元。官方预测，gtcETH的初始组合在计入年化流费用 (2.00%) 后将产生2.99%的净APR。各种因素（质押的ETH百分比、网络费用、费用销毁等）从根本上影响奖励率，因此收益率会随着时间的推移而变化。
-灰度诉美SEC案开庭首日，法官质疑SEC拒绝灰度的现货比特币ETF申请
-据路透社报道，美国联邦上诉法院法官周二质疑美国证券交易委员会 (SEC)拒绝Grayscale Investment（灰度）的现货比特币ETF申请是否正确，因为该机构此前已批准比特币期货产品。华盛顿哥伦比亚特区上诉法院的一个法官小组就灰度的论点向美国证券交易委员会施压，该委员会称，由于监管机构此前批准了某些监管协议，以防止基于比特币期货的ETF出现欺诈行为，因此同样的设置也适用于灰度的现货基金，因为现货和期货基金都依赖于比特币价格。
-法官Neomi Rao表示：“对于一个机构来说，我们需要更多信息，但似乎这里有很多关于这些市场如何协同工作的信息，而美国证券交易委员会没有提供任何解释。”灰度首席法律顾问、奥巴马时代的美国总检察长Donald Verrilli Jr.在法庭上表示，比特币现货ETF将“更好地保护投资者”，因为根据与比特币期货交易场所芝加哥商品交易所达成的监管协议，比特币现货ETF将让投资者受益于监管。
-此外，据The Block报道，灰度与SEC之间的裁决可能需要等3到6个月的时间。彭博高级ETF分析师Eric Balchunas发推文称：“我们的高级诉讼分析师在今天上午（当地时间）听完灰度与SEC辩论后，将灰度公司的胜算从40%提高到70%。”数据显示，GBTC现报12.9美元，单日涨幅达9.6%，目前负溢价收窄至42.11%。
-此外，FTX新任CEO表示，Alameda债权人的灰度信托基金持仓价值约2.9亿美元。
-CZ：法币支持的稳定币不会长久存在，稳定币会更新迭代
-Binance创始人CZ在Twitter Space发言中表示，Binance没有在BUSD上获得任何额外利益，目前正在考虑美元以外的稳定币，以及其他稳定币发行商。法币支持的稳定币不会长久存在，稳定币会不断进化迭代。长期看来，10到20年后，非法币支持的稳定币可能会占主导地位。预计今年是加密调整复苏的一年，不对创下新高抱有期待。
-币安NFT市场新增支持Polygon网络
-币安 NFT 市场宣布 Polygon 网络已添加到其支持的链列表中，用户现在可以在币安 NFT 市场上从 Polygon 网络购买、存入、提取和铸造NFT。截止目前，币安 NFT 市场已兼容 BNB 智能链 (BSC)、以太坊 (ETH) 网络和 Polygon (MATIC) 网络。
-融资消息
-游戏公司Believer完成5500万美元融资，Lightspeed领投，a16z等参投
-据TechCrunch报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
-Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
-Web3足球游戏公司Matchday完成2100万美元种子轮融资，梅西旗下基金Play Time参投
-据Fastcompany报道，Web3游戏互动娱乐初创公司Matchday宣布完成2100万美元种子轮融资，梅西旗下基金Play Time参投。Matchday将 Web3 和移动游戏结合起来，创建一套由FIFA授权的足球游戏，Matchday首席游戏官Sebastien de Halleux表示相信真正的所有权对于为游戏玩家创造一系列新体验非常重要，希望将数亿球迷吸引到Web3，该公司预计第一款游戏将在第二季度发布。
-EigenLayer开发商Layr Labs在近6448万美元的融资目标中已筹集约5673万美元
-据美SEC官网公告，以太坊再质押协议EigenLayer开发商Layr Labs正在进行目标为近6448万美元的新一轮融资，目前已筹集约5673万美元。
-另据Crunchbase数据显示，Layr Labs此前已通过三轮融资筹集1560万美元。
-矿业消息
-Jack Dorsey旗下支付公司Block计划构建比特币挖矿开发工具包
-Jack Dorsey旗下支付公司Block在官方博客上表示，其正在考虑构建比特币挖矿开发工具包或MDK，目前设想的MDK将包括：1.强大、可靠、工业级的比特币挖矿算力板；2.专为与算力板配合使用而设计的定制控制器板；3.开源固件、软件API和Web前端；3.丰富的参考资料和支持文档，方便算力板的轻松定制。Block将在接下来的几周和几个月内进一步更新其挖矿硬件计划。
-文章表示：“MDK旨在是为开发人员提供一套工具，以帮助释放比特币挖矿硬件的创造力和创新。我们预计MDK对专注于将比特币挖矿集成到各种新用例(如加热解决方案、离网挖矿、家庭挖矿或间歇性电力应用)的开发项目非常有用，以及为传统商业挖矿操作优化比特币挖矿硬件。通过MDK，我们看到了增加比特币挖矿硬件的可访问性和开放性的重大机会，以加速该领域的创新。”
-重要数据
-数据：受监管不确定性推动，芝商所以太坊期权交易量创历史新高
-The Block数据显示，比特币和以太坊期货和期权交易量在今年2月再次走高。上个月所有交易所的比特币期货交易总量为7910亿美元，高于1月份的6970亿美元，连续第三个月实现增长。与此同时，期权交易量从177亿美元增至约200亿美元。受FTX崩盘推动，机构投资者将目光投向了受监管的交易所。芝加哥商品交易所（CME）的以太坊期权交易量创去年8月上线以来的最高水平。比特币期权未平仓合约也创历史新高，首次突破10亿美元。
-派盾：美国执法部门将4.9万枚BTC转至Coinbase和另外两个地址
-派盾监测数据显示，美国执法部门相关地址将4.9万枚BTC（价值约合10亿美元）转至Coinbase（超过9,800枚BTC）、bc1qf2开头地址（超过3万枚BTC）和bc1qe7开头地址（约9,000枚BTC）。这部分BTC是美国执法部门于2021年11月和2022年3月扣押的Silk Road非法所得。
-加密数据分析公司Glassnode对此表示，该执法部门转入的另外两个地址（bc1qf2和bc1qe7开头的地址）或为内部转账。
-数据：Voyager今日转出价值共计3580万美元的加密货币
-据推特用户Bit余烬监测，Voyager今日转出价值3580万美元的加密货币，分别将7000枚ETH（约合1094万美元）、622万枚MATIC（约合703万美元）转入Coinbase，将7000枚ETH（约合1094万美元）、250万枚FTM（约合101万美元）、200万枚IOTA（约合42万美元）、40万枚ONT（约合9万美元）转入Binance US，将3000亿枚SHIB（约合333万美元）、1164枚ETH转入加密货币做市商Wintermute，将10万枚DYDX转入Kraken（约合22万美元）。不过Voyager今日没有从交易所提取加密货币。
-据悉，自2月14日以来Voyager几乎每天通过Coinbase出售加密资产。此前今日早些时候消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍。
-币安的现货市场份额已增至2月份的61.8%，连续第四个月扩大
-据CoinDesk报道，加密货币交易所币安已连续第四个月扩大其在加密货币交易所的现货市场份额。据加密市场数据提供商 CryptoCompare 的一份报告，该交易所市场份额从 1 月份的 59.4% 增加到 2 月份的 61.8%。币安的现货交易量增长了 13.7%，达到 5040 亿美元，创下该交易所的历史最高市场份额。Coinbase 的交易量仅次于币安，交易额为 399 亿美元（环比下降 29%），其次是 Kraken，交易额为 193 亿美元（环比下降 11%）。
-报告称，2 月份，币安在衍生品交易所的市场份额也有所增长，攀升至 62.9%，创下有史以来最高的月度市场份额记录。交易所 OKX 和 Bybit 分别以 14% 和 13.3% 的市场份额紧随其后。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8531,7 +8554,7 @@ Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始�
                               <span>泰国将为发行投资代币的公司和投资人免税
 据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;213
+                                &ensp;<span class="article-reading-time">(&hairsp;212
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12354,7 +12377,7 @@ Coinbase 最初于 2 月 23 日宣布推出 Base 测试网，旨在成为一个�
 观点：
 Marco Santori：未来几年里那些对如何为加密货币经济提供基础设施有新想法的人的路会走的非常艰难，但我并不认为美国对加密行业存在阴谋性打压。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;217
+                                &ensp;<span class="article-reading-time">(&hairsp;216
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12464,7 +12487,7 @@ Suji Yan（ Mask Network 创始人）：迫不及待地想在更多社交应用�
 内容来源
 头等仓：Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;215
+                                &ensp;<span class="article-reading-time">(&hairsp;214
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -15373,7 +15396,7 @@ Elena：Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属
 内容来源
 Elena：Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -29561,8 +29584,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4374460538">
-        <time id="build-timestamp" datetime="2023-03-09T12:33:56.714Z">2023-03-09T12:33:56.714Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4374588951">
+        <time id="build-timestamp" datetime="2023-03-09T12:49:55.500Z">2023-03-09T12:49:55.500Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
