@@ -97,6 +97,81 @@ zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/w839x7ih.html"
+                        open
+                      >
+                        <summary class="article-expander__title">盘点以太坊可扩展未来的关键：zkEVM赛道的6大潜力项目</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/w839x7ih.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/09/images/f6x2XY0geG.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>编译 | Cindy，SophonLabs
+Layer 2 扩展是区块链行业最关键的问题之一，因为以太坊的第一层（也称为Layer 1或L1）是由以太坊本身实现的，它是在以太坊区块链上运行的智能合约平台。然而，由于以太坊的原始架构存在吞吐量限制和高昂的交易手续费，因此需要构建第二层扩展解决方案来提高交易速度和降低成本。好多优质的Web3公司在下一次牛市之前开发出强大的解决方案。因为在2022 年初出现了很多问题以太坊 L1 被成千上万的交易堵塞，给 NFT 买家和 Defi 交易者带来了很多阻塞的体验，也使得zkEVMs 是最具创新性和最受欢迎的解决方案之一！Layer 2通过将交易从以太坊主链中移除，使得以太坊主链可以专注于更基础的交易处理，而更高级的交易可以在L2上进行处理，从而提高整个以太坊系统的扩展能力。
+zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。
+zkEVM 允许以保护合同条款和合同中涉及的数据隐私的方式执行智能合同。这是通过零知识证明实现的，零知识证明是一种加密证明，允许一方向另一方证明某项陈述是真实的，而无需透露有关该陈述的任何其他信息。zkEVM的基本思想是，在以太坊的智能合约执行过程中，部分数据可以在不泄露原始数据的情况下进行处理和验证。具体来说，zkEVM采用零知识证明技术，使得原始数据保持隐私的同时，验证执行结果的正确性。
+zkEVM的引入可以有效提高智能合约的隐私性和性能。使用zkEVM，用户可以在保护隐私的前提下，以更快的速度执行包含秘密计算的智能合约。这对于一些场景比较敏感的应用非常重要，例如金融、医疗等领域。目前zkEVM还处于研究和开发阶段，但已经吸引了很多关注和投入。预计在未来几年中，zkEVM将逐渐成为以太坊生态系统中不可或缺的一部分。zkEVM 解决方案种类繁多，虽然这些类型中的每一种都在努力构建最好的 zkEVM，但它们都以不同的方式尝试实现这一目标。
+如果要获得更加深刻的解读在 Vitalik 的博客中找到更深入的技术解释以及每种类型的 zkEVM 的优缺点。
+zk-rollup 是一种用于区块链网络的第 2 层扩展解决方案。它允许交易在链下处理，然后“汇总”到单个链上交易中，从而减少主区块链上的负载并提高交易吞吐量。
+在 zk-rollup 中，交易由一组负责确保交易正确性的验证器处理。这些验证器创建了一个零知识证明，这是一种密码学证明，可以证明一个陈述是真实的，但不会透露任何关于该陈述的额外信息。然后将零知识证明添加到链上交易中，允许对交易进行验证，而无需在主区块链上处理每笔交易。
+zk-rollups 和 zkEVMs 之间的一个主要区别是 zk-rollup 侧重于可扩展性，而 zkEVM 侧重于隐私。zk-rollup 允许在链下处理大量交易，同时仍保持以太坊主链的安全性和完整性。另一方面，zkEVM 允许以保护隐私的方式执行智能合约，允许在以太坊平台上创建私人、机密的交易。
+zk-rollup 和 zkEVM 都是重大创新，有助于提高以太坊的可扩展性和隐私性。它们都有可能显着增强以太坊平台的功能，并使其对广泛的应用程序更有用。
+了解了 zkEVM 和 zk-rollups 的基础知识后，让我们仔细看看实现 zkEVM 的不同项目。
+zkSync是以太坊的第 2 层扩展解决方案，旨在提高以太坊网络的可扩展性和速度。它基于零知识证明，允许在不泄露基础数据的情况下验证交易。这允许 zkSync 处理链下交易，这意味着它们不会记录在以太坊区块链本身上。相反，它们被记录在一个单独的链下数据结构中，称为“Merkle 树”。zkSync 的一个关键特性是它使用“乐观”传输，它允许用户发送和接收交易，而无需等待它们在以太坊区块链上得到确认。这显着减少了交易时间并允许更高的交易吞吐量。
+除了使用零知识证明和乐观传输之外，zkSync 还利用其他几种技术来提高可扩展性和安全性。其中包括签名聚合，它允许将多个签名压缩为一个签名，以及多链支持，这有助于 zkSync 与其他区块链网络进行交互。
+总体而言，zkSync 旨在为去中心化应用程序 (dApp) 和其他基于以太坊的项目提供一个可扩展且安全的平台。通过允许更快、更高效的交易，它旨在让开发人员更容易构建和部署 dApp，并让用户更容易与之交互。
+zkSync 面临的主要挑战之一是需要平衡可扩展性和安全性。虽然使用零知识证明和其他技术可以实现更快、更高效的交易，但它也带来了额外的复杂性和潜在的漏洞。因此，zkSync 不断努力改进和完善其技术，以确保其尽可能安全和稳健。
+尽管面临这些挑战，zkSync 自 2020 年推出以来取得了重大进展，并且已经在开发人员和用户中赢得了强大的追随者。其扩展以太坊的独特方法吸引了相当多的关注和投资，并有可能在以太坊生态系统的未来发展中发挥重要作用。
+Starkware是一个开发了名为 StarkNet 的协议的项目。StarkNet 是一种第 2 层扩展解决方案，旨在提高区块链的效率和可扩展性，尤其是那些使用智能合约的区块链。
+StarkNet 的一个关键特性是它使用 STARKs，这是一种零知识证明系统，允许用户在不泄露底层数据的情况下证明计算的正确性。这允许在网络上提供更大的隐私和安全性，并且能够在不需要受信任的第三方的情况下执行复杂的计算。
+StarkNet 还利用分片技术，这种技术允许将区块链分成多个可以并行处理的较小链或“分片”。这允许更大的吞吐量和更快的交易时间，因为每个分片都可以独立于其他分片进行处理。StarkNet 的主要目标之一是能够大规模创建去中心化金融 (DeFi) 应用程序。DeFi 应用程序通常依赖于智能合约和其他复杂的计算，这会给底层区块链带来压力并限制其可扩展性。通过使用 StarkNet，DeFi 开发人员可以创建更高效和可扩展的应用程序，以处理更大量的交易。
+StarkNet 已经与几个流行的区块链集成，包括以太坊、币安智能链和 Polkadot。这允许开发人员使用 StarkNet 在这些平台之上构建 DeFi 应用程序，而不必担心可扩展性问题。除了专注于 DeFi，StarkNet 还被用于其他各种应用，包括供应链管理、投票系统，甚至医学研究。该协议的多功能性和可扩展性使其成为广泛用例的有吸引力的选择。
+总体而言，Starkware 的 StarkNet 协议代表了区块链技术的重大进步。它使用 STARKs 和分片可以提高效率、隐私和可扩展性，使其成为各种应用程序的理想解决方案，尤其是 DeFi 领域的应用程序。
+Polygon 区块链项目最近引入了一项名为Hermez zkEVM的新技术。该技术旨在提高以太坊区块链的可扩展性和隐私性。
+Hermez zkEVM 旨在通过使用零知识证明来解决以太坊区块链的可扩展性问题，从而在以太坊网络上实现更快、更便宜的交易。在 Hermez zkEVM 的背景下，可以使用零知识证明来验证交易的正确性，而无需透露具体细节。这允许更快的交易处理和减少费用，因为不需要整个网络来验证每笔交易。
+除了提高可扩展性，Hermez zkEVM 还增强了以太坊网络的隐私性。通过使用零知识证明，Hermez zkEVM 允许进行机密交易，对除发送方和接收方以外的各方隐藏交易的具体细节。这对各种应用程序都很有用，例如允许个人在不透露身份的情况下进行金融交易，或者允许公司在不披露敏感财务信息的情况下开展业务。正如前面在各种类型的 zkEVM 中提到的，Polygon 的这种实现在字节码级别而不是在语言级别兼容。
+Hermez zkEVM 是以太坊网络和更广泛的区块链社区的一个有前途的发展。通过提高可扩展性和隐私性，它有可能使以太坊网络对广泛的 dApp 和用例更具吸引力。看看这项技术如何被采用以及它如何影响以太坊网络和其他区块链平台的未来发展将会很有趣。
+Scroll是一种去中心化协议，旨在为以太坊区块链带来可扩展性和更高的安全性。Scroll 的一个关键特性是它使用 zk-rollups，这是一种第 2 层扩展解决方案，允许更快、更便宜的交易，同时保持主区块链的安全性。
+在 zk-rollup 中，交易被捆绑在一起，并由主区块链上的智能合约进行验证。这允许更高的交易吞吐量，因为验证每个单独交易的负担从主链中移除并放在汇总合约上。Scroll 特别专注于创建与 EVM 兼容的 zk-rollup，这意味着它可以支持与以太坊相同的编程语言和智能合约。这很重要，因为它允许开发人员轻松地将他们现有的应用程序迁移到 Scroll 网络，而无需对其代码进行任何更改。
+总的来说，Scroll 是一个很有前途的项目，致力于将 zk-rollups 的好处带入以太坊生态系统。通过创建与 EVM 兼容的解决方案，Scroll 可以为开发人员提供一种简单的方法来扩展他们的应用程序并利用 zk-rollups 提高的安全性和效率。随着以太坊网络的不断发展和对可扩展解决方案的需求增加，像 Scroll 这样的项目将在区块链行业的发展中发挥至关重要的作用。
+ConsenSys和Infura是以太坊生态系统中最著名的两个名字，它们正在开发一个名为 zkEVM 的新版本的以太坊虚拟机 (EVM)。该项目旨在提高以太坊的可扩展性，这也一直是该平台面临的重大挑战。
+ConsenSys 和 Infura 正致力于将 zkEVM 集成到以太坊主网中，让网络上的任何人都可以使用它。对于以太坊社区来说这是一个令人兴奋的发展，因为它有可能解决过去阻碍该平台发展的一些可扩展性挑战。
+虽然该公司尚未发布有关该项目的许多细节、他们的实施方法和其他事情，但这仍然是开发人员关注的最令人兴奋的项目之一。Consensys 已经构建了一些支撑以太坊生态系统的核心基础设施，如果此 zkEVM 实施成为人群中最受欢迎的实施之一，也就不足为奇了。
+Taiko在其网站上将自己产品定位为“Type 1 zkEVM——完全去中心化、等同于以太坊的 zk-rollup”。他们声称，与此列表中的其他项目相比，作为 Type 1 zkEVM 是主要的区别之一。他们几乎没有对以太坊架构进行任何更改，包括哈希函数、状态树或 gas 成本。通过这样做，他们可以在尽可能少的修改的情况下重用执行客户端实现。使用像 Taiko 这样的 Type 1 zkEVM 的主要优势之一是无需对代码进行太多更改即可轻松迁移。例如，您可以部署在以太坊 L1 上，然后迁移到 Taiko。另一方面，您也可以先部署在 Taiko 上，然后再迁移到任何其他 EVM 兼容链。
+zkEVM（Zero-Knowledge Execution Environment Virtual Machine）是一种利用零知识证明实现隐私保护的以太坊虚拟机。它允许以保护合同条款和合同中涉及的数据隐私的方式执行智能合同。zkEVM的基本思想是，在以太坊的智能合约执行过程中，部分数据可以在不泄露原始数据的情况下进行处理和验证。
+与zkEVM不同，zk-rollup是一种第二层扩展解决方案，它侧重于可扩展性而非隐私。它允许在链下处理大量交易，然后将交易汇总到单个链上交易中，从而减少主区块链上的负载并提高交易吞吐量。在zk-rollup中，交易由一组验证器处理，并创建一个零知识证明，以证明交易正确性，这些验证器负责确保交易正确性。
+虽然zkEVM和zk-rollup有不同的重点，但它们都是重大创新，有助于提高以太坊的可扩展性和隐私性。它们有可能显着增强以太坊平台的功能，并使其对广泛的应用程序更有用。
+本文介绍了6个zkEVM项目，包括zkSync、Starkware StarkNet、Polygon Hermez、Scroll、Consensys和Infura、Taiko。这些项目旨在提高以太坊的可扩展性和安全性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。总之，这些zkEVM项目的发展有望对以太坊生态系统和区块链技术的未来产生重要影响。它们正在努力提高以太坊的可扩展性和隐私性，通过使用零知识证明、分片技术和其他技术来实现更快、更高效的交易。这些项目的成功将有助于推动以太坊的发展，使其更具有竞争力，并使其对广泛的应用程序更有用。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/mrtevyaw.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web3开发工具提供商Cubist完成700万美元种子轮融资，Polychain Capital领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/mrtevyaw.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月9日消息，据The Block报道，Web3 开发工具提供商 Cubist 在由 Polychain Capital 领投的种子轮融资中获得了 700 万美元，Dao5、Polygon、Amplify Partners 和 Axelar 也参与了此次融资。该轮融资将用于招聘以及扩展和宣传 SDK。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/mrtevyaw.html"
                         open
                       >
@@ -3694,7 +3769,7 @@ Richard Freemanson（Birel 首席执行官）：我不能说这样的折扣说�
 观点：
 Richard Freemanson（Birel 首席执行官）：我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;215
+                                &ensp;<span class="article-reading-time">(&hairsp;214
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4513,37 +4588,6 @@ Emperor Osmo：目前我们的经济安全模式包括：1）Hub 利用验证器
 Emperor Osmo：在 Rollup 模式中，L2 用于执行交易，而结算仍然在 L1，这对于在 L1 上创建的项目是有意义的，但并不适合在 L2 上创建的任何项目。我们该如何解决在 L2 上的审查阻力？或许可以考虑链间制裁，通过对交易施加制裁来审查执行恶意行为的链。网状安全性（Mesh Security ）是主权区块链通过经济上的自我利益保障彼此的进化步骤。【原文为英文】
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】什么是轻节点？一文了解其类型及运作模式</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。
-文章来源：
-https://dinoeggs.substack.com/p/light-nodes-and-their-benefits
-文章作者：
-DinoEggs.eth
-
-观点：
-DinoEggs.eth：轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】
-内容来源
-DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4575,6 +4619,37 @@ DinoEggs.eth：轻节点可以根据验证信息进行分类：1）共识验证�
 DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;14
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】什么是轻节点？一文了解其类型及运作模式</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。
+文章来源：
+https://dinoeggs.substack.com/p/light-nodes-and-their-benefits
+文章作者：
+DinoEggs.eth
+
+观点：
+DinoEggs.eth：轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】
+内容来源
+DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4618,7 +4693,7 @@ DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可�
                               <span>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品
 美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;218
+                                &ensp;<span class="article-reading-time">(&hairsp;217
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -8576,7 +8651,7 @@ Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始�
                               <span>泰国将为发行投资代币的公司和投资人免税
 据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;213
+                                &ensp;<span class="article-reading-time">(&hairsp;212
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12404,7 +12479,7 @@ Marco Santori：未来几年里那些对如何为加密货币经济提供基础�
 观点：
 Marco Santori：未来几年里那些对如何为加密货币经济提供基础设施有新想法的人的路会走的非常艰难，但我并不认为美国对加密行业存在阴谋性打压。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;217
+                                &ensp;<span class="article-reading-time">(&hairsp;216
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -12518,7 +12593,7 @@ Suji Yan（ Mask Network 创始人）：迫不及待地想在更多社交应用�
 内容来源
 头等仓：Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;215
+                                &ensp;<span class="article-reading-time">(&hairsp;214
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -15396,7 +15471,7 @@ Elena：Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属
 内容来源
 Elena：Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
+                                &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -15427,7 +15502,7 @@ Elena：Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属
 内容来源
 Elena：Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -29584,8 +29659,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4374588951">
-        <time id="build-timestamp" datetime="2023-03-09T12:49:55.500Z">2023-03-09T12:49:55.500Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4374706110">
+        <time id="build-timestamp" datetime="2023-03-09T13:03:39.191Z">2023-03-09T13:03:39.191Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
