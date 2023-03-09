@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T05:39:58.736Z</updated>
+    <updated>2023-03-09T05:45:16.640Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】解析 veFCTR 对 FactorDAO 的重要性]]></title>
+        <id>https://twitter.com/factordao/status/1633165725950181376</id>
+        <link href="https://twitter.com/factordao/status/1633165725950181376"/>
+        <updated>2023-03-09T05:38:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>随着质押功能的启动和第一个金库即将发布，veFCTR 最终将发挥其真正的潜力，成为 FactorDAO 生态系统背后的驱动力。 veFCTR 对于参与 FactorDAO 的管理和获得协议的收入份额至关重要。 FactorDAO 撰文解释了 veFCTR 的重要性。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/factordao/status/1633165725950181376">https://twitter.com/factordao/status/1633165725950181376</a></p>
+<p><strong>文章作者：</strong></p><p>FactorDAO</p><hr><h3>观点：</h3><p><strong>FactorDAO：</strong>在 DAO 治理投票过程中，veFCTR 持有者可以通过两种机制参与。首先，他们可以直接对提案进行投票。其次，他们可以将投票委托给代表，以最大化其投票权力。协议收益只分享给 veFCTR 持有者。veFCTR 是 FactorDAO 生态系统的核心，拥有它对于改进和创建强大的生态系统至关重要。【原文为英文】</p><a href="https://twitter.com/factordao/status/1633165725950181376">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】解读交易资产利率的 DeFi 协议：Pendle]]></title>
+        <id>https://twitter.com/0xtindorr/status/1633156442760044545</id>
+        <link href="https://twitter.com/0xtindorr/status/1633156442760044545"/>
+        <updated>2023-03-09T05:34:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 为用户提供了多种策略来更有效地交易、对冲和管理收益。加密货币 KOL Tindorr 从概念、用户策略、路线图和潜力等方面介绍了此项目，并分析了他看涨的原因。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xtindorr/status/1633156442760044545">https://twitter.com/0xtindorr/status/1633156442760044545</a></p>
+<p><strong>文章作者：</strong></p><p>Tindorr</p><hr><h3>观点：</h3><p><strong>Tindorr：</strong>Pendle 允许任何人交易「收益率」。 「收益率」是指从 Lido 上的 stETH、sAPE（质押 APE）、GMX 上的 GLP 等这些资产（也称为收益率代币）中获得的 APY 或利率。Pendle 将每个收益率代币化为 2 个代币：本金代币（PT）和收益代币 （YT）。此功能为 DeFi 解锁了新策略。 可以在 Pendle 上使用的策略：1）购买 PT （Principal） = 在到期日之前获得固定收益。2）买入 YT （Yield） = 做多收益代币。【原文为英文】</p><a href="https://twitter.com/0xtindorr/status/1633156442760044545">内容来源</a><p><strong>Tindorr：</strong>Pendle 有非常好的路线图，他们即将在 Arbitrum 上上线的池子会吸引更多用户。他们团队平易近人，乐于提供更多信息，上市战略很好。网站上的用户体验 / 用户界面也非常出色，并且是 DeFi 的真正应用。【原文为英文】</p><a href="https://twitter.com/0xtindorr/status/1633156442760044545">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[加密世界的原生基准利率该如何定义？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/z6m7310qb966.html</id>
@@ -96,6 +120,30 @@ StakingRewards给出了调整后奖励收益率（adjusted reward），通过调
 （5）Determinants of the real interest rate, European Central Bank]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[非托管流动性质押平台 ether.fi 将分三个阶段启动]]></title>
+        <id>https://twitter.com/ether_fi/status/1633485729924784137</id>
+        <link href="https://twitter.com/ether_fi/status/1633485729924784137"/>
+        <updated>2023-03-09T05:12:04.000Z</updated>
+        <summary type="html"><![CDATA[<h3>非托管流动性质押平台 ether.fi 将分三个阶段启动</h3>
+<p>去中心化的非托管流动性质押平台 ether.fi 宣布将分三个阶段启动：第一阶段：四月，在上海升级之后上线主网以及 ETH 委托质押。第二阶段：2023 年 Q2 或 Q3，eETH 流动性池上线。第三阶段：2023 年 Q4 或 2024 年 Q1，推出无许可节点市场。</p>
+<p><a href="https://twitter.com/ether_fi/status/1633485729924784137">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Delphi Digital 复盘 MakerDAO 2022 年发展概况：DAI 供应量缩减至 55 亿枚，协议收入趋于平稳]]></title>
+        <id>https://twitter.com/DemosCrypto/status/1633553601560813569</id>
+        <link href="https://twitter.com/DemosCrypto/status/1633553601560813569"/>
+        <updated>2023-03-09T04:57:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Delphi Digital 研究员 Demosthenes 发布了一份关于 MakerDAO 的报告，主要探究了 MakerDAO 2022 年的发展概况及对其基本面的影响。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/DemosCrypto/status/1633553601560813569">https://twitter.com/DemosCrypto/status/1633553601560813569</a></p>
+<p><strong>文章作者：</strong></p><p>Demosthenes</p><hr><h3>观点：</h3><p><strong>Demosthenes：</strong>1）目前 DAI 的供应量已经从 100 亿缩减至了 55 亿枚，但与其竞争对手相比，DAI 仍然是占主导地位的 CDP 币。此外，MakerDAO 的 TVL 下降了，但也仍然处于主导地位；2）收入在 2022 年已经趋于平稳，其在 2022 年第一季度和第二季度都实现了盈利，但下半年的盈利和支出都有所缩水；【原文为英文】</p><a href="https://twitter.com/DemosCrypto/status/1633553601560813569">内容来源</a><p><strong>Demosthenes：</strong>3）MakerDAO 增加对现实世界资产的敞口，这对其而言是有利的；4）The Endgame Plan 计划仍具有争议；5）总体而言，MakerDAO 基本面和我期望的无异，RWA 和 The Endgame Plan 似乎会在 2023 年给 MakerDAO 带来新的发展机遇。【原文为英文】</p><a href="https://twitter.com/DemosCrypto/status/1633553601560813569">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -10217,31 +10265,6 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Circle 已将 Silvergate 持有的一小部分 USDC 储备转移给至其他银行合作伙伴]]></title>
-        <id>https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank</id>
-        <link href="https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank"/>
-        <updated>2023-03-04T06:57:15.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Circle 已将 Silvergate 持有的一小部分 USDC 储备转移给至其他银行合作伙伴</h3>
-<p>据官方公告，由于 Silvergate Bank 持续存在的不确定性，稳定币发行商 Circle 已将 Silvergate 持有的一小部分 USDC 储备存款转移至其他银行合作伙伴。所有 USDC 储备都存放在几家资本充足的美国银行和 Circle Reserve Fund 中，Circle Reserve Fund 目前持有约 80% 的 USDC 储备。这些储备金由德勤每月审查和证明，目前已发布第一份证明报告。
-此外，Circle 的客户服务、运营、风险管理和财务团队已经将替代方案通知了其余依赖 Silvergate 的客户。尽管 Silvergate 表示其与存款相关的服务不受影响，但 Circle 正在努力迁移与 Silvergate Bank 相关的任何其他服务。</p>
-<p><a href="https://www.circle.com/blog/update-on-banking-services-with-silvergate-bank">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Foresight Ventures: RaaS 是什么？什么样的 RaaS 会赢得市场]]></title>
-        <id>https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA</id>
-        <link href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA"/>
-        <updated>2023-03-04T05:49:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Foresight Ventures 成员 Yihan Xu 对 RaaS 进行全面解读，包括 RaaS 是什么、RaaS 的技术路径分析、市面上 RaaS 项目的分析、RaaS 的价值以及作者所理解的 RaaS 最终形态。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA</a></p>
-<p><strong>文章作者：</strong></p><p>Yihan Xu</p><hr><h3>观点：</h3><p><strong>Foresight Ventures：</strong>⽬前 RaaS 发挥的价值：定制化 > 单纯成本和效率。我认为现阶段对 RaaS 的需求有限，general purpose scaling 能满⾜ 90% 以上的需求。虽然在⼀些细分领域定制化的 rollup 已经开始发挥⽆法替代的作⽤，但毕竟不是主流。RaaS 创造的价值有限，需要在考虑⽣态、互操作性等综合因素的基础上进⼀步探索。</p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">内容来源</a><p><strong>Foresight Ventures：</strong>基于 OP 的 RaaS 的优势在于快速搭建⽣态，形成壁垒，但是单纯从成本和效率上带来的⼩幅提升并不⾜以吸引项⽬⽅，因此没有⻓期价值。⽽基于 ZK 的 RaaS 能在定制化功能上解决痛点，但需求依然不是主流。多层⽹络结构的设计使 L3 的 RaaS 获得更低的成本和更强的互操作性，这是构建⼀个⽣态繁荣的 RaaS 的基础。基于 ZK 的多层⽹络设计可以将定制化和低成本的优势叠加，⻓期看会成为市场最终的选择。</p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">内容来源</a><p><strong>Foresight Ventures：</strong>具备⾜够可扩展性的 RaaS 可以在保证 performance 的前提下满⾜所有项⽬⽅的定制化 rollup 需求。同时，RaaS 真正崛起⼜重度依赖⽣态的建设。因此，多个 RaaS 共存的格局显然是不 make sense 的。我认为终局⼀定是⼀个或者少数 RaaS 占据整个市场。</p><a href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Foresight Ventures: RaaS 是什么？什么样的 RaaS 会赢得市场]]></title>
         <id>https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA</id>
         <link href="https://mp.weixin.qq.com/s/1MyqEkO6SAro4bu2yVo-sA"/>
@@ -10261,18 +10284,6 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
         <summary type="html"><![CDATA[PANews 3月4日消息，据官方公告，由于Silvergate Bank持续存在的不确定性，稳定币发行商Circle已将Silvergate持有的一小部分USDC储备存款转移至其他银行合作伙伴。所有USDC储备都存放在几家资本充足的美国银行和Circle Reserve Fund中，Circle Reserve Fund目前持有约80%的USDC储备。德勤(Deloitte)每月都会对总储备进行审核和证明。此外，尽管Silvergate表示其存款相关服务不受影响，但Circle正在积极转移剩余Silvergate相关服务。据此前消息，Circle表示正在解除与Silvergate的部分服务，目前包括USDC在内的所有Circle服务都运转正常。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uniswap 新钱包初体验，有哪些惊喜？]]></title>
-        <id>https://www.theblockbeats.info/news/35219</id>
-        <link href="https://www.theblockbeats.info/news/35219"/>
-        <updated>2023-03-04T04:50:45.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Uniswap 宣布推出开源自托管移动端钱包，由于 App Store 上架审核问题，目前仅可向 10,000 名用户发放 TestFlight 测试资格。BlockBeats 发文分享使用体验及其中惊喜之处。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35219">https://www.theblockbeats.info/news/35219</a></p>
-<p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>该钱包支持助记词和 iCloud 恢复以及面部识别解锁。当前版本仅支持一套助记词，如需新建多个钱包，将共享这一套助记词。钱包的功能比较完整，支持基本的 Token 收发、WalletConnect、Portfolio（持仓 ERC-20、NFT 以及交易记录）展示、Swap 和 Web3 浏览器。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>通过添加「view only」钱包，可以查看追踪其他地址的持仓动态，支持通过 ENS 域名添加；Swap 功能支持以太坊、Polygon、Arbitrum 和 Optimism 网络，当前版本暂不支持 NFT 交易；Web3 浏览器界面与 Uniswap 整合的十分彻底，Top tokens 显示可按照 Uniswap 上的成交额和 TVL 排名，支持已关注 Token 和地址展示。针对部分 Token，钱包也会做出「该 Token 未在美国头部 CEX 上架或者频繁交易」的风险警示。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a><p><strong>BlockBeats：</strong>在引入更广泛用户成为 Web3 主流叙事的基调下，随着账户抽象、Web3 DID 等技术和基础设施逐步成熟、实现。一站式 Web3 门户势必成为加密领域的热门赛道，移动端钱包则是目前可以预见的最可能的形式。Uniswap 于当下推出开源移动端钱包可以说是审时度势之举。总体来说，目前这款钱包完成度已经较高，技术方面也很成熟。鉴于 Uniswap 作为 DEX 顶流拥有雄厚的用户基础，假以时日，必将在钱包赛道占据一席之地。</p><a href="https://www.theblockbeats.info/news/35219">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -10315,18 +10326,6 @@ Dario Amodei 先后在百度以及谷歌工作过一段时间，工作经历均�
         <summary type="html"><![CDATA[PANews 3月4日消息，针对《华尔街日报》关于“Tether曾使用伪造文件和空壳公司开立银行账户”的报道，Tether在其官方网站发布声明予以驳斥，称报道完全不准确且具有误导性。Bitfinex和 Tether拥有世界一流的合规计划，并遵守适用的反洗钱、KYC和反恐怖融资法律要求。此前Tether首席技术官Paolo Ardoino已在推特发文驳斥，称《华尔街日报》的报道包含“大量错误信息和不准确之处”。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arthur Hayes：能源供需影响下的货币政策及比特币走势预测]]></title>
-        <id>https://mp.weixin.qq.com/s/r_2xDjwpseFfxWlWCvuCxA</id>
-        <link href="https://mp.weixin.qq.com/s/r_2xDjwpseFfxWlWCvuCxA"/>
-        <updated>2023-03-04T04:11:27.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>BitMEX 创始人 Arthur Hayes 以当前的全球冲突为背景，重点讨论了当前全球能源代表（美国、欧盟、日本、中国）的石油供需情况，以及若油价出现暴涨时，对应央行的货币政策会如何变化（美国欧盟转宽松、日本保持宽松、中国转收紧），同时对比特币所会产生的影响（短期将面临能源危机导致的动荡恐慌的消极影响，中长期有望走强）。中文版本由吴说区块链编译发布。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/r_2xDjwpseFfxWlWCvuCxA">https://mp.weixin.qq.com/s/r_2xDjwpseFfxWlWCvuCxA</a></p>
-<p><strong>文章作者：</strong></p><p>Arthur Hayes（BitMEX 创始人）</p><hr><h3>观点：</h3><p><strong>Arthur Hayes（BitMEX 创始人）：</strong>比特币网络需要能源来运行，矿工需要消耗能量来验证交易。如果全球能源价格上涨，这将变得更加昂贵。但这并不意味着比特币的价格会在油价飙升后立即表现积极。全球投资公众将对这种情况做出极其消极的反应，因为这表明全球冲突将大幅升级。但在那之后，我相信各国的货币政策反应将很快放松。因此，我不认为比特币会长期下跌。事实上，我预计比特币将重新出现与股票相关性的背离。提高全球流动性将非常明确地针对增加能源生产，而比特币已经证明，随着时间的推移，它可以提高能源购买力。</p><a href="https://mp.weixin.qq.com/s/r_2xDjwpseFfxWlWCvuCxA">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
