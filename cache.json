@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 1022,
+          "wordCount": 1050,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4473,
+          "wordCount": 4267,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1012,
+          "wordCount": 1006,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -557,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1262,
+          "wordCount": 1290,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -577,7 +577,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>EigenLayer 创始人从安全属性的角度对 Rollup 框架产品 Rollkit 支持比特币主权 Rollup 进行了解析，他表示主权 Rollup 为原生资产保留了比特币安全性，但没有办法安全地进行比特币桥接活动。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">https://twitter.com/sreeramkannan/status/1632622108822962178</a></p>\n<p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>1）该系统基本上让主权 Rollup 用户直接将交易写入比特币，然后在链下解释账本，这在比特币领域是一个比较老的想法；2）安全性及有效性始终是确认规则的属性，并不是一个链的属性；3）抗重组性、抗审查、数据可用性及有效性共同决定了一条链的安全性；4）如果我们将比特币作为写入交易的层，那我们从比特币继承了抗重组性、抗审查及数据可用性；【原文为英文】</p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>5）如果我们为主权 Rollup 运行一个全节点，我们可以直接推断有效性；6）如果系统具有链外欺诈 / 有效性证明，那么对于主权 Rollup 的轻节点而言，也可以继承比特币的安全性和灵活性；7）但我们目前没有办法在比特币上写入一个全节点或轻节点的主权 Rollup，因此没有验证的跨链桥可以在主权 Rollup 中转移资产；【原文为英文】</p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>8） Rollkit 支持比特币主权 Rollup 有用吗？如果目标是构建 NFT 或其他基于比特币的链，并在链下对比特币安全性进行解释，那肯定是有用的；9）但是它并非是高性能的，质押比特币安全的唯一方法需要将所有数据写入比特币，但区块限制是 4MB/10 分钟，因此数据率为 53 kpbs；10）如果接收链上有一个 BTC 轻客户端桥及 ZK 证明验证器，那么 BTC Rollup 有效性就可以得到检验。【原文为英文】</p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">内容来源</a>",
           "link": "https://twitter.com/sreeramkannan/status/1632622108822962178",
           "publishedOn": "2023-03-07T07:03:31.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】EigenLayer 创始人：关于 Rollkit 支持比特币主权 Rollup 的一些见解",
           "imageUrl": null
         },
@@ -917,7 +917,7 @@
           "description": "<h3>Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism</h3>\n<p>Tornado Cash 早期贡献者 Ameen Soleimani 发推称，Tornado Cash 分叉混币应用 Privacy Pools v0 现已上线 Optimism。Privacy Pools 具备可选择加入或退出的匿名集合，允许用户在无需透露整个交易历史的前提下，将自己从包含被盗或洗钱资金的匿名集合中删除。目前，发布的 Privacy Pools v0 是尚未经过审计的实验代码，是该协议的最小初始实现。</p>\n<p><a href=\"https://twitter.com/ameensol/status/1632083054272430080\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Pricacy Pools 代码库：https://github.com/ameensol/privacy-pools</p><a href=\"https://github.com/ameensol/privacy-pools\">内容来源</a>",
           "link": "https://twitter.com/ameensol/status/1632083054272430080",
           "publishedOn": "2023-03-06T03:04:55.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism",
           "imageUrl": null
         },
@@ -937,7 +937,7 @@
           "description": "<h3>全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任</h3>\n<p>据上海证券报报道，今年全国两会，全国人大代表、中国人民银行沈阳分行行长付喜国拟提交关于修改《中华人民共和国中国人民银行法》的建议。付喜国认为，应完善人民币管理职责，重新对法定人民币的表现形式和制作方式等内容在法律规定中进行界定，赋予数字人民币与实物人民币同等的法定地位；根据数字人民币的特性，全面详细规定数字人民币的发行方式、流通方式、监管方式等内容，防范虚拟货币风险，明确制作和发售数字代币的法律责任。</p>\n<p><a href=\"https://news.cnstock.com/news,bwkx-202303-5026233.htm\">内容来源</a></p><hr>",
           "link": "https://news.cnstock.com/news,bwkx-202303-5026233.htm",
           "publishedOn": "2023-03-06T01:46:45.000Z",
-          "wordCount": 266,
+          "wordCount": 268,
           "title": "全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任",
           "imageUrl": null
         },
@@ -977,7 +977,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 18797,
+          "wordCount": 18801,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -2508,6 +2508,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/57zotvux.html",
+          "author": null,
+          "description": "PANews 3月10日消息，据官方消息，Hedera推特发文称，已关闭主网上的网络代理。核心团队正在处理智能合约异常状况。一旦问题解决，将重新启用代理。在此期间网络服务将不可访问，包括钱包、去中心化和中心化交易所、去中心应用程序等。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/57zotvux.html",
+          "publishedOn": "2023-03-09T23:31:30.000Z",
+          "wordCount": 1113,
+          "title": "Hedera：已关闭主网网络代理，网络服务不可访问",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/a7gv0vx3.html",
           "author": null,
