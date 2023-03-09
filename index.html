@@ -89,6 +89,53 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/7vfiwwqp.html"
+                        open
+                      >
+                        <summary class="article-expander__title">拆解LSD杠杆挖矿：超额收益的来源与风险</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/7vfiwwqp.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/09/images/dys7F7lnFR.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近在推上和Space上和很多朋友讨论了LSD杠杆挖矿的问题，主要的问题在于：
+（1）杠杆Staking高收益的本质是什么？风险点在哪里？
+（2）杠杆Staking的高收益是否可持续？
+关于杠杆Staking的合成方式可以参考CapitalismLab的文章。文章提到的循环贷在defi summer早期借贷负利率和Bendao借贷负利率的时候也普遍存在，本质上通过不同标的的存借利差进行套利。与传统金融中的国债逆回购非常相似（也是我更喜欢把LSD称作“ETH国债化”的原因之一）
+相关文章：《为什么说借贷协议才是LSD的最大隐藏赢家？》
+一种更简单的实现方式是：
+1）Alice现在有10个ETH，AAVE以3%的利率借给Alice90个ETH。
+2）Alice拿着100个ETH质押到了Lido，获得了100个stETH
+3）Alice 的100个stETH成为AAVE的抵押物，AAVE上stETH的LTV为93%
+4）加入当前stETH-ETH的汇率为0.98，那么可借贷价值&#x3D;91.14ETH，借贷是安全的
+5）Alice每年可以获得100*4.9%&#x3D;4.9ETH的staking收益，同时需要支付90*3%&#x3D;2.7ETH的利息，净收入2.1，折合年化11%。
+这种方式只是把繁琐的循环贷过程封装好，实际上第三方的收益聚合工具和AAVE都在这样做。同时这种借贷方式的杠杆率也不是没有上限的，我们可以得出最大杠杆率的公式。按照当前数据，最高杠杆率为13.6倍。
+
+
+同时我们可以得出杠杆挖矿的收益公式：
+
+
+有了这两个公式以后ETH 杠杆挖矿会变得非常易于理解。杠杆Staking的收益来源是Staking和ETH借贷的利差，而之所以存在利差，是因为两种类型的标的具备不同的风险特征和流动性特征：
+
+
+可以看出，Staking和借贷的利差本质上就是流动性溢价和风险暴露溢价，选择Staking需要牺牲资产的流动性并且承担更大的损失。而之所以现在通过杠杆实现高达10%-20%的收益，主要是因为ETH上海升级的不确定性，不确定的时间越长，stETH的波动风险就越高。如下表所示，如果stETH的汇率保持在0.9以上，6倍以下的杠杆都是安全的，最高可以获得13.2%的利率。
+
+
+理解了收入的来源，收益的可持续性也变得很好理解了。当前之所以能够存在这么高的利率，主要是因为上海升级的不确定性。Staking具备明确的解质押预期时间，定价会更透明，风险管理更加可控，一个必然的结果是ETH的S质押量继续上升，降低Staking收益，同时ETH的借贷需求上升，推高存款/借款利率。
+所以ETH开放Staking赎回以后，一个高确定性的结果是利差缩小，最终形成平衡，杠杆Staking的收益回到一个合理区间。另一个高确定性的结果是借贷成为Staking的加杠杆方式之一，LSD的借贷市场变得更加繁荣，就像CapitalismLab文章中指出的一样，借贷成为LSD的隐藏赢家。
+除了ETH以外，另外两个引起我们注意的市场是Cosmos和Cardano，它们都拥有超过40%的质押率和数十亿美元的质押资产。Cardano上构建类似产品时非常困难的，一是技术层面的开发难度，而是Cardano只有进入等待期没有解锁等待期，潜在的利差空间非常小。
+而Cosmos不一样。Cosmos提供了20%+的质押利率，远远高于ETH。同时，Cosmos生态普遍拥有14-21天的解锁期，虽然不像ETH那么长，但也提供了一定的空间。Osmosis的质押产品也让我们看到了用户的流动性敏感程度。提供一个8%的活期借贷收益并以12%的利率把ATOM借给杠杆挖矿者，在产品上似乎是可行的。
+当然，实际落地还涉及很多复杂的问题。不过一个比较确定的事情是：POS公链都需要LSD来提高资产效率和质押率（或者叫做公链代币国债化），国债化又势必带来利差，利差又会为借贷提供新的市场空间，这对借贷协议来说非常重要，因为这是为数不多存在刚性需求并且能够带来真正协议收入的业务。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/uxu3j698.html"
                         open
                       >
@@ -10873,7 +10920,7 @@ https://www.defidaonews.com/article/6807444
 内容来源
 隔夜的粥（DeFi 之道）：我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -28458,8 +28505,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4372110456">
-        <time id="build-timestamp" datetime="2023-03-09T07:34:19.717Z">2023-03-09T07:34:19.717Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4372144975">
+        <time id="build-timestamp" datetime="2023-03-09T07:39:35.327Z">2023-03-09T07:39:35.327Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
