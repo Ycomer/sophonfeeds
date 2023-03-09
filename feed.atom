@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T14:02:46.946Z</updated>
+    <updated>2023-03-09T14:10:26.063Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Hedera正遭受攻击，似乎所有dApp智能合约都已暂停]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/0ftiyyjn.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/0ftiyyjn.html"/>
+        <updated>2023-03-09T13:56:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月9日消息，DeFi研究员Ignas发推表示，Hedera 正在遭受攻击。所有使用 Hedera 代币服务 (HTS) 的 Hedera dApp，如 LP 代币或包装代币都会受到影响。攻击者已经攻击了包含包装资产的 Pangolin 和 HeliSwap 池。建议：“现在把你的资金拿出来。” 该漏洞针对智能合约中的反编译过程。桥接代币已被 Hashport 冻结，因此用户现在无法桥接到其他链。Hedera dApps 锁定的总价值正在快速下降。从 Discord 的讨论来看，似乎切换到 HBAR 可能是最好的选择。但情况仍不明朗。似乎所有智能合约都已暂停。“Hedera Network 正在中断。”
+HBAR 基金会发推表示：“我们注意到网络异常正在影响各种 Hedera dApp 及其用户。基金会正在与受影响的合作伙伴进行沟通。我们正在监控并努力帮助解决问题。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hedera正遭受攻击，似乎所有dApp智能合约都已暂停]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/0ftiyyjn.html</id>
