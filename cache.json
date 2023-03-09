@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4267,
+          "wordCount": 4473,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -197,7 +197,7 @@
           "description": "<h3>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品</h3>\n<p>美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。</p>\n<p><a href=\"https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress",
           "publishedOn": "2023-03-09T01:56:04.000Z",
-          "wordCount": 65816,
+          "wordCount": 69974,
           "title": "CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/10/Behnam-10.14-1013x675.jpg"
         },
@@ -457,7 +457,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 10355,
+          "wordCount": 10334,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -477,7 +477,7 @@
           "description": "<h3>Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投</h3>\n<p>据 TechCrunch 报道，Solana 生态 NFT 交易平台 Tensor 完成了 300 万美元种子轮融资，由 Placeholder 领投， Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。Tensor 曾在 2022 年赢得两次 Solana 黑客松比赛，获得了大约 6 万至 7 万美元的奖金。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/",
           "publishedOn": "2023-03-07T12:46:41.000Z",
-          "wordCount": 8582,
+          "wordCount": 8623,
           "title": "Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1329996497-1.jpg?resize=1200,800"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1000,
+          "wordCount": 1010,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -667,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 732,
+          "wordCount": 733,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -797,7 +797,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LionDEX 是部署在 Arbitrum 上的去中心化永续合约交易所，采用创新的 PVP AMM 机制。加密研究员 CapitalismLab 对这一机制的优势和挑战进行详细解读，并对 LionDEX 的具体实现方法进行简要介绍。CapitalismLab 认为，这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">https://twitter.com/NintendoDoomed/status/1632628222268678144</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>PVP AMM 的核心奥义在于：1）Trader 把筹码即保证金放在一个池子里；2）「相对」赚的更多的分到更多的筹码，「相对」赚的少的就亏钱。所谓 PVP，核心就在于「相对」而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌。交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，需要赚的相对比整体更多才能真的 U 本位赚到钱。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a><p><strong>CapitalismLab：</strong>PVP AMM 的优势在于：1）纯 Alpha 交易，不需要太考虑大盘行情；2）可以不需要额外 LP；3）解决所谓单边行情问题。PVP AMM 面临的挑战：1）冷启动：需要有足够的 trader，交易体验才会好；2）使用门槛：机制复杂导致用户理解困难，需要教育好用户才能避免误会。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a><p><strong>CapitalismLab：</strong>LionDEX 主要做了 4 件事：1）实现了 GMX X4 计划中的 PVP AMM；2）LP 叠加 GLP 来做 （X4 例子中是 USDC），赚两份收益；3）做了一个保险模块，减少爆仓风险，提升高杠杆用户体验；4）做了一套促进交易的经济模型，解决鸡生蛋蛋生鸡问题。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a>",
           "link": "https://twitter.com/NintendoDoomed/status/1632628222268678144",
           "publishedOn": "2023-03-06T08:31:48.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】详解 LionDEX 的 PVP AMM 机制：优势及挑战",
           "imageUrl": null
         },
@@ -887,7 +887,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5346,
+          "wordCount": 5552,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -917,7 +917,7 @@
           "description": "<h3>Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism</h3>\n<p>Tornado Cash 早期贡献者 Ameen Soleimani 发推称，Tornado Cash 分叉混币应用 Privacy Pools v0 现已上线 Optimism。Privacy Pools 具备可选择加入或退出的匿名集合，允许用户在无需透露整个交易历史的前提下，将自己从包含被盗或洗钱资金的匿名集合中删除。目前，发布的 Privacy Pools v0 是尚未经过审计的实验代码，是该协议的最小初始实现。</p>\n<p><a href=\"https://twitter.com/ameensol/status/1632083054272430080\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Pricacy Pools 代码库：https://github.com/ameensol/privacy-pools</p><a href=\"https://github.com/ameensol/privacy-pools\">内容来源</a>",
           "link": "https://twitter.com/ameensol/status/1632083054272430080",
           "publishedOn": "2023-03-06T03:04:55.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Tornado Cash 分叉混币应用 Privacy Pools v0 上线 Optimism",
           "imageUrl": null
         },
@@ -977,7 +977,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 19992,
+          "wordCount": 19995,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
