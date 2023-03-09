@@ -57,7 +57,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 跨链通信协议（IBC）的基本目的是将独立的区块链相互连接，以信任最小化、安全、可扩展和通用的方式提供区块链的互操作性。加密研究员 pt1mfv 对 IBC 的基本概念、工作原理、用例等方面进行了全面解析，总结出其独到之处。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">https://twitter.com/pt1mfv_/status/1633108786650005508</a></p>\n<p><strong>文章作者：</strong></p><p>pt1mfv</p><hr><h3>观点：</h3><p><strong>pt1mfv：</strong>Cosmos IBC 由两个不同的层组成，传输层（TAO）建立安全连接，并在链间进行数据验证；应用层定义数据如何在链上被打包、分发和解析，可用于建立广泛的跨链应用，包括代币转移、链间账户、链间查询和预言机数据反馈。为保证生态系统安全，IBC 对发送的数据进行验证，以确保接收区块链可以信任它收到的每个数据包。交易默认是有效的，可以在不同区块链系统之间广播，同时保持数据完整性。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a><p><strong>pt1mfv：</strong>自 2021 年 5 月推出以来，IBC 已经连接了 54 条链，包括 Osmosis、Kujira、Cronos 等等。IBC 兼容的链可以是公有或私有的，并且可以相互通信，不用考虑不同的应用程序和验证器集。但为了实现兼容，链必须有一个即时的最终共识层，以及轻客户端功能。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a><p><strong>pt1mfv：</strong>IBC 在设计、用途和性能方面与其他跨链解决方案有许多不同之处。IBC 不定义需要传递什么样的数据；IBC 提供了与链交互的单一接口，避免用户根据个人需求在不同生态系统中转移资产的需要；轻客户端架构提供了安全方面的升级；作为一个通用互操作性协议，「通用性」也是其独特之处。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a>",
           "link": "https://twitter.com/pt1mfv_/status/1633108786650005508",
           "publishedOn": "2023-03-09T08:03:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】详解 Cosmos IBC 模型：互操作性的瑞士军刀",
           "imageUrl": null
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6\">https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6</a></p>\n<p><strong>文章作者：</strong></p><p>mugglesect</p><hr><h3>观点：</h3><p><strong>mugglesect：</strong>Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】</p><a href=\"https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6\">内容来源</a><p><strong>mugglesect：</strong>需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】</p><a href=\"https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6\">内容来源</a>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6",
           "publishedOn": "2023-03-08T07:08:27.000Z",
-          "wordCount": 5259,
+          "wordCount": 5256,
           "title": "【英文】Gearbox V2 复盘：现状、评估与改进",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*n5WzDNeQFiA1SzfIPiZgfw.jpeg"
         },
@@ -347,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">https://twitter.com/cryptokaduna/status/1633187498150215681</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">内容来源</a><p><strong>Kaduna：</strong>目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">内容来源</a>",
           "link": "https://twitter.com/cryptokaduna/status/1633187498150215681",
           "publishedOn": "2023-03-08T06:13:09.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<h3>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</h3>\n<p>DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。</p>\n<p><a href=\"https://twitter.com/0xstrobe/status/1633228325576474626\">内容来源</a></p><hr>",
           "link": "https://twitter.com/0xstrobe/status/1633228325576474626",
           "publishedOn": "2023-03-08T03:38:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Derivio 是基于预言机的通用衍生品平台，其提供真实收益并引入市场中性（Market Neutral）流动性，旨在解决当前基于预言机的衍生模型的主要缺陷，以在所有市场条件下更好地保护流动性提供者。DeFi 研究员 Midoji 撰推详细介绍 Derivivo，剖析其给交易者和 LP 带来何种便利，以及其与竞品不同之处在哪。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">https://twitter.com/midoji7/status/1632764263004778498</a></p>\n<p><strong>文章作者：</strong></p><p>Midoji</p><hr><h3>观点：</h3><p><strong>Midoji：</strong>Derivio 推出带有永续和数字期权（二元期权）的产品，涵盖广泛的资产：代币、外汇、NFT 和大宗商品。从交易者的角度看，它带来了一整套衍生品和深度的流动性，从 LP 的角度看，它提供了资本保护和真实收益。增强了交易者和 LP 之间的良性循环，促进了流动性的有机增长。【原文为英文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a><p><strong>Midoji：</strong>是什么让它与众不同？1）大多数基于预言机的去中心化交易所在多头 / 空头头寸之间缺乏平衡，使它们容易受到市场波动的影响。Derivio 引入市场中性流动性，如果交易者将市场推向极端，它会促进相反方向的套利机会，从而导致中性押注。由于流动资金池作为交易对手，它们的风险敞口趋于市场中性。【原文为中文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a><p><strong>Midoji：</strong>2）在永续期权市场中性流动性方面，Derivio 引入了资金率，即使用多空比率 (LSR) 和借款利率计算，保护池子免受多头 / 空头不平衡的影响，解决永续 DEX 的交易者抽空池子和操纵滑点两个主要问题。3）在数字期权市场中性流动性方面，其支出是一个 LSR 的函数。通过平衡 LSR，交易者支出更加公平，流动性受到保护。4）取决于投资者的风险厌恶程度，Derivio 将为其提供 3 种不同的风险调整池。【原文为英文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a>",
           "link": "https://twitter.com/midoji7/status/1632764263004778498",
           "publishedOn": "2023-03-07T10:09:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】一文解读引入「市场中性」流动性的衍生品平台：Derivio",
           "imageUrl": null
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1002,
+          "wordCount": 1014,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1321,
+          "wordCount": 1309,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -557,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>EigenLayer 创始人从安全属性的角度对 Rollup 框架产品 Rollkit 支持比特币主权 Rollup 进行了解析，他表示主权 Rollup 为原生资产保留了比特币安全性，但没有办法安全地进行比特币桥接活动。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">https://twitter.com/sreeramkannan/status/1632622108822962178</a></p>\n<p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>1）该系统基本上让主权 Rollup 用户直接将交易写入比特币，然后在链下解释账本，这在比特币领域是一个比较老的想法；2）安全性及有效性始终是确认规则的属性，并不是一个链的属性；3）抗重组性、抗审查、数据可用性及有效性共同决定了一条链的安全性；4）如果我们将比特币作为写入交易的层，那我们从比特币继承了抗重组性、抗审查及数据可用性；【原文为英文】</p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>5）如果我们为主权 Rollup 运行一个全节点，我们可以直接推断有效性；6）如果系统具有链外欺诈 / 有效性证明，那么对于主权 Rollup 的轻节点而言，也可以继承比特币的安全性和灵活性；7）但我们目前没有办法在比特币上写入一个全节点或轻节点的主权 Rollup，因此没有验证的跨链桥可以在主权 Rollup 中转移资产；【原文为英文】</p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>8） Rollkit 支持比特币主权 Rollup 有用吗？如果目标是构建 NFT 或其他基于比特币的链，并在链下对比特币安全性进行解释，那肯定是有用的；9）但是它并非是高性能的，质押比特币安全的唯一方法需要将所有数据写入比特币，但区块限制是 4MB/10 分钟，因此数据率为 53 kpbs；10）如果接收链上有一个 BTC 轻客户端桥及 ZK 证明验证器，那么 BTC Rollup 有效性就可以得到检验。【原文为英文】</p><a href=\"https://twitter.com/sreeramkannan/status/1632622108822962178\">内容来源</a>",
           "link": "https://twitter.com/sreeramkannan/status/1632622108822962178",
           "publishedOn": "2023-03-07T07:03:31.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】EigenLayer 创始人：关于 Rollkit 支持比特币主权 Rollup 的一些见解",
           "imageUrl": null
         },
@@ -627,7 +627,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Proof 研究总监 NFTstatistics.eth 对 CryptoPunk 上架 Blur 前后的销量、地板价等数据进行了分析后表示，上架 Blur 或将为 Punks 带来流动性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">https://twitter.com/punk9059/status/1632865981440872448</a></p>\n<p><strong>文章作者：</strong></p><p>NFTStatistics.eth</p><hr><h3>观点：</h3><p><strong>NFTStatistics.eth：</strong>1）过去 18 个月内，Larva Labs 网站以外的 Punks 销量没有一周超过 10%，但上架 Blur 后，本周已经有 42% 的 Punks 销量来自 Larva Labs 网站以外；2） 96.8% 的 Punks 在 2023 年未被出售过，是蓝筹中最低的，但上架 Blur 后有 18 个 Punks 完成了 2023 年首次交易；【原文为英文】</p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">内容来源</a><p><strong>NFTStatistics.eth：</strong>3）Punks 地板价已经超 220 天没有出现一周 10% 的波动，但上架 Blur 后，过去两天内，Punks 地板价上涨了 5.5%。鉴于地板价的稳定性，CryptoPunks 可能会成为 Blur 空投挖矿的对象；【原文为英文】</p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">内容来源</a><p><strong>NFTStatistics.eth：</strong>上架 Blur 解决了 Larva Labs 网站存在的三个问题，更有助于收集 bid、有效使用 ETH 及解决了前端运行问题。这种对 Punks 的影响是中性或积极的，可能会为 Punks 带来流动性。当然也会有人反驳新的持有者只是为了炒作，但其中或许也会有几个长期持有者出现。【原文为英文】</p><a href=\"https://twitter.com/punk9059/status/1632865981440872448\">内容来源</a>",
           "link": "https://twitter.com/punk9059/status/1632865981440872448",
           "publishedOn": "2023-03-07T03:43:41.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Proof 研究总监：数据角度解析  CryptoPunk 上架 Blur 的影响",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 742,
+          "wordCount": 743,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>LionDEX 是部署在 Arbitrum 上的去中心化永续合约交易所，采用创新的 PVP AMM 机制。加密研究员 CapitalismLab 对这一机制的优势和挑战进行详细解读，并对 LionDEX 的具体实现方法进行简要介绍。CapitalismLab 认为，这种交易模式已经和 CEX PERP 在本质上有了重大区别，是一种真正的 DeFi 原生模式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">https://twitter.com/NintendoDoomed/status/1632628222268678144</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>PVP AMM 的核心奥义在于：1）Trader 把筹码即保证金放在一个池子里；2）「相对」赚的更多的分到更多的筹码，「相对」赚的少的就亏钱。所谓 PVP，核心就在于「相对」而字，如果说 GMX 原本是 GLP 和 Trader 对赌，那么 PVP 就是 Trader 之间对赌。交易者为一个整体，整体赚钱即 Trader PnL 为正，会带动 GD 供给上涨价格下降，需要赚的相对比整体更多才能真的 U 本位赚到钱。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a><p><strong>CapitalismLab：</strong>PVP AMM 的优势在于：1）纯 Alpha 交易，不需要太考虑大盘行情；2）可以不需要额外 LP；3）解决所谓单边行情问题。PVP AMM 面临的挑战：1）冷启动：需要有足够的 trader，交易体验才会好；2）使用门槛：机制复杂导致用户理解困难，需要教育好用户才能避免误会。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a><p><strong>CapitalismLab：</strong>LionDEX 主要做了 4 件事：1）实现了 GMX X4 计划中的 PVP AMM；2）LP 叠加 GLP 来做 （X4 例子中是 USDC），赚两份收益；3）做了一个保险模块，减少爆仓风险，提升高杠杆用户体验；4）做了一套促进交易的经济模型，解决鸡生蛋蛋生鸡问题。</p><a href=\"https://twitter.com/NintendoDoomed/status/1632628222268678144\">内容来源</a>",
           "link": "https://twitter.com/NintendoDoomed/status/1632628222268678144",
           "publishedOn": "2023-03-06T08:31:48.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】详解 LionDEX 的 PVP AMM 机制：优势及挑战",
           "imageUrl": null
         },
@@ -857,7 +857,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>\n<p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a>",
           "link": "https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4",
           "publishedOn": "2023-03-06T04:24:56.000Z",
-          "wordCount": 869,
+          "wordCount": 872,
           "title": "PolyHedra Network 解读：如何构建「多边形」 ZK 生态",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:830/1*iENbqA6ctCMVW8Dz5Mr1sg.png"
         },
@@ -917,7 +917,7 @@
           "description": "<h3>全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任</h3>\n<p>据上海证券报报道，今年全国两会，全国人大代表、中国人民银行沈阳分行行长付喜国拟提交关于修改《中华人民共和国中国人民银行法》的建议。付喜国认为，应完善人民币管理职责，重新对法定人民币的表现形式和制作方式等内容在法律规定中进行界定，赋予数字人民币与实物人民币同等的法定地位；根据数字人民币的特性，全面详细规定数字人民币的发行方式、流通方式、监管方式等内容，防范虚拟货币风险，明确制作和发售数字代币的法律责任。</p>\n<p><a href=\"https://news.cnstock.com/news,bwkx-202303-5026233.htm\">内容来源</a></p><hr>",
           "link": "https://news.cnstock.com/news,bwkx-202303-5026233.htm",
           "publishedOn": "2023-03-06T01:46:45.000Z",
-          "wordCount": 263,
+          "wordCount": 262,
           "title": "全国人大代表付喜国：防范虚拟货币风险，明确制作和发售数字代币的法律责任",
           "imageUrl": null
         },
@@ -957,7 +957,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 19995,
+          "wordCount": 19997,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -1007,7 +1007,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PFP 是 NFT 最早也是最为成功的用例之一，在以太坊各类 NFT 中，PFP 占了 NFT 总市值的 70%。Delphi Digital 研究员 yh.ΞTH 将 NFT 的成功归结于易于理解和炒作，通过盘点 BYAC、Azuki、RTFKT、Doodles 等主流 PFP 项目进展及发展规划，yh.ΞTH 认为 2023 年 PFP 项目将更多地关注和发展主流市场。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">https://twitter.com/yh_0x/status/1631734848405790720</a></p>\n<p><strong>文章作者：</strong></p><p>yh.eth（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>yh.eth（Delphi Digital 研究员）：</strong>Azuki 建​​立了一个以社区为中心的清晰生态系统，而 Hilumia 的推出很可能将所有这些联系在一起。我认为，Hilumia 很可能是一个带有游戏元素的虚拟中心。它还将以高度可视化的方式展示团队正在与社区一起构建的内容。未来的模式很可能是团队继续专注于扩展其 IP 以及和社区共同创造新内容，并开启更高层次的视觉叙事。【原文为英文】</p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">内容来源</a><p><strong>yh.eth（Delphi Digital 研究员）：</strong>Doodles 也刚刚发布了他们的 DoodleMap，清楚地展示了他们想要成为娱乐和生活方式品牌的愿景，一个超越 Web3 并将渗透到主流意识中的品牌。从 Doodles 2 开始，该团队就致力于向主流受众扩展。2023 年可能是 Doodles 继续扩展到游戏、音乐、动画等各种垂直娱乐领域的一年，目标是创造一种文化热潮，从而带来对 Doodles 2 系列的需求。【原文为英文】</p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">内容来源</a><p><strong>yh.eth（Delphi Digital 研究员）：</strong>PFP 项目的成功将不仅仅是空投和其他财务激励。需要通过讲故事和其他独特的价值主张与品牌建立情感联系和参与。留存很重要，但如何获得新受众和建立新收入流的问题也很重要。这些 PFP 项目在 Web3 中建立了强大的社区，并正在朝着有趣的未来路线图建设。2023 年将是 PFP 项目向主流受众拓展的关键一年。【原文为英文】</p><a href=\"https://twitter.com/yh_0x/status/1631734848405790720\">内容来源</a>",
           "link": "https://twitter.com/yh_0x/status/1631734848405790720",
           "publishedOn": "2023-03-05T04:37:40.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Delphi Digital：盘点主流 PFP 项目进展及发展规划",
           "imageUrl": null
         },
