@@ -2,11 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T10:04:41.906Z</updated>
+    <updated>2023-03-09T10:12:48.382Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[数说比特币NFT：累计总数突破32万个，交易市场独立地址总数突破1万个]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/s5l3l96f.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/s5l3l96f.html"/>
+        <updated>2023-03-09T10:10:41.000Z</updated>
+        <summary type="html"><![CDATA[NFT“梦工厂”Yuga Labs于3月7日宣布，基于比特币Ordinals协议的NFT系列TwelveFold结束拍卖，总成交额高达735.71BTC，共有288名投标人中标，中标出价均在2 BTC以上，最高出价为7.1159 BTC。
+比特币链上NFT虽然刚刚兴起一个多月，但被视为一个巨大的市场。研究机构GalaxyDigital认为，以基准模型预测，比特币NFT的市场规模（所有项目地板价*发行数量的和）将在2年内（至2025年）达到45亿美元，交易量达到16亿美元。并且，比特币NFT的发展还有可能推动比特币生态的发展，提高网络的使用率，并有利于提高矿工的收益。
+如果以Ordinals协议0.4.0版本（该版本正式将NFT引入比特币网络）的发布日期2023年1月21日为起始观察时间点的话，至今已有约1个半月时间，在这段早期发展阶段内，比特币OrdinalsNFT的现状是怎样的？
+PAData综合了比特币的链上数据（1月21日至3月7日）和OrdinalsNFT的交易数据对当前的NFT类型、交易规模、用户规模、矿业变化和网络基本面进行分析，结果显示：
+1）比特币上已累计生成了32.88万个OrdinalsNFT，日均新增7148个。其中图片20.88万个，文本11.74万个。近期文本NFT增长最明显。
+2）ordinals.market、ORDSWAP、OrdinalsWallet和OpenOrdex四大市场在2月15日至3月7日期间的累计交易总额约为699万美元，当前总独立地址数突破1万个。
+3）OrdinalsNFT是提高矿工手续费收入的主要原因，未来可能成为主要收入来源。NFT产生的手续费从单日0.00066 BTC增长至0.28428BTC，涨幅约为43257.73%，相当于翻了433倍。在2月中旬，比特币NFT手续费占比一度突破了21%，连续多日高于15%。
+4）统计期内，平均每1万个比特币NFT手续费占矿工总手续费收入的12.47%。比特币NFT数量的增长将会较明显的影响矿工收入。
+5）统计期内，比特币平均区块重量占总容量的平均比重约为87.78%。当前比特币OrdinalsNFT活动没有对其他交易活动形成挤压，只是消耗了本来就空余的空间。这也是目前平均每字节交易费用没有增长的原因。
+在1月21日至3月7日内，比特币上已累计生成了32.88万个OrdinalsNFT，日均新增7148个。从每日生成的数量来看，比特币OrdinalsNFT经历了两个高峰。第一个高峰在2月中旬，其中2月9日、14日和15日的日生成数量都超过了1.5万个，这个高峰或主要受到Bitcoin Punks发行的影响。第二个高峰在3月初，其中2月28日至3月5日每天的日生成数量都超过了1.5万个，最高的3月1日生成了2.48万个，这个高峰或主要受到Yuga Labs发行比特币NFT的消息影响。
+
+总体来看，比特币OrdinalsNFT的发展受到以太坊知名NFT项目或项目方“迁徙”的影响较大，日生成量的波动比较大，符合市场早期的基本特征。
+目前，比特币OrdinalsNFT的类型主要包括图片（image）、文本（text）、视频（video）和音频（audio）这四类。从总量来看，累计总数最多的类型是图片NFT，一共有20.88万个，其次是文本NFT，一共有11.74万个。视频和音频NFT则较少，分别都不足500个。从日均生成量来看，最多的图片NFT在观察期内日均生成了4540个，文本NFT日均生成了2551个，视频和音频NFT日均生成不足15个。
+
+这种类型分布与比特币OrdinalsNFT的生成方式有关，比特币NFT（即铭文数据）是完全在链上的，它是见证数据的一部分，与单个satoshi相互“绑定”，所以NFT的大小受制于比特币区块空间大小，更小的图片和文本NFT具有一定的优势。
+这一点也可以从各类型比特币OrdinalsNFT的生成趋势中观察到。将各类型NFT的日生成数量转化为自然对数，以便在一个更紧凑的尺度上统一观察，从趋势来看，图片和文本NFT均呈显著的增长趋势，尤其是文本NFT，增长趋势线更为“陡峭”，近期增长最明显。而视频NFT增呈下降趋势，音频NFT基本保持稳定。
+从现阶段来看，NFT的主要价值仍然体现在二级市场中。目前，比特币OrdinalsNFT的交易市场主要有4个，分别是ordinals.market、ORDSWAP、OrdinalsWallet和OpenOrdex。在2月15日至3月7日期间，4大市场的累计交易总额约为699万美元，其中，交易额最高的是ordinals.market，约为428万美元，其次是ORDSWAP，约为166万美元，OrdinalsWallet也有将近100万美元。总的来说，这些交易市场的总交易规模都还在百万美元级别。
+
+从4大市场每日交易总额来看，日均总额约为33.3万美元。交易额的增长始于2月28日以后，其中，28日当天的交易额达到了174万美元，此后每日基本保持在50万美元左右，显著高于此前每日10万美元左右的水平。日交易总额的增长趋势是十分明显的。
+从用户规模来看，同期4大市场的累计独立地址数约为5.85万个，其中，OrdinalsWallet的累计独立地址数最多，达到了3.08万个，其次是ORDSWAP和ordinals.market，分别约为1.56万个和1.20万个。
+
+从4大市场累计独立地址数的变化来看，每日独立地址总数增长明显，但近期增速有所放缓。3月7日的独立地址总数已突破1万个，较本月初的3209个增长了211.75%，较2月15日的7个则可以说是实现了从0到1的突破。
+比特币OrdinalsNFT的快速发展，为底层网络带来了一些明显的变化。首先，最直观的变化是，Taptoor的采用率明显上升。
+根据glassnode的分类，比特币使用余额的类型，即可理解为交易类型，一共可以分为8种，包括P2PK、P2PKH、Bare Multisig、P2SH、P2WPKH、P2WSH、P2TR和Non-standard。其中，P2TR指Pay to Taproot，即使用Taproot交易，这种交易类型的占比在1月21日以后呈现显著上升趋势，从1.79%上涨至了6.22%，最高一度接近10%，近期则基本保持在5%以上。
+
+另外两个连锁的直观变化则是交易次数的上涨和每日平均算力的上涨。NFT的生产和转移都体现为链上交易，交易需求的增加自然会影响算力变化。
+根据统计，交易次数的增长比较温和，统计期内从单日28.77万次上涨至单日31.59万次，涨幅约为9.79%。期间最高单日交易次数约为38.18万次，最低约为24.02万次，总体波动并不剧烈。而单日平均算力的涨幅也同样很温和，统计期内从单日259.0 EH/s上涨至单日279.3 EH/s，涨幅约为7.81%，处于历史极高水平。期间最高单日平均算力约为361.6 EH/s，最低约为222.6 EH/s，近期波动较为明显。
+比特币OrdinalsNFT的发展为比特币的应用打开了新的空间，网络使用率的上升带动了矿工收入的增长。矿工单日总手续费收入在统计期内从16.33 BTC增长至24.03 BTC，涨幅高达47.15%，增长十分显著。其中，NFT产生的手续费从单日0.00066 BTC增长至0.28428BTC，涨幅约为43257.73%，相当于翻了433倍。
+
+近期比特币单日总手续费的增长动力主要来自于OrdinalsNFT，两者的相关性在统计意义上显著，即OrdinalsNFT产生的手续费越多，当日的总交易手续费也越多，矿工得益于OrdinalsNFT活动。
+从OrdinalsNFT手续费占当日总手续费的比重来看，统计期内的平均值约为6.61%，即矿工收入的近7%来自NFT活动。不过这只是日均值，受到早期NFT活动较少的影响较大，如果把观察的时间范围缩小至2月份，那么矿工收入的近9%都来自NFT活动。
+值得注意的是，在2月中旬，比特币NFT手续费占比一度突破了21%，连续多日高于15%，NFT在未来有可能成为矿工的重要收入来源。另外，结合比特币NFT的日生成数量来看，在1月21日至3月7日的统计期内，平均每1万个NFT产生了2.36 BTC的手续费，同期日均总手续费约为18.95 BTC，即平均每1万个NFT占矿工手续费收入的12.47%。这表明，比特币NFT数量的增长将会较明显的影响矿工收入。
+不过，就目前的情况而言，这种影响尚未体现。相反，近期比特币网络平均每字节（最小区块空间单位）的交易费用还呈下降趋势，从1月21日的0.0023 BTC下降至3月5日的0.0013 BTC，降幅约为41.52%。并且近期平均每字节交易费用的波动也比较大，最高能达到0.0031 BTC，最低则只有0.00099 BTC。
+
+这与比特币OrdinalsNFT使用的区块空间大小有关。尽管近期受到NFT活动的影响，比特币的平均区块容量呈明显的上升趋势，从1月21日的2.94 MB上涨至3月5日的3.74 MB，涨幅约为26.94%。自2月份以来，平均区块重量基本保持在3.8 MB左右。
+但是，这距离SegWit和Taroot允许的最大重量4 MB仍然有一定空间，根据统计，1月21日至3月5日期间，比特币平均区块重量占总容量的平均比重约为87.78%，不到9成，最高不超过95.5%。这意味着，当前比特币OrdinalsNFT活动仍然在网络可承受范围内，没有对其他交易活动形成挤压，只是消耗了本来就空余的空间。
+
+但这只是比特币NFT的早期阶段，随着NFT的繁荣与发展，未来可能会对比特币链上基本面，尤其是矿业基本面产生更复杂的影响。尤其是NFT集中铸造可能加剧比特币交易手续费的短期波动，而在日常情况下，NFT活动可能会长期提高区块空间的利用率。这可能会催生比特币二层网络的发展，以及用户友好的钱包等其他设施的发展。
+数据说明：
+[1] GalaxyDigital的市场预测报告：
+https://www.galaxy.com/research/whitepapers/bitcoin-ordinals-inscriptions-5-billion-nft-market/]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX提出400万美元的奖金计划以留住员工]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/69z1h36f.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/69z1h36f.html"/>
+        <updated>2023-03-09T10:02:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月9日消息，据CoinDesk报道，根据周二提交的法庭文件，破产的加密货币交易所 FTX 希望推出一项 400 万美元的奖金计划，以阻止具备关键技能的员工辞职。首席执行官 John J. Ray III 希望提供高达工资 94% 的奖金，以阻止那些了解编程或公司会计惯例的人辞职。该计划将于 3 月 29 日在特拉华州法院举行的听证会上进行讨论。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Arthur Hayes：利用期现对冲，打造 “比特币保证金+反向永续合约” 为发行机制的美元稳定币]]></title>
         <id>https://www.panewslab.com/zh/articledetails/cre2qqid.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/cre2qqid.html"/>
@@ -3663,98 +3723,6 @@ Aura 作为 Balancer 生态的龙头，和 Balancer 的发展是相辅相成的�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[为什么Aura Finance可能成为LSD最大的黑马？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/9ynlo1fy.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/9ynlo1fy.html"/>
-        <updated>2023-03-08T10:14:21.000Z</updated>
-        <summary type="html"><![CDATA[原文：《下一轮由LSD驱动的DeFi Summer中，Aura Finance能否成为黑马？》
-作者：
-本文介绍Aura Finance的基本情况，为什么它能够在LSD驱动的DeFi Summer中成为一匹黑马。
-
-LSD，全称Liquid Staking Derivatives，即流动性质押衍生品。也是笔者之前通过数篇文章着重分析的赛道。
-LSD协议是伴随着ETH2.0升级成长起来的DeFi衍生品赛道，随着Lido的TVL超越MakerDAO跃居DeFi榜首，RocketPool、Stakewise等产品的资产规模也不断扩张，俨然LSD已经成为一个蓬勃发展的赛道，方兴未艾。
-尤其以太坊上海升级临近，LSD赛道火热，可以说是今年2023年的一个主旋律。
-随着美国SEC对Kraken平台的处罚，为中心化质押业务敲响了警钟。并且市场也在不断捧高SSV这种，能够帮助质押协议更加去中心化的技术。
-长久看来，无论是从监管层面还是生态系统性安全的考虑，以太坊质押都将走向更加去中心化的道路。
-那么第一个问题就来了，去中心化协议上需要充足的流动性来保证stETH这类流行性衍生品的兑付能力。
-其中笔者认为潜力最大的项目是 Aura Finance，它是由0x Maki 创建的基于 Balancer 生态的收益治理平台。
-用户通过持有 BAL（Balancer）和 AURA（Aura Financ），为 Balancer 上的 LP 和 BAL 质押者提供最大程度的收益激励。
-不过，相比其他 LSD 协议，Aura Finance 关注度并没有那么高，很有可能是上海升级LSD赛道最大潜力股。（相关阅读：《项目研报丨Aura Finance：Balancer生态收益聚合器和元治理平台》）
-首先Aura Finance之于Balancer，就极其类似于Convex之于Curve。因此要来解释为什么Aura 能够影响协议的流动性，我们就用大家更为熟悉的Convex和Curve来解释，并最后替换一下主体即可。
-在 Curve 设计的机制中，持有者只有凭借将 CRV 在锁定后获得的 veCRV，才能够捕获 Curve的价值、发挥代币的功能并行使治理权力。
-这种治理权利可以在每周决定每一个池子排放CRV奖励的权重，APY 更高的池子，自然会吸引到更多的 LP 资金前来获取收益，更多的LP资金也就意味着个更好的深度，滑点更低的兑换。
-所以本质上，veCRV 就代表了对 Curve 的控制权。
-我们可以看到Lido的stETH在Curve上的交易对ETH-stETH的TVL为17亿美金，日交易量450万美元。
-如此庞大的TVL为stETH提供了充沛的流动性，保证了它的兑付能力，用户就可以放心拿着stETH做各种事情了。
-因此我们能够看出veCRV的投票权带来特定池子的高收益，进而带来的充沛流动性的重要性。
-
-那么现在就来到Convex了，在Convex 中用户通过质押 CRV 1:1的持有 cvxCRV，即可获得更高的收益，即Curve 平台费用收入+3Crv 奖励，以及 CVX 奖励，但却损失了直接持有veCRV的投票治理权力。
-也就是说用户通过让渡自己 CRV 的潜在投票权，换取了比正常在 Curve 质押更高的一站式收益（增加了CVX的奖励）。
-CVX 是 Convex 的原生代币，最大供应量为1亿枚，持有 CVX 便相当于拥有了对 Convex 的控制权——CVX 作为 Convex 平台的治理代币，通过锁定 CVX 便可以让 LP 对 Convex 的 veCRV 治理决策进行投票。
-一言以蔽之，控制了 CVX，就是控制了 Convex，而控制了 Convex，就等同于控制了 Curve。
-那么接下来显而易见的事情就发生了，如果项目方要获得充足的流动性，那么他就可以去购买足够的Convex或者去贿赂Convex的持有者。
-最终将治理决策权放在自己的手里，将高收益分配到自己的池子里去，吸引大量追求高收益的LP入驻，从而增加流动性。
-现在我们把Aura Finance当成Convex，将Balancer当成Curve，就可以大致理解为什么Aura Finance能够在流动性的选择上发挥作用了。
-数据显示，目前 veBAL 已铸造总量约为 1044.49 万，其中 Aura 是排名第一的持有者，持有约 276.95 万 veBAL，占比约 26.53%。
-
-由此也意味着 Aura 平台整体占据了 Balancer 约 26.53% 的治理权，贿赂 vlAURA 的持有者也成为了项目方们的一个重要选择。
-目前可以在 Hidden Hand 平台为 BAL 奖励分配权重的选举进行贿赂，吸引 vlAURA 的持有者投票给对应的池子。
-
-2、为什么选择Aura Finance而不是Convex
-更高的APY
-Aura Finance有不少机制设计来保证相对高的收益。
-例如，对于LP来说，Aura 消除了 Balancer Gauge 加速池系统（gauge boosting system）的复杂性，为所有 Balancer 流动性 Gauge 存款提供流畅的使用流程。
-Aura 允许 LP 通过协议拥有的 veBAL 提升高额收益，同时还可以积累额外的 AURA 奖励。
-
-上图左边是Curve，右图是Balancer，下图是Aura Finance，很明显能够看出Aura Finance的rETH-WETH的收益率高达6.75%，相比其他两个平台的收益将近是两倍的差距。
-更高的资本效率
-项目方通过贿赂获得这种收益和贿赂成本的比值也叫做资本效率，数据显示，每消耗 1 美元就会产生 2.35 美元的排放量，Aura Finance 的资本效率比 Convex 高出 64% ，这样的结果就会吸引更多的项目方。
-
-更低的Gas费用
-在其他 DeFi 协议上进行交易时，token 通常在多个池之间转移，包括逻辑在内，这是一个高度消耗 Gas 的过程，被称之为多跳交易（multi-hop trading）。
-比如，下图是 BTC 和 stETH 之间的示例（可以看到其中的 Gas 消耗很高）。
-
-在 Balancer 上，此类大量消耗 Gas 的操作得到了改善，所有的账户都在一个环境之下，只有最终数量的 token 被转移到 vault 和从 vault 转出。
-BTC > stETH，Balancer 消除了对 Gas 频繁消耗逻辑的需求，这种创新被称为 BatchSwap（批量交换）。
-Gas费消耗的降低，有利于散户的进入和高频交易，是行业发展的必定趋势。
-庞大的合作关系网络
-Aura Finance的创始人是0xMaki，也是Sushiswap曾经杰出的领导者，在Maki接受了Sushiswap之后，组建了核心团队，并且与DeFi蓝筹协议建立了合作关系。
-最重要的是创造了与Uniswap不同的发展路线图，帮助Sushiswap成了当时足以撼动Uniswap的DEX之一。
-正是由于Maki的特殊身份，这次创业也极大的发挥了他个人的价值和关系网络，Aura Finance 已然默默与几乎所有主流 LSD 协议建立了合作关系。
-其中包括 Lido、Rocketpool、Frax、Swell、Stakewise、Stader、Ankr 和 StaFi 等，所有这些协议都将在上海升级阶段开始提供激励措施。此外，期待更多其他项目（EtherFi、Diva、Swell）的跟进。
-Rocketpool 算是第一个意识到 AURA 潜力的项目，自 3 个月前开始激励以来，rETH-WETH 的流动性增加了 6 倍，导致交易量和费用大幅增加，目前 RPL 仍然是 Aura Finance 上最大的参与者之一。
-
-正如前面分析Curve和Convex的案例所描述的，对于在 Balancer 建池的 Rocket Pool而言，只要rETH/WETH池的 BAL 奖励分配权重越高，就会吸引越多的人在 Rocket Pool 质押 ETH 获得 rETH，然后到 Balancer 提供流动性进行挖矿，使 Rocket Pool 在 LSD 赛道的市占率上升。
-同时，池子的流动性越高，rETH 的脱锚风险也就越小。
-对于新的LSD协议来说，尚未开垦的经济模型是他们的最大优势，直接以代币激励的方式挖矿吸引资金流入，对老牌协议发起一场类似“吸血鬼攻击”，说不定来一场 LSD 挖矿Summer呢？
-Aura Finance背靠Balancer 的流动性支持，或许也能成为一匹黑马。
-RPL 的做法为基本的 LSD 增长给出了范例：支付投票奖励——增加流动性和 TVL——集成以建立安全和差异化的产品。从结果上看，其他合作的协议效仿并开始抢夺投票权只是时间问题。
-
-OlympusDAO 购买了 20 万美元，并将在未来 4 个月内再次购入 80 万美元，最近还在 Aura 中存入了价值约 7000 万美元的 BPT。此外，他们还卖出了 CVX 头寸用来买入 AURA。
-Frax Finance 也正在寻求积累 AURA，正如其 founder Sam 所暗示的那样，Frax 正在讨论针对增强型 FRAX 池的试点投票激励计划。
-Synapse Protocol 也提议将 SYN 流动性迁移至 Balancer，并开始在 Aura 上提供投票激励。每轮大约 10 万美元的投票奖励，这将使 vlAURA 收入增加约 30% 。
-Redacted cartel 将在上海升级后推出其 LSD 支持的稳定 DINERO，且很可能通过其 vlAURA 持有来激励流动性。
-Stargate Finance 是 Aura 的主要利益相关者，最近也提供了 21 万美元的激励措施，也是其迄今为止投入 Aura 的最大一笔激励资金。
-Aave 的激励计划近期也提上了日程，将在未来几天推动锁定 veBAL 的提案，也可以通过 Aura 激励 GHO 流动性。
-
-Alchemixfi 已将其 ALCX 的流动性转移至 Balancer，并将通过其 TOKE 持有的资金购入 AURA，未来的 Alchemix 资产可能会被整合，并且关于提供投票激励的讨论已经在进行中。
-谈及 Arbitrum，一旦可以进行跨链，可能会看到很多 Arbitrum 项目进入其 Aura 生态。比如，当 MAGIC、JONES、GMX、GNS、DOPEX、VSTA 等都开始与 LSD 一起激励 vlAURA 投票时会发生什么？
-与 Aura 的合作还在继续，后续新的合作伙伴包括 Ribbon、Liquity、Pendle、Gearbox、Euler 等。
-最近的解锁的 vlAURA 的 70-80% 都进行了再次锁定，几乎没有卖出。像 Gnosis、Badger 和 Messi 这样的大户都是长期持有的，他们每几周都会不断累积锁定 AURA。
-
-Nansen smart money 通过在过去一个月内的积累，token 数量涨了 5 倍。Arca也在过去一个月内大量买入：
-
-4、总结
-根据 DefiLlama 的数据，当前 Aura 的 TVL 为 6.17 亿。
-
-Aura 作为 Balancer 生态的龙头，和 Balancer 的发展是相辅相成的，目前包含大量 LSD 协议在内的项目方涌入 Aura。
-目前 Balancer 流动性最大的前三个池子分别为 wstETH/WETH、BAL/WETH、rETH/WETH，第二名是与 veBAL 相关，另外两个池均为 LSD 相关（Lido 和 Rocket Pool）。
-本质原因在于其资本效率优于传统的流动性奖励模式，也优于同赛道的 Convex。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[数据解读以太坊质押赛道：市场份额、增长率、节点运营商表现…]]></title>
         <id>https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E</id>
         <link href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E"/>
@@ -3776,81 +3744,6 @@ Aura 作为 Balancer 生态的龙头，和 Balancer 的发展是相辅相成的�
 <p><strong>文章作者：</strong></p><p>Dr.DODO</p><hr><h3>观点：</h3><p><strong>Dr.DODO：</strong>TL;DR：1）以太坊质押率较低，增量空间巨大，LSD 市场增长可持续；2）上海升级将打通 LSD 产品最后的提现环节，LSD 的锚定性和流动性将大幅提升；3）Lido 头部效应明显，复合增长率长时间处于高位，底层节点运营商竞争力强，DeFi 乐高丰富，综合来看竞争力最强，捕获了 LSD 大部分增量，是第一梯队龙头项目；4）第二第三梯队项目差距不大，之后将会迎来较大竞争；5）LSD 将带动整个 DeFi 板块，各种 DeFi 协议将围绕 LSD 展开竞争，LSD War 刚刚拉开序幕。</p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">内容来源</a><p><strong>Dr.DODO：</strong>1）增长率：Lido 增长率一直很高，大部分时间保持增长状态，并多次有大额质押带动巨额增长；Rocket Pool 增长率基本为正，近期波动收窄；Frax 一月到二月初增长率保持较高水平，近期增长率为负，表现不佳；Stakewise 大部分时间增长率较低或为负，市场竞争力差；2）节点运营商表现：Lido APR 保持第一；众包模式的 Rocket Pool 罚没较多，APR 相对较低；Ankr APR 表现最差。</p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">内容来源</a><p><strong>Dr.DODO：</strong>3）折价表现：stETH 在去年 Luna 崩盘等事件中有大幅脱锚情况，一段时间后回复锚定，总体来看能维持锚定。SETH2（Stakewise）类似；RETH（Stafi）波动较大；rETH（Rocket Pool）长期保持溢价且溢价有所上升；ankrETH 曾大幅折价，近期恢复锚定；frxETH 数据较少，早期波动较大；4）LSD 的用处去向：超过 50% 的 stETH 流动性被释放到 DeFi 协议中，三大去处：封装 stETH，享受质押收益的同时接入 DeFi；AAVE 抵押；Curve 挖矿。</p><a href="https://mirror.xyz/0x70562F91075eea0f87728733b4bbe00F7e779788/mK8AsNahzO5r-Sp8gCbr_sIC_S5RxdoJfaOSQ7Ooh_E">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[详解三款大制作游戏Bigtime、Illuvium和Parallel的内测玩法和资产市值]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/bmgcxzdm.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/bmgcxzdm.html"/>
-        <updated>2023-03-08T09:42:17.000Z</updated>
-        <summary type="html"><![CDATA[做了丰富的铺垫后，大制作链游已先后开启了内测。
-此前，PANews统计融资2022年年报，数据显示2022年链游赛道公开投融资事件共334起，融资总规模为44亿美元。其中，融资500-1000万美元和1000-5000万美元的项目居多，少数融资超过5000万美元。其中，部分融资极高且大制作类型的游戏也已经开启内测，并有望于2023年正式上线。本文PANews将为你介绍对比Bigtime、Illuvium、Parallel三款游戏，以及其目前的内测情况。
-Bigtime是一款结合了动作格斗、NFT收集和跨越历史的多人合作RPG冒险的3A游戏，由Decentraland联合创始人Ari组建，开发团队来自使命召唤、英雄联盟、堡垒之夜等游戏团队。2021年5月12日，Big Time Studios宣布完成2100万美元融资，由FBG Capital领投。该团队同时开发了Web3游戏资产交易平台Openloot。
-Big Time Studio在2021年年末和2022年3月份举行两次公开销售游戏内资产Space NFT，Space NFT与Decentraland和Sandbox中的LAND具有相似的功能，其价格根据大小等级分为299-3299美金不等。两次公开销售的Space NFT数量共为6万个，占总量的10%。其余SPACE NFT将作为战利品掉落，掉落周期将持续数年。官方通过售卖6万款Space NFT一共获得7000万美金。
-此外，官方售卖抢先体验VIP通行证、电影时刻 NFT、独家高概念艺术，以及名为“来自时空的明信片”的神秘盒子系列获得超千万美元收入。
-内测玩法
-Bigtime于2022年4月19日开启内测，游戏在PC端上线。持有VIP通行证可以参与内测，内测时有几率爆出稀有款NFT，玩家获得此类NFT后可以在Openloot市场进行交易。据社区反馈，欧皇玩家游戏过程中爆出超级稀有NFT后可当场回本。
-据官方信息，VIP通行证分为黄金（总量1000个）、白银（总量3000 个）、翡翠（总量8000个）和红宝石（总量16000个）共四个等级。其中前三者均通过二级市场出售，红宝石通行证仅对创作者、艺术家和社区的核心贡献者免费开放。
-游戏内测进入模式为分批进去。持有黄金通行证的玩家最早进入内测，五周后白银通行证玩家进入，八周后翡翠通行证玩家进入，2022年7月14日红宝石玩家进入。玩家进入内测越早，游戏过程中获得稀有NFT的爆率越高，同时游戏内会掉落一些Space NFT。
-
-游戏生态内除多种装饰和效用性NFT外，还将在抢先体验阶段结束时上线游戏内代币TIME。该代币仅在游戏中可用，并且只能通过游戏战斗、任务和副本的方式产出。没有投资者或员工能够获得赠款或购买TIME代币，也没有私募、预留等。其用途为游戏内主要的价值传递媒介，包括购买稀有或专属的NFT饰品、加快装备的制作时间以及修复破损和消耗的物品。
-代币产出具体为玩家需要持有空间（Space NFT）、时间守护者（Time Wardens）、时间沙漏（Hourglass）这3款NFT，将时间守护者NFT部署在空间上，再用时间沙漏NFT充能，即可在游戏过程中掉落代币。沙漏中的沙子会逐渐消耗，玩家需要用时间守护者和游戏代币充能以继续使用。越多的时间沙漏同时运作，掉落的游戏代币越多。
-Bigtime于2023年2月份开启空投活动，每个月向符合条件的账户空投礼物盲盒，共计15.3万个效用性NFT，包括军械库、熔炉、时间守卫。空投规则为积分等级制，分为5个等级。同1等级的玩家获得的空投内容是相同的。积分构成为资产积分和游戏积分。用户账户持有的Bigtime NFT资产越多、越稀有、越高价值，获得的资产积分越高。用户通过完成游戏副本可获得游戏积分。当积分满足要求即可获得空投。现在玩家可以通过报名参与内测，从而获得游戏积分博取空投。
-
-资产市值
-Bigtime代币目前尚未上线二级市场，NFT资产多样。有盔甲、武器、装饰品、神秘盒子等。此处以主要NFT资产Space NFT计算。
-Space NFT稀有类小、中、大空间地板价价值分别为60美金、90美金、348美金，最大供应总量分别为16.8万个、6.8万个、7200个。史诗类小、中、大空间价值分别为73美金、117美金、398美金，供应总量分别为10.8万个、6.3万个、9000个。传奇类小、中、大空间价值分别为98美金、165美金、500美金，供应总量分别为7.2万个、3.6万个、1.2万个。神话类小、中、大空间价值分别为185美金、315美金、1189美金，供应总量分别为2.64万个、1.68万个、4800个。崇高类小、中、大空间价值分别为719美金、1280美金、2799美金，供应总量分别为6000个、3600个、2400个。其市值为8806万美金。
-另外，Openloot接受借记卡和信用卡、电汇、以太坊、比特币和 USDC。也就是说用户购买NFT资产无需安装钱包，使用传统购买商品的方式也可。这为对加密资产和工具不熟悉的用户提供了便利。
-内测用户
-目前参与测试的用户包括早期申请测试者、VIP通行证持有者，还有超过二十家公会参与。其中包括YGG、Merit Circle、Avocado Guild、Loudgg和Neo Tokyo等。根据第三方网站查询工具similarweb数据显示，Bigtime官网访问量逐月增长，1月份访问量为15.2万次，访问时长为2分钟左右，访问地区以美国和菲律宾为主。
-
-Illuvium
-2021年1月份，Synthetix联合创始人Kain Warwick的兄弟Kieran Warwick和 Aaron Warwick推出区块链游戏Illuvium。Illuvium是一款沉浸式的开放世界RPG的3A级游戏，其搭建在以太坊二层解决方案ImmutableX上。
-玩家开始游戏时定制自己的角色，并选择一个随行的无人机作为跟班。然后，玩家开始探索游戏的开放世界，收集并与他们遇到的Illuvials战斗。被打败的Illuvials可以通过碎片捕获，并被铸成NFT。每个玩家在玩游戏时都有五个关键的游戏机制或模式可以参与冒险模式、采矿和收割、团队建设、融合系统、战斗竞技场。在这五个模式中玩家可以捕获Illuvials、获得更高等级的Illuvials，以及赢得ETH代币。
-2021年3月份，Illuvium团队获得500万美元种子轮投资，Framework Ventures领投，IOSG Ventures、Delphi Digital等参投。4月份通过Balancer LBP销售100万枚代币筹集到3800万美元。2022年6月份通过销售2万块土地筹集7200万美元。根据官方信息，其共计划销售10万块土地。
-内测玩法
-2022年3月Illuvium上线自走棋对战游戏Arena的私人测试版，2022年12月份开始部署开放世界抓宝游戏Overworld。用户可以通过注册申请内测、官方Discord频道达到5级、推特推广等途径获得内测Arena和Overworld的资格。2023年1月6日开启土地经营挖矿游戏“Illuvium: Zero”的Alpha 0测试，2月21上线Alpha 1测试（目前官方信息已推迟上线）。Illuvium: Zero的测试对其所有土地所有者开放，游戏在Android、Windows和MAC端上线。
-当前Arena和Overworld处于暂停状态，只开放Zero。lluvium Zero的AlphaI测试版是Illuvium土地持有用户首次在游戏中体验土地功能，这也是Illuvium对游戏进行大规模测试、平衡和调整的机会。在Illuvium Zero的Alpha版本期间，收入经济将不会上线。玩家可以保留在Alpha中获得的蓝图，Illuvium Land只有在Illuvium Zero与Illuvium公测一起发布时才会开始产生收入。
-
-测试期间玩家可以在免费的T0土地（Alpha测试期间不可用）上玩Illuvium Zero，或者购买T1-5土地后参与游戏盈利。玩家在Illuvium生态的所有游戏中都使用Fuel作为货币，在Zero、Overworld和Arena经济生态中相通。
-Fuel分为三种：Crypton、Hyperion和Solon，其在Illuvium生态系统中用于各种目的。具体为Hyperion用于治疗碎片和捕获Illuvials，Solon用于制作武器、盔甲和其他升级品，Crypton 用于前往不同的地区。此外，Fuel也可以用于在Illuvium Zero中建造高级结构并升级这些建筑。
-尽管因为市场因素Fuel的相对价值会随时间波动，但Illuvium土地上的所有Fuel Sites本身都同样稀有。FUEL 仅作为游戏内货币存在，现阶段不能转移到另一个钱包或Land Plot。后续会上线Balancer池，届时用户可以在IlluviDex上将其交换为ETH。
-Illuvium中的Megacities（特大城市）允许将构成2x2或3x3正方形的相邻地块组合成一个更大的地块。Megacities的预期好处有：在地块之间分享地标奖金的能力、能够在地块之间共享资源而无需转移成本（无论是时间还是资源）、共享工程实验室等支持性建筑的能力从而增加可用空间。Illuvium游戏内目前不提供Megacities，具体上线时间待官方公布。
-Illuvium还上线了一种高级货币Credits（信用分），可用于执行特殊操作，从而提升效率。具体可用于活动加速（例如建筑和工厂拆除）、购买额外的建设者插槽（Alpha测试期间不可用）。玩家可以在Illuvium Zero中通过在游戏内移除植物或完成目标，以及游戏内购买获得Credits。但在Alpha期间，玩家无法购买积分。
-根据官方信息，Illuvium将于3月8日6时推出Illuvium：Beyond游戏，届时玩家可以根据Illuvium的游戏角色竞争收集Illuvitar NFT。Illuvitar是一个可定制的NFT集合，其中包含拥有各种配件、背景和表情的Illuvials插图。Illuvitar分为基础层和底座，Illuvitar基础层是专为数字自我表达而设计的手绘艺术作品，Illuvitar底座可以使用数千种不同的配件组合进行个性化设置，每一种都包含不同程度的稀有物。这种稀有物直接播放到收藏游戏Illuvium Album中，完成数百个独特属性链接的收藏并填充到相册中，可赚取积分榜排名。
-为确保所有用户都有机会收集最稀有的物品，Illuvitars将以两种类型的打包出售，即Illuvitar D1SK和Mega D1SK。Illuvitar D1SK包括1件奖励等级Illuvitar、1件随机Illuvitar、3个配件，Mega D1SK包括1件稀有物、1件随机Illuvitar、3个配件。用户可以在销售窗口期间铸造无限数量的Illuvitars。一旦销售结束，这些Illuvitars将永远不会再铸造。
-
-资产市值
-Illuvium土地首次拍卖中T1土地数量为12029块，T2土地数量为5012块，T3土地数量为2088块，T4土地数量为869块，T5土地数量为2块。根据Illuvium的资产交易市场IlluviDEX数据显示，其当前地板价分别为0.35E、1.05E、2.78E、11.34E，T5暂未被挂单。土地估算市值为23044E，折合3627万美元。根据Coinmarketcap数据，其代币ILV当前流通市值为1.81亿美金，总市值为7.89亿美金。
-内测用户
-根据Illuvium的内测规则，Arena和Overworld版本内测申请通道较为灵活，社区玩家均有机会参与其中。Zero的Alpha版本仅对土地持有人开放，有资格参与测试的用户上限为2万名。
-根据第三方网站查询工具similarweb数据显示，Illuvium官网近三个月访问量为50万次左右，1月份访问量稍有下降，用户评价访问时长为6分钟。其访问地区主要为美国和法国。
-
-Parallel
-Parallel是一款基于ETH链的集换式科幻性NFT集换式卡牌（TCG）游戏，玩家可以通过购买和收集卡牌，灵活使用不同的卡牌去组合符合规则的套牌进行游戏获得奖励。其团队成员来自《刺客信条》、《Valorant》等3A游戏，YouTube联合创始人Chad Hurley于2021年3月加入该团队。2021年10月22日，Parallel宣布以5亿美元估值获得Paradigm的5000万美元投资，其基金会为Echelon。并且其游戏内NFT资产二级市场交易版税为团队创收7560枚ETH，折合价值1194万美元。
-内测玩法
-Parallel于2022年12月6日官方开放抢先体验的申请入口，封闭式Alpha测试于2023年2月28日开始，分3次进行。每次将持续大约1周。第3次封测之后，进行最后一次集体测试，时间在第四周周末。封闭Alpha测试将于3月26日结束。根据官方信息，在整个Alpha测试期间，参与测试的成员有希望获得PRIME代币空投。该奖励可能会在封闭式Alpha测试结束后发放。
-根据Parallel白皮书信息，该游戏有多种NFT，均通过拍卖或售卖分发。根据PANews依据官方动态不完全统计，Parallel通过向社区售卖NFT资产获得超22000枚ETH，现价折合3477万美元。
-Parallel Alpha系列共计1228类卡牌，总数580万张。Parallel Auxiliary Items系列共计11类卡牌，总数9834张。两个系列的卡牌中包括装饰品Special Edition、Perfect Loop、Prime、Assets等，可以用来赚取更多PRIME代币。以及基于神话故事的5种不同的Parallel角色：Earthen、Marcolian、Augencore、Kathari和Shroud，
-玩家在游戏过程中需要集齐40张卡牌组成一副牌，游戏模式分为1V1模式、3V3团队模式、轮抽模式。每个玩家都有一个总生命值，获胜条件是让另一个玩家的生命值变为0。截至目前，玩家的初始生命值为30。
-
-但因为Parallel游戏内资产均在以太坊主链上，用户要在上千类卡牌中凑齐一整套卡牌，中间所产生的GAS费极高，这极大提高了用户的入场门槛。
-资产市值
-Parallel最近的官方文档披露的经济模型与白皮书中经济模型不一致，此处以最近的官方文档数据为准。依据此文档，PRIME代币的总供应量为111,111,111.111枚。其中Gameplay池分配30%，用来支持Echelon生态系统内开发的所有游戏。投资者分配16.24%，创始团队分配15.064%，Caching池分配14.1%，Echelon基金会分配10.996%，Prime Event分配9%，Parallel储备4.6%。
-投资者和创始团队的代币按照24个月周期线性解锁，投资者从2023年7月18日开始，创始团队从9月30日开始。Parallel于2023年3月1日开始释放PRIME代币，彼时其流通量为2020万枚。根据echelon网站信息，当前PRIME代币被领取总量为1564万枚，未领取数量为449万枚。
-
-根据Coinmarketcap数据，PRIME代币当前流通市值为6192万美元，总市值为3.52亿美元。其NFT资产种类1239种，共600万张。Parallel Alpha系列中各类型地板价最低为0.0015ETH，最高价60ETH，不过有价无市居多。Parallel Auxiliary Items系列中各类型地板价为0.168-0.69ETH不等。根据日成交均价估算其市值为93.2万枚ETH，折合价值9.2亿美元，该估值虚高。
-内测用户
-Parallel通过向社区开放申请测试名额的方式分批向社区分发测试权限，测试版本上线后未申请的用户便无法再通过免费途径获得测试机会。购买Alpha Access Pass的用户在3波测试过程中均有访问权限。
-根据第三方网站查询工具similarweb数据显示，Parallel官网访问量1月份暴增，相比此前月访问量增长4倍有余，与开放内测及其代币上线有关，访问时长为4分钟，访问地区主要分布在美国和加拿大。
-
-总结
-从团队阵容看，以上三款游戏的核心团队均有成功且知名游戏的开发、设计和运营的经验。融资规模也都相当可观，同时通过售卖游戏内资产和版税获得不菲收入。其中Bigtime通过融资和售卖NFT资产获得超1亿美元，Illuvium通过融资、售卖代币和NFT资产获得1.15亿美元，Parallel通过融资和售卖NFT资产获得9600万美元。
-三款游戏中Bigtime的代币只通过玩家玩游戏的方式产出分发，其余两款游戏为团队、募资、游戏内多渠道分发。三者均通过售卖NFT资产获利，其中属Bigtime获利最多。Bigtime和Illuvium均有大量土地资产待分配，不同的是Bigtime是通过用户玩游戏免费掉落，而Illuvium是通过售卖。代币市值上Illuvium为Parallel的2倍之多，Bigtime的代币暂未上线二级市场。
-从用户进入门槛来看，Bigtime支持用户通过传统方式购买资产和进入游戏，而Illuvium和Parallel全程需要用户使用区块链钱包，这提高了用户入场门槛。从路线规划看，Bigtime专职游戏，其余二者均以游戏出发，向游戏平台迈进。
-如前文所说，2022年属于熊市周期，但游戏融资规模依然不菲，且多个大制作类型的游戏均陆续测试并上线，游戏板块或已经在蓄力待发。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
