@@ -127,7 +127,7 @@
           "description": "<h3>非托管流动性质押平台 ether.fi 将分三个阶段启动</h3>\n<p>去中心化的非托管流动性质押平台 ether.fi 宣布将分三个阶段启动：第一阶段：四月，在上海升级之后上线主网以及 ETH 委托质押。第二阶段：2023 年 Q2 或 Q3，eETH 流动性池上线。第三阶段：2023 年 Q4 或 2024 年 Q1，推出无许可节点市场。</p>\n<p><a href=\"https://twitter.com/ether_fi/status/1633485729924784137\">内容来源</a></p><hr>",
           "link": "https://twitter.com/ether_fi/status/1633485729924784137",
           "publishedOn": "2023-03-09T05:12:04.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "非托管流动性质押平台 ether.fi 将分三个阶段启动",
           "imageUrl": null
         },
@@ -417,7 +417,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5549,
+          "wordCount": 5537,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -437,7 +437,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 11752,
+          "wordCount": 10848,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 993,
+          "wordCount": 1013,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1283,
+          "wordCount": 1289,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 742,
+          "wordCount": 745,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -747,7 +747,7 @@
           "description": "<h3>Arweave 2.6 版本正式上线，难度和出块速度已趋于稳定</h3>\n<p>去中心化存储协议 Arweave 创始人 Sam Williams 发推特表示，Arweave 2.6 版本已上线，挖矿难度和出块速度已趋于稳定。\n\n据悉，Arweave 2.6 版本限制了计算密集型挖掘策略，使 Arweave 挖矿更加节能，同时激励矿工存储更多数据，从而产生更高效的存储市场。</p>\n<p><a href=\"https://twitter.com/samecwilliams/status/1632693912103014400\">内容来源</a></p><hr>",
           "link": "https://twitter.com/samecwilliams/status/1632693912103014400",
           "publishedOn": "2023-03-06T11:17:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Arweave 2.6 版本正式上线，难度和出块速度已趋于稳定",
           "imageUrl": null
         },
@@ -937,7 +937,7 @@
           "description": "<h3>币安曾邀请美 SEC 主席 Gary Gensler 担任顾问</h3>\n<p>据华尔街日报报道，在 2018 年和 2019 年期间，币安工作人员曾邀请前商品期货交易委员会主席、现任美国证券交易委员会主席 Gary Gensler 担任顾问。当时在麻省理工学院任教的 Gensler，「如果民主党赢得 2020 年大选，可能会回到监管机构」。时任币安风险投资部门负责人的 Ella Zhang 和 Harry Zhou 于 2018 年 10 月会见了 Gensler ，Zhou 写到：「虽然 Gensler 拒绝担任顾问，但他在分享许可策略方面很慷慨」。</p>\n<p><a href=\"https://www.wsj.com/articles/texts-from-crypto-giant-binance-reveal-plan-to-elude-u-s-authorities-3a17ddeb\">内容来源</a></p><hr>",
           "link": "https://www.wsj.com/articles/texts-from-crypto-giant-binance-reveal-plan-to-elude-u-s-authorities-3a17ddeb",
           "publishedOn": "2023-03-06T01:36:40.000Z",
-          "wordCount": 7315,
+          "wordCount": 7308,
           "title": "币安曾邀请美 SEC 主席 Gary Gensler 担任顾问",
           "imageUrl": "https://images.wsj.net/im-736222/social"
         },
@@ -957,7 +957,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 19910,
+          "wordCount": 19937,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -977,7 +977,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">https://twitter.com/blockomotive/status/1631996549214482432</a></p>\n<p><strong>文章作者：</strong></p><p>Cl3m</p><hr><h3>观点：</h3><p><strong>Cl3m：</strong>ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a><p><strong>Cl3m：</strong>另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】</p><a href=\"https://twitter.com/blockomotive/status/1631996549214482432\">内容来源</a>",
           "link": "https://twitter.com/blockomotive/status/1631996549214482432",
           "publishedOn": "2023-03-05T08:00:08.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】ERC4337 的两个挑战：中心化与经济模型",
           "imageUrl": null
         },
@@ -2524,7 +2524,7 @@
           "description": "NFT“梦工厂”Yuga Labs于3月7日宣布，基于比特币Ordinals协议的NFT系列TwelveFold结束拍卖，总成交额高达735.71BTC，共有288名投标人中标，中标出价均在2 BTC以上，最高出价为7.1159 BTC。\n比特币链上NFT虽然刚刚兴起一个多月，但被视为一个巨大的市场。研究机构GalaxyDigital认为，以基准模型预测，比特币NFT的市场规模（所有项目地板价*发行数量的和）将在2年内（至2025年）达到45亿美元，交易量达到16亿美元。并且，比特币NFT的发展还有可能推动比特币生态的发展，提高网络的使用率，并有利于提高矿工的收益。\n如果以Ordinals协议0.4.0版本（该版本正式将NFT引入比特币网络）的发布日期2023年1月21日为起始观察时间点的话，至今已有约1个半月时间，在这段早期发展阶段内，比特币OrdinalsNFT的现状是怎样的？\nPAData综合了比特币的链上数据（1月21日至3月7日）和OrdinalsNFT的交易数据对当前的NFT类型、交易规模、用户规模、矿业变化和网络基本面进行分析，结果显示：\n1）比特币上已累计生成了32.88万个OrdinalsNFT，日均新增7148个。其中图片20.88万个，文本11.74万个。近期文本NFT增长最明显。\n2）ordinals.market、ORDSWAP、OrdinalsWallet和OpenOrdex四大市场在2月15日至3月7日期间的累计交易总额约为699万美元，当前总独立地址数突破1万个。\n3）OrdinalsNFT是提高矿工手续费收入的主要原因，未来可能成为主要收入来源。NFT产生的手续费从单日0.00066 BTC增长至0.28428BTC，涨幅约为43257.73%，相当于翻了433倍。在2月中旬，比特币NFT手续费占比一度突破了21%，连续多日高于15%。\n4）统计期内，平均每1万个比特币NFT手续费占矿工总手续费收入的12.47%。比特币NFT数量的增长将会较明显的影响矿工收入。\n5）统计期内，比特币平均区块重量占总容量的平均比重约为87.78%。当前比特币OrdinalsNFT活动没有对其他交易活动形成挤压，只是消耗了本来就空余的空间。这也是目前平均每字节交易费用没有增长的原因。\n在1月21日至3月7日内，比特币上已累计生成了32.88万个OrdinalsNFT，日均新增7148个。从每日生成的数量来看，比特币OrdinalsNFT经历了两个高峰。第一个高峰在2月中旬，其中2月9日、14日和15日的日生成数量都超过了1.5万个，这个高峰或主要受到Bitcoin Punks发行的影响。第二个高峰在3月初，其中2月28日至3月5日每天的日生成数量都超过了1.5万个，最高的3月1日生成了2.48万个，这个高峰或主要受到Yuga Labs发行比特币NFT的消息影响。\n\n总体来看，比特币OrdinalsNFT的发展受到以太坊知名NFT项目或项目方“迁徙”的影响较大，日生成量的波动比较大，符合市场早期的基本特征。\n目前，比特币OrdinalsNFT的类型主要包括图片（image）、文本（text）、视频（video）和音频（audio）这四类。从总量来看，累计总数最多的类型是图片NFT，一共有20.88万个，其次是文本NFT，一共有11.74万个。视频和音频NFT则较少，分别都不足500个。从日均生成量来看，最多的图片NFT在观察期内日均生成了4540个，文本NFT日均生成了2551个，视频和音频NFT日均生成不足15个。\n\n这种类型分布与比特币OrdinalsNFT的生成方式有关，比特币NFT（即铭文数据）是完全在链上的，它是见证数据的一部分，与单个satoshi相互“绑定”，所以NFT的大小受制于比特币区块空间大小，更小的图片和文本NFT具有一定的优势。\n这一点也可以从各类型比特币OrdinalsNFT的生成趋势中观察到。将各类型NFT的日生成数量转化为自然对数，以便在一个更紧凑的尺度上统一观察，从趋势来看，图片和文本NFT均呈显著的增长趋势，尤其是文本NFT，增长趋势线更为“陡峭”，近期增长最明显。而视频NFT增呈下降趋势，音频NFT基本保持稳定。\n从现阶段来看，NFT的主要价值仍然体现在二级市场中。目前，比特币OrdinalsNFT的交易市场主要有4个，分别是ordinals.market、ORDSWAP、OrdinalsWallet和OpenOrdex。在2月15日至3月7日期间，4大市场的累计交易总额约为699万美元，其中，交易额最高的是ordinals.market，约为428万美元，其次是ORDSWAP，约为166万美元，OrdinalsWallet也有将近100万美元。总的来说，这些交易市场的总交易规模都还在百万美元级别。\n\n从4大市场每日交易总额来看，日均总额约为33.3万美元。交易额的增长始于2月28日以后，其中，28日当天的交易额达到了174万美元，此后每日基本保持在50万美元左右，显著高于此前每日10万美元左右的水平。日交易总额的增长趋势是十分明显的。\n从用户规模来看，同期4大市场的累计独立地址数约为5.85万个，其中，OrdinalsWallet的累计独立地址数最多，达到了3.08万个，其次是ORDSWAP和ordinals.market，分别约为1.56万个和1.20万个。\n\n从4大市场累计独立地址数的变化来看，每日独立地址总数增长明显，但近期增速有所放缓。3月7日的独立地址总数已突破1万个，较本月初的3209个增长了211.75%，较2月15日的7个则可以说是实现了从0到1的突破。\n比特币OrdinalsNFT的快速发展，为底层网络带来了一些明显的变化。首先，最直观的变化是，Taptoor的采用率明显上升。\n根据glassnode的分类，比特币使用余额的类型，即可理解为交易类型，一共可以分为8种，包括P2PK、P2PKH、Bare Multisig、P2SH、P2WPKH、P2WSH、P2TR和Non-standard。其中，P2TR指Pay to Taproot，即使用Taproot交易，这种交易类型的占比在1月21日以后呈现显著上升趋势，从1.79%上涨至了6.22%，最高一度接近10%，近期则基本保持在5%以上。\n\n另外两个连锁的直观变化则是交易次数的上涨和每日平均算力的上涨。NFT的生产和转移都体现为链上交易，交易需求的增加自然会影响算力变化。\n根据统计，交易次数的增长比较温和，统计期内从单日28.77万次上涨至单日31.59万次，涨幅约为9.79%。期间最高单日交易次数约为38.18万次，最低约为24.02万次，总体波动并不剧烈。而单日平均算力的涨幅也同样很温和，统计期内从单日259.0 EH/s上涨至单日279.3 EH/s，涨幅约为7.81%，处于历史极高水平。期间最高单日平均算力约为361.6 EH/s，最低约为222.6 EH/s，近期波动较为明显。\n比特币OrdinalsNFT的发展为比特币的应用打开了新的空间，网络使用率的上升带动了矿工收入的增长。矿工单日总手续费收入在统计期内从16.33 BTC增长至24.03 BTC，涨幅高达47.15%，增长十分显著。其中，NFT产生的手续费从单日0.00066 BTC增长至0.28428BTC，涨幅约为43257.73%，相当于翻了433倍。\n\n近期比特币单日总手续费的增长动力主要来自于OrdinalsNFT，两者的相关性在统计意义上显著，即OrdinalsNFT产生的手续费越多，当日的总交易手续费也越多，矿工得益于OrdinalsNFT活动。\n从OrdinalsNFT手续费占当日总手续费的比重来看，统计期内的平均值约为6.61%，即矿工收入的近7%来自NFT活动。不过这只是日均值，受到早期NFT活动较少的影响较大，如果把观察的时间范围缩小至2月份，那么矿工收入的近9%都来自NFT活动。\n值得注意的是，在2月中旬，比特币NFT手续费占比一度突破了21%，连续多日高于15%，NFT在未来有可能成为矿工的重要收入来源。另外，结合比特币NFT的日生成数量来看，在1月21日至3月7日的统计期内，平均每1万个NFT产生了2.36 BTC的手续费，同期日均总手续费约为18.95 BTC，即平均每1万个NFT占矿工手续费收入的12.47%。这表明，比特币NFT数量的增长将会较明显的影响矿工收入。\n不过，就目前的情况而言，这种影响尚未体现。相反，近期比特币网络平均每字节（最小区块空间单位）的交易费用还呈下降趋势，从1月21日的0.0023 BTC下降至3月5日的0.0013 BTC，降幅约为41.52%。并且近期平均每字节交易费用的波动也比较大，最高能达到0.0031 BTC，最低则只有0.00099 BTC。\n\n这与比特币OrdinalsNFT使用的区块空间大小有关。尽管近期受到NFT活动的影响，比特币的平均区块容量呈明显的上升趋势，从1月21日的2.94 MB上涨至3月5日的3.74 MB，涨幅约为26.94%。自2月份以来，平均区块重量基本保持在3.8 MB左右。\n但是，这距离SegWit和Taroot允许的最大重量4 MB仍然有一定空间，根据统计，1月21日至3月5日期间，比特币平均区块重量占总容量的平均比重约为87.78%，不到9成，最高不超过95.5%。这意味着，当前比特币OrdinalsNFT活动仍然在网络可承受范围内，没有对其他交易活动形成挤压，只是消耗了本来就空余的空间。\n\n但这只是比特币NFT的早期阶段，随着NFT的繁荣与发展，未来可能会对比特币链上基本面，尤其是矿业基本面产生更复杂的影响。尤其是NFT集中铸造可能加剧比特币交易手续费的短期波动，而在日常情况下，NFT活动可能会长期提高区块空间的利用率。这可能会催生比特币二层网络的发展，以及用户友好的钱包等其他设施的发展。\n数据说明：\n[1] GalaxyDigital的市场预测报告：\nhttps://www.galaxy.com/research/whitepapers/bitcoin-ordinals-inscriptions-5-billion-nft-market/",
           "link": "https://www.panewslab.com/zh/articledetails/s5l3l96f.html",
           "publishedOn": "2023-03-09T10:10:41.000Z",
-          "wordCount": 1299,
+          "wordCount": 1301,
           "title": "数说比特币NFT：累计总数突破32万个，交易市场独立地址总数突破1万个",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/09/images/A8zJvVzMT7.jfif"
         },
