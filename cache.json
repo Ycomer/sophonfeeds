@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4474,
+          "wordCount": 4268,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -267,7 +267,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5509,
+          "wordCount": 5549,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -287,7 +287,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 11752,
+          "wordCount": 10848,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -357,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Derivio 是基于预言机的通用衍生品平台，其提供真实收益并引入市场中性（Market Neutral）流动性，旨在解决当前基于预言机的衍生模型的主要缺陷，以在所有市场条件下更好地保护流动性提供者。DeFi 研究员 Midoji 撰推详细介绍 Derivivo，剖析其给交易者和 LP 带来何种便利，以及其与竞品不同之处在哪。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">https://twitter.com/midoji7/status/1632764263004778498</a></p>\n<p><strong>文章作者：</strong></p><p>Midoji</p><hr><h3>观点：</h3><p><strong>Midoji：</strong>Derivio 推出带有永续和数字期权（二元期权）的产品，涵盖广泛的资产：代币、外汇、NFT 和大宗商品。从交易者的角度看，它带来了一整套衍生品和深度的流动性，从 LP 的角度看，它提供了资本保护和真实收益。增强了交易者和 LP 之间的良性循环，促进了流动性的有机增长。【原文为英文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a><p><strong>Midoji：</strong>是什么让它与众不同？1）大多数基于预言机的去中心化交易所在多头 / 空头头寸之间缺乏平衡，使它们容易受到市场波动的影响。Derivio 引入市场中性流动性，如果交易者将市场推向极端，它会促进相反方向的套利机会，从而导致中性押注。由于流动资金池作为交易对手，它们的风险敞口趋于市场中性。【原文为中文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a><p><strong>Midoji：</strong>2）在永续期权市场中性流动性方面，Derivio 引入了资金率，即使用多空比率 (LSR) 和借款利率计算，保护池子免受多头 / 空头不平衡的影响，解决永续 DEX 的交易者抽空池子和操纵滑点两个主要问题。3）在数字期权市场中性流动性方面，其支出是一个 LSR 的函数。通过平衡 LSR，交易者支出更加公平，流动性受到保护。4）取决于投资者的风险厌恶程度，Derivio 将为其提供 3 种不同的风险调整池。【原文为英文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a>",
           "link": "https://twitter.com/midoji7/status/1632764263004778498",
           "publishedOn": "2023-03-07T10:09:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】一文解读引入「市场中性」流动性的衍生品平台：Derivio",
           "imageUrl": null
         },
@@ -367,7 +367,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1012,
+          "wordCount": 998,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -497,7 +497,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 748,
+          "wordCount": 738,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -567,7 +567,7 @@
           "description": "<h3>Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请</h3>\n<p>Web3 通信协议 WalletConnect 宣布推出 Web3 信息传递应用 Web3Inbox，支持钱包间的聊天和推送通知服务，等待名单已开放申请。\n此前消息，WalletConnect 宣布正在为 Web3 构建信息传递协议，第一步是连接 Web3 生态系统中所有不同的钱包和应用程序，下一步是使这些钱包的用户在不同的链上使用不同的钱包相互聊天。</p>\n<p><a href=\"https://twitter.com/WalletConnect/status/1632536852367577090\">内容来源</a></p><hr><h3>观点：</h3><p><strong>WalletConnect：</strong>等待名单申请地址：https://web3inbox.com/</p><a href=\"https://twitter.com/WalletConnect/status/1632536852367577090\">内容来源</a>",
           "link": "https://twitter.com/WalletConnect/status/1632536852367577090",
           "publishedOn": "2023-03-07T01:08:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Web3 通信协议 WalletConnect 推出 Web3 信息传递应用 Web3Inbox，已开放等待名单申请",
           "imageUrl": null
         },
@@ -577,7 +577,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 是建立在以太坊上的，能够将收益代币化的 DeFi 协议，允许用户对某些资产的未来收益进行代币化并出售。Web3 研究员 Tissy 从协议的基本原理、叙事、估值和集成能力等方面叙述他为什么对 Pendle 如此看好。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">https://twitter.com/Cryptotrissy/status/1632353433683632128</a></p>\n<p><strong>文章作者：</strong></p><p>Trissy</p><hr><h3>观点：</h3><p><strong>Trissy：</strong>Pendle 的目标是通过增加用户在牛市中的收益敞口，并在熊市中对冲收益下滑，为用户提供最大的收益率。用户可以通过其双收益代币执行各种收益策略。在 Tradfi 中，机构参与者依靠各种对冲来保护他们的头寸，如期货收益合约。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a><p><strong>Trissy：</strong>Pendle 从 YT 产生的收益中收取 3% 的费用，目前 100% 分配给 vePENDLE 持有者，团队不收取任何收益。vePENDLE 为 Pendle 上的激励机制提供动力，持有者通过投票支持并引导奖励流向不同的池，可以有效地激励投票支持的池中的流动性。如果在持有 vePENDLE 的同时做 LP，PENDLE 奖励和 LP 奖励也将进一步提高，带来收入飞轮。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a><p><strong>Trissy：</strong>LSD 将主导 ETH 质押生态系统，我将此归结为两个原因：1）LSD 具有很高的效用系数：可用作存款或借贷协议抵押品赚取利息，提高收益率；2）用户的流动性需求：上海升级后有 27 小时等待时间，会造成资产流动性不足，投资者将更喜欢通过 LSD 即时解锁的扩展解决方案。这对 Pendle 意味着，持有者可以借助其提高 ETH 收益率。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a>",
           "link": "https://twitter.com/Cryptotrissy/status/1632353433683632128",
           "publishedOn": "2023-03-06T13:28:20.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】浅析收益代币化协议：Pendle Finance",
           "imageUrl": null
         },
@@ -807,7 +807,7 @@
           "description": "<h3>ETHDenver 联创：将在世界各地设立分支活动</h3>\n<p>据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/",
           "publishedOn": "2023-03-06T01:29:51.000Z",
-          "wordCount": 20070,
+          "wordCount": 20076,
           "title": "ETHDenver 联创：将在世界各地设立分支活动",
           "imageUrl": "https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg"
         },
@@ -887,7 +887,7 @@
           "description": "<h3>受 FTX 破产影响，Multicoin Capital 对冲基金 2022 年亏损 91.4%</h3>\n<p>据 CoinDesk 援引 Multicoin Capital 年度投资者信件报道，Multicoin Capital 对冲基金在 2022 年亏损了 91.4%，为历史最差表现。Multicoin 将去年的亏损归因于市场震荡，以及加密货币交易平台 FTX 破产的直接和间接影响。根据去年 11 月披露的 Multicoin 财务状况显示，该基金有 10% 的资产持有 FTX，并且大量持有 FTT、SOL 和 SRM。截至 2023 年 1 月，Multicoin Capital 对冲基金自成立以来（2017 年 10 月）的总回报率为 2866%。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/04/multicoin-capitals-hedge-fund-lost-914-last-year-investor-letter-reveals/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>翻译一下，Multicoin 意思是：我承认我有赌的成分，但是我赌错了，我还想继续赌而且还是要收你们的管理费，希望你们不要不识抬举。</p><a href=\"https://twitter.com/Loki_Zeng/status/1593570934434463746\">内容来源</a><p><strong>Zhu Su：</strong>讽刺的是，不管 Multicoin 持有或是卖掉 SOL 大家都会生气。甚至已经有人造谣 Multicoin 卖掉了 SOL。我认识的几个 Multicoin Capital LP 都挺支持 Multicoin 的。【原文为英文】</p><a href=\"https://twitter.com/zhusu/status/1632418796374728704\">内容来源</a>",
           "link": "https://www.coindesk.com/business/2023/03/04/multicoin-capitals-hedge-fund-lost-914-last-year-investor-letter-reveals/",
           "publishedOn": "2023-03-05T02:51:43.000Z",
-          "wordCount": 20248,
+          "wordCount": 20254,
           "title": "受 FTX 破产影响，Multicoin Capital 对冲基金 2022 年亏损 91.4%",
           "imageUrl": "https://www.coindesk.com/resizer/TBBCgl12Pmxg1TJQ4PRy4GoXjkE=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/6WZVRHKM3ZGNZO6HD3M3HQIBFM.jpg"
         },
@@ -2434,7 +2434,7 @@
           "description": "PANews 3月9日消息，据彭博社报道，美国总统拜登将在周四公布的预算提案中结束对私募股权基金经理、石油公司以及加密货币和房地产投资者的税收减免。共和党控制的众议院将阻止取消税收优惠的法案，但政府的文件预示着如果拜登在2024年连任，他可能会将这些问题置于其经济纲领的中心。\n预算案中包括的许多条款都是拜登以前提出过的想法，但是到目前为止还无法在国会获得必要的支持，使其成为法律，包括他自己的政党成员，比如西弗吉尼亚州参议员Joe Manchin。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/1him57qt.html",
           "publishedOn": "2023-03-09T01:14:01.000Z",
-          "wordCount": 1118,
+          "wordCount": 1114,
           "title": "美国总统拜登将在预算提案中结束对加密货币等投资者的税收减免",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -2514,7 +2514,7 @@
           "description": "PANews 3月9日消息，据Mirror在社交媒体宣布，该Web3内容平台已推出订阅铸造“Subscribe to Mint”功能，目前已在以太坊、Optimism和Polygon链上部署，旨在支持创作者和藏家之间的互动，新功能将有两个潜在用例：1、创世Drop，Web3项目可以发布内容并与包含项目徽标或符号的收藏NFT配对，然后使用“Subscribe to Mint”通过内容更新和后续NFT投放与项目受众互动。2、推出可收藏NFT系列，持有者可以完成铸造NFT并鼓励新用户注册成为订阅者以参与未来NFT投放。据悉，“Subscribe to Mint”功能对创作者是完全免费的，创作者将获得所售NFT的100%收益。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/q1trboi4.html",
           "publishedOn": "2023-03-08T23:48:09.000Z",
-          "wordCount": 1147,
+          "wordCount": 1143,
           "title": "Web3内容平台Mirror推出NFT订阅铸造“Subscribe to Mint”功能",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -2714,7 +2714,7 @@
           "description": "本月 NFT 赛道新贵 Blur 公布了第二轮激励计划，该平台的交易市场热火朝天。在去年年末一度取代 OpenSea 成为第一的 NFT 交易平台，目前占据了超过 50% 的市场份额。Blur 凭何能够在熊市周期中直逼赛道龙头 OpenSea？\n与一般 NFT 交易平台不同，Blur 是一个面向专业 NFT 交易者的聚合平台。其汇集了 OpenSea 、 LooksRare 和 X2Y2 等交易列表，清楚地展示了各 NFT 的地板价、属性、排名、成本价，以及近期的价格变动等信息，且该平台交易速度十分快，支持批量买卖和零版税费用。\n\n不难看出，Blur 专业的聚合 NFT 平台 Bid-to-Earn(“边拍边赚”) 的商业模式专攻买方市场，借鉴了传统 DEX 订单簿模式，解决了收益率不足、无人提供流动性的尴尬局面。而一定程度上解决了 NFT 流动性问题的 Blur 也被视为 NFTFi 发展的先驱，或将带动整个赛道形成较大的造富效应。\n回看当下 NFT 赛道，上一轮牛市中出现的数字藏品投机者还大量存在，且 OpenSea 这样的主流交易市场在每笔交易中又收取过高的费用，NFT 持有者常常面临出手难的尴尬处境。归根结底，NFT 的流动性难题掣肘了该赛道的长远发展。而今年 Blur 的横空出世让我们看到了 NFT 流动性问题的突破口，下文我们将从其定义出发，一窥 NFTFi 项目如何打破 NFT 流动性困境。\n在了解 NFTFi 之前，让我们回归 NFT 概念。NFT 是 Non-Fungible Tokens，不可替代性是其根本属性。为了便于理解 NFT 的金融化，首先将 NFT 分为两类，一是具备收藏价值的纯粹艺术 NFT；二是具备特殊的使用价值的实用 NFT。\n艺术 NFT\n实用 NFT\n不可代替性(Non-fungible)\n半可替代(Semi-fungible)\n不具备使用价值(Without utility)\n具备使用价值(With utility)\n不具备基本面(Without fundamentals)\n具备一定基本功能(With certain fundamentals)\n定价主观判断(Valuation based on personal sentiment）\n定价基于其功能性(Valuation based on functions)\n据上表可知，不同类型的 NFT 从内在上看具有不一样的属性。头像类、艺术画作类 NFT 观赏、收藏的价值更高，用户购买之后的目的不是为了出手，更多的是为了收藏。因此我们不能强制要求所有 NFT 都具有高流动性。\n而星巴克 Odyssey 这样品牌方发行的会员通证类 NFT 则具备使用价值，其同让 NFT 流动性更高的金融化趋势更为契合。因此，下文所提及的 NFTFi 主要针对这些实用 NFT。\n经历了上一轮牛市周期的 NFT 的疯狂买卖和交易之后，流动性问题成为金融紧缩时期 NFT 赛道发展的瓶颈所在，由此导致 NFT 赛道存在以下关键问题：\n除了上文提及的艺术品 NFT，大部分的 NFT 持有者希望自己的数字藏品具有更多价值，提高资产利用率。否则，单凭低买高卖的模式难以吸引长期用户。\nNftperp 是由 Perpetual Protocol 开发的建立在虚拟自动做市商 (vAMM) 之上 NFT 永续合约交易协议。Nftperp 能够追踪 NFT 系列地板价，并允许 NFT 交易者使用 vAMM 模型、任何数量的抵押品进行交易、实时 NFT 价格信息等功能。目前该项目所有智能合约均经过 PeckShield 审计，之后会开源。\n\n\n\n\n\n\nJPEG'd\n\n\n\n\n\nJPEG'd 旨要让 NFT 的持有者能够利用他们的 NFT 作为抵押品。用户可以将他们列入白名单的 NFT 作为抵押品存入 JPEG 的智能合约中，并开始用它来利用借贷机制。这将有效地将 NFT 从静态艺术品转变为收益产品，如果用户使用完他们的贷款，他们就会偿还本金和累积的利息，并且可以 JPEG 的保险库中取回他们的NFT。\n值得关注的是，JPEG'd 还开发了一种新颖的保险机制，允许储户在遭遇清算时从 DAO 回购他们的 NFT。但只有在 JPEG'd DAO 为所有已发行债务提供担保时，才有可能实现这一点。用户可以购买可选的保险来在清算时回购他们的 NFT。\n\n\n\n\n\n\nLinoSwap\n\n\n\n\n\nLinoSwap 可以说是 NFT AMM 市场上比较具创新性的协议。其将稀有度与定价机制结合的创新性 NFT AMM。LinoSwap 不仅实现了 NFT 的自动做市功能，还引入了 Rarity Function（稀有度函数）和 Rarity-Value Curve（稀有-价值曲线），对高稀有度 NFT 进行估值和定价，解决了高稀有 NFT 在 AMM NFT 交易市场中的不被重视的问题。在这样的场景下，根据所持有的 NFT 稀有度是高、低可以得到合理的估价。\n\n\n结语\nTinTinLand 在《年度 NFT 市场回顾，2023 NFT 是开发者的最优选择吗？》一文中回顾与展望了 NFT 市场的发展情况，尽管目前市场处于下行趋势，但 NFT 赛道表现出了非凡的持久力。值得关注的是，蓝筹 NFT（BAYC、CryptoPunks、Azuki、Moonbirds）的市值高达 35 亿美元，这也将成为激发 NFTFi 建设者和开发者的动力，吸引更多开发者和用户的加入。\n综合前文对 NFTFi 赛道的分析，不难看出 NFTFi 仍将是 2023 年的重点之一。探索 NFTFi、开创更多可能也将为正在寻找空间进入 NFT 的开发者带来一个更具机会和优势的领域，让 NFT 持续成为用户进入 Web3 最便利与最具吸引力的门径之一。\n（本文内容仅供参考，不应作为法律、商业、投资建议。）",
           "link": "https://www.panewslab.com/zh/articledetails/wnwv311oad34.html",
           "publishedOn": "2023-03-08T08:34:00.000Z",
-          "wordCount": 1854,
+          "wordCount": 1852,
           "title": "Blur 狂潮下，NFTFi 解困 NFT 流动性难题",
           "imageUrl": "https://cdn-img.panewslab.com/panews/images/t27v1jmLAo.png"
         },
@@ -2764,7 +2764,7 @@
           "description": "原文：《Conflux 生态项目盘点：突破离岸人民币 侧重数藏元宇宙》\n作者：Maverick\n本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规。\n\n美国经济潜在的衰退、日益趋严的监管政策与香港大力拥抱 Web3 形成强烈的反差，老外纷纷将 Crypto 增长势头的动力指向以香港为代表的中国市场和投资者，甚至还喊出了“Long China”的口号。从曾经极力掩饰“国产团队”到如今主动秀出汉语增强归属感，不少项目在一夜间完成了由国外向国内身份 180° 的大切换。作为主打中国区块链的 Conflux 先后与小红书、中国电信等国内大厂达成战略合作，并结合国内政策环境，形成了其他公链所没有的、独特的数藏生态。本文将为大家盘点来自于 Conflux 生态项目。\nFluent（https://fluentwallet.com/）\n由 Conflux 官方支持和推荐的钱包，用户可以在 Chrome、FireFox 和 Edge 浏览器上作为插件使用。Fluent 支持包括 Conflux eSpace、Ethereum 等 EVM 链，用户可以在一个拓展钱包中使用 Conflux Core 和 eSpace 进行资产的转移和存储。此外，Fluent 还支持 HD 钱包和硬件钱包。\nAnyWeb（https://anyweb.cc/）\nAnyWeb 数连是针对中国用户使用习惯设计的区块链资产钱包，支持标准 NFT 资产管理、App、移动端H5、小程序以及 Conflux 公链。AnyWeb 无 Token 相关功能、实名上链以及由热钱包云端加密托管，并支持官方 SDK 无缝接入。\nSwappi（https://app.swappi.io/#/swap）\n\nSwappi 是 Conflux 链上最常用的 DEX，用户可以使用交易、流动性挖矿、质押、彩票以及 Launchpad 等功能，支持包括 BNB、ETH、WBTC 、USDC、CFX 在内的 15 种资产交易，以及 CFX-ETH、CFX-USDT、CFX-WBTC 、CFX-USDC 等 19 种流动性挖矿 LP。Swappi 已推出治理 Token PPI 以及 Genesis Pass NFT ，该 NFT 可以给持有者带来白名单、其他 Conflux eSpace 项目的空投资格等权益。据 DeFiLlama 数据，当前 Swappi TVL 约 1200 万美元，占 Conflux 全链 TVL 的 82%。\nMoonswap（https://moonswap.fi/）\nMoonswap 是 Conflux 上第二大 DEX，由 Conflux Network 和跨链资产协议 ShuttleFlow 支持，并且使用不需要用户支付 Gas，由 Conflux 合约代为付费。该项目完全由社区驱动，目前支持 ERC20、CRC20、ERC721 和 ERC1155 的多种 FT 和 NFT 资产。用户可以在该平台上进行交易和提供流动性以及 Conflux 链上的 NFT 交易和拍卖。另外，Moonswap 还提供治理系统，持有不可交易 Token XGenesis 的社区用户可以投票参与，而 XGenesis 由 Genesis NFT、Believer NFT、Dreamer NFT、Aspirant NFT、Resonator NFT 或 Idealist NFT 兑换。\nNucleon（https://www.nucleon.space/#/data/stake）\n\nNucleon 是 Conflux PoS 的流动性质押解决方案，允许用户在无需锁定资产或维护基础设施条件下质押 CFX。当用户使用该平台进行质押时，会收到 1:1 比例的 xCFX（代表其所质押的 CFX）。xCFX 可以帮助用户赚取收益和贷款奖励，并会每天更新余额以反映 CFX 质押奖励。Nucleon 对质押用户收取质押收益中的 10% 作为服务费。Nucleon 已推出 NUT，持有者可以对使用国库资金的提案进行投票。当前 Nucleon 上共质押了超过 1200 万枚 CFX，价值超过 680 万美元，APY 约 18.7%。\nGoledo（https://www.goledo.cash/）\n\nGoledo 是一个 Fork Aave 的借贷协议。平台收入来自于借贷利息差和闪电贷费用，其中收入的 50% 分配给 GOL 质押者和锁仓用户，另一半则流入 Goledo 国库。此外，与无锁仓期的质押不同，对于锁仓 GOL 的用户将会有三个月的锁仓期，除了也可以享受平台收入外，如果提前取出，则会面临 50% 的罚款，罚款将分配给其他 GOL 锁仓用户。\nCNHC（https://www.cnhc.to/）\nCNHC（CNH Coin）是一种以 1:1 的比例与人民币挂钩的稳定币，目前已在 Conflux 和 Ethereum 上发行。CNHC 集团的法币储备由国际知名托管银行持有的持牌信托保护，独立审计公司会定期审查 CNHC 的离岸人民币储备。不过由于合规原因，CNHC 不对中国大陆的用户提供服务。除了 Conflux 外，CNHC 的合作伙伴还包括 Circle 和 KuCoin。\nINS3（https://conflux.ins3.insure/#/ins3/overall）\n\nINS3 是去中心化的跨链保险和保险提供商，采用\"DeFi+NFT+oracle+跨链\"创新模式为用户提供 CDS 商业保险，该项目在偿付机制上通过预言机和用户公平博弈的方式实现自动化偿付判断，用户可以在 Conflux、Ethereum、HECO、BSC 和 Polygon 上购买保险服务。在 Conflux 链上，INS3 保护着约 2.5 万美元的资产。\nShuttleFlow（https://shuttleflow.io/）\n\nShuttleFlow 通过 Conflux 链作为中继桥梁支持资产跨链，支持 Fluent 或 MetaMask。当前 ShuttleFlow 支持 ETH、LINK、USDC 等 49 种资产在 Conflux、BSC、Ethereum、Bitcoin、HECO、OKExChain 六个网络上跨链。\n淘派（https://www.taopainft.com/）\n淘派是由上海树图区块链研究院内部孵化，基于 Conflux 公链的 Web3 和元宇宙解决方案平台，包含区块链底层技术、NFT 发行交易平台、Web3 生态整合、元宇宙虚拟技术等。2022 年 1 月 11 日，数字藏品发行与交易平台淘派正式上线，合作发行过冬奥冠军徐梦桃个人 Q 版、《尚食》系列、《凹凸世界》国漫等数字藏品。此外，淘派官方还发布过由 AI 算法生成的《烤仔的朋友》头像系列，并登陆了《新民周刊》封面。\n薄盒 Mints（https://mintstech.cn/）\n薄盒提供模块化的区块链解决方案，可以为企业定制数字藏品 Saas 系统帮助企业管理自己的数字藏品平台；另外薄荷还提供品牌资源聚合，帮助品牌发行数字藏品。此前，薄盒与周杰伦合作打造了“周杰伦限量珍藏 Demo 空间”，包含了《青花瓷》《爱在西元前》等 5 首 Demo 音乐数字藏品。\n双镜（http://www.shuangjingbowu.cn/）\n双镜是一站式的数字藏品解决方案供应商，拥有自主数藏发行平台双镜博物，可为项目方提供藏品、盲盒、空投等多种模式并存的发行方案。目前双镜与⻄安博物院、南京博物总馆等多个国内博物馆、多个国家级⾮遗项⽬代表性传承⼈打成长期合作，发行了北京⽟雕【⾦镶⽟ 福⻁添翼】、京绣【⻰凤双喜同合袍】等燕京⼋绝系列。此外，双镜还打造其独特的数字 IP 形象泽宝系列，并作为双镜吉祥物，渗透到数藏发行、社区运营（头像、表情包、潮玩）等多个环节中。\nConflux 目前已与多个 Web2 品牌进行数字藏品/NFT 方面的合作（如下图）。Conflux 联合创始人张元杰曾在去年 10 月时表示，现已经有超过 800 万个数字藏品在 Conflux 发行，超过 300 万的独立用户，服务了超过 300 个品牌 IP，其中不乏爱奇艺、解放日报、开心麻花等知名国内品牌。\nConflux Name Service（https://app.web3verse.space/）\n\n\".web3 用户名\"是基于 Conflux 链的用户名系统。首批支持 .web3 用户名的有：Anyweb，ConfluxScan，Fluent，heyfoo，数盒，晒啦，Meta Name，区块积木，淘派等。目前开放注册 5 位及 5 位以上的用户名，费用为 30 元一年，可通过支付宝扫码支付；后续会逐步开放注册 5 位以下的用户名，目前仅面向中国大陆市场开放。\n宇现 Discoverse\nDiscoverse 宇现将在 Conflux 上自建适应 SBT 协议的去中心化数据服务层，并通过汇总多链的 SBT 数据提供数据开放和分析服务。项目 MVP 预计在今年 6 月前上线，包括 H5 小程序、APP 和官网，将支持四类灵魂凭证的点对点签收、发放和销毁，并打造种子用户社区。\nCaTalk\nCaTalk 定位是基于 Conflux DID 的 Web3 社群。用户将在链上拥有诸如数字资产 NFT、数字身份 SBT 等的全新身份属性。基于全新的身份将会产生全新的社交链接，以同一种身份的群将成为社交的重点形态，CaTalk 将把这个群在 DID 的基础上重建。目前 CaTalk 已自建 NFT/数藏发行平台超喵，并计划在短期内与国内 50 个数藏项目合作，建立项目持仓群聊，并进一步完善群聊+话题为核心的平台基础服务与功能细节。\n莫塞元宇宙（https://www.mossai.com/）\n莫塞 MOSSAI 元宇宙力打可持续蓝色元宇宙的品牌口号，通过 AI 将全球岛屿（包括消失岛屿）生成为 NFT 海岛。MOSSAI 元宇宙有三大岛屿生态，分别是原生岛、躺平岛和涌现岛，其中的每一个岛屿都是一个独立的智能合约。莫塞元宇宙还包含莫塞利安人——灵魂绑定分身 SBA、加密元水母 NFG、涌现未来城（公寓、商铺等）等生态。目前亚马逊云科技、斑马中国、航天文创、艺术家谭恩等企业或个人入驻了莫塞元宇宙。\n参考：\nhttps://mp.weixin.qq.com/s/1-O2XW_447fXzpTTPbz9bw",
           "link": "https://www.panewslab.com/zh/articledetails/mnkw65e0.html",
           "publishedOn": "2023-03-08T06:36:08.000Z",
-          "wordCount": 1874,
+          "wordCount": 1872,
           "title": "香港概念龙头Conflux生态盘点：离岸人民币稳定币成亮点，合规数藏遍地开花",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/08/images/U3S992JCIg.png"
         },
