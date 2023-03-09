@@ -2,11 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-09T04:26:47.742Z</updated>
+    <updated>2023-03-09T04:35:30.175Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[上海升级推迟下的板块机会：L2头部生态的DeFi “内卷”]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/hbwmfrbw.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/hbwmfrbw.html"/>
+        <updated>2023-03-09T04:27:57.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Weekly Brief | 上海升级推迟下的板块机会：L2 头部生态的 DeFi “内卷”》
+L2 是目前讨论热度最高的赛道之一。
+L2 旨在解决以太坊长期存在的、提升吞吐量的迫切需求，今年，其头部生态相继迎来阶段性的技术落地，同时也是今年以太坊主网升级的主要受益板块。
+以太坊路线图中，“The Surge”是推动 Rollup 扩容的重要节点，旨在 Rollup 中实现每秒 10 万+ TPS 的关键目标：
+
+图中，EIP-4844 （Proto-Danksharding 提议）是非常关键的提议，属于完整版分片扩容 Danksharding 的前置方案，整套方案围绕 Rollup 来进行链上扩容。（相关阅读：《全面解析EIP-4844：Sharding的一小步，以太坊扩容的一大步》）
+EIP-4844 提出了一种为 Rollup 量身定制的交易类型 Blob Transcation，为以太坊提供了一个额外的临时外挂数据库，为每个交易增加了 128 KB（1 个 Blog）- 256 KB（2 个 Blog）；
+每个区块可承载 1 MB（8 个 Blog）- 2 MB（16 个 Blog），给以太坊带来了额外存储空间（目前以太坊每个区块平均大小约 85KB 左右），额外的数据空间可以使 Rollup 实现更高的 TPS 和更低的成本，同时也将原本 Rollup 占据的区块空间释放给更多用户。
+在完整版 Danksharding 方案中，还将继续扩大 Blob 可以承载的数据量。
+提案部署与升级，预期能将 L1 交易的成本将降低 10 - 20 倍，进一步将 L2 Rollup 成本降低 10-100 倍。
+EIP-4844 的范围涵盖共识与执行，其复杂性介于 EIP-1559 和 The Merge 之间，被定于在上海升级后的坎昆升级中部署，是上海升级之后的坎昆升级的重点。因此，LSD 赛道热度高涨的同时，市场对后续热点的预期已围绕 L2 赛道展开。
+该提议原定于今年 5 月- 6 月落地，但目前看来，随着进度推迟，预期将在今年中期或下半年启动。这为整个 L2 生态提供一个极佳的热度延伸区间，不断带动 L2 板块波动。该板块确定性强，最迟也将在 EIP-4844 升级前成为热点。
+L2 版块相对成熟，近期数据向好：
+
+（数据来源：l2beat）
+现有 Rollup 技术解决方案以 Optimistic Rollup 和 ZK Rollup 为主。基于 Optimistic Rollup 技术的 Arbitrum 和 Optimism 两大头部生态稳稳占据市场份额，两强格局明显。
+Arb 生态和 OP 生态具备先发优势，市场关注度高，资金较为集中。形成了 Arb + GMX、OP +SNX 的生态，竞争将长期存在。
+
+（数据来源：l2beat）
+Arb 技术发展速度更快，最先实现了多轮欺诈证明，生态中的数量、活跃度都更为丰富，其原生项目包括 GMX、MAGIC 生态等；OP 在技术进展上速度稍慢，但于上轮牛市尾部（ 2022 年 6 月）空投了治理 Token OP，这一动作优先于其他任何竞争对手，成为市场在 L2 赛道的对标与参考标的。
+
+（数据来源：https://dune.com/blockworks_research/l2-comparison-dashboard）
+EIP-4844 提案对两项生态所带来的影响也有细微差别：Arb 上的 GMX 提供着最大的 TVL 占比，但 OP 中的 SNX V3 即将上线，由于其采用的原子交换属于 0 滑点交易，将在 EIP-4844 的降费中更加受益。
+此外，L2 应用天然具有迁移需求，两个生态仍在共享许多 DEX、DApp、借贷协议等。
+这样胶着的竞争，叠加升级所带来的 L2 Rollup 降费利好，所带来的螺旋效应将是非常激烈的。在升级延迟及升级落地之前的空间，Arb 系与 OP 系的将出现更激烈的 DeFi 项目“内卷”。
+这种内卷下，理想的机会在于创新类 DeFi 项目的出现、头部协议的技术进展或利好带动、官方的战略动向与生态扶持（对于这类项目，来自 Arb 与 OP 的官方支持将非常重要）。
+L2 中，大多数 DeFi 仍在“平移”以太坊、Polygon、Solana、Fantom 等生态中的 DeFi 经济模型与思路，但无论如何，短期内可以持续关注 Arb 生态和 OP 生态动热点 DeFi，例如：
+
+ARB 生态：Magic（MAGIC）、Radiant（RDNT）、Gains Network（GNS） 等；
+OP 生态：Velodrome（VELO）、Sonne Finance（SONNE） 等；]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[加密货币始祖遇上“科技与狠活” ：给比特币“雕花” 增值还是累赘？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/md0yg1po.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/md0yg1po.html"/>
@@ -3998,31 +4037,6 @@ https://www.coindesk.com/policy/2022/12/07/early-bitcoin-pioneer-ian-freeman-goe
 <p><a href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NFT价格持续下探，PROOF整合Moonbirds并发行代币欲打破流量瓶颈]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/plv0ncne.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/plv0ncne.html"/>
-        <updated>2023-03-08T03:37:15.000Z</updated>
-        <summary type="html"><![CDATA[1年前，Web3初创公司PROOF凭借解锁“PASS+PFP”新叙事，一时间名气大增。但NFT熊市来临后，母公司PROOF商业模式似乎陷入瓶颈，不断发行的新系列NFT正不断消耗其热度，这也倒逼着该项目不得不探索更多的创新玩法。
-近日，PROOF联合创始人Kevin Rose和Justin Mezzell在最新直播中表示，PROOF通行证将于2025年1月1日结束，其持有者将成为Moonbirds Elders（暂定名称），将拥有“boosters（助推器）”，以在未来获得独家代币投放等活动中获得独家权限。这也意味着未来Moonbirds和PROOF Collective将整合至同一生态中，这能否为PROOF带来发展转机？
-PROOF的两位联创发布了第一季度更新报告播客，并在长达一个多小时的视频里介绍了该品牌的宗旨和未来计划。“我们希望艺术能成为PROOF、Moonbirds和Oddities体验的基石。如今，PROOF Collective是‘一个支持数字文艺复兴的艺术团体’，它为艺术家提供展示作品和收藏家获取作品的平台，并且该NFT为持有者提供3年的会员资格，直到2025年1月，在此期间的艺术展览将全年持续进行。”
-而PROOF将促使Moonbirds成为艺术收藏家的终极PFP，因此PROOF通行证将于2025年1月1日结束，取而代之的是所有持有者将成为Moonbirds Elders，即2025年后Moonbirds和PROOF Collective都将统一到同一个生态系。“现在我们将统一整个PROOF生态系的愿景，生态系统将通过一个简单的目的连接起来，‘为收藏家创造独特的体验，让他们与艺术家建立联系，拥有并拥护他们的艺术’。”
-
-此外，该团队透露称，2025年1月后，Moonbirds衍生系列NFTMoonbirds Mythics将扩展到更广泛的Moonbirds社区和“数字文艺复兴的建设者和公民”，但这类NFT持有者将无法获得艺术空投。而Moonbirds和Elders的持有者则均可以使用Grails和其他Collective专属产品，将获得Moonbirds的所有权限，还将拥有boosters（比如更好的mint机会），在未来生态系中获得代币投放等活动中的独家权限。
-
-值得一提的是，Kevin Rose还提及了目前团队正在积极开发用于Moonbirds整个生态系的代币。
-PROOF这块“金字招牌”的市场号召力似乎不复从前。2022月4年，PROOF凭借着Moonbirds打开了头像类NFT的生命周期，一举使后者成为现象级蓝筹项目，并在之后完成了由a16z领投的5000万美元A轮融资。手握明星项目和大额资本加持下，PROOF趁热打铁陆续推出了多个项目，除了原先的PROOF Collective和Moonbirds，旗下NFT还包括Moonbirds Oddities、Grails及即将推出的Archive of Feelings和Moonbirds Mythics。
-
-三种类型的Mythic Eggs
-然而，旗下这些NFT系列如今也难逃价格持续下滑的困境。NFTGO数据显示，截至3月7日，PROOF Collective价格从最高129 ETH跌至目前15 ETH，跌幅超88.3%；日销售额从最高926 ETH跌至90 ETH，下降了超90.2%。而Moonbirds价格从最高价格44 ETH下跌了86.3%，现仅为6 ETH，而日销售额则仅为NFT发售时的3%，目前为1653 ETH。Oddities则从4 ETH的最高价格跌至目前的0.75 ETH，现日交易额也下滑至73 ETH。
-但PROOF系列NFT Holder的长期持有意愿较高，PROOF Collective超过3个月的Holder数量占比高达79.8%，Moonbirds为79.4%，Oddities则为74.5%等。这意味着大多数持有者均为钻石手。而Moonbirds也暂定将于4月18日举行钻石手的奖励计划，只有在日前Nest活动中达到钻石等级的持有者才可以参加该活动，并获得Mythics Eggs随机空投的机会。
-或是为了自救，PROOF团队接连推出了上述提到的新NFT项目，还推出了Lunar Society（即Moonbirds DAO）、同名Web3社交平台、与品牌合作授权Moonbirds及将Moonbirds转向CC0协议等，但从价格来看市场并没有买单。其中，开放版权还引起了不少持有者的反对，并一度造成其蓝筹持有人数量下滑。
-而在近期，PROOF又因取消原本在今年五月举办的活动Proof of Conference，并退还门票费用和通过他们下订的机票和饭店费用再度引发社区不满，许多成员痛批该团队为何一场实体活动都办不起来，“如果最关键的东西都可以取消了，那长期计划还能期待什么？”、“我想知道你们怎么能在这么短的时间内搞砸这么多的信任，Kevin在一开始就说。承诺不足，交付有余，到目前为止，它是反过来的。”
-由此来看，社区对PROOF不做事的质疑声正越来越强。而Kevin Rose曾于今年1月回应社区的不满称，如果6个月内我不做出点实际的东西，我就带头FUD我自己”。而新规划下的PROOF能否真正突破生态开发能力不足的瓶颈，摘掉“不断发行小图片”的标签，书写新故事还有待时间验证。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
