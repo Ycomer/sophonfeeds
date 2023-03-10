@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T06:55:18.125Z</updated>
+    <updated>2023-03-10T07:00:31.614Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[链上身份层Polygon ID：想打造Web 2体验级的Web 3身份系统]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/96k45edl.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/96k45edl.html"/>
+        <updated>2023-03-10T06:50:58.000Z</updated>
+        <summary type="html"><![CDATA[近日，以太坊扩容方案提供商Polygon宣布推出Web 3身份系统Polygon ID，并且将会融合至Polygon zkEVM之中，构建统一的链上隐私扩容服务。
+除此之外，Polygon ID还将推出身份SDK和钱包dApp开发接口，以便更多应用接入其中，截至目前，Nothing手机、无担保借贷协议PULP和去中心化住宿预订项目Decentral Couch，以及如 Kaleido、Fractal 和 Collab.Land 都已支持 Polygon ID。
+Polygon ID将基于使用零知识证明技术的去中心化身份协议 iden3 进行封装，可以使验证者在无需获取个人数据的同时检查个人凭证是否有效，以便于将现实世界的身份迁移至Web 3的同时保护用户隐私，并且满足监管部门的KYC/AML等需求。
+通过对Polygon ID的研发，Polygon已经构建起从协议层到身份层，以及各类Layer 2和应用层的完整体系，而在面对后账户抽象时代的以太坊生态，Polygon ID又可以起到兼容链上和链下数据，沟通外部钱包和智能合约的双重作用。
+Polygon ID想做到全流程的隐私，因此必须从验证身份入手。从dApp和用户的交互流程切入，Polygon ID 使任意组织都能够签发有关用户的可验证凭据（VC，Verifiable Credentials），而任意的dApp都可以利用一套标准来验证证明的有效性。
+如果要做到用户和dApp双向的保护隐私，必须从数据来源和身份类别入手进行划分，以保证无论何种数据类型，在任何身份调用场景下，都可保证证明有效性。数据可以划分为链上和链下两种数据，身份可划分为现实世界的ID和链上原生的DID、钱包和域名等，比如政府签发的身份证和巨鲸地址的实体关联，便属于不同类型的数据和身份格式。
+
+Polygon ID的作用就是串联起不同的身份和数据，并且使用ZK技术来保证其隐私安全。每个身份都可以进行标准化，称为DID（去中心化标识符），随后通过可验证凭证 (VC) 进行表示，并且通过ZK加密后传递给不同的请求方，比如身份被调、账户登录、钱包地址确认等，并且符合W3C的DID格式，以便于后续的应用场景扩展。
+Polygon ID可以被解构为三部分，分别是Issuer（发行者）、Identity Holder（可验证凭证持有者）和Verifier（验证者），各部分作用如下：
+
+以太坊之上的身份层
+如同Polygon zkEVM是通过收购Hermez而来一样，Polygon ID也是基于 iden3 进行的二次封装。iden3在更定义了各方相互通信和交互的方法，而 Polygon ID 是一个抽象层，使开发人员能够以简易方式构建dApp，并且开放给任何 Web3 钱包，都可以利用 Polygon ID Wallet SDK 添加与之类似的功能。
+以钱包为例，Polygon ID允许用户作为私钥的唯一保管人，可以控制自身数据的外露程度，还遵守自我主权身份（SSI）原则，凭证信息仅可存储钱包本地文件，而无需上链，与智能合约交互的是经ZK加密后的验证数据。持有者使用凭证时不需要向发行者或者验证者进行申请，而发行者在将可验证凭证 (VC) 签发出去之后，也无法追踪其流向和交互情况。
+验证者可以通过调用智能合约来进行标准设置，Polygon ID 可以对链上或链下数据进行自动化审核，例如，一个发行者生成的信息可以被多个验证者使用，无需单独请求许可。而持有者也可以在一个钱包中收集来自不同发行者的多个凭证来建立自身的凭证系统，如同集合身份证、社保卡和驾照一样，构建出自己的多维身份系统。
+Polygon ID的目标是成为以太坊之上的身份层。DID是现实世界和链上环境进行联系的交汇点，而目前存在的问题是DID的形式并未取得共识，至少存在上文提到的VC（可验证凭证）、ENS等去中心化域名、钱包地址和Vitalik提出的SBT（灵魂绑定代币）和Stealth address（隐私地址）等五种形式。
+Polygon ID 的同时发布了一系列自我主权身份（SSI） 开发包，包括验证者 SDK、发行者节点、钱包 SDK 和钱包应用程序等4种新工具，开发人员可以将去中心化身份集成到现存Web 2或者Web 3应用程序中，并以Web 3原生方式满足现存合规性要求，
+而Polygon ID所处的位置贴近底层以太坊协议，并且可以被Polygon PoS、Avail、Nightfall、各类ZK Rollups方案所调用，将会推出Wallet服务作为其统一的身份解决方案，以增强链上用户在Polygon体系的归属感；而在Polygon ID Wallet SDK的加持下，非Polygon体系的开发者也可以构建属于自身的钱包解决方案，以促进整个以太坊生态迈入身份隐私时代。
+
+Polygon ID和Polygon zkEVM的深度融合，也将会让其更为完整。目前的zkEVM数据仍然存储在链下，链上仅存储有效性证明，减轻解数据存储负担，同时zkNode来管理网络中的角色，保证各节点、排序器和聚合器各司其职，zkProver负责生成零知识证明，zkBridge负责在L1和L2间、L2和L2间传递资产。而Polygon ID的加入，则是Polygon zkEVM在从链上/链下数据的汇入，各类角色的身份辨识以及资产流向等方面进行增强。
+基于Polygon ID开发的身份系统可以在不同的EVM兼容链和L2之间相互通信，链上声誉系统、信用借贷和RWA（现实世界资产）等DeFi应用都可以对现有模式进行创新。
+并且，DID赛道可以触及主流群体的需求，Web 2侵犯用户隐私的事件屡见不鲜，Polygon ID 这种身份基础设施允许任何人成为 Web3 身份的颁发行者、验证者或持有者，改变大厂和机构等中心化实体对个人数据的占有和滥用的局面。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[链上身份层Polygon ID：想打造Web 2体验级的Web 3身份系统]]></title>
         <id>https://www.panewslab.com/zh/articledetails/96k45edl.html</id>
