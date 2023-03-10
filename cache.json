@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups</a></p>\n<p><strong>文章作者：</strong></p><p>Partrick McCorry</p><hr><h3>观点：</h3><p><strong>Partrick McCorry：</strong>虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup = 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a>",
           "link": "https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups",
           "publishedOn": "2023-03-10T04:29:42.000Z",
-          "wordCount": 7938,
+          "wordCount": 7732,
           "title": "【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png"
         },
@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nervina Labs 首席执行官 cipherw 发推特阐述其认为多方计算（MPC）钱包的缺陷：存在严重安全风险且并未解决单点故障问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">https://twitter.com/crypcipher/status/1633289822113796097</a></p>\n<p><strong>文章作者：</strong></p><p>crypcipher（Nervina Labs 首席执行官）</p><hr><h3>观点：</h3><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>1）MPC 引入并忽视了更严重的安全风险。虽然 MPC 将用户从私钥管理中解放出来，但其密钥管理依赖于 HSM 或云服务器，很容易出现大量不可恢复故障；2）MPC 钱包始终没有解决单点故障问题。即使密钥共享服务器是分开的，但仍由同一个解决方案提供商运营和维护。这意味着，如果服务提供商关闭，所有的用户账户将变得不可用。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>MPC 是一种钱包 SaaS 产品，兼具 SaaS 的积极和消极方面。虽然终端用户可能不关心去中心化和自主权，但开发者和初创公司却关心，因为他们不能在不可靠的服务上构建应用程序。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a>",
           "link": "https://twitter.com/crypcipher/status/1633289822113796097",
           "publishedOn": "2023-03-09T08:24:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】观点：为什么 MPC 钱包不可行？",
           "imageUrl": null
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>基于区块链的赌博平台通过 VRF 和 ZK 等技术为玩家提供监管保护和公平环境，或将吸引更多企业进入 Web3。加密货币 KOL Misa 列出了十个有增长指标并被市场相对低估的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">https://twitter.com/misaflips/status/1633452887509733376</a></p>\n<p><strong>文章作者：</strong></p><p>Misa</p><hr><h3>观点：</h3><p><strong>Misa：</strong>1）Rollbit。该平台集合了赌场、体育博彩、期货、NFT 市场等多项功能。有 100 万注册用户，每天下注 2000 万美元，总下注金额超过 30 亿美元。市值：9500 万。【原文为英文】</p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">内容来源</a><p><strong>Misa：</strong>2）BetFury。提供大量的赌场游戏。与 BFG 代币持有者共享平台收入。有挖矿计划，玩家玩游戏可以获得 BFG 代币。使用 SHA256 技术的可验证公平原则来确保公正。市值：5800 万。【原文为英文】</p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">内容来源</a><p><strong>Misa：</strong>3）Kineko。拥有赌博许可证和 DeFi 整合的在线博彩公司，可以进行赌场和体育博彩。市值：1600 万。【原文为英文】</p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">内容来源</a>",
           "link": "https://twitter.com/misaflips/status/1633452887509733376",
           "publishedOn": "2023-03-09T07:28:37.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】盘点 10 个有潜力的 GambleFi 项目：Rollbit，BetFury，Kineko...",
           "imageUrl": null
         },
@@ -267,7 +267,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Delphi Digital 研究员 Demosthenes 发布了一份关于 MakerDAO 的报告，主要探究了 MakerDAO 2022 年的发展概况及对其基本面的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DemosCrypto/status/1633553601560813569\">https://twitter.com/DemosCrypto/status/1633553601560813569</a></p>\n<p><strong>文章作者：</strong></p><p>Demosthenes</p><hr><h3>观点：</h3><p><strong>Demosthenes：</strong>1）目前 DAI 的供应量已经从 100 亿缩减至了 55 亿枚，但与其竞争对手相比，DAI 仍然是占主导地位的 CDP 币。此外，MakerDAO 的 TVL 下降了，但也仍然处于主导地位；2）收入在 2022 年已经趋于平稳，其在 2022 年第一季度和第二季度都实现了盈利，但下半年的盈利和支出都有所缩水；【原文为英文】</p><a href=\"https://twitter.com/DemosCrypto/status/1633553601560813569\">内容来源</a><p><strong>Demosthenes：</strong>3）MakerDAO 增加对现实世界资产的敞口，这对其而言是有利的；4）The Endgame Plan 计划仍具有争议；5）总体而言，MakerDAO 基本面和我期望的无异，RWA 和 The Endgame Plan 似乎会在 2023 年给 MakerDAO 带来新的发展机遇。【原文为英文】</p><a href=\"https://twitter.com/DemosCrypto/status/1633553601560813569\">内容来源</a>",
           "link": "https://twitter.com/DemosCrypto/status/1633553601560813569",
           "publishedOn": "2023-03-09T04:57:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Delphi Digital 复盘 MakerDAO 2022 年发展概况：DAI 供应量缩减至 55 亿枚，协议收入趋于平稳",
           "imageUrl": null
         },
@@ -497,7 +497,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">https://twitter.com/rubywxt1/status/1633256234341244929</a></p>\n<p><strong>文章作者：</strong></p><p>Rubywang.eth</p><hr><h3>观点：</h3><p><strong>Rubywang.eth：</strong>现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。</p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">内容来源</a><p><strong>Rubywang.eth：</strong>猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。</p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">内容来源</a><p><strong>Rubywang.eth：</strong>Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。</p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">内容来源</a>",
           "link": "https://twitter.com/rubywxt1/status/1633256234341244929",
           "publishedOn": "2023-03-08T05:49:06.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？",
           "imageUrl": null
         },
@@ -547,7 +547,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5438,
+          "wordCount": 5446,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -617,7 +617,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链上数据分析平台 Watchers 发布 V3 升级，添加了交易板块，尝试将知识图谱的关联分析能力引入交易领域。其联合创始人 Oar 撰推，从利用数据进行交易的角度介绍本次产品升级。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xOar/status/1632741167669579776\">https://twitter.com/0xOar/status/1632741167669579776</a></p>\n<p><strong>文章作者：</strong></p><p>Oar</p><hr><h3>观点：</h3><p><strong>Oar：</strong>1）Watchers 几乎可以搜索任何地址，token，NFT，项目。在基础页面，用户可以看到这些基础信息的所有内容，帮助快速查看一些需要高频查看的基本信息。2）上线了动态面板页面，帮助用户识别了一些重要的链上数据异动。3）上线了 smart money 页面，其完全基于 Scope 的 database 和归集算法，快速识别了整个人类社会链上交易能力最强的一千个地址，且每天都会更新。</p><a href=\"https://twitter.com/0xOar/status/1632741167669579776\">内容来源</a><p><strong>Oar：</strong>4）利用 Watchers 的地址归集能力，用户可以很快速的查到哪些地址可能是属于同一个人。5）提供了自定义面板的功能，用户得到了一批地址之后可以自己来创建一个 entity，产品支持最高 200 个地址的批量监控。6）提供了自由度极高的预警功能，用户可以直接关注推特，也可以在功能创建一个预警系统。可以预警你已经创建的 entity 及某些 VC  的异动，异动的范围可以包含，转账，交易，token 甚至是 NFT。</p><a href=\"https://twitter.com/0xOar/status/1632741167669579776\">内容来源</a><p><strong>Oar：</strong>7）更高级别的机构客户甚至可以直接管理所有的投资细节，不论是一级，二级还是股权，token。8）同时，机构版本还将有所有主要项目的「真实」用户的画像和流量变化，其真相往往比大家想象的更加离奇。</p><a href=\"https://twitter.com/0xOar/status/1632741167669579776\">内容来源</a>",
           "link": "https://twitter.com/0xOar/status/1632741167669579776",
           "publishedOn": "2023-03-07T10:57:40.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Watchers V3 升级：将知识图谱的关联分析能力引入交易领域",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 999,
+          "wordCount": 997,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 737,
+          "wordCount": 745,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -827,7 +827,7 @@
           "description": "<h3>Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem</h3>\n<p>Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem，专注于稳定性、开发者体验、包大小和性能。Wagmi 表示，viem 将通过模块化和灵活的构建方式、用于自动完成、类型推断和静态验证的强类型 API 及完全记录的 API 提供良好的开发者体验。此外，viem 只有 27kB，因此终端用户不应该被要求下载超过 100kB 的文件与以太坊进行交互。且与 wagmi 不同，viem 适用于以太坊低级和无状态接口，包括库、工具、服务器端开发及脚本等。\n此前消息，Paradigm 正在赞助 Tom Meagher 和 Jake Moxey 全职开发 Web3 前端开发库 wagmi。根据介绍，wagmi 是一个用于 Web3 前端的 Javascript 库，为开发者提供了简单的钩子（如 useBalance）来与以太坊进行互动。</p>\n<p><a href=\"https://twitter.com/wagmi_sh/status/1632814443972395010\">内容来源</a></p><hr><h3>观点：</h3><p><strong>wagmi-dev.eth：</strong>我们之所以构建 viem，是因为我们知道一个稳定的、可预测的、具有极小的包尺寸和高性能模块的实现对于与以太坊生态系统进行交互非常重要。viem 将与 wagmi 整合，因此用户无需太多前期转换成本。此外，wagmi v1 将在未来几个月内发布，将从 Ethers.js 移植到 viem。【原文为英文】</p><a href=\"https://twitter.com/wagmi_sh/status/1632814443972395010\">内容来源</a>",
           "link": "https://twitter.com/wagmi_sh/status/1632814443972395010",
           "publishedOn": "2023-03-07T01:34:32.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Web3 前端开发库 wagmi 推出以太坊 TypeScript 接口 viem",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>\n<p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a>",
           "link": "https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4",
           "publishedOn": "2023-03-06T04:24:56.000Z",
-          "wordCount": 872,
+          "wordCount": 869,
           "title": "PolyHedra Network 解读：如何构建「多边形」 ZK 生态",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:830/1*iENbqA6ctCMVW8Dz5Mr1sg.png"
         },
@@ -6888,7 +6888,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1823,
+          "wordCount": 1826,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
