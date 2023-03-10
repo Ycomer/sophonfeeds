@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T06:37:30.150Z</updated>
+    <updated>2023-03-10T06:44:43.581Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -245,6 +245,268 @@ https://community.reflexer.finance/t/rai-controller-ungovernance/208]]></summary
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RAI：V神眼中的去中心化稳定币“理想型”]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/b097158j0e6f.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/b097158j0e6f.html"/>
+        <updated>2023-03-10T06:30:59.000Z</updated>
+        <summary type="html"><![CDATA[机构：Mint Ventures
+作者：Lawrence Lee, Mint Ventures研究员
+前言
+伴随着美国证券交易委员会（SEC）对BUSD的证券指控，以及Binance上线去中心化稳定币协议Liquity的“治理”代币LQTY，去中心化稳定币又一次成为了市场热点。
+去中心化稳定币赛道是Mint Ventures长期关注的赛道，我们对比较优秀的去中心化稳定币项目都进行了比较及时、全面的覆盖，所产出研报包括《从货币协议到DeFi矩阵，多角度解析Frax.finance》、《Liquity：稳定币市场的后起之秀》、《学院派稳定币新秀：Angle Protocol》、《稳定币赛道的三好学生Celo，能复制Terra的崛起之路吗？》，对于迅速崛起又流星般坠落的Luna/UST，我们也有《Terra：稳定币军团的崛起之路》、《千万美金赌局背后：Luna到底是不是庞氏骗局？》两篇分析，有助于各位读者对于了解各个去中心化稳定币的领先项目。
+监管问题始终是悬挂在稳定币项目头上的达摩克利斯之剑，也是去中心化稳定币项目最大的发展契机，我们也始终关注监管的动向：《监管风暴开启机会之窗，哪些去中心化稳定币值得关注？》、《监管之雷终于降临，去中心化稳定币的春天要来了吗？》两篇中，我们分析了比较值得关注的去中心化稳定币项目，以及去中心化稳定币发展的契机和忧患。
+本期研报，我们将关注在去中心化/去信任化方面做的比较极致的去中心化稳定币项目Reflexer Finance，其发行的“稳定币”RAI不依赖任何中心化的货币，甚至不依赖美联储。
+本文由笔者基于撰文时的项目信息、市场背景写就。受限于作者的认知和信息局限，文章内容可能存在数据、事实、分析推演层面的错误，欢迎同业交流指正，本文所有内容均不构成投资建议。
+一. 报告要点
+1.1 核心投资逻辑
+RAI具有非法币锚定、完全去中心化、以及最小化治理的极致去信任特性，是以太坊网络上最去中心化的稳定币之一，也被以太坊创始人Vitalik称为是“仅由 ETH 支持的抵押自动稳定币的纯粹理想类型”。
+稳定币赛道业务基础稳固，在过往的加密周期中发展迅速，超过行业平均水平。在稳定币的细分赛道中，伴随着近期监管对稳定币的高压态势，RAI所处的去中心化稳定币赛道，由于具有更加符合抗审查和去信任的加密世界主流叙事、同时目前的发展程度更低，具有更加广阔的发展前景。另外RAI还有不锚定法币这一目前稳定币市场中的稀缺特性，使得其不仅可以免于美国的监管，也可免受美联储货币政策的影响。
+1.2 主要风险
+RAI的风险包括：
+PMF风险：非法币锚定的稳定币在用户端的接受度低
+市场推广阻力因素较多：
+仅以ETH为抵押物会影响RAI在用户端的推广
+最小化治理的理念使得团队运营抓手更少
+治理代币FLX流通量已经超过67%，后续用于用例推广的激励可能不足
+团队风险：在联合创始人Stefan出走之后的近一年时间，团队在用例扩展和市场推广方面的进展都较为一般RAI的风险包括：
+代码风险：RAI机制新颖且基于PID（Proportional–Integral–Derivative Controller，比例-积分-微分控制器，广泛用于工业设计中的反馈控制）理念的链上控制系统并无先例，虽然经历了2年的安全运行以及代码审计机构的审计，但仍有潜在风险尚未暴露的可能性
+1.3 估值
+从P/S角度看，与同为以太坊网络完全去中心化稳定币的Liquity相比，Reflexer的估值更低；而从稳定币规模角度来看，Reflexer则相对高估。
+详见4.2 估值水平。
+二. 项目基本情况
+2.1 项目业务范围
+Reflexer Finance的唯一业务是“稳定币”，由Reflexer Labs开发和运营。
+其核心业务流程比较简单：用户超额抵押ETH生成稳定币RAI，用户付出2%的年利息即可持续使用RAI。用户偿还 RAI，并支付借贷利息，就可以赎回ETH。系统治理目前由治理代币FLX的持币者进行，长期他们希望实现“无治理”。
+与DAI和其他绝大多数稳定币不同的是，RAI并不锚定任何法币或实物，而是由市场供需关系来自动调节目标价格，最终达到其“基于ETH的低波动资产”的目标。具体我们将在2.3 业务详情一节展开。
+2.2 项目历史沿革和路线图
+Reflexer Finance的历史沿革如下表：
+在路线图方面，除了下文将会详细讲述的最小化治理之外，RAI也在考虑是否将抵押物扩展如stETH之类去中心化资产，Vitalik也在Reflexer治理论坛提起了关于RAI系统如何支持LSD的讨论。
+2.3 业务详情
+对于稳定币，我们首先要考察的是其核心产品机制。包含供给控制机制、清算机制、坏账处理机制等的一整套自洽的核心产品机制，是稳定币项目长期发展的基石。诸如ESD/BAC等算法稳定币之所以迅速消亡，UST之所以螺旋上天又史诗级崩溃，就是其核心产品机制并不长期可持续。
+2.3.1 供给控制机制
+对于稳定币乃至任何货币而言，供给控制机制都是其设计中最重要的一环，由于市场需求整体并不可测（虽然也可以通过各种手段来刺激需求，但是需求端的刺激对于价格调控这一目标而言是间接的，并且需求端的刺激更多的不是源自机制，而是源自激励），所以稳定币能价格保持稳定的核心机制主要是靠供给控制。一个能够灵活响应市场而又始终保持底层稳定的供给控制机制，是每个稳定币项目都希望能构建的。
+Reflexer系统随时允许用户按照赎回价格（也就是目标价格，为了方便下文理解，我们都以赎回价格来指代）来生成RAI，同时随时允许用户按照系统的赎回价格来偿还RAI并取回质押的ETH。
+Reflexer系统的供给控制的核心在于，当市场供需出现失衡时，Reflexer会主动调整RAI的赎回价格，通过激励用户的套利行为来引导市场价格贴近赎回价格，从而达到新的供需平衡。RAI的赎回价格最初定为3.14（圆周率pi），随后就由代码根据市场价格来进行调整。
+在Reflexer的系统中有两类角色：对RAI的净负债者（RAI系统的借款人）和净持有RAI资产者（RAI系统的出借人）。RAI系统的借款人通常是指那些抵押ETH生成RAI，并将RAI用于其他用途的用户，他们拥有对RAI的净负债，需要从市场购买RAI来进行还款。
+Reflexer系统通过控制赎回价格来影响上述两个人群的边际行为，从而实现对RAI供给的主动控制。具体而言：
+当市场对RAI的需求旺盛，导致RAI的市场价格上涨时，系统会自动降低赎回价格，使得RAI的赎回价格更加显著的低于市场价格，从而使得系统内的参与人倾向于增加借款，即通过质押ETH获得新的RAI并出售给市场来获利，从而使得RAI供应量提高，市场价格降低。整个过程如下图所示：
+0为初始状态；
+10分，RAI的市场价格提高（绿线），市场价格高于赎回价格（红线），此时已经有套利者开始铸造新的RAI出售给市场套利，系统的赎回率（蓝线）为负（净铸造）；
+20分，系统进一步降低RAI的赎回价格，套利空间增大，铸造率进一步提高；
+40分，系统重新到达稳定状态。
+当市场对RAI的需求萎靡，导致RAI的市场价格下跌时，系统的调整也是相对的。系统会自动提高赎回价格，使得RAI的赎回价格更加显著的高于市场价格，从而使得系统内的借款人更加倾向于偿还借款，即从市场购买RAI偿还给系统，从而使得RAI供应量降低，市场价格提高。整个过程如下图所示：
+0为初始状态；
+10分，RAI的市场价格降低（绿线），市场价格低于赎回价格（红线），RAI的净借款人可以从市场购买RAI偿还给系统以套利，市场的其他参与玩家也可以在此预期下购买RAI，从而使得系统的赎回率（蓝线）升高；
+20分，系统进一步提高RAI的赎回价格，套利空间增大，赎回率进一步提高；
+40分，系统重新到达稳定状态。
+在具体的实现上，RAI系统采用一套基于PID控制（Proportional–Integral–Derivative controller，比例-积分-微分控制器，广泛用于工业设计中的反馈控制）的机制，使用一系列参数来调整上述的控制过程。具体而言：
+比例参数（P参数）主要用于对系统的偏差调节，其调整基于偏差的“比例”，也就是说，偏差比例越大，调整幅度越大。在RAI的例子里，当市场价格与赎回价格不一致时，比例参数主要驱动了赎回价格的变化：市场价格升高，则赎回价格降低；市场价格继续升高，则赎回价格继续降低；P参数从RAI上线之时就存在，是整个系统的基础。正是这个参数，使得RAI系统具有了创始人Ameen Soleimani所说的“弹簧”特性：“RAI 的市场价格离赎回价格越远，让RAI回归平衡的动力就越大”。
+积分参数（I参数）的调整基于偏差的“积分”项，积分项考虑了时间的因素，偏差的积分项越大，调整的幅度越大。在RAI的例子里，当市场价格与赎回价格持续产生差距，积分参数则会逐步升高，驱动赎回价格更加剧烈的变动。在RAI系统内，I参数于2022年2月份上线。
+微分参数（D参数）的调整基于偏差的“微分”项，偏差的微分项越大（偏差越剧烈），调整的幅度越大。D参数目前仍未在RAI系统内上线。
+对RAI的PID控制理论和实践有兴趣的读者可以前往Reflexer官方文档、Reflexer官方论坛以及创始人Ameen的文章来了解更多细节。
+另外值得一提的是，RAI的初始价格其实并不重要，3.14的初始价格其实是依据早期参与者在Twitter的投票结果决定的，RAI完全可以以4.2或者6.9或者任意的其他目标价格来开始整个系统，依靠PID机制维持整个协议正常运转。
+ 
+RAI系统的这一套机制，正符合货币主义奠基人、诺贝尔经济学奖获得者米尔顿·弗里德曼理想情况下对美联储的预期。弗里德曼认为，美联储的工作足以使用一台计算机来代替：
+Abolish the FED, replace it with a computer.
+废掉美联储，用计算机来替代它。
+— Milton Friedman
+（这同时也是Reflexer社区的重要Meme）
+2.3.2 清算机制
+RAI是超额抵押的稳定币，与其他采用超额抵押模式的稳定币协议或者借贷协议一样，当出现某人抵押品价值相对借出物价值的比值低于某个特定阈值时，为了保证协议的安全健康，就会触发清算。这时清算人通过固定折扣拍卖的形式获得被清算者的抵押品（ETH），同时替被清算者偿还债务（RAI）。这个过程被称为 “抵押品清算” ，也是协议安全的第一重保障；
+协议平时收取的稳定费（利息）会计入 “盈余缓冲” ，当抵押品清算无法处理所有坏账时，协议会首先使用盈余缓冲中的资金来对坏账进行清算，这是协议安全的第二重保障（盈余缓冲中的金额积累超过一定金额或一段时间，会经过DAO投票用于回购FLX并销毁）；
+若盈余缓冲也无法处理坏账时，协议会进入“债务拍卖”。债务拍卖是系统增发出更多的FLX代币，从而在市场上换取RAI完成债务处理。这是协议安全的第三重保障，也对应来FLX代币中的“最后贷款人”职能。
+从整个的清算体系我们可以看出，“抵押品清算”是系统的常驻防线。抵押品清算按照固定折扣进行，也能有效提高清算效率，避免极端行情下清算效率过低导致的系统性风险（如MakerDAO在2020年312遇到的那样）。而假设市场行情极端，导致抵押品清算机制暂时失效时，也有“盈余缓冲兑付”和“债务拍卖”来维护整个系统的安全。事实上RAI上线以来发生的清算都是抵押品清算，并没有用到盈余缓冲兑付以及债务拍卖。
+2.3.3 系统的实际运行情况
+从上图我们可以看到，自从2021年2月以3.14的赎回价格上线以来，RAI的市场价格和赎回价格一直处在较好的拟合状态。在最开始的市场波动之后，RAI的赎回价格直到2022年5月之前一直在3.01～3.04美元的区间内窄幅波动，而这段时间内RAI的基础资产ETH的波动很大，4000美元->1750美元->4800美元->1800美元，同样的RAI的流通量波动很大，其流通量5000万枚->650万枚->3000万枚->1600万枚。在如此剧烈的波动下，RAI很好的完成了其“基于ETH的低波动资产”的目标。
+在随后的2022年5月-7月，从Luna开始，3AC、Celsius、Voyager相继崩溃，借贷平台的ETH接连触达大额清算线，整个市场同时出现了流动性危机和对去中心化稳定币赛道的叙事打击，而对RAI的持有人来说，他们的抵押物ETH也不断贬值面临清算风险。在这种背景下，RAI的借款人纷纷还款，RAI的流通量从5月6日的1700万枚降低到6月20日的520万枚。借款人对RAI旺盛的还款需求使得RAI价格升高。而当时市场上并没有足够多的玩家来进行“铸造RAI，并将RAI出售给市场”的套利，使得RAI的市场价格在长达一个多月的时间内都高于赎回价格0.08美元（约3%）左右。在我们前文所述的I参数的机制之下，RAI的赎回价格持续降低，最终降低到了2.7美元左右。
+总体而言，RAI目前上线2年，也恰逢以太坊价格剧烈波动的时间，在此期间内RAI的价格绝大部分时间在2.75～3.05之间波动，没有发生清算事故，也未发生其他安全风险事件，其核心产品机制得到了验证。
+目前在RAI存入的ETH有2600万美元，总计有150个活跃的借款人。协议流通的RAI数量为235万枚。
+在用例拓展方面，RAI也取得一定的成效：
+其中Aave和Coinbase的集成，显示了他们不俗的bd能力，然而限于RAI的规模较小，RAI的这两处用例都未形成规模。
+2.4 融资和团队情况
+2.4.1 融资情况
+Reflexer Finance 总计融资3轮：
+在2020年4月，MetaCartel Ventures 宣布 Reflexer Finance为其第一个投资项目，投资金额未披露。MetaCartel 是一个带有孵化性质的 Venture DAO，其成员基本遍布以太坊社区活跃项目方和VC。
+在2020年8月，Reflexer 公布完成了由 Paradigm 领投的 168 万美元（ETH时价400美元左右）种子轮融资，参投方包括 Standard Crypto、Compound 创始人 Robert 和 Variant Fund。
+在2021年2月产品主网上线前夕，Reflexer公布完成了414万美元融资，由Pantera和Lemniscap领投，MetaCartel、TheLAO、Aave 创始人Stani、Synthetix创始人Kain等跟投。
+总体来说，Reflexer的融资金额并不大，但是其支持者普遍为以太坊社区的活跃VC、DAO和项目方，显示了以太坊社区对Reflexer的支持。
+2.4.2 团队情况
+Reflexer Finance的创始人为Ameen Soleimani和Stefan Ionescu。
+Ameen Soleimani 同时也是 Moloch DAO 和 SpankChain 的创始人，Moloch DAO 是一个旨在资助以太坊基础设施的DAO，曾经得到 Vitalik 和 Joseph Lubin（以太坊联合创始人，Consensys 创始人兼CEO）的捐助，并且凭借其“怒退”（Rage Quitting，允许DAO成员在投资之前自行取回资金）机制奠定了目前DAO Venture的主流框架；Spankchain是一个基于以太坊的成人行业小额支付平台。他也曾在Consensys工作过一年。
+Stefan Ionescu原本的角色更加类似创始人兼CTO，不过他已于22年3月25日宣布退出Reflexer 的大部分事务，仅在技术领域为DAO提供顾问服务，同时将自己的代币锁仓4年。除了两位创始人之外，在2021年1月主网上线前夕，Ameen曾在Twitter披露过Reflexer团队共有7位开发工程师（包括两位创始人在内）。
+在2022年5月，经过自荐和社区讨论投票，Bacon 成为了新的DAO负责人，0x-Kingfish成为了集成负责人，主要负责RAI与其他协议的集成。8月，Bacon离职，Reza加入DAO中，其职位是社区负责人。
+0x-Kingfish和Reza是目前除了Ameen之外在Reflexer的日常工作中比较活跃的两位。两人保持匿名，0x-Kingfish在竞选提案中提到自己有10年的金融二级市场投资经验，在2020年进入加密货币行业；Reza从17年进入行业，曾经在加密项目akoin负责市场和社区工作，也自己发行过NFT系列，目前同时也是加密媒体Decrypt的BD。
+另外，在MetaCartel的投资中，他们披露Reflexer的顾问为 Nikolai Mushegian。Nikolai是一位以太坊社区早期的活跃开发者，他是MakerDAO的联合创始人和架构师，同时也是Balancer的联合创始人。不过Nikolai已于2022年11月去世。
+总体而言，Reflexer 的团队人数并不多，尤其在创始人之一的Stefan Ionescu出走之后，团队整体显得更加“佛系”，当然这也与Reflexer所追求的“最小化治理”有所关联。
+三. 业务分析
+3.1 行业空间及潜力
+稳定币在过去一轮加密周期中取得了远超加密市场平均水平的发展。即便经历了1年的加密熊市以及重要项目UST的崩溃，稳定币目前仍然有超过1350亿的流通量，且相较高峰时的1800余亿下降幅度仅27%左右，远低于BTC或ETH的价格跌幅。
+究其原因，笔者认为，在加密市场的逐步发展壮大的过程中，参与者逐步发现，稳定币确实是相比BTC或ETH更符合第一性原理的加密货币基础结算货币。具体而言，我们可以看到，稳定币已经取代BTC/ETH成为：
+现货交易的基础结算货币
+大受市场欢迎的永续合约等新型衍生品的结算货币
+大部分项目方和风险投资机构进行投融资活动的结算货币
+而在上一轮周期中，全球货币超发背景下价格迅速上涨带来的赚钱效应、链上层出不穷的新项目以其高收益率或者新颖机制也吸引了更多合规机构、更广泛的参与者，稳定币作为加密货币基础结算货币的定位在全市场参与者的心中已经非常稳固，其市场规模至少会伴随着加密货币总体规模同步发展，仍然有着巨大的发展空间。
+伴随着稳定币发行方所持有的短期美国国债占市场份额超过了2%（2022年5月），甚至超过了“股神”巴菲特旗下的投资公司伯克希尔哈撒韦，以及算法稳定币UST崩溃所带来的深远影响，监管当局对加密市场尤其是稳定币的监管正在逐步加码。
+最近半年以来，各国不同的监管部门针对加密市场和稳定币的监管讨论层出不穷，而实际的监管举措也时有发生，其中引起最大争议的两次是：
+2022年8月，美国财政部海外资产控制办公室（Office of Foreign Assets Control, OFAC) 决定制裁以太坊网络的混币器Tornado Cash。在事件发生之后，USDC的发行方Circle迅速冻结了OFAC名单的地址中的USDC，这些地址均与Tornado Cash合约存在交互。该事件在以太坊社区引发了巨大的轰动，好事者甚至通过Tornado Cash向加密世界名人的链上地址发送ETH来进行“投毒”。
+2023年2月，稳定币发行商Paxos 的监管机构纽约金融服务部（NYDFS）要求其停止 BUSD的发行，Paxos也因BUSD相关问题收到美国证券交易委员会（SEC）的“韦尔斯通知”，或将面临SEC非法发行证券的指控。
+两次事件对稳定币的持币者乃至整个行业有长期而深远的影响。
+对于任何加密世界的普通人，假若自己曾经参与交互的某个DeFi项目得罪了美国财政部，那么自己链上的USDC将可能会被冻结，这种荒谬的不确定性所带来的担忧会极大影响人们持有加密资产的信心，也与加密世界中主张的抗审查、无许可、去中心化完全背道而驰。本次事件之后的3个月内，USDC发行量降低了100亿枚，而并未配合OFAC制裁的USDT的发行量则上涨了50亿枚（如前文所述，MakerDAO也在此事件之后开始讨论DAI脱钩美元的可能性）。
+SEC指控Paxos事件发生之后，处在暴风眼中对币安随即开始在全球广泛的寻找潜在的法币抵押稳定币发行合作伙伴，同时也关注去中心化稳定币项目，与2月28日上线了去中心化稳定币Liquity的代币LQTY。
+Paxos在2月21日宣布停止发行新的BUSD，BUSD市值从2月13日的160余亿美元下降到105亿美元（截止3月1日）。一度进入加密货币市值前十的BUSD在监管压力之下或将在1年之内“归零”。关于SEC对Paxos的指控，Messari创始人Ryan Selkis言辞激烈：“我人生的新目标是结束 Gary Gensler（SEC主席）的政治生涯，让他成为拜登连任失败的原因……我将花费我所拥有的每一分精力、资金和政治资本来打击加密货币的道德败坏和腐败的敌人。”
+虽然逻辑上并不太可能，但假若BUSD真的被SEC认定为证券，那将是个对整个加密行业的巨大打击。
+以上两个事件都推动了市场对去中心化稳定币的关注。然而相比于中心化稳定币的繁荣发展，去中心化稳定币在本轮周期中却更加坎坷，虽然曾一度登上巅峰，又伴随着UST的崩溃而坠入了“绝望之谷”，总体的发展状况远不如中心化稳定币，我们将在3.2 项目竞争格局中，详细对比RAI和其他的去中心化稳定币。
+综上所述，我们认为，稳定币业务基础稳固，空间广阔，仍有不俗潜力。在稳定币的细分赛道中，伴随着近期监管对稳定币的高压态势，RAI所处的去中心化稳定币赛道，由于具有更加符合抗审查和去信任的加密世界主流叙事、同时目前的发展程度更低，具有更加广阔的发展前景。
+3.2 项目竞争优势
+RAI属于去中心化稳定币，在本节中，我们将重点分析去中心化稳定币的竞争格局。
+以下是目前Coingecko列出的，流通量在3000万美元以上的去中心化稳定币。
+RAI的流通市值不足千万美元，而且衡量稳定币发展的重要指标如持币人数、TVL、转账次数等也远远不如上述项目。虽然业务数据全面落后，但笔者仍然认为RAI具有不俗的竞争优势，体现在：
+非法币锚定
+完全去中心化
+3.2.1 非法币锚定
+在2.31.「供给控制机制」一节中，我们可以发现，RAI与绝大多数稳定币不同，其价格并不锚定法币或某种实物，而是通过迂回的方式锚定了市场对RAI的需求。
+这在整个稳定币市场中是非常少见的，在笔者印象中，只有与RAI大致同期上线的Float Protocol才有类似的设计（Olympus及其Fork在笔者看来并不能定义为稳定币）。笔者认为，这种不锚定法币的设计对于整个加密市场而言都非常珍贵。
+要理解这种设计的重要性，我们可能要先来回顾一下一个国际经济学的概念。
+国际经济学上一直存在蒙代尔的三元悖论，也就是说，除了规则制定者（美国）之外，一国货币政策的独立性、汇率的稳定性、资本的自由流动这三者不能同时存在，最多只能选择其中两个。若想同时拥有三者则会遭致危机，如97年的亚洲金融危机、94–95年的墨西哥比索危机、01–02年的阿根廷金融危机等。
+在实践中，如香港，选择的就是盯住美元的稳定汇率以及自由流动的资本，完全放弃自己的货币政策；如朝鲜，选择的就是独立货币政策以及稳定的汇率，进行完全的资本管制。当然，其他绝大多数国家，其选择都是在上述三者之中进行折中。
+如果我们以这种视角来思考目前的加密世界，以当前所有的稳定币的并集作为加密生态中的“货币”，我们会发现，加密世界与香港非常类似：资本完全自由流出，奉行几乎完全1:1盯住美元汇率的稳定汇率政策，同时完全放弃自己的货币政策。
+事实上，在上述的不可能三角中，资本自由流动是整个加密市场天然的选择，而如果选择了相对美元的汇率稳定性，虽然能够获得推广以及诸多方面的便利，但却丧失了加密世界货币政策的独立性。目前加密世界运行基石的稳定币已然成为美元的“傀儡”，从这个角度，加密货币并不是超主权货币，反而是亚主权货币。这与加密货币诞生时的抗通胀、去信任的理念都是背道而驰的。美联储假若进行无节制的货币超发，加密世界也可能会受到通货膨胀的困扰。这也是目前加密世界的一个巨大的隐忧：万丈高楼之下的根基之处，依然有着美联储通胀的影子。
+如果我们认为成为香港并不是加密世界的目标，如果我们认可加密货币的超主权性质，那么加密世界的通用的货币理应有自己的独立货币政策，叠加加密市场天然的资本自由流动属性，那么这种货币应该避免与任何现实世界中的法币挂钩（放弃固定汇率），否则就会沦为法币的附庸。
+从这个视角来看，Reflexer所经营的是纯正的中央银行业务，而Circle/Tether或者MakerDAO所经营的，无非是美联储（欧洲央行）体系内的一个商业银行，MakerDAO和Circle的区别仅仅在于，MakerDAO支持采用ETH或是其他加密原生资产作为借贷的抵押物。
+这一点也被越来越多的稳定币项目方所认识到，在Tornado Cash被制裁事件发生之后，MakerDAO也在考虑使DAI脱离美元计价，此事件也引发了以太坊创始人Vitalik参与讨论。但是以DAI目前超过60%的DAI都由锚定美元的中心化稳定币支持的情况来看，MakerDAO实现这种脱钩的概率非常小，即便可以实现，过程也会十分颠簸且漫长。
+综上所述，由于绝大多数用户都未曾接触过非法币锚定稳定币的概念，这当然对于RAI的用例推广造成了诸多障碍。然而，锚定美元是容易的，而构建一个不锚定美元且稳定的系统则是困难的。放弃对美元的锚定，使得Reflexer能够完全脱离美国监管，并隔离美国货币政策对其稳定币RAI的影响。同时这种特性对于整个加密世界的稳定币而言也是一种难得的容错机制。
+3.2.2 完全去中心化
+RAI是完全去中心化的，系统支持的抵押物只有ETH。而去中心化是要付出代价的。
+与前文提到的蒙代尔的三元悖论类似，在加密世界中，也有人提出了关于加密稳定币的三元悖论，即稳定币的资本效率、价格稳定性和去中心化三者也不能同时存在。笔者认为这种分类也有一定道理，试图同时获得这三者的ESD/BAC/UST最终都走向了灭亡。
+而最老牌的去中心化稳定币DAI的发展过程也能很好的体现这一点：
+在2019年11月之前，DAI一直是去中心化（只有ETH作为抵押物）的，但是由于缺乏有效的将DAI拉回1美元的机制，DAI的价格并不稳定，同时由于ETH本身的价格波动较大（如下图），用户在使用ETH抵押时为了防止被清算留足安全边际，所以整个系统的超额抵押率非常之高，相应的其资本利用效率也更低。
+MakerDAO为了解决这些问题，开始提案扩充抵押物来源（不过最初并不包含USDC）。而在20年的312事件中，由于链上的高gas和低流动性，MakerDAO的清算系统无法正常运行，最终给协议留下了600多万美元的损失。正是在这种背景之下，支持USDC抵押生成DAI的Stablecoin Vaults上线了。
+USDC Vault的上线很快的将DAI的价格拉回了1，随后虽然因为DeFi summer造成的需求高涨，以及Vault上限无法及时调整而使得DAI的价格一度有高于1.03，不过在20年底Stable Vaults升级为PSM（Peg Stability Module，价格稳定模块）之后，由于可以随时通过Swap的方式将USDC转换为DAI，DAI的价格从此就稳定在非常窄的范围内波动。从此以后，中心化稳定币生成DAI的比例占DAI流通量的比例逐步提高，目前由中心化稳定币（USDC、GUSD、USDP、以及USDC-DAI LP中的USDC）支持的DAI超过了DAI流通比例的60%，协议整体的超额抵押率也低于200%。
+由DAI的例子我们可以看出，引入其他已经广泛流通的稳定币作为自身稳定币的抵押物，将会非常有效的提升本协议稳定币的流动性，进而获得良好的价格稳定性；同时由于抵押物和借出物都是稳定币，系统的超额抵押率也会随之降低，进而提高协议总体的资金利用效率；此外引入其他稳定币作为抵押物也可以更加有效的帮助去中心化稳定币协议进行冷启动和后续的拓展。在我们上图中的稳定币中，采取这种机制的稳定币不在少数。比如：
+FRAX的抵押物的中心化稳定币资产的占比超过75%（根据Frax给定的Decentraliazition ratio得出），配合在稳定币协议中极具创新和主动性的AMO机制，FRAX也具有相当高的资本效率和价格稳定性；
+MIM、alUSD、DOLA、agEUR等去中心化稳定币，他们的抵押物构成都有一半以上的来自其他的稳定币（USDT、USDC、DAI）或稳定币在其他DeFi协议的收益凭证，借此，他们的业务规模增长都比较迅速，其稳定币价格通常也比较稳定。
+OUSD和FEI（最新版本）更是完全由其他稳定币生成；
+但是由于广泛流通的稳定币都是中心化的稳定币（DAI也有60%对中心化稳定币的依赖），选择引入他们，其实是放弃了对去中心化的坚持。假若USDC决定封禁上述某些协议的的账户，或者封禁DAI的账户，对以上的稳定币协议都有非常严重的打击。
+UST以及众多其他已经崩溃的算稳，选择的是极致的资金效率，他们允许用户使用去中心化的资产非足额抵押生成稳定币，在市场牛市周期，这种方式更加容易地推动业务进展，但是代价是在市场熊市周期由于稳定币价格无法稳定从而引发整个系统的崩溃。
+另一个老牌的去中心化稳定币，由Synthetix发行的sUSD，选择了价格的稳定性，在绝大多数时间内，sUSD的价格的波动区间都在1美元上下1%的区间之内波动，但是代价是极低的资金利用效率（抵押率常年超过500%）。
+在21年4月份上线的LUSD则通过新颖的机制（关于Liquity机制可查看Liquity：稳定币市场的后起之秀）做出了新的权衡。他们允许LUSD价格在1～1.1之间波动，同时允许单个用户的抵押比率低至110%来提高资金利用效率。从实际运行结果来看，LUSD的价格绝大部分时间在1～1.03之内波动，在一个相对宽幅范围内获得了稳定；资金利用效率方面，Liquity的协议抵押率通常在200%～250%之间波动，目前抵押比率为260%。
+ 
+
+  LUSD价格 数据来源 Coingecko
+
+ 
+而本文我们关注的RAI，与LUSD比较类似，凭借优秀的机制，RAI的价格在宽幅范围内实现了价格的相对稳定；其超额抵押率也常年在300%～400%浮动。
+对于去中心化的稳定币而言，选择引入更多的中心化资产是容易的，而在完全去中心化的基础上构建一个稳定币系统则是困难的。放弃更高的资本效率和更稳定的价格，是Reflexer为了去中心化和抗审查特性所付出的代价。
+3.2.3 最小化治理
+RAI最本质的特性是去中心化/去信任化。
+而目前在DeFi协议代币普遍的“治理”功能，本质上仍然是一种“人治”。从这些拥有治理代币项目的实际治理过程来看，除了持币人极低的治理参与度之外，治理不可避免的寡头化也是目前治理模式的一大问题（这一点在Uniswap社区关于跨链到BNB Chain应该选择哪个跨链桥的治理讨论中体现的淋漓尽致）。
+在机制设计中，RAI并不信任美联储，也不信任任何的“人”，其核心指导原则之一是治理最小化的理念。RAI 认为它应该尽可能地实现自动化、自给自足、避免外部依赖性。其最终目的是与另一个稳定币项目Liquity一样，走向无治理。
+Reflexer协议内各个模块都有详细的最小化治理路线图，以期在未来几年内实现 RAI 的自动化和免治理化。RAI最终希望达到一种状态：治理层将不控制或升级 RAI 的大部分核心合约。
+在去年8月，RAI的最小化治理已经达到了其目标的第二阶段。RAI 的治理代币 FLX 将会随着时间的推移逐步降低其自身的权力，直到其主要功能变成：在破产事件中充当系统的最后贷款人（即维持“债务拍卖”的正常进行）。
+最小化治理或者无治理当然会影响协议复杂多变环境的适应和调整能力，比如Reflexer无法在市场情绪高涨时通过提高稳定费率来提高协议收入，目标最小化治理的Reflexer和无治理的Liquity 在用例拓展方面也远不如其他对治理比较积极的稳定币协议。但是，有治理是容易的，而最小化治理/无治理则是困难的。放弃对协议的治理，是Reflexer为了去中心化和抗审查特性所付出的代价。
+小结
+综上，我们认为，虽然从稳定币市值规模、持币人数、交易量等衡量稳定币业务发展水平的指标方面，RAI距离目前去中心化稳定币头部的DAI、FRAX都有非常大的差距，但是凭借非法币锚定的特性、完全去中心化和最小化治理的理念，RAI具备相对这些头部稳定币项目的一些特色优势。
+正如以太坊创始人Vitalik所言，“RAI 更好地体现了仅由 ETH 支持的抵押自动稳定币的纯粹“理想类型”。
+RAI better exemplifies the pure “ideal type” of a collateralized automated stablecoin, backed by ETH only.
+RAI 更好地体现了仅由 ETH 支持的，超额抵押自动稳定币的“理想类型”
+— Vitalik Buterin
+RAI所希望实现的未来，正是“点对点的电子货币系统，无需信任任何第三方”，这一整个加密市场最大的叙事。
+3.3 通证模型分析
+3.3.1 代币作用
+Reflexer的治理代币为FLX，其主要用例有二：
+RAI的缓冲器：与 MakerDAO类似，RAI 系统将进行盈余和债务拍卖。如果系统出现亏损，系统将自动铸造和拍卖FLX以维护RAI持有人的利益。当系统出现盈余时，盈余的RAI也可以通过FLX来进行折价拍卖，拍卖消耗的FLX将会销毁。目前累计销毁的FLX数量为25,057枚。
+治理：尽管在Reflexer Finance的设想中，RAI的目标是治理最小化，但是协议发展过程中（尤其是早期阶段）仍然有诸多事项需要人的参与，FLX的持有人会来承担治理功能。
+3.3.2 代币分配与解锁
+FLX总量100万枚，其分配如下：
+35%的FLX分配给基金会，其FLX将主要用于协议发展，如激励RAI的流动性和安全性的流动性挖矿奖励、进行各种赠款计划（Grants）等
+其中0.687%总量的FLX分配给了早期与Proto RAI交互的地址。
+对早期RAI铸造者以及RAI-ETH LP的空投也将从这部分代币里支出。
+总计35.69%的FLX分配给投资人/早期支持者：
+21%的FLX 将分配给早期支持者。代币锁仓1年，在随后1年内线性释放。
+11.3%的FLX分配给Reflexer Labs的投资者，代币锁仓1年，在随后1年内线性释放。
+3.39%的FLX 将分配给孵化Reflexer的 DAO，代币锁仓1年，在随后1年内线性释放。
+总计29.31%的代币分配给团队：
+20%的 FLX分配给团队及顾问，代币锁仓1年，在随后1年内线性释放。
+9.31%的FLX直接分配给Reflexer Labs公司，无锁仓限制。
+（注：以上的锁仓时间均从2021年4月15日起算）
+截止目前，根据Coingecko数据，FLX的流通量总计653,309枚，流通比例67%；累计销毁的FLX数量为25,057枚。
+3.4 风险
+RAI的风险包括：
+PMF风险：非法币锚定的稳定币在用户端的接受度低
+市场推广阻力因素较多：
+仅以ETH为抵押物会影响RAI在用户端的推广
+最小化治理的理念使得团队运营抓手更少
+预留用于协议激励的FLX代币数量只有16万枚，按照现在价格不足200万美元，后续用于用例推广的激励可能不足
+团队风险：在联合创始人Stefan出走之后的近一年时间，团队在用例扩展和市场推广方面的进展都较为一般
+代码风险：RAI机制新颖且基于PID理念的链上控制系统并无先例，虽然经历了2年的安全运行以及代码审计机构的审计，但该风险无法消除
+四. 初步价值评估
+4.1 五个核心问题
+项目处在哪个经营周期？是成熟期，还是发展的早中期？
+经过2年时间的发展，项目的主要产品功能已经实现，产品已经处于相对成熟期；但是从其产品 — — 稳定币RAI的实际推广情况来看，其业务仍处于发展的早期。
+项目是否具备牢靠的竞争优势？这种竞争优势来自于哪里？
+项目并没有牢靠的竞争优势，其业务数据也全线落后于赛道内领先的去中心化稳定币项目Liquity。
+然而Reflexer作为整个加密生态内罕见的完全内生于加密货币市场的、对任何法币无依赖的稳定币项目，其以太坊生态内的价值储备资产的灾备价值，在一次次对稳定币的监管活动之后日渐凸显。另外，Vitalik 本人对Reflexer的关注和支持也可算作Reflexer一个潜在的竞争优势。
+项目中长期的投资逻辑是否清晰？是否与行业大趋势相符？
+项目中长期的投资逻辑清晰，去中心化的稳定币是最符合第一性原理的加密世界稳定币，具有对整个加密行业而言的灾备价值，与行业大趋势相符。
+项目在运营上的主要变量因素是什么？这种因素是否容易量化和衡量？
+项目在运营上主要的变量是RAI的用例拓展情况，通过观察RAI的发行量、分布，以及Reflexer团队的对外合作动向可以比较容易的进行跟踪。
+项目的管理和治理方式是什么？DAO水平如何？
+项目的管理和治理主要依靠DAO，在远期希望实现最小化治理。从实际业务发展情况来看，DAO水平一般。
+4.2 估值水平
+在3.2一节我们列出的项目中，能够完全去中心化的稳定币包括sUSD和LUSD，但是Synthetix发行的sUSD目标并不是成为一个通用的稳定币，而是目标成为其衍生品交易体系内的结算货币，并且马上Synthetix要在其最新的v3版本将会发行新的稳定币snxUSD弃用sUSD，因而我们只选择Liqutiy作为Reflexer的估值对比方。除了Liquity以外，我们还选择目前最有影响力的去中心化稳定币协议MakerDAO作为参考。
+其实，Liquity和Reflexer有诸多相似之处，除了抵押物都只选择目前最广泛的去中心化资产ETH之外，他们都还信奉无治理/最小化治理的理念，从而降低人为治理对去中心化的影响，代表着以太坊网络上最纯正的去中心化稳定币。
+在估值比对方面，一方面我们考察“治理”代币与稳定币的市值关系，来衡量其“治理”代币所能“治理”的稳定币规模；另一方面，由于LQTY、FLX和MKR都可能捕获协议收入，我们可以比较方便的考察治理代币流通市值/协议收入这一类似P/S的概念，来比对他们在收入捕获方面的能力。比对结果如下图所示：
+从稳定币规模来看，FLX的估值要高于LQTY，目前FLX的市值已经高出RAI许多。另外，不论FLX还是LQTY，在这项指标上的估值都要比MKR要高很多，这也显示了市场给予完全去中心化稳定币的溢价。
+从收入捕获能力来看，FLX的P/S估值则要低出LQTY许多，接近MKR的估值。
+LQTY的相对高估，除了最近刚刚上线币安带来的流动性溢价之外，也与LQTY的收费结构有关，LQTY并不能从LUSD规模中获益，而只能从LUSD的新铸造和赎回中获益。
+另外还需要考虑到，MakerDAO协议虽然产生了诸多的“收入”，但是由于其高额的运营开支使其“费用”居高不下，实际“利润”为负值，其协议收入已经长期没有分配给MKR的持有人。也就是说，其P/S虽低但P/E为负，这也一定程度上解释了MKR从P/S角度的低估值。
+综上，我们得出结论：从P/S角度看，与同为以太坊网络完全去中心化稳定币的Liquity相比，Reflexer的估值更低；而从稳定币规模角度来看，Reflexer则相对高估。
+五. 参考内容
+除文中已经列出的参考资料外，本文还参考了如下文章的内容：
+Ameen Soleimani：Announcing MetaCoin — The Governance-Minimized Decentralized Stablecoin
+https://ethresear.ch/t/announcing-metacoin-the-governance-minimized-decentralized-stablecoin/6897
+Ameen Soleimani：a-money-god-raises-rai-is-live-on-ethereum-mainnet
+https://ameensol.medium.com/a-money-god-raises-rai-is-live-on-ethereum-mainnet-f9aff2b1d331
+Adam Cochran：Why MetaCartel Ventures is investing in Reflexer Labs
+https://medium.com/@adamscochran/why-metacartel-ventures-is-investing-in-reflexer-labs-d5f5a43c92e0
+Vitalik ：Two thought experiments to evaluate automated stablecoins
+https://vitalik.eth.limo/general/2022/05/25/stable.html
+Dankrad Feist：RAI — one of the coolest experiments in crypto
+https://dankradfeist.de/ethereum/2023/01/31/rai-crypto-experiment.html
+The stablecoin trillema https://stablecoins.wtf/resources/the-stablecoin-trillema
+https://ld-capital.medium.com/trend-research-by-ld-capital-%E4%B8%87%E7%89%A9%E7%94%9F%E9%95%BF%E7%9A%84makerdao-%E6%98%9F%E7%81%AB%E5%B7%B2%E7%87%83-850c4c1c7196
+https://community.reflexer.finance/t/dao-integrations-lead-proposal/282
+https://community.reflexer.finance/t/can-oracles-double-as-co-stakers-how-rai-like-systems-might-safely-support-staked-eth/397
+https://community.reflexer.finance/t/rai-controller-ungovernance/208]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者]]></title>
+        <id>https://twitter.com/crypto_mckenna/status/1633731247867584512</id>
+        <link href="https://twitter.com/crypto_mckenna/status/1633731247867584512"/>
+        <updated>2023-03-10T06:27:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/crypto_mckenna/status/1633731247867584512">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>
+<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href="https://twitter.com/crypto_mckenna/status/1633731247867584512">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href="https://twitter.com/crypto_mckenna/status/1633731247867584512">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型]]></title>
+        <id>https://twitter.com/verumcapital/status/1633456999617773568</id>
+        <link href="https://twitter.com/verumcapital/status/1633456999617773568"/>
+        <updated>2023-03-10T06:25:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/verumcapital/status/1633456999617773568">https://twitter.com/verumcapital/status/1633456999617773568</a></p>
+<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href="https://twitter.com/verumcapital/status/1633456999617773568">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href="https://twitter.com/verumcapital/status/1633456999617773568">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href="https://twitter.com/verumcapital/status/1633456999617773568">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2023 值得关注的五大技术趋势：以太坊升级、Staking、模块化、ZK应用及账户抽象]]></title>
         <id>https://www.panewslab.com/zh/articledetails/h0auukbx.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/h0auukbx.html"/>
@@ -420,6 +682,30 @@ AA ( 账户抽象 ) 的一些设计 (EIP4337) 已经接近完成，代码开发�
 附：2023 年部分值得关注的主网上线 / 升级发布]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】比特币「新文化」运动如何为比特币带来链上效用？]]></title>
+        <id>https://twitter.com/Delphi_Digital/status/1633875872972406785</id>
+        <link href="https://twitter.com/Delphi_Digital/status/1633875872972406785"/>
+        <updated>2023-03-10T06:20:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">https://twitter.com/Delphi_Digital/status/1633875872972406785</a></p>
+<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">内容来源</a><p><strong>Delphi Digital：</strong>Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">内容来源</a><p><strong>Delphi Digital：</strong>Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化]]></title>
+        <id>https://twitter.com/LlamaRisk/status/1633916033886199808</id>
+        <link href="https://twitter.com/LlamaRisk/status/1633916033886199808"/>
+        <updated>2023-03-10T06:18:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">https://twitter.com/LlamaRisk/status/1633916033886199808</a></p>
+<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>在欧元稳定币市场中，$EURS 是市值最大的，它也是 Curve 上重要的欧元稳定币，市占率达 40% 以上。其发行商 Stasis 拥有复杂的服务提供商网络，负责监管和发行。$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -610,6 +896,18 @@ SVB 首席执行官 Greg Becker 接受媒体采访时曾表示：我们预计利
 *深潮 TechFlow 是由志愿者和实习生驱动的深度Blockchain内容平台，致力于提供有价值的信息，有态度的思考。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HashKey Capital 研究报告：2023 年值得关注的 5 大技术热点]]></title>
+        <id>https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch</id>
+        <link href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch"/>
+        <updated>2023-03-10T05:43:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>HashKey Capital 撰文概述 2023 年值得关注的 5 大技术趋势，分别为以太坊升级、质押相关技术、模块化区块链、ZK 及钱包和应用端应用。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch</a></p>
+<p><strong>文章作者：</strong></p><p>Hashkey Capital</p><hr><h3>观点：</h3><p><strong>Hashkey Capital：</strong>1）以太坊的重大升级（Shanghai，Cancun）：上海升级将开放提款，预计 Staking 的量会上升，Staking 项目的竞争也会激烈。坎昆升级包括 Proto-Danksharding 及优化 EVM；2）质押相关的技术、产品和服务：包括改善质押代币的流动性、去中心化质押产品改进、Eigenlayer 的「二次质押」、DVT 及质押收入稳定化解决方案等；</p><a href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">内容来源</a><p><strong>Hashkey Capital：</strong>3）模块化区块链的改进和特定应用的 Rollup 发展：更多的 Layer2、Subnet 及 L3；4）ZK 其他非扩展应用，特别是 ZK Bridges；5）AA+MPC 和闪电网络的迭代，为终端用户提供其他技术。</p><a href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -2921,7 +3219,7 @@ Gitcoin Presents系列NFT是以专辑封面的形式呈现，是由Gitcoin和Met
 值得注意的是，除了“oxb6c”开头地址曾铸造超总供应量约8%的NFT外，台湾知名艺人“麻吉大哥”黄立成也曾在几小时内购买逾800个Gitcoin Presents，并随即又在NFT交易平台Blur上进行出售，或与其刷Blur空投积分有着重要关系。
 
 数据来源：Nansen
-“这为公共产品资金筹集了超过70万美元的资金，并让人们对使用记录格式的伟大创意作品有了新发现，这对创作者来说是一种令人兴奋的发布和资助作品的新方式。”Metalabel在接受Decrypt时如此表示。]]></summary>
+“这为公共产品资金筹集了超过70万美元的资金，并让人们对使用记录格式的伟大创意作品有了新发现，这对创作者来说是一种令人兴奋的发布和资助作品的新方式。”Metalabel在接受Decrypt采访时如此表示。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -10666,30 +10964,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】畅想 SSV 代币经济学升级的 5 个方向]]></title>
-        <id>https://hackmd.io/@fod/SJPzQ5SCo</id>
-        <link href="https://hackmd.io/@fod/SJPzQ5SCo"/>
-        <updated>2023-03-06T05:46:22.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>SSV 社区展开了针对 SSV 代币经济学更新的讨论，希望能随着即将上线的主网进行代币经济学的升级。社区成员 fod 提议了 5 个升级方向，包括增发代币、调整网络费用、将 ETH 作为收费货币、奖励选择小型运营商的用户和新的质押规则等。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://hackmd.io/@fod/SJPzQ5SCo">https://hackmd.io/@fod/SJPzQ5SCo</a></p>
-<p><strong>文章作者：</strong></p><p>fod</p><hr><h3>观点：</h3><p><strong>fod：</strong>改变 1：建议铸造代币来支付早期预算，直到这种不确定性降低为止。如何保证持有人权益？以通过销毁网络费用收入来抵消铸币的影响；改变 2：建议网络费用应制定为在 SSV 上运行的验证者的平均 ETH 质押奖励的百分比；改变 3：将 SSV 作为实用代币，将 ETH 作为新的收费货币，从而最大限度地降低用户的复杂性和成本。【原文为英文】</p><a href="https://hackmd.io/@fod/SJPzQ5SCo">内容来源</a><p><strong>fod：</strong>改变 4：通过动态网络费用激励去中心化，可以通过为选择小型运营商的用户提供费用折扣或「惩罚」选择大型运营商的用户来实现；改变 5：SSV 代币质押和持有人激励，仅允许使用 SSV 的节点运营商和 ETH 质押者质押他们的代币。【原文为英文】</p><a href="https://hackmd.io/@fod/SJPzQ5SCo">内容来源</a><p><strong>积木 BlockGM：</strong>主网上线后，初期使用 SSV 支付运营商费用，后续改成用 ETH 支付。这点争议很大，如果真的这样做， SSV 就是下一个 UNI ，没有实用属性，只有吉祥物属性，治理代币≈垃圾。现在 Discord 社区正在讨论，fod 被群嘲，创始人和稀泥，后续可能会进行正式的提案，按现在的舆论情况，应该会一边倒的被社区否掉。</p><a href="https://twitter.com/BlockGM8/status/1632316948838227970">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】解析 Rollkit：第一个支持比特币 Sovereign rollup 的模块化框架]]></title>
-        <id>https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/</id>
-        <link href="https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/"/>
-        <updated>2023-03-06T05:44:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>通过 Rollkit 新的早期研究集成，使用比特币实现数据可用性的 Sovereign rollup 现在已成为现实。Rollkit 撰写官方文档，详细介绍产品及其如何将数据发布到比特币上，其目标是让构建和自定义 rollup 变得容易。该集成处于早期研究，尚未生产就绪。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/">https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/</a></p>
-<p><strong>文章作者：</strong></p><p>Rollkit</p><hr><h3>观点：</h3><p><strong>Rollkit：</strong>Rollkit 是一个用于 rollup 的模块化框架，开发人员可以在其中插入自定义执行层和 DA 层。最初 Rollkit 仅支持 Celestia，现在由于其比特币 DA 模块的早期研究实现，比特币成为其选择之一。在这种情况下，sovereign rollup 管理自己的执行和结算，同时将共识和 DA 卸载给比特币。【原文为英文】</p><a href="https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/">内容来源</a><p><strong>Rollkit：</strong>Rollkit 如何将数据发布到比特币？使用 Taproot 在比特币上写入和读取数据，为了促进这一点，我们实施了一个名为 bitcoin-da 的 Go package，它为比特币提供了一个读写器接口。Rollkit 是以模块化为中心构建的项目，允许开发人员通过实现定义 DA 客户端行为和定义区块如何同步的接口添加 DA 层。在为比特币实现 Taproot 读写器接口后，将其添加为 Rollkit 的 DA 模块只用了不到一天的时间。【原文为英文】</p><a href="https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/">内容来源</a><p><strong>Rollkit：</strong>未来主权（sovereign）社区将围绕不同的应用程序形成，要求他们承担部署 L1 区块链以实现主权的高成本和开销是不可持续的。Sovereign rollup 通过部署一个主权链来解决这个问题，该主权链可以继承另一个 L1 链（例如比特币）的 DA 和共识。【原文为英文】</p><a href="https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文】解析 Rollkit：第一个支持比特币 Sovereign rollup 的模块化框架]]></title>
         <id>https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/</id>
         <link href="https://rollkit.dev/blog/sovereign-rollups-on-bitcoin/"/>
@@ -10709,30 +10983,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LSD 战争正在迅速升温，但目前流动性质押面临中心化和可扩展性的挑战，DeFi 研究员 Poopman 介绍撰推介绍多链流动性质押协议 Stader，解析其如何通过多池架构和 DVT 实现仅使用 4ETH 质押，剖析其代币经济模型，认为 Stader 具有巨大潜力，可能会改变目前的质押生态格局。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">https://twitter.com/poopmandefi/status/1632418517747388419</a></p>
 <p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>为解决 LSD 面临的中心化和可扩展性问题，Stader 引入价值增长代币「ETHx」，允许无许可节点运营商仅使用 4ETH 进行质押。如何做到？1）设计多池架构，每当用户存入 ETH 时，Stader 池管理器将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：无许可质押池，DVT 质押池，许可质押池。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a><p><strong>Poopman：</strong>2）分布式验证器技术 (DVT)：通过利用 DVT 的高容错率，减少了罚没（slashing）的可能性，将无许可节点所需的保证金降低到 4ETH。DVT 的实施可以增强 LSD 的去中心化和可扩展性。为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商，有助于确保 ETHx 在早期的表现更加稳定。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a><p><strong>Poopman：</strong>代币经济模型分为两个阶段：1）要为 Stader 运行一个节点，每个验证者都必须存入（4 ETH + 0.4 ETH $SD）作为质押。额外的 $SD 在罚没的情况下起到保护作用，为了激励节点运营商，价值约 1-200 万美元的 $SD 代币将在运营的第一年分发给验证者。除了 $SD 质押奖励之外，用户还可以从其他用户汇集的 28 ETH 产生的质押奖励中获得 5% 的佣金。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a><p><strong>Poopman：</strong>2）节点运营商可以无抵押借入 $SD 以支付 $SD 保证金中的 0.4 ETH 。出借 $SD 的人可以获得 10% 的节点佣金，并获得额外的 $SD 激励。ETHx 质押将推动对 $SD 的需求，因为它是运行节点要求的一部分。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】新项目前瞻：主打 DVT 技术的多链流动性质押协议 Stader]]></title>
-        <id>https://twitter.com/poopmandefi/status/1632418517747388419</id>
-        <link href="https://twitter.com/poopmandefi/status/1632418517747388419"/>
-        <updated>2023-03-06T05:37:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LSD 战争正在迅速升温，但目前流动性质押面临中心化和可扩展性的挑战，DeFi 研究员 Poopman 介绍撰推介绍多链流动性质押协议 Stader，解析其如何通过多池架构和 DVT 实现仅使用 4ETH 质押，剖析其代币经济模型，认为 Stader 具有巨大潜力，可能会改变目前的质押生态格局。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">https://twitter.com/poopmandefi/status/1632418517747388419</a></p>
-<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>为解决 LSD 面临的中心化和可扩展性问题，Stader 引入价值增长代币「ETHx」，允许无许可节点运营商仅使用 4ETH 进行质押。如何做到？1）设计多池架构，每当用户存入 ETH 时，Stader 池管理器将铸造 ETHx 作为回报，并将存入的 ETH 部署到以下质押池之一：无许可质押池，DVT 质押池，许可质押池。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a><p><strong>Poopman：</strong>2）分布式验证器技术 (DVT)：通过利用 DVT 的高容错率，减少了罚没（slashing）的可能性，将无许可节点所需的保证金降低到 4ETH。DVT 的实施可以增强 LSD 的去中心化和可扩展性。为了防止早期无许可节点引起的可扩展性问题，Stader 为 ETHx 补充了社区认可的许可运营商，有助于确保 ETHx 在早期的表现更加稳定。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a><p><strong>Poopman：</strong>代币经济模型分为两个阶段：1）要为 Stader 运行一个节点，每个验证者都必须存入（4 ETH + 0.4 ETH $SD）作为质押。额外的 $SD 在罚没的情况下起到保护作用，为了激励节点运营商，价值约 1-200 万美元的 $SD 代币将在运营的第一年分发给验证者。除了 $SD 质押奖励之外，用户还可以从其他用户汇集的 28 ETH 产生的质押奖励中获得 5% 的佣金。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a><p><strong>Poopman：</strong>2）节点运营商可以无抵押借入 $SD 以支付 $SD 保证金中的 0.4 ETH 。出借 $SD 的人可以获得 10% 的节点佣金，并获得额外的 $SD 激励。ETHx 质押将推动对 $SD 的需求，因为它是运行节点要求的一部分。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1632418517747388419">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】Fantom 原生稳定币 fUSD 如何成为生态催化剂：以 Equalizer DEX 为例]]></title>
-        <id>https://twitter.com/levysaur/status/1632462908549664768</id>
-        <link href="https://twitter.com/levysaur/status/1632462908549664768"/>
-        <updated>2023-03-06T05:09:01.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Fantom 原生稳定币 fUSD 即将迎来 v2 升级，允许使用 fUSD 支付链上交易费用。Fantom 生态 TVL 排名前三的去中心化交易所 Equalizer 团队成员 levy 以 Equalizer 为例，设想了 fUSD 将如何与生态项目结合，创造新的增长飞轮。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/levysaur/status/1632462908549664768">https://twitter.com/levysaur/status/1632462908549664768</a></p>
-<p><strong>文章作者：</strong></p><p>levy</p><hr><h3>观点：</h3><p><strong>levy：</strong>fUSD 的一个关键特征是它可以使用 wFTM 和 sFTM 进行铸造。目前有 14 亿以上的质押的 FTM（约 5.8 亿美元），这 5.8 亿美元的闲置资产可以在 300% 的抵押率下，铸造 2 亿美元的 fUSD。由于当前 FTM 的 TVL 只有 4.58 亿美元，在生态系统中注入 2 亿美元的 fUSD 意味着 43% 的增长。【原文为英文】</p><a href="https://twitter.com/levysaur/status/1632462908549664768">内容来源</a><p><strong>levy：</strong>Equalizer 作为 Fantom 生态的去中心化交易所，可以在以下方面利用 fUSD 获得效益：1. 提供使用 fUSD 购买其他项目代币的服务；2. 开启 fUSD LP 流动性挖矿以获得更多 TVL；3. 在 dApp 中使用 fUSD 获得共同增长；4.fUSD 用于借贷，例如在 Tarot Finance 中获得杠杆。【原文为英文】</p><a href="https://twitter.com/levysaur/status/1632462908549664768">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -10768,18 +11018,6 @@ DAO 的形成
 ( 作者不持有法学相关学位、解读可能存在错误、不构成法律建议）]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PolyHedra Network 解读：如何构建「多边形」 ZK 生态]]></title>
-        <id>https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</id>
-        <link href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4"/>
-        <updated>2023-03-06T04:24:56.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>
-<p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href="https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
