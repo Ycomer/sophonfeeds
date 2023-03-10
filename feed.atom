@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T08:44:19.851Z</updated>
+    <updated>2023-03-10T08:49:42.504Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[涨幅278%，18分钟售罄，星巴克的第一款付费NFT首战告捷]]></title>
+        <title type="html"><![CDATA[18分钟售罄，涨幅278%，星巴克的第一款付费NFT首战告捷]]></title>
         <id>https://www.panewslab.com/zh/articledetails/9i0e50kr.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/9i0e50kr.html"/>
         <updated>2023-03-10T08:36:22.000Z</updated>
@@ -60,6 +60,18 @@ CEO 霍华德·舒尔茨财报电话会议上表示，为公司发现了一个�
 目前来看 Starbucks Odyssey 的节奏和交付还不错， 围绕生活方式一步步做品牌建设提升其天花板，希望可以影响更多的 Web2 大公司进入 Web3。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】Mirror 产品线梳理 ：在 toB 和 toC 之间的反复横跳]]></title>
+        <id>https://twitter.com/starzqeth/status/1633679163612880902</id>
+        <link href="https://twitter.com/starzqeth/status/1633679163612880902"/>
+        <updated>2023-03-10T08:13:07.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 内容平台 Mirror 于昨日推出 NFT 订阅铸造 「Subscribe to Mint 」功能，却引来大量负面评论。区块链研究员 starzq.eth 盘点了 Mirror 自内测以来的产品线路更改，认为 Mirror 产品方向在 toB 和 toC 之间的反复横跳将会导致用户的不断流失。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/starzqeth/status/1633679163612880902">https://twitter.com/starzqeth/status/1633679163612880902</a></p>
+<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>从 2021 年初内测开始，Mirror 的定位都是 toB，Web3 核心工具箱，建立 DAO 最快速简单的工具。用 Entries 写 Roadmap 和项目更新，然后众筹和分配项目资金，用 Token 来引导用户参与，再加一个 discord 来做用户互动，一个 DAO 就运作起来了。在发布了 1 年半后，2022 年 7 月 27 日终于有了基于钱包的订阅功能。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>starzq.eth：</strong>2022 年 8 月，Mirror 突然发了一个公告，说要转为 toC，一夜间下线了所有的众筹和 NFT 发布功能。转 toC 后其实没有任何动作，半年后的 2023 年 1 月 12 日，终于改进了订阅功能，只有邮箱也可以订阅，但邮箱里一直没有全文阅读，体验非常差。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>starzq.eth：</strong>然后就到了 2023 年 3 月 9 日，增加 Subscribe to Mint 功能，回到一开始 toB 的路。其实就是一个基于订阅者的 Open Edition，和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户，我自己就是其中之一。比较 Mirror 和 Substack 的 toC 体验，Substack 完胜。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -128,6 +140,18 @@ CEO 霍华德·舒尔茨财报电话会议上表示，为公司发现了一个�
         <summary type="html"><![CDATA[PANews 3月10日消息，Celsius官方无担保债权人委员会 (UCC) 发推文称：“美国联邦法官Martin Glenn不同意UCC和Celsius的观点，他同意优先股持有人的观点，认为客户并不对每个债务人实体都有索赔权。UCC不同意这一判决，并对判决结果感到失望。UCC正在考虑其选择，以确保客户从Celsius中获得最大的价值。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】以太坊线路图 Verge 和 Purge 阶段解析：如何降低节点运行成本]]></title>
+        <id>https://twitter.com/blockworksres/status/1633867655013896193</id>
+        <link href="https://twitter.com/blockworksres/status/1633867655013896193"/>
+        <updated>2023-03-10T07:42:46.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>对于普通节点而言，参与验证和核实以太坊网络需要较高的成本。以太坊路线图中 Verge 和 Purge 阶段重点关注了该问题，在如何提高以太坊协议的效率、去中心化和稳健性方面提出了多个目标。Blockworks 研究员 Westie Capital 解析了上述两部分路线图中的技术实现方式与目标。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/blockworksres/status/1633867655013896193">https://twitter.com/blockworksres/status/1633867655013896193</a></p>
+<p><strong>文章作者：</strong></p><p>Westie</p><hr><h3>观点：</h3><p><strong>Westie：</strong>The Verge 指的是让区块验证尽可能简单和轻便的目标。The Verge 关注的是 Verkle 树和 SNARKs 的加入。Verkle 树是一种专门针对状态的 Merkle 树的更有效的替代方法，它不需要提供每个姐妹节点（共享同一个父节点的节点）到所选节点的路径，而只是提供路径本身作为证明的一部分，Verkle 证明的效率比 Merkle 证明高 3 倍。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>SNARKs 是 zk 证明的一个版本，以太坊有许多元素将通过增加 SNARKs 的验证或用 SNARKs 取代旧的证明系统来升级，以获得更好的效率。这包括：基于 SNARK 的轻客户端；共识状态变化的 SNARKs；Enshrined Rollups。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>The Purge 指的是通过降低参与验证网络的存储要求来简化协议的目标。这主要是通过对历史和状态的休眠和管理来实现的。历史数据休眠（EIP-4444）允许客户端修剪超过一年的历史数据，并停止在 P2P 层面提供服务。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>状态休眠。当涉及到处理状态增长时，有两个主要目标：弱无状态，指的是只使用状态来建立区块，但不验证它的目标；状态休眠，指删除在规定时间内（1 年）未被访问的状态。状态休眠应该使节点需要存储的状态总共减少 20-50 GB。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
