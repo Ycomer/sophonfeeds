@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T07:39:14.954Z</updated>
+    <updated>2023-03-10T07:44:29.997Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[解析Arbitrum上的衍生品DEX GammaSwap：将无常损失转化为“无常收益”]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/lcdfae46.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/lcdfae46.html"/>
+        <updated>2023-03-10T07:34:18.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Alpha Track | GammaSwap ：将无常损失转化为“无常收益”》
+注：本文主要介绍 GammaSwap 针对LP 无常损失提出的解决方案，不作任何投资建议。
+GammaSwap 是建立在 Arbitrum 上的链上衍生品 DEX ，旨在解决流动性质押中 LP 们不得不承受的无常损失的痛点。为了理解 GammaSwap 的设计理念，我们先要了解 DEX 们目前采用的恒定函数做市商（CFMM）会造成无常损失的本质原因。
+(如果您对Uniswap V3 和无常损失已经非常了解，可以跳过这部分)
+相较于其他 DEX 的 AMM 池子将流动性均匀的分布在 x*y=k 这条曲线上，Uniswap V3 版本最大的特点是集中资金池（Concentrated Liquidity），允许 LP 在其选择的价格范围内提供流动性。举个极端的例子：稳定币 USDC-DAI 的价格基本维持在 0.99-1.01 之间，而池子中 99.5% 以上的流动性分布在可能永远达不到的价格上，资金效率低下。而 UNI V3 中，用户可以自定义在哪个价格区间内提供流动性，提高了资本效率，能赚取更多的手续费奖励。但同时，用户也将承受更高的无常损失风险，相当于是对流动性头寸加了杠杆。
+无常损失简单来说就是：当 AMM 池中存入的资产价格发生波动时，LP 头寸中的资产数量也会变动，会减少因价格上涨而带来的浮盈，以及增加因价格下跌而带来的浮亏。波动率越大，无常损失也越大，如果价格又回到了初始的状态，那么无常损失将为 0，因为价格波动是无法预测的，所以这种风险被称为“无常损失”。
+举个简单的例子：假设 ETH 价格为 1000$，用户存入了 1 个 ETH 和 1000 个 USDC 的 LP 头寸，然后 ETH 价格来到了 2000$。
+1)如果选择在所有的价格区间内提供流动性（V2）
+用户的 LP 头寸会跟随池子整体的头寸变化而变化，此时 LP 头寸会变为 0.707 个 ETH 和 1414 个 USDC，总价值 2828$，相较于初始存入的 1 ETH 和 1000 USDC 来说，本金损失了 5.72%。（具体计算过程参照 Uniswap文档）
+2)如果选择在 [500,1500] 的价格区间内提供流动性（V3）
+用户的 LP 头寸会在 ETH 价格达到 1500$ 的时候全部变为 USDC，此时无常损失达到了21.5%，这种情况下相当于是 V2 的 4 倍。（具体计算过程参照 Uniswap文档）
+期权是一种金融合约，买方付出一笔期权金后，拥有能在到期日或到期日之前，以预先确定的价格（行权价格）购买或出售资产的权利。在传统期权市场中，存在两个术语：delta 和 gamma。
+delta 是指标的资产价格变动时，期权价格的相对变动幅度。比如一份 ETH 看涨期权的 delta 为 0.5，即当 ETH 现货价格变动 1 时，期权价格就同向变动 0.5，可以通过卖出0.5 个 ETH 来对冲。由于 delta 是动态变化的，所以需要动态调整标的的头寸来保持delta 中性，这就是 delta 对冲。
+gamma 是指 delta 值相对标的价格变化的变动速率，当 gamma 较大时，说明 delta 相对标的价格变化很快，因此需要及时调整标的头寸，否则容易承受损失，这就是 gamma 风险。在不考虑时间因素的情况下，波动率越大，期权金越贵。
+
+(资料来源：optiontradingtips)
+联系到 DEX 们采用的 AMM 模式，当池子中的一种资产相对另一种资产的价格变动时，池子中两种资产的数量会沿着 x*y=k 曲线非线性的变化，可以理解为 DEX 在通过恒定函数曲线来动态对冲 delta。
+当资产波动率大时，gamma 风险也就越高，LP 们承受的无常损失也就越大（期权金）。因此 AMM 可以看成是内嵌了一个永续期权市场，始终在动态地对冲其储备中假设的多头看跌期权的风险敞口，而 LP 则暴露在 gamma 风险之下（相当于做空 gamma），承受无常损失的风险来获取交易手续费。
+但交易手续费与波动率之间不能用一个表达式直接挂钩， DEX 也将手续费称作为提供流动性的激励，这意味着 LP 缺少了承担这部分 gamma 风险相对应的补偿。很多时候手续费收入并不能 cover gamma，比如行情波动较大时或者一些 shit coin 池子，尤其是当在较窄范围内提供流动性时，会放大 gamma 风险。
+Uniswap V3的源码商业许可证即将在 4 月份到期，不少 DEX 正在基于 UNIV3 的基础上做部分改良来推出自己的 V3 版本，包括 PancakeSwap 和 Osmosis 等。届时很多用户可能会在资本效率与无常损失之间难以抉择。
+GammaSwap 正致力于解决这一问题，允许用户借入 LP 来做多波动率（gamma）。
+1）机制介绍
+GammaSwap 中有两个参与者。做空 gamma（波动率）的 LP 提供者和做多 gamma 的借款人。在 Uniswap ETH/USDC 池的情况下，LP 可以使用储备代币（ETH 和 USDC）或直接使用 Uni LP 创建头寸。假设 LP 将储备代币存入 ETH / USDC 池。GammaSwap 会将这些基础代币存入 Uniswap，接收 Uni LP 代币并保留在智能合约中。GammaSwap 随后会向 LP 提供者发行 GammaSwap (GS) ERC-20 LP 代币。GS LP 持有者不仅可以获取 Uniswap 中的交易手续费，还可以从借款人手中获得利息。当波动率较大时，做多波动的需求会增加，利率也会上涨，因此即使 GS LP 没有选择对冲无常损失，仍然会获得更好的补偿。
+对于希望做多 gamma 的人，需要先提供足够数量的抵押物（ETH、USDC等）才能借入 LP，会收到一个类似于 Uni V3 的 NFT 来管理他们的贷款。当用户开仓时，GammaSwap 将 Uni LP 代币兑换为基础代币并创建合成 GS LP。然后就可以通过将代币比例倾斜向某一种，来做多波动率，并获得类似期权的回报函数。
+贷款必须保持 90% 的 LTV 比率才能保持健康。如果贷款超过这个门槛，将会被清算。随着基础代币向任一方向移动，贷款变得过度抵押，用户可以用储备代币购买更多的 LP 代币。
+gamma 多头可用于多种策略：1. 对任何代币对的波动率进行杠杆押注 2. 对冲无常损失 3. 保护自己免受新项目的影响。通过做多 gamma，有机会将“无常损失”变为“无常收益”。
+值得注意的是，据官方宣称，GammaSwap由于其收益率曲线的形状，不需要依赖预言机进行价格验证来防止闪电贷攻击，因此可以应用于任何 AMM 中的任何流动资金。即使是全新的未经测试的项目也可以提供长期的波动性敞口，以增加其代币流动性提供者的收益并降低参与此类项目的风险。关于这一点，可能需要进行更多的测试来检验安全性。
+2）项目背景
+GammaSwap 创始人为@0xDevinG，对 defi 有非常深的理解，其余团队成员信息暂未披露；
+GammaSwap 目前完成了 170 万美元种子轮融资，参投方包括 Skycatcher Crypto、Dialectic、Space Whale Capital、Modular Capital、Portico Ventures、Ouroboros Capital、Owl Ventures、RenGen、Manifold Trading，个人投资者包括 GMX 核心成员以及 DeBank 上持仓金额第二大钱包所有者等；
+GammaSwap 目前已与 SushiSwap、Balancer、Olympus 达成合作；
+GammaSwap 目前通过了Zellic 和HalbornSecurity 的审计，更多的安全审计正在进行中；
+GammaSwap 于 2022 年 12 月底开放了测试网，目前仍在测试中，预计将在未来几周内上线 Arbitrum，社区活跃度较高；
+3）总结
+GammaSwap 通过借贷给 LP 持有者提供更多收益可能性，补偿 LP 因 gamma 风险带来的无常损失。而 gamma 多头针对不同的 LP 也有多种策略玩法。
+GammaSwap 最大的风险来自于智能合约，由于其不借助预言机验证，对合约设计和安全性有较高要求。
+GammaSwap 面向的对象为所有 AMM 中的 LP，解决了 AMM 的部分痛点，通过与 DEX 的集成在目前的存量市场中另辟蹊径。目前这块市场竞争者较少，GammaSwap 具有先发优势。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解析Arbitrum上的衍生品DEX GammaSwap：将无常损失转化为“无常收益”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/lcdfae46.html</id>
@@ -142,6 +188,30 @@ PancakeSwap V3活动：空投和NFT奖励
 新版本与初始版本不同的地方在于，新版本包括：1.在审计竞赛Sherlock中发现的改进（包括3个高位漏洞和11个中等危险漏洞），2.明确指出停机时间即在升级期间交易将暂停（该版本的提案没有预先承诺一个日期，而是包含了严格指定的升级启动标准，其中包括即使在投票结束后也会阻止或延迟升级的情况）。3.这个标准的简易概况是:对一个特性和共识冻结的Goerli进行2周的测试网稳定性，然后至少向社区发出3周的通知。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ETHDenver 有感：DAO 正在走出乌托邦困境]]></title>
+        <id>https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A</id>
+        <link href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A"/>
+        <updated>2023-03-10T06:55:34.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DAO 正在从零开始把人类历史上的组织方式和政治制度全部演进一遍，但是迭代速度是传统历史的 1000 倍。The SeeDAO 成员 Baiyu 参与了在 ETHDenver DAO 相关活动并和 DAO 好友交流后，撰文概述了有关 DAO 未来发展的思路。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A</a></p>
+<p><strong>文章作者：</strong></p><p>Baiyu</p><hr><h3>观点：</h3><p><strong>Baiyu：</strong>1）好的治理是一种动态的平衡，没有一劳永逸的方案；2）DAO 要跑起来必须结合链下工具，更重要的是透明和不可篡改；3）DAO 的关键在于共识和目标，在于成员对于组织的信任，在于成员在协作中建立的情感链接和信任关系网络；4）相较于发行代币，更重要的是提出明确的愿景，吸引到志同道合的早期核心团队；5）声誉代币未来可能会在 DAO 治理中被广泛应用；6）DAO 需要能够有效产出，能够有可持续的商业模式；</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a><p><strong>Baiyu：</strong>7）各种各样的 DAO 都在涌现，我们需要打开 DAO 的想象力， 真正实现大规模应用；8）除开 Arogon、tally、meloch 这些 DAO 协议模板工具，现在已经出现了为 DAO 而生的链，且其他综合类 DAO 工具诸如 DAOlens、Web3CRM 等也展现了很强的产品力，让我比较惊喜的是基于 DAO 的视角从协议层考虑 DAO 工具权限问题的「Ownable Acecess Control」；</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a><p><strong>Baiyu：</strong>9）学术研究和行业实践交叉前行，学者和组织都深入参与了 DAO 和 Web3，并结合学术资源提供自己的解决方案；10）DAO 生态已然成形，爆发是早晚的事情。</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain]]></title>
+        <id>https://twitter.com/y_cryptoanalyst/status/1633753341577797632</id>
+        <link href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632"/>
+        <updated>2023-03-10T06:54:23.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>
+<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -961,7 +1031,7 @@ AA ( 账户抽象 ) 的一些设计 (EIP4337) 已经接近完成，代码开发�
         <updated>2023-03-10T06:18:13.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">https://twitter.com/LlamaRisk/status/1633916033886199808</a></p>
-<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>在欧元稳定币市场中，$EURS 是市值最大的，它也是 Curve 上重要的欧元稳定币，市占率达 40% 以上。其发行商 Stasis 拥有复杂的服务提供商网络，负责监管和发行。$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a>]]></summary>
+<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -10837,18 +10907,6 @@ PVP AMM 中两个挑战有一个已经照顾到了，还需要看看其如何降
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[万字分析衍生品王位之争：dYdX、GMX 与 SNX]]></title>
-        <id>https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08</id>
-        <link href="https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08"/>
-        <updated>2023-03-06T07:41:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 投资机构 Cipholio Ventures 出品的研报，内容涵盖衍生品领域的龙头项目：dYdX、GMX 和 SNX 的基本概况、项目团队、发展历程和现状、代币经济学、重要数据以及缺陷和风险等等。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08</a></p>
-<p><strong>文章作者：</strong></p><p>Cipholio Ventures</p><hr><h3>观点：</h3><p><strong>Cipholio Ventures：</strong>dYdX 目前最需要克服的是代币的效用问题，这个问题是否能解决需要等待其 V4 Cosmos 版本的到来，长期来看还是有上涨潜力的。目前，dYdX 拥有三个项目中最高的 FDV/TVL，为 7.75，且由于核心问题能不能解决还未成定数，近期的增长不一定能一直持续。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a><p><strong>Cipholio Ventures：</strong>GMX 目前的隐患是牛市死亡螺旋问题，长期稳定发展需要团队对逻辑的优化。但是其代币效用是三个之中最高的，在一段时间内会有较高的需求量。此外，GMX 在其他协议上的引入也拉动了需求量的上涨，短期内在市场上可能会有较好的表现。而且该项目带动了整个 Arbitrum 生态。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a><p><strong>Cipholio Ventures：</strong>SNX 的核心价值是 synth 之间的交易的低费用，这一价值已经在原子交换期间的高交易量中体现了。从 2018 年起至今，SNX 的整体交易数据与另两个不在一个量级，且 Synthetix 的产品过于复杂，要尽善尽美做全要更长的时间。主协议有流动性、交易费率上的硬伤，会削减代币效用。因此，投资周期会是三个项目里最长的。</p><a href="https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Gnosis创始人EthDenver分享笔记：为什么Layer2仍有局限性？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/qa8k5ndt.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/qa8k5ndt.html"/>
@@ -10912,18 +10970,6 @@ L2 的 sequencer 非常中心化。
 作者个人观点：这是一个非常有趣的、被低估的方案，如果你仔细想，会发现这真的可以解决前面这些问题中的一大部分。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】一文解读锚定资产定价风险的协议 Y2K Finance]]></title>
-        <id>https://twitter.com/0xShinChannn/status/1632369004647157760</id>
-        <link href="https://twitter.com/0xShinChannn/status/1632369004647157760"/>
-        <updated>2023-03-06T07:21:12.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL 0xShinChan 撰推解读 Y2K Finance 协议原理、协议机制和代币经济模型，并剖析其收益等绩效指标，以及如何监控 Y2K 上的「聪明钱」。该 KOL 认为 Y2K 的低风险商业模式可以随着存款的增加而提高盈利能力，吸引寻求利润的交易者。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">https://twitter.com/0xShinChannn/status/1632369004647157760</a></p>
-<p><strong>文章作者：</strong></p><p>0xShinChan</p><hr><h3>观点：</h3><p><strong>0xShinChan：</strong>Y2K Finance 提供了一套针对外来挂钩市场而设计的链上结构化产品，用户可以对特定挂钩资产偏离其「公平隐含市场价值」的风险进行对冲、杠杆、投机和交易以获得利润，其提供 3 种主要产品：1）Earthquake：承担风险 / 防止潜在资产绕行的金库；2）Tsunami：抵押债务驱动的借贷市场；3）Wildfire：购买 / 出售代币化 Earthquake 头寸的市场。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>协议机制：1）Earthquake 金库目前支持的锚定资产包括 DAI、FRAX、MIM、USDC 等。2）Earthquake 提供 2 个金库来应对不同的风险偏好，包括对冲金库和风险金库。3）每个金库由 3 个关键属性组成：Asset、Epoch、Strike。Asset：金库对冲的挂钩资产，Epoch：必须发生脱钩事件才能有效的操作周期，Strike：触发挂钩事件的价格阈值。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>在没有脱钩的情况下：1）对冲头寸被清算，导致交易员们损失了全部 ETH，赢取了 $Y2K。2）风险金库获胜，交易者从对冲金库中收到与金库大小成比例的 $ETH ，加上 $Y2K 并减去费用。如果发生脱钩则与之相反。此外，Y2K 财政部收取存入对冲和风险金库的资金的 5% 作为费用。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a><p><strong>0xShinChan：</strong>绩效指标：自 2022 年 12 月下旬推出以来，Y2K 在 2.5 个月内产生了超过 52 万美元的收入。30% 的 Y2K 流通量被锁定。$USDT 是最常用的对冲资产，$USDC 是最常用的风险资产。其年化收益约为 250 万美元，市盈率为 32.4，相当疯狂的盈利预测。通过监控「聪明钱」发现两个最大的储户在一个星期的周期创造了超过 100%-200% 的 APR。【原文为英文】</p><a href="https://twitter.com/0xShinChannn/status/1632369004647157760">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>

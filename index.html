@@ -98,6 +98,62 @@ GammaSwap 面向的对象为所有 AMM 中的 LP，解决了 AMM 的部分痛点
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/lcdfae46.html"
+                        open
+                      >
+                        <summary class="article-expander__title">解析Arbitrum上的衍生品DEX GammaSwap：将无常损失转化为“无常收益”</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/lcdfae46.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/10/images/7pS33Fm245.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《Alpha Track | GammaSwap ：将无常损失转化为“无常收益”》
+注：本文主要介绍 GammaSwap 针对LP 无常损失提出的解决方案，不作任何投资建议。
+GammaSwap 是建立在 Arbitrum 上的链上衍生品 DEX ，旨在解决流动性质押中 LP 们不得不承受的无常损失的痛点。为了理解 GammaSwap 的设计理念，我们先要了解 DEX 们目前采用的恒定函数做市商（CFMM）会造成无常损失的本质原因。
+(如果您对Uniswap V3 和无常损失已经非常了解，可以跳过这部分)
+相较于其他 DEX 的 AMM 池子将流动性均匀的分布在 x*y&#x3D;k 这条曲线上，Uniswap V3 版本最大的特点是集中资金池（Concentrated Liquidity），允许 LP 在其选择的价格范围内提供流动性。举个极端的例子：稳定币 USDC-DAI 的价格基本维持在 0.99-1.01 之间，而池子中 99.5% 以上的流动性分布在可能永远达不到的价格上，资金效率低下。而 UNI V3 中，用户可以自定义在哪个价格区间内提供流动性，提高了资本效率，能赚取更多的手续费奖励。但同时，用户也将承受更高的无常损失风险，相当于是对流动性头寸加了杠杆。
+无常损失简单来说就是：当 AMM 池中存入的资产价格发生波动时，LP 头寸中的资产数量也会变动，会减少因价格上涨而带来的浮盈，以及增加因价格下跌而带来的浮亏。波动率越大，无常损失也越大，如果价格又回到了初始的状态，那么无常损失将为 0，因为价格波动是无法预测的，所以这种风险被称为“无常损失”。
+举个简单的例子：假设 ETH 价格为 1000$，用户存入了 1 个 ETH 和 1000 个 USDC 的 LP 头寸，然后 ETH 价格来到了 2000$。
+1)如果选择在所有的价格区间内提供流动性（V2）
+用户的 LP 头寸会跟随池子整体的头寸变化而变化，此时 LP 头寸会变为 0.707 个 ETH 和 1414 个 USDC，总价值 2828$，相较于初始存入的 1 ETH 和 1000 USDC 来说，本金损失了 5.72%。（具体计算过程参照 Uniswap文档）
+2)如果选择在 [500,1500] 的价格区间内提供流动性（V3）
+用户的 LP 头寸会在 ETH 价格达到 1500$ 的时候全部变为 USDC，此时无常损失达到了21.5%，这种情况下相当于是 V2 的 4 倍。（具体计算过程参照 Uniswap文档）
+期权是一种金融合约，买方付出一笔期权金后，拥有能在到期日或到期日之前，以预先确定的价格（行权价格）购买或出售资产的权利。在传统期权市场中，存在两个术语：delta 和 gamma。
+delta 是指标的资产价格变动时，期权价格的相对变动幅度。比如一份 ETH 看涨期权的 delta 为 0.5，即当 ETH 现货价格变动 1 时，期权价格就同向变动 0.5，可以通过卖出0.5 个 ETH 来对冲。由于 delta 是动态变化的，所以需要动态调整标的的头寸来保持delta 中性，这就是 delta 对冲。
+gamma 是指 delta 值相对标的价格变化的变动速率，当 gamma 较大时，说明 delta 相对标的价格变化很快，因此需要及时调整标的头寸，否则容易承受损失，这就是 gamma 风险。在不考虑时间因素的情况下，波动率越大，期权金越贵。
+
+(资料来源：optiontradingtips)
+联系到 DEX 们采用的 AMM 模式，当池子中的一种资产相对另一种资产的价格变动时，池子中两种资产的数量会沿着 x*y&#x3D;k 曲线非线性的变化，可以理解为 DEX 在通过恒定函数曲线来动态对冲 delta。
+当资产波动率大时，gamma 风险也就越高，LP 们承受的无常损失也就越大（期权金）。因此 AMM 可以看成是内嵌了一个永续期权市场，始终在动态地对冲其储备中假设的多头看跌期权的风险敞口，而 LP 则暴露在 gamma 风险之下（相当于做空 gamma），承受无常损失的风险来获取交易手续费。
+但交易手续费与波动率之间不能用一个表达式直接挂钩， DEX 也将手续费称作为提供流动性的激励，这意味着 LP 缺少了承担这部分 gamma 风险相对应的补偿。很多时候手续费收入并不能 cover gamma，比如行情波动较大时或者一些 shit coin 池子，尤其是当在较窄范围内提供流动性时，会放大 gamma 风险。
+Uniswap V3的源码商业许可证即将在 4 月份到期，不少 DEX 正在基于 UNIV3 的基础上做部分改良来推出自己的 V3 版本，包括 PancakeSwap 和 Osmosis 等。届时很多用户可能会在资本效率与无常损失之间难以抉择。
+GammaSwap 正致力于解决这一问题，允许用户借入 LP 来做多波动率（gamma）。
+1）机制介绍
+GammaSwap 中有两个参与者。做空 gamma（波动率）的 LP 提供者和做多 gamma 的借款人。在 Uniswap ETH/USDC 池的情况下，LP 可以使用储备代币（ETH 和 USDC）或直接使用 Uni LP 创建头寸。假设 LP 将储备代币存入 ETH / USDC 池。GammaSwap 会将这些基础代币存入 Uniswap，接收 Uni LP 代币并保留在智能合约中。GammaSwap 随后会向 LP 提供者发行 GammaSwap (GS) ERC-20 LP 代币。GS LP 持有者不仅可以获取 Uniswap 中的交易手续费，还可以从借款人手中获得利息。当波动率较大时，做多波动的需求会增加，利率也会上涨，因此即使 GS LP 没有选择对冲无常损失，仍然会获得更好的补偿。
+对于希望做多 gamma 的人，需要先提供足够数量的抵押物（ETH、USDC等）才能借入 LP，会收到一个类似于 Uni V3 的 NFT 来管理他们的贷款。当用户开仓时，GammaSwap 将 Uni LP 代币兑换为基础代币并创建合成 GS LP。然后就可以通过将代币比例倾斜向某一种，来做多波动率，并获得类似期权的回报函数。
+贷款必须保持 90% 的 LTV 比率才能保持健康。如果贷款超过这个门槛，将会被清算。随着基础代币向任一方向移动，贷款变得过度抵押，用户可以用储备代币购买更多的 LP 代币。
+gamma 多头可用于多种策略：1. 对任何代币对的波动率进行杠杆押注 2. 对冲无常损失 3. 保护自己免受新项目的影响。通过做多 gamma，有机会将“无常损失”变为“无常收益”。
+值得注意的是，据官方宣称，GammaSwap由于其收益率曲线的形状，不需要依赖预言机进行价格验证来防止闪电贷攻击，因此可以应用于任何 AMM 中的任何流动资金。即使是全新的未经测试的项目也可以提供长期的波动性敞口，以增加其代币流动性提供者的收益并降低参与此类项目的风险。关于这一点，可能需要进行更多的测试来检验安全性。
+2）项目背景
+GammaSwap 创始人为@0xDevinG，对 defi 有非常深的理解，其余团队成员信息暂未披露；
+GammaSwap 目前完成了 170 万美元种子轮融资，参投方包括 Skycatcher Crypto、Dialectic、Space Whale Capital、Modular Capital、Portico Ventures、Ouroboros Capital、Owl Ventures、RenGen、Manifold Trading，个人投资者包括 GMX 核心成员以及 DeBank 上持仓金额第二大钱包所有者等；
+GammaSwap 目前已与 SushiSwap、Balancer、Olympus 达成合作；
+GammaSwap 目前通过了Zellic 和HalbornSecurity 的审计，更多的安全审计正在进行中；
+GammaSwap 于 2022 年 12 月底开放了测试网，目前仍在测试中，预计将在未来几周内上线 Arbitrum，社区活跃度较高；
+3）总结
+GammaSwap 通过借贷给 LP 持有者提供更多收益可能性，补偿 LP 因 gamma 风险带来的无常损失。而 gamma 多头针对不同的 LP 也有多种策略玩法。
+GammaSwap 最大的风险来自于智能合约，由于其不借助预言机验证，对合约设计和安全性有较高要求。
+GammaSwap 面向的对象为所有 AMM 中的 LP，解决了 AMM 的部分痛点，通过与 DEX 的集成在目前的存量市场中另辟蹊径。目前这块市场竞争者较少，GammaSwap 具有先发优势。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"
                         open
                       >
@@ -2614,6 +2670,1095 @@ Lido 的提现将采用两种模式。在正常情况下，Lido 的提现将以�
 Lido 的架构优先考虑质押者，以最大化年化收益率为原则。 Lido 不会为了促进更快的提现而将更多的 ETH 留在缓冲区，而是会确保 ETH 在缓冲区中停留的时间尽可能短。
 这种动态的 ETH 供应从 Shapella 「下沉 」到信标链上。它还迫使竞争者采取相同的措施，否则他们的 APR 将降低，并逐渐丢失市场份额。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ChainFeeds精选</button>
+                  <a class="source-heading__link" href="">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A"
+                        open
+                      >
+                        <summary class="article-expander__title">ETHDenver 有感：DAO 正在走出乌托邦困境</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/TqajLKDg1xXrZ1KpX1zbA4QHTHsX92XiawOXwIv7Picl9jziciavONHOWicR4nUaY36Ek1dMTfPbxpmiajy0DBTicWugQ/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+DAO 正在从零开始把人类历史上的组织方式和政治制度全部演进一遍，但是迭代速度是传统历史的 1000 倍。The SeeDAO 成员 Baiyu 参与了在 ETHDenver DAO 相关活动并和 DAO 好友交流后，撰文概述了有关 DAO 未来发展的思路。
+文章来源：
+https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A
+文章作者：
+Baiyu
+
+观点：
+Baiyu：1）好的治理是一种动态的平衡，没有一劳永逸的方案；2）DAO 要跑起来必须结合链下工具，更重要的是透明和不可篡改；3）DAO 的关键在于共识和目标，在于成员对于组织的信任，在于成员在协作中建立的情感链接和信任关系网络；4）相较于发行代币，更重要的是提出明确的愿景，吸引到志同道合的早期核心团队；5）声誉代币未来可能会在 DAO 治理中被广泛应用；6）DAO 需要能够有效产出，能够有可持续的商业模式；
+内容来源
+Baiyu：7）各种各样的 DAO 都在涌现，我们需要打开 DAO 的想象力， 真正实现大规模应用；8）除开 Arogon、tally、meloch 这些 DAO 协议模板工具，现在已经出现了为 DAO 而生的链，且其他综合类 DAO 工具诸如 DAOlens、Web3CRM 等也展现了很强的产品力，让我比较惊喜的是基于 DAO 的视角从协议层考虑 DAO 工具权限问题的「Ownable Acecess Control」；
+内容来源
+Baiyu：9）学术研究和行业实践交叉前行，学者和组织都深入参与了 DAO 和 Web3，并结合学术资源提供自己的解决方案；10）DAO 生态已然成形，爆发是早晚的事情。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/y_cryptoanalyst/status/1633753341577797632"
+                        open
+                      >
+                        <summary class="article-expander__title">一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。
+文章来源：
+https://twitter.com/y_cryptoanalyst/status/1633753341577797632
+文章作者：
+yyy
+
+观点：
+yyy：Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。
+内容来源
+yyy：3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。
+内容来源
+yyy：代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/crypto_mckenna/status/1633731247867584512"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/crypto_mckenna/status/1633731247867584512">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。
+文章来源：
+https://twitter.com/crypto_mckenna/status/1633731247867584512
+文章作者：
+McKenna
+
+观点：
+McKenna：我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】
+内容来源
+McKenna：如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/crypto_mckenna/status/1633731247867584512"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/crypto_mckenna/status/1633731247867584512">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。
+文章来源：
+https://twitter.com/crypto_mckenna/status/1633731247867584512
+文章作者：
+McKenna
+
+观点：
+McKenna：我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】
+内容来源
+McKenna：如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/verumcapital/status/1633456999617773568"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/verumcapital/status/1633456999617773568">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。
+文章来源：
+https://twitter.com/verumcapital/status/1633456999617773568
+文章作者：
+Verum Capital
+
+观点：
+Verum Capital：在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】
+内容来源
+Verum Capital：得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】
+内容来源
+Verum Capital：可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/verumcapital/status/1633456999617773568"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/verumcapital/status/1633456999617773568">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。
+文章来源：
+https://twitter.com/verumcapital/status/1633456999617773568
+文章作者：
+Verum Capital
+
+观点：
+Verum Capital：在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】
+内容来源
+Verum Capital：得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】
+内容来源
+Verum Capital：可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/Delphi_Digital/status/1633875872972406785"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】比特币「新文化」运动如何为比特币带来链上效用？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/Delphi_Digital/status/1633875872972406785">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。
+文章来源：
+https://twitter.com/Delphi_Digital/status/1633875872972406785
+文章作者：
+Delphi Digital
+
+观点：
+Delphi Digital：目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】
+内容来源
+Delphi Digital：Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】
+内容来源
+Delphi Digital：Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/Delphi_Digital/status/1633875872972406785"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】比特币「新文化」运动如何为比特币带来链上效用？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/Delphi_Digital/status/1633875872972406785">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。
+文章来源：
+https://twitter.com/Delphi_Digital/status/1633875872972406785
+文章作者：
+Delphi Digital
+
+观点：
+Delphi Digital：目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】
+内容来源
+Delphi Digital：Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】
+内容来源
+Delphi Digital：Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/LlamaRisk/status/1633916033886199808"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/LlamaRisk/status/1633916033886199808">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。
+文章来源：
+https://twitter.com/LlamaRisk/status/1633916033886199808
+文章作者：
+LlamaRisk
+
+观点：
+LlamaRisk：$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】
+内容来源
+LlamaRisk：我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/LlamaRisk/status/1633916033886199808"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/LlamaRisk/status/1633916033886199808">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。
+文章来源：
+https://twitter.com/LlamaRisk/status/1633916033886199808
+文章作者：
+LlamaRisk
+
+观点：
+LlamaRisk：在欧元稳定币市场中，$EURS 是市值最大的，它也是 Curve 上重要的欧元稳定币，市占率达 40% 以上。其发行商 Stasis 拥有复杂的服务提供商网络，负责监管和发行。$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】
+内容来源
+LlamaRisk：我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch"
+                        open
+                      >
+                        <summary class="article-expander__title">HashKey Capital 研究报告：2023 年值得关注的 5 大技术热点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.hashkey.com/assets/images/insight/capital-newsletter-tech-trend-2023-thumbnail-390-223.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+HashKey Capital 撰文概述 2023 年值得关注的 5 大技术趋势，分别为以太坊升级、质押相关技术、模块化区块链、ZK 及钱包和应用端应用。
+文章来源：
+https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch
+文章作者：
+Hashkey Capital
+
+观点：
+Hashkey Capital：1）以太坊的重大升级（Shanghai，Cancun）：上海升级将开放提款，预计 Staking 的量会上升，Staking 项目的竞争也会激烈。坎昆升级包括 Proto-Danksharding 及优化 EVM；2）质押相关的技术、产品和服务：包括改善质押代币的流动性、去中心化质押产品改进、Eigenlayer 的「二次质押」、DVT 及质押收入稳定化解决方案等；
+内容来源
+Hashkey Capital：3）模块化区块链的改进和特定应用的 Rollup 发展：更多的 Layer2、Subnet 及 L3；4）ZK 其他非扩展应用，特别是 ZK Bridges；5）AA+MPC 和闪电网络的迭代，为终端用户提供其他技术。
+内容来源</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch"
+                        open
+                      >
+                        <summary class="article-expander__title">HashKey Capital 研究报告：2023 年值得关注的 5 大技术热点</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.hashkey.com/assets/images/insight/capital-newsletter-tech-trend-2023-thumbnail-390-223.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+HashKey Capital 撰文概述 2023 年值得关注的 5 大技术趋势，分别为以太坊升级、质押相关技术、模块化区块链、ZK 及钱包和应用端应用。
+文章来源：
+https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch
+文章作者：
+Hashkey Capital
+
+观点：
+Hashkey Capital：1）以太坊的重大升级（Shanghai，Cancun）：上海升级将开放提款，预计 Staking 的量会上升，Staking 项目的竞争也会激烈。坎昆升级包括 Proto-Danksharding 及优化 EVM；2）质押相关的技术、产品和服务：包括改善质押代币的流动性、去中心化质押产品改进、Eigenlayer 的「二次质押」、DVT 及质押收入稳定化解决方案等；
+内容来源
+Hashkey Capital：3）模块化区块链的改进和特定应用的 Rollup 发展：更多的 Layer2、Subnet 及 L3；4）ZK 其他非扩展应用，特别是 ZK Bridges；5）AA+MPC 和闪电网络的迭代，为终端用户提供其他技术。
+内容来源</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA"
+                        open
+                      >
+                        <summary class="article-expander__title">解密 Silvergate 与硅谷银行危机：一场美元加息周期下的豪赌</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/G8xNibSHEjAITBJbCISiaZl7QibibvwqK36SSnEscZOBDcqzzlcgZCxd89XbYYVVU20lSV5pN7mnd1cXqnwUmE6h4A/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。
+文章来源：
+https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA
+文章作者：
+0xmin
+
+观点：
+0xmin：银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。
+内容来源
+0xmin：2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。
+内容来源
+0xmin：SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;33
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA"
+                        open
+                      >
+                        <summary class="article-expander__title">解密 Silvergate 与硅谷银行危机：一场美元加息周期下的豪赌</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/G8xNibSHEjAITBJbCISiaZl7QibibvwqK36SSnEscZOBDcqzzlcgZCxd89XbYYVVU20lSV5pN7mnd1cXqnwUmE6h4A/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。
+文章来源：
+https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA
+文章作者：
+0xmin
+
+观点：
+0xmin：银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。
+内容来源
+0xmin：2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。
+内容来源
+0xmin：SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;33
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/CryptoGirlNova/status/1633897861002960898"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。
+文章来源：
+https://twitter.com/CryptoGirlNova/status/1633897861002960898
+文章作者：
+Crypto Nova
+
+观点：
+Crypto Nova：1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】
+内容来源
+Crypto Nova：3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）
+WINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/CryptoGirlNova/status/1633897861002960898"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。
+文章来源：
+https://twitter.com/CryptoGirlNova/status/1633897861002960898
+文章作者：
+Crypto Nova
+
+观点：
+Crypto Nova：1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】
+内容来源
+Crypto Nova：3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）
+WINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。
+文章来源：
+https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups
+文章作者：
+Partrick McCorry
+
+观点：
+Partrick McCorry：虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】
+内容来源
+Partrick McCorry：比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】
+内容来源
+Partrick McCorry：主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】
+内容来源
+Partrick McCorry：主权 rollup &#x3D; 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。
+文章来源：
+https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups
+文章作者：
+Partrick McCorry
+
+观点：
+Partrick McCorry：虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】
+内容来源
+Partrick McCorry：比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】
+内容来源
+Partrick McCorry：主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】
+内容来源
+Partrick McCorry：主权 rollup &#x3D; 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw"
+                        open
+                      >
+                        <summary class="article-expander__title">Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动
+Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw"
+                        open
+                      >
+                        <summary class="article-expander__title">Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动
+Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/0x_irisl/status/1633842976169558024"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0x_irisl/status/1633842976169558024">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。
+文章来源：
+https://twitter.com/0x_irisl/status/1633842976169558024
+文章作者：
+鸭鸭
+
+观点：
+鸭鸭：1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。
+内容来源
+鸭鸭：3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/0x_irisl/status/1633842976169558024"
+                        open
+                      >
+                        <summary class="article-expander__title">【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0x_irisl/status/1633842976169558024">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。
+文章来源：
+https://twitter.com/0x_irisl/status/1633842976169558024
+文章作者：
+鸭鸭
+
+观点：
+鸭鸭：1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。
+内容来源
+鸭鸭：3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/jackiereses/status/1633985785295966209"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/jackiereses/status/1633985785295966209">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。
+文章来源：
+https://twitter.com/jackiereses/status/1633985785295966209
+文章作者：
+Jackie Reses（Lead Bank 首席执行官）
+
+观点：
+Jackie Reses（Lead Bank 首席执行官）：在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】
+内容来源
+Jackie Reses（Lead Bank 首席执行官）：很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/jackiereses/status/1633985785295966209"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/jackiereses/status/1633985785295966209">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。
+文章来源：
+https://twitter.com/jackiereses/status/1633985785295966209
+文章作者：
+Jackie Reses（Lead Bank 首席执行官）
+
+观点：
+Jackie Reses（Lead Bank 首席执行官）：在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】
+内容来源
+Jackie Reses（Lead Bank 首席执行官）：很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/ThorHartvigsen/status/1633776677909315585"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。
+文章来源：
+https://twitter.com/ThorHartvigsen/status/1633776677909315585
+文章作者：
+Thor Hartvigsen
+
+观点：
+Thor Hartvigsen：1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】
+内容来源
+Thor Hartvigsen：6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】
+内容来源
+Thor Hartvigsen：14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】
+内容来源
+Thor Hartvigsen：20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://twitter.com/ThorHartvigsen/status/1633776677909315585"
+                        open
+                      >
+                        <summary class="article-expander__title">【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Chainfeeds 导读：
+加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。
+文章来源：
+https://twitter.com/ThorHartvigsen/status/1633776677909315585
+文章作者：
+Thor Hartvigsen
+
+观点：
+Thor Hartvigsen：1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】
+内容来源
+Thor Hartvigsen：6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】
+内容来源
+Thor Hartvigsen：14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】
+内容来源
+Thor Hartvigsen：20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf"
+                        open
+                      >
+                        <summary class="article-expander__title">Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank
+据德勤审计的 Circle 1 月审计报告显示，Circle 在美国多家受监管的金融机构中存有储备金，包括纽约梅隆银行、Citizens Trust Bank、Customers Bank、New York Community Bank、Signature Bank、Silicon Valley Bank 和 Silvergate Bank 等。Silicon Valley Bank 母公司 SVB 金融集团股价于周四下跌逾 60%，盘后进一步下跌近 20%。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf"
+                        open
+                      >
+                        <summary class="article-expander__title">Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank
+据德勤审计的 Circle 1 月审计报告显示，Circle 在美国多家受监管的金融机构中存有储备金，包括纽约梅隆银行、Citizens Trust Bank、Customers Bank、New York Community Bank、Signature Bank、Silicon Valley Bank 和 Silvergate Bank 等。Silicon Valley Bank 母公司 SVB 金融集团股价于周四下跌逾 60%，盘后进一步下跌近 20%。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb"
+                        open
+                      >
+                        <summary class="article-expander__title">硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资
+据彭博社援引人士报道，由「硅谷教父」Peter Thiel 共同创立的风险投资基金 Founders Fund 建议企业从硅谷银行撤资，原因是担心其财务稳定性。该银行的母公司 SVB 金融集团的股价在周四暴跌逾 60%，并出售了其投资组合中几乎所有可供出售的证券。据彭博社报道，SVB 领跌 KBW 银行指数，该指数创下 2020 年 6 月以来的最大跌幅。摩根大通和富国银行等银行跌幅超过 5%。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb"
+                        open
+                      >
+                        <summary class="article-expander__title">硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资
+据彭博社援引人士报道，由「硅谷教父」Peter Thiel 共同创立的风险投资基金 Founders Fund 建议企业从硅谷银行撤资，原因是担心其财务稳定性。该银行的母公司 SVB 金融集团的股价在周四暴跌逾 60%，并出售了其投资组合中几乎所有可供出售的证券。据彭博社报道，SVB 领跌 KBW 银行指数，该指数创下 2020 年 6 月以来的最大跌幅。摩根大通和富国银行等银行跌幅超过 5%。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf"
+                        open
+                      >
+                        <summary class="article-expander__title">拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税
+美国总统拜登公布了 6.9 万亿美元的 2024 年预算提案，财政部提议对加密矿企的供电成本征收 30% 的消费税，该税将在未来三年内分阶段实施，每年增加 10%，这些公司还被要求报告他们使用了多少电力以及使用了什么类型的电力。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;143
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf"
+                        open
+                      >
+                        <summary class="article-expander__title">拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税
+美国总统拜登公布了 6.9 万亿美元的 2024 年预算提案，财政部提议对加密矿企的供电成本征收 30% 的消费税，该税将在未来三年内分阶段实施，每年增加 10%，这些公司还被要求报告他们使用了多少电力以及使用了什么类型的电力。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;143
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake"
+                        open
+                      >
+                        <summary class="article-expander__title">Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元
+据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake"
+                        open
+                      >
+                        <summary class="article-expander__title">Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元
+据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms"
+                        open
+                      >
+                        <summary class="article-expander__title">纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://ag.ny.gov/sites/default/files/default_images/oag-website_1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营
+纽约总检察长 Letitia James 对 KuCoin 提起诉讼，指控其未注册为证券和商品经纪商并谎称自己为交易所。通过该诉讼，Letitia James 寻求法院命令阻止 KuCoin 在纽约运营，并指示 KuCoin 根据 IP 地址和 GPS 定位实施地理封锁以阻止用户在纽约访问 KuCoin 移动应用程序、网站及服务。请愿书表示，ETH 就像 LUNA 和 UST 一样是一种投机性资产，因此 KuCoin 在进行销售之前需要进行注册。且 KuCoin 还以 KuCoin Earn 的形式出售未注册证券。此外，KuCoin 声称自己是一家交易所，但并没有在证券交易委员会注册为国家证券交易所，也没有按照纽约法律的要求由商品期货交易委员会适当指定，也没有遵守 OAG 发出的传票提供有关在该州的数字资产交易活动的更多信息。
+内容来源
+
+观点：
+Letitia James（纽约总检察长）：我的办公室正在对那些公然无视我们的法律并将投资者置于风险之中的加密货币公司采取行动，今天的行动是我们努力为该行业带来秩序的最新行动。所有纽约人和所有在纽约经营的公司都必须遵守我们州的法律和法规，而 KuCoin 在没有注册的情况下在纽约运营，我们不得不采取强有力的措施来追究他们的责任并保护投资者。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms"
+                        open
+                      >
+                        <summary class="article-expander__title">纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://ag.ny.gov/sites/default/files/default_images/oag-website_1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营
+纽约总检察长 Letitia James 对 KuCoin 提起诉讼，指控其未注册为证券和商品经纪商并谎称自己为交易所。通过该诉讼，Letitia James 寻求法院命令阻止 KuCoin 在纽约运营，并指示 KuCoin 根据 IP 地址和 GPS 定位实施地理封锁以阻止用户在纽约访问 KuCoin 移动应用程序、网站及服务。请愿书表示，ETH 就像 LUNA 和 UST 一样是一种投机性资产，因此 KuCoin 在进行销售之前需要进行注册。且 KuCoin 还以 KuCoin Earn 的形式出售未注册证券。此外，KuCoin 声称自己是一家交易所，但并没有在证券交易委员会注册为国家证券交易所，也没有按照纽约法律的要求由商品期货交易委员会适当指定，也没有遵守 OAG 发出的传票提供有关在该州的数字资产交易活动的更多信息。
+内容来源
+
+观点：
+Letitia James（纽约总检察长）：我的办公室正在对那些公然无视我们的法律并将投资者置于风险之中的加密货币公司采取行动，今天的行动是我们努力为该行业带来秩序的最新行动。所有纽约人和所有在纽约经营的公司都必须遵守我们州的法律和法规，而 KuCoin 在没有注册的情况下在纽约运营，我们不得不采取强有力的措施来追究他们的责任并保护投资者。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.tbstat.com/wp/uploads/2022/08/20220822_Funding_Generic2-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投
+提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。所筹资金将用于扩大开发团队。
+据 The Block 介绍，Proven 希望能够提供一种验证储量证明的替代方式，其所谓的「偿付能力证明」生成能够让公司在不需要公开披露其资产负债表的情况下显示资产和负债。 截止目前，Proven 已经将 Coinlist 和 Bitso 等列为用户。
+内容来源
+
+观点：
+Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;221
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.tbstat.com/wp/uploads/2022/08/20220822_Funding_Generic2-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投
+提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。所筹资金将用于扩大开发团队。
+据 The Block 介绍，Proven 希望能够提供一种验证储量证明的替代方式，其所谓的「偿付能力证明」生成能够让公司在不需要公开披露其资产负债表的情况下显示资产和负债。 截止目前，Proven 已经将 Coinlist 和 Bitso 等列为用户。
+内容来源
+
+观点：
+Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;221
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2760,1030 +3905,6 @@ Read the full entry</span>
 撰文：0xmin
 Read the full entry</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ChainFeeds精选</button>
-                  <a class="source-heading__link" href="">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/crypto_mckenna/status/1633731247867584512"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/crypto_mckenna/status/1633731247867584512">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。
-文章来源：
-https://twitter.com/crypto_mckenna/status/1633731247867584512
-文章作者：
-McKenna
-
-观点：
-McKenna：我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】
-内容来源
-McKenna：如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/crypto_mckenna/status/1633731247867584512"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/crypto_mckenna/status/1633731247867584512">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。
-文章来源：
-https://twitter.com/crypto_mckenna/status/1633731247867584512
-文章作者：
-McKenna
-
-观点：
-McKenna：我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】
-内容来源
-McKenna：如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/verumcapital/status/1633456999617773568"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/verumcapital/status/1633456999617773568">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。
-文章来源：
-https://twitter.com/verumcapital/status/1633456999617773568
-文章作者：
-Verum Capital
-
-观点：
-Verum Capital：在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】
-内容来源
-Verum Capital：得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】
-内容来源
-Verum Capital：可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/verumcapital/status/1633456999617773568"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/verumcapital/status/1633456999617773568">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。
-文章来源：
-https://twitter.com/verumcapital/status/1633456999617773568
-文章作者：
-Verum Capital
-
-观点：
-Verum Capital：在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】
-内容来源
-Verum Capital：得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】
-内容来源
-Verum Capital：可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/Delphi_Digital/status/1633875872972406785"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】比特币「新文化」运动如何为比特币带来链上效用？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/Delphi_Digital/status/1633875872972406785">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。
-文章来源：
-https://twitter.com/Delphi_Digital/status/1633875872972406785
-文章作者：
-Delphi Digital
-
-观点：
-Delphi Digital：目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】
-内容来源
-Delphi Digital：Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】
-内容来源
-Delphi Digital：Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/Delphi_Digital/status/1633875872972406785"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】比特币「新文化」运动如何为比特币带来链上效用？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/Delphi_Digital/status/1633875872972406785">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。
-文章来源：
-https://twitter.com/Delphi_Digital/status/1633875872972406785
-文章作者：
-Delphi Digital
-
-观点：
-Delphi Digital：目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】
-内容来源
-Delphi Digital：Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】
-内容来源
-Delphi Digital：Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/LlamaRisk/status/1633916033886199808"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/LlamaRisk/status/1633916033886199808">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。
-文章来源：
-https://twitter.com/LlamaRisk/status/1633916033886199808
-文章作者：
-LlamaRisk
-
-观点：
-LlamaRisk：在欧元稳定币市场中，$EURS 是市值最大的，它也是 Curve 上重要的欧元稳定币，市占率达 40% 以上。其发行商 Stasis 拥有复杂的服务提供商网络，负责监管和发行。$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】
-内容来源
-LlamaRisk：我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/LlamaRisk/status/1633916033886199808"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/LlamaRisk/status/1633916033886199808">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。
-文章来源：
-https://twitter.com/LlamaRisk/status/1633916033886199808
-文章作者：
-LlamaRisk
-
-观点：
-LlamaRisk：在欧元稳定币市场中，$EURS 是市值最大的，它也是 Curve 上重要的欧元稳定币，市占率达 40% 以上。其发行商 Stasis 拥有复杂的服务提供商网络，负责监管和发行。$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】
-内容来源
-LlamaRisk：我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch"
-                        open
-                      >
-                        <summary class="article-expander__title">HashKey Capital 研究报告：2023 年值得关注的 5 大技术热点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.hashkey.com/assets/images/insight/capital-newsletter-tech-trend-2023-thumbnail-390-223.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-HashKey Capital 撰文概述 2023 年值得关注的 5 大技术趋势，分别为以太坊升级、质押相关技术、模块化区块链、ZK 及钱包和应用端应用。
-文章来源：
-https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch
-文章作者：
-Hashkey Capital
-
-观点：
-Hashkey Capital：1）以太坊的重大升级（Shanghai，Cancun）：上海升级将开放提款，预计 Staking 的量会上升，Staking 项目的竞争也会激烈。坎昆升级包括 Proto-Danksharding 及优化 EVM；2）质押相关的技术、产品和服务：包括改善质押代币的流动性、去中心化质押产品改进、Eigenlayer 的「二次质押」、DVT 及质押收入稳定化解决方案等；
-内容来源
-Hashkey Capital：3）模块化区块链的改进和特定应用的 Rollup 发展：更多的 Layer2、Subnet 及 L3；4）ZK 其他非扩展应用，特别是 ZK Bridges；5）AA+MPC 和闪电网络的迭代，为终端用户提供其他技术。
-内容来源</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch"
-                        open
-                      >
-                        <summary class="article-expander__title">HashKey Capital 研究报告：2023 年值得关注的 5 大技术热点</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.hashkey.com/assets/images/insight/capital-newsletter-tech-trend-2023-thumbnail-390-223.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-HashKey Capital 撰文概述 2023 年值得关注的 5 大技术趋势，分别为以太坊升级、质押相关技术、模块化区块链、ZK 及钱包和应用端应用。
-文章来源：
-https://www.hashkey.com/cn/insights/hashkey-capital-2023-top-tech-trend-to-watch
-文章作者：
-Hashkey Capital
-
-观点：
-Hashkey Capital：1）以太坊的重大升级（Shanghai，Cancun）：上海升级将开放提款，预计 Staking 的量会上升，Staking 项目的竞争也会激烈。坎昆升级包括 Proto-Danksharding 及优化 EVM；2）质押相关的技术、产品和服务：包括改善质押代币的流动性、去中心化质押产品改进、Eigenlayer 的「二次质押」、DVT 及质押收入稳定化解决方案等；
-内容来源
-Hashkey Capital：3）模块化区块链的改进和特定应用的 Rollup 发展：更多的 Layer2、Subnet 及 L3；4）ZK 其他非扩展应用，特别是 ZK Bridges；5）AA+MPC 和闪电网络的迭代，为终端用户提供其他技术。
-内容来源</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA"
-                        open
-                      >
-                        <summary class="article-expander__title">解密 Silvergate 与硅谷银行危机：一场美元加息周期下的豪赌</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/G8xNibSHEjAITBJbCISiaZl7QibibvwqK36SSnEscZOBDcqzzlcgZCxd89XbYYVVU20lSV5pN7mnd1cXqnwUmE6h4A/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。
-文章来源：
-https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA
-文章作者：
-0xmin
-
-观点：
-0xmin：银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。
-内容来源
-0xmin：2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。
-内容来源
-0xmin：SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA"
-                        open
-                      >
-                        <summary class="article-expander__title">解密 Silvergate 与硅谷银行危机：一场美元加息周期下的豪赌</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://mmbiz.qpic.cn/mmbiz_jpg/G8xNibSHEjAITBJbCISiaZl7QibibvwqK36SSnEscZOBDcqzzlcgZCxd89XbYYVVU20lSV5pN7mnd1cXqnwUmE6h4A/0?wx_fmt&#x3D;jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。
-文章来源：
-https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA
-文章作者：
-0xmin
-
-观点：
-0xmin：银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。
-内容来源
-0xmin：2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。
-内容来源
-0xmin：SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;33
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/CryptoGirlNova/status/1633897861002960898"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。
-文章来源：
-https://twitter.com/CryptoGirlNova/status/1633897861002960898
-文章作者：
-Crypto Nova
-
-观点：
-Crypto Nova：1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】
-内容来源
-Crypto Nova：3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）
-WINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/CryptoGirlNova/status/1633897861002960898"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。
-文章来源：
-https://twitter.com/CryptoGirlNova/status/1633897861002960898
-文章作者：
-Crypto Nova
-
-观点：
-Crypto Nova：1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】
-内容来源
-Crypto Nova：3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）
-WINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。
-文章来源：
-https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups
-文章作者：
-Partrick McCorry
-
-观点：
-Partrick McCorry：虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】
-内容来源
-Partrick McCorry：比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】
-内容来源
-Partrick McCorry：主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】
-内容来源
-Partrick McCorry：主权 rollup &#x3D; 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。
-文章来源：
-https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups
-文章作者：
-Partrick McCorry
-
-观点：
-Partrick McCorry：虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】
-内容来源
-Partrick McCorry：比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】
-内容来源
-Partrick McCorry：主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】
-内容来源
-Partrick McCorry：主权 rollup &#x3D; 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw"
-                        open
-                      >
-                        <summary class="article-expander__title">Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动
-Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw"
-                        open
-                      >
-                        <summary class="article-expander__title">Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/filecoin/status/1633935565237153792?s&#x3D;46&amp;t&#x3D;jVSVsk9kH4g92puFJkIbuw">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动
-Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/0x_irisl/status/1633842976169558024"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0x_irisl/status/1633842976169558024">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。
-文章来源：
-https://twitter.com/0x_irisl/status/1633842976169558024
-文章作者：
-鸭鸭
-
-观点：
-鸭鸭：1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。
-内容来源
-鸭鸭：3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/0x_irisl/status/1633842976169558024"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0x_irisl/status/1633842976169558024">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。
-文章来源：
-https://twitter.com/0x_irisl/status/1633842976169558024
-文章作者：
-鸭鸭
-
-观点：
-鸭鸭：1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。
-内容来源
-鸭鸭：3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/jackiereses/status/1633985785295966209"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/jackiereses/status/1633985785295966209">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。
-文章来源：
-https://twitter.com/jackiereses/status/1633985785295966209
-文章作者：
-Jackie Reses（Lead Bank 首席执行官）
-
-观点：
-Jackie Reses（Lead Bank 首席执行官）：在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】
-内容来源
-Jackie Reses（Lead Bank 首席执行官）：很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/jackiereses/status/1633985785295966209"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/jackiereses/status/1633985785295966209">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。
-文章来源：
-https://twitter.com/jackiereses/status/1633985785295966209
-文章作者：
-Jackie Reses（Lead Bank 首席执行官）
-
-观点：
-Jackie Reses（Lead Bank 首席执行官）：在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】
-内容来源
-Jackie Reses（Lead Bank 首席执行官）：很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/ThorHartvigsen/status/1633776677909315585"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。
-文章来源：
-https://twitter.com/ThorHartvigsen/status/1633776677909315585
-文章作者：
-Thor Hartvigsen
-
-观点：
-Thor Hartvigsen：1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】
-内容来源
-Thor Hartvigsen：6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】
-内容来源
-Thor Hartvigsen：14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】
-内容来源
-Thor Hartvigsen：20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/ThorHartvigsen/status/1633776677909315585"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。
-文章来源：
-https://twitter.com/ThorHartvigsen/status/1633776677909315585
-文章作者：
-Thor Hartvigsen
-
-观点：
-Thor Hartvigsen：1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】
-内容来源
-Thor Hartvigsen：6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】
-内容来源
-Thor Hartvigsen：14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】
-内容来源
-Thor Hartvigsen：20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf"
-                        open
-                      >
-                        <summary class="article-expander__title">Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank
-据德勤审计的 Circle 1 月审计报告显示，Circle 在美国多家受监管的金融机构中存有储备金，包括纽约梅隆银行、Citizens Trust Bank、Customers Bank、New York Community Bank、Signature Bank、Silicon Valley Bank 和 Silvergate Bank 等。Silicon Valley Bank 母公司 SVB 金融集团股价于周四下跌逾 60%，盘后进一步下跌近 20%。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf"
-                        open
-                      >
-                        <summary class="article-expander__title">Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank
-据德勤审计的 Circle 1 月审计报告显示，Circle 在美国多家受监管的金融机构中存有储备金，包括纽约梅隆银行、Citizens Trust Bank、Customers Bank、New York Community Bank、Signature Bank、Silicon Valley Bank 和 Silvergate Bank 等。Silicon Valley Bank 母公司 SVB 金融集团股价于周四下跌逾 60%，盘后进一步下跌近 20%。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb"
-                        open
-                      >
-                        <summary class="article-expander__title">硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资
-据彭博社援引人士报道，由「硅谷教父」Peter Thiel 共同创立的风险投资基金 Founders Fund 建议企业从硅谷银行撤资，原因是担心其财务稳定性。该银行的母公司 SVB 金融集团的股价在周四暴跌逾 60%，并出售了其投资组合中几乎所有可供出售的证券。据彭博社报道，SVB 领跌 KBW 银行指数，该指数创下 2020 年 6 月以来的最大跌幅。摩根大通和富国银行等银行跌幅超过 5%。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb"
-                        open
-                      >
-                        <summary class="article-expander__title">硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资
-据彭博社援引人士报道，由「硅谷教父」Peter Thiel 共同创立的风险投资基金 Founders Fund 建议企业从硅谷银行撤资，原因是担心其财务稳定性。该银行的母公司 SVB 金融集团的股价在周四暴跌逾 60%，并出售了其投资组合中几乎所有可供出售的证券。据彭博社报道，SVB 领跌 KBW 银行指数，该指数创下 2020 年 6 月以来的最大跌幅。摩根大通和富国银行等银行跌幅超过 5%。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf"
-                        open
-                      >
-                        <summary class="article-expander__title">拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税
-美国总统拜登公布了 6.9 万亿美元的 2024 年预算提案，财政部提议对加密矿企的供电成本征收 30% 的消费税，该税将在未来三年内分阶段实施，每年增加 10%，这些公司还被要求报告他们使用了多少电力以及使用了什么类型的电力。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;143
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf"
-                        open
-                      >
-                        <summary class="article-expander__title">拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税
-美国总统拜登公布了 6.9 万亿美元的 2024 年预算提案，财政部提议对加密矿企的供电成本征收 30% 的消费税，该税将在未来三年内分阶段实施，每年增加 10%，这些公司还被要求报告他们使用了多少电力以及使用了什么类型的电力。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;143
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake"
-                        open
-                      >
-                        <summary class="article-expander__title">Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元
-据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake"
-                        open
-                      >
-                        <summary class="article-expander__title">Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元
-据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms"
-                        open
-                      >
-                        <summary class="article-expander__title">纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://ag.ny.gov/sites/default/files/default_images/oag-website_1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营
-纽约总检察长 Letitia James 对 KuCoin 提起诉讼，指控其未注册为证券和商品经纪商并谎称自己为交易所。通过该诉讼，Letitia James 寻求法院命令阻止 KuCoin 在纽约运营，并指示 KuCoin 根据 IP 地址和 GPS 定位实施地理封锁以阻止用户在纽约访问 KuCoin 移动应用程序、网站及服务。请愿书表示，ETH 就像 LUNA 和 UST 一样是一种投机性资产，因此 KuCoin 在进行销售之前需要进行注册。且 KuCoin 还以 KuCoin Earn 的形式出售未注册证券。此外，KuCoin 声称自己是一家交易所，但并没有在证券交易委员会注册为国家证券交易所，也没有按照纽约法律的要求由商品期货交易委员会适当指定，也没有遵守 OAG 发出的传票提供有关在该州的数字资产交易活动的更多信息。
-内容来源
-
-观点：
-Letitia James（纽约总检察长）：我的办公室正在对那些公然无视我们的法律并将投资者置于风险之中的加密货币公司采取行动，今天的行动是我们努力为该行业带来秩序的最新行动。所有纽约人和所有在纽约经营的公司都必须遵守我们州的法律和法规，而 KuCoin 在没有注册的情况下在纽约运营，我们不得不采取强有力的措施来追究他们的责任并保护投资者。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms"
-                        open
-                      >
-                        <summary class="article-expander__title">纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://ag.ny.gov/sites/default/files/default_images/oag-website_1.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营
-纽约总检察长 Letitia James 对 KuCoin 提起诉讼，指控其未注册为证券和商品经纪商并谎称自己为交易所。通过该诉讼，Letitia James 寻求法院命令阻止 KuCoin 在纽约运营，并指示 KuCoin 根据 IP 地址和 GPS 定位实施地理封锁以阻止用户在纽约访问 KuCoin 移动应用程序、网站及服务。请愿书表示，ETH 就像 LUNA 和 UST 一样是一种投机性资产，因此 KuCoin 在进行销售之前需要进行注册。且 KuCoin 还以 KuCoin Earn 的形式出售未注册证券。此外，KuCoin 声称自己是一家交易所，但并没有在证券交易委员会注册为国家证券交易所，也没有按照纽约法律的要求由商品期货交易委员会适当指定，也没有遵守 OAG 发出的传票提供有关在该州的数字资产交易活动的更多信息。
-内容来源
-
-观点：
-Letitia James（纽约总检察长）：我的办公室正在对那些公然无视我们的法律并将投资者置于风险之中的加密货币公司采取行动，今天的行动是我们努力为该行业带来秩序的最新行动。所有纽约人和所有在纽约经营的公司都必须遵守我们州的法律和法规，而 KuCoin 在没有注册的情况下在纽约运营，我们不得不采取强有力的措施来追究他们的责任并保护投资者。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding"
-                        open
-                      >
-                        <summary class="article-expander__title">ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.tbstat.com/wp/uploads/2022/08/20220822_Funding_Generic2-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投
-提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。所筹资金将用于扩大开发团队。
-据 The Block 介绍，Proven 希望能够提供一种验证储量证明的替代方式，其所谓的「偿付能力证明」生成能够让公司在不需要公开披露其资产负债表的情况下显示资产和负债。 截止目前，Proven 已经将 Coinlist 和 Bitso 等列为用户。
-内容来源
-
-观点：
-Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;221
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding"
-                        open
-                      >
-                        <summary class="article-expander__title">ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.tbstat.com/wp/uploads/2022/08/20220822_Funding_Generic2-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投
-提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。所筹资金将用于扩大开发团队。
-据 The Block 介绍，Proven 希望能够提供一种验证储量证明的替代方式，其所谓的「偿付能力证明」生成能够让公司在不需要公开披露其资产负债表的情况下显示资产和负债。 截止目前，Proven 已经将 Coinlist 和 Bitso 等列为用户。
-内容来源
-
-观点：
-Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;221
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11571,7 +11692,7 @@ Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出�
 据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
 Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;31
+                                &ensp;<span class="article-reading-time">(&hairsp;34
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -18001,73 +18122,6 @@ Cipholio Ventures：GMX 目前的隐患是牛市死亡螺旋问题，长期稳�
 Cipholio Ventures：SNX 的核心价值是 synth 之间的交易的低费用，这一价值已经在原子交换期间的高交易量中体现了。从 2018 年起至今，SNX 的整体交易数据与另两个不在一个量级，且 Synthetix 的产品过于复杂，要尽善尽美做全要更长的时间。主协议有流动性、交易费率上的硬伤，会削减代币效用。因此，投资周期会是三个项目里最长的。
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08"
-                        open
-                      >
-                        <summary class="article-expander__title">万字分析衍生品王位之争：dYdX、GMX 与 SNX</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://medium.com/@CipholioCN/cipholio-%E7%A0%94%E7%A9%B6-%E4%B8%87%E5%AD%97%E5%88%86%E6%9E%90%E8%A1%8D%E7%94%9F%E5%93%81%E7%8E%8B%E4%BD%8D%E4%B9%8B%E4%BA%89-dydx-gmx-%E4%B8%8E-snx-9ebff26ebe08">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://miro.medium.com/v2/resize:fit:1200/1*5Co2VRaHQ0zAzxtsLbUlaw.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Web3 投资机构 Cipholio Ventures 出品的研报，内容涵盖衍生品领域的龙头项目：dYdX、GMX 和 SNX 的基本概况、项目团队、发展历程和现状、代币经济学、重要数据以及缺陷和风险等等。
-文章来源：
-https://medium.com/@CipholioCN/cipholio-研究-万字分析衍生品王位之争-dydx-gmx-与-snx-9ebff26ebe08
-文章作者：
-Cipholio Ventures
-
-观点：
-Cipholio Ventures：dYdX 目前最需要克服的是代币的效用问题，这个问题是否能解决需要等待其 V4 Cosmos 版本的到来，长期来看还是有上涨潜力的。目前，dYdX 拥有三个项目中最高的 FDV/TVL，为 7.75，且由于核心问题能不能解决还未成定数，近期的增长不一定能一直持续。
-内容来源
-Cipholio Ventures：GMX 目前的隐患是牛市死亡螺旋问题，长期稳定发展需要团队对逻辑的优化。但是其代币效用是三个之中最高的，在一段时间内会有较高的需求量。此外，GMX 在其他协议上的引入也拉动了需求量的上涨，短期内在市场上可能会有较好的表现。而且该项目带动了整个 Arbitrum 生态。
-内容来源
-Cipholio Ventures：SNX 的核心价值是 synth 之间的交易的低费用，这一价值已经在原子交换期间的高交易量中体现了。从 2018 年起至今，SNX 的整体交易数据与另两个不在一个量级，且 Synthetix 的产品过于复杂，要尽善尽美做全要更长的时间。主协议有流动性、交易费率上的硬伤，会削减代币效用。因此，投资周期会是三个项目里最长的。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/0xShinChannn/status/1632369004647157760"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】一文解读锚定资产定价风险的协议 Y2K Finance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/0xShinChannn/status/1632369004647157760">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-加密 KOL 0xShinChan 撰推解读 Y2K Finance 协议原理、协议机制和代币经济模型，并剖析其收益等绩效指标，以及如何监控 Y2K 上的「聪明钱」。该 KOL 认为 Y2K 的低风险商业模式可以随着存款的增加而提高盈利能力，吸引寻求利润的交易者。
-文章来源：
-https://twitter.com/0xShinChannn/status/1632369004647157760
-文章作者：
-0xShinChan
-
-观点：
-0xShinChan：Y2K Finance 提供了一套针对外来挂钩市场而设计的链上结构化产品，用户可以对特定挂钩资产偏离其「公平隐含市场价值」的风险进行对冲、杠杆、投机和交易以获得利润，其提供 3 种主要产品：1）Earthquake：承担风险 / 防止潜在资产绕行的金库；2）Tsunami：抵押债务驱动的借贷市场；3）Wildfire：购买 / 出售代币化 Earthquake 头寸的市场。【原文为英文】
-内容来源
-0xShinChan：协议机制：1）Earthquake 金库目前支持的锚定资产包括 DAI、FRAX、MIM、USDC 等。2）Earthquake 提供 2 个金库来应对不同的风险偏好，包括对冲金库和风险金库。3）每个金库由 3 个关键属性组成：Asset、Epoch、Strike。Asset：金库对冲的挂钩资产，Epoch：必须发生脱钩事件才能有效的操作周期，Strike：触发挂钩事件的价格阈值。【原文为英文】
-内容来源
-0xShinChan：在没有脱钩的情况下：1）对冲头寸被清算，导致交易员们损失了全部 ETH，赢取了 $Y2K。2）风险金库获胜，交易者从对冲金库中收到与金库大小成比例的 $ETH ，加上 $Y2K 并减去费用。如果发生脱钩则与之相反。此外，Y2K 财政部收取存入对冲和风险金库的资金的 5% 作为费用。【原文为英文】
-内容来源
-0xShinChan：绩效指标：自 2022 年 12 月下旬推出以来，Y2K 在 2.5 个月内产生了超过 52 万美元的收入。30% 的 Y2K 流通量被锁定。$USDT 是最常用的对冲资产，$USDC 是最常用的风险资产。其年化收益约为 250 万美元，市盈率为 32.4，相当疯狂的盈利预测。通过监控「聪明钱」发现两个最大的储户在一个星期的周期创造了超过 100%-200% 的 APR。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31988,8 +32042,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4382364119">
-        <time id="build-timestamp" datetime="2023-03-10T07:39:14.895Z">2023-03-10T07:39:14.895Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4382391052">
+        <time id="build-timestamp" datetime="2023-03-10T07:44:29.935Z">2023-03-10T07:44:29.935Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
