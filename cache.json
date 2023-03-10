@@ -37,7 +37,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">https://twitter.com/0x_irisl/status/1633842976169558024</a></p>\n<p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a>",
           "link": "https://twitter.com/0x_irisl/status/1633842976169558024",
           "publishedOn": "2023-03-10T03:52:45.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考",
           "imageUrl": null
         },
@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">https://twitter.com/balancer/status/1633490690788462592</a></p>\n<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a>",
           "link": "https://twitter.com/balancer/status/1633490690788462592",
           "publishedOn": "2023-03-09T07:12:14.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响",
           "imageUrl": null
         },
@@ -277,7 +277,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Risc Zero 是一个建立在 RISC-V 指令集架构之上的 zkVM，用 Rust 语言编写，底层证明系统是 zk-STARKs。此外，他们还构建了自己的被称为 Bonsai Network 的 L2。在与零知识证明开发者进行交谈后，Matrixport Ventures 前投资总监 Alex 撰文概述了他看好 RISC Zero 的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">https://twitter.com/looksrare_eth/status/1633204560977342464</a></p>\n<p><strong>文章作者：</strong></p><p>Alex</p><hr><h3>观点：</h3><p><strong>Alex：</strong>开发人员将会从以下三个方面获益：1）RISC-V ISA 中优化的 ZK 电路，无需担心证明大小及 Gas 成本等问题；2）RISC-V 生态系统中的一系列库；3）更多的语言支持，例如 Go 和 C++，编译器将于一季度结束时推出。此外，开发人员还能够在 RiscZero zkVM 内运行 EVM。【原文为英文】</p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">内容来源</a><p><strong>Alex：</strong>用例：1）Rollup 公司探索使用 RiscZero 证明器以提供速度更快的可定制 Rollup；2）开发者在数据或中间件领域进行构建，探索数据中继的零知识证明用例；3）链上游戏：战略游戏、纸牌游戏等也可以使用 RiscZero 虚拟机编写零知识证明；4）项目可使用 ZKP Powered 证明工作输出或结果而无需透露用户数据；5） 还适用于无人机、位置服务和物联网公司等领域。【原文为英文】</p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">内容来源</a>",
           "link": "https://twitter.com/looksrare_eth/status/1633204560977342464",
           "publishedOn": "2023-03-09T04:13:05.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Matrixport Ventures 前投资总监：为什么看好 RISC Zero？",
           "imageUrl": null
         },
@@ -587,7 +587,7 @@
           "description": "<h3>Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投</h3>\n<p>据 TechCrunch 报道，Solana 生态 NFT 交易平台 Tensor 完成了 300 万美元种子轮融资，由 Placeholder 领投， Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。Tensor 曾在 2022 年赢得两次 Solana 黑客松比赛，获得了大约 6 万至 7 万美元的奖金。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/",
           "publishedOn": "2023-03-07T12:46:41.000Z",
-          "wordCount": 7645,
+          "wordCount": 8549,
           "title": "Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1329996497-1.jpg?resize=1200,800"
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1001,
+          "wordCount": 1002,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PKUBA 联合深潮邀请包括 LD Capital 合伙人 Joy Lou 在内的多名资深加密分析师，全面公开资金的研究框架和逻辑，分享其今年看好哪些赛道，PKUBA 研究员兼深潮分析师 Claudia 对该 Space 进行了重点提炼和总结。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">https://twitter.com/0x_claudia/status/1632745025036775425</a></p>\n<p><strong>文章作者：</strong></p><p>Claudia（深潮 TechFlow）</p><hr><h3>观点：</h3><p><strong>Joy Lou（了得资本合伙人）：</strong>赛道核心是以太坊升级。LSD 短期资金出去一点，长期无法逃过。接下来，Layer2、Dank sharding 4844 、Op stack、 zk、 Coinbase 的 L2，轮动过程中再加上 DeFi（稳定币、借贷、LSD …… 相互抢地盘）、存储等辅助赛道。DeFi 里的 NFTFi、衍生品也要覆盖，交易量很大。除了以太坊，还有可能的生态是 Cosmos，但是要看看它的持续性。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>CapitalismLab：</strong>把精力集中在比较主线的叙事，核心就是 LSD、L2 和 衍生品 这三个方面，只能覆盖长期确定性强的赛道。 比较喜欢 Arbitrum ，因为不需要发币就能实现有机增长，有差异化体验、有人用的产品。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>DeFi Cheetah：</strong>可以布局的赛道是链上衍生品。Restaking 很重要，模块化区块链也重要。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>Kiwibig.eth：</strong>V 神发文章是引导资本关注特定赛道。今年节奏的核心是跟着 V 神走。以太坊宇宙，在以太坊上解决 IBC 问题。看好 Cosmos，头部应用和钱都在进入生态。偏好硬件类项目，以太坊占据共识层，硬件缺得很多。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a>",
           "link": "https://twitter.com/0x_claudia/status/1632745025036775425",
           "publishedOn": "2023-03-07T07:54:19.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "PKUBA Space 总结：资深分析师们今年看好哪些赛道？以太坊仍是核心",
           "imageUrl": null
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL Doggfather 认为 TwelveFold 的拍卖机制进行了最大价值提取，Yuga 正在最大化他们的短期收入，这会导致很多潜在的抛售压力。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/doggfathercrew/status/1632718700309540866\">https://twitter.com/doggfathercrew/status/1632718700309540866</a></p>\n<p><strong>文章作者：</strong></p><p>DoggfatherCrew</p><hr><h3>观点：</h3><p><strong>DoggfatherCrew：</strong>在股票市场上，新股通过建仓出售。对于可以以价格 p * 出售的特定供应量 s*，销售价格被降低到 p**，以保证上市后的价格正向发展，所以收入 = 绿色区域面积。也可以收取市场清算价格 p*，收入 = 绿色 + 黄色区域面积。然而，Yuga 收取全部 BTC 出价，范围从 p_max 到 p*，收入 = 绿色 + 黄色 + 红色区域面积。这意味着 Yuga 正在最大化他们的短期收入，根据最新出价：绿色 + 黄色区域收益 = 19 BTC，绿色 + 黄色 + 红色区域收益 = 54.5 BTC。【原文为英文】</p><a href=\"https://twitter.com/doggfathercrew/status/1632718700309540866\">内容来源</a>",
           "link": "https://twitter.com/doggfathercrew/status/1632718700309540866",
           "publishedOn": "2023-03-07T05:45:54.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：TwelveFold 的拍卖机制值得引起警惕",
           "imageUrl": null
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 744,
+          "wordCount": 732,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -797,7 +797,7 @@
           "description": "<h3>Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖已结束，最高出价 7.1159 BTC</h3>\n<p>Yuga Labs 发推文宣布，基于 Ordinal 协议的 NFT 系列 TwelveFold 拍卖已经结束，前 288 名投标人将在一周内收到铭文。未排在前 288 位的有效投标者将在 24 小时内收到退回的投标金额。\n官方数据显示，排名前 288 位的出价均在 2 BTC 以上，最高出价为 7.1159  BTC。\nTwelveFold 拍卖于北京时间 3 月 6 日 7:00 开始，持续约 24 小时，将根据拍卖结束前最后完成的区块时间确定。总共将拍卖 288 件 TwelveFold，并在拍卖结束时发送给出价最高的 288 名中标者。</p>\n<p><a href=\"https://twitter.com/yugalabs/status/1632878847778512898\">内容来源</a></p><hr>",
           "link": "https://twitter.com/yugalabs/status/1632878847778512898",
           "publishedOn": "2023-03-07T02:22:26.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖已结束，最高出价 7.1159 BTC",
           "imageUrl": null
         },
@@ -857,7 +857,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 是建立在以太坊上的，能够将收益代币化的 DeFi 协议，允许用户对某些资产的未来收益进行代币化并出售。Web3 研究员 Tissy 从协议的基本原理、叙事、估值和集成能力等方面叙述他为什么对 Pendle 如此看好。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">https://twitter.com/Cryptotrissy/status/1632353433683632128</a></p>\n<p><strong>文章作者：</strong></p><p>Trissy</p><hr><h3>观点：</h3><p><strong>Trissy：</strong>Pendle 的目标是通过增加用户在牛市中的收益敞口，并在熊市中对冲收益下滑，为用户提供最大的收益率。用户可以通过其双收益代币执行各种收益策略。在 Tradfi 中，机构参与者依靠各种对冲来保护他们的头寸，如期货收益合约。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a><p><strong>Trissy：</strong>Pendle 从 YT 产生的收益中收取 3% 的费用，目前 100% 分配给 vePENDLE 持有者，团队不收取任何收益。vePENDLE 为 Pendle 上的激励机制提供动力，持有者通过投票支持并引导奖励流向不同的池，可以有效地激励投票支持的池中的流动性。如果在持有 vePENDLE 的同时做 LP，PENDLE 奖励和 LP 奖励也将进一步提高，带来收入飞轮。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a><p><strong>Trissy：</strong>LSD 将主导 ETH 质押生态系统，我将此归结为两个原因：1）LSD 具有很高的效用系数：可用作存款或借贷协议抵押品赚取利息，提高收益率；2）用户的流动性需求：上海升级后有 27 小时等待时间，会造成资产流动性不足，投资者将更喜欢通过 LSD 即时解锁的扩展解决方案。这对 Pendle 意味着，持有者可以借助其提高 ETH 收益率。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a>",
           "link": "https://twitter.com/Cryptotrissy/status/1632353433683632128",
           "publishedOn": "2023-03-06T13:28:20.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】浅析收益代币化协议：Pendle Finance",
           "imageUrl": null
         },
@@ -6878,7 +6878,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1823,
+          "wordCount": 1826,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
