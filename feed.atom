@@ -2,11 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T07:34:02.165Z</updated>
+    <updated>2023-03-10T07:39:14.954Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[解析Arbitrum上的衍生品DEX GammaSwap：将无常损失转化为“无常收益”]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/lcdfae46.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/lcdfae46.html"/>
+        <updated>2023-03-10T07:34:18.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Alpha Track | GammaSwap ：将无常损失转化为“无常收益”》
+注：本文主要介绍 GammaSwap 针对LP 无常损失提出的解决方案，不作任何投资建议。
+GammaSwap 是建立在 Arbitrum 上的链上衍生品 DEX ，旨在解决流动性质押中 LP 们不得不承受的无常损失的痛点。为了理解 GammaSwap 的设计理念，我们先要了解 DEX 们目前采用的恒定函数做市商（CFMM）会造成无常损失的本质原因。
+(如果您对Uniswap V3 和无常损失已经非常了解，可以跳过这部分)
+相较于其他 DEX 的 AMM 池子将流动性均匀的分布在 x*y=k 这条曲线上，Uniswap V3 版本最大的特点是集中资金池（Concentrated Liquidity），允许 LP 在其选择的价格范围内提供流动性。举个极端的例子：稳定币 USDC-DAI 的价格基本维持在 0.99-1.01 之间，而池子中 99.5% 以上的流动性分布在可能永远达不到的价格上，资金效率低下。而 UNI V3 中，用户可以自定义在哪个价格区间内提供流动性，提高了资本效率，能赚取更多的手续费奖励。但同时，用户也将承受更高的无常损失风险，相当于是对流动性头寸加了杠杆。
+无常损失简单来说就是：当 AMM 池中存入的资产价格发生波动时，LP 头寸中的资产数量也会变动，会减少因价格上涨而带来的浮盈，以及增加因价格下跌而带来的浮亏。波动率越大，无常损失也越大，如果价格又回到了初始的状态，那么无常损失将为 0，因为价格波动是无法预测的，所以这种风险被称为“无常损失”。
+举个简单的例子：假设 ETH 价格为 1000$，用户存入了 1 个 ETH 和 1000 个 USDC 的 LP 头寸，然后 ETH 价格来到了 2000$。
+1)如果选择在所有的价格区间内提供流动性（V2）
+用户的 LP 头寸会跟随池子整体的头寸变化而变化，此时 LP 头寸会变为 0.707 个 ETH 和 1414 个 USDC，总价值 2828$，相较于初始存入的 1 ETH 和 1000 USDC 来说，本金损失了 5.72%。（具体计算过程参照 Uniswap文档）
+2)如果选择在 [500,1500] 的价格区间内提供流动性（V3）
+用户的 LP 头寸会在 ETH 价格达到 1500$ 的时候全部变为 USDC，此时无常损失达到了21.5%，这种情况下相当于是 V2 的 4 倍。（具体计算过程参照 Uniswap文档）
+期权是一种金融合约，买方付出一笔期权金后，拥有能在到期日或到期日之前，以预先确定的价格（行权价格）购买或出售资产的权利。在传统期权市场中，存在两个术语：delta 和 gamma。
+delta 是指标的资产价格变动时，期权价格的相对变动幅度。比如一份 ETH 看涨期权的 delta 为 0.5，即当 ETH 现货价格变动 1 时，期权价格就同向变动 0.5，可以通过卖出0.5 个 ETH 来对冲。由于 delta 是动态变化的，所以需要动态调整标的的头寸来保持delta 中性，这就是 delta 对冲。
+gamma 是指 delta 值相对标的价格变化的变动速率，当 gamma 较大时，说明 delta 相对标的价格变化很快，因此需要及时调整标的头寸，否则容易承受损失，这就是 gamma 风险。在不考虑时间因素的情况下，波动率越大，期权金越贵。
+
+(资料来源：optiontradingtips)
+联系到 DEX 们采用的 AMM 模式，当池子中的一种资产相对另一种资产的价格变动时，池子中两种资产的数量会沿着 x*y=k 曲线非线性的变化，可以理解为 DEX 在通过恒定函数曲线来动态对冲 delta。
+当资产波动率大时，gamma 风险也就越高，LP 们承受的无常损失也就越大（期权金）。因此 AMM 可以看成是内嵌了一个永续期权市场，始终在动态地对冲其储备中假设的多头看跌期权的风险敞口，而 LP 则暴露在 gamma 风险之下（相当于做空 gamma），承受无常损失的风险来获取交易手续费。
+但交易手续费与波动率之间不能用一个表达式直接挂钩， DEX 也将手续费称作为提供流动性的激励，这意味着 LP 缺少了承担这部分 gamma 风险相对应的补偿。很多时候手续费收入并不能 cover gamma，比如行情波动较大时或者一些 shit coin 池子，尤其是当在较窄范围内提供流动性时，会放大 gamma 风险。
+Uniswap V3的源码商业许可证即将在 4 月份到期，不少 DEX 正在基于 UNIV3 的基础上做部分改良来推出自己的 V3 版本，包括 PancakeSwap 和 Osmosis 等。届时很多用户可能会在资本效率与无常损失之间难以抉择。
+GammaSwap 正致力于解决这一问题，允许用户借入 LP 来做多波动率（gamma）。
+1）机制介绍
+GammaSwap 中有两个参与者。做空 gamma（波动率）的 LP 提供者和做多 gamma 的借款人。在 Uniswap ETH/USDC 池的情况下，LP 可以使用储备代币（ETH 和 USDC）或直接使用 Uni LP 创建头寸。假设 LP 将储备代币存入 ETH / USDC 池。GammaSwap 会将这些基础代币存入 Uniswap，接收 Uni LP 代币并保留在智能合约中。GammaSwap 随后会向 LP 提供者发行 GammaSwap (GS) ERC-20 LP 代币。GS LP 持有者不仅可以获取 Uniswap 中的交易手续费，还可以从借款人手中获得利息。当波动率较大时，做多波动的需求会增加，利率也会上涨，因此即使 GS LP 没有选择对冲无常损失，仍然会获得更好的补偿。
+对于希望做多 gamma 的人，需要先提供足够数量的抵押物（ETH、USDC等）才能借入 LP，会收到一个类似于 Uni V3 的 NFT 来管理他们的贷款。当用户开仓时，GammaSwap 将 Uni LP 代币兑换为基础代币并创建合成 GS LP。然后就可以通过将代币比例倾斜向某一种，来做多波动率，并获得类似期权的回报函数。
+贷款必须保持 90% 的 LTV 比率才能保持健康。如果贷款超过这个门槛，将会被清算。随着基础代币向任一方向移动，贷款变得过度抵押，用户可以用储备代币购买更多的 LP 代币。
+gamma 多头可用于多种策略：1. 对任何代币对的波动率进行杠杆押注 2. 对冲无常损失 3. 保护自己免受新项目的影响。通过做多 gamma，有机会将“无常损失”变为“无常收益”。
+值得注意的是，据官方宣称，GammaSwap由于其收益率曲线的形状，不需要依赖预言机进行价格验证来防止闪电贷攻击，因此可以应用于任何 AMM 中的任何流动资金。即使是全新的未经测试的项目也可以提供长期的波动性敞口，以增加其代币流动性提供者的收益并降低参与此类项目的风险。关于这一点，可能需要进行更多的测试来检验安全性。
+2）项目背景
+GammaSwap 创始人为@0xDevinG，对 defi 有非常深的理解，其余团队成员信息暂未披露；
+GammaSwap 目前完成了 170 万美元种子轮融资，参投方包括 Skycatcher Crypto、Dialectic、Space Whale Capital、Modular Capital、Portico Ventures、Ouroboros Capital、Owl Ventures、RenGen、Manifold Trading，个人投资者包括 GMX 核心成员以及 DeBank 上持仓金额第二大钱包所有者等；
+GammaSwap 目前已与 SushiSwap、Balancer、Olympus 达成合作；
+GammaSwap 目前通过了Zellic 和HalbornSecurity 的审计，更多的安全审计正在进行中；
+GammaSwap 于 2022 年 12 月底开放了测试网，目前仍在测试中，预计将在未来几周内上线 Arbitrum，社区活跃度较高；
+3）总结
+GammaSwap 通过借贷给 LP 持有者提供更多收益可能性，补偿 LP 因 gamma 风险带来的无常损失。而 gamma 多头针对不同的 LP 也有多种策略玩法。
+GammaSwap 最大的风险来自于智能合约，由于其不借助预言机验证，对合约设计和安全性有较高要求。
+GammaSwap 面向的对象为所有 AMM 中的 LP，解决了 AMM 的部分痛点，通过与 DEX 的集成在目前的存量市场中另辟蹊径。目前这块市场竞争者较少，GammaSwap 具有先发优势。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[速览PancakeSwap近期更新与V3：引入做市商、降低交易费用、激励交易量]]></title>
         <id>https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"/>
@@ -3456,45 +3502,6 @@ Gitcoin Presents系列NFT是以专辑封面的形式呈现，是由Gitcoin和Met
 
 数据来源：Nansen
 “这为公共产品资金筹集了超过70万美元的资金，并让人们对使用记录格式的伟大创意作品有了新发现，这对创作者来说是一种令人兴奋的发布和资助作品的新方式。”Metalabel在接受Decrypt采访时如此表示。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[浅析Pendle Finance：3个月3倍，如何讲述LSD叙事？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/6l7rwwcm.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/6l7rwwcm.html"/>
-        <updated>2023-03-09T10:42:32.000Z</updated>
-        <summary type="html"><![CDATA[作者：Trissy，DeFi 研究员
-编译：Leo，BlockBeats
-Pendle 是以太坊上一种无许可的 DeFi 交易收益协议，用户可以通过它执行各种收益管理策略，目前 Pendle 已成为收益市场中表现最好的协议之一，可能会将 DeFi 提升到一个新的水平。DeFi 研究员 Trissy 撰写了关于「为什么 Pendle 是我下一次牛市之前的最大投资之一」文章，BlockBeats 整理编译如下：
-Pendle 的目标是通过简单地增加用户在牛市中的收益敞口和对冲熊市中的收益下降，为其用户提供最大的收益。用户可以通过其双重收益 token 执行各种收益策略。在 Tradfi 中，机构参与者依靠各种对冲来保护他们的头寸，例如未来收益合约。
-Pendle 将收益资产 wrap 化为 SY（standardized yield token：标准化收益 token），SY 又被分为两种：PT（principal token：本金 token）和 YT（yield token：收益 token）。
-
-例如：
-1 GLP（0.92 美元）= 1 PT GLP（0.78 美元) + 1 YT GLP（0.14 美元）
-此功能也为 DeFi 解锁了几种新策略。比如，你可以以 0.78 美元（16.6% 的折扣）购买 1 个 PT GLP，并在到期日时获得 1 个 GLP。1 YT GLP 允许你获得 1 GLP 的收益（收取收益直至到期，可随时取出）。
-协议简易性是经常被忽视的东西，DeFi 是一个复杂的生态，由于其技术性质导致进入的门槛很高。我最喜欢 Pendle 的地方是我能在短短一个小时内阅读其白皮书并了解其产品。
-一种 token 不会进入我的投资组合，除非它有很强的激励措施。Pendle 从 YT（收益 token）产生的所有收益中收取 3% 的费用。目前，这笔费用会 100% 分配给 vePENDLE 持有者，团队不收取任何费用。通过持有 vePENDLE 赋能 Pendle 上的激励机制，vePENDLE 持有者投票并将奖励流向不同的池，有效地激励他们投票的池中流动性。
-
-如果你在持有 vePENDLE 时在并向池中提供流动性，你所有 LP 的 PENDLE 激励和奖励也将根据你持有 vePENDLE 的价值进一步提升，最高可达 250%。
-
-这就产生了收益的飞轮效应，你投入的 vePENDLE 越多，获得的激励就越多。随着 token 的锁定，更多的供应从市场上消失，并且 LP 提升高达 250%。
-用户可以在 Pendle 上践行几种策略：
--购买 PT（1Hour）GLP——在到期前获得固定收益，你可以看到 GLP 在 GMX 上的 APR 是 20%（基础 APY），但 Pendle 可以为用户提供固定利率的隐含 APY 是 16.9%。这可能不是一个好时机，因为你会得到比实际更低的利率。
-购买 PT GLP（1Day）并获得 27.5% 的固定利率，这是一笔不错的交易（27.5% 固定利率 vs 20.9% 基础利率）。
--购买 YT——收益 token 的做多利率。
-该情况是做多 YT GLP。我相信 GLP 的收益率 (APY) 在一段时间内将保持在 20% 左右，但隐含 APY 为 16.6%，这是 Pendle 提供的固定 APY。我认为 Pendle 的隐含收益率仍然存在差距：16.6% 与 20% 左右。因此，购买 YT GLP 并期望收益率上升可能是一个不错的选择。
-我的预测是 LSD 将开始主宰 ETH 质押生态。我的推理归结为两个选项：
--LSD 的效用系数很高，因为它们可以用作存款抵押品来赚取收益，也可以通过借入/借出协议借出来赚取附加利息；
--用户的流动性需求；上海升级后，还有 27 小时的等待时间。这造成资产流动性不足，投资者将更喜欢通过 LSD 即时解锁的扩展解决方案。
-这对 Pendle 意味着什么？在 LSD 占主导地位的情况下，大多数持有者都希望提高他们的 ETH 收益率，这是 Pendle 的机会，用户在解决了质押和流动性的同时，还可以获得两位数的 APY。
-Pendle 的公告显示，Pendle 目前集成的项目并不少，比如：GMX、LayerZero Labs、Balancer、Arua Finance、Rocket Pool。
-业务发展对于提高 Pendle 的知名度和流动性至关重要。以他们当前的估值水平，可以做到这个水平已经很好。此外，Pendle 有着非常好的路线图，他们即将在 Arbitrum 上列出的池子会吸引更多用户。
-达成一个宏伟目标之前，需要考虑当前的流通市值和稀释市值。例如，如果 Pendle 的流通市值约为 2000 万美元，则完全稀释市值会将约为 20 亿美元。
-考虑到解锁可能需要的时间，这最终可能会扩展到额外 20% 的 token 解锁到总供应，LSD 质押增压可能会催化 Pendle 到更高的位置。
-以上一次牛市前的 DeFi 协议为例，最关键的问题无非三点：
-Pendle 在这三点上都做的不错，希望你能明白为什么我对这个项目持乐观态度。最后，Pendle 拥有强大的营销手段，几位顶级的 DeFi 投资者和研究人员都非常看好。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
