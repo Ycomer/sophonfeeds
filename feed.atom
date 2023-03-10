@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T06:50:18.448Z</updated>
+    <updated>2023-03-10T06:55:18.125Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[链上身份层Polygon ID：想打造Web 2体验级的Web 3身份系统]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/96k45edl.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/96k45edl.html"/>
+        <updated>2023-03-10T06:50:58.000Z</updated>
+        <summary type="html"><![CDATA[近日，以太坊扩容方案提供商Polygon宣布推出Web 3身份系统Polygon ID，并且将会融合至Polygon zkEVM之中，构建统一的链上隐私扩容服务。
+除此之外，Polygon ID还将推出身份SDK和钱包dApp开发接口，以便更多应用接入其中，截至目前，Nothing手机、无担保借贷协议PULP和去中心化住宿预订项目Decentral Couch，以及如 Kaleido、Fractal 和 Collab.Land 都已支持 Polygon ID。
+Polygon ID将基于使用零知识证明技术的去中心化身份协议 iden3 进行封装，可以使验证者在无需获取个人数据的同时检查个人凭证是否有效，以便于将现实世界的身份迁移至Web 3的同时保护用户隐私，并且满足监管部门的KYC/AML等需求。
+通过对Polygon ID的研发，Polygon已经构建起从协议层到身份层，以及各类Layer 2和应用层的完整体系，而在面对后账户抽象时代的以太坊生态，Polygon ID又可以起到兼容链上和链下数据，沟通外部钱包和智能合约的双重作用。
+Polygon ID想做到全流程的隐私，因此必须从验证身份入手。从dApp和用户的交互流程切入，Polygon ID 使任意组织都能够签发有关用户的可验证凭据（VC，Verifiable Credentials），而任意的dApp都可以利用一套标准来验证证明的有效性。
+如果要做到用户和dApp双向的保护隐私，必须从数据来源和身份类别入手进行划分，以保证无论何种数据类型，在任何身份调用场景下，都可保证证明有效性。数据可以划分为链上和链下两种数据，身份可划分为现实世界的ID和链上原生的DID、钱包和域名等，比如政府签发的身份证和巨鲸地址的实体关联，便属于不同类型的数据和身份格式。
+
+Polygon ID的作用就是串联起不同的身份和数据，并且使用ZK技术来保证其隐私安全。每个身份都可以进行标准化，称为DID（去中心化标识符），随后通过可验证凭证 (VC) 进行表示，并且通过ZK加密后传递给不同的请求方，比如身份被调、账户登录、钱包地址确认等，并且符合W3C的DID格式，以便于后续的应用场景扩展。
+Polygon ID可以被解构为三部分，分别是Issuer（发行者）、Identity Holder（可验证凭证持有者）和Verifier（验证者），各部分作用如下：
+
+以太坊之上的身份层
+如同Polygon zkEVM是通过收购Hermez而来一样，Polygon ID也是基于 iden3 进行的二次封装。iden3在更定义了各方相互通信和交互的方法，而 Polygon ID 是一个抽象层，使开发人员能够以简易方式构建dApp，并且开放给任何 Web3 钱包，都可以利用 Polygon ID Wallet SDK 添加与之类似的功能。
+以钱包为例，Polygon ID允许用户作为私钥的唯一保管人，可以控制自身数据的外露程度，还遵守自我主权身份（SSI）原则，凭证信息仅可存储钱包本地文件，而无需上链，与智能合约交互的是经ZK加密后的验证数据。持有者使用凭证时不需要向发行者或者验证者进行申请，而发行者在将可验证凭证 (VC) 签发出去之后，也无法追踪其流向和交互情况。
+验证者可以通过调用智能合约来进行标准设置，Polygon ID 可以对链上或链下数据进行自动化审核，例如，一个发行者生成的信息可以被多个验证者使用，无需单独请求许可。而持有者也可以在一个钱包中收集来自不同发行者的多个凭证来建立自身的凭证系统，如同集合身份证、社保卡和驾照一样，构建出自己的多维身份系统。
+Polygon ID的目标是成为以太坊之上的身份层。DID是现实世界和链上环境进行联系的交汇点，而目前存在的问题是DID的形式并未取得共识，至少存在上文提到的VC（可验证凭证）、ENS等去中心化域名、钱包地址和Vitalik提出的SBT（灵魂绑定代币）和Stealth address（隐私地址）等五种形式。
+Polygon ID 的同时发布了一系列自我主权身份（SSI） 开发包，包括验证者 SDK、发行者节点、钱包 SDK 和钱包应用程序等4种新工具，开发人员可以将去中心化身份集成到现存Web 2或者Web 3应用程序中，并以Web 3原生方式满足现存合规性要求，
+而Polygon ID所处的位置贴近底层以太坊协议，并且可以被Polygon PoS、Avail、Nightfall、各类ZK Rollups方案所调用，将会推出Wallet服务作为其统一的身份解决方案，以增强链上用户在Polygon体系的归属感；而在Polygon ID Wallet SDK的加持下，非Polygon体系的开发者也可以构建属于自身的钱包解决方案，以促进整个以太坊生态迈入身份隐私时代。
+
+Polygon ID和Polygon zkEVM的深度融合，也将会让其更为完整。目前的zkEVM数据仍然存储在链下，链上仅存储有效性证明，减轻解数据存储负担，同时zkNode来管理网络中的角色，保证各节点、排序器和聚合器各司其职，zkProver负责生成零知识证明，zkBridge负责在L1和L2间、L2和L2间传递资产。而Polygon ID的加入，则是Polygon zkEVM在从链上/链下数据的汇入，各类角色的身份辨识以及资产流向等方面进行增强。
+基于Polygon ID开发的身份系统可以在不同的EVM兼容链和L2之间相互通信，链上声誉系统、信用借贷和RWA（现实世界资产）等DeFi应用都可以对现有模式进行创新。
+并且，DID赛道可以触及主流群体的需求，Web 2侵犯用户隐私的事件屡见不鲜，Polygon ID 这种身份基础设施允许任何人成为 Web3 身份的颁发行者、验证者或持有者，改变大厂和机构等中心化实体对个人数据的占有和滥用的局面。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RAI：V神眼中的去中心化稳定币“理想型”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/b097158j0e6f.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/b097158j0e6f.html"/>
@@ -3472,56 +3502,6 @@ Cosmos 正在致力于解决处于其生态的问题，比如推出 Interchain S
 而 Cosmos 的 Appchains-as-a-Service 服务本质上是允许开发者构建一个真正意义上的 Layer1。尽管 OP Stack 将区块链的构建流程做了简化，但其构建思路依旧围绕以太坊展开，后续也将会受到以太坊进一步升级的影响。Cosmos SDK 则允许开发者重写这些默认架构，设计出具备自定义共识机制、代币标准和智能合约平台的区块链。由 Cosmos SDK 构建的 Layer1 拥有更高的自主性。
 不过，本质而言，OP Stack 的推出象征着以太坊生态和 Cosmos 生态在未来模块化公链方向的竞争。对 OP Stack Layer2 更高的期待在于以太坊后续推出 EIP-4844、Proto-Danksharding 和 Danksharding 中获得更高的可扩展性和更低的费用。
 而 OP Stack 的推出和 Cosmos 的发展也印证了“Rollup as a Service”和“Appchains-as-a-Service”的可行性。同时我们也不能忽视这个赛道其他的挑战者，比如 Avalanche，Avalanche 的子网服务同样拥有更高的可定制性。再比如 Celestia，Celestia 通过推出模块化区块链代码库 Rollkit 来实现区块链的快速部署。而 Cosmos 生态子链也可以使用 Celestia 作为共识层。这意味着，除了 OP Stack，Celestia 也将会成为 Cosmos 的竞争对手之一。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数说比特币NFT：累计总数突破32万个，交易市场独立地址总数突破1万个]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/s5l3l96f.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/s5l3l96f.html"/>
-        <updated>2023-03-09T10:10:41.000Z</updated>
-        <summary type="html"><![CDATA[NFT“梦工厂”Yuga Labs于3月7日宣布，基于比特币Ordinals协议的NFT系列TwelveFold结束拍卖，总成交额高达735.71BTC，共有288名投标人中标，中标出价均在2 BTC以上，最高出价为7.1159 BTC。
-比特币链上NFT虽然刚刚兴起一个多月，但被视为一个巨大的市场。研究机构GalaxyDigital认为，以基准模型预测，比特币NFT的市场规模（所有项目地板价*发行数量的和）将在2年内（至2025年）达到45亿美元，交易量达到16亿美元。并且，比特币NFT的发展还有可能推动比特币生态的发展，提高网络的使用率，并有利于提高矿工的收益。
-如果以Ordinals协议0.4.0版本（该版本正式将NFT引入比特币网络）的发布日期2023年1月21日为起始观察时间点的话，至今已有约1个半月时间，在这段早期发展阶段内，比特币OrdinalsNFT的现状是怎样的？
-PAData综合了比特币的链上数据（1月21日至3月7日）和OrdinalsNFT的交易数据对当前的NFT类型、交易规模、用户规模、矿业变化和网络基本面进行分析，结果显示：
-1）比特币上已累计生成了32.88万个OrdinalsNFT，日均新增7148个。其中图片20.88万个，文本11.74万个。近期文本NFT增长最明显。
-2）ordinals.market、ORDSWAP、OrdinalsWallet和OpenOrdex四大市场在2月15日至3月7日期间的累计交易总额约为699万美元，当前总独立地址数突破1万个。
-3）OrdinalsNFT是提高矿工手续费收入的主要原因，未来可能成为主要收入来源。NFT产生的手续费从单日0.00066 BTC增长至0.28428BTC，涨幅约为43257.73%，相当于翻了433倍。在2月中旬，比特币NFT手续费占比一度突破了21%，连续多日高于15%。
-4）统计期内，平均每1万个比特币NFT手续费占矿工总手续费收入的12.47%。比特币NFT数量的增长将会较明显的影响矿工收入。
-5）统计期内，比特币平均区块重量占总容量的平均比重约为87.78%。当前比特币OrdinalsNFT活动没有对其他交易活动形成挤压，只是消耗了本来就空余的空间。这也是目前平均每字节交易费用没有增长的原因。
-在1月21日至3月7日内，比特币上已累计生成了32.88万个OrdinalsNFT，日均新增7148个。从每日生成的数量来看，比特币OrdinalsNFT经历了两个高峰。第一个高峰在2月中旬，其中2月9日、14日和15日的日生成数量都超过了1.5万个，这个高峰或主要受到Bitcoin Punks发行的影响。第二个高峰在3月初，其中2月28日至3月5日每天的日生成数量都超过了1.5万个，最高的3月1日生成了2.48万个，这个高峰或主要受到Yuga Labs发行比特币NFT的消息影响。
-
-总体来看，比特币OrdinalsNFT的发展受到以太坊知名NFT项目或项目方“迁徙”的影响较大，日生成量的波动比较大，符合市场早期的基本特征。
-目前，比特币OrdinalsNFT的类型主要包括图片（image）、文本（text）、视频（video）和音频（audio）这四类。从总量来看，累计总数最多的类型是图片NFT，一共有20.88万个，其次是文本NFT，一共有11.74万个。视频和音频NFT则较少，分别都不足500个。从日均生成量来看，最多的图片NFT在观察期内日均生成了4540个，文本NFT日均生成了2551个，视频和音频NFT日均生成不足15个。
-
-这种类型分布与比特币OrdinalsNFT的生成方式有关，比特币NFT（即铭文数据）是完全在链上的，它是见证数据的一部分，与单个satoshi相互“绑定”，所以NFT的大小受制于比特币区块空间大小，更小的图片和文本NFT具有一定的优势。
-这一点也可以从各类型比特币OrdinalsNFT的生成趋势中观察到。将各类型NFT的日生成数量转化为自然对数，以便在一个更紧凑的尺度上统一观察，从趋势来看，图片和文本NFT均呈显著的增长趋势，尤其是文本NFT，增长趋势线更为“陡峭”，近期增长最明显。而视频NFT增呈下降趋势，音频NFT基本保持稳定。
-从现阶段来看，NFT的主要价值仍然体现在二级市场中。目前，比特币OrdinalsNFT的交易市场主要有4个，分别是ordinals.market、ORDSWAP、OrdinalsWallet和OpenOrdex。在2月15日至3月7日期间，4大市场的累计交易总额约为699万美元，其中，交易额最高的是ordinals.market，约为428万美元，其次是ORDSWAP，约为166万美元，OrdinalsWallet也有将近100万美元。总的来说，这些交易市场的总交易规模都还在百万美元级别。
-
-从4大市场每日交易总额来看，日均总额约为33.3万美元。交易额的增长始于2月28日以后，其中，28日当天的交易额达到了174万美元，此后每日基本保持在50万美元左右，显著高于此前每日10万美元左右的水平。日交易总额的增长趋势是十分明显的。
-从用户规模来看，同期4大市场的累计独立地址数约为5.85万个，其中，OrdinalsWallet的累计独立地址数最多，达到了3.08万个，其次是ORDSWAP和ordinals.market，分别约为1.56万个和1.20万个。
-
-从4大市场累计独立地址数的变化来看，每日独立地址总数增长明显，但近期增速有所放缓。3月7日的独立地址总数已突破1万个，较本月初的3209个增长了211.75%，较2月15日的7个则可以说是实现了从0到1的突破。
-比特币OrdinalsNFT的快速发展，为底层网络带来了一些明显的变化。首先，最直观的变化是，Taptoor的采用率明显上升。
-根据glassnode的分类，比特币使用余额的类型，即可理解为交易类型，一共可以分为8种，包括P2PK、P2PKH、Bare Multisig、P2SH、P2WPKH、P2WSH、P2TR和Non-standard。其中，P2TR指Pay to Taproot，即使用Taproot交易，这种交易类型的占比在1月21日以后呈现显著上升趋势，从1.79%上涨至了6.22%，最高一度接近10%，近期则基本保持在5%以上。
-
-另外两个连锁的直观变化则是交易次数的上涨和每日平均算力的上涨。NFT的生产和转移都体现为链上交易，交易需求的增加自然会影响算力变化。
-根据统计，交易次数的增长比较温和，统计期内从单日28.77万次上涨至单日31.59万次，涨幅约为9.79%。期间最高单日交易次数约为38.18万次，最低约为24.02万次，总体波动并不剧烈。而单日平均算力的涨幅也同样很温和，统计期内从单日259.0 EH/s上涨至单日279.3 EH/s，涨幅约为7.81%，处于历史极高水平。期间最高单日平均算力约为361.6 EH/s，最低约为222.6 EH/s，近期波动较为明显。
-比特币OrdinalsNFT的发展为比特币的应用打开了新的空间，网络使用率的上升带动了矿工收入的增长。矿工单日总手续费收入在统计期内从16.33 BTC增长至24.03 BTC，涨幅高达47.15%，增长十分显著。其中，NFT产生的手续费从单日0.00066 BTC增长至0.28428BTC，涨幅约为43257.73%，相当于翻了433倍。
-
-近期比特币单日总手续费的增长动力主要来自于OrdinalsNFT，两者的相关性在统计意义上显著，即OrdinalsNFT产生的手续费越多，当日的总交易手续费也越多，矿工得益于OrdinalsNFT活动。
-从OrdinalsNFT手续费占当日总手续费的比重来看，统计期内的平均值约为6.61%，即矿工收入的近7%来自NFT活动。不过这只是日均值，受到早期NFT活动较少的影响较大，如果把观察的时间范围缩小至2月份，那么矿工收入的近9%都来自NFT活动。
-值得注意的是，在2月中旬，比特币NFT手续费占比一度突破了21%，连续多日高于15%，NFT在未来有可能成为矿工的重要收入来源。另外，结合比特币NFT的日生成数量来看，在1月21日至3月7日的统计期内，平均每1万个NFT产生了2.36 BTC的手续费，同期日均总手续费约为18.95 BTC，即平均每1万个NFT占矿工手续费收入的12.47%。这表明，比特币NFT数量的增长将会较明显的影响矿工收入。
-不过，就目前的情况而言，这种影响尚未体现。相反，近期比特币网络平均每字节（最小区块空间单位）的交易费用还呈下降趋势，从1月21日的0.0023 BTC下降至3月5日的0.0013 BTC，降幅约为41.52%。并且近期平均每字节交易费用的波动也比较大，最高能达到0.0031 BTC，最低则只有0.00099 BTC。
-
-这与比特币OrdinalsNFT使用的区块空间大小有关。尽管近期受到NFT活动的影响，比特币的平均区块容量呈明显的上升趋势，从1月21日的2.94 MB上涨至3月5日的3.74 MB，涨幅约为26.94%。自2月份以来，平均区块重量基本保持在3.8 MB左右。
-但是，这距离SegWit和Taroot允许的最大重量4 MB仍然有一定空间，根据统计，1月21日至3月5日期间，比特币平均区块重量占总容量的平均比重约为87.78%，不到9成，最高不超过95.5%。这意味着，当前比特币OrdinalsNFT活动仍然在网络可承受范围内，没有对其他交易活动形成挤压，只是消耗了本来就空余的空间。
-
-但这只是比特币NFT的早期阶段，随着NFT的繁荣与发展，未来可能会对比特币链上基本面，尤其是矿业基本面产生更复杂的影响。尤其是NFT集中铸造可能加剧比特币交易手续费的短期波动，而在日常情况下，NFT活动可能会长期提高区块空间的利用率。这可能会催生比特币二层网络的发展，以及用户友好的钱包等其他设施的发展。
-数据说明：
-[1] GalaxyDigital的市场预测报告：
-https://www.galaxy.com/research/whitepapers/bitcoin-ordinals-inscriptions-5-billion-nft-market/]]></summary>
         <author>
             <name>PANews News</name>
         </author>
