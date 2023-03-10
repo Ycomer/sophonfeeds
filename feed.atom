@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T07:07:53.721Z</updated>
+    <updated>2023-03-10T07:15:58.430Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[Optimism主网Bedrock升级提案V2版本已发布，涵盖严格的升级标准流程]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html"/>
+        <updated>2023-03-10T07:11:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月10日消息，治理页面显示，关于以太坊二层解决方案Optimism主网Bedrock升级提案的新版本（即V2版本）已发布，该版本制定了一套严格的升级上线标准，而不是在提案本身中指定确切的日期。
+该标准流程为：1.先在Optimism Goerli上进行Regolith硬分叉（预计北京时间3月18日03:00激活），其中包含Sherlock最近发现的改进；2.后续审计，以测试上次审计后所做的修复；3.进行从无效输出root迁移和恢复的内部升级演练，在共识和功能冻结的版本上进行2周的测试网稳定性，然后发布公告并提前3周通知社区Bedrock升级时间。只有在达到测试网稳定性的标准后，Optimism基金会才会宣布升级日期，至少在发布日期后3周。升级将在特定时间触发，而不是区块高度。
+新版本与初始版本不同的地方在于，新版本包括：1.在审计竞赛Sherlock中发现的改进（包括3个高位漏洞和11个中等危险漏洞），2.明确指出停机时间即在升级期间交易将暂停（该版本的提案没有预先承诺一个日期，而是包含了严格指定的升级启动标准，其中包括即使在投票结束后也会阻止或延迟升级的情况）。3.这个标准的简易概况是:对一个特性和共识冻结的Goerli进行2周的测试网稳定性，然后至少向社区发出3周的通知。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[链上身份层Polygon ID：想打造Web 2体验级的Web 3身份系统]]></title>
         <id>https://www.panewslab.com/zh/articledetails/96k45edl.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/96k45edl.html"/>
@@ -540,6 +552,18 @@ https://community.reflexer.finance/t/can-oracles-double-as-co-stakers-how-rai-li
 https://community.reflexer.finance/t/rai-controller-ungovernance/208]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何通过工具来追踪加密 VC 的市场动向？]]></title>
+        <id>https://techflowpost.mirror.xyz/zfUEO3gnqxeYRAE_xIcKWZudnBxexXGHubObUKjbvQI</id>
+        <link href="https://techflowpost.mirror.xyz/zfUEO3gnqxeYRAE_xIcKWZudnBxexXGHubObUKjbvQI"/>
+        <updated>2023-03-10T06:30:38.000Z</updated>
+        <summary type="html"><![CDATA[如何通过工具来追踪加密 VC 的市场动向？ – 深潮TechFlow
+撰写：Rekt Fencer
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -3472,37 +3496,6 @@ Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他
 <p><a href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts">内容来源</a></p><hr><h3>观点：</h3><p><strong>Richard Freemanson（Birel 首席执行官）：</strong>我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】</p><a href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RaaS赛道兴起：OP Stack正面“硬刚”Cosmos，会成为下一个颠覆者吗？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/fwf1lv8c.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/fwf1lv8c.html"/>
-        <updated>2023-03-09T10:16:54.000Z</updated>
-        <summary type="html"><![CDATA[原文：《当RaaS服务兴起：OP Stack能否威胁到Cosmos护城河？》
-当 OP Stack 这个方案被提出时，市场对于这项技术反响平平。归根结底，一来是当时正处于 FTX 崩溃的余波中，市场信心不足；二则是在 Rollup 竞争中，Arbitrum 始终占据着上风，OP Stack 的推出更像是 Optimism 的自救方案，或者用更直接的话语来讲，OP Stack 更像是 Optimism PUA 市场的手段。
-这一观感一直维持到 2 月 23 日 Coinbase 宣布即将推出建立在 OP Stack 上的 Layer2 网络 Base 之时。
-空中楼阁好像有了地基，也有了更多的可能。
-OP Stack 是对模块化区块链的一次探索。
-简单来讲，我们可以粗浅地将区块链分为共识层、结算层和执行层。而共识层又分为数据可用性（DA）层和推导（Derivation）层。开发者在构建区块链时，需要经历代码从 0 到 1 的构建过程。而 OP Stack 的功能便是将这些功能层解构和重新组合，并用 API 软件堆栈的形式为其他开发者提供服务。也就是说，开发者在享受 OP Stack 现成的代码库的同时，还能拥有区块链在各层中的侧重灵活性，比如将本来负责 DA 层的以太坊替换为 Celestia。
-出于更高的灵活性，基于 OP Stack 构建的各类 Layer2 也将拥有其独特的个性。比如，Coinbase 的 Layer2 Base 可能会采取交易监控和反洗钱措施——这一措施将通过更加中心化的排序器实现。或许，未来链上行为还将受到美国政府的监管。
-而在 Optimism Bedrock 升级后，还将引入一个「Superchain」的概念。Superchain 的引入旨在解决链间互操作的问题，就像 Cosmos 那样。Superchain 很有可能会充当一个 Hub 的角色，Layer2 与 Layer2 的链间消息传递将通过这个中枢完成传递，不过它的安全性是通过以太坊实现的。也就是，一座桥上的无限链。
-另外，值得一提的事，OP Stack 的 Superchain 将采用一个去中心化排序器来解决链间 MEV 的事项。
-从整体架构思路来看，OP Stack 与 Cosmos SDK 类似，都是通过一个中枢的形式，进行多链扩展。但是 OP Stack 的优势在于更高的可定制化和无需吸引验证者质押来维护区块链的共识，这也是 Base 无需新发代币的原因。而 Cosmos 子链需要引入新的验证者来维护区块链的共识——尽管 Cosmos 正在试图引入 Interchain Security 链间安全来解决这个问题。
-从理论来看，Cosmos 的市场份额将受到 OP Stack 的挑战，事实会是如此吗？
-Cosmos 拥有先发优势，此前已经积累了一定数量的开发者。且一些类似 dYdX 这样的超级应用已经开始着手迁移至 Cosmos 生态。据 tokenterminal 数据统计，Cosmos 的每日活跃开发者在过去的一年中仍然保持着稳定的数量。
-
- 
-而 OP Stack 生态刚刚开始拓展，Base 是 OP Stack 的第一条链。
-不过，虽然 OP Stack 才刚刚开始发展，但其背后的 EVM 开发者生态是不容忽视的。OP Stack 的优势在于 EVM 的市场份额占比和市场接受度，而庞大的市场份额和市场接受度意味着 EVM 拥有着丰富的开发者生态。基于 OP Stack 构建的 Layer2 和其他 Layer2 一样，诞生于以太坊，依赖于以太坊，EVM 开发者们也就更愿意采用更便捷和更灵活的 OP Stack 框架。
-就像深潮 TechFlow 在 2021 年 7 月的那篇文章中所提到的，「以太坊拥有其他公链无法大肆宣扬的东西——对去中心化意识形态的坚定承诺。真正的信仰者不会为了追求快速、低成本，而在去中心化方面进行退让和容忍，这种对意识形态的毫不妥协的信念正在推动大量的创新。」相较于其他 Layer1，能够建设 Layer2，尤其以一种更加便捷的方式建设 Layer2，是对于拥有去中心化信仰的开发者的更好选择。
-Cosmos 正在致力于解决处于其生态的问题，比如推出 Interchain Security（链间安全）、Interchain Scheduler（链间调度器）、Interchain Allocator（链间分配器）等功能。这也促使 Cosmos 社区对 OP Stack 解决方案产生了不满——OP Stack 似乎更像一个摘桃的人，它吸取了 Cosmos 在发展过程中所遇到的问题，并推出了一个更加完善的解决方案。
-本质上，OP Stack 还是 Rollup 的扩展。这意味着，基于 OP Stack 建立的区块链依然是 Layer2——Layer2 在链下执行计算和存储，将大量交易压缩为单一交易，然后记录在底层公链即以太坊上。最终安全性由以太坊负责。这样构建的 Layer2 将失去一些自主性，并削弱其代币发行的需求，就像 Base 不会发行代币那样。$OP 也无法从 OP Stack 的增长中获得价值增长，$ETH 将会成为受益者。
-而 Cosmos 的 Appchains-as-a-Service 服务本质上是允许开发者构建一个真正意义上的 Layer1。尽管 OP Stack 将区块链的构建流程做了简化，但其构建思路依旧围绕以太坊展开，后续也将会受到以太坊进一步升级的影响。Cosmos SDK 则允许开发者重写这些默认架构，设计出具备自定义共识机制、代币标准和智能合约平台的区块链。由 Cosmos SDK 构建的 Layer1 拥有更高的自主性。
-不过，本质而言，OP Stack 的推出象征着以太坊生态和 Cosmos 生态在未来模块化公链方向的竞争。对 OP Stack Layer2 更高的期待在于以太坊后续推出 EIP-4844、Proto-Danksharding 和 Danksharding 中获得更高的可扩展性和更低的费用。
-而 OP Stack 的推出和 Cosmos 的发展也印证了“Rollup as a Service”和“Appchains-as-a-Service”的可行性。同时我们也不能忽视这个赛道其他的挑战者，比如 Avalanche，Avalanche 的子网服务同样拥有更高的可定制性。再比如 Celestia，Celestia 通过推出模块化区块链代码库 Rollkit 来实现区块链的快速部署。而 Cosmos 生态子链也可以使用 Celestia 作为共识层。这意味着，除了 OP Stack，Celestia 也将会成为 Cosmos 的竞争对手之一。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
