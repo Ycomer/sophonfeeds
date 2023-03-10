@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T05:38:43.621Z</updated>
+    <updated>2023-03-10T05:44:01.842Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -16,6 +16,43 @@
 此前昨日消息，Hedera官方披露其智能合约出现异常状况并正进行调查，今日早些时候消息，Hedera称已关闭主网网络代理。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hedera：黑客攻击了主网智能合约服务代码，正在研究解决方案]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/xko1yutl.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/xko1yutl.html"/>
+        <updated>2023-03-10T05:38:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月10日消息，Hedera披露攻击细节，攻击者对Hedera主网的智能合约服务代码进行攻击，将部分用户账户持有的Hedera Token Service代币转移到自己的账户中。攻击者的目标是在多个DEX上用作流动性池的账户，这些DEX使用Uniswap V2派生的合约代迁移过来使用Hedera Token Service，包括Pangolin Hedera、SaucerSwap和HeliSwap。当攻击者将通过攻击获得的代币移动到Hashport Network Bridge时，Bridge运营者检测到该活动并迅速采取行动将其禁用。
+为了防止攻击者窃取更多代币，Hedera已关闭主网代理，这会移除用户对主网的访问权限。Hedera团队已确定问题的根本原因并正在研究解决方案。 一旦解决方案准备就绪，Hedera委员会成员将签署交易以批准在主网上部署更新代码以消除此漏洞，届时将重新开放主网代理并允许恢复正常活动。
+此前昨日消息，Hedera官方披露其智能合约出现异常状况并正进行调查，今日早些时候消息，Hedera称已关闭主网网络代理。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解密 Silvergate 与硅谷银行危机：一场美元加息周期下的豪赌]]></title>
+        <id>https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA</id>
+        <link href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA"/>
+        <updated>2023-03-10T05:14:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA</a></p>
+<p><strong>文章作者：</strong></p><p>0xmin</p><hr><h3>观点：</h3><p><strong>0xmin：</strong>银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。</p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">内容来源</a><p><strong>0xmin：</strong>2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。</p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">内容来源</a><p><strong>0xmin：</strong>SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。</p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......]]></title>
+        <id>https://twitter.com/CryptoGirlNova/status/1633897861002960898</id>
+        <link href="https://twitter.com/CryptoGirlNova/status/1633897861002960898"/>
+        <updated>2023-03-10T05:09:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">https://twitter.com/CryptoGirlNova/status/1633897861002960898</a></p>
+<p><strong>文章作者：</strong></p><p>Crypto Nova</p><hr><h3>观点：</h3><p><strong>Crypto Nova：</strong>1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】</p><a href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">内容来源</a><p><strong>Crypto Nova：</strong>3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）
+WINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】</p><a href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -10382,18 +10419,6 @@ DAO 的形成
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？]]></title>
-        <id>https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</id>
-        <link href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse"/>
-        <updated>2023-03-06T03:55:04.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>
-<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href="https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[PA图说 | 一图掌握Polygon上NFT一周关键数据（02.27—03.05）]]></title>
         <id>https://www.panewslab.com/zh/articledetails/r334mj81.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/r334mj81.html"/>
@@ -10532,18 +10557,6 @@ Digiconomist 的德弗里斯说：「那些永远不会改变比特币的人正�
 相关阅读：Bedrock架构会让Optimism成为最好的Rollup吗？]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】盘点与比较 Cosmos 生态流动性质押提供商：Stride、Lido、pStake 和 Quicksilver]]></title>
-        <id>https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</id>
-        <link href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking"/>
-        <updated>2023-03-06T03:31:02.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 生态流动性质押商 Stride 撰文将其与 Lido、pStake 和 Quicksilver 三个竞品进行对比，分析了四个项目的流动性技术、经济安全、审计、主链验证者选择方法等特征，认为每个项目都有不同的专业化竞争优势。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking</a></p>
-<p><strong>文章作者：</strong></p><p>Stride</p><hr><h3>观点：</h3><p><strong>Stride：</strong>1）流动性质押技术：四个协议都使用称为链间账户（ICA）的新 Cosmos 技术。2）经济安全：Stride 和 Lido 计划使用 Cosmos Hub 的链间安全（ICS） V1，也称复制安全。Quicksilver 和 pStake 尚未承诺使用链间安全性。意味着 Quicksilver 和 Persistence 区块链的经济安全将与所有质押的 QCK 和 XPRT（其治理代币）的价值相关联。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>3）审计：Stride 协议代码库已由三个独立的公司审计，还保留了 Informal Systems 以持续进行审计所有代码更改和升级。Neutron（Lido 将在其上运行的链）已经完成了对其测试网的一项审计，并计划再进行一次审计。Lido 可能会专注于他们在 Cosmos 上的代码库的安全性。pStake 完成了对 stkATOM 流动性质押协议的审计。Quicksilver 进行了两次审计，都考虑了代码库。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>4）速率限制：是监控区块链安全的关键措施。Stride 协议以两种方式使用速率限制。Lido、pStake 和 Quicksilver 都没有宣布引入速率限制的计划。 5）链极简主义：指在区块链上使用尽可能少的代码，以最大限度地降低事故风险并减少攻击面的设计理念。Stride 区块链也是一条极简链。Lido 、pStake 和 Quicksilver 协议都不会托管在极简主义区块链上。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a><p><strong>Stride：</strong>6）主链验证者选择：Stride 通过公开透明的方式，利益相关者行使最终批准权或拒绝集合。Lido 在以太坊上选择一组封闭的创始节点运营商来筛选，有权单方面拒绝申请验证者。pStake 通过满足设定的标准筛选并平均分配。Quicksilver 允许用户通过意图信号选择。7）流动性质押衍生品投票：Quicksilver 与 Stride 的投票权正在开发中，目前尚不清楚 Lido 或 pStake 是否会开发此类功能。【原文为英文】</p><a href="https://stride.zone/blog/overview-and-comparison-of-cosmos-liquid-staking">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
