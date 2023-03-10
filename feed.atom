@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T10:43:50.524Z</updated>
+    <updated>2023-03-10T10:49:08.151Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -188,6 +188,18 @@ DeSci 是（超级）金融化和制药业之间的楔子。资本具有周期�
 这些力量将催生一个新的自由市场，并打破当今政府对科学创新方向的垄断。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在比特币网络上发 Token？一文了解如何铸造 BRC-20]]></title>
+        <id>https://www.theblockbeats.info/news/35451</id>
+        <link href="https://www.theblockbeats.info/news/35451"/>
+        <updated>2023-03-10T10:28:46.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>推特用户 @domodata 昨日启动了一场基于 Ordinals 协议的创新实验「BRC-20」，旨在通过 Ordinals 协议在比特币网络上实现像在以太坊网络上发行 ERC-20 Token 的效果。BlockBeats 作者 Cookie 简述了 BRC-20 Token 的实现方式及对其看法。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35451">https://www.theblockbeats.info/news/35451</a></p>
+<p><strong>文章作者：</strong></p><p>0xCookie</p><hr><h3>观点：</h3><p><strong>0xCookie：</strong>使用 Ordinals 协议部署 BRC-20 Token 刻录文本包括：「p」：协议类型；「op」：事件类型；「tick」：BRC-20 Token 标识；「max」：最大供应量；「lim」：单个铭文可容纳的最大 BRC-20 Token 数量；「dec」：十进制精度。目前已有 $ordi、$meme 与 $punk 三个 BRC-20 Token 被成功部署。</p><a href="https://www.theblockbeats.info/news/35451">内容来源</a><p><strong>0xCookie：</strong>铸造刻录文本包括：「p」、「op」、「tick」、「amt」：所铸造的 BRC-20 Token 数量，该关键词定义所铸造的单个铭文将等于多少个 BRC-20 Token。转账刻录文本包括：「p」、「op」、「tick」、「amt」：所转账的 BRC-20 Token 数量；「to」：转账目标；「fee」：转账费用。无论是部署、铸造还是转账都遵循先到先得的规则。</p><a href="https://www.theblockbeats.info/news/35451">内容来源</a><p><strong>0xCookie：</strong>BRC-20 和在一张纸钞上写上我自己的名字然后把这张纸钞命名为「我的币」有什么区别？这恰恰是 Ordinals 协议的魅力。有人认为比特币可以是「艺术载体」，有人认为比特币可以是「铸币厂」… 每个人不同的理解会让每个 Satoshi 被刻录上不同的内容，这些内容就是比特币价值多样性的种子。@domodata 称自己为一个「实验者」，也劝大家不要在 Mint 上浪费大量的资金。</p><a href="https://www.theblockbeats.info/news/35451">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
