@@ -97,7 +97,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 1043,
+          "wordCount": 1040,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -267,7 +267,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4267,
+          "wordCount": 4473,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -497,7 +497,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">https://twitter.com/hhh69251498/status/1633027375398273024</a></p>\n<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>0xhhh：</strong>用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a><p><strong>0xhhh：</strong>黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a><p><strong>0xhhh：</strong>总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a>",
           "link": "https://twitter.com/hhh69251498/status/1633027375398273024",
           "publishedOn": "2023-03-08T03:41:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "<h3>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</h3>\n<p>DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。</p>\n<p><a href=\"https://twitter.com/0xstrobe/status/1633228325576474626\">内容来源</a></p><hr>",
           "link": "https://twitter.com/0xstrobe/status/1633228325576474626",
           "publishedOn": "2023-03-08T03:38:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为",
           "imageUrl": null
         },
@@ -617,7 +617,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1014,
+          "wordCount": 1008,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -627,7 +627,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PKUBA 联合深潮邀请包括 LD Capital 合伙人 Joy Lou 在内的多名资深加密分析师，全面公开资金的研究框架和逻辑，分享其今年看好哪些赛道，PKUBA 研究员兼深潮分析师 Claudia 对该 Space 进行了重点提炼和总结。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">https://twitter.com/0x_claudia/status/1632745025036775425</a></p>\n<p><strong>文章作者：</strong></p><p>Claudia（深潮 TechFlow）</p><hr><h3>观点：</h3><p><strong>Joy Lou（了得资本合伙人）：</strong>赛道核心是以太坊升级。LSD 短期资金出去一点，长期无法逃过。接下来，Layer2、Dank sharding 4844 、Op stack、 zk、 Coinbase 的 L2，轮动过程中再加上 DeFi（稳定币、借贷、LSD …… 相互抢地盘）、存储等辅助赛道。DeFi 里的 NFTFi、衍生品也要覆盖，交易量很大。除了以太坊，还有可能的生态是 Cosmos，但是要看看它的持续性。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>CapitalismLab：</strong>把精力集中在比较主线的叙事，核心就是 LSD、L2 和 衍生品 这三个方面，只能覆盖长期确定性强的赛道。 比较喜欢 Arbitrum ，因为不需要发币就能实现有机增长，有差异化体验、有人用的产品。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>DeFi Cheetah：</strong>可以布局的赛道是链上衍生品。Restaking 很重要，模块化区块链也重要。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>Kiwibig.eth：</strong>V 神发文章是引导资本关注特定赛道。今年节奏的核心是跟着 V 神走。以太坊宇宙，在以太坊上解决 IBC 问题。看好 Cosmos，头部应用和钱都在进入生态。偏好硬件类项目，以太坊占据共识层，硬件缺得很多。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a>",
           "link": "https://twitter.com/0x_claudia/status/1632745025036775425",
           "publishedOn": "2023-03-07T07:54:19.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "PKUBA Space 总结：资深分析师们今年看好哪些赛道？以太坊仍是核心",
           "imageUrl": null
         },
@@ -637,7 +637,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1283,
+          "wordCount": 1280,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -747,7 +747,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 729,
+          "wordCount": 742,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -827,7 +827,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 是建立在以太坊上的，能够将收益代币化的 DeFi 协议，允许用户对某些资产的未来收益进行代币化并出售。Web3 研究员 Tissy 从协议的基本原理、叙事、估值和集成能力等方面叙述他为什么对 Pendle 如此看好。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">https://twitter.com/Cryptotrissy/status/1632353433683632128</a></p>\n<p><strong>文章作者：</strong></p><p>Trissy</p><hr><h3>观点：</h3><p><strong>Trissy：</strong>Pendle 的目标是通过增加用户在牛市中的收益敞口，并在熊市中对冲收益下滑，为用户提供最大的收益率。用户可以通过其双收益代币执行各种收益策略。在 Tradfi 中，机构参与者依靠各种对冲来保护他们的头寸，如期货收益合约。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a><p><strong>Trissy：</strong>Pendle 从 YT 产生的收益中收取 3% 的费用，目前 100% 分配给 vePENDLE 持有者，团队不收取任何收益。vePENDLE 为 Pendle 上的激励机制提供动力，持有者通过投票支持并引导奖励流向不同的池，可以有效地激励投票支持的池中的流动性。如果在持有 vePENDLE 的同时做 LP，PENDLE 奖励和 LP 奖励也将进一步提高，带来收入飞轮。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a><p><strong>Trissy：</strong>LSD 将主导 ETH 质押生态系统，我将此归结为两个原因：1）LSD 具有很高的效用系数：可用作存款或借贷协议抵押品赚取利息，提高收益率；2）用户的流动性需求：上海升级后有 27 小时等待时间，会造成资产流动性不足，投资者将更喜欢通过 LSD 即时解锁的扩展解决方案。这对 Pendle 意味着，持有者可以借助其提高 ETH 收益率。【原文为英文】</p><a href=\"https://twitter.com/Cryptotrissy/status/1632353433683632128\">内容来源</a>",
           "link": "https://twitter.com/Cryptotrissy/status/1632353433683632128",
           "publishedOn": "2023-03-06T13:28:20.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】浅析收益代币化协议：Pendle Finance",
           "imageUrl": null
         },
@@ -957,7 +957,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ZK 基础设施项目 PolyHedra Network 于今年 2 月获得了由 Binance Labs 和 Polychain Capital 领投的 1000 万美元战略投资。ABCDE 作为 PolyHedra Network 的参投方，解析了 PolyHedra Network 的整体架构及其开发的两个 ZKP 协议：deVirgo 和 paraPlonk 的技术实现。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4</a></p>\n<p><strong>文章作者：</strong></p><p>ABCDE Capital</p><hr><h3>观点：</h3><p><strong>ABCDE Capital：</strong>deVirgo 是一种基于 Virgo 协议的高效率的分布式 ZKP 协议。在 deVirgo 中，跨分布式计算网络的通信在 Virgo 中的主要计算（GKR 部分）中被最小化，zkBridge 的证明生成速度可以进一步提升。Polyhedra Network 基于 deVirgo 协议实现了 zkBridge 和 zkDID，二者均已推出测试网。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>paraPlonk 协议是一系列基于 Segregation-friendly 和简明证明技术的新一代 ZKP 协议。通过 paraPlonk 协议，集群中的节点们可以类似通过加入矿池一样方式共同生成 ZKP 证明，此外，集群中的节点间只需要为生成证明而广播和通信非常小的数据量。paraPlonk 协议与 Plonk 兼容，有利于其他协议的迁移。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a><p><strong>ABCDE Capital：</strong>ZK full-stack：在基础架构层面，PolyHedra Network 通过先进的零知识证明协议方案实现  zkBridge，并通过 zkBridge 链接任意两条区块链。paraPlonk 为现有的 zk-Rollup 提供加速，为 Layer-1 区块链提供可扩展性；在中间件和应用层，PolyHedra Network 通过互操作技术，实现 zkDID 和 zkOracle，用以实现 Web2 和 Web3 世界的互联互通。</p><a href=\"https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4\">内容来源</a>",
           "link": "https://medium.com/@ABCDE.com/cn-abcde-%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8A%95%E8%B5%84polyhedra-network-e816552ab3d4",
           "publishedOn": "2023-03-06T04:24:56.000Z",
-          "wordCount": 869,
+          "wordCount": 872,
           "title": "PolyHedra Network 解读：如何构建「多边形」 ZK 生态",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:830/1*iENbqA6ctCMVW8Dz5Mr1sg.png"
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mocaverse 是 Animoca 第一个官方 PFP NFT 系列，即将于明日开启铸币。加密 KOL Elena 从 Animoca 品牌入手，对 Mocaverse 文化、效用、利弊等进行了多方面的分析，她认为凭借 Animoca Brands 的重要财政支持、精英 Mocas 的强大网络、对教育和社区建设的关注，以及未来 Animoca 生态系统内的伙伴关系增长的潜力，Mocaverse 将是一个值得关注的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse</a></p>\n<p><strong>文章作者：</strong></p><p>Elena</p><hr><h3>观点：</h3><p><strong>Elena：</strong>Mocaverse 包含 8888 个名为 Mocas 的角色 NFT，每个角色都属于五个部落之一：梦想家（Dreamers）、建设者（Builders）、天使（Angels）、连接者（Connector）和新资本家（Neo-Capitalists）。Mocaverse 将具有四个主要的效用，分别为：学习、构建、游戏和贡献。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a><p><strong>Elena：</strong>Mocaverse 的优点：重要的资金支持；Animoca 生态系统的独家访问；名人 Mocas 带来的网络效应；归属感和社区感；Animoca 生态合作伙伴的赋能期望。Mocaverse 的潜在缺点：项目方可能拥有很高比例的 Mocaverse NFT；进入门槛较高；Mocaverse 主打教育，将面临一些竞争；计划很多但取决于社区的执行效率。【原文为英文】</p><a href=\"https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse\">内容来源</a>",
           "link": "https://elenaeth.substack.com/p/els-exclusive-review-of-mocaverse",
           "publishedOn": "2023-03-06T03:55:04.000Z",
-          "wordCount": 5342,
+          "wordCount": 5548,
           "title": "【英文】Animoca 首个 PFP 项目 Mocaverse 测评：为何值得关注？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e62d284-29ff-4dbe-8e13-0d8f30e88505_2048x1152.jpeg"
         },
@@ -2714,7 +2714,7 @@
           "description": "PANews 3月10日消息，孙宇晨在推特上表示：“此次火必交易所运营一切正常，钱包正常，运营正常，后台正常。只因为现货、合约HT代币有部分用户触发杠杆连环爆仓的盘面现象。目前各项工作正稳步开展，并无任何突发现象，仅仅属于市场行为与波动。”\n据CoinDesk报道，TradingView数据显示，HT在北京时间今日凌晨5时左右在火必交易所从4.81美元的24小时高点跌至0.31美元的低点，短时暴跌93%。其他交易所的价格也出现了类似的下跌。目前HT已回升至3.96美元，24小时跌幅达18%。Kaiko的一名研究人员在推特上写道，就在快速下跌前的五分钟内，HT的销售额达到200万美元。通常情况下，HT-USDT对的购买量约为60万美元。\n据Chaincatcher昨日凌晨消息，知情人士披露的火必全员信显示，加密货币交易平台Poloniex多部门将并入火必。包括资产、市场&运营、产品设计、流动性、客服、合规等相关工作的员工将融入火必团队。Poloniex Business Center下设二级部门Engineering与Infrastructure。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/f9o2kcn2.html",
           "publishedOn": "2023-03-10T00:10:21.000Z",
-          "wordCount": 1115,
+          "wordCount": 1113,
           "title": "孙宇晨回应HT短时暴跌：火必运营一切正常，盘面现象属市场行为与波动",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -6818,7 +6818,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1823,
+          "wordCount": 1826,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
