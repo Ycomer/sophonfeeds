@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-10 datetime="2023-03-10T01:10:46.000Z">2023-03-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-10 datetime="2023-03-10T01:10:46.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-10 datetime="2023-03-10T01:51:12.000Z">2023-03-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-10 datetime="2023-03-10T01:51:12.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,85 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/5p0451xj.html"
+                        open
+                      >
+                        <summary class="article-expander__title">SushiSwap：借贷产品Kashi去年12月已被弃用，请用户尽快取款</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/5p0451xj.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月10日消息，去中心化交易所SushiSwap在推特上表示：“借贷产品Kashi在去年12月已被弃用，不再被积极维护。如果用户在Kashi有借贷资金，请尽快取款。”
+此前1月2日消息，SushiSwap CTO表示，决定停止开发Kashi和MISO，Q1重点关注DEX流动性。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/sq964kr4.html"
+                        open
+                      >
+                        <summary class="article-expander__title">比特币主权Rollup引争议：技术上可行吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/sq964kr4.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/09/images/7dKXjDLg37.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>近日，知名比特币最大主义者（BTC maxis）Jameson Lopp 转发了基于比特币网络建立主权 rollup 的想法，随后该想法在比特币以及以太坊社区内引起了大量讨论。
+
+据悉，Rollkit 是一个用于 rollup 的模块化框架，现在，其宣布支持基于比特币网络建立主权 Rollup，而这样做的目的是让 rollup 继承比特币的数据可用性保证和安全保证。理论来说，基于比特币的主权 Rollup 不仅扩大了 rollup 的可能性，而且还有可能帮助在比特币网络上引导一个健康的区块空间费用市场，从而实现更可持续的安全预算。
+
+图片来源：由 Maze AI 生成。
+使用 Taproot 在比特币网络上发布数据
+2023 年 2 月 1 日，Luxor 矿池挖出了有史以来最大的比特币区块 (#774628)，其大小大约为 4 MB，而其中大部分的区块空间是被 Ordinals 协议用来记录 Taproot Wizards NFT，该项目通过在链上发布图像数据以实现比特币网络上的 NFT。通过 Taproot 升级，比特币 NFT 成为了可能，它允许任意数据的写入。
+在引入 Taproot 之前，比特币单笔交易中可以写入的数据被限制在 80 字节以内。Taproot 升级增加了交易可以写入的数据量，从 80 字节增加到一个完整区块的数据量（大约 4MB）。简而言之，将大量数据发布到比特币区块链变得更加容易了。
+从那时起，Ordinals 用于 NFT 铭文以及 Taproot 的使用就开始了。Eric Wall 发现，在他发推文时，在比特币网络上发布数据要比以太坊便宜 7 倍。现在，比特币网络上有了成千上万的铭文，那主权 Rollup 以及比特币上的 dapp 生态系统能否也成为可能呢？
+Rollkit 是一个用于 Rollup 的模块化框架，开发人员可以在其中插入自定义执行层和数据可用性层。最初，Rollkit 仅支持 Celestia 作为数据可用性和共识层选项。现在，由于 Rollkit 比特币数据可用性模块的早期研究实施，比特币也成为了一种选择。在这种情况下，主权 Rollup 管理自己的执行和结算，同时将共识和数据可用性的任务交给比特币网络。
+
+Rollkit 如何将数据发布到比特币网络
+要在比特币网络上写入和读取数据，我们要使用 Taproot 交易。为了促进这一点， Rollkit 实施了一个名为 bitcoin-da‌ 的 Go package‌，它为比特币提供了一个读写器接口。有关界面如何工作以及如何使用 Taproot 的详细信息，请参阅规范‌。这个 package 可以被任何想要在比特币上读取或写入数据的项目重复使用。
+Rollkit 以模块化为核心构建，它有一个数据可用性接口，开发人员可以简单地实现特定的方法来添加一个新的数据可用性层。要添加数据可用性层，实施者需要满足定义数据可用性客户端行为的 DataAvailabilityLayerClient 接口以及定义如何同步区块的 BlockRetriever 接口。这些接口位于 da package 中。这些接口中最重要的方法是用于读取和写入区块的 SubmitBlock 和 RetrieveBlock。
+
+比特币网络上的 EVM demo
+Rollkit 支持自定义执行层，包括 EVM、CosmWasm 或 Cosmos SDK。为了测试集成，Rollkit 在本地比特币测试网络上运行 EVM（使用了 Ethermint） 作为主权 Rollup。请参见下面的演示。
+
+争议
+就像 Ordinals 以及比特币 NFT 引起的争议一样，Rollkit 以及基于比特币网络的主权 rollup 想法同样会占用原本就不充裕的比特币区块空间，从而进一步导致比特币网络变得拥挤。
+对于很多比较传统的比特币最大主义者（BTC maxis）来说，这样的发展可能是不受欢迎的。
+此外，关于使用比特币作为（DA）层的想法，斯坦福大学教授 David Tse 也发表了他的看法：
+“即使是 4MB 区块，比特币网络的总吞吐量也低于每秒 56 kbits，直接存储数据的空间不大。”
+而 Eigenlayer 创始人 Sreeram Kannan ‌则更详细地对该主权 Rollup 的想法发表了他的看法：
+“我不打算谈这个术语，但想谈谈安全属性，以及它是否能从比特币网络借用安全性。
+该系统基本上是让主权 rollup 的客户端直接将交易写入比特币网络，然后在链下解释账本，这是比特币领域一个古老的想法。
+安全性（包括安全性和活性）始终是特定确认规则的属性，而不是链的属性。
+有四个属性共同决定了一条区块链的安全性：(a) 抗重组能力，(b) 抗审查性，(c) 数据可用性以及 (d) 有效性。
+如果我们使用比特币网络作为写入交易的层，那么我们从比特币网络继承了 (a) 、(b) 以及 (c) ，因为新链仅在比特币重组时重组，系统借用比特币网络的抗审查性并且数据可用于比特币全节点。
+如果我们为“主权 Rollup ”运行一个全节点，我们可以直接推断有效性。 所以对于一个全节点的确认规则，我们得到了比特币网络的安全性和活性。
+如果系统有链下欺诈/有效性证明，那么对于主权 rollup 的轻节点来说，我们也可以继承比特币网络的安全性和活性。
+但没有办法在比特币网络上编写主权 rollup 的全节点或轻节点，因此没有验证桥可以从主权 rollup 来回移动资产。
+那这有用吗？ 视情况而定。 如果主要目标是安全地传输和使用 BTC，那这绝对是没有用的。 但是，如果目标是构建 NFT 或其他驻留在比特币网络上并以比特币安全性进行链下解释的链，那这绝对是有用的。
+那这是高性能的吗？ 并不是。保证比特币安全的唯一方法，是将所有数据写入比特币网络——区块限制为 4MB/10 分钟，因此数据速率为 53kbps。
+有没有办法建立与其他区块链的安全跨链桥？ 是的！ 如果接收链（比如以太坊）上有一个 BTC 轻客户端跨链桥，然后接收链上有一个 ZK 证明验证器，那么可以在那里检查“比特币 rollup”的有效性规则。
+总而言之，主权 rollup 为本地发行的资产（如新的 NFT 或本地发行的稳定币）保留了比特币网络的安全性，但无法安全地与比特币网络进行跨链连接。
+”
+
+对此，你的看法是什么呢？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -464,6 +543,116 @@ Lido 的提现将采用两种模式。在正常情况下，Lido 的提现将以�
 Lido 的架构优先考虑质押者，以最大化年化收益率为原则。 Lido 不会为了促进更快的提现而将更多的 ETH 留在缓冲区，而是会确保 ETH 在缓冲区中停留的时间尽可能短。
 这种动态的 ETH 供应从 Shapella 「下沉 」到信标链上。它还迫使竞争者采取相同的措施，否则他们的 APR 将降低，并逐渐丢失市场份额。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ChainFeeds精选</button>
+                  <a class="source-heading__link" href="">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf"
+                        open
+                      >
+                        <summary class="article-expander__title">拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://home.treasury.gov/system/files/131/General-Explanations-FY2024.pdf">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>拜登公布 6.9 万亿美元的 2024 年预算提案：财务部提议对加密矿企的供电成本征收 30% 的消费税
+美国总统拜登公布了 6.9 万亿美元的 2024 年预算提案，财政部提议对加密矿企的供电成本征收 30% 的消费税，该税将在未来三年内分阶段实施，每年增加 10%，这些公司还被要求报告他们使用了多少电力以及使用了什么类型的电力。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;143
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake"
+                        open
+                      >
+                        <summary class="article-expander__title">Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元
+据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms"
+                        open
+                      >
+                        <summary class="article-expander__title">纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://ag.ny.gov/sites/default/files/default_images/oag-website_1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营
+纽约总检察长 Letitia James 对 KuCoin 提起诉讼，指控其未注册为证券和商品经纪商并谎称自己为交易所。通过该诉讼，Letitia James 寻求法院命令阻止 KuCoin 在纽约运营，并指示 KuCoin 根据 IP 地址和 GPS 定位实施地理封锁以阻止用户在纽约访问 KuCoin 移动应用程序、网站及服务。请愿书表示，ETH 就像 LUNA 和 UST 一样是一种投机性资产，因此 KuCoin 在进行销售之前需要进行注册。且 KuCoin 还以 KuCoin Earn 的形式出售未注册证券。此外，KuCoin 声称自己是一家交易所，但并没有在证券交易委员会注册为国家证券交易所，也没有按照纽约法律的要求由商品期货交易委员会适当指定，也没有遵守 OAG 发出的传票提供有关在该州的数字资产交易活动的更多信息。
+内容来源
+
+观点：
+Letitia James（纽约总检察长）：我的办公室正在对那些公然无视我们的法律并将投资者置于风险之中的加密货币公司采取行动，今天的行动是我们努力为该行业带来秩序的最新行动。所有纽约人和所有在纽约经营的公司都必须遵守我们州的法律和法规，而 KuCoin 在没有注册的情况下在纽约运营，我们不得不采取强有力的措施来追究他们的责任并保护投资者。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding"
+                        open
+                      >
+                        <summary class="article-expander__title">ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.tbstat.com/wp/uploads/2022/08/20220822_Funding_Generic2-1200x675.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投
+提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。所筹资金将用于扩大开发团队。
+据 The Block 介绍，Proven 希望能够提供一种验证储量证明的替代方式，其所谓的「偿付能力证明」生成能够让公司在不需要公开披露其资产负债表的情况下显示资产和负债。 截止目前，Proven 已经将 Coinlist 和 Bitso 等列为用户。
+内容来源
+
+观点：
+Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
+内容来源</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;222
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -3935,27 +4124,6 @@ ASCII的全称是“美国信息交换标准代码”，利用这个标准，当
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/2af5jqh3.html"
-                        open
-                      >
-                        <summary class="article-expander__title">赵长鹏：币安在Silvergate上没有资产损失</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/2af5jqh3.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月9日消息，币安创始人赵长鹏发推文称：“看到Silvergate的消息我感到难过，但至少，他们似乎会全额返还所有存款并保护用户。币安在Silvergate上没有资产损失。资金是安全的。”
-此前今日早些时候消息，Silvergate Capital将结束运营并自愿清算银行，包括全额偿还所有存款。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/articledetails/6r5v82z3.html"
                         open
                       >
@@ -4469,7 +4637,6 @@ https://nurstardeepdive.substack.com/p/interview-with-the-influence-game</span>
                         <summary class="article-expander__title">Delphi Digital：2023 年 GameFi 将迎来「大重塑」</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.chaincatcher.com/article/2088931">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Chainfeeds 导读：
 Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。
@@ -4485,8 +4652,6 @@ Insightful：过去 24 个月里，约 120 亿美元资金涌入该领域。但�
 内容来源
 Insightful：2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -12308,7 +12473,6 @@ Kiwibig.eth：V 神发文章是引导资本关注特定赛道。今年节奏的�
                         <summary class="article-expander__title">EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.chaincatcher.com/article/2088732">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Chainfeeds 导读：
 Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。
@@ -12322,8 +12486,6 @@ flowie（ChainCatcher 作者）：观点一：L2 几大根本问题 1）不适�
 内容来源
 flowie（ChainCatcher 作者）：观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -16643,28 +16805,6 @@ NFT 项目 Doodles 发布 DoodleMAP，DoodleMAP 以 OG Collection 为中心，�
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/"
-                        open
-                      >
-                        <summary class="article-expander__title">ETHDenver 联创：将在世界各地设立分支活动</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.coindesk.com/business/2023/03/05/ethdenver-teases-spin-off-plans-as-conference-winds-down/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.coindesk.com/resizer/vTP1LimaTBUFFkagGAbo60-v1Ew&#x3D;/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7EY2PXG4OZAMJJYVVGAOYEHVII.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ETHDenver 联创：将在世界各地设立分支活动
-据 CoinDesk 报道，ETHDenver 联合创始人 John Paller 在 ETHDenver 闭幕日透露，明年会议的吉祥物将是「SporkWhale」，这体现了社区所有权。Paller 表示，明年的会议在规模和范围上都将有所增长，正在与「国家」讨论在世界各地设立分支活动，而 ETHDenver 将成为「超级碗」。据 Coindesk 引援活动工作人员，ETHDenver 2022 年参会人数达到新高，售出门票超过 16000 张。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;63
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -17568,38 +17708,6 @@ https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA"
-                        open
-                      >
-                        <summary class="article-expander__title">重构 Venus 资产负债表：1.475 亿连环债务 + 5600 万美元坏账如何产生</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Venus 协议是 BNB Chain 上的「老牌」DeFi 协议，目前共锁定了 12.85 亿美元的用户资产。加密研究员 0xLoki 认为 Venus 的资产负债表并未能体现之前两起 Venus 攻击带来的 1.475 亿连环债务和 5600 万美元坏账问题，Venus 具有较高风险并建议用户提币。
-文章来源：
-https://mirror.xyz/lokiz.eth/0fW0EDAbuMNjAXmqbL1WIVy4bQnqhmlngIZfw2XXlVA
-文章作者：
-0xLoki
-
-观点：
-0xLoki：攻击 1：BNBChain 被攻击导致增发，其中 90.2 万枚 BNB 被质押在 Venus 上，并且借出了 5000 万 USDT、6250 万 BUSD 和 3500 万 USDC（合计 1.475 亿美元）。此后通过了一个提案，这 90.2 万枚 BNB 只能由 BNBChain 来清算。这笔借款应当被视为无抵押借贷，因为它的抵押物理应被销毁。
-内容来源
-0xLoki：攻击 2：2021 年 5 月，有大户（也有说法称是项目团队）注入大量 XVS 充当抵押品后拉高 XVS 价格并借出了几千个 BTC 和几万个 ETH，随后该账户被清算，系统留下近亿美元的负债。通过链上地址追踪，已知的三个地址总计产生了 1902 个 BTC 和 6448 个 ETH 的坏账，合计约 5200 万美元。没有任何公开信息显示 Venus 将如何处理这笔坏账。
-内容来源
-0xLoki：结论：Venus 存在 9000 万或 1.475 亿的连环债务以及 5600 万的坏账，理论上不具备足额准备金，建议所有人停止使用 Venus 并且全部提现。
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://twitter.com/blockomotive/status/1631996549214482432"
                         open
                       >
@@ -17618,68 +17726,6 @@ Cl3m
 Cl3m：ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】
 内容来源
 Cl3m：另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/blockomotive/status/1631996549214482432"
-                        open
-                      >
-                        <summary class="article-expander__title">【英文长推】ERC4337 的两个挑战：中心化与经济模型</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/blockomotive/status/1631996549214482432">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-以太坊账户抽象提案 ERC-4337 核心合约完成部署，以太坊账户抽象再次成为热点话题。Safe 产品经理 Cl3m 认为 ERC4337 本质上是一种早期中继技术，并分析了 ERC-4337 面临的中心化和经济模型的问题。
-文章来源：
-https://twitter.com/blockomotive/status/1631996549214482432
-文章作者：
-Cl3m
-
-观点：
-Cl3m：ERC4337 是一种应用层面的设计，允许通过智能合约从最终用户那里抽象出 gas 和交易费用管理。ERC4337 为去中心化的中继器开辟了市场，有效地运行了 bundlers。然而，在许多 bundlers 建立和运行之前（这仍然需要专门的基础设施），该系统仍然是集中的和脆弱的。目前只有少数项目提供 API 服务来运行 bundlers，增加了中心化。【原文为英文】
-内容来源
-Cl3m：另一个挑战是 ERC4337 背后的经济学问题。他们假设了一个开放的、无需许可的市场，但不确定 gas 费用的激励措施是否足够强大，以确保用户和 bundlers 系统的可持续性。【原文为英文】
-内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://twitter.com/levi0214/status/1631924502354595840"
-                        open
-                      >
-                        <summary class="article-expander__title">【长推】Gnosis 的创始人谈 L2 的局限性：畅想一个使用 ZK-bridge 连接的以太坊宇宙</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/levi0214/status/1631924502354595840">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Chainfeeds 导读：
-Gnosis 创始人 Martin Köppelmann 在 EthDenver 上分享了他认为的 L2 方案的 4 个问题，包括状态扩容、交易成本、资产退出和适用性，并畅想了一个使用 ZK-bridge 连接的以太坊宇宙。加密研究员 Luyao 对演讲的关键内容进行了整理。
-文章来源：
-https://twitter.com/levi0214/status/1631924502354595840
-文章作者：
-Luyao
-
-观点：
-Luyao：L2 最初的目的是，批量完成一堆交易，然后把结果同步回 L1。它是一种很临时的空间，而不是一个新的空间放一些永久的资产。长期来看， 即使 L2 被完美实现，依旧会有一些根本问题。问题 1：这个流程只适合状态不会膨胀的应用，比如交易所（只需要交易结果，不需要交易历史），但对于状态膨胀的应用无法扩容。
-内容来源
-Luyao：问题 2：交易成本。L2 峰值 gas 有时会到 $1 以上，即使 EIP4844 落实，gas 能降低 90% ，但依旧有两方面问题：1. 它对于需要 gas 在 1 美分以下（sbu-cent）的场景依旧不适用；2. 需求增加后，gas 依旧会升高。问题 3：L2 资产退出问题：1. 小额资产可能不够支付退出的 gas 费；2. 退出的带宽有限。问题 4：有些 app 无法被 roll up。例如 CirclesUBI、POAP，它们创造了很多状态，这些状态无法被压缩，所以 L2 对他们没用。
-内容来源
-Luyao：Köppelmann 提出了一个很有趣方案，类似于 Cosmos 的 IBC 模型。做另一个链，跟以太坊运行一样的东西，然后通过无信任的 ZK-bridge 来连接，组成一个以太坊宇宙（Ethereumverse）。 目前已有的 ZK-bridge 方案是利用 ZK 在一条链上运行另一条链的轻节点客户端，然后在其中去验证。这里无需信任，远比传统的 bridge 安全。
 内容来源</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
@@ -30226,8 +30272,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4380359093">
-        <time id="build-timestamp" datetime="2023-03-10T01:19:28.190Z">2023-03-10T01:19:28.190Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4380571693">
+        <time id="build-timestamp" datetime="2023-03-10T02:00:52.522Z">2023-03-10T02:00:52.522Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
