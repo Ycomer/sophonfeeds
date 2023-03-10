@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-10 datetime="2023-03-10T07:11:28.000Z">2023-03-10</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-10 datetime="2023-03-10T07:11:28.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-10 datetime="2023-03-10T07:19:51.000Z">2023-03-10</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-10 datetime="2023-03-10T07:19:51.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,72 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"
+                        open
+                      >
+                        <summary class="article-expander__title">速览PancakeSwap近期更新与V3：引入做市商、降低交易费用、激励交易量</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/10/images/669X1zH8m5.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>虽是BNB链上的龙头，PancakeSwap在DEX的对比中却经常被忽视，实际上它的流动性仅次于Curve和Uniswap，截至3月9日，TVL为25亿美元。在2020年推出后，PancakeSwap不断进行着更新，如接入永续合约交易，扩展到其它链上、降低稳定币交易的手续费等。在部署到Aptos上并开启流动性挖矿后，PancakeSwap也一跃成为Aptos上TVL最高的项目。
+面对Uniswap V3即将部署到BNB链上的预期，以及BiSwap、Thena等BNB链上已有DEX的竞争，PancakeSwap在近期继续进行了一系列更新，降低交易费用并希望能增加交易量。根据PANews的了解，PancakeSwap V3很可能会增加和Uniswap V3类似的流动性聚集功能。
+3月3日，PancakeSwap宣布在BNB链上集成了做市商（MM）进行报价。此前，PancakeSwap已经在以太坊上集成了做市商报价功能。这里的做市商应当特指中心化做市商，类似于Hashflow提供的服务（Hashflow为Binance Launchpad项目，且大多数流通的HFT都存放于Binance中）。中心化做市商通常会凭借自己的交易量优势和中心化交易所达成合作，吃单只需极低的费率，而排单成交还可以获得交易所的返利。
+此后，在PancakeSwap进行交易的时候，会自动对比原有的由AMM的x*y&#x3D;k公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。
+做市商拥有的流动性可以认为是和已有的AMM独立的，交易手续费也更低，在综合考虑各项成本后，选择最优路径。如下图所示，现在在PancakeSwap上交易很可能会通过做市商直接成交，等于为PancakeSwap引入了更多的流动性和更低手续费的交易路径。
+
+在AMM交易中，PancakeSwap收取0.25%的非稳定币交易手续费以及0.01%的稳定币交易手续费。如果通过做市商进行交易，PancakeSwap将收取0.0375%的手续费。AMM交易有滑点的损失，交易量越大滑点越大，做市商的交易则不用考虑滑点（但可能在制定策略时会考虑，只是用户不会直观感受到）。因此，在原来的PancakeSwap AMM上交易的摩擦包括AMM 0.25%的交易手续费+滑点。
+在引入做市商后，做市商可以根据中心化交易所的价格进行报价，由于PancakeSwap通过做市商成交的手续费只有0.0375%。做市商完全可以凭借自己的费率优势在PancakeSwap上提供报价，并在Binance等中心化交易所进行对冲。交易手续费的差值部分可以在中心化交易所对冲交易的费率、做市商利润和为交易者让利之间分配。
+对于Trader，交易手续费降低带来更低的手续费和更好的兑换比例，但是原有的流动性提供者获得的交易手续费则可能会降低。
+同样在3月3日，PancakeSwap在推特上宣布，将于4月份的第一周推出PancakeSwap V3。新的功能将为用户提供更好的体验，并帮助更多的人使用DeFi。
+根据PancakeSwap的推特，其更新包括：
+据报道，PancakeSwap将提供一些新的功能，包括改善提供流动性的方式、有竞争力的交易费用、进行交易激励、改进流动性挖矿体验等。
+虽然官方并未公布PancakeSwap V3将包括哪些更新，但从过去已经进行的一系列工作可以进行推测。
+2月15日，PancakeSwap治理论坛上出现一个“v3产品的排放重定向提案”。该提案的主要目的是为了v3某些功能的开发，将原来分配给Staking（CAKE单币质押池）的一部分CAKE分配给Trading（包括各条链上的流动性挖矿和交易激励）。
+在原有的CAKE分配方案中，增发的CAKE将会在每个区块为Trading分配2.11 CAKE，为Staking分配7.65 CAKE。除此之外，还会每个区块为CAKE彩票分配0.1389 CAKE。在这些基础上，每当有人收获CAKE奖励时，开发者地址会额外铸造9.09%的代币。
+
+这是PancakeSwap近期争议最大的一个提案，总共获得了2.74亿同意票和1.21亿反对票，以69.35%的支持率获得通过。而其它提案总的票数通常只有数千万票，如最近的两项提案&quot;Angle（agEUR）农场提案&quot;和“Stader（$SD/$BNBx）Syrup池和农场提案”分别只有约4280万和3250万投票，且支持率均超过90%。
+提案通过后，Trading的分配增加为3.11 CAKE每区块，Staking的分配减少为6.65 CAKE每区块。
+按照提案中的说法，额外分配给Trading的每个区块1 CAKE的部分将“用于尚未发布的开发，这将显著增强PancakeSwap的交易量，以及其作为最佳多链DEX的地位”。
+根据官方描述，PancakeSwap V3推出和Uniswap V3类似的流动性聚集功能是很有可能的，虽然官方并未公布详细信息，但PANews在社区中询问后，也有众多社区成员做出同样的猜测，并获得了管理员的认同。流动性聚集功能也需要额外的流动性激励、能够有更高的资金效率并有效提高交易量，符合PancakeSwap过去的工作和官方描述。
+
+PancakeSwap V3活动：空投和NFT奖励
+为了庆祝PancakeSwap V3的即将发布，PancakeSwap现推出了13.5万美元的CAKE和额外的NFT空投活动，以奖励早期支持者。
+要参加这项空投活动，用户必须在3月5日13:00（UTC）之前在PancakeSwap中持有500～20000美元的流动性，且在4月3日12:00前不移除流动性。空投奖励将在各个层级的所有合格用户之间分配。合格用户还将获得独家PancakeSwap V3传奇NFT。
+符合上述条件的用户，可以通过在PancakeSwap的上述4个流动性池中额外增加500至20000美元的流动性来参加第二部分的空投，价值3万美元。额外的流动性必须在3月18日12:00前添加，并维持到4月3日12:00之前。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Optimism主网Bedrock升级提案V2版本已发布，涵盖严格的升级标准流程</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月10日消息，治理页面显示，关于以太坊二层解决方案Optimism主网Bedrock升级提案的新版本（即V2版本）已发布，该版本制定了一套严格的升级上线标准，而不是在提案本身中指定确切的日期。
+该标准流程为：1.先在Optimism Goerli上进行Regolith硬分叉（预计北京时间3月18日03:00激活），其中包含Sherlock最近发现的改进；2.后续审计，以测试上次审计后所做的修复；3.进行从无效输出root迁移和恢复的内部升级演练，在共识和功能冻结的版本上进行2周的测试网稳定性，然后发布公告并提前3周通知社区Bedrock升级时间。只有在达到测试网稳定性的标准后，Optimism基金会才会宣布升级日期，至少在发布日期后3周。升级将在特定时间触发，而不是区块高度。
+新版本与初始版本不同的地方在于，新版本包括：1.在审计竞赛Sherlock中发现的改进（包括3个高位漏洞和11个中等危险漏洞），2.明确指出停机时间即在升级期间交易将暂停（该版本的提案没有预先承诺一个日期，而是包含了严格指定的升级启动标准，其中包括即使在投票结束后也会阻止或延迟升级的情况）。3.这个标准的简易概况是:对一个特性和共识冻结的Goerli进行2周的测试网稳定性，然后至少向社区发出3周的通知。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -3568,7 +3634,7 @@ Letitia James（纽约总检察长）：我的办公室正在对那些公然无�
 观点：
 Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;222
+                                &ensp;<span class="article-reading-time">(&hairsp;221
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -5074,27 +5140,6 @@ Pendle 的公告显示，Pendle 目前集成的项目并不少，比如：GMX、
 以上一次牛市前的 DeFi 协议为例，最关键的问题无非三点：
 Pendle 在这三点上都做的不错，希望你能明白为什么我对这个项目持乐观态度。最后，Pendle 拥有强大的营销手段，几位顶级的 DeFi 投资者和研究人员都非常看好。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/zjqrvrx0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">OpenSea、ConsenSys等加密公司的股权正在二级市场上大幅折价出售</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/zjqrvrx0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>PANews 3月9日消息，据The Block报道，二级市场交易平台 Birel 首席执行官 Richard Freemanson 证实，许多加密初创公司的股权目前在 Birel.io 上以相当大的折扣出售。这些初创公司包括 Alchemy、Blockchain.com、Chainalysis、Kraken、ConsenSys、Blockdaemon、CoinDCX 和 OpenSea。上述公司发售的大宗股权规模从 300 万美元到 5000 万美元不等，而且折扣差别很大。 最引人注目的是 Blockchain.com 和 ConsenSys，他们的股权分别以较最新一轮融资折让 74% 和 71% 的价格发售。Chainalysis 股权以 61% 的折扣出售，OpenSea 股权以 51% 的折扣出售。Alchemy、Blockdaemon 和 Kraken 的股权分别折价 31%、30% 和 9%。但也有部分公司如比特币基础设施公司 Bitfury 的股权以小幅溢价出售。
-Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6764,7 +6809,7 @@ ColinLy：总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通�
 观点：
 Richard Freemanson（Birel 首席执行官）：我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;226
+                                &ensp;<span class="article-reading-time">(&hairsp;224
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7642,7 +7687,7 @@ DinoEggs.eth：轻节点可以根据验证信息进行分类：1）共识验证�
 内容来源
 DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -7695,7 +7740,7 @@ DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可�
                               <span>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品
 美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;225
+                                &ensp;<span class="article-reading-time">(&hairsp;224
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11453,7 +11498,7 @@ Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出�
 据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
 Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;34
+                                &ensp;<span class="article-reading-time">(&hairsp;31
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11476,7 +11521,7 @@ Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始�
 据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
 Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;31
+                                &ensp;<span class="article-reading-time">(&hairsp;34
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -11498,7 +11543,7 @@ Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始�
                               <span>泰国将为发行投资代币的公司和投资人免税
 据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;222
+                                &ensp;<span class="article-reading-time">(&hairsp;221
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -15321,7 +15366,7 @@ Coinbase 最初于 2 月 23 日宣布推出 Base 测试网，旨在成为一个�
 观点：
 Marco Santori：未来几年里那些对如何为加密货币经济提供基础设施有新想法的人的路会走的非常艰难，但我并不认为美国对加密行业存在阴谋性打压。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;226
+                                &ensp;<span class="article-reading-time">(&hairsp;225
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -15431,7 +15476,7 @@ Suji Yan（ Mask Network 创始人）：迫不及待地想在更多社交应用�
 内容来源
 头等仓：Scroll 迄今的融资情况：1）此前从天使投资者处融资约 300 万美元；2）2022 年 4 月 21 日完成 3000 万美元 A 轮融资，Polychain Capital 领投，Bain Capital Crypto、Robot Ventures 和 Geometry DAO 等参投，来自以太坊基金会的 Ying Tong、Carlos Aria、Anthony Sassal、Ryan Adams 和 Santiago Santos 等以太坊社区成员也有参与；3）2023 年 3 月 6 日完成 5000 万美元融资。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;224
+                                &ensp;<span class="article-reading-time">(&hairsp;223
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -31870,8 +31915,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4382221909">
-        <time id="build-timestamp" datetime="2023-03-10T07:15:58.349Z">2023-03-10T07:15:58.349Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4382267765">
+        <time id="build-timestamp" datetime="2023-03-10T07:23:27.302Z">2023-03-10T07:23:27.302Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>

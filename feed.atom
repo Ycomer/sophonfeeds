@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-10T07:15:58.430Z</updated>
+    <updated>2023-03-10T07:23:27.365Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[速览PancakeSwap近期更新与V3：引入做市商、降低交易费用、激励交易量]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"/>
+        <updated>2023-03-10T07:19:51.000Z</updated>
+        <summary type="html"><![CDATA[虽是BNB链上的龙头，PancakeSwap在DEX的对比中却经常被忽视，实际上它的流动性仅次于Curve和Uniswap，截至3月9日，TVL为25亿美元。在2020年推出后，PancakeSwap不断进行着更新，如接入永续合约交易，扩展到其它链上、降低稳定币交易的手续费等。在部署到Aptos上并开启流动性挖矿后，PancakeSwap也一跃成为Aptos上TVL最高的项目。
+面对Uniswap V3即将部署到BNB链上的预期，以及BiSwap、Thena等BNB链上已有DEX的竞争，PancakeSwap在近期继续进行了一系列更新，降低交易费用并希望能增加交易量。根据PANews的了解，PancakeSwap V3很可能会增加和Uniswap V3类似的流动性聚集功能。
+3月3日，PancakeSwap宣布在BNB链上集成了做市商（MM）进行报价。此前，PancakeSwap已经在以太坊上集成了做市商报价功能。这里的做市商应当特指中心化做市商，类似于Hashflow提供的服务（Hashflow为Binance Launchpad项目，且大多数流通的HFT都存放于Binance中）。中心化做市商通常会凭借自己的交易量优势和中心化交易所达成合作，吃单只需极低的费率，而排单成交还可以获得交易所的返利。
+此后，在PancakeSwap进行交易的时候，会自动对比原有的由AMM的x*y=k公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。
+做市商拥有的流动性可以认为是和已有的AMM独立的，交易手续费也更低，在综合考虑各项成本后，选择最优路径。如下图所示，现在在PancakeSwap上交易很可能会通过做市商直接成交，等于为PancakeSwap引入了更多的流动性和更低手续费的交易路径。
+
+在AMM交易中，PancakeSwap收取0.25%的非稳定币交易手续费以及0.01%的稳定币交易手续费。如果通过做市商进行交易，PancakeSwap将收取0.0375%的手续费。AMM交易有滑点的损失，交易量越大滑点越大，做市商的交易则不用考虑滑点（但可能在制定策略时会考虑，只是用户不会直观感受到）。因此，在原来的PancakeSwap AMM上交易的摩擦包括AMM 0.25%的交易手续费+滑点。
+在引入做市商后，做市商可以根据中心化交易所的价格进行报价，由于PancakeSwap通过做市商成交的手续费只有0.0375%。做市商完全可以凭借自己的费率优势在PancakeSwap上提供报价，并在Binance等中心化交易所进行对冲。交易手续费的差值部分可以在中心化交易所对冲交易的费率、做市商利润和为交易者让利之间分配。
+对于Trader，交易手续费降低带来更低的手续费和更好的兑换比例，但是原有的流动性提供者获得的交易手续费则可能会降低。
+同样在3月3日，PancakeSwap在推特上宣布，将于4月份的第一周推出PancakeSwap V3。新的功能将为用户提供更好的体验，并帮助更多的人使用DeFi。
+根据PancakeSwap的推特，其更新包括：
+据报道，PancakeSwap将提供一些新的功能，包括改善提供流动性的方式、有竞争力的交易费用、进行交易激励、改进流动性挖矿体验等。
+虽然官方并未公布PancakeSwap V3将包括哪些更新，但从过去已经进行的一系列工作可以进行推测。
+2月15日，PancakeSwap治理论坛上出现一个“v3产品的排放重定向提案”。该提案的主要目的是为了v3某些功能的开发，将原来分配给Staking（CAKE单币质押池）的一部分CAKE分配给Trading（包括各条链上的流动性挖矿和交易激励）。
+在原有的CAKE分配方案中，增发的CAKE将会在每个区块为Trading分配2.11 CAKE，为Staking分配7.65 CAKE。除此之外，还会每个区块为CAKE彩票分配0.1389 CAKE。在这些基础上，每当有人收获CAKE奖励时，开发者地址会额外铸造9.09%的代币。
+
+这是PancakeSwap近期争议最大的一个提案，总共获得了2.74亿同意票和1.21亿反对票，以69.35%的支持率获得通过。而其它提案总的票数通常只有数千万票，如最近的两项提案"Angle（agEUR）农场提案"和“Stader（$SD/$BNBx）Syrup池和农场提案”分别只有约4280万和3250万投票，且支持率均超过90%。
+提案通过后，Trading的分配增加为3.11 CAKE每区块，Staking的分配减少为6.65 CAKE每区块。
+按照提案中的说法，额外分配给Trading的每个区块1 CAKE的部分将“用于尚未发布的开发，这将显著增强PancakeSwap的交易量，以及其作为最佳多链DEX的地位”。
+根据官方描述，PancakeSwap V3推出和Uniswap V3类似的流动性聚集功能是很有可能的，虽然官方并未公布详细信息，但PANews在社区中询问后，也有众多社区成员做出同样的猜测，并获得了管理员的认同。流动性聚集功能也需要额外的流动性激励、能够有更高的资金效率并有效提高交易量，符合PancakeSwap过去的工作和官方描述。
+
+PancakeSwap V3活动：空投和NFT奖励
+为了庆祝PancakeSwap V3的即将发布，PancakeSwap现推出了13.5万美元的CAKE和额外的NFT空投活动，以奖励早期支持者。
+要参加这项空投活动，用户必须在3月5日13:00（UTC）之前在PancakeSwap中持有500～20000美元的流动性，且在4月3日12:00前不移除流动性。空投奖励将在各个层级的所有合格用户之间分配。合格用户还将获得独家PancakeSwap V3传奇NFT。
+符合上述条件的用户，可以通过在PancakeSwap的上述4个流动性池中额外增加500至20000美元的流动性来参加第二部分的空投，价值3万美元。额外的流动性必须在3月18日12:00前添加，并维持到4月3日12:00之前。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimism主网Bedrock升级提案V2版本已发布，涵盖严格的升级标准流程]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html"/>
+        <updated>2023-03-10T07:11:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月10日消息，治理页面显示，关于以太坊二层解决方案Optimism主网Bedrock升级提案的新版本（即V2版本）已发布，该版本制定了一套严格的升级上线标准，而不是在提案本身中指定确切的日期。
+该标准流程为：1.先在Optimism Goerli上进行Regolith硬分叉（预计北京时间3月18日03:00激活），其中包含Sherlock最近发现的改进；2.后续审计，以测试上次审计后所做的修复；3.进行从无效输出root迁移和恢复的内部升级演练，在共识和功能冻结的版本上进行2周的测试网稳定性，然后发布公告并提前3周通知社区Bedrock升级时间。只有在达到测试网稳定性的标准后，Optimism基金会才会宣布升级日期，至少在发布日期后3周。升级将在特定时间触发，而不是区块高度。
+新版本与初始版本不同的地方在于，新版本包括：1.在审计竞赛Sherlock中发现的改进（包括3个高位漏洞和11个中等危险漏洞），2.明确指出停机时间即在升级期间交易将暂停（该版本的提案没有预先承诺一个日期，而是包含了严格指定的升级启动标准，其中包括即使在投票结束后也会阻止或延迟升级的情况）。3.这个标准的简易概况是:对一个特性和共识冻结的Goerli进行2周的测试网稳定性，然后至少向社区发出3周的通知。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimism主网Bedrock升级提案V2版本已发布，涵盖严格的升级标准流程]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html</id>
@@ -3442,17 +3488,6 @@ Pendle 的公告显示，Pendle 目前集成的项目并不少，比如：GMX、
 考虑到解锁可能需要的时间，这最终可能会扩展到额外 20% 的 token 解锁到总供应，LSD 质押增压可能会催化 Pendle 到更高的位置。
 以上一次牛市前的 DeFi 协议为例，最关键的问题无非三点：
 Pendle 在这三点上都做的不错，希望你能明白为什么我对这个项目持乐观态度。最后，Pendle 拥有强大的营销手段，几位顶级的 DeFi 投资者和研究人员都非常看好。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSea、ConsenSys等加密公司的股权正在二级市场上大幅折价出售]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/zjqrvrx0.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/zjqrvrx0.html"/>
-        <updated>2023-03-09T10:40:28.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月9日消息，据The Block报道，二级市场交易平台 Birel 首席执行官 Richard Freemanson 证实，许多加密初创公司的股权目前在 Birel.io 上以相当大的折扣出售。这些初创公司包括 Alchemy、Blockchain.com、Chainalysis、Kraken、ConsenSys、Blockdaemon、CoinDCX 和 OpenSea。上述公司发售的大宗股权规模从 300 万美元到 5000 万美元不等，而且折扣差别很大。 最引人注目的是 Blockchain.com 和 ConsenSys，他们的股权分别以较最新一轮融资折让 74% 和 71% 的价格发售。Chainalysis 股权以 61% 的折扣出售，OpenSea 股权以 51% 的折扣出售。Alchemy、Blockdaemon 和 Kraken 的股权分别折价 31%、30% 和 9%。但也有部分公司如比特币基础设施公司 Bitfury 的股权以小幅溢价出售。
-Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
