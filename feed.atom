@@ -2,11 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T07:00:42.504Z</updated>
+    <updated>2023-03-11T07:07:01.957Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[解构 Silvergate 危机：拥有千名顶级客户的加密银行为何破产？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/1ve3hij3z58o.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/1ve3hij3z58o.html"/>
+        <updated>2023-03-11T07:00:07.000Z</updated>
+        <summary type="html"><![CDATA[原文作者 | Danilo Lantas
+原文编译 | 白泽研究院
+是不是觉得加密市场最近表现得有点奇怪？
+上周，加密行业最重要的银行 Silvergate 关闭了其交易网络 SEN，它已被大型投资者、公司和稳定币发行商用来全天候 24/7 将数十亿资金进出加密市场。
+SEN 的关闭似乎对加密市场的流动性产生了深远的影响，而 Silvergate 的破产也增加了监管机构加速打击加密货币的风险。
+在本文中，我们将从 Silvergate 的起源、它如何落得如此地步入手，了解它的倒闭对加密行业意味着什么。
+Silvergate 是一家加利福尼亚银行，成立于 1988 年。在最初的 30 年里，Silvergate 是一家只有几亿美元存款的小银行。由于其高管的远见卓识，Silvergate 并没有受到 2008 年金融危机的影响。
+同年，Alan Lane 成为 Silvergate 的首席执行官。Alan 在银行领域拥有超过 40 年的工作经验，担任过各种职务。
+
+故事就是这样开始的，Alan 在 2013 年以个人身份投资比特币后，也将 Silvergates 的业务转向了加密货币。
+在 2019 年的一次采访中，Alan 说他在一次会议上认识了一家名为 SecondMarket 的公司，该公司的业务是为流动性差的股票提供流动性，他们也正在探索为 Silvergate 等小型银行提供流动性。
+SecondMarket 的创始人兼首席执行官是 Barry Silbert，Barry 恰好又是加密行业最大的公司 Digital Currency Group（DCG）的创始人兼首席执行官。SecondMarket 在 2013 年联系了 Silvergate，试图让它为 DCG 提供银行服务。
+众所周知，加密公司历来很难获得银行服务。
+其实，当 SecondMarket 第一次接触 Silvergate 时，Alan 是持怀疑态度的。但几个月后，他开始对比特币着迷，并很快意识到加密行业是一个尚未开发的“蓝海”市场。随即开始为加密公司提供银行服务。
+到 2017 年，已经有 250 多家加密公司成为Silvergate 的客户，其存款已增至 20 亿美元。同年，Silvergate 提出了开发自己的交易网络的想法，这将使法定货币和加密货币的 24/7 交易成为可能。这是必需的，因为加密市场的交易是 24/7，但银行只在周一至周五朝九晚五工作。
+Silvergate 的交易网络SilvergateExchange Network（SEN）于 2018 年初推出。它吸引了另外 250 家加密公司成为该银行的客户。这使他们能够随时转换法定货币和加密货币，确保强劲的市场流动性。
+更重要的是，Silvergate 为最大的加密公司提供银行服务和 SEN 网络访问。其中包括 Coinbase、Kraken 和 Gemini 等加密货币交易平台，以及稳定币发行商，如 Circle、Paxos 和 TUSD。
+
+2019 年，Silvergate 举行了首次公开募股（IPO），这意味着该银行的股票开始在美国证券交易所交易。尽管当时加密市场处于熊市，但 Silvergate 仍然呈指数级增长。
+
+到 2020 年，Silvergate 的客户群发展到了近千名，并且还有数百名客户正在等待加入。2020 年初，Coindesk 提供了 Silvergates 的客户群，“该银行现在拥有 850 名加密货币客户，包括 61 家交易平台、541 名机构投资者和其他 48 位客户。”值得一提的是，这些机构投资者客户的资金占加密货币市值和交易量的大部分。
+2021 年，Silvergate 的股价与再入牛市的加密市场一起出现抛物线走势，触及略高于 217 美元的高位，较其 IPO 价格上涨近 16 倍。Silvergate 的存款也呈抛物线形的增长，达到超过 140 亿美元的峰值。SEN 网络在当时的总转账额已接近 1 万亿美元。
+Silvergate 在 2022 年初的表现似乎还不错。该公司宣布以 2 亿美元收购 Facebook 失败的数字货币项目 Diem。背后的想法似乎很明显，Silvergate 想创建自己的稳定币，在其 SEN 网络上流通并用于支付。记住这一点，在后面很重要。
+当加密市场在 2022 年初开始进入“寒冬”时，Alan 开始收到来自客户的“关于银行偿付能力”的问题。这是因为 Silvergate 提供了由 BTC 支持的美元贷款，并且以 BTC 作为抵押品向 MicroStrategy 提供了超过 2 亿美元的贷款。显然，这是相当冒险的。
+Alan 对所有怀疑者给出了一个简单的答案，那就是当加密市场开始崩溃时，SEN 有能力立即出售任何用作抵押品的 BTC。不仅如此，与普通银行相比，Silvergate 还很稳健，它只持有现金，以及客户的加密货币和现金。
+只有一个问题：FTX 和 Alameda Research。
+Alameda Research于 2018 年在 Silvergate 开设了一个账户，显然已经通过了该银行的调查。FTX 使用 Alameda 在 Silvergate 的账户转移客户资金，而且 Silvergate 似乎在 FTX 和 Alameda 破产前不久就已经意识到一些不好的事情即将发生。
+在 FTX 和 Alameda 破产之前不久，Silvergate 发表了一份声明，向客户保证其 SEN 网络仍在正常工作，在这份声明中，Alan 明确指出，如果出现任何流动性问题，该银行有能力从美国联邦住房贷款银行借款。
+在 FTX 和 Alameda 倒闭的同一天，Silvergate 发布了另一份声明，证实了 FTX 本身在该银行有账户，但 FTX 存款仅占所有存款的比例不到 10%。
+尽管 Silvergate 股票因缺乏 FTX 敞口而上涨，但复苏是短暂的。去年 12 月，美国政界人士开始呼吁就 Silvergate 与 FTX 和 Alameda 的关系展开调查。
+今年 1 月，Silvergate 透露在 FTX 危机后，它经历了高达 81 亿美元的银行挤兑，这抹去了它自 2013 年以来赚取的所有利润。Silvergate 还不得不裁员 40% 以维持生计，后来又透露它已经从美国联邦住房贷款银行贷款了。
+奇怪的是，全球最大的资产管理公司BlackRock利用这个机会逢低买入，持有了 Silvergate 7.2% 的股份，另一家名为 Stake Street 的资产管理公司也在同一时间持有了 9.2% 的股份。
+2 月，美国司法部宣布正在就 FTX、Alameda 事件调查 Silvergate。Silvergate 随后成为市场上被卖空最多的股票。
+本月早些时候，Silvergate 宣布将推迟发布其年度报告，承认它可能面临更多调查，并承认它可能无法生存。上周，Silvergate 关闭了 SEN 网络，因为其知名度最高的顶级加密公司客户都放弃了它，转移到了其他加密银行。
+
+最新消息是，Silvergate 正在缩减业务并清算资产。Silvergates 的资产可能会被摩根大通这样的大型银行收购，进而让华尔街控制加密行业最有价值的金融基础设施。那么，既然 Silvergate 倒闭了，接下来会发生什么？
+正如我在几句话前提到的，大多数 Silvergate 顶级客户都退出并前往其他加密银行。理论上来说，对于客户，这听起来像是一个不错的解决方案，但在实践中，它又产生了两个问题。
+要知道，Silvergate 是唯一一家拥有 24/7 全天候法定货币和加密货币交易网络的加密银行，这是人们迫切需要的。而且，美国只有 Signature Bank 和 Metropolitan Bank 这两家其他的大型加密银行。
+直到今年 1 月，由于来自 Operation Chokepoint 2.0的监管压力，Metropolitan Bank宣布将退出加密行业。（最初的“Operation Chokepoint”行动是对美国监管机构认为的高风险公司的联合打击。通过向银行业施压，要求其停止与特定行业的公司开展业务，让公司彻底边缘化。2.0 是加密社区起的术语，指代在过去几个月内，美国的所有金融监管机构都在攻击加密业务，似乎并没有兴趣监督加密货币，而是为了关闭它。）
+这使得 Signature 成为大多数加密公司唯一可行的选择。这就是为什么大多数 Silvergate 顶级客户最近都转向了 Signature。
+问题在于，Signature 早在去年 12 月就宣布，它希望将其在加密行业的风险敞口减半。可怕的是，Signature 从那以后开始将银行服务限制在一些最大的加密公司。一些人可能还记得，Signature 在 1 月份将美元交易限制在 Binance US。好吧，他们最近对 Kraken 做了同样的事情，考虑到它的声誉，这确实是前所未有的。如果这还不够糟糕的话，据报道，Signature 在去年第四季度从联邦住房贷款银行获得了 100 亿美元。这几乎是联邦银行借给 Silvergate 的金额的三倍。
+这是非常糟糕的，也可能导致监管机构对 Signature 的审查。虽然 Signature 的客户似乎没有有问题的加密公司，但如果 Silvergate 正式崩溃，监管机构和政客将有“加密威胁银行业”的借口来打击 Signature 和任何其他剩余的加密银行。
+即使剩下的少数加密银行以某种方式被允许在没有审查的情况下运营，它仍然不会改变 SEN 网络关闭的事实。我要重申，像 SEN 这样的网络对于加密市场的正常运行是必要的。
+没有它，机构很难进出加密行业。更重要的是，没有它，资金流向银行受限于营业时间，这对于 24/7 全天候交易的加密市场来说，将会是一场“灾难”。
+因此，加密行业迫切需要新的、像 SEN 一样的交易网络。但到目前为止，似乎只有一家加密公司勇敢地站出来。
+几天前，总部位于英国的加密货币支付提供商 BCB Group 的首席执行官宣布，该公司正在研究 SEN 的替代品。BCB 集团希望在今年第二季度（可能是几个月后）启动并运行 SEN 替代方案。
+在这个新网络发布之前，加密市场延续奇怪的价格走势不足为奇。运气好的话，谁收购了 Silvergate 的资产，谁就能更快重启 SEN 网络。
+最后，我想谈谈 Silvergate 事件中似乎被忽视的一个方面。没有人问为什么最近监管机构和政客专门针对 Silvergate。毕竟，FTX 和 Alameda 在美国的多家加密银行都有账户。
+​
+FTX 和 Alameda 在一家名为 Farmington 的小型乡村银行设有账户，两家公司都投资了该银行。
+Farmington 在 1 月份悄悄退出了加密行业，并且完全没有受到任何审查。
+不管怎样，对 Silvergate 的过度审查从表面上看毫无意义。
+回到贝莱德和 Stake Street 上。Silvergate 正在与这两家华尔街最大的机构合作开发加密货币交易平台。这大概也就是贝莱德和 Stake Street 试图帮助拯救 Silvergate 的原因。
+所以我要问你的问题是：Silvergate 与其他所有加密银行真正不同的地方是什么？
+答案呼之欲出：Silvergate 的 SEN 网络。一个能够 365 天全天候都可以转移法定货币和加密货币的能力。
+让我们回到 Silvergate 稳定币的话题。请记住，Silvergate 准备推出自己的稳定币，该稳定币将在 SEN 上运行。在 2022 年的采访中，Alan 解释说，Silvergate 稳定币的雄心来自观察了稳定币发行商多年的运作，并有能力促进其稳定币的发行和赎回。
+Alan 注意到稳定币的主要用例是加密货币交易。他还意识到，监管机构不愿意看到在智能合约区块链上发行的稳定币被用于其他任何用途。
+Alan 最终意识到 SEN 是发行可用于支付的稳定币的理想私人网络，因为它能够提供 24/7 全天候即时结算。Silvergate 稳定币本应于 2022 年年底推出，但由于 FTX 的破产而并未如愿。有趣的是，FTX 正计划大约在同一时间推出自己的稳定币。Sam 和 Alan 都曾表示，他们正在与加密行业的公司合作推出各自的稳定币。他们有可能共同努力实现这些稳定币的雄心壮志。
+花点时间考虑一下，Alameda 曾经是加密行业最大的做市商之一。由于他们的地位，他们与业内所有最大的公司都有密切的联系。这包括最大的交易平台、稳定币发行商，当然还有几乎所有的加密银行。
+至于 Sam，他曾与监管机构和政客有着密切的联系。他与 Gary Gensler（美 SEC 主席）会面的次数比任何其他加密公司都多。
+得益于 Alameda 和 FTX，Sam 掌握了很多关于加密行业的敏感信息。这种特殊的事态就是为什么我怀疑 Alameda 的真正目的是帮助监管机构收集有关加密行业的敏感信息，以策划当前对于加密行业的种种打击行动。在这种情况下，我怀疑 Sam 可能与美国当局共享了有关 Silvergate 稳定币的信息。
+我怀疑当他们看到 Silvergate 稳定币是为支付而构建并提供 24/7 结算时，他们意识到这看起来与美联储即将推出的快速支付系统FED Now相同。
+
+所以他们需要尽快摆脱 Silvergate 和 SEN。简单地说，即将推出的 Silvergates 稳定币可能被视为美联储即将推出的支付系统的竞争对手。与商业银行的私人稳定币和常规稳定币不同，Silvergate 稳定币将在 SEN 及其华尔街机构的支持下迅速被采用。
+也许美联储看到了这一点，摇头说 No。也许他们不希望华尔街参与发行“数字美元”，他们当然也不希望加密行业抢先推出类似的产品。美国政府希望保持对其货币的完全控制，也许这就是它现在与加密行业作斗争的根本原因。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI 可提高普通人的能力，为 Web3 带来超级应用新叙事]]></title>
         <id>https://www.panewslab.com/zh/articledetails/j2ce2m491hy1.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/j2ce2m491hy1.html"/>
@@ -2540,18 +2614,6 @@ PancakeSwap V3活动：空投和NFT奖励
 要参加这项空投活动，用户必须在3月5日13:00（UTC）之前在PancakeSwap中的BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB这四个流动性池中持有500～20000美元的流动性，且在4月3日12:00前不移除流动性。空投奖励将在各个层级的所有合格用户之间分配。合格用户还将获得独家PancakeSwap V3传奇NFT。
 
 符合上述条件的用户，可以通过在PancakeSwap的上述4个流动性池中额外增加500至20000美元的流动性来参加第二部分的空投，价值3万美元。额外的流动性必须在3月18日12:00前添加，并维持到4月3日12:00之前。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optimism主网Bedrock升级提案V2版本已发布，涵盖严格的升级标准流程]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/1ar0ukfm.html"/>
-        <updated>2023-03-10T07:11:28.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月10日消息，治理页面显示，关于以太坊二层解决方案Optimism主网Bedrock升级提案的新版本（即V2版本）已发布，该版本制定了一套严格的升级上线标准，而不是在提案本身中指定确切的日期。
-该标准流程为：1.先在Optimism Goerli上进行Regolith硬分叉（预计北京时间3月18日03:00激活），其中包含Sherlock最近发现的改进；2.后续审计，以测试上次审计后所做的修复；3.进行从无效输出root迁移和恢复的内部升级演练，在共识和功能冻结的版本上进行2周的测试网稳定性，然后发布公告并提前3周通知社区Bedrock升级时间。只有在达到测试网稳定性的标准后，Optimism基金会才会宣布升级日期，至少在发布日期后3周。升级将在特定时间触发，而不是区块高度。
-新版本与初始版本不同的地方在于，新版本包括：1.在审计竞赛Sherlock中发现的改进（包括3个高位漏洞和11个中等危险漏洞），2.明确指出停机时间即在升级期间交易将暂停（该版本的提案没有预先承诺一个日期，而是包含了严格指定的升级启动标准，其中包括即使在投票结束后也会阻止或延迟升级的情况）。3.这个标准的简易概况是:对一个特性和共识冻结的Goerli进行2周的测试网稳定性，然后至少向社区发出3周的通知。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
