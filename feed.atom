@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T03:24:33.800Z</updated>
+    <updated>2023-03-11T03:30:11.495Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[美国联邦存款保险公司：已将硅谷银行存款转入新实体DINB，银行活动将不迟于3月13日恢复]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5t60lqyr.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5t60lqyr.html"/>
+        <updated>2023-03-11T03:27:49.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据美国联邦存款保险公司(FDIC)最新公告，加州金融保护和创新部已于本周五下午关闭了硅谷银行并委任美国联邦存款保险公司接管了其业务。目前美国联邦存款保险公司已经创建了一个名为“圣克拉拉存款保险国家银行 (DINB)”的新实体并将硅谷银行存款转入到该实体中以保护客户，所有受保储户将在3月13日（下周一）早上之前完全使用其受保存款，FDIC将在下周内向未投保储户支付预付利息，未投保的存款人将收到其未投保资金剩余金额的接管证书，随着FDIC出售硅谷银行的资产，未来可能会向未投保的储户支付利息。
+FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美元，存款总额约为1754亿美元。在关闭时，超出保险限额的存款数额尚未确定。银行活动将不迟于3月13日恢复，包括网上银行和其他服务，硅谷银行的官方支票将继续清算。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Circle：仍在硅谷银行中持有33亿美元USDC储备金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3vh5ubo5.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3vh5ubo5.html"/>
+        <updated>2023-03-11T03:25:01.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据官方消息，稳定币发行商Circle推特发文称，已确认周四发起的电汇尚未处理，约400亿美元的USDC储备金中有33亿美元仍在硅谷银行中。Circle呼吁硅谷银行能继续维持，并遵循州和联邦监管机构提供的指导。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hedera已升级主网并修复漏洞，主网已恢复运行]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3nj8k9w3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3nj8k9w3.html"/>
+        <updated>2023-03-11T03:19:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据官方消息，Hedera Status推特发文称，已升级主网以修补漏洞，主网现已正常运行。据此前消息，Hedera披露攻击细节，攻击者对Hedera主网的智能合约服务代码进行攻击，将部分用户账户持有的Hedera Token Service代币转移到自己的账户中。攻击者的目标是在多个DEX上用作流动性池的账户，这些DEX使用Uniswap V2派生的合约代迁移过来使用Hedera Token Service，包括Pangolin Hedera、SaucerSwap和HeliSwap。当攻击者将通过攻击获得的代币移动到Hashport Network Bridge时，Bridge运营者检测到该活动并迅速采取行动将其禁用。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hedera已升级主网并修复漏洞，主网已恢复运行]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/3nj8k9w3.html</id>
@@ -3466,17 +3497,6 @@ ERC-4337如何运行？
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[火必回应：“Poloniex多部门将并入火必”的消息不属实]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/zwd2j3k2.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/zwd2j3k2.html"/>
-        <updated>2023-03-10T04:12:56.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月10日消息，经PANews向火必核实，“Poloniex多部门将并入火必”的消息不属实，其PR相关负责人对此做出了回应。
-此前今日早些时候消息，Chaincatcher报道称，知情人士披露的火必全员信显示，加密货币交易平台Poloniex多部门将并入火必。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考]]></title>
         <id>https://twitter.com/0x_irisl/status/1633842976169558024</id>
         <link href="https://twitter.com/0x_irisl/status/1633842976169558024"/>
@@ -3498,17 +3518,6 @@ ERC-4337如何运行？
 <p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href="https://twitter.com/0x_irisl/status/1633842976169558024">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href="https://twitter.com/0x_irisl/status/1633842976169558024">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[孙宇晨已将1亿枚USDC作为流动性基金转移至火必]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/x4mmzvle.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/x4mmzvle.html"/>
-        <updated>2023-03-10T03:51:39.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月10日消息，Whale Alert数据显示，100,000,000枚USDC从孙宇晨钱包地址转移到火必。孙宇晨也发推证实此事。
-此前今日早些时候消息，孙宇晨表示，火必将全额承担HT市场波动所导致杠杆穿仓损失，并将出资1亿美元成立流动性基金。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
