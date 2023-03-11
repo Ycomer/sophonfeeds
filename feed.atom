@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T06:39:44.910Z</updated>
+    <updated>2023-03-11T06:44:50.103Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -72,6 +72,30 @@ AI 有三要素：数据，算法，算力。而由于 Web3 的经济模式和�
 作为未来承接数据价值传递的 MAP Protocol 将作为 Web3 时代的 TCP/IP 协议，助力这个伟大的 AI 时代！]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】Rollup 排序新构想「L1-sequenced」：有何优缺点？]]></title>
+        <id>https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016</id>
+        <link href="https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016"/>
+        <updated>2023-03-11T06:17:59.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>以太坊研究员 Justin Drake 提出了一个有趣的构想，将排序委托给 L1 PBS 系统以集成 L1 的灵活性和去中心化， Justin Drake 撰文对该构想的优缺点进行了权衡。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016">https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016</a></p>
+<p><strong>文章作者：</strong></p><p>Justin Drake（以太坊基金会）</p><hr><h3>观点：</h3><p><strong>Justin Drake（以太坊基金会）：</strong>优势：1）基于排序享有与 L1 相同的有效性保证；2）去中心化：继承了 L1 的去中心化，并且再次利用了 L1 搜索者 - 构建者 - 提议者的基础设施；3）简单性：无需排序器签名验证，也不需要外部 PoS 共识；4）降低了开发成本，Gas 开销为 0；5）源自于排序器的 MEV 会流向基础 L1，增强了 L1 的经济安全，且改善了 L1 原色很难过代币的经济稀缺性；6）基于 Rollup 保留了主权选择，可以有治理代币收取基本费用，并按照合适的方式使用收益。【原文为英文】</p><a href="https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016">内容来源</a><p><strong>Justin Drake（以太坊基金会）：</strong>劣势：1）基于 Rollup 失去了 MEV 收入，他们的收入将限制在基本费用上；2）排序器受限：将排序委托给 L1 会降低排序灵活性。【原文为英文】</p><a href="https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[a16z 一年工作总结：从「指标 > 团队 > 想法」到寻找创业真相]]></title>
+        <id>https://techflowpost.mirror.xyz/vupMbspmPVJsBGm_jb4uGb9QnObFCiXJ1dufyxbooM8</id>
+        <link href="https://techflowpost.mirror.xyz/vupMbspmPVJsBGm_jb4uGb9QnObFCiXJ1dufyxbooM8"/>
+        <updated>2023-03-11T05:45:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>游戏风投是一个新兴领域，VC 需要通过不同的方法来寻找创业项目并决策投资。A16z 游戏投资员 Robin Guo 撰推总结在 a16z 工作一年的经验和教训，以及 VC 寻找投资机会所需的不同因素和方法。本推文中文版由深潮编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://techflowpost.mirror.xyz/vupMbspmPVJsBGm_jb4uGb9QnObFCiXJ1dufyxbooM8">https://techflowpost.mirror.xyz/vupMbspmPVJsBGm_jb4uGb9QnObFCiXJ1dufyxbooM8</a></p>
+<p><strong>文章作者：</strong></p><p>Robin Guo（a16z 的投资合伙人）</p><hr><h3>观点：</h3><p><strong>Robin Guo（a16z 的投资合伙人）：</strong>指标 > 团队 > 创意。对于正在迅速增长的初创公司，强大的用户保留、高速增长和大量的交易热度都是指标。难点在于从昙花一现中挑选出一个可持续的游戏。在指标之后，我们寻找优秀的团队，团队和人是伟大公司的核心。早期的想法并不那么重要，因为公司经常会进行转型。</p><a href="https://techflowpost.mirror.xyz/vupMbspmPVJsBGm_jb4uGb9QnObFCiXJ1dufyxbooM8">内容来源</a><p><strong>Robin Guo（a16z 的投资合伙人）：</strong>产品创意不如创始人探索细节以得出创意的过程重要，这是对创始人的衍生性和深度的评估。VC 是在信息不完全的情况下寻找真相，初创公司失败的原因由很多，这种风险已经被定价进去了。VC 需要通过其他手段来寻找真相：对创始人的参考、市场的论点、对竞争对手数据的挖掘等等。这些方法并不能保证成功，但它们可以增加投资成功的几率。</p><a href="https://techflowpost.mirror.xyz/vupMbspmPVJsBGm_jb4uGb9QnObFCiXJ1dufyxbooM8">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -10096,18 +10120,6 @@ Arbitrum生态链最火阶段已过，fomo情绪或不足。
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【长推】探讨 LSD 杠杆 Staking 高收益的本质]]></title>
-        <id>https://twitter.com/loki_zeng/status/1632599301322076161</id>
-        <link href="https://twitter.com/loki_zeng/status/1632599301322076161"/>
-        <updated>2023-03-07T05:38:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>LSD 杠杆 Staking 高收益的本质是什么，是否可持续？风险点在哪里？加密货币研究员 0xLoki 认为杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，ETH 开放 Staking 赎回以后利差会缩小，并详述了其原因。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">https://twitter.com/loki_zeng/status/1632599301322076161</a></p>
-<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>杠杆 Staking 的收益来源是 Staking 和 ETH 借贷的利差，而之所以存在利差，是因为两种类型的标的具备不同的风险特征和流动性特征。利差本质上就是流动性溢价和风险暴露溢价，选择 Staking 需要牺牲资产的流动性并且承担更大的损失。</p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">内容来源</a><p><strong>0xLoki：</strong>当前之所以能够存在这么高的利率，主要是因为上海升级的不确定性。所以 ETH 开放 Staking 赎回以后，一个高确定性的结果是利差缩小，最终形成平衡，杠杆 Staking 的收益回到一个合理区间。另一个高确定性的结果是借贷成为 Staking 的加杠杆方式之一，LSD 的借贷市场变得更加繁荣。</p><a href="https://twitter.com/loki_zeng/status/1632599301322076161">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[数据：某巨鲸从币安、OKX等交易所提取360万枚MASK，约合1480万美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/fclm9p4x.html"/>
@@ -10159,18 +10171,6 @@ AA账户抽象
 2022年大家经历了市场低估与疫情与折磨，情绪非常压抑。ETHDenver像是一个池子，全球各地的潮水奔涌而至。华人创业者奔赴世界各地，新生的力量此起彼伏。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IOSG 周报｜GMX 全链乐高能否挑战 dYdX 龙头地位吗？]]></title>
-        <id>https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A</id>
-        <link href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A"/>
-        <updated>2023-03-07T05:33:17.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>IOSG Ventures 研究员 Momir Amidzic 在本文中对后 FTX 时代 DEX 衍生品市场的状况进行了探索，表示如果要赢得加密衍生品市场份额，DEX 必须击败 CEX。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A</a></p>
-<p><strong>文章作者：</strong></p><p>Momir（IOSG Ventures）</p><hr><h3>观点：</h3><p><strong>Momir（IOSG Ventures）：</strong>去中心化交易所衍生品市场可能仍处于初期结算，但 GMX 在 FTX 崩盘后的市场中表现出了令人印象深刻的实力。假设在 FTX 崩盘当天对 GMX 和 dYdX 分别投资 1000 美元，截至今日，GMX 的回报约为 1400 美元，而 dYdX 回报则约为 800 万美元。这无疑表示 GMX 已经在竞争激烈的 DEX 衍生品市场中占据了强有力的地位。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a><p><strong>Momir（IOSG Ventures）：</strong>GMX 产品仍然存在一些资产选择较小、流动性扩张问题、风控不足等等的限制。但其中一切缺点可能是有意为之的取舍，也正是这些取舍帮助其找到了 PMF，成为了具备最有机需求的去中心化衍生品交易所。第一个进入市场并不重要。最先找到 PMF（产品 / 市场匹配）的，才往往是长期的赢家。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a><p><strong>Momir（IOSG Ventures）：</strong>市场表明，仅仅从中心化交易所的非托管属性吸引用户并非易事，相反，DEX 需要在自己的游戏中击败 CEX，提供同样好的用户体验，包括入门难度、交易成本、延迟、价格影响、资产提供、高级交易功能、可用性、可靠性，甚至是丢失资金的恢复。</p><a href="https://mp.weixin.qq.com/s/uCZmF6tVuvXMnfljMoYT9A">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
