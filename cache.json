@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -57,7 +57,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>\n<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a>",
           "link": "https://www.panewslab.com/zh/articledetails/ma1ef9hs.html",
           "publishedOn": "2023-03-11T04:02:26.000Z",
-          "wordCount": 1236,
+          "wordCount": 1244,
           "title": "速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/10/images/669X1zH8m5.png"
         },
@@ -147,7 +147,7 @@
           "description": "<h3>外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用</h3>\n<p>据 moneycontrol 引援知情人士消息，Facebook 和 Instagram 的母公司 Meta 正在构建一个代号为「P92」的内容应用。该应用将支持去中心化社交网络协议 ActivityPub，采用 Instagram 品牌，并允许用户通过他们的 Instagram 注册或登录。</p>\n<p><a href=\"https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Meta：</strong>我们正在探索一个独立的去中心化社交网络来共享文本更新。我们相信有机会建立一个单独的空间，创作者和公众人物可以及时分享他们的更新。【原文为英文】</p><a href=\"https://www.reuters.com/technology/meta-explores-decentralized-social-network-app-text-updates-2023-03-10/\">内容来源</a>",
           "link": "https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html",
           "publishedOn": "2023-03-10T11:00:14.000Z",
-          "wordCount": 14413,
+          "wordCount": 14412,
           "title": "外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用",
           "imageUrl": "https://images.moneycontrol.com/static-mcnews/2023/03/396330803-654x435.jpg"
         },
@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 内容平台 Mirror 于昨日推出 NFT 订阅铸造 「Subscribe to Mint 」功能，却引来大量负面评论。区块链研究员 starzq.eth 盘点了 Mirror 自内测以来的产品线路更改，认为 Mirror 产品方向在 toB 和 toC 之间的反复横跳将会导致用户的不断流失。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">https://twitter.com/starzqeth/status/1633679163612880902</a></p>\n<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>从 2021 年初内测开始，Mirror 的定位都是 toB，Web3 核心工具箱，建立 DAO 最快速简单的工具。用 Entries 写 Roadmap 和项目更新，然后众筹和分配项目资金，用 Token 来引导用户参与，再加一个 discord 来做用户互动，一个 DAO 就运作起来了。在发布了 1 年半后，2022 年 7 月 27 日终于有了基于钱包的订阅功能。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a><p><strong>starzq.eth：</strong>2022 年 8 月，Mirror 突然发了一个公告，说要转为 toC，一夜间下线了所有的众筹和 NFT 发布功能。转 toC 后其实没有任何动作，半年后的 2023 年 1 月 12 日，终于改进了订阅功能，只有邮箱也可以订阅，但邮箱里一直没有全文阅读，体验非常差。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a><p><strong>starzq.eth：</strong>然后就到了 2023 年 3 月 9 日，增加 Subscribe to Mint 功能，回到一开始 toB 的路。其实就是一个基于订阅者的 Open Edition，和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户，我自己就是其中之一。比较 Mirror 和 Substack 的 toC 体验，Substack 完胜。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a>",
           "link": "https://twitter.com/starzqeth/status/1633679163612880902",
           "publishedOn": "2023-03-10T08:13:07.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】Mirror 产品线梳理 ：在 toB 和 toC 之间的反复横跳",
           "imageUrl": null
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>对于普通节点而言，参与验证和核实以太坊网络需要较高的成本。以太坊路线图中 Verge 和 Purge 阶段重点关注了该问题，在如何提高以太坊协议的效率、去中心化和稳健性方面提出了多个目标。Blockworks 研究员 Westie Capital 解析了上述两部分路线图中的技术实现方式与目标。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">https://twitter.com/blockworksres/status/1633867655013896193</a></p>\n<p><strong>文章作者：</strong></p><p>Westie</p><hr><h3>观点：</h3><p><strong>Westie：</strong>The Verge 指的是让区块验证尽可能简单和轻便的目标。The Verge 关注的是 Verkle 树和 SNARKs 的加入。Verkle 树是一种专门针对状态的 Merkle 树的更有效的替代方法，它不需要提供每个姐妹节点（共享同一个父节点的节点）到所选节点的路径，而只是提供路径本身作为证明的一部分，Verkle 证明的效率比 Merkle 证明高 3 倍。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a><p><strong>Westie：</strong>SNARKs 是 zk 证明的一个版本，以太坊有许多元素将通过增加 SNARKs 的验证或用 SNARKs 取代旧的证明系统来升级，以获得更好的效率。这包括：基于 SNARK 的轻客户端；共识状态变化的 SNARKs；Enshrined Rollups。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a><p><strong>Westie：</strong>The Purge 指的是通过降低参与验证网络的存储要求来简化协议的目标。这主要是通过对历史和状态的休眠和管理来实现的。历史数据休眠（EIP-4444）允许客户端修剪超过一年的历史数据，并停止在 P2P 层面提供服务。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a><p><strong>Westie：</strong>状态休眠。当涉及到处理状态增长时，有两个主要目标：弱无状态，指的是只使用状态来建立区块，但不验证它的目标；状态休眠，指删除在规定时间内（1 年）未被访问的状态。状态休眠应该使节点需要存储的状态总共减少 20-50 GB。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a>",
           "link": "https://twitter.com/blockworksres/status/1633867655013896193",
           "publishedOn": "2023-03-10T07:42:46.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】以太坊线路图 Verge 和 Purge 阶段解析：如何降低节点运行成本",
           "imageUrl": null
         },
@@ -237,7 +237,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
@@ -557,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Risc Zero 是一个建立在 RISC-V 指令集架构之上的 zkVM，用 Rust 语言编写，底层证明系统是 zk-STARKs。此外，他们还构建了自己的被称为 Bonsai Network 的 L2。在与零知识证明开发者进行交谈后，Matrixport Ventures 前投资总监 Alex 撰文概述了他看好 RISC Zero 的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">https://twitter.com/looksrare_eth/status/1633204560977342464</a></p>\n<p><strong>文章作者：</strong></p><p>Alex</p><hr><h3>观点：</h3><p><strong>Alex：</strong>开发人员将会从以下三个方面获益：1）RISC-V ISA 中优化的 ZK 电路，无需担心证明大小及 Gas 成本等问题；2）RISC-V 生态系统中的一系列库；3）更多的语言支持，例如 Go 和 C++，编译器将于一季度结束时推出。此外，开发人员还能够在 RiscZero zkVM 内运行 EVM。【原文为英文】</p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">内容来源</a><p><strong>Alex：</strong>用例：1）Rollup 公司探索使用 RiscZero 证明器以提供速度更快的可定制 Rollup；2）开发者在数据或中间件领域进行构建，探索数据中继的零知识证明用例；3）链上游戏：战略游戏、纸牌游戏等也可以使用 RiscZero 虚拟机编写零知识证明；4）项目可使用 ZKP Powered 证明工作输出或结果而无需透露用户数据；5） 还适用于无人机、位置服务和物联网公司等领域。【原文为英文】</p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">内容来源</a>",
           "link": "https://twitter.com/looksrare_eth/status/1633204560977342464",
           "publishedOn": "2023-03-09T04:13:05.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Matrixport Ventures 前投资总监：为什么看好 RISC Zero？",
           "imageUrl": null
         },
@@ -827,7 +827,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5382,
+          "wordCount": 5353,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -927,7 +927,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 998,
+          "wordCount": 1004,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -3384,7 +3384,7 @@
           "description": "虽是BNB链上的龙头，PancakeSwap在DEX的对比中却经常被忽视，实际上它的流动性仅次于Curve和Uniswap，截至3月9日，TVL为25亿美元。在2020年推出后，PancakeSwap不断进行着更新，如接入永续合约交易，扩展到其它链上、降低稳定币交易的手续费等。在部署到Aptos上并开启流动性挖矿后，PancakeSwap也一跃成为Aptos上TVL最高的项目。\n面对Uniswap V3即将部署到BNB链上的预期，以及BiSwap、Thena等BNB链上已有DEX的竞争，PancakeSwap在近期继续进行了一系列更新，降低交易费用并希望能增加交易量。根据PANews的了解，PancakeSwap V3很可能会增加和Uniswap V3类似的流动性聚集功能。\n3月3日，PancakeSwap宣布在BNB链上集成了做市商（MM）进行报价。此前，PancakeSwap已经在以太坊上集成了做市商报价功能。这里的做市商应当特指中心化做市商，类似于Hashflow提供的服务（Hashflow为Binance Launchpad项目，且大多数流通的HFT都存放于Binance中）。中心化做市商通常会凭借自己的交易量优势和中心化交易所达成合作，吃单只需极低的费率，而排单成交还可以获得交易所的返利。\n此后，在PancakeSwap进行交易的时候，会自动对比原有的由AMM的x*y=k公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。\n做市商拥有的流动性可以认为是和已有的AMM独立的，交易手续费也更低，在综合考虑各项成本后，选择最优路径。如下图所示，现在在PancakeSwap上交易很可能会通过做市商直接成交，等于为PancakeSwap引入了更多的流动性和更低手续费的交易路径。\n\n在AMM交易中，PancakeSwap收取0.25%的非稳定币交易手续费以及0.01%的稳定币交易手续费。如果通过做市商进行交易，PancakeSwap将收取0.0375%的手续费。AMM交易有滑点的损失，交易量越大滑点越大，做市商的交易则不用考虑滑点（但可能在制定策略时会考虑，只是用户不会直观感受到）。因此，在原来的PancakeSwap AMM上交易的摩擦包括AMM 0.25%的交易手续费+滑点。\n在引入做市商后，做市商可以根据中心化交易所的价格进行报价，由于PancakeSwap通过做市商成交的手续费只有0.0375%。做市商完全可以凭借自己的费率优势在PancakeSwap上提供报价，并在Binance等中心化交易所进行对冲。交易手续费的差值部分可以在中心化交易所对冲交易的费率、做市商利润和为交易者让利之间分配。\n对于Trader，交易手续费降低带来更低的手续费和更好的兑换比例，但是原有的流动性提供者获得的交易手续费则可能会降低。\n同样在3月3日，PancakeSwap在推特上宣布，将于4月份的第一周推出PancakeSwap V3。新的功能将为用户提供更好的体验，并帮助更多的人使用DeFi。\n根据PancakeSwap的推特，其更新包括：\n据报道，PancakeSwap将提供一些新的功能，包括改善提供流动性的方式、有竞争力的交易费用、进行交易激励、改进流动性挖矿体验等。\n虽然官方并未公布PancakeSwap V3将包括哪些更新，但从过去已经进行的一系列工作可以进行推测。\n2月15日，PancakeSwap治理论坛上出现一个“v3产品的排放重定向提案”。该提案的主要目的是为了v3某些功能的开发，将原来分配给Staking（CAKE单币质押池）的一部分CAKE分配给Trading（包括各条链上的流动性挖矿和交易激励）。\n在原有的CAKE分配方案中，增发的CAKE将会在每个区块为Trading分配2.11 CAKE，为Staking分配7.65 CAKE。除此之外，还会每个区块为CAKE彩票分配0.1389 CAKE。在这些基础上，每当有人收获CAKE奖励时，开发者地址会额外铸造9.09%的代币。\n\n这是PancakeSwap近期争议最大的一个提案，总共获得了2.74亿同意票和1.21亿反对票，以69.35%的支持率获得通过。而其它提案总的票数通常只有数千万票，如最近的两项提案\"Angle（agEUR）农场提案\"和“Stader（$SD/$BNBx）Syrup池和农场提案”分别只有约4280万和3250万投票，且支持率均超过90%。\n提案通过后，Trading的分配增加为3.11 CAKE每区块，Staking的分配减少为6.65 CAKE每区块。\n按照提案中的说法，额外分配给Trading的每个区块1 CAKE的部分将“用于尚未发布的开发，这将显著增强PancakeSwap的交易量，以及其作为最佳多链DEX的地位”。\n根据官方描述，PancakeSwap V3推出和Uniswap V3类似的流动性聚集功能是很有可能的，虽然官方并未公布详细信息，但PANews在社区中询问后，也有众多社区成员做出同样的猜测，并获得了管理员的认同。流动性聚集功能也需要额外的流动性激励、能够有更高的资金效率并有效提高交易量，符合PancakeSwap过去的工作和官方描述。\n\nPancakeSwap V3活动：空投和NFT奖励\n为了庆祝PancakeSwap V3的即将发布，PancakeSwap现推出了13.5万美元的CAKE和额外的NFT空投活动，以奖励早期支持者。\n要参加这项空投活动，用户必须在3月5日13:00（UTC）之前在PancakeSwap中的BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB这四个流动性池中持有500～20000美元的流动性，且在4月3日12:00前不移除流动性。空投奖励将在各个层级的所有合格用户之间分配。合格用户还将获得独家PancakeSwap V3传奇NFT。\n\n符合上述条件的用户，可以通过在PancakeSwap的上述4个流动性池中额外增加500至20000美元的流动性来参加第二部分的空投，价值3万美元。额外的流动性必须在3月18日12:00前添加，并维持到4月3日12:00之前。",
           "link": "https://www.panewslab.com/zh/articledetails/ma1ef9hs.html",
           "publishedOn": "2023-03-10T07:19:51.000Z",
-          "wordCount": 1236,
+          "wordCount": 1244,
           "title": "速览PancakeSwap近期更新与V3：引入做市商、降低交易费用、激励交易量",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/10/images/669X1zH8m5.png"
         },
