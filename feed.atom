@@ -2,16 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T03:08:15.698Z</updated>
+    <updated>2023-03-11T03:16:49.763Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[华尔街日报：Meta计划进一步裁员，规模将与去年大致相当]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ubs1h24c.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ubs1h24c.html"/>
+        <updated>2023-03-11T03:14:16.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据华尔街日报报道，知情人士透露，Meta计划在未来几个月分多轮宣布进一步裁员，裁员规模将与去年裁员13%的规模大致相当。知情人士说，第一波裁员预计将于下周宣布，非工程类职位可能受到的冲击尤其严重。与此同时，预计Meta还将关闭一些项目和团队。知情人士称，将被削减的项目包括Meta的硬件和元宇宙部门Reality Labs中的可穿戴设备项目，这表明短期内Meta将放弃推广虚拟现实和增强现实产品，而将其作为长期的研究工作。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[马斯克：对推特收购硅谷银行持开放态度]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/tz4xhuao.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/tz4xhuao.html"/>
         <updated>2023-03-11T03:07:13.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月11日消息，雷蛇联合创始人兼首席执行官陈民亮（Min-Liang Tan）推特发文称，认为推特应该收购硅谷银行，并成为一家数字银行。特斯拉首席执行官马斯克回复称，他对这个观点持开放态度。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马斯克：对推特收购硅谷银行持开放态度]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/tz4xhuao.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/tz4xhuao.html"/>
+        <updated>2023-03-11T03:07:13.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，雷蛇联合创始人兼首席执行官陈民亮（Min-Liang Tan）推特发文称，认为推特应该收购硅谷银行，并成为一家数字银行。特斯拉首席执行官马斯克回复称，他对这个观点持开放态度。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dYdX：不会假设USDC等同于USD，交易者不会因USDC-USD价格变化而被平仓]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/7q60i7o4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/7q60i7o4.html"/>
+        <updated>2023-03-11T03:04:10.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，去中心化衍生品交易平台dYdX在推特发文表示，鉴于最近围绕硅谷银行发生的事件，dYdX决定将继续以USDC的实际美元价格来运行，不会假设USDC等同于美元USD。在USDC与美元脱钩的情况下，所有以USDC支付的头寸、抵押品和融资以美元计算的价值都会下降。交易者不会因USDC-USD价格变化而被平仓。融资支付将继续正常运作，交易者以USDC的实际价值进行支付。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -3490,38 +3520,6 @@ ERC-4337如何运行？
         <updated>2023-03-10T03:45:05.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月10日消息，有用户向PANews反应，SushiSwap旗下借贷产品Kashi内的用户资金无法提取，且有用户在1月初在Sushi治理论坛上发布提案，称有人利用预言机不更新价格，导致抵押品价值降低。该用户提议用金库补偿损失，并预计此次预言机利用事件总损失可能在2万到3万美元之间，他认为考虑到Sushi获得了Kashi部分利润，并且故意将被黑的Kashi池在线保留了几个月，因此Sushi负有一些责任。不过该提案直至现在仍被搁置。
 此外，派盾今日在推特上披露了一笔Kashi于7个多小时前旧预言机被利用的交易，并提醒SushiSwap，但如今日早些时候消息所述，SushiSwap表示，Kashi去年12月已被弃用，请用户尽快取款，以作为对此次事件的回应。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美SEC主席撰文：加密公司要么在法律范围内开展工作，要么就别做]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/zr6hz85c.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/zr6hz85c.html"/>
-        <updated>2023-03-10T03:36:33.000Z</updated>
-        <summary type="html"><![CDATA[作者：美国证券交易委员会主席 Gary Gensler
-编译：比推BitpushNews Mary Liu
-当我在麻省理工学院教授关于区块链和货币的课程时，每个学期都会问学生一个问题：“在你们心中谁是中本聪”？
-时至今日，无人知晓。 中本聪的匿名身份是没有可信认第三方的新式金融的一部分–一种在互联网上转移价值的新方式，其目标是没有政府或银行等中央中介机构监督。
-然而，自古以来，金融世界就建立在信任和法治之上。 此外，从银行到证券交易所，金融已经趋向于中心化、集中化和相互关联。
-加密市场也不例外，它有许多“值得信赖的”（尽管不合规）中介。 如今，加密行业由少数交易、借贷、质押和其他金融中介机构主导，投资大众相信这些实体会对投资者的资产负责，据CryptoCompare整理的数据显示，三大加密交易平台据称占所有交易量的近四分之三。
-加密企业家可能会在他们自己的营销PPT中声称他们是透明和受监管的。 但请不要误解：很少一部分（如果有的话）参与者真正在美国证券交易委员会（SEC）注册并完全遵守联邦证券法。
-缺乏合规性会使投资者来之不易的资产面临风险。 投资者缺乏关于加密资产本身以及执行交易和托管资产的公司的基本信息披露：公司对客户资产做了什么？ 他们如何为承诺的回报提供资金？ 他们把手伸进了投资者的口袋吗？ 当您购买或出售代币时，您的对手方是不是一个交易中介？ 防止操纵和欺诈的规则是什么？
-没有披露和其他投资者保护，我们根本不知道。
-整体来看，这些公司总是说“相信我们”。 更重要的是，当公司破产时（最近很多公司都破产了），他们会求助于破产法庭来解决他们的烂摊子。 考虑到中本聪的最初设想——从本质上讲，代码就是法律——这有点讽刺。
-作为美国证券交易委员会主席，我在加密市场方面有一个目标：确保投资者和市场获得他们在任何其他证券市场中所能获得的所有保护。
-首先，中介机构和代币应自行适当地合规。 加密中介的业务结构应符合我们监管证券交易所、经纪自营商和票据交换所的法律； 他们可以制定防止欺诈和操纵的规则手册。 加密证券发行方应提交注册声明并进行必要的披露。
-这些是证券市场上其他参与者几十年来一直遵循的规则。
-我认为证券法缺乏明确性这一论点没有说服力，一些加密公司可能会表示法律不够明确，而不是承认他们的平台没有足够的投资者保护。
-我们已经很清楚，大多数由企业家背书的加密代币，以及其他特征，使它们很可能被归类为证券。 我们已经清楚借贷和质押平台如何受到证券法的约束。 我们已经明确表示，上市加密证券的平台必须在 SEC 注册。 此外，证券法明确规定，这些平台不得将功能组合在一个单一的保护伞下，这会给投资者带来冲突和风险。
-提供交易、借贷或质押即服务的加密公司的一个共同特征是，它们通常要求用户将对其加密资产的控制权交给平台（不是你的密钥，不是你的代币）。 因此，SEC的工作人员已经清楚公司应该如何为代替用户持有的加密资产进行会计处理，并且工作人员已经就加密资产市场参与者最近的破产和财务困境导致的披露义务提供了指导。
-我们也很清楚，根据加密平台的一般运作方式，投资顾问今天不能依赖它们作为合格的托管人。 我们还提出了规则，要求所有通过投资顾问投资的资产，包括非基金或证券的加密资产，都由合格的托管人托管。
-不过，坦率地说，加密中介机构并没有完全在SEC注册并遵守国会颁布的法律，也许他们的商业模式本来就是不合规的。 一些情形下，有些参与者寻求的是对不合规活动的批准，而不是改变一个根本不合规、充满冲突的商业模式。
-当然，我们的另一个工具是通过调查和执法行动根除违规行为。
-SEC 已成功提起或解决了 100 多起针对加密中介机构和代币发行人的案件，其中包括一些经营庞氏骗局或金字塔计划、从事非法兜售或实施其他形式欺诈的案件。 我们最近对 FTX 首席执行官和其他高管以及 Terraform 及其创始人提出了欺诈指控。
-执法行动需要时间和资源。 这在加密货币领域尤其如此，因为公司通常不合作，尽管向美国投资者提供产品但仍主张海外管辖权，并且有充足的资金来应对旷日持久的诉讼，包括可能使用投资者在其平台内和平台上筹集的资金。 然而，我们将坚定不移地履行我们的使命，根除市场上的不当行为。
-一些人批评美国证券交易委员会提起诉讼（甚至只是调查）加密发行人和中介机构的行为。 有人说，我们应该让创新蓬勃发展，否则就是将创新推向海外。 但放弃投资者保护会使人们的毕生积蓄面临风险。 执法是一种工具，而不是目的，目标是让市场参与者遵守法律和规则，并保护我们的“客户”：美国投资者。
-事实是这样的：即使中本聪的身份不为人知，规范加密的法条却是清晰的，加密公司要么在法律范围内开展工作，要么就别做。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
