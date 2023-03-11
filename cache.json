@@ -307,7 +307,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 989,
+          "wordCount": 1006,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Risc Zero 是一个建立在 RISC-V 指令集架构之上的 zkVM，用 Rust 语言编写，底层证明系统是 zk-STARKs。此外，他们还构建了自己的被称为 Bonsai Network 的 L2。在与零知识证明开发者进行交谈后，Matrixport Ventures 前投资总监 Alex 撰文概述了他看好 RISC Zero 的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">https://twitter.com/looksrare_eth/status/1633204560977342464</a></p>\n<p><strong>文章作者：</strong></p><p>Alex</p><hr><h3>观点：</h3><p><strong>Alex：</strong>开发人员将会从以下三个方面获益：1）RISC-V ISA 中优化的 ZK 电路，无需担心证明大小及 Gas 成本等问题；2）RISC-V 生态系统中的一系列库；3）更多的语言支持，例如 Go 和 C++，编译器将于一季度结束时推出。此外，开发人员还能够在 RiscZero zkVM 内运行 EVM。【原文为英文】</p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">内容来源</a><p><strong>Alex：</strong>用例：1）Rollup 公司探索使用 RiscZero 证明器以提供速度更快的可定制 Rollup；2）开发者在数据或中间件领域进行构建，探索数据中继的零知识证明用例；3）链上游戏：战略游戏、纸牌游戏等也可以使用 RiscZero 虚拟机编写零知识证明；4）项目可使用 ZKP Powered 证明工作输出或结果而无需透露用户数据；5） 还适用于无人机、位置服务和物联网公司等领域。【原文为英文】</p><a href=\"https://twitter.com/looksrare_eth/status/1633204560977342464\">内容来源</a>",
           "link": "https://twitter.com/looksrare_eth/status/1633204560977342464",
           "publishedOn": "2023-03-09T04:13:05.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Matrixport Ventures 前投资总监：为什么看好 RISC Zero？",
           "imageUrl": null
         },
@@ -607,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6\">https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6</a></p>\n<p><strong>文章作者：</strong></p><p>mugglesect</p><hr><h3>观点：</h3><p><strong>mugglesect：</strong>Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】</p><a href=\"https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6\">内容来源</a><p><strong>mugglesect：</strong>需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】</p><a href=\"https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6\">内容来源</a>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6",
           "publishedOn": "2023-03-08T07:08:27.000Z",
-          "wordCount": 5204,
+          "wordCount": 5206,
           "title": "【英文】Gearbox V2 复盘：现状、评估与改进",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*n5WzDNeQFiA1SzfIPiZgfw.jpeg"
         },
@@ -627,7 +627,7 @@
           "description": "<h3>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</h3>\n<p>据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。</p>\n<p><a href=\"https://twitter.com/PeckShieldAlert/status/1633331896083181570\">内容来源</a></p><hr><h3>观点：</h3><p><strong>glassnode：</strong>约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】</p><a href=\"https://twitter.com/glassnode/status/1633243962457878538\">内容来源</a>",
           "link": "https://twitter.com/PeckShieldAlert/status/1633331896083181570",
           "publishedOn": "2023-03-08T06:56:33.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址",
           "imageUrl": null
         },
@@ -727,7 +727,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5390,
+          "wordCount": 5421,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Derivio 是基于预言机的通用衍生品平台，其提供真实收益并引入市场中性（Market Neutral）流动性，旨在解决当前基于预言机的衍生模型的主要缺陷，以在所有市场条件下更好地保护流动性提供者。DeFi 研究员 Midoji 撰推详细介绍 Derivivo，剖析其给交易者和 LP 带来何种便利，以及其与竞品不同之处在哪。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">https://twitter.com/midoji7/status/1632764263004778498</a></p>\n<p><strong>文章作者：</strong></p><p>Midoji</p><hr><h3>观点：</h3><p><strong>Midoji：</strong>Derivio 推出带有永续和数字期权（二元期权）的产品，涵盖广泛的资产：代币、外汇、NFT 和大宗商品。从交易者的角度看，它带来了一整套衍生品和深度的流动性，从 LP 的角度看，它提供了资本保护和真实收益。增强了交易者和 LP 之间的良性循环，促进了流动性的有机增长。【原文为英文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a><p><strong>Midoji：</strong>是什么让它与众不同？1）大多数基于预言机的去中心化交易所在多头 / 空头头寸之间缺乏平衡，使它们容易受到市场波动的影响。Derivio 引入市场中性流动性，如果交易者将市场推向极端，它会促进相反方向的套利机会，从而导致中性押注。由于流动资金池作为交易对手，它们的风险敞口趋于市场中性。【原文为中文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a><p><strong>Midoji：</strong>2）在永续期权市场中性流动性方面，Derivio 引入了资金率，即使用多空比率 (LSR) 和借款利率计算，保护池子免受多头 / 空头不平衡的影响，解决永续 DEX 的交易者抽空池子和操纵滑点两个主要问题。3）在数字期权市场中性流动性方面，其支出是一个 LSR 的函数。通过平衡 LSR，交易者支出更加公平，流动性受到保护。4）取决于投资者的风险厌恶程度，Derivio 将为其提供 3 种不同的风险调整池。【原文为英文】</p><a href=\"https://twitter.com/midoji7/status/1632764263004778498\">内容来源</a>",
           "link": "https://twitter.com/midoji7/status/1632764263004778498",
           "publishedOn": "2023-03-07T10:09:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文解读引入「市场中性」流动性的衍生品平台：Derivio",
           "imageUrl": null
         },
@@ -827,7 +827,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1004,
+          "wordCount": 995,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -847,7 +847,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Gnosis 联合创始人 Martin Köppelmann 在 EthDenver 发表了《The Limits of L2》的演讲，他的观点很快引起了广泛讨论，且质疑的声音颇多。ChainCatcher 结合一些推特用户的观点和评论，对《The Limits of L2》的核心观点和驳斥点做了简要整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088732\">https://www.chaincatcher.com/article/2088732</a></p>\n<p><strong>文章作者：</strong></p><p>flowie（ChainCatcher 作者）</p><hr><h3>观点：</h3><p><strong>flowie（ChainCatcher 作者）：</strong>观点一：L2 几大根本问题 1）不适合状态膨胀的应用。反驳：Rollup 并没有使用 L1 的状态，只是使用了 L1 的 DA（数据可用性），恰恰降低了 L1 的状态占用。2）Gas 消耗不一定能做到大幅降低。反驳：没有任何一条链（L1 或 L2）能够保证低于一美分的交易。Rollup 的 Gas 费与 L1 的 DA 吞吐能力强相关，是一个可优化的点。3）L2 资产退出问题。反驳：分层网络原本即为各层按其所职，当用户在执行层可以满足需求，为何还要回到结算层？4）有些 APP 无法被 rollup。反驳：此论据存在技术知识硬伤，应该先理清楚 Data Availability 和状态存储的区别，再思考这些应用是不是无法被 Rollup。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a><p><strong>flowie（ChainCatcher 作者）：</strong>观点二：新的扩容方案：Ethereumverse。质疑：一是虽然 L2 当下存在很多问题，但也不能否认 L2 对于绝大多数用例提供了更好的可扩展性 / 安全性 / 互操作性。二是 L2 存在的问题，并不能通过启动一堆新的 L1 执行层来解决。</p><a href=\"https://www.chaincatcher.com/article/2088732\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088732",
           "publishedOn": "2023-03-07T07:41:34.000Z",
-          "wordCount": 1229,
+          "wordCount": 1246,
           "title": "EthDenver 最新演讲《L2 的局限性》引热议，大家都在争论什么？",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230306/1678103857609185.jpg"
         },
@@ -957,7 +957,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807444\">https://www.defidaonews.com/article/6807444</a></p>\n<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href=\"https://www.defidaonews.com/article/6807444\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807444",
           "publishedOn": "2023-03-07T02:49:37.000Z",
-          "wordCount": 742,
+          "wordCount": 744,
           "title": "Blur 是 NFT 的流动性陷阱吗？",
           "imageUrl": "https://appserversrc.8btc.cn/lqIRdY-_zIQLux3isSjTw0tDnl0C.png?imageView2/1/w/500/h/300"
         },
@@ -7488,7 +7488,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1826,
+          "wordCount": 1823,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
