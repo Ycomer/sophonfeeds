@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T03:40:44.909Z</updated>
+    <updated>2023-03-11T03:45:56.955Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -86,6 +86,18 @@ FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美�
         <summary type="html"><![CDATA[PANews 3月11日消息，据华尔街日报报道，知情人士透露，Meta计划在未来几个月分多轮宣布进一步裁员，裁员规模将与去年裁员13%的规模大致相当。知情人士说，第一波裁员预计将于下周宣布，非工程类职位可能受到的冲击尤其严重。与此同时，预计Meta还将关闭一些项目和团队。知情人士称，将被削减的项目包括Meta的硬件和元宇宙部门Reality Labs中的可穿戴设备项目，这表明短期内Meta将放弃推广虚拟现实和增强现实产品，而将其作为长期的研究工作。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？]]></title>
+        <id>https://twitter.com/ipor_intern/status/1634071620498382851</id>
+        <link href="https://twitter.com/ipor_intern/status/1634071620498382851"/>
+        <updated>2023-03-11T03:10:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>
+<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -203,7 +215,7 @@ FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美�
         <updated>2023-03-11T02:07:23.000Z</updated>
         <summary type="html"><![CDATA[<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>
 <p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>
-<p><a href="https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href="https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href="https://twitter.com/circle/status/1634341007306248199">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href="https://twitter.com/JinzeJiang0x0/status/1634354229593751553">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href="https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1634304670184222722">内容来源</a>]]></summary>
+<p><a href="https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href="https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href="https://twitter.com/circle/status/1634341007306248199">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href="https://twitter.com/JinzeJiang0x0/status/1634354229593751553">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href="https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href="https://twitter.com/paoloardoino/status/1634304670184222722">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href="https://twitter.com/TechFlowPost/status/1634387898077437954">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href="https://twitter.com/circle/status/1634391505988206592">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -10683,20 +10695,6 @@ Wallet Profile
 "我们肯定会先看他们的钱包里是否持有任何代币。这不是关于他们有多少资产的问题，"Alison说。但通常，当人们完全没有资产时，他们很可能是那种为了获得空投而做任务的人。他们不一定关心产品，他们只是想得到免费的东西。我们还看他们是否从钱包中活跃起来。"]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖已结束，最高出价 7.1159 BTC]]></title>
-        <id>https://twitter.com/yugalabs/status/1632878847778512898</id>
-        <link href="https://twitter.com/yugalabs/status/1632878847778512898"/>
-        <updated>2023-03-07T02:22:26.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Yuga Labs 比特币 NFT 系列 TwelveFold 拍卖已结束，最高出价 7.1159 BTC</h3>
-<p>Yuga Labs 发推文宣布，基于 Ordinal 协议的 NFT 系列 TwelveFold 拍卖已经结束，前 288 名投标人将在一周内收到铭文。未排在前 288 位的有效投标者将在 24 小时内收到退回的投标金额。
-官方数据显示，排名前 288 位的出价均在 2 BTC 以上，最高出价为 7.1159  BTC。
-TwelveFold 拍卖于北京时间 3 月 6 日 7:00 开始，持续约 24 小时，将根据拍卖结束前最后完成的区块时间确定。总共将拍卖 288 件 TwelveFold，并在拍卖结束时发送给出价最高的 288 名中标者。</p>
-<p><a href="https://twitter.com/yugalabs/status/1632878847778512898">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
