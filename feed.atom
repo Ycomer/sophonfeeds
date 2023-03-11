@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T08:30:15.976Z</updated>
+    <updated>2023-03-11T08:36:11.563Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一用户卖出208万USDC却仅收到0.05USDT，因未设置滑点且遭MEV攻击]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/nfonvx83.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/nfonvx83.html"/>
+        <updated>2023-03-11T08:29:16.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，在加密市场大举抛售USDC和相关稳定币时，一个USDC用户将所持有的200万USDC在链上兑换成USDT时，却因未设置滑点，意外地被一个MEV机器人在支付了45美元Gas费和3.9万美元的MEV贿赂金后净赚了204.5万美元的利润，这导致该用户交易了208万枚USDC却仅收到了0.05枚USDT。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一用户卖出208万USDC却仅收到0.05USDT，因未设置滑点且遭MEV攻击]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/nfonvx83.html</id>
