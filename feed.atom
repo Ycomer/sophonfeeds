@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T04:01:43.720Z</updated>
+    <updated>2023-03-11T04:09:37.162Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[0xScope：过去24小时USDC遭到大规模恐慌提现和销毁]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/boicm0ri.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/boicm0ri.html"/>
+        <updated>2023-03-11T04:02:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，0xScope推特发文称，USDC正在脱钩，统计数据显示了大规模恐慌提现/销毁。其中过去24小时内76.6亿 USDC从CEX取款，Jump套现了1.5亿 USDC，Wintermute/FalconX将USDC存入Coinbase，过去24小时内24亿USDC被销毁。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Coinbase将暂停USDC至USD的转换服务，计划周一重启]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/0s4yw2hm.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/0s4yw2hm.html"/>
@@ -3260,18 +3270,6 @@ Read the full entry]]></summary>
 Read the full entry]]></summary>
         <author>
             <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hedera：黑客攻击了主网智能合约服务代码，正在研究解决方案]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/xko1yutl.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/xko1yutl.html"/>
-        <updated>2023-03-10T05:38:11.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月10日消息，Hedera披露攻击细节，攻击者对Hedera主网的智能合约服务代码进行攻击，将部分用户账户持有的Hedera Token Service代币转移到自己的账户中。攻击者的目标是在多个DEX上用作流动性池的账户，这些DEX使用Uniswap V2派生的合约代迁移过来使用Hedera Token Service，包括Pangolin Hedera、SaucerSwap和HeliSwap。当攻击者将通过攻击获得的代币移动到Hashport Network Bridge时，Bridge运营者检测到该活动并迅速采取行动将其禁用。
-为了防止攻击者窃取更多代币，Hedera已关闭主网代理，这会移除用户对主网的访问权限。Hedera团队已确定问题的根本原因并正在研究解决方案。 一旦解决方案准备就绪，Hedera委员会成员将签署交易以批准在主网上部署更新代码以消除此漏洞，届时将重新开放主网代理并允许恢复正常活动。
-此前昨日消息，Hedera官方披露其智能合约出现异常状况并正进行调查，今日早些时候消息，Hedera称已关闭主网网络代理。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
