@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T04:46:10.896Z</updated>
+    <updated>2023-03-11T04:51:25.520Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pantera Capital最近在硅谷银行持有资产]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html"/>
+        <updated>2023-03-11T04:44:01.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据CoinDesk报道，根据上个月的一份监管文件，加密风投巨头Pantera Capital最近在硅谷银行（SVB）持有资产。在2月3日的ADV表格中，Pantera将SVB列为其私人基金的三家托管人之一，另外两家是BitGo和加密交易所Coinbase的托管服务。在联合首席投资官Joey Krug离职后，Pantera上个月重组了高管层。该公司今年1月透露，其流动性代币基金在2022年亏损80%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pantera Capital最近在硅谷银行持有资产]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html</id>
@@ -69,6 +79,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？]]></title>
+        <id>https://twitter.com/mindaoyang/status/1634385755593383936</id>
+        <link href="https://twitter.com/mindaoyang/status/1634385755593383936"/>
+        <updated>2023-03-11T04:05:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>
+<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【英文长推】Messari：Ordinals 给比特币带来新的叙事]]></title>
         <id>https://twitter.com/MessariCrypto/status/1634214275010162688</id>
         <link href="https://twitter.com/MessariCrypto/status/1634214275010162688"/>
@@ -76,6 +98,30 @@
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>
 <p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Messari：Ordinals 给比特币带来新的叙事]]></title>
+        <id>https://twitter.com/MessariCrypto/status/1634214275010162688</id>
+        <link href="https://twitter.com/MessariCrypto/status/1634214275010162688"/>
+        <updated>2023-03-11T04:05:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>
+<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"/>
+        <updated>2023-03-11T04:02:26.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>
+<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -110,6 +156,18 @@
         <summary type="html"><![CDATA[PANews 3月11日消息，0xScope推特发文称，USDC正在脱钩，统计数据显示了大规模恐慌提现/销毁。其中过去24小时内76.6亿 USDC从CEX取款，Jump套现了1.5亿 USDC，Wintermute/FalconX将USDC存入Coinbase，过去24小时内24亿USDC被销毁。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化稳定币战争：谁能夺得加密货币的圣杯]]></title>
+        <id>https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</id>
+        <link href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg"/>
+        <updated>2023-03-11T03:59:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行暴雷事件引起连锁反应，市场出现对一些稳定币的恐慌。在中心化监管的威胁步步逼近的时代，是否去中心化是稳定币重要的属性。AC Capital Research 从稳定币去中心化的可行性、必要性入手，分析稳定币赛道的产业结构，对算稳之争进行解读。认为目前任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</a></p>
+<p><strong>文章作者：</strong></p><p>AC Capital</p><hr><h3>观点：</h3><p><strong>AC Capital：</strong>为什么稳定币要去中心化？1）可行性：去中心化的货币是货币的源头。货币是可以去中心化的。2）必要性：中心化的稳定币没有铸币权，且承受中心化的威胁，去中心化稳定币拥有固有市场。但没有规模就无法经济上持续经营，拥有规模却面临中心化权力的干涉风险。这就是稳定币的伊卡洛斯之翼。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>产业结构：1）根据流动性强弱分为高能货币和广义货币。USDC、USDT 就已经占领了稳定币世界里的高能货币的职位。绝大多数依靠绑定高能货币提供流动性的稳定币，其实只是提供类似传统金融市场里的广义货币。2）稳定币、借贷，殊途同归。从功能上，Alt-stablecoin 生成机制 + 交易对 = 超额抵押借贷。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>稳定性创造方法：1）再平衡稳定币；2）限制流通稳定币；3）铸币稳定币；4）超额抵押稳定币。稳定锚的选择：1）传统世界的货币；2）自定义指数。算稳战争：1）包含中心化风险的算稳赛道，其中蓝海的「鲶鱼」是 Curve 和 AAVE，老牌算稳龙头则是 MakerDAO 和 FRAX。2）完全去中心化算稳赛道，Liquity、Inverse.finance、RAI。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>总结：去中心化稳定币赛道，1）市场份额小，市场依旧处于发展初期，道路渺茫，但充满希望；2）去中心化稳定币拥有固有的市场；3）任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
