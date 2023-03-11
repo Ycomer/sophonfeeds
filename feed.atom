@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T07:42:02.525Z</updated>
+    <updated>2023-03-11T07:47:09.245Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -83,6 +83,18 @@ USDC真正暴雷需要满足三个条件：
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？]]></title>
+        <id>https://www.techflowpost.com/article/2219</id>
+        <link href="https://www.techflowpost.com/article/2219"/>
+        <updated>2023-03-11T07:17:40.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.techflowpost.com/article/2219">https://www.techflowpost.com/article/2219</a></p>
+<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[StarkNet 创新项目一览：开发者/艺术家/玩家有哪些新机会？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/j932f7651qd4.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/j932f7651qd4.html"/>
@@ -196,6 +208,18 @@ Cartridge
 根据央行等部门发布的《关于进一步防范和处置虚拟货币交易炒作风险的通知》，本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规，不参与任何非法金融行为。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】以太坊生态周报：Shapella 升级、ACDC 会议、MEV-Boost 指南......]]></title>
+        <id>https://weekinethereumnews.com/week-in-ethereum-news-march-11-2023/</id>
+        <link href="https://weekinethereumnews.com/week-in-ethereum-news-march-11-2023/"/>
+        <updated>2023-03-11T07:03:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>速览以太坊生态系统、开发及应用一周重要讯息。本周重点内容：更新 Goerli 测试网节点以为 3 月 14 日 Shapella 升级做准备；MEV-Boost 指南更新，包括 Shapella Goerli 升级推荐版本；104 次 ACDC 会议：关于 Blob 签名 API、SSZ 及 Verge 规范草案的讨论；EIP4844 实施者电话记录。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://weekinethereumnews.com/week-in-ethereum-news-march-11-2023/">https://weekinethereumnews.com/week-in-ethereum-news-march-11-2023/</a></p>
+<p><strong>文章作者：</strong></p><p>abcoathup.eth</p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -10328,30 +10352,6 @@ Arbitrum生态链最火阶段已过，fomo情绪或不足。
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL Doggfather 认为 TwelveFold 的拍卖机制进行了最大价值提取，Yuga 正在最大化他们的短期收入，这会导致很多潜在的抛售压力。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/doggfathercrew/status/1632718700309540866">https://twitter.com/doggfathercrew/status/1632718700309540866</a></p>
 <p><strong>文章作者：</strong></p><p>DoggfatherCrew</p><hr><h3>观点：</h3><p><strong>DoggfatherCrew：</strong>在股票市场上，新股通过建仓出售。对于可以以价格 p * 出售的特定供应量 s*，销售价格被降低到 p**，以保证上市后的价格正向发展，所以收入 = 绿色区域面积。也可以收取市场清算价格 p*，收入 = 绿色 + 黄色区域面积。然而，Yuga 收取全部 BTC 出价，范围从 p_max 到 p*，收入 = 绿色 + 黄色 + 红色区域面积。这意味着 Yuga 正在最大化他们的短期收入，根据最新出价：绿色 + 黄色区域收益 = 19 BTC，绿色 + 黄色 + 红色区域收益 = 54.5 BTC。【原文为英文】</p><a href="https://twitter.com/doggfathercrew/status/1632718700309540866">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】观点：TwelveFold 的拍卖机制值得引起警惕]]></title>
-        <id>https://twitter.com/doggfathercrew/status/1632718700309540866</id>
-        <link href="https://twitter.com/doggfathercrew/status/1632718700309540866"/>
-        <updated>2023-03-07T05:45:54.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL Doggfather 认为 TwelveFold 的拍卖机制进行了最大价值提取，Yuga 正在最大化他们的短期收入，这会导致很多潜在的抛售压力。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/doggfathercrew/status/1632718700309540866">https://twitter.com/doggfathercrew/status/1632718700309540866</a></p>
-<p><strong>文章作者：</strong></p><p>DoggfatherCrew</p><hr><h3>观点：</h3><p><strong>DoggfatherCrew：</strong>在股票市场上，新股通过建仓出售。对于可以以价格 p * 出售的特定供应量 s*，销售价格被降低到 p**，以保证上市后的价格正向发展，所以收入 = 绿色区域面积。也可以收取市场清算价格 p*，收入 = 绿色 + 黄色区域面积。然而，Yuga 收取全部 BTC 出价，范围从 p_max 到 p*，收入 = 绿色 + 黄色 + 红色区域面积。这意味着 Yuga 正在最大化他们的短期收入，根据最新出价：绿色 + 黄色区域收益 = 19 BTC，绿色 + 黄色 + 红色区域收益 = 54.5 BTC。【原文为英文】</p><a href="https://twitter.com/doggfathercrew/status/1632718700309540866">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新项目前瞻 | 获 a16z 领投 1100 万美元的加密指数平台 Alongside]]></title>
-        <id>https://foresightnews.pro/article/detail/27237</id>
-        <link href="https://foresightnews.pro/article/detail/27237"/>
-        <updated>2023-03-07T05:41:05.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Alongside 是一个加密指数平台，允许投资者通过指数投资加密货币。目前获得了 a16z 领投的 1100 万美元的融资，Coinbase Ventures、Franklin Templeton Investments 等参投。ForesightNews 作者 Leah Yuan 从资产组合、指数组成变动规则、团队背景等方面介绍了此项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/27237">https://foresightnews.pro/article/detail/27237</a></p>
-<p><strong>文章作者：</strong></p><p>Leah Yuan（ForesightNews 作者）</p><hr><h3>观点：</h3><p><strong>Leah Yuan（ForesightNews 作者）：</strong>出于合规性和安全性考虑， AMKT 仅支持 25 种加密资产组合，包含按自由流通市值加权的方式排名前 25 位的数字货币，旨在追踪加密货币的市场趋势。为保障 AMKT 指数的稳定性，正确反映市场的发展趋势，AMKT DAO 会对代币组成进行阶段性的重新平衡与重组。</p><a href="https://foresightnews.pro/article/detail/27237">内容来源</a><p><strong>Leah Yuan（ForesightNews 作者）：</strong>关于 Alongside 的发展，Diamond 表示，未来 Alongside 将考虑推出 DeFi 或 Layer2 概念的指数产品。CoinGecko 统计的数据显示，当前链上指数协议板块总市值仅有约 8019 万美元，市场竞争者较少。相对于传统的指数产品，链上指数因管理资产较少，在代表性和稳定性等方面仍有较大的发展空间。但总的来说，由于选择的便捷性和可观的长期收益，该赛道的巨大潜力不容忽视。</p><a href="https://foresightnews.pro/article/detail/27237">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
