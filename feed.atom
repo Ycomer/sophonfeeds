@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T04:40:51.730Z</updated>
+    <updated>2023-03-11T04:46:10.896Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[Pantera Capital最近在硅谷银行持有资产]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html"/>
+        <updated>2023-03-11T04:44:01.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据CoinDesk报道，根据上个月的一份监管文件，加密风投巨头Pantera Capital最近在硅谷银行（SVB）持有资产。在2月3日的ADV表格中，Pantera将SVB列为其私人基金的三家托管人之一，另外两家是BitGo和加密交易所Coinbase的托管服务。在联合首席投资官Joey Krug离职后，Pantera上个月重组了高管层。该公司今年1月透露，其流动性代币基金在2022年亏损80%。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[数据：稳定币DAI已脱锚，现报0.94美元，24小时跌幅6%]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/f7nmtcj9.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/f7nmtcj9.html"/>
@@ -47,6 +57,42 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？]]></title>
+        <id>https://twitter.com/mindaoyang/status/1634385755593383936</id>
+        <link href="https://twitter.com/mindaoyang/status/1634385755593383936"/>
+        <updated>2023-03-11T04:05:50.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>
+<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Messari：Ordinals 给比特币带来新的叙事]]></title>
+        <id>https://twitter.com/MessariCrypto/status/1634214275010162688</id>
+        <link href="https://twitter.com/MessariCrypto/status/1634214275010162688"/>
+        <updated>2023-03-11T04:05:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>
+<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"/>
+        <updated>2023-03-11T04:02:26.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>
+<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[0xScope：过去24小时USDC遭到大规模恐慌提现和销毁]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/boicm0ri.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/boicm0ri.html"/>
@@ -64,6 +110,18 @@
         <summary type="html"><![CDATA[PANews 3月11日消息，0xScope推特发文称，USDC正在脱钩，统计数据显示了大规模恐慌提现/销毁。其中过去24小时内76.6亿 USDC从CEX取款，Jump套现了1.5亿 USDC，Wintermute/FalconX将USDC存入Coinbase，过去24小时内24亿USDC被销毁。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去中心化稳定币战争：谁能夺得加密货币的圣杯]]></title>
+        <id>https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</id>
+        <link href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg"/>
+        <updated>2023-03-11T03:59:12.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行暴雷事件引起连锁反应，市场出现对一些稳定币的恐慌。在中心化监管的威胁步步逼近的时代，是否去中心化是稳定币重要的属性。AC Capital Research 从稳定币去中心化的可行性、必要性入手，分析稳定币赛道的产业结构，对算稳之争进行解读。认为目前任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</a></p>
+<p><strong>文章作者：</strong></p><p>AC Capital</p><hr><h3>观点：</h3><p><strong>AC Capital：</strong>为什么稳定币要去中心化？1）可行性：去中心化的货币是货币的源头。货币是可以去中心化的。2）必要性：中心化的稳定币没有铸币权，且承受中心化的威胁，去中心化稳定币拥有固有市场。但没有规模就无法经济上持续经营，拥有规模却面临中心化权力的干涉风险。这就是稳定币的伊卡洛斯之翼。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>产业结构：1）根据流动性强弱分为高能货币和广义货币。USDC、USDT 就已经占领了稳定币世界里的高能货币的职位。绝大多数依靠绑定高能货币提供流动性的稳定币，其实只是提供类似传统金融市场里的广义货币。2）稳定币、借贷，殊途同归。从功能上，Alt-stablecoin 生成机制 + 交易对 = 超额抵押借贷。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>稳定性创造方法：1）再平衡稳定币；2）限制流通稳定币；3）铸币稳定币；4）超额抵押稳定币。稳定锚的选择：1）传统世界的货币；2）自定义指数。算稳战争：1）包含中心化风险的算稳赛道，其中蓝海的「鲶鱼」是 Curve 和 AAVE，老牌算稳龙头则是 MakerDAO 和 FRAX。2）完全去中心化算稳赛道，Liquity、Inverse.finance、RAI。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>总结：去中心化稳定币赛道，1）市场份额小，市场依旧处于发展初期，道路渺茫，但充满希望；2）去中心化稳定币拥有固有的市场；3）任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3082,17 +3140,6 @@ AA ( 账户抽象 ) 的一些设计 (EIP4337) 已经接近完成，代码开发�
 <p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href="https://twitter.com/LlamaRisk/status/1633916033886199808">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta正探索用于文本更新的去中心化社交网络应用程序]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/vv35kcrs.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/vv35kcrs.html"/>
-        <updated>2023-03-10T05:58:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月10日消息，据路透社报道，Meta Platforms Inc (META.O)发言人周五表示，该公司正在探索一个独立的去中心化社交网络，用于共享文本更新，这可能是马斯克的Twitter的直接竞争对手。Meta发言人在一封电子邮件声明中表示：“我们正在探索一个独立的去中心化社交网络来分享文本更新。我们相信有机会创造一个独立的空间，让创作者和公众人物可以及时分享他们的兴趣。”
-当天早些时候，印度商业新闻网站Moneycontrol.com首先援引消息人士的话报道了这一消息。该报道称，Meta的新内容应用程序将支持ActivityPub，这是一种去中心化的社交网络协议，为Twitter的竞争对手Mastodon和其他联合应用程序提供支持。Meta的新应用程序将采用Instagram品牌，并允许用户通过他们的Instagram账号注册或登录。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -10428,30 +10475,6 @@ Meta发言人周一拒绝就这些计划置评。知情人士表示，一些员�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】Proof 研究总监：数据角度解析  CryptoPunk 上架 Blur 的影响]]></title>
-        <id>https://twitter.com/punk9059/status/1632865981440872448</id>
-        <link href="https://twitter.com/punk9059/status/1632865981440872448"/>
-        <updated>2023-03-07T03:43:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Proof 研究总监 NFTstatistics.eth 对 CryptoPunk 上架 Blur 前后的销量、地板价等数据进行了分析后表示，上架 Blur 或将为 Punks 带来流动性。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/punk9059/status/1632865981440872448">https://twitter.com/punk9059/status/1632865981440872448</a></p>
-<p><strong>文章作者：</strong></p><p>NFTStatistics.eth</p><hr><h3>观点：</h3><p><strong>NFTStatistics.eth：</strong>1）过去 18 个月内，Larva Labs 网站以外的 Punks 销量没有一周超过 10%，但上架 Blur 后，本周已经有 42% 的 Punks 销量来自 Larva Labs 网站以外；2） 96.8% 的 Punks 在 2023 年未被出售过，是蓝筹中最低的，但上架 Blur 后有 18 个 Punks 完成了 2023 年首次交易；【原文为英文】</p><a href="https://twitter.com/punk9059/status/1632865981440872448">内容来源</a><p><strong>NFTStatistics.eth：</strong>3）Punks 地板价已经超 220 天没有出现一周 10% 的波动，但上架 Blur 后，过去两天内，Punks 地板价上涨了 5.5%。鉴于地板价的稳定性，CryptoPunks 可能会成为 Blur 空投挖矿的对象；【原文为英文】</p><a href="https://twitter.com/punk9059/status/1632865981440872448">内容来源</a><p><strong>NFTStatistics.eth：</strong>上架 Blur 解决了 Larva Labs 网站存在的三个问题，更有助于收集 bid、有效使用 ETH 及解决了前端运行问题。这种对 Punks 的影响是中性或积极的，可能会为 Punks 带来流动性。当然也会有人反驳新的持有者只是为了炒作，但其中或许也会有几个长期持有者出现。【原文为英文】</p><a href="https://twitter.com/punk9059/status/1632865981440872448">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】新项目前瞻 | EVM 区块头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？]]></title>
-        <id>https://twitter.com/auryn_macmillan/status/1632696493525323778</id>
-        <link href="https://twitter.com/auryn_macmillan/status/1632696493525323778"/>
-        <updated>2023-03-07T03:16:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个更安全的桥梁端点必须只在多个底层机制之间达成共识后报告有效的消息，而不是完全依赖一个机制。Gnosis subDAO 成员 Auryn.eth 撰文概述了一个促进跨链安全的新机制 Hashi，并对其概念、特点及进展进行了解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">https://twitter.com/auryn_macmillan/status/1632696493525323778</a></p>
-<p><strong>文章作者：</strong></p><p>Auryn.eth Ĝ⌣Ĝ</p><hr><h3>观点：</h3><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 是一个 EVM 区块头预言机聚合器，旨在促进跨链安全的原则性方法，本质上而言，这是一种跨链桥的多重验证，每个跨链桥都被视为任何给定区块头的一个预言机，用户可以自己选择使用哪种组合，满足 m/n 条件即生效。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>Hashi 智能合约非常简单且容易审计，攻击面相对较小，用于在不同跨链桥之间分配信任。此外，Hashi 验证的是区块头而不是消息，这意味着 Hashi 可以用来验证任何执行环境下的链或层的状态，包括信标链。当然这也意味着需要在 Hashi 上构建另一种机制来验证状态或消息，Axiom 是我们在考虑的构建途径。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a><p><strong>Auryn.eth Ĝ⌣Ĝ：</strong>目前我们已经开始为 Gnosis Chain 的 ABM 和 Wormhole 跨链桥编写 Hashi 预言机适配器，并且收到了来自 ConnextNetwork 的编写适配器的请求。未来我们还将编写更多的适配器，包括为 Succinct、Dendreth 及 Norm 等。【原文为英文】</p><a href="https://twitter.com/auryn_macmillan/status/1632696493525323778">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文长推】新项目前瞻 | EVM 区块头预言机聚合器 Hashi：如何在安全机制层面为跨链桥分配信任？]]></title>
         <id>https://twitter.com/auryn_macmillan/status/1632696493525323778</id>
         <link href="https://twitter.com/auryn_macmillan/status/1632696493525323778"/>
@@ -10528,30 +10551,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://www.defidaonews.com/article/6807444">https://www.defidaonews.com/article/6807444</a></p>
 <p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href="https://www.defidaonews.com/article/6807444">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href="https://www.defidaonews.com/article/6807444">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blur 是 NFT 的流动性陷阱吗？]]></title>
-        <id>https://www.defidaonews.com/article/6807444</id>
-        <link href="https://www.defidaonews.com/article/6807444"/>
-        <updated>2023-03-07T02:49:37.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2023 年的第 1 季度即将结束。 对于 NFT 市场来说，2 月份的重头戏是 BLUR 代币的推出。Delphi Digital 研究员 Teng Yan 提炼出 2 月发生的主要事件，以及讨论了对 BLUR 代币发布的看法。本文由 DeFi 之道编译。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.defidaonews.com/article/6807444">https://www.defidaonews.com/article/6807444</a></p>
-<p><strong>文章作者：</strong></p><p>隔夜的粥（DeFi 之道）</p><hr><h3>观点：</h3><p><strong>隔夜的粥（DeFi 之道）：</strong>Blur 的大量流动性可能会开始逐渐减少。Blur 正在用其代币「支付」所有这些流动性，他们没有从口袋里掏一分钱，但他们已经能够使用他们的代币作为一种杠杆，使其平台交易量超过了 OpenSea。所有这些流动性都由在二级市场上购买 BLUR 代币的人补贴。</p><a href="https://www.defidaonews.com/article/6807444">内容来源</a><p><strong>隔夜的粥（DeFi 之道）：</strong>我认为 1）Blur 团队在不透露太多信息的情况下对下一次空投分发保密是明智的。这与 APR 透明的许多 DeFi 协议不同，它将额外的风险转移给流动性提供者，流动性提供者不得不忍受不确定性。2）第一次重大的流动性下降，可能是在 4 月 1 日的 bid/listing 积分奖励加倍结束时。Blur 挖矿存在真正的风险，对于没有先进工具的参与者来说，风险回报将不再值得。3）如果 BLUR 代币价格下跌（随着我们接近投资者解锁、注意力减弱或市场情绪波动），回报与风险比率将进一步下降，更多的流动性将离开。或者一些鲸鱼会因为获利足够而取消他们的出价。</p><a href="https://www.defidaonews.com/article/6807444">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lido 因发现影响 stMATIC 取款的错误暂时暂停在 Polygon 上的质押和提款功能]]></title>
-        <id>https://twitter.com/LidoFinance/status/1632783634192007168</id>
-        <link href="https://twitter.com/LidoFinance/status/1632783634192007168"/>
-        <updated>2023-03-07T02:44:22.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Lido 因发现影响 stMATIC 取款的错误暂时暂停在 Polygon 上的质押和提款功能</h3>
-<p>流动性质押协议 Lido 发布推特称，由于发现了一个影响 stMATIC 取款的错误，Lido 在 Polygon 的质押和提款功能已暂时暂停以进行故障排除。目前所有资金都是安全的，存取款将在未来几天内回复。Lido 表示，该问题发生在用户要求在多个节点之间分割大额提款时，排除故障期间，奖励不会累积，恢复正常运营后，将会发放追溯奖励。</p>
-<p><a href="https://twitter.com/LidoFinance/status/1632783634192007168">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>

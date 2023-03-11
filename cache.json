@@ -12,6 +12,46 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/mindaoyang/status/1634385755593383936",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a>",
+          "link": "https://twitter.com/mindaoyang/status/1634385755593383936",
+          "publishedOn": "2023-03-11T04:05:50.000Z",
+          "wordCount": 480,
+          "title": "【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/MessariCrypto/status/1634214275010162688",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
+          "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
+          "publishedOn": "2023-03-11T04:05:33.000Z",
+          "wordCount": 480,
+          "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/ma1ef9hs.html",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>\n<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a>",
+          "link": "https://www.panewslab.com/zh/articledetails/ma1ef9hs.html",
+          "publishedOn": "2023-03-11T04:02:26.000Z",
+          "wordCount": 1234,
+          "title": "速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/10/images/669X1zH8m5.png"
+        },
+        {
+          "id": "https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行暴雷事件引起连锁反应，市场出现对一些稳定币的恐慌。在中心化监管的威胁步步逼近的时代，是否去中心化是稳定币重要的属性。AC Capital Research 从稳定币去中心化的可行性、必要性入手，分析稳定币赛道的产业结构，对算稳之争进行解读。认为目前任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg\">https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</a></p>\n<p><strong>文章作者：</strong></p><p>AC Capital</p><hr><h3>观点：</h3><p><strong>AC Capital：</strong>为什么稳定币要去中心化？1）可行性：去中心化的货币是货币的源头。货币是可以去中心化的。2）必要性：中心化的稳定币没有铸币权，且承受中心化的威胁，去中心化稳定币拥有固有市场。但没有规模就无法经济上持续经营，拥有规模却面临中心化权力的干涉风险。这就是稳定币的伊卡洛斯之翼。</p><a href=\"https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg\">内容来源</a><p><strong>AC Capital：</strong>产业结构：1）根据流动性强弱分为高能货币和广义货币。USDC、USDT 就已经占领了稳定币世界里的高能货币的职位。绝大多数依靠绑定高能货币提供流动性的稳定币，其实只是提供类似传统金融市场里的广义货币。2）稳定币、借贷，殊途同归。从功能上，Alt-stablecoin 生成机制 + 交易对 = 超额抵押借贷。</p><a href=\"https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg\">内容来源</a><p><strong>AC Capital：</strong>稳定性创造方法：1）再平衡稳定币；2）限制流通稳定币；3）铸币稳定币；4）超额抵押稳定币。稳定锚的选择：1）传统世界的货币；2）自定义指数。算稳战争：1）包含中心化风险的算稳赛道，其中蓝海的「鲶鱼」是 Curve 和 AAVE，老牌算稳龙头则是 MakerDAO 和 FRAX。2）完全去中心化算稳赛道，Liquity、Inverse.finance、RAI。</p><a href=\"https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg\">内容来源</a><p><strong>AC Capital：</strong>总结：去中心化稳定币赛道，1）市场份额小，市场依旧处于发展初期，道路渺茫，但充满希望；2）去中心化稳定币拥有固有的市场；3）任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p><a href=\"https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg",
+          "publishedOn": "2023-03-11T03:59:12.000Z",
+          "wordCount": 9465,
+          "title": "去中心化稳定币战争：谁能夺得加密货币的圣杯",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/u4djZZhJa4UUntgCk1mxk0uWzVd9ZJXR2733LsDNjINFMY8MtVfS0ricgexyF7AXibBPlIbXE11lAia89HaiaAjHFg/0?wx_fmt=jpeg"
+        },
+        {
           "id": "https://twitter.com/ipor_intern/status/1634071620498382851",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a>",
@@ -47,7 +87,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 21063,
+          "wordCount": 21058,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -197,7 +237,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">https://twitter.com/LlamaRisk/status/1633916033886199808</a></p>\n<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a>",
           "link": "https://twitter.com/LlamaRisk/status/1633916033886199808",
           "publishedOn": "2023-03-10T06:18:13.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化",
           "imageUrl": null
         },
@@ -327,7 +367,7 @@
           "description": "<h3>纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营</h3>\n<p>纽约总检察长 Letitia James 对 KuCoin 提起诉讼，指控其未注册为证券和商品经纪商并谎称自己为交易所。通过该诉讼，Letitia James 寻求法院命令阻止 KuCoin 在纽约运营，并指示 KuCoin 根据 IP 地址和 GPS 定位实施地理封锁以阻止用户在纽约访问 KuCoin 移动应用程序、网站及服务。请愿书表示，ETH 就像 LUNA 和 UST 一样是一种投机性资产，因此 KuCoin 在进行销售之前需要进行注册。且 KuCoin 还以 KuCoin Earn 的形式出售未注册证券。此外，KuCoin 声称自己是一家交易所，但并没有在证券交易委员会注册为国家证券交易所，也没有按照纽约法律的要求由商品期货交易委员会适当指定，也没有遵守 OAG 发出的传票提供有关在该州的数字资产交易活动的更多信息。</p>\n<p><a href=\"https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Letitia James（纽约总检察长）：</strong>我的办公室正在对那些公然无视我们的法律并将投资者置于风险之中的加密货币公司采取行动，今天的行动是我们努力为该行业带来秩序的最新行动。所有纽约人和所有在纽约经营的公司都必须遵守我们州的法律和法规，而 KuCoin 在没有注册的情况下在纽约运营，我们不得不采取强有力的措施来追究他们的责任并保护投资者。【原文为英文】</p><a href=\"https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms\">内容来源</a>",
           "link": "https://ag.ny.gov/press-release/2023/attorney-general-james-continues-crackdown-unregistered-cryptocurrency-platforms",
           "publishedOn": "2023-03-10T01:26:43.000Z",
-          "wordCount": 2375,
+          "wordCount": 3279,
           "title": "纽约总检察长对 KuCoin 提起诉讼，并寻求法院命令阻止 KuCoin 在纽约运营",
           "imageUrl": "https://ag.ny.gov/sites/default/files/default_images/oag-website_1.png"
         },
@@ -637,7 +677,7 @@
           "description": "<h3>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</h3>\n<p>以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。\n\n对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。</p>\n<p><a href=\"https://twitter.com/optimismFND/status/1633122710032113665\">内容来源</a></p><hr>",
           "link": "https://twitter.com/optimismFND/status/1633122710032113665",
           "publishedOn": "2023-03-08T07:37:28.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本",
           "imageUrl": null
         },
@@ -807,7 +847,7 @@
           "description": "<h3>Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投</h3>\n<p>据 TechCrunch 报道，Solana 生态 NFT 交易平台 Tensor 完成了 300 万美元种子轮融资，由 Placeholder 领投， Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。Tensor 曾在 2022 年赢得两次 Solana 黑客松比赛，获得了大约 6 万至 7 万美元的奖金。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/",
           "publishedOn": "2023-03-07T12:46:41.000Z",
-          "wordCount": 10708,
+          "wordCount": 9804,
           "title": "Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1329996497-1.jpg?resize=1200,800"
         },
@@ -827,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Delphi Digital 研究员 Teng Yan 在阅读著名品牌 Ugly Dolls 创始人 David Horvath 的 Substack 之后，对 NFT ，特别是 PFP 有了彻底的重新思考，认为 NFT 品牌要成为「长青」项目，需要与文化融为一体，专注于唤起持有者的情感依恋，而不是急于短期营销。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">https://twitter.com/0xPrismatic/status/1632769843601473536</a></p>\n<p><strong>文章作者：</strong></p><p>Teng Yan（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>Ugly Dolls 持续二十几年经久不衰，创始人 David 强调「Evergreen Ubiquity」的概念，这意味着成为每个人都知道的东西，并持续好几代。成为长青且无处不在的项目，要与文化融为一体，而不是推销文化。如何与文化融为一体？远离噪音 / 市场营销；努力被发现并建立有意义的联系；在成功之前壮大你的部落；与能给你的品牌增添意义的事物站在一起。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">内容来源</a><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>David 说早期要远离大品牌，在合作中你需要有目的地使用他们，而不是让他们利用你。要建立一个伟大的产品线 / 核心产品，带来基本收入，以保持其他一切的活力。这可以让项目活得足够长，做出更多基于长期发展的决策，从而保持品牌活力。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">内容来源</a><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>这要如何适用于 NFT？NFT 品牌 / 创始人需要避免美化其观点或营销，要专注于不断打造体验，以邀请观众发现并唤起他们的情感依恋。地板价可以被看作是一个 PFP 团队为与文化融合而做出的所有决定的总和，时间越长，趋势就越发明显。与大家直觉相反，得到 VC 融资的 NFT 品牌可能更难取得长期成功，因为 VC 急于看到短期利益。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">内容来源</a>",
           "link": "https://twitter.com/0xPrismatic/status/1632769843601473536",
           "publishedOn": "2023-03-07T12:05:33.000Z",
-          "wordCount": 480,
+          "wordCount": 476,
           "title": "【英文长推】Delphi Digital：通过传统品牌思考如何成为长青的 PFP NFT 项目",
           "imageUrl": null
         },
@@ -867,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 995,
+          "wordCount": 997,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -877,7 +917,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PKUBA 联合深潮邀请包括 LD Capital 合伙人 Joy Lou 在内的多名资深加密分析师，全面公开资金的研究框架和逻辑，分享其今年看好哪些赛道，PKUBA 研究员兼深潮分析师 Claudia 对该 Space 进行了重点提炼和总结。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">https://twitter.com/0x_claudia/status/1632745025036775425</a></p>\n<p><strong>文章作者：</strong></p><p>Claudia（深潮 TechFlow）</p><hr><h3>观点：</h3><p><strong>Joy Lou（了得资本合伙人）：</strong>赛道核心是以太坊升级。LSD 短期资金出去一点，长期无法逃过。接下来，Layer2、Dank sharding 4844 、Op stack、 zk、 Coinbase 的 L2，轮动过程中再加上 DeFi（稳定币、借贷、LSD …… 相互抢地盘）、存储等辅助赛道。DeFi 里的 NFTFi、衍生品也要覆盖，交易量很大。除了以太坊，还有可能的生态是 Cosmos，但是要看看它的持续性。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>CapitalismLab：</strong>把精力集中在比较主线的叙事，核心就是 LSD、L2 和 衍生品 这三个方面，只能覆盖长期确定性强的赛道。 比较喜欢 Arbitrum ，因为不需要发币就能实现有机增长，有差异化体验、有人用的产品。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>DeFi Cheetah：</strong>可以布局的赛道是链上衍生品。Restaking 很重要，模块化区块链也重要。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a><p><strong>Kiwibig.eth：</strong>V 神发文章是引导资本关注特定赛道。今年节奏的核心是跟着 V 神走。以太坊宇宙，在以太坊上解决 IBC 问题。看好 Cosmos，头部应用和钱都在进入生态。偏好硬件类项目，以太坊占据共识层，硬件缺得很多。</p><a href=\"https://twitter.com/0x_claudia/status/1632745025036775425\">内容来源</a>",
           "link": "https://twitter.com/0x_claudia/status/1632745025036775425",
           "publishedOn": "2023-03-07T07:54:19.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "PKUBA Space 总结：资深分析师们今年看好哪些赛道？以太坊仍是核心",
           "imageUrl": null
         },
@@ -2838,6 +2878,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html",
+          "author": null,
+          "description": "PANews 3月11日消息，据CoinDesk报道，根据上个月的一份监管文件，加密风投巨头Pantera Capital最近在硅谷银行（SVB）持有资产。在2月3日的ADV表格中，Pantera将SVB列为其私人基金的三家托管人之一，另外两家是BitGo和加密交易所Coinbase的托管服务。在联合首席投资官Joey Krug离职后，Pantera上个月重组了高管层。该公司今年1月透露，其流动性代币基金在2022年亏损80%。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/adi0t6xk.html",
+          "publishedOn": "2023-03-11T04:44:01.000Z",
+          "wordCount": 1116,
+          "title": "Pantera Capital最近在硅谷银行持有资产",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/f7nmtcj9.html",
           "author": null,
