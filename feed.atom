@@ -2,10 +2,78 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-11T07:14:48.817Z</updated>
+    <updated>2023-03-11T07:21:04.789Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Brevan Howard收购 Dragonfly Capital 旗下对冲基金Liquid Opportunities]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html"/>
+        <updated>2023-03-11T07:17:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月11日消息，据彭博社报道，Brevan Howard资管公司正在接管由加密投资公司 Dragonfly Capital 运营的多空对冲基金Liquid Opportunities。Liquid Opportunities成立于 2021 年 6 月，由 Kevin Hu、Ashwin Ramachandran 和 Lawrence Diao 管理。该基金现在将作为投资公司的加密和数字资产部门 Brevan Howard Digital 的一部分运营。一位知情人士称，该基金采用的多空交易策略符合后者的主动交易方式。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[StarkNet 创新项目一览：开发者/艺术家/玩家有哪些新机会？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/j932f7651qd4.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/j932f7651qd4.html"/>
+        <updated>2023-03-11T07:07:57.000Z</updated>
+        <summary type="html"><![CDATA[来源 |StarkNetEco
+编译 | 白泽研究院
+StarkNet 是 StarkWare 开发的 L2，利用 STARK 有效性证明来提高性能和可扩展性。在主网上线的一年半中（2021 年 11 月），有超过 221 个项目正在 StarkNet 上构建，包括 OnlyDust、Briq、Pxls、Realms、Influence 和 Cartridge。开发者社区正在致力于深入改进架构，这将对去中心化、可扩展性和用户体验产生突破性的影响，也将会在生态系统中释放出大量激动人心的新项目。
+虽然以太坊的可扩展性和笨拙的用户体验经常招致批评，但 StarkNet 社区一直在努力解决这些问题。在过去的两年里，StarkNet 利用 STARK 有效性 Rollop 的力量突破了 L2 性能、机密性和可扩展性的界限。
+但是还有很多工作要做。StarkNet 仍处于 alpha 阶段，尚未针对 TPS 进行优化。尽管如此，仍有超过 221 个项目建立在 StarkNet 上，这是 StarkNet 和 STARK 被普遍采用和增长的迹象。
+​
+在本文中，我们将介绍一些建立在 StarkNet 之上的创新项目，以三个角色为主题：
+开发者
+艺术家
+玩家
+鉴于 StarkNet 处于初期阶段，社区正在不断寻找新的贡献者来开拓网络的未来。自从在 2020 年推出 Cairo 作为一种初级编程语言以来，它已经发展成为一种针对 L2 智能合约的 Python 和 Rust 风格的优化语言。随着 Cairo 1.0 的开源和 Warp（Solidity 到 Cairo 代码转换器）的推出，我们已经看到开发人员活动呈指数级增长，并且这一趋势将继续延续下去。
+OnlyDust
+OnlyDust是一个将开发者与 StarkNet 生态系统中的开源项目联系起来的平台。OnlyDust 使开发者能够帮助 Kakarot、DevNet 和 starkNet.js 等有意义的项目，并根据他们的贡献价值每周获得报酬。多亏了 Warp，Solidity 开发人员也可以参与其中。
+虽然该平台已经吸引了数百名贡献者，但它计划即将推出“领导者”角色，开发者可以在其中快速启动自己的项目并直接从社区获得帮助。
+除了在线社区之外，OnlyDust 还举办现场活动，开发人员可以在这些活动中进行协作并沉浸在快速发展的 StarkNet 社区中。
+
+艺术家
+尽管 NFT 的炒作具有周期性，但数字艺术品市场仍在蓬勃发展。StarkNet 生态系统充满了旨在帮助艺术家的项目，帮助他们成长并通过与世界分享他们的艺术作品来获利。
+Briq
+就像数字版的乐高积木一样，Briq已经为艺术家构建了一个可组合性系统，使用被称为 briqs 的 ERC-1155 代币来构建作品。从这里，艺术家可以直接出售、出借、转让他们的作品，或者允许购买者拆解他们的作品以创造全新的东西。
+briqs 专为互操作性而构建，旨在连接现实世界与虚拟世界，成为元宇宙的基石。
+
+Pxls
+Pxls 是一项创建链上协作艺术品的实验，围绕 400 个“pxl”NFT 的集合构建。每个 pxl 都是参与创建像素艺术作品 (“rtwrks”) 的关键，在一个空白网格中只能使用 2,000 个总像素中的最多 20 个着色。
+每两天，新 rtwrk 都会被拍卖。当用户赢得拍卖后，可以为下一个 rtwrk 列一个主题。拍卖结束后，每个 pxl NFT 持有者都会收到主题，投入到创作中。
+
+玩家
+区块链游戏行业曾因以太坊的可扩展性限制而受阻，但事实证明，StarkNet 的引入具有变革性。随着越来越多的链上游戏开发团队意识到 EVM/Solidity 的局限性，他们被鼓励探索其他生态系统。幸运的是，随着 Cairo 1.0 和 Rust 的出现，开发人员可以轻松构建无缝的链上游戏。
+StarkNet 的 Gas 费用低到可以忽略不计，因此可以在建立可持续的游戏内经济的同时创建沉浸式的游戏或元宇宙。
+Realms
+作为 BibliothecaDAO的产品，Realms是一款大型多人在线游戏 (MMO)，玩家可以在其中建立帝国、掠夺资源和抢占遗迹。该游戏是开源的，与许多加密游戏不同，它完全在 StarkNet 链上运行。
+
+游戏有 22 种不同稀有度的资源，可以通过购买劳动力生成。每个资源生成周期需要 2 小时，并产生 25 倍的资源。资源可用于建造建筑物、召唤士兵，或在 AMM 上进行交易。每个帝国的金库都可被掠夺。
+一个帝国可以有一支防御军队和多支进攻军队，但重要的是要平衡他们对资源的消耗，并考虑每次突袭的风险和收益。
+Realms 具有多种游戏模式和功能，例如质押和制作，由一组预定义规则管理，这些规则可以根据链上玩家投票进行更新。
+该游戏在 2023 年第一季度发布了 Alpha 和 Beta 版本，如果 DAO 投票通过，随后将进行正式版的部署。Q2 将带来 NFT 市场、新模块以及第一个扩展——Adventurers（一款小游戏，玩家可以花费少量成本铸造一个冒险家，如果冒险家在游戏中死亡，该角色将被没收。官方称之为「Play to Die」）。
+Influence
+Influence是一款备受期待的 3D 太空战略沙盒 MMO，背景设定在 Adalia 星系的小行星带。该游戏采用第三人称游戏方式，允许玩家控制飞船和设施、殖民小行星、参与战斗、开发建筑、创建社区并扩大他们在宇宙中的影响力。所有游戏内资产均为玩家所有，包括 Adalia 的 250,000 颗小行星，每颗小行星都具有独特的资源组合，可以开采并提炼成各种产品，这些产品可以在公开市场上交易。
+
+该游戏采用逼真的轨道机制和玩家拥有的游戏资产，让玩家真正拥有自己的资产，包括小行星、船员、飞船。Influence 将于 2023 年推出。
+Influence 是一款免费游戏，不收取经常性费用。但是，执行某些操作会产生网络交易费用。虽然该游戏不是“氪金”游戏，但像船员这种前期物品需要使用游戏内代币 $SWAY 购买。
+该游戏充满了战斗、策略和协作，非常适合游戏玩家和科幻爱好者。
+Cartridge
+要创建成功的 Web3 游戏，必须拥有能够提供类似于 Web2 的无缝用户体验的身份工具。WebAuthn 是一种被广泛接受的行业标准规范，它使玩家能够安全地生成和管理密钥对，以便在各种设备上进行身份验证。
+主要软件和硬件提供商对 WebAuthn 的采用正在推动身份验证底层逻辑的巨大转变。通过支持 WebAuthn，像 StarkNet 这样的区块链可以大幅提高可用性，并为主流采用铺平道路。
+这就是Cartridge的用武之地——它就像 Crypto 版的 Steam，可以帮助玩家发现、探索游戏，同时管理他们的链上资产、代币和声誉。借助 Cartridge，开发者可以轻松创建加密游戏，提供无缝的用户体验。
+
+风险提示：
+根据央行等部门发布的《关于进一步防范和处置虚拟货币交易炒作风险的通知》，本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规，不参与任何非法金融行为。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[StarkNet 创新项目一览：开发者/艺术家/玩家有哪些新机会？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/j932f7651qd4.html</id>
@@ -2586,52 +2654,6 @@ CEO 霍华德·舒尔茨财报电话会议上表示，为公司发现了一个�
 <p><strong>文章作者：</strong></p><p>Westie</p><hr><h3>观点：</h3><p><strong>Westie：</strong>The Verge 指的是让区块验证尽可能简单和轻便的目标。The Verge 关注的是 Verkle 树和 SNARKs 的加入。Verkle 树是一种专门针对状态的 Merkle 树的更有效的替代方法，它不需要提供每个姐妹节点（共享同一个父节点的节点）到所选节点的路径，而只是提供路径本身作为证明的一部分，Verkle 证明的效率比 Merkle 证明高 3 倍。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>SNARKs 是 zk 证明的一个版本，以太坊有许多元素将通过增加 SNARKs 的验证或用 SNARKs 取代旧的证明系统来升级，以获得更好的效率。这包括：基于 SNARK 的轻客户端；共识状态变化的 SNARKs；Enshrined Rollups。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>The Purge 指的是通过降低参与验证网络的存储要求来简化协议的目标。这主要是通过对历史和状态的休眠和管理来实现的。历史数据休眠（EIP-4444）允许客户端修剪超过一年的历史数据，并停止在 P2P 层面提供服务。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>状态休眠。当涉及到处理状态增长时，有两个主要目标：弱无状态，指的是只使用状态来建立区块，但不验证它的目标；状态休眠，指删除在规定时间内（1 年）未被访问的状态。状态休眠应该使节点需要存储的状态总共减少 20-50 GB。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解析Arbitrum上的衍生品DEX GammaSwap：将无常损失转化为“无常收益”]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/lcdfae46.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/lcdfae46.html"/>
-        <updated>2023-03-10T07:34:18.000Z</updated>
-        <summary type="html"><![CDATA[原文：《Alpha Track | GammaSwap ：将无常损失转化为“无常收益”》
-注：本文主要介绍 GammaSwap 针对LP 无常损失提出的解决方案，不作任何投资建议。
-GammaSwap 是建立在 Arbitrum 上的链上衍生品 DEX ，旨在解决流动性质押中 LP 们不得不承受的无常损失的痛点。为了理解 GammaSwap 的设计理念，我们先要了解 DEX 们目前采用的恒定函数做市商（CFMM）会造成无常损失的本质原因。
-(如果您对Uniswap V3 和无常损失已经非常了解，可以跳过这部分)
-相较于其他 DEX 的 AMM 池子将流动性均匀的分布在 x*y=k 这条曲线上，Uniswap V3 版本最大的特点是集中资金池（Concentrated Liquidity），允许 LP 在其选择的价格范围内提供流动性。举个极端的例子：稳定币 USDC-DAI 的价格基本维持在 0.99-1.01 之间，而池子中 99.5% 以上的流动性分布在可能永远达不到的价格上，资金效率低下。而 UNI V3 中，用户可以自定义在哪个价格区间内提供流动性，提高了资本效率，能赚取更多的手续费奖励。但同时，用户也将承受更高的无常损失风险，相当于是对流动性头寸加了杠杆。
-无常损失简单来说就是：当 AMM 池中存入的资产价格发生波动时，LP 头寸中的资产数量也会变动，会减少因价格上涨而带来的浮盈，以及增加因价格下跌而带来的浮亏。波动率越大，无常损失也越大，如果价格又回到了初始的状态，那么无常损失将为 0，因为价格波动是无法预测的，所以这种风险被称为“无常损失”。
-举个简单的例子：假设 ETH 价格为 1000$，用户存入了 1 个 ETH 和 1000 个 USDC 的 LP 头寸，然后 ETH 价格来到了 2000$。
-1)如果选择在所有的价格区间内提供流动性（V2）
-用户的 LP 头寸会跟随池子整体的头寸变化而变化，此时 LP 头寸会变为 0.707 个 ETH 和 1414 个 USDC，总价值 2828$，相较于初始存入的 1 ETH 和 1000 USDC 来说，本金损失了 5.72%。（具体计算过程参照 Uniswap文档）
-2)如果选择在 [500,1500] 的价格区间内提供流动性（V3）
-用户的 LP 头寸会在 ETH 价格达到 1500$ 的时候全部变为 USDC，此时无常损失达到了21.5%，这种情况下相当于是 V2 的 4 倍。（具体计算过程参照 Uniswap文档）
-期权是一种金融合约，买方付出一笔期权金后，拥有能在到期日或到期日之前，以预先确定的价格（行权价格）购买或出售资产的权利。在传统期权市场中，存在两个术语：delta 和 gamma。
-delta 是指标的资产价格变动时，期权价格的相对变动幅度。比如一份 ETH 看涨期权的 delta 为 0.5，即当 ETH 现货价格变动 1 时，期权价格就同向变动 0.5，可以通过卖出0.5 个 ETH 来对冲。由于 delta 是动态变化的，所以需要动态调整标的的头寸来保持delta 中性，这就是 delta 对冲。
-gamma 是指 delta 值相对标的价格变化的变动速率，当 gamma 较大时，说明 delta 相对标的价格变化很快，因此需要及时调整标的头寸，否则容易承受损失，这就是 gamma 风险。在不考虑时间因素的情况下，波动率越大，期权金越贵。
-
-(资料来源：optiontradingtips)
-联系到 DEX 们采用的 AMM 模式，当池子中的一种资产相对另一种资产的价格变动时，池子中两种资产的数量会沿着 x*y=k 曲线非线性的变化，可以理解为 DEX 在通过恒定函数曲线来动态对冲 delta。
-当资产波动率大时，gamma 风险也就越高，LP 们承受的无常损失也就越大（期权金）。因此 AMM 可以看成是内嵌了一个永续期权市场，始终在动态地对冲其储备中假设的多头看跌期权的风险敞口，而 LP 则暴露在 gamma 风险之下（相当于做空 gamma），承受无常损失的风险来获取交易手续费。
-但交易手续费与波动率之间不能用一个表达式直接挂钩， DEX 也将手续费称作为提供流动性的激励，这意味着 LP 缺少了承担这部分 gamma 风险相对应的补偿。很多时候手续费收入并不能 cover gamma，比如行情波动较大时或者一些 shit coin 池子，尤其是当在较窄范围内提供流动性时，会放大 gamma 风险。
-Uniswap V3的源码商业许可证即将在 4 月份到期，不少 DEX 正在基于 UNIV3 的基础上做部分改良来推出自己的 V3 版本，包括 PancakeSwap 和 Osmosis 等。届时很多用户可能会在资本效率与无常损失之间难以抉择。
-GammaSwap 正致力于解决这一问题，允许用户借入 LP 来做多波动率（gamma）。
-1）机制介绍
-GammaSwap 中有两个参与者。做空 gamma（波动率）的 LP 提供者和做多 gamma 的借款人。在 Uniswap ETH/USDC 池的情况下，LP 可以使用储备代币（ETH 和 USDC）或直接使用 Uni LP 创建头寸。假设 LP 将储备代币存入 ETH / USDC 池。GammaSwap 会将这些基础代币存入 Uniswap，接收 Uni LP 代币并保留在智能合约中。GammaSwap 随后会向 LP 提供者发行 GammaSwap (GS) ERC-20 LP 代币。GS LP 持有者不仅可以获取 Uniswap 中的交易手续费，还可以从借款人手中获得利息。当波动率较大时，做多波动的需求会增加，利率也会上涨，因此即使 GS LP 没有选择对冲无常损失，仍然会获得更好的补偿。
-对于希望做多 gamma 的人，需要先提供足够数量的抵押物（ETH、USDC等）才能借入 LP，会收到一个类似于 Uni V3 的 NFT 来管理他们的贷款。当用户开仓时，GammaSwap 将 Uni LP 代币兑换为基础代币并创建合成 GS LP。然后就可以通过将代币比例倾斜向某一种，来做多波动率，并获得类似期权的回报函数。
-贷款必须保持 90% 的 LTV 比率才能保持健康。如果贷款超过这个门槛，将会被清算。随着基础代币向任一方向移动，贷款变得过度抵押，用户可以用储备代币购买更多的 LP 代币。
-gamma 多头可用于多种策略：1. 对任何代币对的波动率进行杠杆押注 2. 对冲无常损失 3. 保护自己免受新项目的影响。通过做多 gamma，有机会将“无常损失”变为“无常收益”。
-值得注意的是，据官方宣称，GammaSwap由于其收益率曲线的形状，不需要依赖预言机进行价格验证来防止闪电贷攻击，因此可以应用于任何 AMM 中的任何流动资金。即使是全新的未经测试的项目也可以提供长期的波动性敞口，以增加其代币流动性提供者的收益并降低参与此类项目的风险。关于这一点，可能需要进行更多的测试来检验安全性。
-2）项目背景
-GammaSwap 创始人为@0xDevinG，对 defi 有非常深的理解，其余团队成员信息暂未披露；
-GammaSwap 目前完成了 170 万美元种子轮融资，参投方包括 Skycatcher Crypto、Dialectic、Space Whale Capital、Modular Capital、Portico Ventures、Ouroboros Capital、Owl Ventures、RenGen、Manifold Trading，个人投资者包括 GMX 核心成员以及 DeBank 上持仓金额第二大钱包所有者等；
-GammaSwap 目前已与 SushiSwap、Balancer、Olympus 达成合作；
-GammaSwap 目前通过了Zellic 和HalbornSecurity 的审计，更多的安全审计正在进行中；
-GammaSwap 于 2022 年 12 月底开放了测试网，目前仍在测试中，预计将在未来几周内上线 Arbitrum，社区活跃度较高；
-3）总结
-GammaSwap 通过借贷给 LP 持有者提供更多收益可能性，补偿 LP 因 gamma 风险带来的无常损失。而 gamma 多头针对不同的 LP 也有多种策略玩法。
-GammaSwap 最大的风险来自于智能合约，由于其不借助预言机验证，对合约设计和安全性有较高要求。
-GammaSwap 面向的对象为所有 AMM 中的 LP，解决了 AMM 的部分痛点，通过与 DEX 的集成在目前的存量市场中另辟蹊径。目前这块市场竞争者较少，GammaSwap 具有先发优势。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>

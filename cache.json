@@ -277,7 +277,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">https://twitter.com/LlamaRisk/status/1633916033886199808</a></p>\n<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a>",
           "link": "https://twitter.com/LlamaRisk/status/1633916033886199808",
           "publishedOn": "2023-03-10T06:18:13.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化",
           "imageUrl": null
         },
@@ -597,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4473,
+          "wordCount": 4267,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -847,7 +847,7 @@
           "description": "<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>\n<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>\n<p><a href=\"https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/\">内容来源</a></p><hr>",
           "link": "https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/",
           "publishedOn": "2023-03-08T03:37:16.000Z",
-          "wordCount": 5352,
+          "wordCount": 5367,
           "title": "美国破产法官批准币安以 13 亿美元收购 Voyager",
           "imageUrl": "https://www.reuters.com/resizer/HiWFJO6U6vWQQi1YeUH2lHTVJgs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Z7BTJZYE4BKGVC4EF5QYY72GKA.jpg"
         },
@@ -947,7 +947,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 992,
+          "wordCount": 990,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
@@ -2919,6 +2919,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html",
+          "author": null,
+          "description": "PANews 3月11日消息，据彭博社报道，Brevan Howard资管公司正在接管由加密投资公司 Dragonfly Capital 运营的多空对冲基金Liquid Opportunities。Liquid Opportunities成立于 2021 年 6 月，由 Kevin Hu、Ashwin Ramachandran 和 Lawrence Diao 管理。该基金现在将作为投资公司的加密和数字资产部门 Brevan Howard Digital 的一部分运营。一位知情人士称，该基金采用的多空交易策略符合后者的主动交易方式。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html",
+          "publishedOn": "2023-03-11T07:17:51.000Z",
+          "wordCount": 1182,
+          "title": "Brevan Howard收购 Dragonfly Capital 旗下对冲基金Liquid Opportunities",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/j932f7651qd4.html",
           "author": null,
           "description": "来源 |StarkNetEco\n编译 | 白泽研究院\nStarkNet 是 StarkWare 开发的 L2，利用 STARK 有效性证明来提高性能和可扩展性。在主网上线的一年半中（2021 年 11 月），有超过 221 个项目正在 StarkNet 上构建，包括 OnlyDust、Briq、Pxls、Realms、Influence 和 Cartridge。开发者社区正在致力于深入改进架构，这将对去中心化、可扩展性和用户体验产生突破性的影响，也将会在生态系统中释放出大量激动人心的新项目。\n虽然以太坊的可扩展性和笨拙的用户体验经常招致批评，但 StarkNet 社区一直在努力解决这些问题。在过去的两年里，StarkNet 利用 STARK 有效性 Rollop 的力量突破了 L2 性能、机密性和可扩展性的界限。\n但是还有很多工作要做。StarkNet 仍处于 alpha 阶段，尚未针对 TPS 进行优化。尽管如此，仍有超过 221 个项目建立在 StarkNet 上，这是 StarkNet 和 STARK 被普遍采用和增长的迹象。\n​\n在本文中，我们将介绍一些建立在 StarkNet 之上的创新项目，以三个角色为主题：\n开发者\n艺术家\n玩家\n鉴于 StarkNet 处于初期阶段，社区正在不断寻找新的贡献者来开拓网络的未来。自从在 2020 年推出 Cairo 作为一种初级编程语言以来，它已经发展成为一种针对 L2 智能合约的 Python 和 Rust 风格的优化语言。随着 Cairo 1.0 的开源和 Warp（Solidity 到 Cairo 代码转换器）的推出，我们已经看到开发人员活动呈指数级增长，并且这一趋势将继续延续下去。\nOnlyDust\nOnlyDust是一个将开发者与 StarkNet 生态系统中的开源项目联系起来的平台。OnlyDust 使开发者能够帮助 Kakarot、DevNet 和 starkNet.js 等有意义的项目，并根据他们的贡献价值每周获得报酬。多亏了 Warp，Solidity 开发人员也可以参与其中。\n虽然该平台已经吸引了数百名贡献者，但它计划即将推出“领导者”角色，开发者可以在其中快速启动自己的项目并直接从社区获得帮助。\n除了在线社区之外，OnlyDust 还举办现场活动，开发人员可以在这些活动中进行协作并沉浸在快速发展的 StarkNet 社区中。\n\n艺术家\n尽管 NFT 的炒作具有周期性，但数字艺术品市场仍在蓬勃发展。StarkNet 生态系统充满了旨在帮助艺术家的项目，帮助他们成长并通过与世界分享他们的艺术作品来获利。\nBriq\n就像数字版的乐高积木一样，Briq已经为艺术家构建了一个可组合性系统，使用被称为 briqs 的 ERC-1155 代币来构建作品。从这里，艺术家可以直接出售、出借、转让他们的作品，或者允许购买者拆解他们的作品以创造全新的东西。\nbriqs 专为互操作性而构建，旨在连接现实世界与虚拟世界，成为元宇宙的基石。\n\nPxls\nPxls 是一项创建链上协作艺术品的实验，围绕 400 个“pxl”NFT 的集合构建。每个 pxl 都是参与创建像素艺术作品 (“rtwrks”) 的关键，在一个空白网格中只能使用 2,000 个总像素中的最多 20 个着色。\n每两天，新 rtwrk 都会被拍卖。当用户赢得拍卖后，可以为下一个 rtwrk 列一个主题。拍卖结束后，每个 pxl NFT 持有者都会收到主题，投入到创作中。\n\n玩家\n区块链游戏行业曾因以太坊的可扩展性限制而受阻，但事实证明，StarkNet 的引入具有变革性。随着越来越多的链上游戏开发团队意识到 EVM/Solidity 的局限性，他们被鼓励探索其他生态系统。幸运的是，随着 Cairo 1.0 和 Rust 的出现，开发人员可以轻松构建无缝的链上游戏。\nStarkNet 的 Gas 费用低到可以忽略不计，因此可以在建立可持续的游戏内经济的同时创建沉浸式的游戏或元宇宙。\nRealms\n作为 BibliothecaDAO的产品，Realms是一款大型多人在线游戏 (MMO)，玩家可以在其中建立帝国、掠夺资源和抢占遗迹。该游戏是开源的，与许多加密游戏不同，它完全在 StarkNet 链上运行。\n\n游戏有 22 种不同稀有度的资源，可以通过购买劳动力生成。每个资源生成周期需要 2 小时，并产生 25 倍的资源。资源可用于建造建筑物、召唤士兵，或在 AMM 上进行交易。每个帝国的金库都可被掠夺。\n一个帝国可以有一支防御军队和多支进攻军队，但重要的是要平衡他们对资源的消耗，并考虑每次突袭的风险和收益。\nRealms 具有多种游戏模式和功能，例如质押和制作，由一组预定义规则管理，这些规则可以根据链上玩家投票进行更新。\n该游戏在 2023 年第一季度发布了 Alpha 和 Beta 版本，如果 DAO 投票通过，随后将进行正式版的部署。Q2 将带来 NFT 市场、新模块以及第一个扩展——Adventurers（一款小游戏，玩家可以花费少量成本铸造一个冒险家，如果冒险家在游戏中死亡，该角色将被没收。官方称之为「Play to Die」）。\nInfluence\nInfluence是一款备受期待的 3D 太空战略沙盒 MMO，背景设定在 Adalia 星系的小行星带。该游戏采用第三人称游戏方式，允许玩家控制飞船和设施、殖民小行星、参与战斗、开发建筑、创建社区并扩大他们在宇宙中的影响力。所有游戏内资产均为玩家所有，包括 Adalia 的 250,000 颗小行星，每颗小行星都具有独特的资源组合，可以开采并提炼成各种产品，这些产品可以在公开市场上交易。\n\n该游戏采用逼真的轨道机制和玩家拥有的游戏资产，让玩家真正拥有自己的资产，包括小行星、船员、飞船。Influence 将于 2023 年推出。\nInfluence 是一款免费游戏，不收取经常性费用。但是，执行某些操作会产生网络交易费用。虽然该游戏不是“氪金”游戏，但像船员这种前期物品需要使用游戏内代币 $SWAY 购买。\n该游戏充满了战斗、策略和协作，非常适合游戏玩家和科幻爱好者。\nCartridge\n要创建成功的 Web3 游戏，必须拥有能够提供类似于 Web2 的无缝用户体验的身份工具。WebAuthn 是一种被广泛接受的行业标准规范，它使玩家能够安全地生成和管理密钥对，以便在各种设备上进行身份验证。\n主要软件和硬件提供商对 WebAuthn 的采用正在推动身份验证底层逻辑的巨大转变。通过支持 WebAuthn，像 StarkNet 这样的区块链可以大幅提高可用性，并为主流采用铺平道路。\n这就是Cartridge的用武之地——它就像 Crypto 版的 Steam，可以帮助玩家发现、探索游戏，同时管理他们的链上资产、代币和声誉。借助 Cartridge，开发者可以轻松创建加密游戏，提供无缝的用户体验。\n\n风险提示：\n根据央行等部门发布的《关于进一步防范和处置虚拟货币交易炒作风险的通知》，本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规，不参与任何非法金融行为。",
@@ -3384,7 +3394,7 @@
           "description": "星巴克于今日凌晨4点发布第一个付费NFT Siren Collection, mint 价格$100, 数量 2k, 18分钟内售罄 地板价一度突破$600, 目前是 $378，仍然是 278% 的涨幅。我整理了内测到目前的动向，背后的意图逐渐清晰：\n\n1.Free Stamps Starbucks \nOdyssey 自从去年 12 月开启内测，到目前已经发布了 4 个 Journey, 对应 4 个 Stamps（NFT），已经产生了$218k 的二级市场交易量。这 4 个 Stamps 都是完成任务后用积分免费兑换，也就是说最初的 holder 都实现了 participate-to-earnholiday season。（相关阅读：《星巴克进军 web3，标志着 NFT 行业下一个里程碑》）\n\n80% 的交易量都是由 Holiday Cheer Edition 1 Stamp 的贡献，此 NFT 的地板价目前是$1499, 最高达到过 $2000 该 Stamp 的 utility 目前未知，价格高的原因可能是因为其holiday season本身已经深入人心，每年主题都不一样，具有某种纪念价值 对应限时任务 Holiday Cheer, 2023.1.2 已经结束。\n\n2.Paid Stamps\n星巴克 12 月开启Odyssey内测时就剧透了会有限量版付费Stamps，2 个月后发出第一封预告邮件，然后每隔几天有一次 Sneak Peak, 节奏掌握的还不错。\n\n今日发售的 Siren Collection 是基于其女妖（Siren）标识的艺术画作，购买后会获得 1500 点积分 官方诠释：每枚邮票上都有你从未见过的星巴克海妖，以及我们过去五十年来的各种艺术作品。每一项设计都通过传说、神话和冒险，用美丽、有层次的艺术品描绘了我们对咖啡的爱，每一件都是独一无二的。\n除了Odyssey之外，Starbucks 还做了一件有趣的事，和播客策展平台 Hark Audio 联合推出了名为 The Starbucks Daily 的播客（内置在星巴克App中）。通过每天 2-6 分钟的音频精选，提升用户喝咖啡时的体验，另外 CMO 称还会为会员提供特别活动，比如新帝国大厦的开幕式。\n\n4.Lifestyle Brand\n围绕一系列内容的打造，包括Odyssey, Starbucks Daily和Event, 星巴克不断增加和会员互动的机会 当会员买完咖啡后，其与星巴克的互动并没有结束：可以收听播客，在Odyssey中赚取NFT，在晚上参加活动。在这些场景里可以增加更多的品类，提升其商业空间，升级为生活方式品牌。\nCEO 霍华德·舒尔茨财报电话会议上表示，为公司发现了一个持久的、变革性的新类别和平台，这与其经历过的任何事情都不一样。然后他透露了一个单词 Alchemy。Alchemy 既有炼金术的意思，也可能指同名的 Alchemy Web3 开发平台，具体要做什么则拭目以待了。\n另外，越来越多的大公司高管进入 Web3：\n希望这些行业老兵可以帮助找到更好的PMF。\n目前来看 Starbucks Odyssey 的节奏和交付还不错， 围绕生活方式一步步做品牌建设提升其天花板，希望可以影响更多的 Web2 大公司进入 Web3。",
           "link": "https://www.panewslab.com/zh/articledetails/9i0e50kr.html",
           "publishedOn": "2023-03-10T08:36:22.000Z",
-          "wordCount": 1471,
+          "wordCount": 1473,
           "title": "18分钟售罄，涨幅278%，星巴克的第一款付费NFT首战告捷",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/10/images/L7e8g89rTk.jfif"
         },
