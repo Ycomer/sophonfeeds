@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-11 datetime="2023-03-11T04:44:01.000Z">2023-03-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-11 datetime="2023-03-11T04:44:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-11 datetime="2023-03-11T05:19:13.000Z">2023-03-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-11 datetime="2023-03-11T05:19:13.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -38,6 +38,49 @@
                   <a class="source-heading__link" href="https://rss.panewslab.com/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/lojghc2h.html"
+                        open
+                      >
+                        <summary class="article-expander__title">恐慌和挤兑袭来袭，USDC这次能扛得住吗？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/lojghc2h.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/11/images/rxaa08kOE6.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文作者：Jack、Logicrw、FYJ，BlockBeats
+1 天时间，SVB 的涟漪效应就来到了加密市场。今晨，因 SVB 中有部分存款，USDC 稳定币发行商 Circle 突然面临严重挤兑，USDC 出现持续性脱锚。同时，Binance、Coinbase 等中心化交易平台均宣布关闭 USDC 的部分兑换服务。截至撰稿时，USDC 价格脱锚至 0.933 美元附近，过去 24 小时已销毁超 27 亿枚 USDC。面临恐慌和挤兑，USDC 会进入死亡螺旋吗？
+稳定币发行商 Circle 今日在社交媒体上发文表示，硅谷银行是 Circle 的六家银行合作伙伴之一，负责与其他银行共同管理 USDC 约 25% 的现金储备。Circle 目前正在等待观察美国联邦存款保险公司接管硅谷银行对其储户的影响，但 Circle 和 USDC 继续正常运营。
+
+据 Circle 官网发布的最新数据显示，目前流通中的 USDC 市值共计约为 434 亿美元，资金储备共计 435 亿美元，其中现金储备为 111 亿美元，占比约为 25%，其余 334 亿美元储备为短期国债投资组合。今天结束时确认，星期四发起的去除余额的指令尚未处理，因此美元稳定币（USDC）账户储备中仍有大约 40 亿美元中的 33 亿美元储备留在 SVB。与其他接受 SVB 银行服务的客户一样，Circle 将遵循各州和联邦监管机构提供的指导。
+根据 BlockBeats 目前收集到的信息，Circle 在「SVB 事件」中面临的损失应该不大。但从当前市场的恐慌程度来看，USDC 仍存在持续脱锚的风险。那么在什么情况下，USDC 会出现严重的脱锚呢？BlockBeats 对几个关键影响因素进行了梳理。
+首先，USDC 崩盘的前提一定是恐慌情绪的持续。Circle 的背书储备大部分为美国国债，如果恐慌持续，Circle 的现金储备被耗尽，这将导致 Circle 不得不立刻出售自己手中的国债，以应对市场的赎回需求。然而不巧的是，全球加息潮使得整个债券市场的收益率都来到了空前的高度，如果此时出售国债，Circle 将像 SVB 一样面临严重的亏损，使其无法有效应对市场赎回。这时，Circle 赎回周期变长，再次促涨恐慌情绪，赎回加剧，USDC 进入死亡螺旋。
+其次是价格锚定和流动性层面，无法及时赎回的 USDC 将通过市场流动性的方法试图逃离。不可否认，就链上流动性而言，USDC 是当前稳定币中的老大，各个 AMM 和借贷协议的 LP 池中都能看到它的影子。这里要说明的是，因为链上借贷行为大多不以 USDC 作为抵押品，因此价格上面临清算的风险并不高，导致脱锚的关键因素实际在于 AMM 上的流动性。现在，我们以 Curve、Uniswap 作为主要依据看一看可供 USDC 出逃的流动性有多少。
+在 Curve 上，USDC 最主要的出逃口径就是 3Crv 池。目前，该池 TVL 超 4 亿美元，其中 USDC 的占比近 50%，价值约 2.2 亿美元，DAI 占比约 47%，USDT 占比约 3%。如果恐慌持续发生，则会出现下面两种情况：
+1. 大部分持有者将 DAI 视为去中心化庇护所，将 USDC 兑换为 DAI，这时 3Crv 池上暂时有约 2 亿美元的流动性保护 USDC 的锚定。
+2. 部分持有者发现 DAI 的锚定大部分由 USDC 背书，选择将 USDC 兑换为 USDT，这时 3Crv 池里 1400 万美元的薄弱流动性便会让 USDC 出现持续甚至是严重的脱锚。
+
+另外一个链上出逃口径就是 USDC 兑 ETH 等资产的 AMM 池，比如 Uniswap V3 的 USDC/ETH 池。目前，USDC 410 亿市值里有超 86% 都在以太坊主网上，价值约 350 亿美元，和其他公链相比，以太坊主网仍是 USDC 出逃的主要口径。
+
+而目前 Uniswap V3 上 TVL 最高的流动性池同样为 USDC 兑 DAI 的 0.01% 和 0.05% 池，TVL 约 4 亿美元，其次才是 USDC 兑 ETH 的流动性池。0.3% 加 0.05% 两个池，TVL 约 3.35 亿美元，其中，两个池内目前共有约 11 万枚 ETH，价值约 1.6 亿。从整个以太坊主网看，目前 TVL 为 260 亿，对稳定币市值的占比也是各公链中最小的（排除 Tron）。
+
+因此，如果市场恐慌较长持续下去，USDC 持有者将在 Curve 池耗尽后选择 AMM 作为出逃口径，用 USDC 兑换 ETH 等各类蓝筹甚至非蓝筹资产。这时，一方面 USDC 可能面临价格死亡螺旋，一方面 ETH 等资产价格也可能出现上涨。
+更要命的是，中心化交易平台也开始切断 USDC 的流动性。今晨，Binance 暂时关闭了 USDC 自动转换 BUSD 的功能，并在社交媒体上发文表示，由于 USDC 资产大量流入使自动转换的负担加重，这是 Binance 采取的常规风险管理程序步骤。随后，Coinbase 也做出了同样的声明。要知道，当 CEX 老大哥们也开始逃避 USDC 时，其他交易平台做出同样动作或许只是时间问题。当中心化平台也切断流动性后，USDC 的噩梦就真的来临了。
+很显然，Circle 在 SVB 一事中的亏损并不多，USDC 此次脱锚是恐慌或蓄意造成的挤兑，但如果 Circle 真的因此出售自己以国债为主的投资组合，便会将一时的恐慌挤兑转变为真的资产亏空。Circle 此时要做的，就是关闭赎回，宣布融资等外部资金支持，然后等待市场恢复信心。当然，如上文所述，在等待信心恢复的这个过程中，USDC 的严重脱锚是难以避免的。
+最要担心的还不光是 USDC 的脱锚问题，而是整个稳定币生态的挤兑风险。想一想，USDT 的大部分储蓄同样是国债，倘若 Circle 最终因为巨大脱锚压力出售手中的国债而导致亏损，难道这场大火就不会蔓延到 USDT 身上吗？
+其次便是 DAI、FRAX 等主要以 USDC 进行背书的去中心化稳定币。BlockBeats 曾在《加密全民战争，「去 USDC 化」稳定币的捍卫之路》中指出了当前稳定币生态严重中心化的问题，其中最主要的因素就是中心化稳定币 USDC 的广泛应用。如果 USDC 真的出现严重脱锚，那么不出 1 日，DAI、FRAX 等稳定币的背书将大打折扣，同样面临着挤兑风险。
+而稳定币市场的崩盘，意味着整个加密行业 5 年以上的倒退，因为就目前来说，AMM、借贷、衍生品等 DeFi 应用，甚至是 NFT 和 NFTfi 都早已离不开稳定币的支持，CeFi 则更是如此。稳定币崩塌，散户没有了入金口径，行业内没有了流动性，整个加密生态都陷入休克状态。
+当然，现实情况并不一定会这么悲观，我们已经发现，像 LQTY 这样「老牌算稳」的治理 Token 价格正出现上涨。没错，曾经因 Luna 被「证伪」的算法稳定币又回来了，在这一刻，算稳成为了最去中心化甚至是「最安全」的稳定币。如果这个逻辑被市场认可，则 Liquity、Tribe 等古老的算稳项目将暂时成为加密用户的避难所。
+当然，这些都只是单纯的设想，我们仍然希望 USDC 能熬过此劫。接下来，Circle 会怎么做呢？</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1521,7 +1564,7 @@ ipor_intern：3）增强型池：允许 LP 同时从交易费和利息中获利�
                               <span>DeFi 在欧盟最新反洗钱法案草案中被归类为「高风险」
 据 The Block 报道，欧盟最新反洗钱草案中，包括 DeFi 在内的将资金转入和转出去 DApp 的行为可能会被归类为高风险。下周欧洲议会开会后，草案可能会有更多变化。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;224
+                                &ensp;<span class="article-reading-time">(&hairsp;225
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -4085,105 +4128,6 @@ AA ( 账户抽象 ) 的一些设计 (EIP4337) 已经接近完成，代码开发�
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.panewslab.com/zh/articledetails/h0auukbx.html"
-                        open
-                      >
-                        <summary class="article-expander__title">2023 值得关注的五大技术趋势：以太坊升级、Staking、模块化、ZK应用及账户抽象</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/h0auukbx.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn-img.panewslab.com/panews/2023/03/10/images/1en2kLWRKg.jfif" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>作者：HashKey Capital
-上海升级：成功开放提款，将打消潜在质押者的安全顾虑，因 此预计 staking 的量会上升。同时，staking 项目的竞争也会更加激烈；
-坎昆升级：升级内容可能还会有所变化，但会是 2023 年以太坊 最重大的技术升级。
-
-以太坊在 2023 年为未来技术发展的准备
-
-KZG Ceremony：已经在 2023 年 1 月份成功开启，为 Proto- danksharding 提供了技术（密码学）基础。
-接下来将制定 Danksharding 的标准，解决存在的技术障碍。
-尽管 Danksharding 大概率不会在 2023 年发生，但其升级成功后, 将标志着以太坊扩容之路的成功。
-
-
-
-符合 OFAC 区块数量 ( 来源：mevwatch.info)
-以太坊合并、上海升级后，Staking 赛道将在 2023 年迎来更多发展
-Liquid Staking：
-如何改善质押代币的流动性，目前能看到比较成功的实践是 stETH,随着上海升级的进行，不同质押方案将陆续出现， 其流动性方案将会成为质押方案成功的关键。
-Decentralized Staking：
-目前存在一些去中心化质押的产品和方案，但例如 RocketPool 等流动性过差，需要想办法改进。
-Restaking：
-EigenLayer 提出的「二次质押」的想法，作为一个很不错的 创新受到了社区的关注，但是 同时该方案也有可能危害以 太坊协议层的安全。
-DVT （去中心化验证者网络）：
-SSV 和 Obol 正在探索去中心化验证者的技术方案，这是质押 去中心化发展的重要一步。
-质押收益稳定化：
-当前不同质押节点收益差距过大，需要收益稳定化解决方案。
-
-以太坊验证节点数量（来源:stakingrewards.com）
-以太坊多版本客户端值得关注
-Paradigm 的 Reth:采用了模块化客户端的设计思路，方便开发者组合其中的组建以达到更好的开发效果。
-al6z 的 Helios：采取了和目前多数客户端完全不同的思路，Helios 将执行层与共识层客户端耦合在一起，其效果值得观察。
-
-各户晰数据，来源：Ethernodeso
-浏览器：为了解决 Etherscan 的中心化问题，目前社区开始基于新型客户端开发自托管区块链 浏览器，效果值得关注。
-除了路线图等老生常谈的内容外，2023 年初以太坊社区也有了更多较新的话题讨论，主要包括隐形地址 Stealth Address (EIP-5564) 、基于格的密码学技术 (Lattice-based Cryptography) 等，但具体在以太坊基础设施和应用上的落地仍有待 2023 年的观察。
-
-来源：An incomplete guide to stealth addresses, 作者:Vitalik Buterino
-模块化区块链技术仍是 2023 年的技术热点之一
-模块化区块链在 2023 年将可能在多个层面和方向上有所进展。
-数据可用性层上的新竞争者:
-除了 Celestia 外，2023 年将有更多竞争者参与到 DA 赛道中，包括 Polygon Avail 等。其他一些有意思的探索包括:
-更灵活高效的的执行层：
- 
-Layer2 优化方案
-
-AltLayer 采用了模块化 Rollup 的思路，与 Cosmos 应用链的思路异曲同工 OP；
-Stack：将支持开发者快速搭建和启动 Layer2；
-Stackr、dymension：「Build Your Own Rollup」，快速构建应用专有 Rollup。
-
-
-解决 Sequencer 中心化的问题
-
-Proof of Efficiency 的去中心化 Sequencer 设计（来源：Polygon Hermez 在 ETH Research 发布内容）
-更多的 Layer2 以及「subnet」、Layer3
-通过构建 Layer2「子网」的方式来建立生态将会更加普遍。以往生态中应用链的竞争，可能会进一步延续到「子网」的竞争中。
-比较值得关注的包括：Avalanche (Subnet)、Binance Chain (Beacon Chains zkBNB、Sidechains、Greenfield) 以及从 meme 转变为 Layer2 生态的 Shiba。
-L3 以支持区块链更大规模的扩容与采用,与 Rollup 模块化有着类似的目的，但是完全不同的解决办法。基于 Layer2,提供进一步实现纵向扩容的开发工具和执行环境。 例如 Starknet 的 Slush、zkSync 的 Opportunity 等。
-
-来源：A Comparison of Heterogeneous Blockchain Networks
-zkEVM 主网上线但技术成熟有待时间
-zkEVM 无疑是 2023 年最为值得关注的扩容进展之一。2023 年会有不少测试网甚至主网上线。包括 ConsenSys zkEVM、Polygon Hermezs Scroll。
-但技术的成熟（EVM 兼容等）可能仍需要一定时间。
-另外，支持 zkEVM 证明的硬件（ASIC）估计需要到 2023 年底会出现相对成熟可用的产品。
-
-不同兼容度的 zkEVM （来源：Vitalik Buterin 博客）
-但 ZK 应用值得期待
-ZK 在其他领域内的应用在 2022 年有了长足进展并大概率将在 2023 年 延续，特别是 zkBridge
-
-—种 zkBridge 的设计方式 ( 来源 : Succinct Labs)
-跨链的其他趋势：多链应用,MEV,链间安全等
-多链 ( 全链 ) 和跨链应用将更多：
-跨链 MEV 将很可能重演在单体链上的发展，2023 年值得关注的包括定制化节点共识层的方案例如 Skip Protocol 等定制化 Tendermint 以及 Cosmos 2.0 修改协议层等方案。
-另外，随着 Layer2 的成熟，Layer2 与 Layer!的 MEV 问题将会愈发凸显。Layer2MEVI 具也将随 Layer2 的成熟而完善。
-链间安全 (Interchain Security) : Cosmos 将在 2023 年实现的共享安全方案。restaking 方案思路也与该方案类似，利用 staking 提供更多服务。
-MPC (TSS) 将很可能成为标配：MPC 用于 TSS ( 门限签名 ) 已较为成熟，将支持托管、用户无助记词等更多应用场景。
-AA ( 账户抽象 ) 的一些设计 (EIP4337) 已经接近完成，代码开发进展顺利将在 2023 年成熟；与 MPC 的结合后的钱包产品将非常 值得期待
-闪电网络上的支付、金融服务等应用在 2023 年将有更多有想象空间的发展:
-另外，Proto-danksharding 之后的 L2 支付方案也将在降低成本和提升效率上更上一个档次。
-值得期待的新的编程语言与新生态
-新的开发者工具为下一个行业周期积累技术
- 
-附：2023 年部分值得关注的主网上线 / 升级发布</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;7
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/vv35kcrs.html"
                         open
                       >
@@ -5109,7 +5053,7 @@ https://www.odaily.news/post/5185656
                               <span>去中心化稳定币协议 Gyroscope 完成 450 万美元种子轮融资，Placeholder VC 和 Galaxy Ventures 领投
 去中心化稳定币协议 Gyroscope 宣布完成 450 万美元种子轮融资，由 Placeholder VC 和 Galaxy Ventures 领投，Maven 11、Archetype、Robot Ventures、Balancer Labs 联合创始人 Fernando Martinelli 等参投。Gyroscope 计划推出基于「全方位储备」机制的去中心化稳定币 GYD。该机制的设计核心是，即使储备中的一项资产出现问题，只会影响储备的有限部分，而不是全部。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;214
+                                &ensp;<span class="article-reading-time">(&hairsp;215
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -6683,7 +6627,7 @@ Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下�
 观点：
 Richard Dewey（Proven 联合创始人 ）：如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;214
+                                &ensp;<span class="article-reading-time">(&hairsp;215
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9281,7 +9225,7 @@ Richard Freemanson（Birel 首席执行官）：我不能说这样的折扣说�
 观点：
 Richard Freemanson（Birel 首席执行官）：我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;216
+                                &ensp;<span class="article-reading-time">(&hairsp;217
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -10205,7 +10149,7 @@ DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可�
                               <span>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品
 美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;219
+                                &ensp;<span class="article-reading-time">(&hairsp;220
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -33743,8 +33687,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4390766758">
-        <time id="build-timestamp" datetime="2023-03-11T05:17:01.694Z">2023-03-11T05:17:01.694Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4390796759">
+        <time id="build-timestamp" datetime="2023-03-11T05:24:20.903Z">2023-03-11T05:24:20.903Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
