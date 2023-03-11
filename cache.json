@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>风投总是领先于散户投资者，因此了解加密基金及其投资项目能够更高的进行加密投资。X DAO 创始人 Rekt Fencer 盘点了三个追踪加密风投动向的工具，以帮助用户有效快组追踪加密基金。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">https://twitter.com/rektfencer/status/1633912396824846338</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）CryptoRank：市场洞察和分析平台，可以通过新增的选项查找不同基金的信息，包括投资总数、市场占有率及投资组合等；2）Crunchbase：可以使用多个功能分析项目或基金，包括累积融资金额、活跃投资者及员工资料等；3）Chain Broker：可以追踪基金投资回报率。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1633912396824846338",
           "publishedOn": "2023-03-11T07:55:51.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】盘点三个追踪加密风投动向的必备工具：CryptoRank、Crunchbase 及 Chain Broker",
           "imageUrl": null
         },
@@ -57,7 +57,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 25994,
+          "wordCount": 26025,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -157,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a>",
           "link": "https://twitter.com/ipor_intern/status/1634071620498382851",
           "publishedOn": "2023-03-11T03:10:11.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？",
           "imageUrl": null
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a>",
           "link": "https://twitter.com/y_cryptoanalyst/status/1633753341577797632",
           "publishedOn": "2023-03-10T06:54:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain",
           "imageUrl": null
         },
@@ -487,9 +487,9 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 1021,
+          "wordCount": null,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
-          "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
+          "imageUrl": null
         },
         {
           "id": "https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/",
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nervina Labs 首席执行官 cipherw 发推特阐述其认为多方计算（MPC）钱包的缺陷：存在严重安全风险且并未解决单点故障问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">https://twitter.com/crypcipher/status/1633289822113796097</a></p>\n<p><strong>文章作者：</strong></p><p>crypcipher（Nervina Labs 首席执行官）</p><hr><h3>观点：</h3><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>1）MPC 引入并忽视了更严重的安全风险。虽然 MPC 将用户从私钥管理中解放出来，但其密钥管理依赖于 HSM 或云服务器，很容易出现大量不可恢复故障；2）MPC 钱包始终没有解决单点故障问题。即使密钥共享服务器是分开的，但仍由同一个解决方案提供商运营和维护。这意味着，如果服务提供商关闭，所有的用户账户将变得不可用。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>MPC 是一种钱包 SaaS 产品，兼具 SaaS 的积极和消极方面。虽然终端用户可能不关心去中心化和自主权，但开发者和初创公司却关心，因为他们不能在不可靠的服务上构建应用程序。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a>",
           "link": "https://twitter.com/crypcipher/status/1633289822113796097",
           "publishedOn": "2023-03-09T08:24:58.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：为什么 MPC 钱包不可行？",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">https://twitter.com/balancer/status/1633490690788462592</a></p>\n<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a>",
           "link": "https://twitter.com/balancer/status/1633490690788462592",
           "publishedOn": "2023-03-09T07:12:14.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响",
           "imageUrl": null
         },
@@ -587,7 +587,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>多链 DeFi 管理协议 Instadapp 推出的智能合约钱包 Avocado，支持多网络交易，所有网络的 Gas 以 USDC 形式支持，无需管理多个本地 Gas 代币。加密研究员 Ignas 对其工作原理和重要性进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">https://twitter.com/DefiIgnas/status/1633626328330289152</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Avocado 改变了我们目前与 dApp 的交互方式。Avocado 拥有自己的 RPC，其钱包地址是一个确定性的智能合约，在算法上和你的钱包地址相连，是一个非托管的账户抽象钱包。用户将任何支持的链中的代币发送至该地址后，余额将会出现在 Avocado 网络上。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>在添加 Avocado 时，所有网络 Gas 将以 USDC 形式支持，无需为不同区块链管理不同 Gas 代币。使用 Avocado 进行交易时，需要向相应链签署一个消息，Avocado 将签署的消息转发至相应链上，并在相应链上以原生代币支付 Gas。且用户还可以将任何 dApp 连接至 Avocado 钱包，批准的是来自 Avocado 钱包的交易而不是 dApp 本身。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Avocado 其他关键路线图升级包括 2FA 安全、跨链余额统一、白名单、内置 DeFi 策略及将 Avocado 直接集成到 dApp 的激励计划。Avocado 会额外收取 20% 的 Gas 费，一半费用将流向支持 Avocado 的 dApp，另一半则会导向 INST 国库。此外，团队还将很快推出一个移动应用程序和浏览器扩展程序以进一步改善用户体验。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a>",
           "link": "https://twitter.com/DefiIgnas/status/1633626328330289152",
           "publishedOn": "2023-03-09T06:03:16.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】新项目前瞻 | Instadapp 推出智能合约钱包 Avocado，如何运作？有何创新之处？",
           "imageUrl": null
         },
@@ -777,7 +777,7 @@
           "description": "<h3>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</h3>\n<p>以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。\n\n对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。</p>\n<p><a href=\"https://twitter.com/optimismFND/status/1633122710032113665\">内容来源</a></p><hr>",
           "link": "https://twitter.com/optimismFND/status/1633122710032113665",
           "publishedOn": "2023-03-08T07:37:28.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本",
           "imageUrl": null
         },
@@ -927,7 +927,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 11276,
+          "wordCount": 11516,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -947,7 +947,7 @@
           "description": "<h3>Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投</h3>\n<p>据 TechCrunch 报道，Solana 生态 NFT 交易平台 Tensor 完成了 300 万美元种子轮融资，由 Placeholder 领投， Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。Tensor 曾在 2022 年赢得两次 Solana 黑客松比赛，获得了大约 6 万至 7 万美元的奖金。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/",
           "publishedOn": "2023-03-07T12:46:41.000Z",
-          "wordCount": 9565,
+          "wordCount": 9805,
           "title": "Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1329996497-1.jpg?resize=1200,800"
         },
@@ -1007,7 +1007,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1006,
+          "wordCount": 1004,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
