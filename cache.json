@@ -37,7 +37,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 772,
+          "wordCount": 778,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -377,7 +377,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups</a></p>\n<p><strong>文章作者：</strong></p><p>Partrick McCorry</p><hr><h3>观点：</h3><p><strong>Partrick McCorry：</strong>虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup = 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a>",
           "link": "https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups",
           "publishedOn": "2023-03-10T04:29:42.000Z",
-          "wordCount": 7732,
+          "wordCount": 7938,
           "title": "【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png"
         },
@@ -387,7 +387,7 @@
           "description": "<h3>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</h3>\n<p>Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。</p>\n<p><a href=\"https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw\">内容来源</a></p><hr>",
           "link": "https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw",
           "publishedOn": "2023-03-10T04:15:23.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动",
           "imageUrl": null
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nervina Labs 首席执行官 cipherw 发推特阐述其认为多方计算（MPC）钱包的缺陷：存在严重安全风险且并未解决单点故障问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">https://twitter.com/crypcipher/status/1633289822113796097</a></p>\n<p><strong>文章作者：</strong></p><p>crypcipher（Nervina Labs 首席执行官）</p><hr><h3>观点：</h3><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>1）MPC 引入并忽视了更严重的安全风险。虽然 MPC 将用户从私钥管理中解放出来，但其密钥管理依赖于 HSM 或云服务器，很容易出现大量不可恢复故障；2）MPC 钱包始终没有解决单点故障问题。即使密钥共享服务器是分开的，但仍由同一个解决方案提供商运营和维护。这意味着，如果服务提供商关闭，所有的用户账户将变得不可用。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>MPC 是一种钱包 SaaS 产品，兼具 SaaS 的积极和消极方面。虽然终端用户可能不关心去中心化和自主权，但开发者和初创公司却关心，因为他们不能在不可靠的服务上构建应用程序。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a>",
           "link": "https://twitter.com/crypcipher/status/1633289822113796097",
           "publishedOn": "2023-03-09T08:24:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】观点：为什么 MPC 钱包不可行？",
           "imageUrl": null
         },
@@ -607,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 为用户提供了多种策略来更有效地交易、对冲和管理收益。加密货币 KOL Tindorr 从概念、用户策略、路线图和潜力等方面介绍了此项目，并分析了他看涨的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">https://twitter.com/0xtindorr/status/1633156442760044545</a></p>\n<p><strong>文章作者：</strong></p><p>Tindorr</p><hr><h3>观点：</h3><p><strong>Tindorr：</strong>Pendle 允许任何人交易「收益率」。 「收益率」是指从 Lido 上的 stETH、sAPE（质押 APE）、GMX 上的 GLP 等这些资产（也称为收益率代币）中获得的 APY 或利率。Pendle 将每个收益率代币化为 2 个代币：本金代币（PT）和收益代币 （YT）。此功能为 DeFi 解锁了新策略。 可以在 Pendle 上使用的策略：1）购买 PT （Principal） = 在到期日之前获得固定收益。2）买入 YT （Yield） = 做多收益代币。【原文为英文】</p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">内容来源</a><p><strong>Tindorr：</strong>Pendle 有非常好的路线图，他们即将在 Arbitrum 上上线的池子会吸引更多用户。他们团队平易近人，乐于提供更多信息，上市战略很好。网站上的用户体验 / 用户界面也非常出色，并且是 DeFi 的真正应用。【原文为英文】</p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">内容来源</a>",
           "link": "https://twitter.com/0xtindorr/status/1633156442760044545",
           "publishedOn": "2023-03-09T05:34:14.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】解读交易资产利率的 DeFi 协议：Pendle",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>我们目前以 Rollup 为中心的叙事仍然将权利集中在一个安全中心，而 Cosmos 希望建立的以非等级方式进行交互的系统则需要使用网状安全性（Mesh Security ）将去中心化和主权整合至其安全性中。加密研究员 Emperor Osmo 撰文对 Mesh Security 的重要性进行了探索解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Flowslikeosmo/status/1633482756394225667\">https://twitter.com/Flowslikeosmo/status/1633482756394225667</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>目前我们的经济安全模式包括：1）Hub 利用验证器集增加区块大小，但事实上并没有改善链的安全性，且缺乏协同作用；2）碎片化复制安全性，但这涉及到验证器集的子集确保链的安全，可扩展性更高，类似于 Eigenlayer 正在做的事情。但这些方式都忽略了链想要使用自己的质押代币用于价值获取或激励调整。而网状安全性（Mesh Security ）希望实现的目标则是经济和安全联盟的集成。【原文为英文】</p><a href=\"https://twitter.com/Flowslikeosmo/status/1633482756394225667\">内容来源</a><p><strong>Emperor Osmo：</strong>在 Rollup 模式中，L2 用于执行交易，而结算仍然在 L1，这对于在 L1 上创建的项目是有意义的，但并不适合在 L2 上创建的任何项目。我们该如何解决在 L2 上的审查阻力？或许可以考虑链间制裁，通过对交易施加制裁来审查执行恶意行为的链。网状安全性（Mesh Security ）是主权区块链通过经济上的自我利益保障彼此的进化步骤。【原文为英文】</p><a href=\"https://twitter.com/Flowslikeosmo/status/1633482756394225667\">内容来源</a>",
           "link": "https://twitter.com/Flowslikeosmo/status/1633482756394225667",
           "publishedOn": "2023-03-09T03:43:23.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Cosmos 网状安全性解读：主权区块链通过经济自我利益保障安全的演进之路",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4267,
+          "wordCount": 4473,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -947,7 +947,7 @@
           "description": "<h3>Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投</h3>\n<p>据 TechCrunch 报道，Solana 生态 NFT 交易平台 Tensor 完成了 300 万美元种子轮融资，由 Placeholder 领投， Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。Tensor 曾在 2022 年赢得两次 Solana 黑客松比赛，获得了大约 6 万至 7 万美元的奖金。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/tensor-raises-3m-for-solana-focused-nft-trading-platform/",
           "publishedOn": "2023-03-07T12:46:41.000Z",
-          "wordCount": 10584,
+          "wordCount": 9680,
           "title": "Solana 生态 NFT 交易平台 Tensor 完成 300 万美元种子轮融资，Placeholder 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1329996497-1.jpg?resize=1200,800"
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Delphi Digital 研究员 Teng Yan 在阅读著名品牌 Ugly Dolls 创始人 David Horvath 的 Substack 之后，对 NFT ，特别是 PFP 有了彻底的重新思考，认为 NFT 品牌要成为「长青」项目，需要与文化融为一体，专注于唤起持有者的情感依恋，而不是急于短期营销。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">https://twitter.com/0xPrismatic/status/1632769843601473536</a></p>\n<p><strong>文章作者：</strong></p><p>Teng Yan（Delphi Digital 研究员）</p><hr><h3>观点：</h3><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>Ugly Dolls 持续二十几年经久不衰，创始人 David 强调「Evergreen Ubiquity」的概念，这意味着成为每个人都知道的东西，并持续好几代。成为长青且无处不在的项目，要与文化融为一体，而不是推销文化。如何与文化融为一体？远离噪音 / 市场营销；努力被发现并建立有意义的联系；在成功之前壮大你的部落；与能给你的品牌增添意义的事物站在一起。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">内容来源</a><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>David 说早期要远离大品牌，在合作中你需要有目的地使用他们，而不是让他们利用你。要建立一个伟大的产品线 / 核心产品，带来基本收入，以保持其他一切的活力。这可以让项目活得足够长，做出更多基于长期发展的决策，从而保持品牌活力。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">内容来源</a><p><strong>Teng Yan（Delphi Digital 研究员）：</strong>这要如何适用于 NFT？NFT 品牌 / 创始人需要避免美化其观点或营销，要专注于不断打造体验，以邀请观众发现并唤起他们的情感依恋。地板价可以被看作是一个 PFP 团队为与文化融合而做出的所有决定的总和，时间越长，趋势就越发明显。与大家直觉相反，得到 VC 融资的 NFT 品牌可能更难取得长期成功，因为 VC 急于看到短期利益。【原文为英文】</p><a href=\"https://twitter.com/0xPrismatic/status/1632769843601473536\">内容来源</a>",
           "link": "https://twitter.com/0xPrismatic/status/1632769843601473536",
           "publishedOn": "2023-03-07T12:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Delphi Digital：通过传统品牌思考如何成为长青的 PFP NFT 项目",
           "imageUrl": null
         },
@@ -1007,7 +1007,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前 ZK 领域拥有各种各样的实现，Bankless 专栏作家 William M. Peaster 总结了 ZK 扩容赛道的进展，分析 ZK rollup 、Validium、 Volition 以及 zkEVM 不同 ZK 技术的发展现状，认为 ZK rollup 空间的最终目标是 zkEVM，zkEVM 可能成为以太坊 L1 无法做到的独特定制和 UX 增强的补充。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.defidaonews.com/article/6807138\">https://www.defidaonews.com/article/6807138</a></p>\n<p><strong>文章作者：</strong></p><p>William M. Peaster</p><hr><h3>观点：</h3><p><strong>William M. Peaster：</strong>L2 当前最流行的解决方案是 ZK rollup，当今领先的 ZK rollup 是使用 StarkEx 技术（例如 dYdX 和 Loopring）或基于 zkSync 的代码（例如 zkSync Lite 和 ZKSpace）构建的。然而，还有更多未链接到这些技术栈的 ZK rollup 也值得关注，比如 Aztec Connect。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>还有 Validium 和 Volition 两种基于 ZK 的解决方案值得关注。Validium 执行链下交易并通过链下零知识证明维护其数据，其知名项目是 Immutable X 和 Sorare。Volition 是 ZK-rollup 和 validium 之间的交叉，用户可以在链上和链下数据可用性之间进行选择。zkSync 的新突破性 zkPorter 机制就是一个值得关注的 volition 系统。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>zkEVM 是与以太坊虚拟机 (EVM) 兼容的 ZK rollup，即以太坊 L1 的执行环境。截至 2023 年 3 月，多个 ZK rollup 项目现在明显即将公布他们自己的 zkEVM 实现。zkEVM 的到来代表着 V 神的 2021 年预测迈出了重要一步，即「从中长期来看，随着技术的改进，ZK rollup 将在所有用例中胜出」。ZK rollup 具有内置的隐私和安全优势，因此当添加 EVM 兼容性时，ZK rollup 有可能在未来胜过 Optimistic rollup。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a><p><strong>William M. Peaster：</strong>目前有 Type 1 到 Type 4 不同级别的 zkEVM 在研发中，Type 1 zkEVM 将与 EVM 完全等效，甚至可以用于升级以太坊本身，而 Type 4 zkEVM 仅与某些以太坊应用程序兼容。Polygon zkEVM、Scroll 等正在研发 Type 2 zkEVM，zkSync Era 则是一种固执己见、有意为之的 Type 4 zkEVM。Polygon zkEVM、zkSync Era 和 Scroll 等团队的最新扩展进展已付诸实践。</p><a href=\"https://www.defidaonews.com/article/6807138\">内容来源</a>",
           "link": "https://www.defidaonews.com/article/6807138",
           "publishedOn": "2023-03-07T08:32:51.000Z",
-          "wordCount": 1010,
+          "wordCount": 998,
           "title": "Bankless： ZK 扩容赛道现状观察，谁能脱颖而出？",
           "imageUrl": "https://appserversrc.8btc.cn/FplKKSEZTi4_QgoekR0Fr3tKjF5o.png?imageView2/1/w/500/h/300"
         },
