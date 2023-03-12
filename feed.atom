@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T23:28:42.660Z</updated>
+    <updated>2023-03-12T23:33:57.512Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[美国监管机构：硅谷银行所有储户都将获得补偿，周一可以动用其资金]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/yui5sbfs.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/yui5sbfs.html"/>
+        <updated>2023-03-12T23:29:26.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，据CoinDesk报道，美国监管机构周日在一份联合声明中表示，硅谷银行的所有储户都将获得补偿，并在周一可以动用他们的资金。美国财政部长耶伦、美联储主席鲍威尔和美国联邦存款保险公司（FDIC）主席格伦伯格在一份声明中表示：“在收到FDIC和美联储董事会的建议，并与总统协商后，耶伦部长批准了一些行动，使FDIC能够以充分保护所有储户的方式完成对硅谷银行的清算。今天，我们将采取果断行动，加强公众对我们银行体系的信心，以保护美国经济。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一周预告 | 硅谷银行储户周一可取回受保存款；Filecoin虚拟机FVM将在主网上启动]]></title>
         <id>https://www.panewslab.com/zh/articledetails/zyqt9urt.html</id>
@@ -2430,16 +2440,6 @@ FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美�
         <link href="https://www.panewslab.com/zh/sqarticledetails/7q60i7o4.html"/>
         <updated>2023-03-11T03:04:10.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月11日消息，去中心化衍生品交易平台dYdX在推特发文表示，鉴于最近围绕硅谷银行发生的事件，dYdX决定将继续以USDC的实际美元价格来运行，不会假设USDC等同于美元USD。在USDC与美元脱钩的情况下，所有以USDC支付的头寸、抵押品和融资以美元计算的价值都会下降。交易者不会因USDC-USD价格变化而被平仓。融资支付将继续正常运作，交易者以USDC的实际价值进行支付。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase更新质押服务的条款和条件：出售或转让资产前必须解除质押]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/eq1n3nmi.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/eq1n3nmi.html"/>
-        <updated>2023-03-11T02:41:53.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，据decrypt报道，迫于监管压力，Coinbase正在更新其质押服务的条款和条件。在本周五给客户的一封电子邮件中，Coinbase表示质押服务将继续提供，但Coinbase仅充当连接质押用户、验证者和协议的服务提供商，还将收取“透明的Coinbase费用”，条款中变动最大的是“用户现在必须在出售或转让某些资产之前取消质押，这使Coinbase的服务更符合区块链网络上原生存在的质押服务类型，现在必须在Coinbase上解除质押的资产是Solana (SOL)、Cosmos (ATOM)、Cardano (ADA)和Tezos (XTZ)”。Coinbase还提醒用户，在其平台上质押的任何资产可能需要“几个小时或几周”才能取消质押，转移或出售所需时间取决于协议规则和Coinbase的处理时间”。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
