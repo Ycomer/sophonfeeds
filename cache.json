@@ -217,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1634385755593383936",
           "publishedOn": "2023-03-11T04:05:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>\n<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a>",
           "link": "https://twitter.com/crypto_mckenna/status/1633731247867584512",
           "publishedOn": "2023-03-10T06:27:38.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者",
           "imageUrl": null
         },
@@ -827,7 +827,7 @@
           "description": "<h3>Nansen 推出多链数据访问产品 Nansen Query</h3>\n<p>区块链数据平台 Nansen 宣布推出多链数据访问产品 Nansen Query，允许加密原生团队以编程方式访问策划好的数据集和专业集成，以便为客户、产品和投资用例做出更好的决策。\nNansen Query 基于 Google Cloud 平台构建，可以轻松集成到现有技术堆栈中，为企业提供安全、可靠、高度可扩展的数据管道，能够实时处理百万亿字节的数据。Nansen Query 覆盖了 17 条区块链中 95% 的链上 TVL 和 98% 的稳定币存款，包括比特币、以太坊、BNB Chain、Polygon、Avalanche、Fantom、Solana、Arbitrum、Optimism 和 Tron 等等。</p>\n<p><a href=\"https://twitter.com/nansen_ai/status/1633407437930901506\">内容来源</a></p><hr>",
           "link": "https://twitter.com/nansen_ai/status/1633407437930901506",
           "publishedOn": "2023-03-08T11:36:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Nansen 推出多链数据访问产品 Nansen Query",
           "imageUrl": null
         },
