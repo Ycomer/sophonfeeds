@@ -77,7 +77,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 774,
+          "wordCount": 756,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4473,
+          "wordCount": 4267,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -817,7 +817,7 @@
           "description": "<h3>Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本</h3>\n<p>以太坊 L2 网络 Optimism 发推特称，此前要求基础设施提供商在 3 月 17 日 Optimism Goerli 硬分叉之前将 op-geth 更新到新版本，但现在已发现最新版本存在问题，目前正在解决问题并更新代码库。\n\n对于已经更新版本的基础设施提供商，Optimism 要求回滚到以前版本的 op-geth，若尚未更新则无需执行任何操作，Optimism 将很快发布更新版本。</p>\n<p><a href=\"https://twitter.com/optimismFND/status/1633122710032113665\">内容来源</a></p><hr>",
           "link": "https://twitter.com/optimismFND/status/1633122710032113665",
           "publishedOn": "2023-03-08T07:37:28.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Optimism：op-geth 新版本存在问题，已更新的基础设施提供商需回滚至以前版本",
           "imageUrl": null
         },
@@ -967,7 +967,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 12295,
+          "wordCount": 11391,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
@@ -997,7 +997,7 @@
           "description": "<h3>Sui 开发团队 Mysten Labs 与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统</h3>\n<p>Sui 开发团队 Mysten Labs 表示在昨日 Alibaba Cloud Day Dubai Summit 2023 上已与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统。据悉，此前 Mysten Labs 于 2 月份与腾讯云达成合作，双方将通过在 GameFi、支付和云服务领域的协作来发展 Sui 生态。</p>\n<p><a href=\"https://twitter.com/Mysten_Labs/status/1633064620926574594\">内容来源</a></p><hr>",
           "link": "https://twitter.com/Mysten_Labs/status/1633064620926574594",
           "publishedOn": "2023-03-07T12:31:56.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Sui 开发团队 Mysten Labs 与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统",
           "imageUrl": null
         },
@@ -3018,6 +3018,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/iw6ydzd9.html",
+          "author": null,
+          "description": "PANews 3月12日消息，币安CEO赵长鹏推特发文称，对于法币支持的稳定币，银行是一个风险。有推特用户评论称，“我们需要加密货币支持的稳定币。”赵长鹏对此回应称，“Do Kwon实际上想法是正确的，只是在执行上惨遭失败。”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/iw6ydzd9.html",
+          "publishedOn": "2023-03-12T03:47:23.000Z",
+          "wordCount": 1108,
+          "title": "赵长鹏：银行对法币支持的稳定币构成风险",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/wm6jlkie.html",
           "author": null,
