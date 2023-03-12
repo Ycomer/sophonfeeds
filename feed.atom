@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T02:56:56.219Z</updated>
+    <updated>2023-03-12T03:04:32.803Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[《富爸爸穷爸爸》作者：还有银行即将倒闭，建议买入黄金和白银]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html"/>
+        <updated>2023-03-12T03:03:00.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月12日消息，《富爸爸穷爸爸》作者罗伯特·清崎在推特发文称，在硅谷银行和Silvergate Bank两家大银行相继倒闭后，第三家银行也即将倒闭，但他没有透露该银行的名称。他建议买入黄金和白银，同时应远离ETF。罗伯特·清崎曾于2008年接受CNN采访时预测了雷曼兄弟倒闭。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ordinals协议的新实验同质化代币“BRC-20”是什么？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/39iw47o9.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/39iw47o9.html"/>
+        <updated>2023-03-12T02:58:51.000Z</updated>
+        <summary type="html"><![CDATA[作者 | Decrypt Jason Nelson
+编译 | PANews
+如果你觉得比特币NFT协议Ordinals是昙花一现，那么这个想法可能会让你“打脸”，因为通过将NFT内容刻入比特币区块链的想法不断引起社区的关注，而且也不再局限于“非同质化代币（NFT）”，现在已经有人想出了使用Ordinals协议来铸造一种“同质化代币（fungible tokens）”。
+根据Duna Analytics数据显示，3月9日Ordinals协议的铸造铭文数量突破3万，达到31692个，创下迄今为止单日最高铸造记录。之所以会出现这种情况，是因为比特币社区用户@domodata启动了一场基于Ordinals协议的新实验“BRC-20”，旨在通过Ordinals协议在比特币网络上实现像在以太坊网络上发行ERC-20代币的效果，人们通过比特币区块链铸造和转移他们喜欢的代币。
+  “BRC-20”代币可能是Ordinals协议的最新用例，虽然这个协议曾激怒了一些比特币极端主义者，但随着越来越多创作者和收藏家汇聚到比特币，也让社区对这个最古老区块链不断扩张的可能性感到兴奋。
+本周四，一个名为“Domo”的匿名比特币社区用户在社交媒体上宣布推出“BRC-20”，这个名字是“比特币评论请求”英文名Bitcoin Request for Comment的首字母缩写，灵感来自于Sats Names (.sats)域名标准。
+Domo表示：“过去几天我在Twitter上听说了BRC-20的可能性，很好奇是否可以应用.sats 域名格式来创建它，基本上，我想做的是看看是否可以使用手头上的工具（比如Dune Analytics）和铭文创建链下状态。”
+ 事实上，如上图所示，只需按照BRC-20标准就可以部署BRC-20代币，相关标准概念如下：
+从3月9号开始，Domo的“BRC-20代币”拉开序幕，自那以后，用户通过BRC-20和Ordinals协议部署了受Meme启发的代币，比如Doge、Pepe等。另据Dune Analytics分析（如下图所示），自BRC-20实施上线以来创建的绝大多数序号铭文都是基于文本，其次是图片、应用程序和视频。
+
+Ordinals引发的比特币铭文热潮短时间内似乎不会消退
+截止目前，总计已有近40万条铭文是通过Ordinals协议完成的，几乎所有铭文都是在过去六周内铸造的。NFT分析师Leonidas认为，基于文本的比特币铭文越来越流行，这也是一种趋势，因为文本格式规模很小，大概只有几个字节，而铸造费用与所铸造的文件大小是成正比的，所以铸造JSON（代码）或文本的费用显然要低得多。
+不仅如此，随着比特币网络完成隔离见证（Segwit）和Taproot升级，越来越多的NFT爱好者开始来到原始区块链网络来铸造“比特币NFT”，虽然功能和“以太坊NFT”不完全相同，但最终结果是相似的，Ordinals开始席卷加密世界。
+根据Galaxy Research上周发布的一份报告显示，预计到2025年，迅速崛起的比特币NFT市场价值可能达到45亿美元。目前而言，Ordinals协议已被广泛用于链上铭文，其中包括艺术品、个人资料图片、可玩游戏和基于视频的网络应用程序。就连“无聊猿”Bored Ape Yacht Club的母公司Yuga Labs也通过Ordinals协议拍卖了自己的原创艺术收藏品并在此过程中获利1650万美元。
+尽管社交媒体上对BRC-20代币热议不断，但作为提出这一概念的Domo坦言，不应该将BRC-20视为基于比特币的代币“标准”，他甚至告诫人们不要大量铸造此类代币并称此类代币“毫无价值”，还建议其他构建者设计和编码更强大的解决方案。
+但毫无疑问，BRC-20已成为比特币区块链扩展的一个新起点，即使是一个有趣的实验，BRC-20的推出也已经吸引了很多比特币用户关注，未来的想象空间也很大，正如Domo所说——反应比预期的要好。
+“归根结底，这是一个实验，我认为大多数人都明白这一点，而那些尝试过BRC-20的人们似乎都很开心。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FDIC正出售硅谷银行资产，最快将于周一向客户返还部分无保险存款]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/r3ysz8f9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/r3ysz8f9.html"/>
+        <updated>2023-03-12T02:54:28.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月12日消息，据彭博社报道，据、知情人士透露，美国联邦存款保险公司（FDIC）正在出售资产，并最快于周一向客户返还部分无保险存款。知情人士表示，该金额为未投保存款的30%到50%不等，甚至更多。随着银行资产的出售，将有更多现金可以提供给客户。据悉，硅谷银行的企业客户迫切希望获得资金，以维持运营和员工的工资。尽管FDIC为最高25万美元的存款提供保险，但存于硅谷银行的资金远远超过这一数字。FDIC周五表示，未投保存款的金额仍在确定中，将很快向没有保险的储户发放提前股息。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FDIC正出售硅谷银行资产，最快将于周一向客户返还部分无保险存款]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/r3ysz8f9.html</id>
@@ -27,6 +73,34 @@
 
 与此同时，创业孵化器 Y Combinator 于周六向美国财政部长耶伦和其他监管机构发布了一份由数百名创始人和首席执行官签署的请愿书，要求将在硅谷银行存入资金的小企业进行整合，并要求国会「恢复对地区性银行更严格的监管和资本要求」。</p>
 <p><a href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硅谷银行获得红杉资本等超过 100 家风投公司和投资者支持]]></title>
+        <id>https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors</id>
+        <link href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors"/>
+        <updated>2023-03-12T02:17:28.000Z</updated>
+        <summary type="html"><![CDATA[<h3>硅谷银行获得红杉资本等超过 100 家风投公司和投资者支持</h3>
+<p>据彭博社报道，超过 100 家风险投资和投资公司签署了一份支持硅谷银行的声明，旨在降低硅谷银行倒闭的影响，避免科技公司出现「灭绝级事件」。
+据一位知情人士透露，截至旧金山时间周六下午，包括红杉资本在内的约 125 家风投公司签署了这份由 General Catalyst 牵头的声明。声明称，过去两天发生的事件「令人深感失望和担忧」，并表示，如果该机构被另一个实体收购，投资者将继续与该机构保持关系。
+
+与此同时，创业孵化器 Y Combinator 于周六向美国财政部长耶伦和其他监管机构发布了一份由数百名创始人和首席执行官签署的请愿书，要求将在硅谷银行存入资金的小企业进行整合，并要求国会「恢复对地区性银行更严格的监管和资本要求」。</p>
+<p><a href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maker Governance 已投票通过变更 USDC 等资产相关参数紧急提案，将于 48 小时内链上执行]]></title>
+        <id>https://twitter.com/MakerDAO/status/1634592264579084299</id>
+        <link href="https://twitter.com/MakerDAO/status/1634592264579084299"/>
+        <updated>2023-03-12T02:16:12.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Maker Governance 已投票通过变更 USDC 等资产相关参数紧急提案，将于 48 小时内链上执行</h3>
+<p>Maker Governance 已投票通过昨日发起的一系列参数变更紧急提案，提交的参数变更计划在 48 小时内部署，即北京时间 3 月 14 日 0:14。
+据悉，提议变更 USDC 相关资产风险和治理参数，将 UNIV2USDCETH-A、UNIV2DAIUSDC-A、GUNIV3DAIUSDC1-A 以及 GUNIV3DAIUSDC2-A 等 USDC 相关 LP 作为抵押品的债务上限降至 0。此外，提案还提议更改 PSM-USDC-A、PSM-GUSD-A 等锚定稳定模块的部分参数以减轻协议风险。</p>
+<p><a href="https://twitter.com/MakerDAO/status/1634592264579084299">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -2138,26 +2212,6 @@ Vitalik Buterin —— RAI 更好地体现了仅由 ETH 支持的，超额抵押
         <link href="https://www.panewslab.com/zh/sqarticledetails/o0yx464l.html"/>
         <updated>2023-03-10T18:56:08.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月11日消息，币安CEO赵长鹏推特发文称，币安对硅谷银行没有风险敞口，资金是安全的。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[赵长鹏：币安对硅谷银行没有敞口，资金安全]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/o0yx464l.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/o0yx464l.html"/>
-        <updated>2023-03-10T18:56:08.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，币安CEO赵长鹏推特发文称，币安对硅谷银行没有风险敞口，资金是安全的。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硅谷银行破产，已被美国联邦存款保险公司(FDIC)接管]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/yd1lnfom.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/yd1lnfom.html"/>
-        <updated>2023-03-10T17:31:45.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，据彭博社报道，硅谷银行已破产并被美国联邦存款保险公司(FDIC)接管。加州金融保护和创新局周五在一份声明中表示，它已经接管硅谷银行，并指定FDIC作为接管人，理由是流动性不足和资不抵债。FDIC表示，受保险储户最迟将在周一上午获得资金。未投保储户将获得未投保资金剩余金额的破产管理证书，但尚不清楚具体金额。随着FDIC出售硅谷银行的资产，未来可能会向未投保储户支付股息。据此前消息，硅谷银行母公司SVB宣布，在其投资组合出现重大亏损后，将努力筹集超过20亿美元的资金。硅谷银行成立于1983年，自成立以来，该公司专门为科技初创企业提供金融服务。FDIC称，截至去年年底，该银行总资产约2090亿美元，总存款约1754亿美元。截止结算时，超过保险限额的存款金额尚未确定。FDIC作为接管人将保留硅谷银行的所有资产，以备日后处置。贷款客户应继续照常还款。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
