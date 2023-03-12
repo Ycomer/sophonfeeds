@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T06:44:23.751Z</updated>
+    <updated>2023-03-12T06:49:14.886Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[zkData Attestation，借助密码学实现「万物皆可证明」]]></title>
+        <id>https://foresightnews.pro/article/detail/27440</id>
+        <link href="https://foresightnews.pro/article/detail/27440"/>
+        <updated>2023-03-12T06:34:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>密码学技术提供商 PADO Labs 提出 zkData 机制设想，旨在在保护隐私的同时，让一个使用 MPC 和 ZKP 技术的「安全见证人」来观察甚至参与整个通信过程，并给出数据认证结论。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/27440">https://foresightnews.pro/article/detail/27440</a></p>
+<p><strong>文章作者：</strong></p><p>PADO Labs</p><hr><h3>观点：</h3><p><strong>PADO Labs：</strong>假设一位罕见病患者 Bob 在互联网医院存放了个人电子病历，希望借助 charityDAO 获得救助改善治疗困境。基于零知识证明和安全多方计算的 zkData Attestation 提供了一种「见证人机制」。大体上讲，zkData Attestation 引入一个计算节点 Pauli，全流程参与 Bob 和医院之间的会话，并对 Bob 从医院数据接口获取的信息进行「黑盒」式认证和签名。charityDAO 对 Pauli 的签名进行验证，从而确认 Bob 电子病历数据的真实性。</p><a href="https://foresightnews.pro/article/detail/27440">内容来源</a><p><strong>PADO Labs：</strong>这种前置式的检查，极大提升了链下数据的可验证性，并且与当前的 EAS 框架完全兼容。升级计算节点成为一个标准的以太坊 Attestor，通过 EAS 提供的模式注册服务，支持任何人使用 zkData Attestation。在 EAS 或其他类似公共证明框架下，将用户链下数据通过可验证和隐私友好的方式转化为标准化数据证明，从而促更多的创新应用，例如分布式信用借贷、慈善 DAO 等。</p><a href="https://foresightnews.pro/article/detail/27440">内容来源</a><p><strong>PADO Labs：</strong>从应用安全的视角来看，任何人都可以运行一个这样的计算节点，为任意使用方（个人、合约或在线服务等）提供链下数据真实性的背书，并获取相应服务收益。受益于 HTTPS/TLS 协议足够成熟的商业化效应，几乎所有接入互联网的用户数据价值均可被 zkData Attestation 捕获，通过用户自主授权分享给链上应用。</p><a href="https://foresightnews.pro/article/detail/27440">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[zkData Attestation，借助密码学实现「万物皆可证明」]]></title>
         <id>https://foresightnews.pro/article/detail/27440</id>
