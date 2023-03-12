@@ -257,7 +257,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a>",
           "link": "https://twitter.com/ipor_intern/status/1634071620498382851",
           "publishedOn": "2023-03-11T03:10:11.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？",
           "imageUrl": null
         },
@@ -267,7 +267,7 @@
           "description": "<h3>DeFi 在欧盟最新反洗钱法案草案中被归类为「高风险」</h3>\n<p>据 The Block 报道，欧盟最新反洗钱草案中，包括 DeFi 在内的将资金转入和转出去 DApp 的行为可能会被归类为高风险。下周欧洲议会开会后，草案可能会有更多变化。</p>\n<p><a href=\"https://www.theblock.co/post/218590/defi-dubbed-high-risk-eu-anti-money-laundering-bill\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/218590/defi-dubbed-high-risk-eu-anti-money-laundering-bill",
           "publishedOn": "2023-03-11T02:19:39.000Z",
-          "wordCount": 48535,
+          "wordCount": 67387,
           "title": "DeFi 在欧盟最新反洗钱法案草案中被归类为「高风险」",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/09/20220928_EU_Generic4-1200x675.jpg"
         },
@@ -487,7 +487,7 @@
           "description": "<h3>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</h3>\n<p>Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。</p>\n<p><a href=\"https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw\">内容来源</a></p><hr>",
           "link": "https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw",
           "publishedOn": "2023-03-10T04:15:23.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动",
           "imageUrl": null
         },
@@ -667,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">https://twitter.com/balancer/status/1633490690788462592</a></p>\n<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a>",
           "link": "https://twitter.com/balancer/status/1633490690788462592",
           "publishedOn": "2023-03-09T07:12:14.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响",
           "imageUrl": null
         },
@@ -937,7 +937,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">https://twitter.com/cryptokaduna/status/1633187498150215681</a></p>\n<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">内容来源</a><p><strong>Kaduna：</strong>目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】</p><a href=\"https://twitter.com/cryptokaduna/status/1633187498150215681\">内容来源</a>",
           "link": "https://twitter.com/cryptokaduna/status/1633187498150215681",
           "publishedOn": "2023-03-08T06:13:09.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives",
           "imageUrl": null
         },
@@ -957,7 +957,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">https://twitter.com/rubywxt1/status/1633256234341244929</a></p>\n<p><strong>文章作者：</strong></p><p>Rubywang.eth</p><hr><h3>观点：</h3><p><strong>Rubywang.eth：</strong>现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。</p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">内容来源</a><p><strong>Rubywang.eth：</strong>猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。</p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">内容来源</a><p><strong>Rubywang.eth：</strong>Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。</p><a href=\"https://twitter.com/rubywxt1/status/1633256234341244929\">内容来源</a>",
           "link": "https://twitter.com/rubywxt1/status/1633256234341244929",
           "publishedOn": "2023-03-08T05:49:06.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？",
           "imageUrl": null
         },
