@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T05:43:49.445Z</updated>
+    <updated>2023-03-12T05:48:57.503Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -34,6 +34,48 @@ Lookonchain统计的机构操作
 最后，PANews在这里要提醒大家，在进行链上操作时一定要小心。一个反面教材是，某用户将超过200万美元的Curve 3pool LP代币通过Kyber的聚合路由卖出，仅获得了0.05 USDT。原因在于该用户既没有按照流程操作（应当直接通过Curve赎回流动性），在兑换时也没有注意价格，最后被MEV机器人赚取超过200万美元的利润。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[复盘USDC脱锚下的抄底、避险和套利机会]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/acw8ta8t.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/acw8ta8t.html"/>
+        <updated>2023-03-12T05:37:31.000Z</updated>
+        <summary type="html"><![CDATA[3月11日，USDC的发行商Circle称，USDC的400亿储备金中有33亿存款在硅谷银行，在此之前硅谷银行因“流动性不足和资不抵债”而被迫关闭，并指定了美国联邦储蓄保险公司（FDIC）接管。
+虽然Circle受到影响的只是一小部分资金，但因为周末银行并不上班，大规模购买USDC赎回美元这一套利机制失效且Coinbase也关闭了USDC的美元提款通道，USDC、DAI、FRAX、MIM等稳定币相继脱锚。在市场剧烈波动的情况下，也蕴含着一些机会。
+
+Lookonchain统计的机构操作
+抄底：USDC损失有限且大概率会回到1美元附近
+最简单的操作就是等待USDC下跌后进行抄底，依据在于USDC储备金受到硅谷银行影响的比例不超过10%，那么USDC当前的理论价值应该超过0.9美元，USDC跌到0.9美元以下就是合适的抄底机会。
+这已经考虑了硅谷银行被清算并完全不能收回资金、Circle坐视不理等极端情况。实际上，硅谷银行因为在风险投资行业的良好声誉，也有不少的支持者。据彭博社报道，超过100家银行签署了一份支持硅谷银行的声明，如果其它实体收购硅谷银行，投资者将继续与硅谷银行保持关系。
+3月12日，Circle也发布公告称，如果硅谷银行的资金不能100%回款，Circle将使用公司资源弥补短缺以支持USDC。在美国银行下周一营业后，USDC的流动性操作将恢复正常。
+在过度的FUD情绪之下，部分投资者可能担心美国其它银行也可能步Silvergate和硅谷银行的后尘，第一共和银行（FRC）的股票价格在周五开盘时曾跌超50%。据彭博社报道，美联储和FDIC正考虑设立基金，为陷入困境的银行提供存款担保。
+直接进行抄底的投资者还需实时关注动态，以免让自己处于不公平地位。例如在FTX风险刚刚暴露时，资金缺口相对于总存款的比例并不高，但因为很多人全额提款，且在提款关闭后FTX还通过特殊渠道向部分人开放了提款，导致没有提款的人可能损失100%的资金。
+即使有风险，大概率USDC也会在周一恢复至接近1美元的价格。
+在USDC脱锚后，可以选择将USDC 1:1兑换为其它稳定币，以期望其它稳定币的发行商能够兜底。如果USDC恢复1美元，将没有任何损失；如果USDC继续脱锚，其它稳定币的发行商也可能弥补USDC的亏空。
+首先是BUSD和USDC的互换，币安默认将用户充值的USDC兑换为BUSD，因此USDC脱锚的早期，BUSD和USDC在币安仍然能够按1:1互换。在USDC已经脱锚的情况下，BUSD理论上比USDC风险更小，可能有币安的兜底。事实也如此，随着USDC脱锚的持续，币安关闭了USDC和BUSD的互换通道，此后BUSD的负溢价维持在1%左右，而USDC的负溢价最高超过10%。
+第二是DAI与USDC的互换，Maker的稳定锚定模块允许DAI与USDC之间的互换。在没有其它渠道规避风险的情况下，DAI也是比USDC更好的选择，因为还有部分DAI是超额抵押加密货币铸造的，且MakerDAO有可能对协议中的坏账进行兜底。波场创始人孙宇晨也进行了这一操作，事后MakerDAO确实采取了积极措施，DAI的负溢价低于USDC。
+ 
+套利：不同链上和DEX之间的价格差异
+在USDC价格波动的时候，市场上也有很多套利机会，这个思路的核心就是多观察同种资产在不同链和中心化交易所之间的价格差异。
+例如，Optimism和Arbitrum上的ETH/USDC交易对和OKX上价格的不同，需要使用1inch等交易聚合器，即使单个DEX上ETH/USDC的价格和交易所相同，也能通过DeFi的可组合性套利。其中一种操作是用USDC通过Optimism的1inch购买ETH，再到OKX、Bybit等平台换成USDC。当USDC贬值时，交易经过会“USDC-sUSD-sETH-ETH”的路径，通过Synthetix的原子交易完成。核心原因可能是因为在USDC价格下跌后，链上的USDC/sUSD交易对的价格并没有变化，Stableswap会导致流动性聚集，从而提供可观的流动性。
+由于OKX支持更多不同链上资产的充提（如Optimism、Arbitrum的USDC），且开通了更多流动性好的交易对（如ETH/USDC），短期内流入了更多资金。事后，币安也恢复了USDC/USDT交易对，并表示将开通ETH/USDC等交易对。
+ 
+最后，PANews在这里要提醒大家，在进行链上操作时一定要小心。一个反面教材是，某用户将超过200万美元的Curve 3pool LP代币通过Kyber的聚合路由卖出，仅获得了0.05 USDT。原因在于该用户既没有按照流程操作（应当直接通过Curve赎回流动性），在兑换时也没有注意价格，最后被MEV机器人赚取超过200万美元的利润。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何利用「USDC 危机」套利？这 17 位「超级大户」的手法如下]]></title>
+        <id>https://www.odaily.news/post/5185667</id>
+        <link href="https://www.odaily.news/post/5185667"/>
+        <updated>2023-03-12T05:09:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>受硅谷银行破产影响，USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中，有人选择恐慌抛售，也有人探底买入。Lookonchain 分析链上数据，整理总结多家机构投资者分别如何应对这场 USDC 脱锚危机。中文版由 Odaily 星球日报译者 Moni 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.odaily.news/post/5185667">https://www.odaily.news/post/5185667</a></p>
+<p><strong>文章作者：</strong></p><p>Lookonchain</p><hr><h3>观点：</h3><p><strong>Lookonchain：</strong>概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市前通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 Vitalik、Poap.xyz 创始人 worthalter 和 Taureon Capital 则在底部买入了 USDC。</p><a href="https://www.odaily.news/post/5185667">内容来源</a><p><strong>Lookonchain：</strong>另一方面，孙宇晨、IOSG Ventures、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。</p><a href="https://www.odaily.news/post/5185667">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
