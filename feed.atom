@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T07:41:13.490Z</updated>
+    <updated>2023-03-12T07:46:29.172Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止]]></title>
+        <id>https://twitter.com/mikealfred/status/1634783756656492544</id>
+        <link href="https://twitter.com/mikealfred/status/1634783756656492544"/>
+        <updated>2023-03-12T07:30:40.000Z</updated>
+        <summary type="html"><![CDATA[<h3>FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止</h3>
+<p>Alpine Fox LP 创始人兼管理合伙人 Mike Alfred 发推表示，美国联邦存款保险公司（FDIC）已经进驻 First Republic Bank 现场，试图确定保护储户的最佳途径。考虑到已经达到临界点的加速银行挤兑，事情的发展速度比预期要快得多。First Republic Bank 从今天（3 月 12 日）开始限制汇出电汇交易，并将在今天结束时完全停止处理电汇交易。目前该银行电汇交易处理措辞已改为「感谢您的交易，我们会尽快回复您」。</p>
+<p><a href="https://twitter.com/mikealfred/status/1634783756656492544">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH]]></title>
+        <id>https://twitter.com/the_peopledao/status/1634518915668668416</id>
+        <link href="https://twitter.com/the_peopledao/status/1634518915668668416"/>
+        <updated>2023-03-12T07:04:47.000Z</updated>
+        <summary type="html"><![CDATA[<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>
+<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。
+
+该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>
+<p><a href="https://twitter.com/the_peopledao/status/1634518915668668416">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href="https://twitter.com/the_peopledao/status/1634518915668668416">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href="https://twitter.com/the_peopledao/status/1634518915668668416">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[zkData Attestation，借助密码学实现「万物皆可证明」]]></title>
         <id>https://foresightnews.pro/article/detail/27440</id>
@@ -9316,31 +9342,6 @@ Redemption Games 是一家从移动游戏开发巨头 AppLovin 公司剥离出�
 <p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
 Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>
 <p><a href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投]]></title>
-        <id>https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/</id>
-        <link href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/"/>
-        <updated>2023-03-08T01:51:56.000Z</updated>
-        <summary type="html"><![CDATA[<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>
-<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。
-Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>
-<p><a href="https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[泰国将为发行投资代币的公司和投资人免税]]></title>
-        <id>https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters</id>
-        <link href="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters"/>
-        <updated>2023-03-08T01:37:00.000Z</updated>
-        <summary type="html"><![CDATA[<h3>泰国将为发行投资代币的公司和投资人免税</h3>
-<p>据 The Block 报道，泰国财政部长 Arkhom Termpittayapaisith 周二发表的一份声明显示，泰国内阁已批准对在该国提供投资代币的加密货币公司免除企业所得税和增值税。免税政策将适用于这些投资代币的初级和二级产品，同时代币投资者也将免除增值税，Utility 型代币不适用于该政策。Arkhom 表示，公司必须注册其代币产品才能享受税收减免，免税政策可能会使政府在未来两年内放弃高达 350 亿泰铢（10 亿美元）的收入。</p>
-<p><a href="https://www.theblock.co/post/217673/thailand-waives-crypto-tax-for-investment-tokens-reuters">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
