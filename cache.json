@@ -37,7 +37,7 @@
           "description": "<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>\n<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。\n\n该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>\n<p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a>",
           "link": "https://twitter.com/the_peopledao/status/1634518915668668416",
           "publishedOn": "2023-03-12T07:04:47.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH",
           "imageUrl": null
         },
@@ -157,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26121,
+          "wordCount": 26090,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Circle 宣布约 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行中，一时间引发了市场对于 Circle 暴雷的恐慌。加密研究员 0xLoki 在对 Circle 储备资产及估值进行分析后，认为 Circle 出问题的概率极低。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">https://twitter.com/Loki_Zeng/status/1634410350505508864</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>Circle 储备资产分为三个部分：324 亿美元国债组合、33 亿在 SVB 中及存在 SVB 以外银行的 78 亿。其国债组合具备充足流动性，即使被迫贴现也不会受到太大损失。此外，SVB 的情况和当时 FTX 的情况完全不同，SVB 这些贷款中的大部分还是可以收回的，43% 的极端情况发生的概率很低很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>SVB 以外银行的 78 亿我们在官方也找到了相关信息披露，可以看出除了 SVB 和 Silvergate 以外，Signatures Bank 等三家银行同样不能让我们放心。考虑到 BNYM 是 Circle 首选银行，保守估计下，BAYM 资金占 35%，剩下四家每家 10%，悲观一点，如果有风险的三家都出问题，回收率按 80% 计算，Circle 总损失是 20 亿美元左右。合理一点，Circle 在 SVB 中损失 7 亿美元左右，最极端的情况是 SVB 中损失 33 亿且剩余三家中共计 50 亿无法收回，但概率很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>但根据 Circle 估值，7 至 20 亿美元的损失对 Circle 来 说并不是太大的问题。USDC 真正暴雷需要满足三个条件：1）存在 SVB 和三家中风险银行的资金足够多；2）这些银行的债务回收率足够低；3）USDC 自己无法承担损失或者无法找到资金支持方来解决问题。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a>",
           "link": "https://twitter.com/Loki_Zeng/status/1634410350505508864",
           "publishedOn": "2023-03-11T05:14:43.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】 硅谷银行倒闭，会成为 Circle 暴雷导火索吗？",
           "imageUrl": null
         },
@@ -227,7 +227,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -277,7 +277,7 @@
           "description": "<h3>Y combinator CEO ：银行暴雷已影响上千家初创公司，其中 1/3 将无法在未来 30 天内发放工资</h3>\n<p>Y combinator 首席执行官 Garry Ten 在接受 CNBC 采访时表示，本次银行暴雷事件已影响上千家初创企业，其中 1/3 将无法在未来 30 天内发放工资。这种崩溃正在影响美国工人。</p>\n<p><a href=\"https://twitter.com/MarioNawfal/status/1634324773726461952\">内容来源</a></p><hr>",
           "link": "https://twitter.com/MarioNawfal/status/1634324773726461952",
           "publishedOn": "2023-03-11T02:19:07.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Y combinator CEO ：银行暴雷已影响上千家初创公司，其中 1/3 将无法在未来 30 天内发放工资",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20955,
+          "wordCount": 20979,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -327,7 +327,7 @@
           "description": "<h3>外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用</h3>\n<p>据 moneycontrol 引援知情人士消息，Facebook 和 Instagram 的母公司 Meta 正在构建一个代号为「P92」的内容应用。该应用将支持去中心化社交网络协议 ActivityPub，采用 Instagram 品牌，并允许用户通过他们的 Instagram 注册或登录。</p>\n<p><a href=\"https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Meta：</strong>我们正在探索一个独立的去中心化社交网络来共享文本更新。我们相信有机会建立一个单独的空间，创作者和公众人物可以及时分享他们的更新。【原文为英文】</p><a href=\"https://www.reuters.com/technology/meta-explores-decentralized-social-network-app-text-updates-2023-03-10/\">内容来源</a>",
           "link": "https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html",
           "publishedOn": "2023-03-10T11:00:14.000Z",
-          "wordCount": 14414,
+          "wordCount": 14413,
           "title": "外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用",
           "imageUrl": "https://images.moneycontrol.com/static-mcnews/2023/03/396330803-654x435.jpg"
         },
@@ -667,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">https://twitter.com/balancer/status/1633490690788462592</a></p>\n<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a>",
           "link": "https://twitter.com/balancer/status/1633490690788462592",
           "publishedOn": "2023-03-09T07:12:14.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Tornado Cash 早期贡献者 Ameen Soleimani 在 Optimism 上发布升级版本混币协议 Privacy Pools，通过 zk-proof 证明用户提取的资金不是黑客部署在混币器中的资金。区块链研究员 0xhhh 详细解析了 Privacy Pools 的运行机制。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">https://twitter.com/hhh69251498/status/1633027375398273024</a></p>\n<p><strong>文章作者：</strong></p><p>hhh_quickCreation</p><hr><h3>观点：</h3><p><strong>0xhhh：</strong>用户提款时，需要再构造另外一棵与 deposit tree 树对应的 allow tree。用户构造的提款证明 private input 包含：allow tree 对应的 path；deposit tree 对应的 path；deposit tree 上要提款的节点对应在 allow tree 上的叶子节点值必须为 “allowed”。public input 包含：allow_tree_root、deposit_tree_root。其中 private input 意味着这部分的信息最后会被隐藏在证明内。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a><p><strong>0xhhh：</strong>黑客将钱非法资金存入 deposit tree 中的某个叶子节点，同样也只能构造出对应的叶子节点值为 “allowed” 的 allow tree 和对应的 allow_tree_root，通过交易的 input 发现该笔提款并没有排除黑客存入的叶子节点，于是我们成功标记了黑客的提款交易，也就意味着黑客想通过混币交易洗钱的目的失效了。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a><p><strong>0xhhh：</strong>总结：只有 allow-tree 设置为 allowed 的节点可以提款；黑客不得不将自己所在的 allow tree 那个节点变成 allowed；正常用户会将黑客所在的那个 allow tree 的节点设置成 blocked；所以可以通过在提款的时候黑客给的 allow tree（将非法节点设置为了 allow）来标记黑客。</p><a href=\"https://twitter.com/hhh69251498/status/1633027375398273024\">内容来源</a>",
           "link": "https://twitter.com/hhh69251498/status/1633027375398273024",
           "publishedOn": "2023-03-08T03:41:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】详解混币协议 Privacy Pools 机制：无需历史交易信息即可识别黑客资金",
           "imageUrl": null
         },
