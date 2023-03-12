@@ -2,10 +2,81 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T14:25:23.715Z</updated>
+    <updated>2023-03-12T14:30:28.985Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一周预告 | 硅谷银行储户周一可取回受保存款；Filecoin虚拟机FVM将在主网上启动]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/zyqt9urt.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/zyqt9urt.html"/>
+        <updated>2023-03-12T14:18:04.000Z</updated>
+        <summary type="html"><![CDATA[要闻预告：
+更多一周预告请点击下载PANews APP，关注PANews推出的事件日历活动板块，在PANews随时随地阅读更多区块链即时快讯和深度好文。
+交易所：
+Coinbase将于3月13日暂停BUSD交易
+Coinbase 宣布将于 2023 年 3 月 13 日美国东部时间 12 时左右暂停 Binance USD（BUSD）交易。BUSD 资金仍可供用户使用，并且将继续能够随时提取资金。
+项目动态：
+硅谷银行存款转入新实体DINB，受保储户将在3月13日上午取回受保存款
+据美国联邦存款保险公司(FDIC)最新公告，加州金融保护和创新部已于本周五下午关闭了硅谷银行并委任美国联邦存款保险公司接管了其业务。目前美国联邦存款保险公司已经创建了一个名为“圣克拉拉存款保险国家银行 (DINB)”的新实体并将硅谷银行存款转入到该实体中以保护客户，所有受保储户将在3月13日（下周一）早上之前完全使用其受保存款，FDIC将在下周内向未投保储户支付预付利息，未投保的存款人将收到其未投保资金剩余金额的接管证书，随着FDIC出售硅谷银行的资产，未来可能会向未投保的储户支付利息。
+芝商所(CME)计划于3月13日推出比特币期货合约
+衍生品市场芝商所 (CME Group) 将于3月13日推出比特币期货合约，目前正在等待监管部门的审查。
+投票治理：
+Uniswap社区正对关于“将Uniswap v3部署到Kava EVM网络”的投票将于3月13日结束
+代币解锁：
+Sweat Economy ( SWEAT )计划于3月13日解锁
+项目动态：
+Maker已投票通过USDC等相关参数变更紧急提案，计划于在北京时间3月14日0点14分部署
+据官方消息，Maker Governance已投票通过昨日发起的一系列参数变更紧急提案，提交的参数变更计划在北京时间3月14日0点14分部署。据此前消息，MakerDAO治理社区发起紧急提案，提议变更USDC相关资产风险和治理参数，将 UNIV2USDCETH-A、UNIV2DAIUSDC-A、GUNIV3DAIUSDC1-A 以及 GUNIV3DAIUSDC2-A 等USDC相关LP作为抵押品的债务上限降至 0。 此外，提案还要求更改PSM-USDC-A、PSM-GUSD-A等锚定稳定模块的部分参数以降低协议风险。
+Filecoin虚拟机FVM将于3月14日在主网上启动
+据官方博客，Filecoin虚拟机（FVM）将于3月14日在Filecoin主网上启动。Filecoin EVM将通过Filecoin nv18 Hygge升级部署在Filecoin主网上。
+隐私网络Iron Fish将于3月14日上线主网，并空投94万枚主网代币
+隐私网络Iron Fish宣布将于3月14日上线主网，届时铸造完全私有的自定义资产、销毁、交易、挖矿和托管节点等功能均将可用。此外，本周Iron Fish将推出一个申领门户，共向测试网参与者发放94万枚主网代币空投。
+代币解锁：
+dYdX ( DYDX )计划于3月14日解锁
+交易所：
+Bitstamp将于3月15日进行维护，届时将中断服务
+加密交易所Bitstamp宣布，由于计划中的基础设施升级和维护，网络平台和应用程序中的所有服务（包括登录和注册）将于UTC时间3月15日10:00（北京时间18:00）暂时不可用。维护将持续约1小时。
+Kraken将不再支持非企业客户使用Signature Bank进行存取款，其存款业务将于3月15日停止
+据彭博社报道，Kraken在周三发给客户的一封电子邮件中表示，Kraken的非企业客户将无法再使用加密银行Signature Bank进行美元存款或取款。存款将于3月15日停止，客户需在3月30日之前完成提款。据币安此前发布的一份声明，Signature Bank将从2023年2月1日起不再支持任何交易金额低于10万美元的加密交易所客户。
+项目动态：
+以太坊Goerli测试网预计将于3月15日上午激活Shapella升级
+以太坊基金会在博客文章中宣布，Shapella网络升级将于epoch 162304在Goerli网络上激活，计划时间为北京时间3月15日06:25:36，预计这将是为以太坊主网安排Shapella升级之前的最后一次测试网升级。
+Cosmos Hub将于3月15日进行V9 Lambda升级，将激活“Replicated Security”功能
+Cosmos Hub关于v9 Lambda升级提案以99.48%的支持率获得投票通过。Cosmos Hub在官方推特上宣布将于3月15日进行V9 Lambda升级。根据该提案，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。Replicated Security功能可将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者。
+BAYC将“召唤”启动时间推迟至3月15日
+Bored Ape Yacht Club （BAYC）在推特发布公告称，经过内部审查，目前决定将召唤“Summoning”启动时间推迟一周至3月15日，但蟾蜍模式的分数审查仍将按计划在3月7日之前完成。
+Moonbirds母公司PROOF将于3月15日发布NFT系列“Archive of Feelings”
+Moonbirds母公司PROOF宣布将与Pace Verso合作，于3月15 日发布术家Mika Tajima的首个个人NFT项目“Archive of Feelings”系列NFT，总量1152枚，使用自定义情绪的算法来可视化美国12个地区的Twitter数据。PROOF Collective Pass持有者均可以0.1 ETH的价格铸造一枚NFT。Moonbirds和Pace Verso NFT持有者将有资格在第二轮进行铸造。若有剩余将可用于公开铸造。
+Stargate重新发行STG代币的提案已获投票通过，将于3月15日执行
+Snapshot页面显示，跨链桥Stargate关于重新发行STG的提案以90.43%的支持率获得投票通过，并将于3月15日执行合约替换。
+政策监管：
+以色列央行发布稳定币监管规则，其公众意见征集将于3月15日截止
+以色列央行发布稳定币监管规则，该文件遵循该国财政部11月发布的数字资产监管指南，央行要求稳定币发行方维持与流通中的加密货币数量相匹配的准备金。此外，文件还建议在多个监管机构之间拆分监管角色以提高效率，稳定币发行方应获得经营许可证。拟议的规则将在3月15日之前公开征求公众意见，之后该银行将进行必要的修改并向政府建议立法。
+代币解锁：
+BitDAO ( BIT ) 计划于3月15日解锁
+交易所：
+币安同意在3月16日之前向美参议员提供美国用户数量、财务数据和反洗钱措施等信息 
+三名美国参议员在给币安创始人赵长鹏和其美国最高副手Brian Shroder的信中表示：“币安及其相关实体故意逃避监管机构，将资产转移给犯罪分子和制裁逃避者，并向其客户和公众隐藏基本财务信息。”对此币安在一份声明中表示，关于公司的许多错误信息已经传播，但感谢参议员的要求，将提供信息以帮助他们更好地了解公司。
+项目动态：
+数字资产平台Bakkt退出消费者业务以专注于B2B，其应用程序将于 3 月 16 日正式停用
+随着监管机构的严厉打击，数字资产平台 Bakkt 正在放弃其消费者应用程序，该应用程序将于 3 月 16 日正式停用。以专注于其企业对企业（B2B）技术解决方案。Bakkt 将继续通过安全合规平台上的 SaaS 和 API 解决方案，为企业的客户提供加密和忠诚度体验。
+项目动态：
+GameFi社交平台BEBO LAB预计在3月17日开发BEBO NFT铸造
+代币解锁：
+ApeCoin ( APE )和Stargate Finance ( STG )计划于3月17日解锁
+社区治理：
+关于“在Avalanche部署Uniswap V3”的提案将于3月17日结束投票
+Uniswap社区关于在Avalanche部署Uniswap V3的提案已在链上发布，将于3月12日-3月17日进行链上投票。该提案此前已通过温度检查投票。提案发起方Blockchainat Michigan表示，“随着Uniswap V3核心代码版权商业保护于4月1日到期，在咨询Ava Labs团队之后，我们认为这是Uniswap扩展到Avalanche生态系统的适当时机。”
+项目动态：
+Optimism将于3月18日进行Optimism Goerli硬分叉升级
+以太坊二层解决方案Optimism发推称将于北京时间3月18日3:00进行Optimism Goerli硬分叉升级，Optimistic基础设施提供商需在此之前将节点升级到op-geth v1.11.2-de8c5df46，并将op-node升级到v1.0.0。
+OKXChain发布OKT减产计划，区块产出将于3月18日调整
+据OKX官推显示，OKXChain正式发布OKT 减产计划，从而实现可持续增长。目前OKC每个块产出0.5OKT ，当区块高度达到18123000（3月18日）时，将调整为0.125，接下来将每9个月减半，2028年总供应减至2100万。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一周预告 | 硅谷银行储户周一可取回受保存款；Filecoin虚拟机FVM将在主网上启动]]></title>
         <id>https://www.panewslab.com/zh/articledetails/zyqt9urt.html</id>
