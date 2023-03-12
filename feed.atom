@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-12T07:46:29.172Z</updated>
+    <updated>2023-03-12T07:51:45.744Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -14,6 +14,32 @@
         <summary type="html"><![CDATA[<h3>FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止</h3>
 <p>Alpine Fox LP 创始人兼管理合伙人 Mike Alfred 发推表示，美国联邦存款保险公司（FDIC）已经进驻 First Republic Bank 现场，试图确定保护储户的最佳途径。考虑到已经达到临界点的加速银行挤兑，事情的发展速度比预期要快得多。First Republic Bank 从今天（3 月 12 日）开始限制汇出电汇交易，并将在今天结束时完全停止处理电汇交易。目前该银行电汇交易处理措辞已改为「感谢您的交易，我们会尽快回复您」。</p>
 <p><a href="https://twitter.com/mikealfred/status/1634783756656492544">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止]]></title>
+        <id>https://twitter.com/mikealfred/status/1634783756656492544</id>
+        <link href="https://twitter.com/mikealfred/status/1634783756656492544"/>
+        <updated>2023-03-12T07:30:40.000Z</updated>
+        <summary type="html"><![CDATA[<h3>FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止</h3>
+<p>Alpine Fox LP 创始人兼管理合伙人 Mike Alfred 发推表示，美国联邦存款保险公司（FDIC）已经进驻 First Republic Bank 现场，试图确定保护储户的最佳途径。考虑到已经达到临界点的加速银行挤兑，事情的发展速度比预期要快得多。First Republic Bank 从今天（3 月 12 日）开始限制汇出电汇交易，并将在今天结束时完全停止处理电汇交易。目前该银行电汇交易处理措辞已改为「感谢您的交易，我们会尽快回复您」。</p>
+<p><a href="https://twitter.com/mikealfred/status/1634783756656492544">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH]]></title>
+        <id>https://twitter.com/the_peopledao/status/1634518915668668416</id>
+        <link href="https://twitter.com/the_peopledao/status/1634518915668668416"/>
+        <updated>2023-03-12T07:04:47.000Z</updated>
+        <summary type="html"><![CDATA[<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>
+<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。
+
+该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>
+<p><a href="https://twitter.com/the_peopledao/status/1634518915668668416">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href="https://twitter.com/the_peopledao/status/1634518915668668416">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href="https://twitter.com/the_peopledao/status/1634518915668668416">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
