@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -327,7 +327,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>对于普通节点而言，参与验证和核实以太坊网络需要较高的成本。以太坊路线图中 Verge 和 Purge 阶段重点关注了该问题，在如何提高以太坊协议的效率、去中心化和稳健性方面提出了多个目标。Blockworks 研究员 Westie Capital 解析了上述两部分路线图中的技术实现方式与目标。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">https://twitter.com/blockworksres/status/1633867655013896193</a></p>\n<p><strong>文章作者：</strong></p><p>Westie</p><hr><h3>观点：</h3><p><strong>Westie：</strong>The Verge 指的是让区块验证尽可能简单和轻便的目标。The Verge 关注的是 Verkle 树和 SNARKs 的加入。Verkle 树是一种专门针对状态的 Merkle 树的更有效的替代方法，它不需要提供每个姐妹节点（共享同一个父节点的节点）到所选节点的路径，而只是提供路径本身作为证明的一部分，Verkle 证明的效率比 Merkle 证明高 3 倍。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a><p><strong>Westie：</strong>SNARKs 是 zk 证明的一个版本，以太坊有许多元素将通过增加 SNARKs 的验证或用 SNARKs 取代旧的证明系统来升级，以获得更好的效率。这包括：基于 SNARK 的轻客户端；共识状态变化的 SNARKs；Enshrined Rollups。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a><p><strong>Westie：</strong>The Purge 指的是通过降低参与验证网络的存储要求来简化协议的目标。这主要是通过对历史和状态的休眠和管理来实现的。历史数据休眠（EIP-4444）允许客户端修剪超过一年的历史数据，并停止在 P2P 层面提供服务。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a><p><strong>Westie：</strong>状态休眠。当涉及到处理状态增长时，有两个主要目标：弱无状态，指的是只使用状态来建立区块，但不验证它的目标；状态休眠，指删除在规定时间内（1 年）未被访问的状态。状态休眠应该使节点需要存储的状态总共减少 20-50 GB。【原文为英文】</p><a href=\"https://twitter.com/blockworksres/status/1633867655013896193\">内容来源</a>",
           "link": "https://twitter.com/blockworksres/status/1633867655013896193",
           "publishedOn": "2023-03-10T07:42:46.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】以太坊线路图 Verge 和 Purge 阶段解析：如何降低节点运行成本",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">https://twitter.com/jackiereses/status/1633985785295966209</a></p>\n<p><strong>文章作者：</strong></p><p>Jackie Reses（Lead Bank 首席执行官）</p><hr><h3>观点：</h3><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a>",
           "link": "https://twitter.com/jackiereses/status/1633985785295966209",
           "publishedOn": "2023-03-10T03:17:35.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？",
           "imageUrl": null
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mint Ventures 研究伙伴 Alex Xu 撰写的 Curve 研报，着重从流动性市场角度对 Curve 的生态、护城河和估值进行研究，并与流动性市场的主要挑战者 Balancer 和 Aura 生态进行对比。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/\">https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/</a></p>\n<p><strong>文章作者：</strong></p><p>Alex Xu</p><hr><h3>观点：</h3><p><strong>Alex Xu：</strong>当下 Curve 已公布的未来产品里程碑，是稳定币产品 crvUSD 的上线以及交互 Gas 的持续优化（有利于被各类交易聚合器分配到更多小额交易）。其中 crvUSD 虽然采用超额抵押机制，但其分段清算的机制设计，很好地结合了 Curve 巨量流动性的优势，对整个加密市场都有稳定的作用，但截至目前，crvUSD 尚未公布具体上线时间表。</p><a href=\"https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/\">内容来源</a><p><strong>Alex Xu：</strong>Curve 的核心业务是：现货交易；流动性的采购、分发和管理。现货交易是用户量最庞大、资金交换最频繁的加密商业场景。据 DeFillama 数据，2023 年 1 月 DEXs 月总交易量仅占加密资产现货总交易量的 7.21%。长期来看，DEXs 赛道将受益于：资产类别和交易总量的增加（行业 Beta）；对 CEXs 交易市场份额的逐渐蚕食（赛道 Alpha）。流动性市场的规模上涨同样受两个因素推动：整个加密世界总的资产类别和价值规模的增长；用户资金从中心化机构托管转向链上自管的趋势。</p><a href=\"https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/\">内容来源</a><p><strong>Alex Xu：</strong>Curve 所在的 DeFi 领域的残酷竞争，远不止功能创新的赛跑、用户的激烈争夺，还在于代币发行机制的存在。Web3 项目引入代币机制最重要的价值是可以拥有灵活的货币政策选择，迅速扩张业务，争取比竞争对手更早形成「网络效应的领先」，从而构建起对于后来者的竞争壁垒。用自己的代币对业务的双边进行刺激，推动跨边网络效应尽快形成，是众多 Web3 项目，尤其是 DeFi 项目的起手式。</p><a href=\"https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/\">内容来源</a><p><strong>Alex Xu：</strong>Curve 生态的各类伴生项目，对于 Curve 的主要价值是「产品功能和体验创新」的分包商，以及 CRV 锁仓体系的直接或间接维护者，而这两点正是 Curve 在 DEXs 和流动性市场这场「无限战争」中能否存活到「自然垄断形成」那一刻来临的关键要素。Curve 有良好的团队履约历史、执行力和安全记录，其主要发展风险来自于越来越激烈的市场竞争，以及生态内的利益协调，并要防范熊市时币价 - 业务负螺旋的可能性。</p><a href=\"https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/\">内容来源</a>",
           "link": "https://research.mintventures.fund/2023/03/07/zh-a-deep-dive-into-the-leading-amm-platform-curve-finance/",
           "publishedOn": "2023-03-08T08:41:00.000Z",
-          "wordCount": 3847,
+          "wordCount": 3871,
           "title": "理解 Curve 的正确姿势：头部流动性市场的业务现状、生态发展、护城河及估值对比",
           "imageUrl": "https://research.mintventures.fund/wp-content/uploads/2022/03/WechatIMG17.png"
         },
@@ -977,7 +977,7 @@
           "description": "<h3>游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投</h3>\n<p>据 TechCrunch 报道，比特币矿企 Riot 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。\nBeliever 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。</p>\n<p><a href=\"https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/07/believer-a-new-approach-to-gaming-raises-55m-from-lightspeed-a16z-and-more/",
           "publishedOn": "2023-03-08T01:51:56.000Z",
-          "wordCount": 11391,
+          "wordCount": 12295,
           "title": "游戏公司 Believer 完成 5500 万美元融资，Lightspeed 领投",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/Screenshot-2023-03-07-at-2.19.04-PM.png?resize=1200,633"
         },
