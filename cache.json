@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链上世界到底有没有债券市场？加密原生 crypto native 的债券市场可能会有什么样的发展模式？Mint Ventures 研究员 Colin Li 从加密原生的无风险利率（risk free rate) 切入，试图寻找在加密市场中什么样的经济活动可能达到风险与收益相匹配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</a></p>\n<p><strong>文章作者：</strong></p><p>ColinLy</p><hr><h3>观点：</h3><p><strong>ColinLy：</strong>无风险利率不包含信用风险、期限风险等，在传统世界中一般被认为是短期国债利率，或央行制定的基准利率水平。如果将名义无风险利率拆开，可以看到一部分是价格预期（通胀），另一部分是经济体本身的增长预期（实际利率）。当然，这个利率存在一些前提假设，比如国家相对稳定，监管机构没有被破坏等等。所以无风险利率，不是绝对没有风险。</p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">内容来源</a><p><strong>ColinLy：</strong>不论 POS 还是 POW 机制，为了维持正常运行，都需要为矿工 /validator 提供一定奖励。这部分收益率包含了公链代币的新发放（激励），即「国家货币」的通胀，和链上活动的活跃程度。以 POS 机制为例，MEV 主要来源于套利、清算、三明治攻击，都与链上活动息息相关。不过，从风险角度看，获得这笔收益需要承担硬件、软件（客户端）、网络、slashing 罚金等维持公链运行必须的风险。总的来看，POS 收益率更贴合「国家」叙事层面下的「无风险利率」。</p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">内容来源</a><p><strong>ColinLy：</strong>总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通胀的公链项目的收益率呈现出与现实世界非常类似的情况：经济体越成熟，提供的利率水平相对越低。通过简单观测 POS 收益率和 TVL 排名，有利于部署不同的公链投资策略：对于稳健的投资者，应该寻找 POS 收益率偏低且实际 POS 收益率为正的公链项目；对于激进的投资者，或许盈亏比更大的项目在 POS 收益率偏高且实际 POS 收益率为负的公链中。</p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">内容来源</a>",
           "link": "https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/",
           "publishedOn": "2023-03-09T11:27:16.000Z",
-          "wordCount": 3581,
+          "wordCount": 3557,
           "title": "Mint Ventures：加密世界的原生基准利率该如何定义？",
           "imageUrl": "https://research.mintventures.fund/wp-content/uploads/2022/08/2.png"
         },
@@ -627,7 +627,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>多链 DeFi 管理协议 Instadapp 推出的智能合约钱包 Avocado，支持多网络交易，所有网络的 Gas 以 USDC 形式支持，无需管理多个本地 Gas 代币。加密研究员 Ignas 对其工作原理和重要性进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">https://twitter.com/DefiIgnas/status/1633626328330289152</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Avocado 改变了我们目前与 dApp 的交互方式。Avocado 拥有自己的 RPC，其钱包地址是一个确定性的智能合约，在算法上和你的钱包地址相连，是一个非托管的账户抽象钱包。用户将任何支持的链中的代币发送至该地址后，余额将会出现在 Avocado 网络上。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>在添加 Avocado 时，所有网络 Gas 将以 USDC 形式支持，无需为不同区块链管理不同 Gas 代币。使用 Avocado 进行交易时，需要向相应链签署一个消息，Avocado 将签署的消息转发至相应链上，并在相应链上以原生代币支付 Gas。且用户还可以将任何 dApp 连接至 Avocado 钱包，批准的是来自 Avocado 钱包的交易而不是 dApp 本身。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Avocado 其他关键路线图升级包括 2FA 安全、跨链余额统一、白名单、内置 DeFi 策略及将 Avocado 直接集成到 dApp 的激励计划。Avocado 会额外收取 20% 的 Gas 费，一半费用将流向支持 Avocado 的 dApp，另一半则会导向 INST 国库。此外，团队还将很快推出一个移动应用程序和浏览器扩展程序以进一步改善用户体验。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a>",
           "link": "https://twitter.com/DefiIgnas/status/1633626328330289152",
           "publishedOn": "2023-03-09T06:03:16.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】新项目前瞻 | Instadapp 推出智能合约钱包 Avocado，如何运作？有何创新之处？",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "<h3>非托管流动性质押平台 ether.fi 将分三个阶段启动</h3>\n<p>去中心化的非托管流动性质押平台 ether.fi 宣布将分三个阶段启动：第一阶段：四月，在上海升级之后上线主网以及 ETH 委托质押。第二阶段：2023 年 Q2 或 Q3，eETH 流动性池上线。第三阶段：2023 年 Q4 或 2024 年 Q1，推出无许可节点市场。</p>\n<p><a href=\"https://twitter.com/ether_fi/status/1633485729924784137\">内容来源</a></p><hr>",
           "link": "https://twitter.com/ether_fi/status/1633485729924784137",
           "publishedOn": "2023-03-09T05:12:04.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "非托管流动性质押平台 ether.fi 将分三个阶段启动",
           "imageUrl": null
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4267,
+          "wordCount": 4473,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -997,7 +997,7 @@
           "description": "<h3>Sui 开发团队 Mysten Labs 与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统</h3>\n<p>Sui 开发团队 Mysten Labs 表示在昨日 Alibaba Cloud Day Dubai Summit 2023 上已与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统。据悉，此前 Mysten Labs 于 2 月份与腾讯云达成合作，双方将通过在 GameFi、支付和云服务领域的协作来发展 Sui 生态。</p>\n<p><a href=\"https://twitter.com/Mysten_Labs/status/1633064620926574594\">内容来源</a></p><hr>",
           "link": "https://twitter.com/Mysten_Labs/status/1633064620926574594",
           "publishedOn": "2023-03-07T12:31:56.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Sui 开发团队 Mysten Labs 与阿里云正式签署合作协议，以在 Sui 上开发可持续的 Web3 生态系统",
           "imageUrl": null
         },
@@ -3044,7 +3044,7 @@
           "description": "PANews 3月12日消息，针对“美联储和FDIC正考虑设立基金，为更多陷入困境的银行提供存款担保”的新闻，BitMEX创始人Arthur Hayes评论称：“离印钞机启动越来越近。2008年他们首先尝试了问题资产救助计划（TARP），而市场持续下跌，金融机构不断破产。然后他们最终启动印钞机。我猜想这次可能会遵循类似的轨迹。”据此前消息，美国联邦存款保险公司（FDIC）和美联储正在考虑设立一只基金，使监管机构能够为硅谷银行倒闭后陷入困境的银行提供更多存款担保。据知情人士透露，监管机构在与银行业高管的谈话中讨论了这种新的特殊工具。他们希望建立这样一个工具能够安抚储户，并有助于遏制恐慌情绪。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/nb9oi4ou.html",
           "publishedOn": "2023-03-12T04:05:48.000Z",
-          "wordCount": 1108,
+          "wordCount": 1112,
           "title": "BitMEX创始人：设立破产银行存款担保基金将导致美联储重启印钞机",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3054,7 +3054,7 @@
           "description": "来源：雪球\n3月10日，美国联邦存款保险公司发布的一份声明让美国硅谷银行光速走向破产倒闭，这也成了美国金融行业自2008年以来最大的倒闭事件。\n有人把硅谷银行事件称为“创业公司的大灭绝级别事件”，也有人表示人生第一次亲身经历12小时知名银行从暴雷到挤兑到破产。\n美国将近一半有风险投资支持的科技和生命科学的初创企业都曾和硅谷银行建立了融资关系，那么为什么硅谷银行会一夜爆雷呢？后续又会怎么演绎？事件还在不断进展，本文整理了48小时内市场进展以及媒体综合报道。‍‍‍‍‍‍‍\n硅谷银行作为众多初创企业和VC的身家所在，本次光速破产，也让不少创投公司、处于硅谷中心的科技公司正在经历史上最措手不及的黑暗时刻，据了解，有超过1000家YC企业全部的payroll都在硅谷银行，更不用说大量的VC基金和上市科技公司。‍\n财联社发文报道，知名创业孵化器Y Combinator总裁陈嘉兴在接受媒体采访时，把硅谷银行事件称为“创业公司的大灭绝级别事件”，陈嘉兴强调，如果这些企业需要等数周、甚至数月才能拿到钱，届时将毁掉美国整整一代的创业公司。\n据第一财经报道，中国医疗初创公司创业者安迪（化名）表示，“从昨天（3月10日）开始我们就一直在设法转钱出去，但是还没有转出来，银行就先倒闭了，一切都发生得太快了。”目前，银行网站的状态显示正在维护中。\n也有人在朋友圈表示，人生第一次亲身经历12小时知名银行从暴雷到挤兑到破产，火速完成资产转移，一觉以来后硅谷银行就已经破产了。\n\n而这一系列也将引发的资金链断裂或将让发不出工资、裁员潮现象在硅谷科技公司上接连发生。\n投资公司Liquid Stock的创始合伙人Greg Martin表示：超过50%的科技公司都将大部分现金存在硅谷银行，最糟糕的情况是，成千上万的硅谷“打工人”下周拿不到工资。由于雇佣员工不给工资是违法的，也不可避免的出现大规模裁员潮。\n硅谷银行倒闭引发的恐慌情绪也正在硅谷蔓延，大量硅谷科技公司员工抱怨称，这将是硅谷“最黑暗的一天”。\n硅谷银行为何暴雷？简单来讲，这是一次因利率上升而导致的流动性危机。硅谷银行为满足客户提取资金的需求，选择折价出售资产，但这一行为也引发市场对该银行偿付能力的质疑，最终加剧挤兑，引发市场波动。\n曾经美联储实施宽松政策，让众多科技创业公司的资金流入硅谷银行这样的专注服务创业的商业银行随着存款暴增，硅谷银行大量购买美债和抵押支持债券。\n美国进入加息周期后，硅谷银行持有的资产价格显著下跌，同时由于融资环境的变化，创业公司转而开始持续消耗存款，硅谷银行被迫出售资产，造成亏损，并最终引发了市场对金融体系的情绪蔓延。\n同时在商业模式方面，硅谷银行和一般的商业银行也有所区别，它会通过发放贷款来换取客户的股权或期权。对于特别看好的客户，也会通过银行的VC部门参与投资，以获取资本增值等等。\n\n积极指导，长期服务——我们携手最具创新活力的创始人、CEO和投资人，帮助他们在不断变化的创新经济中生存和发展。我们支持各成长阶段的企业，服务所有阶段、赛道和地区的投资者。\n上述这段公司愿景到处了硅谷银行独特的价值，它也基本上是全世界上唯一一家如此定位的大型商业银行。\n此次硅谷银行的暴雷会和08年一样引发系统性危机吗？\n首先硅谷银行的商业模式具有一定特殊性，它的客户群体主要是科创型企业，对流动性与科技周期过于敏感。\n据创业邦报道，浙江财经大学金融学教授徐敏认为硅谷银行与雷曼兄弟不同，两者有着很大的差异。\n“雷曼兄弟是一家投行，而硅谷银行是一家商业银行。而且，2008年金融危机之前，雷曼兄弟是美国排名第四的大投行，通过资产证券化，其杠杆率很高；加上其产品大量卖给全球各地的其他金融机构，因此，其爆雷后引发了连锁反应，影响的深度、广度是硅谷银行爆雷无法比拟的。”徐敏表示。\n硅谷银行作为一家商业银行，其业务主要是存货款和债券投资。徐敏介绍说，美国银行的特点与我们国内的银行不同，最初是不允许跨州设立分支机构的。这就造成了美国的银行数量特别多，到目前仍有7000多家，绝大多数商业银行的规模相对较小。直到上世纪八十年代通过相应法案，才允许跨州设分支机构。即便是JP摩根、美国银行这样的大行，在美国国内也就十多个州有分支机构，更多的是靠海外业务大。\n当然，硅谷银行在给高科技初创企业贷款时，也会用自有资本买入这些企业的少部分股权(或认股期权)，也一定程度上扮演了投行的角色。\n当然，徐敏认为，硅谷银行破产带来的最大风险，在于这一事件带来的恐慌效应。“恐慌情绪会有传染性，如果恐慌情绪传递，接下来又有银行陆续倒闭，风险就难以估量了。”\n同时，此次硅谷危机两天后，FDIC便出面接管，从恐慌情绪来说，也一定程度的做了遏制。\n硅谷银行业务集中在科技、风险投资等领域，相对传统银行更少依赖个人储户存款。美联储激进加息，导致债券价格下跌，商业银行存款流失过快、融资成本增加。在这种背景下，硅谷银行并没有做好准备，导致眼下的困境。\n但面临这种困境并非只有硅谷银行一家。\n\n所以硅谷银行的光速倒闭，也引发了市场对美联储下一步加息的思考。\n3月11日，新华社报道，分析人士表示，硅谷银行关闭凸显美国联邦储备委员会激进加息的负面影响。美联储激进加息，导致债券价格下跌，商业银行存款流失过快、融资成本增加。在这种背景下，硅谷银行并没有做好准备，导致眼下的困境。\n在周五的事件前，市场仍在加息25和50个基点间摇摆。这也意味着在过去一年强势加息450个基点后，接下来至少还有50或75个基点的上升空间。\n有“新美联储通讯社”之称的华尔街日报记者Nick Timiraos在最新文章里指出，硅谷银行倒闭引发的风波，大幅打消了市场对于50基点加息的预期。\n兴业宏观团队认为，随着失业率回升等经济脆弱性的信号逐步显露，以及以科技公司为代表的企业所面临的盈利冲杀正逐步显现，叠加硅谷银行流动性事件，美联储回到加息50bp的可能性较低，因为本质上货币政策对冷却需求端的滞后效应正是联储在2月放缓加息的核心逻辑；但是，核心服务通胀粘性尚未解决，尤其是低端服务业的就业人数增幅和时薪环比均体现出韧性可能比想的更久，继续支撑“stay higher for longer”。",
           "link": "https://www.panewslab.com/zh/articledetails/va22kd6v.html",
           "publishedOn": "2023-03-12T04:04:00.000Z",
-          "wordCount": 1194,
+          "wordCount": 1198,
           "title": "硅谷银行破产48小时！或还会引发科技企业裁员潮等连锁反应，压力给到美联储",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/12/images/RzjCVTctcH.jpeg"
         },
@@ -3064,7 +3064,7 @@
           "description": "PANews 3月12日消息，据彭博社报道，三位知情人士透露，美国联邦存款保险公司(FDIC)和美联储计划于美东时间周六晚11点向加州国会代表团汇报硅谷银行情况。此外，美国财政部将于周日下午1点举行单独的简报会。据此前消息，知情人士透露，FDIC和美联储正在考虑设立一只基金，让监管机构能够为硅谷银行倒闭后陷入困境的银行提供更多存款担保，以此安抚储户，遏制恐慌情绪。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/1alroq73.html",
           "publishedOn": "2023-03-12T03:58:18.000Z",
-          "wordCount": 1105,
+          "wordCount": 1109,
           "title": "FDIC、美联储和美国财政部将向加州议员汇报硅谷银行情况",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3074,7 +3074,7 @@
           "description": "PANews 3月12日消息，币安CEO赵长鹏推特发文称，对于法币支持的稳定币，银行是一个风险。有推特用户评论称，“我们需要加密货币支持的稳定币。”赵长鹏对此回应称，“Do Kwon实际上想法是正确的，只是在执行上惨遭失败。”",
           "link": "https://www.panewslab.com/zh/sqarticledetails/iw6ydzd9.html",
           "publishedOn": "2023-03-12T03:47:23.000Z",
-          "wordCount": 1108,
+          "wordCount": 1112,
           "title": "赵长鹏：银行对法币支持的稳定币构成风险",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3084,7 +3084,7 @@
           "description": "PANews 3月12日消息，据推特用户@AP_Abacus透露，First Republic Bank濒临破产，员工正在做最坏的打算。据此前消息，《富爸爸穷爸爸》作者罗伯特·清崎也表示，在硅谷银行和Silvergate Bank两家大银行相继倒闭后，第三家银行也即将倒闭，但他没有透露该银行的名称。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/wm6jlkie.html",
           "publishedOn": "2023-03-12T03:11:32.000Z",
-          "wordCount": 1121,
+          "wordCount": 1125,
           "title": "加密KOL：First Republic Bank濒临破产",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3094,7 +3094,7 @@
           "description": "PANews 3月12日消息，《富爸爸穷爸爸》作者罗伯特·清崎在推特发文称，在硅谷银行和Silvergate Bank两家大银行相继倒闭后，第三家银行也即将倒闭，但他没有透露该银行的名称。他建议买入黄金和白银，同时应远离ETF。罗伯特·清崎曾于2008年接受CNN采访时预测了雷曼兄弟倒闭。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html",
           "publishedOn": "2023-03-12T03:03:00.000Z",
-          "wordCount": 1105,
+          "wordCount": 1109,
           "title": "《富爸爸穷爸爸》作者：还有银行即将倒闭，建议买入黄金和白银",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3114,7 +3114,7 @@
           "description": "PANews 3月12日消息，据彭博社报道，据、知情人士透露，美国联邦存款保险公司（FDIC）正在出售资产，并最快于周一向客户返还部分无保险存款。知情人士表示，该金额为未投保存款的30%到50%不等，甚至更多。随着银行资产的出售，将有更多现金可以提供给客户。据悉，硅谷银行的企业客户迫切希望获得资金，以维持运营和员工的工资。尽管FDIC为最高25万美元的存款提供保险，但存于硅谷银行的资金远远超过这一数字。FDIC周五表示，未投保存款的金额仍在确定中，将很快向没有保险的储户发放提前股息。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/r3ysz8f9.html",
           "publishedOn": "2023-03-12T02:54:28.000Z",
-          "wordCount": 1102,
+          "wordCount": 1106,
           "title": "FDIC正出售硅谷银行资产，最快将于周一向客户返还部分无保险存款",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3124,7 +3124,7 @@
           "description": "PANews 3月12日消息，据彭博社报道，美国联邦存款保险公司（FDIC）和美联储正在考虑设立一只基金，使监管机构能够为硅谷银行倒闭后陷入困境的银行提供更多存款担保。据知情人士透露，监管机构在与银行业高管的谈话中讨论了这种新的特殊工具。他们希望建立这样一个工具能够安抚储户，并有助于遏制恐慌情绪。本周五，SVB成为10多年来倒闭的最大美国银行。加州监管机构已接管了该银行，就在去年，其估值还超过400亿美元。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/fhx2t8lr.html",
           "publishedOn": "2023-03-12T02:08:59.000Z",
-          "wordCount": 1101,
+          "wordCount": 1105,
           "title": "美联储和FDIC正考虑设立基金，为陷入困境的银行提供存款担保",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3144,7 +3144,7 @@
           "description": "PANews 3月12日消息，据官方消息，Maker Governance已投票通过昨日发起的一系列参数变更紧急提案，提交的参数变更计划在北京时间3月14日0点14分部署。据此前消息，MakerDAO治理社区发起紧急提案，提议变更USDC相关资产风险和治理参数，将 UNIV2USDCETH-A、UNIV2DAIUSDC-A、GUNIV3DAIUSDC1-A 以及 GUNIV3DAIUSDC2-A 等USDC相关LP作为抵押品的债务上限降至 0。 此外，提案还要求更改PSM-USDC-A、PSM-GUSD-A等锚定稳定模块的部分参数以降低协议风险。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/6fn1pqk9.html",
           "publishedOn": "2023-03-12T01:47:14.000Z",
-          "wordCount": 1117,
+          "wordCount": 1121,
           "title": "Maker已投票通过USDC等相关参数变更紧急提案",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3154,7 +3154,7 @@
           "description": "PANews 3月12日消息，据彭博社报道，超过100家风险投资公司签署了一份支持硅谷银行的声明。该声明由风投公司General Catalyst牵头，据一位知情人士透露，截至旧金山时间周六下午，包括红杉资本在内的约125家风投公司已在声明上签名。声明称，过去两天发生的事件令人深感失望和担忧，并表示，如果该机构被另一个实体收购，投资者将继续与该机构保持关系。 与此同时，创业孵化器Y Combinator周六发布了一份由数百名创始人和首席执行官签署的请愿书，致美国财政部长耶伦和其他监管机构，要求对在硅谷银行存款的小企业进行补偿，并要求国会恢复对地区银行更严格的监管和资本要求。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/sf0vcdsq.html",
           "publishedOn": "2023-03-12T00:47:57.000Z",
-          "wordCount": 1108,
+          "wordCount": 1112,
           "title": "硅谷银行获得红杉资本等超过100家风投公司支持",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3174,7 +3174,7 @@
           "description": "PANews 3月12日消息，Nansen创始人Alex Svanevik推特发文称，认为Circle和USDC可以挺过难关，接下来几天需要一流的执行力。他表示会关注4件事：1. 周一开始的无缝赎回；2.CEO每日在推特上发布准确的赎回数字；3. 周末与十大做市商对话，他们需要100%信任赎回；4. 不公开呼吁救助。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/krqr660o.html",
           "publishedOn": "2023-03-12T00:19:37.000Z",
-          "wordCount": 1114,
+          "wordCount": 1118,
           "title": "Nansen创始人：相信Circle和USDC可以挺过难关，建议不公开呼吁救助",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3184,7 +3184,7 @@
           "description": "PANews 3月12日消息，CoinMarketCap数据显示，USDC价格已回升至0.97美元上方，目前报0.9737美元。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/g40r22xm.html",
           "publishedOn": "2023-03-11T23:56:46.000Z",
-          "wordCount": 1103,
+          "wordCount": 1107,
           "title": "数据：USDC已回升至0.97美元上方",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3194,7 +3194,7 @@
           "description": "PANews 3月12日消息，Circle发布公告回应了目前其面临的情况，USDC的33亿美元现金储备仍有硅谷银行（SVB）保管。截至本周四，Circle已尝试将这些资金转移给其他银行合作伙伴。尽管截至周五营业结束时，这些转账尚未解决，但其表示仍然对FDIC（联邦存款保险公司）对SVB情况的管理充满信心，并随时准备接收这些资金。SVB也可能不100%的回款，任何回款都可能需要一些时间，因为FDIC向存款持有人发放欠条（即破产管理证书）和预付股息。\n所以在这种情况下，根据美国储值货币传输法规的法律要求，Circle将支持USDC，并使用公司资源弥补任何短缺，必要时涉及外部资本。美国银行下周一早上开门时，USDC 的流动性操作将恢复正常。\nUSDC目前有77%（324亿美元）的美国国库券（三个月或更短的到期日）和23%（97亿美元）的现金在各种机构持有，其中SVB只是一个。美国国库券是世界上最具流动性的资产，也是美国政府的直接义务。这些储备由BNY Mellon保管，积极的流动性和资产管理由BlackRock管理。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/04nulhcp.html",
           "publishedOn": "2023-03-11T23:51:05.000Z",
-          "wordCount": 1109,
+          "wordCount": 1113,
           "title": "Circle公告：将使用公司资源和外部资本弥补任何短缺",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3214,7 +3214,7 @@
           "description": "PANews 3月11日消息，MakerDAO在社交媒体发布最新数据显示，当前Maker系统抵押率为154%，即53.8亿枚DAI由价值82.6亿美元的抵押品支持。过去一周MakerDAO没有触发清算，系统按预期运作。此外，当前PSM按预期顺利运作，储备金为31.5亿美元，以100%抵押支持31.5亿DAI。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/ch56wuey.html",
           "publishedOn": "2023-03-11T10:49:14.000Z",
-          "wordCount": 1111,
+          "wordCount": 1115,
           "title": "MakerDAO：当前抵押率为154%，PSM储备金为31.5亿美元",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
