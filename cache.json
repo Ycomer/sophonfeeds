@@ -157,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26121,
+          "wordCount": 26090,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -257,7 +257,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a>",
           "link": "https://twitter.com/ipor_intern/status/1634071620498382851",
           "publishedOn": "2023-03-11T03:10:11.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>\n<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a>",
           "link": "https://twitter.com/crypto_mckenna/status/1633731247867584512",
           "publishedOn": "2023-03-10T06:27:38.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者",
           "imageUrl": null
         },
@@ -587,7 +587,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 1064,
+          "wordCount": 1046,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -707,7 +707,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Pendle 为用户提供了多种策略来更有效地交易、对冲和管理收益。加密货币 KOL Tindorr 从概念、用户策略、路线图和潜力等方面介绍了此项目，并分析了他看涨的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">https://twitter.com/0xtindorr/status/1633156442760044545</a></p>\n<p><strong>文章作者：</strong></p><p>Tindorr</p><hr><h3>观点：</h3><p><strong>Tindorr：</strong>Pendle 允许任何人交易「收益率」。 「收益率」是指从 Lido 上的 stETH、sAPE（质押 APE）、GMX 上的 GLP 等这些资产（也称为收益率代币）中获得的 APY 或利率。Pendle 将每个收益率代币化为 2 个代币：本金代币（PT）和收益代币 （YT）。此功能为 DeFi 解锁了新策略。 可以在 Pendle 上使用的策略：1）购买 PT （Principal） = 在到期日之前获得固定收益。2）买入 YT （Yield） = 做多收益代币。【原文为英文】</p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">内容来源</a><p><strong>Tindorr：</strong>Pendle 有非常好的路线图，他们即将在 Arbitrum 上上线的池子会吸引更多用户。他们团队平易近人，乐于提供更多信息，上市战略很好。网站上的用户体验 / 用户界面也非常出色，并且是 DeFi 的真正应用。【原文为英文】</p><a href=\"https://twitter.com/0xtindorr/status/1633156442760044545\">内容来源</a>",
           "link": "https://twitter.com/0xtindorr/status/1633156442760044545",
           "publishedOn": "2023-03-09T05:34:14.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】解读交易资产利率的 DeFi 协议：Pendle",
           "imageUrl": null
         },
@@ -3124,7 +3124,7 @@
           "description": "3月11日，USDC的发行商Circle称，USDC的400亿储备金中有33亿存款在硅谷银行，在此之前硅谷银行因“流动性不足和资不抵债”而被迫关闭，并指定了美国联邦储蓄保险公司（FDIC）接管。\n虽然Circle受到影响的只是一小部分资金，但因为周末银行并不上班，大规模购买USDC赎回美元这一套利机制失效且Coinbase也关闭了USDC的美元提款通道，USDC、DAI、FRAX、MIM等稳定币相继脱锚。在市场剧烈波动的情况下，也蕴含着一些机会。\n\nLookonchain统计的机构操作\n抄底：USDC损失有限且大概率会回到1美元附近\n最简单的操作就是等待USDC下跌后进行抄底，依据在于USDC储备金受到硅谷银行影响的比例不超过10%，那么USDC当前的理论价值应该超过0.9美元，USDC跌到0.9美元以下就是合适的抄底机会。\n这已经考虑了硅谷银行被清算并完全不能收回资金、Circle坐视不理等极端情况。实际上，硅谷银行因为在风险投资行业的良好声誉，也有不少的支持者。据彭博社报道，超过100家银行签署了一份支持硅谷银行的声明，如果其它实体收购硅谷银行，投资者将继续与硅谷银行保持关系。\n3月12日，Circle也发布公告称，如果硅谷银行的资金不能100%回款，Circle将使用公司资源弥补短缺以支持USDC。在美国银行下周一营业后，USDC的流动性操作将恢复正常。\n在过度的FUD情绪之下，部分投资者可能担心美国其它银行也可能步Silvergate和硅谷银行的后尘，第一共和银行（FRC）的股票价格在周五开盘时曾跌超50%。据彭博社报道，美联储和FDIC正考虑设立基金，为陷入困境的银行提供存款担保。\n直接进行抄底的投资者还需实时关注动态，以免让自己处于不公平地位。例如在FTX风险刚刚暴露时，资金缺口相对于总存款的比例并不高，但因为很多人全额提款，且在提款关闭后FTX还通过特殊渠道向部分人开放了提款，导致没有提款的人可能损失100%的资金。\n即使有风险，大概率USDC也会在周一恢复至接近1美元的价格。\n在USDC脱锚后，可以选择将USDC 1:1兑换为其它稳定币，以期望其它稳定币的发行商能够兜底。如果USDC恢复1美元，将没有任何损失；如果USDC继续脱锚，其它稳定币的发行商也可能弥补USDC的亏空。\n首先是BUSD和USDC的互换，币安默认将用户充值的USDC兑换为BUSD，因此USDC脱锚的早期，BUSD和USDC在币安仍然能够按1:1互换。在USDC已经脱锚的情况下，BUSD理论上比USDC风险更小，可能有币安的兜底。事实也如此，随着USDC脱锚的持续，币安关闭了USDC和BUSD的互换通道，此后BUSD的负溢价维持在1%左右，而USDC的负溢价最高超过10%。\n第二是DAI与USDC的互换，Maker的稳定锚定模块允许DAI与USDC之间的互换。在没有其它渠道规避风险的情况下，DAI也是比USDC更好的选择，因为还有部分DAI是超额抵押加密货币铸造的，且MakerDAO有可能对协议中的坏账进行兜底。波场创始人孙宇晨也进行了这一操作，事后MakerDAO确实采取了积极措施，DAI的负溢价低于USDC。\n \n套利：不同链上和DEX之间的价格差异\n在USDC价格波动的时候，市场上也有很多套利机会，这个思路的核心就是多观察同种资产在不同链和中心化交易所之间的价格差异。\n例如，Optimism和Arbitrum上的ETH/USDC交易对和OKX上价格的不同，需要使用1inch等交易聚合器，即使单个DEX上ETH/USDC的价格和交易所相同，也能通过DeFi的可组合性套利。其中一种操作是用USDC通过Optimism的1inch购买ETH，再到OKX、Bybit等平台换成USDC。当USDC贬值时，交易经过会“USDC-sUSD-sETH-ETH”的路径，通过Synthetix的原子交易完成。核心原因可能是因为在USDC价格下跌后，链上的USDC/sUSD交易对的价格并没有变化，Stableswap会导致流动性聚集，从而提供可观的流动性。\n由于OKX支持更多不同链上资产的充提（如Optimism、Arbitrum的USDC），且开通了更多流动性好的交易对（如ETH/USDC），短期内流入了更多资金。事后，币安也恢复了USDC/USDT交易对，并表示将开通ETH/USDC等交易对。\n \n最后，PANews在这里要提醒大家，在进行链上操作时一定要小心。一个反面教材是，某用户将超过200万美元的Curve 3pool LP代币通过Kyber的聚合路由卖出，仅获得了0.05 USDT。原因在于该用户既没有按照流程操作（应当直接通过Curve赎回流动性），在兑换时也没有注意价格，最后被MEV机器人赚取超过200万美元的利润。",
           "link": "https://www.panewslab.com/zh/articledetails/acw8ta8t.html",
           "publishedOn": "2023-03-12T05:37:31.000Z",
-          "wordCount": 1191,
+          "wordCount": 1193,
           "title": "复盘USDC脱锚下的抄底、避险和套利机会",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/12/images/5R19yOzCf1.jpeg"
         },
@@ -3214,7 +3214,7 @@
           "description": "作者 | Decrypt Jason Nelson\n编译 | PANews\n如果你觉得比特币NFT协议Ordinals是昙花一现，那么这个想法可能会让你“打脸”，因为通过将NFT内容刻入比特币区块链的想法不断引起社区的关注，而且也不再局限于“非同质化代币（NFT）”，现在已经有人想出了使用Ordinals协议来铸造一种“同质化代币（fungible tokens）”。\n根据Duna Analytics数据显示，3月9日Ordinals协议的铸造铭文数量突破3万，达到31692个，创下迄今为止单日最高铸造记录。之所以会出现这种情况，是因为比特币社区用户@domodata启动了一场基于Ordinals协议的新实验“BRC-20”，旨在通过Ordinals协议在比特币网络上实现像在以太坊网络上发行ERC-20代币的效果，人们通过比特币区块链铸造和转移他们喜欢的代币。\n  “BRC-20”代币可能是Ordinals协议的最新用例，虽然这个协议曾激怒了一些比特币极端主义者，但随着越来越多创作者和收藏家汇聚到比特币，也让社区对这个最古老区块链不断扩张的可能性感到兴奋。\n本周四，一个名为“Domo”的匿名比特币社区用户在社交媒体上宣布推出“BRC-20”，这个名字是“比特币评论请求”英文名Bitcoin Request for Comment的首字母缩写，灵感来自于Sats Names (.sats)域名标准。\nDomo表示：“过去几天我在Twitter上听说了BRC-20的可能性，很好奇是否可以应用.sats 域名格式来创建它，基本上，我想做的是看看是否可以使用手头上的工具（比如Dune Analytics）和铭文创建链下状态。”\n 事实上，如上图所示，只需按照BRC-20标准就可以部署BRC-20代币，相关标准概念如下：\n从3月9号开始，Domo的“BRC-20代币”拉开序幕，自那以后，用户通过BRC-20和Ordinals协议部署了受Meme启发的代币，比如Doge、Pepe等。另据Dune Analytics分析（如下图所示），自BRC-20实施上线以来创建的绝大多数序号铭文都是基于文本，其次是图片、应用程序和视频。\n\nOrdinals引发的比特币铭文热潮短时间内似乎不会消退\n截止目前，总计已有近40万条铭文是通过Ordinals协议完成的，几乎所有铭文都是在过去六周内铸造的。NFT分析师Leonidas认为，基于文本的比特币铭文越来越流行，这也是一种趋势，因为文本格式规模很小，大概只有几个字节，而铸造费用与所铸造的文件大小是成正比的，所以铸造JSON（代码）或文本的费用显然要低得多。\n不仅如此，随着比特币网络完成隔离见证（Segwit）和Taproot升级，越来越多的NFT爱好者开始来到原始区块链网络来铸造“比特币NFT”，虽然功能和“以太坊NFT”不完全相同，但最终结果是相似的，Ordinals开始席卷加密世界。\n根据Galaxy Research上周发布的一份报告显示，预计到2025年，迅速崛起的比特币NFT市场价值可能达到45亿美元。目前而言，Ordinals协议已被广泛用于链上铭文，其中包括艺术品、个人资料图片、可玩游戏和基于视频的网络应用程序。就连“无聊猿”Bored Ape Yacht Club的母公司Yuga Labs也通过Ordinals协议拍卖了自己的原创艺术收藏品并在此过程中获利1650万美元。\n尽管社交媒体上对BRC-20代币热议不断，但作为提出这一概念的Domo坦言，不应该将BRC-20视为基于比特币的代币“标准”，他甚至告诫人们不要大量铸造此类代币并称此类代币“毫无价值”，还建议其他构建者设计和编码更强大的解决方案。\n但毫无疑问，BRC-20已成为比特币区块链扩展的一个新起点，即使是一个有趣的实验，BRC-20的推出也已经吸引了很多比特币用户关注，未来的想象空间也很大，正如Domo所说——反应比预期的要好。\n“归根结底，这是一个实验，我认为大多数人都明白这一点，而那些尝试过BRC-20的人们似乎都很开心。”",
           "link": "https://www.panewslab.com/zh/articledetails/39iw47o9.html",
           "publishedOn": "2023-03-12T02:58:51.000Z",
-          "wordCount": 1234,
+          "wordCount": 1236,
           "title": "Ordinals协议的新实验同质化代币“BRC-20”是什么？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/12/images/oHDO5ib87p.jpg"
         },
