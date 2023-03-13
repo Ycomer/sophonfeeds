@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T06:47:47.565Z</updated>
+    <updated>2023-03-13T06:53:02.718Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -167,6 +167,18 @@ Circle CEO杰里米·阿莱尔：
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost]]></title>
+        <id>https://twitter.com/0xAA_Science/status/1612863848134107138</id>
+        <link href="https://twitter.com/0xAA_Science/status/1612863848134107138"/>
+        <updated>2023-03-13T05:52:04.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>
+<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议]]></title>
         <id>https://twitter.com/poopmandefi/status/1634915107435327488</id>
         <link href="https://twitter.com/poopmandefi/status/1634915107435327488"/>
@@ -174,6 +186,30 @@ Circle CEO杰里米·阿莱尔：
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>
 <p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议]]></title>
+        <id>https://twitter.com/poopmandefi/status/1634915107435327488</id>
+        <link href="https://twitter.com/poopmandefi/status/1634915107435327488"/>
+        <updated>2023-03-13T05:49:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>
+<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】对冲挂钩资产风险的协议 Y2K Finance]]></title>
+        <id>https://twitter.com/ArbiAlpha/status/1634615208848281603</id>
+        <link href="https://twitter.com/ArbiAlpha/status/1634615208848281603"/>
+        <updated>2023-03-13T05:49:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>
+<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
