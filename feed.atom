@@ -2,11 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T07:25:38.315Z</updated>
+    <updated>2023-03-13T07:30:57.157Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[软银：硅谷银行几乎没有对受软银愿景基金支持的公司产生影响]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/cz1vsrzv.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/cz1vsrzv.html"/>
+        <updated>2023-03-13T07:27:26.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，据金十报道，软银集团表示，硅谷银行的溃败几乎没有对受SVF（软银愿景基金）支持的公司产生影响。软银还表示：“预计硅谷银行不会对我们的财务状况造成影响。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文读懂Merkl：如何在Uniswap V3上搭建新的激励范式？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/9ckuezlt.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/9ckuezlt.html"/>
+        <updated>2023-03-13T07:26:14.000Z</updated>
+        <summary type="html"><![CDATA[原文：《在激励层做文章，了解Merkl如何在Uniswap V3上搭建新的激励范式》
+作者：Jaleel
+为了激励集中流动性 AMM 中的流动性，Angle 推出了 Merkl，一个新的激励 Uniswap V3 类型流动性资金的机制平台。任何 DAO 或个人都可以在 Merkl 定制激励 Uniswap V3 的类型和方式，包括设置自己的分配参数来鼓励更严格的范围等等。Merkl 能凭借这些新功能，成为最有效和灵活的方式激励 Uniswap V3 矿池吗？
+Angle 是一个于 2021 年 11 月 推出的去中心化、资本高效和超额抵押的稳定币协议，在 2021 年 9 月 28 日，完成 由 a16z 领投的 500 万美元种子轮融资，Fabric VC、Wintermute、Divergence Ventures 等参投。Angle 可用于发行称为 agTokens 的稳定币，旨在反映它们所挂钩的资产的价值。该协议由几个不同的模块或智能合约集组成，可以从中发行或铸造稳定币。
+Angle 在推出其第一个带有单一铸币模块（核心模块）的稳定币 agEUR 的同时，也引入了一个允许借入 Angle 稳定币作为抵押品的借贷模块。该协议还参与了直接存款模块，也称为算法市场操作 (AMO)，允许它在其他协议中增强 agTokens 的流动性。
+虽然 Merkl 机制是由 Angle Labs 构建和维护的，但它与 Angle 协议是分开的。
+从本质上讲，Merkl 是一个激励 Uniswap V3 类型流动性资金的机制平台，Uniswap V3 上的流动性提供者 (LP) 和其他类型的具有集中流动性的 AMM 可以从一个或多个池中激励流动性的人 (incentivizors) 那里获得补偿。
+激励者在如何分配奖励方面享有极大的灵活性：他们可以选择对提供更多单一代币流动性的 LPs 进行更多的奖励，或者也可以更好地奖励那些设定了紧密的范围并从其位置获得更多交易费用的 LPs。他们还可以选择是否要激励超出范围的流动性，或者是否要让某些特定代币的持有者获得加强的奖励。
+
+使用 Merkl 无需承担任何资金风险，也不需要 LPs 执行任何特定的智能合约交互：他们可以保留流动性，同时仍然获得奖励。他们还可以自定义自己的仓位，以最大化从费用和激励中获得的收益，享受 AMMs 集中流动性类型所提供的所有可能性。
+Merkl 与 Gamma 或 Arrakis 等流动性仓位管理者兼容。这意味着可以通过 Gamma 在池子上提供流动性，并获得奖励，而无需执行任何进一步的操作（无需抵押 Gamma 或 Arrakis 代币）。因此，在池子上没有其他流动性提供者的情况下，使用 Merkl 来激励池子与通过抵押合约激励 Arrakis 或 Gamma 代币完全相同。
+Merkl 对激励收取低维护费用。除了在领取奖励时消耗的燃气外，流动性提供者使用该平台没有任何成本。
+Merkl 基于一个非链脚本，可在给定链上查看受激励的池的数据，为所有这些池的利益相关者计算奖励。基于此，脚本将所有奖励分配数据聚合到一个 Merkle 树中，然后压缩为 Merkle 根，推送到链上，以允许 LPs 获取其奖励。该脚本每次定期运行，并每次固定时间段。这意味着每次运行脚本时，它只查看与此特定时间段相关的链上数据。
+
+可定制的分配公式
+严格来说，对于一个有两个令牌（A 和 B）的池，脚本会查看在运行期间在池中发生的交换，并根据持仓期间赚取的手续费（代表池使用的流动性）、在池中掉期期间持有的 TOKEN A 和 TOKEN B 份额计算奖励分数。激励者可以为每个参数分配不同的权重，也可以通过允许持有特定令牌（例如 veANGLE 或 veCRV）的地址获得更高奖励，来进一步定制池的奖励分配。在一个特定的时间段内，该池内位置的确切分配公式如下：
+
+纪元长度 & 争议期
+脚本运行的时间周期（也称为纪元）取决于链条，也是两次奖励分配之间的实际时间。纪元长度基本上在 2 小时到 3 天之间，例如如果以太坊的纪元长度为 1 天，那么 Uniswap V3 LPs 可以在 Merkl 上每天最多获得新奖励。
+由于 Merkl 基于的脚本聚合了同一条链上所有支持的 AMM 的所有池，对不同池有流动性的液性提供者可以在每个纪元结束时一次性获得全部奖励。此外，由于系统依靠单个 Merkle 根处理每条链的分发，流动性提供者可以在一次交易中获取所有令牌奖励（来自潜在的许多集中流动性 AMM 上的不同池）。
+为了允许任何人无需批准就可以参与到系统中，并且减少系统面临潜在黑客攻击或故障的风险，每个新的 Merkle 根更新之后都会跟随一个争议期，允许任何人对结果提出质疑。聚合链的奖励分配数据的新 Merkle 根仅在该争议期之后有效。争议可以通过向奖励分发合约发送预定义数量的争议 Token（最可能是 agEUR）来触发。
+在争议期间，奖励分发合约的 Merkle 根被冻结到其最后有效版本。争议可以被视为有效，在这种情况下，提出争议的人将获得退款，争议的 Merkle 根将被撤销，或者是无效的。在最后一种情况下，提出争议的人会失去其资金，并且争议期将从头开始重新启动（这意味着被争议的树仍然不被认为是有效的）。争议 Token 、数量和长度可以通过直接查询处理恒奖励的合约来获得。
+Merkl 可免费用于流动性提供者索取奖励，在激励者发送激励金额时将收取 3％的维护费用。对于包含某些特定批准令牌的池，可以免除此费用。例如，发送到其中包含 agEUR 或其他 Angle 协议稳定币的奖励池的奖励不收取任何费用。
+作为流动性提供者，Merkl 允许用户根据激励者的池子设置分配公式，来自定义自己的资金头寸，以优化在 Uniswap V3 等 AMM 上的回报。
+要获得在 Merkl 上列出的奖励，可以直接在 AMM（例如 UniswapV3）上或支持的流动性管理器上提供流动性。在添加流动性时需要做出的主要选择是：资金范围的宽窄、两个 token 之间的分割。
+一旦提供了流动性，就不需要额外的步骤来开始接收奖励，将能直接从 Merkl 页面或任何其他集成 Merkl 的应用程序中领取它们。特别是，您不需要在其他任何地方放置您的代币。
+
+项目方如何使用 Merkl 分配激励？
+任何希望激励池的 DAO 或个人都可以使用 Merkl 并自定义其分配以获得所需类型的流动性。进入官网后，您只需填写要激励的矿池地址、奖励代币的地址以及在选定的分配期限内发送的奖励金额。
+奖励代币在使用前需要列入白名单，对于列入白名单的代币，需要发送最低金额才能使分配被视为有效。如果您要使用的奖励代币尚未列入白名单，可以在 Angle Discord 服务器的 Merkl 频道给官方留言。
+接着自定义任何可以自定义的分配公式参数。完成后，应用程序将提示您签署免责声明消息，然后发布将代币发送到分发合约的交易。持有资金的地址可以根据他们在池中提供流动性的方式在每个纪元结束时领取奖励。
+
+Blockbeats 提醒：由于链上 Merkle 根更新可能会有明显的延迟，并且脚本或用于更新链上结果的基础设施可能存在缺陷，请自行决定是否使用 Merkle。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加拿大监管机构接管SVB加拿大子公司，寻求清盘]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/8l8rw3ke.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/8l8rw3ke.html"/>
+        <updated>2023-03-13T07:25:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，据金十报道，加拿大银行业监管机构在周日接管了SVB金融集团在加拿大的分支机构，并表示将寻求法律命令以结束其运营。
+加拿大金融机构监管局局长Peter Routledge的办公室在一份声明中表示，在美国监管机构关闭了位于加州的母行后，加拿大采取这一行动是为了保护该分行持有的资产价值。
+加拿大财政部长Chrystia Freeland周日晚间与银行高管和加拿大央行官员进行了交谈，并表示政府将继续关注局势，加拿大监管良好的银行体系是健全和有弹性的。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[汇丰控股英国子公司以1英镑价格收购硅谷银行英国子公司]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/74zop0m1.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/74zop0m1.html"/>
@@ -2415,57 +2479,11 @@ Lookonchain统计的机构操作
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[加密KOL：First Republic Bank濒临破产]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/wm6jlkie.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/wm6jlkie.html"/>
-        <updated>2023-03-12T03:11:32.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月12日消息，据推特用户@AP_Abacus透露，First Republic Bank濒临破产，员工正在做最坏的打算。据此前消息，《富爸爸穷爸爸》作者罗伯特·清崎也表示，在硅谷银行和Silvergate Bank两家大银行相继倒闭后，第三家银行也即将倒闭，但他没有透露该银行的名称。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[《富爸爸穷爸爸》作者：还有银行即将倒闭，建议买入黄金和白银]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html"/>
         <updated>2023-03-12T03:03:00.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月12日消息，《富爸爸穷爸爸》作者罗伯特·清崎在推特发文称，在硅谷银行和Silvergate Bank两家大银行相继倒闭后，第三家银行也即将倒闭，但他没有透露该银行的名称。他建议买入黄金和白银，同时应远离ETF。罗伯特·清崎曾于2008年接受CNN采访时预测了雷曼兄弟倒闭。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[《富爸爸穷爸爸》作者：还有银行即将倒闭，建议买入黄金和白银]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/uo1swbg1.html"/>
-        <updated>2023-03-12T03:03:00.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月12日消息，《富爸爸穷爸爸》作者罗伯特·清崎在推特发文称，在硅谷银行和Silvergate Bank两家大银行相继倒闭后，第三家银行也即将倒闭，但他没有透露该银行的名称。他建议买入黄金和白银，同时应远离ETF。罗伯特·清崎曾于2008年接受CNN采访时预测了雷曼兄弟倒闭。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ordinals协议的新实验同质化代币“BRC-20”是什么？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/39iw47o9.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/39iw47o9.html"/>
-        <updated>2023-03-12T02:58:51.000Z</updated>
-        <summary type="html"><![CDATA[作者 | Decrypt Jason Nelson
-编译 | PANews
-如果你觉得比特币NFT协议Ordinals是昙花一现，那么这个想法可能会让你“打脸”，因为通过将NFT内容刻入比特币区块链的想法不断引起社区的关注，而且也不再局限于“非同质化代币（NFT）”，现在已经有人想出了使用Ordinals协议来铸造一种“同质化代币（fungible tokens）”。
-根据Duna Analytics数据显示，3月9日Ordinals协议的铸造铭文数量突破3万，达到31692个，创下迄今为止单日最高铸造记录。之所以会出现这种情况，是因为比特币社区用户@domodata启动了一场基于Ordinals协议的新实验“BRC-20”，旨在通过Ordinals协议在比特币网络上实现像在以太坊网络上发行ERC-20代币的效果，人们通过比特币区块链铸造和转移他们喜欢的代币。
-  “BRC-20”代币可能是Ordinals协议的最新用例，虽然这个协议曾激怒了一些比特币极端主义者，但随着越来越多创作者和收藏家汇聚到比特币，也让社区对这个最古老区块链不断扩张的可能性感到兴奋。
-本周四，一个名为“Domo”的匿名比特币社区用户在社交媒体上宣布推出“BRC-20”，这个名字是“比特币评论请求”英文名Bitcoin Request for Comment的首字母缩写，灵感来自于Sats Names (.sats)域名标准。
-Domo表示：“过去几天我在Twitter上听说了BRC-20的可能性，很好奇是否可以应用.sats 域名格式来创建它，基本上，我想做的是看看是否可以使用手头上的工具（比如Dune Analytics）和铭文创建链下状态。”
- 事实上，如上图所示，只需按照BRC-20标准就可以部署BRC-20代币，相关标准概念如下：
-从3月9号开始，Domo的“BRC-20代币”拉开序幕，自那以后，用户通过BRC-20和Ordinals协议部署了受Meme启发的代币，比如Doge、Pepe等。另据Dune Analytics分析（如下图所示），自BRC-20实施上线以来创建的绝大多数序号铭文都是基于文本，其次是图片、应用程序和视频。
-
-Ordinals引发的比特币铭文热潮短时间内似乎不会消退
-截止目前，总计已有近40万条铭文是通过Ordinals协议完成的，几乎所有铭文都是在过去六周内铸造的。NFT分析师Leonidas认为，基于文本的比特币铭文越来越流行，这也是一种趋势，因为文本格式规模很小，大概只有几个字节，而铸造费用与所铸造的文件大小是成正比的，所以铸造JSON（代码）或文本的费用显然要低得多。
-不仅如此，随着比特币网络完成隔离见证（Segwit）和Taproot升级，越来越多的NFT爱好者开始来到原始区块链网络来铸造“比特币NFT”，虽然功能和“以太坊NFT”不完全相同，但最终结果是相似的，Ordinals开始席卷加密世界。
-根据Galaxy Research上周发布的一份报告显示，预计到2025年，迅速崛起的比特币NFT市场价值可能达到45亿美元。目前而言，Ordinals协议已被广泛用于链上铭文，其中包括艺术品、个人资料图片、可玩游戏和基于视频的网络应用程序。就连“无聊猿”Bored Ape Yacht Club的母公司Yuga Labs也通过Ordinals协议拍卖了自己的原创艺术收藏品并在此过程中获利1650万美元。
-尽管社交媒体上对BRC-20代币热议不断，但作为提出这一概念的Domo坦言，不应该将BRC-20视为基于比特币的代币“标准”，他甚至告诫人们不要大量铸造此类代币并称此类代币“毫无价值”，还建议其他构建者设计和编码更强大的解决方案。
-但毫无疑问，BRC-20已成为比特币区块链扩展的一个新起点，即使是一个有趣的实验，BRC-20的推出也已经吸引了很多比特币用户关注，未来的想象空间也很大，正如Domo所说——反应比预期的要好。
-“归根结底，这是一个实验，我认为大多数人都明白这一点，而那些尝试过BRC-20的人们似乎都很开心。”]]></summary>
         <author>
             <name>PANews News</name>
         </author>
