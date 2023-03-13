@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1700,
+          "wordCount": 1725,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -197,7 +197,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17718,
+          "wordCount": 17706,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -257,7 +257,7 @@
           "description": "<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>\n<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。\n\n该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>\n<p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a>",
           "link": "https://twitter.com/the_peopledao/status/1634518915668668416",
           "publishedOn": "2023-03-12T07:04:47.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Caleb & Brown 首席执行官 Jackson Zeng 认为当前市场大部分用户普遍缺乏对破产和稳定币储蓄工作的理解，并对三个阵营基于对 USDC 在 SVB 的风险敞口的不同理解采取的行动进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">https://twitter.com/im_jacksonzeng/status/1634466362222587904</a></p>\n<p><strong>文章作者：</strong></p><p>Jackson Zeng</p><hr><h3>观点：</h3><p><strong>Jackson Zeng：</strong>1）阵营一：过于简单的假设，但明智的风险管理。这部分人误解了硅谷银行的风险敞口，但采取了正确的行动。他们认为 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行，因此 USDC 的价值应该是 0.92 美元，并从 0.98 到 0.94 进行恐慌性抛售。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>2）阵营二：精明的分析家，但缺乏银行运作经验。这部分人了解 33 亿美元的风险敞口并没有全部损失（可能只损失了 2-3 亿），因此认为 USDC 的价值是 0.995 美元。很多人表示在 0.94 美元左右做多 USDC，这是一个巨大的错误！【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>3）阵营三：知道两者都是错的，但和阵营一采取同样行动。这部分人了解即使 SVB 只损失了 2 亿美元，但 33 亿美元的债权仍然是不确定的。如果没有救助，储户在破产程序中会被视为债权人。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>因此，这不是 8.25%，而是 33 亿美元的非流动性 SVB 债权风险（绝对值比百分比更重要）。真正的答案是：当 Circle 用户以 1:1 赎回时，脱锚会逐渐恶化。随着人们意识到这一风险，价格将再次下跌。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a>",
           "link": "https://twitter.com/im_jacksonzeng/status/1634466362222587904",
           "publishedOn": "2023-03-12T04:23:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】如何正确看待 USDC 风险敞口：分析三个不同阵营的应对方式",
           "imageUrl": null
         },
@@ -367,7 +367,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>风投总是领先于散户投资者，因此了解加密基金及其投资项目能够更高的进行加密投资。X DAO 创始人 Rekt Fencer 盘点了三个追踪加密风投动向的工具，以帮助用户有效快组追踪加密基金。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">https://twitter.com/rektfencer/status/1633912396824846338</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）CryptoRank：市场洞察和分析平台，可以通过新增的选项查找不同基金的信息，包括投资总数、市场占有率及投资组合等；2）Crunchbase：可以使用多个功能分析项目或基金，包括累积融资金额、活跃投资者及员工资料等；3）Chain Broker：可以追踪基金投资回报率。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1633912396824846338",
           "publishedOn": "2023-03-11T07:55:51.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】盘点三个追踪加密风投动向的必备工具：CryptoRank、Crunchbase 及 Chain Broker",
           "imageUrl": null
         },
@@ -377,7 +377,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26436,
+          "wordCount": 26467,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -507,7 +507,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 21141,
+          "wordCount": 21142,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -587,7 +587,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 内容平台 Mirror 于昨日推出 NFT 订阅铸造 「Subscribe to Mint 」功能，却引来大量负面评论。区块链研究员 starzq.eth 盘点了 Mirror 自内测以来的产品线路更改，认为 Mirror 产品方向在 toB 和 toC 之间的反复横跳将会导致用户的不断流失。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">https://twitter.com/starzqeth/status/1633679163612880902</a></p>\n<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>从 2021 年初内测开始，Mirror 的定位都是 toB，Web3 核心工具箱，建立 DAO 最快速简单的工具。用 Entries 写 Roadmap 和项目更新，然后众筹和分配项目资金，用 Token 来引导用户参与，再加一个 discord 来做用户互动，一个 DAO 就运作起来了。在发布了 1 年半后，2022 年 7 月 27 日终于有了基于钱包的订阅功能。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a><p><strong>starzq.eth：</strong>2022 年 8 月，Mirror 突然发了一个公告，说要转为 toC，一夜间下线了所有的众筹和 NFT 发布功能。转 toC 后其实没有任何动作，半年后的 2023 年 1 月 12 日，终于改进了订阅功能，只有邮箱也可以订阅，但邮箱里一直没有全文阅读，体验非常差。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a><p><strong>starzq.eth：</strong>然后就到了 2023 年 3 月 9 日，增加 Subscribe to Mint 功能，回到一开始 toB 的路。其实就是一个基于订阅者的 Open Edition，和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户，我自己就是其中之一。比较 Mirror 和 Substack 的 toC 体验，Substack 完胜。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a>",
           "link": "https://twitter.com/starzqeth/status/1633679163612880902",
           "publishedOn": "2023-03-10T08:13:07.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】Mirror 产品线梳理 ：在 toB 和 toC 之间的反复横跳",
           "imageUrl": null
         },
@@ -887,7 +887,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>在市场热切期盼和高度期待下，ETH 上海升级即将到来。这对 LSD 的叙述会有什么影响？对 Balancer 的长期影响又会是什么？Balancer 撰文讨论了上海升级对 LSD 协议的影响，指出随着质押的 ETH 数量增加，LSD 之间的竞争会加剧，Balancer 可以帮助 LSD 协议激励代币的采用率。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">https://twitter.com/balancer/status/1633490690788462592</a></p>\n<p><strong>文章作者：</strong></p><p>Balancer</p><hr><h3>观点：</h3><p><strong>Balancer：</strong>上海升级将消除大多数用户参与 ETH 质押的门槛。长期来看，质押的 ETH 数量可能会增加。这些代币为用户提供了对基础质押 ETH 收益的敞口，同时提供参与更广泛的 DeFi 生态系统的能力。通过启用 ETH 提取，LSD 的挂钩风险得到了缓解，随着进入和退出质押自由，LSD 之间的竞争肯定会加剧。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a><p><strong>Balancer：</strong>Balancer 的技术非常适合容纳计息代币，并为 LSD 流动性提供一个有效的枢纽。Balancer 目前在 LidoFinance 和 Rocket Pool 等主要 LSD 巨头以及 Arbitrum 和 Optimism 等 Layer2 上的流动性方面占据主导地位。Balancer 技术提供了 LSD 协议所需的一些功能。在上海升级之后，LSD 流动性在 DeFi 应用中很可能会增加。加上 LSD 协议之间的竞争升温，他们将会寻找最高效的基础层来实现激励代币采用率。【原文为英文】</p><a href=\"https://twitter.com/balancer/status/1633490690788462592\">内容来源</a>",
           "link": "https://twitter.com/balancer/status/1633490690788462592",
           "publishedOn": "2023-03-09T07:12:14.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文讨论上海升级对 LSD 协议和 Balancer 的影响",
           "imageUrl": null
         },
@@ -9158,7 +9158,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1823,
+          "wordCount": 1825,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
