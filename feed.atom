@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T12:49:32.439Z</updated>
+    <updated>2023-03-13T13:01:37.213Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Web3游戏平台Moxy完成超1000万美元融资，Shima Capital等参投]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/nqjs6ygs.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/nqjs6ygs.html"/>
+        <updated>2023-03-13T12:53:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，据blockonomi报道，Web3游戏平台Moxy宣布已完成超1000万美元融资，Shima Capital、Polygon、MetaTope和GSR等投资方参投。Moxy基于FLOW区块链驱动的Web3游戏平台通过去中心化、安全且稳定的方式帮助包括电竞选手和其他玩家参与游戏并获得激励，同时还能让游戏开发者无缝创建基于游戏资产的NFT以推动电竞大众化，此外Moxy还使用统一数字钱包参与游戏生态让玩家存储加密货币和NFT，据悉Nolan Bushnell（Atari创始人）、Lawrence Siegel（世嘉欧洲总裁）和Tony Bickley（世嘉欧洲游戏主管）已加入Moxy团队。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[前贝宝金融创始人Flex Yang推出分布式稳定币HOPE]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/zmbk6d1n.html</id>
@@ -24,6 +34,18 @@
         <summary type="html"><![CDATA[PANews 3月13日消息，前贝宝金融（Babel Finance）创始人 Flex Yang 推出分布式稳定币 HOPE，HOPE 旨在成为由加密原生储备支持的稳定币。其储备池最初将由 BTC 和 ETH 组成。HOPE 生态包括 HopeSwap、HopeLend、HopeConnect 与 HopeEcho 四个协议，提供交易、借贷、衍生品、合成资产功能。此外，该项目将推出激励与治理代币 LT（Light Token）以激励用户参与生态应用与治理。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup]]></title>
+        <id>https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</id>
+        <link href="https://chainfeeds.substack.com/p/aztec-connect-l2-rollup"/>
+        <updated>2023-03-13T12:20:28.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://chainfeeds.substack.com/p/aztec-connect-l2-rollup">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>
+<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href="https://chainfeeds.substack.com/p/aztec-connect-l2-rollup">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -393,7 +415,7 @@ Convex 从 3CRV 收益、$CRV 和其他流动性挖矿奖励中获得收入。�
         <updated>2023-03-13T09:55:13.000Z</updated>
         <summary type="html"><![CDATA[<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>
 <p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>
-<p><a href="https://twitter.com/BlockSecTeam/status/1635204706703384577">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href="https://twitter.com/zachxbt/status/1635209310916743170">内容来源</a><p><strong>BlockSec：</strong>更新了另外两个攻击交易，总损失约为 1.97 亿美元。【原文为英文】</p><a href="https://twitter.com/BlockSecTeam/status/1635217371672756224">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href="https://twitter.com/PeckShieldAlert/status/1635229250193334275">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href="https://twitter.com/eulerfinance/status/1635218198042918918">内容来源</a>]]></summary>
+<p><a href="https://twitter.com/BlockSecTeam/status/1635204706703384577">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href="https://twitter.com/zachxbt/status/1635209310916743170">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href="https://twitter.com/PeckShieldAlert/status/1635229250193334275">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href="https://twitter.com/eulerfinance/status/1635218198042918918">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href="https://twitter.com/ScopeProtocol/status/1635235421327347712">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -2636,16 +2658,6 @@ Alpha Citadel Ventures 将 236,903 枚 USDC 兑换为 231,038 枚 USDT。
         <link href="https://www.panewslab.com/zh/sqarticledetails/37hu4xd3.html"/>
         <updated>2023-03-13T00:07:19.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月13日消息，USDC稳定币发行商Circle的首席执行官Jeremy Allaire发推文称：“我们很高兴地看到，美国政府和金融监管机构采取了关键措施，以减轻部分银行系统带来的风险。硅谷银行100%的存款是安全的，明天将在银行开放。100%的USDC储备金也是安全可靠的，我们将完成剩余硅谷银行现金到纽约梅隆银行的转移。如前所述，USDC的流动性操作将在明天上午银行开门时恢复。随着Signature今晚宣布关闭，我们将无法通过SigNet处理铸造和赎回，我们将依赖纽约梅隆银行的结算。此外，我们将引入一个新的交易银行合作伙伴，最早可能在明天实现自动铸造和赎回。”]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase：在Signature的现金余额约2.4亿美元，周一将恢复USDC到美元的转换]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/2483f95u.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/2483f95u.html"/>
-        <updated>2023-03-13T00:05:44.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月13日消息，Coinbase发推文称：“尽管我们最近在传统银行业看到了动荡，但Coinbase继续照常运营。在Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的USDC转换。客户在银行的所有现金继续受到联邦存款保险公司转移保险的保护。由于FDIC暂停Signature的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。截至3月10日星期五营业结束，Coinbase在Signature的公司现金余额约为2.4亿美元。正如FDIC所说，我们希望完全收回这些资金。在周末银行关门期间，我们暂时暂停USDC：USD的转换。在交易活跃时期，兑换依赖于在正常银行时间内清算的银行美元转账。当银行周一开门时，我们计划重新开始转换。用户资产仍然安全，可用于链上发送。”]]></summary>
         <author>
             <name>PANews News</name>
         </author>
