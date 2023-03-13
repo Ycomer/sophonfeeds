@@ -12,12 +12,22 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://home.treasury.gov/news/press-releases/jy1337",
+          "author": null,
+          "description": "<h3>美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金</h3>\n<p>美国财政部长 Janet L. Yellen、美联储主席 Jerome H. Powell 与 FDIC 主席 Martin J. Gruenberg 联合发布声明，自 3 月 13 日星期一开始，硅谷银行储户将可以提取所有现金，与硅谷银行的决议有关的任何损失将不会由纳税人承担。与硅谷银行的决议一样，Signature Bank 的所有存款人也将得到赔付，纳税人无需承担任何损失。股东和某些无担保债务人将不受保护，高管也已被免职。根据法律要求，存款保险基金为支持未投保存款人而遭受的任何损失将通过对银行的特别评估予以弥补。</p>\n<p><a href=\"https://home.treasury.gov/news/press-releases/jy1337\">内容来源</a></p><hr>",
+          "link": "https://home.treasury.gov/news/press-releases/jy1337",
+          "publishedOn": "2023-03-13T01:29:46.000Z",
+          "wordCount": 2699,
+          "title": "美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金",
+          "imageUrl": "https://home.treasury.gov/system/files/291/treasury-preview-1900x950.jpg"
+        },
+        {
           "id": "https://twitter.com/Zixi41620514/status/1634531213234032644",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>经纬中国研究员 Zixi 从投资角度类比 Web2 的 QQ 农场和 Web3 的 Quest3 及 Galxe，认为 Token 的存在让过渡态的产品为用户和投资人产生了极高的价值和退出路径。Zixi 还认为，Token 能够让每一个产品都在特定的时间点发光发热，在区块链这个高速运转且流动性更加便利的世界，终局逻辑以外的中间型方案同样具有投资价值。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">https://twitter.com/Zixi41620514/status/1634531213234032644</a></p>\n<p><strong>文章作者：</strong></p><p>Zixi</p><hr><h3>观点：</h3><p><strong>Zixi：</strong>在目前 C 端没有最终的落地应用前，用户压根不知道要去哪些应用。Quest3/Galxe 的积分墙成为了一个非常棒的流量聚合器，通过任务 + 奖励的方式将用户导流到项目里，处境类似于 Web2 的 QQ 农场。这在 Web2 可能不是一个好的 deal，因为退出路径不清晰。但在 Web3，只需要发币 + 社区共识 + 项目方不断努力，就能创造出一个又一个独角兽。投资人的退出不再模糊，用户也能享受产品成长的权益。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>一代产品有一代产品的使命，但 Token 的存在让每个产品都在特定的时间点发光发热。时间拉到几年前，从公链来看，各种 ether killer 及 Alt L1，如波卡、Solana 等在上轮牛市已经完成了使命。波卡的卡槽拍卖做出了一个又一个好公链；Solana 即使经常宕机，但便宜 + 快速 + 安全也在 2021 的牛市大放异彩。从游戏来看，axie 虽然可玩性一般，但让众多 Web2 基金和互联网大厂注意到 crypto；Stepn 就算庞，但吸引了一众用户和新钱进场。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>我们投项目很多时候是终局思维，即最终的竞争格局应该是怎么样，就往这个方向投，这在区块链这个高速运转且流动性比传统金融更加便利的世界可能有一定问题。大家可能都相信模块化区块链，以太坊主链做结算和共识，Layer2 做执行， DA 做数据存储。这可能是一个终局路线，但我们还是能看到其他中间性方案和 ether killer 的意义。即使它们最终被淘汰，但项目方 / 投资人 / 早期用户都享受到了其成长带来的价值。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a>",
           "link": "https://twitter.com/Zixi41620514/status/1634531213234032644",
           "publishedOn": "2023-03-12T09:02:01.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】观点：终局思维并非区块链投资的唯一逻辑",
           "imageUrl": null
         },
@@ -37,7 +47,7 @@
           "description": "<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>\n<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。\n\n该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>\n<p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a>",
           "link": "https://twitter.com/the_peopledao/status/1634518915668668416",
           "publishedOn": "2023-03-12T07:04:47.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH",
           "imageUrl": null
         },
@@ -137,7 +147,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 766,
+          "wordCount": 764,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -157,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26153,
+          "wordCount": 26161,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -327,7 +337,7 @@
           "description": "<h3>外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用</h3>\n<p>据 moneycontrol 引援知情人士消息，Facebook 和 Instagram 的母公司 Meta 正在构建一个代号为「P92」的内容应用。该应用将支持去中心化社交网络协议 ActivityPub，采用 Instagram 品牌，并允许用户通过他们的 Instagram 注册或登录。</p>\n<p><a href=\"https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Meta：</strong>我们正在探索一个独立的去中心化社交网络来共享文本更新。我们相信有机会建立一个单独的空间，创作者和公众人物可以及时分享他们的更新。【原文为英文】</p><a href=\"https://www.reuters.com/technology/meta-explores-decentralized-social-network-app-text-updates-2023-03-10/\">内容来源</a>",
           "link": "https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html",
           "publishedOn": "2023-03-10T11:00:14.000Z",
-          "wordCount": 14413,
+          "wordCount": 14417,
           "title": "外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用",
           "imageUrl": "https://images.moneycontrol.com/static-mcnews/2023/03/396330803-654x435.jpg"
         },
@@ -347,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>RAI 具有非法币锚定、完全去中心化、以及最小化治理的极致去信任特性，是以太坊网络上最去中心化的稳定币之一。由 Mint Venture 研究员 Lawrence Lee 撰写的关于 RAI 的研究报告，从项目基本面、优势和风险以及估值等方面分析了该项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/\">https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/</a></p>\n<p><strong>文章作者：</strong></p><p>Lawrence Lee（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>Lawrence Lee（Mint Ventures）：</strong>投资逻辑：RAI 被以太坊创始人 Vitalik 称为是「仅由 ETH 支持的抵押自动稳定币的纯粹理想类型」。其所处的去中心化稳定币赛道，由于具有更加符合抗审查和去信任的加密世界主流叙事、同时目前的发展程度更低，具有更加广阔的发展前景。另外 RAI 还有不锚定法币这一目前稳定币市场中的稀缺特性，使得其不仅可以免于美国的监管，也可免受美联储货币政策的影响。</p><a href=\"https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/\">内容来源</a><p><strong>Lawrence Lee（Mint Ventures）：</strong>RAI 的风险包括：1.PMF 风险：非法币锚定的稳定币在用户端的接受度低；2. 市场推广阻力因素较多：治理代币 FLX 流通量已经超过 67%，后续用于用例推广的激励可能不足；3. 团队风险：联合创始人 Stefan 出走，在用例扩展和市场推广进展一般；4. 代码风险：RAI 机制新颖且基于 PID，有潜在风险尚未暴露的可能性。</p><a href=\"https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/\">内容来源</a><p><strong>Lawrence Lee（Mint Ventures）：</strong>估值：从 P/S 角度看，与同为以太坊网络完全去中心化稳定币的 Liquity 相比，Reflexer 的估值更低；而从稳定币规模角度来看，Reflexer 则相对高估。</p><a href=\"https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/\">内容来源</a>",
           "link": "https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/",
           "publishedOn": "2023-03-10T09:34:17.000Z",
-          "wordCount": 3905,
+          "wordCount": 3929,
           "title": "RAI 研究报告：V 神眼中的去中心化稳定币「理想型」",
           "imageUrl": "https://research.mintventures.fund/wp-content/uploads/2022/03/WechatIMG17.png"
         },
@@ -557,7 +567,7 @@
           "description": "<h3>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</h3>\n<p>据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。</p>\n<p><a href=\"https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake\">内容来源</a></p><hr>",
           "link": "https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake",
           "publishedOn": "2023-03-10T01:33:57.000Z",
-          "wordCount": 7660,
+          "wordCount": 7625,
           "title": "Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元",
           "imageUrl": "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png"
         },
@@ -587,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 981,
+          "wordCount": 1010,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -597,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链上世界到底有没有债券市场？加密原生 crypto native 的债券市场可能会有什么样的发展模式？Mint Ventures 研究员 Colin Li 从加密原生的无风险利率（risk free rate) 切入，试图寻找在加密市场中什么样的经济活动可能达到风险与收益相匹配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</a></p>\n<p><strong>文章作者：</strong></p><p>ColinLy</p><hr><h3>观点：</h3><p><strong>ColinLy：</strong>无风险利率不包含信用风险、期限风险等，在传统世界中一般被认为是短期国债利率，或央行制定的基准利率水平。如果将名义无风险利率拆开，可以看到一部分是价格预期（通胀），另一部分是经济体本身的增长预期（实际利率）。当然，这个利率存在一些前提假设，比如国家相对稳定，监管机构没有被破坏等等。所以无风险利率，不是绝对没有风险。</p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">内容来源</a><p><strong>ColinLy：</strong>不论 POS 还是 POW 机制，为了维持正常运行，都需要为矿工 /validator 提供一定奖励。这部分收益率包含了公链代币的新发放（激励），即「国家货币」的通胀，和链上活动的活跃程度。以 POS 机制为例，MEV 主要来源于套利、清算、三明治攻击，都与链上活动息息相关。不过，从风险角度看，获得这笔收益需要承担硬件、软件（客户端）、网络、slashing 罚金等维持公链运行必须的风险。总的来看，POS 收益率更贴合「国家」叙事层面下的「无风险利率」。</p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">内容来源</a><p><strong>ColinLy：</strong>总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通胀的公链项目的收益率呈现出与现实世界非常类似的情况：经济体越成熟，提供的利率水平相对越低。通过简单观测 POS 收益率和 TVL 排名，有利于部署不同的公链投资策略：对于稳健的投资者，应该寻找 POS 收益率偏低且实际 POS 收益率为正的公链项目；对于激进的投资者，或许盈亏比更大的项目在 POS 收益率偏高且实际 POS 收益率为负的公链中。</p><a href=\"https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/\">内容来源</a>",
           "link": "https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/",
           "publishedOn": "2023-03-09T11:27:16.000Z",
-          "wordCount": 3557,
+          "wordCount": 3581,
           "title": "Mint Ventures：加密世界的原生基准利率该如何定义？",
           "imageUrl": "https://research.mintventures.fund/wp-content/uploads/2022/08/2.png"
         },
@@ -757,7 +767,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>\n<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href=\"https://dinoeggs.substack.com/p/light-nodes-and-their-benefits\">内容来源</a>",
           "link": "https://dinoeggs.substack.com/p/light-nodes-and-their-benefits",
           "publishedOn": "2023-03-09T03:02:49.000Z",
-          "wordCount": 4267,
+          "wordCount": 7483,
           "title": "【英文】什么是轻节点？一文了解其类型及运作模式",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a6438c7-1311-406d-bdaa-326ba58bbf3f_1200x650.png"
         },
@@ -3079,6 +3089,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/5u6m01m4.html",
+          "author": null,
+          "description": "PANews 3月13日消息，据路透社报道，英国天空新闻(Sky News)的一名记者周日在推特发文称，汇丰控股(HSBC Holdings)已成为硅谷银行英国子公司(Silicon Valley Bank UK)的潜在竞购者。文中称：“交易尚未确定，但据我所知，汇丰和摩根大通都在探索收购这家陷入困境的银行”。据金融时报此前报道，英国央行周五晚些时候宣布，它计划使用其银行破产程序来解决硅谷银行英国子公司的问题。一家总部位于阿拉伯联合酋长国的公司已经表示了兴趣。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/5u6m01m4.html",
+          "publishedOn": "2023-03-13T01:36:11.000Z",
+          "wordCount": 1128,
+          "title": "英国天空新闻：汇丰和摩根大通有意收购硅谷银行英国子公司",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/t6qyqtcm.html",
           "author": null,
           "description": "来源：链上分析师@Lookonchain\n编译：Moni\n\n受到硅谷银行破产影响，美元稳定币 USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中有些人选择恐慌抛售，也有人探底买入。下面就让我们分析一下链上数据，看看在这场“USDC 危机”过程中机构投资者是如何应对 USDC 脱锚的吧。\n1、Jump Trading\nJump Trading 向 Circle 存入 1.6968 亿枚 USDC；\n2、Wintermute Trading\nWintermute Trading 向 Circle 存入 270 万枚 USDC，向 Coinbase 存入 2500 万枚 USDC；\n3、Genesis Trading\nGenesis Trading 向 Coinbase 存入 2500 万枚 USDC；\n4、BlockTower Capital\nBlockTower Capital 向 Coinbase 存入 996 万枚 USDC；\n5、Vitalik.eth\n以太坊联合创始人 “V 神” Vitalik Buterin 将 500 枚 ETH 兑换成 400,359 枚 USDC 和 27,179 枚 DAI；\n6、Poap.xyz 创始人 @worthalter\n@worthalter 将 893,439 枚 USDT 和 106,766 枚 BUSD 兑换成 1,081,909 枚 USDC；\n7、孙宇晨\nJustin Sun 通过三个地址将 1.27 亿枚 USDC 兑换成 1.2696 亿枚 DAI。值得一提的是，在本次“USDC 危机”爆发之前，孙宇晨因 HT 市场波动所导致杠杆穿仓损失以及少数用户杠杆清算所造成盘面波动影响宣布将出资 1 亿美元成立流动性基金，并将1 亿枚 USDC 转至 Huobi。\n8、Kyber Ventures\nKyber Ventures 将 1634 万枚 USDC 兑换为 1634 万枚 USDP；\n9、Chain Capital\nChain Capital 将 722 万枚 USDC 兑换为 479 万枚 USDP、210 万枚 DAI、以及 42,696 枚 USDT；\n10、Spartan Group\nSpartan Group 将 250 万枚 USDC 兑换为 2,243,537 枚 USDT；\n11、Signum Capital\nSignum Capital 将 2,729,260 枚 USDC 兑换成 2,531,743 枚 USDT；\n12、Infinity Ventures Crypto\nInfinity Ventures Crypto 将 218 万枚 USDC 兑换为 1,277 枚 ETH，约合 184 万美元；\n13、LD Capital\nLD Capital 将 100 万枚 USDC 兑换为 229,956 枚 USDT 和 488 枚 ETH（约合 703,162 美元）；\n14、LedgerPrime\nLedgerPrime 将 616,304 枚 USDC 兑换为 591,033 枚 USDP；\n15、Dokia Capital\nDokiaCapital 将 224,821 枚 USDC 兑换为 137.8 枚 ETH（约合 198,432 美元）；\n16、Alpha Citadel Ventures\nAlpha Citadel Ventures 将 236,903 枚 USDC 兑换为 231,038 枚 USDT。\n\n注：IOSG Ventures 表示，原图中统计的地址非其账户\n概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市时通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 V 神 Poap.xyz 创始人 @worthalter 和 Taureon Capital 则在底部买入了 USDC。\n另一方面，孙宇晨、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。",
@@ -3124,7 +3144,7 @@
           "description": "PANews 3月13日消息，CoinGecko数据显示，稳定币USDC、DAI和FRAX脱锚状态有所缓解，USDC、DAI均已回升至0.99美元上方。USDC现报0.9904美元，DAI现报价0.9943美元，此外FRAX现报0.9899美元。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/0i7w8agj.html",
           "publishedOn": "2023-03-13T00:26:09.000Z",
-          "wordCount": 1110,
+          "wordCount": 1106,
           "title": "USDC、DAI回升至0.99美元上方，脱锚状态有所缓解",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3264,7 +3284,7 @@
           "description": "3月11日，USDC的发行商Circle称，USDC的400亿储备金中有33亿存款在硅谷银行，在此之前硅谷银行因“流动性不足和资不抵债”而被迫关闭，并指定了美国联邦储蓄保险公司（FDIC）接管。\n虽然Circle受到影响的只是一小部分资金，但因为周末银行并不上班，大规模购买USDC赎回美元这一套利机制失效且Coinbase也关闭了USDC的美元提款通道，USDC、DAI、FRAX、MIM等稳定币相继脱锚。在市场剧烈波动的情况下，也蕴含着一些机会。\n\nLookonchain统计的机构操作\n抄底：USDC损失有限且大概率会回到1美元附近\n最简单的操作就是等待USDC下跌后进行抄底，依据在于USDC储备金受到硅谷银行影响的比例不超过10%，那么USDC当前的理论价值应该超过0.9美元，USDC跌到0.9美元以下就是合适的抄底机会。\n这已经考虑了硅谷银行被清算并完全不能收回资金、Circle坐视不理等极端情况。实际上，硅谷银行因为在风险投资行业的良好声誉，也有不少的支持者。据彭博社报道，超过100家银行签署了一份支持硅谷银行的声明，如果其它实体收购硅谷银行，投资者将继续与硅谷银行保持关系。\n3月12日，Circle也发布公告称，如果硅谷银行的资金不能100%回款，Circle将使用公司资源弥补短缺以支持USDC。在美国银行下周一营业后，USDC的流动性操作将恢复正常。\n在过度的FUD情绪之下，部分投资者可能担心美国其它银行也可能步Silvergate和硅谷银行的后尘，第一共和银行（FRC）的股票价格在周五开盘时曾跌超50%。据彭博社报道，美联储和FDIC正考虑设立基金，为陷入困境的银行提供存款担保。\n直接进行抄底的投资者还需实时关注动态，以免让自己处于不公平地位。例如在FTX风险刚刚暴露时，资金缺口相对于总存款的比例并不高，但因为很多人全额提款，且在提款关闭后FTX还通过特殊渠道向部分人开放了提款，导致没有提款的人可能损失100%的资金。\n即使有风险，大概率USDC也会在周一恢复至接近1美元的价格。\n在USDC脱锚后，可以选择将USDC 1:1兑换为其它稳定币，以期望其它稳定币的发行商能够兜底。如果USDC恢复1美元，将没有任何损失；如果USDC继续脱锚，其它稳定币的发行商也可能弥补USDC的亏空。\n首先是BUSD和USDC的互换，币安默认将用户充值的USDC兑换为BUSD，因此USDC脱锚的早期，BUSD和USDC在币安仍然能够按1:1互换。在USDC已经脱锚的情况下，BUSD理论上比USDC风险更小，可能有币安的兜底。事实也如此，随着USDC脱锚的持续，币安关闭了USDC和BUSD的互换通道，此后BUSD的负溢价维持在1%左右，而USDC的负溢价最高超过10%。\n第二是DAI与USDC的互换，Maker的稳定锚定模块允许DAI与USDC之间的互换。在没有其它渠道规避风险的情况下，DAI也是比USDC更好的选择，因为还有部分DAI是超额抵押加密货币铸造的，且MakerDAO有可能对协议中的坏账进行兜底。波场创始人孙宇晨也进行了这一操作，事后MakerDAO确实采取了积极措施，DAI的负溢价低于USDC。\n \n套利：不同链上和DEX之间的价格差异\n在USDC价格波动的时候，市场上也有很多套利机会，这个思路的核心就是多观察同种资产在不同链和中心化交易所之间的价格差异。\n例如，Optimism和Arbitrum上的ETH/USDC交易对和OKX上价格的不同，需要使用1inch等交易聚合器，即使单个DEX上ETH/USDC的价格和交易所相同，也能通过DeFi的可组合性套利。其中一种操作是用USDC通过Optimism的1inch购买ETH，再到OKX、Bybit等平台换成USDC。当USDC贬值时，交易经过会“USDC-sUSD-sETH-ETH”的路径，通过Synthetix的原子交易完成。核心原因可能是因为在USDC价格下跌后，链上的USDC/sUSD交易对的价格并没有变化，Stableswap会导致流动性聚集，从而提供可观的流动性。\n由于OKX支持更多不同链上资产的充提（如Optimism、Arbitrum的USDC），且开通了更多流动性好的交易对（如ETH/USDC），短期内流入了更多资金。事后，币安也恢复了USDC/USDT交易对，并表示将开通ETH/USDC等交易对。\n \n最后，PANews在这里要提醒大家，在进行链上操作时一定要小心。一个反面教材是，某用户将超过200万美元的Curve 3pool LP代币通过Kyber的聚合路由卖出，仅获得了0.05 USDT。原因在于该用户既没有按照流程操作（应当直接通过Curve赎回流动性），在兑换时也没有注意价格，最后被MEV机器人赚取超过200万美元的利润。",
           "link": "https://www.panewslab.com/zh/articledetails/acw8ta8t.html",
           "publishedOn": "2023-03-12T05:37:31.000Z",
-          "wordCount": 1199,
+          "wordCount": 1191,
           "title": "复盘USDC脱锚下的抄底、避险和套利机会",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/12/images/5R19yOzCf1.jpeg"
         },
@@ -3354,7 +3374,7 @@
           "description": "作者 | Decrypt Jason Nelson\n编译 | PANews\n如果你觉得比特币NFT协议Ordinals是昙花一现，那么这个想法可能会让你“打脸”，因为通过将NFT内容刻入比特币区块链的想法不断引起社区的关注，而且也不再局限于“非同质化代币（NFT）”，现在已经有人想出了使用Ordinals协议来铸造一种“同质化代币（fungible tokens）”。\n根据Duna Analytics数据显示，3月9日Ordinals协议的铸造铭文数量突破3万，达到31692个，创下迄今为止单日最高铸造记录。之所以会出现这种情况，是因为比特币社区用户@domodata启动了一场基于Ordinals协议的新实验“BRC-20”，旨在通过Ordinals协议在比特币网络上实现像在以太坊网络上发行ERC-20代币的效果，人们通过比特币区块链铸造和转移他们喜欢的代币。\n  “BRC-20”代币可能是Ordinals协议的最新用例，虽然这个协议曾激怒了一些比特币极端主义者，但随着越来越多创作者和收藏家汇聚到比特币，也让社区对这个最古老区块链不断扩张的可能性感到兴奋。\n本周四，一个名为“Domo”的匿名比特币社区用户在社交媒体上宣布推出“BRC-20”，这个名字是“比特币评论请求”英文名Bitcoin Request for Comment的首字母缩写，灵感来自于Sats Names (.sats)域名标准。\nDomo表示：“过去几天我在Twitter上听说了BRC-20的可能性，很好奇是否可以应用.sats 域名格式来创建它，基本上，我想做的是看看是否可以使用手头上的工具（比如Dune Analytics）和铭文创建链下状态。”\n 事实上，如上图所示，只需按照BRC-20标准就可以部署BRC-20代币，相关标准概念如下：\n从3月9号开始，Domo的“BRC-20代币”拉开序幕，自那以后，用户通过BRC-20和Ordinals协议部署了受Meme启发的代币，比如Doge、Pepe等。另据Dune Analytics分析（如下图所示），自BRC-20实施上线以来创建的绝大多数序号铭文都是基于文本，其次是图片、应用程序和视频。\n\nOrdinals引发的比特币铭文热潮短时间内似乎不会消退\n截止目前，总计已有近40万条铭文是通过Ordinals协议完成的，几乎所有铭文都是在过去六周内铸造的。NFT分析师Leonidas认为，基于文本的比特币铭文越来越流行，这也是一种趋势，因为文本格式规模很小，大概只有几个字节，而铸造费用与所铸造的文件大小是成正比的，所以铸造JSON（代码）或文本的费用显然要低得多。\n不仅如此，随着比特币网络完成隔离见证（Segwit）和Taproot升级，越来越多的NFT爱好者开始来到原始区块链网络来铸造“比特币NFT”，虽然功能和“以太坊NFT”不完全相同，但最终结果是相似的，Ordinals开始席卷加密世界。\n根据Galaxy Research上周发布的一份报告显示，预计到2025年，迅速崛起的比特币NFT市场价值可能达到45亿美元。目前而言，Ordinals协议已被广泛用于链上铭文，其中包括艺术品、个人资料图片、可玩游戏和基于视频的网络应用程序。就连“无聊猿”Bored Ape Yacht Club的母公司Yuga Labs也通过Ordinals协议拍卖了自己的原创艺术收藏品并在此过程中获利1650万美元。\n尽管社交媒体上对BRC-20代币热议不断，但作为提出这一概念的Domo坦言，不应该将BRC-20视为基于比特币的代币“标准”，他甚至告诫人们不要大量铸造此类代币并称此类代币“毫无价值”，还建议其他构建者设计和编码更强大的解决方案。\n但毫无疑问，BRC-20已成为比特币区块链扩展的一个新起点，即使是一个有趣的实验，BRC-20的推出也已经吸引了很多比特币用户关注，未来的想象空间也很大，正如Domo所说——反应比预期的要好。\n“归根结底，这是一个实验，我认为大多数人都明白这一点，而那些尝试过BRC-20的人们似乎都很开心。”",
           "link": "https://www.panewslab.com/zh/articledetails/39iw47o9.html",
           "publishedOn": "2023-03-12T02:58:51.000Z",
-          "wordCount": 1240,
+          "wordCount": 1238,
           "title": "Ordinals协议的新实验同质化代币“BRC-20”是什么？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/12/images/oHDO5ib87p.jpg"
         },
@@ -3544,7 +3564,7 @@
           "description": "来源 |StarkNetEco\n编译 | 白泽研究院\nStarkNet 是 StarkWare 开发的 L2，利用 STARK 有效性证明来提高性能和可扩展性。在主网上线的一年半中（2021 年 11 月），有超过 221 个项目正在 StarkNet 上构建，包括 OnlyDust、Briq、Pxls、Realms、Influence 和 Cartridge。开发者社区正在致力于深入改进架构，这将对去中心化、可扩展性和用户体验产生突破性的影响，也将会在生态系统中释放出大量激动人心的新项目。\n虽然以太坊的可扩展性和笨拙的用户体验经常招致批评，但 StarkNet 社区一直在努力解决这些问题。在过去的两年里，StarkNet 利用 STARK 有效性 Rollop 的力量突破了 L2 性能、机密性和可扩展性的界限。\n但是还有很多工作要做。StarkNet 仍处于 alpha 阶段，尚未针对 TPS 进行优化。尽管如此，仍有超过 221 个项目建立在 StarkNet 上，这是 StarkNet 和 STARK 被普遍采用和增长的迹象。\n​\n在本文中，我们将介绍一些建立在 StarkNet 之上的创新项目，以三个角色为主题：\n开发者\n艺术家\n玩家\n鉴于 StarkNet 处于初期阶段，社区正在不断寻找新的贡献者来开拓网络的未来。自从在 2020 年推出 Cairo 作为一种初级编程语言以来，它已经发展成为一种针对 L2 智能合约的 Python 和 Rust 风格的优化语言。随着 Cairo 1.0 的开源和 Warp（Solidity 到 Cairo 代码转换器）的推出，我们已经看到开发人员活动呈指数级增长，并且这一趋势将继续延续下去。\nOnlyDust\nOnlyDust是一个将开发者与 StarkNet 生态系统中的开源项目联系起来的平台。OnlyDust 使开发者能够帮助 Kakarot、DevNet 和 starkNet.js 等有意义的项目，并根据他们的贡献价值每周获得报酬。多亏了 Warp，Solidity 开发人员也可以参与其中。\n虽然该平台已经吸引了数百名贡献者，但它计划即将推出“领导者”角色，开发者可以在其中快速启动自己的项目并直接从社区获得帮助。\n除了在线社区之外，OnlyDust 还举办现场活动，开发人员可以在这些活动中进行协作并沉浸在快速发展的 StarkNet 社区中。\n\n艺术家\n尽管 NFT 的炒作具有周期性，但数字艺术品市场仍在蓬勃发展。StarkNet 生态系统充满了旨在帮助艺术家的项目，帮助他们成长并通过与世界分享他们的艺术作品来获利。\nBriq\n就像数字版的乐高积木一样，Briq已经为艺术家构建了一个可组合性系统，使用被称为 briqs 的 ERC-1155 代币来构建作品。从这里，艺术家可以直接出售、出借、转让他们的作品，或者允许购买者拆解他们的作品以创造全新的东西。\nbriqs 专为互操作性而构建，旨在连接现实世界与虚拟世界，成为元宇宙的基石。\n\nPxls\nPxls 是一项创建链上协作艺术品的实验，围绕 400 个“pxl”NFT 的集合构建。每个 pxl 都是参与创建像素艺术作品 (“rtwrks”) 的关键，在一个空白网格中只能使用 2,000 个总像素中的最多 20 个着色。\n每两天，新 rtwrk 都会被拍卖。当用户赢得拍卖后，可以为下一个 rtwrk 列一个主题。拍卖结束后，每个 pxl NFT 持有者都会收到主题，投入到创作中。\n\n玩家\n区块链游戏行业曾因以太坊的可扩展性限制而受阻，但事实证明，StarkNet 的引入具有变革性。随着越来越多的链上游戏开发团队意识到 EVM/Solidity 的局限性，他们被鼓励探索其他生态系统。幸运的是，随着 Cairo 1.0 和 Rust 的出现，开发人员可以轻松构建无缝的链上游戏。\nStarkNet 的 Gas 费用低到可以忽略不计，因此可以在建立可持续的游戏内经济的同时创建沉浸式的游戏或元宇宙。\nRealms\n作为 BibliothecaDAO的产品，Realms是一款大型多人在线游戏 (MMO)，玩家可以在其中建立帝国、掠夺资源和抢占遗迹。该游戏是开源的，与许多加密游戏不同，它完全在 StarkNet 链上运行。\n\n游戏有 22 种不同稀有度的资源，可以通过购买劳动力生成。每个资源生成周期需要 2 小时，并产生 25 倍的资源。资源可用于建造建筑物、召唤士兵，或在 AMM 上进行交易。每个帝国的金库都可被掠夺。\n一个帝国可以有一支防御军队和多支进攻军队，但重要的是要平衡他们对资源的消耗，并考虑每次突袭的风险和收益。\nRealms 具有多种游戏模式和功能，例如质押和制作，由一组预定义规则管理，这些规则可以根据链上玩家投票进行更新。\n该游戏在 2023 年第一季度发布了 Alpha 和 Beta 版本，如果 DAO 投票通过，随后将进行正式版的部署。Q2 将带来 NFT 市场、新模块以及第一个扩展——Adventurers（一款小游戏，玩家可以花费少量成本铸造一个冒险家，如果冒险家在游戏中死亡，该角色将被没收。官方称之为「Play to Die」）。\nInfluence\nInfluence是一款备受期待的 3D 太空战略沙盒 MMO，背景设定在 Adalia 星系的小行星带。该游戏采用第三人称游戏方式，允许玩家控制飞船和设施、殖民小行星、参与战斗、开发建筑、创建社区并扩大他们在宇宙中的影响力。所有游戏内资产均为玩家所有，包括 Adalia 的 250,000 颗小行星，每颗小行星都具有独特的资源组合，可以开采并提炼成各种产品，这些产品可以在公开市场上交易。\n\n该游戏采用逼真的轨道机制和玩家拥有的游戏资产，让玩家真正拥有自己的资产，包括小行星、船员、飞船。Influence 将于 2023 年推出。\nInfluence 是一款免费游戏，不收取经常性费用。但是，执行某些操作会产生网络交易费用。虽然该游戏不是“氪金”游戏，但像船员这种前期物品需要使用游戏内代币 $SWAY 购买。\n该游戏充满了战斗、策略和协作，非常适合游戏玩家和科幻爱好者。\nCartridge\n要创建成功的 Web3 游戏，必须拥有能够提供类似于 Web2 的无缝用户体验的身份工具。WebAuthn 是一种被广泛接受的行业标准规范，它使玩家能够安全地生成和管理密钥对，以便在各种设备上进行身份验证。\n主要软件和硬件提供商对 WebAuthn 的采用正在推动身份验证底层逻辑的巨大转变。通过支持 WebAuthn，像 StarkNet 这样的区块链可以大幅提高可用性，并为主流采用铺平道路。\n这就是Cartridge的用武之地——它就像 Crypto 版的 Steam，可以帮助玩家发现、探索游戏，同时管理他们的链上资产、代币和声誉。借助 Cartridge，开发者可以轻松创建加密游戏，提供无缝的用户体验。\n\n风险提示：\n根据央行等部门发布的《关于进一步防范和处置虚拟货币交易炒作风险的通知》，本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规，不参与任何非法金融行为。",
           "link": "https://www.panewslab.com/zh/articledetails/j932f7651qd4.html",
           "publishedOn": "2023-03-11T07:07:57.000Z",
-          "wordCount": 1584,
+          "wordCount": 1578,
           "title": "StarkNet 创新项目一览：开发者/艺术家/玩家有哪些新机会？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/images/11VopvT8Gn.png"
         },

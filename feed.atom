@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T01:11:13.689Z</updated>
+    <updated>2023-03-13T01:47:36.478Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[英国天空新闻：汇丰和摩根大通有意收购硅谷银行英国子公司]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5u6m01m4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5u6m01m4.html"/>
+        <updated>2023-03-13T01:36:11.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，据路透社报道，英国天空新闻(Sky News)的一名记者周日在推特发文称，汇丰控股(HSBC Holdings)已成为硅谷银行英国子公司(Silicon Valley Bank UK)的潜在竞购者。文中称：“交易尚未确定，但据我所知，汇丰和摩根大通都在探索收购这家陷入困境的银行”。据金融时报此前报道，英国央行周五晚些时候宣布，它计划使用其银行破产程序来解决硅谷银行英国子公司的问题。一家总部位于阿拉伯联合酋长国的公司已经表示了兴趣。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金]]></title>
+        <id>https://home.treasury.gov/news/press-releases/jy1337</id>
+        <link href="https://home.treasury.gov/news/press-releases/jy1337"/>
+        <updated>2023-03-13T01:29:46.000Z</updated>
+        <summary type="html"><![CDATA[<h3>美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金</h3>
+<p>美国财政部长 Janet L. Yellen、美联储主席 Jerome H. Powell 与 FDIC 主席 Martin J. Gruenberg 联合发布声明，自 3 月 13 日星期一开始，硅谷银行储户将可以提取所有现金，与硅谷银行的决议有关的任何损失将不会由纳税人承担。与硅谷银行的决议一样，Signature Bank 的所有存款人也将得到赔付，纳税人无需承担任何损失。股东和某些无担保债务人将不受保护，高管也已被免职。根据法律要求，存款保险基金为支持未投保存款人而遭受的任何损失将通过对银行的特别评估予以弥补。</p>
+<p><a href="https://home.treasury.gov/news/press-releases/jy1337">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[面对“USDC脱锚危机”，知名大户们是如何操作的？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/t6qyqtcm.html</id>
@@ -51,6 +73,65 @@ Alpha Citadel Ventures 将 236,903 枚 USDC 兑换为 231,038 枚 USDT。
 注：IOSG Ventures 表示，原图中统计的地址非其账户
 概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市时通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 V 神 Poap.xyz 创始人 @worthalter 和 Taureon Capital 则在底部买入了 USDC。
 另一方面，孙宇晨、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[面对“USDC脱锚危机”，知名大户们是如何操作的？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/t6qyqtcm.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/t6qyqtcm.html"/>
+        <updated>2023-03-13T01:08:23.000Z</updated>
+        <summary type="html"><![CDATA[来源：链上分析师@Lookonchain
+编译：Moni
+
+受到硅谷银行破产影响，美元稳定币 USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中有些人选择恐慌抛售，也有人探底买入。下面就让我们分析一下链上数据，看看在这场“USDC 危机”过程中机构投资者是如何应对 USDC 脱锚的吧。
+1、Jump Trading
+Jump Trading 向 Circle 存入 1.6968 亿枚 USDC；
+2、Wintermute Trading
+Wintermute Trading 向 Circle 存入 270 万枚 USDC，向 Coinbase 存入 2500 万枚 USDC；
+3、Genesis Trading
+Genesis Trading 向 Coinbase 存入 2500 万枚 USDC；
+4、BlockTower Capital
+BlockTower Capital 向 Coinbase 存入 996 万枚 USDC；
+5、Vitalik.eth
+以太坊联合创始人 “V 神” Vitalik Buterin 将 500 枚 ETH 兑换成 400,359 枚 USDC 和 27,179 枚 DAI；
+6、Poap.xyz 创始人 @worthalter
+@worthalter 将 893,439 枚 USDT 和 106,766 枚 BUSD 兑换成 1,081,909 枚 USDC；
+7、孙宇晨
+Justin Sun 通过三个地址将 1.27 亿枚 USDC 兑换成 1.2696 亿枚 DAI。值得一提的是，在本次“USDC 危机”爆发之前，孙宇晨因 HT 市场波动所导致杠杆穿仓损失以及少数用户杠杆清算所造成盘面波动影响宣布将出资 1 亿美元成立流动性基金，并将1 亿枚 USDC 转至 Huobi。
+8、Kyber Ventures
+Kyber Ventures 将 1634 万枚 USDC 兑换为 1634 万枚 USDP；
+9、Chain Capital
+Chain Capital 将 722 万枚 USDC 兑换为 479 万枚 USDP、210 万枚 DAI、以及 42,696 枚 USDT；
+10、Spartan Group
+Spartan Group 将 250 万枚 USDC 兑换为 2,243,537 枚 USDT；
+11、Signum Capital
+Signum Capital 将 2,729,260 枚 USDC 兑换成 2,531,743 枚 USDT；
+12、Infinity Ventures Crypto
+Infinity Ventures Crypto 将 218 万枚 USDC 兑换为 1,277 枚 ETH，约合 184 万美元；
+13、LD Capital
+LD Capital 将 100 万枚 USDC 兑换为 229,956 枚 USDT 和 488 枚 ETH（约合 703,162 美元）；
+14、LedgerPrime
+LedgerPrime 将 616,304 枚 USDC 兑换为 591,033 枚 USDP；
+15、Dokia Capital
+DokiaCapital 将 224,821 枚 USDC 兑换为 137.8 枚 ETH（约合 198,432 美元）；
+16、Alpha Citadel Ventures
+Alpha Citadel Ventures 将 236,903 枚 USDC 兑换为 231,038 枚 USDT。
+
+注：IOSG Ventures 表示，原图中统计的地址非其账户
+概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市时通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 V 神 Poap.xyz 创始人 @worthalter 和 Taureon Capital 则在底部买入了 USDC。
+另一方面，孙宇晨、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Republic Bank：未使用的流动性资金超过700亿美元，财务状况非常稳健]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ovzh9oz2.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ovzh9oz2.html"/>
+        <updated>2023-03-13T00:54:44.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，据Business Wire报道，First Republic Bank表示，通过从美联储和摩根大通获得额外的流动性，其财务状况得到进一步增强和多样化。目前所有未使用的流动性资金超过700亿美元，且可以通过美联储今天宣布的“银行定期融资计划“获得更多流动性。First Republic Bank创始人Jim Herbert和首席执行官Mike Roffler表示，该银行的资本和流动性状况非常强劲，其资本仍然远远高于监管门槛。据此前消息，First Republic Bank从3月12日开始限制资金汇出的电汇交易，同时还表示将完全停止处理电汇交易。据推特用户@AP_Abacus透露，First Republic Bank濒临破产，员工正在做最坏的打算。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -2345,39 +2426,6 @@ AI 有三要素：数据，算法，算力。而由于 Web3 的经济模式和�
         <link href="https://www.panewslab.com/zh/sqarticledetails/7wkujq79.html"/>
         <updated>2023-03-11T05:35:11.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月11日消息，Binance将于3月11日14:00（UTC）开放BNB/TUSD、BTC/TUSD、ETH/TUSD、TUSD/USDT、USDC/USDT和USDP/USDT现货交易对。并且用户可以享受以下现货交易对的折扣交易费用：BNB/TUSD、BTC/TUSD、ETH/TUSD、TUSD/USDT、USDC/USDT和USDP/USDT。目前，Binance已停止/将分别停止用户对USDC、USDP和TUSD新存款的BUSD自动转换，用户将无法再从BUSD余额中提取USDC、USDP或TUSD。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[恐慌和挤兑袭来袭，USDC这次能扛得住吗？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/lojghc2h.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/lojghc2h.html"/>
-        <updated>2023-03-11T05:19:13.000Z</updated>
-        <summary type="html"><![CDATA[原文作者：Jack、Logicrw、FYJ，BlockBeats
-1 天时间，SVB 的涟漪效应就来到了加密市场。今晨，因 SVB 中有部分存款，USDC 稳定币发行商 Circle 突然面临严重挤兑，USDC 出现持续性脱锚。同时，Binance、Coinbase 等中心化交易平台均宣布关闭 USDC 的部分兑换服务。截至撰稿时，USDC 价格脱锚至 0.933 美元附近，过去 24 小时已销毁超 27 亿枚 USDC。面临恐慌和挤兑，USDC 会进入死亡螺旋吗？
-稳定币发行商 Circle 今日在社交媒体上发文表示，硅谷银行是 Circle 的六家银行合作伙伴之一，负责与其他银行共同管理 USDC 约 25% 的现金储备。Circle 目前正在等待观察美国联邦存款保险公司接管硅谷银行对其储户的影响，但 Circle 和 USDC 继续正常运营。
-
-据 Circle 官网发布的最新数据显示，目前流通中的 USDC 市值共计约为 434 亿美元，资金储备共计 435 亿美元，其中现金储备为 111 亿美元，占比约为 25%，其余 334 亿美元储备为短期国债投资组合。今天结束时确认，星期四发起的去除余额的指令尚未处理，因此美元稳定币（USDC）账户储备中仍有大约 40 亿美元中的 33 亿美元储备留在 SVB。与其他接受 SVB 银行服务的客户一样，Circle 将遵循各州和联邦监管机构提供的指导。
-根据 BlockBeats 目前收集到的信息，Circle 在「SVB 事件」中面临的损失应该不大。但从当前市场的恐慌程度来看，USDC 仍存在持续脱锚的风险。那么在什么情况下，USDC 会出现严重的脱锚呢？BlockBeats 对几个关键影响因素进行了梳理。
-首先，USDC 崩盘的前提一定是恐慌情绪的持续。Circle 的背书储备大部分为美国国债，如果恐慌持续，Circle 的现金储备被耗尽，这将导致 Circle 不得不立刻出售自己手中的国债，以应对市场的赎回需求。然而不巧的是，全球加息潮使得整个债券市场的收益率都来到了空前的高度，如果此时出售国债，Circle 将像 SVB 一样面临严重的亏损，使其无法有效应对市场赎回。这时，Circle 赎回周期变长，再次促涨恐慌情绪，赎回加剧，USDC 进入死亡螺旋。
-其次是价格锚定和流动性层面，无法及时赎回的 USDC 将通过市场流动性的方法试图逃离。不可否认，就链上流动性而言，USDC 是当前稳定币中的老大，各个 AMM 和借贷协议的 LP 池中都能看到它的影子。这里要说明的是，因为链上借贷行为大多不以 USDC 作为抵押品，因此价格上面临清算的风险并不高，导致脱锚的关键因素实际在于 AMM 上的流动性。现在，我们以 Curve、Uniswap 作为主要依据看一看可供 USDC 出逃的流动性有多少。
-在 Curve 上，USDC 最主要的出逃口径就是 3Crv 池。目前，该池 TVL 超 4 亿美元，其中 USDC 的占比近 50%，价值约 2.2 亿美元，DAI 占比约 47%，USDT 占比约 3%。如果恐慌持续发生，则会出现下面两种情况：
-1. 大部分持有者将 DAI 视为去中心化庇护所，将 USDC 兑换为 DAI，这时 3Crv 池上暂时有约 2 亿美元的流动性保护 USDC 的锚定。
-2. 部分持有者发现 DAI 的锚定大部分由 USDC 背书，选择将 USDC 兑换为 USDT，这时 3Crv 池里 1400 万美元的薄弱流动性便会让 USDC 出现持续甚至是严重的脱锚。
-
-另外一个链上出逃口径就是 USDC 兑 ETH 等资产的 AMM 池，比如 Uniswap V3 的 USDC/ETH 池。目前，USDC 410 亿市值里有超 86% 都在以太坊主网上，价值约 350 亿美元，和其他公链相比，以太坊主网仍是 USDC 出逃的主要口径。
-
-而目前 Uniswap V3 上 TVL 最高的流动性池同样为 USDC 兑 DAI 的 0.01% 和 0.05% 池，TVL 约 4 亿美元，其次才是 USDC 兑 ETH 的流动性池。0.3% 加 0.05% 两个池，TVL 约 3.35 亿美元，其中，两个池内目前共有约 11 万枚 ETH，价值约 1.6 亿。从整个以太坊主网看，目前 TVL 为 260 亿，对稳定币市值的占比也是各公链中最小的（排除 Tron）。
-
-因此，如果市场恐慌较长持续下去，USDC 持有者将在 Curve 池耗尽后选择 AMM 作为出逃口径，用 USDC 兑换 ETH 等各类蓝筹甚至非蓝筹资产。这时，一方面 USDC 可能面临价格死亡螺旋，一方面 ETH 等资产价格也可能出现上涨。
-更要命的是，中心化交易平台也开始切断 USDC 的流动性。今晨，Binance 暂时关闭了 USDC 自动转换 BUSD 的功能，并在社交媒体上发文表示，由于 USDC 资产大量流入使自动转换的负担加重，这是 Binance 采取的常规风险管理程序步骤。随后，Coinbase 也做出了同样的声明。要知道，当 CEX 老大哥们也开始逃避 USDC 时，其他交易平台做出同样动作或许只是时间问题。当中心化平台也切断流动性后，USDC 的噩梦就真的来临了。
-很显然，Circle 在 SVB 一事中的亏损并不多，USDC 此次脱锚是恐慌或蓄意造成的挤兑，但如果 Circle 真的因此出售自己以国债为主的投资组合，便会将一时的恐慌挤兑转变为真的资产亏空。Circle 此时要做的，就是关闭赎回，宣布融资等外部资金支持，然后等待市场恢复信心。当然，如上文所述，在等待信心恢复的这个过程中，USDC 的严重脱锚是难以避免的。
-最要担心的还不光是 USDC 的脱锚问题，而是整个稳定币生态的挤兑风险。想一想，USDT 的大部分储蓄同样是国债，倘若 Circle 最终因为巨大脱锚压力出售手中的国债而导致亏损，难道这场大火就不会蔓延到 USDT 身上吗？
-其次便是 DAI、FRAX 等主要以 USDC 进行背书的去中心化稳定币。BlockBeats 曾在《加密全民战争，「去 USDC 化」稳定币的捍卫之路》中指出了当前稳定币生态严重中心化的问题，其中最主要的因素就是中心化稳定币 USDC 的广泛应用。如果 USDC 真的出现严重脱锚，那么不出 1 日，DAI、FRAX 等稳定币的背书将大打折扣，同样面临着挤兑风险。
-而稳定币市场的崩盘，意味着整个加密行业 5 年以上的倒退，因为就目前来说，AMM、借贷、衍生品等 DeFi 应用，甚至是 NFT 和 NFTfi 都早已离不开稳定币的支持，CeFi 则更是如此。稳定币崩塌，散户没有了入金口径，行业内没有了流动性，整个加密生态都陷入休克状态。
-当然，现实情况并不一定会这么悲观，我们已经发现，像 LQTY 这样「老牌算稳」的治理 Token 价格正出现上涨。没错，曾经因 Luna 被「证伪」的算法稳定币又回来了，在这一刻，算稳成为了最去中心化甚至是「最安全」的稳定币。如果这个逻辑被市场认可，则 Liquity、Tribe 等古老的算稳项目将暂时成为加密用户的避难所。
-当然，这些都只是单纯的设想，我们仍然希望 USDC 能熬过此劫。接下来，Circle 会怎么做呢？]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -9359,18 +9407,6 @@ https://www.coindesk.com/policy/2022/12/07/early-bitcoin-pioneer-ian-freeman-goe
         <summary type="html"><![CDATA[<h3>DefiLlama 推出浏览器插件，通过标签形式标记地址链上行为</h3>
 <p>DefiLlama 推出 Chrome 浏览器插件 DefiLlama Extension，提供在 Etherscan 和其他区块链浏览器上的钱包地址解析功能。Llamas 通过分析钱包链上活动，以标签形式标记地址所属实体、mint、捐赠、空投等属性，例如：FTX、Gitcoin Donor、Blur Airdrop 等。此外，该插件还校准了代币价格，并通过图标形式提示用户进入的网页是否为项目官网。</p>
 <p><a href="https://twitter.com/0xstrobe/status/1633228325576474626">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国破产法官批准币安以 13 亿美元收购 Voyager]]></title>
-        <id>https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/</id>
-        <link href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/"/>
-        <updated>2023-03-08T03:37:16.000Z</updated>
-        <summary type="html"><![CDATA[<h3>美国破产法官批准币安以 13 亿美元收购 Voyager</h3>
-<p>据路透社报道，Voyager Digital 周二获得法院批准出售其资产并将其客户转移到 Binance.US，交易价值 13 亿美元。币安已同意向 Voyager 支付 2000 万美元现金，并接受 Voyager 客户存放的加密资产。据 Voyager 估计，此次出售将使客户能够收回 Voyager 申请破产时存款价值的 73%。Voyager 财务顾问表示，公司最多需要四个星期的时间来审查有关 Binance.US 对收购的承诺、Binance.US 的监管合规性以及 Binance.US 客户存款安全性等新问题。该交易还面临美国外国投资委员会（CFIUS）的额外审查，该委员会正在调查与外国投资 Voyager 相关的国家安全风险。</p>
-<p><a href="https://www.reuters.com/legal/us-bankruptcy-judge-approves-binanceus-13-bln-deal-voyager-2023-03-07/">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
