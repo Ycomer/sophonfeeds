@@ -88,6 +88,52 @@ ZK-rollup落于下风很大程度上是因为一开始就要定制VM，这意味
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/articledetails/xmrr3xey.html"
+                        open
+                      >
+                        <summary class="article-expander__title">浅析3种ZK扩容方案：ZK-rollup、Validium和Volitions</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/articledetails/xmrr3xey.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-img.panewslab.com/panews/2023/03/13/images/B5qnQ8826U.jfif" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>原文：《Volitions：在ZK-rollup和Validium之间做选择的零知识证明方案》
+作者：Chloe
+目前以太坊基于零知识证明的扩容方案是ZK-rollup，但其实还有另外两种解决方案——Validium和Volitions。
+本文简单介绍以上3种基于零知识证明的扩容方案。
+
+ZK rollup
+ZK-rollup的运作简单来说是将多笔交易打包在一起，发布到L1上，同时发布一个证明（用零知识证明技术）来声称这些交易有效，一旦在L1上验证确实有效，那么zk-rollup的状态就会更新。
+这套证明机制也被称作「有效性证明」，目前ZK-rollup主要采用的证明机制是zkSNARK和zkSTARK。
+尤其是zk-SNARK应用最为广泛，而zk-SNARK则是它的改进版，目前使用者并不多。
+zk-SNARK即zero-knowledge succinct non-interactive argument on knowledge（简洁非交互式零知识证明），是一种文件很小且很容易验证的加密证明，而简洁jiu就在于非交互式。
+传统方案是交互式证明，即示证者和验证者之间反复确认。你可以理解为示证者不断向验证者询问“是或不是？”，然后验证者不断给出回答，直到最后碰出一个正确答案来，所以效率很低。
+而SNARK的解决方案是提前先搞一个“可信初始化”，从而生成公共参考字符串（CRS），这样所有的示证者直接访问它就可以了。你可以理解为有一个标准答案，示证者就像批改试卷那样去验证。
+但SNARK提前生成公共参考字符串提高了效率，但也留下了隐患——万一公共参考字符串泄漏了呢？于是就催生出了STARK。
+STARK是交互式证明，但它是一种巧妙的交互式证明——通过哈希函数碰撞（一种概率证明的方式）来保证安全性，因此也比较高效（但还是没有SNARK高效）。
+ZK-rollup是将交易分批发送到L1上去执行，是一种无需信任的「自定义安全性」。
+Validiums则是直接在链下执行，并通过零知识证明来维护数据，只有需要的时候才在主网上验证取款请求的有效性证明。
+所以Validiums可扩展性要高于ZK-rollup（目前最高的TPS可以达到20000以上），但它是把信任交给链外第三方的「弱信任扩容」，会被攻击导致数据不可用或者用户无法取出资金。
+解决安全的方式是采用PoS机制，用经济激励来确保数据储存在各个节点之中并且随时可用。
+目前采用Validiums方案的代表项目是Immutable X，以NFT为中心的扩展解决方案。
+Vitalik认为Validiums其实被严重低估，因为大多数Dapp用Validiums就已经可以满足运行需求了。
+StarkWare团队结合ZK-rollup和validium，创造性地推出了Volitions方案，顾名思义是关于「决断能力」。
+Volitions方案本质上是同时提供ZK-rollup和validium这两种服务，它们共享同一个状态根（state root），用户可以自行选择每笔交易的DA模式。即便Validium那部分被攻破，ZK-rollup上的资金仍然安全。
+用户就可以在涉及重要资金往来时选择ZK-rollup模式，共享以太坊的安全性，如果是日常娱乐、社交或者小额交易，自然选择Validium模式来提高速度并节省成本。
+以太坊扩容战争还在刚开始，目前占据优势的是Optimistic rollups阵营，它们可以做到EVM兼容甚至完全等效，另外社区运营能力也非常强劲。
+ZK-rollup落于下风很大程度上是因为一开始就要定制VM，这意味着来自EVM的代码要从头开始编写（虽然难度已经越来越低了）。
+不过长远来看，相比于Optimistic rollups，ZK rollups具有内置的隐私和安全优势，未来实现EVM兼容性，很可能胜过Optimistic rollups。
+而且可以在ZK-rollup和validium之间做决断的Volitions方案，也不失为一种兼顾了各种场景的解决方案。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/98ljjjpk.html"
                         open
                       >
@@ -98,6 +144,49 @@ ZK-rollup落于下风很大程度上是因为一开始就要定制VM，这意味
                             <span class="media-object__text">
                               <span>PANews 3月13日消息，CryptoCompare近日发布的交易所月度报告显示，币安的现货市场份额从1月份的59.4%增加到2月份的61.8%。币安的现货交易量增长13.7%，达到5400亿美元，创下该交易所的历史最高市场份额。据悉，币安已连续第四个月扩大其在加密货币交易平台的现货市场份额。
 报告称，2月份，币安在衍生品交易所的市场份额也有所增长，升至62.9%，创下有史以来最高的月度市场份额记录。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/98ljjjpk.html"
+                        open
+                      >
+                        <summary class="article-expander__title">报告：币安2月现货交易量达5400亿美元，市场份额创新高</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/98ljjjpk.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月13日消息，CryptoCompare近日发布的交易所月度报告显示，币安的现货市场份额从1月份的59.4%增加到2月份的61.8%。币安的现货交易量增长13.7%，达到5400亿美元，创下该交易所的历史最高市场份额。据悉，币安已连续第四个月扩大其在加密货币交易平台的现货市场份额。
+报告称，2月份，币安在衍生品交易所的市场份额也有所增长，升至62.9%，创下有史以来最高的月度市场份额记录。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.panewslab.com/zh/sqarticledetails/c47rf951.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Aztec Connect将于明年3月21日正式关闭，用户有一年的免费取款期</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.panewslab.com/zh/sqarticledetails/c47rf951.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>PANews 3月13日消息，以太坊二层隐私解决方案Aztec Network在官方博客中宣布，DeFi隐私桥项目Aztec Connect将逐步关闭，用户将继续能够在一年内免费取款。Aztec Connect的排序器（Sequencer）将慢慢减少退出的rollup总块的频率，最终退出日期大约一年后：2024年3月21日。该项目团队称，虽然提款始终是可能的，但在2024年3月2 日之后，提款的费用将明显增加，因此建议用户尽快提款。
+具体安排如下：1.3月13日至3月21日，Aztec Connect正常运行；2.北京时间3月21日22:00起，存款将被禁用；3.一年时间的提现窗口：2023年3月13日- 2024年3月21日；4.2024年3月21日：从Aztec排序器发送的最后一个Aztec rollup；5.2024 年3月21日起：用户将不得不运行提现软件或依赖社区运行的测序仪。
+Aztec Network表示，其中长期重点将集中在两大产品的开发上，即零知识证明语言Noir和下一代加密区块链，这两个产品将相互兼容、相互关联。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
@@ -13167,7 +13256,7 @@ DinoEggs.eth：轻节点可以根据验证信息进行分类：1）共识验证�
 内容来源
 DinoEggs.eth：3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】
 内容来源</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -35871,8 +35960,8 @@ Read the full entry</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4401265475">
-        <time id="build-timestamp" datetime="2023-03-13T04:02:46.777Z">2023-03-13T04:02:46.777Z</time>
+      <a class="footer-link" href="https://github.com/Ycomer/sophonfeeds/actions/runs/4401314537">
+        <time id="build-timestamp" datetime="2023-03-13T04:10:40.380Z">2023-03-13T04:10:40.380Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.4</a>
     </footer>
