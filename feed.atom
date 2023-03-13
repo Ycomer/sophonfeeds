@@ -2,11 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T11:23:13.211Z</updated>
+    <updated>2023-03-13T11:28:20.036Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[USDC脱锚危机中的大户操作：2天赚414万美元]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/5a2nghbm.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/5a2nghbm.html"/>
+        <updated>2023-03-13T11:10:19.000Z</updated>
+        <summary type="html"><![CDATA[作者：链上分析师@Lookonchain
+编译：Felix
+从未见过如此聪明的地址！
+在USDC脱钩期间通过交易ETH赚了414万美元！
+在UST/LUNA崩溃之前抛售ETH！
+提前买入SHIB并在2021年5月和10月的价格峰值时卖出所有SHIB。目前持有超过7172万美元（成本可能仅为40万美元）。
+
+我们发现15个地址（可能属于同一个人）在3月10日以1418美元的ETH价格，用6758万美元的USDC购买了47670枚ETH。然后在10小时前以1505美元的价格卖出47668枚ETH，获得了7172万美元的USDT。2天内赚了414万美元，投资回报率为6%。
+
+根据链上数据，我们发现这15个地址可能属于同一个人，因为他们在2021年4月21日从同一个地址“0x7617”收到了大量的SHIB。
+
+地址“0x7617”很早就开始交易SHIB，在2021年5月SHIB价格大幅上涨之前购买了约5万5千亿枚SHIB ，成本仅约为40万美元。 然后地址“0x7617”在2021年5月和2021年10月通过34个地址以超过3.5万美元的ETH价格出售了所有SHIB。
+
+然后在2022年5月6日，这些地址以ETH的价格出售USDC。
+
+现在，大部分资金已经转换成USDT，集中在15个地址，约7172万美元的USDT。值得注意的是，他的成本可能只有40万美元（不包括交易其他代币的成本）。具体地址如下：https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce?a=0x7617e602ea3f99e0c8e9b864978dea7631174b3b]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[加密友好银行相继破产，加密市场流动危机到来？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/5p542572.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/5p542572.html"/>
@@ -2678,16 +2703,6 @@ DeSci是一项艰巨的任务，大多数项目仍处于早期阶段。然而，
         <link href="https://www.panewslab.com/zh/sqarticledetails/454owob7.html"/>
         <updated>2023-03-12T23:43:11.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月13日消息，Ripple CEO Brad Garlinghouse推特发文称，Ripple对硅谷银行有一些敞口。硅谷银行是Ripple的银行合作伙伴，并持有Ripple的部分现金。但预计Ripple的日常业务不会受到干扰，大部分美元存放在其它银行。此外，Ripple的财务状况仍然稳健。近期发生的众多事件突显了金融系统仍然脆弱。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Signature Bank倒闭，已被美国FDIC接管，所有储户都将获得补偿]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/xh1tkh0a.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/xh1tkh0a.html"/>
-        <updated>2023-03-12T23:36:05.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月13日消息，据CoinDesk报道，美联储宣布，总部位于纽约的Signature Bank周日被州监管机构关闭。纽约州金融服务局负责人Adrianne Harris在一份声明中表示，美国联邦存款保险公司(FDIC)已接管该银行。这是一周内第三家银行倒闭，此前Silvergate Bank和硅谷银行分别于周三和周五倒闭。Harris表示，采取这一行动是“为了保护储户”。美联储、FDIC和美国财政部发布联合声明称，所有使用Signature的储户都将获得补偿。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
