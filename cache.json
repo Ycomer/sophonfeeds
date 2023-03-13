@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
+          "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
+          "publishedOn": "2023-03-13T12:20:28.000Z",
+          "wordCount": 1078,
+          "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
+          "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
+        },
+        {
           "id": "https://flash.jin10.com/detail/20230313180420010100",
           "author": null,
           "description": "<h3>FDIC：将硅谷银行所有存款转移至具有过渡性质的银行</h3>\n<p>美国联邦存款保险公司宣布，将硅谷银行（SVB）所有存款转移至具有过渡性质的银行（Bridge Bank）。该银行将在正常时间营业，并提供网上银行、ATM 服务。硅谷银行客户的支票将被清算，贷款也将被支付。</p>\n<p><a href=\"https://flash.jin10.com/detail/20230313180420010100\">内容来源</a></p><hr>",
@@ -34,7 +44,7 @@
         {
           "id": "https://twitter.com/BlockSecTeam/status/1635204706703384577",
           "author": null,
-          "description": "<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>\n<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>\n<p><a href=\"https://twitter.com/BlockSecTeam/status/1635204706703384577\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href=\"https://twitter.com/zachxbt/status/1635209310916743170\">内容来源</a><p><strong>BlockSec：</strong>更新了另外两个攻击交易，总损失约为 1.97 亿美元。【原文为英文】</p><a href=\"https://twitter.com/BlockSecTeam/status/1635217371672756224\">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href=\"https://twitter.com/PeckShieldAlert/status/1635229250193334275\">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635218198042918918\">内容来源</a>",
+          "description": "<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>\n<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>\n<p><a href=\"https://twitter.com/BlockSecTeam/status/1635204706703384577\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href=\"https://twitter.com/zachxbt/status/1635209310916743170\">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href=\"https://twitter.com/PeckShieldAlert/status/1635229250193334275\">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635218198042918918\">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href=\"https://twitter.com/ScopeProtocol/status/1635235421327347712\">内容来源</a>",
           "link": "https://twitter.com/BlockSecTeam/status/1635204706703384577",
           "publishedOn": "2023-03-13T09:55:13.000Z",
           "wordCount": 513,
@@ -77,7 +87,7 @@
           "description": "<h3>Aztec 宣布关闭 Aztec Connect，建议用户尽快提款</h3>\n<p>基于 ZK Rollup 的隐私和扩容解决方案 Aztec Network 宣布关闭隐私基础设施 Aztec Connect。自北京时间 2023 年 3 月 21 日 22 时起，将停止从 zk.money 和其他前端（如 zkpay.finance）存入 Aztec Connect 合约，\t2024 年 3 月 21 日为官方运行的最后提款日，Aztec 将发布最后一个 Aztec rollup。Aztec 表示，整个 Aztec Connect 协议已开源，官方鼓励 Aztec 社区分叉协议并将提供资金支持。未来，Aztec 的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。</p>\n<p><a href=\"https://medium.com/aztec-protocol/sunsetting-aztec-connect-a786edce5cae\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Aztec Network 的相关负责人在社群回应称：「关停 Aztec Connect 的决定主要出于商业考虑，没有任何监管机构与团队联系。Aztec Connect 的隐私性导致了设计中的一些问题，增加了维护成本。公司正专注于下一代版本的协议，将支持完全可编程的智能合约，默认情况下具有隐私性。考虑到新项目的规模，需要我们专注所有工程资源来完成它…… 我们仍然专注于 L2 Rollup 且从未建立 L1，战略从未变化只是正在进入下一个阶段。」</p>",
           "link": "https://medium.com/aztec-protocol/sunsetting-aztec-connect-a786edce5cae",
           "publishedOn": "2023-03-13T06:46:45.000Z",
-          "wordCount": 2957,
+          "wordCount": 2960,
           "title": "Aztec 宣布关闭 Aztec Connect，建议用户尽快提款",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*tJ35TUJdi_Myry-NgblnRg.png"
         },
@@ -147,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Perpy 是允许交易者复制交易的永续 DEX ，加密研究员 ASH 撰推对 Perpy 进行技术概述，并分析其创新之处及竞争优势，解读其代币经济模型，认为 Perpy 可能成为 Arbitrum 上对游戏规则改变者。其将于 3 月 16 日公开发售。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">https://twitter.com/fameaim53/status/1634603436460347393</a></p>\n<p><strong>文章作者：</strong></p><p>ASH</p><hr><h3>观点：</h3><p><strong>ASH：</strong>Perpy 的复制交易解决方案通过智能合约直接链接到 GMX，允许用户复制最成功的 GMX 交易者，并允许用户通过其追随者的绩效费将交易技巧货币化。Perypy 的用户在存款后会收到 ERC-20 合约形式的等量股份，作为存款记录，金库还控制费用的分配并通过股票监控交易者的表现。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>创新之处：1）无资金锁定，用户可以随时进入和退出金库。2）金库具有弹性，旨在复制其创建者的交易。3）智能交易引擎。协议费用：交易者在其交易金库中收取 10% 至 50% 的绩效费用，Perpy 则保留 DAO 利润的 20%。交易退出费用：1）金库没有正在进行的交易，费用为 0.3%；2）交易正在进行时，减小交易规模，费用为 1.5%；关闭交易，费用则为 5%。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>其原生代币 $PRY 硬顶为 10 亿个，并具有随时间推移的通缩机制。$PRY 具有不同用例：1）真实收益；2）交易费用回扣；3）治理；4）Lens 集成；5）金库广告；6）优先访问 2.0 金库。Perpy 优势在于：1）非托管、智能且以所有者为中心；2）完全上链和去中心化；3）为 Perpy 提供燃料的协议是无许可的；4）基于金库的方法提供了多种类型策略。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a>",
           "link": "https://twitter.com/fameaim53/status/1634603436460347393",
           "publishedOn": "2023-03-13T03:48:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Arbitrum 的下一颗「宝石」？一文详解可复制交易的永续 DEX：Perpy",
           "imageUrl": null
         },
@@ -157,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1727,
+          "wordCount": 1716,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -177,7 +187,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17707,
+          "wordCount": 17697,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -257,7 +267,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受硅谷银行破产影响，USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中，有人选择恐慌抛售，也有人探底买入。Lookonchain 分析链上数据，整理总结多家机构投资者分别如何应对这场 USDC 脱锚危机。中文版由 Odaily 星球日报译者 Moni 编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185667\">https://www.odaily.news/post/5185667</a></p>\n<p><strong>文章作者：</strong></p><p>Lookonchain</p><hr><h3>观点：</h3><p><strong>Lookonchain：</strong>概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市前通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 Vitalik、Poap.xyz 创始人 worthalter 和 Taureon Capital 则在底部买入了 USDC。</p><a href=\"https://www.odaily.news/post/5185667\">内容来源</a><p><strong>Lookonchain：</strong>另一方面，孙宇晨、IOSG Ventures、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。</p><a href=\"https://www.odaily.news/post/5185667\">内容来源</a>",
           "link": "https://www.odaily.news/post/5185667",
           "publishedOn": "2023-03-12T05:09:38.000Z",
-          "wordCount": 2092,
+          "wordCount": 2093,
           "title": "如何利用「USDC 危机」套利？这 17 位「超级大户」的手法如下",
           "imageUrl": null
         },
@@ -337,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 734,
+          "wordCount": 739,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -487,7 +497,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20807,
+          "wordCount": 20940,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -657,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA\">https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA</a></p>\n<p><strong>文章作者：</strong></p><p>0xmin</p><hr><h3>观点：</h3><p><strong>0xmin：</strong>银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。</p><a href=\"https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA\">内容来源</a><p><strong>0xmin：</strong>2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。</p><a href=\"https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA\">内容来源</a><p><strong>0xmin：</strong>SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。</p><a href=\"https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA\">内容来源</a>",
           "link": "https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA",
           "publishedOn": "2023-03-10T05:14:45.000Z",
-          "wordCount": 9870,
+          "wordCount": 9875,
           "title": "解密 Silvergate 与硅谷银行危机：一场美元加息周期下的豪赌",
           "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/G8xNibSHEjAITBJbCISiaZl7QibibvwqK36SSnEscZOBDcqzzlcgZCxd89XbYYVVU20lSV5pN7mnd1cXqnwUmE6h4A/0?wx_fmt=jpeg"
         },
@@ -787,7 +797,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 1012,
+          "wordCount": 1004,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -3364,7 +3374,7 @@
           "description": "一、等待下一次发牌\n USDC在今天做出了详细的信息披露，核心内容包括：\n     1）Circle在SVB的资金已经在转账序列中，按照FDIC规则，转账应该会在下周一完成。\n     2）仍不排除这笔资金不能到账的可能,但即使如此，也只是需要时间收回或者部分收回资金，并非全部损失。\n     3）即使上述情况发生，Circle也有能力填补损失保证1:1兑换。\n     4）剩下的现金存款中54亿在BNY Melon，10亿在Customers Bank\n 这些新的信息没有一个是坏消息，BNY Melon在之前的分析中属于低风险银行，Customers Bank属于中风险银行，而在SVB的33亿大概率也不会受到损失，即使极端情况发生，Circle也有能力填补缺口。如果以上信息属实，USDC不会有任何“资不抵债”的风险。\n市场永远是对的，在这个时间节点上，0.96是一个让人非常舒服的价格，因为现在正好是一个时间节点，Circle-SVB驱动的投资机会的第一阶段已经结束，这一阶段的下注逻辑是【USDC究竟有没有偿付能力？】\n\n大家都说德扑和炒币很像，德扑里面【位置】非常重要，在这次事件中也如此。按照之前的分析，USDC的合理价格在0.895-1.000之间，如果你在1.00（或是0.99）的位置兑换了USDC，那么你将拿到一个非常好的位置，但如果你在0.98的时候就已经抄底了USDC，你会有一个非常差的位置，这对你的后续操作会产生很大影响。\n 而现在当前USDC价格已经从昨天最低0.88回升到了0.96左右。在这个事件节点的这个价格给了所有人一个退出的机会，无论是多头还是空头，无论是浮盈还是浮亏，现在都是一个可以接受的退出节点。退出，然后等待下一个好的位置，然后下注（或者不下）。\n 可以看出，市场的信心明显增强，对USDC的定价也进入了合理区间。但0.04U的差额意味着市场仍然存在担忧，这部分担忧主要是对USDC挤兑的担忧。那么第二轮牌局的核心问题就是**【会发生挤兑吗？如果挤兑会发生什么？】**\n USDC的价格走势也许存在变数，但下周会发生什么几乎是确定的：\n **第一件必然事件是Circle会开放赎回通道。**两个原因，第一个是Circle的一切信息都指向这一点，Circle有能力保障1：1的全额兑付。第二个是Circle的流动资金足以支持它们这样做。即使只考虑BNY Melon和Customers Bank的资金，Circle也有64亿现金和100%的偿付能力，在不存在资金缺口的前提下，开放兑付是最快让币价回归稳定，消除FUD的方式。\n **第二个必然事件是会出现大量赎回（你也可以把它称作【挤兑】）。**挤兑的需求包括两方面：（1）套利需求。只要USDC没有回归1U，套利机会就会存在。（2）避险需求。出于担心USDC及美国银行的系统性风险将USDC换为法币。\n 那么在Circle开放赎回的前提下，拥有套利能力的机构或者用户会不断地把自持的USDC和在二级市场购买的USDC源源不断地进行赎回。这些套利行为会推高USDC的价格，减小价差。\n 如果事情进展得比较顺利，Circle会失去一些的USDC发行规模，换回USDC的价格稳定和市场信心，USDC回升到0.99或者1.00（可能会是0.99是因为市场信心的扭转不是一蹴而就的）。\n 当然也有不顺利的情况（虽然概率很小），比如第一天就出现了过高的赎回额导致赎回缓慢或暂停、金融市场波动引发进一步的恐慌。在这种情况下，USDC价格会在上升后再有一波下滑，但我仍然认为它最终会回到0.99/1.00，原因很简单，因为Circle有1：1的兑付能力，赎回可能会减慢，但不会被中止。\n 这里顺带一提，CZ这几天反复抨击银行的不可靠性，但BUSD只有有6亿资金保存在银行中，合作伙伴中也包含Silvergate（不代表有资金存在Silvergate）。而Circle是111亿，事实上虽然出问题的是Circle，但这只是幸存者偏差，Circle的方案并无问题。从这个角度看，USDC暴雷，而其它更加中心化或者不透明的稳定币存活是非常讽刺的。\n\n第三个必然事件是USDC不会被全部赎回。两个原因，第一是随着Circle赎回通道的开放和USDC的回锚，市场信心会逐步增强。第二点是USDC还有许多被动持有需求，例如Maker的PSM模块、跨链桥锁定资产、待清算资产（如FTX、Voyager）、dydx的合约锁定资产，这些USDC即时要退出也需要一定的时间，并不会在开放的那一刻马上退出，这些资金的总额已经远远超过了33亿。这场赎回持续多久、赎回量多大目前无法判断，个人看法是发行总量的10%-30%，即40-120亿。\n所以我更倾向于把周一将发生的事情称作【大规模赎回】而非【挤兑】，【挤兑】的前提是没有充足的准备金，或是提现量高于准备金，这个前提条件对Circle来说并不适用。\n 尽管USDC大概率会很快回到1.00/0.99，Circle暴雷的风险也几乎为0，但对于接下来的市场来说，影响才刚刚开始。\n 第一个影响是对市场流动性产生打击。就算USDC很快回锚，这个过程会带来大量USDC流失，同时恐慌情绪和避险需求不会消失，在未来的几个月里，包括USDC在内的各类稳定币仍有可能持续流失。而当前市场已经是一个极度缺乏流动性的状态，稳定币的流出会让就本不富裕的市场雪上加霜。\n 第二个是对市场的连环打击。对于用户来说，USDC事件会让它们对加密生态的不信任加剧，圈外资金观望情绪加剧。对于项目方和VC来说，它们需要面临更复杂的资金保管问题和更高的成本，恐慌也会让它们寻求更高流动性的投资组合（例如减少Alts，增加BTC和法币），同时悲观情绪会让所有人在投资上（无论一级还是二级）变得更加谨慎。此外，还有许多项目和USDC本身就具有强关联（如Maker/Frax），它们会受到更加直接的冲击。\n 第三个是监管和合规市场层面。【假】好学生FTX出问题也就算了，【真】好学生Circle现在也陷入了麻烦，接下来如何去向监管以及用户讲合规的伟大愿景？\n Circle事件的结束会是新一轮流动性枯竭的开始，加密市场也要开始新一轮发牌，接下来大家需要做的，就是拿到一手好牌，或者拿到一个好位置。\n 欢迎来到熊市下半场。",
           "link": "https://www.panewslab.com/zh/articledetails/q60hmlf3.html",
           "publishedOn": "2023-03-13T09:40:56.000Z",
-          "wordCount": 1201,
+          "wordCount": 1199,
           "title": "USDC“脱锚FUD”结束，熊市下半场开始",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/nEvC423Z95.png"
         },
@@ -3394,7 +3404,7 @@
           "description": "作者：Ben\n编译：Biteye 核心贡献者 Crush\n我在 2021 年底和 2022 年初花了大部分时间来研究 Web3 游戏风投。以下是一些关于 Web3 游戏的思考，以及我的观点是如何随着时间的推移而改变的。\n与Web2游戏类似，Web3游戏的风险投资回报也有肥尾效应——投资者要么获得超额利润，要么遭受大量损失。\n这也是为什么投资于单一IP是高风险的。你只有一次机会来使它成功。\n（译者注：Fat-tail returns，又称肥尾回报，通常用于描述资产价格波动性的极端事件，即那些具有低概率但高影响力的事件。例如，股票市场中的突然暴跌或者暴涨、汇率市场中的外汇大幅贬值或升值等。）\n虽然近期对 Web3 游戏的投资大幅放缓，但我们仍然发现许多美国工作室从专门的游戏基金中筹集了 2000 万至 3000 万美元的种子轮资金。这些团队都曾获得过一线链游工作室的青睐，如 Activision Blizzard，Riot Games 等等，投资者更倾向于选择有开发经验的团队。\n\n这么做是正确的，因为 Web3 游戏具有以下特点：\n\n顶级游戏通常有 12 个月的生命周期。考虑到代币通常有 3-4 年解锁期，等到投资者的代币开始解锁时，价格可能会出现大幅下滑，低于他们的心理预期。\n游戏通过可玩性来吸引用户，这可能会导致向 AAA 游戏转变。对于没有任何过往记录的早期创业者来说，融资也变得更加困难。\n从本质上讲，Web3 游戏是一种娱乐产品，成熟的市场历来对这些产品具有巨大的影响力，因为其具有软实力和先发优势。\n投资者将专注于投资多元化的工作室而非单款游戏，以此来降低风险并增加游戏成功的几率。\n投资多元化的工作室可能需要投资者适应股权投资，但是根据投资结构，投资者也会获得相应的代币，以参与工作室未来发布的游戏，并获得相应的收益。\n（译者注：这里的多元化工作室指的是一个游戏开发工作室开发和发行多个游戏，而不是仅仅依赖于单个游戏知识产权，这样可以降低因为单个游戏的不成功而导致的经济风险。）\n游戏基础设施将构成该行业投资策略的重要组成部分 - 投资者可以在不承担任何多个或单个游戏风险的情况下接触到整个行业。\n游戏基础设施可能采取游戏区块链、SDK 和游戏分发平台等形式。\n我认为这些游戏基础设施平台的成功将取决于由谁构建它们，比如具有大量游戏知识产权库的游戏工作室进入了这些平台后，自然而然地就能够推动平台的使用。\n除了 Web3 常见的 P2E（Play-to-earn，边玩边赚），我们将看到更多传统的用户获取策略，例如带有用户层面指标（用户终身价值、用户获取成本、用户平均收益、用户流失）的付费广告将越来越多地用于 Web3 游戏。\n基础设施项目将在下一个周期中建立，通过结合玩家链上和链下数据，帮助 Web3 游戏更好地了解自己的玩家，帮助游戏了解其广告活动的有效性和 RoAS（广告支出回报率）。\n本文提到了 Web3 游戏具有高风险的特点，但也存在着无法达到投资者预期的风险。未来的几个趋势包括注重游戏的可玩性、顶级IP拥有成熟的市场、多元化的投资偏好、游戏基础设施得到重视以及付费广告应用于Web3 游戏中。\n未来的 Web3 游戏还是需要经验丰富的开发团队和高要求的运行质量！",
           "link": "https://www.panewslab.com/zh/articledetails/85f9eqx5.html",
           "publishedOn": "2023-03-13T09:28:22.000Z",
-          "wordCount": 1322,
+          "wordCount": 1320,
           "title": "对Web3游戏现状的思考及趋势预测",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/4sq51D1wDs.jfif"
         },
@@ -3624,7 +3634,7 @@
           "description": "PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/1kimxkas.html",
           "publishedOn": "2023-03-13T03:33:35.000Z",
-          "wordCount": 1160,
+          "wordCount": 1158,
           "title": "PA图说 | 一图掌握Polygon上NFT一周关键数据（03.06—03.12）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/EhMQ0H7Zfu.jpeg"
         },
@@ -3654,7 +3664,7 @@
           "description": "PANews 3月13日消息，加密交易所Bitstamp推特发文称，尽管Signature Bank不幸破产，但我们的正常运营不受影响。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/zb645zrf.html",
           "publishedOn": "2023-03-13T03:11:29.000Z",
-          "wordCount": 1128,
+          "wordCount": 1126,
           "title": "Bitstamp：正常运营不受Signature Bank破产影响",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3674,7 +3684,7 @@
           "description": "PANews 3月13日消息，加密货币交易所Kraken推特发文称，Kraken的美元资金不受影响。然而最近发生的事件应该敲响警钟，提醒应该加强多元化和自托管。Kraken对稳定币汇率没有重大风险敞口，因为我们不认为稳定币可以与法币互换。来自Operation Chokepoint 2.0威胁依然存在。（“Operation Chokepoint 2.0”指代在过去几个月内，美国的所有金融监管机构都在攻击加密业务）",
           "link": "https://www.panewslab.com/zh/sqarticledetails/13rxjywx.html",
           "publishedOn": "2023-03-13T03:05:40.000Z",
-          "wordCount": 1127,
+          "wordCount": 1125,
           "title": "Kraken：对稳定币汇率没有重大风险敞口，美元资金不受影响",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3764,7 +3774,7 @@
           "description": "PANews 3月13日消息，USDC稳定币发行商Circle的首席执行官Jeremy Allaire发推文称：“我们很高兴地看到，美国政府和金融监管机构采取了关键措施，以减轻部分银行系统带来的风险。硅谷银行100%的存款是安全的，明天将在银行开放。100%的USDC储备金也是安全可靠的，我们将完成剩余硅谷银行现金到纽约梅隆银行的转移。如前所述，USDC的流动性操作将在明天上午银行开门时恢复。随着Signature今晚宣布关闭，我们将无法通过SigNet处理铸造和赎回，我们将依赖纽约梅隆银行的结算。此外，我们将引入一个新的交易银行合作伙伴，最早可能在明天实现自动铸造和赎回。”",
           "link": "https://www.panewslab.com/zh/sqarticledetails/37hu4xd3.html",
           "publishedOn": "2023-03-13T00:07:19.000Z",
-          "wordCount": 1127,
+          "wordCount": 1125,
           "title": "Circle CEO：将把剩余硅谷银行现金转至纽约梅隆银行，并引入新的银行合作伙伴",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3774,7 +3784,7 @@
           "description": "PANews 3月13日消息，Coinbase发推文称：“尽管我们最近在传统银行业看到了动荡，但Coinbase继续照常运营。在Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的USDC转换。客户在银行的所有现金继续受到联邦存款保险公司转移保险的保护。由于FDIC暂停Signature的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。截至3月10日星期五营业结束，Coinbase在Signature的公司现金余额约为2.4亿美元。正如FDIC所说，我们希望完全收回这些资金。在周末银行关门期间，我们暂时暂停USDC：USD的转换。在交易活跃时期，兑换依赖于在正常银行时间内清算的银行美元转账。当银行周一开门时，我们计划重新开始转换。用户资产仍然安全，可用于链上发送。”",
           "link": "https://www.panewslab.com/zh/sqarticledetails/2483f95u.html",
           "publishedOn": "2023-03-13T00:05:44.000Z",
-          "wordCount": 1115,
+          "wordCount": 1113,
           "title": "Coinbase：在Signature的现金余额约2.4亿美元，周一将恢复USDC到美元的转换",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
