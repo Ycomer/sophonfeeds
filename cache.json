@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1293,
+          "wordCount": 1078,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -87,7 +87,7 @@
           "description": "<h3>Aztec 宣布关闭 Aztec Connect，建议用户尽快提款</h3>\n<p>基于 ZK Rollup 的隐私和扩容解决方案 Aztec Network 宣布关闭隐私基础设施 Aztec Connect。自北京时间 2023 年 3 月 21 日 22 时起，将停止从 zk.money 和其他前端（如 zkpay.finance）存入 Aztec Connect 合约，\t2024 年 3 月 21 日为官方运行的最后提款日，Aztec 将发布最后一个 Aztec rollup。Aztec 表示，整个 Aztec Connect 协议已开源，官方鼓励 Aztec 社区分叉协议并将提供资金支持。未来，Aztec 的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。</p>\n<p><a href=\"https://medium.com/aztec-protocol/sunsetting-aztec-connect-a786edce5cae\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Aztec Network 的相关负责人在社群回应称：「关停 Aztec Connect 的决定主要出于商业考虑，没有任何监管机构与团队联系。Aztec Connect 的隐私性导致了设计中的一些问题，增加了维护成本。公司正专注于下一代版本的协议，将支持完全可编程的智能合约，默认情况下具有隐私性。考虑到新项目的规模，需要我们专注所有工程资源来完成它…… 我们仍然专注于 L2 Rollup 且从未建立 L1，战略从未变化只是正在进入下一个阶段。」</p>",
           "link": "https://medium.com/aztec-protocol/sunsetting-aztec-connect-a786edce5cae",
           "publishedOn": "2023-03-13T06:46:45.000Z",
-          "wordCount": 3152,
+          "wordCount": 3172,
           "title": "Aztec 宣布关闭 Aztec Connect，建议用户尽快提款",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*tJ35TUJdi_Myry-NgblnRg.png"
         },
@@ -157,7 +157,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Perpy 是允许交易者复制交易的永续 DEX ，加密研究员 ASH 撰推对 Perpy 进行技术概述，并分析其创新之处及竞争优势，解读其代币经济模型，认为 Perpy 可能成为 Arbitrum 上对游戏规则改变者。其将于 3 月 16 日公开发售。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">https://twitter.com/fameaim53/status/1634603436460347393</a></p>\n<p><strong>文章作者：</strong></p><p>ASH</p><hr><h3>观点：</h3><p><strong>ASH：</strong>Perpy 的复制交易解决方案通过智能合约直接链接到 GMX，允许用户复制最成功的 GMX 交易者，并允许用户通过其追随者的绩效费将交易技巧货币化。Perypy 的用户在存款后会收到 ERC-20 合约形式的等量股份，作为存款记录，金库还控制费用的分配并通过股票监控交易者的表现。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>创新之处：1）无资金锁定，用户可以随时进入和退出金库。2）金库具有弹性，旨在复制其创建者的交易。3）智能交易引擎。协议费用：交易者在其交易金库中收取 10% 至 50% 的绩效费用，Perpy 则保留 DAO 利润的 20%。交易退出费用：1）金库没有正在进行的交易，费用为 0.3%；2）交易正在进行时，减小交易规模，费用为 1.5%；关闭交易，费用则为 5%。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>其原生代币 $PRY 硬顶为 10 亿个，并具有随时间推移的通缩机制。$PRY 具有不同用例：1）真实收益；2）交易费用回扣；3）治理；4）Lens 集成；5）金库广告；6）优先访问 2.0 金库。Perpy 优势在于：1）非托管、智能且以所有者为中心；2）完全上链和去中心化；3）为 Perpy 提供燃料的协议是无许可的；4）基于金库的方法提供了多种类型策略。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a>",
           "link": "https://twitter.com/fameaim53/status/1634603436460347393",
           "publishedOn": "2023-03-13T03:48:58.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Arbitrum 的下一颗「宝石」？一文详解可复制交易的永续 DEX：Perpy",
           "imageUrl": null
         },
@@ -167,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1727,
+          "wordCount": 1729,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -187,7 +187,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17697,
+          "wordCount": 17691,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -347,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 739,
+          "wordCount": 737,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -367,7 +367,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26519,
+          "wordCount": 26514,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -437,7 +437,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>\n<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a>",
           "link": "https://www.panewslab.com/zh/articledetails/ma1ef9hs.html",
           "publishedOn": "2023-03-11T04:02:26.000Z",
-          "wordCount": 1249,
+          "wordCount": 1253,
           "title": "速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/10/images/669X1zH8m5.png"
         },
@@ -477,7 +477,7 @@
           "description": "<h3>DeFi 在欧盟最新反洗钱法案草案中被归类为「高风险」</h3>\n<p>据 The Block 报道，欧盟最新反洗钱草案中，包括 DeFi 在内的将资金转入和转出去 DApp 的行为可能会被归类为高风险。下周欧洲议会开会后，草案可能会有更多变化。</p>\n<p><a href=\"https://www.theblock.co/post/218590/defi-dubbed-high-risk-eu-anti-money-laundering-bill\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/218590/defi-dubbed-high-risk-eu-anti-money-laundering-bill",
           "publishedOn": "2023-03-11T02:19:39.000Z",
-          "wordCount": 66353,
+          "wordCount": 66415,
           "title": "DeFi 在欧盟最新反洗钱法案草案中被归类为「高风险」",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/09/20220928_EU_Generic4-1200x675.jpg"
         },
@@ -497,7 +497,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20933,
+          "wordCount": 20580,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -517,7 +517,7 @@
           "description": "<h3>去中心化稳定币协议 Gyroscope 完成 450 万美元种子轮融资，Placeholder VC 和 Galaxy Ventures 领投</h3>\n<p>去中心化稳定币协议 Gyroscope 宣布完成 450 万美元种子轮融资，由 Placeholder VC 和 Galaxy Ventures 领投，Maven 11、Archetype、Robot Ventures、Balancer Labs 联合创始人 Fernando Martinelli 等参投。Gyroscope 计划推出基于「全方位储备」机制的去中心化稳定币 GYD。该机制的设计核心是，即使储备中的一项资产出现问题，只会影响储备的有限部分，而不是全部。</p>\n<p><a href=\"https://www.theblock.co/post/218376/decentralized-stablecoin-protocol-gyroscope-raises-seed-funding\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/218376/decentralized-stablecoin-protocol-gyroscope-raises-seed-funding",
           "publishedOn": "2023-03-10T12:38:12.000Z",
-          "wordCount": 63367,
+          "wordCount": 63426,
           "title": "去中心化稳定币协议 Gyroscope 完成 450 万美元种子轮融资，Placeholder VC 和 Galaxy Ventures 领投",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/03/Gyroscope-Logo-1920x1080p-1200x675.png"
         },
@@ -707,7 +707,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">https://twitter.com/0x_irisl/status/1633842976169558024</a></p>\n<p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a>",
           "link": "https://twitter.com/0x_irisl/status/1633842976169558024",
           "publishedOn": "2023-03-10T03:52:45.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考",
           "imageUrl": null
         },
@@ -787,7 +787,7 @@
           "description": "<h3>ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投</h3>\n<p>提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。所筹资金将用于扩大开发团队。\n据 The Block 介绍，Proven 希望能够提供一种验证储量证明的替代方式，其所谓的「偿付能力证明」生成能够让公司在不需要公开披露其资产负债表的情况下显示资产和负债。 截止目前，Proven 已经将 Coinlist 和 Bitso 等列为用户。</p>\n<p><a href=\"https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Richard Dewey（Proven 联合创始人 ）：</strong>如何在保持隐私的情况下促进与客户的信任关系一直以来都困扰着传统金融和数字资产公司。Proven 的目的是让客户和监管机构重新信任交易所和其他公司，同时保护客户隐私。【原文为英文】</p><a href=\"https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding\">内容来源</a>",
           "link": "https://www.theblock.co/post/218373/zero-knowledge-proof-developer-funding",
           "publishedOn": "2023-03-10T01:06:36.000Z",
-          "wordCount": 63370,
+          "wordCount": 63429,
           "title": "ZK 偿付能力证明公司 Proven 完成 1580 万美元种子轮融资，Framework Ventures 领投",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/08/20220822_Funding_Generic2-1200x675.jpg"
         },
@@ -817,7 +817,7 @@
           "description": "<h3>OpenSea、ConsenSys 等加密初创公司股票正大幅折价出售</h3>\n<p>二级交易市场 Birel 首席执行官 Richard Freemanson 证实，许多加密初创公司的股票目前在 Birel.io 上以相当大的折扣出售。这些初创公司包括 Alchemy、Blockchain.com、Chainalysis、Kraken、ConsenSys、Blockdaemon、CoinDCX 和 OpenSea。\n\n上述公司发售的大宗股票规模从 300 万美元到 5000 万美元不等，且折扣差别很大。最引人注目的是 Blockchain.com 和 ConsenSys，他们的股票分别以较最新一轮融资折让 74% 和 71% 的价格发售。Chainalysis 股票以 61% 的折扣出售，OpenSea 股票以 51% 的折扣出售。Alchemy、Blockdaemon 和 Kraken 的股票分别折价 31%、30% 和 9%。\n对此，Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。</p>\n<p><a href=\"https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Richard Freemanson（Birel 首席执行官）：</strong>我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】</p><a href=\"https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts\">内容来源</a>",
           "link": "https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts",
           "publishedOn": "2023-03-09T10:25:15.000Z",
-          "wordCount": 63845,
+          "wordCount": 63904,
           "title": "OpenSea、ConsenSys 等加密初创公司股票正大幅折价出售",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/09/20220919_Token-Equity-Fundraising-1200x675.jpg"
         },
@@ -977,7 +977,7 @@
           "description": "<h3>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品</h3>\n<p>美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。</p>\n<p><a href=\"https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress",
           "publishedOn": "2023-03-09T01:56:04.000Z",
-          "wordCount": 64732,
+          "wordCount": 64791,
           "title": "CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/10/Behnam-10.14-1013x675.jpg"
         },
@@ -3289,6 +3289,26 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/d98bkoo2.html",
+          "author": null,
+          "description": "PANews 3月13日消息，据金十报道，美国总统拜登表示，政府的迅速行动应该让美国人相信美国银行系统是安全的。美国联邦存款保险公司已经控制了Signature Bank和硅谷银行的资产。美国纳税人不会承担任何损失，资金将来自保险基金费用。将要求国会和监管机构加强银行规则。需要对银行发生的事情进行全面的会计核算。拜登还称：“我们不会就此止步，我们将采取一切必要措施。我们必须防止这种情况再次发生。”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/d98bkoo2.html",
+          "publishedOn": "2023-03-13T13:05:57.000Z",
+          "wordCount": 1113,
+          "title": "美国总统拜登：将要求国会和监管机构加强银行规则",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/odd2kk89.html",
+          "author": null,
+          "description": "今日要闻提示：\n美国监管机构：硅谷银行所有储户都将获得补偿，周一可以动用其资金\n借贷协议Euler Finance遭到攻击，损失已达1.97亿美元\nCoinbase：在Signature的现金余额约2.4亿美元，周一将恢复USDC到美元的转换\nCircle CEO：将把剩余硅谷银行现金转至纽约梅隆银行，并引入新的银行合作伙伴\n前贝宝金融创始人Flex Yang推出分布式稳定币HOPE\nSignatureBank倒闭，已被美国FDIC接管，所有储户都将获得补偿\nCoinShares：上周数字资产投资产品净流出2.545亿美元，创单周净流出量新高\n报告：币安2月现货交易量达5400亿美元，市场份额创新高\n监管消息\n美国监管机构：硅谷银行所有储户都将获得补偿，周一可以动用其资金\n据CoinDesk报道，美国监管机构周日在一份联合声明中表示，硅谷银行的所有储户都将获得补偿，并在周一可以动用他们的资金。美国财政部长耶伦、美联储主席鲍威尔和美国联邦存款保险公司（FDIC）主席格伦伯格在一份声明中表示：“在收到FDIC和美联储董事会的建议，并与总统协商后，耶伦部长批准了一些行动，使FDIC能够以充分保护所有储户的方式完成对硅谷银行的清算。今天，我们将采取果断行动，加强公众对我们银行体系的信心，以保护美国经济。”\n今日晚些时候消息，美联储表示，将向符合条件的存款机构提供250亿美元紧急贷款。FDIC启动对硅谷银行的拍卖，最终报价于周日截止。\nIMF警告G20国家：加密货币的广泛使用或会导致银行失去存款并减少贷款\n据CoinDesk报道，国际货币基金组织 (IMF) 已警告G20国家，加密资产的广泛使用可能导致银行失去存款并减少贷款。IMF于2月份在印度举行的一次会议上向20国集团提交了关于“加密资产的宏观金融影响”的报告，该报告于周一公布，几天前，对加密友好的银行Signature Bank、硅谷银行 (SVB)和Silvergate Bank相继倒闭。\n报告称：“加密资产的广泛使用给货币政策的有效性、汇率管理、资本流动管理措施以及财政可持续性带来了巨大风险。此外，央行储备和全球金融安全网可能需要改变，从而带来潜在的不稳定。最后，银行可能会失去存款，不得不减少放贷。”该报告还指出，“尽管具体风险的重要性和相关性因国家情况而异，但加密资产存在许多风险。”不过，该报告还指出，尽管存在“显著风险，加密资产已经开发出公共部门可以利用的技术来实现其自身的政策目标”。\n加拿大监管机构接管SVB加拿大子公司，寻求清盘\n据金十报道，加拿大银行业监管机构在周日接管了SVB金融集团在加拿大的分支机构，并表示将寻求法律命令以结束其运营。\n加拿大金融机构监管局局长Peter Routledge的办公室在一份声明中表示，在美国监管机构关闭了位于加州的母行后，加拿大采取这一行动是为了保护该分行持有的资产价值。\n加拿大财政部长Chrystia Freeland周日晚间与银行高管和加拿大央行官员进行了交谈，并表示政府将继续关注局势，加拿大监管良好的银行体系是健全和有弹性的。\n香港金管局：香港银行对SVB的风险敞口极少 对香港银行体系稳定不构成风险\n硅谷银行事件持续发酵，香港金管局发言人表示，金管局一直密切留意SVB的事态发展，据该局了解，香港银行对SVB的风险敞口极少，对香港银行体系稳定不构成风险。金管局发言人重申，SiliconValleyBank在香港没有经营银行业务，只设有本地代表办事处。它并非认可机构，因此不能在本港经营银行或接受存款业务。\n挪威主权财富基金表示，将密切关注硅谷银行（SVB）事件的事态发展。\nNFT\n\nYuga Labs：会继续向拍卖获胜者非空地址发送TwelveFold铭文，风险由用户自担\nYuga Labs在推特上表示：“基于Ordinal协议的NFT系列TwelveFold的铭文刻录过程目前正在进行中。拍卖获胜者需注意，有21个接收地址不是空的，但我们将坚持向这些地址发送作品。如果拍卖获胜者将铭文与其他比特币资产一起保留，可能会在正常使用比特币的过程中意外转移铭文satoshi。用户有责任安全地存储、持有和转移自己的铭文。”\n元宇宙\n汽车品牌日产申请4个新的Web3商标，并在元宇宙中试销\n据Cointelegraph报道，日本汽车品牌日产近日在美国提交了四个与Web3相关的新商标，而其日本子公司正在元宇宙中试验汽车销售。\n根据日产3月7日向美国专利商标局(USPTO)提交的商标申请，新申请涵盖了其英菲尼迪（INFINITI）、Nismo和日产品牌，范围涵盖虚拟服+汽车、虚拟商品商店+NFT、NFT市场+交易+铸造、元宇宙广告服务等。\n上周，3月8日，日产日本公司宣布将对其虚拟商店“日产Hype实验室”进行为期三个月的“示范实验”，以在元宇宙中“研究、咨询、试驾和购买日产汽车”。 该实验将于6月30日截止。顾客可以通过个人电脑或智能手机“一天24小时”访问虚拟店面。客户可以创建自己定制的虚拟形象，在特定的时间内，甚至可以与虚拟销售人员互动。根据公告，客户可以通过虚拟销售办公室订购汽车并敲定购买合同。\n项目动态\n借贷协议Euler Finance遭到攻击，损失已达1.97亿美元\n独立安全研究员CIA Officer在推特上表示，据安全团队BlockSec监测，DeFi借贷协议Euler Finance遭到攻击，据统计，Euler Finance 在本次黑客闪电贷攻击事件中的受损金额约为 1.97 亿美元，其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC、85,818.26 枚 stETH。\n汇丰控股英国子公司以1英镑价格收购硅谷银行英国子公司\n据金十报道，汇丰控股宣布，其英国子公司汇丰英国银行有限公司以1英镑收购硅谷银行英国子公司，预计硅谷银行英国子公司的有形资产约为14亿英镑。截至3月10日，硅谷银行英国子公司拥有约55亿欧元的贷款和约67亿英镑的存款，英国央行在一份单独的声明中表示，它促成了这笔交易，客户存款将受到保护，交易中不涉及纳税人的钱。\n英国方面表示，硅谷银行英国子公司的客户可以支取存款，银行业务正常。\nCoinbase：在Signature的现金余额约2.4亿美元，周一将恢复USDC到美元的转换\nCoinbase发推文称：“尽管我们最近在传统银行业看到了动荡，但Coinbase继续照常运营。在Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的USDC转换。客户在银行的所有现金继续受到联邦存款保险公司转移保险的保护。由于FDIC暂停Signature的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。截至3月10日星期五营业结束，Coinbase在Signature的公司现金余额约为2.4亿美元。正如FDIC所说，我们希望完全收回这些资金。在周末银行关门期间，我们暂时暂停USDC：USD的转换。在交易活跃时期，兑换依赖于在正常银行时间内清算的银行美元转账。当银行周一开门时，我们计划重新开始转换。用户资产仍然安全，可用于链上发送。”\nCircle CEO：将把剩余硅谷银行现金转至纽约梅隆银行，并引入新的银行合作伙伴\nUSDC稳定币发行商Circle的首席执行官Jeremy Allaire发推文称：“我们很高兴地看到，美国政府和金融监管机构采取了关键措施，以减轻部分银行系统带来的风险。硅谷银行100%的存款是安全的，明天将在银行开放。100%的USDC储备金也是安全可靠的，我们将完成剩余硅谷银行现金到纽约梅隆银行的转移。如前所述，USDC的流动性操作将在明天上午银行开门时恢复。随着Signature今晚宣布关闭，我们将无法通过SigNet处理铸造和赎回，我们将依赖纽约梅隆银行的结算。此外，我们将引入一个新的交易银行合作伙伴，最早可能在明天实现自动铸造和赎回。”\n今日晚些时候消息，Cross River Bank成为Circle新的银行合作伙伴。\nPaxos：在Signature银行的存款为2.5亿美元，已建立存款保险制度\n稳定币发行商Paxos表示，目前在Signature银行的存款为2.5亿美元，并建立了存款保险制度。所有Paxos稳定币储备都是完全支持的，并且可以随时以美元1:1的比例赎回给客户。\nRipple CEO：Ripple对硅谷银行有一些敞口，但日常业务不受影响，财务状况依然稳健\nRipple CEO Brad Garlinghouse推特发文称，Ripple对硅谷银行有一些敞口。硅谷银行是Ripple的银行合作伙伴，并持有Ripple的部分现金。但预计Ripple的日常业务不会受到干扰，大部分美元存放在其它银行。此外，Ripple的财务状况仍然稳健。近期发生的众多事件突显了金融系统仍然脆弱。\n今日晚些时候消息，Celsius债权人表示，Celsius有部分资金存在Signature银行。Kraken表示，对稳定币汇率没有重大风险敞口，美元资金不受影响。TrueUSD表示，部分美元资金存放在Signature Bank。软银表示，硅谷银行几乎没有对受软银愿景基金支持的公司产生影响。\n赵长鹏：将把行业复苏基金内剩余资产从BUSD换为BTC、BNB和ETH等\n币安首席执行官赵长鹏发推称，考虑到稳定币和银行的变化，币安将把剩余的10亿美元行业复苏计划资金从BUSD兑换为原生加密货币，包括BTC、BNB和ETH。一些资金流动将发生在链上，以确保透明度。\n今日晚些时候消息，约9.85亿枚BUSD从币安行业复苏基金转移到币安。此外，赵长鹏今日表示，救助会鼓励银行承担更多风险，建议监管机构只对储户进行补偿；银行应使用Merkle树来做储备金证明。\nStargate基金会建议DAO不要重新发行STG代币，否则FTX清算人或将寻求赔偿\n基于LayerZero的跨链流动性协议Stargate发推称Stargate基金会建议DAO不要重新发行STG代币。FTX清算人近期表示，如果重新发行并转移资金，将违反自动中止条款，并将积极寻求赔偿。经与律师沟通后，FTX清算人认为代币已经在其钱包中并无需采取任何行动，以及代币将在3月17日一次性被领走。尽管Stargate基金会称其认为FTX清算人的观点这是错误的，且没有迹象表明FTX清算人对智能合约的实际情况、运作方式以及如何与合约互动以确保资金安全有深刻认知。\n推文中提及，LayerZero Labs已表示，他们明确保留在任何时候采取任何和所有法律行动的权利，并行使合同协议授权或允许的任何和所有补救措施。它们重申，假设其成功并在法庭上获胜，代币将以成本价转移给Stargate DAO。据悉，LayerZero Labs联合创始人兼首席执行官Bryan Pellegrino曾于11月10日发布了一份备忘录，指出LayerZero Labs已签署协议，从FTX/Alemda回购STG代币。\n根据此前的社区提案，此前Alameda于2022年3月从Stargate的社区销售中购买了占STG总供应量10%的代币，并承诺将锁仓至2025年3月，但StargateDAO发现Alameda Research的安全漏洞可能会导致协议拥有的流动性和代币持有人安全性面临“重大威胁，且最近Alameda钱包的链上转移表明，Alameda并没有完全控制其钱包，存在正在非法转移资金的情况。因此社区提议于3月15日重新发行STG代币，以消除Alamada所持代币被非法转移的风险，该提案于2月6日获得投票通过。\nAztec Connect将于明年3月21日正式关闭，用户有一年的免费取款期\n以太坊二层隐私解决方案Aztec Network在官方博客中宣布，DeFi隐私桥项目Aztec Connect将逐步关闭，用户将继续能够在一年内免费取款。Aztec Connect的排序器（Sequencer）将慢慢减少退出的rollup总块的频率，最终退出日期大约一年后：2024年3月21日。该项目团队称，虽然提款始终是可能的，但在2024年3月2 日之后，提款的费用将明显增加，因此建议用户尽快提款。\n具体安排如下：1.3月13日至3月21日，Aztec Connect正常运行；2.北京时间3月21日22:00起，存款将被禁用；3.一年时间的提现窗口：2023年3月13日- 2024年3月21日；4.2024年3月21日：从Aztec排序器发送的最后一个Aztec rollup；5.2024 年3月21日起：用户将不得不运行提现软件或依赖社区运行的测序仪。\nAztec Network表示，其中长期重点将集中在两大产品的开发上，即零知识证明语言Noir和下一代加密区块链，这两个产品将相互兼容、相互关联。\n前贝宝金融创始人Flex Yang推出分布式稳定币HOPE\n前贝宝金融（Babel Finance）创始人 Flex Yang 推出分布式稳定币 HOPE，HOPE 旨在成为由加密原生储备支持的稳定币。其储备池最初将由 BTC 和 ETH 组成。HOPE 生态包括 HopeSwap、HopeLend、HopeConnect 与 HopeEcho 四个协议，提供交易、借贷、衍生品、合成资产功能。此外，该项目将推出激励与治理代币 LT（Light Token）以激励用户参与生态应用与治理。\nSignature Bank倒闭，已被美国FDIC接管，所有储户都将获得补偿\n据CoinDesk报道，美联储宣布，总部位于纽约的Signature Bank周日被州监管机构关闭。纽约州金融服务局负责人Adrianne Harris在一份声明中表示，美国联邦存款保险公司(FDIC)已接管该银行。这是一周内第三家银行倒闭，此前Silvergate Bank和硅谷银行分别于周三和周五倒闭。Harris表示，采取这一行动是“为了保护储户”。美联储、FDIC和美国财政部发布联合声明称，所有使用Signature的储户都将获得补偿。\n矿业消息\n某独立比特币矿工仅以6.7 PH/s的平均算力获得14.8万美元的奖励\n据Decrypt报道，一名独立的比特币矿工使用Solo CK Pool 挖矿服务建立了一个单独的矿池，在那里为第780112个比特币区块生成了一个有效的哈希值，获得了6.25 BTC的奖励和大约0.63 BTC的费用奖励，价值约14800美元。\n这位自称来自俄罗斯的独立矿工的平均算力为6.7 PH/s，在添加区块时，比特币的总算力约为308,262 PH/s，这意味着独立矿工的6.7 PH/s哈希率大约占区块链整个计算能力的0.002%。。一位推特用户指出，独立矿工产生有效哈希值是多么幸运，并表示鉴于矿工使用的计算能力有限，通常需要更长的时间才能创建有效交易。\n重要数据\nCoinShares：上周数字资产投资产品净流出2.545亿美元，创单周净流出量新高\n据CoinShares周报数据，上周数字资产投资产品净流出 2.545 亿美元，创下单周净流出量历史新高。其中比特币投资产品净流出 2.435 亿美元，以太坊投资产品净流出 1100 万美元，做空比特币的投资产品净流出 120 万美元。\nUSDC、DAI回升至0.99美元上方，脱锚状态有所缓解\nCoinGecko数据显示，稳定币USDC、DAI和FRAX脱锚状态有所缓解，USDC、DAI均已回升至0.99美元上方。USDC现报0.9904美元，DAI现报价0.9943美元，此外FRAX现报0.9899美元。\n数据：Circle于北京时间9:43铸造约4.078亿枚USDC\n区块链数据平台Nansen在推特上表示，北京时间9:43，Circle铸造了约4.078亿枚USDC，这是过去7天内最大一笔USDC铸造。USDC发行量每小时净变化为+4.638亿美元。\n报告：币安2月现货交易量达5400亿美元，市场份额创新高\nCryptoCompare近日发布的交易所月度报告显示，币安的现货市场份额从1月份的59.4%增加到2月份的61.8%。币安的现货交易量增长13.7%，达到5400亿美元，创下该交易所的历史最高市场份额。据悉，币安已连续第四个月扩大其在加密货币交易平台的现货市场份额。\n报告称，2月份，币安在衍生品交易所的市场份额也有所增长，升至62.9%，创下有史以来最高的月度市场份额记录。\n美股第一共和银行盘前进一步跌超60%\n美股第一共和银行盘前进一步跌超60%。继硅谷银行后，该行上周晚些时候亦遭到挤兑。\n今日早些时候消息，该银行表示，未使用的流动性资金超过700亿美元，财务状况非常稳健。",
+          "link": "https://www.panewslab.com/zh/articledetails/odd2kk89.html",
+          "publishedOn": "2023-03-13T13:01:33.000Z",
+          "wordCount": 1550,
+          "title": "PA日报｜借贷协议Euler Finance遭到攻击；前贝宝金融创始人Flex Yang推出分布式稳定币HOPE",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/2C0P9qU8ag.png"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/nqjs6ygs.html",
           "author": null,
           "description": "PANews 3月13日消息，据blockonomi报道，Web3游戏平台Moxy宣布已完成超1000万美元融资，Shima Capital、Polygon、MetaTope和GSR等投资方参投。Moxy基于FLOW区块链驱动的Web3游戏平台通过去中心化、安全且稳定的方式帮助包括电竞选手和其他玩家参与游戏并获得激励，同时还能让游戏开发者无缝创建基于游戏资产的NFT以推动电竞大众化，此外Moxy还使用统一数字钱包参与游戏生态让玩家存储加密货币和NFT，据悉Nolan Bushnell（Atari创始人）、Lawrence Siegel（世嘉欧洲总裁）和Tony Bickley（世嘉欧洲游戏主管）已加入Moxy团队。",
@@ -3314,7 +3334,7 @@
           "description": "NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！\nPANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/uitr2ry4.html",
           "publishedOn": "2023-03-13T12:19:09.000Z",
-          "wordCount": 1153,
+          "wordCount": 1157,
           "title": "PA图说 | 一图掌握以太坊上NFT关键数据（2023.03.13）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/T08d05Ej65.jpg"
         },
@@ -3344,7 +3364,7 @@
           "description": "原文：《加密友好银行一周内陨落殆尽，加密行业该如何缓解流动性危机》\n作者：zf857.eth\n在经历了动荡的一年之后，美国加密货币友好银行Slivergate Bank控股母公司Silivergate Capital上周三美股收盘时宣布：它将有序的依照监管程序结束运营银门银行业务并自愿清算银行资产。\nSilvergate的湮灭已经蔓延到更多的传统金融机构，引发更大的流动性危机。上周美国时间3月8号，历史最悠久且对加密货币友好的银行之一的硅谷银行Silcon Valley Bank（SVB）宣布陷入财务困境。上周五，加州金融保护和创新部宣布已经正式关闭硅谷银行，联邦存款保险公司被任命为该银行的接管人，并控制了其存款。这标志着该银行正式倒闭，这也成为自全球金融危机以来美国最大宗的银行倒闭事件。而这场危机中还有更多的中小型银行在美联储的加息浪潮中失去立足之地。\n\n硅谷银行（SVB）倒闭后引发了全球投资者的恐慌，许多著名的区块链风险投资家（VC）在SVB持有价值超过60亿美元的资产。尽管美政府出手干预，承诺硅谷银行储户可取回存款，但加密银行实体的股权和债权价值被几近清零。22年11月16日，Block.one及其CEO合计持有Silvergate约16.8%的股份，目前理论上在Silvergate股票投资上浮亏超7000万美元\n联邦储备系统的两个联邦保险成员SVB和Silvergate的湮灭也在加密货币生态系统中引起许多连锁反应，随之而来的是一场信任危机，USDC稳定币的发行商Circle在SVB的33亿美元存款的不确定性导致了USDC在周末脱钩，最低达0.889。\n\nR3PO于1月文章《加密友好银行之殇，Silvergate爆雷Abra遭殃》就对此有过相应分析及预测并且里面提到2023年可能是更多加密友好银行的终局。\n美国监管机构于上周日晚间宣布，关闭了总部位于纽约的地区银行Signature Bank，美国财政部、美联储和联邦存款保险公司在一份联合声明中表示：“我们还宣布纽约州Signature Bank也有类似的系统性风险例外，该银行今天被其州特许机构关闭。”\nSignature Bank提前减少了加密货币市场的风险敞口但还是没有逃过一劫，其从2023年2月1日起，不再支持任何加密货币交易所客户买卖低于10万美元，对所有加密货币交易所都是如此。以上表态确认了，Signature Bank减少加密资产市场风险敞口的决心，Signature Bank将只为币安处理超过10万美元的交易。2022年12月，Signature Bank也曾表示，加密货币交易所FTX爆雷后，该银行在大范围撤除加密货币领域，有意削减高达100亿美元的加密资产客户存款。Signature Bank于3月2日在季报中还重申，它目前没有对加密抵押品进行贷款，没有对数字资产进行投资，也没有为任何客户保管数字资产。\n但为什么Signature Bank仍然被监管机构关停了？据华尔街日报消息，早在年初1月，美国联邦住房贷款银行系统（FHLB）向两家最大的加密货币银行 Signature Bank 和 Silvergate 共提供了超 130 亿美元的贷款，以减轻取款激增导致的流动性危机影响。据悉，该实体在 2022 年最后一个季度向 Signature Bank 提供了近 100 亿美元的贷款，成为近年来银行业最大的借款交易之一。此外，Silvergate 至少收到了来自 FHLB 的 36 亿美元贷款。由此可见，这两家著名加密友好银行的流动性危机早在FTX暴雷事件后就已经初现端倪。\n首先值得强调的一点是Silvergate Exchange Network（SEN），在促进大投资者和加密货币交易所之间的非区块链资金转移方面发挥了关键作用。Silvergate在2018年推出了SEN，该平台迅速被大量采用，交易量在2021年整年达到近乎8000亿美元。几乎所有基于美国的主要加密货币交易所都成为Silvergate的客户，并开始通过该网络转移资金。对于加密货币交易商来说，这项技术似乎已经改变了游戏规则，成为传统金融和加密货币生态系统之间的便捷桥梁。\n\n随着上周Silvergate进入自愿清算阶段，摩根大通曾预测客户将迁移到Signature Bank的Signet支付网络。加密货币公司可以使用应用程序编程接口将Signet网络纳入其平台. 然而Signature Bank目前也难以独善其身。\n当USDC作为加密货币行业最底层的资产定价基础设施出现了脱钩这种情况，再次显示了稳定币的脆弱性。当大家发现去中心化金融仍然会被中心化金融状况影响并失去价值，很可能会考虑加大对法币的追求。但当加密行业失去Signature和Silvergate这两家主要的加密友好银行，加密公司就失去了主要的获得法定货币的关键通道。现在加密公司的法币出入金选择很少，并且任何新的加密公司将很难获得新的银行户头，在新银行介入之前，加密行业的法币-加密货币流动性将受到严重限制。\nR3PO认为，作为新生的加密货币市场基础设施，区块链交易网络核心价值巨大，SEN平台以及Signet支付网络的停摆，无疑会对加密货币市场当前紧张的流动性造成进一步伤害。但对于其它竞争银行来说，这无疑是一个潜在机遇，它们有机会在此时迅速介入以填补空缺，在加密货币业务方面独占鳌头。现在全球加密银行在美国只剩下Customers bank，Sygnum，其他地区还有seba bank、deletc bank、BCB。\n处于舆论中心的Circle今日发表声明称：“我们存在 SVB 的 100% 存款是安全的，将于明天开门营业。100% 的 USDC 储备金也是安全可靠的，我们将完成将剩余的 SVB 现金转移到 BNY Mellon。如前所述，USDC 的流动性操作将在明天早上银行开门时恢复。随着今晚宣布关闭 Signature 银行，我们将无法通过 SigNet 处理铸造和赎回，我们将依靠纽约梅隆银行的结算。我们最快明天将引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。我们致力于以最高质量和透明度建立稳健和自动化的 USDC 结算和储备操作。”\nCoinbase 发表声明称“尽管我们最近在传统银行业看到了动荡，但 Coinbase 继续照常运营。在 Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的 USDC 转换。所有客户在银行的现金继续受到 FDIC 转手保险的保护。由于 FDIC 暂停 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。”\n尽管Silvergate以及Signature Bank两家加密友好银行的关闭，导致了加密资本市场回到了 2014 年之前——任何新成立的公司都没有机会获得银行关系，加密货币已经正式成为无银行账户。但中心化金融机构的监管失败和财务危机，会刺激更多加密原生资本依赖并信仰比特币等加密原生资产，未来区块链行业会更加减少对美元稳定币的依赖，拓宽区块链支付网络的通用性和稳定性，增加更多直接使用加密货币的支付场景，以此减少对中心化金融机构的依赖，R3PO坚信，未来必将诞生完全去中心化的银行，In Trustless we Trust。",
           "link": "https://www.panewslab.com/zh/articledetails/5p542572.html",
           "publishedOn": "2023-03-13T10:44:20.000Z",
-          "wordCount": 1324,
+          "wordCount": 1322,
           "title": "加密友好银行相继破产，加密市场流动危机到来？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/N6iVnJrO72.jfif"
         },
@@ -3424,7 +3444,7 @@
           "description": "每个3·12都值得加密世界纪念。\n上周三，Silvergate Capital宣布结束运营并进行最终清算；上周五，SVB（硅谷银行）在遭受420亿美元挤兑后宣布倒闭；而在3月12日，Signature Bank被监管部门直接关闭。\n受此一连串的暴击，比特币最低跌到2万美元以下，而USDC遭受短暂“脱锚”波动，在紧急救市措施出台后，目前整体市场已经回暖，但更严峻的考验已经到来。\n越来越多的银行会在市场波动和监管趋紧的双重逼迫下远离加密市场，作为出入金的重要通道，目前美国有哪些加密友好型银行？\n美国曾一度是对加密银行最为宽容的经济体，The Block曾在2020年总结了一份加密友好型银行名单，其中既有摩根大通这样的顶级银行，也有Silvergate Capital和Signature Bank这种传统意义上的社区零售银行。\n\n但是FTX的崩溃改变了一切，2023年1月份，美国三个银行业监管部门，美联储、货币监理署（OCC）和联邦存款保险公司（FDIC）联合发表了一份声明，希望银行最好不要参与加密相关业务，并且严格审查各项业务的合规性。\n在此背景下，多个跟加密业务，尤其是FTX关系密切的银行选择退出加密市场。\n•摩根大通\n摩根大通自身推出了Onyx系统，该系统允许多银行、多货币资产在许可的分布式账本上进行即时转移和清算。2022年2月，摩根大通上线Decentraland，成为第一家在元宇宙中设置服务的银行，此外，还专注于提供加密货币支付服务，如加密货币支付处理、区块链技术解决方案等。\n然而，在2023年3月，摩根大通公司宣布断绝与加密货币交易所Gemini的关系，其后Gemini否认这一说法。而Coinbase也表示将继续和摩根大通合作。\n•Metropolitan Bank Holding Corp\n2023年1月9日选择完全退出加密市场，加密业务占营业收入的 1.5%，加密存款占总存款的 6%，在 2023 年将会结束和最后四个加密客户的业务关系。\n自 2019 年以来，Metropolitan Bank宣称没有吸引新的加密货币客户，但希望保留现有加密货币客户的存款，而在监管文件下发后，预期会彻底退出加密市场。\n•Moonstone Bank（Farmington State Bank）\n截至2023年1月，该银行大约有几十个加密货币客户，所有的加密账户已经被事实上关闭。\n一年前，2022 年 1 月 Moonstone从SBF的 Alameda Research 获得了 1150 万美元的投资。在巴哈马，清算人发现 Moonstone 在两个账户中持有近 5000 万美元的 FTX 存款，目前这些资金的状况不明。根据巴哈马清算人2022年12 月提交的一项动议，Moonstone 的高管拒绝向调查人员提供有关账户的详细信息。\n目前，Moonstone宣布“正在回归其作为社区银行的最初使命，并停止追求创新驱动的商业模式，不再为加密行业提供银行服务。”\n•Provident Bank\n该银行负责加密业务的主体是BankProv，其涉及加密领域的业务方向主要是矿业，为加密企业提供使用存款、贷款、电汇和 ACH 转账、实时支付和远程存款等服务。此外，通过初创公司 Treasury Prime 为加密企业提供 API 连接BankProv。\n截止2022年末，其加密矿业贷款组合减少至4120万美元，或者下降50%，2022年Q3季度亏损为2750万美元，因此BankProv将逐步退出加密矿业贷款业务。\n•Evolve Bank & Trust\n在FTX的“牵连”之外，BlockFi也对Evolve Bank & Trust造成了严重伤害。Evolve 之前为 BlockFi 的客户发行信用卡，并且对 FTX 有一定的风险敞口。\nEvolve自述没有向FTX或其附属机构提供贷款服务，Evolve也没有对加密货币进行过投资或交易行为。\n在以上四家意志不坚定的银行之外，还依然存在数家和加密行业共进退的真友好银行。\n•The Bank of New York Mellon（纽约梅隆银行）\n纽约梅隆银行是世界上最大的资产托管机构，目前保管超过43万亿传统资产，日清算额在2万亿美元以上，并且是美国政府债券的独家结算代理商。\n2022年3月，稳定币USDC发行商选择纽约梅隆银行作为托管方，在Signature关闭后，Circle将使用纽约梅隆银行进行结算。\n•Customers Bank\nCustomers Bank 使用其自研的 CBIT 代币在客户之间交换美元现金。 CBIT代币可以与 TassatPay 支付平台结合使用，是一种基于区块链技术的B2B即时转账系统。\n得益于区块链交易的实时性和安全性，银行可以吸收受益于大量低成本存款，提供巨大的流动性和扩大的净息差，以推动积极的贷款增长。该银行在2021年第三季度收益报告中宣布了 15 亿美元的存款来自加密货币业务。\n在FTX事件后，Customers Bank 宣布和FTX或任何关联公司均无存款或其他业务往来，也没有向机密行业内的任何客户提供贷款。\n在SVB和Sinagture Bank纷纷倒闭后，USDC发行方Circle依然在Customers Bank 存放有部分储备金。\n•Cross River Bank\n2022年4月，Cross River Bank 完成由a16z领投的 6.2 亿美元融资。其主要业务模块为BaaS（Banking as a Service，银行即服务）。BaaS 组件涵盖支付，其中包括刷卡、账户转账和实时支付。可以为活期存款账户、储蓄账户以及信用卡和借记卡提供服务。\nCoinbase和Circle均是其客户，Circle是在SVB之后，宣布2023年3月13日开始，Cross River Bank为客户提供铸造和赎回USDC的服务。\n•Pathward\n跟Cross River Bank类似，也是提供BaaS（银行即服务）的银行，跟Coinbase合作较为紧密，也是Coinbase Card的合作发行商，为其提供信用卡发行相关服务。\nPathward也是FDIC注册银行，为客户提供25万美元以下的存款保险服务。\n在直接为加密企业或客户提供服务的银行外，还存在着一种特殊的银行体系，用间接或者和合作的方式接触加密企业。\n•FirstFoundation Bank\nFirst Foundation Bank 与NYDIG 合作，允许用户通过应用程序进行比特币交易，客户可以购买、出售和持有比特币。但客户并不真正拥有任何特定的、链上的、可识别的比特币，而是反映在个人NYDIG 比特币账户中的特定数量和权益。\n同时，NYDIG 将所有客户比特币销售的资金转给银行，银行比特币销售收益存入您选择的First Foundation Bank 个人账户，以完成交易。\n•Sutton Bank\nSutton发行支持CashApp和预付卡（Prepaid Card），以此来间接支持加密服务。但官方说明，Sutton Bank只是作为卡发行方，用户可以自行使用CashApp来使用卡内资金，但是任何APP内资金历史记录都无法通过网银账户查询。\n而关于Robinhood的借记卡（Debit Card），Sutton不承担任何客户支持功能，完全由Rboinhood自行设置用卡协议。\n•Quontic Bank\nQuontic Bank将比特币作为刷卡满额的返利奖励形式，用户最低存款要求为500美元，将会把每次进行的消费金额的1.5% 以美元计价的比特币作为奖励累积。但是ATM 取款、转账、账单支付、ACH 支付和电汇不会赚取比特币奖励。\n本次银行暴雷，除了影响美国自身银行体系之外，也对其他地区的银行系统也造成了一定的冲击，受限于监管政策，并非所有的银行都可以涉及美元服务，但是总算留了一线希望，其中主要的是欧洲部分银行，尤其是瑞士银行，比如，SEBA和Sygnum这两个主要的加密友好型银行，以及Vontobel、Swissquote等传统大型银行。\n还有一众欧洲小国，比如爱沙尼亚的LHV Pank，斯洛文尼亚的Gorenjska Banka，列支敦士登的Bank Frick，拉脱维亚的BlueOrange Bank。\n以及离岛国家，比如瓦努阿图的PacificPrivate Bank，巴哈马群岛的DeltecBank和Ansbacher。\n总体上，美国的银行业将迎来一次较大范围的转向，2020年OCC（货币监理署）曾经推出支付特许状，允许Kraken/Paxos等加密企业可以进入国家金融体系。\n而在FTX暴雷以及上周的三家银行倒闭后，监管政策已经抢先介入银行体系，未来是否会有银行再次拥抱加密企业，只能拭目以待。",
           "link": "https://www.panewslab.com/zh/articledetails/hrxwhmq6.html",
           "publishedOn": "2023-03-13T09:23:36.000Z",
-          "wordCount": 1420,
+          "wordCount": 1424,
           "title": "三家加密友好银行倒下，美国还剩下哪些加密友好型银行？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/J80QlWFygn.jfif"
         },
@@ -3644,7 +3664,7 @@
           "description": "PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/1kimxkas.html",
           "publishedOn": "2023-03-13T03:33:35.000Z",
-          "wordCount": 1160,
+          "wordCount": 1162,
           "title": "PA图说 | 一图掌握Polygon上NFT一周关键数据（03.06—03.12）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/EhMQ0H7Zfu.jpeg"
         },
@@ -3664,7 +3684,7 @@
           "description": "PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/gn9lhvx3.html",
           "publishedOn": "2023-03-13T03:13:30.000Z",
-          "wordCount": 1158,
+          "wordCount": 1160,
           "title": "PA图说 | 一图掌握BNBChain上NFT一周关键数据（03.06—03.12）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/7Agm74g9Rl.jpeg"
         },
