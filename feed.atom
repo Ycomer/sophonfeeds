@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T10:41:00.844Z</updated>
+    <updated>2023-03-13T10:46:24.043Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[加密友好银行相继破产，加密市场流动危机到来？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/5p542572.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/5p542572.html"/>
+        <updated>2023-03-13T10:44:20.000Z</updated>
+        <summary type="html"><![CDATA[原文：《加密友好银行一周内陨落殆尽，加密行业该如何缓解流动性危机》
+作者：zf857.eth
+在经历了动荡的一年之后，美国加密货币友好银行Slivergate Bank控股母公司Silivergate Capital上周三美股收盘时宣布：它将有序的依照监管程序结束运营银门银行业务并自愿清算银行资产。
+Silvergate的湮灭已经蔓延到更多的传统金融机构，引发更大的流动性危机。上周美国时间3月8号，历史最悠久且对加密货币友好的银行之一的硅谷银行Silcon Valley Bank（SVB）宣布陷入财务困境。上周五，加州金融保护和创新部宣布已经正式关闭硅谷银行，联邦存款保险公司被任命为该银行的接管人，并控制了其存款。这标志着该银行正式倒闭，这也成为自全球金融危机以来美国最大宗的银行倒闭事件。而这场危机中还有更多的中小型银行在美联储的加息浪潮中失去立足之地。
+
+硅谷银行（SVB）倒闭后引发了全球投资者的恐慌，许多著名的区块链风险投资家（VC）在SVB持有价值超过60亿美元的资产。尽管美政府出手干预，承诺硅谷银行储户可取回存款，但加密银行实体的股权和债权价值被几近清零。22年11月16日，Block.one及其CEO合计持有Silvergate约16.8%的股份，目前理论上在Silvergate股票投资上浮亏超7000万美元
+联邦储备系统的两个联邦保险成员SVB和Silvergate的湮灭也在加密货币生态系统中引起许多连锁反应，随之而来的是一场信任危机，USDC稳定币的发行商Circle在SVB的33亿美元存款的不确定性导致了USDC在周末脱钩，最低达0.889。
+
+R3PO于1月文章《加密友好银行之殇，Silvergate爆雷Abra遭殃》就对此有过相应分析及预测并且里面提到2023年可能是更多加密友好银行的终局。
+美国监管机构于上周日晚间宣布，关闭了总部位于纽约的地区银行Signature Bank，美国财政部、美联储和联邦存款保险公司在一份联合声明中表示：“我们还宣布纽约州Signature Bank也有类似的系统性风险例外，该银行今天被其州特许机构关闭。”
+Signature Bank提前减少了加密货币市场的风险敞口但还是没有逃过一劫，其从2023年2月1日起，不再支持任何加密货币交易所客户买卖低于10万美元，对所有加密货币交易所都是如此。以上表态确认了，Signature Bank减少加密资产市场风险敞口的决心，Signature Bank将只为币安处理超过10万美元的交易。2022年12月，Signature Bank也曾表示，加密货币交易所FTX爆雷后，该银行在大范围撤除加密货币领域，有意削减高达100亿美元的加密资产客户存款。Signature Bank于3月2日在季报中还重申，它目前没有对加密抵押品进行贷款，没有对数字资产进行投资，也没有为任何客户保管数字资产。
+但为什么Signature Bank仍然被监管机构关停了？据华尔街日报消息，早在年初1月，美国联邦住房贷款银行系统（FHLB）向两家最大的加密货币银行 Signature Bank 和 Silvergate 共提供了超 130 亿美元的贷款，以减轻取款激增导致的流动性危机影响。据悉，该实体在 2022 年最后一个季度向 Signature Bank 提供了近 100 亿美元的贷款，成为近年来银行业最大的借款交易之一。此外，Silvergate 至少收到了来自 FHLB 的 36 亿美元贷款。由此可见，这两家著名加密友好银行的流动性危机早在FTX暴雷事件后就已经初现端倪。
+首先值得强调的一点是Silvergate Exchange Network（SEN），在促进大投资者和加密货币交易所之间的非区块链资金转移方面发挥了关键作用。Silvergate在2018年推出了SEN，该平台迅速被大量采用，交易量在2021年整年达到近乎8000亿美元。几乎所有基于美国的主要加密货币交易所都成为Silvergate的客户，并开始通过该网络转移资金。对于加密货币交易商来说，这项技术似乎已经改变了游戏规则，成为传统金融和加密货币生态系统之间的便捷桥梁。
+
+随着上周Silvergate进入自愿清算阶段，摩根大通曾预测客户将迁移到Signature Bank的Signet支付网络。加密货币公司可以使用应用程序编程接口将Signet网络纳入其平台. 然而Signature Bank目前也难以独善其身。
+当USDC作为加密货币行业最底层的资产定价基础设施出现了脱钩这种情况，再次显示了稳定币的脆弱性。当大家发现去中心化金融仍然会被中心化金融状况影响并失去价值，很可能会考虑加大对法币的追求。但当加密行业失去Signature和Silvergate这两家主要的加密友好银行，加密公司就失去了主要的获得法定货币的关键通道。现在加密公司的法币出入金选择很少，并且任何新的加密公司将很难获得新的银行户头，在新银行介入之前，加密行业的法币-加密货币流动性将受到严重限制。
+R3PO认为，作为新生的加密货币市场基础设施，区块链交易网络核心价值巨大，SEN平台以及Signet支付网络的停摆，无疑会对加密货币市场当前紧张的流动性造成进一步伤害。但对于其它竞争银行来说，这无疑是一个潜在机遇，它们有机会在此时迅速介入以填补空缺，在加密货币业务方面独占鳌头。现在全球加密银行在美国只剩下Customers bank，Sygnum，其他地区还有seba bank、deletc bank、BCB。
+处于舆论中心的Circle今日发表声明称：“我们存在 SVB 的 100% 存款是安全的，将于明天开门营业。100% 的 USDC 储备金也是安全可靠的，我们将完成将剩余的 SVB 现金转移到 BNY Mellon。如前所述，USDC 的流动性操作将在明天早上银行开门时恢复。随着今晚宣布关闭 Signature 银行，我们将无法通过 SigNet 处理铸造和赎回，我们将依靠纽约梅隆银行的结算。我们最快明天将引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。我们致力于以最高质量和透明度建立稳健和自动化的 USDC 结算和储备操作。”
+Coinbase 发表声明称“尽管我们最近在传统银行业看到了动荡，但 Coinbase 继续照常运营。在 Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的 USDC 转换。所有客户在银行的现金继续受到 FDIC 转手保险的保护。由于 FDIC 暂停 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。”
+尽管Silvergate以及Signature Bank两家加密友好银行的关闭，导致了加密资本市场回到了 2014 年之前——任何新成立的公司都没有机会获得银行关系，加密货币已经正式成为无银行账户。但中心化金融机构的监管失败和财务危机，会刺激更多加密原生资本依赖并信仰比特币等加密原生资产，未来区块链行业会更加减少对美元稳定币的依赖，拓宽区块链支付网络的通用性和稳定性，增加更多直接使用加密货币的支付场景，以此减少对中心化金融机构的依赖，R3PO坚信，未来必将诞生完全去中心化的银行，In Trustless we Trust。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[香港金管局：香港银行对SVB的风险敞口极少 对香港银行体系稳定不构成风险]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/z9kgmt2h.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/z9kgmt2h.html"/>
+        <updated>2023-03-13T10:36:24.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，硅谷银行事件持续发酵，香港金管局发言人表示，金管局一直密切留意SVB的事态发展，据该局了解，香港银行对SVB的风险敞口极少，对香港银行体系稳定不构成风险。金管局发言人重申，SiliconValleyBank在香港没有经营银行业务，只设有本地代表办事处。它并非认可机构，因此不能在本港经营银行或接受存款业务。
+挪威主权财富基金表示，将密切关注硅谷银行（SVB）事件的事态发展。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[香港金管局：香港银行对SVB的风险敞口极少 对香港银行体系稳定不构成风险]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/z9kgmt2h.html</id>
@@ -134,6 +174,30 @@ Convex 从 3CRV 收益、$CRV 和其他流动性挖矿奖励中获得收入。�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】深入了解 Arbitrum 三个版本之间的区别]]></title>
+        <id>https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</id>
+        <link href="https://twitter.com/ArbitrumDailyTK/status/1634967607890817024"/>
+        <updated>2023-03-13T09:58:55.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ArbitrumDailyTK/status/1634967607890817024">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>
+<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href="https://twitter.com/ArbitrumDailyTK/status/1634967607890817024">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href="https://twitter.com/ArbitrumDailyTK/status/1634967607890817024">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href="https://twitter.com/ArbitrumDailyTK/status/1634967607890817024">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失或达 1.77 亿美元]]></title>
+        <id>https://twitter.com/BlockSecTeam/status/1635204706703384577</id>
+        <link href="https://twitter.com/BlockSecTeam/status/1635204706703384577"/>
+        <updated>2023-03-13T09:55:13.000Z</updated>
+        <summary type="html"><![CDATA[<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失或达 1.77 亿美元</h3>
+<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失或达 1.77 亿美元。</p>
+<p><a href="https://twitter.com/BlockSecTeam/status/1635204706703384577">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href="https://twitter.com/zachxbt/status/1635209310916743170">内容来源</a><p><strong>BlockSec：</strong>更新了另外两个攻击交易，总损失约为 1.97 亿美元。【原文为英文】</p><a href="https://twitter.com/BlockSecTeam/status/1635217371672756224">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[USDC“脱锚FUD”结束，熊市下半场开始]]></title>
         <id>https://www.panewslab.com/zh/articledetails/q60hmlf3.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/q60hmlf3.html"/>
@@ -2581,16 +2645,6 @@ DeSci是一项艰巨的任务，大多数项目仍处于早期阶段。然而，
         <link href="https://www.panewslab.com/zh/sqarticledetails/xh1tkh0a.html"/>
         <updated>2023-03-12T23:36:05.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月13日消息，据CoinDesk报道，美联储宣布，总部位于纽约的Signature Bank周日被州监管机构关闭。纽约州金融服务局负责人Adrianne Harris在一份声明中表示，美国联邦存款保险公司(FDIC)已接管该银行。这是一周内第三家银行倒闭，此前Silvergate Bank和硅谷银行分别于周三和周五倒闭。Harris表示，采取这一行动是“为了保护储户”。美联储、FDIC和美国财政部发布联合声明称，所有使用Signature的储户都将获得补偿。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国监管机构：硅谷银行所有储户都将获得补偿，周一可以动用其资金]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/yui5sbfs.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/yui5sbfs.html"/>
-        <updated>2023-03-12T23:29:26.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月13日消息，据CoinDesk报道，美国监管机构周日在一份联合声明中表示，硅谷银行的所有储户都将获得补偿，并在周一可以动用他们的资金。美国财政部长耶伦、美联储主席鲍威尔和美国联邦存款保险公司（FDIC）主席格伦伯格在一份声明中表示：“在收到FDIC和美联储董事会的建议，并与总统协商后，耶伦部长批准了一些行动，使FDIC能够以充分保护所有储户的方式完成对硅谷银行的清算。今天，我们将采取果断行动，加强公众对我们银行体系的信心，以保护美国经济。”]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -9323,19 +9377,6 @@ Nansen Query 基于 Google Cloud 平台构建，可以轻松集成到现有技�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Nansen 推出多链数据访问产品 Nansen Query]]></title>
-        <id>https://twitter.com/nansen_ai/status/1633407437930901506</id>
-        <link href="https://twitter.com/nansen_ai/status/1633407437930901506"/>
-        <updated>2023-03-08T11:36:58.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Nansen 推出多链数据访问产品 Nansen Query</h3>
-<p>区块链数据平台 Nansen 宣布推出多链数据访问产品 Nansen Query，允许加密原生团队以编程方式访问策划好的数据集和专业集成，以便为客户、产品和投资用例做出更好的决策。
-Nansen Query 基于 Google Cloud 平台构建，可以轻松集成到现有技术堆栈中，为企业提供安全、可靠、高度可扩展的数据管道，能够实时处理百万亿字节的数据。Nansen Query 覆盖了 17 条区块链中 95% 的链上 TVL 和 98% 的稳定币存款，包括比特币、以太坊、BNB Chain、Polygon、Avalanche、Fantom、Solana、Arbitrum、Optimism 和 Tron 等等。</p>
-<p><a href="https://twitter.com/nansen_ai/status/1633407437930901506">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[币安的现货市场份额已增至2月份的61.8%，连续第四个月扩大]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/9plnmdge.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/9plnmdge.html"/>
@@ -9450,18 +9491,6 @@ Séraphie de Tracy 拥有巴黎 HEC 商学院管理学硕士学位和 CEMS 双�
 2022 年 5月 Séraphie de Tracy 创办基于 NFT 的数字参与平台 Cohort 并担任首席执行官。Cohort是一个总部位于法国的Web3 SaaS解决方案，使用NFT（非可替代令牌）来帮助品牌创造创新体验和产品，而无需任何技术或大量时间承诺。通过Salesforce和Shopify等集成，Cohort通过“无代码、无加密、无钱包”解决方案消除采用障碍，使所有品牌和客户都可以访问web3。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】DeFi 3.0 会是什么样子？哪些加密项目将引领潮流？]]></title>
-        <id>https://twitter.com/JackNiewold/status/1632890500188459012</id>
-        <link href="https://twitter.com/JackNiewold/status/1632890500188459012"/>
-        <updated>2023-03-08T11:02:30.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Crypto Pragmatist 创始人 Jack Niewold 发文从多链、资本效率、激励重新设计、产品流动性飞轮几方面对 DeFi 3.0 的愿景进行展望。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">https://twitter.com/JackNiewold/status/1632890500188459012</a></p>
-<p><strong>文章作者：</strong></p><p>Jack Niewold</p><hr><h3>观点：</h3><p><strong>Jack Niewold：</strong>多链协议在统一流动性和愿景方面，面临着精力分散、产品使用和流动性被分割的困难，Radiant 解决了这一问题。Radiant V2 允许用户存入本地抵押品（如 Arbitrum 上的 USDC），将 USDC 进行抵押并在新链上借出 ETH，出售成另一种资产。在产品层面上，Radiant 成为了大本营，而不是具体链本身，进而解决了流动性统一问题，更易吸引流动性。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">内容来源</a><p><strong>Jack Niewold：</strong>资本效率方面，Radiant 将借贷和杠杆相结合，解锁了效率。激励重新设计方面的代表是 Solidly Fork。虽然 DeFi 2.0 的 Solidly 有失败的通胀代币模型，但它开创了新的激励设计类型。经过重新设计的 Solidly Fork 找到了协调不同利益相关者群体的方法，Satin Exchange、Velodrome、Thena 和 SolidLizard 等协议都推动了 Solidly Fork 的 TVL 稳步上升。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">内容来源</a><p><strong>Jack Niewold：</strong>产品流动性飞轮将由 GMX 开创。此前，DeFi 1.0 和 2.0 是先发行代币，然后缓慢增加代币供应以激励流动性，DeFi 3.0 则创造出不需要代币激励的模型。GMX 和 Vela Exchange 证明了流动性驱动不需要代币激励，代币用以充当股权。SentimenTrader 和 DefiLlama 也证明了没有代币激励也可以拥有巨大的用户量。用户而不是协议支付流动性的模型使代币持有者能够坐享收益，更加可持续。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1632890500188459012">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
