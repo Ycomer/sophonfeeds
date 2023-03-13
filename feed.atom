@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T04:43:03.023Z</updated>
+    <updated>2023-03-13T04:48:20.235Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -39,18 +39,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[协议收入数据解析：过去六个月中哪五个DeFi协议最赚钱？]]></title>
-        <id>https://techflowpost.mirror.xyz/v_qtYHhsLuAFdT-jLk_GUscIxmYg87DxxBW7w5eB9yY</id>
-        <link href="https://techflowpost.mirror.xyz/v_qtYHhsLuAFdT-jLk_GUscIxmYg87DxxBW7w5eB9yY"/>
-        <updated>2023-03-13T04:24:20.000Z</updated>
-        <summary type="html"><![CDATA[协议收入数据解析：过去六个月中哪五个DeFi协议最赚钱？ – 深潮TechFlow
-*撰写：Poopman *
-Read the full entry]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[高盛：因为硅谷银行危机，美联储3月不会再加息]]></title>
         <id>https://www.panewslab.com/zh/articledetails/c6ki28ta.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/c6ki28ta.html"/>
@@ -181,6 +169,18 @@ ZK-rollup落于下风很大程度上是因为一开始就要定制VM，这意味
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】复盘硅谷银行破产：DeFi 生态的一次大规模压力测试]]></title>
+        <id>https://twitter.com/Delphi_Digital/status/1634956817641111554</id>
+        <link href="https://twitter.com/Delphi_Digital/status/1634956817641111554"/>
+        <updated>2023-03-13T03:57:25.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行的破产是自 2008 年以来最大的银行破产，银行挤兑已进入加密生态系统，第二大稳定币 USDC 跌至 0.85 美元的低点，整个 DeFi 生态系统经历了一次大规模的压力测试，引发人们对 DeFi 暴露于中心化的风险的质疑。Delphi Digital 复盘了此次硅谷银行破产引发 USDC 脱锚并带来一系列连锁反应的整个过程及影响。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Delphi_Digital/status/1634956817641111554">https://twitter.com/Delphi_Digital/status/1634956817641111554</a></p>
+<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>故事从最近持有债券的银行未实现的损失大量增加开始。随着利率上升，银行资产负债表上的长期债券的价值正在下降。指定为持有至到期的债券不会被标记为其公允市场价值（FMV）。如果银行被迫出售这些贬值的债券以获得流动性，意味着银行按 FMV 实现了这些损失。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1634956817641111554">内容来源</a><p><strong>Delphi Digital：</strong>硅谷银行客户在 3 月 9 日（星期四）试图提取 420 亿美元。为了满足提款，硅谷银行被迫开始清算他们的债券组合。当硅谷银行被迫出售其 210 亿美元的可供出售的债券组合时，他们损失了 18 亿美元，硅谷银行被迫停止提款，FDIC 接管了硅谷银行的接管权。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1634956817641111554">内容来源</a><p><strong>Delphi Digital：</strong>USDC 435 亿美元的储备中，有 33 亿美元在硅谷银行。周五，Circle 停止了 USDC 的赎回，随后，USDC 脱锚，其价格在各大交易所最低跌至 85 美分。随着 USDC 的脱锚，混乱随之而来：Aave 冻结头寸；Compound 停用 USDC 供应交易；MakerDAO 限制对 USDC 的敞口；Curve 3pool 和 Uniswap 的 USDT 流动性几乎枯竭；其他由 USDC 支持的稳定币也跌至历史最低（DAI 0.86 美元、FRAX 0.88 美元）。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1634956817641111554">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Aztec Connect将于明年3月21日正式关闭，用户有一年的免费取款期]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/c47rf951.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/c47rf951.html"/>
@@ -202,6 +202,18 @@ Aztec Network表示，其中长期重点将集中在两大产品的开发上，�
 Aztec Network表示，其中长期重点将集中在两大产品的开发上，即零知识证明语言Noir和下一代加密区块链，这两个产品将相互兼容、相互关联。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Arbitrum 的下一颗「宝石」？一文详解可复制交易的永续 DEX：Perpy]]></title>
+        <id>https://twitter.com/fameaim53/status/1634603436460347393</id>
+        <link href="https://twitter.com/fameaim53/status/1634603436460347393"/>
+        <updated>2023-03-13T03:48:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Perpy 是允许交易者复制交易的永续 DEX ，加密研究员 ASH 撰推对 Perpy 进行技术概述，并分析其创新之处及竞争优势，解读其代币经济模型，认为 Perpy 可能成为 Arbitrum 上对游戏规则改变者。其将于 3 月 16 日公开发售。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/fameaim53/status/1634603436460347393">https://twitter.com/fameaim53/status/1634603436460347393</a></p>
+<p><strong>文章作者：</strong></p><p>ASH</p><hr><h3>观点：</h3><p><strong>ASH：</strong>Perpy 的复制交易解决方案通过智能合约直接链接到 GMX，允许用户复制最成功的 GMX 交易者，并允许用户通过其追随者的绩效费将交易技巧货币化。Perypy 的用户在存款后会收到 ERC-20 合约形式的等量股份，作为存款记录，金库还控制费用的分配并通过股票监控交易者的表现。【原文为英文】</p><a href="https://twitter.com/fameaim53/status/1634603436460347393">内容来源</a><p><strong>ASH：</strong>创新之处：1）无资金锁定，用户可以随时进入和退出金库。2）金库具有弹性，旨在复制其创建者的交易。3）智能交易引擎。协议费用：交易者在其交易金库中收取 10% 至 50% 的绩效费用，Perpy 则保留 DAO 利润的 20%。交易退出费用：1）金库没有正在进行的交易，费用为 0.3%；2）交易正在进行时，减小交易规模，费用为 1.5%；关闭交易，费用则为 5%。【原文为英文】</p><a href="https://twitter.com/fameaim53/status/1634603436460347393">内容来源</a><p><strong>ASH：</strong>其原生代币 $PRY 硬顶为 10 亿个，并具有随时间推移的通缩机制。$PRY 具有不同用例：1）真实收益；2）交易费用回扣；3）治理；4）Lens 集成；5）金库广告；6）优先访问 2.0 金库。Perpy 优势在于：1）非托管、智能且以所有者为中心；2）完全上链和去中心化；3）为 Perpy 提供燃料的协议是无许可的；4）基于金库的方法提供了多种类型策略。【原文为英文】</p><a href="https://twitter.com/fameaim53/status/1634603436460347393">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -334,6 +346,18 @@ Web3超级应用Kresus完成2500万美元A轮融资，Liberty City Ventures领�
 加密量化交易公司Spield Algorithm宣布完成新一轮融资，Web3投资机构BitValue参投，具体投资金额暂未披露。Spield Algorithm核心团队目前管理价值30亿美元的加密资产，同时还为部分加密公司和CEX担任流动性提供者的角色，其当前资产管理规模超过100亿美元。BitValue对Spield Algorithm的投资也将推动AI量化交易和分析在Web3领域中的应用。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生成式 AI 模型：赋予 Web3 更多权利]]></title>
+        <id>https://www.8btc.com/article/6808680</id>
+        <link href="https://www.8btc.com/article/6808680"/>
+        <updated>2023-03-13T03:42:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.8btc.com/article/6808680">https://www.8btc.com/article/6808680</a></p>
+<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href="https://www.8btc.com/article/6808680">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href="https://www.8btc.com/article/6808680">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href="https://www.8btc.com/article/6808680">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href="https://www.8btc.com/article/6808680">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9401,18 +9425,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】新项目前瞻｜流动性质押协议聚合器 Liquid Staking Derivatives]]></title>
-        <id>https://twitter.com/cryptokaduna/status/1633187498150215681</id>
-        <link href="https://twitter.com/cryptokaduna/status/1633187498150215681"/>
-        <updated>2023-03-08T06:13:09.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Liquid Staking Derivatives 涵盖一系列流动性质押协议，可以确保质押者在保持流动性的同时获得最高收益。加密货币 KOL Kaduna 从产品功能、市场机会、代币经济模型等方面介绍了此项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/cryptokaduna/status/1633187498150215681">https://twitter.com/cryptokaduna/status/1633187498150215681</a></p>
-<p><strong>文章作者：</strong></p><p>Kaduna</p><hr><h3>观点：</h3><p><strong>Kaduna：</strong>用户抵押 ETH 并作为回报接收 LS -ETH，质押之后，聚合器为他们完成剩下的工作，确保质押者在保持流动性的同时获得最高收益。LSD 是 Liquid Staking Derivatives 等原生代币，可以抵押 / 借给聚合器以换取持续的 veLSD 奖励。veLSD 是协议的治理代币，可以对协议更改和实施进行投票。用户必须锁定 LSD 才能接收 veLSD，锁定其 LSD 代币的用户也可获得更高的质押 ETH 奖励。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1633187498150215681">内容来源</a><p><strong>Kaduna：</strong>目前，Liquid Staking 的 TVL 为 136 亿美元，位居第二大 DeFi 类别。作为 DeFi 聚合器，Liquid Staking Derivatives 将利用许多顶级流动性质押协议的收益。Liquid Staking Derivatives 平台即将上线，很期待它在此类协议中的排名。【原文为英文】</p><a href="https://twitter.com/cryptokaduna/status/1633187498150215681">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资]]></title>
         <id>https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth</id>
         <link href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth"/>
@@ -9420,30 +9432,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<h3>Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资</h3>
 <p>Gitcoin 和 Index Coop 合作推出 Gitcoin Staked ETH Index （gtcETH），可通过 ETH 质押奖励为 Gitcoin Grants 提供资金。 gtcETH 是一种 ERC-20 代币，代币持有者能够通过单一代币获得 ETH 流动质押代币，同时为公共物品筹资作出贡献，它将构建在 Index Protocol 上，并包含 Rocket Pool、Lido 和 StakeWise 的流动性质押代币。gtcETH 采用 dsETH 方法，该方法促进去中心化和流动性质押协议之间的竞争。</p>
 <p><a href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">内容来源</a></p><hr><h3>观点：</h3><p><strong>Kyle Weiss（Gitcoin联合创始人）：</strong>Index Coop 一直是创建新型指数代币的领导者，为市场领先协议和趋势提供敞口。gtcETH 是他们产品的绝佳补充，并确保当人们想为公共产品提供资金时，可以使用「设置和取消」选项。我们乐观地认为，随着池中价值的增长，这将为公共产品提供长期可持续的资金。</p><a href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资]]></title>
-        <id>https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth</id>
-        <link href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth"/>
-        <updated>2023-03-08T05:56:49.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Gitcoin 推出以太坊质押指数代币 gtcETH，通过质押 ETH 为公共产品筹资</h3>
-<p>Gitcoin 和 Index Coop 合作推出 Gitcoin Staked ETH Index （gtcETH），可通过 ETH 质押奖励为 Gitcoin Grants 提供资金。 gtcETH 是一种 ERC-20 代币，代币持有者能够通过单一代币获得 ETH 流动质押代币，同时为公共物品筹资作出贡献，它将构建在 Index Protocol 上，并包含 Rocket Pool、Lido 和 StakeWise 的流动性质押代币。gtcETH 采用 dsETH 方法，该方法促进去中心化和流动性质押协议之间的竞争。</p>
-<p><a href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">内容来源</a></p><hr><h3>观点：</h3><p><strong>Kyle Weiss（Gitcoin联合创始人）：</strong>Index Coop 一直是创建新型指数代币的领导者，为市场领先协议和趋势提供敞口。gtcETH 是他们产品的绝佳补充，并确保当人们想为公共产品提供资金时，可以使用「设置和取消」选项。我们乐观地认为，随着池中价值的增长，这将为公共产品提供长期可持续的资金。</p><a href="https://go.gitcoin.co/blog/introducing-gtceth-a-new-way-to-fund-public-goods-through-staked-eth">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【长推】亚马逊 NFT 猜想：下一个亿万级用户市场？]]></title>
-        <id>https://twitter.com/rubywxt1/status/1633256234341244929</id>
-        <link href="https://twitter.com/rubywxt1/status/1633256234341244929"/>
-        <updated>2023-03-08T05:49:06.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>据 Blockworks 报道，亚马逊 NFT 市场将于今年 4 月或 5 月上线，该功能将直接显示在亚马逊网站。前亚马逊员工 Rubywang 梳理了现有信息，并分析了其对加密行业的积极影响。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/rubywxt1/status/1633256234341244929">https://twitter.com/rubywxt1/status/1633256234341244929</a></p>
-<p><strong>文章作者：</strong></p><p>Rubywang.eth</p><hr><h3>观点：</h3><p><strong>Rubywang.eth：</strong>现有信息：1. 会在网站主要页面板块增加 Tab 的方式呈现；2. 通过核心用户启动，可能上线前会通知北美区 1.67 亿存量 Prime 会员（Prime 是 Amazon 最重要的用户资产，以往很多重要的新业务都是通过给会员叠加权益的方式启动）；3.web2 友好，支持现有账号信用卡购买（非收割 web3 存量用户逻辑）。</p><a href="https://twitter.com/rubywxt1/status/1633256234341244929">内容来源</a><p><strong>Rubywang.eth：</strong>猜想：1. 是更倾向于与实物销售结合（phygital） 还是和 gaming 结合（玩游戏 claim NFT）？个人猜测前者可能性更大；2. 用哪条链？1 月份，AWS 曾公布与 Ava Labs 的合作，但并未确认发行的链。</p><a href="https://twitter.com/rubywxt1/status/1633256234341244929">内容来源</a><p><strong>Rubywang.eth：</strong>Web2 公司愿意采用 NFT 和 Crypto，本身就是在推动行业前进。如果不是收割存量 web3 用户而是与自身主业进行结合，可以肯定的是，公司内部已锚定需要验证的增量价值：即 NFT 作为工具，无论是作为工具帮助创作者，提升品牌商品销售，还是增加平台会员粘性。</p><a href="https://twitter.com/rubywxt1/status/1633256234341244929">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
