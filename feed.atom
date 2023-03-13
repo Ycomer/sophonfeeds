@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T14:29:07.479Z</updated>
+    <updated>2023-03-13T14:35:04.927Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[BitMEX交易所已暂停所有交易]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/7ttiequf.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/7ttiequf.html"/>
+        <updated>2023-03-13T14:30:20.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，加密货币交易所 BitMEX 表示因发现问题而暂停交易所内所有交易，目前仅“取消模式”处于活可用状态。BitMEX 表示正在努力实施修复，并将在必要时发布更新。BitMEX 称所有用户资金都是安全的。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[USDC已恢复1美元锚定价格]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/pu2b3t5v.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/pu2b3t5v.html"/>
@@ -2782,55 +2792,6 @@ CryptoQuant首席执行官Ki Young Ju对此评论称：“不知道美联储和�
 <p><a href="https://home.treasury.gov/news/press-releases/jy1337">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jeremy Allaire（Circle 联合创始人兼首席执行官）：</strong>在硅谷银行的存款是 100% 安全的，USDC 流动性操作将在周一早上银行开门时恢复。USDC 储备金也是 100% 安全可靠，Circle 将把剩余现金转移到纽约梅隆银行（BNY Mellon）。由于 Signature 银行关闭之后将无法通过 SigNet 处理铸造和赎回 USDC，Circle 将依靠纽约梅隆银行进行结算。我们最快将于明天引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。【原文为英文】</p><a href="https://twitter.com/jerallaire/status/1635059024050937856">内容来源</a><p><strong>Coinbase：</strong>截至 3 月 10 日星期五营业结束，Coinbase 在 Signature 的公司现金余额约为 2.4 亿美元。所有客户资金仍然安全且可访问，包括将于周一恢复的 USDC 转换。由于 FDIC 暂停了 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1635066151758594048">内容来源</a><p><strong>Federal Reserve：</strong>美联储将向符合条件的存款机构提供额外资金，以帮助确保银行有能力满足所有存款人的需求。额外资金将通过创建新的银行定期融资计划（BTFP）提供，向银行、储蓄协会、信用合作社和其他合格的存款机构提供最长一年的贷款，以美国国债、机构债务和抵押贷款支持证券以及其他合格资产为抵押。此外，经财政部长批准，财政部将从外汇稳定基金中提供高达 250 亿美元的资金作为 BTFP 的支持。【原文为英文】</p><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm">内容来源</a><p><strong>Paxos：</strong>Paxos 目前在 Signature Bank 持有 2.5 亿美元，且持有的私人存款保险远超我们的现金余额和 FDIC 对每个账户的限额。所有 Paxos 稳定币储备都是完全支持的，并且可以随时以美元 1:1 的比例赎回给客户。【原文为英文】</p><a href="https://twitter.com/PaxosGlobal/status/1635061720854200320">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>FED 跟财政部的救助是两个事，前者几乎是无限流动性工具 BTFP，后者仅仅象征性出了 250 亿美元而已。因为是纳税人的钱，是几乎不可能用这个钱来救银行的，就是摆那提振信心而已。</p><a href="https://twitter.com/JinzeJiang0x0/status/1635067286267789317">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>USDC 一夜间从青蛙变王子。危机里家底被查的一清二楚，顺势把现金全部搬到 NY Mellon（GSIB，宇宙托管行）。全部 crypto bank 被关闭，短期不会再出现民间稳定币，美元出入金集中到 USDC-Coinbase。这危机怎么看 Coinbase/Circle 都是最大受益者。</p><a href="https://twitter.com/mindaoyang/status/1635102369146114049">内容来源</a><p><strong>Dankrad Feist：</strong>如果硅谷银行的存款像 RAI 一样工作，并且是浮动的，会怎么样？让我们看看 「SVAI」会发生什么。第 1 步：投资者发现债券期限的不匹配，一些人想退出；第 2 步：SVAI 卖家推动价格下跌；第 3 步：SVAI 的赎回率进行调整。持有 SVAI 的人将获得更高的未来赎回价格。第 4 步：现在，赎回者将有一个新的权衡需要考虑。现在以折扣价赎回，还是以后以（可能的）利率收益赎回。危机停止？【原文为英文】</p><a href="https://twitter.com/dankrad/status/1634616283726598147">内容来源</a><p><strong>0xLoki：</strong>Circle 暴雷的风险几乎为 0，但对于接下来的市场来说，影响才刚刚开始。第一个影响是对市场流动性产生打击，包括 USDC 在内的各类稳定币仍有可能持续流失；第二个是对市场的连环打击，圈外资金观望情绪加剧，项目方和 VC 需要面临更复杂的资金保管问题和更高的成本；第三个是监管和合规市场层面，接下来如何去向监管以及用户讲合规的伟大愿景？</p><a href="https://twitter.com/Loki_Zeng/status/1634925656931962881">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[面对“USDC脱锚危机”，知名大户们是如何操作的？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/t6qyqtcm.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/t6qyqtcm.html"/>
-        <updated>2023-03-13T01:08:23.000Z</updated>
-        <summary type="html"><![CDATA[来源：链上分析师@Lookonchain
-编译：Moni
-
-受到硅谷银行破产影响，美元稳定币 USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中有些人选择恐慌抛售，也有人探底买入。下面就让我们分析一下链上数据，看看在这场“USDC 危机”过程中机构投资者是如何应对 USDC 脱锚的吧。
-1、Jump Trading
-Jump Trading 向 Circle 存入 1.6968 亿枚 USDC；
-2、Wintermute Trading
-Wintermute Trading 向 Circle 存入 270 万枚 USDC，向 Coinbase 存入 2500 万枚 USDC；
-3、Genesis Trading
-Genesis Trading 向 Coinbase 存入 2500 万枚 USDC；
-4、BlockTower Capital
-BlockTower Capital 向 Coinbase 存入 996 万枚 USDC；
-5、Vitalik.eth
-以太坊联合创始人 “V 神” Vitalik Buterin 将 500 枚 ETH 兑换成 400,359 枚 USDC 和 27,179 枚 DAI；
-6、Poap.xyz 创始人 @worthalter
-@worthalter 将 893,439 枚 USDT 和 106,766 枚 BUSD 兑换成 1,081,909 枚 USDC；
-7、孙宇晨
-Justin Sun 通过三个地址将 1.27 亿枚 USDC 兑换成 1.2696 亿枚 DAI。值得一提的是，在本次“USDC 危机”爆发之前，孙宇晨因 HT 市场波动所导致杠杆穿仓损失以及少数用户杠杆清算所造成盘面波动影响宣布将出资 1 亿美元成立流动性基金，并将1 亿枚 USDC 转至 Huobi。
-8、Kyber Ventures
-Kyber Ventures 将 1634 万枚 USDC 兑换为 1634 万枚 USDP；
-9、Chain Capital
-Chain Capital 将 722 万枚 USDC 兑换为 479 万枚 USDP、210 万枚 DAI、以及 42,696 枚 USDT；
-10、Spartan Group
-Spartan Group 将 250 万枚 USDC 兑换为 2,243,537 枚 USDT；
-11、Signum Capital
-Signum Capital 将 2,729,260 枚 USDC 兑换成 2,531,743 枚 USDT；
-12、Infinity Ventures Crypto
-Infinity Ventures Crypto 将 218 万枚 USDC 兑换为 1,277 枚 ETH，约合 184 万美元；
-13、LD Capital
-LD Capital 将 100 万枚 USDC 兑换为 229,956 枚 USDT 和 488 枚 ETH（约合 703,162 美元）；
-14、LedgerPrime
-LedgerPrime 将 616,304 枚 USDC 兑换为 591,033 枚 USDP；
-15、Dokia Capital
-DokiaCapital 将 224,821 枚 USDC 兑换为 137.8 枚 ETH（约合 198,432 美元）；
-16、Alpha Citadel Ventures
-Alpha Citadel Ventures 将 236,903 枚 USDC 兑换为 231,038 枚 USDT。
-
-注：IOSG Ventures 表示，原图中统计的地址非其账户
-概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市时通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 V 神 Poap.xyz 创始人 @worthalter 和 Taureon Capital 则在底部买入了 USDC。
-另一方面，孙宇晨、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
