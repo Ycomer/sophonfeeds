@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T06:42:33.078Z</updated>
+    <updated>2023-03-13T06:47:47.565Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -152,6 +152,42 @@ Circle CEO杰里米·阿莱尔：
 根据此前的社区提案，此前Alameda于2022年3月从Stargate的社区销售中购买了占STG总供应量10%的代币，并承诺将锁仓至2025年3月，但StargateDAO发现Alameda Research的安全漏洞可能会导致协议拥有的流动性和代币持有人安全性面临“重大威胁，且最近Alameda钱包的链上转移表明，Alameda并没有完全控制其钱包，存在正在非法转移资金的情况。因此社区提议于3月15日重新发行STG代币，以消除Alamada所持代币被非法转移的风险，该提案于2月6日获得投票通过。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost]]></title>
+        <id>https://twitter.com/0xAA_Science/status/1612863848134107138</id>
+        <link href="https://twitter.com/0xAA_Science/status/1612863848134107138"/>
+        <updated>2023-03-13T05:52:04.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>
+<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href="https://twitter.com/0xAA_Science/status/1612863848134107138">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议]]></title>
+        <id>https://twitter.com/poopmandefi/status/1634915107435327488</id>
+        <link href="https://twitter.com/poopmandefi/status/1634915107435327488"/>
+        <updated>2023-03-13T05:49:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>
+<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href="https://twitter.com/poopmandefi/status/1634915107435327488">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】对冲挂钩资产风险的协议 Y2K Finance]]></title>
+        <id>https://twitter.com/ArbiAlpha/status/1634615208848281603</id>
+        <link href="https://twitter.com/ArbiAlpha/status/1634615208848281603"/>
+        <updated>2023-03-13T05:49:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>
+<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9531,30 +9567,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】Gearbox V2 复盘：现状、评估与改进]]></title>
-        <id>https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6</id>
-        <link href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6"/>
-        <updated>2023-03-08T07:08:27.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 可组合型杠杆协议 Gearbox V2 版本已经运行超 4 个月，团队成员 Mugglesect 总结了 V2 版本当前的重要数据，评估了新版本是否达到预期效果，以及需要在新版本「Codenam」中改进的方面。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6</a></p>
-<p><strong>文章作者：</strong></p><p>mugglesect</p><hr><h3>观点：</h3><p><strong>mugglesect：</strong>Gearbox V2 的目标：1. 在全新的 DeFi 类别中找到初始 PMF；2. 建立一个确保零坏账的风险框架；3. 扩展整体产品。成就：$0 坏账； 0 次紧急停机；75%+ 有机利用率（借款）；USDC、DAI 和 ETH 的 TVL 超过 1 亿美元；大量独立清算人；建立多重风险监控系统；5 份审计报告（ChainSecurity、Sigma Prime、Consensus Diligence、MixBytes）。【原文为英文】</p><a href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">内容来源</a><p><strong>mugglesect：</strong>需要改进的方面：1. 优化杠杆交易的接口和通信；2. 加快对抵押品的支持：增加对 cbETH 和 MIM 的支持，以及 FRAX 借贷池；3. 用户界面和用户体验的改进；4. 尽快转移到链上治理。【原文为英文】</p><a href="https://medium.com/gearbox-protocol/gearbox-v2-evolution-evaluation-and-what-next-feb8c4127af6">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】主权 zk-rollups 如何实现快速最终性]]></title>
-        <id>https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y</id>
-        <link href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"/>
-        <updated>2023-03-08T07:04:41.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密领域存在广泛误解，认为 zk-rollups 的最终确定时间很长，且主权 rollups 无法与 L1 桥接。Sovereign Labs 解析了主权 zk-rollups 的交易证明机制，及其如何实现快速最终性。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y</a></p>
-<p><strong>文章作者：</strong></p><p>Sovereign</p><hr><h3>观点：</h3><p><strong>Sovereign：</strong>对于大多数 zk-rollup，最大的开支之一是证明验证。太坊上的 rollup 可能会花费 300k 到 5m gas 来验证单个证明，因此当前大多数 zk-rollup 在提交证明之前会等待积累大量交易来降低每笔交易的成本。这带来了糟糕的用户体验。【原文为英文】</p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">内容来源</a><p><strong>Sovereign：</strong>解决方案：实时创建证明，使用递归将它们聚合成批量证明，然后通过 p2p 网络立即分发增量证明，轻客户端就会体验到快速的最终性。由于仍然只是在链上发布较慢的批量证明，因此不必再支付额外的链上验证费用。【原文为英文】</p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">内容来源</a><p><strong>Sovereign：</strong>如何选择一个规范的分叉？通过将 calldata 绑定回 L1 区块头，我们可以添加一条声明「我已经扫描了 DA 层的证明（从区块 X 开始到区块 Y 结束），并且这个证明建立在最近的有效证明之上」。这让我们可以直接证明分叉选择规则，而不是在客户端强制执行。【原文为英文】</p><a href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文】主权 zk-rollups 如何实现快速最终性]]></title>
         <id>https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y</id>
         <link href="https://mirror.xyz/sovlabs.eth/Hwe-6x6MTUjvpuTuuwIoN2E8lgpg1euDnn_vZgwoH0Y"/>
@@ -9587,18 +9599,6 @@ Nethermind 发现了有少量坏块，但与上海升级的代码无关。开发
 EIP-6046：用 DEACTIVATE 取代 SELFDESTRUCT (https://eips.ethereum.org/EIPS/eip-6046)。6046 聪明的地方在于它使用 nonce 来标记被“ SELFDESTRUCT”的合约，然后允许在相同地址上重新部署。不好的地方在于，它并不清理存储，这会导致被攻击。随着坎昆升级逐渐成型，开发者们在未来几周/月都会继续探讨这个设计空间。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址]]></title>
-        <id>https://twitter.com/PeckShieldAlert/status/1633331896083181570</id>
-        <link href="https://twitter.com/PeckShieldAlert/status/1633331896083181570"/>
-        <updated>2023-03-08T06:56:33.000Z</updated>
-        <summary type="html"><![CDATA[<h3>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</h3>
-<p>据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。</p>
-<p><a href="https://twitter.com/PeckShieldAlert/status/1633331896083181570">内容来源</a></p><hr><h3>观点：</h3><p><strong>glassnode：</strong>约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】</p><a href="https://twitter.com/glassnode/status/1633243962457878538">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
