@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -107,7 +107,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Perpy 是允许交易者复制交易的永续 DEX ，加密研究员 ASH 撰推对 Perpy 进行技术概述，并分析其创新之处及竞争优势，解读其代币经济模型，认为 Perpy 可能成为 Arbitrum 上对游戏规则改变者。其将于 3 月 16 日公开发售。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">https://twitter.com/fameaim53/status/1634603436460347393</a></p>\n<p><strong>文章作者：</strong></p><p>ASH</p><hr><h3>观点：</h3><p><strong>ASH：</strong>Perpy 的复制交易解决方案通过智能合约直接链接到 GMX，允许用户复制最成功的 GMX 交易者，并允许用户通过其追随者的绩效费将交易技巧货币化。Perypy 的用户在存款后会收到 ERC-20 合约形式的等量股份，作为存款记录，金库还控制费用的分配并通过股票监控交易者的表现。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>创新之处：1）无资金锁定，用户可以随时进入和退出金库。2）金库具有弹性，旨在复制其创建者的交易。3）智能交易引擎。协议费用：交易者在其交易金库中收取 10% 至 50% 的绩效费用，Perpy 则保留 DAO 利润的 20%。交易退出费用：1）金库没有正在进行的交易，费用为 0.3%；2）交易正在进行时，减小交易规模，费用为 1.5%；关闭交易，费用则为 5%。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>其原生代币 $PRY 硬顶为 10 亿个，并具有随时间推移的通缩机制。$PRY 具有不同用例：1）真实收益；2）交易费用回扣；3）治理；4）Lens 集成；5）金库广告；6）优先访问 2.0 金库。Perpy 优势在于：1）非托管、智能且以所有者为中心；2）完全上链和去中心化；3）为 Perpy 提供燃料的协议是无许可的；4）基于金库的方法提供了多种类型策略。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a>",
           "link": "https://twitter.com/fameaim53/status/1634603436460347393",
           "publishedOn": "2023-03-13T03:48:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Arbitrum 的下一颗「宝石」？一文详解可复制交易的永续 DEX：Perpy",
           "imageUrl": null
         },
@@ -117,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1718,
+          "wordCount": 1706,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -137,7 +137,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17684,
+          "wordCount": 17623,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -317,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26625,
+          "wordCount": 26601,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -357,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Circle 宣布约 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行中，一时间引发了市场对于 Circle 暴雷的恐慌。加密研究员 0xLoki 在对 Circle 储备资产及估值进行分析后，认为 Circle 出问题的概率极低。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">https://twitter.com/Loki_Zeng/status/1634410350505508864</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>Circle 储备资产分为三个部分：324 亿美元国债组合、33 亿在 SVB 中及存在 SVB 以外银行的 78 亿。其国债组合具备充足流动性，即使被迫贴现也不会受到太大损失。此外，SVB 的情况和当时 FTX 的情况完全不同，SVB 这些贷款中的大部分还是可以收回的，43% 的极端情况发生的概率很低很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>SVB 以外银行的 78 亿我们在官方也找到了相关信息披露，可以看出除了 SVB 和 Silvergate 以外，Signatures Bank 等三家银行同样不能让我们放心。考虑到 BNYM 是 Circle 首选银行，保守估计下，BAYM 资金占 35%，剩下四家每家 10%，悲观一点，如果有风险的三家都出问题，回收率按 80% 计算，Circle 总损失是 20 亿美元左右。合理一点，Circle 在 SVB 中损失 7 亿美元左右，最极端的情况是 SVB 中损失 33 亿且剩余三家中共计 50 亿无法收回，但概率很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>但根据 Circle 估值，7 至 20 亿美元的损失对 Circle 来 说并不是太大的问题。USDC 真正暴雷需要满足三个条件：1）存在 SVB 和三家中风险银行的资金足够多；2）这些银行的债务回收率足够低；3）USDC 自己无法承担损失或者无法找到资金支持方来解决问题。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a>",
           "link": "https://twitter.com/Loki_Zeng/status/1634410350505508864",
           "publishedOn": "2023-03-11T05:14:43.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】 硅谷银行倒闭，会成为 Circle 暴雷导火索吗？",
           "imageUrl": null
         },
@@ -377,7 +377,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1634385755593383936",
           "publishedOn": "2023-03-11T04:05:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？",
           "imageUrl": null
         },
@@ -387,7 +387,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20752,
+          "wordCount": 20754,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管市场条件不佳，游戏和 NFT 项目在 2023 从 a16z crypto、Google Ventures 等主要加密货币公司筹集了超过 10 亿美元资金。加密研究员 Emperor Osmo 盘点了 2023 年主要 Web3 游戏和 NFT 项目的融资情况，并从用户和游戏开发商角度，总结了 3 个看好该行业发展的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">https://twitter.com/flowslikeosmo/status/1634011217097269254</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>原因 1：庞大的用户基数。视频游戏拥有最大、发展最迅速的社区之一。游戏玩家在他们的技术知识方面具有战略性和悟性，当涉及到像 NFT 这样复杂的新技术时，他们会迅速学习。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 2：尚未开发的资源。一个由不可替代的代币驱动的去中心化经济。游戏开发者可以从中受益，从转卖中获得佣金，从其他平台获得收入分享，以及在市场上的用户中提高知名度。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 3：玩家的权力。通过「投资」时间，拥有网络的一部分。Web3 游戏和 NFT 项目允许玩家将游戏与区块链提供的效率相结合，从而引入更高级别的参与和所有权。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a>",
           "link": "https://twitter.com/flowslikeosmo/status/1634011217097269254",
           "publishedOn": "2023-03-10T12:17:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Web3 游戏受到资本推崇的三个原因",
           "imageUrl": null
         },
@@ -577,7 +577,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<h3>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</h3>\n<p>Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。</p>\n<p><a href=\"https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw\">内容来源</a></p><hr>",
           "link": "https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw",
           "publishedOn": "2023-03-10T04:15:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">https://twitter.com/0x_irisl/status/1633842976169558024</a></p>\n<p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a>",
           "link": "https://twitter.com/0x_irisl/status/1633842976169558024",
           "publishedOn": "2023-03-10T03:52:45.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考",
           "imageUrl": null
         },
@@ -717,7 +717,7 @@
           "description": "<h3>Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元</h3>\n<p>据 Decrypt 报道，Block.one 表示在 Silvergate 近期宣布无法按时向美国证券交易委员会提交年度报告并表示将关闭 SEN 网络之后，Block.one 退出了其股权头寸，出售了其在 Silvergate Bank 的所有股权。据提交给美国证券交易委员会的文件，到去年年底，Block.one 首席执行官布伦丹・布鲁默 (Brendan Blumer) 及其公司持有 Silvergate Bank 9.9% 的股份，当时价值约 9500 万美元。截至 Block.one 表示退出其股权时，Silvergate 的股价收于 5.69 美元，Block.one 的头寸价值约为 1800 万美元，这意味着 Blumer 和 Block.one 在该投资上损失了大约 8300 万美元。</p>\n<p><a href=\"https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake\">内容来源</a></p><hr>",
           "link": "https://decrypt.co/123114/peter-thiel-backed-block-one-says-it-sold-off-silvergate-stake",
           "publishedOn": "2023-03-10T01:33:57.000Z",
-          "wordCount": 7626,
+          "wordCount": 7638,
           "title": "Block.one 已退出 Silvergate 股权头寸，损失约 8300 万美元",
           "imageUrl": "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/03/Silvergate-shutterstock_2120685773-16x9-1-gID_2.jpg@png"
         },
@@ -747,7 +747,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 1017,
+          "wordCount": 1011,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -797,7 +797,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nervina Labs 首席执行官 cipherw 发推特阐述其认为多方计算（MPC）钱包的缺陷：存在严重安全风险且并未解决单点故障问题。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">https://twitter.com/crypcipher/status/1633289822113796097</a></p>\n<p><strong>文章作者：</strong></p><p>crypcipher（Nervina Labs 首席执行官）</p><hr><h3>观点：</h3><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>1）MPC 引入并忽视了更严重的安全风险。虽然 MPC 将用户从私钥管理中解放出来，但其密钥管理依赖于 HSM 或云服务器，很容易出现大量不可恢复故障；2）MPC 钱包始终没有解决单点故障问题。即使密钥共享服务器是分开的，但仍由同一个解决方案提供商运营和维护。这意味着，如果服务提供商关闭，所有的用户账户将变得不可用。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>MPC 是一种钱包 SaaS 产品，兼具 SaaS 的积极和消极方面。虽然终端用户可能不关心去中心化和自主权，但开发者和初创公司却关心，因为他们不能在不可靠的服务上构建应用程序。【原文为英文】</p><a href=\"https://twitter.com/crypcipher/status/1633289822113796097\">内容来源</a>",
           "link": "https://twitter.com/crypcipher/status/1633289822113796097",
           "publishedOn": "2023-03-09T08:24:58.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：为什么 MPC 钱包不可行？",
           "imageUrl": null
         },
@@ -807,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 跨链通信协议（IBC）的基本目的是将独立的区块链相互连接，以信任最小化、安全、可扩展和通用的方式提供区块链的互操作性。加密研究员 pt1mfv 对 IBC 的基本概念、工作原理、用例等方面进行了全面解析，总结出其独到之处。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">https://twitter.com/pt1mfv_/status/1633108786650005508</a></p>\n<p><strong>文章作者：</strong></p><p>pt1mfv</p><hr><h3>观点：</h3><p><strong>pt1mfv：</strong>Cosmos IBC 由两个不同的层组成，传输层（TAO）建立安全连接，并在链间进行数据验证；应用层定义数据如何在链上被打包、分发和解析，可用于建立广泛的跨链应用，包括代币转移、链间账户、链间查询和预言机数据反馈。为保证生态系统安全，IBC 对发送的数据进行验证，以确保接收区块链可以信任它收到的每个数据包。交易默认是有效的，可以在不同区块链系统之间广播，同时保持数据完整性。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a><p><strong>pt1mfv：</strong>自 2021 年 5 月推出以来，IBC 已经连接了 54 条链，包括 Osmosis、Kujira、Cronos 等等。IBC 兼容的链可以是公有或私有的，并且可以相互通信，不用考虑不同的应用程序和验证器集。但为了实现兼容，链必须有一个即时的最终共识层，以及轻客户端功能。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a><p><strong>pt1mfv：</strong>IBC 在设计、用途和性能方面与其他跨链解决方案有许多不同之处。IBC 不定义需要传递什么样的数据；IBC 提供了与链交互的单一接口，避免用户根据个人需求在不同生态系统中转移资产的需要；轻客户端架构提供了安全方面的升级；作为一个通用互操作性协议，「通用性」也是其独特之处。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a>",
           "link": "https://twitter.com/pt1mfv_/status/1633108786650005508",
           "publishedOn": "2023-03-09T08:03:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】详解 Cosmos IBC 模型：互操作性的瑞士军刀",
           "imageUrl": null
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>基于区块链的赌博平台通过 VRF 和 ZK 等技术为玩家提供监管保护和公平环境，或将吸引更多企业进入 Web3。加密货币 KOL Misa 列出了十个有增长指标并被市场相对低估的项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">https://twitter.com/misaflips/status/1633452887509733376</a></p>\n<p><strong>文章作者：</strong></p><p>Misa</p><hr><h3>观点：</h3><p><strong>Misa：</strong>1）Rollbit。该平台集合了赌场、体育博彩、期货、NFT 市场等多项功能。有 100 万注册用户，每天下注 2000 万美元，总下注金额超过 30 亿美元。市值：9500 万。【原文为英文】</p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">内容来源</a><p><strong>Misa：</strong>2）BetFury。提供大量的赌场游戏。与 BFG 代币持有者共享平台收入。有挖矿计划，玩家玩游戏可以获得 BFG 代币。使用 SHA256 技术的可验证公平原则来确保公正。市值：5800 万。【原文为英文】</p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">内容来源</a><p><strong>Misa：</strong>3）Kineko。拥有赌博许可证和 DeFi 整合的在线博彩公司，可以进行赌场和体育博彩。市值：1600 万。【原文为英文】</p><a href=\"https://twitter.com/misaflips/status/1633452887509733376\">内容来源</a>",
           "link": "https://twitter.com/misaflips/status/1633452887509733376",
           "publishedOn": "2023-03-09T07:28:37.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】盘点 10 个有潜力的 GambleFi 项目：Rollbit，BetFury，Kineko...",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>多链 DeFi 管理协议 Instadapp 推出的智能合约钱包 Avocado，支持多网络交易，所有网络的 Gas 以 USDC 形式支持，无需管理多个本地 Gas 代币。加密研究员 Ignas 对其工作原理和重要性进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">https://twitter.com/DefiIgnas/status/1633626328330289152</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Avocado 改变了我们目前与 dApp 的交互方式。Avocado 拥有自己的 RPC，其钱包地址是一个确定性的智能合约，在算法上和你的钱包地址相连，是一个非托管的账户抽象钱包。用户将任何支持的链中的代币发送至该地址后，余额将会出现在 Avocado 网络上。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>在添加 Avocado 时，所有网络 Gas 将以 USDC 形式支持，无需为不同区块链管理不同 Gas 代币。使用 Avocado 进行交易时，需要向相应链签署一个消息，Avocado 将签署的消息转发至相应链上，并在相应链上以原生代币支付 Gas。且用户还可以将任何 dApp 连接至 Avocado 钱包，批准的是来自 Avocado 钱包的交易而不是 dApp 本身。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Avocado 其他关键路线图升级包括 2FA 安全、跨链余额统一、白名单、内置 DeFi 策略及将 Avocado 直接集成到 dApp 的激励计划。Avocado 会额外收取 20% 的 Gas 费，一半费用将流向支持 Avocado 的 dApp，另一半则会导向 INST 国库。此外，团队还将很快推出一个移动应用程序和浏览器扩展程序以进一步改善用户体验。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a>",
           "link": "https://twitter.com/DefiIgnas/status/1633626328330289152",
           "publishedOn": "2023-03-09T06:03:16.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】新项目前瞻 | Instadapp 推出智能合约钱包 Avocado，如何运作？有何创新之处？",
           "imageUrl": null
         },
@@ -907,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>我们目前以 Rollup 为中心的叙事仍然将权利集中在一个安全中心，而 Cosmos 希望建立的以非等级方式进行交互的系统则需要使用网状安全性（Mesh Security ）将去中心化和主权整合至其安全性中。加密研究员 Emperor Osmo 撰文对 Mesh Security 的重要性进行了探索解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Flowslikeosmo/status/1633482756394225667\">https://twitter.com/Flowslikeosmo/status/1633482756394225667</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>目前我们的经济安全模式包括：1）Hub 利用验证器集增加区块大小，但事实上并没有改善链的安全性，且缺乏协同作用；2）碎片化复制安全性，但这涉及到验证器集的子集确保链的安全，可扩展性更高，类似于 Eigenlayer 正在做的事情。但这些方式都忽略了链想要使用自己的质押代币用于价值获取或激励调整。而网状安全性（Mesh Security ）希望实现的目标则是经济和安全联盟的集成。【原文为英文】</p><a href=\"https://twitter.com/Flowslikeosmo/status/1633482756394225667\">内容来源</a><p><strong>Emperor Osmo：</strong>在 Rollup 模式中，L2 用于执行交易，而结算仍然在 L1，这对于在 L1 上创建的项目是有意义的，但并不适合在 L2 上创建的任何项目。我们该如何解决在 L2 上的审查阻力？或许可以考虑链间制裁，通过对交易施加制裁来审查执行恶意行为的链。网状安全性（Mesh Security ）是主权区块链通过经济上的自我利益保障彼此的进化步骤。【原文为英文】</p><a href=\"https://twitter.com/Flowslikeosmo/status/1633482756394225667\">内容来源</a>",
           "link": "https://twitter.com/Flowslikeosmo/status/1633482756394225667",
           "publishedOn": "2023-03-09T03:43:23.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Cosmos 网状安全性解读：主权区块链通过经济自我利益保障安全的演进之路",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<h3>Nansen 推出多链数据访问产品 Nansen Query</h3>\n<p>区块链数据平台 Nansen 宣布推出多链数据访问产品 Nansen Query，允许加密原生团队以编程方式访问策划好的数据集和专业集成，以便为客户、产品和投资用例做出更好的决策。\nNansen Query 基于 Google Cloud 平台构建，可以轻松集成到现有技术堆栈中，为企业提供安全、可靠、高度可扩展的数据管道，能够实时处理百万亿字节的数据。Nansen Query 覆盖了 17 条区块链中 95% 的链上 TVL 和 98% 的稳定币存款，包括比特币、以太坊、BNB Chain、Polygon、Avalanche、Fantom、Solana、Arbitrum、Optimism 和 Tron 等等。</p>\n<p><a href=\"https://twitter.com/nansen_ai/status/1633407437930901506\">内容来源</a></p><hr>",
           "link": "https://twitter.com/nansen_ai/status/1633407437930901506",
           "publishedOn": "2023-03-08T11:36:58.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Nansen 推出多链数据访问产品 Nansen Query",
           "imageUrl": null
         },
@@ -997,7 +997,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Crypto Pragmatist 创始人 Jack Niewold 发文从多链、资本效率、激励重新设计、产品流动性飞轮几方面对 DeFi 3.0 的愿景进行展望。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">https://twitter.com/JackNiewold/status/1632890500188459012</a></p>\n<p><strong>文章作者：</strong></p><p>Jack Niewold</p><hr><h3>观点：</h3><p><strong>Jack Niewold：</strong>多链协议在统一流动性和愿景方面，面临着精力分散、产品使用和流动性被分割的困难，Radiant 解决了这一问题。Radiant V2 允许用户存入本地抵押品（如 Arbitrum 上的 USDC），将 USDC 进行抵押并在新链上借出 ETH，出售成另一种资产。在产品层面上，Radiant 成为了大本营，而不是具体链本身，进而解决了流动性统一问题，更易吸引流动性。【原文为英文】</p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">内容来源</a><p><strong>Jack Niewold：</strong>资本效率方面，Radiant 将借贷和杠杆相结合，解锁了效率。激励重新设计方面的代表是 Solidly Fork。虽然 DeFi 2.0 的 Solidly 有失败的通胀代币模型，但它开创了新的激励设计类型。经过重新设计的 Solidly Fork 找到了协调不同利益相关者群体的方法，Satin Exchange、Velodrome、Thena 和 SolidLizard 等协议都推动了 Solidly Fork 的 TVL 稳步上升。【原文为英文】</p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">内容来源</a><p><strong>Jack Niewold：</strong>产品流动性飞轮将由 GMX 开创。此前，DeFi 1.0 和 2.0 是先发行代币，然后缓慢增加代币供应以激励流动性，DeFi 3.0 则创造出不需要代币激励的模型。GMX 和 Vela Exchange 证明了流动性驱动不需要代币激励，代币用以充当股权。SentimenTrader 和 DefiLlama 也证明了没有代币激励也可以拥有巨大的用户量。用户而不是协议支付流动性的模型使代币持有者能够坐享收益，更加可持续。【原文为英文】</p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">内容来源</a>",
           "link": "https://twitter.com/JackNiewold/status/1632890500188459012",
           "publishedOn": "2023-03-08T11:02:30.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】DeFi 3.0 会是什么样子？哪些加密项目将引领潮流？",
           "imageUrl": null
         },
@@ -3404,7 +3404,7 @@
           "description": "原文：《Volitions：在ZK-rollup和Validium之间做选择的零知识证明方案》\n作者：Chloe\n目前以太坊基于零知识证明的扩容方案是ZK-rollup，但其实还有另外两种解决方案——Validium和Volitions。\n本文简单介绍以上3种基于零知识证明的扩容方案。\n\nZK rollup\nZK-rollup的运作简单来说是将多笔交易打包在一起，发布到L1上，同时发布一个证明（用零知识证明技术）来声称这些交易有效，一旦在L1上验证确实有效，那么zk-rollup的状态就会更新。\n这套证明机制也被称作「有效性证明」，目前ZK-rollup主要采用的证明机制是zkSNARK和zkSTARK。\n尤其是zk-SNARK应用最为广泛，而zk-SNARK则是它的改进版，目前使用者并不多。\nzk-SNARK即zero-knowledge succinct non-interactive argument on knowledge（简洁非交互式零知识证明），是一种文件很小且很容易验证的加密证明，而简洁jiu就在于非交互式。\n传统方案是交互式证明，即示证者和验证者之间反复确认。你可以理解为示证者不断向验证者询问“是或不是？”，然后验证者不断给出回答，直到最后碰出一个正确答案来，所以效率很低。\n而SNARK的解决方案是提前先搞一个“可信初始化”，从而生成公共参考字符串（CRS），这样所有的示证者直接访问它就可以了。你可以理解为有一个标准答案，示证者就像批改试卷那样去验证。\n但SNARK提前生成公共参考字符串提高了效率，但也留下了隐患——万一公共参考字符串泄漏了呢？于是就催生出了STARK。\nSTARK是交互式证明，但它是一种巧妙的交互式证明——通过哈希函数碰撞（一种概率证明的方式）来保证安全性，因此也比较高效（但还是没有SNARK高效）。\nZK-rollup是将交易分批发送到L1上去执行，是一种无需信任的「自定义安全性」。\nValidiums则是直接在链下执行，并通过零知识证明来维护数据，只有需要的时候才在主网上验证取款请求的有效性证明。\n所以Validiums可扩展性要高于ZK-rollup（目前最高的TPS可以达到20000以上），但它是把信任交给链外第三方的「弱信任扩容」，会被攻击导致数据不可用或者用户无法取出资金。\n解决安全的方式是采用PoS机制，用经济激励来确保数据储存在各个节点之中并且随时可用。\n目前采用Validiums方案的代表项目是Immutable X，以NFT为中心的扩展解决方案。\nVitalik认为Validiums其实被严重低估，因为大多数Dapp用Validiums就已经可以满足运行需求了。\nStarkWare团队结合ZK-rollup和validium，创造性地推出了Volitions方案，顾名思义是关于「决断能力」。\nVolitions方案本质上是同时提供ZK-rollup和validium这两种服务，它们共享同一个状态根（state root），用户可以自行选择每笔交易的DA模式。即便Validium那部分被攻破，ZK-rollup上的资金仍然安全。\n用户就可以在涉及重要资金往来时选择ZK-rollup模式，共享以太坊的安全性，如果是日常娱乐、社交或者小额交易，自然选择Validium模式来提高速度并节省成本。\n以太坊扩容战争还在刚开始，目前占据优势的是Optimistic rollups阵营，它们可以做到EVM兼容甚至完全等效，另外社区运营能力也非常强劲。\nZK-rollup落于下风很大程度上是因为一开始就要定制VM，这意味着来自EVM的代码要从头开始编写（虽然难度已经越来越低了）。\n不过长远来看，相比于Optimistic rollups，ZK rollups具有内置的隐私和安全优势，未来实现EVM兼容性，很可能胜过Optimistic rollups。\n而且可以在ZK-rollup和validium之间做决断的Volitions方案，也不失为一种兼顾了各种场景的解决方案。",
           "link": "https://www.panewslab.com/zh/articledetails/xmrr3xey.html",
           "publishedOn": "2023-03-13T04:00:15.000Z",
-          "wordCount": 1197,
+          "wordCount": 1203,
           "title": "浅析3种ZK扩容方案：ZK-rollup、Validium和Volitions",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/13/images/B5qnQ8826U.jfif"
         },
