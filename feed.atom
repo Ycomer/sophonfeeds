@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T13:48:30.066Z</updated>
+    <updated>2023-03-13T13:53:41.256Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -272,6 +272,18 @@ CryptoCompare近日发布的交易所月度报告显示，币安的现货市场�
         <summary type="html"><![CDATA[PANews 3月13日消息，据blockonomi报道，Web3游戏平台Moxy宣布已完成超1000万美元融资，Shima Capital、Polygon、MetaTope和GSR等投资方参投。Moxy基于FLOW区块链驱动的Web3游戏平台通过去中心化、安全且稳定的方式帮助包括电竞选手和其他玩家参与游戏并获得激励，同时还能让游戏开发者无缝创建基于游戏资产的NFT以推动电竞大众化，此外Moxy还使用统一数字钱包参与游戏生态让玩家存储加密货币和NFT，据悉Nolan Bushnell（Atari创始人）、Lawrence Siegel（世嘉欧洲总裁）和Tony Bickley（世嘉欧洲游戏主管）已加入Moxy团队。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在激励层做文章，了解 Merkl 如何在 Uniswap V3 上搭建新的激励范式]]></title>
+        <id>https://www.theblockbeats.info/news/35516</id>
+        <link href="https://www.theblockbeats.info/news/35516"/>
+        <updated>2023-03-13T12:51:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>超额抵押稳定币协议 Angle 推出激励 Uniswap V3 类型流动性资金的机制平台。BlockBeats 作者 Jaleel 对其运行机制、费用结构、LP 及项目方如何使用 Merkl 分配和领取激励进行介绍。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35516">https://www.theblockbeats.info/news/35516</a></p>
+<p><strong>文章作者：</strong></p><p>Jaleel</p><hr><h3>观点：</h3><p><strong>Jaleel：</strong>Merkl 是一个激励 Uniswap V3 类型流动性资金的机制平台，Uniswap V3 上的 LPs 和其他类型具有集中流动性的 AMM 可从一个或多个池中的激励者（incentivizors）处获得补偿。激励者在分配奖励方面享有极大灵活性：可以选择对提供更多单一代币流动性的 LPs 进行更多奖励，或更多奖励设定紧密范围并从其位置获得更多交易费用的 LPs。还可以选择是否激励超出范围的流动性，或是否让某些特定代币持有者获得加强奖励。</p><a href="https://www.theblockbeats.info/news/35516">内容来源</a><p><strong>Jaleel：</strong>使用 Merkl 无需承担任何资金风险，也不需要 LPs 执行任何特定智能合约交互：他们可以保留流动性，同时仍然获得奖励。还可以自定义自己的仓位，从而最大化从费用和激励中获得的收益，享受 AMMs 集中流动性类型所提供的所有可能性。Merkl 对激励收取低维护费用。除了领取奖励时消耗的 gas 外，LPs 没有任何成本。</p><a href="https://www.theblockbeats.info/news/35516">内容来源</a><p><strong>Jaleel：</strong>Merkl 基于一个非链脚本，可在给定链上查看受激励的池的数据，为所有这些池的利益相关者计算奖励。基于此，脚本将所有奖励分配数据聚合到一个 Merkle 树中，然后压缩为 Merkle 根，推送到链上，以允许 LPs 获取其奖励。该脚本每次定期运行，并每次固定时间段。这意味着每次运行脚本时，它只查看与此特定时间段相关的链上数据。</p><a href="https://www.theblockbeats.info/news/35516">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
