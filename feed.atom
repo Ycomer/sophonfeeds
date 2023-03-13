@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T09:29:59.730Z</updated>
+    <updated>2023-03-13T09:35:36.623Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[借贷协议Euler Finance疑似遭到攻击，损失约为1.75亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/d97o2ke0.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/d97o2ke0.html"/>
+        <updated>2023-03-13T09:28:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，独立安全研究员CIA Officer在推特上表示，据安全团队BlockSec监测，DeFi借贷协议Euler Finance疑似遭到攻击，目前已有889万枚DAI和8080枚WETH被盗。另有人称，大约损失为1.75亿美元。黑客地址为：0xb66cd966670d962c227b3eaba30a872dbfb995db。
+相关阅读：一文读懂Euler Finance：支持高风险资产的下一代DeFi借贷协议]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[借贷协议Euler Finance疑似遭到攻击，损失约为1.75亿美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/d97o2ke0.html</id>
@@ -44,6 +55,100 @@
 基础设施项目将在下一个周期中建立，通过结合玩家链上和链下数据，帮助 Web3 游戏更好地了解自己的玩家，帮助游戏了解其广告活动的有效性和 RoAS（广告支出回报率）。
 本文提到了 Web3 游戏具有高风险的特点，但也存在着无法达到投资者预期的风险。未来的几个趋势包括注重游戏的可玩性、顶级IP拥有成熟的市场、多元化的投资偏好、游戏基础设施得到重视以及付费广告应用于Web3 游戏中。
 未来的 Web3 游戏还是需要经验丰富的开发团队和高要求的运行质量！]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[对Web3游戏现状的思考及趋势预测]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/85f9eqx5.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/85f9eqx5.html"/>
+        <updated>2023-03-13T09:28:22.000Z</updated>
+        <summary type="html"><![CDATA[作者：Ben
+编译：Biteye 核心贡献者 Crush
+我在 2021 年底和 2022 年初花了大部分时间来研究 Web3 游戏风投。以下是一些关于 Web3 游戏的思考，以及我的观点是如何随着时间的推移而改变的。
+与Web2游戏类似，Web3游戏的风险投资回报也有肥尾效应——投资者要么获得超额利润，要么遭受大量损失。
+这也是为什么投资于单一IP是高风险的。你只有一次机会来使它成功。
+（译者注：Fat-tail returns，又称肥尾回报，通常用于描述资产价格波动性的极端事件，即那些具有低概率但高影响力的事件。例如，股票市场中的突然暴跌或者暴涨、汇率市场中的外汇大幅贬值或升值等。）
+虽然近期对 Web3 游戏的投资大幅放缓，但我们仍然发现许多美国工作室从专门的游戏基金中筹集了 2000 万至 3000 万美元的种子轮资金。这些团队都曾获得过一线链游工作室的青睐，如 Activision Blizzard，Riot Games 等等，投资者更倾向于选择有开发经验的团队。
+
+这么做是正确的，因为 Web3 游戏具有以下特点：
+
+顶级游戏通常有 12 个月的生命周期。考虑到代币通常有 3-4 年解锁期，等到投资者的代币开始解锁时，价格可能会出现大幅下滑，低于他们的心理预期。
+游戏通过可玩性来吸引用户，这可能会导致向 AAA 游戏转变。对于没有任何过往记录的早期创业者来说，融资也变得更加困难。
+从本质上讲，Web3 游戏是一种娱乐产品，成熟的市场历来对这些产品具有巨大的影响力，因为其具有软实力和先发优势。
+投资者将专注于投资多元化的工作室而非单款游戏，以此来降低风险并增加游戏成功的几率。
+投资多元化的工作室可能需要投资者适应股权投资，但是根据投资结构，投资者也会获得相应的代币，以参与工作室未来发布的游戏，并获得相应的收益。
+（译者注：这里的多元化工作室指的是一个游戏开发工作室开发和发行多个游戏，而不是仅仅依赖于单个游戏知识产权，这样可以降低因为单个游戏的不成功而导致的经济风险。）
+游戏基础设施将构成该行业投资策略的重要组成部分 - 投资者可以在不承担任何多个或单个游戏风险的情况下接触到整个行业。
+游戏基础设施可能采取游戏区块链、SDK 和游戏分发平台等形式。
+我认为这些游戏基础设施平台的成功将取决于由谁构建它们，比如具有大量游戏知识产权库的游戏工作室进入了这些平台后，自然而然地就能够推动平台的使用。
+除了 Web3 常见的 P2E（Play-to-earn，边玩边赚），我们将看到更多传统的用户获取策略，例如带有用户层面指标（用户终身价值、用户获取成本、用户平均收益、用户流失）的付费广告将越来越多地用于 Web3 游戏。
+基础设施项目将在下一个周期中建立，通过结合玩家链上和链下数据，帮助 Web3 游戏更好地了解自己的玩家，帮助游戏了解其广告活动的有效性和 RoAS（广告支出回报率）。
+本文提到了 Web3 游戏具有高风险的特点，但也存在着无法达到投资者预期的风险。未来的几个趋势包括注重游戏的可玩性、顶级IP拥有成熟的市场、多元化的投资偏好、游戏基础设施得到重视以及付费广告应用于Web3 游戏中。
+未来的 Web3 游戏还是需要经验丰富的开发团队和高要求的运行质量！]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三家加密友好银行倒下，美国还剩下哪些加密友好型银行？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/hrxwhmq6.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/hrxwhmq6.html"/>
+        <updated>2023-03-13T09:23:36.000Z</updated>
+        <summary type="html"><![CDATA[每个3·12都值得加密世界纪念。
+上周三，Silvergate Capital宣布结束运营并进行最终清算；上周五，SVB（硅谷银行）在遭受420亿美元挤兑后宣布倒闭；而在3月12日，Signature Bank被监管部门直接关闭。
+受此一连串的暴击，比特币最低跌到2万美元以下，而USDC遭受短暂“脱锚”波动，在紧急救市措施出台后，目前整体市场已经回暖，但更严峻的考验已经到来。
+越来越多的银行会在市场波动和监管趋紧的双重逼迫下远离加密市场，作为出入金的重要通道，目前美国有哪些加密友好型银行？
+美国曾一度是对加密银行最为宽容的经济体，The Block曾在2020年总结了一份加密友好型银行名单，其中既有摩根大通这样的顶级银行，也有Silvergate Capital和Signature Bank这种传统意义上的社区零售银行。
+
+但是FTX的崩溃改变了一切，2023年1月份，美国三个银行业监管部门，美联储、货币监理署（OCC）和联邦存款保险公司（FDIC）联合发表了一份声明，希望银行最好不要参与加密相关业务，并且严格审查各项业务的合规性。
+在此背景下，多个跟加密业务，尤其是FTX关系密切的银行选择退出加密市场。
+•摩根大通
+摩根大通自身推出了Onyx系统，该系统允许多银行、多货币资产在许可的分布式账本上进行即时转移和清算。2022年2月，摩根大通上线Decentraland，成为第一家在元宇宙中设置服务的银行，此外，还专注于提供加密货币支付服务，如加密货币支付处理、区块链技术解决方案等。
+然而，在2023年3月，摩根大通公司宣布断绝与加密货币交易所Gemini的关系，其后Gemini否认这一说法。而Coinbase也表示将继续和摩根大通合作。
+•Metropolitan Bank Holding Corp
+2023年1月9日选择完全退出加密市场，加密业务占营业收入的 1.5%，加密存款占总存款的 6%，在 2023 年将会结束和最后四个加密客户的业务关系。
+自 2019 年以来，Metropolitan Bank宣称没有吸引新的加密货币客户，但希望保留现有加密货币客户的存款，而在监管文件下发后，预期会彻底退出加密市场。
+•Moonstone Bank（Farmington State Bank）
+截至2023年1月，该银行大约有几十个加密货币客户，所有的加密账户已经被事实上关闭。
+一年前，2022 年 1 月 Moonstone从SBF的 Alameda Research 获得了 1150 万美元的投资。在巴哈马，清算人发现 Moonstone 在两个账户中持有近 5000 万美元的 FTX 存款，目前这些资金的状况不明。根据巴哈马清算人2022年12 月提交的一项动议，Moonstone 的高管拒绝向调查人员提供有关账户的详细信息。
+目前，Moonstone宣布“正在回归其作为社区银行的最初使命，并停止追求创新驱动的商业模式，不再为加密行业提供银行服务。”
+•Provident Bank
+该银行负责加密业务的主体是BankProv，其涉及加密领域的业务方向主要是矿业，为加密企业提供使用存款、贷款、电汇和 ACH 转账、实时支付和远程存款等服务。此外，通过初创公司 Treasury Prime 为加密企业提供 API 连接BankProv。
+截止2022年末，其加密矿业贷款组合减少至4120万美元，或者下降50%，2022年Q3季度亏损为2750万美元，因此BankProv将逐步退出加密矿业贷款业务。
+•Evolve Bank & Trust
+在FTX的“牵连”之外，BlockFi也对Evolve Bank & Trust造成了严重伤害。Evolve 之前为 BlockFi 的客户发行信用卡，并且对 FTX 有一定的风险敞口。
+Evolve自述没有向FTX或其附属机构提供贷款服务，Evolve也没有对加密货币进行过投资或交易行为。
+在以上四家意志不坚定的银行之外，还依然存在数家和加密行业共进退的真友好银行。
+•The Bank of New York Mellon（纽约梅隆银行）
+纽约梅隆银行是世界上最大的资产托管机构，目前保管超过43万亿传统资产，日清算额在2万亿美元以上，并且是美国政府债券的独家结算代理商。
+2022年3月，稳定币USDC发行商选择纽约梅隆银行作为托管方，在Signature关闭后，Circle将使用纽约梅隆银行进行结算。
+•Customers Bank
+Customers Bank 使用其自研的 CBIT 代币在客户之间交换美元现金。 CBIT代币可以与 TassatPay 支付平台结合使用，是一种基于区块链技术的B2B即时转账系统。
+得益于区块链交易的实时性和安全性，银行可以吸收受益于大量低成本存款，提供巨大的流动性和扩大的净息差，以推动积极的贷款增长。该银行在2021年第三季度收益报告中宣布了 15 亿美元的存款来自加密货币业务。
+在FTX事件后，Customers Bank 宣布和FTX或任何关联公司均无存款或其他业务往来，也没有向机密行业内的任何客户提供贷款。
+在SVB和Sinagture Bank纷纷倒闭后，USDC发行方Circle依然在Customers Bank 存放有部分储备金。
+•Cross River Bank
+2022年4月，Cross River Bank 完成由a16z领投的 6.2 亿美元融资。其主要业务模块为BaaS（Banking as a Service，银行即服务）。BaaS 组件涵盖支付，其中包括刷卡、账户转账和实时支付。可以为活期存款账户、储蓄账户以及信用卡和借记卡提供服务。
+Coinbase和Circle均是其客户，Circle是在SVB之后，宣布2023年3月13日开始，Cross River Bank为客户提供铸造和赎回USDC的服务。
+•Pathward
+跟Cross River Bank类似，也是提供BaaS（银行即服务）的银行，跟Coinbase合作较为紧密，也是Coinbase Card的合作发行商，为其提供信用卡发行相关服务。
+Pathward也是FDIC注册银行，为客户提供25万美元以下的存款保险服务。
+在直接为加密企业或客户提供服务的银行外，还存在着一种特殊的银行体系，用间接或者和合作的方式接触加密企业。
+•FirstFoundation Bank
+First Foundation Bank 与NYDIG 合作，允许用户通过应用程序进行比特币交易，客户可以购买、出售和持有比特币。但客户并不真正拥有任何特定的、链上的、可识别的比特币，而是反映在个人NYDIG 比特币账户中的特定数量和权益。
+同时，NYDIG 将所有客户比特币销售的资金转给银行，银行比特币销售收益存入您选择的First Foundation Bank 个人账户，以完成交易。
+•Sutton Bank
+Sutton发行支持CashApp和预付卡（Prepaid Card），以此来间接支持加密服务。但官方说明，Sutton Bank只是作为卡发行方，用户可以自行使用CashApp来使用卡内资金，但是任何APP内资金历史记录都无法通过网银账户查询。
+而关于Robinhood的借记卡（Debit Card），Sutton不承担任何客户支持功能，完全由Rboinhood自行设置用卡协议。
+•Quontic Bank
+Quontic Bank将比特币作为刷卡满额的返利奖励形式，用户最低存款要求为500美元，将会把每次进行的消费金额的1.5% 以美元计价的比特币作为奖励累积。但是ATM 取款、转账、账单支付、ACH 支付和电汇不会赚取比特币奖励。
+本次银行暴雷，除了影响美国自身银行体系之外，也对其他地区的银行系统也造成了一定的冲击，受限于监管政策，并非所有的银行都可以涉及美元服务，但是总算留了一线希望，其中主要的是欧洲部分银行，尤其是瑞士银行，比如，SEBA和Sygnum这两个主要的加密友好型银行，以及Vontobel、Swissquote等传统大型银行。
+还有一众欧洲小国，比如爱沙尼亚的LHV Pank，斯洛文尼亚的Gorenjska Banka，列支敦士登的Bank Frick，拉脱维亚的BlueOrange Bank。
+以及离岛国家，比如瓦努阿图的PacificPrivate Bank，巴哈马群岛的DeltecBank和Ansbacher。
+总体上，美国的银行业将迎来一次较大范围的转向，2020年OCC（货币监理署）曾经推出支付特许状，允许Kraken/Paxos等加密企业可以进入国家金融体系。
+而在FTX暴雷以及上周的三家银行倒闭后，监管政策已经抢先介入银行体系，未来是否会有银行再次拥抱加密企业，只能拭目以待。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
