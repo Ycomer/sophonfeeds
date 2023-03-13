@@ -2,10 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T03:46:31.621Z</updated>
+    <updated>2023-03-13T03:51:43.713Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[融资周报 | 公开融资事件27起；以太坊扩容项目Scroll以18亿美元估值完成5000万美元融资]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/0lergg9r.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/0lergg9r.html"/>
+        <updated>2023-03-13T03:44:15.000Z</updated>
+        <summary type="html"><![CDATA[本期看点
+据 PANews 不完全统计，上周（3.6-3.12）全球区块链有27起投融资事件，与前一周相比略有减少；融资总规模约2.84亿美元，与前一周相比大幅增加，概览如下:
+下面我们一起来全盘回顾上周的投融资事件。
+以合规为中心的DEX Mauve完成1500万美元融资，Coinbase Ventures等参投
+去中心化金融提供合规和身份基础设施 Violet 推出了以合规为重点的去中心化交易所 Mauve。Coinbase Ventures 和 Brevan Howard 加入了 DEX（Mauve） 的 1500 万美元融资轮。Ethereal Ventures、BlueYard Capital 和 Balderton 是其他支持者。Violet 计划利用筹集的资金加速 Mauve 的全球采用。
+稳定币发行公司Gyroscope完成450万美元种子轮融资，即将推出GYD稳定币
+稳定币加密初创公司 Gyroscope 完成 450 万美元种子轮融资，Placeholder VC 和 Galaxy Ventures 共同领投，Maven 11，Archetype，Robot Ventures，Balancer Labs 联合创始人兼首席执行官 Fernando Martinelli 等参投。Gyroscope 联合创始人 Lewis Gudgeon 表示，该轮融资于 2022 年 1 月结束，现在将其公开，因为该协议的代码库已基本完成，并且正在为全面启动做准备。其稳定币 GYD（gyro dollar）的设计机制采用“全天候储备”，即储备中的一项资产出现问题，只会影响储备的有限部分，而不是全部。
+稳定币发行商ECSA完成300万美元种子前融资，YC等参投
+总部位于巴西的稳定币发行商ECSA筹集了 300 万美元，将主要的套利货币上链。该轮种子前融资得到了包括创业加速器 Y Combinator 和 Arca 在内的投资者的参与。ECSA 将从将巴西雷亚尔上链开始。其 BRLe 稳定币以巴西国库券为抵押，由巴西最大的私营银行 Itau-Unibanco 保管。最近筹集的资金将用于扩大其稳定币在投资者、交易所和支付处理商中的足迹。“BRLe 目前在 Stellar 网络上发行，并且正在以太坊 ERC-20 上发行，”ECSA 的联合创始人 Rodrigo Marino 在新闻稿中说。“ECSA 将提供做市解决方案，以确保 BRLe 的流动性，使其更容易与 USDc 和 USDt 等其他代币互换。”
+\Web3初创公司nealthy完成130万美元pre-seed轮融资
+投资NFT和加密货币的Web3初创公司nealthy宣布完成130万美元pre-seed轮融资，“DonGeraldo”等天使投资人参投。nealthy 的创始人将利用这些资金来发展核心团队、聘请人才并促进销售和发展。nealthy通过区块链技术处理交易并提供指数代币，使投资者能够快速、无忧地进入Web3市场，该指数代币通过存储多种虚拟资产“复制”了传统ETF结构。此外，nealthy还推出了首个动态蓝筹NFT代币“NFTS” ，预计在2023年夏季发布。
+Believer完成5500万美元融资，Lightspeed领投，a16z等参投
+《英雄联盟》母公司Riot Games 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
+Web3足球游戏公司Matchday完成2100万美元种子轮融资，梅西旗下基金Play Time参投
+Web3游戏互动娱乐初创公司Matchday宣布完成2100万美元种子轮融资，梅西旗下基金Play Time参投。Matchday将 Web3 和移动游戏结合起来，创建一套由FIFA授权的足球游戏，Matchday首席游戏官Sebastien de Halleux表示相信真正的所有权对于为游戏玩家创造一系列新体验非常重要，希望将数亿球迷吸引到Web3，该公司预计第一款游戏将在第二季度发布。
+Web3游戏工作室Redemption Games完成700万美元融资，Orange DAO等参投
+Web3游戏工作室Redemption Games宣布完成700万美元新一轮融资，Play Ventures领投，Bitkraft、Merit Circle DAO、Orange DAO、以及一批游戏行业人士参投。Redemption Games是一家从移动游戏开发巨头AppLovin公司剥离出的独立工作室，目前正在利用区块链技术、数字藏品和人工智能解决方案开发能够推向大众市场的游戏，并且将在游戏中加入能在交易所交易的数字资产等Web3元素。
+NFT交易市场Coresky完成600万美元Pre-Seed轮融资
+基于社区的NFT交易市场Coresky宣布完成600万美元Pre-Seed轮融资，PAYSON LEE PRIVATE FOUNDATION领投。Coresky设计了一种全新商业模式，可通过Launchpad经济效用来驱动NFT交易。用户在Coresky Marketplace交易NFT可获得“Ticket”，然后使用Ticket能从Launchpad提供的一级市场资产包中提取NFT，Coresky会根据用户的链上交易行为设计社区会员体系，每一层都有自己的Corecard身份，不同等级的Corecard会定期收到不同数量的平台Ticket。
+Solana生态NFT交易平台Tensor完成300万美元融资
+专注于 Solana 的 NFT 交易平台完成 300 万美元融资，Placeholder 领投，Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。
+以太坊扩容项目Scroll以18亿美元估值完成5000万美元融资
+使用zk-rollups技术的以太坊第2层网络Scroll在新一轮融资中筹集了5000万美元。投资者包括Polychain Capital、红杉中国、OKX Ventures、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures和Qiming Venture Partners。Scroll拒绝就该轮融资的估值和结构发表评论，但一位直接了解此事的消息人士告诉The Block，该轮融资使 Scroll 的估值达到 18 亿美元。
+云基础设施创企Vantage完成2100万美元A轮融资，a16z参投
+云基础设施初创公司Vantage宣布完成2100万美元的A轮融资，由Scale Venture Partners领投，Andreessen Horowitz（a16z）、Harpoon Ventures、CloudFlare首席执行官兼联合创始人Matthew Prince和Glenn Solomon参投。Vantage联合创始人兼首席执行官Ben Schaechter表示，该公司现在帮助其300多家客户管理每年超过10亿美元的云成本。这些客户包括Square、NASA、BuzzFeed、PBS、Ripple、PlanetScale和Barstool Sports等，目前客户总共将10000多个基础设施帐户连接到Vantage。
+加密薪酬合规公司Toku完成2000万美元融资， Blockchain Capital等参投
+加密薪酬合规发放公司Toku完成2000万美元融资， Blockchain Capital、 Orrick、Alchemy、GMJP、OrangeDAO、Reverie、Quantstamp、Next Web Capital、Protocol Labs创始人Juan Benet、Cameron、Tyler Winklevoss等参投。该公司旨在帮助加密公司处理与代币相关的薪酬发放的税法工作，它声称已经在数十个国家创建了一个系统来跟踪与加密相关的税法和法规，目前拥有30家客户，包括Filecoin Foundation、Gitcoin等。
+ZK技术公司Proven完成1580万美元种子轮融资，Framework Ventures领投
+提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，由 Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。Proven 可能希望它可以提供一种替代方法来验证储备证明，并且到目前为止，种子阶段的初创公司将 Coinlist 和 Bitso 等公司视为客户。它希望将交易所、资产管理者和托管人作为潜在客户，并将利用这笔资金扩大其开发团队。
+Web3开发工具提供商Cubist完成700万美元种子轮融资，Polychain Capital领投
+Web3 开发工具提供商 Cubist 在由 Polychain Capital 领投的种子轮融资中获得了 700 万美元，Dao5、Polygon、Amplify Partners 和 Axelar 也参与了此次融资。该轮融资将用于招聘以及扩展和宣传 SDK。
+Web3初创公司Tweed完成400万美元种子轮融资，Accel领投
+Web3即插即用白标钱包和支付解决方案Tweed完成400万美元种子轮融资，Accel领投，Communitas Capital Partners、Zero Knowledge Ventures，Sorare首席执行官Nicolas Julia、前Venmo首席运营官Mike Vaughan、前摩根大通高管Ameet Patel和前SunGard首席执行官Cristóbal Conde等天使投资人参投。
+新加坡科技创企The GrowHub完成300万美元pre-B轮融资
+总部位于新加坡的供应链信任和可追溯性技术提供商 GrowHub 周四宣布，已完成 300 万美元的 Pre-B 轮融资，投资者包括该公司的首席执行官和创始人 Lester Chan。新资金将用于继续构建 The GrowHub 的技术产品，并在其进一步扩展到亚太地区时加强其技术能力。GrowHub能让生产者和企业（比如食品生产公司）使用其专属Web3、NFT和二维码解决方案来追踪消费者行为和模式，还通过其SaaS平台促进透明且可靠的碳信用追踪。
+加密资管公司Aisot Technologies完成约193万美元融资，Haute Capital Partners领投
+基于 AI 的加密资管公司 Aisot Technologies 完成 180 万瑞士法郎（约合 193.52 万美元）种子轮融资，由 Haute Capital Partners 领投，Swiss ICT Investor Club (SICTIC) 和一批天使投资人参投，截至目前该公司融资总金额达到 210 万瑞士法郎（约合 225.77 万美元）。Aisot Technologies 主要帮助用户在股票和加密市场的投资组合提供基于人工智能的分析服务，利用机器学习、数据科学和定量分析让投资者快速适应不断变化的市场条件和投资需求。
+区块链风险解决方案Over-C完成100万英镑股权融资，Ayre Ventures参投
+区块链风险解决方案 Over-C 宣布完成 100 万英镑股权融资，Ayre Ventures 参投。Over-C 通过区块链技术提供可扩展、支持单点故障、时间戳、隐私的风险解决方案。该公司还使用机器学习和物联网提供实时运营风险数据和分析以预测和预防未来潜在发生的风险事件。目前其合作伙伴包括日立（Hitachi）、ScotRail、Eli Lilly、Savills、Munster Rugby 和 Belfast Airport。
+Web3艺术平台Wild完成由Matrix Partners领投的700万美元融资
+Web3 艺术平台 Wild 筹集了由 Matrix Partners 领投的 700 万美元种子资金。女演员格温妮丝·帕特洛 (Gwyneth Paltrow)、领英 (LinkedIn) 联合创始人里德·霍夫曼 (Reid Hoffman) 和 Twitch 联合创始人凯文·林 (Kevin Lin) 也参加了去年年底结束的这一轮融资。这家初创公司将利用这笔资金进一步扩大其驻地并投资于基础设施以为其体验艺术提供动力。无需连接钱包，即可通过浏览器内体验访问 Wild 的许多收藏。
+Web3电子邮箱解决方案EtherMail完成400万美元Pre-A轮融资
+Web3 电子邮件解决方案 EtherMail 完成 400 万美元 Pre-A 轮融资，Tim Draper 和其风险投资公司 Draper Associates 领投，MS&AD Ventures 等参投。Tim Draper 还将加入 EtherMail 的顾问委员会。
+TON生态Launchpad平台Tonstarter完成150万美元种子轮融资
+TON 生态 Launchpad 平台 Tonstarter 完成 150 万美元种子轮融资，投资方包括 Kingsway Capital、Gate.io 以及 DWF Labs 等。Tonstarter 由 TON 生态系统中的风险投资机构 First Stage Labs 孵化。Tonstarter 是 TON 上的主要筹款平台，将支持 TON 生态系统中的广泛项目，包括去中心化金融 (DeFi)、去中心化交易所 (DEX)、非托管钱包、借贷协议、游戏和元宇宙。
+区块链时尚透明度平台tex.tracer完成150万欧元种子轮融资
+区块链时尚透明度平台tex.tracer宣布完成150万欧元种子轮融资，ROM InWest、HearstLab、Joanna Invests、以及一批天使投资人参投。tex.tracer使用区块链技术、时间和地理位置标记、以及点对点审核功能从主要来源收集可靠的验证数据，供应链合作伙伴可以放心上传公司和产品数据，确保企业遵守欧洲EPR、CSRD 和数字产品护照等新规则和法规，其客户包括 MUD Jeans、State of Art、Livera 和 Fabienne Chapot等。
+区块链营销公司Verofax开启75万美元融资，500 Startups等参投
+区块链营销公司 Verofax 将在巴林中央银行许可和监管的 Beban 众筹平台上完成 75 万美元融资。500 Startups、Dubai Angel Investors、Dubai Silicon Oasis、Benson Oak Ventures、Privity FZ LLE 和 Wami Capital 等参投。投资者可以通过 Beban 众筹平台参与 Verofax 的融资，最低投资 100 美元。Verofax 由阿联酋的政府资助项目 MBRIF 和 Hub71 孵化，总部位于阿联酋，在欧洲、北美、亚洲、非洲和中东运营。
+加密税务创企Divly完成40万美元融资，DHS Venture Partners等参投
+据美通社报道，加密税务创企 Divly 宣布完成 40 万美元融资。投资方包括 DHS Venture Partners、Greens Ventures 和 YEoS Ventures。该公司的目标是降低加密税收申报的门槛。自 2022 年 3 月起，Divly 与芬兰最大的虚拟货币服务提供商 Coinmotion 和瑞典最大的加密货币经纪商 Safello 建立了合作关系，拥有约 30 万用户。去年，Divly 还开始与 BYDFi 、 Coingecko 合作。
+Web3超级应用Kresus完成2500万美元A轮融资，Liberty City Ventures领投
+连续创业者、前美国驻奥地利大使 Trevor Traina 为一款名为 Kresus 的 web3 超级应用筹集了 2500 万美元。A 轮融资由 Liberty City Ventures 领投。其他支持者包括 Franklin Templeton、JetBlue Ventures 和 Salesforces 的 Marc Benioff。这些资金将用于继续构建该应用程序，并促进招聘工作和关键合作伙伴关系。Kresus 的网站将这款尚未推出的应用描述为“交易平台、钱包和入门指南”的结合，该公司表示这笔资金将用于继续开发该应用程序，并支持招聘工作和构建关键合作伙伴关系。
+比特币投资应用Relai完成450万美元融资
+比特币投资应用Relai宣布完成450万美元新一轮融资，ego death capital领投，Timechain、Cabrit Capital、Lightning Ventures、Redalpine、Fulgur Ventures参投。自2020年首次进行种子轮融资以来，Relai迄今融资总金额已达到1180万美元。Relai平台允许散户投资者买卖比特币且无需进行额外注册、验证，也没有存款限制，该平台还支持投资者通过非托管比特币钱包完全控制自己的资金。Relai计划利用新资金升级到比特币闪电网络并推出白标产品。
+加密量化交易公司Spield Algorithm完成新一轮融资，BitValue参投
+加密量化交易公司Spield Algorithm宣布完成新一轮融资，Web3投资机构BitValue参投，具体投资金额暂未披露。Spield Algorithm核心团队目前管理价值30亿美元的加密资产，同时还为部分加密公司和CEX担任流动性提供者的角色，其当前资产管理规模超过100亿美元。BitValue对Spield Algorithm的投资也将推动AI量化交易和分析在Web3领域中的应用。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[融资周报 | 公开融资事件27起；以太坊扩容项目Scroll以18亿美元估值完成5000万美元融资]]></title>
         <id>https://www.panewslab.com/zh/articledetails/0lergg9r.html</id>
@@ -102,6 +168,35 @@ Uniswap、Curve Finance、SushiSwap成为市场不确定期间的“大赢家”
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[哪些DEX在“USDC危机”中大赚了一笔？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/tkdfv2w7.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/tkdfv2w7.html"/>
+        <updated>2023-03-13T03:42:03.000Z</updated>
+        <summary type="html"><![CDATA[作者 | Ambcrypto Suzuki Shillsalot
+编译 | PANews
+硅谷银行倒闭导致美元稳定币USDC上周末出现脱锚并一度跌至0.87美元低点，FUD情绪也在加密市场蔓延，不过这一黑天鹅事件造成的影响似乎并没有想象中的那么大，DEX（去中心化交易所）的交易活动和费用收入甚至出现了指数级增长。
+根据DeFiLlama数据显示，3月11日，DEX总交易额飙升至151.2亿美元，创下过去四个月新高，周增长率超过100%，其中Uniswap收取的费用收入也达到了自2022年5月10日以来的最高值，聚合DEX和中心化交易所 (CEX) 交易额比例（该指标反映了DEX的市场主导地位）上升至 26.66%。
+
+Uniswap、Curve Finance、SushiSwap成为市场不确定期间的“大赢家”
+对于加密社区而言，中心化实体的衰落有利于DeFi发展，尤其是在FTX崩溃后，越来越多用户选择放弃中心化交易所而开始探索自我托管，最近因硅谷银行倒闭导致的“USDC危机”更是加速了这一趋势——数据显示，Uniswap、Curve Finance、SushiSwap这些DEX在上周末取得了令人瞩目的增长。
+首先，作为一个专为稳定币兑换而设计的DEX，Curve Finance过去24小时内创下了接近80亿美元的最高单日交易额记录。另据CryptoFees数据显示，由于交易量激增，Curve平台上收取的费用收入也跃升至952,000美元，创下过去四个月以来的新高。
+
+其次是Uniswap，Uniswap也是当前加密市场中交易量最大的DEX之一，USDC脱锚后的24小时内交易额飙升至34.5亿美元，创下过去四个月以来的最佳表现。截至本文撰写时，Uniswap用户支付的交易费用也升至87.5亿美元，触及过去10个月以来高点。
+
+另一个受欢迎的DEX是SushiSwap，USDC危机期间该平台也见证了活跃度激增并成为以太坊巨鲸使用最多的智能合约之一。
+
+不过根据DeFiLlama数据，此前一周SushiSwap的日均交易额并未出现较大幅度增长，本文撰写时过去24小时交易额为5248万美元，反而下降了76.76%。
+
+未来属于DEX和DeFi？
+在过去3-4年里，DEX取得了突飞猛进的发展，Token Terminal披露数据显示，DEX平台的活跃开发者数量一直在稳步增长，说明支持DeFi未来的基本面向好。
+
+另一方面，随着美联储于北京时间3月13日凌晨宣布新的紧急银行定期融资计划并支持硅谷银行储户于当地时间周一动用资金，USDC美元锚定价格出现反弹并上涨到0.995美元区间，已基本恢复美元锚定，其市值也重返400亿美元上方。
+相信在这次危机之后，加密社区将进一步了解到中心化实体的风险，未来势必将会更多地选择DEX和DeFi。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[PA图说 | 一图掌握Polygon上NFT一周关键数据（03.06—03.12）]]></title>
         <id>https://www.panewslab.com/zh/articledetails/1kimxkas.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/1kimxkas.html"/>
@@ -119,6 +214,18 @@ Uniswap、Curve Finance、SushiSwap成为市场不确定期间的“大赢家”
         <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】USDC 严重脱锚，FRAX 如何解绑中心化稳定币？]]></title>
+        <id>https://twitter.com/francescoglt/status/1634929747728932864</id>
+        <link href="https://twitter.com/francescoglt/status/1634929747728932864"/>
+        <updated>2023-03-13T03:24:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>受美国硅谷银行破产影响，USDC 正经历着严重脱锚的危急时刻。FRAX 作为完全由 USDC 作为抵押物的去中心化稳定币该如何应对？加密 KOL Francesco 分析了当前 FRAX 面临的问题，并总结了 FRAX 创始人 Sam 的解决方案。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/francescoglt/status/1634929747728932864">https://twitter.com/francescoglt/status/1634929747728932864</a></p>
+<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>尽管 Frax 将其抵押率提高到了 100%，但当前的 USDC 的严重脱锚证明了 100% 的抵押率也并非完全可靠。因为 Frax 的大部分抵押品由 USDC 组成，Frax 仍然依赖于「代币化法币」敞口。Frax 并没有真正脱离中心化稳定币，并且在市场动荡期间不提供任何额外级别的保护。【原文为英文】</p><a href="https://twitter.com/francescoglt/status/1634929747728932864">内容来源</a><p><strong>francesco：</strong>Frax 创始人 Sam 认为，FRAX 应该只有 1 个 RWA：将美元存入美联储主账户 (FMA)。然而 Frax 作为区块链协议想要获得 FMA 的过程将比传统的大型银行困难得多，对于能否实现这一目标仍然纯粹是猜测。Sam 在 Frax 电报群中提到了不依赖 USDC 的第一步：Frax 可能很快开始直接购买美国国债。【原文为英文】</p><a href="https://twitter.com/francescoglt/status/1634929747728932864">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -456,13 +563,13 @@ CryptoQuant首席执行官Ki Young Ju对此评论称：“不知道美联储和�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金]]></title>
+        <title type="html"><![CDATA[美财政部、美联储和 FDIC 的联合声明：将全额担保硅谷银行和 Signature Bank 储户存款]]></title>
         <id>https://home.treasury.gov/news/press-releases/jy1337</id>
         <link href="https://home.treasury.gov/news/press-releases/jy1337"/>
         <updated>2023-03-13T01:29:46.000Z</updated>
-        <summary type="html"><![CDATA[<h3>美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金</h3>
+        <summary type="html"><![CDATA[<h3>美财政部、美联储和 FDIC 的联合声明：将全额担保硅谷银行和 Signature Bank 储户存款</h3>
 <p>美国财政部长 Janet L. Yellen、美联储主席 Jerome H. Powell 与 FDIC 主席 Martin J. Gruenberg 联合发布声明，自 3 月 13 日星期一开始，硅谷银行储户将可以提取所有现金，与硅谷银行的决议有关的任何损失将不会由纳税人承担。与硅谷银行的决议一样，Signature Bank 的所有存款人也将得到赔付，纳税人无需承担任何损失。股东和某些无担保债务人将不受保护，高管也已被免职。根据法律要求，存款保险基金为支持未投保存款人而遭受的任何损失将通过对银行的特别评估予以弥补。</p>
-<p><a href="https://home.treasury.gov/news/press-releases/jy1337">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jeremy Allaire（Circle 联合创始人兼首席执行官）：</strong>在硅谷银行的存款是 100% 安全的，USDC 流动性操作将在周一早上银行开门时恢复。USDC 储备金也是 100% 安全可靠，Circle 将把剩余现金转移到纽约梅隆银行（BNY Mellon）。由于 Signature 银行关闭之后将无法通过 SigNet 处理铸造和赎回 USDC，Circle 将依靠纽约梅隆银行进行结算。我们最快将于明天引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。【原文为英文】</p><a href="https://twitter.com/jerallaire/status/1635059024050937856">内容来源</a><p><strong>Coinbase：</strong>截至 3 月 10 日星期五营业结束，Coinbase 在 Signature 的公司现金余额约为 2.4 亿美元。所有客户资金仍然安全且可访问，包括将于周一恢复的 USDC 转换。由于 FDIC 暂停了 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1635066151758594048">内容来源</a>]]></summary>
+<p><a href="https://home.treasury.gov/news/press-releases/jy1337">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jeremy Allaire（Circle 联合创始人兼首席执行官）：</strong>在硅谷银行的存款是 100% 安全的，USDC 流动性操作将在周一早上银行开门时恢复。USDC 储备金也是 100% 安全可靠，Circle 将把剩余现金转移到纽约梅隆银行（BNY Mellon）。由于 Signature 银行关闭之后将无法通过 SigNet 处理铸造和赎回 USDC，Circle 将依靠纽约梅隆银行进行结算。我们最快将于明天引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。【原文为英文】</p><a href="https://twitter.com/jerallaire/status/1635059024050937856">内容来源</a><p><strong>Coinbase：</strong>截至 3 月 10 日星期五营业结束，Coinbase 在 Signature 的公司现金余额约为 2.4 亿美元。所有客户资金仍然安全且可访问，包括将于周一恢复的 USDC 转换。由于 FDIC 暂停了 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1635066151758594048">内容来源</a><p><strong>Federal Reserve：</strong>美联储将向符合条件的存款机构提供额外资金，以帮助确保银行有能力满足所有存款人的需求。额外资金将通过创建新的银行定期融资计划（BTFP）提供，向银行、储蓄协会、信用合作社和其他合格的存款机构提供最长一年的贷款，以美国国债、机构债务和抵押贷款支持证券以及其他合格资产为抵押。此外，经财政部长批准，财政部将从外汇稳定基金中提供高达 250 亿美元的资金作为 BTFP 的支持。【原文为英文】</p><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm">内容来源</a><p><strong>Paxos：</strong>Paxos 目前在 Signature Bank 持有 2.5 亿美元，且持有的私人存款保险远超我们的现金余额和 FDIC 对每个账户的限额。所有 Paxos 稳定币储备都是完全支持的，并且可以随时以美元 1:1 的比例赎回给客户。【原文为英文】</p><a href="https://twitter.com/PaxosGlobal/status/1635061720854200320">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>FED 跟财政部的救助是两个事，前者几乎是无限流动性工具 BTFP，后者仅仅象征性出了 250 亿美元而已。因为是纳税人的钱，是几乎不可能用这个钱来救银行的，就是摆那提振信心而已。</p><a href="https://twitter.com/JinzeJiang0x0/status/1635067286267789317">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>USDC 一夜间从青蛙变王子。危机里家底被查的一清二楚，顺势把现金全部搬到 NY Mellon（GSIB，宇宙托管行）。全部 crypto bank 被关闭，短期不会再出现民间稳定币，美元出入金集中到 USDC-Coinbase。这危机怎么看 Coinbase/Circle 都是最大受益者。</p><a href="https://twitter.com/mindaoyang/status/1635102369146114049">内容来源</a><p><strong>Dankrad Feist：</strong>如果硅谷银行的存款像 RAI 一样工作，并且是浮动的，会怎么样？让我们看看 「SVAI」会发生什么。第 1 步：投资者发现债券期限的不匹配，一些人想退出；第 2 步：SVAI 卖家推动价格下跌；第 3 步：SVAI 的赎回率进行调整。持有 SVAI 的人将获得更高的未来赎回价格。第 4 步：现在，赎回者将有一个新的权衡需要考虑。现在以折扣价赎回，还是以后以（可能的）利率收益赎回。危机停止？【原文为英文】</p><a href="https://twitter.com/dankrad/status/1634616283726598147">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
