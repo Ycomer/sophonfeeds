@@ -2,11 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T03:56:51.081Z</updated>
+    <updated>2023-03-13T04:02:46.833Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[浅析3种ZK扩容方案：ZK-rollup、Validium和Volitions]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/xmrr3xey.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/xmrr3xey.html"/>
+        <updated>2023-03-13T04:00:15.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Volitions：在ZK-rollup和Validium之间做选择的零知识证明方案》
+作者：Chloe
+目前以太坊基于零知识证明的扩容方案是ZK-rollup，但其实还有另外两种解决方案——Validium和Volitions。
+本文简单介绍以上3种基于零知识证明的扩容方案。
+
+ZK rollup
+ZK-rollup的运作简单来说是将多笔交易打包在一起，发布到L1上，同时发布一个证明（用零知识证明技术）来声称这些交易有效，一旦在L1上验证确实有效，那么zk-rollup的状态就会更新。
+这套证明机制也被称作「有效性证明」，目前ZK-rollup主要采用的证明机制是zkSNARK和zkSTARK。
+尤其是zk-SNARK应用最为广泛，而zk-SNARK则是它的改进版，目前使用者并不多。
+zk-SNARK即zero-knowledge succinct non-interactive argument on knowledge（简洁非交互式零知识证明），是一种文件很小且很容易验证的加密证明，而简洁jiu就在于非交互式。
+传统方案是交互式证明，即示证者和验证者之间反复确认。你可以理解为示证者不断向验证者询问“是或不是？”，然后验证者不断给出回答，直到最后碰出一个正确答案来，所以效率很低。
+而SNARK的解决方案是提前先搞一个“可信初始化”，从而生成公共参考字符串（CRS），这样所有的示证者直接访问它就可以了。你可以理解为有一个标准答案，示证者就像批改试卷那样去验证。
+但SNARK提前生成公共参考字符串提高了效率，但也留下了隐患——万一公共参考字符串泄漏了呢？于是就催生出了STARK。
+STARK是交互式证明，但它是一种巧妙的交互式证明——通过哈希函数碰撞（一种概率证明的方式）来保证安全性，因此也比较高效（但还是没有SNARK高效）。
+ZK-rollup是将交易分批发送到L1上去执行，是一种无需信任的「自定义安全性」。
+Validiums则是直接在链下执行，并通过零知识证明来维护数据，只有需要的时候才在主网上验证取款请求的有效性证明。
+所以Validiums可扩展性要高于ZK-rollup（目前最高的TPS可以达到20000以上），但它是把信任交给链外第三方的「弱信任扩容」，会被攻击导致数据不可用或者用户无法取出资金。
+解决安全的方式是采用PoS机制，用经济激励来确保数据储存在各个节点之中并且随时可用。
+目前采用Validiums方案的代表项目是Immutable X，以NFT为中心的扩展解决方案。
+Vitalik认为Validiums其实被严重低估，因为大多数Dapp用Validiums就已经可以满足运行需求了。
+StarkWare团队结合ZK-rollup和validium，创造性地推出了Volitions方案，顾名思义是关于「决断能力」。
+Volitions方案本质上是同时提供ZK-rollup和validium这两种服务，它们共享同一个状态根（state root），用户可以自行选择每笔交易的DA模式。即便Validium那部分被攻破，ZK-rollup上的资金仍然安全。
+用户就可以在涉及重要资金往来时选择ZK-rollup模式，共享以太坊的安全性，如果是日常娱乐、社交或者小额交易，自然选择Validium模式来提高速度并节省成本。
+以太坊扩容战争还在刚开始，目前占据优势的是Optimistic rollups阵营，它们可以做到EVM兼容甚至完全等效，另外社区运营能力也非常强劲。
+ZK-rollup落于下风很大程度上是因为一开始就要定制VM，这意味着来自EVM的代码要从头开始编写（虽然难度已经越来越低了）。
+不过长远来看，相比于Optimistic rollups，ZK rollups具有内置的隐私和安全优势，未来实现EVM兼容性，很可能胜过Optimistic rollups。
+而且可以在ZK-rollup和validium之间做决断的Volitions方案，也不失为一种兼顾了各种场景的解决方案。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[报告：币安2月现货交易量达5400亿美元，市场份额创新高]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/98ljjjpk.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/98ljjjpk.html"/>
+        <updated>2023-03-13T03:59:37.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，CryptoCompare近日发布的交易所月度报告显示，币安的现货市场份额从1月份的59.4%增加到2月份的61.8%。币安的现货交易量增长13.7%，达到5400亿美元，创下该交易所的历史最高市场份额。据悉，币安已连续第四个月扩大其在加密货币交易平台的现货市场份额。
+报告称，2月份，币安在衍生品交易所的市场份额也有所增长，升至62.9%，创下有史以来最高的月度市场份额记录。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aztec Connect将于明年3月21日正式关闭，用户有一年的免费取款期]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/c47rf951.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/c47rf951.html"/>
+        <updated>2023-03-13T03:56:27.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，以太坊二层隐私解决方案Aztec Network在官方博客中宣布，DeFi隐私桥项目Aztec Connect将逐步关闭，用户将继续能够在一年内免费取款。Aztec Connect的排序器（Sequencer）将慢慢减少退出的rollup总块的频率，最终退出日期大约一年后：2024年3月21日。该项目团队称，虽然提款始终是可能的，但在2024年3月2 日之后，提款的费用将明显增加，因此建议用户尽快提款。
+具体安排如下：1.3月13日至3月21日，Aztec Connect正常运行；2.北京时间3月21日22:00起，存款将被禁用；3.一年时间的提现窗口：2023年3月13日- 2024年3月21日；4.2024年3月21日：从Aztec排序器发送的最后一个Aztec rollup；5.2024 年3月21日起：用户将不得不运行提现软件或依赖社区运行的测序仪。
+Aztec Network表示，其中长期重点将集中在两大产品的开发上，即零知识证明语言Noir和下一代加密区块链，这两个产品将相互兼容、相互关联。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[融资周报 | 公开融资事件27起；以太坊扩容项目Scroll以18亿美元估值完成5000万美元融资]]></title>
         <id>https://www.panewslab.com/zh/articledetails/0lergg9r.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/0lergg9r.html"/>
@@ -194,6 +253,18 @@ Uniswap、Curve Finance、SushiSwap成为市场不确定期间的“大赢家”
 相信在这次危机之后，加密社区将进一步了解到中心化实体的风险，未来势必将会更多地选择DEX和DeFi。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密市场崩盘时期，投资者应该坚持的六个原则]]></title>
+        <id>https://techflowpost.mirror.xyz/IzQn4RONfpXJqJsuxgj8TaaPueVfoRItyqrMcSyofxA</id>
+        <link href="https://techflowpost.mirror.xyz/IzQn4RONfpXJqJsuxgj8TaaPueVfoRItyqrMcSyofxA"/>
+        <updated>2023-03-13T03:38:54.000Z</updated>
+        <summary type="html"><![CDATA[加密市场崩盘时期，投资者应该坚持的六个原则 – 深潮TechFlow
+撰写：Crypto Engineer
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -2114,27 +2185,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PA图说 | 一图掌握以太坊上NFT关键数据（2023.03.11）]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/ktr7bsiu.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/ktr7bsiu.html"/>
-        <updated>2023-03-11T12:51:11.000Z</updated>
-        <summary type="html"><![CDATA[NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
-PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MakerDAO：当前抵押率为154%，PSM储备金为31.5亿美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/ch56wuey.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/ch56wuey.html"/>
-        <updated>2023-03-11T10:49:14.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，MakerDAO在社交媒体发布最新数据显示，当前Maker系统抵押率为154%，即53.8亿枚DAI由价值82.6亿美元的抵押品支持。过去一周MakerDAO没有触发清算，系统按预期运作。此外，当前PSM按预期顺利运作，储备金为31.5亿美元，以100%抵押支持31.5亿DAI。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[MakerDAO：当前抵押率为154%，PSM储备金为31.5亿美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ch56wuey.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/ch56wuey.html"/>
@@ -2166,16 +2216,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
 <p><a href="https://twitter.com/htaneja/status/1634391256028839936">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vitalik地址买入37.8万枚USDC和5万枚DAI]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/1m5vuhby.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/1m5vuhby.html"/>
-        <updated>2023-03-11T09:39:02.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，据PeckShield统计，Vitalik地址在今日下午14:24分后买入了USDC和DAI。他将500ETH转入Reflexer以铸造了150000枚RAI，并将132500枚RAI兑换成378500USDC，将剩余的175000枚RAI兑换成50000枚DAI。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
