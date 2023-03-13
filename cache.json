@@ -57,7 +57,7 @@
           "description": "<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>\n<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>\n<p><a href=\"https://twitter.com/BlockSecTeam/status/1635204706703384577\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href=\"https://twitter.com/zachxbt/status/1635209310916743170\">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href=\"https://twitter.com/PeckShieldAlert/status/1635229250193334275\">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635218198042918918\">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href=\"https://twitter.com/ScopeProtocol/status/1635235421327347712\">内容来源</a>",
           "link": "https://twitter.com/BlockSecTeam/status/1635204706703384577",
           "publishedOn": "2023-03-13T09:55:13.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元",
           "imageUrl": null
         },
@@ -117,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>\n<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a>",
           "link": "https://twitter.com/poopmandefi/status/1634915107435327488",
           "publishedOn": "2023-03-13T05:49:29.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议",
           "imageUrl": null
         },
@@ -167,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Perpy 是允许交易者复制交易的永续 DEX ，加密研究员 ASH 撰推对 Perpy 进行技术概述，并分析其创新之处及竞争优势，解读其代币经济模型，认为 Perpy 可能成为 Arbitrum 上对游戏规则改变者。其将于 3 月 16 日公开发售。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">https://twitter.com/fameaim53/status/1634603436460347393</a></p>\n<p><strong>文章作者：</strong></p><p>ASH</p><hr><h3>观点：</h3><p><strong>ASH：</strong>Perpy 的复制交易解决方案通过智能合约直接链接到 GMX，允许用户复制最成功的 GMX 交易者，并允许用户通过其追随者的绩效费将交易技巧货币化。Perypy 的用户在存款后会收到 ERC-20 合约形式的等量股份，作为存款记录，金库还控制费用的分配并通过股票监控交易者的表现。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>创新之处：1）无资金锁定，用户可以随时进入和退出金库。2）金库具有弹性，旨在复制其创建者的交易。3）智能交易引擎。协议费用：交易者在其交易金库中收取 10% 至 50% 的绩效费用，Perpy 则保留 DAO 利润的 20%。交易退出费用：1）金库没有正在进行的交易，费用为 0.3%；2）交易正在进行时，减小交易规模，费用为 1.5%；关闭交易，费用则为 5%。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a><p><strong>ASH：</strong>其原生代币 $PRY 硬顶为 10 亿个，并具有随时间推移的通缩机制。$PRY 具有不同用例：1）真实收益；2）交易费用回扣；3）治理；4）Lens 集成；5）金库广告；6）优先访问 2.0 金库。Perpy 优势在于：1）非托管、智能且以所有者为中心；2）完全上链和去中心化；3）为 Perpy 提供燃料的协议是无许可的；4）基于金库的方法提供了多种类型策略。【原文为英文】</p><a href=\"https://twitter.com/fameaim53/status/1634603436460347393\">内容来源</a>",
           "link": "https://twitter.com/fameaim53/status/1634603436460347393",
           "publishedOn": "2023-03-13T03:48:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Arbitrum 的下一颗「宝石」？一文详解可复制交易的永续 DEX：Perpy",
           "imageUrl": null
         },
@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1729,
+          "wordCount": 1737,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -207,7 +207,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -237,7 +237,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>经纬中国研究员 Zixi 从投资角度类比 Web2 的 QQ 农场和 Web3 的 Quest3 及 Galxe，认为 Token 的存在让过渡态的产品为用户和投资人产生了极高的价值和退出路径。Zixi 还认为，Token 能够让每一个产品都在特定的时间点发光发热，在区块链这个高速运转且流动性更加便利的世界，终局逻辑以外的中间型方案同样具有投资价值。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">https://twitter.com/Zixi41620514/status/1634531213234032644</a></p>\n<p><strong>文章作者：</strong></p><p>Zixi</p><hr><h3>观点：</h3><p><strong>Zixi：</strong>在目前 C 端没有最终的落地应用前，用户压根不知道要去哪些应用。Quest3/Galxe 的积分墙成为了一个非常棒的流量聚合器，通过任务 + 奖励的方式将用户导流到项目里，处境类似于 Web2 的 QQ 农场。这在 Web2 可能不是一个好的 deal，因为退出路径不清晰。但在 Web3，只需要发币 + 社区共识 + 项目方不断努力，就能创造出一个又一个独角兽。投资人的退出不再模糊，用户也能享受产品成长的权益。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>一代产品有一代产品的使命，但 Token 的存在让每个产品都在特定的时间点发光发热。时间拉到几年前，从公链来看，各种 ether killer 及 Alt L1，如波卡、Solana 等在上轮牛市已经完成了使命。波卡的卡槽拍卖做出了一个又一个好公链；Solana 即使经常宕机，但便宜 + 快速 + 安全也在 2021 的牛市大放异彩。从游戏来看，axie 虽然可玩性一般，但让众多 Web2 基金和互联网大厂注意到 crypto；Stepn 就算庞，但吸引了一众用户和新钱进场。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>我们投项目很多时候是终局思维，即最终的竞争格局应该是怎么样，就往这个方向投，这在区块链这个高速运转且流动性比传统金融更加便利的世界可能有一定问题。大家可能都相信模块化区块链，以太坊主链做结算和共识，Layer2 做执行， DA 做数据存储。这可能是一个终局路线，但我们还是能看到其他中间性方案和 ether killer 的意义。即使它们最终被淘汰，但项目方 / 投资人 / 早期用户都享受到了其成长带来的价值。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a>",
           "link": "https://twitter.com/Zixi41620514/status/1634531213234032644",
           "publishedOn": "2023-03-12T09:02:01.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】观点：终局思维并非区块链投资的唯一逻辑",
           "imageUrl": null
         },
@@ -377,7 +377,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 26436,
+          "wordCount": 26467,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -637,7 +637,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">https://twitter.com/Delphi_Digital/status/1633875872972406785</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a><p><strong>Delphi Digital：</strong>Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a><p><strong>Delphi Digital：</strong>Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1633875872972406785",
           "publishedOn": "2023-03-10T06:20:22.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】比特币「新文化」运动如何为比特币带来链上效用？",
           "imageUrl": null
         },
@@ -727,7 +727,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">https://twitter.com/jackiereses/status/1633985785295966209</a></p>\n<p><strong>文章作者：</strong></p><p>Jackie Reses（Lead Bank 首席执行官）</p><hr><h3>观点：</h3><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a>",
           "link": "https://twitter.com/jackiereses/status/1633985785295966209",
           "publishedOn": "2023-03-10T03:17:35.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？",
           "imageUrl": null
         },
@@ -867,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 跨链通信协议（IBC）的基本目的是将独立的区块链相互连接，以信任最小化、安全、可扩展和通用的方式提供区块链的互操作性。加密研究员 pt1mfv 对 IBC 的基本概念、工作原理、用例等方面进行了全面解析，总结出其独到之处。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">https://twitter.com/pt1mfv_/status/1633108786650005508</a></p>\n<p><strong>文章作者：</strong></p><p>pt1mfv</p><hr><h3>观点：</h3><p><strong>pt1mfv：</strong>Cosmos IBC 由两个不同的层组成，传输层（TAO）建立安全连接，并在链间进行数据验证；应用层定义数据如何在链上被打包、分发和解析，可用于建立广泛的跨链应用，包括代币转移、链间账户、链间查询和预言机数据反馈。为保证生态系统安全，IBC 对发送的数据进行验证，以确保接收区块链可以信任它收到的每个数据包。交易默认是有效的，可以在不同区块链系统之间广播，同时保持数据完整性。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a><p><strong>pt1mfv：</strong>自 2021 年 5 月推出以来，IBC 已经连接了 54 条链，包括 Osmosis、Kujira、Cronos 等等。IBC 兼容的链可以是公有或私有的，并且可以相互通信，不用考虑不同的应用程序和验证器集。但为了实现兼容，链必须有一个即时的最终共识层，以及轻客户端功能。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a><p><strong>pt1mfv：</strong>IBC 在设计、用途和性能方面与其他跨链解决方案有许多不同之处。IBC 不定义需要传递什么样的数据；IBC 提供了与链交互的单一接口，避免用户根据个人需求在不同生态系统中转移资产的需要；轻客户端架构提供了安全方面的升级；作为一个通用互操作性协议，「通用性」也是其独特之处。【原文为英文】</p><a href=\"https://twitter.com/pt1mfv_/status/1633108786650005508\">内容来源</a>",
           "link": "https://twitter.com/pt1mfv_/status/1633108786650005508",
           "publishedOn": "2023-03-09T08:03:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】详解 Cosmos IBC 模型：互操作性的瑞士军刀",
           "imageUrl": null
         },
@@ -907,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>多链 DeFi 管理协议 Instadapp 推出的智能合约钱包 Avocado，支持多网络交易，所有网络的 Gas 以 USDC 形式支持，无需管理多个本地 Gas 代币。加密研究员 Ignas 对其工作原理和重要性进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">https://twitter.com/DefiIgnas/status/1633626328330289152</a></p>\n<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>Avocado 改变了我们目前与 dApp 的交互方式。Avocado 拥有自己的 RPC，其钱包地址是一个确定性的智能合约，在算法上和你的钱包地址相连，是一个非托管的账户抽象钱包。用户将任何支持的链中的代币发送至该地址后，余额将会出现在 Avocado 网络上。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>在添加 Avocado 时，所有网络 Gas 将以 USDC 形式支持，无需为不同区块链管理不同 Gas 代币。使用 Avocado 进行交易时，需要向相应链签署一个消息，Avocado 将签署的消息转发至相应链上，并在相应链上以原生代币支付 Gas。且用户还可以将任何 dApp 连接至 Avocado 钱包，批准的是来自 Avocado 钱包的交易而不是 dApp 本身。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a><p><strong>Ignas | DeFi Research：</strong>Avocado 其他关键路线图升级包括 2FA 安全、跨链余额统一、白名单、内置 DeFi 策略及将 Avocado 直接集成到 dApp 的激励计划。Avocado 会额外收取 20% 的 Gas 费，一半费用将流向支持 Avocado 的 dApp，另一半则会导向 INST 国库。此外，团队还将很快推出一个移动应用程序和浏览器扩展程序以进一步改善用户体验。【原文为英文】</p><a href=\"https://twitter.com/DefiIgnas/status/1633626328330289152\">内容来源</a>",
           "link": "https://twitter.com/DefiIgnas/status/1633626328330289152",
           "publishedOn": "2023-03-09T06:03:16.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】新项目前瞻 | Instadapp 推出智能合约钱包 Avocado，如何运作？有何创新之处？",
           "imageUrl": null
         },
@@ -9208,7 +9208,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1825,
+          "wordCount": 1823,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
