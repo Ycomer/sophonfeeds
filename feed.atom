@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T03:07:27.459Z</updated>
+    <updated>2023-03-13T03:15:56.068Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[PA图说 | 一图掌握BNBChain上NFT一周关键数据（03.06—03.12）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/gn9lhvx3.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/gn9lhvx3.html"/>
+        <updated>2023-03-13T03:13:30.000Z</updated>
+        <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitstamp：正常运营不受Signature Bank破产影响]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/zb645zrf.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/zb645zrf.html"/>
+        <updated>2023-03-13T03:11:29.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，加密交易所Bitstamp推特发文称，尽管Signature Bank不幸破产，但我们的正常运营不受影响。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[被誉为“终极解决方案”的ZK到底是什么？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/3dlrh4ts.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/3dlrh4ts.html"/>
+        <updated>2023-03-13T03:08:56.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Are zero-knowledge proofs (ZKPs) the future of blockchain?》by ALTAN TUTAR, SAMUEL THOMAS, LINDSEY LI, DIVESH PUNJABI, ETHAN KURZWEIL - Bessemer Venture Partners 
+编译：Cecilia, bfrenz DAO
+想象下一代安全的互联网，从登录时刻开始，你的个人信息就受到保护。在这个新的互联网中，你的数据将留在你自己的设备内，你可以完全掌控自己的信息，消除了被盗或欺诈的风险和恐惧。我们认为，一个将安全和隐私作为优先考虑的未来互联网基础设施可能比预期的更快到来。
+当今的网络基础设施旨在从每次交互中提取数据并存储在集中式数据存储中。公司随后利用这些数据分析用户的在线行为，并将定位广告以获得利润，对用户的价值很小。当然，数据共享对于许多互联网应用程序的功能也是必不可少的。从搜索引擎到社交媒体平台，再到电子商务网站，数据共享使我们日常生活中所依赖的各种在线活动成为可能。
+但是许多互联网用户越来越希望拥有一个私密的互联网。这需要新的基础设施，在这个基础设施中，用户不会默认与应用程序共享其数据，但仍然可以从网络驱动的在线应用程序中获益。这可以通过在客户端执行计算，然后向中央实体或计算机证明来实现。零知识证明（ZKPs）和协议是成为新互联网基础设施的基础层的领先候选人，其中隐私是默认设置。
+这不仅仅是一场未来的幻想；该领域的巨大潜力正在聚积。Steel DAO 的新成立的加密货币研究部门一直在追踪该领域，并在 2022 年见证了超过 7.25 亿美元的资金流向专门构建零知识证明解决方案的“纯玩家”公司。其中最大的两轮融资是 Aleo 和 Matter Labs 的 2 亿美元融资，其次是 Aztec 的 1 亿美元融资。其他公司还包括 Scroll、RiscZero、Elusiv 和 Mina Protocol。
+这篇关于 ZK 的研究来自于美国著名投资机构 Bessmer Venture Partners。本文将用便于理解的方式解释什么是 ZKPs 和 zkEVMs，并重点探讨该领域内的三个主要创新类别：隐私、可扩展性和新型应用，以及它们的潜力和需要克服的障碍。
+
+什么是零知识证明？
+零知识证明（ZKP）是一种验证陈述或计算的方法，过程中不揭示有关该陈述本身的任何信息。例如，如果一个销售酒精饮料给消费者的网站想要验证消费者是否年满 21 岁， ZKP 可以回答“是”或“否”的问题，而不会透露消费者的实际年龄或任何其他身份信息。通常，ZKP 涉及双方：证明者 (prover)和验证者 (verifier)。证明者负责证明声明，而验证者负责验证声明。这些证明通过需要进行大量计算的数学方程来解决，最初由麻省理工学院的研究人员 Shafi Goldwasser和 Silvio Micali 以及多伦多大学的 Charles Rackoff 研究。
+
+虽然这些证明本质上是技术性的，但它们能够解决的用例实际上非常普遍。举个例子，比如我们正在申请贷款。在今天的现实情况下，申请人需要向银行披露自己的资金证明、信用评分以及其他相关信息来证明自己是否有资格获得贷款。申请人需要信任银行不会滥用敏感和个人信息。但是使用ZKP，人们可以在不披露任何敏感数据的情况下申请贷款。这具有潜在的能力，可以从根本上改变我们处理真实和虚拟世界中的隐私的方式，扩展现有的基础链，并推进其他（目前还属于小众）应用，比如去中心化人工智能。
+我们相信在未来几年推广 ZKP 需要以下三个因素的推动：
+‍
+什么是 zkEVM？为什么值得关注？
+zkEVM 是与 EVM 兼容的虚拟机，可以运行 ZKP 计算。以太坊虚拟机（EVM）是部署在以太坊上的智能合约的运行环境。换句话说，ZKP 现在可以与以太坊上的智能合约进行交互，从而使得可以开发更广泛的支持隐私的用例，包括 ZK-rollups（零知识汇总协议）。Rollups 是一种扩容解决方案，可以在链外处理多个交易，然后批量打包到以太坊上的一个交易中，从而减少处理交易的成本和时间。在此之前，ZKP 不能与以太坊上的智能合约兼容，必须为特定的应用程序（例如，支付、代币交换）开发。在本文中，我们将更详细地研究 ZKP 在隐私和扩展性方面的应用。
+零知识证明（ZKPs）的一个重要数学特性是验证者可以以零知识的方式验证陈述的正确性。如今的应用程序需要从本地计算机传输数据到中央服务器以进行计算。尽管 ZKPs 目前主要在加密社区中受到欢迎，但 ZKPs 的应用远不止区块链这一块领域。实际上，大型科技公司已经加入了这个领域，声明了大量与 ZKPs 相关的专利。自 2010 年至 2021 年，阿里巴巴发放了 1111 项 ZKP 专利。腾讯（ 382 项专利）和 IBM（ 225 项专利）等其他关键参与者紧随其后。阿里巴巴和腾讯特别专注于 ZKPs 的金融服务用例，因为它们可以成为许多银行流程的核心基础设施，包括客户身份验证、贷款处理、开立投资账户等。我们相信，在 ZKP 工具和基础设施的创新和变革的推动下，将以三种主要方式影响我们与具有虚拟和现实工作流的应用程序的交互。
+1）账户登录
+在今天，所有的应用程序都会通过储存密码来验证用户的身份。虽然使用零知识证明的安全远程密码协议（SRPP）已经有一段时间了，但我们还没有看到有哪个创业公司利用这项技术来与 Okta 竞争。这是因为网页端应用程序是用 JavaScript 编写的，由于开发人员工具不成熟，编写 SRPP 在网页端应用程序上很困难。我们相信通过使用零知识证明，可以重新设计广泛使用的应用程序的身份验证流程，从而向应用程序证明你拥有你的账户密码。
+2）付款
+应用程序今天的电子商务网站积累了许多用户财务数据，可以用在一些不利于客户的地方。虽然听起来问题不大，但我们认为有空间构建标准化的付款 API ，不用透露用户的数据，而是以完全零知识的方式促进支付。类似于 Aztec 这样的隐私第一的第二层扩展解决方案，但用于常规的互联网支付。
+3）线上（虚拟）及现实世界中的身份认证环节
+在几乎所有的线上和现实世界的交互中，用户都需要验证他们的身份。例如，申请签证时需要向第三方提供银行账单、护照和其他敏感数据。如果使用零知识证明，当你申请签证时，它只会向相关机构发出“是”或“否”的答复，告诉他们你是否拥有所需文件。同样地，在网上购买加密货币时，我们需要向第三方发送我们的“护照”和其他敏感文件，以进行KYC / AML检查。像 Notebook Labs 这样的公司正在使用零知识证明来防止可疑的不良行为者与 DeFi 协议进行交互。这个公司通过向遵守规定的用户发放通过 ZKP 验证的代币，来让其他协议知道这些用户是遵守规定的，进而省去了查看用户的文件的步骤。
+期待看到区块链领域之外的零知识证明用例，尽管我们认识到，正是由于区块链的存在，它们可以独特地扩展。此外，设计上，区块链是匿名的，但它们并不具有隐私保护，其中所有交易都是完全透明的。所以我们认为需要像 Aleo 这样的隐私保护区块链来解决这个问题。
+除了用户对隐私的不断追求之外，还需要解决可扩展性问题。像以太坊这样的 Layer 1 面临可扩展性“三难情况”，必须在可扩展性、安全性和去中心化之间做出权衡。比如，以太坊的愿景是尽可能保持安全和去中心化，那代价可能就是舍弃可扩展性，但同时，以太坊使用量日益增长，后果就是交易变慢和高昂的费用。为此，零知识证明也可用于提高可扩展性。
+区块链（比如以太坊）的可扩展性可以通过两种方式实现：一是增加区块的交易容量，但这会带来一些风险，例如使验证变得更加困难；二是采用不同的方法与其交互，如将交易批量处理并作为单个交易提交到主网络。实施这种方法的以太坊上层网络称为 L2 扩容解决方案。它们允许开发人员构建生活在以太坊生态系统中的应用程序，以利用其安全性、去中心化和网络效应，但同时提高了交易吞吐量并降低了交易成本。
+这些解决方案也被称为 rollups ，分为两种形式：Optimistic rollups 和 zero-knowledge （ ZK ） rollups 。Optimistic rollups 是“欺诈证明 ( fraud proofs )”，这意味着批量交易在 7 天的挑战期内被认为是有效的，在此期间任何人都可以对基础交易的有效性提出异议。另一方面，ZK Rollups 不默认假定交易有效，而是作为“有效性证明 ( validity proofs )”，验证基础交易的有效性。它们依赖于自己的数学属性——soundness。soundness 是指数学保证，如果陈述为假，除了一些小概率之外，没有欺骗证明者能够说服一个诚实的验证者其为真。这是通过经过深入研究的密码学假设和可验证计算来保证的，这使得证明者很难通过恶意方式（如更改输入）黑入系统。
+
+来源：https://vitalik.ca/general/2021/01/05/rollup.html
+ZK-rollup 可以更快地处理交易，并且不需要像 optimistic rollup 那样的 7 天挑战期。因此，用户不必等待 7 天才能提取他们的资金。尽管如此，optimistic rollup 目前在 L2 扩展市场上占据着大约 80％ 的总锁定价值（TVL）。历史上，零知识证明与智能合约不兼容。因此，使用 ZK-rollup 构建的应用程序只能适用于有限的、特定于应用程序的用例，如二层去中心化交易所 dYdX 和用于支付和交易的协议 Loopring。因此，开发人员选择了乐观 rollup，因为它们与通用应用程序兼容。
+如今，随着对 zkEVM 的改进，这种历史限制正在得到解决。现在，通用应用程序可以利用 ZK-rollup 的安全性和效率，因为它们与 EVM 兼容，可以与智能合约进行交互。因此，我们认为，在未来几年内，ZK-rollup 将有望接管 L2 扩展市场，特别是由于正在构建基础架构工具来改进使用 zkEVMs 开发通用应用程序的体验，如 StarkWare、Polygon、MatterLabs 和 Scroll。
+话虽如此，zkEVMs 仍然相对较新，并且正在使用不同程度的以太坊兼容性和性能构建。总体而言，兼容性的最高级别是 (1) 与以太坊等效，而最低级别是 (4)，在这种环境下，智能合约代码（例如 Solidity）被编译为 ZK-friendly 的语言。例如，像以太坊的研究部门 Privacy＆Scaling Exploration 这样正在追求最高级别兼容性的团队，其代价是性能降低，因为它们的目的并不一定是在不久的将来投入生产。
+相反，像 StarkWare 这样的公司已经部署了 StarkNet，这被认为是最完整和性能最高的 zkEVM 之一，但需要使用一种新的本地编程语言 Cairo，以支持在 EVM 上的 ZKP 计算。因此，它需要开发人员学习如何在自定义环境中执行智能合约代码，这是采用的一个挑战。Polygon 的 Hermez、Matter Labs 的 zkSync2.0 和 Scroll 等项目正在寻求解决这些摩擦领域以扩大开发人员的使用。
+
+来源：https://vitalik.ca/general/2021/01/05/rollup.html
+除了进一步改进 zkEVMs 外， ZKP 的大范围采用还面临其他挑战，包括提供更好的基础设施和降低理解和使用它们的复杂性。
+在硬件方面，开发者需要改善图形处理单元 （GPU）的并行处理能力或设计特定的硬件，例如应用特定集成电路（ASIC），以继续减少证明语句所需的时间和资源。
+尽管在数学算法方面已经取得了许多进展，例如引入了 PLONK，但我们认为新算法将继续出现，最终实现更快、更好的解决方案。此外，如果我们想让这个领域真正起飞，还需要构建更多的抽象层。尽管这已经吸引了许多开发者和用户的关注，但总的来说，它仍然是一个相当复杂的领域，需要付出较大的精力才能够构建和交互。
+最后，鉴于零知识证明的本质复杂性，监管机构甚至用户可能会谨慎对待——例如最近对 Tornado Cash 的禁令加强了一种错误的观念，即所有寻求匿名性的人都是恶意行为者。
+尽管存在困难，我们很高兴看到公司以不同创新的方式克服这些障碍。
+虽然 ZKP 技术早在 1989 年就被提出，但密码学的普及推动了创新，过去几年中，水平应用案例和应用程序显著增加。例如，去中心化存储提供商 Filecoin 使用 PoRep 或复制证明来验证存储提供商确实存储了他们声称存储的数据。通过使用 ZKP 技术，验证者可以更快地验证这些信息，而不会损害安全性、信任或信心。
+另一个令人兴奋的应用领域是游戏，像 Dark Forest 这样的链上游戏正在引领基于 ZKP 的创新。其中一个核心特点是博弈论家所谓的“不完全信息”，即大部分虚拟宇宙都是隐藏的，除非玩家探索它。另一个关键特点是玩家可以通过向区块链发送证明来探索这个宇宙，证明移动是有效的，但不会揭示他们在宇宙中的坐标。
+最后，Chainlink 和 Teller 正在 build 为“未充足抵押贷款”进行概念验证。一句话解释就是，Teller 证明用户的离线银行账户余额超过所请求的贷款金额指定的动态阈值，而不实际揭示他们的银行账户详细信息。
+
+零知识证明领域的不完全市场图来源：BVP
+ZKP 未来可期
+尽管在这个领域存在许多挑战，但加密基础设施将继续演进和发展。开发活动仍然强劲，相关公司继续投资于后端和面向消费者的加密机会，这一切让人感觉 ZKP 的“春天”已经近在眼前。我们对 ZKP 的未来感到兴奋，因为它似乎是建立更去中心化的网络的关键技术里程碑。尽管目前仍存在一些障碍，还没有被大规模采用，但 ZKP 正在推动互联网隐私至上的重建，并推进其他区块链应用和用例的采用。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraken：对稳定币汇率没有重大风险敞口，美元资金不受影响]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/13rxjywx.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/13rxjywx.html"/>
+        <updated>2023-03-13T03:05:40.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月13日消息，加密货币交易所Kraken推特发文称，Kraken的美元资金不受影响。然而最近发生的事件应该敲响警钟，提醒应该加强多元化和自托管。Kraken对稳定币汇率没有重大风险敞口，因为我们不认为稳定币可以与法币互换。来自Operation Chokepoint 2.0威胁依然存在。（“Operation Chokepoint 2.0”指代在过去几个月内，美国的所有金融监管机构都在攻击加密业务）]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kraken：对稳定币汇率没有重大风险敞口，美元资金不受影响]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/13rxjywx.html</id>
@@ -2135,44 +2221,6 @@ USDC真正暴雷需要满足三个条件：
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[从Circle储备资产结构分析暴雷可能：USDC极端为0.885，正常0.985]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/h01qerze.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/h01qerze.html"/>
-        <updated>2023-03-11T07:29:02.000Z</updated>
-        <summary type="html"><![CDATA[作者 | 0xLoki
-Twitter | @Loki_Zeng
-储备资产可以分为三个部分：（1）$324亿国债组合 （2）SVB中的$33亿 （3）存在SVB以外银行的$78亿
-第一部分是国债组合，可以看到截至今年一月的数据，一共有16只证券，投资期限均不超过3个月，具备充足的流动性，即使被迫贴现也不会受到太大损失。
-需要注意的是官网披露信息目前只到1月，其中有九只证券已经到期，合计超过$180亿目前我们不能100%确定Circle是否继续购买了短期国债，但从以外信息来看，Circle会在到期后继续购买国债，并确保到期日分布在未来1-3个月以内，这显然是一种非常稳妥的做法，$324亿国债组合出问题的概率极低。
-
-更加重要的一点是SVB的情况和FTX完全不同，SVB自己的骚操作导致破产和这些贷款没有必然的关联，这些贷款中的大部分还是可以收回的，43%是非常极端的情况，发生的概率很低很低。
-第三部分是除了SVB以外的78亿，在官网我们也找到了相关信息披露，Circle的所有现金存放在包括SVB和Silvergate在内的7家银行。
-虽然我们目前无法100%确定其它银行是否安全，但从股票信息中可以获取一点信息，可以看出，除了SVB和Silvergate以外，Signatures Bank等三家银行同样不能让我们放心。
-
-二、USDC极端为0.885，正常0.985
-根据此前的公开信息，Circle在2022年底就察觉到了Silvergate的危险，并停止了与其互动，因此在Silvergate Bank的风险敞口可以被视作0。
-另外，考虑到BNYM是Circle的首选银行，理论上来说分配的金额更大。保守估计一下BAYM资金占35%，剩下四家每家10%，那么有风险的就是三家中风险=111*30%=33亿和SVB的33亿。悲观一点的是这三家都出问题，回收率按80%计算，那么Circle的总损失是33*40%+33*20%=$20亿左右。
-合理一点的估计是，Circle在SVB中损失33*20%+11（三家中的一家）*10%=$7亿左右。而最极端的情况是SVB的33亿和剩下三家中有33*50%一共50亿无法收回，但这种估计发生的概率太低了。
-那么对标的USDC净值分别是;0.985(正常情况)、 0.954（悲观情况）、0.885（极端情况）
-而2022年的融资中，Circle的估值达到了90亿美元，季度净收入约4300万美元，7-20亿美元的损失对Circle来说并不是太大的问题。
-Circle在这件事中没有任何主观过错和作恶的行为，仍不失为一个优质企业，即使损失实际发生并且Circle自己无法解决，大概率也会有其它机构愿意收购或者投资来解决问题。
-USDC真正暴雷需要满足三个条件：
-这里插一句题外话，USDC这种模式即使坏账不解决，只要有足够的USDC在流通而不是赎回，都不会立马出问题。按照最极端的60亿也才11%。而Venus11.3亿的TVL，有1.475亿的连环债务和5200万美元的坏账，加起来快20%了，但是苟了一年了什么事都没有。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brevan Howard收购 Dragonfly Capital 旗下对冲基金Liquid Opportunities]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html"/>
-        <updated>2023-03-11T07:17:51.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，据彭博社报道，Brevan Howard资管公司正在接管由加密投资公司 Dragonfly Capital 运营的多空对冲基金Liquid Opportunities。Liquid Opportunities成立于 2021 年 6 月，由 Kevin Hu、Ashwin Ramachandran 和 Lawrence Diao 管理。该基金现在将作为投资公司的加密和数字资产部门 Brevan Howard Digital 的一部分运营。一位知情人士称，该基金采用的多空交易策略符合后者的主动交易方式。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Brevan Howard收购 Dragonfly Capital 旗下对冲基金Liquid Opportunities]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/ut9oztw0.html"/>
@@ -2204,64 +2252,6 @@ USDC真正暴雷需要满足三个条件：
 <p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href="https://www.techflowpost.com/article/2219">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[StarkNet 创新项目一览：开发者/艺术家/玩家有哪些新机会？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/j932f7651qd4.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/j932f7651qd4.html"/>
-        <updated>2023-03-11T07:07:57.000Z</updated>
-        <summary type="html"><![CDATA[来源 |StarkNetEco
-编译 | 白泽研究院
-StarkNet 是 StarkWare 开发的 L2，利用 STARK 有效性证明来提高性能和可扩展性。在主网上线的一年半中（2021 年 11 月），有超过 221 个项目正在 StarkNet 上构建，包括 OnlyDust、Briq、Pxls、Realms、Influence 和 Cartridge。开发者社区正在致力于深入改进架构，这将对去中心化、可扩展性和用户体验产生突破性的影响，也将会在生态系统中释放出大量激动人心的新项目。
-虽然以太坊的可扩展性和笨拙的用户体验经常招致批评，但 StarkNet 社区一直在努力解决这些问题。在过去的两年里，StarkNet 利用 STARK 有效性 Rollop 的力量突破了 L2 性能、机密性和可扩展性的界限。
-但是还有很多工作要做。StarkNet 仍处于 alpha 阶段，尚未针对 TPS 进行优化。尽管如此，仍有超过 221 个项目建立在 StarkNet 上，这是 StarkNet 和 STARK 被普遍采用和增长的迹象。
-​
-在本文中，我们将介绍一些建立在 StarkNet 之上的创新项目，以三个角色为主题：
-开发者
-艺术家
-玩家
-鉴于 StarkNet 处于初期阶段，社区正在不断寻找新的贡献者来开拓网络的未来。自从在 2020 年推出 Cairo 作为一种初级编程语言以来，它已经发展成为一种针对 L2 智能合约的 Python 和 Rust 风格的优化语言。随着 Cairo 1.0 的开源和 Warp（Solidity 到 Cairo 代码转换器）的推出，我们已经看到开发人员活动呈指数级增长，并且这一趋势将继续延续下去。
-OnlyDust
-OnlyDust是一个将开发者与 StarkNet 生态系统中的开源项目联系起来的平台。OnlyDust 使开发者能够帮助 Kakarot、DevNet 和 starkNet.js 等有意义的项目，并根据他们的贡献价值每周获得报酬。多亏了 Warp，Solidity 开发人员也可以参与其中。
-虽然该平台已经吸引了数百名贡献者，但它计划即将推出“领导者”角色，开发者可以在其中快速启动自己的项目并直接从社区获得帮助。
-除了在线社区之外，OnlyDust 还举办现场活动，开发人员可以在这些活动中进行协作并沉浸在快速发展的 StarkNet 社区中。
-
-艺术家
-尽管 NFT 的炒作具有周期性，但数字艺术品市场仍在蓬勃发展。StarkNet 生态系统充满了旨在帮助艺术家的项目，帮助他们成长并通过与世界分享他们的艺术作品来获利。
-Briq
-就像数字版的乐高积木一样，Briq已经为艺术家构建了一个可组合性系统，使用被称为 briqs 的 ERC-1155 代币来构建作品。从这里，艺术家可以直接出售、出借、转让他们的作品，或者允许购买者拆解他们的作品以创造全新的东西。
-briqs 专为互操作性而构建，旨在连接现实世界与虚拟世界，成为元宇宙的基石。
-
-Pxls
-Pxls 是一项创建链上协作艺术品的实验，围绕 400 个“pxl”NFT 的集合构建。每个 pxl 都是参与创建像素艺术作品 (“rtwrks”) 的关键，在一个空白网格中只能使用 2,000 个总像素中的最多 20 个着色。
-每两天，新 rtwrk 都会被拍卖。当用户赢得拍卖后，可以为下一个 rtwrk 列一个主题。拍卖结束后，每个 pxl NFT 持有者都会收到主题，投入到创作中。
-
-玩家
-区块链游戏行业曾因以太坊的可扩展性限制而受阻，但事实证明，StarkNet 的引入具有变革性。随着越来越多的链上游戏开发团队意识到 EVM/Solidity 的局限性，他们被鼓励探索其他生态系统。幸运的是，随着 Cairo 1.0 和 Rust 的出现，开发人员可以轻松构建无缝的链上游戏。
-StarkNet 的 Gas 费用低到可以忽略不计，因此可以在建立可持续的游戏内经济的同时创建沉浸式的游戏或元宇宙。
-Realms
-作为 BibliothecaDAO的产品，Realms是一款大型多人在线游戏 (MMO)，玩家可以在其中建立帝国、掠夺资源和抢占遗迹。该游戏是开源的，与许多加密游戏不同，它完全在 StarkNet 链上运行。
-
-游戏有 22 种不同稀有度的资源，可以通过购买劳动力生成。每个资源生成周期需要 2 小时，并产生 25 倍的资源。资源可用于建造建筑物、召唤士兵，或在 AMM 上进行交易。每个帝国的金库都可被掠夺。
-一个帝国可以有一支防御军队和多支进攻军队，但重要的是要平衡他们对资源的消耗，并考虑每次突袭的风险和收益。
-Realms 具有多种游戏模式和功能，例如质押和制作，由一组预定义规则管理，这些规则可以根据链上玩家投票进行更新。
-该游戏在 2023 年第一季度发布了 Alpha 和 Beta 版本，如果 DAO 投票通过，随后将进行正式版的部署。Q2 将带来 NFT 市场、新模块以及第一个扩展——Adventurers（一款小游戏，玩家可以花费少量成本铸造一个冒险家，如果冒险家在游戏中死亡，该角色将被没收。官方称之为「Play to Die」）。
-Influence
-Influence是一款备受期待的 3D 太空战略沙盒 MMO，背景设定在 Adalia 星系的小行星带。该游戏采用第三人称游戏方式，允许玩家控制飞船和设施、殖民小行星、参与战斗、开发建筑、创建社区并扩大他们在宇宙中的影响力。所有游戏内资产均为玩家所有，包括 Adalia 的 250,000 颗小行星，每颗小行星都具有独特的资源组合，可以开采并提炼成各种产品，这些产品可以在公开市场上交易。
-
-该游戏采用逼真的轨道机制和玩家拥有的游戏资产，让玩家真正拥有自己的资产，包括小行星、船员、飞船。Influence 将于 2023 年推出。
-Influence 是一款免费游戏，不收取经常性费用。但是，执行某些操作会产生网络交易费用。虽然该游戏不是“氪金”游戏，但像船员这种前期物品需要使用游戏内代币 $SWAY 购买。
-该游戏充满了战斗、策略和协作，非常适合游戏玩家和科幻爱好者。
-Cartridge
-要创建成功的 Web3 游戏，必须拥有能够提供类似于 Web2 的无缝用户体验的身份工具。WebAuthn 是一种被广泛接受的行业标准规范，它使玩家能够安全地生成和管理密钥对，以便在各种设备上进行身份验证。
-主要软件和硬件提供商对 WebAuthn 的采用正在推动身份验证底层逻辑的巨大转变。通过支持 WebAuthn，像 StarkNet 这样的区块链可以大幅提高可用性，并为主流采用铺平道路。
-这就是Cartridge的用武之地——它就像 Crypto 版的 Steam，可以帮助玩家发现、探索游戏，同时管理他们的链上资产、代币和声誉。借助 Cartridge，开发者可以轻松创建加密游戏，提供无缝的用户体验。
-
-风险提示：
-根据央行等部门发布的《关于进一步防范和处置虚拟货币交易炒作风险的通知》，本文内容仅用于信息分享，不对任何经营与投资行为进行推广与背书，请读者严格遵守所在地区法律法规，不参与任何非法金融行为。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
