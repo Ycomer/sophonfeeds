@@ -12,12 +12,32 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/ruyan768/status/1634672950514425856",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>因为中心化风险，市场对去中心化稳定币的渴望和热情从未消退过。加密 KOL dashuo 认为真正的去中心化稳定币一定是基于链上原生资产或服务的刚性兑现，并以存储为例，畅想了一种基于存储资源的去中心化稳定币。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">https://twitter.com/ruyan768/status/1634672950514425856</a></p>\n<p><strong>文章作者：</strong></p><p>dashuo</p><hr><h3>观点：</h3><p><strong>dashuo：</strong>真正可行的去中心化稳定币首先要具备以下几点：1. 去中心化发行；2. 刚性兑付能力；3. 充足供应；4. 叙事的信心。短期不会有这样的去中心化稳定币存在。探讨一种可能的形式，基于链上原生资源的去中心化稳定币。这些资源类型可能包括：存储、带宽、计算。这类以互联网原生资源为基础的去中心化稳定币核心逻辑只有一个，「1TB 的存储永远等于 1TB 存储」。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a><p><strong>dashuo：</strong>最早能转化成去中心化稳定币的可能是存储资源，存储资源是不可再生的，需求是不断增加的。因为每 TB 存储在全球价格几乎相同，而存储技术是迭代速度最慢的领域，在可以预见的未来每单位存储价格是平稳下降的。以此推断，基于互联网原生资源的服务兑现形稳定币具备可行性。这种稳定币如果发生脱锚的情况，企业或个人则可以以更优的汇率兑换等额的存储服务。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a><p><strong>dashuo：</strong>未来的去中心化稳定币肯定是多元化的，除资源型之外，还会有信用型稳定币，UBI 型稳定币，而这些大概率会在 Lens Protocol 社交网络上出现。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a>",
+          "link": "https://twitter.com/ruyan768/status/1634672950514425856",
+          "publishedOn": "2023-03-13T05:02:56.000Z",
+          "wordCount": 480,
+          "title": "【长推】探讨未来的去中心化稳定币方向：基于链上原生资源的去中心化稳定币",
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>以太坊编程语言 Solidity 发布 2022 年 Solidity 开发者调查报告。此次调查涉及 1401 名开发者，调查涉问题及开发者画像、Solidity 性能等主要方面。本报告为 Solidity 的统计与数据可视化整理。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/\">https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/</a></p>\n<p><strong>文章作者：</strong></p><p>franzi</p><hr><h3>观点：</h3><p><strong>franzi：</strong>地域：共有来自 100 个不同国家的 1401 名开发者参与了 2022 年的调查。大约 18% 的受访者表示居住在美国，其次是印度（10%）和法国（5%）。编程经验：大多数受访者具有 3 年或以上的专业编码经验，12.5% 甚至超过 15 年。Solidity 体验：超过半数受访者使用 Solidity 不到一年，13.8% 的受访者使用时间超过 3 年。41% 的人每天使用 Solidity，37.3% 的人每周使用。【原文为英文】</p><a href=\"https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/\">内容来源</a><p><strong>franzi：</strong>开发者体验：大多数人（超过 75%）认为 Solidity 开发者体验在去年有所改善。0.9% 的人认为情况变得更糟，经常遇到调试问题，其次是 stack-too-deep 错误和字节码大小限制。期待的特性：对十进制数和泛型（Generics）的支持为「最受期待的 Solidity 特性」。【原文为英文】</p><a href=\"https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/\">内容来源</a><p><strong>franzi：</strong>喜欢和厌恶的特性：受访者最喜欢 Solidity 的语法，学习、阅读、编码和编译的简单性，以及静态类型化。最显着的痛点是「stack-too-deep」，占所有投票的 33.6%，其次是缺少内存优化（内存浪费）（24.4%）和冗余检查（11.8%）。9.9% 的人表示编译器性能是他们最大的问题。【原文为英文】</p><a href=\"https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/\">内容来源</a>",
+          "link": "https://blog.soliditylang.org/2023/03/10/solidity-developer-survey-2022-results/",
+          "publishedOn": "2023-03-13T04:43:36.000Z",
+          "wordCount": 3795,
+          "title": "【英文】2022 年 Solidity 开发者调查报告",
+          "imageUrl": "/img/avatar-icon.png"
+        },
+        {
           "id": "https://twitter.com/Delphi_Digital/status/1634956817641111554",
           "author": null,
-          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行的破产是自 2008 年以来最大的银行破产，银行挤兑已进入加密生态系统，第二大稳定币 USDC 跌至 0.85 美元的低点，整个 DeFi 生态系统经历了一次大规模的压力测试，引发人们对 DeFi 暴露于中心化的风险的质疑。Delphi Digital 复盘了此次硅谷银行破产引发 USDC 脱锚并带来一系列连锁反应的整个过程及影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">https://twitter.com/Delphi_Digital/status/1634956817641111554</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>故事从最近持有债券的银行未实现的损失大量增加开始。随着利率上升，银行资产负债表上的长期债券的价值正在下降。指定为持有至到期的债券不会被标记为其公允市场价值（FMV）。如果银行被迫出售这些贬值的债券以获得流动性，意味着银行按 FMV 实现了这些损失。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>硅谷银行客户在 3 月 9 日（星期四）试图提取 420 亿美元。为了满足提款，硅谷银行被迫开始清算他们的债券组合。当硅谷银行被迫出售其 210 亿美元的可供出售的债券组合时，他们损失了 18 亿美元，硅谷银行被迫停止提款，FDIC 接管了硅谷银行的接管权。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>USDC 435 亿美元的储备中，有 33 亿美元在硅谷银行。周五，Circle 停止了 USDC 的赎回，随后，USDC 脱锚，其价格在各大交易所最低跌至 85 美分。随着 USDC 的脱锚，混乱随之而来：Aave 冻结头寸；Compound 停用 USDC 供应交易；MakerDAO 限制对 USDC 的敞口；Curve 3pool 和 Uniswap 的 USDT 流动性几乎枯竭；其他由 USDC 支持的稳定币也跌至历史最低（DAI 0.86 美元、FRAX 0.88 美元）。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a>",
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行的破产是自 2008 年以来最大的银行破产，银行挤兑已进入加密生态系统，第二大稳定币 USDC 跌至 0.85 美元的低点，整个 DeFi 生态系统经历了一次大规模的压力测试，引发人们对 DeFi 暴露于中心化的风险的质疑。Delphi Digital 复盘了此次硅谷银行破产引发 USDC 脱锚并带来一系列连锁反应的整个过程及影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">https://twitter.com/Delphi_Digital/status/1634956817641111554</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>故事从最近持有债券的银行未实现的损失大量增加开始。随着利率上升，银行资产负债表上的长期债券的价值正在下降。指定为持有至到期的债券不会被标记为其公允市场价值（FMV）。如果银行被迫出售这些贬值的债券以获得流动性，意味着银行按 FMV 实现了这些损失。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>硅谷银行客户在 3 月 9 日（星期四）试图提取 420 亿美元。为了满足提款，硅谷银行被迫开始清算他们的债券组合。当硅谷银行被迫出售其 210 亿美元的可供出售的债券组合时，他们损失了 18 亿美元，硅谷银行被迫停止提款，FDIC 接管了硅谷银行。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>USDC 435 亿美元的储备中，有 33 亿美元在硅谷银行。周五，Circle 停止了 USDC 的赎回，随后，USDC 脱锚，其价格在各大交易所最低跌至 85 美分。随着 USDC 的脱锚，混乱随之而来：Aave 冻结头寸；Compound 停用 USDC 供应交易；MakerDAO 限制对 USDC 的敞口；Curve 3pool 和 Uniswap 的 USDT 流动性几乎枯竭；其他由 USDC 支持的稳定币也跌至历史最低（DAI 0.86 美元、FRAX 0.88 美元）。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1634956817641111554",
           "publishedOn": "2023-03-13T03:57:25.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】复盘硅谷银行破产：DeFi 生态的一次大规模压力测试",
           "imageUrl": null
         },
@@ -37,7 +57,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1706,
+          "wordCount": 1725,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -47,7 +67,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受美国硅谷银行破产影响，USDC 正经历着严重脱锚的危急时刻。FRAX 作为完全由 USDC 作为抵押物的去中心化稳定币该如何应对？加密 KOL Francesco 分析了当前 FRAX 面临的问题，并总结了 FRAX 创始人 Sam 的解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">https://twitter.com/francescoglt/status/1634929747728932864</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>尽管 Frax 将其抵押率提高到了 100%，但当前的 USDC 的严重脱锚证明了 100% 的抵押率也并非完全可靠。因为 Frax 的大部分抵押品由 USDC 组成，Frax 仍然依赖于「代币化法币」敞口。Frax 并没有真正脱离中心化稳定币，并且在市场动荡期间不提供任何额外级别的保护。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a><p><strong>francesco：</strong>Frax 创始人 Sam 认为，FRAX 应该只有 1 个 RWA：将美元存入美联储主账户 (FMA)。然而 Frax 作为区块链协议想要获得 FMA 的过程将比传统的大型银行困难得多，对于能否实现这一目标仍然纯粹是猜测。Sam 在 Frax 电报群中提到了不依赖 USDC 的第一步：Frax 可能很快开始直接购买美国国债。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1634929747728932864",
           "publishedOn": "2023-03-13T03:24:03.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】USDC 严重脱锚，FRAX 如何解绑中心化稳定币？",
           "imageUrl": null
         },
@@ -57,7 +77,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17652,
+          "wordCount": 17650,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -67,7 +87,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -297,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1634385755593383936",
           "publishedOn": "2023-03-11T04:05:50.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？",
           "imageUrl": null
         },
@@ -317,7 +337,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>\n<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href=\"https://www.panewslab.com/zh/articledetails/ma1ef9hs.html\">内容来源</a>",
           "link": "https://www.panewslab.com/zh/articledetails/ma1ef9hs.html",
           "publishedOn": "2023-03-11T04:02:26.000Z",
-          "wordCount": 1243,
+          "wordCount": 1239,
           "title": "速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/10/images/669X1zH8m5.png"
         },
@@ -497,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
