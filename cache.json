@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行的破产是自 2008 年以来最大的银行破产，银行挤兑已进入加密生态系统，第二大稳定币 USDC 跌至 0.85 美元的低点，整个 DeFi 生态系统经历了一次大规模的压力测试，引发人们对 DeFi 暴露于中心化的风险的质疑。Delphi Digital 复盘了此次硅谷银行破产引发 USDC 脱锚并带来一系列连锁反应的整个过程及影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">https://twitter.com/Delphi_Digital/status/1634956817641111554</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>故事从最近持有债券的银行未实现的损失大量增加开始。随着利率上升，银行资产负债表上的长期债券的价值正在下降。指定为持有至到期的债券不会被标记为其公允市场价值（FMV）。如果银行被迫出售这些贬值的债券以获得流动性，意味着银行按 FMV 实现了这些损失。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>硅谷银行客户在 3 月 9 日（星期四）试图提取 420 亿美元。为了满足提款，硅谷银行被迫开始清算他们的债券组合。当硅谷银行被迫出售其 210 亿美元的可供出售的债券组合时，他们损失了 18 亿美元，硅谷银行被迫停止提款，FDIC 接管了硅谷银行的接管权。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>USDC 435 亿美元的储备中，有 33 亿美元在硅谷银行。周五，Circle 停止了 USDC 的赎回，随后，USDC 脱锚，其价格在各大交易所最低跌至 85 美分。随着 USDC 的脱锚，混乱随之而来：Aave 冻结头寸；Compound 停用 USDC 供应交易；MakerDAO 限制对 USDC 的敞口；Curve 3pool 和 Uniswap 的 USDT 流动性几乎枯竭；其他由 USDC 支持的稳定币也跌至历史最低（DAI 0.86 美元、FRAX 0.88 美元）。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1634956817641111554",
           "publishedOn": "2023-03-13T03:57:25.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】复盘硅谷银行破产：DeFi 生态的一次大规模压力测试",
           "imageUrl": null
         },
@@ -57,7 +57,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17662,
+          "wordCount": 17609,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -117,7 +117,7 @@
           "description": "<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>\n<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。\n\n该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>\n<p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a>",
           "link": "https://twitter.com/the_peopledao/status/1634518915668668416",
           "publishedOn": "2023-03-12T07:04:47.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH",
           "imageUrl": null
         },
@@ -367,7 +367,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20694,
+          "wordCount": 20704,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -797,7 +797,7 @@
           "description": "<h3>非托管流动性质押平台 ether.fi 将分三个阶段启动</h3>\n<p>去中心化的非托管流动性质押平台 ether.fi 宣布将分三个阶段启动：第一阶段：四月，在上海升级之后上线主网以及 ETH 委托质押。第二阶段：2023 年 Q2 或 Q3，eETH 流动性池上线。第三阶段：2023 年 Q4 或 2024 年 Q1，推出无许可节点市场。</p>\n<p><a href=\"https://twitter.com/ether_fi/status/1633485729924784137\">内容来源</a></p><hr>",
           "link": "https://twitter.com/ether_fi/status/1633485729924784137",
           "publishedOn": "2023-03-09T05:12:04.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "非托管流动性质押平台 ether.fi 将分三个阶段启动",
           "imageUrl": null
         },
@@ -807,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Delphi Digital 研究员 Demosthenes 发布了一份关于 MakerDAO 的报告，主要探究了 MakerDAO 2022 年的发展概况及对其基本面的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/DemosCrypto/status/1633553601560813569\">https://twitter.com/DemosCrypto/status/1633553601560813569</a></p>\n<p><strong>文章作者：</strong></p><p>Demosthenes</p><hr><h3>观点：</h3><p><strong>Demosthenes：</strong>1）目前 DAI 的供应量已经从 100 亿缩减至了 55 亿枚，但与其竞争对手相比，DAI 仍然是占主导地位的 CDP 币。此外，MakerDAO 的 TVL 下降了，但也仍然处于主导地位；2）收入在 2022 年已经趋于平稳，其在 2022 年第一季度和第二季度都实现了盈利，但下半年的盈利和支出都有所缩水；【原文为英文】</p><a href=\"https://twitter.com/DemosCrypto/status/1633553601560813569\">内容来源</a><p><strong>Demosthenes：</strong>3）MakerDAO 增加对现实世界资产的敞口，这对其而言是有利的；4）The Endgame Plan 计划仍具有争议；5）总体而言，MakerDAO 基本面和我期望的无异，RWA 和 The Endgame Plan 似乎会在 2023 年给 MakerDAO 带来新的发展机遇。【原文为英文】</p><a href=\"https://twitter.com/DemosCrypto/status/1633553601560813569\">内容来源</a>",
           "link": "https://twitter.com/DemosCrypto/status/1633553601560813569",
           "publishedOn": "2023-03-09T04:57:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Delphi Digital 复盘 MakerDAO 2022 年发展概况：DAI 供应量缩减至 55 亿枚，协议收入趋于平稳",
           "imageUrl": null
         },
@@ -907,7 +907,7 @@
           "description": "<h3>Nansen 推出多链数据访问产品 Nansen Query</h3>\n<p>区块链数据平台 Nansen 宣布推出多链数据访问产品 Nansen Query，允许加密原生团队以编程方式访问策划好的数据集和专业集成，以便为客户、产品和投资用例做出更好的决策。\nNansen Query 基于 Google Cloud 平台构建，可以轻松集成到现有技术堆栈中，为企业提供安全、可靠、高度可扩展的数据管道，能够实时处理百万亿字节的数据。Nansen Query 覆盖了 17 条区块链中 95% 的链上 TVL 和 98% 的稳定币存款，包括比特币、以太坊、BNB Chain、Polygon、Avalanche、Fantom、Solana、Arbitrum、Optimism 和 Tron 等等。</p>\n<p><a href=\"https://twitter.com/nansen_ai/status/1633407437930901506\">内容来源</a></p><hr>",
           "link": "https://twitter.com/nansen_ai/status/1633407437930901506",
           "publishedOn": "2023-03-08T11:36:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Nansen 推出多链数据访问产品 Nansen Query",
           "imageUrl": null
         },
@@ -917,7 +917,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Crypto Pragmatist 创始人 Jack Niewold 发文从多链、资本效率、激励重新设计、产品流动性飞轮几方面对 DeFi 3.0 的愿景进行展望。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">https://twitter.com/JackNiewold/status/1632890500188459012</a></p>\n<p><strong>文章作者：</strong></p><p>Jack Niewold</p><hr><h3>观点：</h3><p><strong>Jack Niewold：</strong>多链协议在统一流动性和愿景方面，面临着精力分散、产品使用和流动性被分割的困难，Radiant 解决了这一问题。Radiant V2 允许用户存入本地抵押品（如 Arbitrum 上的 USDC），将 USDC 进行抵押并在新链上借出 ETH，出售成另一种资产。在产品层面上，Radiant 成为了大本营，而不是具体链本身，进而解决了流动性统一问题，更易吸引流动性。【原文为英文】</p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">内容来源</a><p><strong>Jack Niewold：</strong>资本效率方面，Radiant 将借贷和杠杆相结合，解锁了效率。激励重新设计方面的代表是 Solidly Fork。虽然 DeFi 2.0 的 Solidly 有失败的通胀代币模型，但它开创了新的激励设计类型。经过重新设计的 Solidly Fork 找到了协调不同利益相关者群体的方法，Satin Exchange、Velodrome、Thena 和 SolidLizard 等协议都推动了 Solidly Fork 的 TVL 稳步上升。【原文为英文】</p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">内容来源</a><p><strong>Jack Niewold：</strong>产品流动性飞轮将由 GMX 开创。此前，DeFi 1.0 和 2.0 是先发行代币，然后缓慢增加代币供应以激励流动性，DeFi 3.0 则创造出不需要代币激励的模型。GMX 和 Vela Exchange 证明了流动性驱动不需要代币激励，代币用以充当股权。SentimenTrader 和 DefiLlama 也证明了没有代币激励也可以拥有巨大的用户量。用户而不是协议支付流动性的模型使代币持有者能够坐享收益，更加可持续。【原文为英文】</p><a href=\"https://twitter.com/JackNiewold/status/1632890500188459012\">内容来源</a>",
           "link": "https://twitter.com/JackNiewold/status/1632890500188459012",
           "publishedOn": "2023-03-08T11:02:30.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】DeFi 3.0 会是什么样子？哪些加密项目将引领潮流？",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<h3>【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址</h3>\n<p>据 PeckShield 监测数据显示，美国执法部门相关地址将 4.9 万枚 BTC（价值约合 10 亿美元）转至 Coinbase（超过 9,800 枚 BTC）、bc1qf2 开头地址（超过 3 万枚 BTC）和 bc1qe7 开头地址（约 9,000 枚 BTC）。这部分 BTC 是美国执法部门于 2021 年 11 月和 2022 年 3 月扣押的 Silk Road 非法所得。</p>\n<p><a href=\"https://twitter.com/PeckShieldAlert/status/1633331896083181570\">内容来源</a></p><hr><h3>观点：</h3><p><strong>glassnode：</strong>约 9861 枚 BTC 已发送至 Coinbase，其余大部分转移目前为止似乎是内部转账。【原文为英文】</p><a href=\"https://twitter.com/glassnode/status/1633243962457878538\">内容来源</a>",
           "link": "https://twitter.com/PeckShieldAlert/status/1633331896083181570",
           "publishedOn": "2023-03-08T06:56:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【数据】PeckShield：美国执法部门将 4.9 万枚 BTC 转至 Coinbase 等 3 个地址",
           "imageUrl": null
         },
