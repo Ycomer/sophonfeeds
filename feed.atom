@@ -2,11 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T03:41:17.957Z</updated>
+    <updated>2023-03-13T03:46:31.621Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[融资周报 | 公开融资事件27起；以太坊扩容项目Scroll以18亿美元估值完成5000万美元融资]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/0lergg9r.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/0lergg9r.html"/>
+        <updated>2023-03-13T03:44:15.000Z</updated>
+        <summary type="html"><![CDATA[本期看点
+据 PANews 不完全统计，上周（3.6-3.12）全球区块链有27起投融资事件，与前一周相比略有减少；融资总规模约2.84亿美元，与前一周相比大幅增加，概览如下:
+下面我们一起来全盘回顾上周的投融资事件。
+以合规为中心的DEX Mauve完成1500万美元融资，Coinbase Ventures等参投
+去中心化金融提供合规和身份基础设施 Violet 推出了以合规为重点的去中心化交易所 Mauve。Coinbase Ventures 和 Brevan Howard 加入了 DEX（Mauve） 的 1500 万美元融资轮。Ethereal Ventures、BlueYard Capital 和 Balderton 是其他支持者。Violet 计划利用筹集的资金加速 Mauve 的全球采用。
+稳定币发行公司Gyroscope完成450万美元种子轮融资，即将推出GYD稳定币
+稳定币加密初创公司 Gyroscope 完成 450 万美元种子轮融资，Placeholder VC 和 Galaxy Ventures 共同领投，Maven 11，Archetype，Robot Ventures，Balancer Labs 联合创始人兼首席执行官 Fernando Martinelli 等参投。Gyroscope 联合创始人 Lewis Gudgeon 表示，该轮融资于 2022 年 1 月结束，现在将其公开，因为该协议的代码库已基本完成，并且正在为全面启动做准备。其稳定币 GYD（gyro dollar）的设计机制采用“全天候储备”，即储备中的一项资产出现问题，只会影响储备的有限部分，而不是全部。
+稳定币发行商ECSA完成300万美元种子前融资，YC等参投
+总部位于巴西的稳定币发行商ECSA筹集了 300 万美元，将主要的套利货币上链。该轮种子前融资得到了包括创业加速器 Y Combinator 和 Arca 在内的投资者的参与。ECSA 将从将巴西雷亚尔上链开始。其 BRLe 稳定币以巴西国库券为抵押，由巴西最大的私营银行 Itau-Unibanco 保管。最近筹集的资金将用于扩大其稳定币在投资者、交易所和支付处理商中的足迹。“BRLe 目前在 Stellar 网络上发行，并且正在以太坊 ERC-20 上发行，”ECSA 的联合创始人 Rodrigo Marino 在新闻稿中说。“ECSA 将提供做市解决方案，以确保 BRLe 的流动性，使其更容易与 USDc 和 USDt 等其他代币互换。”
+\Web3初创公司nealthy完成130万美元pre-seed轮融资
+投资NFT和加密货币的Web3初创公司nealthy宣布完成130万美元pre-seed轮融资，“DonGeraldo”等天使投资人参投。nealthy 的创始人将利用这些资金来发展核心团队、聘请人才并促进销售和发展。nealthy通过区块链技术处理交易并提供指数代币，使投资者能够快速、无忧地进入Web3市场，该指数代币通过存储多种虚拟资产“复制”了传统ETF结构。此外，nealthy还推出了首个动态蓝筹NFT代币“NFTS” ，预计在2023年夏季发布。
+Believer完成5500万美元融资，Lightspeed领投，a16z等参投
+《英雄联盟》母公司Riot Games 前高管 Michael Chow 和 Steven Snow 创立的游戏初创公司 Believer 完成 5500 万美元融资，Lightspeed Venture Partners 领投，参投方包括 Andreessen Horowitz（a16z）、Bitkraft Ventures、Riot Games、1Up Ventures、Don Thompson 的 Cleveland Avenue 和 Michael D. 等。Believer 将首先开发原创 IP、叙事以及技术游戏。Believer 创始人表示，不太可能在 3-5 年内推出任何产品。Steven Snow 称该公司希望利用生成式 AI 做更多事情。
+Web3足球游戏公司Matchday完成2100万美元种子轮融资，梅西旗下基金Play Time参投
+Web3游戏互动娱乐初创公司Matchday宣布完成2100万美元种子轮融资，梅西旗下基金Play Time参投。Matchday将 Web3 和移动游戏结合起来，创建一套由FIFA授权的足球游戏，Matchday首席游戏官Sebastien de Halleux表示相信真正的所有权对于为游戏玩家创造一系列新体验非常重要，希望将数亿球迷吸引到Web3，该公司预计第一款游戏将在第二季度发布。
+Web3游戏工作室Redemption Games完成700万美元融资，Orange DAO等参投
+Web3游戏工作室Redemption Games宣布完成700万美元新一轮融资，Play Ventures领投，Bitkraft、Merit Circle DAO、Orange DAO、以及一批游戏行业人士参投。Redemption Games是一家从移动游戏开发巨头AppLovin公司剥离出的独立工作室，目前正在利用区块链技术、数字藏品和人工智能解决方案开发能够推向大众市场的游戏，并且将在游戏中加入能在交易所交易的数字资产等Web3元素。
+NFT交易市场Coresky完成600万美元Pre-Seed轮融资
+基于社区的NFT交易市场Coresky宣布完成600万美元Pre-Seed轮融资，PAYSON LEE PRIVATE FOUNDATION领投。Coresky设计了一种全新商业模式，可通过Launchpad经济效用来驱动NFT交易。用户在Coresky Marketplace交易NFT可获得“Ticket”，然后使用Ticket能从Launchpad提供的一级市场资产包中提取NFT，Coresky会根据用户的链上交易行为设计社区会员体系，每一层都有自己的Corecard身份，不同等级的Corecard会定期收到不同数量的平台Ticket。
+Solana生态NFT交易平台Tensor完成300万美元融资
+专注于 Solana 的 NFT 交易平台完成 300 万美元融资，Placeholder 领投，Solana Ventures、Alliance DAO、Big Brain Holdings 和 Solana 联合创始人 Anatoly Yakovenko 和 Raj Gokal 等参投。
+以太坊扩容项目Scroll以18亿美元估值完成5000万美元融资
+使用zk-rollups技术的以太坊第2层网络Scroll在新一轮融资中筹集了5000万美元。投资者包括Polychain Capital、红杉中国、OKX Ventures、Bain Capital Crypto、Moore Capital Management、Variant Fund、Newman Capital、IOSG Ventures和Qiming Venture Partners。Scroll拒绝就该轮融资的估值和结构发表评论，但一位直接了解此事的消息人士告诉The Block，该轮融资使 Scroll 的估值达到 18 亿美元。
+云基础设施创企Vantage完成2100万美元A轮融资，a16z参投
+云基础设施初创公司Vantage宣布完成2100万美元的A轮融资，由Scale Venture Partners领投，Andreessen Horowitz（a16z）、Harpoon Ventures、CloudFlare首席执行官兼联合创始人Matthew Prince和Glenn Solomon参投。Vantage联合创始人兼首席执行官Ben Schaechter表示，该公司现在帮助其300多家客户管理每年超过10亿美元的云成本。这些客户包括Square、NASA、BuzzFeed、PBS、Ripple、PlanetScale和Barstool Sports等，目前客户总共将10000多个基础设施帐户连接到Vantage。
+加密薪酬合规公司Toku完成2000万美元融资， Blockchain Capital等参投
+加密薪酬合规发放公司Toku完成2000万美元融资， Blockchain Capital、 Orrick、Alchemy、GMJP、OrangeDAO、Reverie、Quantstamp、Next Web Capital、Protocol Labs创始人Juan Benet、Cameron、Tyler Winklevoss等参投。该公司旨在帮助加密公司处理与代币相关的薪酬发放的税法工作，它声称已经在数十个国家创建了一个系统来跟踪与加密相关的税法和法规，目前拥有30家客户，包括Filecoin Foundation、Gitcoin等。
+ZK技术公司Proven完成1580万美元种子轮融资，Framework Ventures领投
+提供零知识证明技术以使加密货币公司能够证明偿付能力的公司 Proven 完成 1580 万美元种子轮融资，由 Framework Ventures 领投，Balaji Srinivasan、Roger Chen 和 Ada Yeo 等天使投资人参投。Proven 可能希望它可以提供一种替代方法来验证储备证明，并且到目前为止，种子阶段的初创公司将 Coinlist 和 Bitso 等公司视为客户。它希望将交易所、资产管理者和托管人作为潜在客户，并将利用这笔资金扩大其开发团队。
+Web3开发工具提供商Cubist完成700万美元种子轮融资，Polychain Capital领投
+Web3 开发工具提供商 Cubist 在由 Polychain Capital 领投的种子轮融资中获得了 700 万美元，Dao5、Polygon、Amplify Partners 和 Axelar 也参与了此次融资。该轮融资将用于招聘以及扩展和宣传 SDK。
+Web3初创公司Tweed完成400万美元种子轮融资，Accel领投
+Web3即插即用白标钱包和支付解决方案Tweed完成400万美元种子轮融资，Accel领投，Communitas Capital Partners、Zero Knowledge Ventures，Sorare首席执行官Nicolas Julia、前Venmo首席运营官Mike Vaughan、前摩根大通高管Ameet Patel和前SunGard首席执行官Cristóbal Conde等天使投资人参投。
+新加坡科技创企The GrowHub完成300万美元pre-B轮融资
+总部位于新加坡的供应链信任和可追溯性技术提供商 GrowHub 周四宣布，已完成 300 万美元的 Pre-B 轮融资，投资者包括该公司的首席执行官和创始人 Lester Chan。新资金将用于继续构建 The GrowHub 的技术产品，并在其进一步扩展到亚太地区时加强其技术能力。GrowHub能让生产者和企业（比如食品生产公司）使用其专属Web3、NFT和二维码解决方案来追踪消费者行为和模式，还通过其SaaS平台促进透明且可靠的碳信用追踪。
+加密资管公司Aisot Technologies完成约193万美元融资，Haute Capital Partners领投
+基于 AI 的加密资管公司 Aisot Technologies 完成 180 万瑞士法郎（约合 193.52 万美元）种子轮融资，由 Haute Capital Partners 领投，Swiss ICT Investor Club (SICTIC) 和一批天使投资人参投，截至目前该公司融资总金额达到 210 万瑞士法郎（约合 225.77 万美元）。Aisot Technologies 主要帮助用户在股票和加密市场的投资组合提供基于人工智能的分析服务，利用机器学习、数据科学和定量分析让投资者快速适应不断变化的市场条件和投资需求。
+区块链风险解决方案Over-C完成100万英镑股权融资，Ayre Ventures参投
+区块链风险解决方案 Over-C 宣布完成 100 万英镑股权融资，Ayre Ventures 参投。Over-C 通过区块链技术提供可扩展、支持单点故障、时间戳、隐私的风险解决方案。该公司还使用机器学习和物联网提供实时运营风险数据和分析以预测和预防未来潜在发生的风险事件。目前其合作伙伴包括日立（Hitachi）、ScotRail、Eli Lilly、Savills、Munster Rugby 和 Belfast Airport。
+Web3艺术平台Wild完成由Matrix Partners领投的700万美元融资
+Web3 艺术平台 Wild 筹集了由 Matrix Partners 领投的 700 万美元种子资金。女演员格温妮丝·帕特洛 (Gwyneth Paltrow)、领英 (LinkedIn) 联合创始人里德·霍夫曼 (Reid Hoffman) 和 Twitch 联合创始人凯文·林 (Kevin Lin) 也参加了去年年底结束的这一轮融资。这家初创公司将利用这笔资金进一步扩大其驻地并投资于基础设施以为其体验艺术提供动力。无需连接钱包，即可通过浏览器内体验访问 Wild 的许多收藏。
+Web3电子邮箱解决方案EtherMail完成400万美元Pre-A轮融资
+Web3 电子邮件解决方案 EtherMail 完成 400 万美元 Pre-A 轮融资，Tim Draper 和其风险投资公司 Draper Associates 领投，MS&AD Ventures 等参投。Tim Draper 还将加入 EtherMail 的顾问委员会。
+TON生态Launchpad平台Tonstarter完成150万美元种子轮融资
+TON 生态 Launchpad 平台 Tonstarter 完成 150 万美元种子轮融资，投资方包括 Kingsway Capital、Gate.io 以及 DWF Labs 等。Tonstarter 由 TON 生态系统中的风险投资机构 First Stage Labs 孵化。Tonstarter 是 TON 上的主要筹款平台，将支持 TON 生态系统中的广泛项目，包括去中心化金融 (DeFi)、去中心化交易所 (DEX)、非托管钱包、借贷协议、游戏和元宇宙。
+区块链时尚透明度平台tex.tracer完成150万欧元种子轮融资
+区块链时尚透明度平台tex.tracer宣布完成150万欧元种子轮融资，ROM InWest、HearstLab、Joanna Invests、以及一批天使投资人参投。tex.tracer使用区块链技术、时间和地理位置标记、以及点对点审核功能从主要来源收集可靠的验证数据，供应链合作伙伴可以放心上传公司和产品数据，确保企业遵守欧洲EPR、CSRD 和数字产品护照等新规则和法规，其客户包括 MUD Jeans、State of Art、Livera 和 Fabienne Chapot等。
+区块链营销公司Verofax开启75万美元融资，500 Startups等参投
+区块链营销公司 Verofax 将在巴林中央银行许可和监管的 Beban 众筹平台上完成 75 万美元融资。500 Startups、Dubai Angel Investors、Dubai Silicon Oasis、Benson Oak Ventures、Privity FZ LLE 和 Wami Capital 等参投。投资者可以通过 Beban 众筹平台参与 Verofax 的融资，最低投资 100 美元。Verofax 由阿联酋的政府资助项目 MBRIF 和 Hub71 孵化，总部位于阿联酋，在欧洲、北美、亚洲、非洲和中东运营。
+加密税务创企Divly完成40万美元融资，DHS Venture Partners等参投
+据美通社报道，加密税务创企 Divly 宣布完成 40 万美元融资。投资方包括 DHS Venture Partners、Greens Ventures 和 YEoS Ventures。该公司的目标是降低加密税收申报的门槛。自 2022 年 3 月起，Divly 与芬兰最大的虚拟货币服务提供商 Coinmotion 和瑞典最大的加密货币经纪商 Safello 建立了合作关系，拥有约 30 万用户。去年，Divly 还开始与 BYDFi 、 Coingecko 合作。
+Web3超级应用Kresus完成2500万美元A轮融资，Liberty City Ventures领投
+连续创业者、前美国驻奥地利大使 Trevor Traina 为一款名为 Kresus 的 web3 超级应用筹集了 2500 万美元。A 轮融资由 Liberty City Ventures 领投。其他支持者包括 Franklin Templeton、JetBlue Ventures 和 Salesforces 的 Marc Benioff。这些资金将用于继续构建该应用程序，并促进招聘工作和关键合作伙伴关系。Kresus 的网站将这款尚未推出的应用描述为“交易平台、钱包和入门指南”的结合，该公司表示这笔资金将用于继续开发该应用程序，并支持招聘工作和构建关键合作伙伴关系。
+比特币投资应用Relai完成450万美元融资
+比特币投资应用Relai宣布完成450万美元新一轮融资，ego death capital领投，Timechain、Cabrit Capital、Lightning Ventures、Redalpine、Fulgur Ventures参投。自2020年首次进行种子轮融资以来，Relai迄今融资总金额已达到1180万美元。Relai平台允许散户投资者买卖比特币且无需进行额外注册、验证，也没有存款限制，该平台还支持投资者通过非托管比特币钱包完全控制自己的资金。Relai计划利用新资金升级到比特币闪电网络并推出白标产品。
+加密量化交易公司Spield Algorithm完成新一轮融资，BitValue参投
+加密量化交易公司Spield Algorithm宣布完成新一轮融资，Web3投资机构BitValue参投，具体投资金额暂未披露。Spield Algorithm核心团队目前管理价值30亿美元的加密资产，同时还为部分加密公司和CEX担任流动性提供者的角色，其当前资产管理规模超过100亿美元。BitValue对Spield Algorithm的投资也将推动AI量化交易和分析在Web3领域中的应用。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[哪些DEX在“USDC危机”中大赚了一笔？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/tkdfv2w7.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/tkdfv2w7.html"/>
+        <updated>2023-03-13T03:42:03.000Z</updated>
+        <summary type="html"><![CDATA[作者 | Ambcrypto Suzuki Shillsalot
+编译 | PANews
+硅谷银行倒闭导致美元稳定币USDC上周末出现脱锚并一度跌至0.87美元低点，FUD情绪也在加密市场蔓延，不过这一黑天鹅事件造成的影响似乎并没有想象中的那么大，DEX（去中心化交易所）的交易活动和费用收入甚至出现了指数级增长。
+根据DeFiLlama数据显示，3月11日，DEX总交易额飙升至151.2亿美元，创下过去四个月新高，周增长率超过100%，其中Uniswap收取的费用收入也达到了自2022年5月10日以来的最高值，聚合DEX和中心化交易所 (CEX) 交易额比例（该指标反映了DEX的市场主导地位）上升至 26.66%。
+
+Uniswap、Curve Finance、SushiSwap成为市场不确定期间的“大赢家”
+对于加密社区而言，中心化实体的衰落有利于DeFi发展，尤其是在FTX崩溃后，越来越多用户选择放弃中心化交易所而开始探索自我托管，最近因硅谷银行倒闭导致的“USDC危机”更是加速了这一趋势——数据显示，Uniswap、Curve Finance、SushiSwap这些DEX在上周末取得了令人瞩目的增长。
+首先，作为一个专为稳定币兑换而设计的DEX，Curve Finance过去24小时内创下了接近80亿美元的最高单日交易额记录。另据CryptoFees数据显示，由于交易量激增，Curve平台上收取的费用收入也跃升至952,000美元，创下过去四个月以来的新高。
+
+其次是Uniswap，Uniswap也是当前加密市场中交易量最大的DEX之一，USDC脱锚后的24小时内交易额飙升至34.5亿美元，创下过去四个月以来的最佳表现。截至本文撰写时，Uniswap用户支付的交易费用也升至87.5亿美元，触及过去10个月以来高点。
+
+另一个受欢迎的DEX是SushiSwap，USDC危机期间该平台也见证了活跃度激增并成为以太坊巨鲸使用最多的智能合约之一。
+
+不过根据DeFiLlama数据，此前一周SushiSwap的日均交易额并未出现较大幅度增长，本文撰写时过去24小时交易额为5248万美元，反而下降了76.76%。
+
+未来属于DEX和DeFi？
+在过去3-4年里，DEX取得了突飞猛进的发展，Token Terminal披露数据显示，DEX平台的活跃开发者数量一直在稳步增长，说明支持DeFi未来的基本面向好。
+
+另一方面，随着美联储于北京时间3月13日凌晨宣布新的紧急银行定期融资计划并支持硅谷银行储户于当地时间周一动用资金，USDC美元锚定价格出现反弹并上涨到0.995美元区间，已基本恢复美元锚定，其市值也重返400亿美元上方。
+相信在这次危机之后，加密社区将进一步了解到中心化实体的风险，未来势必将会更多地选择DEX和DeFi。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[PA图说 | 一图掌握Polygon上NFT一周关键数据（03.06—03.12）]]></title>
         <id>https://www.panewslab.com/zh/articledetails/1kimxkas.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/1kimxkas.html"/>
@@ -24,6 +119,18 @@
         <summary type="html"><![CDATA[PANews APP 2.0 全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】USDC 严重脱锚，FRAX 如何解绑中心化稳定币？]]></title>
+        <id>https://twitter.com/francescoglt/status/1634929747728932864</id>
+        <link href="https://twitter.com/francescoglt/status/1634929747728932864"/>
+        <updated>2023-03-13T03:24:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>受美国硅谷银行破产影响，USDC 正经历着严重脱锚的危急时刻。FRAX 作为完全由 USDC 作为抵押物的去中心化稳定币该如何应对？加密 KOL Francesco 分析了当前 FRAX 面临的问题，并总结了 FRAX 创始人 Sam 的解决方案。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/francescoglt/status/1634929747728932864">https://twitter.com/francescoglt/status/1634929747728932864</a></p>
+<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>尽管 Frax 将其抵押率提高到了 100%，但当前的 USDC 的严重脱锚证明了 100% 的抵押率也并非完全可靠。因为 Frax 的大部分抵押品由 USDC 组成，Frax 仍然依赖于「代币化法币」敞口。Frax 并没有真正脱离中心化稳定币，并且在市场动荡期间不提供任何额外级别的保护。【原文为英文】</p><a href="https://twitter.com/francescoglt/status/1634929747728932864">内容来源</a><p><strong>francesco：</strong>Frax 创始人 Sam 认为，FRAX 应该只有 1 个 RWA：将美元存入美联储主账户 (FMA)。然而 Frax 作为区块链协议想要获得 FMA 的过程将比传统的大型银行困难得多，对于能否实现这一目标仍然纯粹是猜测。Sam 在 Frax 电报群中提到了不依赖 USDC 的第一步：Frax 可能很快开始直接购买美国国债。【原文为英文】</p><a href="https://twitter.com/francescoglt/status/1634929747728932864">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -337,13 +444,13 @@ CryptoQuant首席执行官Ki Young Ju对此评论称：“不知道美联储和�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金]]></title>
+        <title type="html"><![CDATA[美财政部、美联储和 FDIC 的联合声明：将全额担保硅谷银行和 Signature Bank 储户存款]]></title>
         <id>https://home.treasury.gov/news/press-releases/jy1337</id>
         <link href="https://home.treasury.gov/news/press-releases/jy1337"/>
         <updated>2023-03-13T01:29:46.000Z</updated>
-        <summary type="html"><![CDATA[<h3>美财政部、美联储和 FDIC 的联合声明：硅谷银行储户自本周一起可提取所有现金</h3>
+        <summary type="html"><![CDATA[<h3>美财政部、美联储和 FDIC 的联合声明：将全额担保硅谷银行和 Signature Bank 储户存款</h3>
 <p>美国财政部长 Janet L. Yellen、美联储主席 Jerome H. Powell 与 FDIC 主席 Martin J. Gruenberg 联合发布声明，自 3 月 13 日星期一开始，硅谷银行储户将可以提取所有现金，与硅谷银行的决议有关的任何损失将不会由纳税人承担。与硅谷银行的决议一样，Signature Bank 的所有存款人也将得到赔付，纳税人无需承担任何损失。股东和某些无担保债务人将不受保护，高管也已被免职。根据法律要求，存款保险基金为支持未投保存款人而遭受的任何损失将通过对银行的特别评估予以弥补。</p>
-<p><a href="https://home.treasury.gov/news/press-releases/jy1337">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jeremy Allaire（Circle 联合创始人兼首席执行官）：</strong>在硅谷银行的存款是 100% 安全的，USDC 流动性操作将在周一早上银行开门时恢复。USDC 储备金也是 100% 安全可靠，Circle 将把剩余现金转移到纽约梅隆银行（BNY Mellon）。由于 Signature 银行关闭之后将无法通过 SigNet 处理铸造和赎回 USDC，Circle 将依靠纽约梅隆银行进行结算。我们最快将于明天引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。【原文为英文】</p><a href="https://twitter.com/jerallaire/status/1635059024050937856">内容来源</a><p><strong>Coinbase：</strong>截至 3 月 10 日星期五营业结束，Coinbase 在 Signature 的公司现金余额约为 2.4 亿美元。所有客户资金仍然安全且可访问，包括将于周一恢复的 USDC 转换。由于 FDIC 暂停了 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1635066151758594048">内容来源</a>]]></summary>
+<p><a href="https://home.treasury.gov/news/press-releases/jy1337">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jeremy Allaire（Circle 联合创始人兼首席执行官）：</strong>在硅谷银行的存款是 100% 安全的，USDC 流动性操作将在周一早上银行开门时恢复。USDC 储备金也是 100% 安全可靠，Circle 将把剩余现金转移到纽约梅隆银行（BNY Mellon）。由于 Signature 银行关闭之后将无法通过 SigNet 处理铸造和赎回 USDC，Circle 将依靠纽约梅隆银行进行结算。我们最快将于明天引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。【原文为英文】</p><a href="https://twitter.com/jerallaire/status/1635059024050937856">内容来源</a><p><strong>Coinbase：</strong>截至 3 月 10 日星期五营业结束，Coinbase 在 Signature 的公司现金余额约为 2.4 亿美元。所有客户资金仍然安全且可访问，包括将于周一恢复的 USDC 转换。由于 FDIC 暂停了 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1635066151758594048">内容来源</a><p><strong>Federal Reserve：</strong>美联储将向符合条件的存款机构提供额外资金，以帮助确保银行有能力满足所有存款人的需求。额外资金将通过创建新的银行定期融资计划（BTFP）提供，向银行、储蓄协会、信用合作社和其他合格的存款机构提供最长一年的贷款，以美国国债、机构债务和抵押贷款支持证券以及其他合格资产为抵押。此外，经财政部长批准，财政部将从外汇稳定基金中提供高达 250 亿美元的资金作为 BTFP 的支持。【原文为英文】</p><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm">内容来源</a><p><strong>Paxos：</strong>Paxos 目前在 Signature Bank 持有 2.5 亿美元，且持有的私人存款保险远超我们的现金余额和 FDIC 对每个账户的限额。所有 Paxos 稳定币储备都是完全支持的，并且可以随时以美元 1:1 的比例赎回给客户。【原文为英文】</p><a href="https://twitter.com/PaxosGlobal/status/1635061720854200320">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>FED 跟财政部的救助是两个事，前者几乎是无限流动性工具 BTFP，后者仅仅象征性出了 250 亿美元而已。因为是纳税人的钱，是几乎不可能用这个钱来救银行的，就是摆那提振信心而已。</p><a href="https://twitter.com/JinzeJiang0x0/status/1635067286267789317">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>USDC 一夜间从青蛙变王子。危机里家底被查的一清二楚，顺势把现金全部搬到 NY Mellon（GSIB，宇宙托管行）。全部 crypto bank 被关闭，短期不会再出现民间稳定币，美元出入金集中到 USDC-Coinbase。这危机怎么看 Coinbase/Circle 都是最大受益者。</p><a href="https://twitter.com/mindaoyang/status/1635102369146114049">内容来源</a><p><strong>Dankrad Feist：</strong>如果硅谷银行的存款像 RAI 一样工作，并且是浮动的，会怎么样？让我们看看 「SVAI」会发生什么。第 1 步：投资者发现债券期限的不匹配，一些人想退出；第 2 步：SVAI 卖家推动价格下跌；第 3 步：SVAI 的赎回率进行调整。持有 SVAI 的人将获得更高的未来赎回价格。第 4 步：现在，赎回者将有一个新的权衡需要考虑。现在以折扣价赎回，还是以后以（可能的）利率收益赎回。危机停止？【原文为英文】</p><a href="https://twitter.com/dankrad/status/1634616283726598147">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -2070,113 +2177,6 @@ SVB宣布出售其部分债券并大规模再融资，引发流动性担忧。�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[中金最新报告：硅谷银行事件与潜在的流动性风险敞口]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/7szhq8uy.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/7szhq8uy.html"/>
-        <updated>2023-03-11T08:52:56.000Z</updated>
-        <summary type="html"><![CDATA[作者：刘刚 严佳卉等
-来源：中金货币金融研究
-北京时间3月10日凌晨，硅谷银行（SVB，Silicon Valley Bank）宣布大规模再融资引发市场担心其流动性和资产负债表状况，股价跌超60%，进而波及整个美国银行板块和美股市场，富国和美国银行跌幅都在6%以上。北京时间3月11日，美国加州监管机构宣布，SVB因“流动性不足与资不抵债”被FDIC接管，并开始安排后续存款偿付计划[1]。
-市场之所以对本次事件反映较大，是担忧在当前美联储加息可能更久和更高，推升融资成本和债券利率的情况下，是否会诱发更大范围的流动性风险、甚至波及到整个金融体系。就此，中金银行和策略组从微观行业层面以及宏观市场层面综合解读如下。
-SVB宣布出售其部分债券并大规模再融资，引发流动性担忧。北京时间3月10日凌晨，SVB宣布一系列战略更新：1）出售210亿美元债券投资，并立即重新配置到久期更短的债券，以提升其资产敏感度，这笔出售预计会对其造成18亿美元的税后亏损；2）将定期借款规模由2022年末的150亿美元增加至300亿美元，以锁定融资成本以及为公司提供更加稳定的流动性支持；3）再融资22.5亿美元以应对亏损并提供流动性支持，其中包括17.5亿美元的普通股和5亿美元的优先股。（详见正文）
-市场担忧高利率环境下银行业整体发生流动性风险。虽然SVB致力于释放积极信号，但资本市场更侧重看到了SVB的投资亏损和再融资需求，因此股价大幅下跌；同时担心在利率上行环境下，其他银行也会面临和SVB类似的压力，或有较大幅度的债券抛压，或有多家银行出现投资亏损，或有密集的银行融资需求出现，因此带动了美国银行指数的明显下跌。
-从历史经验来看，流动性冲击具有突发性和不可预测性。正因如此，也往往会导致市场担忧和线性外推，表现为“先卖再看”。但我们认为，分析是否会导致更大级别的金融体系危机，要从区分流动性冲击和债务问题两个层面入手区别对待，前者更多是现金流和利润表的问题，后者则是资产负债表的问题。
-我们认为当前整体情况可能并没有市场担忧的那么紧张。杠杆方面，金融危机后，美国金融部门在强监管下整体杠杆处于较低水平，且资本充足率也相对健康，因此发生大面积的债务危机的可能性似乎并不高，上述事件可能无法代表整个美国银行体系。流动性角度，我们追踪的一系列美国在岸及离岸流动性的收紧也并没有那么显著。在极端假设下，如果后续流动性继续收紧引发更大层面和程度的流动性冲击，美联储可能而且也有充裕的手段提供流动性支持。
-风险
-美联储加息超预期。
-北京时间3月10日凌晨，SVB在1Q23季中交流中宣布了一系列战略更新，主要包括：
-►出售证券投资带来18亿美元亏损，以提升高利率环境下的资产敏感性。SVB宣布出售210亿美元可供出售（AFS）证券投资，主要目的在于提升其资产敏感度。考虑到当前美债利率利率曲线倒挂，公司出售平均久期3.6年的AFS债券，并计划立即用于再投资期限更短的AFS证券资产以增加净利息收入（具体做法为：配置短久期、固定利率的美国国债，并通过买入浮动利率掉期对冲部分利率波动风险）。SVB预计出售上述AFS债券会带来当期18亿美元税后利润亏损，但公司预计该亏损会在未来3年被填补，短期的AFS投资每年可对净利息收入带来税后约4.5亿美元的提升。
-►增加债权融资以锁定融资成本并提供流动性支持。硅谷银行宣布将定期借款规模由2022年末的150亿美元增加至300亿美元，一方面公司预计利率可能会走向更高且持续更久（higher for longer），另一方面则是出于活期存款减少的原因，公司为更好的应对融资困难和企业持续消耗现金流的环境，来为公司提供更加稳定的流动性支持。
-►宣布再融资22.5亿美元以应对亏损并提供流动性支持。SVB新宣布的17.5亿美元的普通股融资中包括12.5亿美元的公开发行和来自General Atlantic的5亿美元的定向发行。此外公司还将发行5亿美元可转换优先股，合计再融资金额为22.5亿美元。本次再融资的主要目的也是为应对AFS债券出售的大额亏损，以及未来可能会持续的存款下降压力。
-北京时间3月11日凌晨，因SVB“流动性不足与资不抵债”，加州监管机构DFPI（Department of Financial Protection and Innovation）宣布由联邦存款保险公司（FDIC）对其进行接管[2]。美国FDIC同日亦发表声明，为保护存款人权益，FDIC将创建Deposit Insurance National Bank of Santa Clara（DINB），立即将SVB的所有受保存款转移到DINB。所有受保存款人将在当地时间3月13日上午获得其全部受保存款，此外FDIC会在下周向未受保存款人进行一笔先行的偿付（advance dividend），随着未来SVB的资产出售，其他未受保存款可能会得到进一步偿付[3]。
-风险硅谷银行商业模式介绍：为PE/VC提供资本，非传统银行，期限错配严重
-硅谷银行是一家长期保持高估值美国上市银行，专注于服务PE/VC和初创企业的融资需求，同时也衍生出自己的私人银行、股权投资和投行业务。相比传统银行业，公司主营业务具有高成长性、高盈利的特征，ROE水平长期高于传统商业银行。具体来看，SVB两大主营业务是为PE/VC提供资本催缴信贷以及为初创企业提供信用贷款：
-► 资本催缴信贷：又名capital call line of credit或subscription line，是SVB投放给PE/VC的贷款，在有限合伙人承诺出资后，PE/VC并不会立刻获得资金，而是在发现可投资项目时向有限合伙人发出催缴通知，出于减少招款通知、提高IRR以及快速把握投资机会等多种原因，PE/VC通常希望从银行获得一笔资本催缴信贷，来帮助其短期过渡，待有限合伙人资金到位后还本付息。因此该类贷款通常期限偏短，风险较低，同时收益率也往往低于传统的工商贷款。
-►  初创企业贷款：该类贷款主要投放给没有盈利和现金流的初创企业客户，该类客户常常会在两轮股权融资之间向SVB借款以帮助其持续经营。由于该类贷款风险较大且缺乏抵押物，SVB往往会向初创企业索要3-5%的认股权证。历史上看，SVB从认股权证中取得的收益远大于此类贷款所产生的信用损失，但考虑到认股权证的收益与初创企业财务状况都存在较强的周期属性，此类贷款仍然风险相对较高，过去多年SVB也在积极压降此类贷款。
-近年存款快速增长，造成资产端久期配置拉长。在服务初创企业的过程中，SVB能够沉淀大量低成本活期存款，2022年末SVB无息存款占比47%，付息活期存款占比19%，定期存款仅占4%，因为企业客户对价格相对不敏感，沉淀的存款主要用于企业经营。近年，SVB的存款规模由2019年末的618亿美元大幅增长至1731亿美元，主要得益于宽松的流动性和高景气度的PE/VC市场。另一方面，这也造成了SVB资产端债券投资配置的增加，为后续高利率环境引发流动性危机埋下了隐患。
-图表：硅谷银行业务板块介绍
-
-资料来源：公司公告，中金公司研究部
-图表：初创企业贷款机制介绍
-
-资料来源：公司公告，中金公司研究部
-图表：资本催缴信贷机制介绍
-
-资料来源：公司公告，中金公司研究部
-图表：SVB资产端贷款占比较低
-
-资料来源：公司公告，中金公司研究部
-图表：SVB负债端活期存款占比较高
-
-资料来源：公司公告，中金公司研究部
-图表：SVB主要服务PE/VC与初创企业
-
-资料来源：公司公告，中金公司研究部
-图表：SVB活期存款占比高
-
-资料来源：公司公告，中金公司研究部
-图表：近年在宽松流动性和PE/VC行业高景气度的背景下，SVB存款规模快速增长
-
-资料来源：公司公告，中金公司研究部
-就事件本身和微观角度，SVB表示出售AFS债券是为应对当前高利率环境所计划做出的积极调整，以进一步提升自身盈利和流动性情况。从公司战略层面看，本次重新配置AFS债券、增加定期借款规模、开展再融资主要基于：1）SVB预计市场利率会上升高更高的水平并且持续更长的时间，因此公司采取缩短资产久期的方式增加短期的净利息收入；2）美国科创企业融资困难与持续的高现金消耗均造成公司存款受到冲击，因此公司通过债权融资与股权融资补充流动性与资本，以便更好地进行资产端配置以及应对后续潜在的流动性风险。
-虽然SVB致力于释放积极信号，但资本市场更侧重看到了SVB的投资亏损和再融资需求，因此股价大幅下跌；同时担心在利率上行环境下，其他银行也会面临和SVB类似的压力，或有较大幅度的债券抛压，或有多家银行出现投资亏损，或有密集的银行融资需求出现，因此带动了美国银行指数的明显下跌。
-就宏观层面而言，2021年全球的一个大环境是以美联储为代表的全球主要央行激进紧缩，所导致的融资成本持续抬升和“便宜钱”减少甚至消失。一个直接证据是全球负利率债券从2020年底高峰的18万亿美元降至当前的1.2万亿美元，且剩下的全部是日本债券。与此同时，全球进入加息周期的央行占比已经达到82%，是上世纪80年代以来最高；作为负利率和“便宜钱”最后阵地的日本央行YCC政策也大概率可能取消（《如果日央行意外放弃YCC？》）。
-在这一大环境下，不难理解一些依赖高杠杆融资、期限错配较为严重、或者资金链不足的金融机构、资产等面临突发的价格波动或意外，很容易出现一些问题，也就是所谓的 “薄弱环节”（《“便宜钱”消失下的灰犀牛》）。但问题是，这个是否是一个系统性的危机？以及会不会往更大层面传导？
-图表：全球负利率债券从2020年底高峰的18万亿美元降至当前的1.2万亿美元，且剩下的全部是日本债券
-
-资料来源：Bloomberg，中金公司研究部
-图表：全球进入加息周期的央行占比已经达到82%，是上世纪80年代以来最高
-
-资料来源：BIS，中金公司研究部
-硅谷银行事件是自去年英国养老金、瑞信风波（《欧债危机2.0距我们有多远？》、《欧洲银行的“压力”与启示》）、以及FTX破产后的最新的金融风险事件。
-从历史经验来看，流动性冲击具有突发性和不可预测性，正因如此，也往往会导致市场担忧和线性外推，表现为“先卖再看”。但我们认为，分析是否会导致更大级别的金融体系危机，要从区分流动性冲击和债务问题两个层面入手区别对待，前者更多是现金流和利润表的问题，后者则是资产负债表的问题。
-► 流动性冲击：流动性具有突发性（“黑天鹅”），有一定诱因导致；如果严重央行通常需要干预，且干预也会起到效果。短期流动性冲击是短期流动性不足所致，具有突发性，在担忧情绪的助推下往往演变较快。如果发展较为严重，货币当局作为最后贷款人（last resort）通常会介入干预，如果不能及时介入的话，很容易诱发资产抛售的负向螺旋，进而威胁整个金融体系的稳定性。一般而言，央行及时介入注入流动性稳定市场和资产价格后，大概率就会起到效果，对经济和金融体系的破坏就不至于很大。类似的例子包括2022年英国养老金、2020年3月疫情期间资产价格大跌、2022年初俄乌局势升级、2019年9月美国储备资产不足、2018年底美国高收益债、甚至1998年亚洲金融危机期间的LTCM事件等。
-► 债务危机：往往是高杠杆和信用问题（“灰犀牛”），受流动性冲击和资产价格大跌触发导致债务和偿付问题；此时只靠央行就无法解决，需要债务重组，其对经济和金融体系冲击更大。与流动性冲击不同，债务危机的影响更大，且不只限于金融体系，对实体经济的冲击也是较大的。此时，仅靠货币政策就无法解决所有问题，还需要政府介入进行债务重组，以消化高债务部门的压力，才能最终解决。上世纪80~90年代美国储贷危机和拉美债务危机、2008年美国次贷危机、2011年欧债危机等均是如此。
-图表：流动性冲击vs. 债务危机，前者更多是现金流和利润表的问题，后者则是资产负债表的问题
-
-资料来源：中金公司研究部
-基于上述的分析框架，我们看到当前整体情况可能并没有市场担忧的那么紧张。
-杠杆方面，金融危机后，美国金融部门在强监管下整体杠杆处于较低水平，且资本充足率也相对健康，因此发生大面积的债务危机的可能性似乎并不高，上述事件可能无法代表整个美国银行体系。2008年金融危机后，美国金融部门实现了较好的去杠杆。截至3Q22，金融部门杠杆水平从2008年金融危机期间的123%回落至3Q22的75%，资产负债表质量相对健康（《从杠杆角度看紧缩成本和衰退压力》）。进一步从不同规模银行的资产负债表来看，小型商业银行的流动性充裕度收紧更为明显，但美国大型银行及本地商业银行整体仍相对健康。在美联储持续加息缩表的背景下，银行准备金回落明显，迫使银行借款需求增加。小型银行准备金占总资产比例已回落至6%（基本为疫情前水平）；借款占准备金比例自去年3月以来持续抬升，截至1月已基本接近疫情前水平（96%）。相比而言，大型银行相对更为健康。
-图表：截至3Q22，金融部门杠杆水平从2008年金融危机期间的123%回落至75%
-
-资料来源：Haver，中金公司研究部
-图表：商业银行贷存比今年以来抬升明显，但均低于疫情前水平
-
-资料来源：Haver，中金公司研究部
-图表：小型银行准备金占总资产比例已回落至6%（基本为疫情前水平）
-
-资料来源：Haver，中金公司研究部
-图表：小型银行借款占准备金比例自去年3月以来持续抬升，截至1月已基本接近疫情前水平（96%）
-
-资料来源：Haver，中金公司研究部
-流动性角度，我们追踪的一系列美国在岸及离岸流动性的收紧也并没有那么显著。例如，在岸美元流动性方面，FRA-OIS利差当前4.7bp（vs. 2008年以来均值27bp）；信用利差自去年三季度高点整体回落，但近期小幅抬升，当前高收益债和投资级信用利差分别为4.7ppt和1.8ppt（vs. 去年三季度高点6.1ppt和2.3ppt）；90天AA级金融和非金融行业商票利差自去年11月的高点显著回落；隔夜逆回购（ON RRP）仍维持2.2万亿美元的相对高位。离岸美元流动性方面，全球主要市场货币如欧元、日元、及英镑与美元3个月交叉互换今年开始有所走阔。不过，流动性的情况毕竟也受到市场情绪和交易因素影响，后续一些事件（3月14日美国CPI，3月23日美联储FOMC会议）都值得关注是否会成为催化剂。重点可以观察上述流动性指标。
-在极端假设下，如果后续流动性继续收紧引发更大层面和程度的流动性冲击，美联储可能而且也有充裕的手段提供流动性支持（如通过增加流动性或者其他信用支持的方式来稳定市场波动，防止单家银行风险向系统性风险蔓延），类似于去年英国央行支撑英国养老金，因此对中国市场和金融公司影响可能相对有限。我们这一判断的下行风险来自较大规模机构的隐性杠杆或债务敞口出现较大问题。
-图表：FRA-OIS利差当前4.7bp（vs. 2008年以来均值27bp）
-
-资料来源：Bloomberg，中金公司研究部
-图表：信用利差自去年三季度高点整体回落，但近期小幅抬升 
-
-资料来源：Bloomberg，中金公司研究部
-图表：90天AA级金融和非金融行业商票利差自去年11月的高点显著回落
-
-资料来源：Bloomberg，中金公司研究部
-图表：隔夜逆回购（ON RRP）仍维持2.2万亿美元的相对高位
-
-资料来源：Bloomberg，中金公司研究部
-图表：全球主要市场货币如欧元、日元、及英镑与美元3个月交叉互换今年开始有所走阔
-
-资料来源：Bloomberg，中金公司研究部
-图表：芝加哥联储金融条件指数自去年11月破零后持续回落
-
-资料来源：芝加哥联储，中金公司研究部
-[1]https://www.fdic.gov/news/press-releases/2023/pr23016.html
-[2]https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/03/SVB-Possession-PR-03-10-23.pdf?emrc=7db0ff
-[3]https://www.fdic.gov/news/press-releases/2023/pr23016.html]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文】MakerDAO 破局之路：如何通过 MetaDAO 提高其生态系统盈利能力？]]></title>
         <id>https://mirror.xyz/despread.eth/q6kAnD7YE7ikJ2ASlS-3DJ-vnDRkkH8p0A3ihUxjhLc</id>
         <link href="https://mirror.xyz/despread.eth/q6kAnD7YE7ikJ2ASlS-3DJ-vnDRkkH8p0A3ihUxjhLc"/>
@@ -2222,16 +2222,6 @@ SVB宣布出售其部分债券并大规模再融资，引发流动性担忧。�
 <p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href="https://www.jinse.com/blockchain/3203086.html">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href="https://www.jinse.com/blockchain/3203086.html">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href="https://www.jinse.com/blockchain/3203086.html">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一用户卖出208万USDC却仅收到0.05USDT，因未设置滑点且遭MEV攻击]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/nfonvx83.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/nfonvx83.html"/>
-        <updated>2023-03-11T08:29:16.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月11日消息，在加密市场大举抛售USDC和相关稳定币时，一个USDC用户将所持有的200万USDC在链上兑换成USDT时，却因未设置滑点，意外地被一个MEV机器人在支付了45美元Gas费和3.9万美元的MEV贿赂金后净赚了204.5万美元的利润，这导致该用户交易了208万枚USDC却仅收到了0.05枚USDT。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -9257,18 +9247,6 @@ Gitcoin 官方举了个例子，假设 ETH 稳定在 1700 美元，质押收益�
 此前3月6日消息，Optimism将于3月18日进行Optimism Goerli硬分叉升级。目前官方已删除此推文，并称这是因为相关信息不准确。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】跨链应用如何权衡网络延迟和回滚风险：来自以太坊 PoS 共识机制的启示]]></title>
-        <id>https://jumpcrypto.com/bridging-and-finality-ethereum/</id>
-        <link href="https://jumpcrypto.com/bridging-and-finality-ethereum/"/>
-        <updated>2023-03-08T05:02:30.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Jump Crypto 发布其跨链桥系列第二篇文章，分析了当前以太坊 PoS 共识主要阶段中针对网络延迟和回滚风险采取的机制，并总结了跨链应用可以从中得到的经验及需要额外注意的问题。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">https://jumpcrypto.com/bridging-and-finality-ethereum/</a></p>
-<p><strong>文章作者：</strong></p><p>John（Jump Crypto）</p><hr><h3>观点：</h3><p><strong>John（Jump Crypto）：</strong>区块提议：理想情况下，提案每 12 秒发生一次，但从存档的全节点历史来看，两次提议之间的间隔是一分钟。该阶段面临的风险是恶意提议者的双重提议。可以安全地使用区块提议来确认桥接交易的用例是不具有重大价值的服务，例如跨链电子邮件。【原文为英文】</p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">内容来源</a><p><strong>John（Jump Crypto）：</strong>GHOST 机制：LMD GHOST 的分叉选择规则被应用于提议的区块，随着子树的增长和证明权重的积累，回滚的风险会降低。但由于桥接交易可以包含独特形式的 MEV，因此可以为攻击者进行重组攻击提供额外的激励。【原文为英文】</p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">内容来源</a><p><strong>John（Jump Crypto）：</strong>Casper FFG：在 Casper 下的最终性是在证明之后通过额外的投票（32 个 slot 或 6.4 分钟）实现的。该阶段的回滚风险基本上归结为攻击者控制了 2/3 的验证者集合（按当前 ETH 价格计算，攻击成本约为 200 亿美元）。高风险的应用（如代币的桥接）应该要求尽可能高的安全水平。【原文为英文】</p><a href="https://jumpcrypto.com/bridging-and-finality-ethereum/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
