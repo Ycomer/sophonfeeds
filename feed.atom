@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-13T13:43:07.068Z</updated>
+    <updated>2023-03-13T13:48:30.066Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -272,6 +272,18 @@ CryptoCompare近日发布的交易所月度报告显示，币安的现货市场�
         <summary type="html"><![CDATA[PANews 3月13日消息，据blockonomi报道，Web3游戏平台Moxy宣布已完成超1000万美元融资，Shima Capital、Polygon、MetaTope和GSR等投资方参投。Moxy基于FLOW区块链驱动的Web3游戏平台通过去中心化、安全且稳定的方式帮助包括电竞选手和其他玩家参与游戏并获得激励，同时还能让游戏开发者无缝创建基于游戏资产的NFT以推动电竞大众化，此外Moxy还使用统一数字钱包参与游戏生态让玩家存储加密货币和NFT，据悉Nolan Bushnell（Atari创始人）、Lawrence Siegel（世嘉欧洲总裁）和Tony Bickley（世嘉欧洲游戏主管）已加入Moxy团队。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在激励层做文章，了解 Merkl 如何在 Uniswap V3 上搭建新的激励范式]]></title>
+        <id>https://www.theblockbeats.info/news/35516</id>
+        <link href="https://www.theblockbeats.info/news/35516"/>
+        <updated>2023-03-13T12:51:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>超额抵押稳定币协议 Angle 推出激励 Uniswap V3 类型流动性资金的机制平台。BlockBeats 作者 Jaleel 对其运行机制、费用结构、LP 及项目方如何使用 Merkl 分配和领取激励进行介绍。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35516">https://www.theblockbeats.info/news/35516</a></p>
+<p><strong>文章作者：</strong></p><p>Jaleel</p><hr><h3>观点：</h3><p><strong>Jaleel：</strong>Merkl 是一个激励 Uniswap V3 类型流动性资金的机制平台，Uniswap V3 上的 LPs 和其他类型具有集中流动性的 AMM 可从一个或多个池中的激励者（incentivizors）处获得补偿。激励者在分配奖励方面享有极大灵活性：可以选择对提供更多单一代币流动性的 LPs 进行更多奖励，或更多奖励设定紧密范围并从其位置获得更多交易费用的 LPs。还可以选择是否激励超出范围的流动性，或是否让某些特定代币持有者获得加强奖励。</p><a href="https://www.theblockbeats.info/news/35516">内容来源</a><p><strong>Jaleel：</strong>使用 Merkl 无需承担任何资金风险，也不需要 LPs 执行任何特定智能合约交互：他们可以保留流动性，同时仍然获得奖励。还可以自定义自己的仓位，从而最大化从费用和激励中获得的收益，享受 AMMs 集中流动性类型所提供的所有可能性。Merkl 对激励收取低维护费用。除了领取奖励时消耗的 gas 外，LPs 没有任何成本。</p><a href="https://www.theblockbeats.info/news/35516">内容来源</a><p><strong>Jaleel：</strong>Merkl 基于一个非链脚本，可在给定链上查看受激励的池的数据，为所有这些池的利益相关者计算奖励。基于此，脚本将所有奖励分配数据聚合到一个 Merkle 树中，然后压缩为 Merkle 根，推送到链上，以允许 LPs 获取其奖励。该脚本每次定期运行，并每次固定时间段。这意味着每次运行脚本时，它只查看与此特定时间段相关的链上数据。</p><a href="https://www.theblockbeats.info/news/35516">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9197,18 +9209,6 @@ MixBytes建议在3月15日之前停止接受新的DOT和KSM进行流动性质押
 预算案中包括的许多条款都是拜登以前提出过的想法，但是到目前为止还无法在国会获得必要的支持，使其成为法律，包括他自己的政党成员，比如西弗吉尼亚州参议员Joe Manchin。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coinbase 宣布推出钱包基础设施 API「钱包即服务（WaaS）」，允许公司为用户创建和部署可定制链上钱包]]></title>
-        <id>https://www.coinbase.com/blog/coinbase-announces-wallet-as-a-service-now-any-company-can-seamlessly</id>
-        <link href="https://www.coinbase.com/blog/coinbase-announces-wallet-as-a-service-now-any-company-can-seamlessly"/>
-        <updated>2023-03-09T01:11:37.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Coinbase 宣布推出钱包基础设施 API「钱包即服务（WaaS）」，允许公司为用户创建和部署可定制链上钱包</h3>
-<p>Coinbase 宣布推出可扩展和安全的钱包基础设施 API「钱包即服务（WaaS）」，允许公司能够为他们的终端用户创建和部署完全可定制的链上钱包。Coinbase 表示，钱包即服务允许用户通过简单的用户名和密码认证来创建、访问和恢复钱包，且其部署的钱包采用多方计算（MPC）增加安全性，通过在多方之间安全地划分、加密和分发密钥来帮助保护用户资产安全。此外，用户可以完全控制自己的资产。且公司可以通过该 API 在应用程序中构建本地钱包以保证用户体验。Floor、Moonray、Thirdweb 和 Tokenproof 正在使用 WaaS 进行构建。</p>
-<p><a href="https://www.coinbase.com/blog/coinbase-announces-wallet-as-a-service-now-any-company-can-seamlessly">内容来源</a></p><hr><h3>观点：</h3><p><strong>Zach Segal（Coinbase 上架主管 ）：</strong>WaaS 允许开发者为其用户轻松部署加密货币钱包，钱包可以直接集成至现有应用程序中，这无疑实现了向 Web3 的大规模无缝过渡。现在在任何区块链上创建一个 MPC 钱包，实际上就像调用「CreateMPCWallet 」API 一样简单。【原文为英文】</p><a href="https://twitter.com/zosegal/status/1633530962377318400">内容来源</a><p><strong>yuga.eth：</strong>WaaS 将能为下一波 Web2 和大型企业公司进入加密行列提供帮助。WaaS 提供与网络无关的 API 以创建加密钱包并与区块链互动，它可以处理从地址推导至 nonce 管理，再到复杂交易协调的一切。此外，该钱包由多方计算驱动，提供了很多优势，包括通过阈值签名实现最大安全性、无需 Gas 的多签钱包、可证明的非托管等。【原文为英文】</p><a href="https://twitter.com/yugacohler/status/1633482573522382849">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>1）虽然 MPC 将用户从私钥管理中解放出来，但其密钥管理依赖于 HSM 或云服务器，而 HSM 或云服务器容易出现批量不可恢复故障；2）MPC 钱包从未解决过单点故障的问题，即使密钥共享服务器是分开的，但仍然由同一个解决方案供应商运营和维护；3）MPC 是一个钱包 SaaS 产品，开发者和初创公司无法在不可靠服务上构建应用程序。【原文为英文】</p><a href="https://twitter.com/crypcipher/status/1633289822113796097">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
