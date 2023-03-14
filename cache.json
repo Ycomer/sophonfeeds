@@ -117,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 3 月 13 日，在以太坊区块链上运行的借贷平台 Euler Lab 遭到攻击，导致攻击者盗取超过 1.9 亿美元。SlowMist 分析此次被盗过程以及原因，呼吁去中心化金融领域平台应实施严格安全措施来防范恶意行为者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/slowmist_team/status/1635288963580825606\">https://twitter.com/slowmist_team/status/1635288963580825606</a></p>\n<p><strong>文章作者：</strong></p><p>SlowMist</p><hr><h3>观点：</h3><p><strong>SlowMist：</strong>两个关键因素促成了攻击的成功：1）资金被捐赠到预留地址，没有经过流动性检查。这创造了一种可以直接触发软清算的机制。2）当高杠杆触发软平仓逻辑时，收益率增加，使得清算人仅通过将一部分负债转移给自己，就可以获得被平仓用户账户中的大部分抵押资金。鉴于抵押资金的价值超过了负债的价值（由于软清算而仅部分转移），清算人能够成功通过他们的资产健康状况检查并提取获得的资金。【原文为英文】</p><a href=\"https://twitter.com/slowmist_team/status/1635288963580825606\">内容来源</a>",
           "link": "https://twitter.com/slowmist_team/status/1635288963580825606",
           "publishedOn": "2023-03-14T06:54:21.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】SlowMist：以太坊借贷平台 Euler Lab 遭到攻击，去中心化金融领域安全措施待加强",
           "imageUrl": null
         },
@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1784,
+          "wordCount": 1990,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2046,
+          "wordCount": 2252,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -317,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1723,
+          "wordCount": 1733,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -467,7 +467,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17736,
+          "wordCount": 17738,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -707,7 +707,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href=\"https://twitter.com/mindaoyang/status/1634385755593383936\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1634385755593383936",
           "publishedOn": "2023-03-11T04:05:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？",
           "imageUrl": null
         },
@@ -777,7 +777,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 21056,
+          "wordCount": 21062,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -897,7 +897,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>\n<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a>",
           "link": "https://twitter.com/crypto_mckenna/status/1633731247867584512",
           "publishedOn": "2023-03-10T06:27:38.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者",
           "imageUrl": null
         },
@@ -927,7 +927,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">https://twitter.com/LlamaRisk/status/1633916033886199808</a></p>\n<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a>",
           "link": "https://twitter.com/LlamaRisk/status/1633916033886199808",
           "publishedOn": "2023-03-10T06:18:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化",
           "imageUrl": null
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups</a></p>\n<p><strong>文章作者：</strong></p><p>Partrick McCorry</p><hr><h3>观点：</h3><p><strong>Partrick McCorry：</strong>虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup = 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a>",
           "link": "https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups",
           "publishedOn": "2023-03-10T04:29:42.000Z",
-          "wordCount": 7732,
+          "wordCount": 7938,
           "title": "【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png"
         },
@@ -10064,16 +10064,6 @@
           "wordCount": 958,
           "title": "ZK叙事接力AI，我们需要关注哪些ZK项目？",
           "imageUrl": "https://mirror-media.imgix.net/publication-images/LVU9f3fbrbxuNCBY0T_6s.png?height=483&width=966&h=483&w=966&auto=compress"
-        },
-        {
-          "id": "https://techflowpost.mirror.xyz/IVCvOFM7cm6YzlOgYhjv8yWv6AFiTCpUQrj0-k9xLMc",
-          "author": null,
-          "description": "AMA 回顾｜一币三链，读懂去中心化存储 BNB Greenfield – 深潮TechFlow\n整理：Claudia，深潮 TechFlow\nRead the full entry",
-          "link": "https://techflowpost.mirror.xyz/IVCvOFM7cm6YzlOgYhjv8yWv6AFiTCpUQrj0-k9xLMc",
-          "publishedOn": "2023-02-13T05:43:27.000Z",
-          "wordCount": 1380,
-          "title": "AMA 回顾｜一币三链，读懂去中心化存储 BNB Greenfield",
-          "imageUrl": "https://mirror-media.imgix.net/publication-images/TYmvUDZKW3WVl6t6qLpaP.png?height=474&width=948&h=474&w=948&auto=compress"
         }
       ]
     },
