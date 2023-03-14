@@ -2,16 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T12:40:13.718Z</updated>
+    <updated>2023-03-14T12:58:07.788Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】App-Specific Rollup：允许整个 DApp 生态系统部署在其之上]]></title>
+        <id>https://twitter.com/ShivanshuMadan/status/1635566500458418176</id>
+        <link href="https://twitter.com/ShivanshuMadan/status/1635566500458418176"/>
+        <updated>2023-03-14T12:38:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>App-Specific Rollup（ASR）或 RollApp 是作为区块链上的 rollup 部署的单个应用程序，这与 Arbitrum 和 Optimism 这样的通用 rollup 形成对比，后者允许部署整个 Dapp 生态系统在他们身上。加密研究员 Shiva 撰推解析 ASR 的原理和优势，认为 ASR 会使以太坊成为「全球价值互联网」。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">https://twitter.com/ShivanshuMadan/status/1635566500458418176</a></p>
+<p><strong>文章作者：</strong></p><p>shivamadan.eth</p><hr><h3>观点：</h3><p><strong>shivamadan.eth：</strong>网络上的每个 dapp 都有不同的区块空间需求生命周期，通用 rollup 将来自其生态系统中所有应用程序的 tx 组合在一起，并将它们分批放入同一个区块中，因此如果区块空间需求很高，那么所有应用程序的价格都会很高。另一方面，ASR 可以在 silo 中创建自己的批量交易，并为自己的用例优化区块空间。【原文为英文】</p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">内容来源</a><p><strong>shivamadan.eth：</strong>ASR 优势：1）对原生代币的完全控制，同时仍然利用基础层的安全性；2）快速出块时间；3）专用区块空间；4）自定义 EVM 限制，可以针对游戏等极端用例进行调整而不会牺牲很多其他属性；5）无缝桥接能力，可以进行微调以实现与其他链的无缝互操作性。【原文为英文】</p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币突破25000美元，以太坊突破1700美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html"/>
+        <updated>2023-03-14T12:36:19.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元/枚，以太坊盘中突破 1700 美元/枚，均创近期新高。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[比特币突破25000美元，以太坊突破1700美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html"/>
         <updated>2023-03-14T12:36:19.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元，以太坊盘中突破 1700 美元，创 2 月下旬以来新高。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国2月未季调CPI年率6%，符合预期]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/crxslvun.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/crxslvun.html"/>
+        <updated>2023-03-14T12:30:20.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，据金十报道，美国 2 月未季调 CPI 年率 6%，预期6.0%，前值6.4%。美国 2 月季调后CPI月率 0.4%，预期0.40%，前值0.50%。美国 2 月未季调核心CPI年率 5.5%，预期5.50%，前值5.60%。
+美国2月未季调CPI年率录得6%，已连续第八个月下降，为2021年9月以来新低；美国2月季调后CPI月率录得0.4%，为2022年12月以来新低；美国2月未季调核心CPI年率录得5.5%，已连续第六个月下降，为2021年12月来新低。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -191,6 +224,18 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
 上月，Circle欧盟事务总监表示，欧洲议会就《欧盟数据法》达成初步协议，其中包括对智能合约的监管。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[速览 CyberConnect 与 BNB Chain 合办 Web3 社交黑客松获奖项目]]></title>
+        <id>https://foresightnews.pro/article/detail/27991</id>
+        <link href="https://foresightnews.pro/article/detail/27991"/>
+        <updated>2023-03-14T11:52:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>CyberConnect 与 BNB Chain 合办的 Web3 社交黑客松「Connected 2023 黑客松」有 23 个项目从 57 个竞争项目中胜出，CyberConnect 列举概述了这些项目。本文中文版由 Foresight News 编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/27991">https://foresightnews.pro/article/detail/27991</a></p>
+<p><strong>文章作者：</strong></p><p>CyberConnect</p><hr><h3>观点：</h3><p><strong>CyberConnect：</strong>综合最佳 Web3 社交 DApp：1）Oasis Origin 是一个 Web3 社交超级应用，允许用户在元宇宙中参与各种社交活动。2）Phaver 正在构建通往 Web3 社交的门户，最初基于 Lens 构建，将很快与 CyberConnect 集成。3）ReadON 是一个 Web3 内容聚合器应用，对包括 Youtube、Twitter、Medium 以及 Cointelegraph 等新闻发布平台等的信息进行索引和分析，然后使用机器学习和人工智能为用户提供个性化内容。</p><a href="https://foresightnews.pro/article/detail/27991">内容来源</a><p><strong>CyberConnect：</strong>新星奖获胜项目：1）DegenReborn，加密生活模拟游戏；2）Atem Network，去中心化内容创建协议；3）Plato，奖励餐馆消费者的协议；4）W3Space ，Hyper 社区构建的一款游戏化元宇宙项目；5）Wondera，奖励用户唱歌和创意内容的社交娱乐平台；5）Cyber​Tune ，去中心化的音乐分享和收听平台。</p><a href="https://foresightnews.pro/article/detail/27991">内容来源</a><p><strong>CyberConnect：</strong>Notifi 赏金项目：0xLander，使用 ccProfile 创建用户画像，通过订阅和关注功能构建社交图谱，基于社交图谱创建聊天群，通过发帖、评论等功能在群内分享内容。Lit Protocol 赏金项目：Null World ，针对游戏玩家的社交平台。LivePeer 赏金项目：Dopamine App，为用户提供来自整个加密领域的多种功能，已经发布完全集成 BNB Chain 的钱包，还计划发布 Web3 移动 DApp 商店。</p><a href="https://foresightnews.pro/article/detail/27991">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -8790,18 +8835,6 @@ Activant Capital通过邮件和短信告诉众多投资组合公司的CEO们：
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank]]></title>
-        <id>https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf</id>
-        <link href="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf"/>
-        <updated>2023-03-10T02:38:12.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Circle 1 月审计报告：在多家受监管金融机构中存有储备金，包括 Silicon Valley Bank</h3>
-<p>据德勤审计的 Circle 1 月审计报告显示，Circle 在美国多家受监管的金融机构中存有储备金，包括纽约梅隆银行、Citizens Trust Bank、Customers Bank、New York Community Bank、Signature Bank、Silicon Valley Bank 和 Silvergate Bank 等。Silicon Valley Bank 母公司 SVB 金融集团股价于周四下跌逾 60%，盘后进一步下跌近 20%。</p>
-<p><a href="https://www.circle.com/hubfs/USDCAttestationReports/2023%20USDC_Circle%20Examination%20Report%20January%202023.pdf">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Circle在硅谷银行存有小部分储备金，其80% USDC储备为美国国债]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/4jgpzhm6.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/4jgpzhm6.html"/>
@@ -8876,18 +8909,6 @@ NFTFI经过去年一整年的发展，NFT借贷，租赁，衍生品，碎片化
 此前1月2日消息，SushiSwap CTO表示，决定停止开发Kashi和MISO，Q1重点关注DEX流动性。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资]]></title>
-        <id>https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb</id>
-        <link href="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb"/>
-        <updated>2023-03-10T01:36:36.000Z</updated>
-        <summary type="html"><![CDATA[<h3>硅谷银行股价暴跌 60%，Founders Fund 等基金建议客户从该银行撤资</h3>
-<p>据彭博社援引人士报道，由「硅谷教父」Peter Thiel 共同创立的风险投资基金 Founders Fund 建议企业从硅谷银行撤资，原因是担心其财务稳定性。该银行的母公司 SVB 金融集团的股价在周四暴跌逾 60%，并出售了其投资组合中几乎所有可供出售的证券。据彭博社报道，SVB 领跌 KBW 银行指数，该指数创下 2020 年 6 月以来的最大跌幅。摩根大通和富国银行等银行跌幅超过 5%。</p>
-<p><a href="https://www.bloomberg.com/news/articles/2023-03-09/founders-fund-advises-companies-to-withdraw-money-from-svb">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
