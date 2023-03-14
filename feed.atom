@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T04:30:12.952Z</updated>
+    <updated>2023-03-14T04:37:26.501Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[一分钟速览Cosmos 3月15日升级：以“复制安全”为核心，对ATOM进行价值捕获]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/458k1yee.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/458k1yee.html"/>
+        <updated>2023-03-14T04:20:13.000Z</updated>
+        <summary type="html"><![CDATA[原文：《Cosmos 3月15日升级：摆脱过于分散的现状，ATOM将拥有价值捕获》
+作者：北辰
+长久以来，Cosmos由于治理机制过于分散，导致生态的繁荣与ATOM没有直接关系，市值在20名开外。反观同为「跨链双雄」之一的Polkadot，尽管生态后继乏力，但市值仍比Cosmos多一倍。
+问题的关键在于它们的平台币是否具备价值捕获。
+Cosmos社区意识到了这一点，并从去年开始推动让Cosmos Hub承担生态系统中区块链的验证任务，从而捕获生态内的价值。
+但最初的方案中通胀率过高（以及其它细节上的瑕疵）不利于ATOM持有者而未通过，于是重新调整方案并在过去两周重新投票，最终以99.48%的支持率正式通过，并将于3月15日正式上线。
+这次升级的核心在于「复制安全（RS，Replicated Security）」，就是原来的Interchain Security（链间安全），允许Cosmos生态系统中的区块链共享验证资源以提高安全性，而Cosmos Hub则是安全提供商。
+这意味着基于IBC的区块链可以直接从Cosmos Hub那里共享安全性，而无需搭建自己的验证节点，而且未来也可以直接共享Cosmos Hub发布的新功能。
+而代价就是要将一部分费用（默认25%）和平台币未来的通胀的部分（以持续空投的形式）发送给Cosmos Hub，这将成为验证人和委托人的奖励。
+所以可以把Cosmos这次升级理解为变成类似于Polakdot平行线程的机制，但是不用去筹集DOT来拍卖中继链的插槽，只需要向Cosmos Hub添加提案，并经过三分之二的验证人投票即可启动（只要满足标准，验证人不会拒绝客户）。
+不过出于安全考虑，任何时候只要有三分之一的验证人不想验证这条链，服务就会立即终止。
+Cosmos生态其实一直都在低调地成长，技术栈也在开源生态里越发完善，此次升级对Cosmos生态的项目有不小的吸引力，已有一些头部项目对Cosmos Hub的Replicated Security表示出浓厚兴趣。
+相信未来会有越来越多的基于IBC的区块链选择由Cosmos Hub来提供安全，这样一来省去了自建节点的成本，二来ATOM真正拥有了价值捕获。
+尤其是未来在「Next Billion User」的叙事之下，会有源源不断的开发者进来开发自己的区块链，而在技术上积累了很大的优势的Cosmos生态（快速开发区块链的Cosmos SDK，无许可跨链的IBC协议，互联网级别的Tendermint共识协议）则是不错的选择。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一分钟速览Cosmos 3月15日升级：以“复制安全”为核心，对ATOM进行价值捕获]]></title>
         <id>https://www.panewslab.com/zh/articledetails/458k1yee.html</id>
