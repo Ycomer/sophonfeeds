@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T18:45:10.716Z</updated>
+    <updated>2023-03-14T18:53:28.477Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ceramic 如何实现数据可组合性]]></title>
+        <id>https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</id>
+        <link href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg"/>
+        <updated>2023-03-14T18:40:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>本文由 Multicoin Capital 作者 Kyle Samani 撰写，解析数据分类账本 Ceramic 如何通过社区驱动的数据模型实现数据可组合性。中文版由 DAOSquare 译者 hsl195 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</a></p>
+<p><strong>文章作者：</strong></p><p>Kyle Samani（Multicoin Capital 联合创始人）</p><hr><h3>观点：</h3><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>Ceramic 主要通过一种叫做数据模型的新抽象概念实现跨应用的数据可组合性，这种抽象统一了类似应用的存储方式，并可以检索网络上每个用户的状态。通过采用相同的底层数据模型，应用程序能够对相同的数据进行原生互操作。</p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">内容来源</a><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>Ceramic 采取社区驱动的方式来创建这些数据模型，允许任何开发者轻松地与生态系统中的其他开发人员定义、分享和循环利用他们的模型。随着社区创建越来越多的数据模型，我们将看到使用可组合数据构建的应用程序的数量和种类不断扩大。</p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">内容来源</a><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>通过前述方式，可组合性也带来了更好的开发者体验。在 Ceramic 上构建一个应用程序看起来就像浏览一个数据模型市场，将它们接入你的应用程序，并自动获得对网络上存储在这些模型中的所有数据的访问。使用 Ceramic，开发者将不需要担心用他们独自的用户和数据来开发应用程序。开发者的整个复合创新的速度将大大加快。</p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ceramic 如何实现数据可组合性]]></title>
         <id>https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</id>
