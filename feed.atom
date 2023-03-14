@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T05:45:36.102Z</updated>
+    <updated>2023-03-14T05:51:00.302Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[安全公司：发现影响280多个区块链网络的零日漏洞]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5ka75zg3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5ka75zg3.html"/>
+        <updated>2023-03-14T05:47:59.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，区块链安全公司Halborn发文表示，2022年3月，Halborn受聘评估Dogecoin开源代码库是否存在任何可能影响区块链安全的漏洞。在此评估期间，Halborn发现了几个严重且可利用的漏洞，并已由Dogecoin团队修复。然而，经过更广泛的审查后，Halborn确定同样的漏洞影响了280多个其他网络，包括Litecoin和 Zcash，使超过250亿美元的数字资产面临风险。Halborn将此漏洞代号定为Rab13s。
+Rab13s漏洞是在受影响网络的p2p消息传递机制中发现的，由于其简单性，它们增加了攻击的可能性。利用此漏洞，攻击者可以向各个节点发送精心制作的恶意共识消息，导致每个节点关闭并最终使网络面临51%攻击和其他严重问题等风险。RPC服务中的第二个漏洞允许攻击者通过RPC请求使节点崩溃。然而，成功的利用需要有效的凭据，这降低了整个网络面临风险的可能性，因为一些节点执行了停止命令。第三个漏洞允许攻击者在用户通过RPC运行节点的上下文中执行代码。但是，这种利用的可能性较低，因为它需要有效的凭据才能执行攻击。
+Halborn表示其已为Rab13s开发了一个漏洞利用工具包，其中包括带有可配置参数的概念证明，以演示对不同网络的攻击。所有必要的技术信息都已与确定的利益相关者共享，以帮助他们修复错误，并为社区和矿工发布必要的补丁。对于使用基于UTXO 的节点（例如狗狗币）的项目，建议将所有节点升级到最新版本（1.14.6）。由于问题的严重性，Halborn目前不会发布更多技术或漏洞利用细节。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】Glaxy Digital 研究员解读 Eigenlayer 的创新性：为什么说它很重要？]]></title>
+        <id>https://twitter.com/waltjsmith/status/1635147987004579841</id>
+        <link href="https://twitter.com/waltjsmith/status/1635147987004579841"/>
+        <updated>2023-03-14T05:37:13.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>我们该如何减少恶意行为者？Galaxy Digital 研究员 Walt Smith 认为 Eigenlayer 机制是加密货币的一次飞跃创新，可以利用女巫攻击的阻力来增强基础层，并突破固有限制且无需改变其主要优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/waltjsmith/status/1635147987004579841">https://twitter.com/waltjsmith/status/1635147987004579841</a></p>
+<p><strong>文章作者：</strong></p><p>Walt Smith</p><hr><h3>观点：</h3><p><strong>Walt Smith：</strong>在分布式计算和区块链中，网络参与者越多，则不诚实的行为者就越多，这也会导致成本增加。因此我们有一个权衡，即增加对故障的鲁棒性并提高可及性，但这也会增加时间成本。对于区块链而言，更快的通信或共识能够通过更快的结算时间提高市场效率，增加抗重组能力并提高快速的经济终局性。【原文为英文】</p><a href="https://twitter.com/waltjsmith/status/1635147987004579841">内容来源</a><p><strong>Walt Smith：</strong>我们试图通过不同的方式来解决这个权衡，包括 Solana 历史证明结合 Turbine、Tendermint 应用链及以太坊的 LMD-GHOST/Casper FFG 混合。这就是 EigenLayer 产生作用的地方。EigenLayer 让所有用户公开创建子集以参与额外的通信，既给了我们想要的经济安全和可信中立性，也让协议及其产品更接近现实世界的应用程序。【原文为英文】</p><a href="https://twitter.com/waltjsmith/status/1635147987004579841">内容来源</a><p><strong>Walt Smith：</strong>我的结论是：1）重质押增强了网络，表明网络可以再次绕过内置限制；2）理想的网络将存在一个强大的基础层（便宜、易于操作、多样化节点），但也需要有足够多的状态创建逻辑及原语；3）安全构建每种类型的服务或中间的逻辑需要长时间的努力。【原文为英文】</p><a href="https://twitter.com/waltjsmith/status/1635147987004579841">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】Glaxy Digital 研究员解读 Eigenlayer 的创新性：为什么说它很重要？]]></title>
         <id>https://twitter.com/waltjsmith/status/1635147987004579841</id>
@@ -411,7 +435,7 @@ Angle Protocol表示，如果黑客入侵的资金(17,614,940.03 USDC)确定会�
         <updated>2023-03-14T02:51:42.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>据 Chainalysis 数据，2022 年由于预言机操纵造成的损失达 4.03 亿美元。EigenPhi 对话 ZeroMEV 创始人、BlockSec 联创、SlowMist 团队成员及 Pyth Network 核心贡献者等行业专家，就预言机攻击类型及预防方法等内容进行了共同探讨。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">https://twitter.com/EigenPhi/status/1635404741932101633</a></p>
-<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>Yixin Cao（EigenPhi 数据科学家）：</strong>预言机攻击可以分为设计缺陷、流动性操纵和代币发行机制利用三个方面，构建这样的理论框架可以帮助进行风险评估。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a><p><strong>Yajin Zhou（BlockSec 联创）：</strong>关于如何减轻与预言机相关的风险，DeFi 需要主动进行风险控制和隔离，隔离是 DeFi 协议缺乏的基本安全机制。此外，我还建议对不同来源的价格进行纠正性监测和比较，并对 mempool 进行监测。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a><p><strong>Pmcgoohan（ZeroMEV 创始人）：</strong>DeFi 需要转向防御性思维，优先保护用户资金，用户应该转移至 FCFS L2 系统上的审计协议以避免操纵和贿赂，交易应该在 L2 上使用加密 memepool 进行以保护隐私。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a><p><strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：</strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：建议采取综合防御措施：从各个链上和链下交易所获取价格以及值得信赖的报告人和数据聚合、高频率和低延迟的价格更新机制及审计预言机的操作栈。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a>]]></summary>
+<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>Yixin Cao（EigenPhi 数据科学家）：</strong>预言机攻击可以分为设计缺陷、流动性操纵和代币发行机制利用三个方面，构建这样的理论框架可以帮助进行风险评估。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a><p><strong>Yajin Zhou（BlockSec 联创）：</strong>关于如何减轻与预言机相关的风险，DeFi 需要主动进行风险控制和隔离，隔离是 DeFi 协议缺乏的基本安全机制。此外，我还建议对不同来源的价格进行纠正性监测和比较，并对 mempool 进行监测。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a><p><strong>Pmcgoohan（ZeroMEV 创始人）：</strong>DeFi 需要转向防御性思维，优先保护用户资金，用户应该转移至 FCFS L2 系统上的审计协议以避免操纵和贿赂，交易应该在 L2 上使用加密 memepool 进行以保护隐私。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a><p><strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：</strong>建议采取综合防御措施：从各个链上和链下交易所获取价格以及值得信赖的报告人和数据聚合、高频率和低延迟的价格更新机制及审计预言机的操作栈。【原文为英文】</p><a href="https://twitter.com/EigenPhi/status/1635404741932101633">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -2331,17 +2355,6 @@ Read the full entry]]></summary>
         <link href="https://www.panewslab.com/zh/sqarticledetails/yn6z74cs.html"/>
         <updated>2023-03-13T08:44:36.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月13日消息，美股第一共和银行盘前进一步跌超60%。继硅谷银行后，该行上周晚些时候亦遭到挤兑。
-今日早些时候消息，该银行表示，未使用的流动性资金超过700亿美元，财务状况非常稳健。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美股第一共和银行盘前跌超30%，该行上周晚些时候曾遭挤兑]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/qs416nte.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/qs416nte.html"/>
-        <updated>2023-03-13T08:32:50.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月13日消息，据金十报道，美股第一共和银行盘前跌超30%，继硅谷银行后，该行上周晚些时候亦遭到挤兑。
 今日早些时候消息，该银行表示，未使用的流动性资金超过700亿美元，财务状况非常稳健。]]></summary>
         <author>
             <name>PANews News</name>
