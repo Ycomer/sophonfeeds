@@ -57,7 +57,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Synthetix 官方撰推发文，对其 V3 版本进行详解，包含其架构、重点功能，并探讨每个功能和机制，认为 V3 升级彻底改造了 Synthetix，为一系列链上衍生品提供动力。几乎任何衍生协议都可以基于 V3 而不是从头开始构建。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">https://twitter.com/synthetix_io/status/1634285809150095362</a></p>\n<p><strong>文章作者：</strong></p><p>Synthetix</p><hr><h3>观点：</h3><p><strong>Synthetix：</strong>Synthetix V3 是可组合的衍生流动性协议，旨在成为链上金融产品的通用和模块化基础。两个关键价值主张：1）面对质押者，一系列的池 / 金库存款，连接到一系列衍生品市场 —— 从而选择市场敞口和预期回报的水平和类型。2）面对协议，一系列用于抵押新衍生品市场的矿池 / 金库或创建矿池并通过奖励吸引抵押品的工具。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>V3 重点：1）DeFi 衍生品的流动性层，推动下一代无许可的衍生品；2）通过多重质押给质押者权力，创建了一个与抵押品类型无关的通用金库系统，抵押品必须经过治理批准。 3）一个可组合的、对开发人员友好的系统；4）未来将能够部署到任何 EVM 兼容链上。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>其他功能和机制：1）围绕市场构建，市场决定了相关资产的定价逻辑；2）可以使用市场定价逻辑和价格反馈来部署新的合成资产；3）多抵押品质押，允许治理支持任何抵押品来支持合成资产，抵押品期权将具有可调整的变量；4）贷款，但不会面临债务池风险，也没有利息和发行费用；5）差异化的流动性（债务）池；6）市场创建者可以从多个预言机解决方案中进行选择以设置自定义聚合；7）奖励管理器。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a>",
           "link": "https://twitter.com/synthetix_io/status/1634285809150095362",
           "publishedOn": "2023-03-14T10:03:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Synthetix V3：为下一代链上衍生品和金融产品提供动力的流动性层",
           "imageUrl": null
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 目前 TVL 中超 30% 都来自于 GMX，虽然 GMX 已经建立了头部优势和护城河，但其竞争对手永续杠杆交易所 Vela Exchange 也正在迅速获得价值。加密研究员 Wauwda 从概念、功能及市值等角度将 GMX 和 Vela Exchange 进行了对比分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">https://twitter.com/wauwda/status/1635292016673447940</a></p>\n<p><strong>文章作者：</strong></p><p>Wauwda</p><hr><h3>观点：</h3><p><strong>Wauwda：</strong>与 GMX 不同，Vela Exchange 提供法币出入金和 OTC 交易。此外，Vela Exchange 的回购模式也很独特，市场上回购的 VELA 将备用做储备用于支付 eVELA 奖励，既稳定了供应量也不会有额外的 VELA 被铸造。此外，从市值和 TVL 两方面看：Vela Exchange 市值为 2850 万美元，TVL 为 4137 万美元。GMX 市值为 5.275 亿美元，TVL 为 5.215 亿美元。【原文为英文】</p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">内容来源</a>",
           "link": "https://twitter.com/wauwda/status/1635292016673447940",
           "publishedOn": "2023-03-14T04:18:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文】Vela Exchange 与 GMX 竞争分析：谁会赢？",
           "imageUrl": null
         },
@@ -257,7 +257,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7552,
+          "wordCount": 7554,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -387,7 +387,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1715,
+          "wordCount": 1717,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -477,9 +477,9 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17746,
+          "wordCount": null,
           "title": "Signature Bank 被纽约银行当局关闭",
-          "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
+          "imageUrl": null
         },
         {
           "id": "https://twitter.com/fintechfrank/status/1635045997670965248",
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27299,
+          "wordCount": 27268,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -787,7 +787,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20958,
+          "wordCount": 20945,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -917,7 +917,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
@@ -927,7 +927,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">https://twitter.com/Delphi_Digital/status/1633875872972406785</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a><p><strong>Delphi Digital：</strong>Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a><p><strong>Delphi Digital：</strong>Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1633875872972406785",
           "publishedOn": "2023-03-10T06:20:22.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】比特币「新文化」运动如何为比特币带来链上效用？",
           "imageUrl": null
         },
@@ -1007,7 +1007,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">https://twitter.com/jackiereses/status/1633985785295966209</a></p>\n<p><strong>文章作者：</strong></p><p>Jackie Reses（Lead Bank 首席执行官）</p><hr><h3>观点：</h3><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a>",
           "link": "https://twitter.com/jackiereses/status/1633985785295966209",
           "publishedOn": "2023-03-10T03:17:35.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？",
           "imageUrl": null
         },
@@ -1017,7 +1017,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">https://twitter.com/ThorHartvigsen/status/1633776677909315585</a></p>\n<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a><p><strong>Thor Hartvigsen：</strong>6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a><p><strong>Thor Hartvigsen：</strong>14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a><p><strong>Thor Hartvigsen：</strong>20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a>",
           "link": "https://twitter.com/ThorHartvigsen/status/1633776677909315585",
           "publishedOn": "2023-03-10T03:13:51.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......",
           "imageUrl": null
         },
@@ -3578,6 +3578,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/aped1l8l.html",
+          "author": null,
+          "description": "PANews 3月15日消息，据彭博社报道，加密托管银行Anchorage Digital周二表示，将裁员75人，约占员工总数的20%。该公司表示，美国不确定的加密监管环境是其作出裁员决定的一个因素。此外，广泛的宏观经济挑战和加密市场波动也促使其裁员。Anchorage是美国第一家联邦特许的加密银行，其于2021年完成3.5亿美元融资，私募股权公司KKR & Co.领投，估值超过30亿美元。去年月，美国货币监理署(OCC)曾表示，Anchorage没有实施关键的洗钱控制措施，其合规计划人员不足，且缺乏验证客户身份的内部流程。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/aped1l8l.html",
+          "publishedOn": "2023-03-14T22:58:54.000Z",
+          "wordCount": 1118,
+          "title": "加密托管银行Anchorage Digital裁员20%",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/gyzcn0ai.html",
           "author": null,
