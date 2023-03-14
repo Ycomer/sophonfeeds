@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T07:39:34.446Z</updated>
+    <updated>2023-03-14T07:44:44.308Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -77,6 +77,18 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【英文长推】一文解析当下比特币上涨原因]]></title>
+        <id>https://twitter.com/rxcrax/status/1635338126003695617</id>
+        <link href="https://twitter.com/rxcrax/status/1635338126003695617"/>
+        <updated>2023-03-14T06:59:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>当下为什么所有股票都在下跌时比特币却在上涨？加密货币 KOL Takashi Azuki 认为是目前的市场行情加上 CZ 将 BUSD 转换为 BTC/BNB/ETH 导致的比特币上涨，并阐述了自己目前的做法。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/rxcrax/status/1635338126003695617">https://twitter.com/rxcrax/status/1635338126003695617</a></p>
+<p><strong>文章作者：</strong></p><p>Takashi Azuki</p><hr><h3>观点：</h3><p><strong>Takashi Azuki：</strong>比特币上涨原因：当下，银行股跌入地狱，部分股票停牌。金融市场正在崩溃，比特币的去中心化也许是一种救赎。美国当局保证返还破产的 SVB 存款，并暂停 Signature Bank（NYC），USDC 恢复锚定 1 美元。同时 CZ 将 BUSD 溢出到 BTC/BNB/ETH。【原文为英文】</p><a href="https://twitter.com/rxcrax/status/1635338126003695617">内容来源</a><p><strong>Takashi Azuki：</strong>我现在在做什么：留下了一半的稳定币，并将它们转换为 USDT 。我仍然认为行情很快就会修正。我将继续按计划对其进行再投资。【原文为英文】</p><a href="https://twitter.com/rxcrax/status/1635338126003695617">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Houbi韩国更名为“High Block”，正式成为独立的韩国企业]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/7vk8tr55.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/7vk8tr55.html"/>
@@ -98,6 +110,42 @@ Houbi韩国曾在当时总部位于新加坡的Houbi Global于2017年成立韩�
 Houbi韩国新的大股东是现有的第二大股东，韩国法人Houbi Blockchain。Houbi韩国的另一大股东是Korea Real Estate Trust，持有Houbi韩国12%的股份。据悉，Houbi韩国仅更改了名称和股东，管理团队和整体管理层不会发生重大变化。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】SlowMist：以太坊借贷平台 Euler Lab 遭到攻击，去中心化金融领域安全措施待加强]]></title>
+        <id>https://twitter.com/slowmist_team/status/1635288963580825606</id>
+        <link href="https://twitter.com/slowmist_team/status/1635288963580825606"/>
+        <updated>2023-03-14T06:54:21.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 3 月 13 日，在以太坊区块链上运行的借贷平台 Euler Lab 遭到攻击，导致攻击者盗取超过 1.9 亿美元。SlowMist 分析此次被盗过程以及原因，呼吁去中心化金融领域平台应实施严格安全措施来防范恶意行为者。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/slowmist_team/status/1635288963580825606">https://twitter.com/slowmist_team/status/1635288963580825606</a></p>
+<p><strong>文章作者：</strong></p><p>SlowMist</p><hr><h3>观点：</h3><p><strong>SlowMist：</strong>两个关键因素促成了攻击的成功：1）资金被捐赠到预留地址，没有经过流动性检查。这创造了一种可以直接触发软清算的机制。2）当高杠杆触发软平仓逻辑时，收益率增加，使得清算人仅通过将一部分负债转移给自己，就可以获得被平仓用户账户中的大部分抵押资金。鉴于抵押资金的价值超过了负债的价值（由于软清算而仅部分转移），清算人能够成功通过他们的资产健康状况检查并提取获得的资金。【原文为英文】</p><a href="https://twitter.com/slowmist_team/status/1635288963580825606">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】Glassnode 周报：三家银行倒下]]></title>
+        <id>https://insights.glassnode.com/the-week-onchain-week-11-2023/</id>
+        <link href="https://insights.glassnode.com/the-week-onchain-week-11-2023/"/>
+        <updated>2023-03-14T06:51:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>近日，美国三家加密货币友好银行机构 Silvergate 、Silicon Valley Bank、Signature Bank New York，自愿清算或被美国监管机构接管，引起了市场波动。Glassnode 作者 Checkmate 通过相关数据变化总结了其在链上资产以及市场结构中的影响。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://insights.glassnode.com/the-week-onchain-week-11-2023/">https://insights.glassnode.com/the-week-onchain-week-11-2023/</a></p>
+<p><strong>文章作者：</strong></p><p>glassnode</p><hr><h3>观点：</h3><p><strong>glassnode：</strong>在 2023 年最具影响力的一周之后，数字资产行业在美国缺少了三家友好的加密银行机构，并且数字资产行业处于日益敌对的监管环境中。随着传统金融市场在周末关闭，几种稳定币经历了与 1 美元挂钩偏离的情况，在周日有保证存款消息传出后得到恢复。【原文为英文】</p><a href="https://insights.glassnode.com/the-week-onchain-week-11-2023/">内容来源</a><p><strong>glassnode：</strong>投资者的反应与 FTX 之后有些相似，将稳定币净转入交易所，并选择持有 BTC 和 ETH。宏观角度看，该行业在过去一个月中经历了约 59 亿美元的净流出。从许多方面来看，本周强化了 Satoshi 创建无信任、稀缺、数字资产的原因。【原文为英文】</p><a href="https://insights.glassnode.com/the-week-onchain-week-11-2023/">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】一文了解 Ethereum Attestation Service 的链下证明]]></title>
+        <id>https://twitter.com/eas_eth/status/1635391258230394880</id>
+        <link href="https://twitter.com/eas_eth/status/1635391258230394880"/>
+        <updated>2023-03-14T06:45:46.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/eas_eth/status/1635391258230394880">https://twitter.com/eas_eth/status/1635391258230394880</a></p>
+<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href="https://twitter.com/eas_eth/status/1635391258230394880">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href="https://twitter.com/eas_eth/status/1635391258230394880">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -8742,18 +8790,6 @@ https://www.galaxy.com/research/whitepapers/bitcoin-ordinals-inscriptions-5-bill
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mt.Gox 索赔申请截止日期延后至 4 月 6 日]]></title>
-        <id>https://www.chainfeeds.xyz/rss/Mt.Gox%20%E7%B4%A2%E8%B5%94%E7%94%B3%E8%AF%B7%E6%88%AA%E6%AD%A2%E6%97%A5%E6%9C%9F%E5%BB%B6%E5%90%8E%E8%87%B3%204%20%E6%9C%88%206%20%E6%97%A5</id>
-        <link href="https://www.chainfeeds.xyz/rss/Mt.Gox%20%E7%B4%A2%E8%B5%94%E7%94%B3%E8%AF%B7%E6%88%AA%E6%AD%A2%E6%97%A5%E6%9C%9F%E5%BB%B6%E5%90%8E%E8%87%B3%204%20%E6%9C%88%206%20%E6%97%A5"/>
-        <updated>2023-03-09T10:03:46.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Mt.Gox 索赔申请截止日期延后至 4 月 6 日</h3>
-<p>据 Mt.Gox 官网显示，经法院同意，索赔申请截止日期从 2023 年 3 月 10 日变更为 4 月 6 日；还款截止日期从 2023 年 9 月 30 日推迟到 10 月 31 日。除非有不可避免的原因，进一步延长最后期限将很困难。Mt.Gox 目前剩余待赔付金额大约为 142,000 枚 BTC、143,000 比特现金 (BCH) 和 690 亿日元。</p>
-<p><a href="Mt.Gox 索赔申请截止日期延后至 4 月 6 日">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[FTX提出400万美元的奖金计划以留住员工]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/69z1h36f.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/69z1h36f.html"/>
@@ -8913,18 +8949,6 @@ NUSD 的广泛采用将阻止每个大型交易所竞相创建自己的稳定币
 我真诚地希望，一个由积极进取的人组成的团队开始致力于这样一个产品。它并不是应该由任何大型中心化交易所拥有或主导的东西。如果我看到任何可信的、独立的团队正在开发一个类似的产品，我将尽我所能帮助他们实现这一目标。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arthur Hayes：以「比特币保证金 + 反向永续合约」打造新的美元稳定币]]></title>
-        <id>https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A</id>
-        <link href="https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A"/>
-        <updated>2023-03-09T09:35:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>BitMEX 创始人 Arthur Hayes 撰文回顾审视加密行业为什么需要稳定币、用稳定币做什么以及如何使用稳定币的经典（Why，What，How）问题，并构思了一种以「比特币保证金 + 反向永续合约」为底层机制发行的无清算风险的合成美元稳定币 NakaDollar（NUSD）。Arthur Hayes 还认为，合规美元稳定币未来市值增长将因监管受限，无法匹配行业增长规模。中文版由吴说区块链 GaryMa 编译发布。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A">https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A</a></p>
-<p><strong>文章作者：</strong></p><p>Arthur Hayes（BitMEX 创始人）</p><hr><h3>观点：</h3><p><strong>Arthur Hayes（BitMEX 创始人）：</strong>稳定币的意义不是在不需要的地方创造去中心化产品。相反，它们只是为了提供银行拒绝提供的法币 Token 化服务。我认为 DAI 等超额抵押稳定币和 TerraUSD 等算法稳定币从根本上来说是不必要的。但不幸的是（也很危险），市场倾向于将稳定币存在的真正原因，即允许交易者在法币和加密货币之间快速转换，与更广泛的去中心化目标，即为任何有可能造成不平等的中心化机构或实体创造一个去中心化替代方案混为一谈。</p><a href="https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A">内容来源</a><p><strong>Arthur Hayes（BitMEX 创始人）：</strong>美元法币稳定币根本不会被允许扩张到使加密货币市值增加数万亿美元所需的规模（假设你认为加密货币总市值与美元稳定币流通总量正相关）。对美国金融系统来说，将这些美元交到必须立即清算其持有的债务以兑现对客户的承诺的机构手中，风险太大。因此，虽然三大巨头（USDT、USDC、BUSD）可能会继续存在，但他们的存款总量增长是有上限的。</p><a href="https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A">内容来源</a><p><strong>Arthur Hayes（BitMEX 创始人）：</strong>1 NUSD = 1 美元比特币 + 做空 1 份比特币 / 美元的反向永续合约。NUSD 不依赖敌对的法币银行来保管美元，而是依赖上架反向永续合约的衍生品交易所。它不会去中心化，NUSD 解决方案中的故障点将是中心化衍生品交易所。我排除了去中心化衍生品交易所，因为它们的流动性远不及中心化平台，且定价预言机依赖于中心化现货交易所的数据。</p><a href="https://mp.weixin.qq.com/s/9ZuJGkI1H_h5oUPHoNDt4A">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9181,18 +9205,6 @@ https://medium.com/@flavioedoardorestelli/wonders-and-doubts-about-music-in-web3
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】观点：为什么 MPC 钱包不可行？]]></title>
-        <id>https://twitter.com/crypcipher/status/1633289822113796097</id>
-        <link href="https://twitter.com/crypcipher/status/1633289822113796097"/>
-        <updated>2023-03-09T08:24:58.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Nervina Labs 首席执行官 cipherw 发推特阐述其认为多方计算（MPC）钱包的缺陷：存在严重安全风险且并未解决单点故障问题。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/crypcipher/status/1633289822113796097">https://twitter.com/crypcipher/status/1633289822113796097</a></p>
-<p><strong>文章作者：</strong></p><p>crypcipher（Nervina Labs 首席执行官）</p><hr><h3>观点：</h3><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>1）MPC 引入并忽视了更严重的安全风险。虽然 MPC 将用户从私钥管理中解放出来，但其密钥管理依赖于 HSM 或云服务器，很容易出现大量不可恢复故障；2）MPC 钱包始终没有解决单点故障问题。即使密钥共享服务器是分开的，但仍由同一个解决方案提供商运营和维护。这意味着，如果服务提供商关闭，所有的用户账户将变得不可用。【原文为英文】</p><a href="https://twitter.com/crypcipher/status/1633289822113796097">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>MPC 是一种钱包 SaaS 产品，兼具 SaaS 的积极和消极方面。虽然终端用户可能不关心去中心化和自主权，但开发者和初创公司却关心，因为他们不能在不可靠的服务上构建应用程序。【原文为英文】</p><a href="https://twitter.com/crypcipher/status/1633289822113796097">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[韩国科技信息通信部将向元宇宙项目投入5100万美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/tbr8ztc9.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/tbr8ztc9.html"/>
@@ -9213,18 +9225,6 @@ https://medium.com/@flavioedoardorestelli/wonders-and-doubts-about-music-in-web3
 巴黎做市商和经纪公司Flowdesk的首席执行官Guilhem Chaumont表示：“当有关Silvergate财务困难的消息传出时，再加上比特币价格下跌，我们看到整个生态系统的交易量也明显下降。”]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】详解 Cosmos IBC 模型：互操作性的瑞士军刀]]></title>
-        <id>https://twitter.com/pt1mfv_/status/1633108786650005508</id>
-        <link href="https://twitter.com/pt1mfv_/status/1633108786650005508"/>
-        <updated>2023-03-09T08:03:50.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Cosmos 跨链通信协议（IBC）的基本目的是将独立的区块链相互连接，以信任最小化、安全、可扩展和通用的方式提供区块链的互操作性。加密研究员 pt1mfv 对 IBC 的基本概念、工作原理、用例等方面进行了全面解析，总结出其独到之处。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/pt1mfv_/status/1633108786650005508">https://twitter.com/pt1mfv_/status/1633108786650005508</a></p>
-<p><strong>文章作者：</strong></p><p>pt1mfv</p><hr><h3>观点：</h3><p><strong>pt1mfv：</strong>Cosmos IBC 由两个不同的层组成，传输层（TAO）建立安全连接，并在链间进行数据验证；应用层定义数据如何在链上被打包、分发和解析，可用于建立广泛的跨链应用，包括代币转移、链间账户、链间查询和预言机数据反馈。为保证生态系统安全，IBC 对发送的数据进行验证，以确保接收区块链可以信任它收到的每个数据包。交易默认是有效的，可以在不同区块链系统之间广播，同时保持数据完整性。【原文为英文】</p><a href="https://twitter.com/pt1mfv_/status/1633108786650005508">内容来源</a><p><strong>pt1mfv：</strong>自 2021 年 5 月推出以来，IBC 已经连接了 54 条链，包括 Osmosis、Kujira、Cronos 等等。IBC 兼容的链可以是公有或私有的，并且可以相互通信，不用考虑不同的应用程序和验证器集。但为了实现兼容，链必须有一个即时的最终共识层，以及轻客户端功能。【原文为英文】</p><a href="https://twitter.com/pt1mfv_/status/1633108786650005508">内容来源</a><p><strong>pt1mfv：</strong>IBC 在设计、用途和性能方面与其他跨链解决方案有许多不同之处。IBC 不定义需要传递什么样的数据；IBC 提供了与链交互的单一接口，避免用户根据个人需求在不同生态系统中转移资产的需要；轻客户端架构提供了安全方面的升级；作为一个通用互操作性协议，「通用性」也是其独特之处。【原文为英文】</p><a href="https://twitter.com/pt1mfv_/status/1633108786650005508">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
