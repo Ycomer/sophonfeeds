@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T08:39:08.146Z</updated>
+    <updated>2023-03-14T08:46:19.302Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[美国南达科他州州长否决禁止将加密货币用作货币的立法，并呼吁其他州阻止类似立法]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/cqvukcm9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/cqvukcm9.html"/>
+        <updated>2023-03-14T08:36:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，据Bitcoin.com报道，美国南达科他州政府周五宣布，州长Kristi Noem否决了众议院第1193号法案，即一项禁止使用包括比特币在内的加密货币作为货币的法案。Noem在的否决信称：“该法案将侵犯数字货币的自由。”
+州长在采访时解释说：“该法案长达110多页，它是作为UCC(统一商法典)指导方针的更新而提出的，得到了我们所有金融机构和银行的支持。我们看到了法案中改变货币定义的部分。从本质上讲，它所做的是为政府主导的CBDC铺平了道路，它还禁止存在任何其他形式的加密货币、比特币或数字货币。”州长强调，“这显然是对我们自由的威胁”，并指出南达科他州是第一个“真正审视该法案并找出其中内容的真相”的州。
+Noem州长进一步详细说明：“其他20多个州在他们面前有相同的UCC语言。我相信这是为联邦政府控制我们的货币从而控制人民铺平道路。这应该引起所有人的警惕。如果政府的CBDC成为唯一合法的数字货币，那么政府将控制你花钱的方式，这会剥夺你所有的自由。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美国南达科他州州长否决禁止将加密货币用作货币的立法，并呼吁其他州阻止类似立法]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/cqvukcm9.html</id>
@@ -16,6 +28,18 @@
 Noem州长进一步详细说明：“其他20多个州在他们面前有相同的UCC语言。我相信这是为联邦政府控制我们的货币从而控制人民铺平道路。这应该引起所有人的警惕。如果政府的CBDC成为唯一合法的数字货币，那么政府将控制你花钱的方式，这会剥夺你所有的自由。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[区块链游戏解析：类型、发展模式、XR、开放经济和F2O]]></title>
+        <id>https://techflowpost.mirror.xyz/j2BQJ_zGVOOl87tTUO7MOtc2DdVyHs-GS61l_JSzRsQ</id>
+        <link href="https://techflowpost.mirror.xyz/j2BQJ_zGVOOl87tTUO7MOtc2DdVyHs-GS61l_JSzRsQ"/>
+        <updated>2023-03-14T08:24:42.000Z</updated>
+        <summary type="html"><![CDATA[区块链游戏解析：类型、发展模式、XR、开放经济和F2O – 深潮TechFlow
+撰写：Stanford Blockchain Review
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -170,6 +194,30 @@ Frax 团队正在努力提高稳定币的安全性，最近宣布将其抵押率
 其中， Twin Turbo共识具有智能区块传播（Intelligent Block Propagation）和 Optimistic区块处理（Optimistic Block Processing）的特点，使Sei能够比普通的Tendermint更快地广播和处理区块；并行化方面，Sei利用两种不同类型的并行化来进一步改善网络吞吐量和延迟性，其中DeliverTx并行化允许并行化所有类型的交易，而Endblock并行化仅适用于订单交易。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】解读基于「based」的 rollup 提案：来自 L1 排序的超能力]]></title>
+        <id>https://twitter.com/sreeramkannan/status/1635453231815086080</id>
+        <link href="https://twitter.com/sreeramkannan/status/1635453231815086080"/>
+        <updated>2023-03-14T08:02:05.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Justin Drake 在以太坊研究会提出基于「based」的 rollup 提案，即使用 L1 提议 - 构建者分离以原生地包含 L2 blob（包含任何压缩），而不是使用排序器。Eigenlayer 创始人 Sreeram Kannan 撰推对该提案进行解读，并提出疑问和可行的解决方式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">https://twitter.com/sreeramkannan/status/1635453231815086080</a></p>
+<p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>这里的一个问题是 L2 客户端将交易发送到哪里，以便搜索者 / 构建者可以将它们捞出来组成 L2 blob？解决方法：1）将它们发送到 L1 内存池，其中包含一些「知情」搜索者可以解释的特殊元数据。但缺点是将显著增加 L1 内存池的负载。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>2）让这些 L2 交易存在于新的 p2p 内存池（或 pubsub 分片）中，每个 L2 一个，然后「知情」的搜索者可以从中找出它们，以创建 blob。总体而言，这种基于 rollup 的结构创建了一个集成的 MEV 市场（包括交叉 rollup 原子套利），正如 Justin Drake 所指出，缺点是排序优先权不由 L2 行使和拥有，但这将是许多 L2 启动的好方法。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>文章中还指出，还有两个 Eigenlayer 可以协助的进一步改进，即测序的预确认和测序的 fifo 通道。高级功能，如交易压缩，只发布 blob 等，今天只有使用中心化或单独的去中心化排序器才可能。而 Justin 观察认为，L1 构建者可以发挥同样的作用。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【访谈】对话 EthStorge，用 Layer2 思路构建以太坊]]></title>
+        <id>https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A</id>
+        <link href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A"/>
+        <updated>2023-03-14T07:55:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>BinaryDAO 对话以太坊基础设施 EthStorge 创始人 Qi Zhou，解析 EthStorge 的目标以及目标实现方式，阐述 EthStorage 如何利用以太坊的 Rollup 技术和 Layer2 技术降低以太坊的存储成本。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A</a></p>
+<p><strong>文章作者：</strong></p><p>BinaryDAO</p><hr><h3>观点：</h3><p><strong>Qi Zhou：</strong>EthStorge 目标：1）利用以太坊的安全属性，建立开放生态系统。2）利用以太坊的 Rollup 技术和 Layer2 技术降低以太坊的存储成本，希望把以太坊的存储成本降低到现在的千分之一，并提高现有的存储能力到 PB 级别以上。</p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">内容来源</a><p><strong>Qi Zhou：</strong>如何实现：与其他以太坊 Rollup 有着本质区别，其他 Rollup 都是在 TPS 性能上做扩容，属于对 ETH 计算层的扩容，而 EthStorage 是对 ETH 存储层的扩容。 EthStorage 不仅可以作为一个去中心化的长期存储的解决方案，而且可以高度跟以太坊以及以太坊所有生态进行绑定，其它 Rollup 就可以通过智能合约验证所有的存储数据。</p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">内容来源</a><p><strong>Qi Zhou：</strong>EthStorage 可以更好地去支持以太坊现在所有的应用，为了支持这些应用，我们开发了一个 Web3 的访问协议。该协议是一个去中心化的 HTTP 版本，或者是一个更加灵活的 IPFS 版本，其中关于资源的定位方式是一个智能合约。开发该协议原因：大量数据存储到以太坊，并且能够被智能合约直接 Reference，需要有一个去中心化的方式去访问它。</p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -8676,18 +8724,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mint Ventures：加密世界的原生基准利率该如何定义？]]></title>
-        <id>https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</id>
-        <link href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/"/>
-        <updated>2023-03-09T11:27:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>链上世界到底有没有债券市场？加密原生 crypto native 的债券市场可能会有什么样的发展模式？Mint Ventures 研究员 Colin Li 从加密原生的无风险利率（risk free rate) 切入，试图寻找在加密市场中什么样的经济活动可能达到风险与收益相匹配。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/</a></p>
-<p><strong>文章作者：</strong></p><p>ColinLy</p><hr><h3>观点：</h3><p><strong>ColinLy：</strong>无风险利率不包含信用风险、期限风险等，在传统世界中一般被认为是短期国债利率，或央行制定的基准利率水平。如果将名义无风险利率拆开，可以看到一部分是价格预期（通胀），另一部分是经济体本身的增长预期（实际利率）。当然，这个利率存在一些前提假设，比如国家相对稳定，监管机构没有被破坏等等。所以无风险利率，不是绝对没有风险。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a><p><strong>ColinLy：</strong>不论 POS 还是 POW 机制，为了维持正常运行，都需要为矿工 /validator 提供一定奖励。这部分收益率包含了公链代币的新发放（激励），即「国家货币」的通胀，和链上活动的活跃程度。以 POS 机制为例，MEV 主要来源于套利、清算、三明治攻击，都与链上活动息息相关。不过，从风险角度看，获得这笔收益需要承担硬件、软件（客户端）、网络、slashing 罚金等维持公链运行必须的风险。总的来看，POS 收益率更贴合「国家」叙事层面下的「无风险利率」。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a><p><strong>ColinLy：</strong>总体来看，TVL 在 1 亿美元以上、有 POS 收益且持续通胀的公链项目的收益率呈现出与现实世界非常类似的情况：经济体越成熟，提供的利率水平相对越低。通过简单观测 POS 收益率和 TVL 排名，有利于部署不同的公链投资策略：对于稳健的投资者，应该寻找 POS 收益率偏低且实际 POS 收益率为正的公链项目；对于激进的投资者，或许盈亏比更大的项目在 POS 收益率偏高且实际 POS 收益率为负的公链中。</p><a href="https://research.mintventures.fund/2023/03/09/zh-an-exploration-of-risk-free-rate-in-the-crypto-world/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[2 月加密市场回顾：BTC 链上活动乏力，宏观上行压力增加]]></title>
         <id>https://www.panewslab.com/zh/articledetails/5dms782b159k.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/5dms782b159k.html"/>
@@ -8792,21 +8828,6 @@ Pendle 在这三点上都做的不错，希望你能明白为什么我对这个�
 Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSea、ConsenSys 等加密初创公司股票正大幅折价出售]]></title>
-        <id>https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts</id>
-        <link href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts"/>
-        <updated>2023-03-09T10:25:15.000Z</updated>
-        <summary type="html"><![CDATA[<h3>OpenSea、ConsenSys 等加密初创公司股票正大幅折价出售</h3>
-<p>二级交易市场 Birel 首席执行官 Richard Freemanson 证实，许多加密初创公司的股票目前在 Birel.io 上以相当大的折扣出售。这些初创公司包括 Alchemy、Blockchain.com、Chainalysis、Kraken、ConsenSys、Blockdaemon、CoinDCX 和 OpenSea。
-
-上述公司发售的大宗股票规模从 300 万美元到 5000 万美元不等，且折扣差别很大。最引人注目的是 Blockchain.com 和 ConsenSys，他们的股票分别以较最新一轮融资折让 74% 和 71% 的价格发售。Chainalysis 股票以 61% 的折扣出售，OpenSea 股票以 51% 的折扣出售。Alchemy、Blockdaemon 和 Kraken 的股票分别折价 31%、30% 和 9%。
-对此，Chainalysis、OpenSea 和 Blockdaemon 的发言人拒绝置评。提到的其他公司没有立即回应置评请求。</p>
-<p><a href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts">内容来源</a></p><hr><h3>观点：</h3><p><strong>Richard Freemanson（Birel 首席执行官）：</strong>我不能说这样的折扣说明了公司相应的负面结果。折扣与较高价格水平上没有买家有关，买家不活跃是因为这些公司的业绩部分取决于主要加密货币的价格，而现在很难预测其走势。卖家并不总是出售全部数量，他们会部分退出以实现多元化。【原文为英文】</p><a href="https://www.theblock.co/post/217937/opensea-consensys-among-prized-crypto-startups-with-shares-available-at-big-discounts">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
