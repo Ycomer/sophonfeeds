@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1786,
+          "wordCount": 1784,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -147,7 +147,7 @@
           "description": "<h3>Meta 正在逐步减少 NFT 业务投入</h3>\n<p>Meta 商务和金融技术主管 Stephane Kasriel 发布推特称，目前正在逐步减少 NFT 业务投入以专注于其他支持创作者、个人和企业的方式。Stephane Kasriel 还表示，为创作者和企业创造机会与粉丝建立联系并实现盈利，仍然是 Meta 的一个优先事项，Meta 将专注于能够产生大规模影响的领域，例如 Reels 的信息传递和货币化机会。此外，Meta 将继续投资于个人和企业在未来需要的金融技术工具，目前正在用 Meta Pay 简化支付并投资于 Meta 信息支付。</p>\n<p><a href=\"https://twitter.com/skasriel/status/1635386565487898624\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Eric Ravenscraft：</strong>Facebook 的商业模式就是抄袭别人的模式来盈利，现在他们甚至放弃了 NFT。【原文为英文】</p><a href=\"https://twitter.com/LordRavenscraft/status/1635444107110694915\">内容来源</a><p><strong>SHΞRKHAN.S◎L：</strong>Web 2 社交网络逐步减少对 Web3 的支持。创新者两难处境？或者只是一种对抗性策略？或者是由于 iOS 限制？似乎是一种短视行为。【原文为英文】</p><a href=\"https://twitter.com/sherkhantx/status/1635443849832062976\">内容来源</a>",
           "link": "https://twitter.com/skasriel/status/1635386565487898624",
           "publishedOn": "2023-03-14T01:12:05.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Meta 正在逐步减少 NFT 业务投入",
           "imageUrl": null
         },
@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -317,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1716,
+          "wordCount": 1725,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -337,7 +337,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17738,
+          "wordCount": 17692,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -387,7 +387,7 @@
           "description": "<h3>FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止</h3>\n<p>Alpine Fox LP 创始人兼管理合伙人 Mike Alfred 发推表示，美国联邦存款保险公司（FDIC）已经进驻 First Republic Bank 现场，试图确定保护储户的最佳途径。考虑到已经达到临界点的加速银行挤兑，事情的发展速度比预期要快得多。First Republic Bank 从今天（3 月 12 日）开始限制汇出电汇交易，并将在今天结束时完全停止处理电汇交易。目前该银行电汇交易处理措辞已改为「感谢您的交易，我们会尽快回复您」。</p>\n<p><a href=\"https://twitter.com/mikealfred/status/1634783756656492544\">内容来源</a></p><hr>",
           "link": "https://twitter.com/mikealfred/status/1634783756656492544",
           "publishedOn": "2023-03-12T07:30:40.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Stephy Dunbar 撰文对科学生态系统的现存困境及解决困境的不同 Desci （去中心化科学）方式进行解析，认为 DeSci 通过引用新的协调、激励和验证机制来维持和传播开放科学，从而改变了研究经济。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">https://twitter.com/sunnydece/status/1633160977809289216</a></p>\n<p><strong>文章作者：</strong></p><p>Stephy Dunbar</p><hr><h3>观点：</h3><p><strong>Stephy Dunbar：</strong>科学知识是支撑技术发展和经济增长的公共产品，然而当前的科学体系面临问题：1）中心化决策和资金；2）方法论和数据的透明度差；3）无激励的审查和知识发布门槛受制。而 DeSci 正蓬勃发展以解决这些问题。目前正在运行的 85 个 DeSci 项目中有 50% 以上是去年启动的。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>不同解决方式：1）代币激励的研究生态系统，例如 ResearchHub。2）基金 DAO，DeSci 主要通过 DAO 促进社区决策以资助量身定制的解决方案。许多 DAO 都有特定的重点领域。例如 VitaDAO。3）研究代币化，例如 Molecule。用途包括 IP 许可用于商业化、与合作伙伴分割所有权、在开放市场上交易数据、持有作为借贷的抵押品。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>4）方法和数据透明化，例如 OpSci ，使研究者可以将自己的身份、证书和项目标记为 NFT。5）激励同行评审和开放出版，例如 DeSci Labs 的 DeSci 节点允许研究人员在开放状态、去中心化存储库上创建和发布代码、数据集等研究对象。6）数据处理，将数据代币化或者标记成 NFT，又或者像 The Bacalhau Project 允许研究员直接在存储数据集的地方执行计算工作。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a>",
           "link": "https://twitter.com/sunnydece/status/1633160977809289216",
           "publishedOn": "2023-03-11T05:12:53.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：科学现存困境解析，DesCi 以不同方式应对",
           "imageUrl": null
         },
@@ -587,7 +587,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -647,7 +647,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20954,
+          "wordCount": 20957,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -757,7 +757,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a>",
           "link": "https://twitter.com/y_cryptoanalyst/status/1633753341577797632",
           "publishedOn": "2023-03-10T06:54:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain",
           "imageUrl": null
         },
@@ -867,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Silvergate 暴雷后，Silicon Valley Bank 也遭遇了流动性危机，周四股价暴跌 60%，创下历史最大跌幅。Lead Bank 首席执行官 Jackie Reses 撰文解析了银行倒闭后的接管流程及对储户的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">https://twitter.com/jackiereses/status/1633985785295966209</a></p>\n<p><strong>文章作者：</strong></p><p>Jackie Reses（Lead Bank 首席执行官）</p><hr><h3>观点：</h3><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>在银行倒闭的情况下，联邦存款保险公司（FDIC）会进行接管，类似于破产管理，他们会安抚存款人以便不会进一步出现流动性问题。这里会存在一个还款顺序，美国联邦住宅贷款银行（FHLB）、管理费用、25 万美元以下的被保险存款，随后他们会处置资产，减去偿还债务的费用。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a><p><strong>Jackie Reses（Lead Bank 首席执行官）：</strong>很多情况下，比较好的结果是银行归还所有存款，监管机构找到另外一家银承担剩余存款。当没有银行收购剩余存款时，FDIC 将直接向储户支付每个账户中的保险余额，这些流程通常在银行倒闭后的几天内进行。如果 FDIC 不愿意接管，银行会准备一份清算计划供监管机构签署。但银行必须先安抚存款人和债权人。如果储户会被亏空，该计划就不会被批准。【原文为英文】</p><a href=\"https://twitter.com/jackiereses/status/1633985785295966209\">内容来源</a>",
           "link": "https://twitter.com/jackiereses/status/1633985785295966209",
           "publishedOn": "2023-03-10T03:17:35.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Lead Bank 首席执行官：银行挤兑危机会如何影响储户？",
           "imageUrl": null
         },
@@ -3439,12 +3439,22 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/9jzzfehi.html",
+          "author": null,
+          "description": "PANews 3月14日消息，据环球市场播报，瑞士信贷在当天发布的2022年年度报告中表示，已在2022和2021财年的报告程序中发现了“重大缺陷”，并正在采取补救计划。在这两年里，“集团对财务报告的内部控制并不有效”。“管理层也据此得出结论，我们的披露控制和程序并不有效。”该行表示，发现的重大缺陷与未能在财务报表中设计和维持有效的风险评估有关。\n瑞信原定上周发布2022年年报，但由于美国监管机构在最后一刻提出质疑，该报告被推迟了几天发布。瑞信还表示：“独立注册会计师事务所普华永道审计了本年度报告中截至2022年12月31日的财务报表，对集团截至2022年12月31日的财务报告内部控制的有效性发表了不利意见。”",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/9jzzfehi.html",
+          "publishedOn": "2023-03-14T07:04:37.000Z",
+          "wordCount": 1110,
+          "title": "瑞士信贷称其财务报告存在重大缺陷",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/7vk8tr55.html",
           "author": null,
-          "description": "PANews 3月14日消息，据IT Chosun报道，Houbi韩国今日宣布更名为“High Block”，正式成为独立的韩国企业。\nHoubi韩国此前是一家中国加密交易所，在当时总部位于新加坡的Houbi Global于2017年成立韩国公司后进入韩国。Houbi韩国此前第一大股东是原Houbi Global旗下子公司火币科技（现新火科技），持有约70%的股份。Houbi韩国与其全球母公司之间的关系最近得到了彻底解决。去年12月，Houbi创始人李林卖掉了他在Houbi Global的全部股份，当时的火币科技也卖掉了他在Houbi韩国的股份。\nHoubi韩国新的大股东是现有的第二大股东，韩国法人Houbi Blockchain。Houbi韩国的另一大股东是Korea Real Estate Trust，持有Houbi韩国12%的股份。据悉，Houbi韩国仅更改了名称和股东，管理团队和整体管理层不会发生重大变化。",
+          "description": "PANews 3月14日消息，据IT Chosun报道，Houbi韩国今日宣布更名为“High Block”，正式成为独立的韩国企业。\nHoubi韩国曾在当时总部位于新加坡的Houbi Global于2017年成立韩国公司后进入韩国。Houbi韩国此前第一大股东是原Houbi Global旗下子公司火币科技（现新火科技），持有约70%的股份。Houbi韩国与其全球母公司之间的关系最近得到了彻底解决。去年12月，Houbi创始人李林卖掉了他在Houbi Global的全部股份，当时的火币科技也卖掉了他在Houbi韩国的股份。\nHoubi韩国新的大股东是现有的第二大股东，韩国法人Houbi Blockchain。Houbi韩国的另一大股东是Korea Real Estate Trust，持有Houbi韩国12%的股份。据悉，Houbi韩国仅更改了名称和股东，管理团队和整体管理层不会发生重大变化。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/7vk8tr55.html",
           "publishedOn": "2023-03-14T06:56:02.000Z",
-          "wordCount": 1139,
+          "wordCount": 1140,
           "title": "Houbi韩国更名为“High Block”，正式成为独立的韩国企业",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -8876,6 +8886,16 @@
       "siteUrl": "https://techflowpost.mirror.xyz",
       "articles": [
         {
+          "id": "https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU",
+          "author": null,
+          "description": "四款值得关注的大型Web3游戏：Symbiogenesis、METAPIXEL、Codename Renegades和AVALON – 深潮TechFlow\n出品：深潮 TechFlow\nRead the full entry",
+          "link": "https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU",
+          "publishedOn": "2023-03-14T07:02:00.000Z",
+          "wordCount": 1165,
+          "title": "四款值得关注的大型Web3游戏：Symbiogenesis、METAPIXEL、Codename Renegades和AVALON",
+          "imageUrl": "https://mirror-media.imgix.net/publication-images/XOkO68su2xCd5M4fwmJMm.png?height=495&width=989&h=495&w=989&auto=compress"
+        },
+        {
           "id": "https://techflowpost.mirror.xyz/tkCYMz4zfmtZ-Ard-RAyx2rZ0bOVjZz_RJtWZyh8Ym8",
           "author": null,
           "description": "解读Stader：DVT混合节点，多链低市值LSD协议能否迎来春天？ – 深潮TechFlow\n出品：深潮 TechFlow 研究院\nRead the full entry",
@@ -9578,7 +9598,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1825,
+          "wordCount": 1823,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
