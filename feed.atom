@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T08:46:19.302Z</updated>
+    <updated>2023-03-14T08:51:57.439Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -24,22 +24,10 @@ Noem州长进一步详细说明：“其他20多个州在他们面前有相同�
         <link href="https://www.panewslab.com/zh/sqarticledetails/cqvukcm9.html"/>
         <updated>2023-03-14T08:36:09.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月14日消息，据Bitcoin.com报道，美国南达科他州政府周五宣布，州长Kristi Noem否决了众议院第1193号法案，即一项禁止使用包括比特币在内的加密货币作为货币的法案。Noem在的否决信称：“该法案将侵犯数字货币的自由。”
-州长在采访时解释说，该法案长达110多页，“它是作为UCC(统一商法典)指导方针的更新而提出的，得到了我们所有金融机构和银行的支持。我们看到了法案中改变货币定义的部分。从本质上讲，它所做的是为政府主导的CBDC铺平了道路，它还禁止存在任何其他形式的加密货币、比特币或数字货币。”州长强调，“这显然是对我们自由的威胁”，并指出南达科他州是第一个“真正审视该法案并找出其中内容的真相”的州。
+州长在采访时解释说：“该法案长达110多页，它是作为UCC(统一商法典)指导方针的更新而提出的，得到了我们所有金融机构和银行的支持。我们看到了法案中改变货币定义的部分。从本质上讲，它所做的是为政府主导的CBDC铺平了道路，它还禁止存在任何其他形式的加密货币、比特币或数字货币。”州长强调，“这显然是对我们自由的威胁”，并指出南达科他州是第一个“真正审视该法案并找出其中内容的真相”的州。
 Noem州长进一步详细说明：“其他20多个州在他们面前有相同的UCC语言。我相信这是为联邦政府控制我们的货币从而控制人民铺平道路。这应该引起所有人的警惕。如果政府的CBDC成为唯一合法的数字货币，那么政府将控制你花钱的方式，这会剥夺你所有的自由。”]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[区块链游戏解析：类型、发展模式、XR、开放经济和F2O]]></title>
-        <id>https://techflowpost.mirror.xyz/j2BQJ_zGVOOl87tTUO7MOtc2DdVyHs-GS61l_JSzRsQ</id>
-        <link href="https://techflowpost.mirror.xyz/j2BQJ_zGVOOl87tTUO7MOtc2DdVyHs-GS61l_JSzRsQ"/>
-        <updated>2023-03-14T08:24:42.000Z</updated>
-        <summary type="html"><![CDATA[区块链游戏解析：类型、发展模式、XR、开放经济和F2O – 深潮TechFlow
-撰写：Stanford Blockchain Review
-Read the full entry]]></summary>
-        <author>
-            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
@@ -204,6 +192,30 @@ Frax 团队正在努力提高稳定币的安全性，最近宣布将其抵押率
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Justin Drake 在以太坊研究会提出基于「based」的 rollup 提案，即使用 L1 提议 - 构建者分离以原生地包含 L2 blob（包含任何压缩），而不是使用排序器。Eigenlayer 创始人 Sreeram Kannan 撰推对该提案进行解读，并提出疑问和可行的解决方式。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">https://twitter.com/sreeramkannan/status/1635453231815086080</a></p>
 <p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>这里的一个问题是 L2 客户端将交易发送到哪里，以便搜索者 / 构建者可以将它们捞出来组成 L2 blob？解决方法：1）将它们发送到 L1 内存池，其中包含一些「知情」搜索者可以解释的特殊元数据。但缺点是将显著增加 L1 内存池的负载。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>2）让这些 L2 交易存在于新的 p2p 内存池（或 pubsub 分片）中，每个 L2 一个，然后「知情」的搜索者可以从中找出它们，以创建 blob。总体而言，这种基于 rollup 的结构创建了一个集成的 MEV 市场（包括交叉 rollup 原子套利），正如 Justin Drake 所指出，缺点是排序优先权不由 L2 行使和拥有，但这将是许多 L2 启动的好方法。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>文章中还指出，还有两个 Eigenlayer 可以协助的进一步改进，即测序的预确认和测序的 fifo 通道。高级功能，如交易压缩，只发布 blob 等，今天只有使用中心化或单独的去中心化排序器才可能。而 Justin 观察认为，L1 构建者可以发挥同样的作用。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】解读基于「based」的 rollup 提案：来自 L1 排序的超能力]]></title>
+        <id>https://twitter.com/sreeramkannan/status/1635453231815086080</id>
+        <link href="https://twitter.com/sreeramkannan/status/1635453231815086080"/>
+        <updated>2023-03-14T08:02:05.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Justin Drake 在以太坊研究会提出基于「based」的 rollup 提案，即使用 L1 提议 - 构建者分离以原生地包含 L2 blob（包含任何压缩），而不是使用排序器。Eigenlayer 创始人 Sreeram Kannan 撰推对该提案进行解读，并提出疑问和可行的解决方式。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">https://twitter.com/sreeramkannan/status/1635453231815086080</a></p>
+<p><strong>文章作者：</strong></p><p>Sreeram Kannan（Eigenlayer 创始人）</p><hr><h3>观点：</h3><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>这里的一个问题是 L2 客户端将交易发送到哪里，以便搜索者 / 构建者可以将它们捞出来组成 L2 blob？解决方法：1）将它们发送到 L1 内存池，其中包含一些「知情」搜索者可以解释的特殊元数据。但缺点是将显著增加 L1 内存池的负载。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>2）让这些 L2 交易存在于新的 p2p 内存池（或 pubsub 分片）中，每个 L2 一个，然后「知情」的搜索者可以从中找出它们，以创建 blob。总体而言，这种基于 rollup 的结构创建了一个集成的 MEV 市场（包括交叉 rollup 原子套利），正如 Justin Drake 所指出，缺点是排序优先权不由 L2 行使和拥有，但这将是许多 L2 启动的好方法。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a><p><strong>Sreeram Kannan（Eigenlayer 创始人）：</strong>文章中还指出，还有两个 Eigenlayer 可以协助的进一步改进，即测序的预确认和测序的 fifo 通道。高级功能，如交易压缩，只发布 blob 等，今天只有使用中心化或单独的去中心化排序器才可能。而 Justin 观察认为，L1 构建者可以发挥同样的作用。【原文为英文】</p><a href="https://twitter.com/sreeramkannan/status/1635453231815086080">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【访谈】对话 EthStorge，用 Layer2 思路构建以太坊]]></title>
+        <id>https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A</id>
+        <link href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A"/>
+        <updated>2023-03-14T07:55:54.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>BinaryDAO 对话以太坊基础设施 EthStorge 创始人 Qi Zhou，解析 EthStorge 的目标以及目标实现方式，阐述 EthStorage 如何利用以太坊的 Rollup 技术和 Layer2 技术降低以太坊的存储成本。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A</a></p>
+<p><strong>文章作者：</strong></p><p>BinaryDAO</p><hr><h3>观点：</h3><p><strong>Qi Zhou：</strong>EthStorge 目标：1）利用以太坊的安全属性，建立开放生态系统。2）利用以太坊的 Rollup 技术和 Layer2 技术降低以太坊的存储成本，希望把以太坊的存储成本降低到现在的千分之一，并提高现有的存储能力到 PB 级别以上。</p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">内容来源</a><p><strong>Qi Zhou：</strong>如何实现：与其他以太坊 Rollup 有着本质区别，其他 Rollup 都是在 TPS 性能上做扩容，属于对 ETH 计算层的扩容，而 EthStorage 是对 ETH 存储层的扩容。 EthStorage 不仅可以作为一个去中心化的长期存储的解决方案，而且可以高度跟以太坊以及以太坊所有生态进行绑定，其它 Rollup 就可以通过智能合约验证所有的存储数据。</p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">内容来源</a><p><strong>Qi Zhou：</strong>EthStorage 可以更好地去支持以太坊现在所有的应用，为了支持这些应用，我们开发了一个 Web3 的访问协议。该协议是一个去中心化的 HTTP 版本，或者是一个更加灵活的 IPFS 版本，其中关于资源的定位方式是一个智能合约。开发该协议原因：大量数据存储到以太坊，并且能够被智能合约直接 Reference，需要有一个去中心化的方式去访问它。</p><a href="https://mp.weixin.qq.com/s/fHSwRHMDtPdYgYTnVTdL2A">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
