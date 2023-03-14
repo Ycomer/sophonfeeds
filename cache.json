@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1786,
+          "wordCount": 1784,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 目前 TVL 中超 30% 都来自于 GMX，虽然 GMX 已经建立了头部优势和护城河，但其竞争对手永续杠杆交易所 Vela Exchange 也正在迅速获得价值。加密研究员 Wauwda 从概念、功能及市值等角度将 GMX 和 Vela Exchange 进行了对比分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">https://twitter.com/wauwda/status/1635292016673447940</a></p>\n<p><strong>文章作者：</strong></p><p>Wauwda</p><hr><h3>观点：</h3><p><strong>Wauwda：</strong>与 GMX 不同，Vela Exchange 提供法币出入金和 OTC 交易。此外，Vela Exchange 的回购模式也很独特，市场上回购的 VELA 将备用做储备用于支付 eVELA 奖励，既稳定了供应量也不会有额外的 VELA 被铸造。此外，从市值和 TVL 两方面看：Vela Exchange 市值为 2850 万美元，TVL 为 4137 万美元。GMX 市值为 5.275 亿美元，TVL 为 5.215 亿美元。【原文为英文】</p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">内容来源</a>",
           "link": "https://twitter.com/wauwda/status/1635292016673447940",
           "publishedOn": "2023-03-14T04:18:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文】Vela Exchange 与 GMX 竞争分析：谁会赢？",
           "imageUrl": null
         },
@@ -247,7 +247,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7554,
+          "wordCount": 7552,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -317,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>因为中心化风险，市场对去中心化稳定币的渴望和热情从未消退过。加密 KOL dashuo 认为真正的去中心化稳定币一定是基于链上原生资产或服务的刚性兑现，并以存储为例，畅想了一种基于存储资源的去中心化稳定币。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">https://twitter.com/ruyan768/status/1634672950514425856</a></p>\n<p><strong>文章作者：</strong></p><p>dashuo</p><hr><h3>观点：</h3><p><strong>dashuo：</strong>真正可行的去中心化稳定币首先要具备以下几点：1. 去中心化发行；2. 刚性兑付能力；3. 充足供应；4. 叙事的信心。短期不会有这样的去中心化稳定币存在。探讨一种可能的形式，基于链上原生资源的去中心化稳定币。这些资源类型可能包括：存储、带宽、计算。这类以互联网原生资源为基础的去中心化稳定币核心逻辑只有一个，「1TB 的存储永远等于 1TB 存储」。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a><p><strong>dashuo：</strong>最早能转化成去中心化稳定币的可能是存储资源，存储资源是不可再生的，需求是不断增加的。因为每 TB 存储在全球价格几乎相同，而存储技术是迭代速度最慢的领域，在可以预见的未来每单位存储价格是平稳下降的。以此推断，基于互联网原生资源的服务兑现形稳定币具备可行性。这种稳定币如果发生脱锚的情况，企业或个人则可以以更优的汇率兑换等额的存储服务。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a><p><strong>dashuo：</strong>未来的去中心化稳定币肯定是多元化的，除资源型之外，还会有信用型稳定币，UBI 型稳定币，而这些大概率会在 Lens Protocol 社交网络上出现。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a>",
           "link": "https://twitter.com/ruyan768/status/1634672950514425856",
           "publishedOn": "2023-03-13T05:02:56.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】探讨未来的去中心化稳定币方向：基于链上原生资源的去中心化稳定币",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1717,
+          "wordCount": 1723,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -467,7 +467,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17718,
+          "wordCount": 17728,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -777,7 +777,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20882,
+          "wordCount": 20963,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -917,7 +917,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">https://twitter.com/Delphi_Digital/status/1633875872972406785</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a><p><strong>Delphi Digital：</strong>Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a><p><strong>Delphi Digital：</strong>Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1633875872972406785\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1633875872972406785",
           "publishedOn": "2023-03-10T06:20:22.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】比特币「新文化」运动如何为比特币带来链上效用？",
           "imageUrl": null
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups</a></p>\n<p><strong>文章作者：</strong></p><p>Partrick McCorry</p><hr><h3>观点：</h3><p><strong>Partrick McCorry：</strong>虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup = 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a>",
           "link": "https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups",
           "publishedOn": "2023-03-10T04:29:42.000Z",
-          "wordCount": 7732,
+          "wordCount": 7938,
           "title": "【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png"
         },
@@ -3584,7 +3584,7 @@
           "description": "PANews 3月14日消息，据TechCrunch报道，元宇宙支付平台 Tilia 完成一笔战略融资，J.P. Morgan Payments、韩国加密货币交易所 Upbit 运营商 Dunamu 等参投。自 2022 年从创建者 Linden Lab 分拆以来，Tilia 的融资总额达到 2200 万美元。Tilia 并未透露此次具体融资数据。Tilia 正在与 J.P Morgan Payments 合作，以增强其整个处理平台的能力，包括提供更多的支付和支付方式、扩展支付货币和支持服务。\nLinden Lab 于 2019 年正式推出 Tilia。Tilia 旨在使数字经济世界（包括元宇宙）中需要金融服务的公司能够轻松地以受监管的方式与任何人进行支付和交易。Tilia 的支付产品可以单独使用，也可以作为完全集成的端到端解决方案使用。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/8vl7988j.html",
           "publishedOn": "2023-03-14T15:08:13.000Z",
-          "wordCount": 1193,
+          "wordCount": 1191,
           "title": "元宇宙支付平台Tilia获J.P. Morgan Payments等的投资，其总融资额已达2200万美元",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3624,7 +3624,7 @@
           "description": "PANews 3月14日消息，据The Block报道，时尚科技公司 DressX 筹集了 1500 万美元的 A 轮融资，由总部位于柏林的加密货币风险投资公司 Greenfield 领投。该轮融资于 2 月底结束，参与方还包括 Slow Ventures、The Artemis Fund、Red Dao 和 Warner Music等。 虽然其大部分数字时尚产品都是链下的，但该公司已开始通过建立自己的 NFT 市场并通过与交易所 Crypto.com 合作来深入研究 web3 。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/a3sudxtc.html",
           "publishedOn": "2023-03-14T14:04:31.000Z",
-          "wordCount": 1186,
+          "wordCount": 1184,
           "title": "数字时尚公司DressX获1500万美元A轮融资",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3634,7 +3634,7 @@
           "description": "PANews 3月14日消息，MetaMask 宣布最近推送了其移动应用程序和浏览器扩展钱包的版本更新，以缩短加载时间并优化钱包体验。更新后，将有更高的透明度和赋予用户更多的控制权。在 MetaMask 扩展钱包新功能中，用户可以在 onboarding 期间选择任意 RPC 提供商，并选择退出默认的 Infura。\n去年曾报道，MetaMask将在默认RPC为Infura的情况下收集用户信息。\n相关阅读：以太坊基础设施Infura中心化问题再引争议，我们还有什么替代方案？",
           "link": "https://www.panewslab.com/zh/sqarticledetails/r4essg1g.html",
           "publishedOn": "2023-03-14T14:01:08.000Z",
-          "wordCount": 1142,
+          "wordCount": 1136,
           "title": "MetaMask发布钱包版本更新，可选择任意RPC提供商（即退出默认的Infura）",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
