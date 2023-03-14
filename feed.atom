@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T03:56:41.647Z</updated>
+    <updated>2023-03-14T04:03:00.351Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Idle Finance：约1099万美元资金受Euler攻击事件影响]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/x8xggl1r.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/x8xggl1r.html"/>
+        <updated>2023-03-14T03:56:12.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，DeFi协议Idle Finance发推文称，经过调查，Euler Finance漏洞对协议Yield Tranches的估计敞口为566.28万美元，Best Yield vaults的估计敞口约532.71万美元，共计约1099万美元。
+Idle Finance强调，实际影响将取决于Euler团队采取的行动和可能采取的缓解措施。以上数字并非实际回撤，而是锁定在Euler的实际数字。取决于缓解措施，例如通过SHERLOCK保险，以及Euler团队进行的任何其他计划，这些数字都可能发生变化。
+Idle Finance还表示，关于Senior/Junior Best Yield DAI金库，上周，金库分配在Euler。但由于USDC脱锚，MakerDAO通过执行MIP提议将PSM通行费提高到1%，这将影响Idle Finance的USDC到DAI的转换，该团队在周末触发了一次再平衡，并迅速将所有资金转移到Aave，因此该金库（总TVL为1120万美元）没有接触Euler，并且现在正在按预期运行并从Aave获得收益。
+此前昨日消息，借贷协议Euler Finance遭到攻击，损失已达1.97亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Idle Finance：约1099万美元资金受Euler攻击事件影响]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/x8xggl1r.html</id>
