@@ -107,7 +107,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当下为什么所有股票都在下跌时比特币却在上涨？加密货币 KOL Takashi Azuki 认为是目前的市场行情加上 CZ 将 BUSD 转换为 BTC/BNB/ETH 导致的比特币上涨，并阐述了自己目前的做法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">https://twitter.com/rxcrax/status/1635338126003695617</a></p>\n<p><strong>文章作者：</strong></p><p>Takashi Azuki</p><hr><h3>观点：</h3><p><strong>Takashi Azuki：</strong>比特币上涨原因：当下，银行股跌入地狱，部分股票停牌。金融市场正在崩溃，比特币的去中心化也许是一种救赎。美国当局保证返还破产的 SVB 存款，并暂停 Signature Bank（NYC），USDC 恢复锚定 1 美元。同时 CZ 将 BUSD 溢出到 BTC/BNB/ETH。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a><p><strong>Takashi Azuki：</strong>我现在在做什么：留下了一半的稳定币，并将它们转换为 USDT 。我仍然认为行情很快就会修正。我将继续按计划对其进行再投资。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a>",
           "link": "https://twitter.com/rxcrax/status/1635338126003695617",
           "publishedOn": "2023-03-14T06:59:27.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文解析当下比特币上涨原因",
           "imageUrl": null
         },
@@ -137,7 +137,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">https://twitter.com/eas_eth/status/1635391258230394880</a></p>\n<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a>",
           "link": "https://twitter.com/eas_eth/status/1635391258230394880",
           "publishedOn": "2023-03-14T06:45:46.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文了解 Ethereum Attestation Service 的链下证明",
           "imageUrl": null
         },
@@ -217,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>据 Chainalysis 数据，2022 年由于预言机操纵造成的损失达 4.03 亿美元。EigenPhi 对话 ZeroMEV 创始人、BlockSec 联创、SlowMist 团队成员及 Pyth Network 核心贡献者等行业专家，就预言机攻击类型及预防方法等内容进行了共同探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">https://twitter.com/EigenPhi/status/1635404741932101633</a></p>\n<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>Yixin Cao（EigenPhi 数据科学家）：</strong>预言机攻击可以分为设计缺陷、流动性操纵和代币发行机制利用三个方面，构建这样的理论框架可以帮助进行风险评估。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Yajin Zhou（BlockSec 联创）：</strong>关于如何减轻与预言机相关的风险，DeFi 需要主动进行风险控制和隔离，隔离是 DeFi 协议缺乏的基本安全机制。此外，我还建议对不同来源的价格进行纠正性监测和比较，并对 mempool 进行监测。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Pmcgoohan（ZeroMEV 创始人）：</strong>DeFi 需要转向防御性思维，优先保护用户资金，用户应该转移至 FCFS L2 系统上的审计协议以避免操纵和贿赂，交易应该在 L2 上使用加密 memepool 进行以保护隐私。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：</strong>建议采取综合防御措施：从各个链上和链下交易所获取价格以及值得信赖的报告人和数据聚合、高频率和低延迟的价格更新机制及审计预言机的操作栈。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a>",
           "link": "https://twitter.com/EigenPhi/status/1635404741932101633",
           "publishedOn": "2023-03-14T02:51:42.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Eigenphi 对话行业专家：如何预防预言机攻击？",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1733,
+          "wordCount": 1710,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -467,7 +467,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17719,
+          "wordCount": 17716,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -777,7 +777,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20904,
+          "wordCount": 20908,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -807,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管市场条件不佳，游戏和 NFT 项目在 2023 从 a16z crypto、Google Ventures 等主要加密货币公司筹集了超过 10 亿美元资金。加密研究员 Emperor Osmo 盘点了 2023 年主要 Web3 游戏和 NFT 项目的融资情况，并从用户和游戏开发商角度，总结了 3 个看好该行业发展的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">https://twitter.com/flowslikeosmo/status/1634011217097269254</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>原因 1：庞大的用户基数。视频游戏拥有最大、发展最迅速的社区之一。游戏玩家在他们的技术知识方面具有战略性和悟性，当涉及到像 NFT 这样复杂的新技术时，他们会迅速学习。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 2：尚未开发的资源。一个由不可替代的代币驱动的去中心化经济。游戏开发者可以从中受益，从转卖中获得佣金，从其他平台获得收入分享，以及在市场上的用户中提高知名度。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 3：玩家的权力。通过「投资」时间，拥有网络的一部分。Web3 游戏和 NFT 项目允许玩家将游戏与区块链提供的效率相结合，从而引入更高级别的参与和所有权。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a>",
           "link": "https://twitter.com/flowslikeosmo/status/1634011217097269254",
           "publishedOn": "2023-03-10T12:17:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Web3 游戏受到资本推崇的三个原因",
           "imageUrl": null
         },
@@ -907,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">https://twitter.com/0x_irisl/status/1633842976169558024</a></p>\n<p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a>",
           "link": "https://twitter.com/0x_irisl/status/1633842976169558024",
           "publishedOn": "2023-03-10T03:52:45.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考",
           "imageUrl": null
         },
@@ -3568,6 +3568,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/4t93m1ox.html",
+          "author": null,
+          "description": "PANews 3月14日消息，据 Whale Alert 监测，Tether 于北京时间 3 月 14 日 22:29 在波场网络增发 10 亿枚 USDT。另于北京时间 3 月 14 日 22:36:11 在以太坊网络增发 10 亿枚 USDT。\nTether 首席技术官 Paolo Ardoino 表示，这均为已授权但未发行的交易，意味着本次增发将用于下一次发行请求和链上兑换。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/4t93m1ox.html",
+          "publishedOn": "2023-03-14T14:53:32.000Z",
+          "wordCount": 1186,
+          "title": "Tether在以太坊和波场网络分别增发10亿枚USDT，将用于下一次发行请求和链上兑换",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/tbxpxobk.html",
           "author": null,
