@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T20:21:09.369Z</updated>
+    <updated>2023-03-14T20:31:42.308Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[硅谷银行曾于今年1月裁员1.4%]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/3j3jq0cf.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/3j3jq0cf.html"/>
+        <updated>2023-03-14T20:30:46.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，据NBC新闻报道，一封内部邮件显示，硅谷银行曾在今年1月裁员100到120人，占员工总数的1.4%左右。两名知情人士表示，裁员主要集中在非面向客户的岗位，尤其是招聘相关岗位。该公司首席人力资源官在1月11日发出的一封电子邮件称，经济前景的“变化和不确定性”是裁员的原因。1月19日，硅谷银行首席执行官Gregory Becker在财报电话会议上对分析师表示将在其他领域削减成本。首席财务官Daniel Beck补充说，成本更低的全职员工将有助于“优化支出”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ceramic 如何实现数据可组合性]]></title>
         <id>https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</id>
@@ -3054,18 +3064,6 @@ Signet使用了Tassat开发的技术，该公司为银行构建私有区块链�
 <p><a href="https://www.theblock.co/post/219264/defiance-capital-completes-first-close-of-100-million-liquid-token-fund">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Euler Labs：已联系美英执法部门，EToken模块已禁用]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/lfds8x0k.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/lfds8x0k.html"/>
-        <updated>2023-03-14T01:24:31.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，Euler Labs发布为Euler Finance用户挽回受损资金工作进展更新：“1.通过帮助禁用EToken模块，尽快阻止直接攻击，该模块阻止了存款和易受攻击的捐赠功能。2.与TRM Labs、Chainalysis和更广泛的ETH安全社区合作，帮助调查和追回资金。3.通知并与美国和英国执法部门共享信息，我们还联系了对这次攻击负责的人，看看我们是否能了解到更多的信息。此次遭到攻击的原因是，攻击者利用了易受攻击的代码，使其能够创建无担保的代币债务。”在此事件中，智能合约审计平台Sherlock帮助Euler提交了一份索赔，就450万美元的索赔进行了投票(最终通过)，并在今天执行了330万美元的支付。
-去年6月，Euler Finance完成Haun Ventures领投的3200万美元融资。此前昨日消息，借贷协议Euler Finance遭到攻击，损失已达1.97亿美元。
-相关阅读：一文读懂Euler Finance：支持高风险资产的下一代DeFi借贷协议]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
