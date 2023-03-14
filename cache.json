@@ -67,7 +67,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Euler 被黑客攻击损失 2 亿美元，dForce 创始人 Mindao 借此事对 DeFi 的安全审计和安全问题进行研究和探讨，解析了三种审计模式，认为对于 DeFi 这样的开放系统来说，安全代价就是自由的代价。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">https://twitter.com/mindaoyang/status/1635537914854772737</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>大的 DeFi 协议基本上都经过多轮审计，但蓝筹 DeFi 没哪个没被黑过。原因很简单，从攻防来看，所有静态审计的输入（安全投入）和输出（发现 bug) 都是有限的。常规审计以外的审计模式：1）形式化验证，能帮助穷尽「已知」路径的覆盖范围，但是无法穷尽「未知的未知」。DeFi 是一个开放系统，对于黑客（攻方）来说，它的输入是无限的，输出也是无限的。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>2）开发式竞争型审计，如 Code4rena，审计奖金池固定，但是输入在一定时间内是弹性的，所有人都可以参加，谁发现 bug 按照严重程度，分奖金，这个方式是让审计师 / 白帽去卷，可以扩大覆盖面，但总体输入依然固定，远远不够。3）完全开放的模式，那就是赏金网络。赏金模式在输入输出上也是开放式的，类似于黑客的攻击模式，但是激励模式大有区别。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>把赏金比例和 TVL 挂钩能否激励更多黑客转白帽？1）没哪个 DeFi 协议能支付黑客所要求的大额赏金；2）DeFi 的安全更复杂问题在于除了代码层面，还有可组合风险；3）DeFi 的攻击面是四维增长的，定期静态安全审计加长期赏金，也无法覆盖不断扩大的攻击面。DeFi 安全是无限游戏，唯一靠谱的是在协议上减少外部依赖（资产 /oracle/ 第三方协议），最小化攻击面，尽量待在「自己的舒适区」，不乱做扩展。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1635537914854772737",
           "publishedOn": "2023-03-14T09:22:39.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "深究 DeFi 的安全审计和安全问题，解析三种审计模式",
           "imageUrl": null
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 目前 TVL 中超 30% 都来自于 GMX，虽然 GMX 已经建立了头部优势和护城河，但其竞争对手永续杠杆交易所 Vela Exchange 也正在迅速获得价值。加密研究员 Wauwda 从概念、功能及市值等角度将 GMX 和 Vela Exchange 进行了对比分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">https://twitter.com/wauwda/status/1635292016673447940</a></p>\n<p><strong>文章作者：</strong></p><p>Wauwda</p><hr><h3>观点：</h3><p><strong>Wauwda：</strong>与 GMX 不同，Vela Exchange 提供法币出入金和 OTC 交易。此外，Vela Exchange 的回购模式也很独特，市场上回购的 VELA 将备用做储备用于支付 eVELA 奖励，既稳定了供应量也不会有额外的 VELA 被铸造。此外，从市值和 TVL 两方面看：Vela Exchange 市值为 2850 万美元，TVL 为 4137 万美元。GMX 市值为 5.275 亿美元，TVL 为 5.215 亿美元。【原文为英文】</p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">内容来源</a>",
           "link": "https://twitter.com/wauwda/status/1635292016673447940",
           "publishedOn": "2023-03-14T04:18:03.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文】Vela Exchange 与 GMX 竞争分析：谁会赢？",
           "imageUrl": null
         },
@@ -217,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 虽然重回 1 美元，但此次「脱锚危机」无疑导致了市场对 USDC 等中心化稳定币的不信任。加密研究员 Nikyous 对从运作机制、挂钩模式及创新点等方面对去中心化稳定币 LUSD 进行了分析解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">https://twitter.com/CryptoNikyous/status/1635276887755997186</a></p>\n<p><strong>文章作者：</strong></p><p>Nikyous</p><hr><h3>观点：</h3><p><strong>Nikyous：</strong>通过 Liquity，用户使用 LUSD 借入 ETH ，并质押 LQTY 以赚取借入或赎回 LUSD 的费用收入，当 LUSD 挂钩价格低于 1 美元时，用 1 美元的 LUSD 赎回价值 1 美元的 ETH。通过 Liquity 赚取收益的方式包括 LUSD 债券、质押 LQTY 及 LUSD 稳定池。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a><p><strong>Nikyous：</strong>用户可以在任何时候将 LUSD 赎回为 ETH，没有任何限制，赎回的 LUSD 将会被销毁。其价格主要通过三个机制维持稳定：110% 的最低抵押率、借贷和赎回费用及作为谢林点（Schelling point）的均等性。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a><p><strong>Nikyous：</strong>Liquity 的创新点在于每次进行 LUSD 赎回时，协议都会以最低的抵押品偿还贷款，这种机制通过支付风险最高的贷款来保护 Liquity 免受清算。作为借款人不会产生净损失。监管方面，该协议完全由代码操作，任何监管机构都不可以禁止 LUSD 的发行。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a>",
           "link": "https://twitter.com/CryptoNikyous/status/1635276887755997186",
           "publishedOn": "2023-03-14T03:26:25.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】USDC 面临信任危机，去中心化稳定币 LUSD 是否值得期待？",
           "imageUrl": null
         },
@@ -227,7 +227,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>据 Chainalysis 数据，2022 年由于预言机操纵造成的损失达 4.03 亿美元。EigenPhi 对话 ZeroMEV 创始人、BlockSec 联创、SlowMist 团队成员及 Pyth Network 核心贡献者等行业专家，就预言机攻击类型及预防方法等内容进行了共同探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">https://twitter.com/EigenPhi/status/1635404741932101633</a></p>\n<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>Yixin Cao（EigenPhi 数据科学家）：</strong>预言机攻击可以分为设计缺陷、流动性操纵和代币发行机制利用三个方面，构建这样的理论框架可以帮助进行风险评估。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Yajin Zhou（BlockSec 联创）：</strong>关于如何减轻与预言机相关的风险，DeFi 需要主动进行风险控制和隔离，隔离是 DeFi 协议缺乏的基本安全机制。此外，我还建议对不同来源的价格进行纠正性监测和比较，并对 mempool 进行监测。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Pmcgoohan（ZeroMEV 创始人）：</strong>DeFi 需要转向防御性思维，优先保护用户资金，用户应该转移至 FCFS L2 系统上的审计协议以避免操纵和贿赂，交易应该在 L2 上使用加密 memepool 进行以保护隐私。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：</strong>建议采取综合防御措施：从各个链上和链下交易所获取价格以及值得信赖的报告人和数据聚合、高频率和低延迟的价格更新机制及审计预言机的操作栈。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a>",
           "link": "https://twitter.com/EigenPhi/status/1635404741932101633",
           "publishedOn": "2023-03-14T02:51:42.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Eigenphi 对话行业专家：如何预防预言机攻击？",
           "imageUrl": null
         },
@@ -327,7 +327,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -397,7 +397,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>\n<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a>",
           "link": "https://twitter.com/poopmandefi/status/1634915107435327488",
           "publishedOn": "2023-03-13T05:49:29.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议",
           "imageUrl": null
         },
@@ -417,7 +417,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>因为中心化风险，市场对去中心化稳定币的渴望和热情从未消退过。加密 KOL dashuo 认为真正的去中心化稳定币一定是基于链上原生资产或服务的刚性兑现，并以存储为例，畅想了一种基于存储资源的去中心化稳定币。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">https://twitter.com/ruyan768/status/1634672950514425856</a></p>\n<p><strong>文章作者：</strong></p><p>dashuo</p><hr><h3>观点：</h3><p><strong>dashuo：</strong>真正可行的去中心化稳定币首先要具备以下几点：1. 去中心化发行；2. 刚性兑付能力；3. 充足供应；4. 叙事的信心。短期不会有这样的去中心化稳定币存在。探讨一种可能的形式，基于链上原生资源的去中心化稳定币。这些资源类型可能包括：存储、带宽、计算。这类以互联网原生资源为基础的去中心化稳定币核心逻辑只有一个，「1TB 的存储永远等于 1TB 存储」。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a><p><strong>dashuo：</strong>最早能转化成去中心化稳定币的可能是存储资源，存储资源是不可再生的，需求是不断增加的。因为每 TB 存储在全球价格几乎相同，而存储技术是迭代速度最慢的领域，在可以预见的未来每单位存储价格是平稳下降的。以此推断，基于互联网原生资源的服务兑现形稳定币具备可行性。这种稳定币如果发生脱锚的情况，企业或个人则可以以更优的汇率兑换等额的存储服务。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a><p><strong>dashuo：</strong>未来的去中心化稳定币肯定是多元化的，除资源型之外，还会有信用型稳定币，UBI 型稳定币，而这些大概率会在 Lens Protocol 社交网络上出现。</p><a href=\"https://twitter.com/ruyan768/status/1634672950514425856\">内容来源</a>",
           "link": "https://twitter.com/ruyan768/status/1634672950514425856",
           "publishedOn": "2023-03-13T05:02:56.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】探讨未来的去中心化稳定币方向：基于链上原生资源的去中心化稳定币",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1727,
+          "wordCount": 1712,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>经纬中国研究员 Zixi 从投资角度类比 Web2 的 QQ 农场和 Web3 的 Quest3 及 Galxe，认为 Token 的存在让过渡态的产品为用户和投资人产生了极高的价值和退出路径。Zixi 还认为，Token 能够让每一个产品都在特定的时间点发光发热，在区块链这个高速运转且流动性更加便利的世界，终局逻辑以外的中间型方案同样具有投资价值。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">https://twitter.com/Zixi41620514/status/1634531213234032644</a></p>\n<p><strong>文章作者：</strong></p><p>Zixi</p><hr><h3>观点：</h3><p><strong>Zixi：</strong>在目前 C 端没有最终的落地应用前，用户压根不知道要去哪些应用。Quest3/Galxe 的积分墙成为了一个非常棒的流量聚合器，通过任务 + 奖励的方式将用户导流到项目里，处境类似于 Web2 的 QQ 农场。这在 Web2 可能不是一个好的 deal，因为退出路径不清晰。但在 Web3，只需要发币 + 社区共识 + 项目方不断努力，就能创造出一个又一个独角兽。投资人的退出不再模糊，用户也能享受产品成长的权益。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>一代产品有一代产品的使命，但 Token 的存在让每个产品都在特定的时间点发光发热。时间拉到几年前，从公链来看，各种 ether killer 及 Alt L1，如波卡、Solana 等在上轮牛市已经完成了使命。波卡的卡槽拍卖做出了一个又一个好公链；Solana 即使经常宕机，但便宜 + 快速 + 安全也在 2021 的牛市大放异彩。从游戏来看，axie 虽然可玩性一般，但让众多 Web2 基金和互联网大厂注意到 crypto；Stepn 就算庞，但吸引了一众用户和新钱进场。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>我们投项目很多时候是终局思维，即最终的竞争格局应该是怎么样，就往这个方向投，这在区块链这个高速运转且流动性比传统金融更加便利的世界可能有一定问题。大家可能都相信模块化区块链，以太坊主链做结算和共识，Layer2 做执行， DA 做数据存储。这可能是一个终局路线，但我们还是能看到其他中间性方案和 ether killer 的意义。即使它们最终被淘汰，但项目方 / 投资人 / 早期用户都享受到了其成长带来的价值。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a>",
           "link": "https://twitter.com/Zixi41620514/status/1634531213234032644",
           "publishedOn": "2023-03-12T09:02:01.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】观点：终局思维并非区块链投资的唯一逻辑",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Caleb & Brown 首席执行官 Jackson Zeng 认为当前市场大部分用户普遍缺乏对破产和稳定币储蓄工作的理解，并对三个阵营基于对 USDC 在 SVB 的风险敞口的不同理解采取的行动进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">https://twitter.com/im_jacksonzeng/status/1634466362222587904</a></p>\n<p><strong>文章作者：</strong></p><p>Jackson Zeng</p><hr><h3>观点：</h3><p><strong>Jackson Zeng：</strong>1）阵营一：过于简单的假设，但明智的风险管理。这部分人误解了硅谷银行的风险敞口，但采取了正确的行动。他们认为 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行，因此 USDC 的价值应该是 0.92 美元，并从 0.98 到 0.94 进行恐慌性抛售。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>2）阵营二：精明的分析家，但缺乏银行运作经验。这部分人了解 33 亿美元的风险敞口并没有全部损失（可能只损失了 2-3 亿），因此认为 USDC 的价值是 0.995 美元。很多人表示在 0.94 美元左右做多 USDC，这是一个巨大的错误！【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>3）阵营三：知道两者都是错的，但和阵营一采取同样行动。这部分人了解即使 SVB 只损失了 2 亿美元，但 33 亿美元的债权仍然是不确定的。如果没有救助，储户在破产程序中会被视为债权人。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>因此，这不是 8.25%，而是 33 亿美元的非流动性 SVB 债权风险（绝对值比百分比更重要）。真正的答案是：当 Circle 用户以 1:1 赎回时，脱锚会逐渐恶化。随着人们意识到这一风险，价格将再次下跌。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a>",
           "link": "https://twitter.com/im_jacksonzeng/status/1634466362222587904",
           "publishedOn": "2023-03-12T04:23:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】如何正确看待 USDC 风险敞口：分析三个不同阵营的应对方式",
           "imageUrl": null
         },
@@ -607,7 +607,7 @@
           "description": "<h3>Maker Governance 已投票通过变更 USDC 等资产相关参数紧急提案，将于 48 小时内链上执行</h3>\n<p>Maker Governance 已投票通过昨日发起的一系列参数变更紧急提案，提交的参数变更计划在 48 小时内部署，即北京时间 3 月 14 日 0:14。\n据悉，提议变更 USDC 相关资产风险和治理参数，将 UNIV2USDCETH-A、UNIV2DAIUSDC-A、GUNIV3DAIUSDC1-A 以及 GUNIV3DAIUSDC2-A 等 USDC 相关 LP 作为抵押品的债务上限降至 0。此外，提案还提议更改 PSM-USDC-A、PSM-GUSD-A 等锚定稳定模块的部分参数以减轻协议风险。</p>\n<p><a href=\"https://twitter.com/MakerDAO/status/1634592264579084299\">内容来源</a></p><hr>",
           "link": "https://twitter.com/MakerDAO/status/1634592264579084299",
           "publishedOn": "2023-03-12T02:16:12.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Maker Governance 已投票通过变更 USDC 等资产相关参数紧急提案，将于 48 小时内链上执行",
           "imageUrl": null
         },
@@ -617,7 +617,7 @@
           "description": "<h3>硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系</h3>\n<p>General Catalyst 首席执行官 Hemant Tanej 发布推特称已经和几位风投领导人开会讨论了硅谷银行（SVB）倒闭的后果，并发布了一份联合声明。联合声明表示，「SVB 一直是风投行业及创始人们值得信赖的长期合作伙伴。四十年来，它一直在服务创业社区和支持美国创新经济方面发挥着关键作用。我们对过去 48 小时内发生的事情感到失望和担忧，如果 SVB 被收购并适当资本化，我们将会支持并鼓励我们的投资组合公司恢复与其的银行业务关系。」其他参与该联合声明的硅谷风投包括 Accel、Altimeter Capital、B Capital Group、General Catalyst、Gil Capital、Greylock Partners、Khosla Ventures、Kleiner Perkins、Lightspeed Venture Partners、Mayfield Fund、Redpoint Ventures、Ribbit Capital 及 Upfront Ventures。</p>\n<p><a href=\"https://twitter.com/htaneja/status/1634391256028839936\">内容来源</a></p><hr>",
           "link": "https://twitter.com/htaneja/status/1634391256028839936",
           "publishedOn": "2023-03-11T09:39:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系",
           "imageUrl": null
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管市场条件不佳，游戏和 NFT 项目在 2023 从 a16z crypto、Google Ventures 等主要加密货币公司筹集了超过 10 亿美元资金。加密研究员 Emperor Osmo 盘点了 2023 年主要 Web3 游戏和 NFT 项目的融资情况，并从用户和游戏开发商角度，总结了 3 个看好该行业发展的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">https://twitter.com/flowslikeosmo/status/1634011217097269254</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>原因 1：庞大的用户基数。视频游戏拥有最大、发展最迅速的社区之一。游戏玩家在他们的技术知识方面具有战略性和悟性，当涉及到像 NFT 这样复杂的新技术时，他们会迅速学习。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 2：尚未开发的资源。一个由不可替代的代币驱动的去中心化经济。游戏开发者可以从中受益，从转卖中获得佣金，从其他平台获得收入分享，以及在市场上的用户中提高知名度。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 3：玩家的权力。通过「投资」时间，拥有网络的一部分。Web3 游戏和 NFT 项目允许玩家将游戏与区块链提供的效率相结合，从而引入更高级别的参与和所有权。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a>",
           "link": "https://twitter.com/flowslikeosmo/status/1634011217097269254",
           "publishedOn": "2023-03-10T12:17:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Web3 游戏受到资本推崇的三个原因",
           "imageUrl": null
         },
@@ -867,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 内容平台 Mirror 于昨日推出 NFT 订阅铸造 「Subscribe to Mint 」功能，却引来大量负面评论。区块链研究员 starzq.eth 盘点了 Mirror 自内测以来的产品线路更改，认为 Mirror 产品方向在 toB 和 toC 之间的反复横跳将会导致用户的不断流失。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">https://twitter.com/starzqeth/status/1633679163612880902</a></p>\n<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>从 2021 年初内测开始，Mirror 的定位都是 toB，Web3 核心工具箱，建立 DAO 最快速简单的工具。用 Entries 写 Roadmap 和项目更新，然后众筹和分配项目资金，用 Token 来引导用户参与，再加一个 discord 来做用户互动，一个 DAO 就运作起来了。在发布了 1 年半后，2022 年 7 月 27 日终于有了基于钱包的订阅功能。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a><p><strong>starzq.eth：</strong>2022 年 8 月，Mirror 突然发了一个公告，说要转为 toC，一夜间下线了所有的众筹和 NFT 发布功能。转 toC 后其实没有任何动作，半年后的 2023 年 1 月 12 日，终于改进了订阅功能，只有邮箱也可以订阅，但邮箱里一直没有全文阅读，体验非常差。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a><p><strong>starzq.eth：</strong>然后就到了 2023 年 3 月 9 日，增加 Subscribe to Mint 功能，回到一开始 toB 的路。其实就是一个基于订阅者的 Open Edition，和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户，我自己就是其中之一。比较 Mirror 和 Substack 的 toC 体验，Substack 完胜。</p><a href=\"https://twitter.com/starzqeth/status/1633679163612880902\">内容来源</a>",
           "link": "https://twitter.com/starzqeth/status/1633679163612880902",
           "publishedOn": "2023-03-10T08:13:07.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】Mirror 产品线梳理 ：在 toB 和 toC 之间的反复横跳",
           "imageUrl": null
         },
