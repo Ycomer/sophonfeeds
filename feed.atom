@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T09:46:23.295Z</updated>
+    <updated>2023-03-14T09:51:32.369Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -131,6 +131,30 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[深究 DeFi 的安全审计和安全问题，解析三种审计模式]]></title>
+        <id>https://twitter.com/mindaoyang/status/1635537914854772737</id>
+        <link href="https://twitter.com/mindaoyang/status/1635537914854772737"/>
+        <updated>2023-03-14T09:22:39.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Euler 被黑客攻击损失 2 亿美元，dForce 创始人 Mindao 借此事对 DeFi 的安全审计和安全问题进行研究和探讨，解析了三种审计模式，认为对于 DeFi 这样的开放系统来说，安全代价就是自由的代价。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/mindaoyang/status/1635537914854772737">https://twitter.com/mindaoyang/status/1635537914854772737</a></p>
+<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>大的 DeFi 协议基本上都经过多轮审计，但蓝筹 DeFi 没哪个没被黑过。原因很简单，从攻防来看，所有静态审计的输入（安全投入）和输出（发现 bug) 都是有限的。常规审计以外的审计模式：1）形式化验证，能帮助穷尽「已知」路径的覆盖范围，但是无法穷尽「未知的未知」。DeFi 是一个开放系统，对于黑客（攻方）来说，它的输入是无限的，输出也是无限的。</p><a href="https://twitter.com/mindaoyang/status/1635537914854772737">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>2）开发式竞争型审计，如 Code4rena，审计奖金池固定，但是输入在一定时间内是弹性的，所有人都可以参加，谁发现 bug 按照严重程度，分奖金，这个方式是让审计师 / 白帽去卷，可以扩大覆盖面，但总体输入依然固定，远远不够。3）完全开放的模式，那就是赏金网络。赏金模式在输入输出上也是开放式的，类似于黑客的攻击模式，但是激励模式大有区别。</p><a href="https://twitter.com/mindaoyang/status/1635537914854772737">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>把赏金比例和 TVL 挂钩能否激励更多黑客转白帽？1）没哪个 DeFi 协议能支付黑客所要求的大额赏金；2）DeFi 的安全更复杂问题在于除了代码层面，还有可组合风险；3）DeFi 的攻击面是四维增长的，定期静态安全审计加长期赏金，也无法覆盖不断扩大的攻击面。DeFi 安全是无限游戏，唯一靠谱的是在协议上减少外部依赖（资产 /oracle/ 第三方协议），最小化攻击面，尽量待在「自己的舒适区」，不乱做扩展。</p><a href="https://twitter.com/mindaoyang/status/1635537914854772737">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盘点四款值得关注的大型 Web3 游戏：Symbiogenesis、METAPIXEL、Codename Renegades 和 AVALON]]></title>
+        <id>https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU</id>
+        <link href="https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU"/>
+        <updated>2023-03-14T09:20:03.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>随着 Web3 游戏的兴起，最近越来越多的传统游戏大厂开始涉足 Web3 领域，一个全新的数字游戏生态系统正在迅速形成。深潮研究员 0xbun 盘点四款最近备受关注的 Web3 游戏，涵盖剧情解密、角色扮演、科幻以及 MMORPG 四个类型。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU">https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU</a></p>
+<p><strong>文章作者：</strong></p><p>0xbun</p><hr><h3>观点：</h3><p><strong>0xbun：</strong>1）SYMBIOGENESIS，Square Enix 亲自操刀的 Web3 游戏，作为《最终幻想》开发商，该公司旗下的游戏一向拥有极高的品质和广泛的受众。是一个新的 NFT 收藏品艺术项目，基于 NFT 的故事随着玩家行动展开，这个过程被称为「NFT 解锁叙事」。2）METAPIXEL ，旨在成为 APTOS 上最顶尖的游戏生态系统，其团队有着 Web2 游戏大厂背景，其创造者 NPIXEL 曾经是韩国游戏《格兰骑士团》的开发商，拥有非常丰富的游戏开发经验和强大的技术实力。</p><a href="https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU">内容来源</a><p><strong>0xbun：</strong>3）Codename Renegades，充满未来科幻感的 MOBA 类多人游戏。它利用区块链技术，重塑了玩家与经济的关系，让他们以一种全新、实用且有意义的方式参与游戏 —— 即 Play & Own。4）AVALON，最终目标是建立一个数字化的、链上的大型多人在线游戏。融资由 Delphi Digital 领投，其团队领导者拥有《使命召唤》、《暗黑破坏神》、《战神》、《刺客信条》和《艾尔登法环》等游戏制作团队背景。</p><a href="https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[盘点四款值得关注的大型 Web3 游戏：Symbiogenesis、METAPIXEL、Codename Renegades 和 AVALON]]></title>
         <id>https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU</id>
         <link href="https://techflowpost.mirror.xyz/e3wYBSgMkHpeEr1X1J01nFrHAF_kkEKPzKTMCyYm-rU"/>
@@ -202,6 +226,18 @@ Signature Bank 2023年一季度报：https://investor.signatureny.com/pme/press-
 本文所载的全部内容仅作参考之用，不构成对任何人的投资建议。本文所载资料的来源被认为是可靠的，但不保证其准确性和完整性，也不保证所包含信息和建议不会发生任何变更，并且不对使用本文所包含的才材料产生的任何直接或间接损失或与此相关的其他任何损失承担任何责任。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Foresight Ventures：Perpetual DEX 的 LP 产品化之路]]></title>
+        <id>https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw</id>
+        <link href="https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw"/>
+        <updated>2023-03-14T08:45:37.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Foresight Ventures 研究员 Kylo 撰文解析 LP 的产品化，即 DeFi 协议的流动性变成一个标准化产品的过程，对三类 Perpetual DEX 的机制进行解读并阐述其实现 LP 产品化的可能性以及实现方式。最后从 DeFi 发展历史观的角度阐述为何 LP 产品化对于 DeFi 发展具有重要作用。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw">https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw</a></p>
+<p><strong>文章作者：</strong></p><p>Kylo（Foresight Ventures）</p><hr><h3>观点：</h3><p><strong>Kylo（Foresight Ventures）：</strong>Perpetual DEX 的机制：1）Orderbook 类交易模式，为了实现所谓的 LP 产品化需要付出三个层面的额外成本：融资成本；发行的 LP 票据参与其他 DeFi 生态的整合成本；维护 LP 退出流动性的成本。因此 LP 产品化这个模式在链上有实现的可能性，但可能并非最优选择。未来应该各取 TradFi 和 DeFi 的优势。</p><a href="https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw">内容来源</a><p><strong>Kylo（Foresight Ventures）：</strong>2）vAMM 交易模式，暂时无法实现 LP 产品化，原因在于目前还没有一个行之有效的 LP 管理方法，即无法对 LP 的风险和收益进行有效分割。3）P2Pool 交易模式，GMX 的 GLP 池和 gTrade 的 gDAI 池就是典型的 LP 产品。GLP 的风险可以被拆分，目前已经有大量协议在尝试 Hedge GLP 面临的 Delta risk，但 Trader PnL risk 可行的方案在于 GMX 内部机制改进或者尝试在其他 DEX 或者 CEX 进行对冲。</p><a href="https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw">内容来源</a><p><strong>Kylo（Foresight Ventures）：</strong>为什么 LP 产品化对于 DeFi 的发展很重要？通过对 DeFi 发展史梳理得出三层架构，而第二层（DEX、借贷、稳定币）和第三层（DeFi 2.0 协议）的连接逻辑在于 DeFi 协议之间的可组合性，其反应了真实收益在不同协议之间的流动。而收益协议执行的最重要功能在于 LP 产品化。</p><a href="https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw">内容来源</a><p><strong>Kylo（Foresight Ventures）：</strong>LP 产品化后 DeFI 协议 TVL 的增加进入快车道，TVL 的增加也使得交互用户对于 DeFi 产品的体验感增加。此外，LP 产品化也使得 LP 存在杠杆化的可能性，使其成为后续衍生品产品的开发与集成、搭建 DeFi lego 的基础。因此对于 Perpetual DEX 而言，LP 产品化之路其实也只是在复刻初始 DeFi 协议发展的逻辑。</p><a href="https://mp.weixin.qq.com/s/GxZN330_QHcfh2S0Yg6Nvw">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
