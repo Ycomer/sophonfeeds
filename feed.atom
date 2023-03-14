@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T02:39:01.914Z</updated>
+    <updated>2023-03-14T02:48:21.643Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[CME 已上线比特币期货的事件合约交易]]></title>
+        <id>https://www.theblock.co/post/219354/cme-event-contracts-bitcoin-futures</id>
+        <link href="https://www.theblock.co/post/219354/cme-event-contracts-bitcoin-futures"/>
+        <updated>2023-03-14T02:24:29.000Z</updated>
+        <summary type="html"><![CDATA[<h3>CME 已上线比特币期货的事件合约交易</h3>
+<p>据 The Block 报道，芝加哥商品交易所（CME）已上线比特币期货的事件合约（event contracts）交易，该产品将添加到 CME 现有的 10 个与基准期货市场相关的事件合约套件中，可为投资者提供一种有限风险、高度透明的方式，以通过完全受监管的交易所进入比特币市场。此类合约同提供基于特定事件的交易，也称为预测合约或信息合约，每日到期，以现金结算。投资者以此交易他们对比特币价格走势的看法。</p>
+<p><a href="https://www.theblock.co/post/219354/cme-event-contracts-bitcoin-futures">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web3 游戏工作室 Jungle 完成 600 万美元融资，Bitkraft 和 Framework Ventures 领投]]></title>
+        <id>https://www.theblock.co/post/219216/framework-and-bitkraft-lead-6-million-seed-funding-into-gaming-studio-jungle</id>
+        <link href="https://www.theblock.co/post/219216/framework-and-bitkraft-lead-6-million-seed-funding-into-gaming-studio-jungle"/>
+        <updated>2023-03-14T02:22:59.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Web3 游戏工作室 Jungle 完成 600 万美元融资，Bitkraft 和 Framework Ventures 领投</h3>
+<p>据 The Block 报道，巴西 Web3 游戏工作室 Jungle 已完成了 600 万美元种子轮融资，Bitkraft 和 Framework Ventures 共同领投，Delphi Digital、Karatage、Fourth Revolution Capital、Monoceros、32bit Ventures、Stateless Ventures、Snackclub 和 Norte Ventures 等参投。本轮融资将用于建立团队、营销和发行其制作的游戏。</p>
+<p><a href="https://www.theblock.co/post/219216/framework-and-bitkraft-lead-6-million-seed-funding-into-gaming-studio-jungle">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[隐私网络Iron Fish将主网发布时间推迟至4月20日]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/nkooeh0i.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/nkooeh0i.html"/>
@@ -94,6 +118,18 @@ Signet使用了Tassat开发的技术，该公司为银行构建私有区块链�
 由于采取保护剩余资金的措施，UI目前不支持现有LP退出这些bbeUSD池中的头寸，但不存在进一步损失资金的风险，在不久的将来将提供一个UI，允许从这些池中提取资金。bbeUSD池用户可以使用UI按比例提取代币和bbeUSD，但在Euler恢复eTokens（例如eDAI/DAI）的可转让性之前，无法从bbeUSD撤回资金。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期]]></title>
+        <id>https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34</id>
+        <link href="https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34"/>
+        <updated>2023-03-14T01:38:51.000Z</updated>
+        <summary type="html"><![CDATA[<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>
+<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>
+<p><a href="https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -1461,7 +1497,7 @@ Convex 从 3CRV 收益、$CRV 和其他流动性挖矿奖励中获得收入。�
         <updated>2023-03-13T09:55:13.000Z</updated>
         <summary type="html"><![CDATA[<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>
 <p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>
-<p><a href="https://twitter.com/BlockSecTeam/status/1635204706703384577">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href="https://twitter.com/zachxbt/status/1635209310916743170">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href="https://twitter.com/PeckShieldAlert/status/1635229250193334275">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href="https://twitter.com/eulerfinance/status/1635218198042918918">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href="https://twitter.com/ScopeProtocol/status/1635235421327347712">内容来源</a>]]></summary>
+<p><a href="https://twitter.com/BlockSecTeam/status/1635204706703384577">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href="https://twitter.com/zachxbt/status/1635209310916743170">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href="https://twitter.com/PeckShieldAlert/status/1635229250193334275">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href="https://twitter.com/eulerfinance/status/1635218198042918918">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href="https://twitter.com/ScopeProtocol/status/1635235421327347712">内容来源</a><p><strong>Euler Labs：</strong>最新进展：帮助通过禁用 EToken 模块阻止了直接攻击，同时与 TRM Labs、Chainalysis 和更广泛的以太坊安全社区合作帮助调查和恢复资金。我们还通知美国和英国执法部门并共享信息，并尝试联系了此次攻击的责任人。此外，在调查了攻击后，我们得出结论：攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。【原文为英文】</p><a href="https://twitter.com/eulerfinance/status/1635431726364147712">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -9074,30 +9110,6 @@ OP 生态：Velodrome（VELO）、Sonne Finance（SONNE） 等；]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】Matrixport Ventures 前投资总监：为什么看好 RISC Zero？]]></title>
-        <id>https://twitter.com/looksrare_eth/status/1633204560977342464</id>
-        <link href="https://twitter.com/looksrare_eth/status/1633204560977342464"/>
-        <updated>2023-03-09T04:13:05.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Risc Zero 是一个建立在 RISC-V 指令集架构之上的 zkVM，用 Rust 语言编写，底层证明系统是 zk-STARKs。此外，他们还构建了自己的被称为 Bonsai Network 的 L2。在与零知识证明开发者进行交谈后，Matrixport Ventures 前投资总监 Alex 撰文概述了他看好 RISC Zero 的原因。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/looksrare_eth/status/1633204560977342464">https://twitter.com/looksrare_eth/status/1633204560977342464</a></p>
-<p><strong>文章作者：</strong></p><p>Alex</p><hr><h3>观点：</h3><p><strong>Alex：</strong>开发人员将会从以下三个方面获益：1）RISC-V ISA 中优化的 ZK 电路，无需担心证明大小及 Gas 成本等问题；2）RISC-V 生态系统中的一系列库；3）更多的语言支持，例如 Go 和 C++，编译器将于一季度结束时推出。此外，开发人员还能够在 RiscZero zkVM 内运行 EVM。【原文为英文】</p><a href="https://twitter.com/looksrare_eth/status/1633204560977342464">内容来源</a><p><strong>Alex：</strong>用例：1）Rollup 公司探索使用 RiscZero 证明器以提供速度更快的可定制 Rollup；2）开发者在数据或中间件领域进行构建，探索数据中继的零知识证明用例；3）链上游戏：战略游戏、纸牌游戏等也可以使用 RiscZero 虚拟机编写零知识证明；4）项目可使用 ZKP Powered 证明工作输出或结果而无需透露用户数据；5） 还适用于无人机、位置服务和物联网公司等领域。【原文为英文】</p><a href="https://twitter.com/looksrare_eth/status/1633204560977342464">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】Cosmos 网状安全性解读：主权区块链通过经济自我利益保障安全的演进之路]]></title>
-        <id>https://twitter.com/Flowslikeosmo/status/1633482756394225667</id>
-        <link href="https://twitter.com/Flowslikeosmo/status/1633482756394225667"/>
-        <updated>2023-03-09T03:43:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>我们目前以 Rollup 为中心的叙事仍然将权利集中在一个安全中心，而 Cosmos 希望建立的以非等级方式进行交互的系统则需要使用网状安全性（Mesh Security ）将去中心化和主权整合至其安全性中。加密研究员 Emperor Osmo 撰文对 Mesh Security 的重要性进行了探索解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Flowslikeosmo/status/1633482756394225667">https://twitter.com/Flowslikeosmo/status/1633482756394225667</a></p>
-<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>目前我们的经济安全模式包括：1）Hub 利用验证器集增加区块大小，但事实上并没有改善链的安全性，且缺乏协同作用；2）碎片化复制安全性，但这涉及到验证器集的子集确保链的安全，可扩展性更高，类似于 Eigenlayer 正在做的事情。但这些方式都忽略了链想要使用自己的质押代币用于价值获取或激励调整。而网状安全性（Mesh Security ）希望实现的目标则是经济和安全联盟的集成。【原文为英文】</p><a href="https://twitter.com/Flowslikeosmo/status/1633482756394225667">内容来源</a><p><strong>Emperor Osmo：</strong>在 Rollup 模式中，L2 用于执行交易，而结算仍然在 L1，这对于在 L1 上创建的项目是有意义的，但并不适合在 L2 上创建的任何项目。我们该如何解决在 L2 上的审查阻力？或许可以考虑链间制裁，通过对交易施加制裁来审查执行恶意行为的链。网状安全性（Mesh Security ）是主权区块链通过经济上的自我利益保障彼此的进化步骤。【原文为英文】</p><a href="https://twitter.com/Flowslikeosmo/status/1633482756394225667">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文长推】Cosmos 网状安全性解读：主权区块链通过经济自我利益保障安全的演进之路]]></title>
         <id>https://twitter.com/Flowslikeosmo/status/1633482756394225667</id>
         <link href="https://twitter.com/Flowslikeosmo/status/1633482756394225667"/>
@@ -9184,18 +9196,6 @@ ASCII的全称是“美国信息交换标准代码”，利用这个标准，当
 此前3月2日消息，Celsius债权人称与NovaWulf的拟议交易是“最佳”选择。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文】什么是轻节点？一文了解其类型及运作模式]]></title>
-        <id>https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</id>
-        <link href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits"/>
-        <updated>2023-03-09T03:02:49.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>轻节点是全节点的一种有限形式，只下载区块头。轻客户端可以验证交易是否包含在区块内，但由于它们不下载或执行区块内的交易，因此相信大部分区块生产者都是诚实的。Modular Media 联创 DinoEggs 撰文解析了轻节点的概念、类型及工作方式。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">https://dinoeggs.substack.com/p/light-nodes-and-their-benefits</a></p>
-<p><strong>文章作者：</strong></p><p>DinoEggs.eth</p><hr><h3>观点：</h3><p><strong>DinoEggs.eth：</strong>轻节点可以根据验证信息进行分类：1）共识验证器：能够检查一个交易是否包含在规范链中，通过追踪验证者的证明来追踪规范链，并通过验证 Merkle 证明检验交易，类似于 IBC 的工作方式；2）状态验证器：可以在不处理事务的情况下检验状态转换是否有效，可以使用有效性或欺诈证明完成；【原文为英文】</p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">内容来源</a><p><strong>DinoEggs.eth：</strong>3）DA 验证器：可以检查计算的输入是否存储在可以下载的地方，而不需要实际下载所有数据，通过数据可用性采用技术完成。如果一个轻节点可以完成以上所有事情，我们就将这些节点成为完全验证器，最重要的是它们是信任最小化的，提供了和全节点几乎相同的无需信任属性且无需下载区块。【原文为英文】</p><a href="https://dinoeggs.substack.com/p/light-nodes-and-their-benefits">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
