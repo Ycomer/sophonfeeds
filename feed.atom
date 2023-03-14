@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T09:03:03.578Z</updated>
+    <updated>2023-03-14T09:10:53.902Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[全美最后一家加密友好银行Signature意外被关停，将对加密市场产生怎样的影响？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/f2n2kxa1g07s.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/f2n2kxa1g07s.html"/>
+        <updated>2023-03-14T09:00:08.000Z</updated>
+        <summary type="html"><![CDATA[原文：《全美最后一家加密友好银行Signature意外被监管关闭解析以及市场影响分析》
+美东时间3月12日晚，美财政部宣布由纽约州金融监管局关闭Signature Bank，客户存款可在周一申请取回。这与最近其他两家倒闭的银行Silvergate Bank和Silicon Valley Bank最大相同点在于，都涉及加密市场业务。Signature Bank作为唯一暂时幸免于客户紧急挤兑导致流动性危机的银行，却遭到监管临时决定关闭，引起市场哗然。那么，究竟是什么原因导致了Signature Bank被监管叫停，对市场后续走势又是怎样，本文将会基于现已披露的信息，解析背后可能的原因与其对市场的影响。
+Signature Bank（SBNY）成立于2001年，其主要业务在为高净值人群提供私人银行服务，2018年一季度开始SBNY增加了加密业务服务，为包括受监管的稳定币发行方、交易所、托管方、加密货币矿工、机构交易者等提供接入法币银行服务。根据上年年报披露，截止2022年末，总资产1103亿美元、客户存款（负债）885亿美元。
+从负债端来看，2022年四季度，在FTX暴雷事件后，SBNY管理层有意降低其在加密业务上的风险敞口，主动下降业务占比，减少了123.9亿美元客户存款，最终22年Q4加密客户存款为177亿美元，占全部客户存款占比为20%。从银行资产负债表集中度分析来看，这个业务占比相对合理。从提供的业务范围来看，SBNY并没有投资、持有、或托管加密货币的业务，仅限于美元存款业务，并且可以通过SBNY内部搭建的Signet系统进行7*24的实时美元转账交易。与Silvergate Bank不同，SBNY也不提供以加密货币为抵押品的贷款业务，在业务方向上相对也是保守的。在本月初，SBNY披露的23年一季报财务数据来看，全部客户存款下降8.26亿美元，存款下降主要是由于加密资产相关客户存款减少了15.1亿美元，其他新增存款6.82亿美元。这一方面是由于加密货币市场自身波动；另一方面也是SBNY加大力度控制加密业务存款的整体占比。
+从资产端来看，SBNY披露的资产充足率数据显示，核心一级资本充足率11.20%，风险资本充足率12.32%，杠杆率8.79%，满足巴塞尔协议III对银行风险资产的要求，整体资产也是处于比较健康的水平。从资产端明细来看，短期投资174亿美元，占比14.98%。极端情况下，即使全部加密存款全部申请提现，流动性也可以满足。
+从业务健康程度来看，如果说Silvergate Bank是风险偏好激进的“坏学生”，那么Signature Bank可以被认为是恪守监管，看到市场风向变化及时调整业务重点的“乖学生”。 因此，如果从业务分析来看，Signature Bank并不会直接因为加密货币市场的影响导致流动性挤兑风险。然而此时，美国财政部在看到Silvergate作为最激进的加密友好银行，在加息背景下对市场带来的恶劣影响，而决定保守起见将Signature Bank关闭业务，这背后可能有两方面原因：一是，担心加密业务波动变化影响到Signature Bank其他业务客户，再继而延展到传统银行市场中，毕竟SBNY的整体业务体量不小；二是，联想到最近美国方面从国会、美联储、财政部到SEC、CFTC不断提出的对加密行业制定监管规则来看，这有可能是对已经涉及加密业务银行的惩戒，以及监管将要出台更全面审慎监管框架的一个信号，未来必然会将涉及所有加密市场本身、加密市场到传统金融市场之间传导的每个环节，出台完整、深入、合理地有力监管措施。
+关于Silvergate Bank 和Silicon Valley Bank，在此前我的报告（https://twitter.com/WuWei_BeWater/status/1632417472015142912）中写到，都是在加息背景下，负债端存款不稳定，资产端长债浮亏的双重作用下导致客户不信任大量挤兑带来的流动性危机。因此，市场也有传言认为，美联储本月FOMC会议加息很有可能放缓加息，50bp的加息概率目前已下降到0，美股期货市场出现小幅上涨，叠加稳定币或法币的交易对不信任，带来加密市场同期上涨。然而，在加密监管措施仍未确定，CPI数据即将出炉的时间点来看，认为加密市场“牛回”的判断可能还为时尚早。
+参考资料：
+Signature Bank 2022年年报：https://investor.signatureny.com/pme/press-releases/news-details/2023/Signature-Bank-Releases-2022-Form-10-K/default.aspx
+Signature Bank 2023年一季度报：https://investor.signatureny.com/pme/press-releases/news-details/2023/Signature-Bank-Issues-Mid-Quarter-Financial-Update-for-Its-2023-First-Quarter/default.aspx
+免责声明
+本文所载的全部内容仅作参考之用，不构成对任何人的投资建议。本文所载资料的来源被认为是可靠的，但不保证其准确性和完整性，也不保证所包含信息和建议不会发生任何变更，并且不对使用本文所包含的才材料产生的任何直接或间接损失或与此相关的其他任何损失承担任何责任。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[全美最后一家加密友好银行Signature意外被关停，将对加密市场产生怎样的影响？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/f2n2kxa1g07s.html</id>
