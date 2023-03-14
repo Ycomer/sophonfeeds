@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T01:30:33.936Z</updated>
+    <updated>2023-03-14T01:54:13.925Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Balancer：1190万美元资金受Euler攻击事件影响，其他流动性池安全]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/su51rdw9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/su51rdw9.html"/>
+        <updated>2023-03-14T01:42:33.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，去中心化交易所Balancer在推特上披露，在Euler Finance攻击事件中，约1190万美元从bbeUSD流动性池中被发送给Euler，占该流动性池TVL的65%，bbeUSD也被存入了其他4个流动性池：wstETH/bbeUSD、rETH/bbeUSD、TEMPLE/bbeUSD、DOLA/bbeUSD，所有其他的Balancer流动性池都是安全的。
+由于采取保护剩余资金的措施，UI目前不支持现有LP退出这些bbeUSD池中的头寸，但不存在进一步损失资金的风险，在不久的将来将提供一个UI，允许从这些池中提取资金。bbeUSD池用户可以使用UI按比例提取代币和bbeUSD，但在Euler恢复eTokens（例如eDAI/DAI）的可转让性之前，无法从bbeUSD撤回资金。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[币安将从 3 月 13 日开始暂停新用户英镑存取款，并将在 5 月 22 日暂停所有用户英镑出入金渠道]]></title>
+        <id>https://www.theblock.co/post/219443/binance-payments-partner-paysafe-says-uk-regulatory-environment-is-too-challenging</id>
+        <link href="https://www.theblock.co/post/219443/binance-payments-partner-paysafe-says-uk-regulatory-environment-is-too-challenging"/>
+        <updated>2023-03-14T01:27:50.000Z</updated>
+        <summary type="html"><![CDATA[<h3>币安将从 3 月 13 日开始暂停新用户英镑存取款，并将在 5 月 22 日暂停所有用户英镑出入金渠道</h3>
+<p>币安法币合作伙伴 Paysafe 因监管问题决定停止在英国为币安客户提供嵌入式钱包解决方案，币安将从 3 月 13 日开始暂停新用户的英镑存取款，并将在 5 月 22 日暂停所有用户的英镑出入金渠道。Paysafe 发言人表示，由于英国与加密有关的监管环境太具有挑战性，因此无法提供这项服务，Paysafe 将继续在欧洲和拉丁美洲与币安合作。币安估计这项举措将影响不到 1% 的用户，并在一封电子邮件中表示，正在努力寻找替代解决方案。</p>
+<p><a href="https://www.theblock.co/post/219443/binance-payments-partner-paysafe-says-uk-regulatory-environment-is-too-challenging">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[知情人士：DeFiance Capital 完成 1 亿美元流动性代币基金的首次融资，将于本月开始投资]]></title>
+        <id>https://www.theblock.co/post/219264/defiance-capital-completes-first-close-of-100-million-liquid-token-fund</id>
+        <link href="https://www.theblock.co/post/219264/defiance-capital-completes-first-close-of-100-million-liquid-token-fund"/>
+        <updated>2023-03-14T01:26:58.000Z</updated>
+        <summary type="html"><![CDATA[<h3>知情人士：DeFiance Capital 完成 1 亿美元流动性代币基金的首次融资，将于本月开始投资</h3>
+<p>据 The Block 援引知情人士表示，加密投资基金 DeFiance Capital 完成 1 亿美元流动性代币基金的初次关账（first close），该基金已经筹资八位数，并将在本月开始进行投资。一位知情人士表示，该基金最初筹资金额低于 5000 万美元。此外，支持该基金的投资者组合良好，包括加密 EOF、家族办公室及 DeFiance 现有投资者。
+此前消息，DeFiance Capital 创始人 Arthur Cheong 计划为新基金筹集 1 亿美元，该基金将保留 DeFiance 的名称，将专注于具有流动性的加密资产的投资。</p>
+<p><a href="https://www.theblock.co/post/219264/defiance-capital-completes-first-close-of-100-million-liquid-token-fund">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Euler Labs：已联系美英执法部门，EToken模块已禁用]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/lfds8x0k.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/lfds8x0k.html"/>
+        <updated>2023-03-14T01:24:31.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，Euler Labs发布为Euler Finance用户挽回受损资金工作进展更新：“1.通过帮助禁用EToken模块，尽快阻止直接攻击，该模块阻止了存款和易受攻击的捐赠功能。2.与TRM Labs、Chainalysis和更广泛的ETH安全社区合作，帮助调查和追回资金。3.通知并与美国和英国执法部门共享信息，我们还联系了对这次攻击负责的人，看看我们是否能了解到更多的信息。此次遭到攻击的原因是，攻击者利用了易受攻击的代码，使其能够创建无担保的代币债务。”在此事件中，智能合约审计平台Sherlock帮助Euler提交了一份索赔，就450万美元的索赔进行了投票(最终通过)，并在今天执行了330万美元的支付。
+去年6月，Euler Finance完成Haun Ventures领投的3200万美元融资。此前昨日消息，借贷协议Euler Finance遭到攻击，损失已达1.97亿美元。
+相关阅读：一文读懂Euler Finance：支持高风险资产的下一代DeFi借贷协议]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Euler Labs：将把金库剩余资金退给受损用户，已联系美英执法部门]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/lfds8x0k.html</id>
@@ -50,6 +98,64 @@ DAO（Decentralized Autonomous Organization）即去中心化自治组织，本�
 在不远的未来，参与DAO可能就像在社交软件互动一样丝滑无摩擦。但达到这个下一层次的前提之一就是应该与现有的法律体系进行必要的融合，另一方面，DAO技术的不断创新进步也将助推DAO能够成熟并与全球生产经济的其他部分融合。立法合规是DAO立足现实的基础和土壤，技术的创新突破则是养料，随着DAO法案的不断完善进步，实现真正意义上的合法合规，实现DAO参与者权责分明，税收条例清晰，让人们以往对DAO架构在实际生活运作体系中水土不服的担忧逐渐消解，使愈来愈多的人们在肉眼可见的未来可能逐渐采用DAO的组织形式作为公司架构，DAO的复兴将不在只是镜花水月，纸上谈兵。
 版权声明：如需转载欢迎加小助理微信沟通，未经允许转载、洗稿、我方将保留追究法律责任的权利。
 免责声明：市场有风险，投资需谨慎。请读者在考虑本文中的任何意见、观点或结论时严格遵守所在地法律法规，以上内容不构成任何投资建议。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[法律地位崛起，DAO如何走出“乌托邦困境”？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/7egy9z5s.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/7egy9z5s.html"/>
+        <updated>2023-03-14T01:14:22.000Z</updated>
+        <summary type="html"><![CDATA[美国时间3月1日下午，美国犹他州立法机构在激烈的讨论之后以微弱优势通过了H.B. 357法案 - 《去中心化自治组织修正案》。这标志着DAO作为一种组织形式在美国获得了独立的法律实体地位。
+DAO（Decentralized Autonomous Organization）即去中心化自治组织，本身是一种治理结构或者说组织形式，传统组织的结构是自上而下的层层分级，目标和任务层层下发，成员完成任务获得报酬，属于金字塔模式。而 DAO 则是一群人因拥有相同的共识聚集在一起，通过提案、投票、悬赏等方式参与治理，以 Token奖励实现激励，强调公平的利益分配，以及无权力中心，成员皆可行使权力的平等环境。
+
+2021年之前，DAO没有明确的法律实体
+2021之前，DAO组织甚至并没有什么特别好的选择和空间去成立合法的公司。个别州或国家即使允许DAO注册为法律实体，但会要求DAO做出过多的妥协。例如，他们会要求DAO保留一份成员的全名和地址清单，选举一个对组织有权力的董事会或受托人，并保留会议决定的书面记录。
+首先我们要知道，在美国如果组织没有注册为法律实体，基本上就不会被政府承认。现代经济的大部分都依赖于组织获得法律地位。对于一个传统的公司或组织，无论规模大小或是营利性还是非营利性，首先要做的一件事是为该组织创建一个法律实体，通常采取公司、基金会或有限责任公司（LLC）的形式。 这里就出现一个问题是，如果一群人在没有法律实体的情况下从事共同的企业，美国法律都将他们视为普通合伙制度。被视为普通合伙制度的DAO存在哪些问题？
+ 
+2021年之后，DAO被纳入有限责任公司体系
+2021年4月21日，怀俄明州州长签署了以DAO为重点的法案38，使怀俄明州成为有史以来第一个承认DAO为有限责任公司的州（从2021年7月1日起生效）。
+2022年2月，马绍尔群岛共和国通过了一项法律《2022年DAO法案》，2022年的DAO法案将允许DAO作为有限责任公司（LLC）limited liability companies (LLCs.)成立，使其能够识别为DAO有限责任公司。该法案还准备允许营利性DAO和非营利性DAO注册，同时为DAO的形成、协议和智能合约的使用提供定义和规定。并使在该国注册的法律实体能够正式采用DAO结构和治理工具。
+2022年4月6日，田纳西州也通过立法，承认并允许有限责任公司（LLC）注册 “DAO”，努力使 “田纳西州成为DAO的特拉华州”。根据州众议院议员Jason Powell的说法，“有了这种新的商业结构，田纳西州将成为区块链投资和新工作的灯塔......就像特拉华州成为传统有限责任公司的中心或南达科他州的信用卡公司一样。”
+所以自2021年起，DAO组织就被纳入有限责任公司体系，DAO组织可以选择与当局和法律系统接触。美国的怀俄明州和田纳西州以及马绍尔群岛共和国都通过法案允许允许DAO有限责任公司，这是高度灵活和强大的法律实体，是为DAO定制的，具有传统有限责任公司的所有好处。
+此外，一些DAO组织也会采取科罗拉多州有限合作协会（LCA）和非法人非营利协会（UNA）的形式，或者选择在瑞士、开曼群岛或英属维尔京群岛创建基金会。 自2021年以来，数以百计的DAO在这些司法管辖区成立了公司，这使这些DAO能够进入银行业务，并且保护其成员不承担个人责任，甚至确保DAO能够解决自己的税款问题。
+然而，这种形式的DAO并不纯粹，无论采用上述哪种形式，本质上都是在DAO之外包裹了一层现有的法律实体。也就是说，过去在法律层面上没有DAO这个概念，它是一个LLC，一个公司，一个合作社，一个基金会，一个信托，但选择了DAO的组织形式来运作。
+
+今年3月1日，犹他州通过了其DAO法案，承认中心化自治组织为法人，所有这些被称为DAO的区块链原生组织将不需要将自己包裹在现有的公司结构中，即可以从法人地位中获益。犹他州DAO法案授予DAO组织法律认可和有限责任保护，解决了以前 “有限责任公司包装 ”方法的局限性。
+意味着DAO不再需要被包装成有限责任公司的一个变体实体，DAO组织形式本身已经成为犹他州法律承认的一种独立的法律实体。经R3P0研究，该法案中值得关注以下内容：
+简而言之，犹他州提出了一个更完善且具有针对性的合规框架，有限责任公司不是DAO，DAO也不是有限责任公司。犹他州的法案明确定义了两者的区别，这意味着DAO参与者有更多的明确性和保护，可以进行实验和创新。法案的生效日期被定为2024年。据犹他州立法机构表示：我们做出这样的妥协，是为了让我们再有一年的时间来编辑、调整并确保实际的法案实施能够顺利通过。
+许多DAO组织在考虑成立公司时的一个普遍担忧是，合法合规是否会使他们的DAO变得不那么去中心化，从而违背了Web3的核心价值。但实际上没有合法合规很多时候会人们借用“去中心化”使得DAO沦为人们作恶的工具。
+去年年底，CFTC起诉OokiDAO案件中，bZeroX将bZx协议（现在的Ooki协议）的控制权转移到bZx DAO（现在的Ooki DAO）的目的就是试图使bZx DAO因其去中心化的性质而不被执行。bZx创始人试图使用DAO的去中心化特质去躲避法律的制裁。
+“去中心化”的精神永远是WEB3.0社区所推崇的，但很多时候永远也不要低估人性的恶。本次犹他州DAO法案的通过，DAO现在拥有了正式法律实体的地位，规范监管的同时，其实也是在保护DAO组织的成员。值得注意的是，新法案中很多细节彰显着对“去中心化”的尊重，对DAO组织内部的协调机制和决策机制没有过多得限制。这无疑是对待新事物值得称赞的态度，拥抱创新，但拒绝野蛮生长。
+过去的一年--从Celsius Network到FTX暴雷--为我们敲响了警钟，显示了资产和决策去中心化的必要性，这必将导致DAO的复兴。随着区块链技术的不断革新，DAO工具将使DAO的未来应用变得更精简、更高效。例如治理、提案和投票是DAO的重要组成部分，有近百万活跃的投票者和提案者，你需要合适的工具来确保公平和效率。其次DAO金库是每个DAO的命脉，给它提供了实现目标所需的燃料。因此，为了确保有效和安全的管理，你必须使用高质量的工具来防止黑客和错误--特别是当你与DeFi协议互动时。
+
+在不远的未来，参与DAO可能就像在社交软件互动一样丝滑无摩擦。但达到这个下一层次的前提之一就是应该与现有的法律体系进行必要的融合，另一方面，DAO技术的不断创新进步也将助推DAO能够成熟并与全球生产经济的其他部分融合。立法合规是DAO立足现实的基础和土壤，技术的创新突破则是养料，随着DAO法案的不断完善进步，实现真正意义上的合法合规，实现DAO参与者权责分明，税收条例清晰，让人们以往对DAO架构在实际生活运作体系中水土不服的担忧逐渐消解，使愈来愈多的人们在肉眼可见的未来可能逐渐采用DAO的组织形式作为公司架构，DAO的复兴将不在只是镜花水月，纸上谈兵。
+版权声明：如需转载欢迎加小助理微信沟通，未经允许转载、洗稿、我方将保留追究法律责任的权利。
+免责声明：市场有风险，投资需谨慎。请读者在考虑本文中的任何意见、观点或结论时严格遵守所在地法律法规，以上内容不构成任何投资建议。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta 正在逐步减少 NFT 业务投入]]></title>
+        <id>https://twitter.com/skasriel/status/1635386565487898624</id>
+        <link href="https://twitter.com/skasriel/status/1635386565487898624"/>
+        <updated>2023-03-14T01:12:05.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Meta 正在逐步减少 NFT 业务投入</h3>
+<p>Meta 商务和金融技术主管 Stephane Kasriel 发布推特称，目前正在逐步减少 NFT 业务投入以专注于其他支持创作者、个人和企业的方式。Stephane Kasriel 还表示，为创作者和企业创造机会与粉丝建立联系并实现盈利，仍然是 Meta 的一个优先事项，Meta 将专注于能够产生大规模影响的领域，例如 Reels 的信息传递和货币化机会。此外，Meta 将继续投资于个人和企业在未来需要的金融技术工具，目前正在用 Meta Pay 简化支付并投资于 Meta 信息支付。</p>
+<p><a href="https://twitter.com/skasriel/status/1635386565487898624">内容来源</a></p><hr><h3>观点：</h3><p><strong>Eric Ravenscraft：</strong>Facebook 的商业模式就是抄袭别人的模式来盈利，现在他们甚至放弃了 NFT。【原文为英文】</p><a href="https://twitter.com/LordRavenscraft/status/1635444107110694915">内容来源</a><p><strong>SHΞRKHAN.S◎L：</strong>Web 2 社交网络逐步减少对 Web3 的支持。创新者两难处境？或者只是一种对抗性策略？或者是由于 iOS 限制？似乎是一种短视行为。【原文为英文】</p><a href="https://twitter.com/sherkhantx/status/1635443849832062976">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美联储将对硅谷银行监管进行审查，审查结果将于5月1日前公布]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/9r64q0aa.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/9r64q0aa.html"/>
+        <updated>2023-03-14T00:57:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，美国联邦储备委员会周一宣布，鉴于硅谷银行的倒闭，负责监管的副主席Michael S. Barr正在领导对硅谷银行的监管进行审查。审查结果将于5月1日前公布。
+美联储主席鲍威尔表示：“围绕硅谷银行的事件要求美联储进行彻底、透明和迅速的审查。”]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -2193,17 +2299,6 @@ Circle CEO杰里米·阿莱尔：
 <p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href="https://twitter.com/ArbiAlpha/status/1634615208848281603">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数据：约9.85亿枚BUSD从币安行业复苏基金转移到币安]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/teeh51x3.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/teeh51x3.html"/>
-        <updated>2023-03-13T05:36:16.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月13日消息，Whale Alert监测数据显示，985,088,975枚BUSD（约合981,641,163美元）从币安行业复苏基金转移到币安。
-此前今日早些时候消息，赵长鹏表示，将把行业复苏基金内剩余资产从BUSD换为BTC、BNB和ETH等。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -9240,18 +9335,6 @@ MixBytes建议在3月15日之前停止接受新的DOT和KSM进行流动性质押
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品]]></title>
-        <id>https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress</id>
-        <link href="https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress"/>
-        <updated>2023-03-09T01:56:04.000Z</updated>
-        <summary type="html"><![CDATA[<h3>CFTC 主席：如果国会不通过全面的数字资产监管法，基于法币的稳定币将会被视为商品</h3>
-<p>美国商品期货交易委员会（CFTC）主席 Rostin Behnam 在出席参议院农业委员会会议后表示，如果国会不通过一项全面针对数字资产的监管法律，基于法定货币的稳定币将会被视为商品。此外，Rostin Behnam 还表示，我们对 ETH 衍生品进行了监管，ETH 期货在 CFTC 市场上市并非巧合，我们做了分析，得出的结论是 ETH 是一种商品。</p>
-<p><a href="https://www.theblock.co/post/218149/cftc-head-says-stablecoins-are-in-agencys-jurisdiction-without-clear-direction-from-congress">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Web3 内容平台 Mirror 推出 NFT 订阅铸造 「Subscribe to Mint 」功能]]></title>
         <id>https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE</id>
         <link href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE"/>
@@ -9259,31 +9342,6 @@ MixBytes建议在3月15日之前停止接受新的DOT和KSM进行流动性质押
         <summary type="html"><![CDATA[<h3>Web3 内容平台 Mirror 推出 NFT 订阅铸造 「Subscribe to Mint 」功能</h3>
 <p>去中心化内容发布平台 Mirror 宣布推出 「订阅铸造（Subscribe to Mint）」功能，收藏家需要使用电子邮件订阅创作者的 Mirror 出版物才能够进行铸造，目前已在以太坊、Optimism 和 Polygon 链上部署。新功能将有两个潜在用例：1、创世 Drop，Web3 项目可以将发布内容与包含项目 logo 或吉祥物的 NFT 配对，并且使用「Subscribe to Mint」功能通过内容更新和后续 NFT 投放与项目受众互动。2、推出可收藏 NFT 系列，持有者可以完成铸造 NFT 并鼓励新用户注册成为订阅者以参与未来 NFT 投放。「Subscribe to Mint」功能对创作者是完全免费的，创作者将获得所售 NFT 的 100 % 收益。此外，「订阅铸造（Subscribe to Mint）」功能将在未来两周内进行社区测试，只有 Mirror Genesis NFT 持有者可以访问。</p>
 <p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a></p><hr><h3>观点：</h3><p><strong>Mirror：</strong>「订阅铸造（Subscribe to Mint）」功能扩展了 Mirror Web3 原生发布功能，包括于 2022 年 5 月推出的将文章铸造成  NFT 的功能及 2022 年 7 月推出的 Web3 订阅功能。【原文为英文】</p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a><p><strong>starzq.eth：</strong>时隔 2 个月 Mirror 终于有了更新，「Subscribe to Mint」， 又给创作者打开了创收的方式。为什么是「又给」，因为半年前 Mirror 刚关掉了其最受欢迎的创收方式「众筹」，改变定位为 ToC，这下又变成 ToB。「Subscribe to Mint」其实就是一个基于订阅者的 Open Edition， 和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户。1 年前我就详细比较过 Mirror 和 Substack， ToC 体验上 Substack 完胜。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>CryptoNerdCn：</strong>从一个开发者的角度来看，抛弃 plugin，转单纯 toC 又以一种奇怪的方法转回来，并且至今还有不少基础功能没实现以及越来越丑的 UI，这可能说明了 Mirror 从来就没有过充足的开发人手。竞品 Matters 除了 UI 实在很廉价之外其他功能都好过 Mirror，虽然用的人更少。</p><a href="https://twitter.com/cryptonerdcn/status/1633717293007138816">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>可以试一下 Mail3 subscription，使用 subdid 作为订阅关系与 token gated 工具，去中心化存储加开放，比 substack 会有更多可能性。</p><a href="https://twitter.com/crypcipher/status/1633703811088003072">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3 内容平台 Mirror 推出 NFT 订阅铸造 「Subscribe to Mint 」功能]]></title>
-        <id>https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE</id>
-        <link href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE"/>
-        <updated>2023-03-09T01:39:22.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Web3 内容平台 Mirror 推出 NFT 订阅铸造 「Subscribe to Mint 」功能</h3>
-<p>去中心化内容发布平台 Mirror 宣布推出 「订阅铸造（Subscribe to Mint）」功能，收藏家需要使用电子邮件订阅创作者的 Mirror 出版物才能够进行铸造，目前已在以太坊、Optimism 和 Polygon 链上部署。新功能将有两个潜在用例：1、创世 Drop，Web3 项目可以将发布内容与包含项目 logo 或吉祥物的 NFT 配对，并且使用「Subscribe to Mint」功能通过内容更新和后续 NFT 投放与项目受众互动。2、推出可收藏 NFT 系列，持有者可以完成铸造 NFT 并鼓励新用户注册成为订阅者以参与未来 NFT 投放。「Subscribe to Mint」功能对创作者是完全免费的，创作者将获得所售 NFT 的 100 % 收益。此外，「订阅铸造（Subscribe to Mint）」功能将在未来两周内进行社区测试，只有 Mirror Genesis NFT 持有者可以访问。</p>
-<p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a></p><hr><h3>观点：</h3><p><strong>Mirror：</strong>「订阅铸造（Subscribe to Mint）」功能扩展了 Mirror Web3 原生发布功能，包括于 2022 年 5 月推出的将文章铸造成  NFT 的功能及 2022 年 7 月推出的 Web3 订阅功能。【原文为英文】</p><a href="https://dev.mirror.xyz/unYe1NE7GIS7vahvFTRdhjrHKlaS6YYuuttrR6TpMHE">内容来源</a><p><strong>starzq.eth：</strong>时隔 2 个月 Mirror 终于有了更新，「Subscribe to Mint」， 又给创作者打开了创收的方式。为什么是「又给」，因为半年前 Mirror 刚关掉了其最受欢迎的创收方式「众筹」，改变定位为 ToC，这下又变成 ToB。「Subscribe to Mint」其实就是一个基于订阅者的 Open Edition， 和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户。1 年前我就详细比较过 Mirror 和 Substack， ToC 体验上 Substack 完胜。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>CryptoNerdCn：</strong>从一个开发者的角度来看，抛弃 plugin，转单纯 toC 又以一种奇怪的方法转回来，并且至今还有不少基础功能没实现以及越来越丑的 UI，这可能说明了 Mirror 从来就没有过充足的开发人手。竞品 Matters 除了 UI 实在很廉价之外其他功能都好过 Mirror，虽然用的人更少。</p><a href="https://twitter.com/cryptonerdcn/status/1633717293007138816">内容来源</a><p><strong>crypcipher（Nervina Labs 首席执行官）：</strong>可以试一下 Mail3 subscription，使用 subdid 作为订阅关系与 token gated 工具，去中心化存储加开放，比 substack 会有更多可能性。</p><a href="https://twitter.com/crypcipher/status/1633703811088003072">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密友好银行 Silvergate Bank 将以适用的监管程序有序结束银行业务并自愿进行清算]]></title>
-        <id>https://www.businesswire.com/news/home/20230308005795/en/</id>
-        <link href="https://www.businesswire.com/news/home/20230308005795/en/"/>
-        <updated>2023-03-09T01:29:39.000Z</updated>
-        <summary type="html"><![CDATA[<h3>加密友好银行 Silvergate Bank 将以适用的监管程序有序结束银行业务并自愿进行清算</h3>
-<p>加密友好银行 Silvergate Bank 宣布以适用的监管程序有序结束银行业务并自愿进行清算。Silvergate Bank 表示，鉴于最近的行业和监管发展，有序结束业务并自愿进行清算是最好的发展方式，该计划包括全额偿还所有存款，公司也在考虑如何最好的解决索赔问题并保存其资产的剩余价值，包括其专有技术和税收资产。其总 Centerview Partners LLC 担任财务顾问，Cravath, Swaine & Moore LLP 担任法律顾问，Strategic Risk Associates 提供过渡项目管理协助。此外，Silvergate Bank 决定停止 Silvergate Exchange Network（SEN），所有其他与存款有关的服务在公司清算过程中将保持运营。
-此前消息，Silvergate Bank 于上周宣布推迟提交 2022 财年的年度 10-K 报告，且公司正在分析与公司有关的某些监管询问和调查。</p>
-<p><a href="https://www.businesswire.com/news/home/20230308005795/en/">内容来源</a></p><hr><h3>观点：</h3><p><strong>Coinbase：</strong>我们很遗憾看到 Silvergate 做出艰难决定来有序减少他们的业务。Silvergate 是加密经济增长的合作伙伴和贡献者。Coinbase 在 Silvergate 上没有客户或公司现金。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1633631430097141761">内容来源</a><p><strong>美国加州金融保护与创新部（DFPI）：</strong>我们正在密切关注局势以促进 Silvergate Bank 安全、迅速地自愿清算。正在评估 Silvergate Bank 对所有金融法律的遵守情况，并正在与相关的联邦同行密切合作。【原文为英文】</p><a href="https://twitter.com/coinbase/status/1633631430097141761">内容来源</a><p><strong>Adam Cochran：</strong>有传言称，Silvergates 清算将不包括银行章程（这通常发生在监管机构发现某种错误行为的情况下），如果传言是真的，这对股东来说是残酷的，因为这是唯一真正有价值的资产。【原文为英文】</p><a href="https://twitter.com/adamscochran/status/1633586169555419138">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
