@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T12:58:07.788Z</updated>
+    <updated>2023-03-14T13:14:23.810Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Lido质押总价值突破100亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5wmcsma4.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5wmcsma4.html"/>
+        <updated>2023-03-14T13:07:15.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，据Lido官方数据显示，其平台质押总价值已突破100亿美元，本文撰写时达到10,244,294,153美元，其中以太坊质押总价值占据比例最大，当前也超过100亿美元，触及10,075,869,095美元，其次是Polygon，质押价值为93,592,303美元。
+此外，Lido平台已支付奖励价值达到461,118,928美元，质押者数量为288,219个。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[比特币盘中突破2.6万美元，创2022年6月以来新高]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/vxxf4e1j.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/vxxf4e1j.html"/>
+        <updated>2023-03-14T12:58:03.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月14日消息，行情显示，比特币持续上升，盘中突破2.6万美元，创2022年6月以来新高。
+行情波动较大，请投资者注意风险。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】App-Specific Rollup：允许整个 DApp 生态系统部署在其之上]]></title>
+        <id>https://twitter.com/ShivanshuMadan/status/1635566500458418176</id>
+        <link href="https://twitter.com/ShivanshuMadan/status/1635566500458418176"/>
+        <updated>2023-03-14T12:38:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>App-Specific Rollup（ASR）或 RollApp 是作为区块链上的 rollup 部署的单个应用程序，这与 Arbitrum 和 Optimism 这样的通用 rollup 形成对比，后者允许部署整个 Dapp 生态系统在他们身上。加密研究员 Shiva 撰推解析 ASR 的原理和优势，认为 ASR 会使以太坊成为「全球价值互联网」。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">https://twitter.com/ShivanshuMadan/status/1635566500458418176</a></p>
+<p><strong>文章作者：</strong></p><p>shivamadan.eth</p><hr><h3>观点：</h3><p><strong>shivamadan.eth：</strong>网络上的每个 dapp 都有不同的区块空间需求生命周期，通用 rollup 将来自其生态系统中所有应用程序的 tx 组合在一起，并将它们分批放入同一个区块中，因此如果区块空间需求很高，那么所有应用程序的价格都会很高。另一方面，ASR 可以在 silo 中创建自己的批量交易，并为自己的用例优化区块空间。【原文为英文】</p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">内容来源</a><p><strong>shivamadan.eth：</strong>ASR 优势：1）对原生代币的完全控制，同时仍然利用基础层的安全性；2）快速出块时间；3）专用区块空间；4）自定义 EVM 限制，可以针对游戏等极端用例进行调整而不会牺牲很多其他属性；5）无缝桥接能力，可以进行微调以实现与其他链的无缝互操作性。【原文为英文】</p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】App-Specific Rollup：允许整个 DApp 生态系统部署在其之上]]></title>
         <id>https://twitter.com/ShivanshuMadan/status/1635566500458418176</id>
@@ -33,7 +67,7 @@
         <id>https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html"/>
         <updated>2023-03-14T12:36:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元，以太坊盘中突破 1700 美元，创 2 月下旬以来新高。]]></summary>
+        <summary type="html"><![CDATA[PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元/枚，以太坊盘中突破 1700 美元/枚，均创近期新高。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -54,7 +88,7 @@
         <id>https://www.panewslab.com/zh/sqarticledetails/crxslvun.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/crxslvun.html"/>
         <updated>2023-03-14T12:30:20.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，据金十报道，美国 2 月未季调 CPI 年率 6%，预期6.0%，前值6.4%。美国 2 月未季调核心CPI年率 5.5%，预期5.50%，前值5.60%。美国 2 月季调后CPI月率 0.4%，预期0.40%，前值0.50%。
+        <summary type="html"><![CDATA[PANews 3月14日消息，据金十报道，美国 2 月未季调 CPI 年率 6%，预期6.0%，前值6.4%。美国 2 月季调后CPI月率 0.4%，预期0.40%，前值0.50%。美国 2 月未季调核心CPI年率 5.5%，预期5.50%，前值5.60%。
 美国2月未季调CPI年率录得6%，已连续第八个月下降，为2021年9月以来新低；美国2月季调后CPI月率录得0.4%，为2022年12月以来新低；美国2月未季调核心CPI年率录得5.5%，已连续第六个月下降，为2021年12月来新低。]]></summary>
         <author>
             <name>PANews News</name>
@@ -224,6 +258,18 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
 上月，Circle欧盟事务总监表示，欧洲议会就《欧盟数据法》达成初步协议，其中包括对智能合约的监管。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[速览 CyberConnect 与 BNB Chain 合办 Web3 社交黑客松获奖项目]]></title>
+        <id>https://foresightnews.pro/article/detail/27991</id>
+        <link href="https://foresightnews.pro/article/detail/27991"/>
+        <updated>2023-03-14T11:52:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>CyberConnect 与 BNB Chain 合办的 Web3 社交黑客松「Connected 2023 黑客松」有 23 个项目从 57 个竞争项目中胜出，CyberConnect 列举概述了这些项目。本文中文版由 Foresight News 编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/27991">https://foresightnews.pro/article/detail/27991</a></p>
+<p><strong>文章作者：</strong></p><p>CyberConnect</p><hr><h3>观点：</h3><p><strong>CyberConnect：</strong>综合最佳 Web3 社交 DApp：1）Oasis Origin 是一个 Web3 社交超级应用，允许用户在元宇宙中参与各种社交活动。2）Phaver 正在构建通往 Web3 社交的门户，最初基于 Lens 构建，将很快与 CyberConnect 集成。3）ReadON 是一个 Web3 内容聚合器应用，对包括 Youtube、Twitter、Medium 以及 Cointelegraph 等新闻发布平台等的信息进行索引和分析，然后使用机器学习和人工智能为用户提供个性化内容。</p><a href="https://foresightnews.pro/article/detail/27991">内容来源</a><p><strong>CyberConnect：</strong>新星奖获胜项目：1）DegenReborn，加密生活模拟游戏；2）Atem Network，去中心化内容创建协议；3）Plato，奖励餐馆消费者的协议；4）W3Space ，Hyper 社区构建的一款游戏化元宇宙项目；5）Wondera，奖励用户唱歌和创意内容的社交娱乐平台；5）Cyber​Tune ，去中心化的音乐分享和收听平台。</p><a href="https://foresightnews.pro/article/detail/27991">内容来源</a><p><strong>CyberConnect：</strong>Notifi 赏金项目：0xLander，使用 ccProfile 创建用户画像，通过订阅和关注功能构建社交图谱，基于社交图谱创建聊天群，通过发帖、评论等功能在群内分享内容。Lit Protocol 赏金项目：Null World ，针对游戏玩家的社交平台。LivePeer 赏金项目：Dopamine App，为用户提供来自整个加密领域的多种功能，已经发布完全集成 BNB Chain 的钱包，还计划发布 Web3 移动 DApp 商店。</p><a href="https://foresightnews.pro/article/detail/27991">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3038,26 +3084,6 @@ Numen实验室提醒项目方，合约在上线前要做好安全审计，保证
         <link href="https://www.panewslab.com/zh/sqarticledetails/pvitlmip.html"/>
         <updated>2023-03-13T19:28:57.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月14日消息，据CoinDesk报道，加密交易所币安将于3月13日暂停新用户的英镑存取款，并于5月22日暂停所有用户的英镑存取款服务。币安发言人在电子邮件中表示，已经收到币安法币合作伙伴Paysafe的通知，从2023年5月22日起，他们将不再能够提供英镑存取款服务。币安表示，这一变化将影响不到1%的用户，该交易所正在寻找替代解决方案。与此同时，其它法币的存取款方式以及加密货币交易都不受影响。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[币安将于5月22日暂停所有用户的英镑存取款服务]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/pvitlmip.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/pvitlmip.html"/>
-        <updated>2023-03-13T19:28:57.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，据CoinDesk报道，加密交易所币安将于3月13日暂停新用户的英镑存取款，并于5月22日暂停所有用户的英镑存取款服务。币安发言人在电子邮件中表示，已经收到币安法币合作伙伴Paysafe的通知，从2023年5月22日起，他们将不再能够提供英镑存取款服务。币安表示，这一变化将影响不到1%的用户，该交易所正在寻找替代解决方案。与此同时，其它法币的存取款方式以及加密货币交易都不受影响。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[芝商所推出比特币期货事件合约交易]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/nkh5v149.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/nkh5v149.html"/>
-        <updated>2023-03-13T19:19:04.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，据The Block报道，芝加哥商品交易所集团(CME Group)周一推出比特币期货事件合约交易。该公司在一份声明中表示，新产品将“为投资者提供了通过完全受监管的交易所进入比特币市场的方式，风险有限且高度透明”。此类合约提供基于特定事件的赔付，也被称为预测合约或信息合约，每日到期，以现金结算。投资者以此交易他们对比特币价格走势的看法。据此前消息，今年2月CME比特币期权未平仓合约创历史新高，首次突破10亿美元。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
