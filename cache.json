@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">https://twitter.com/eas_eth/status/1635391258230394880</a></p>\n<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a>",
           "link": "https://twitter.com/eas_eth/status/1635391258230394880",
           "publishedOn": "2023-03-14T06:45:46.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文了解 Ethereum Attestation Service 的链下证明",
           "imageUrl": null
         },
@@ -187,7 +187,7 @@
           "description": "<h3>Meta 正在逐步减少 NFT 业务投入</h3>\n<p>Meta 商务和金融技术主管 Stephane Kasriel 发布推特称，目前正在逐步减少 NFT 业务投入以专注于其他支持创作者、个人和企业的方式。Stephane Kasriel 还表示，为创作者和企业创造机会与粉丝建立联系并实现盈利，仍然是 Meta 的一个优先事项，Meta 将专注于能够产生大规模影响的领域，例如 Reels 的信息传递和货币化机会。此外，Meta 将继续投资于个人和企业在未来需要的金融技术工具，目前正在用 Meta Pay 简化支付并投资于 Meta 信息支付。</p>\n<p><a href=\"https://twitter.com/skasriel/status/1635386565487898624\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Eric Ravenscraft：</strong>Facebook 的商业模式就是抄袭别人的模式来盈利，现在他们甚至放弃了 NFT。【原文为英文】</p><a href=\"https://twitter.com/LordRavenscraft/status/1635444107110694915\">内容来源</a><p><strong>SHΞRKHAN.S◎L：</strong>Web 2 社交网络逐步减少对 Web3 的支持。创新者两难处境？或者只是一种对抗性策略？或者是由于 iOS 限制？似乎是一种短视行为。【原文为英文】</p><a href=\"https://twitter.com/sherkhantx/status/1635443849832062976\">内容来源</a>",
           "link": "https://twitter.com/skasriel/status/1635386565487898624",
           "publishedOn": "2023-03-14T01:12:05.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Meta 正在逐步减少 NFT 业务投入",
           "imageUrl": null
         },
@@ -247,7 +247,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>MEV-Boost 支付于昨天创下历史新高，总计 7691 ETH，几乎是此前 FTX 崩溃期间 3928 ETH 的历史新高的两倍。Flashbots 产品负责人 bertcmiller 撰文分析以太坊 MEV 相关统计数据，包括历史巨量 MEV、近期 Builder 和 Relay 市场份额的市场份额变化。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">https://twitter.com/bertcmiller/status/1634931226393051136</a></p>\n<p><strong>文章作者：</strong></p><p>bertcmiller</p><hr><h3>观点：</h3><p><strong>bertcmiller：</strong>一个有趣的事情是，我们每年都会有一次大量 MEV 的日子：2021 年 6 月 5 日：6397 ETH；2022 年 6 月 13 日：6313 ETH；2023 年 3 月 11 日：向 mev-boost 提议者支付 7691 ETH。从另一个角度看，在过去 24 小时内，大约 95% 的区块是 MEV-Boost 区块。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a><p><strong>bertcmiller：</strong>昨天和上周的 Builder 市场份额：builder0x69 飙升，尤其是在高 MEV 时期；Flashbots /rsync 非常稳定；beaverbuild 和 bloXroute Labs 减半；Manta 完全跌出前 10 名。builder0x69 似乎在补贴中位数区块，并从最赚钱的区块中获利，考虑到超高 MEV 区块的数量，它们的激增是有迹可循的。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a><p><strong>bertcmiller：</strong>Relay 市场份额：ultra sound money 和 GnosisDAO 的中继器在过去 24 小时内集体飙升了约 10%，似乎是以牺牲 BloxRoute 和 Blocknative 的市场份额为代价的。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a>",
           "link": "https://twitter.com/bertcmiller/status/1634931226393051136",
           "publishedOn": "2023-03-13T08:49:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】解析以太坊 MEV 相关统计数据",
           "imageUrl": null
         },
@@ -357,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1733,
+          "wordCount": 1723,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -377,7 +377,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17690,
+          "wordCount": 17743,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -547,7 +547,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>风投总是领先于散户投资者，因此了解加密基金及其投资项目能够更高的进行加密投资。X DAO 创始人 Rekt Fencer 盘点了三个追踪加密风投动向的工具，以帮助用户有效快组追踪加密基金。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">https://twitter.com/rektfencer/status/1633912396824846338</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）CryptoRank：市场洞察和分析平台，可以通过新增的选项查找不同基金的信息，包括投资总数、市场占有率及投资组合等；2）Crunchbase：可以使用多个功能分析项目或基金，包括累积融资金额、活跃投资者及员工资料等；3）Chain Broker：可以追踪基金投资回报率。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1633912396824846338",
           "publishedOn": "2023-03-11T07:55:51.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】盘点三个追踪加密风投动向的必备工具：CryptoRank、Crunchbase 及 Chain Broker",
           "imageUrl": null
         },
@@ -687,7 +687,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20930,
+          "wordCount": 20934,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -727,7 +727,7 @@
           "description": "<h3>外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用</h3>\n<p>据 moneycontrol 引援知情人士消息，Facebook 和 Instagram 的母公司 Meta 正在构建一个代号为「P92」的内容应用。该应用将支持去中心化社交网络协议 ActivityPub，采用 Instagram 品牌，并允许用户通过他们的 Instagram 注册或登录。</p>\n<p><a href=\"https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Meta：</strong>我们正在探索一个独立的去中心化社交网络来共享文本更新。我们相信有机会建立一个单独的空间，创作者和公众人物可以及时分享他们的更新。【原文为英文】</p><a href=\"https://www.reuters.com/technology/meta-explores-decentralized-social-network-app-text-updates-2023-03-10/\">内容来源</a>",
           "link": "https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html",
           "publishedOn": "2023-03-10T11:00:14.000Z",
-          "wordCount": 14422,
+          "wordCount": 14416,
           "title": "外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用",
           "imageUrl": "https://images.moneycontrol.com/static-mcnews/2023/03/396330803-654x435.jpg"
         },
@@ -757,7 +757,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 域名的想法是为特定的区块链地址创建一个人类可读的名称，这降低了用户进入的门槛并改进了用户体验。加密 KOL fluorescent.eth 以当前最大的去中心化域名系统 ENS 的历史发展为例，分析了 Arbitrum 生态域名服务的潜力。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/fluorescent_eth/status/1633803165215883264\">https://twitter.com/fluorescent_eth/status/1633803165215883264</a></p>\n<p><strong>文章作者：</strong></p><p>fluorescent.eth</p><hr><h3>观点：</h3><p><strong>fluorescent.eth：</strong>ENS（Ethereum Name Service）是当前最大的去中心化域名系统，目前注册域名数量接近 300 万。2022 年 5 月左右是 ENS 的一次炒作高峰，由于 ENS 需要缴纳年费，这意味着上一波高峰期的许多四位数域名即将到期。他们中的许多人正在出售这些域名，因此导致了近期价格的下跌。在所有 NFT 系列中，我相信 ENS 的稀缺域名将成为最希望持有且最昂贵的系列。【原文为英文】</p><a href=\"https://twitter.com/fluorescent_eth/status/1633803165215883264\">内容来源</a><p><strong>fluorescent.eth：</strong>SPACE ID 是上周开放公众注册的一个域名服务，需要提醒的是，尽管它提供 .arb 域名，但没有任何申明能够证明其是官方域名服务。我个人认为缺乏数量和缺乏炒作这仍然是一个潜在的问题。但是 Arbitrum 作为新的 「Alpha」正在席卷全球，如果 .arb 最终成为 Arbitrum 网络的官方名称域，那么毫无疑问它将成为 Web3 的入口。【原文为英文】</p><a href=\"https://twitter.com/fluorescent_eth/status/1633803165215883264\">内容来源</a>",
           "link": "https://twitter.com/fluorescent_eth/status/1633803165215883264",
           "publishedOn": "2023-03-10T09:19:16.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Web3 域名是被低估的加密资产",
           "imageUrl": null
         },
@@ -807,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>\n<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a>",
           "link": "https://twitter.com/crypto_mckenna/status/1633731247867584512",
           "publishedOn": "2023-03-10T06:27:38.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者",
           "imageUrl": null
         },
@@ -3524,7 +3524,7 @@
           "description": "硅谷银行破产原因总结：\n最近几天，美国资本市场发生了一件波及面非常广的大事件：拥有40年光辉历史，已经连续五年斩获福布斯2023年“美国最佳银行”奖的硅谷银行宣告破产倒闭。特别的是，这一事件不仅在传统金融市场中掀起轩然大波，而且由于硅谷银行特殊的发家史和江湖地位，导致与其牵连较深的金融科技、虚拟资产圈同样哀号遍野，差点带着稳定币巨头USDC一起进入死亡螺旋。虽然随着美联储和联邦存款保险公司（FDIC）的联手兜底，系统性危机已经得到解决，但我们依然可以从这起事件中获得不少启发。\n今天飒姐团队就用通俗易懂的方式与大家聊聊这起破产案的始末以及后续可能对虚拟资产行业产生哪些影响。\n\n01、SVB破产原因及事件始末\n直接原因：期限错配，短债长投。\n根本原因：经济下行→印钞救市→通货膨胀→美联储加息抑制通货膨胀\n（一） SVB的创奇一生\n要说这美国SVB（Silicon Valley Bank，以下简称“SVB”）可不是大街上籍籍无名的土鸡瓦狗。1983年的秋天，两位来自美国四大行之一富国银行（Wells Fargo）的投资客Bill Biggerstaff和Robert Medearis凭借敏锐的嗅觉注意到，生机勃勃的硅谷正在凭借得天独厚的优势汇聚着世界上最聪明、最具有创新精神的年轻人，不久的未来这里即将成为美国乃至世界上最前沿的科技高地，从而诞生出一大批顶级科技公司，这些科技公司必然有着巨大的金融需求。\n于是，两人决定在这片土地上创立一个专门服务于创投圈的银行，深耕新兴科技行业，SVB应运而生。而这也是为什么SVB与虚拟资产行业牵涉极深的主要原因：不少区块链技术公司、虚拟资产项目都曾在初创期获益于SVB，并在发展成熟后选择继续与SVB深度合作。目前在虚拟资产行业的Circle、a16z、Ripple等大户都在SVB中存了不少钱，坊间传言a16z在其中的存款甚至超过30亿美元。\n在“塌房”前，SVB已至少帮助过全球超过30000家的初创企业进行融资、与600家风险投资机构和120家私募股权机构有密切的业务往来，在初创企业信贷市场占有率超过50%。而随着客户数量和市场的成长，SVB的展业范围也在扩大，破产前管理的资产已经超过两千亿美元，在美国所有银行中位列43位，并连续5年获得福布斯“美国最佳银行奖”。\n那么，如此一家庞然巨物是如何在短短48小时之内轰然倒塌的？\n\n（二） 致命的期限错配和短债长投\n术语虽然深奥，但概念并不复杂，我们先用通俗的语言为大家讲讲什么叫做“期限错配”和“短债长投”。\n简单举例来说：小明是一个在理财方面较为保守的人，于是他选择在A银行中存入了一笔为期三年的定期存款，以获取一笔虽然不多但具有稳定预期收益的银行利息。但是，小明要赚钱，A银行也要赚钱。那么此时A银行唯一的办法就是有效的利用小明的这笔存款，创造出超过支付给小明的利息的收益，超出的部分才能成为自己的盈利。\n道理大家都懂，但要怎么操作呢？一个简单有效的办法就是拿小明的资金去放贷，只要贷款利息高于存款利息，那银行自然就赚了。但是，放贷存在一个问题：当前经济形势不好，烂账坏账率高，一旦放出去的资金收不回来岂不是赔了夫人又折兵。因此，A银行想出了另一个办法：把小明的钱拿来“放长线钓大鱼”，投一些虽然回款周期长，但稳健且收益率能跑赢小明利息的产品（比如：十年期、二十年期的国债），就能做成一笔躺在钱上挣钱的好买卖。\n此时，（资产端）小明的存款三年后到期，（负债端）银行投的产品要十年二十年才到期，这种资产端期限与负债端期限不匹配的情况，我们就称其为“期限错配”；小明在A银行的短期（三年）存款就是所谓的“短债”，A银行将这笔钱投资收益周期长的其他产品就是所谓的“长投”。一顿操作猛如虎，银行就是为了创造出“存贷利差”，用别人的钱赚自己的钱。\n这时候可能有人有疑问：小明的存款是三年后到期，A银行投的是十年二十年才到期的产品，那要是小明存款到期来取款怎么办？要知道，那可是银行，只要每天有足够多的人来存款，用流动资金就能轻松把小明的“短债”Cover掉，根本不影响长债的未来收益，你好我好大家好。\n回到SVB身上。几年前，美联储为了刺激经济，实施了很长一段时间较为宽松的货币政策，银行存款利率极低，硅谷银行乘势吸收了一大波低成本的储户存款（存款利息约为0.25%），存款期限也很短。然后硅谷银行拿着这笔钱买了非常多收益期在十年以上的美国国债（收益率约为1.6%-1.8%）赌的就是未来不会出现导致经济大缩水的全球性事件，以及美联储会在很长一段时期继续执行宽松的货币政策。如果赌赢，十多年后这笔稳赚不赔的买卖，将会让SVB吃到巨大的存贷利差。\n正是这种赌徒心态奠定了SVB今天的崩盘之局。\n\n（三） 疫情之下无赢家\nSVB崩盘的根本原因其实还是疫情导致的全球经济下行。在疫情压力下，各行业受打击严重、失业率疯狂飙升，不仅美国经济缩水，众多中下层民众甚至连房都租不起。为了解决民生疾苦，美国政府不得不采取直接（印钱）发钱这种简单粗暴但有效的方式救助朝不保夕的人们。如此一来，在前期美元量化宽松政策的影响叠加之下，造就了美国几十年来罕见的超高通胀率，2022年7月的时候曾一度达到9%以上。\n高通胀率+高失业率下美联储别无选择，开始疯狂加息。此外，如前所述，这家银行主要服务的对象大部分是美国的科技领域初创公司&进入成熟期的科技公司，疫情之下市场表现差，科技公司们也不再阔绰，为了经营所需开始把存款从SVB中取出来，导致了存款的大量流失，流动资金开始捉襟见肘。\n此时，美联储的加息就成了压倒骆驼的稻草：储户们迫切的想要把自己的钱取出来转投到利息更高的地方去，但由于SVB大量资金用于期限错配短债长投，根本拿不出那么多的钱来兑付储户。没办法，SVB只能把以前买的长期债券等资产向外抛售，以换取流动资金来兑付给储户。但是！在美联储加息后，市场利率已经远远高于SVB当时买长期债券时的利率，你1.6、1.8的债券现在就是又臭又长，谁买？但SVB不卖又没钱兑付储户，因此只能不停地做亏本买卖。\n亏本卖这个事本身问题不大，只要留得好口碑在，过了这阵子咱们未必不能赚回来。但是，在这个信息爆炸的时代，纸是包不住火的，SVB亏本卖长投资产的消息一经传出，立刻引发了储户对自家存款的担心：亏本都要卖长投，SVB肯定出了大问题！于是大家纷纷去要回自己的存款，最终出现踩踏性事件，SVB彻彻底底倒了下来。\n\n02、最新进展：美联储兜底救火\n事件发酵至今，已经到了美联储不得不出手的地步。众所周知金融是个圈，SVB破产影响的绝不只是SVB自己和储户，不仅多家银行、投资公司、科技公司将会受到重创，还会严重影响民众对整个金融行业、银行系统的信心，保不准其他银行也会出现储户集体要求兑付的风险。\n好在人类已经从多次金融危机中吸取了教训，建立了存款保险制度。美国联邦存款保险公司（FDIC）对每个账户最高提供25万美元的保险（也就是每个账户最多赔25万），FDIC目前已经创建了一个名为“圣克拉拉存款保险国家银行（DINB）”的实体，将SVB的存款转入到其中以保护客户，所有受保储户都可提取受保存款。但是，众多科技公司账户里超过25万美元的存款怎么办？FDIC根本就是杯水车薪，也许是考虑到美国政府之前放出的狠话：“确保Web3发生在美国”，3月13日，美联储放出明确消息：兜底，全包。\n\n03、对虚拟资产行业的警示\nSVB破产事件其实对虚拟资产行业产生了非常深远的影响，仅次于USDT的当前第二大美元稳定币USDC差点被其一并带入死亡螺旋（锚定USDC的一大批二级稳定币无不瑟瑟发抖）。这主要是因为USDC的发行商Circle在SVB仍存有高达33亿美元的巨额储备金，约占USDC总储备金的8%。虽然美联储的兜底操作真正是救了USDC一把，但我们不得不反思：为什么在虚拟资产行业里暴雷的总是稳定币？这种锚定现实资产的虚拟货币，到底是利大于弊还是弊大于利？\n飒姐团队暂且不做价值判断，但如果是长期关注海内外虚拟资产行业的老玩家一定对2022年末，FTX破产事件不陌生，在飒姐团队看来，SVB和FTX两个破产案除了一个发生在传统金融行业、一个发生在虚拟资产行业外，其实并无太大差别。本质上都是一个问题（而且是传统金融行业的老问题）：缺乏透明度。可以预见的是，这一顽疾还将在未来很长一段时间继续存在下去。\n最后，我们旗帜鲜明的反对一种观点：传统银行的倒闭证明了人们应当把鸡蛋放到虚拟资产的篮子里。二者之间根本就不存在因果关系，刻意夸大传统金融行业的种种弊端来吹捧虚拟资产本身就是一种滑坡谬误，需要提醒大家的是，虚拟资产交易所破产的也不在少数。投资者们真正应该做的，是保持一颗冷静的头脑和长期稳定的情绪。",
           "link": "https://www.panewslab.com/zh/articledetails/9pi9kk4l.html",
           "publishedOn": "2023-03-14T06:33:39.000Z",
-          "wordCount": 1210,
+          "wordCount": 1208,
           "title": "硅谷传奇SVB陨落，对加密市场有何影响？",
           "imageUrl": "https://cdn-img.panewslab.com//panews/2022/3/14/images/3816d83f1a3334df7fb3a3cdc84aa01c.jpeg"
         },
@@ -3824,7 +3824,7 @@
           "description": "PANews 3月13日消息，加密货币交易所 BitMEX 表示因发现问题而暂停交易所内所有交易，目前仅“取消模式”处于活可用状态。BitMEX 表示正在努力实施修复，并将在必要时发布更新。BitMEX 称所有用户资金都是安全的。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/7ttiequf.html",
           "publishedOn": "2023-03-13T14:30:20.000Z",
-          "wordCount": 1123,
+          "wordCount": 1125,
           "title": "BitMEX交易所已暂停所有交易",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3854,7 +3854,7 @@
           "description": "PANews 3月13日消息，加密货币交易所Coinbase发推表示，USDC与美元的兑换已恢复，现在可通过 API 和 UI 正常运行。USDC 不会在 Coinbase Exchange 上自动转换为美元。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/d2y3au7t.html",
           "publishedOn": "2023-03-13T14:00:19.000Z",
-          "wordCount": 1140,
+          "wordCount": 1142,
           "title": "Coinbase已恢复USDC与美元的兑换服务",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
