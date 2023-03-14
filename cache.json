@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Synthetix 官方撰推发文，对其 V3 版本进行详解，包含其架构、重点功能，并探讨每个功能和机制，认为 V3 升级彻底改造了 Synthetix，为一系列链上衍生品提供动力。几乎任何衍生协议都可以基于 V3 而不是从头开始构建。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">https://twitter.com/synthetix_io/status/1634285809150095362</a></p>\n<p><strong>文章作者：</strong></p><p>Synthetix</p><hr><h3>观点：</h3><p><strong>Synthetix：</strong>Synthetix V3 是可组合的衍生流动性协议，旨在成为链上金融产品的通用和模块化基础。两个关键价值主张：1）面对质押者，一系列的池 / 金库存款，连接到一系列衍生品市场 —— 从而选择市场敞口和预期回报的水平和类型。2）面对协议，一系列用于抵押新衍生品市场的矿池 / 金库或创建矿池并通过奖励吸引抵押品的工具。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>V3 重点：1）DeFi 衍生品的流动性层，推动下一代无许可的衍生品；2）通过多重质押给质押者权力，创建了一个与抵押品类型无关的通用金库系统，抵押品必须经过治理批准。 3）一个可组合的、对开发人员友好的系统；4）未来将能够部署到任何 EVM 兼容链上。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>其他功能和机制：1）围绕市场构建，市场决定了相关资产的定价逻辑；2）可以使用市场定价逻辑和价格反馈来部署新的合成资产；3）多抵押品质押，允许治理支持任何抵押品来支持合成资产，抵押品期权将具有可调整的变量；4）贷款，但不会面临债务池风险，也没有利息和发行费用；5）差异化的流动性（债务）池；6）市场创建者可以从多个预言机解决方案中进行选择以设置自定义聚合；7）奖励管理器。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a>",
           "link": "https://twitter.com/synthetix_io/status/1634285809150095362",
           "publishedOn": "2023-03-14T10:03:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Synthetix V3：为下一代链上衍生品和金融产品提供动力的流动性层",
           "imageUrl": null
         },
@@ -117,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 3 月 13 日，在以太坊区块链上运行的借贷平台 Euler Lab 遭到攻击，导致攻击者盗取超过 1.9 亿美元。SlowMist 分析此次被盗过程以及原因，呼吁去中心化金融领域平台应实施严格安全措施来防范恶意行为者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/slowmist_team/status/1635288963580825606\">https://twitter.com/slowmist_team/status/1635288963580825606</a></p>\n<p><strong>文章作者：</strong></p><p>SlowMist</p><hr><h3>观点：</h3><p><strong>SlowMist：</strong>两个关键因素促成了攻击的成功：1）资金被捐赠到预留地址，没有经过流动性检查。这创造了一种可以直接触发软清算的机制。2）当高杠杆触发软平仓逻辑时，收益率增加，使得清算人仅通过将一部分负债转移给自己，就可以获得被平仓用户账户中的大部分抵押资金。鉴于抵押资金的价值超过了负债的价值（由于软清算而仅部分转移），清算人能够成功通过他们的资产健康状况检查并提取获得的资金。【原文为英文】</p><a href=\"https://twitter.com/slowmist_team/status/1635288963580825606\">内容来源</a>",
           "link": "https://twitter.com/slowmist_team/status/1635288963580825606",
           "publishedOn": "2023-03-14T06:54:21.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】SlowMist：以太坊借贷平台 Euler Lab 遭到攻击，去中心化金融领域安全措施待加强",
           "imageUrl": null
         },
@@ -177,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1990,
+          "wordCount": 1784,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -197,7 +197,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2252,
+          "wordCount": 2046,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -247,7 +247,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7552,
+          "wordCount": 7554,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -337,7 +337,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>MEV-Boost 支付于昨天创下历史新高，总计 7691 ETH，几乎是此前 FTX 崩溃期间 3928 ETH 的历史新高的两倍。Flashbots 产品负责人 bertcmiller 撰文分析以太坊 MEV 相关统计数据，包括历史巨量 MEV、近期 Builder 和 Relay 市场份额的市场份额变化。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">https://twitter.com/bertcmiller/status/1634931226393051136</a></p>\n<p><strong>文章作者：</strong></p><p>bertcmiller</p><hr><h3>观点：</h3><p><strong>bertcmiller：</strong>一个有趣的事情是，我们每年都会有一次大量 MEV 的日子：2021 年 6 月 5 日：6397 ETH；2022 年 6 月 13 日：6313 ETH；2023 年 3 月 11 日：向 mev-boost 提议者支付 7691 ETH。从另一个角度看，在过去 24 小时内，大约 95% 的区块是 MEV-Boost 区块。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a><p><strong>bertcmiller：</strong>昨天和上周的 Builder 市场份额：builder0x69 飙升，尤其是在高 MEV 时期；Flashbots /rsync 非常稳定；beaverbuild 和 bloXroute Labs 减半；Manta 完全跌出前 10 名。builder0x69 似乎在补贴中位数区块，并从最赚钱的区块中获利，考虑到超高 MEV 区块的数量，它们的激增是有迹可循的。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a><p><strong>bertcmiller：</strong>Relay 市场份额：ultra sound money 和 GnosisDAO 的中继器在过去 24 小时内集体飙升了约 10%，似乎是以牺牲 BloxRoute 和 Blocknative 的市场份额为代价的。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a>",
           "link": "https://twitter.com/bertcmiller/status/1634931226393051136",
           "publishedOn": "2023-03-13T08:49:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】解析以太坊 MEV 相关统计数据",
           "imageUrl": null
         },
@@ -447,7 +447,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1733,
+          "wordCount": 1716,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -467,7 +467,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17738,
+          "wordCount": 17742,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -607,7 +607,7 @@
           "description": "<h3>硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系</h3>\n<p>General Catalyst 首席执行官 Hemant Tanej 发布推特称已经和几位风投领导人开会讨论了硅谷银行（SVB）倒闭的后果，并发布了一份联合声明。联合声明表示，「SVB 一直是风投行业及创始人们值得信赖的长期合作伙伴。四十年来，它一直在服务创业社区和支持美国创新经济方面发挥着关键作用。我们对过去 48 小时内发生的事情感到失望和担忧，如果 SVB 被收购并适当资本化，我们将会支持并鼓励我们的投资组合公司恢复与其的银行业务关系。」其他参与该联合声明的硅谷风投包括 Accel、Altimeter Capital、B Capital Group、General Catalyst、Gil Capital、Greylock Partners、Khosla Ventures、Kleiner Perkins、Lightspeed Venture Partners、Mayfield Fund、Redpoint Ventures、Ribbit Capital 及 Upfront Ventures。</p>\n<p><a href=\"https://twitter.com/htaneja/status/1634391256028839936\">内容来源</a></p><hr>",
           "link": "https://twitter.com/htaneja/status/1634391256028839936",
           "publishedOn": "2023-03-11T09:39:17.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系",
           "imageUrl": null
         },
@@ -637,7 +637,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>风投总是领先于散户投资者，因此了解加密基金及其投资项目能够更高的进行加密投资。X DAO 创始人 Rekt Fencer 盘点了三个追踪加密风投动向的工具，以帮助用户有效快组追踪加密基金。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">https://twitter.com/rektfencer/status/1633912396824846338</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）CryptoRank：市场洞察和分析平台，可以通过新增的选项查找不同基金的信息，包括投资总数、市场占有率及投资组合等；2）Crunchbase：可以使用多个功能分析项目或基金，包括累积融资金额、活跃投资者及员工资料等；3）Chain Broker：可以追踪基金投资回报率。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1633912396824846338",
           "publishedOn": "2023-03-11T07:55:51.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】盘点三个追踪加密风投动向的必备工具：CryptoRank、Crunchbase 及 Chain Broker",
           "imageUrl": null
         },
@@ -687,7 +687,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Circle 宣布约 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行中，一时间引发了市场对于 Circle 暴雷的恐慌。加密研究员 0xLoki 在对 Circle 储备资产及估值进行分析后，认为 Circle 出问题的概率极低。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">https://twitter.com/Loki_Zeng/status/1634410350505508864</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>Circle 储备资产分为三个部分：324 亿美元国债组合、33 亿在 SVB 中及存在 SVB 以外银行的 78 亿。其国债组合具备充足流动性，即使被迫贴现也不会受到太大损失。此外，SVB 的情况和当时 FTX 的情况完全不同，SVB 这些贷款中的大部分还是可以收回的，43% 的极端情况发生的概率很低很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>SVB 以外银行的 78 亿我们在官方也找到了相关信息披露，可以看出除了 SVB 和 Silvergate 以外，Signatures Bank 等三家银行同样不能让我们放心。考虑到 BNYM 是 Circle 首选银行，保守估计下，BAYM 资金占 35%，剩下四家每家 10%，悲观一点，如果有风险的三家都出问题，回收率按 80% 计算，Circle 总损失是 20 亿美元左右。合理一点，Circle 在 SVB 中损失 7 亿美元左右，最极端的情况是 SVB 中损失 33 亿且剩余三家中共计 50 亿无法收回，但概率很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>但根据 Circle 估值，7 至 20 亿美元的损失对 Circle 来 说并不是太大的问题。USDC 真正暴雷需要满足三个条件：1）存在 SVB 和三家中风险银行的资金足够多；2）这些银行的债务回收率足够低；3）USDC 自己无法承担损失或者无法找到资金支持方来解决问题。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a>",
           "link": "https://twitter.com/Loki_Zeng/status/1634410350505508864",
           "publishedOn": "2023-03-11T05:14:43.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】 硅谷银行倒闭，会成为 Circle 暴雷导火索吗？",
           "imageUrl": null
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Stephy Dunbar 撰文对科学生态系统的现存困境及解决困境的不同 Desci （去中心化科学）方式进行解析，认为 DeSci 通过引用新的协调、激励和验证机制来维持和传播开放科学，从而改变了研究经济。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">https://twitter.com/sunnydece/status/1633160977809289216</a></p>\n<p><strong>文章作者：</strong></p><p>Stephy Dunbar</p><hr><h3>观点：</h3><p><strong>Stephy Dunbar：</strong>科学知识是支撑技术发展和经济增长的公共产品，然而当前的科学体系面临问题：1）中心化决策和资金；2）方法论和数据的透明度差；3）无激励的审查和知识发布门槛受制。而 DeSci 正蓬勃发展以解决这些问题。目前正在运行的 85 个 DeSci 项目中有 50% 以上是去年启动的。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>不同解决方式：1）代币激励的研究生态系统，例如 ResearchHub。2）基金 DAO，DeSci 主要通过 DAO 促进社区决策以资助量身定制的解决方案。许多 DAO 都有特定的重点领域。例如 VitaDAO。3）研究代币化，例如 Molecule。用途包括 IP 许可用于商业化、与合作伙伴分割所有权、在开放市场上交易数据、持有作为借贷的抵押品。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>4）方法和数据透明化，例如 OpSci ，使研究者可以将自己的身份、证书和项目标记为 NFT。5）激励同行评审和开放出版，例如 DeSci Labs 的 DeSci 节点允许研究人员在开放状态、去中心化存储库上创建和发布代码、数据集等研究对象。6）数据处理，将数据代币化或者标记成 NFT，又或者像 The Bacalhau Project 允许研究员直接在存储数据集的地方执行计算工作。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a>",
           "link": "https://twitter.com/sunnydece/status/1633160977809289216",
           "publishedOn": "2023-03-11T05:12:53.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：科学现存困境解析，DesCi 以不同方式应对",
           "imageUrl": null
         },
@@ -767,7 +767,7 @@
           "description": "<h3>Y combinator CEO ：银行暴雷已影响上千家初创公司，其中 1/3 将无法在未来 30 天内发放工资</h3>\n<p>Y combinator 首席执行官 Garry Ten 在接受 CNBC 采访时表示，本次银行暴雷事件已影响上千家初创企业，其中 1/3 将无法在未来 30 天内发放工资。这种崩溃正在影响美国工人。</p>\n<p><a href=\"https://twitter.com/MarioNawfal/status/1634324773726461952\">内容来源</a></p><hr>",
           "link": "https://twitter.com/MarioNawfal/status/1634324773726461952",
           "publishedOn": "2023-03-11T02:19:07.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Y combinator CEO ：银行暴雷已影响上千家初创公司，其中 1/3 将无法在未来 30 天内发放工资",
           "imageUrl": null
         },
@@ -897,7 +897,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>\n<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a>",
           "link": "https://twitter.com/crypto_mckenna/status/1633731247867584512",
           "publishedOn": "2023-03-10T06:27:38.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者",
           "imageUrl": null
         },
@@ -907,7 +907,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">https://twitter.com/verumcapital/status/1633456999617773568</a></p>\n<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href=\"https://twitter.com/verumcapital/status/1633456999617773568\">内容来源</a>",
           "link": "https://twitter.com/verumcapital/status/1633456999617773568",
           "publishedOn": "2023-03-10T06:25:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">https://twitter.com/0x_irisl/status/1633842976169558024</a></p>\n<p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href=\"https://twitter.com/0x_irisl/status/1633842976169558024\">内容来源</a>",
           "link": "https://twitter.com/0x_irisl/status/1633842976169558024",
           "publishedOn": "2023-03-10T03:52:45.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考",
           "imageUrl": null
         },
