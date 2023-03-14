@@ -2,11 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T08:57:00.591Z</updated>
+    <updated>2023-03-14T09:03:03.578Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[全美最后一家加密友好银行Signature意外被关停，将对加密市场产生怎样的影响？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/f2n2kxa1g07s.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/f2n2kxa1g07s.html"/>
+        <updated>2023-03-14T09:00:08.000Z</updated>
+        <summary type="html"><![CDATA[原文：《全美最后一家加密友好银行Signature意外被监管关闭解析以及市场影响分析》
+美东时间3月12日晚，美财政部宣布由纽约州金融监管局关闭Signature Bank，客户存款可在周一申请取回。这与最近其他两家倒闭的银行Silvergate Bank和Silicon Valley Bank最大相同点在于，都涉及加密市场业务。Signature Bank作为唯一暂时幸免于客户紧急挤兑导致流动性危机的银行，却遭到监管临时决定关闭，引起市场哗然。那么，究竟是什么原因导致了Signature Bank被监管叫停，对市场后续走势又是怎样，本文将会基于现已披露的信息，解析背后可能的原因与其对市场的影响。
+Signature Bank（SBNY）成立于2001年，其主要业务在为高净值人群提供私人银行服务，2018年一季度开始SBNY增加了加密业务服务，为包括受监管的稳定币发行方、交易所、托管方、加密货币矿工、机构交易者等提供接入法币银行服务。根据上年年报披露，截止2022年末，总资产1103亿美元、客户存款（负债）885亿美元。
+从负债端来看，2022年四季度，在FTX暴雷事件后，SBNY管理层有意降低其在加密业务上的风险敞口，主动下降业务占比，减少了123.9亿美元客户存款，最终22年Q4加密客户存款为177亿美元，占全部客户存款占比为20%。从银行资产负债表集中度分析来看，这个业务占比相对合理。从提供的业务范围来看，SBNY并没有投资、持有、或托管加密货币的业务，仅限于美元存款业务，并且可以通过SBNY内部搭建的Signet系统进行7*24的实时美元转账交易。与Silvergate Bank不同，SBNY也不提供以加密货币为抵押品的贷款业务，在业务方向上相对也是保守的。在本月初，SBNY披露的23年一季报财务数据来看，全部客户存款下降8.26亿美元，存款下降主要是由于加密资产相关客户存款减少了15.1亿美元，其他新增存款6.82亿美元。这一方面是由于加密货币市场自身波动；另一方面也是SBNY加大力度控制加密业务存款的整体占比。
+从资产端来看，SBNY披露的资产充足率数据显示，核心一级资本充足率11.20%，风险资本充足率12.32%，杠杆率8.79%，满足巴塞尔协议III对银行风险资产的要求，整体资产也是处于比较健康的水平。从资产端明细来看，短期投资174亿美元，占比14.98%。极端情况下，即使全部加密存款全部申请提现，流动性也可以满足。
+从业务健康程度来看，如果说Silvergate Bank是风险偏好激进的“坏学生”，那么Signature Bank可以被认为是恪守监管，看到市场风向变化及时调整业务重点的“乖学生”。 因此，如果从业务分析来看，Signature Bank并不会直接因为加密货币市场的影响导致流动性挤兑风险。然而此时，美国财政部在看到Silvergate作为最激进的加密友好银行，在加息背景下对市场带来的恶劣影响，而决定保守起见将Signature Bank关闭业务，这背后可能有两方面原因：一是，担心加密业务波动变化影响到Signature Bank其他业务客户，再继而延展到传统银行市场中，毕竟SBNY的整体业务体量不小；二是，联想到最近美国方面从国会、美联储、财政部到SEC、CFTC不断提出的对加密行业制定监管规则来看，这有可能是对已经涉及加密业务银行的惩戒，以及监管将要出台更全面审慎监管框架的一个信号，未来必然会将涉及所有加密市场本身、加密市场到传统金融市场之间传导的每个环节，出台完整、深入、合理地有力监管措施。
+关于Silvergate Bank 和Silicon Valley Bank，在此前我的报告（https://twitter.com/WuWei_BeWater/status/1632417472015142912）中写到，都是在加息背景下，负债端存款不稳定，资产端长债浮亏的双重作用下导致客户不信任大量挤兑带来的流动性危机。因此，市场也有传言认为，美联储本月FOMC会议加息很有可能放缓加息，50bp的加息概率目前已下降到0，美股期货市场出现小幅上涨，叠加稳定币或法币的交易对不信任，带来加密市场同期上涨。然而，在加密监管措施仍未确定，CPI数据即将出炉的时间点来看，认为加密市场“牛回”的判断可能还为时尚早。
+参考资料：
+Signature Bank 2022年年报：https://investor.signatureny.com/pme/press-releases/news-details/2023/Signature-Bank-Releases-2022-Form-10-K/default.aspx
+Signature Bank 2023年一季度报：https://investor.signatureny.com/pme/press-releases/news-details/2023/Signature-Bank-Issues-Mid-Quarter-Financial-Update-for-Its-2023-First-Quarter/default.aspx
+免责声明
+本文所载的全部内容仅作参考之用，不构成对任何人的投资建议。本文所载资料的来源被认为是可靠的，但不保证其准确性和完整性，也不保证所包含信息和建议不会发生任何变更，并且不对使用本文所包含的才材料产生的任何直接或间接损失或与此相关的其他任何损失承担任何责任。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[美国南达科他州州长否决禁止将加密货币用作货币的立法，并呼吁其他州阻止类似立法]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/cqvukcm9.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/cqvukcm9.html"/>
@@ -2466,35 +2487,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
 <p><a href="https://flash.jin10.com/detail/20230313180420010100">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[加密友好银行相继破产，加密市场流动危机到来？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/5p542572.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/5p542572.html"/>
-        <updated>2023-03-13T10:44:20.000Z</updated>
-        <summary type="html"><![CDATA[原文：《加密友好银行一周内陨落殆尽，加密行业该如何缓解流动性危机》
-作者：zf857.eth
-在经历了动荡的一年之后，美国加密货币友好银行Slivergate Bank控股母公司Silivergate Capital上周三美股收盘时宣布：它将有序的依照监管程序结束运营银门银行业务并自愿清算银行资产。
-Silvergate的湮灭已经蔓延到更多的传统金融机构，引发更大的流动性危机。上周美国时间3月8号，历史最悠久且对加密货币友好的银行之一的硅谷银行Silcon Valley Bank（SVB）宣布陷入财务困境。上周五，加州金融保护和创新部宣布已经正式关闭硅谷银行，联邦存款保险公司被任命为该银行的接管人，并控制了其存款。这标志着该银行正式倒闭，这也成为自全球金融危机以来美国最大宗的银行倒闭事件。而这场危机中还有更多的中小型银行在美联储的加息浪潮中失去立足之地。
-
-硅谷银行（SVB）倒闭后引发了全球投资者的恐慌，许多著名的区块链风险投资家（VC）在SVB持有价值超过60亿美元的资产。尽管美政府出手干预，承诺硅谷银行储户可取回存款，但加密银行实体的股权和债权价值被几近清零。22年11月16日，Block.one及其CEO合计持有Silvergate约16.8%的股份，目前理论上在Silvergate股票投资上浮亏超7000万美元
-联邦储备系统的两个联邦保险成员SVB和Silvergate的湮灭也在加密货币生态系统中引起许多连锁反应，随之而来的是一场信任危机，USDC稳定币的发行商Circle在SVB的33亿美元存款的不确定性导致了USDC在周末脱钩，最低达0.889。
-
-R3PO于1月文章《加密友好银行之殇，Silvergate爆雷Abra遭殃》就对此有过相应分析及预测并且里面提到2023年可能是更多加密友好银行的终局。
-美国监管机构于上周日晚间宣布，关闭了总部位于纽约的地区银行Signature Bank，美国财政部、美联储和联邦存款保险公司在一份联合声明中表示：“我们还宣布纽约州Signature Bank也有类似的系统性风险例外，该银行今天被其州特许机构关闭。”
-Signature Bank提前减少了加密货币市场的风险敞口但还是没有逃过一劫，其从2023年2月1日起，不再支持任何加密货币交易所客户买卖低于10万美元，对所有加密货币交易所都是如此。以上表态确认了，Signature Bank减少加密资产市场风险敞口的决心，Signature Bank将只为币安处理超过10万美元的交易。2022年12月，Signature Bank也曾表示，加密货币交易所FTX爆雷后，该银行在大范围撤除加密货币领域，有意削减高达100亿美元的加密资产客户存款。Signature Bank于3月2日在季报中还重申，它目前没有对加密抵押品进行贷款，没有对数字资产进行投资，也没有为任何客户保管数字资产。
-但为什么Signature Bank仍然被监管机构关停了？据华尔街日报消息，早在年初1月，美国联邦住房贷款银行系统（FHLB）向两家最大的加密货币银行 Signature Bank 和 Silvergate 共提供了超 130 亿美元的贷款，以减轻取款激增导致的流动性危机影响。据悉，该实体在 2022 年最后一个季度向 Signature Bank 提供了近 100 亿美元的贷款，成为近年来银行业最大的借款交易之一。此外，Silvergate 至少收到了来自 FHLB 的 36 亿美元贷款。由此可见，这两家著名加密友好银行的流动性危机早在FTX暴雷事件后就已经初现端倪。
-首先值得强调的一点是Silvergate Exchange Network（SEN），在促进大投资者和加密货币交易所之间的非区块链资金转移方面发挥了关键作用。Silvergate在2018年推出了SEN，该平台迅速被大量采用，交易量在2021年整年达到近乎8000亿美元。几乎所有基于美国的主要加密货币交易所都成为Silvergate的客户，并开始通过该网络转移资金。对于加密货币交易商来说，这项技术似乎已经改变了游戏规则，成为传统金融和加密货币生态系统之间的便捷桥梁。
-
-随着上周Silvergate进入自愿清算阶段，摩根大通曾预测客户将迁移到Signature Bank的Signet支付网络。加密货币公司可以使用应用程序编程接口将Signet网络纳入其平台. 然而Signature Bank目前也难以独善其身。
-当USDC作为加密货币行业最底层的资产定价基础设施出现了脱钩这种情况，再次显示了稳定币的脆弱性。当大家发现去中心化金融仍然会被中心化金融状况影响并失去价值，很可能会考虑加大对法币的追求。但当加密行业失去Signature和Silvergate这两家主要的加密友好银行，加密公司就失去了主要的获得法定货币的关键通道。现在加密公司的法币出入金选择很少，并且任何新的加密公司将很难获得新的银行户头，在新银行介入之前，加密行业的法币-加密货币流动性将受到严重限制。
-R3PO认为，作为新生的加密货币市场基础设施，区块链交易网络核心价值巨大，SEN平台以及Signet支付网络的停摆，无疑会对加密货币市场当前紧张的流动性造成进一步伤害。但对于其它竞争银行来说，这无疑是一个潜在机遇，它们有机会在此时迅速介入以填补空缺，在加密货币业务方面独占鳌头。现在全球加密银行在美国只剩下Customers bank，Sygnum，其他地区还有seba bank、deletc bank、BCB。
-处于舆论中心的Circle今日发表声明称：“我们存在 SVB 的 100% 存款是安全的，将于明天开门营业。100% 的 USDC 储备金也是安全可靠的，我们将完成将剩余的 SVB 现金转移到 BNY Mellon。如前所述，USDC 的流动性操作将在明天早上银行开门时恢复。随着今晚宣布关闭 Signature 银行，我们将无法通过 SigNet 处理铸造和赎回，我们将依靠纽约梅隆银行的结算。我们最快明天将引入一个具有自动铸造和赎回功能的新交易银行合作伙伴。我们致力于以最高质量和透明度建立稳健和自动化的 USDC 结算和储备操作。”
-Coinbase 发表声明称“尽管我们最近在传统银行业看到了动荡，但 Coinbase 继续照常运营。在 Coinbase，所有客户资金继续安全且可访问，包括将于周一恢复的 USDC 转换。所有客户在银行的现金继续受到 FDIC 转手保险的保护。由于 FDIC 暂停 Signature 的交易，我们目前正在为所有客户与其他银行合作伙伴的现金交易提供便利。”
-尽管Silvergate以及Signature Bank两家加密友好银行的关闭，导致了加密资本市场回到了 2014 年之前——任何新成立的公司都没有机会获得银行关系，加密货币已经正式成为无银行账户。但中心化金融机构的监管失败和财务危机，会刺激更多加密原生资本依赖并信仰比特币等加密原生资产，未来区块链行业会更加减少对美元稳定币的依赖，拓宽区块链支付网络的通用性和稳定性，增加更多直接使用加密货币的支付场景，以此减少对中心化金融机构的依赖，R3PO坚信，未来必将诞生完全去中心化的银行，In Trustless we Trust。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
