@@ -67,7 +67,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Euler 被黑客攻击损失 2 亿美元，dForce 创始人 Mindao 借此事对 DeFi 的安全审计和安全问题进行研究和探讨，解析了三种审计模式，认为对于 DeFi 这样的开放系统来说，安全代价就是自由的代价。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">https://twitter.com/mindaoyang/status/1635537914854772737</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>大的 DeFi 协议基本上都经过多轮审计，但蓝筹 DeFi 没哪个没被黑过。原因很简单，从攻防来看，所有静态审计的输入（安全投入）和输出（发现 bug) 都是有限的。常规审计以外的审计模式：1）形式化验证，能帮助穷尽「已知」路径的覆盖范围，但是无法穷尽「未知的未知」。DeFi 是一个开放系统，对于黑客（攻方）来说，它的输入是无限的，输出也是无限的。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>2）开发式竞争型审计，如 Code4rena，审计奖金池固定，但是输入在一定时间内是弹性的，所有人都可以参加，谁发现 bug 按照严重程度，分奖金，这个方式是让审计师 / 白帽去卷，可以扩大覆盖面，但总体输入依然固定，远远不够。3）完全开放的模式，那就是赏金网络。赏金模式在输入输出上也是开放式的，类似于黑客的攻击模式，但是激励模式大有区别。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>把赏金比例和 TVL 挂钩能否激励更多黑客转白帽？1）没哪个 DeFi 协议能支付黑客所要求的大额赏金；2）DeFi 的安全更复杂问题在于除了代码层面，还有可组合风险；3）DeFi 的攻击面是四维增长的，定期静态安全审计加长期赏金，也无法覆盖不断扩大的攻击面。DeFi 安全是无限游戏，唯一靠谱的是在协议上减少外部依赖（资产 /oracle/ 第三方协议），最小化攻击面，尽量待在「自己的舒适区」，不乱做扩展。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1635537914854772737",
           "publishedOn": "2023-03-14T09:22:39.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "深究 DeFi 的安全审计和安全问题，解析三种审计模式",
           "imageUrl": null
         },
@@ -147,7 +147,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">https://twitter.com/eas_eth/status/1635391258230394880</a></p>\n<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a>",
           "link": "https://twitter.com/eas_eth/status/1635391258230394880",
           "publishedOn": "2023-03-14T06:45:46.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文了解 Ethereum Attestation Service 的链下证明",
           "imageUrl": null
         },
@@ -187,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1784,
+          "wordCount": 1990,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -257,7 +257,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7554,
+          "wordCount": 7552,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -307,7 +307,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1077,
+          "wordCount": 1283,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -347,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>MEV-Boost 支付于昨天创下历史新高，总计 7691 ETH，几乎是此前 FTX 崩溃期间 3928 ETH 的历史新高的两倍。Flashbots 产品负责人 bertcmiller 撰文分析以太坊 MEV 相关统计数据，包括历史巨量 MEV、近期 Builder 和 Relay 市场份额的市场份额变化。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">https://twitter.com/bertcmiller/status/1634931226393051136</a></p>\n<p><strong>文章作者：</strong></p><p>bertcmiller</p><hr><h3>观点：</h3><p><strong>bertcmiller：</strong>一个有趣的事情是，我们每年都会有一次大量 MEV 的日子：2021 年 6 月 5 日：6397 ETH；2022 年 6 月 13 日：6313 ETH；2023 年 3 月 11 日：向 mev-boost 提议者支付 7691 ETH。从另一个角度看，在过去 24 小时内，大约 95% 的区块是 MEV-Boost 区块。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a><p><strong>bertcmiller：</strong>昨天和上周的 Builder 市场份额：builder0x69 飙升，尤其是在高 MEV 时期；Flashbots /rsync 非常稳定；beaverbuild 和 bloXroute Labs 减半；Manta 完全跌出前 10 名。builder0x69 似乎在补贴中位数区块，并从最赚钱的区块中获利，考虑到超高 MEV 区块的数量，它们的激增是有迹可循的。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a><p><strong>bertcmiller：</strong>Relay 市场份额：ultra sound money 和 GnosisDAO 的中继器在过去 24 小时内集体飙升了约 10%，似乎是以牺牲 BloxRoute 和 Blocknative 的市场份额为代价的。【原文为英文】</p><a href=\"https://twitter.com/bertcmiller/status/1634931226393051136\">内容来源</a>",
           "link": "https://twitter.com/bertcmiller/status/1634931226393051136",
           "publishedOn": "2023-03-13T08:49:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】解析以太坊 MEV 相关统计数据",
           "imageUrl": null
         },
@@ -397,7 +397,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>\n<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a>",
           "link": "https://twitter.com/poopmandefi/status/1634915107435327488",
           "publishedOn": "2023-03-13T05:49:29.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>\n<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a>",
           "link": "https://twitter.com/ArbiAlpha/status/1634615208848281603",
           "publishedOn": "2023-03-13T05:49:16.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】对冲挂钩资产风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1719,
+          "wordCount": 1721,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>经纬中国研究员 Zixi 从投资角度类比 Web2 的 QQ 农场和 Web3 的 Quest3 及 Galxe，认为 Token 的存在让过渡态的产品为用户和投资人产生了极高的价值和退出路径。Zixi 还认为，Token 能够让每一个产品都在特定的时间点发光发热，在区块链这个高速运转且流动性更加便利的世界，终局逻辑以外的中间型方案同样具有投资价值。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">https://twitter.com/Zixi41620514/status/1634531213234032644</a></p>\n<p><strong>文章作者：</strong></p><p>Zixi</p><hr><h3>观点：</h3><p><strong>Zixi：</strong>在目前 C 端没有最终的落地应用前，用户压根不知道要去哪些应用。Quest3/Galxe 的积分墙成为了一个非常棒的流量聚合器，通过任务 + 奖励的方式将用户导流到项目里，处境类似于 Web2 的 QQ 农场。这在 Web2 可能不是一个好的 deal，因为退出路径不清晰。但在 Web3，只需要发币 + 社区共识 + 项目方不断努力，就能创造出一个又一个独角兽。投资人的退出不再模糊，用户也能享受产品成长的权益。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>一代产品有一代产品的使命，但 Token 的存在让每个产品都在特定的时间点发光发热。时间拉到几年前，从公链来看，各种 ether killer 及 Alt L1，如波卡、Solana 等在上轮牛市已经完成了使命。波卡的卡槽拍卖做出了一个又一个好公链；Solana 即使经常宕机，但便宜 + 快速 + 安全也在 2021 的牛市大放异彩。从游戏来看，axie 虽然可玩性一般，但让众多 Web2 基金和互联网大厂注意到 crypto；Stepn 就算庞，但吸引了一众用户和新钱进场。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a><p><strong>Zixi：</strong>我们投项目很多时候是终局思维，即最终的竞争格局应该是怎么样，就往这个方向投，这在区块链这个高速运转且流动性比传统金融更加便利的世界可能有一定问题。大家可能都相信模块化区块链，以太坊主链做结算和共识，Layer2 做执行， DA 做数据存储。这可能是一个终局路线，但我们还是能看到其他中间性方案和 ether killer 的意义。即使它们最终被淘汰，但项目方 / 投资人 / 早期用户都享受到了其成长带来的价值。</p><a href=\"https://twitter.com/Zixi41620514/status/1634531213234032644\">内容来源</a>",
           "link": "https://twitter.com/Zixi41620514/status/1634531213234032644",
           "publishedOn": "2023-03-12T09:02:01.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】观点：终局思维并非区块链投资的唯一逻辑",
           "imageUrl": null
         },
@@ -977,7 +977,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近期以太坊以及其他社区在寻求一种模块化（和分层）的区块链可扩展性方法，但主权 rollup 可以构成新结算层的基础吗？Infura 研究员 Partrick McCorry 从 rollup 安全性出发，撰文分析 rollup 能否继承比特币的安全性，并将主权 rollup 和以太坊 rollup 对比，认为比特币这种原生资产不能以不信任的方式转移到主权 rollup 中，但它确实允许在比特币之上出现一个生态系统，同时允许比特币用于支付网络费用。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups</a></p>\n<p><strong>文章作者：</strong></p><p>Partrick McCorry</p><hr><h3>观点：</h3><p><strong>Partrick McCorry：</strong>虽然比特币和以太坊都可以作为数据可用性（DA）层（在某种程度上），但在结算层方面它们并不共享相同的功能，有一个小的差异对 rollup 的安全性有巨大的影响。在评估 rollup 的安全性时需要考虑两个关键因素：验证桥和诚实的协助者。而四个属性共同决定链的安全性：1）重组抵抗力；2）抗审查性；3）DA；4）有效性。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>比特币被视为缺乏任何形式计算的 DA 层，但 Taproot Wizards 的兴起、Eric Wall 的演讲以及现在 RollKit 的发布表明可以在比特币上构建不同类型的 rollup。什么是主权 rollup？1）「主权」部分是依靠外部社区运行客户端，该客户端可以获取并解析数据 blob，并计算链下数据库。2）主权 rollup 的安全性不取决于谁或如何将数据发布到底层区块链，而是经济代理商（agent）如何解析已发布的数据以及谁来决定解析数据的规则。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup 和以太坊 rollup 相比：1）在主权 rollup 中，决定规则集和链下数据库的信任根源取决于社区。如果存在共识分叉，则在 rollup 上铸造的资产将在不同的分叉之间复制，并且由外部桥运营商选择其中一个分叉。2）在验证桥中，共识分叉是不可能的。由智能合约决定规则集、链下数据库，并最终保护所有本地桥接到 rollup 上的资产。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a><p><strong>Partrick McCorry：</strong>主权 rollup = 结算层？问题实际上是决定谁该负责验证数据。在主权 rollup 的世界中，我们需要信任底层区块链的诚实多数来对数据 blob 进行排序和另一组各方来保护数据 blob 解析方式的完整性。所以需要一种方法来跨数百数千个 rollup 部署扩展这个人工过程，这个方法称为「验证 rollup」，一个项目只需部署一个验证桥，就可以解决找一个诚实的协助者来帮助桥的问题。【原文为英文】</p><a href=\"https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups\">内容来源</a>",
           "link": "https://stonecoldpat.substack.com/p/settlement-layers-ethereum-rollups",
           "publishedOn": "2023-03-10T04:29:42.000Z",
-          "wordCount": 7732,
+          "wordCount": 7938,
           "title": "【英文】以太坊 rollup VS. 主权 rollup，主权 rollup 能否构成新结算层的基础？",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F014fc291-d3cd-42fd-90f2-586fbc1f5233_2612x1014.png"
         },
@@ -987,7 +987,7 @@
           "description": "<h3>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</h3>\n<p>Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。</p>\n<p><a href=\"https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw\">内容来源</a></p><hr>",
           "link": "https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw",
           "publishedOn": "2023-03-10T04:15:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动",
           "imageUrl": null
         },
