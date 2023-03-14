@@ -2,22 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-14T19:40:18.727Z</updated>
+    <updated>2023-03-14T19:45:46.951Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
-    <entry>
-        <title type="html"><![CDATA[Ceramic 如何实现数据可组合性]]></title>
-        <id>https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</id>
-        <link href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg"/>
-        <updated>2023-03-14T18:40:20.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>本文由 Multicoin Capital 作者 Kyle Samani 撰写，解析数据分类账本 Ceramic 如何通过社区驱动的数据模型实现数据可组合性。中文版由 DAOSquare 译者 hsl195 编译发布。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</a></p>
-<p><strong>文章作者：</strong></p><p>Kyle Samani（Multicoin Capital 联合创始人）</p><hr><h3>观点：</h3><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>Ceramic 主要通过一种叫做数据模型的新抽象概念实现跨应用的数据可组合性，这种抽象统一了类似应用的存储方式，并可以检索网络上每个用户的状态。通过采用相同的底层数据模型，应用程序能够对相同的数据进行原生互操作。</p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">内容来源</a><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>Ceramic 采取社区驱动的方式来创建这些数据模型，允许任何开发者轻松地与生态系统中的其他开发人员定义、分享和循环利用他们的模型。随着社区创建越来越多的数据模型，我们将看到使用可组合数据构建的应用程序的数量和种类不断扩大。</p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">内容来源</a><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>通过前述方式，可组合性也带来了更好的开发者体验。在 Ceramic 上构建一个应用程序看起来就像浏览一个数据模型市场，将它们接入你的应用程序，并自动获得对网络上存储在这些模型中的所有数据的访问。使用 Ceramic，开发者将不需要担心用他们独自的用户和数据来开发应用程序。开发者的整个复合创新的速度将大大加快。</p><a href="https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Ceramic 如何实现数据可组合性]]></title>
         <id>https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</id>
@@ -9015,6 +9003,18 @@ Kingdomverse国库将由基金会管理，主要用于发展社区和Kingdomvers
         <summary type="html"><![CDATA[PANews 3月10日消息，火必在火必NFT清退通知中表示，由于云钱包战略规划及产品调整，火必NFT市场将于2023年5月13日正式下线，因此用户需自行将在火必NFT内的NFT资产转回自己的链上钱包内。转移截止时间为2023年5月13日，截止时间前所有功能正常使用。截止时间后，火必NFT市场将下架，不再提供相关服务。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......]]></title>
+        <id>https://twitter.com/ThorHartvigsen/status/1633776677909315585</id>
+        <link href="https://twitter.com/ThorHartvigsen/status/1633776677909315585"/>
+        <updated>2023-03-10T03:13:51.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">https://twitter.com/ThorHartvigsen/status/1633776677909315585</a></p>
+<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">内容来源</a><p><strong>Thor Hartvigsen：</strong>6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">内容来源</a><p><strong>Thor Hartvigsen：</strong>14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】</p><a href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">内容来源</a><p><strong>Thor Hartvigsen：</strong>20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。</p><a href="https://twitter.com/ThorHartvigsen/status/1633776677909315585">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
