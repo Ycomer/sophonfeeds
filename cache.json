@@ -17,7 +17,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当下为什么所有股票都在下跌时比特币却在上涨？加密货币 KOL Takashi Azuki 认为是目前的市场行情加上 CZ 将 BUSD 转换为 BTC/BNB/ETH 导致的比特币上涨，并阐述了自己目前的做法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">https://twitter.com/rxcrax/status/1635338126003695617</a></p>\n<p><strong>文章作者：</strong></p><p>Takashi Azuki</p><hr><h3>观点：</h3><p><strong>Takashi Azuki：</strong>比特币上涨原因：当下，银行股跌入地狱，部分股票停牌。金融市场正在崩溃，比特币的去中心化也许是一种救赎。美国当局保证返还破产的 SVB 存款，并暂停 Signature Bank（NYC），USDC 恢复锚定 1 美元。同时 CZ 将 BUSD 溢出到 BTC/BNB/ETH。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a><p><strong>Takashi Azuki：</strong>我现在在做什么：留下了一半的稳定币，并将它们转换为 USDT 。我仍然认为行情很快就会修正。我将继续按计划对其进行再投资。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a>",
           "link": "https://twitter.com/rxcrax/status/1635338126003695617",
           "publishedOn": "2023-03-14T06:59:27.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】一文解析当下比特币上涨原因",
           "imageUrl": null
         },
@@ -47,7 +47,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">https://twitter.com/eas_eth/status/1635391258230394880</a></p>\n<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a>",
           "link": "https://twitter.com/eas_eth/status/1635391258230394880",
           "publishedOn": "2023-03-14T06:45:46.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文了解 Ethereum Attestation Service 的链下证明",
           "imageUrl": null
         },
@@ -107,7 +107,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2253,
+          "wordCount": 2047,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1078,
+          "wordCount": 1070,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -227,7 +227,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -357,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1731,
+          "wordCount": 1714,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -377,7 +377,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17688,
+          "wordCount": 17689,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -517,7 +517,7 @@
           "description": "<h3>硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系</h3>\n<p>General Catalyst 首席执行官 Hemant Tanej 发布推特称已经和几位风投领导人开会讨论了硅谷银行（SVB）倒闭的后果，并发布了一份联合声明。联合声明表示，「SVB 一直是风投行业及创始人们值得信赖的长期合作伙伴。四十年来，它一直在服务创业社区和支持美国创新经济方面发挥着关键作用。我们对过去 48 小时内发生的事情感到失望和担忧，如果 SVB 被收购并适当资本化，我们将会支持并鼓励我们的投资组合公司恢复与其的银行业务关系。」其他参与该联合声明的硅谷风投包括 Accel、Altimeter Capital、B Capital Group、General Catalyst、Gil Capital、Greylock Partners、Khosla Ventures、Kleiner Perkins、Lightspeed Venture Partners、Mayfield Fund、Redpoint Ventures、Ribbit Capital 及 Upfront Ventures。</p>\n<p><a href=\"https://twitter.com/htaneja/status/1634391256028839936\">内容来源</a></p><hr>",
           "link": "https://twitter.com/htaneja/status/1634391256028839936",
           "publishedOn": "2023-03-11T09:39:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系",
           "imageUrl": null
         },
@@ -537,7 +537,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 764,
+          "wordCount": 754,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -677,7 +677,7 @@
           "description": "<h3>Y combinator CEO ：银行暴雷已影响上千家初创公司，其中 1/3 将无法在未来 30 天内发放工资</h3>\n<p>Y combinator 首席执行官 Garry Ten 在接受 CNBC 采访时表示，本次银行暴雷事件已影响上千家初创企业，其中 1/3 将无法在未来 30 天内发放工资。这种崩溃正在影响美国工人。</p>\n<p><a href=\"https://twitter.com/MarioNawfal/status/1634324773726461952\">内容来源</a></p><hr>",
           "link": "https://twitter.com/MarioNawfal/status/1634324773726461952",
           "publishedOn": "2023-03-11T02:19:07.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Y combinator CEO ：银行暴雷已影响上千家初创公司，其中 1/3 将无法在未来 30 天内发放工资",
           "imageUrl": null
         },
@@ -687,7 +687,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20950,
+          "wordCount": 20947,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -717,7 +717,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管市场条件不佳，游戏和 NFT 项目在 2023 从 a16z crypto、Google Ventures 等主要加密货币公司筹集了超过 10 亿美元资金。加密研究员 Emperor Osmo 盘点了 2023 年主要 Web3 游戏和 NFT 项目的融资情况，并从用户和游戏开发商角度，总结了 3 个看好该行业发展的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">https://twitter.com/flowslikeosmo/status/1634011217097269254</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>原因 1：庞大的用户基数。视频游戏拥有最大、发展最迅速的社区之一。游戏玩家在他们的技术知识方面具有战略性和悟性，当涉及到像 NFT 这样复杂的新技术时，他们会迅速学习。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 2：尚未开发的资源。一个由不可替代的代币驱动的去中心化经济。游戏开发者可以从中受益，从转卖中获得佣金，从其他平台获得收入分享，以及在市场上的用户中提高知名度。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 3：玩家的权力。通过「投资」时间，拥有网络的一部分。Web3 游戏和 NFT 项目允许玩家将游戏与区块链提供的效率相结合，从而引入更高级别的参与和所有权。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a>",
           "link": "https://twitter.com/flowslikeosmo/status/1634011217097269254",
           "publishedOn": "2023-03-10T12:17:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Web3 游戏受到资本推崇的三个原因",
           "imageUrl": null
         },
@@ -797,7 +797,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a>",
           "link": "https://twitter.com/y_cryptoanalyst/status/1633753341577797632",
           "publishedOn": "2023-03-10T06:54:23.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain",
           "imageUrl": null
         },
@@ -917,7 +917,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Thor Hartvigsen 盘点了未来几个月具有强大催化剂的 30 个协议，列举各个协议近期发展动态。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">https://twitter.com/ThorHartvigsen/status/1633776677909315585</a></p>\n<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>1）Lido：V2 升级允许任何人通过模块化的即插即用模型成为节点运营商。2）Velodrome：2.0 版本将在第一季度推出，具有交易对自定义和交易费可调整功能。3）Radiant：V2 版本将在数周后引入，跨链扩展（首先是 BNB 链），以及更多用于借贷的资产。4）Fantom：fUSD v2 及 FVM 的发布，主网将于年底启动。5）Rocket Pool：Atlas 升级，用户可以仅用 8 ETH 质押。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a><p><strong>Thor Hartvigsen：</strong>6）PlutusDAO：PLS V2 版本代币经济模型将发布。7）GMX：V2 升级将引入大量新的可交易资产。8）Optimism：OP Stack 和 Base 的构建。9）Trader Joe：跨链扩展到 BNB 链，流动性账簿 V2 发布。10）Rage Trade：金库中的 GLP 风险升级，对冲交易商 PnL；跨链扩展。11）Synapse：构建以太坊原生 OP rollup（Synapse 链）；跨链消息传输。13）Frax：FIP-188 提案通过，$FRAX 将完全抵押。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a><p><strong>Thor Hartvigsen：</strong>14）Pendle：与 GLP 跨链到 Arbitrum，并将添加 gDAI 等其他资产。15）Synthetix：V3 版本允许 ETH 和其他资产作为合成资产的抵押品，LP 有流动性分配权。16）Conic：高收益的更广泛采用 ，新增资产。17）Dopex： rDPX v2 能够以 rDPX 作为抵押品的一部分来铸造合成代币。18）Polygon：其 zkEVM 将于 3 月 27 号在主网上启动。19）dYdX：正在推出其原生的基于 Cosmos SDK 构建的应用链（v4）。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a><p><strong>Thor Hartvigsen：</strong>20）Curve：crvUSD 即将发布。21）Camelot：集成更多协议，发布带有「插件」的 xGRAIL 的改进版本。22）Lyra：Newport 升级，与 GMX 永续期权集成部署到 Arbitrum。23）Cosmos：链间安全（ICS）将于 3 月 15 日启动。24）MakerDAO：Spark 协议的第一个产品推出，发行支持 $DAI 的原生 ETH LSD EtherDAI。</p><a href=\"https://twitter.com/ThorHartvigsen/status/1633776677909315585\">内容来源</a>",
           "link": "https://twitter.com/ThorHartvigsen/status/1633776677909315585",
           "publishedOn": "2023-03-10T03:13:51.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文盘点未来几个月具有强大催化剂的 30 个协议：Lido、Velodrome、Radiant......",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Web3 研究分析师 Insightful 发推特对 Delphi Digital 和 Naavik 2023 年 Gamefi 报告中的要点进行梳理，通过观察投资、游戏、公会、基础设施等方面的现状，反思 Gamefi 行业面临的困境、取得的进步与未来走势。中文版由 ChainCatcher 倩雯编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.chaincatcher.com/article/2088931\">https://www.chaincatcher.com/article/2088931</a></p>\n<p><strong>文章作者：</strong></p><p>Insightful</p><hr><h3>观点：</h3><p><strong>Insightful：</strong>整个炒作周期中，人们更关注玩家收益最大化，不追求有趣的游戏体验和可持续性。Axle Infinity 经济上的巨大成功引起了几十个项目竞相模仿，但这种模式需要不断有新玩家涌入才能生存，也导致了收入被用户增长速度所累，而非取决于玩家总数和游戏中消费。当大多数玩家提取的价值多于其创造的价值时，经济就会陷入死循环。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>过去 24 个月里，约 120 亿美元资金涌入该领域。但随着整体资金环境越发紧张，许多初创团队和项目将在未来一年面临生存威胁。加密货币解锁了数字产权、二级市场流动性、共享所有权等，为开发者提供了更多的筹资选择。制作高质量的产品和体验需要耐心，这恰恰是这样一个迅猛发展的领域中所缺失的。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a><p><strong>Insightful：</strong>2023 年可能不是加密游戏真正进入主流的一年：上一个炒作周期将在短期内影响消费者的消费欲望；分销限制、监管不确定性和用户体验摩擦（如用户与钱包的互动）等方面仍然存在巨大的阻力。但如今大多不良行为者和过高的通胀模式已基本从市场上消失，2023 年将迎来「大重设」：P2E 模式逐渐消亡，高质量的建设者脱颖而出。重点将转向使用加密技术的优质游戏。</p><a href=\"https://www.chaincatcher.com/article/2088931\">内容来源</a>",
           "link": "https://www.chaincatcher.com/article/2088931",
           "publishedOn": "2023-03-09T12:40:26.000Z",
-          "wordCount": 988,
+          "wordCount": 1024,
           "title": "Delphi Digital：2023 年 GameFi 将迎来「大重塑」",
           "imageUrl": "https://www.chaincatcher.com/upload/image/20230309/1678354632524435.jpg"
         },
@@ -9658,7 +9658,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1825,
+          "wordCount": 1823,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
