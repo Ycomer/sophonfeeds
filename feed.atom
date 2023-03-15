@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T07:32:35.606Z</updated>
+    <updated>2023-03-15T07:37:59.497Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[浅析MEV的发展现状及趋势：这片“黑暗森林”该如何被照亮？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/02bhi4l6.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/02bhi4l6.html"/>
+        <updated>2023-03-15T07:34:54.000Z</updated>
+        <summary type="html"><![CDATA[原文：《浅析MEV的发展现状及趋势》
+作者：0xCousin
+特别鸣谢 IOSG Ventures Jiawei 的分享和交流。
+MEV（Maximum Extractable Value）是指通过在区块内重新排序、插入和审查交易从用户那里提取的价值，例如套利、清算等。最根本上可以理解为“在创建新区块时，通过调整Tx的排序从而获得的额外收益”。
+MEV的概念最早是由Phil Daian在《Flash Boys 2.0》中提出，在以太坊合并之前，MEV主要由矿工捕获，因此当时也被称为“矿工可提取价值（Miner Extractable Value）”。MEV的产生来源于，当用户在区块链上提交一笔交易时，该笔交易一般会先进入Mempool公开访问的待处理交易池中。套利者和矿工可以检索Mempool，并从中找到获取MEV的机会。
+以太坊合并后，由于出矿机制的改变，MEV供应链中的角色也有所改变。在Danksharding尚未实施之前，Flashbots提出了MEV-Boost作为PBS在协议外的实践。Buider专注于构建Block，并尽可能实现每个Block的利益最大化，然后最有利可图的Block被提交给Proposer。PBS机制的实现使得区块链出块产业的利益产生了一些改变，同时促进了产业链上相关机构的专业化、商业化进程，也使得MEV供应链形成了新的格局。
+基于MEV-Boost的Tx上链流程如下图（图中浅绿色为Tx常规上链流程，白色模块为MEV的Tx上链流程）：
+
+来源：Flashbots
+与Tx常规上链流程相比，MEV的Tx上链流程通过Flashbots的MEV-Boost实现了PBS的协议外实践，同时也使得MEV被Searcher、Builder、Validator这几个角色瓜分捕获。
+Searcher：一般是以下角色（套利和清算机器人、DeFi交易员、具有高级用例的以太坊Dapps），他们会通过不同的方法在链上找到所有可提取的价值，然后将交易捆绑在一起提供给Builder；
+Builder：Builder一般是专业的机构（过去14天有36个活跃Builder，前6家垄断超88%的市场份额），他们从Searchers发送的Bundles中挑选最有利可图的打包成Full Block，通过Relay最终发送给Validator。几个Bundle可以组合在一起形成一个Block，也可能包含来自Mempool的其他用户的待处理交易；
+
+数据来源：MEVBoost.pics
+Relay：Relay负责连接Builder和Proposer，验证Builder提交区块的有效性和出价，并将有效的最高出价提交给Proposer。目前是寡头统治格局，活跃的Relay只有11个，不过Relay并不参与MEV利润的瓜分，属于一个中立的基础设施；
+
+数据来源：MEVBoost.pics
+Validator：Validator是ETH2.0的Miner，Validators（Validators中的Proposers）负责向网络提议Block，并将Block添加到链中。目前Validator的竞争格局渐趋稳定，Lido市场份额第一。Validator既可以获得共识奖励（区块奖励），也可以获得执行奖励（MEV+Tips）。
+
+数据来源：MEVBoost.pics
+当前MEV供应链中各个环节都有项目在做。Searcher环节，有很多套利和清算机器人、DeFi交易员、做市商等，也有服务这些Searcher的项目，比如EigenPhi这类展示链上套利案例的数据平台；Builder环节，则有Flashbots、BloXroute、Blocknative等专业化机构；Relay在MEV Supply Chain中作为一个中立的基础设施，属于需要信任的环节，活跃的Relay主要有11个；Validator也有很多项目在做，相对而言Validator的网络已经有一定的健壮性，从近期融资情况来看，目前也还有新团队想在这个赛道创业。
+按照MEV的获得方式，主要可以分为以下几类：
+Front Running：通过支付比Mempool中的目标交易更高的Gas Fee来抢先执行的行为。比如Mempool中包含一笔某交易对的Tx，会对该Token价格造成较大波动，可以在该笔Tx前插入一笔Tx；或者在新NFT项目上线时，将Mint NFT的Tx抢跑。目前要防止被抢先交易也简单，只需要接入类似Flashboots Auction的Private Transaction Pool，即可获得Frontrunning Protection；
+Back Running：是指当一笔交易会造成较大价格波动时，在该交易后插入一笔交易的行为，可能是套利、清算等。比如链上发生了一笔大额Tx，导致某交易对出现价格波动，在其后插入一笔既可以将DEX的价格搬平，同时套利者也获得了利润；或者链上发生了一笔抵押借贷触发清算线后，在其后插入一笔清算订单的行为；
+Sandwith Attack：三明治攻击其实是Front Running和Back Running的结合。搜索者在Mempool中搜索潜在的大额交易，并在交易发生之前抢先买入最终会升值的资产，并在大额交易执行后立即卖出这些资产，从而赚取差价的行为；
+Time Bandit Attack：这类MEV主要发生在有最长链原则的区块链网络（比如中本聪共识的Bitcoin）。
+从这些MEV发生的结果来看，一般Back Running类的MEV对区块链网络是良性的，比如套利者利用两个DEX之间的差价+闪电贷实现的无风险套利、清算者维持借贷协议的健康运行；Front Running、Sandwith Attack对其他用户而言可能会导致利益受损。
+其实MEV是饱受争议的，因为非良性MEV的存在，看起来不太道义。比如Front Running、Sandwith Attack、Time Bandit Attack对区块链上的普通用户而言，会破坏其交易体验、损害其利益。所以，我在很长时间里是希望行业里能够推出一个方案/产品/协议，防止这些非良性MEV的发生。
+但Mempool内交易公开可见的特点、Tx上链排序的竞价规则决定了，MEV是必然存在的。退而求其次，如果你的交易无法避免被提取MEV，不如使用能够将收益反馈给你的产品/协议。
+针对MEV（尤其是非良性MEV）对有状态区块链（比如Ethereum）可能带来的负面外部性（Negative Externalities），目前行业里针对这些风险有一些产品可以减轻这些影响。比如Falshbots系列产品：
+Flashbots Auction：Flashbots Auction在以太坊用户和Validators之间提供了一个私人通信渠道，用于在区块内有效地传达首选交易顺序。通过这类产品可以让链上交易用户实现Pre-trade Privacy、Failed trade privacy、Finality protection等。
+Flashbots Protect RPC：这是一个让用户可以实现Front-Running Protection的RPC端点产品，用户可以将其添加到他们的钱包中，从而使他们的交易提交给Flashbots Auction。对于用户而言，和普通的交易没有感知上的区别，但从结果上可以实现Front Running Protection、Failed trade Privacy等。
+MEV-Boost：PoS时期，Validator可以自行去Mempool为交易排序，将其打包，也可以选择MEV-Boost推送过来的经过Builder排序过的拥有更高MEV收入的区块。通过MEV-Boost，Validator的收入可以获得大幅增加，所以大部分Validator会选择接入MEV-Boost，而不是自己排序。
+
+图片来源：IOSG Ventures Jiawei
+从MEV Supply Chain来看，这三款产品分别在MEV Supply Chain的各个环节发挥作用。
+对于MEV领域的未来，结合MEV领域的发展现状分析，我们认为可能会有以下几个主要趋势：
+1、头部效应会很严重：过去500个Epoch超过90%是由MEV-Boost提供服务，而且Flashbots的系列产品在PoS时期出块的各个环节几乎都是龙头地位，在已经有Flashbots这种First Mover的情况下，想要切入MEV领域的新入局者需要一些核心竞争力才能抢占更多市场份额；
+2、得Orderflow者得天下：要想获得更多的MEV机会，有充足的Orderflow很重要。对于普通的交易用户而言，实际上是没有办法完全杜绝MEV的。即使User采用了FlashbotsProtect RPC，也只能防止Public Mempool的Searcher捕捉其Tx潜在的MEV，Flashbots Auction网络中的Buider仍然有机会针对其Tx提取MEV。所以，对于普通用户而言，既然无法完全规避被提取MEV，不如选择那些会将MEV收益反馈给Users的Wallet、DEX或其它Dapps；
+3、Multichain的MEV仍有增长空间：单纯的Ethereum链内的MEV，可能已经基本得到了充分的捕获。但是区块链是一个Multichain的生态，Layer1 与Layer1之间、Layer1与Layer2之间的MEV机会还较难捕获，针对这方面的MEV可能还有些增长空间；
+4、抗审查交易的上链需求始终能被满足：据MEVwatch数据，Merge后以太坊区块链上符合OFAC合规要求的区块占出块总量的57.49%，最近100个区块中只有35个区块执行了OFAC合规性，对抗审查类交易的上链影响不大。虽然Merge之后，头部质押平台多为中心化平台，这些中心化实体难免受到法律监管，从而对以太坊区块链的抗审查能力形成挑战。但即使超过90%的Validator通过MEV审查中继路由交易，那些抗审查的交易仍然能够在一个小时内上链。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[赵长鹏：币安将零费用BTC交易从BUSD转移到TUSD]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/azff88vv.html</id>
@@ -24,6 +74,7 @@
         <link href="https://www.panewslab.com/zh/sqarticledetails/azff88vv.html"/>
         <updated>2023-03-15T07:21:47.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月15日，针对“币安将恢复部分BTC手续费和BUSD挂单手续费”的公告，赵长鹏在推特上表示：“鉴于最近发生的事件，我们将0费用BTC交易从BUSD转移到TUSD。”
+此外，针对TUSD相关公告发布后TRU（TrueFi）短时暴涨一事，赵长鹏表示，TRU应与TUSD无关。Coingecko数据显示，TRU价格在公告发布后短时暴涨近30%，目前已大幅回落。
 此前今日早些时候消息，币安宣布将于2023年3月22日8:00起，用户仅在BTC/TUSD现货交易对交易BTC时，可继续享受零挂单和吃单手续费。BUSD零挂单（Maker）手续费活动将不再包括BNB/BUSD、BTC/BUSD和ETH/BUSD现货和杠杆交易对。]]></summary>
         <author>
             <name>PANews News</name>
@@ -2575,18 +2626,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
         <updated>2023-03-14T12:10:16.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月14日消息，据The Block报道，加密基础设施开发商 Orbs 将从 DWF Labs 筹集高达 1000 万美元的资金。Orbs 首席执行官 Nadav Shemesh 表示，第一笔总投资于今天结算，其余投资将“随着时间的推移达到平均价格”。有了 DWF 的投资，Orbs 计划继续开发其基础设施以增加在以太坊虚拟机 (EVM) 链和开放网络 (TON) 上的采用率。
 相关阅读：Orbs：面向大规模消费者应用的区块链云服务。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欧盟《数据法》下的立法获得通过，将通过智能合约进行监管]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/95kuz5id.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/95kuz5id.html"/>
-        <updated>2023-03-14T12:07:40.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，据The Block报道，周二，欧洲议会以 500 票赞成、23 票反对通过了《数据法》下的立法。该立法及其关于智能合约的规定并未明确针对加密行业，而是侧重于来自连接设备或物联网的数据。然而，业内一些人担心，如果范围没有明确定义，数据法案可能会对加密产生深远影响，尤其是在智能合约支撑 DeFi 基础设施的情况下。
-智能合约属于《数据法》第 30 条的规定，即“关于数据共享智能合约的基本要求”。条款包括“严格的访问控制机制”和集成到智能合约设计中的商业秘密保护。需要有终止或中断交易机制的可能性，立法者需要决定在哪些条件下允许这样做。最重要的是，智能合约将有望面临与通过不同方式生成的任何其他合约相同的“保护水平和法律确定性”。
-上月，Circle欧盟事务总监表示，欧洲议会就《欧盟数据法》达成初步协议，其中包括对智能合约的监管。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
