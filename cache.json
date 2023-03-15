@@ -17,7 +17,7 @@
           "description": "<h3>以太坊 Goerli 测试网激活 Shapella 升级</h3>\n<p>以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。以太坊核心开发人员 Tim Beiko 表示，由于几个测试网验证器在 Goerli 分叉之前没有升级他们的客户端软件，导致初期处理存款的过程并不顺利，但问题已经解决。Shapella 预计于 4 月初在以太坊主网上激活，具体日期将于本周四的以太坊执行层核心开发者会议（ACDE）确定。</p>\n<p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Tim Beiko（以太坊核心开发者）：</strong>一个原因是鉴于 ETH（Goerli）毫无价值，运行验证节点 / 监控它的动力就会减少。另一个可能的原因是在分叉处处理了大量的取款凭证更改。鉴于这是人们第一次提交这些更改，还有更多需要处理的内容，这可能导致在低资源节点上丢失块 / 证明。【原文为英文】</p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a>",
           "link": "https://twitter.com/TimBeiko/status/1635769239272591360",
           "publishedOn": "2023-03-15T01:47:27.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "以太坊 Goerli 测试网激活 Shapella 升级",
           "imageUrl": null
         },
@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1784,
+          "wordCount": 1781,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -327,7 +327,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1077,
+          "wordCount": 1283,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -407,7 +407,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1729,
+          "wordCount": 1724,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -497,7 +497,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17760,
+          "wordCount": 17766,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -507,7 +507,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -657,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 754,
+          "wordCount": 747,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -677,7 +677,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27562,
+          "wordCount": 27600,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -717,7 +717,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Circle 宣布约 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行中，一时间引发了市场对于 Circle 暴雷的恐慌。加密研究员 0xLoki 在对 Circle 储备资产及估值进行分析后，认为 Circle 出问题的概率极低。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">https://twitter.com/Loki_Zeng/status/1634410350505508864</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>Circle 储备资产分为三个部分：324 亿美元国债组合、33 亿在 SVB 中及存在 SVB 以外银行的 78 亿。其国债组合具备充足流动性，即使被迫贴现也不会受到太大损失。此外，SVB 的情况和当时 FTX 的情况完全不同，SVB 这些贷款中的大部分还是可以收回的，43% 的极端情况发生的概率很低很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>SVB 以外银行的 78 亿我们在官方也找到了相关信息披露，可以看出除了 SVB 和 Silvergate 以外，Signatures Bank 等三家银行同样不能让我们放心。考虑到 BNYM 是 Circle 首选银行，保守估计下，BAYM 资金占 35%，剩下四家每家 10%，悲观一点，如果有风险的三家都出问题，回收率按 80% 计算，Circle 总损失是 20 亿美元左右。合理一点，Circle 在 SVB 中损失 7 亿美元左右，最极端的情况是 SVB 中损失 33 亿且剩余三家中共计 50 亿无法收回，但概率很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>但根据 Circle 估值，7 至 20 亿美元的损失对 Circle 来 说并不是太大的问题。USDC 真正暴雷需要满足三个条件：1）存在 SVB 和三家中风险银行的资金足够多；2）这些银行的债务回收率足够低；3）USDC 自己无法承担损失或者无法找到资金支持方来解决问题。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a>",
           "link": "https://twitter.com/Loki_Zeng/status/1634410350505508864",
           "publishedOn": "2023-03-11T05:14:43.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】 硅谷银行倒闭，会成为 Circle 暴雷导火索吗？",
           "imageUrl": null
         },
@@ -927,7 +927,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>\n<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href=\"https://twitter.com/crypto_mckenna/status/1633731247867584512\">内容来源</a>",
           "link": "https://twitter.com/crypto_mckenna/status/1633731247867584512",
           "publishedOn": "2023-03-10T06:27:38.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CryptoGirlNova/status/1633897861002960898\">https://twitter.com/CryptoGirlNova/status/1633897861002960898</a></p>\n<p><strong>文章作者：</strong></p><p>Crypto Nova</p><hr><h3>观点：</h3><p><strong>Crypto Nova：</strong>1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】</p><a href=\"https://twitter.com/CryptoGirlNova/status/1633897861002960898\">内容来源</a><p><strong>Crypto Nova：</strong>3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）\nWINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】</p><a href=\"https://twitter.com/CryptoGirlNova/status/1633897861002960898\">内容来源</a>",
           "link": "https://twitter.com/CryptoGirlNova/status/1633897861002960898",
           "publishedOn": "2023-03-10T05:09:29.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......",
           "imageUrl": null
         },
@@ -3599,6 +3599,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/a5snl4zf.html",
+          "author": null,
+          "description": "PANews 3月15日消息，据派盾预警监测，在过去的12小时内，标记为“Voyager”的地址已向Coinbase转移了价值2770万美元的加密货币，包括17000枚ETH(约合1900万美元)，1200万枚VGX(约合400万美元)，2700亿枚SHIB(约合300万美元)。\n据悉，自2月14日以来Voyager几乎每天通过Coinbase出售加密资产。此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/a5snl4zf.html",
+          "publishedOn": "2023-03-15T03:11:22.000Z",
+          "wordCount": 1129,
+          "title": "派盾：Voyager过去12小时将价值2770万美元的加密货币转至Coinbase",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html",
           "author": null,
           "description": "PANews 3月15日消息，USDC稳定币发行商Circle在博客文章中表示：“自从Signature Bank和Silvergate Bank倒闭以来，我们团队一直在夜以继日地工作以恢复USDC的流动性运营，包括引入新的交易银行合作伙伴。我们于当地时间3月13日星期一早上开始处理铸造和赎回请求，当时美国银行系统重新开放，目前正在处理积压的请求。我们在这里还有更多工作要做，包括添加具有24/7/365功能的新交易银行合作伙伴，当地时间3月13日，Circle赎回了29亿美元USDC，并铸造了70亿美元USDC。”\n文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”",
@@ -3624,7 +3634,7 @@
           "description": "PANews 3月15日消息，据Cryptoslate报道，高盛(Goldman Sachs)最近向美国专利局(US patent office)申请了一项专利，提议将区块链技术与其结算机制整合在一起。该专利文件于3月14日提交，专利号为US 11,605,143 2B，概述了该银行使用区块链技术的技术和计算需求。该专利专注于智能合约的技术方面，可应用于各种金融工具，如部分准备金银行、保险、债券、证券化产品和保证金贷款。\n高盛的这一举措是其区块链推广的一部分，数字资产团队全球负责人Mathew McDermott在最近接受采访时表达了对区块链应用程序的强烈支持。该银行的私人代币化平台GS DAP也被香港用于销售价值1.02亿美元的数字绿色债券，成功地将结算时间从5天缩短至1天。\n与此同时，一些分析师声称，区块链领域正在酝酿一场专利“军备竞赛”，高盛(Goldman Sachs)决心通过招聘新员工和提供区块链产品来扩大其数字资产团队，以保持领先地位。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/9xa29vda.html",
           "publishedOn": "2023-03-15T02:22:24.000Z",
-          "wordCount": 1153,
+          "wordCount": 1146,
           "title": "高盛已申请一项将区块链技术与其结算机制整合在一起的新专利",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3654,7 +3664,7 @@
           "description": "社交去中心化的价值\nWeb2社交应用的发展已经相当成熟，用户对黏性社交应用的需求非常大。但是，中心化的社交媒体网络存在一些痛点，例如，用户对数据和内容的控制有限，易受审查、算法操纵和隐私侵犯的影响。长期以来，传统的中心化社交媒体平台一直占据市场主导地位，但这些平台仍需要解决数据和内容创作者的问题，例如社交媒体账号的干扰、收入分配不平等以及内容创作者无法充分控制自己生产的内容。随着数据经济和去中心化技术的崛起，人们越来越需要一个平台，为数据和内容创作者提供公平透明的分发和收益体系。\n此外，COVID-19大流行加速了远程办公和数字内容消费的趋势，这增加了以去中心化方式连接创作者和消费者的平台的需求。这一需求不仅紧迫，而且也提供了一个机会，推动人们开发新一代的去中心化社交媒体平台，以满足数据和创作者经济的需求，并为内容分发提供更公平、更透明的体系。\n去中心化社交网络是建立在区块链技术基础之上的，可以让用户控制自己的数据，提供透明度和不可篡改性，并促进更开放、自由的思想交流，以解决中心化社交媒体平台存在的问题。显然，去中心化社交是Web3中一个具有高潜力的垂直领域。它解决了对创作者经济、隐私、所有权、内容控制和抗审查通信渠道日益增长的需求，这对于希望保护自己权利、自由发布内容的个人和社区来说非常重要。Web3技术的出现为开发去中心化社交平台提供了新的可能性，以确保点对点的社交网络内的可信、可互操作和无缝的价值传输。\n去中心化的社交图谱旨在为Web3中的下一个十亿用户提供比以往更多的价值，并归还用户对数据的控制权。但是，计算和分析链上社交数据量是一项非常复杂的任务，原始数据中充斥着噪音和可能被误读的信息。随着用户数量呈指数级增长，Web3中的社交数据变得极其重要。\n那么，如何为如此庞大的社交网络设计数据结构呢？\n如果我们不考虑管理拥有海量社交数据的社交图谱，那么可以将每个人的NFT 账号视为一个节点，用 NFT 来表示任意两个用户之间的关系，从而构建一个关系图谱。如果需要查明两个人之间的关系，我们可以从其中一个人的NFT链上数据开始进行简单的搜索，并读取分析信息。\n随着社交图谱和社交数据的指数级增长，如果我们想要分析社交网络，就不能再依赖原始的处理方法了。\n去中心化社交网络的设计目标表明，我们必须使用一个通用的数据模型，以便在Web3 中以去中心化的方式来代表、交换、互操作、转换和查询社交网络数据。\nRDF图可以满足此要求。基于通证化的去中心化社交图谱的发展，我们提出了一个基于RDF的社交数据模型，符合上述要求。\nRDF，即资源描述框架，是由万维网联盟（W3C）制定的元数据建模标准。RDF，也称为RDF三元组（三元组），使用主语-谓语-宾语的句子结构存储和表达信息，由两个节点通过边连接。例如，Alice认识Bob。这个信息将被结构化为三元组 Alice-knows-Bob，其中主语是Alice，谓语是Knows，宾语是Bob。\n基于共同数据模型的去中心化社交图谱使分析速度更快、更容易，效率提升了近千倍。所有基于RDF的社交图谱都使用相同的标准框架和形式语义来存储和表示数据，并使用同一标准查询语言。由于RDF的语法，存储在Web3的RDF数据之间的共享变得更加简单。RDF三元组遵循同一标准，使得社交图谱之间可以相互操作。这种互操作性允许基于RDF的图形集成和交换信息。它还允许用户添加新的节点和关系，甚至子结构，而不需要重新构建数据集。\nRelation Protocol（关系协议）构建了一种创新的去中心化社交图谱协议，通过语义 SBT 和标准数据格式为开发者提供区块链原生数据层，为社交互动提供可信、开放和互操作的基础设施。在该协议中，当用户与DApp应用互动时，他们将在区块链上生成大量数据。这些数据是标准化的、可机器读取的RDF数据。在更深层次上，用户将拥有更真实的数据所有权和控制权。用户可以共享由其生成的所有社交数据，并决定如何使用它。\n\nRelation Protocol 正在为Web3构建去中心化的社交协议层，提供区块链原生的社交体验。这促进了无缝的数据集成和可定制的隐私设置，以便社区更好地协调，实现增强的用户主权和网络效应。\nRelation 提出了EIP-6239语义SBT规范通用数据模型和事件。根据这个规范，社区和个人都可以通过部署智能合约来构建他们在社交图谱中的关系。\n使用事件作为原子单位将新的或更新的图形数据集成到全局社交图谱中，也是一种新颖的方法，并且更便于图数据库的维护和更新，使之更加透明和具有防篡改性。\nRelation 整合了RDF，一种灵活和表达性强的图数据模型，用于描述资源之间的关系，非常适合用来表示社交图谱和其他复杂的数据结构。使用RDF，Relation Protocol 能够轻易地从多个来源整合数据，并以一种一致和可互操作的格式表示数据。它为社交网络提供了高度可扩展和可组合的数据模型，使得不同的应用程序和智能合约能够无缝地相互交互并共享数据。由此，Relation在Web3中实现了去中心化的社交数据中间层。它通过 RDF，将多链社交数据集成到全局社交图谱中。配置隐私设置的隐私SBT 模块（Private SBTs）是一个独特的功能，使用户能够控制不同社交环境中的内容访问。通过语义SBT在本地上链或公开可见的数据托管，Relation Protocol 消除了信任中介的需求，增加了去中心化和安全性。\nRelation Protocol是一个具备社交隐私可编程和身份管理功能的协议，它允许本地化的链上原生数据存储和去中心化的访问控制，为用户提供更多对个人数据和内容的控制权。该协议通过创新的隐私SBT提供了用户自定义隐私设置的能力，用户可以根据他们的社交关系和互动背景自行设定隐私设置，从而更好地控制谁可以访问他们的数据和内容。相比传统社交网络平台，Relation Protocol避免了中心化的数据存储和通过定向广告获利的模式。\nRelation Protocol在2022年4月推出了第一个试点应用——Relation ONE。Relation ONE旨在成为新兴社交市场的Web3社交门户。\nRelation ONE能够在Web2和Web3社交身份之间建立桥梁，允许用户在两个甚至多个生态系统中管理其个人资料。该应用基于钱包地址构建即时通讯功能，允许用户在跨平台上进行 Web3链原生、安全和私密的通信，并通过使用基于 NFT 的身份链上验证形成群组。Relation ONE引入了一种独特且有效的建立具有共同兴趣的全新社交方式，促进了紧密联系的社群的形成，并激励社区成员做出贡献和参与讨论。这有助于内容创作者吸引更加精准和有兴趣的受众，从而推动更有意义的互动和更大范围的内容曝光。最后，去中心化的访问控制功能赋予用户更多对其发布内容的控制权，确保只有拥有适当权限的人可以访问它，这对于维护隐私或限制访问独家内容有着相当程度的重要性。\n目前，Relation ONE连接了超过 20 万用户、超过 300 万个唯一钱包地址和社交账号，并建立了超过 1100 万个社交图谱节点。该应用具有社交化的游戏特性，并通过内置社交推荐机制实现了指数级的用户增长。\nRelation ONE只是基于Relation Protocol搭建社交应用的一个用例。任何想要在 Relation Protocol上构建社交 DApps 的开发人员都可以这样做。例如，开发人员可以构建去中心化的约会平台、去中心化的信贷贷款系统、去中心化的内容分发网络和去中心化的广告网络。目前，去中心化钱包 Hashkey Me和Web3招聘平台Dejob已经接入了 Relation Protocol以增强其业务的社交属性。Relation Protocol的潜力将吸引更多开发者，共同构建去中心化社会的生态系统。",
           "link": "https://www.panewslab.com/zh/articledetails/9o71bocw.html",
           "publishedOn": "2023-03-15T02:00:56.000Z",
-          "wordCount": 1334,
+          "wordCount": 1327,
           "title": "Relation Protocol：建立可隐私的Web3社交图谱，服务下一个十亿用户",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/14/images/UbaKL775iC.webp"
         },
@@ -4064,7 +4074,7 @@
           "description": "2023年3月13日，Euler Finance因为donateToReserves方法存在缺少资金风险检查漏洞资金池遭遇闪电贷攻击，损失近两亿美元目前被盗资金仍在黑客地址0xb66cd966670d962c227b3eaba30a872dbfb995db.\n部分Euler受害者已主动联系比特丛林，双方正在对委托合作细节进行沟通和确认。比特丛林将会从区块链溯源的角度去支持Euler项目方和受害者争取早日追回被盗的数字资产。如果有需要请联系比特丛林，官方推特@bitjungle_team 或联系官方邮箱bitjungle@163.com\n攻击原因：\nEuler平台使用户能够通过铸造 EToken 并直接使用铸造的 EToken 作为抵押品来增加债务。即使用户账户中没有剩余流动性，用户仍然可以加杠杆。\n通常情况下，在Euler平台的合约中，通过checkLiquidity方法验证用户资金风险，以决定是否继续执行操作。\n2022年7月份的85abe8d0986f97557159d26c5e79df6d78eccc53更新中EToken.sol合约添加了donateToReserves的方法，允许用户将平台的eToken转赠给其他用户，但是该donateToReserves方法缺乏checkLiquidity的资金风险检查，导致有风险的资金也可以被转赠给其他人。\n攻击过程：\n01-攻击者先通过闪电贷借入大笔资金\n02-通过Euler的自我借贷功能借入更大笔的资金\n03-通过调用donateToReserves将资金转移\n04-清算账户并归还闪电贷\n\n\n资金流向",
           "link": "https://www.panewslab.com/zh/articledetails/2qzv9466.html",
           "publishedOn": "2023-03-14T09:27:42.000Z",
-          "wordCount": 1194,
+          "wordCount": 1192,
           "title": "比特丛林：Euler Finance 因新增功能存在漏洞，被盗近2亿美金",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/14/images/g2YtgSrObY.jfif"
         },
