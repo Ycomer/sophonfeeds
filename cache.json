@@ -67,7 +67,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Optimism 发布 Bedrock 主网升级提案 v2 版本，将为 L2 网络提供模块化、简单性和以太坊等价性等性能。a16z crypto 成员 Ross Shuel 总结了团队看好 Optimism Bedrock 升级的三个原因，分别为：模块化带来的创新、开发者的飞轮效应以及共享基础设施的协同优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">https://twitter.com/RossShuel/status/1635630396628140034</a></p>\n<p><strong>文章作者：</strong></p><p>Ross Shuel</p><hr><h3>观点：</h3><p><strong>Ross Shuel：</strong>OP Stack 的引入使用户摆脱了构建区块链必需的引导和技术要求，并允许通过其高度模块化的设计进行实验。可以预见，这种开放的实验和快速迭代的框架会推动新的大规模 L2 部署。【原文为英文】</p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">内容来源</a><p><strong>Ross Shuel：</strong>开发者的飞轮效应：开发者给予 OP Stack 上推出他们的链，并为代码库和工具做出贡献→OP Stack 的代码库和开发经验逐渐成熟和改善→更多的开发者使用 OP Stack 推出他们的链并为生态系统做出贡献。【原文为英文】</p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">内容来源</a><p><strong>Ross Shuel：</strong>Bedrock 的升级为超级链的愿景打下了基础。具有共享基础设施的 OP 区块链将拥有更强大的安全假设（Security Assumptions）、更好的工具和新的排序模型，为创新打开了巨大的设计空间。【原文为英文】</p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">内容来源</a>",
           "link": "https://twitter.com/RossShuel/status/1635630396628140034",
           "publishedOn": "2023-03-15T03:35:30.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】a16z 团队成员谈 Optimism Bedrock 升级：有何积极影响？",
           "imageUrl": null
         },
@@ -137,7 +137,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ABCDE 投研合伙人 Lao Bai 将 $sUSD 归类为新算稳三杰，LD Capital 研究员 duoduo 遂撰推解读 sUSD 的代币机制，认为随着 V3 版本实施和 Optimism 的资金流入增加，sUSD 的可扩展性增强，生态会更丰富。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">https://twitter.com/angalina2021/status/1635582678035759105</a></p>\n<p><strong>文章作者：</strong></p><p>duoduo</p><hr><h3>观点：</h3><p><strong>duoduo：</strong>如何铸造？质押 SNX 可以生成稳定币 sUSD，SNX 铸造 sUSD 的抵押率是 400%，清算线则是 160%。这是一个比较高的抵押率，可以应对市场极端风险，维持系统的稳定。如何锚定？sUSD 通过套利机制维持价格锚定，铸造价格始终为 1 美元，当市场价格高于铸造价格时，套利者可以铸造新的 sUSD，按照市场价格卖出获利，市场供应增加，价格回落。反之则套利者可以从市场买回 sUSD，然后销毁 sUSD，降低债务。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a><p><strong>duoduo：</strong>债务池是质押的 SNX 都放进去的一个池子。当用户铸造 sUSD 时，铸造出来的 sUSD 的数量占所有 sUSD 的数量就是用户在整个债务池的比例，所有被铸造的 sUSD 就是总债务。如果 A 的投资策略实现资产升值（如 sUSD 购买 sETH，sETH 价格上涨）就会导致 B 的债务增加。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a><p><strong>duoduo：</strong>债务池可以为各类协议提供流动性，零滑点，充当交易对手方，具有较好的可组合性。在此基础上，SNX 建立自己的生态。Synthetix 不直接提供任何前端，而是充当 DeFi 协议的后端流动性提供者。目前的生态包括 Curve、合约交易所 Kwenta、期权交易所 Lyra 等。sUSD 有自身较为稳定的应用场景。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a><p><strong>duoduo：</strong>Synthetix 正在进行 V3 版本的修改。在 V3 中，将新增质押资产的种类，除了 SNX 之外，ETH 等其他加密代币也可以质押生成 sUSD。此前，sUSD 的规模受到 SNX 市值的限制，V3 版本实施后，将不再受限于此，sUSD 的可扩展性增强。随着流入 Optimism 的资金增长，有机会建立更丰富的生态，获取更大市场规模。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a>",
           "link": "https://twitter.com/angalina2021/status/1635582678035759105",
           "publishedOn": "2023-03-14T10:53:16.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "$sUSD 成为新算稳三杰？一文解读其代币机制",
           "imageUrl": null
         },
@@ -227,7 +227,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近日，美国三家加密货币友好银行机构 Silvergate 、Silicon Valley Bank、Signature Bank New York，自愿清算或被美国监管机构接管，引起了市场波动。Glassnode 作者 Checkmate 通过相关数据变化总结了其在链上资产以及市场结构中的影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://insights.glassnode.com/the-week-onchain-week-11-2023/\">https://insights.glassnode.com/the-week-onchain-week-11-2023/</a></p>\n<p><strong>文章作者：</strong></p><p>glassnode</p><hr><h3>观点：</h3><p><strong>glassnode：</strong>在 2023 年最具影响力的一周之后，数字资产行业在美国缺少了三家友好的加密银行机构，并且数字资产行业处于日益敌对的监管环境中。随着传统金融市场在周末关闭，几种稳定币经历了与 1 美元挂钩偏离的情况，在周日有保证存款消息传出后得到恢复。【原文为英文】</p><a href=\"https://insights.glassnode.com/the-week-onchain-week-11-2023/\">内容来源</a><p><strong>glassnode：</strong>投资者的反应与 FTX 之后有些相似，将稳定币净转入交易所，并选择持有 BTC 和 ETH。宏观角度看，该行业在过去一个月中经历了约 59 亿美元的净流出。从许多方面来看，本周强化了 Satoshi 创建无信任、稀缺、数字资产的原因。【原文为英文】</p><a href=\"https://insights.glassnode.com/the-week-onchain-week-11-2023/\">内容来源</a>",
           "link": "https://insights.glassnode.com/the-week-onchain-week-11-2023/",
           "publishedOn": "2023-03-14T06:51:22.000Z",
-          "wordCount": 2199,
+          "wordCount": 2209,
           "title": "【英文】Glassnode 周报：三家银行倒下",
           "imageUrl": "https://insights.glassnode.com/content/images/2023/03/00_cover-1.png"
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2252,
+          "wordCount": 2046,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -397,7 +397,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1283,
+          "wordCount": 1077,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -547,7 +547,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1719,
+          "wordCount": 1712,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -567,7 +567,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17742,
+          "wordCount": 17782,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -577,7 +577,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -847,7 +847,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a>",
           "link": "https://twitter.com/ipor_intern/status/1634071620498382851",
           "publishedOn": "2023-03-11T03:10:11.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？",
           "imageUrl": null
         },
@@ -887,7 +887,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Silvergate Bank 清盘后，硅谷银行（Silicon Valley Bank）也被爆出疑似存在流动性问题。硅谷银行曾投资包括 Coinbase 在内的多个加密企业，并且持有 Circle（USDC）以及 PAXOS（BUSD）部分稳定币储备资产，星球日报作者秦晓峰根据公开资料整理了与其有关的加密企业和涉及的资金规模。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185656\">https://www.odaily.news/post/5185656</a></p>\n<p><strong>文章作者：</strong></p><p>秦晓峰</p><hr><h3>观点：</h3><p><strong>秦晓峰：</strong>Coinbase：Coinbase 为了打通法币入金，使用了 SVB 的 ACH（自动清算所）服务，并向其支付了 40 万股认股权证。该认股权证可以让 SVB 以 1 美元的价格购买 40 万股 B 类股票，目前 Coinbase 股价在 58 美元，SVB 持股价值接近 2400 万美元。值得注意的是，Coinbase 与硅谷银行的合作在 2015 年就已经到期。</p><a href=\"https://www.odaily.news/post/5185656\">内容来源</a><p><strong>秦晓峰：</strong>Circle：Circle 资产储备中约 20% 为现金，由 8 个受美国监管的银行合作伙伴分别持有，SVB、Silvergate 位列其中，但此前的审计报告中并未透露每家机构具体托管现金数量。Paxos：Paxos 现金储备分散在多个存款网络，其中 3451 万美元归属 FDIC 承保存款分配网络，Silvergate 以及 SVB 是 FDIC 承保存款分配网络中的参与方。</p><a href=\"https://www.odaily.news/post/5185656\">内容来源</a><p><strong>秦晓峰：</strong>Plum：智能货币应用程序 Plum，曾于 2022 年 10 月获得 SVB 500 万英镑债务融资。Keepit：2022 年 6 月，SaaS 数据保护平台提供商 Keepit 获得了 2250 万美元的债务融资，领投方包括 SVB 以及 Vaekstfonden。Alviere：2022 年 6 月，嵌入式金融平台 Alviere 宣布获得 SVB 投资，具体金额未知。</p><a href=\"https://www.odaily.news/post/5185656\">内容来源</a><p><strong>秦晓峰：</strong>Plaid：2021 年 9 月，SVB 宣布与美国支付公司 Plaid 合作，SVB 是第一家提供与 Plaid 集成 ACH 账户代币的银行。2021 年，Plaid  完成 4.25 亿美元 D 轮融资，由摩根大通领投。Paystand：基于区块链的 B2B 支付公司 PayStand 在 2018 年获得 SVB 加速器孵化支持，成功获得一批早期客户，并在加密熊市中存活了下来。</p><a href=\"https://www.odaily.news/post/5185656\">内容来源</a>",
           "link": "https://www.odaily.news/post/5185656",
           "publishedOn": "2023-03-10T12:50:17.000Z",
-          "wordCount": 2136,
+          "wordCount": 2120,
           "title": "硅谷银行暴雷，哪些加密企业牵涉其中？",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a>",
           "link": "https://twitter.com/y_cryptoanalyst/status/1633753341577797632",
           "publishedOn": "2023-03-10T06:54:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain",
           "imageUrl": null
         },
@@ -3669,6 +3669,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/azff88vv.html",
+          "author": null,
+          "description": "PANews 3月15日，针对“币安将恢复部分BTC手续费和BUSD挂单手续费”的公告，赵长鹏在推特上表示：“鉴于最近发生的事件，我们将0费用BTC交易从BUSD转移到TUSD。”\n此前今日早些时候消息，币安宣布将于2023年3月22日8:00起，用户仅在BTC/TUSD现货交易对交易BTC时，可继续享受零挂单和吃单手续费。BUSD零挂单（Maker）手续费活动将不再包括BNB/BUSD、BTC/BUSD和ETH/BUSD现货和杠杆交易对。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/azff88vv.html",
+          "publishedOn": "2023-03-15T07:21:47.000Z",
+          "wordCount": 1128,
+          "title": "赵长鹏：币安将零费用BTC交易从BUSD转移到TUSD",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/lr8qb10u.html",
           "author": null,
           "description": "来源：The Block\n编译：Mary Liu，比推 BitpushNews\n在 Silvergate Bank、硅谷银行（Silicon Valley Bank：SVB) 和 Signature Bank 三个著名的加密银行合作伙伴突然倒闭后，加密初创公司寻求扩展新的银行业务，这包括 Mercury、Brex 和 Customers Bank 等替代银行服务。（相关阅读：《三家加密友好银行倒下，美国还剩下哪些加密友好型银行？》）\n一家领先加密货币投资公司的风险投资者表示，虽然储户没什么损失，但 Signature 和 Silvergate Bank 的关闭（上周也因银行挤兑而不得不停止运营）对加密行业产生了严重影响。他们说：「对于该领域的项目，美国的银行选择越来越少，这是委婉的说法，其实不是什么好消息」。\n该投资者敦促投资组合公司至少再增加一家银行，但要找到一家银行说起来容易做起来难。\n自去年年底以来，美国监管机构加强了对加密公司的监管行动，尤其是那些与银行服务相关的公司，无论是 Paxos 等稳定币发行商还是 Custodia 等数字资产银行。风险投资人 Nic Carter 将此称为「运营瓶颈 2.0」，指的是通过银行业打击加密货币。 \nCarter 在推特中表示：「一个月前，这是一个瓶颈——银行不鼓励接触加密货币，现在几乎可以说是……斩首，每家支持加密货币的银行都已关闭。」\n早期风险投资公司 Protagonist 联合创始人兼风险投资人 George Bousis 在推荐银行合作伙伴方面仍然持谨慎态度，因为环境每天都在变化。\n他对 The Block 表示：「我希望有一个更好的答案，就像有一个水晶球来知道此时会发生什么，但我没有，这是我的担忧之一，也是让我彻夜难眠的事情。」\n尽管美国公开的对加密货币友好的银行正在淡出人们的视野，但一些 web3 公司仍在设法寻找银行合作伙伴。 \n这位不愿透露姓名的风险投资者表示，选项包括 Mercury、Brex 甚至华尔街巨头摩根大通。摩根大通拒绝置评。Mercury 和 Brex 没有立即回应置评请求。\n匿名投资者称：「从中期来看，我们更喜欢大银行 [例如] 大通银行，但目前，确实建议有任何 plan B 或 C，所以像 Brex 或 Mercury 这样可以快速合作的平台是很好的选择。」\n多签名初创公司 Den 一直将 Mercury 作为银行合作伙伴，并结合链上资产的使用。\nDen 联合创始人 Jonah Erlich 谈到 Mercury 的合作过程表示，在周末突发事件之后，Den 正在听取风险投资者的建议，希望增加其在链上持有的资金的百分比。他说：「对我们来说，这是一个非常顺利的过程，我们将留在 Mercury，但也在探索利用清算账户和 GSIB [全球系统重要性银行] 在类似的金融科技平台开设账户」。   \nMercury 是一家金融科技初创公司，与两家由联邦存款保险公司 (Federal Deposit Insurance Corp.) 承保的银行 Evolve Bank 和 Trust and Choice Financial Group 合作。与标准的 250,000 美元门槛相比，它的支票和储蓄存款现在可以由 FDIC 承保高达 300 万美元。这要归功于 sweep networks 的使用，它使客户存款能够分布在各个银行中。 \nMercury 的首席执行官兼创始人 Immad Akhund 周末表示：「我们今天的新加入客户数量是平时工作日的两倍！」\n交易公司 Dexterity Capital 联合创始人兼合伙人 Michael Safai 表示，美国的另一个选择是 Customers Bank，但其中许多银行业者没有 Signature 和 Silvergate 提供的相同出入金通道。\n另一个挑战是，美国的大型银行甚至地区性银行都不支持持有代币或加密资产。\nMercury 本身是私人持有的，但其合作伙伴 Choice Financial Group 公开交易。尽管美国总统乔·拜登周一做出了保证，但在最近发生的事件之后，许多地区和大型公共银行的股票也出现严重下跌。 \nNeil Zhang 是预测市场初创公司 Frontrunner 的创始人，由于经营一家专注于在线押注的 web3 公司的双重打击，在确保银行合作伙伴关系方面遇到了麻烦。他的创业公司目前依赖两家地区性银行，MVB 和 Western Alliance。两家银行都没有立即回应对其产品发表评论的请求。\nZhang 说：「我们花了很长时间才找到愿意接纳我们的这两家银行，虽然它们不是最新的或技术含量最高的银行，但自从今年年初从 Brex 转换过来以后，我们一直对它们的服务感到满意」。  \n他补充说，尽管这两家银行在公开市场上都遭受了重大打击，但该公司并不打算放弃任何一家银行，而是一直在寻求进一步多元化。 \n许多加密初创公司至少将一些资产存储在链上。Zhang 说，Frontrunner 主要持有法定资金，但加密资产都存储在多重签名的 Gnosis Safe 钱包中。他补充说，这家初创公司还没有收到任何建议它改变这种方法的投资者的指导。\nWeb3 公司卡初创公司 Multis 首席执行官 Thibaut Sahaghian 表示， Multis 也没有收到投资者的任何建议，只是将资金分配给多家银行。他补充说，目前它还在吸引许多 web3 客户，因为它是 Mercury 提供支票账户和公司卡的可行替代方案。\nSahaghian 说：「截至目前，Multis 的财务状况良好。我们很幸运，对 SVB 的敞口有限，而且我们在多个账户（包括我们的账户）中仍然拥有充足的美元、欧元、USDC、DAI、ETH 和 BTC 资金」。\n该初创公司目前使用与 Lineage Bank 合作的 Synapse 进行银行业务，并且不打算更换供应商。它正在努力进一步使其金融服务提供商多样化。Synapse 和 Lineage Bank 没有立即回应对其产品发表评论的请求。 \n他说：「我们无法避免道德风险，因此需要多元化投资各种资产以维持业务运营，USDC 和稳定币只是部分答案，因为赎回受到当前危机的影响，通过依赖法币的中心化发行。但我们正朝着正确的方向前进。」\n总部不在美国的初创公司具有利用 Sygnum 和 Seba Bank 等参与者的优势——这些瑞士银行也被允许持有加密资产。 \nSygnum 首席客户官 Martin Burgherr 告诉 The Block，在 Silvergate 的影响之后，该银行收到大量咨询，但由于公司战略决定不为美国客户服务，他们无法完全填补空白。 \nDexterity Capital 联合创始人 Safai 说：「寻找新银行的加密公司暂时可能不得不将目光投向海外。巴哈马有几家银行，欧洲也有一些加密货币友好且值得信赖的选择。」",
@@ -3794,7 +3804,7 @@
           "description": "PANews 3月15日消息，USDC稳定币发行商Circle在博客文章中表示：“自从Signature Bank和Silvergate Bank倒闭以来，我们团队一直在夜以继日地工作以恢复USDC的流动性运营，包括引入新的交易银行合作伙伴。我们于当地时间3月13日星期一早上开始处理铸造和赎回请求，当时美国银行系统重新开放，目前正在处理积压的请求。我们在这里还有更多工作要做，包括添加具有24/7/365功能的新交易银行合作伙伴，当地时间3月13日，Circle赎回了29亿美元USDC，并铸造了70亿美元USDC。”\n文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”",
           "link": "https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html",
           "publishedOn": "2023-03-15T02:58:06.000Z",
-          "wordCount": 1134,
+          "wordCount": 1132,
           "title": "Circle：正努力恢复USDC的流动性运作，包括寻找全天候的新银行合作伙伴",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
