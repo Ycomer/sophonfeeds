@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T13:47:32.909Z</updated>
+    <updated>2023-03-15T13:52:52.883Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -182,6 +182,18 @@ Ark Invest周二通过三支基金增持超18万股Block股票（约1370万美�
 昨日报道，Ark Invest周一通过三支基金增持超9万股Block股票（约640万美元）。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】详解 Starknet 技术堆栈：工作原理、EVM 等效性、STARK 证明系统、Cairo VM…]]></title>
+        <id>https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA</id>
+        <link href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA"/>
+        <updated>2023-03-15T13:01:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Starknet Astro 研究员 Maxlion 撰文介绍  Starknet 技术堆栈，包括  Starknet 的工作原理、EVM 等效性、STARK 证明系统、Cairo VM 等等。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA">https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA</a></p>
+<p><strong>文章作者：</strong></p><p>Maxlion</p><hr><h3>观点：</h3><p><strong>Maxlion：</strong>工作原理：与以太坊相比，Starknet 只需要一个排序器执行链下计算。为了减少数据量，证明者为交易生成一个 ZK-STARK 证明，验证者在链上验证证明的正确性后，将多个 L2 交易打包成以太坊上的单个交易。由此降低了链上的执行和存储成本，从而降低 gas 费用，提高 TPS。【原文为英文】</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA">内容来源</a><p><strong>Maxlion：</strong>EVM 等效性：Starknet 使用 ZK 友好的 Cairo VM，本身不兼容 EVM 和 Solidity。但随着 Solidity 编译器 Warp 和 Cairo zkEVM Kakarot 的引入，Starknet 可以实现类型 3 的 EVM 等效。【原文为英文】</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA">内容来源</a><p><strong>Maxlion：</strong>STARK 证明系统：与其他 ZK 证明系统相比，STARK 更安全，可扩展性更强。其证明生成速度可线性扩展，验证时间和证明大小可对数扩展。证明越大，总成本和验证时间越低。此外，STARK 纯粹依靠哈希和信息理论，具有更简单的密码学假设，能够抵抗量子攻击。缺点是初始证明生成规模大。【原文为英文】</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA">内容来源</a><p><strong>Maxlion：</strong>Cairo VM 和语言：Cairo VM 是一种 STARK 友好、图灵完备的冯诺依曼 CPU 架构。通过软件编程，其性能可无限接近 ASIC。Cairo 编程语言基于 Cairo 程序集 AIR 和 Sierra，编译非常高效且安全。Cairo 类似于 Rust，有一定学习难度，支持验证者通过字节码哈希验证程序，提高链上可扩展性和隐私性，目前仍在更新中。【原文为英文】</p><a href="https://mirror.xyz/0xb9e749FD3802D4A2162320ea7dB5AB8bf66a0AEA/o01pUdqNRRudOEoH8_beZK2vK7nmbku6PO2Nzgo9iQA">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
