@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T03:40:18.841Z</updated>
+    <updated>2023-03-15T03:45:37.400Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[【英文长推】a16z 团队成员谈 Optimism Bedrock 升级：有何积极影响？]]></title>
+        <id>https://twitter.com/RossShuel/status/1635630396628140034</id>
+        <link href="https://twitter.com/RossShuel/status/1635630396628140034"/>
+        <updated>2023-03-15T03:35:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Optimism 发布 Bedrock 主网升级提案 v2 版本，将为 L2 网络提供模块化、简单性和以太坊等价性等性能。a16z crypto 成员 Ross Shuel 总结了团队看好 Optimism Bedrock 升级的三个原因，分别为：模块化带来的创新、开发者的飞轮效应以及共享基础设施的协同优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/RossShuel/status/1635630396628140034">https://twitter.com/RossShuel/status/1635630396628140034</a></p>
+<p><strong>文章作者：</strong></p><p>Ross Shuel</p><hr><h3>观点：</h3><p><strong>Ross Shuel：</strong>OP Stack 的引入使用户摆脱了构建区块链必需的引导和技术要求，并允许通过其高度模块化的设计进行实验。可以预见，这种开放的实验和快速迭代的框架会推动新的大规模 L2 部署。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a><p><strong>Ross Shuel：</strong>开发者的飞轮效应：开发者给予 OP Stack 上推出他们的链，并为代码库和工具做出贡献→OP Stack 的代码库和开发经验逐渐成熟和改善→更多的开发者使用 OP Stack 推出他们的链并为生态系统做出贡献。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a><p><strong>Ross Shuel：</strong>Bedrock 的升级为超级链的愿景打下了基础。具有共享基础设施的 OP 区块链将拥有更强大的安全假设（Security Assumptions）、更好的工具和新的排序模型，为创新打开了巨大的设计空间。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[美国检察官在听证会上再次努力阻止将Voyager的关键部分出售给Binance.US]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/vue2kpn3.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/vue2kpn3.html"/>
@@ -206,6 +218,18 @@ OpenAI 还称，GPT-4 参加了多种基准考试测试，包括美国律师资�
 文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay]]></title>
+        <id>https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291</id>
+        <link href="https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291"/>
+        <updated>2023-03-15T02:53:28.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay</h3>
+<p>隐私保护协议 Manta Network 宣布在先行网 Calamar 上线 ZK 隐私转账协议 MantaPay。MantaPay 是基于 ZK 技术的多资产去中心化隐私转账协议，用户可将 ERC20 等资产桥接至 MantaPay，实现隐私转账。MantaPay 计划在未来支持 ERC721、ERC1155 等 NFT 资产及灵魂绑定代币（SBT）。受监管政策影响，MantaPay 不支持美国、中国、伊朗等特定地区的用户使用。</p>
+<p><a href="https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9282,18 +9306,6 @@ ERC-4337如何运行？
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动]]></title>
-        <id>https://twitter.com/filecoin/status/1633935565237153792?s=46&amp;t=jVSVsk9kH4g92puFJkIbuw</id>
-        <link href="https://twitter.com/filecoin/status/1633935565237153792?s=46&amp;t=jVSVsk9kH4g92puFJkIbuw"/>
-        <updated>2023-03-10T04:15:23.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动</h3>
-<p>Filecoin 发布推特称，与以太坊兼容的 Filecoin 虚拟机 FVM 将于 3 月 14 日在 Filecoin 主网启动，届时任何用户都可以与 Filecoin 状态互动。虽然 FVM 不直接与 Filecoin 网络上数据互动，但可以协调数据存储、编辑和维护地点和方式，并让 Data DAO 和可编程存储市场等概念有望成为现实。Filecoin 表示，通过 FVM，开发人员能够创建数据中心逻辑，产生新的存储原语及其相关规模经济。此外，FVM 最终还将支持为各种执行环境编写的角色，包括 SES、eBPF 和编译为 WebAssembly 的角色。</p>
-<p><a href="https://twitter.com/filecoin/status/1633935565237153792?s=46&t=jVSVsk9kH4g92puFJkIbuw">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[火必回应：“Poloniex多部门将并入火必”的消息不属实]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/zwd2j3k2.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/zwd2j3k2.html"/>
@@ -9302,18 +9314,6 @@ ERC-4337如何运行？
 此前今日早些时候消息，Chaincatcher报道称，知情人士披露的火必全员信显示，加密货币交易平台Poloniex多部门将并入火必。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【长推】Gitcoin Presents 纪念 NFT 爆火的背后思考]]></title>
-        <id>https://twitter.com/0x_irisl/status/1633842976169558024</id>
-        <link href="https://twitter.com/0x_irisl/status/1633842976169558024"/>
-        <updated>2023-03-10T03:52:45.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>去中心化捐赠平台 Gitcoin 推出的 Gitcoin Presents 纪念系列 NFT 在停止铸造后引发市场抢购。加密研究员鸭鸭撰文解析了其爆火的背后因素，包括团队、创作者、历史 Vitalik 参与过的 NFT 拍卖及资金分配。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/0x_irisl/status/1633842976169558024">https://twitter.com/0x_irisl/status/1633842976169558024</a></p>
-<p><strong>文章作者：</strong></p><p>鸭鸭</p><hr><h3>观点：</h3><p><strong>鸭鸭：</strong>1）团队：本次活动由 Metalabel 和 Gitcoin 合作发行，Metalabel 可以理解为跨界资源整合类平台，售卖「Record」形式 NFT。团队包括 Kickstarter 联合创始人 Yancey Strickler、etsy 创始人 Rob Kalin、策展人 Anna Bulbrook 等；2）创作者：一篇 Vitalik 和其他两位作者 Zoë Hitzig 及 Glen E. Weyland 撰写的学术论文，两篇 Gitcoin 联创 Kevin Owocki 和 Scott Moore 的作品，均定价 0.05ETH。此外还包括 12 份额外的签名限量款拍卖，定价 10 ETH。</p><a href="https://twitter.com/0x_irisl/status/1633842976169558024">内容来源</a><p><strong>鸭鸭：</strong>3）历史：一个类似的项目是 2021 年 7 月的「Cryptomother」拍卖，Vitalik 实体原作签名负数一个 NFT，由 Venue 负责拍卖。另外一个类似的是 2020 年 Vitalik 的 Quadratic Funding，这幅 1/1 作品最终以 77.35 ETH 成交；4）资金分配上： 70% 分配至 Gitcoin，20% 归 Plurality Institute 所有，剩余 10% 则分配给 Metalabel。</p><a href="https://twitter.com/0x_irisl/status/1633842976169558024">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>

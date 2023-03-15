@@ -12,6 +12,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/RossShuel/status/1635630396628140034",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Optimism 发布 Bedrock 主网升级提案 v2 版本，将为 L2 网络提供模块化、简单性和以太坊等价性等性能。a16z crypto 成员 Ross Shuel 总结了团队看好 Optimism Bedrock 升级的三个原因，分别为：模块化带来的创新、开发者的飞轮效应以及共享基础设施的协同优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">https://twitter.com/RossShuel/status/1635630396628140034</a></p>\n<p><strong>文章作者：</strong></p><p>Ross Shuel</p><hr><h3>观点：</h3><p><strong>Ross Shuel：</strong>OP Stack 的引入使用户摆脱了构建区块链必需的引导和技术要求，并允许通过其高度模块化的设计进行实验。可以预见，这种开放的实验和快速迭代的框架会推动新的大规模 L2 部署。【原文为英文】</p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">内容来源</a><p><strong>Ross Shuel：</strong>开发者的飞轮效应：开发者给予 OP Stack 上推出他们的链，并为代码库和工具做出贡献→OP Stack 的代码库和开发经验逐渐成熟和改善→更多的开发者使用 OP Stack 推出他们的链并为生态系统做出贡献。【原文为英文】</p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">内容来源</a><p><strong>Ross Shuel：</strong>Bedrock 的升级为超级链的愿景打下了基础。具有共享基础设施的 OP 区块链将拥有更强大的安全假设（Security Assumptions）、更好的工具和新的排序模型，为创新打开了巨大的设计空间。【原文为英文】</p><a href=\"https://twitter.com/RossShuel/status/1635630396628140034\">内容来源</a>",
+          "link": "https://twitter.com/RossShuel/status/1635630396628140034",
+          "publishedOn": "2023-03-15T03:35:30.000Z",
+          "wordCount": 513,
+          "title": "【英文长推】a16z 团队成员谈 Optimism Bedrock 升级：有何积极影响？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291",
+          "author": null,
+          "description": "<h3>Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay</h3>\n<p>隐私保护协议 Manta Network 宣布在先行网 Calamar 上线 ZK 隐私转账协议 MantaPay。MantaPay 是基于 ZK 技术的多资产去中心化隐私转账协议，用户可将 ERC20 等资产桥接至 MantaPay，实现隐私转账。MantaPay 计划在未来支持 ERC721、ERC1155 等 NFT 资产及灵魂绑定代币（SBT）。受监管政策影响，MantaPay 不支持美国、中国、伊朗等特定地区的用户使用。</p>\n<p><a href=\"https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291\">内容来源</a></p><hr>",
+          "link": "https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291",
+          "publishedOn": "2023-03-15T02:53:28.000Z",
+          "wordCount": 2330,
+          "title": "Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay",
+          "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*DmgLxeoiBJh-EZpdAx08ww.png"
+        },
+        {
           "id": "https://twitter.com/TimBeiko/status/1635769239272591360",
           "author": null,
           "description": "<h3>以太坊 Goerli 测试网激活 Shapella 升级</h3>\n<p>以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。以太坊核心开发人员 Tim Beiko 表示，由于几个测试网验证器在 Goerli 分叉之前没有升级他们的客户端软件，导致初期处理存款的过程并不顺利，但问题已经解决。Shapella 预计于 4 月初在以太坊主网上激活，具体日期将于本周四的以太坊执行层核心开发者会议（ACDE）确定。</p>\n<p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Tim Beiko（以太坊核心开发者）：</strong>一个原因是鉴于 ETH（Goerli）毫无价值，运行验证节点 / 监控它的动力就会减少。另一个可能的原因是在分叉处处理了大量的取款凭证更改。鉴于这是人们第一次提交这些更改，还有更多需要处理的内容，这可能导致在低资源节点上丢失块 / 证明。【原文为英文】</p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a>",
@@ -457,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行的破产是自 2008 年以来最大的银行破产，银行挤兑已进入加密生态系统，第二大稳定币 USDC 跌至 0.85 美元的低点，整个 DeFi 生态系统经历了一次大规模的压力测试，引发人们对 DeFi 暴露于中心化的风险的质疑。Delphi Digital 复盘了此次硅谷银行破产引发 USDC 脱锚并带来一系列连锁反应的整个过程及影响。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">https://twitter.com/Delphi_Digital/status/1634956817641111554</a></p>\n<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>故事从最近持有债券的银行未实现的损失大量增加开始。随着利率上升，银行资产负债表上的长期债券的价值正在下降。指定为持有至到期的债券不会被标记为其公允市场价值（FMV）。如果银行被迫出售这些贬值的债券以获得流动性，意味着银行按 FMV 实现了这些损失。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>硅谷银行客户在 3 月 9 日（星期四）试图提取 420 亿美元。为了满足提款，硅谷银行被迫开始清算他们的债券组合。当硅谷银行被迫出售其 210 亿美元的可供出售的债券组合时，他们损失了 18 亿美元，硅谷银行被迫停止提款，FDIC 接管了硅谷银行。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a><p><strong>Delphi Digital：</strong>USDC 435 亿美元的储备中，有 33 亿美元在硅谷银行。周五，Circle 停止了 USDC 的赎回，随后，USDC 脱锚，其价格在各大交易所最低跌至 85 美分。随着 USDC 的脱锚，混乱随之而来：Aave 冻结头寸；Compound 停用 USDC 供应交易；MakerDAO 限制对 USDC 的敞口；Curve 3pool 和 Uniswap 的 USDT 流动性几乎枯竭；其他由 USDC 支持的稳定币也跌至历史最低（DAI 0.86 美元、FRAX 0.88 美元）。【原文为英文】</p><a href=\"https://twitter.com/Delphi_Digital/status/1634956817641111554\">内容来源</a>",
           "link": "https://twitter.com/Delphi_Digital/status/1634956817641111554",
           "publishedOn": "2023-03-13T03:57:25.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】复盘硅谷银行破产：DeFi 生态的一次大规模压力测试",
           "imageUrl": null
         },
@@ -477,7 +497,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1727,
+          "wordCount": 1706,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -577,7 +597,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受硅谷银行破产影响，USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中，有人选择恐慌抛售，也有人探底买入。Lookonchain 分析链上数据，整理总结多家机构投资者分别如何应对这场 USDC 脱锚危机。中文版由 Odaily 星球日报译者 Moni 编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185667\">https://www.odaily.news/post/5185667</a></p>\n<p><strong>文章作者：</strong></p><p>Lookonchain</p><hr><h3>观点：</h3><p><strong>Lookonchain：</strong>概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市前通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 Vitalik、Poap.xyz 创始人 worthalter 和 Taureon Capital 则在底部买入了 USDC。</p><a href=\"https://www.odaily.news/post/5185667\">内容来源</a><p><strong>Lookonchain：</strong>另一方面，孙宇晨、IOSG Ventures、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。</p><a href=\"https://www.odaily.news/post/5185667\">内容来源</a>",
           "link": "https://www.odaily.news/post/5185667",
           "publishedOn": "2023-03-12T05:09:38.000Z",
-          "wordCount": 2094,
+          "wordCount": 2102,
           "title": "如何利用「USDC 危机」套利？这 17 位「超级大户」的手法如下",
           "imageUrl": null
         },
@@ -807,7 +827,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 21003,
+          "wordCount": 21000,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -4014,7 +4034,7 @@
           "description": "PANews 3月14日消息，据The Block报道，周二，欧洲议会以 500 票赞成、23 票反对通过了《数据法》下的立法。该立法及其关于智能合约的规定并未明确针对加密行业，而是侧重于来自连接设备或物联网的数据。然而，业内一些人担心，如果范围没有明确定义，数据法案可能会对加密产生深远影响，尤其是在智能合约支撑 DeFi 基础设施的情况下。\n智能合约属于《数据法》第 30 条的规定，即“关于数据共享智能合约的基本要求”。条款包括“严格的访问控制机制”和集成到智能合约设计中的商业秘密保护。需要有终止或中断交易机制的可能性，立法者需要决定在哪些条件下允许这样做。最重要的是，智能合约将有望面临与通过不同方式生成的任何其他合约相同的“保护水平和法律确定性”。\n上月，Circle欧盟事务总监表示，欧洲议会就《欧盟数据法》达成初步协议，其中包括对智能合约的监管。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/95kuz5id.html",
           "publishedOn": "2023-03-14T12:07:40.000Z",
-          "wordCount": 1140,
+          "wordCount": 1138,
           "title": "欧盟《数据法》下的立法获得通过，将通过智能合约进行监管",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
