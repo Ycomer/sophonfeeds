@@ -157,7 +157,7 @@
           "description": "<h3>X2Y2 对 NFT 贷款和再融资收取管理费</h3>\n<p>NFT 市场平台 X2Y2 发推宣布，对 NFT 借贷和再融资收取管理费。具体而言，每笔 NFT 贷款将向贷方收取 10% 的利息作为平台费用，并向借款人收取本金的 0.2% 作为再融资服务费。</p>\n<p><a href=\"https://twitter.com/the_x2y2/status/1635655532215418882\">内容来源</a></p><hr>",
           "link": "https://twitter.com/the_x2y2/status/1635655532215418882",
           "publishedOn": "2023-03-15T05:49:48.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "X2Y2 对 NFT 贷款和再融资收取管理费",
           "imageUrl": null
         },
@@ -257,7 +257,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>App-Specific Rollup（ASR）或 RollApp 是作为区块链上的 rollup 部署的单个应用程序，这与 Arbitrum 和 Optimism 这样的通用 rollup 形成对比，后者允许部署整个 Dapp 生态系统在他们身上。加密研究员 Shiva 撰推解析 ASR 的原理和优势，认为 ASR 会使以太坊成为「全球价值互联网」。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ShivanshuMadan/status/1635566500458418176\">https://twitter.com/ShivanshuMadan/status/1635566500458418176</a></p>\n<p><strong>文章作者：</strong></p><p>shivamadan.eth</p><hr><h3>观点：</h3><p><strong>shivamadan.eth：</strong>网络上的每个 dapp 都有不同的区块空间需求生命周期，通用 rollup 将来自其生态系统中所有应用程序的 tx 组合在一起，并将它们分批放入同一个区块中，因此如果区块空间需求很高，那么所有应用程序的价格都会很高。另一方面，ASR 可以在 silo 中创建自己的批量交易，并为自己的用例优化区块空间。【原文为英文】</p><a href=\"https://twitter.com/ShivanshuMadan/status/1635566500458418176\">内容来源</a><p><strong>shivamadan.eth：</strong>ASR 优势：1）对原生代币的完全控制，同时仍然利用基础层的安全性；2）快速出块时间；3）专用区块空间；4）自定义 EVM 限制，可以针对游戏等极端用例进行调整而不会牺牲很多其他属性；5）无缝桥接能力，可以进行微调以实现与其他链的无缝互操作性。【原文为英文】</p><a href=\"https://twitter.com/ShivanshuMadan/status/1635566500458418176\">内容来源</a>",
           "link": "https://twitter.com/ShivanshuMadan/status/1635566500458418176",
           "publishedOn": "2023-03-14T12:38:18.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】App-Specific Rollup：允许整个 DApp 生态系统部署在其之上",
           "imageUrl": null
         },
@@ -287,7 +287,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Synthetix 官方撰推发文，对其 V3 版本进行详解，包含其架构、重点功能，并探讨每个功能和机制，认为 V3 升级彻底改造了 Synthetix，为一系列链上衍生品提供动力。几乎任何衍生协议都可以基于 V3 而不是从头开始构建。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">https://twitter.com/synthetix_io/status/1634285809150095362</a></p>\n<p><strong>文章作者：</strong></p><p>Synthetix</p><hr><h3>观点：</h3><p><strong>Synthetix：</strong>Synthetix V3 是可组合的衍生流动性协议，旨在成为链上金融产品的通用和模块化基础。两个关键价值主张：1）面对质押者，一系列的池 / 金库存款，连接到一系列衍生品市场 —— 从而选择市场敞口和预期回报的水平和类型。2）面对协议，一系列用于抵押新衍生品市场的矿池 / 金库或创建矿池并通过奖励吸引抵押品的工具。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>V3 重点：1）DeFi 衍生品的流动性层，推动下一代无许可的衍生品；2）通过多重质押给质押者权力，创建了一个与抵押品类型无关的通用金库系统，抵押品必须经过治理批准。 3）一个可组合的、对开发人员友好的系统；4）未来将能够部署到任何 EVM 兼容链上。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>其他功能和机制：1）围绕市场构建，市场决定了相关资产的定价逻辑；2）可以使用市场定价逻辑和价格反馈来部署新的合成资产；3）多抵押品质押，允许治理支持任何抵押品来支持合成资产，抵押品期权将具有可调整的变量；4）贷款，但不会面临债务池风险，也没有利息和发行费用；5）差异化的流动性（债务）池；6）市场创建者可以从多个预言机解决方案中进行选择以设置自定义聚合；7）奖励管理器。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a>",
           "link": "https://twitter.com/synthetix_io/status/1634285809150095362",
           "publishedOn": "2023-03-14T10:03:50.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Synthetix V3：为下一代链上衍生品和金融产品提供动力的流动性层",
           "imageUrl": null
         },
@@ -357,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>2023 年 3 月 13 日，在以太坊区块链上运行的借贷平台 Euler Lab 遭到攻击，导致攻击者盗取超过 1.9 亿美元。SlowMist 分析此次被盗过程以及原因，呼吁去中心化金融领域平台应实施严格安全措施来防范恶意行为者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/slowmist_team/status/1635288963580825606\">https://twitter.com/slowmist_team/status/1635288963580825606</a></p>\n<p><strong>文章作者：</strong></p><p>SlowMist</p><hr><h3>观点：</h3><p><strong>SlowMist：</strong>两个关键因素促成了攻击的成功：1）资金被捐赠到预留地址，没有经过流动性检查。这创造了一种可以直接触发软清算的机制。2）当高杠杆触发软平仓逻辑时，收益率增加，使得清算人仅通过将一部分负债转移给自己，就可以获得被平仓用户账户中的大部分抵押资金。鉴于抵押资金的价值超过了负债的价值（由于软清算而仅部分转移），清算人能够成功通过他们的资产健康状况检查并提取获得的资金。【原文为英文】</p><a href=\"https://twitter.com/slowmist_team/status/1635288963580825606\">内容来源</a>",
           "link": "https://twitter.com/slowmist_team/status/1635288963580825606",
           "publishedOn": "2023-03-14T06:54:21.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】SlowMist：以太坊借贷平台 Euler Lab 遭到攻击，去中心化金融领域安全措施待加强",
           "imageUrl": null
         },
@@ -557,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -617,7 +617,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -637,7 +637,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>\n<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a>",
           "link": "https://twitter.com/ArbiAlpha/status/1634615208848281603",
           "publishedOn": "2023-03-13T05:49:16.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】对冲挂钩资产风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -687,7 +687,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1709,
+          "wordCount": 1719,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受美国硅谷银行破产影响，USDC 正经历着严重脱锚的危急时刻。FRAX 作为完全由 USDC 作为抵押物的去中心化稳定币该如何应对？加密 KOL Francesco 分析了当前 FRAX 面临的问题，并总结了 FRAX 创始人 Sam 的解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">https://twitter.com/francescoglt/status/1634929747728932864</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>尽管 Frax 将其抵押率提高到了 100%，但当前的 USDC 的严重脱锚证明了 100% 的抵押率也并非完全可靠。因为 Frax 的大部分抵押品由 USDC 组成，Frax 仍然依赖于「代币化法币」敞口。Frax 并没有真正脱离中心化稳定币，并且在市场动荡期间不提供任何额外级别的保护。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a><p><strong>francesco：</strong>Frax 创始人 Sam 认为，FRAX 应该只有 1 个 RWA：将美元存入美联储主账户 (FMA)。然而 Frax 作为区块链协议想要获得 FMA 的过程将比传统的大型银行困难得多，对于能否实现这一目标仍然纯粹是猜测。Sam 在 Frax 电报群中提到了不依赖 USDC 的第一步：Frax 可能很快开始直接购买美国国债。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1634929747728932864",
           "publishedOn": "2023-03-13T03:24:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】USDC 严重脱锚，FRAX 如何解绑中心化稳定币？",
           "imageUrl": null
         },
@@ -707,7 +707,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17808,
+          "wordCount": 17813,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -1017,7 +1017,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20963,
+          "wordCount": 20956,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -10818,7 +10818,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1825,
+          "wordCount": 1823,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
