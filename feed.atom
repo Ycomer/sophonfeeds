@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T03:45:37.400Z</updated>
+    <updated>2023-03-15T03:50:52.361Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】a16z 团队成员谈 Optimism Bedrock 升级：有何积极影响？]]></title>
+        <id>https://twitter.com/RossShuel/status/1635630396628140034</id>
+        <link href="https://twitter.com/RossShuel/status/1635630396628140034"/>
+        <updated>2023-03-15T03:35:30.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Optimism 发布 Bedrock 主网升级提案 v2 版本，将为 L2 网络提供模块化、简单性和以太坊等价性等性能。a16z crypto 成员 Ross Shuel 总结了团队看好 Optimism Bedrock 升级的三个原因，分别为：模块化带来的创新、开发者的飞轮效应以及共享基础设施的协同优势。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/RossShuel/status/1635630396628140034">https://twitter.com/RossShuel/status/1635630396628140034</a></p>
+<p><strong>文章作者：</strong></p><p>Ross Shuel</p><hr><h3>观点：</h3><p><strong>Ross Shuel：</strong>OP Stack 的引入使用户摆脱了构建区块链必需的引导和技术要求，并允许通过其高度模块化的设计进行实验。可以预见，这种开放的实验和快速迭代的框架会推动新的大规模 L2 部署。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a><p><strong>Ross Shuel：</strong>开发者的飞轮效应：开发者给予 OP Stack 上推出他们的链，并为代码库和工具做出贡献→OP Stack 的代码库和开发经验逐渐成熟和改善→更多的开发者使用 OP Stack 推出他们的链并为生态系统做出贡献。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a><p><strong>Ross Shuel：</strong>Bedrock 的升级为超级链的愿景打下了基础。具有共享基础设施的 OP 区块链将拥有更强大的安全假设（Security Assumptions）、更好的工具和新的排序模型，为创新打开了巨大的设计空间。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】a16z 团队成员谈 Optimism Bedrock 升级：有何积极影响？]]></title>
         <id>https://twitter.com/RossShuel/status/1635630396628140034</id>
@@ -218,6 +230,18 @@ OpenAI 还称，GPT-4 参加了多种基准考试测试，包括美国律师资�
 文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay]]></title>
+        <id>https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291</id>
+        <link href="https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291"/>
+        <updated>2023-03-15T02:53:28.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay</h3>
+<p>隐私保护协议 Manta Network 宣布在先行网 Calamar 上线 ZK 隐私转账协议 MantaPay。MantaPay 是基于 ZK 技术的多资产去中心化隐私转账协议，用户可将 ERC20 等资产桥接至 MantaPay，实现隐私转账。MantaPay 计划在未来支持 ERC721、ERC1155 等 NFT 资产及灵魂绑定代币（SBT）。受监管政策影响，MantaPay 不支持美国、中国、伊朗等特定地区的用户使用。</p>
+<p><a href="https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
