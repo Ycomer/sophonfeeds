@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T04:09:23.321Z</updated>
+    <updated>2023-03-15T04:18:48.981Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Optimism技术去中心化路线图发布，拟在今年年底前完成Baseline去中心化]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/bb0z8x4o.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/bb0z8x4o.html"/>
+        <updated>2023-03-15T04:08:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，据官方消息，OP Labs发布Optimism技术去中心化路线图，路线图包含Baseline去中心化以及Cannon错误证明（Cannon Fault Proofs）两部分。OP Labs表示：“Baseline去中心化是我们的首要任务，也是我们希望在今年年底前帮助实现的目标。展望未来，我们预计完成故障证明去中心化的‘前兆’将成为2024年的重点。”
+其中Baseline去中心化将通过达成无许可输出提案和桥去中心化以实现Optimism网络和治理系统去中心化升级。同时，团队还将对Fault Proofs不断进行技术迭代，这包括三个步骤：1.实现一个执行L2状态转换的故障证明程序，这样输出就可以在L1上进行编程验证；这是故障证明激活的前兆。2.Cannon故障证明虚拟机，这将使在L1上执行故障证明程序成为可能；这是故障证明激活的另一个前兆。3.一旦两个前兆备齐，Dispute Game（整合）就可以跟进；此步骤将使Cannon能够删除L1上的故障输出；通过这一步，Optimism将是可证明错误的。
+一旦在Baseline去中心化和Cannon方面取得进展，就可以考虑其他重要步骤，包括：1.向Optimism主网部署额外的证明系统；2.逐步淘汰证明者网络；3.删除升级密钥；4.去中心化排序器（Sequencer）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Optimism技术去中心化路线图发布，拟在今年年底前完成Baseline去中心化]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/bb0z8x4o.html</id>
