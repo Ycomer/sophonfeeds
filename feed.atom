@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T09:19:08.617Z</updated>
+    <updated>2023-03-15T09:26:18.316Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Aptos上NFT如何进行跨链操作？（附手把手教程）]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/7b1x8g8e.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/7b1x8g8e.html"/>
+        <updated>2023-03-15T09:25:37.000Z</updated>
+        <summary type="html"><![CDATA[原文：《如何实现Aptos 链上NFT 的跨链？》
+作者：Aptos Global
+目前Aptos 链上NFT 可以通过Wormhole 可以实现与其他的链进行跨链了，这是如何实现的？对于普通用户来说，应该怎么操作？
+Aptos 联合创始人兼首席执行官Mo Shaikh 表示「借助 Aptos NFT 桥，Wormhole 将Aptos 的网络互操作性提升到了一个新的水平，Aptos 将会迎来通过该桥访问的数百万NFT资产和数千名创作者和艺术家。」
+NFT 桥支持在任何支持的链之间来回传输 NFT，同时保留其元数据。当一个 NFT 被转移出它的起源链时，会发生这样的事情：
+1）NFT 被锁定在 NFT 桥智能合约中；
+2）一个等效的包装 NFT 被铸造到目标链上的相对应的collection中；
+3）这个被包装的 NFT 同名，看起来和原来的一样，行为也和链上的其他 NFT 完全一样，在 EVM 链上，包装的 NFT 是 ERC721 代币，在 Solana 上，它们是带有 Metaplex 元数据的 SPL 代币，在 Aptos 上，它们是 Aptos 代币标准的实例。
+除了名称和外观之外，被包装的 NFT 的独特之处在于能够将它们发送回原始链并解锁原始 NFT。这意味着，例如，源自 Aptos 的 NFT 可以桥接到以太坊，随后在 Opensea 上出售，然后可以由新所有者转回 Aptos。
+用户目前可以将 NFT 从 Arbitrum、Aurora、Avalanche、BSC、Celo、Ethereum、Fantom、Karura、Klaytn、Moonbeam、Oasis、Optimsm、Polygon 和 Solana 桥接到 Aptos，反之亦然。
+过去，一些高级 NFT，如数十个 Cryptopunks 和一个 Beeple，已通过 Wormhole 跨链到Aptos 上了。
+Wormhole 是什么？
+Wormhole 是一种互操作性协议，允许项目构建在其通用消息传递层之上，它链接多条链，包括 Ethereum、Solana、Binance Smart Chain、Polygon、Avalanche、Algorand、Fantom、Karura、Celo、Acala、Aptos 和 Arbitrum。
+Wormhole 通过从一条链向另一条链发送消息来实现这一点，这些消息由节点的守护者网络观察和验证，验证通过后，将这条消息提交给目标链进行处理。这个简单的消息传递原语启用 xChain 功能，用户与 xDapps（xChain 去中心化应用程序）交互以在网络之间传输 xAssets（跨链资产）或访问他们的 xData（xChain 数据）以在他们当前的网络上为他们提供服务。
+Wormhole 目前协议的总交易量已经超过$35B，已成功传输数亿条消息，每天提交数百万条消息，有超过 60 种协议构建在 Wormhole 的通用消息传递层之上。
+1）点击链接
+https://www.portalbridge.com/#/nft
+可以看到有多条链的NFT 可供选择，如选择Arbitrum 上的NFT 进行跨链；
+
+2）选择某一个待跨链的NFT，点击再经过钱包的签名确认即可；
+
+3) 点击「redeem」即可将封装好的NFT 再跨链回来。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cosmos Hub：V9 Lambda升级已完成，已启用Replicated Security功能]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/zfuqeemo.html</id>
@@ -2800,16 +2831,6 @@ Lido质押总价值突破100亿美元
 <p><strong>文章作者：</strong></p><p>shivamadan.eth</p><hr><h3>观点：</h3><p><strong>shivamadan.eth：</strong>网络上的每个 dapp 都有不同的区块空间需求生命周期，通用 rollup 将来自其生态系统中所有应用程序的 tx 组合在一起，并将它们分批放入同一个区块中，因此如果区块空间需求很高，那么所有应用程序的价格都会很高。另一方面，ASR 可以在 silo 中创建自己的批量交易，并为自己的用例优化区块空间。【原文为英文】</p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">内容来源</a><p><strong>shivamadan.eth：</strong>ASR 优势：1）对原生代币的完全控制，同时仍然利用基础层的安全性；2）快速出块时间；3）专用区块空间；4）自定义 EVM 限制，可以针对游戏等极端用例进行调整而不会牺牲很多其他属性；5）无缝桥接能力，可以进行微调以实现与其他链的无缝互操作性。【原文为英文】</p><a href="https://twitter.com/ShivanshuMadan/status/1635566500458418176">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特币突破25000美元，以太坊突破1700美元]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html"/>
-        <updated>2023-03-14T12:36:19.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元/枚，以太坊盘中突破 1700 美元/枚，均创近期新高。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
