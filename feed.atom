@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T07:43:22.195Z</updated>
+    <updated>2023-03-15T07:48:41.930Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[A&T Capital: 以太坊 MEV 提取机制的现状、问题与改进]]></title>
+        <id>https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw</id>
+        <link href="https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw"/>
+        <updated>2023-03-15T07:37:58.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>本文中 MEV 定义为通过按照某特定顺序执行 N 笔交易，为设计这套顺序的主体带来的经济利益。AnT Capital 分析师 Liam 通过分析 MEV 的利益相关者和 MEV 在 MEV-Boost 体系下的流向，分析现有的解决方案如何预防有害 MEV 提取及公平分配有利和中性 MEV，并提出改进方向。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw">https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw</a></p>
+<p><strong>文章作者：</strong></p><p>Liam（ANT Capital）</p><hr><h3>观点：</h3><p><strong>Liam（ANT Capital）：</strong>以太坊合并后，MEV 的提取与分配由 Flashbots 提出的 MEV-Boost 体系主导，流向搜寻者（Searcher）、区块建设者（Block Builder）、区块提议者（Block Proposer\Validator）和以太坊网络本身。提取 MEV 的交易被执行为创建交易的搜寻者带来收入，成本是其支付的 Gas Fee；Gas Fee 一部分根据 EIP-1559 被燃烧，另一部分以 Tip 形式流向区块建设者；区块建设者将大部分 Tip 以 MEV Rewards 形式转给区块提议者。</p><a href="https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw">内容来源</a><p><strong>Liam（ANT Capital）：</strong>从 MEV 为整个系统带来的后果看，可分为有益、中性和有害三类。如何避免有害 MEV 提取、分配有利和中性 MEV 利润是需要解决的核心问题。MEV-Boost 体系的 MEV 利润分配方案中没有考虑用户的利益。用户作为创造 MEV 提取机会的角色，保障其合理利益不被侵犯只是最基本的，不应该只保障他们的交易不被抢跑，也应该将一部分 MEV 利润返还。</p><a href="https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw">内容来源</a><p><strong>Liam（ANT Capital）：</strong>现存的私有 RPC 解决方案是基于信任假设的，用户的交易仍可能被泄露、被抢跑，甚至被审查，并且部分区块建设者对私有订单流的垄断地位会使 MEV 提取变得更不透明、更中心化。要解决「抢跑」问题，应该借助加密技术。基于「加密 - 排序 - 解密 - 执行」，将用户的交易在本地加密，在不被任何人读取交易内容的情况下完成排序共识，再解密内容，最后按已共识的排序执行交易。</p><a href="https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[浅析MEV的发展现状及趋势：这片“黑暗森林”该如何被照亮？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/02bhi4l6.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/02bhi4l6.html"/>
@@ -128,6 +140,66 @@ MEV-Boost：PoS时期，Validator可以自行去Mempool为交易排序，将其�
 此前今日早些时候消息，币安宣布将于2023年3月22日8:00起，用户仅在BTC/TUSD现货交易对交易BTC时，可继续享受零挂单和吃单手续费。BUSD零挂单（Maker）手续费活动将不再包括BNB/BUSD、BTC/BUSD和ETH/BUSD现货和杠杆交易对。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】一文了解一种新的隐私优先数字身份：World ID]]></title>
+        <id>https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk</id>
+        <link href="https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk"/>
+        <updated>2023-03-15T07:14:27.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Worldcoin 的目标是通过隐私至上、自主控制和去中心化的方式来解决人的身份证明问题。Worldcoin 撰文介绍了其产品 World ID 以及它是如何工作的。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk">https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk</a></p>
+<p><strong>文章作者：</strong></p><p>Worldcoin</p><hr><h3>观点：</h3><p><strong>Worldcoin：</strong>World ID 支持多种人身验证方式，包括通过电话号码验证和生物识别验证来证明用户的身份。在产品推出之初，用户可以通过智能手机进行电话号码验证，也可以使用 Orb 生物识别验证技术进行极高精度的验证。【原文为英文】</p><a href="https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk">内容来源</a><p><strong>Worldcoin：</strong>World ID 不是从持有人的生物识别、电话号码、加密钱包或任何其他标识符中派生或绑定而来。按照护照类比，身份验证证明（包括 Orb 的）实质上是允许持有人证明已经验证了特定护照的邮戳，而不会透露关于验证或护照本身的信息。【原文为英文】</p><a href="https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盘点三款去中心化社交协议：Lens Protocol、RSS3 与 CyberConnect]]></title>
+        <id>https://foresightnews.pro/article/detail/27998</id>
+        <link href="https://foresightnews.pro/article/detail/27998"/>
+        <updated>2023-03-15T07:08:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>去中心化的社交协议旨在通过区块链和去中心化技术，解决用户的数据归属与互操作性、平台大量剥削用户创作收益等问题。MetaCat 作者 Yooma 撰文介绍了三个去中心化社交协议 Lens Protocol、RSS3 与 CyberConnect 的核心机制以及异同点。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/27998">https://foresightnews.pro/article/detail/27998</a></p>
+<p><strong>文章作者：</strong></p><p>MetaCat</p><hr><h3>观点：</h3><p><strong>MetaCat：</strong>1）Lens Protocol 是基于 NFT 技术的身份验证协议。通过在 Polygon 链上部署合约，用户可以创建自己的 Profile NFT，以此来代表自己的身份信息，自由地在多个应用间进行身份验证和数据共享。</p><a href="https://foresightnews.pro/article/detail/27998">内容来源</a><p><strong>MetaCat：</strong>2）RSS3 协议可以用于社交媒体、新闻聚合、博客订阅等场景。通过订阅 RSS3 文件，用户可以获取自己感兴趣的信息，而且无需访问原始网站，可以节省时间和网络流量，像 Lens Protocol 则是先获取 Profile NFT，以该身份去发布浏览内容。</p><a href="https://foresightnews.pro/article/detail/27998">内容来源</a><p><strong>MetaCat：</strong>3）CyberConnect 与 Lens Protocol 有些相似，都使用 NFT 来代表用户身份，让用户拥有更多的控制权。但相比于 Lens Protocol 需要支付 gas 费，CyberConnect 使用可扩展存储模块 (SSM) 和去中心化存储 (Arweave) 来处理 Post 和评论等数据，从而减少了用户的成本和复杂度。</p><a href="https://foresightnews.pro/article/detail/27998">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？]]></title>
+        <id>https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</id>
+        <link href="https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming"/>
+        <updated>2023-03-15T07:07:38.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>
+<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href="https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href="https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href="https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href="https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ABCDE 投研合伙人：谈谈我眼中真正的「稳定币三杰」]]></title>
+        <id>https://twitter.com/wuhuoqiu/status/1635521764334911488</id>
+        <link href="https://twitter.com/wuhuoqiu/status/1635521764334911488"/>
+        <updated>2023-03-15T06:58:10.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>最近硅谷银行和 USDC 短暂脱锚让市场再次关注加密原生稳定币。ABCDE 投研合伙人 Lao Bai 讨论了他对当前几个 Native 稳定币的看法以及对未来 Native 稳定币的展望。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/wuhuoqiu/status/1635521764334911488">https://twitter.com/wuhuoqiu/status/1635521764334911488</a></p>
+<p><strong>文章作者：</strong></p><p>Lao Bai（ABCDE 投研合伙人）</p><hr><h3>观点：</h3><p><strong>Lao Bai（ABCDE 投研合伙人）：</strong>对 DAI, Frax 的看法：Frax 稳定币起家，结果反而是 DEFI 矩阵和 Curve War 玩的贼六，最近 LSD 的尝试也非常成功，不过根基 Frax 和 DAI 都面临类似相对尴尬的境地，就是应用场景过少，说白了就是除了自家 DAPP，基本没啥地方可用。</p><a href="https://twitter.com/wuhuoqiu/status/1635521764334911488">内容来源</a><p><strong>Lao Bai（ABCDE 投研合伙人）：</strong>我眼中真正的三杰：1）crvUSD。LLAMA 反向 Uni V3 式的清算机制安全；有天然的 Swap 使用场景；Curve 团队还有大量的 crv（veCRV），不担心冷启动问题。2）GHO。多链部署，理论上可以像 Stargate 里的 USDC 一样在多链上无缝移动；Lens 和 Facilitator 将扩宽其真正的使用场景。3）sUSD。在 Atomic swap 与 Curve 合作之后 + 最近 Perp V2 上线缓解缺少应用场景的问题；即将到来的 V3 版本通过引入类似 ETH 的抵押品有望解决资金效率差的问题。</p><a href="https://twitter.com/wuhuoqiu/status/1635521764334911488">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】观点：Meta 关闭支持 NFT 功能不是 Web3 的问题]]></title>
+        <id>https://twitter.com/alexisbuilding/status/1635508435021340672</id>
+        <link href="https://twitter.com/alexisbuilding/status/1635508435021340672"/>
+        <updated>2023-03-15T06:44:45.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>近日，Meta 正式关闭了支持 NFT 的功能，加密货币研究员 Alex 梳理了整起事件并认为这不是 Web3 的问题，而是 Meta 还不够了解 Web3 文化与 Web2 的不同。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/alexisbuilding/status/1635508435021340672">https://twitter.com/alexisbuilding/status/1635508435021340672</a></p>
+<p><strong>文章作者：</strong></p><p>Alex is Building</p><hr><h3>观点：</h3><p><strong>Alex is Building：</strong>去年 5 月到 11 月，Meta 开始在 Facebook 和 Instagram 上测试 NFT 功能。问题是，大多数 Twitter NFT 原生用户并不使用这些功能。而且也没有人从 Web2 转到 Web3。因此，这些功能陷入发展瓶颈。【原文为英文】</p><a href="https://twitter.com/alexisbuilding/status/1635508435021340672">内容来源</a><p><strong>Alex is Building：</strong>但这不是 Web3 的问题，这是一个公司不了解 Web3 文化与 Web2 有何不同的问题，除了「炫耀收藏品」之外，要了解不同的文化如何带来不同的需求。例如，Twitter 巧妙地拥抱了 Web3，所有功能都在促进每日活跃用户和社区建设。【原文为英文】</p><a href="https://twitter.com/alexisbuilding/status/1635508435021340672">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9031,18 +9103,6 @@ CEO 霍华德·舒尔茨财报电话会议上表示，为公司发现了一个�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】以太坊线路图 Verge 和 Purge 阶段解析：如何降低节点运行成本]]></title>
-        <id>https://twitter.com/blockworksres/status/1633867655013896193</id>
-        <link href="https://twitter.com/blockworksres/status/1633867655013896193"/>
-        <updated>2023-03-10T07:42:46.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>对于普通节点而言，参与验证和核实以太坊网络需要较高的成本。以太坊路线图中 Verge 和 Purge 阶段重点关注了该问题，在如何提高以太坊协议的效率、去中心化和稳健性方面提出了多个目标。Blockworks 研究员 Westie Capital 解析了上述两部分路线图中的技术实现方式与目标。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/blockworksres/status/1633867655013896193">https://twitter.com/blockworksres/status/1633867655013896193</a></p>
-<p><strong>文章作者：</strong></p><p>Westie</p><hr><h3>观点：</h3><p><strong>Westie：</strong>The Verge 指的是让区块验证尽可能简单和轻便的目标。The Verge 关注的是 Verkle 树和 SNARKs 的加入。Verkle 树是一种专门针对状态的 Merkle 树的更有效的替代方法，它不需要提供每个姐妹节点（共享同一个父节点的节点）到所选节点的路径，而只是提供路径本身作为证明的一部分，Verkle 证明的效率比 Merkle 证明高 3 倍。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>SNARKs 是 zk 证明的一个版本，以太坊有许多元素将通过增加 SNARKs 的验证或用 SNARKs 取代旧的证明系统来升级，以获得更好的效率。这包括：基于 SNARK 的轻客户端；共识状态变化的 SNARKs；Enshrined Rollups。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>The Purge 指的是通过降低参与验证网络的存储要求来简化协议的目标。这主要是通过对历史和状态的休眠和管理来实现的。历史数据休眠（EIP-4444）允许客户端修剪超过一年的历史数据，并停止在 P2P 层面提供服务。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a><p><strong>Westie：</strong>状态休眠。当涉及到处理状态增长时，有两个主要目标：弱无状态，指的是只使用状态来建立区块，但不验证它的目标；状态休眠，指删除在规定时间内（1 年）未被访问的状态。状态休眠应该使节点需要存储的状态总共减少 20-50 GB。【原文为英文】</p><a href="https://twitter.com/blockworksres/status/1633867655013896193">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[解析Arbitrum上的衍生品DEX GammaSwap：将无常损失转化为“无常收益”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/lcdfae46.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/lcdfae46.html"/>
@@ -9143,30 +9203,6 @@ PancakeSwap V3活动：空投和NFT奖励
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DAO 正在从零开始把人类历史上的组织方式和政治制度全部演进一遍，但是迭代速度是传统历史的 1000 倍。The SeeDAO 成员 Baiyu 参与了在 ETHDenver DAO 相关活动并和 DAO 好友交流后，撰文概述了有关 DAO 未来发展的思路。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A</a></p>
 <p><strong>文章作者：</strong></p><p>Baiyu</p><hr><h3>观点：</h3><p><strong>Baiyu：</strong>1）好的治理是一种动态的平衡，没有一劳永逸的方案；2）DAO 要跑起来必须结合链下工具，更重要的是透明和不可篡改；3）DAO 的关键在于共识和目标，在于成员对于组织的信任，在于成员在协作中建立的情感链接和信任关系网络；4）相较于发行代币，更重要的是提出明确的愿景，吸引到志同道合的早期核心团队；5）声誉代币未来可能会在 DAO 治理中被广泛应用；6）DAO 需要能够有效产出，能够有可持续的商业模式；</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a><p><strong>Baiyu：</strong>7）各种各样的 DAO 都在涌现，我们需要打开 DAO 的想象力， 真正实现大规模应用；8）除开 Arogon、tally、meloch 这些 DAO 协议模板工具，现在已经出现了为 DAO 而生的链，且其他综合类 DAO 工具诸如 DAOlens、Web3CRM 等也展现了很强的产品力，让我比较惊喜的是基于 DAO 的视角从协议层考虑 DAO 工具权限问题的「Ownable Acecess Control」；</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a><p><strong>Baiyu：</strong>9）学术研究和行业实践交叉前行，学者和组织都深入参与了 DAO 和 Web3，并结合学术资源提供自己的解决方案；10）DAO 生态已然成形，爆发是早晚的事情。</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ETHDenver 有感：DAO 正在走出乌托邦困境]]></title>
-        <id>https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A</id>
-        <link href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A"/>
-        <updated>2023-03-10T06:55:34.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DAO 正在从零开始把人类历史上的组织方式和政治制度全部演进一遍，但是迭代速度是传统历史的 1000 倍。The SeeDAO 成员 Baiyu 参与了在 ETHDenver DAO 相关活动并和 DAO 好友交流后，撰文概述了有关 DAO 未来发展的思路。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A</a></p>
-<p><strong>文章作者：</strong></p><p>Baiyu</p><hr><h3>观点：</h3><p><strong>Baiyu：</strong>1）好的治理是一种动态的平衡，没有一劳永逸的方案；2）DAO 要跑起来必须结合链下工具，更重要的是透明和不可篡改；3）DAO 的关键在于共识和目标，在于成员对于组织的信任，在于成员在协作中建立的情感链接和信任关系网络；4）相较于发行代币，更重要的是提出明确的愿景，吸引到志同道合的早期核心团队；5）声誉代币未来可能会在 DAO 治理中被广泛应用；6）DAO 需要能够有效产出，能够有可持续的商业模式；</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a><p><strong>Baiyu：</strong>7）各种各样的 DAO 都在涌现，我们需要打开 DAO 的想象力， 真正实现大规模应用；8）除开 Arogon、tally、meloch 这些 DAO 协议模板工具，现在已经出现了为 DAO 而生的链，且其他综合类 DAO 工具诸如 DAOlens、Web3CRM 等也展现了很强的产品力，让我比较惊喜的是基于 DAO 的视角从协议层考虑 DAO 工具权限问题的「Ownable Acecess Control」；</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a><p><strong>Baiyu：</strong>9）学术研究和行业实践交叉前行，学者和组织都深入参与了 DAO 和 Web3，并结合学术资源提供自己的解决方案；10）DAO 生态已然成形，爆发是早晚的事情。</p><a href="https://mp.weixin.qq.com/s/4PXK4q2TIsClVXCsz3vC_A">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain]]></title>
-        <id>https://twitter.com/y_cryptoanalyst/status/1633753341577797632</id>
-        <link href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632"/>
-        <updated>2023-03-10T06:54:23.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>
-<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href="https://twitter.com/y_cryptoanalyst/status/1633753341577797632">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -9488,30 +9524,6 @@ Read the full entry]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文长推】观点：Blur 在代币供应方面没有协调好生态系统参与者]]></title>
-        <id>https://twitter.com/crypto_mckenna/status/1633731247867584512</id>
-        <link href="https://twitter.com/crypto_mckenna/status/1633731247867584512"/>
-        <updated>2023-03-10T06:27:38.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密货币 KOL McKenna 认为 Blur 在应对创作者和 Opensea 方面做出了出色的战略决策，但在供应代币方面没有协调好生态系统参与者，并提出协调 Blur 生态系统参与者的一些想法。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/crypto_mckenna/status/1633731247867584512">https://twitter.com/crypto_mckenna/status/1633731247867584512</a></p>
-<p><strong>文章作者：</strong></p><p>McKenna</p><hr><h3>观点：</h3><p><strong>McKenna：</strong>我认为 Blur 在与创作者和 Opensea 相关的战略决策方面表现出色，但在供应方面却犯了一些错误：连续空投 10% 的总供应量、大部分社区国库资金在第一年分配、过于关注 NFT 出价。现在 BLUR 没有任何真正的池子。【原文为英文】</p><a href="https://twitter.com/crypto_mckenna/status/1633731247867584512">内容来源</a><p><strong>McKenna：</strong>如何使生态系统参与者保持一致？1）交易者 / 代币持有者：基于质押的 BLUR 费用折扣模型；推出 Launchpad，为 BLUR 质押者提供新的 NFT ；费用变为 0.5%，并直接费用分配给 BLUR 质押者。2）创作者：作品质押 BLUR，将更多的流动性引导到他们的出价中（更适合交易者）；在 BLUR 上列出的忠诚度奖励；可以访问 Launchpad。3）流动性提供者：流动性提供者需要质押 BLUR 才能获得积分乘数；如果发现有流动性提供者在操纵系统，则会对其质押的 BLUR 进行惩罚。【原文为英文】</p><a href="https://twitter.com/crypto_mckenna/status/1633731247867584512">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型]]></title>
-        <id>https://twitter.com/verumcapital/status/1633456999617773568</id>
-        <link href="https://twitter.com/verumcapital/status/1633456999617773568"/>
-        <updated>2023-03-10T06:25:13.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Verum Capital 根据加密 KOL Sectio Divina 的上个周期 CMC 100X 代币表格数据，及 Meassari 提供的这些代币在暴涨前的循环供应量数据，对这些百倍币进行代币经济模型解析，重点剖析了循环供应与 FDV 相比的表现。认为中等循环供应的项目可能会更好，因为它们融合了生态系统活力和不那么高稀释的代币经济学。注意：这不是投资建议。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/verumcapital/status/1633456999617773568">https://twitter.com/verumcapital/status/1633456999617773568</a></p>
-<p><strong>文章作者：</strong></p><p>Verum Capital</p><hr><h3>观点：</h3><p><strong>Verum Capital：</strong>在 2021 年，根据 CMC，前 100 名中有 23 名 100X 的代币。前 300 名中则有 57 个 100X。但实际上有更多，因为 CMC 列出代币的时间很晚。100 X 名单上的数据分析突出了一个相当均匀的分布。在入场前（暴涨前的最低价格）的循环供应量与 FDV 相比：1）平均值：47%；2）中位数：50%；3）16 个代币低于 25%；4）21 个处于 25% 到 75% 之间；5）12 个超过 75%。【原文为英文】</p><a href="https://twitter.com/verumcapital/status/1633456999617773568">内容来源</a><p><strong>Verum Capital：</strong>得出结论：1）高循环的百倍币之所以这么少是因为项目要么太旧，要么没有通过代币经济学激励它们的生态系统。2）低循环的百倍币数量很大，是因为看涨解锁，在牛市环境下，代币解锁不是看跌事件，因为代币会被转移给更有信心的投资者。3）高度稀释的代币经济学会导致糟糕的价格表现。需要注意：这种分析是幸存者偏差，所以任何结论 / 假设都不该认为是确定性的。【原文为英文】</p><a href="https://twitter.com/verumcapital/status/1633456999617773568">内容来源</a><p><strong>Verum Capital：</strong>可以概述两个策略：1）中长期视野下，项目不要有极度稀释的代币经济模型表现，需要有激励和生态活力以对创造对代币的强劲需求；2）短期（叙事交易）策略中，代币经济学应占更小的权重，因为解锁通常随着时间推移缓慢进行，但对于超低循环供应代币，短期内是否有重大解锁是很重要的。【原文为英文】</p><a href="https://twitter.com/verumcapital/status/1633456999617773568">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【英文长推】根据循环供应量与 FDV 对比，解析 21 年牛市的 100X 代币的经济模型]]></title>
         <id>https://twitter.com/verumcapital/status/1633456999617773568</id>
         <link href="https://twitter.com/verumcapital/status/1633456999617773568"/>
@@ -9610,18 +9622,6 @@ AA ( 账户抽象 ) 的一些设计 (EIP4337) 已经接近完成，代码开发�
 附：2023 年部分值得关注的主网上线 / 升级发布]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】比特币「新文化」运动如何为比特币带来链上效用？]]></title>
-        <id>https://twitter.com/Delphi_Digital/status/1633875872972406785</id>
-        <link href="https://twitter.com/Delphi_Digital/status/1633875872972406785"/>
-        <updated>2023-03-10T06:20:22.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Ordinals、Stacks 及 Rollkit 代表了比特币前进的新道路，即比特币并不仅仅只是数字黄金。加密研究机构 Delphi Digital 撰文对比特币「新文化」运动的进展及意义进行了解读。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">https://twitter.com/Delphi_Digital/status/1633875872972406785</a></p>
-<p><strong>文章作者：</strong></p><p>Delphi Digital</p><hr><h3>观点：</h3><p><strong>Delphi Digital：</strong>目前已经有超 365,000 个比特币 Ordinals 被铸造，Ordinal 理论为每个比特币指定了一个独特的数字和元数据，在功能上使其成为了 NFT。而这也吸引了 NFT 领域 IP 缔造者 Yuga Labs 的注意，基于 Ordinal 协议在比特币区块链上推出 NFT 系列 TwelveFold。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">内容来源</a><p><strong>Delphi Digital：</strong>Rollkit 是由 Celestia 团队创建的一个模块化 Rollup 框架，使开发人员能够插入自定义执行层和数据可用性层。且其为比特币推出了一个模块，主权 Rollup 可以管理自己的执行层并继承比特币的可用性保障和安全保障。这使得在比特币上运行 EVM 作为 Rollkit 主权 Rollup 成为可能。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">内容来源</a><p><strong>Delphi Digital：</strong>Stacks 是一个能够运行智能合约的层，其交易会在每个比特币区块上自动结算，其共识机制为 PoX。用户可向矿工支付费用以发送交易或在 Stacks 上部署智能合约。且 STX 持有者可以通过锁仓赚取 BTC。此外，用户可通过将 BTC 发送至比特币上的多签钱包铸造无需信任的双向比特币挂钩代币 sBTC。Stacks 还可以和 Rollkit 结合运作，使用 Stacks 合约作为主权 Rollup 的执行层，以便在主权 Rollup 中使用 sBTC，数据可用性则来自于比特币。【原文为英文】</p><a href="https://twitter.com/Delphi_Digital/status/1633875872972406785">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>

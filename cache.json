@@ -12,6 +12,66 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>本文中 MEV 定义为通过按照某特定顺序执行 N 笔交易，为设计这套顺序的主体带来的经济利益。AnT Capital 分析师 Liam 通过分析 MEV 的利益相关者和 MEV 在 MEV-Boost 体系下的流向，分析现有的解决方案如何预防有害 MEV 提取及公平分配有利和中性 MEV，并提出改进方向。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw</a></p>\n<p><strong>文章作者：</strong></p><p>Liam（ANT Capital）</p><hr><h3>观点：</h3><p><strong>Liam（ANT Capital）：</strong>以太坊合并后，MEV 的提取与分配由 Flashbots 提出的 MEV-Boost 体系主导，流向搜寻者（Searcher）、区块建设者（Block Builder）、区块提议者（Block Proposer\\Validator）和以太坊网络本身。提取 MEV 的交易被执行为创建交易的搜寻者带来收入，成本是其支付的 Gas Fee；Gas Fee 一部分根据 EIP-1559 被燃烧，另一部分以 Tip 形式流向区块建设者；区块建设者将大部分 Tip 以 MEV Rewards 形式转给区块提议者。</p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">内容来源</a><p><strong>Liam（ANT Capital）：</strong>从 MEV 为整个系统带来的后果看，可分为有益、中性和有害三类。如何避免有害 MEV 提取、分配有利和中性 MEV 利润是需要解决的核心问题。MEV-Boost 体系的 MEV 利润分配方案中没有考虑用户的利益。用户作为创造 MEV 提取机会的角色，保障其合理利益不被侵犯只是最基本的，不应该只保障他们的交易不被抢跑，也应该将一部分 MEV 利润返还。</p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">内容来源</a><p><strong>Liam（ANT Capital）：</strong>现存的私有 RPC 解决方案是基于信任假设的，用户的交易仍可能被泄露、被抢跑，甚至被审查，并且部分区块建设者对私有订单流的垄断地位会使 MEV 提取变得更不透明、更中心化。要解决「抢跑」问题，应该借助加密技术。基于「加密 - 排序 - 解密 - 执行」，将用户的交易在本地加密，在不被任何人读取交易内容的情况下完成排序共识，再解密内容，最后按已共识的排序执行交易。</p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">内容来源</a>",
+          "link": "https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw",
+          "publishedOn": "2023-03-15T07:37:58.000Z",
+          "wordCount": 9514,
+          "title": "A&T Capital: 以太坊 MEV 提取机制的现状、问题与改进",
+          "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/IOwyXJu0iams7RV6TmRVgicLricumFMFNU3QhZgazYjwhkqfmulTlpISkuOSCrl3vEG7H9w2tfsJAFXxMnv4bTeoA/0?wx_fmt=jpeg"
+        },
+        {
+          "id": "https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Worldcoin 的目标是通过隐私至上、自主控制和去中心化的方式来解决人的身份证明问题。Worldcoin 撰文介绍了其产品 World ID 以及它是如何工作的。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk\">https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk</a></p>\n<p><strong>文章作者：</strong></p><p>Worldcoin</p><hr><h3>观点：</h3><p><strong>Worldcoin：</strong>World ID 支持多种人身验证方式，包括通过电话号码验证和生物识别验证来证明用户的身份。在产品推出之初，用户可以通过智能手机进行电话号码验证，也可以使用 Orb 生物识别验证技术进行极高精度的验证。【原文为英文】</p><a href=\"https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk\">内容来源</a><p><strong>Worldcoin：</strong>World ID 不是从持有人的生物识别、电话号码、加密钱包或任何其他标识符中派生或绑定而来。按照护照类比，身份验证证明（包括 Orb 的）实质上是允许持有人证明已经验证了特定护照的邮戳，而不会透露关于验证或护照本身的信息。【原文为英文】</p><a href=\"https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk\">内容来源</a>",
+          "link": "https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk",
+          "publishedOn": "2023-03-15T07:14:27.000Z",
+          "wordCount": 6799,
+          "title": "【英文】一文了解一种新的隐私优先数字身份：World ID",
+          "imageUrl": "https://images.prismic.io/worldcoin-company-website/170cfad7-d23d-4032-957d-98b7277dc397_updated_cover.png?auto=compress,format"
+        },
+        {
+          "id": "https://foresightnews.pro/article/detail/27998",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>去中心化的社交协议旨在通过区块链和去中心化技术，解决用户的数据归属与互操作性、平台大量剥削用户创作收益等问题。MetaCat 作者 Yooma 撰文介绍了三个去中心化社交协议 Lens Protocol、RSS3 与 CyberConnect 的核心机制以及异同点。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://foresightnews.pro/article/detail/27998\">https://foresightnews.pro/article/detail/27998</a></p>\n<p><strong>文章作者：</strong></p><p>MetaCat</p><hr><h3>观点：</h3><p><strong>MetaCat：</strong>1）Lens Protocol 是基于 NFT 技术的身份验证协议。通过在 Polygon 链上部署合约，用户可以创建自己的 Profile NFT，以此来代表自己的身份信息，自由地在多个应用间进行身份验证和数据共享。</p><a href=\"https://foresightnews.pro/article/detail/27998\">内容来源</a><p><strong>MetaCat：</strong>2）RSS3 协议可以用于社交媒体、新闻聚合、博客订阅等场景。通过订阅 RSS3 文件，用户可以获取自己感兴趣的信息，而且无需访问原始网站，可以节省时间和网络流量，像 Lens Protocol 则是先获取 Profile NFT，以该身份去发布浏览内容。</p><a href=\"https://foresightnews.pro/article/detail/27998\">内容来源</a><p><strong>MetaCat：</strong>3）CyberConnect 与 Lens Protocol 有些相似，都使用 NFT 来代表用户身份，让用户拥有更多的控制权。但相比于 Lens Protocol 需要支付 gas 费，CyberConnect 使用可扩展存储模块 (SSM) 和去中心化存储 (Arweave) 来处理 Post 和评论等数据，从而减少了用户的成本和复杂度。</p><a href=\"https://foresightnews.pro/article/detail/27998\">内容来源</a>",
+          "link": "https://foresightnews.pro/article/detail/27998",
+          "publishedOn": "2023-03-15T07:08:48.000Z",
+          "wordCount": 2407,
+          "title": "盘点三款去中心化社交协议：Lens Protocol、RSS3 与 CyberConnect",
+          "imageUrl": "https://img.foresightnews.pro/vertical_logo.png"
+        },
+        {
+          "id": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
+          "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
+          "publishedOn": "2023-03-15T07:07:38.000Z",
+          "wordCount": 19492,
+          "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
+          "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
+        },
+        {
+          "id": "https://twitter.com/wuhuoqiu/status/1635521764334911488",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>最近硅谷银行和 USDC 短暂脱锚让市场再次关注加密原生稳定币。ABCDE 投研合伙人 Lao Bai 讨论了他对当前几个 Native 稳定币的看法以及对未来 Native 稳定币的展望。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wuhuoqiu/status/1635521764334911488\">https://twitter.com/wuhuoqiu/status/1635521764334911488</a></p>\n<p><strong>文章作者：</strong></p><p>Lao Bai（ABCDE 投研合伙人）</p><hr><h3>观点：</h3><p><strong>Lao Bai（ABCDE 投研合伙人）：</strong>对 DAI, Frax 的看法：Frax 稳定币起家，结果反而是 DEFI 矩阵和 Curve War 玩的贼六，最近 LSD 的尝试也非常成功，不过根基 Frax 和 DAI 都面临类似相对尴尬的境地，就是应用场景过少，说白了就是除了自家 DAPP，基本没啥地方可用。</p><a href=\"https://twitter.com/wuhuoqiu/status/1635521764334911488\">内容来源</a><p><strong>Lao Bai（ABCDE 投研合伙人）：</strong>我眼中真正的三杰：1）crvUSD。LLAMA 反向 Uni V3 式的清算机制安全；有天然的 Swap 使用场景；Curve 团队还有大量的 crv（veCRV），不担心冷启动问题。2）GHO。多链部署，理论上可以像 Stargate 里的 USDC 一样在多链上无缝移动；Lens 和 Facilitator 将扩宽其真正的使用场景。3）sUSD。在 Atomic swap 与 Curve 合作之后 + 最近 Perp V2 上线缓解缺少应用场景的问题；即将到来的 V3 版本通过引入类似 ETH 的抵押品有望解决资金效率差的问题。</p><a href=\"https://twitter.com/wuhuoqiu/status/1635521764334911488\">内容来源</a>",
+          "link": "https://twitter.com/wuhuoqiu/status/1635521764334911488",
+          "publishedOn": "2023-03-15T06:58:10.000Z",
+          "wordCount": 513,
+          "title": "ABCDE 投研合伙人：谈谈我眼中真正的「稳定币三杰」",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/alexisbuilding/status/1635508435021340672",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近日，Meta 正式关闭了支持 NFT 的功能，加密货币研究员 Alex 梳理了整起事件并认为这不是 Web3 的问题，而是 Meta 还不够了解 Web3 文化与 Web2 的不同。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/alexisbuilding/status/1635508435021340672\">https://twitter.com/alexisbuilding/status/1635508435021340672</a></p>\n<p><strong>文章作者：</strong></p><p>Alex is Building</p><hr><h3>观点：</h3><p><strong>Alex is Building：</strong>去年 5 月到 11 月，Meta 开始在 Facebook 和 Instagram 上测试 NFT 功能。问题是，大多数 Twitter NFT 原生用户并不使用这些功能。而且也没有人从 Web2 转到 Web3。因此，这些功能陷入发展瓶颈。【原文为英文】</p><a href=\"https://twitter.com/alexisbuilding/status/1635508435021340672\">内容来源</a><p><strong>Alex is Building：</strong>但这不是 Web3 的问题，这是一个公司不了解 Web3 文化与 Web2 有何不同的问题，除了「炫耀收藏品」之外，要了解不同的文化如何带来不同的需求。例如，Twitter 巧妙地拥抱了 Web3，所有功能都在促进每日活跃用户和社区建设。【原文为英文】</p><a href=\"https://twitter.com/alexisbuilding/status/1635508435021340672\">内容来源</a>",
+          "link": "https://twitter.com/alexisbuilding/status/1635508435021340672",
+          "publishedOn": "2023-03-15T06:44:45.000Z",
+          "wordCount": 513,
+          "title": "【英文】观点：Meta 关闭支持 NFT 功能不是 Web3 的问题",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/the_x2y2/status/1635655532215418882",
           "author": null,
           "description": "<h3>X2Y2 对 NFT 贷款和再融资收取管理费</h3>\n<p>NFT 市场平台 X2Y2 发推宣布，对 NFT 借贷和再融资收取管理费。具体而言，每笔 NFT 贷款将向贷方收取 10% 的利息作为平台费用，并向借款人收取本金的 0.2% 作为再融资服务费。</p>\n<p><a href=\"https://twitter.com/the_x2y2/status/1635655532215418882\">内容来源</a></p><hr>",
@@ -27,7 +87,7 @@
           "description": "<h3>加密钱包基础设施初创公司 Capsule 完成一轮融资，a16z 和 Geometry 共同领投</h3>\n<p>据 The Block 报道，加密钱包基础设施初创公司 Capsule 完成一轮融资，融资金额未披露，Andreessen Horowitz（通过其加速器 Crypto Startup School）和 Geometry 共同领投， Spice Capital、Anchorage 联合创始人 Diogo Monica 和 Nathan McCauley、Celo 联合创始人 Rene Reinsberg 和 Marek Olszewski 以及 Sommelier Finance 联合创始人 Zaki Manian 等参投。a16z 的 CSS 加速器计划通常会向参与的初创公司投资 50 万美元，以换取 7% 的股权。\nCapsule 于去年由 Layer 1 区块链 Celo 前产品负责人 Nitya Subramanian 创立，旨在帮助开发人员创建具有可互操作交易的钱包。Capsule 上周加入了 a16z CSS 计划，并将持续到五月。</p>\n<p><a href=\"https://www.theblock.co/post/219723/a16z-invests-crypto-wallet-capsule\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/219723/a16z-invests-crypto-wallet-capsule",
           "publishedOn": "2023-03-15T05:48:13.000Z",
-          "wordCount": 64635,
+          "wordCount": 64660,
           "title": "加密钱包基础设施初创公司 Capsule 完成一轮融资，a16z 和 Geometry 共同领投",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2023/03/20230301_BankruptCompanies_a16z-1200x675.jpg"
         },
@@ -347,7 +407,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7554,
+          "wordCount": 7552,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -427,7 +487,7 @@
           "description": "<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>\n<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>\n<p><a href=\"https://twitter.com/BlockSecTeam/status/1635204706703384577\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href=\"https://twitter.com/zachxbt/status/1635209310916743170\">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href=\"https://twitter.com/PeckShieldAlert/status/1635229250193334275\">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635218198042918918\">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href=\"https://twitter.com/ScopeProtocol/status/1635235421327347712\">内容来源</a><p><strong>Euler Labs：</strong>最新进展：帮助通过禁用 EToken 模块阻止了直接攻击，同时与 TRM Labs、Chainalysis 和更广泛的以太坊安全社区合作帮助调查和恢复资金。我们还通知美国和英国执法部门并共享信息，并尝试联系了此次攻击的责任人。此外，在调查了攻击后，我们得出结论：攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635431726364147712\">内容来源</a>",
           "link": "https://twitter.com/BlockSecTeam/status/1635204706703384577",
           "publishedOn": "2023-03-13T09:55:13.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元",
           "imageUrl": null
         },
@@ -497,7 +557,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>\n<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a>",
           "link": "https://twitter.com/ArbiAlpha/status/1634615208848281603",
           "publishedOn": "2023-03-13T05:49:16.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】对冲挂钩资产风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -547,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1721,
+          "wordCount": 1726,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -567,7 +627,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17744,
+          "wordCount": 17785,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -617,7 +677,7 @@
           "description": "<h3>FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止</h3>\n<p>Alpine Fox LP 创始人兼管理合伙人 Mike Alfred 发推表示，美国联邦存款保险公司（FDIC）已经进驻 First Republic Bank 现场，试图确定保护储户的最佳途径。考虑到已经达到临界点的加速银行挤兑，事情的发展速度比预期要快得多。First Republic Bank 从今天（3 月 12 日）开始限制汇出电汇交易，并将在今天结束时完全停止处理电汇交易。目前该银行电汇交易处理措辞已改为「感谢您的交易，我们会尽快回复您」。</p>\n<p><a href=\"https://twitter.com/mikealfred/status/1634783756656492544\">内容来源</a></p><hr>",
           "link": "https://twitter.com/mikealfred/status/1634783756656492544",
           "publishedOn": "2023-03-12T07:30:40.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "FDIC 已入驻 First Republic Bank，该行资金电汇交易将于今日完全停止",
           "imageUrl": null
         },
@@ -627,7 +687,7 @@
           "description": "<h3>PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH</h3>\n<p>PeopleDAO 在数字资产管理平台 Safe（原 Gnosis Safe）上的社区金库多签钱包在 3 月 6 日发放月度贡献者奖励时，被黑客通过社会工程攻击盗取 76 枚 ETH（约 12 万美元）。\n\n该事件与 PEOPLE 代币合约无关。PeopleDAO 通过 Google Form 收集月度贡献者奖励信息，会计负责人在 Discord 公共频道中错误共享了一个具有编辑权限的链接，黑客通过该链接获得编辑权限后，在表格中插入一笔向自己地址支付 76 枚 ETH 的付款，并将其设置为不可见。由于恶意隐藏，团队领导在复查期间没有发现，下载带有 insertef 数据的 csv 文件并提交到 Safe 的 CSV Airdrop 工具进行奖励发放。由于交易中有 80 笔转账，9 个多签账户中有 6 个没有注意到恶意转账，签署并执行了交易，将 76 枚 ETH 发送至黑客地址。</p>\n<p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a></p><hr><h3>观点：</h3><p><strong>PeopleDAO：</strong>在慢雾和 ZachXBT 的协助下，我们发现被攻击资金随后存入 HitBTC 和 Binance 两个交易所，我们在损失发生后立即联系了他们。此外，PeopleDAO 已向美国联邦调查局（FBI）和联邦贸易委员会（FTC）报告通过此次案件，并将继续与多方合作，找到黑客并收回资金。如果黑客在接下来 48 小时内归还被盗资金，我们将向其提供 10% 的白帽赏金。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a><p><strong>PeopleDAO：</strong>汲取教训：1）严格控制会计表的访问权限；2）多重签名者在签名前应检查每一个细节；3）Safe 需要一个更好的用户界面，以显示交易总金额，如 ETH 和 PEOPLE 的转移总金额。【原文为英文】</p><a href=\"https://twitter.com/the_peopledao/status/1634518915668668416\">内容来源</a>",
           "link": "https://twitter.com/the_peopledao/status/1634518915668668416",
           "publishedOn": "2023-03-12T07:04:47.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "PeopleDAO 多签钱包遭社会工程攻击，损失 76 枚 ETH",
           "imageUrl": null
         },
@@ -747,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27825,
+          "wordCount": 27752,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -3724,7 +3784,7 @@
           "description": "每一轮周期的叙事都不一样，如果说上一轮牛市中，核心叙事是DeFi以及分布式存储Filecoin。\n那么这一轮可能爆发的点有以下几个方面：ZK板块；Arb板块；Polygon生态；BTC二层；稳定币；LSD。\n前几期，veDAO给大家带来了一系列关于BTC生态的解读，这一次，veDAO将从稳定币的角度对这个行业进行思考。\n上个周末，最大跌眼镜的消息无过于硅谷银行的倒闭。关于硅谷银行倒闭的更多内容，VeDAO研究院将在另一篇文章中展示，本文将从稳定币的角度重点探讨经济危机时代，稳定币的发展业态。\n但首先，我们需要先从什么是稳定币这个概念开始。\n稳定币（StableCoins）是加密货币的一种表现方式，其价值往往与现实世界主流法定货币相锚定，同时也使得稳定币具有了其他加密货币不具有的价值稳定性。这种稳定性使它们对想要对冲其他加密货币波动性的投资者和交易者具有吸引力。\n然而，这些代币本身并不能避免波动，当遇到巨大黑天鹅事件时，稳定币也会与挂钩货币出现脱钩现象。这意味着它们会偏离其挂钩价值。\n目前常见的稳定币种类有三种：\n法币稳定币：USDT、USDC、BUSD为主\n去中心化稳定币：以DAI为主\n算法稳定币：2022年经典“黑天鹅”LUNA就是典型代表。\n一直以来，算法稳定币作为一个新兴概念，一直受到行业的关注，但诸如LUNA、UST等生命周期均不长久，因此本文将主要讨论前两种稳定币的模式。\n据dune数据，目前在稳定币赛道，占据主导地位的依旧是法币稳定币。\n如上图，USDT+USDC+BUSD已经达到整个稳定币市场的81.4%。尽管法币稳定币势力强大，但近年来也接连遭遇现实世界的干预。就在上个月，稳定币之一的BUSD被美国监管机构以“被定义为证券”的理由叫停，并开始审查其背后的发行方Paxos。\n然而，更加严峻的事情还在后面。上文所说的硅谷银行暴雷事件，也直接引发了法币稳定币与美元的脱钩热潮，并由此带来了市场对稳定币的巨大不信任感。\nUSDC发行人Circle于3月10日宣布，USDC已与美元脱钩，其400亿美元的USDC储备中约有33亿美元存放在现已倒闭的硅谷银行。受脱钩事件影响，USDC与未脱钩稳定币USDT汇率一度跌破0.9，最低降至0.85。鉴于USDC的附带影响，其他稳定币纷纷效仿美元脱钩。\n不仅如此，由USDC引发脱钩热潮也延展到了去中心化稳定币领域。MakerDAO基于以太坊协议发行的去中心化稳定币DAI，也与美元出现短时间的脱钩。\n\n尽管USDC和DAI在短暂脱钩之后，迅速修复了与美元的汇率，但由此引发的市场对于稳定币的不信任感则愈发加重。甚至有许多用户调侃：「尽管我们一直怀疑USDT的真实价值抵押情况，但现在看来，USDT is Always King。」\n旧有的USDC和DAI出现了脱钩，没有脱钩的USDT则一直无法证明自己的代币有足额的现金抵押。在老牌稳定币陷入信任危机的同时，我们不妨把目光转向新兴的去中心化稳定币项目。\n\n基本信息：\n官网：https://hope.money/\n推特：https://twitter.com/hope_ecosystem\n简介：HOPE是一个去中心化的稳定币，其代币$HOPE的底价将随着BTC和ETH的价格浮动，从0.5美元左右开始。HOPE生态包括HopeSwap、HopeLend、HopeConnect 与 HopeEcho四个协议，提供交易、借贷、衍生品、合成资产功能。\n详细说明：\nHOPE经济模型：\n$HOPE：是生态系统的由储备支持的原生定价代币，将以0.5美元的折扣价推出，并随着加密货币市场的复苏逐渐实现挂钩。\n$stHOPE：是$HOPE质押的代币化表示。通过质押，用户可以在生态中使用HopeSwap、HopeLend、HopeConnect、HopeEcho等应用。此外，用户还能通过质押$HOPE，可获得$stHOPE，并通过持有$stHOPE来获得$LT奖励。\n$LT：是HOPE生态的激励与治理代币，用来激励用户，参与HOPE生态并进行治理。\nveLT：是$LT在行使治理权时，投票锁定的代币化表示，veLT持有者可以获得$LT奖励加成，并可以对治理提案进行投票，决定包括$HOPE货币 政策 、Teasury政策和协议收入分配在内的诸多关键议题。\nHOPE生态：\nHOPE生态系统将包含4个主要协议，围绕$HOPE与$stHOPE提供包括兑换、借贷、保证金在内的一整套完整且丰富的应用场景，并通过$LT激励用户参与生态应用与社区治理。\nHopeSwap：是一个建立在以太坊上的AMM Swap，是用户通往HOPE生态的门户。用户可以在$HOPE、$stHOPE、$LT和其他资产之间进行快速交易，或为交易对提供流动性，以获得$LT奖励和手续费分成。\nHopeLend：是一个多流动性池非托管借贷协议。贷款人可以通过存入流动性，以赚取利息；而借款人则可以提供抵押资产，获得超额抵押借贷。\nHopeConnect：作为业内首创的DeFi创新协议，让用户无需进行中心化资产托管，便可以通过HopeConnect在顶级CEX上交易衍生品。\nHopeEcho：追踪真实世界资产（ RWA ）价格的合成资产，包括股票指数、固定收益工具、商品、外汇等，降低获取TradFi服务的门槛。\n运行逻辑：\n基本信息：\n官网：https://www.angle.money/\n推特：https://twitter.com/AngleProtocol\n简介：Angle是一种去中心化、资本高效和超额抵押的稳定币协议，由运行在开放区块链上的智能合约组成。Angle 的去中心化解决方案弥补了当前方法的缺陷，并充分利用了中心化和去中心化协议的长处，它还具有超额抵押设计所带来的稳健性，同时保持与低抵押设计类似的资本效率。Angle于2022年11月上线，截止目前，其代币$Angle市值约为6700万美元。\n详细说明：\nAngle经济模型：\nveANGLE：veANGLE代表“投票托管”ANGLE，是Angle协议的治理代币。ANGLE的代币经济学于2022年1月进行了升级，能够将ANGLE锁定为veANGLE，使它成为了一个基于Curve的veCRV和Frax的veFXS机制的归属和收益系统。veANGLE的关键属性，除了作为治理代币之外，还在于它不可转让且不在流动市场上交易。\nAngle运行逻辑：Angle通过让人们以1:1的比率交换稳定资产和稳定资产的抵押品，以1:1的比率进行交换：1欧元的抵押品，你可以获得1个稳定币，1个稳定币，你总是可以赎回1欧元的价值的抵押品。\n该协议涉及3组，在其他DeFi协议中很常见，它们都受益于Angle：\n铸造、使用或销毁稳定资产的稳定寻求者和持有者（或用户）\n对冲代理(HA) 可以在协议的一笔交易中以永续期货的形式获得链上杠杆，并通过这样做确保协议免受其抵押品的波动。\n标准流动性提供者(SLP)，他们为协议带来额外的抵押品，并自动赚取利息、交易费用和奖励。\nAngle将能够支持许多不同的稳定币，每种稳定币都有不同的抵押品类型。它将以由USDC和DAI支持的稳定欧元开始。\n基本信息：\n官网：https://app.reflexer.finance/\n推特：https://twitter.com/reflexerfinance\n简介：Reflexer是一个可以使用加密货币抵押品来发行非挂钩稳定资产的平台。RAI是此类资产中的第一种，和最初的DAI一样，它只由ETH超额抵押生成，并有一个由链上PI控制器计算的本地资金利率来对应复杂的市场状态，以此来推动RAI的市场价格向赎回价格收敛。\n详细说明：\nRAI/USD的汇率由其供求关系所决定，协议会试图通过不断地贬值或重估其价值来稳定RAI的价格。供应和需求机制在SAFE用户（用ETH生成RAI的用户）和RAI持有人两方之间进行。\n相较于市面上其他的稳定币，RAI提出了一个新的概念：赎回机制。RAI使用一个链上PI控制器来设置其赎回价格的变化率，称为赎回率，以年化利率表示。通过对赎回率的调节，RAI能够精确的控制市场中稳定币的供给数量，进而让RAI的价格贴近系统设定的理想价格。\nRAI的货币政策由四个要素组成：\n赎回价格：RAI协议提前制定的代币预期价格。\n市场价格：RAI在二级市场的实际交易价格。\n赎回率：RAI贬值计算。\n当RAI的市场价格>赎回价格持续一段时间时，赎回率将变为负值。\n当RAI的市场价格<赎回价格持续一段时间时，赎回率将变为正值。\n全球结算：关闭协议，用户赎回抵押品。\n优劣对比：\n优势：不锚定1美元，协议可以根据RAI市场价格的变化对RAI进行贬值或重估；遭遇风险损失较小。\n劣势：受众太窄，以至于直到现在都没有被市场青睐；流动性稀缺，也是无法扩大市场的重要原因。\n以上三款去中心化稳定币项目，均是市场上新兴、或者潜力尚未被发现的稳定币生态。事实上，当前基于去中心化稳定币的叙事已经足够繁荣。除上述三种之外，包括LUSD、FRAX、KAVA、MIM、HAY等一种稳定币项目同样值得关注。\n毕竟，尽管去中心化稳定币当前市场占有率较低，且同样无法规避现实黑天鹅的影响。但某种程度上，随着全球经济环境的恶化，全球进入存量博弈，黑天鹅的事件会越来越多。这时候，没有铸币权、饱受中心化威胁的法币稳定币，就未必是一个很好的选择了。\n而目前尚处于发展早期的去中心化稳定币，则在叙事上拥有更大程度的想象空间。\n参考资料：\n1.CeFi屡遭重创，分布式稳定币$HOPE如何取长补短？\n链接：https://m.mytoken.io/news/428359\n2.RAI：Vitalik 眼中的去中心化稳定币“理想型\n链接：https://mp.weixin.qq.com/s/_-bJhDcQwoDKMMY1J3QNJA\n3.刚获 a16z 领投的去中心化稳定币协议 Angle 有何设计亮点？\n链接：https://www.bitpush.news/articles/1817404\n4.一文详解去中心化稳定币的现状与未来\n链接：https://www.odaily.news/post/5184608\n5.Stability without Pegs\n链接：https://medium.com/reflexer-labs/stability-without-pegs-8c6a1cbc7fbd",
           "link": "https://www.panewslab.com/zh/articledetails/869hc8yxi007.html",
           "publishedOn": "2023-03-15T05:30:15.000Z",
-          "wordCount": 1367,
+          "wordCount": 1369,
           "title": "“USDC脱锚事件”反思：我们到底需要什么样的稳定币？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/images/hOAisfZ8vr.jpg"
         },
@@ -4154,7 +4214,7 @@
           "description": "出品：深潮 TechFlow\n撰文：0xbun\n随着 Web3 游戏的兴起，最近越来越多的传统游戏大厂开始涉足 Web3 领域，一个全新的数字游戏生态系统正在迅速形成。\n本文将为您介绍最近四款备受关注的 Web3 游戏：SYMBIOGENESIS、METAPIXEL、Codename Renegades 和 AVALON。无论你的偏好是剧情解密、角色扮演、科幻还是 MMORPG，这些游戏总有一款适合你。\n\nSYMBIOGENESIS 是 Square Enix 亲自操刀的 Web3 游戏，作为《最终幻想》开发商，该公司旗下的游戏一向拥有极高的品质和广泛的受众。\n根据词根 Symbiotic，该游戏可以译为共生或两个独立的个体融为一体 ，让人联想到 Square Enix 于 1998 年发行的生存恐怖题材动作角色扮演游戏——《寄生前夜》。也许 Symbiogenesis 的游戏内容也会带有一丝经典的日式恐怖。\n\n但 Symbiogenesis 并不是《寄生前夜》的续作。让我们回到它本身，Symbiogenesis 是一个新的 NFT 收藏品艺术项目，它不仅可以用于社交媒体个人资料图片 (PFP​​)，还可以充当玩家在游戏中的楔子，连接玩家与游戏。随着玩家采取的每一个决策和每一个行动，基于 NFT 的更多故事就会由此展开，这个过程被称为“NFT 解锁叙事”。而这一切，可能也就是游戏名字中的“共生”所象征的意义。\n\n根据目前透露的资料，Symbiogenesis 的剧情分为两类——主线剧情和人物剧情，每个章节优先通关的部分玩家能获得后续角色 NFT 的白名单。\n这种独特的设计使得每个玩家都能够尽享游戏的核心内容，同时也让持有 NFT 的玩家能够更深入地了解游戏角色和故事背景。\n\n作为一款优质的 Web3 游戏，Symbiogenesis 在其开放性、去中心化和可信任的虚拟经济体系等方面中为我们展示了诸多优点。而传统玩家对于 NFT 和区块链的保留态度却是一个问题。不过，如果能够借助像 Square Enix 这样拥有巨大影响力的 IP 来吸引传统玩家进入 Web3 游戏领域，以此打破口碑壁垒，那么这种新型的游戏生态系统就会拥有越来越多的受众。\nSymbiogenesis 是一个积极探索和践行 Web3 游戏的重要尝试，相信它未来的表现将会给玩家带来无限的惊喜和乐趣。\n\nMETAPIXEL 是一个雄心勃勃的项目，旨在成为 APTOS 上最顶尖的游戏生态系统。与此同时，METAPIXEL 团队也有着 Web2 游戏大厂背景，其创造者 NPIXEL 曾经是韩国游戏《格兰骑士团》的开发商，拥有非常丰富的游戏开发经验和强大的技术实力。\nMETAPIXEL 不久前公布了他们 2023 年的游戏阵容：\n1.GranSaga: Unlimited\nGranSaga: Unlimited 是一款基于手游 GRANSAGA IP 的 WEB3 MMORPG，该游戏将在今年下半年正式推出。这款 PC 游戏已经进行了一年以上的开发，预计将与 APTOS 链上的物品交易和游戏内生态系统相结合，以此为玩家带来更加丰富和深入的游戏体验。\n2.CATCHA\n这是 METAPIXEL 独有的 NFT 收藏品。预计他们将以猫作为主题来制作 PFP NFT，并在 APTOS 链发行。该 NFT 将为用户提供更多样化的个人资料图片选择，以增强游戏社交的互动性。\n\n3.PixelCraft\nPixelCraft 是 METAPIXEL 提供的沙盒平台，目标是成为测试 GRANSAGA、CATCHA 等各种 APTOS NFT 互操作性的空间。这个平台的开发将对 APTOS 的 DAPP 发展提供重要的驱动力和支持，为玩家带来更加丰富和全面的应用场景。\n\n由于当下 APTOS 生态极度缺乏 DAPP，因此官方可能会给予 NPIXEL 大力支持。由此可见，METAPIXEL 的开发对 APTOS 生态而言具有非常积极的意义——在满足玩家需求的同时，它也将成为 APTOS 生态发展的推动者。\n\nCodename Renegades 是一款充满未来科幻感的 MOBA 类多人游戏。它利用区块链技术，重塑了玩家与经济的关系，让他们以一种全新、实用且有意义的方式参与游戏——即 Play & Own。\n在游戏中，玩家和交易者可以利用自己的资产来赚取更多资产，并与其他玩家和交易者交易他们的收入。通过完成每周任务和 PvE 挑战，玩家可以获得游戏的原生代币 $RAC，以此来参与游戏内经济。\n然而，该项目最大的创新在于 NFT 皮肤进化系统。在每个 RENEGADES 赛季开始时，游戏商店将提供新的基础 NFT 皮肤，这些皮肤仅在赛季期间可购买，对于每一位游戏爱好者而言，这是一个非常特殊的机会。\n玩家可以通过花费一些 $RAC，或从其他玩家及游戏商店购买，来进化这些基础皮肤。这些皮肤只是装饰物品，不会给予玩家任何游戏竞争优势。但它们能够增强或改变玩家在游戏中的体验，使其成为一种真正独特的个性化表达。\nCodename Renegades 旨在引领玩家深度参与到这个未来科幻世界中，并享受无限想象力和创造力带来的愉悦。Codename Renegades 也为我们展示了更多的区块链技术和游戏的融合方向。可以预见的是，区块链技术将会在未来的游戏发展中扮演越来越重要的角色。\n\n什么样的 Web3 游戏最吸引人？足够的融资 + 愿景 + 优秀的团队=答案，在今年的新项目中我发现了一个十分匹配该等式的项目——AVALON。\nAVALON 已经筹集了 1300 万美元的资金，由 Bitkraft Ventures、Hashed、Delphi Digital 和 Mechanism Capital 领投，Coinbase Ventures、Yield Guild Games、Merit Circle、Avocado Guild 和 Morningstar Ventures 跟投。\nAvalon 的联合创始人兼首席执行官 Sean Pinnock，一直梦想着创造一个永远的数字世界，这也是 AVALON 的最终目标——建立一个数字化的、链上的大型多人在线游戏。除此之外，Avalon 还会用这笔钱为整个Web3游戏宇宙建造基础设施，包括解决实时交互、可扩展性和易于人们使用的工具等问题。\n有了足够的资金，有了强大的愿景作为方向，那么他的团队阵容如何呢？根据其透露的资料显示，AVALON 团队领导者拥有《使命召唤》、《暗黑破坏神》、《战神》、《刺客信条》和《艾尔登法环》等游戏制作团队背景。凭借在游戏领域全面而广泛的背景，该团队希望来打造一个属于玩家心目中的元宇宙。\n\n不仅如此，来自 Delphi Digital 的 Jeremy Parris 也表示：“很少有公司能够在许多垂直领域拥有远见、领导力和专业知识来制作革命性的游戏和产品。Delphi Digital 相信 AVALON 已经将所有元素结合在一起，并致力于推动游戏标准、元宇宙及其当下正在向前发展的新技术。未来比许多人想象的更近。”",
           "link": "https://www.panewslab.com/zh/articledetails/gpov1prz.html",
           "publishedOn": "2023-03-14T12:22:07.000Z",
-          "wordCount": 1627,
+          "wordCount": 1629,
           "title": "介绍4款值得关注链游佳作：Symbiogenesis、METAPIXEL、Codename Renegades和AVALON",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/14/images/Nma3gYi8M9.png"
         },
