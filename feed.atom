@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T03:35:07.469Z</updated>
+    <updated>2023-03-15T03:40:18.841Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -14,6 +14,63 @@
         <summary type="html"><![CDATA[PANews 3月15日消息，据彭博社报道，美国官员正试图阻止将破产的Voyager Digital Ltd.的关键部分出售给Binance.US，而政府则对法官批准该交易提出上诉。美国助理检察官Larry Fogleman周二在法庭上表示，政府反对任何限制其惩罚参与该提议的任意一方的能力，以及美国破产法官Michael E. Wiles上周批准的相关破产退出计划。Fogleman告诉法官，该交易的其他方面可能会继续推进，但不会包括作为Voyager 第11章计划一部分的法律保护。
 Wiles同意周三举行听证会，决定是否阻止该计划的免责条款。这些条款在公司破产案件中很常见，可以保护人们免于因实施法院批准的计划而承担个人责任。根据其破产计划，Voyager可以选择将其出售给Binance.US或清算其资产并将资金分配给债权人。在经过四天的有争议的破产听证会后，法官将允许公司采取其中任何一种做法。
 此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国检察官在听证会上再次努力阻止将Voyager的关键部分出售给Binance.US]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/vue2kpn3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/vue2kpn3.html"/>
+        <updated>2023-03-15T03:34:27.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，据彭博社报道，美国官员正试图阻止将破产的Voyager Digital Ltd.的关键部分出售给Binance.US，而政府则对法官批准该交易提出上诉。美国助理检察官Larry Fogleman周二在法庭上表示，政府反对任何限制其惩罚参与该提议的任意一方的能力，以及美国破产法官Michael E. Wiles上周批准的相关破产退出计划。Fogleman告诉法官，该交易的其他方面可能会继续推进，但不会包括作为Voyager 第11章计划一部分的法律保护。
+Wiles同意周三举行听证会，决定是否阻止该计划的免责条款。这些条款在公司破产案件中很常见，可以保护人们免于因实施法院批准的计划而承担个人责任。根据其破产计划，Voyager可以选择将其出售给Binance.US或清算其资产并将资金分配给债权人。在经过四天的有争议的破产听证会后，法官将允许公司采取其中任何一种做法。
+此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[以太坊正统性、EVM完全兼容，Layer2后来者Scroll能否弯道超车？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/zb5i5f36.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/zb5i5f36.html"/>
+        <updated>2023-03-15T03:29:59.000Z</updated>
+        <summary type="html"><![CDATA[原文：《主打正统性和EVM兼容的Scroll，后来者能否居上？》
+作者：Soya
+自2016年起，开发者社区已对以太坊形成依赖。以太坊也沉淀了去中心化世界最多资产，以其为核心的多链生态大概率是公链体系未来的格局。
+在以太坊2.0还没出现，合格的ZK Rollup项目没有落地，扩容市场正处于窗口期。
+现有的ZK Rollup只针对特定应用程序，以太坊的应用不便于直接向L2迁移。那么主打以太坊「正统性」和完全兼容的Scroll，后来者能否居上？
+Ye Zhang从2018年开始接触ZK证明，深知ZK-proof效率低下问题可以通过在密码学和硬件层面解决，他在2021年初在以太坊社区结识了另外两位联创，三人决定使用ZK技术建设以太坊扩容的未来。
+Haichen曾在亚马逊负责机器学习系统，工程能力强，擅长将理论进行实践搭建。
+行业OG Sandy曾在香港证监会从事研究工作，有游戏、产品类项目运营经验，熟悉初创团队的品牌运营。
+团队一开始有两个目标：建设通用的ZK Rollup和实现ZK prover的去中心化。
+因为一直和以太坊社区保持紧密联系，团队发现PSE（以太坊的研究机构，专注于ZK Proof前沿研究及其在以太坊的应用）也要做ZKEVM，二者技术路线匹配，Scroll随即获得与以太坊一起做EVM兼容ZK Rollup框架开发的机会。
+Scroll非常重视技术基础。2022年中，团队规模为40人+，其中超过30位都是ZK或者区块链研究员和开发者。
+甚至挑选合作伙伴时也会关注对方的研究能力和技术实力，因为只有他们才能理解Scroll的技术难度，并指点项目或引荐人才，如Geometry的创始人曾是Aztec的CEO。
+1.完全的EVM兼容
+开发者的代码在Scroll和以太坊上的执行效果相同，无需进行深度修改或重写。同时支持所有以太坊原生开发工具，开发者可以快速迁移合约，不需要重复审计。
+相比之下，Scroll的竞品Zksync和Starkware则需要开发者在将应用跨层迁移时进行重新编译，用户也需要相信新的虚拟机和编译器。Polygon Hermez则在执行交易过程中可能存在一定的风险。
+Scroll继承了已被无数次检验过的EVM模型，同时重用Geth（以太坊智能合约必备开发工具），以尽量减少跟以太坊的差异，最大限度保证安全。
+2.去中心化
+Scroll开发了世界上最快的GPU prover，允许任何人利用GPU机器搭建证明节点（此前搭节点成本过高），实现去中心化。加入的节点越多，算力越大，成本越低，从而激励社区更新更好更快的硬件，迭代专属于ZK的ASIC，进一步缩小L1的最终确认时间和证明成本。
+在ZK Rollup赛道，Scroll拥有最高的硬件计算效率。
+除了技术层面，Scroll团队追求社会和文化层面的去中心化。2022年，Scroll团队增加了39名成员，分布于20多个城市，10多个时区。
+Scroll团队很早就意识到，很多公链其实不缺技术，缺的是生态。
+Scroll多次赞助以太坊核心活动，频繁在以太坊活动上露脸（如ETH Devcon, ETH CC, ETH Vietnam）。截至2022年，Scroll的Discord 用户达到12万+。
+与以太坊的策略相似，Scroll重视社区的声音。
+公共教育：
+去中心化的精髓是让成员也有能力解决问题。
+Scroll在 0xPARC举办了关于证明堆栈的讲座，在斯坦福和伯克利举办了针对研究成果的演讲，每周更新零知识证明应用研究系列。
+开放平台：
+除了PSE和联创团队，Scroll的社区成员也能参与ZKEVM开发，如keccak电路和snark验证者的优化就是由社区成员完成的。Scroll每两周有一次社区电话会议，共同讨论技术优化。
+此外，Scroll还在维护一个python 版本的规范（类似于以太坊的consensus-spec和 execution-spec），方便不熟悉Rust和Halo2的人理解电路逻辑。
+2021年底，Scroll完成3千万美元A轮融资，天使投资人中不乏以太坊基金会成员和以太坊社区核心成员。
+2022年8月，Scroll发布了测试网（得到超过10万社区用户的支持），10月进行升级。允许用户试用Uniswap v2等核心应用，执行L1和L2之间的转账。后推出无许可的Pre-Alpha测试网，任何人都可以在测试网上交互，开发者可以无需许可进行部署合约。
+2023年1月，Scroll执行Pre-Alpha网络重置，提高Pre-Alpha测试网的吞吐量，解除社交账号的限制。网络重置一周后，Scroll测试网唯一地址数超过27万，每天在L2上处理11万笔交易。
+今年3月初，alpha测试网正式发布。用户可以完全无需许可部署合约，任何人都可以体验Scroll并测试其极限。
+目前，Scroll正致力于在未来几个月内迭代和提升zkEVM的性能，并争取在协议级别与以太坊在排序器上保持一致。
+除了在EVM兼容方面的优秀表现，Scroll证明节点的去中心化和开源的社区经营都体现了以太坊的正统性，达到了价值观层面的「兼容」，顶级硬件速度为Scroll注入了更大的潜力。
+虽然起步时间较晚，但其他ZK Rollup也仍未落地，凭借这些在短期内难以复制的优势，相信Scroll会在ZK Rollup赛道有相当的潜力。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
