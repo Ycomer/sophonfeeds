@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T05:42:47.971Z</updated>
+    <updated>2023-03-15T05:47:45.060Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -456,6 +456,18 @@ FVM 将允许在 Filecoin 的基础上建立自定义智能合约，开辟各种
 注：原文中第 2 个协议及其更新已不可见，故共有 29 个协议更新介绍。原文链接]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据解读 Lens 如何重塑创作者经济]]></title>
+        <id>https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg</id>
+        <link href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg"/>
+        <updated>2023-03-15T05:02:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Lens 火热的背后不单单是空投的预期，更是引领 Web3 新经济的潜力。Biteye 研究员 Loius Wang 梳理了 Lens 创作者经济的模型，通过数据分析了 Web3 社交协议 Lens 现有的变现模式，并结合其近期发布的新功能，给出了对未来发展方向的猜测。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg">https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg</a></p>
+<p><strong>文章作者：</strong></p><p>Lviswang.lens</p><hr><h3>观点：</h3><p><strong>Lviswang.lens：</strong>创作者经济数据：创作者收入：创作者总盈利 26.8 万美元，其中付费铸造产生收入 26.4 万美元，占总创作经济收入的 99%。用户消费：共有 4 万 1 千多名用户在 Lens 上向创作者支付过费用，消费最多的前三名都是 Lens 团队的地址。数据发现：1. 创作者的增长速度要高于消费者；2. 消费者 / 创作者之比维持在 0.5 左右的水平，趋于稳定；3. 大部分产生收益的创作者的粉丝量都集中在 1000 以内。</p><a href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg">内容来源</a><p><strong>Lviswang.lens：</strong>Lens 创作者经济前景畅想：1. 协同创作经济：最新推出的收益分配模式支持多个创作者收益分成，推动协作经济的发展，实现创作者共赢；2. 结合 AAVE 最大化创作者收益：最近上线了 aaveFeeCollect 模块，创作者的收益可以直接存到 AAVE v3 的池子里。DID 协议构建的社交关系和社交图谱可能是一个 DeFi 信任解决方案。</p><a href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9627,19 +9639,6 @@ Read the full entry]]></summary>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>美国中小银行接连暴雷， Silvergate Bank 宣布清盘，Silicon Valley Bank 疑似存在流动性问题。究竟发生了什么？深潮 TechFlow 作者 0xmin 撰文对银行商业模式进行了解读，并对 Silvergate Bank 和 Silicon Valley Bank 的银行危机进行是如何发生的进行了分析。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA</a></p>
 <p><strong>文章作者：</strong></p><p>0xmin</p><hr><h3>观点：</h3><p><strong>0xmin：</strong>银行从存款人或资本市场处拿到钱然后将它贷给借款人，从利息差中获利。而当银行遭遇危机时，通常意味着两种情况，坏账或期限错配。期限错配是指资产端期限和负债端期限不匹配，主要表现为短存长贷，而 Silvergate 和硅谷银行也正是因为期限错配才陷入危机。归根究底，这背后都与美联储加息相关，他们都是美元周期下的尸体。</p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">内容来源</a><p><strong>0xmin：</strong>2020 年三季度到 2021 年四季度，Silvergate 存款直接增长接近 7 倍。但也正是因为这样让 Silvergate 负债端急剧扩张，倒逼其在 2021 年期间购买了数十亿美元的长期市政债券和抵押支持证券（MBS）。而 2022 年，美联储进入疯狂加息模式导致债券价格下降。而且偏偏这个时候，Silvergate 的大客户 FTX 暴雷。2022 年第四季度，Silvergate 的提款超过 80 亿美元。流动性危机来临，Silvergate 别无选择，要么借钱，要么卖资产。</p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">内容来源</a><p><strong>0xmin：</strong>SVB 流动性危机也几乎一样，但其规模和影响力更大。导火索是其抛售了 210 亿美元债券造成 18 亿美元亏损。SVB 表示将通过出售股票的方式筹资 23 亿美元。于是银行挤兑来临。分析其资产负债表我们发现截至 2021 年低，其负债端资产为 1892 亿美元。资产端类似 Silvergate Bank，也选择购买 MBS 等债券，问题的关键是他近乎是梭哈了。随着利率飙升，债券价格下跌将造成硅谷银行的亏损。</p><a href="https://mp.weixin.qq.com/s/s5VrEb6gzc8lxwGXQQv2JA">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......]]></title>
-        <id>https://twitter.com/CryptoGirlNova/status/1633897861002960898</id>
-        <link href="https://twitter.com/CryptoGirlNova/status/1633897861002960898"/>
-        <updated>2023-03-10T05:09:29.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">https://twitter.com/CryptoGirlNova/status/1633897861002960898</a></p>
-<p><strong>文章作者：</strong></p><p>Crypto Nova</p><hr><h3>观点：</h3><p><strong>Crypto Nova：</strong>1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】</p><a href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">内容来源</a><p><strong>Crypto Nova：</strong>3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）
-WINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】</p><a href="https://twitter.com/CryptoGirlNova/status/1633897861002960898">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
