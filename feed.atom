@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T08:46:14.030Z</updated>
+    <updated>2023-03-15T08:51:19.662Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -26,6 +26,18 @@
 此前今日早些时候消息，Cosmos于今日16:01左右到达激活V9 Lambda升级的区块高度14470501。本次升级旨在激活Replicated Security功能，支持将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者；而ATOM质押者将受益于消费者链产生的一定比例的代币或费用作为质押奖励。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】加密友好银行接连倒下，会带来哪些影响？]]></title>
+        <id>https://twitter.com/betalphalabs/status/1635822662588170241</id>
+        <link href="https://twitter.com/betalphalabs/status/1635822662588170241"/>
+        <updated>2023-03-15T08:27:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>区块链研究型 DAO 组织 Betalpha Labs 发推盘点三大加密友好银行 Silvergate、硅谷银行和 Signature 的关闭或接管对法币抵押稳定币和资金进出通道带来的影响以及新的增长机会。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">https://twitter.com/betalphalabs/status/1635822662588170241</a></p>
+<p><strong>文章作者：</strong></p><p>Betalpha Labs</p><hr><h3>观点：</h3><p><strong>Betalpha Labs：</strong>1）法币抵押型稳定币规模变化：法币抵押型稳定币规模因 USDC 近一周 43.6 亿的流出而流出，该数据在接下来的一段时间值得持续关注；以不透明著称的 USDT 份额占比持续增长；前不久币安支持的 BUSD 遭遇监管，转向支持 TUSD，且其服务银行是 Signature，其中 Trusttoken 已将 TUSD 业务出售，与其关系不大但有增长概念的 TRU 频频大幅波动登上涨幅榜。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a><p><strong>Betalpha Labs：</strong>2）资金进出通道遭到影响：DCG 表示汇丰、德意志、桑坦德等多家主流银行仍愿意为加密公司提供服务，可解决资金存放问题，但会限制经济和货币市场服务以及向第三方电汇等服务，及资金进出通道受到影响。尽管纽约金融服务部称接管 Signature 与加密行业无关，Circle 也在寻找新的银行开展 USDC 出入金服务，后续进展值得关注。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a><p><strong>Betalpha Labs：</strong>3）新的增长机会：因 UST 等加密原生稳定币陨落，稳定币从加密原生到法币抵押型，又回到加密原生。币圈原生稳定币再次成为新叙事，DAI  和 Frax 因 USDC 作为抵押物而波动，LUSD、crvUSD、GHO 及其他新生稳定币被给予新的希望。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -317,7 +329,7 @@ MEV-Boost：PoS时期，Validator可以自行去Mempool为交易排序，将其�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】一文了解一种新的隐私优先数字身份：World ID]]></title>
+        <title type="html"><![CDATA[【英文】一文了解 Worldcoin 底层身份协议：World ID]]></title>
         <id>https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk</id>
         <link href="https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk"/>
         <updated>2023-03-15T07:14:27.000Z</updated>
