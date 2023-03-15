@@ -257,7 +257,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2252,
+          "wordCount": 2046,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -277,7 +277,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>据 Chainalysis 数据，2022 年由于预言机操纵造成的损失达 4.03 亿美元。EigenPhi 对话 ZeroMEV 创始人、BlockSec 联创、SlowMist 团队成员及 Pyth Network 核心贡献者等行业专家，就预言机攻击类型及预防方法等内容进行了共同探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">https://twitter.com/EigenPhi/status/1635404741932101633</a></p>\n<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>Yixin Cao（EigenPhi 数据科学家）：</strong>预言机攻击可以分为设计缺陷、流动性操纵和代币发行机制利用三个方面，构建这样的理论框架可以帮助进行风险评估。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Yajin Zhou（BlockSec 联创）：</strong>关于如何减轻与预言机相关的风险，DeFi 需要主动进行风险控制和隔离，隔离是 DeFi 协议缺乏的基本安全机制。此外，我还建议对不同来源的价格进行纠正性监测和比较，并对 mempool 进行监测。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Pmcgoohan（ZeroMEV 创始人）：</strong>DeFi 需要转向防御性思维，优先保护用户资金，用户应该转移至 FCFS L2 系统上的审计协议以避免操纵和贿赂，交易应该在 L2 上使用加密 memepool 进行以保护隐私。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：</strong>建议采取综合防御措施：从各个链上和链下交易所获取价格以及值得信赖的报告人和数据聚合、高频率和低延迟的价格更新机制及审计预言机的操作栈。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a>",
           "link": "https://twitter.com/EigenPhi/status/1635404741932101633",
           "publishedOn": "2023-03-14T02:51:42.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Eigenphi 对话行业专家：如何预防预言机攻击？",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1723,
+          "wordCount": 1733,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -527,7 +527,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17740,
+          "wordCount": 17787,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -747,7 +747,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Circle 宣布约 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行中，一时间引发了市场对于 Circle 暴雷的恐慌。加密研究员 0xLoki 在对 Circle 储备资产及估值进行分析后，认为 Circle 出问题的概率极低。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">https://twitter.com/Loki_Zeng/status/1634410350505508864</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>Circle 储备资产分为三个部分：324 亿美元国债组合、33 亿在 SVB 中及存在 SVB 以外银行的 78 亿。其国债组合具备充足流动性，即使被迫贴现也不会受到太大损失。此外，SVB 的情况和当时 FTX 的情况完全不同，SVB 这些贷款中的大部分还是可以收回的，43% 的极端情况发生的概率很低很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>SVB 以外银行的 78 亿我们在官方也找到了相关信息披露，可以看出除了 SVB 和 Silvergate 以外，Signatures Bank 等三家银行同样不能让我们放心。考虑到 BNYM 是 Circle 首选银行，保守估计下，BAYM 资金占 35%，剩下四家每家 10%，悲观一点，如果有风险的三家都出问题，回收率按 80% 计算，Circle 总损失是 20 亿美元左右。合理一点，Circle 在 SVB 中损失 7 亿美元左右，最极端的情况是 SVB 中损失 33 亿且剩余三家中共计 50 亿无法收回，但概率很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>但根据 Circle 估值，7 至 20 亿美元的损失对 Circle 来 说并不是太大的问题。USDC 真正暴雷需要满足三个条件：1）存在 SVB 和三家中风险银行的资金足够多；2）这些银行的债务回收率足够低；3）USDC 自己无法承担损失或者无法找到资金支持方来解决问题。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a>",
           "link": "https://twitter.com/Loki_Zeng/status/1634410350505508864",
           "publishedOn": "2023-03-11T05:14:43.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【长推】 硅谷银行倒闭，会成为 Circle 暴雷导火索吗？",
           "imageUrl": null
         },
@@ -757,7 +757,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Stephy Dunbar 撰文对科学生态系统的现存困境及解决困境的不同 Desci （去中心化科学）方式进行解析，认为 DeSci 通过引用新的协调、激励和验证机制来维持和传播开放科学，从而改变了研究经济。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">https://twitter.com/sunnydece/status/1633160977809289216</a></p>\n<p><strong>文章作者：</strong></p><p>Stephy Dunbar</p><hr><h3>观点：</h3><p><strong>Stephy Dunbar：</strong>科学知识是支撑技术发展和经济增长的公共产品，然而当前的科学体系面临问题：1）中心化决策和资金；2）方法论和数据的透明度差；3）无激励的审查和知识发布门槛受制。而 DeSci 正蓬勃发展以解决这些问题。目前正在运行的 85 个 DeSci 项目中有 50% 以上是去年启动的。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>不同解决方式：1）代币激励的研究生态系统，例如 ResearchHub。2）基金 DAO，DeSci 主要通过 DAO 促进社区决策以资助量身定制的解决方案。许多 DAO 都有特定的重点领域。例如 VitaDAO。3）研究代币化，例如 Molecule。用途包括 IP 许可用于商业化、与合作伙伴分割所有权、在开放市场上交易数据、持有作为借贷的抵押品。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>4）方法和数据透明化，例如 OpSci ，使研究者可以将自己的身份、证书和项目标记为 NFT。5）激励同行评审和开放出版，例如 DeSci Labs 的 DeSci 节点允许研究人员在开放状态、去中心化存储库上创建和发布代码、数据集等研究对象。6）数据处理，将数据代币化或者标记成 NFT，又或者像 The Bacalhau Project 允许研究员直接在存储数据集的地方执行计算工作。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a>",
           "link": "https://twitter.com/sunnydece/status/1633160977809289216",
           "publishedOn": "2023-03-11T05:12:53.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：科学现存困境解析，DesCi 以不同方式应对",
           "imageUrl": null
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1634214275010162688\">内容来源</a>",
           "link": "https://twitter.com/MessariCrypto/status/1634214275010162688",
           "publishedOn": "2023-03-11T04:05:33.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Messari：Ordinals 给比特币带来新的叙事",
           "imageUrl": null
         },
@@ -837,7 +837,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 21000,
+          "wordCount": 21050,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -877,7 +877,7 @@
           "description": "<h3>外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用</h3>\n<p>据 moneycontrol 引援知情人士消息，Facebook 和 Instagram 的母公司 Meta 正在构建一个代号为「P92」的内容应用。该应用将支持去中心化社交网络协议 ActivityPub，采用 Instagram 品牌，并允许用户通过他们的 Instagram 注册或登录。</p>\n<p><a href=\"https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Meta：</strong>我们正在探索一个独立的去中心化社交网络来共享文本更新。我们相信有机会建立一个单独的空间，创作者和公众人物可以及时分享他们的更新。【原文为英文】</p><a href=\"https://www.reuters.com/technology/meta-explores-decentralized-social-network-app-text-updates-2023-03-10/\">内容来源</a>",
           "link": "https://www.moneycontrol.com/news/business/startup/meta-mulls-a-twitter-competitor-codenamed-p92-that-will-be-interoperable-with-mastodon-10223961.html",
           "publishedOn": "2023-03-10T11:00:14.000Z",
-          "wordCount": 14429,
+          "wordCount": 14419,
           "title": "外媒：Meta 正探索基于 ActivityPub 协议的去中心化社交网络应用",
           "imageUrl": "https://images.moneycontrol.com/static-mcnews/2023/03/396330803-654x435.jpg"
         },
@@ -947,7 +947,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a>",
           "link": "https://twitter.com/y_cryptoanalyst/status/1633753341577797632",
           "publishedOn": "2023-03-10T06:54:23.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain",
           "imageUrl": null
         },
@@ -3629,6 +3629,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/e154lpxa.html",
+          "author": null,
+          "description": "原文：《30 protocols with strong catalysts in the coming months》by Thor Hartvigsen，加密研究员\n编译：Kxp，BlockBeats\n在预期美联储加息脚步放缓等多因素叠加背景下，加密市场迎来一轮强劲上涨行情，加密研究员通过梳理 30 个今年需要长期关注的主流项目，把握主流协议在未来几个月中的最新动向。\n\nLido\nLido V2:\n· 质押路由器：允许任何人通过模块化的即插即用模式成为节点操作员（目标是提高去中心化程度）\n· 提款：StETH 持有者可以在上海升级后直接从信标链上提款\n\nVelodrome\nVelodrome 2.0 将在第一季度推出：\n· VELO FED：veVELO 持有者将在VELO货币政策中获得发言权\n· 自定义和可调整的货币对交易费用\n· 集中流动资金池的新方法\n· 整体 UI/UX 改进\n· 以及其他一些升级\nRadiant V2 将在几周后引入：\n· 跨链扩展（首先是 BNB 链）\n· 用于借贷的新资产，包括 StETH、BNB、潜在的 GLP、gDAI 和更多通过治理投票的资产\n· 通过动态流动性减少 RDNT 的排放\n· UI/UX 得重新设计\n\nFantom Foundation\n· fUSD v2：为建设者和用户提供的链上收费系统（可选择使用 fUSD 作为交易费用）\n· FVM：Solidity 兼容，执行速度更快；测试显示约 4500tps，数据存储减少 98%，主网计划于 2023 年底上线\n· Andre 将回归\nAtlas 升级：\n· 为提款做准备（上海升级）\n· 8 个 ETH 迷你池（剩余的 24 个 ETH 由协议提供，用于操作验证器）；更低的进入门槛+更高水平的去中心化\n· Gas 费优化（减少 40%）\nAtlas 计划在 3 月/4 月上线。\n· PLS V2 tokenomics 将于 3 月下旬推出：这将允许用户锁定他们的PLS以获得金库的乘数点。通过这样做，他们可以从奖励中获得真正的收益，收到 esPLS Token，以及更多。\n· 此外，PlutusDAO 正计划将更多的治理 Token 纳入其平台，plsRDNT 是下一个要加入的 Token。PlvRDNT 金库也计划在未来推出。\nGMX 将在今年的某个时间点推出 V2（可能是第一季度/第二季度，目前正在进行审计），这将引入大量新的可交易资产，而不仅仅是 Crypto（合成货币对）。\n在 Discord 中也有关于 V2 后跨链扩展的预告。\nOptimism 正在建立 OP 栈：一个模块化的区块链框架，用于轻松构建各种可扩展的 rollup（OP 链）。Coinbase 的 Base 将第一个利用这项技术，其第一阶段是 Bedrock（23 年第一季度）。\n· 跨链扩展到 BNB 链\nLiquidity book V2：\n· 为sJOE质押者提供的 V2 池费用转换\n· 限价订单和无需许可的流动性账簿池\n· 升级到 GLP 高风险偏好金库：对冲交易员的损益\n· GLP v2 整合（GMX synthetics 升级后）\n· 跨链扩展\n· Rage perp v2：除了 tricrypto 外潜在的新抵押品选项\n \n\nSynapse 正在建立一个 Ethereum 原生的 optimistic rollup（Synapse 链）：\n· 跨链信息传递：在一个链上调用一个合约，并在另一个链上执行\n· 为跨链 Dapp 而建，配有 Synapse 桥接\n· 即将上线\n\nFrax Finance\n· frxETH 持续增长，因为 Frax 拥有最具竞争力的质押收益率\n· FIP-188: FRAX将成为完全抵押品（从 92% 到 100%）\n· FRAX 和 Frax 生态系统的总体增长（FPI、veFPIS、FraxSwap、Fraxlend frxETH 等）\n\nPendle\nPendle 通过将资产分为原则 Token 和收益 Token，提供非常高的收益率，TVL 在整个 2023 年都呈上涨态势。\n他们最近用 GLP 跨链到 Arbitrum，并将在未来增加 gDAI 及额外的资产。\n\nSynthetix\nSynthetix V3：\n· 以 ETH 和其他资产作为合成资产的抵押品\n· 流动性提供者将能够选择将流动性分配给哪些合成资产（高风险=高费用）\n· 建立在 Synthetix 之上的产品（Kwenta, Lyra, Thales 等）获得更多采用\nConic 在 Curve 上提供 omnipool（将用户的流动资金分散到不同的资金池中，并将其质押在 Convex 上），用户可以赚取 CRV + CVX + CNC。该协议在 1 周内就达到了 6500 万的 TVL。\n推动因素：\n· 高收益带来的更广泛采用\n· 额外的资产\n\ndopex\n· rDPX v2: 能够以 rDPX 作为部分抵押品铸造合成 Token（rDPX 的通缩压力），第一个资产将是 dpxETH（不是 LSD）。\n· Dopex OpFi 产品：在后台利用链上期权的 DeFi 产品。\n\nPolygon Labs\nPolygon 正在搭建各种链：\n· Polygon Supernets\n· Polygon Avail\n· Polygon Zero, Miden & zkEVM\n· Polygon Nightfall\nzkEVM 将于 3 月 27 日在主网上推出。\ndYdX 正在推出他们自己的应用链（v4），用 Cosmos SDK 构建，以去中心化的方式创造类似中心化交易平台的表现，这包括：\n· 交易时不收取 Gas 费用\n· 由验证者运行链外订单簿\n· DYDX作为原生 Gas Token\n\nCurve Finance\n随着稳定币得到更广泛的采用，Curve 作为最大的链上稳定币流动性中心，将大大受益。\ncrvUSD 上线临近，这为 Curve/veCRV 创造了额外的收入。\n· 更多的协议集成（启动面板和流动性池）\n· 改良后的 xGRAIL 版本具有所谓的「插件」\nLyra 最近推出了他们的'Newport'升级（该升级整合了 GMX 永续合约并部署在 Arbitrum 上），并增加了ETH和wBTC期权交易。\n长期来看，DeFi 期权有很大的潜力，随着采用范围的扩大，Lyra 可能成为从中受益的主要协议之一。\n\nCosmos\n几天前，链间安全（ICS）升级的第一部分通过治理获得批准，并将于 3 月 15 日启动。\nICS 允许应用链借用 Cosmos 中心验证者集来保证安全，而不需要启动自己的验证者（需要付费）。\nMaker 正在推进几个项目，包括：\n· Spark 协议：第一个产品是 Spark Lend，它受到 Aave V3 的启发，有一个直接的 Maker 信贷额度（将于 4 月上线）\n· EtherDAI：原生 ETH LSD 来支持DAI\n在 Arbitrum 上推出并增加了商品和指数等新资产后，gTrade 已经成为了领先的去中心化永久合约之一，经历了交易量的大幅飙升。虽然没有官方的路线图，但在 Discord 上有很多预告信息。\n\nAave\nAave 正在推出他们的原生稳定币GHO：\n· 由 Aave 上的资产进行过度抵押\n· 资产供应由「促进者」（由 DAO 选出的实体）控制\n· AAVE质押者有着 GHO 铸币折扣\n· 与 Arbitrum 合作的游戏建设者计划（GBP）：激励游戏开发者在 Treasure DAO 生态系统中进行建设\n· MagicSwap v2: 游戏内经济的未来，支持 ERC-20Token 和 NFT 池，计划在今年第二季度推出\nUniswap 最近宣布了他们即将推出的手机应用程序。\nUniswap 仍然是领先的 DEX，截至 3 月，它每天大约有 5 万用户。\n手机应用可以更好的吸引用户加入。\n\nFilecoin\nFilecoin 将于 3 月 14 日推出 Filecoin 虚拟机（FVM）和 Filecoin EVM（FEVM）。\nFVM 将允许在 Filecoin 的基础上建立自定义智能合约，开辟各种新的用例，如 Token 化数据、数据 DAO 等。\n· 自 2 月推出 V2 版以来，数量/用户大量增加\n一些即将在第一季度/第二季度推出的功能：\n· Lyra 伙伴关系\n· 交叉保证金 v2\n· Kwenta SDK\n· 质押者的费用转换\n· UI/UX 改造\n... 以及更多\n\n注：原文中第 2 个协议及其更新已不可见，故共有 29 个协议更新介绍。原文链接",
+          "link": "https://www.panewslab.com/zh/articledetails/e154lpxa.html",
+          "publishedOn": "2023-03-15T05:26:03.000Z",
+          "wordCount": 2162,
+          "title": "盘点未来几个月具有强大催化剂的30个优质项目",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/15/images/tKpi69AcbE.webp"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/r3amnuzm.html",
           "author": null,
           "description": "原文：《Three Fallen Banks》by Checkmate，Glassnode\n编译：东寻，DeFi 之道\n在经历 2023 年最重要的一周后，数字资产行业在美国失去了三家对加密货币友好的银行机构。然而，到目前为止，投资者的主要反应似乎是在最不受信任的主要资产 BTC 和 ETH 中寻求安全。\n上周已成为今年数字资产领域节奏最快，也是影响最大的一周。在短短几天内，美国有三家主要银行机构进入自愿清算，或被美国监管机构接管，而这些机构都为加密行业内的公司提供服务。\nSilvergate（SI）宣布在 3 月 8 日以一种有序的方式自愿进行清算，并将资金全额返还给储户。\n美国第 16 大银行硅谷银行（SVB）于 3 月 12 日被美国联邦存款保险公司（FDIC）关闭并进入破产管理，这使得这家价值 2090 亿美元的银行成为美国历史上第二大破产银行。\n根据美联储关于此事的公告，纽约 Signature 银行（SBNY）也已于 3 月 12 日关闭。\n对于这三家银行机构，预计将通过持有的储备金，或通过 FDIC 和美国监管机构的存款担保，归还全部存款。由于许多大型数字资产公司和稳定币发行商使用这些银行合作伙伴中的一个或多个，导致周末的行情变得不稳定。特别值得关注的是 USDC 的发行商 Circle，他告知在 SVB 持有约 33 亿美元的现金，为 USDC 暂时打破 1 美元的挂钩创造了条件。\n本文将重点关注在链上以及更广泛的市场结构中的一些关键影响，包括：\n几个稳定币从 1 美元开始脱钩，以及主导地位重新转向 Tether（USDT）。\n数字资产市场的净资本外流，可以在两种稳定币以及 BTC 和 ETH 两大主流币中观察到。\n尽管交易量增加，但期货未平仓合约仍触及周期性低点。投机兴趣导致 BTC 爆炸性反弹至 22,000 美元，ETH 回升至 1600 美元。\n比特币价格发现在几种流行且广泛观察的技术分析定价模型之间交易。其在 2 月在 200 周和 365 天移动平均线（~25.0k）处遇到阻力后，价格在本周触及 200 天和 111 天移动平均线（~$19.8k）附近然后反弹。\n请注意，这是历史上第一个 BTC 交易价格低于 200 周均线的周期，从这个角度来看，市场处于新的领域。\n自 LUNA-UST 项目崩溃以来，本周首次看到稳定币价格出现波动，原因是担心 USDC 部分失去支持。USDC 跌至 0.88 美元的低点，紧随其后的是 DAI，为 0.89 美元，后者是因为 DAI 约 65.7% 由稳定币抵押品支持的结果。\n此外，Gemini 的 GUSD 和 Paxos 的 USDP 均略低于 1 美元的挂钩汇率，而 BUSD 和 Tether 的价格则出现溢价交易。\n特别是 Tether，在周末的大部分时间里出现了 1.01 美元至 1.03 美元的溢价。具有讽刺意味的是，在人们担心受到严格监管的美国银行业引发更广泛影响的情况下，Tether 被视为一个避风港。\n就 DAI 而言，稳定币已成为支持它的主要抵押品形式，自 2020 年年中以来这一趋势一直在增长。USDC 约占直接抵押品的 55.5%，并且在所使用的各种 Uniswap 流动性头寸中占有很大份额，总计约占所有抵押品的 63%。\n这一事件无疑开启了关于 DAI 的长期影响的讨论，DAI 据称是一种去中心化的稳定币。然而，这一事件证明了 DAI 的价格是如何通过抵押品组合（其中还包括额外的 12.4% 的Token化现实世界资产）与传统银行系统密切相关的。\n\n正如我们在 2022 年年中报道的那样，Tether 自 2020 年年中以来在稳定币市场的主导地位一直在结构性下降。然而，随着最近针对 BUSD 的监管举措，以及本周与 USDC 相关的担忧，Tether 的主导地位已回升至 57.8% 以上。\n自 2022 年 10 月以来，USDC 一直占据 30% 至 33% 的主导地位，但随着赎回窗口周一重新开启，供应量是否会减少还有待观察。BUSD 在最近几个月出现了急剧下降，发行人 Paxos 停止了新的铸造，并且主导地位从 11 月的 16.6% 下降到今天的 6.8%。\n估计数字资产市场的真实资本流入和流出可能很棘手，但在大多数情况下，资本最初流入是通过两大主要资产（BTC 和 ETH）或稳定币流入的。因此，BTC 和 ETH 的已实现上限与主要稳定币的流通供应相结合，提供了一个相当稳健的衡量标准。\n在这里，我们可以看到，通过这种方法，整个市场的价值约为 6770 亿美元，比一年前设定的 8510 亿美元的 ATH 下降了约 20%。BTC 的主导地位为 56.4%，ETH 为 24.5%，USDT、USDC 和 BUSD 为 17.9%，其余 1.2% 为 LTC。\n按 30 天变化计算，2 月是自 2022 年 4 月以来首次出现资金净流入，峰值为+ 58 亿美元/月，主要由 BTC 和 ETH 引领。然而，上个月，市场出现了 -59.7 亿美元的逆转流出，其中 80% 是稳定币赎回（主要是 BUSD）的结果，20% 来自 BTC 和 ETH 的已实现损失。\n随着硅谷银行倒闭的消息传来，投资者纷纷转向 BTC 和 ETH 寻求避难所，我们监测的各个交易平台都出现了显着的资金外流。大约 0.144% 的 BTC 和 0.325% 流通中的 ETH 从交易平台储备中被提取，表明与 FTX 崩溃类似的自我托管反应模式。\n以美元计算，上个月 BTC 和 ETH 的总价值超过 18 亿美元流出交易平台。这在相对规模上不一定很大，但是观察到交易平台的净提款，尤其是在当前充满敌意的监管环境下，确实说明了投资者信心的程度，这一点值得注意。\n另一方面，两种主要的稳定币每月净流入交易平台 18 亿至 23 亿美元。重要的是要注意，BUSD 以惊人的 每月 -68 亿美元的速度从交易平台流出，这远远抵消了这一点。因此，很可能正在发生一定程度的「稳定币转换」。\n然而，总体而言，这似乎是市场对稳定币、BTC 和 ETH 的反应，反映出对无信任资产自我托管的显着赞赏。\n最后，我们将评估通过期货市场表达的反应。本周，这两种主要资产的未平仓合约总量跌至周期性的多年低点。比特币期货头寸的名义价值为 77.5 亿美元，约占未平仓合约总量的 63%。\n对于期货交易量，比特币的主导地位相似，约为 60%，并且在 FTX 后和年底沉寂之后，交易量已经回升。总交易量约为 582 亿美元/天，相当于 2022 年全年的水平。\n本周价格波动的部分原因是一系列多头和空头挤压。在抛售至 1.98 万美元时，大约 8500 万美元的 BTC 多头头寸被清算。随后，随着价格回升至 22,000 美元以上，约 1900 万美元的空头头寸被清算。\n在这次反弹之前，永续掉期市场的融资利率进入了极端的现货溢价水平。交易员分别支付 -27.1% 和 -48.9% 的年化资金利率来做空 BTC 和 ETH。交易员做空 ETH 的力度也大得多，BTC：ETH 的价差达到 21.8%，这是自 FTX 抛售以来的最大水平。\n这加剧了 ETH 期货市场的清算。超过 4800 万美元的空头在市场回升至 1600 美元以上时被清算，这意味着相对于 BTC 而言，强制平仓的名义价值高出 2.5 倍。\n这表明 ETH 市场最近被更多地用于表达投机兴趣，加剧了波动性。\n我们将以最终图表结束，该图表将短期持有者（STHs）的链上反应与杠杆期货市场的反应叠加在一起。该图表显示 STH-SOPR 负 1，绘制在年化期货融资利率 上，结果如下：\n通过我们定义的 155 天的年龄阈值，几乎所有的 STH 币都可能处于盈利状态，除了那些在当地高点附近收购的币。\n根据我们定义的 155 天年龄阈值，几乎所有 STH 币都可能获利，除了那些在当地高点附近获得的Token。STH-SOPR（负 1）的回报值为 -3.8%，这是一个相对较大的已实现损失，表明当地「顶级买家」目前主导着支出。STH-SOPR 的方向和表现往往与资金利率相关。这两个指标反映了 BTC 市场的一个不同但意义重大的子集，其中一个代表现货/链上，另一个代表杠杆期货。\n以此为背景，似乎本周花费的大部分Token都是当地顶级买家实现的亏损（其他持有者相对处于休眠状态）。这发生在期货进入急剧现货溢价之前，交易员开设了投机性空头头寸。\n随着银行存款得到保证的消息传出，强劲的反弹将 BTC 推高至 22000 美元以上，将 ETH 推高至 1600 美元以上，让市场的大部分人措手不及。\n\n结论\n在 2023 年最有影响的一周之后，数字资产行业在美国缺少三家对加密货币友好的银行机构，并发现自己处于日益不利的监管环境中。随着传统金融市场在周末休市，一些稳定币出现了与 1 美元挂钩的偏离，随着周日保证存款的消息传出而恢复。\n投资者的反应有点类似于后 FTX 环境，将稳定币净转移到交易平台，而不是托管 BTC 和 ETH。然而，在更广泛的范围内，该行业在上个月经历了大约 59 亿美元的净资本流出。\n该行业乃至全球金融体系仍处于未知的水域。本周在许多方面强化了中本聪最初创建无需信任的稀缺数字资产的原因。",
@@ -3804,7 +3814,7 @@
           "description": "PANews 3月15日消息，Beaconcha数据显示，以太坊Goerli测试网epoch 162304处的交易已确认，目前已达到epoch 162323，标志着该测试网Shapella升级已完成。\n根据3月2日的报道，在此次Goerli测试网升级后，主网升级将在此后的3至4周进行。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/dtlnnlo0.html",
           "publishedOn": "2023-03-15T00:32:01.000Z",
-          "wordCount": 1135,
+          "wordCount": 1137,
           "title": "以太坊Goerli测试网已完成Shapella升级",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -4024,7 +4034,7 @@
           "description": "PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元/枚，以太坊盘中突破 1700 美元/枚，均创近期新高。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html",
           "publishedOn": "2023-03-14T12:36:19.000Z",
-          "wordCount": 1130,
+          "wordCount": 1132,
           "title": "比特币突破25000美元，以太坊突破1700美元",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -9695,6 +9705,16 @@
       "feedUrl": "https://techflowpost.mirror.xyz/feed/atom",
       "siteUrl": "https://techflowpost.mirror.xyz",
       "articles": [
+        {
+          "id": "https://techflowpost.mirror.xyz/kRp8-XUyjkljP6yn2r0W4_ZX45ewj6LMUxfsxzARZWI",
+          "author": null,
+          "description": "DeFi安全风险解析：闪电贷、价格操纵攻击和降低风险的协议设计思路 – 深潮TechFlow\n撰写：Revelo Intel\nRead the full entry",
+          "link": "https://techflowpost.mirror.xyz/kRp8-XUyjkljP6yn2r0W4_ZX45ewj6LMUxfsxzARZWI",
+          "publishedOn": "2023-03-15T04:46:55.000Z",
+          "wordCount": 887,
+          "title": "DeFi安全风险解析：闪电贷、价格操纵攻击和降低风险的协议设计思路",
+          "imageUrl": "https://mirror-media.imgix.net/publication-images/5AO24NXzZYeXZpv-Izv6D.png?height=395&width=790&h=395&w=790&auto=compress"
+        },
         {
           "id": "https://techflowpost.mirror.xyz/x1b58uHQkbc8SJpZXRaT-ieokJqaJEyG2jNyM3f8qs8",
           "author": null,

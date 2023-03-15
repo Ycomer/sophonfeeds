@@ -2,10 +2,157 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T05:19:30.309Z</updated>
+    <updated>2023-03-15T05:26:42.130Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[盘点未来几个月具有强大催化剂的30个优质项目]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/e154lpxa.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/e154lpxa.html"/>
+        <updated>2023-03-15T05:26:03.000Z</updated>
+        <summary type="html"><![CDATA[原文：《30 protocols with strong catalysts in the coming months》by Thor Hartvigsen，加密研究员
+编译：Kxp，BlockBeats
+在预期美联储加息脚步放缓等多因素叠加背景下，加密市场迎来一轮强劲上涨行情，加密研究员通过梳理 30 个今年需要长期关注的主流项目，把握主流协议在未来几个月中的最新动向。
+
+Lido
+Lido V2:
+· 质押路由器：允许任何人通过模块化的即插即用模式成为节点操作员（目标是提高去中心化程度）
+· 提款：StETH 持有者可以在上海升级后直接从信标链上提款
+
+Velodrome
+Velodrome 2.0 将在第一季度推出：
+· VELO FED：veVELO 持有者将在VELO货币政策中获得发言权
+· 自定义和可调整的货币对交易费用
+· 集中流动资金池的新方法
+· 整体 UI/UX 改进
+· 以及其他一些升级
+Radiant V2 将在几周后引入：
+· 跨链扩展（首先是 BNB 链）
+· 用于借贷的新资产，包括 StETH、BNB、潜在的 GLP、gDAI 和更多通过治理投票的资产
+· 通过动态流动性减少 RDNT 的排放
+· UI/UX 得重新设计
+
+Fantom Foundation
+· fUSD v2：为建设者和用户提供的链上收费系统（可选择使用 fUSD 作为交易费用）
+· FVM：Solidity 兼容，执行速度更快；测试显示约 4500tps，数据存储减少 98%，主网计划于 2023 年底上线
+· Andre 将回归
+Atlas 升级：
+· 为提款做准备（上海升级）
+· 8 个 ETH 迷你池（剩余的 24 个 ETH 由协议提供，用于操作验证器）；更低的进入门槛+更高水平的去中心化
+· Gas 费优化（减少 40%）
+Atlas 计划在 3 月/4 月上线。
+· PLS V2 tokenomics 将于 3 月下旬推出：这将允许用户锁定他们的PLS以获得金库的乘数点。通过这样做，他们可以从奖励中获得真正的收益，收到 esPLS Token，以及更多。
+· 此外，PlutusDAO 正计划将更多的治理 Token 纳入其平台，plsRDNT 是下一个要加入的 Token。PlvRDNT 金库也计划在未来推出。
+GMX 将在今年的某个时间点推出 V2（可能是第一季度/第二季度，目前正在进行审计），这将引入大量新的可交易资产，而不仅仅是 Crypto（合成货币对）。
+在 Discord 中也有关于 V2 后跨链扩展的预告。
+Optimism 正在建立 OP 栈：一个模块化的区块链框架，用于轻松构建各种可扩展的 rollup（OP 链）。Coinbase 的 Base 将第一个利用这项技术，其第一阶段是 Bedrock（23 年第一季度）。
+· 跨链扩展到 BNB 链
+Liquidity book V2：
+· 为sJOE质押者提供的 V2 池费用转换
+· 限价订单和无需许可的流动性账簿池
+· 升级到 GLP 高风险偏好金库：对冲交易员的损益
+· GLP v2 整合（GMX synthetics 升级后）
+· 跨链扩展
+· Rage perp v2：除了 tricrypto 外潜在的新抵押品选项
+ 
+
+Synapse 正在建立一个 Ethereum 原生的 optimistic rollup（Synapse 链）：
+· 跨链信息传递：在一个链上调用一个合约，并在另一个链上执行
+· 为跨链 Dapp 而建，配有 Synapse 桥接
+· 即将上线
+
+Frax Finance
+· frxETH 持续增长，因为 Frax 拥有最具竞争力的质押收益率
+· FIP-188: FRAX将成为完全抵押品（从 92% 到 100%）
+· FRAX 和 Frax 生态系统的总体增长（FPI、veFPIS、FraxSwap、Fraxlend frxETH 等）
+
+Pendle
+Pendle 通过将资产分为原则 Token 和收益 Token，提供非常高的收益率，TVL 在整个 2023 年都呈上涨态势。
+他们最近用 GLP 跨链到 Arbitrum，并将在未来增加 gDAI 及额外的资产。
+
+Synthetix
+Synthetix V3：
+· 以 ETH 和其他资产作为合成资产的抵押品
+· 流动性提供者将能够选择将流动性分配给哪些合成资产（高风险=高费用）
+· 建立在 Synthetix 之上的产品（Kwenta, Lyra, Thales 等）获得更多采用
+Conic 在 Curve 上提供 omnipool（将用户的流动资金分散到不同的资金池中，并将其质押在 Convex 上），用户可以赚取 CRV + CVX + CNC。该协议在 1 周内就达到了 6500 万的 TVL。
+推动因素：
+· 高收益带来的更广泛采用
+· 额外的资产
+
+dopex
+· rDPX v2: 能够以 rDPX 作为部分抵押品铸造合成 Token（rDPX 的通缩压力），第一个资产将是 dpxETH（不是 LSD）。
+· Dopex OpFi 产品：在后台利用链上期权的 DeFi 产品。
+
+Polygon Labs
+Polygon 正在搭建各种链：
+· Polygon Supernets
+· Polygon Avail
+· Polygon Zero, Miden & zkEVM
+· Polygon Nightfall
+zkEVM 将于 3 月 27 日在主网上推出。
+dYdX 正在推出他们自己的应用链（v4），用 Cosmos SDK 构建，以去中心化的方式创造类似中心化交易平台的表现，这包括：
+· 交易时不收取 Gas 费用
+· 由验证者运行链外订单簿
+· DYDX作为原生 Gas Token
+
+Curve Finance
+随着稳定币得到更广泛的采用，Curve 作为最大的链上稳定币流动性中心，将大大受益。
+crvUSD 上线临近，这为 Curve/veCRV 创造了额外的收入。
+· 更多的协议集成（启动面板和流动性池）
+· 改良后的 xGRAIL 版本具有所谓的「插件」
+Lyra 最近推出了他们的'Newport'升级（该升级整合了 GMX 永续合约并部署在 Arbitrum 上），并增加了ETH和wBTC期权交易。
+长期来看，DeFi 期权有很大的潜力，随着采用范围的扩大，Lyra 可能成为从中受益的主要协议之一。
+
+Cosmos
+几天前，链间安全（ICS）升级的第一部分通过治理获得批准，并将于 3 月 15 日启动。
+ICS 允许应用链借用 Cosmos 中心验证者集来保证安全，而不需要启动自己的验证者（需要付费）。
+Maker 正在推进几个项目，包括：
+· Spark 协议：第一个产品是 Spark Lend，它受到 Aave V3 的启发，有一个直接的 Maker 信贷额度（将于 4 月上线）
+· EtherDAI：原生 ETH LSD 来支持DAI
+在 Arbitrum 上推出并增加了商品和指数等新资产后，gTrade 已经成为了领先的去中心化永久合约之一，经历了交易量的大幅飙升。虽然没有官方的路线图，但在 Discord 上有很多预告信息。
+
+Aave
+Aave 正在推出他们的原生稳定币GHO：
+· 由 Aave 上的资产进行过度抵押
+· 资产供应由「促进者」（由 DAO 选出的实体）控制
+· AAVE质押者有着 GHO 铸币折扣
+· 与 Arbitrum 合作的游戏建设者计划（GBP）：激励游戏开发者在 Treasure DAO 生态系统中进行建设
+· MagicSwap v2: 游戏内经济的未来，支持 ERC-20Token 和 NFT 池，计划在今年第二季度推出
+Uniswap 最近宣布了他们即将推出的手机应用程序。
+Uniswap 仍然是领先的 DEX，截至 3 月，它每天大约有 5 万用户。
+手机应用可以更好的吸引用户加入。
+
+Filecoin
+Filecoin 将于 3 月 14 日推出 Filecoin 虚拟机（FVM）和 Filecoin EVM（FEVM）。
+FVM 将允许在 Filecoin 的基础上建立自定义智能合约，开辟各种新的用例，如 Token 化数据、数据 DAO 等。
+· 自 2 月推出 V2 版以来，数量/用户大量增加
+一些即将在第一季度/第二季度推出的功能：
+· Lyra 伙伴关系
+· 交叉保证金 v2
+· Kwenta SDK
+· 质押者的费用转换
+· UI/UX 改造
+... 以及更多
+
+注：原文中第 2 个协议及其更新已不可见，故共有 29 个协议更新介绍。原文链接]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeFi安全风险解析：闪电贷、价格操纵攻击和降低风险的协议设计思路]]></title>
+        <id>https://techflowpost.mirror.xyz/kRp8-XUyjkljP6yn2r0W4_ZX45ewj6LMUxfsxzARZWI</id>
+        <link href="https://techflowpost.mirror.xyz/kRp8-XUyjkljP6yn2r0W4_ZX45ewj6LMUxfsxzARZWI"/>
+        <updated>2023-03-15T04:46:55.000Z</updated>
+        <summary type="html"><![CDATA[DeFi安全风险解析：闪电贷、价格操纵攻击和降低风险的协议设计思路 – 深潮TechFlow
+撰写：Revelo Intel
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Glassnode：传统金融市场动荡不安，促使比特币发生“V型”反转]]></title>
         <id>https://www.panewslab.com/zh/articledetails/r3amnuzm.html</id>
@@ -2260,54 +2407,6 @@ Sense Finance是一个固定利率借贷协议，其中可以交易Idle等的固
         <updated>2023-03-14T10:46:27.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月14日消息，据金十报道，币安发言人表示，币安将从5月22日起停止所有用户的英镑转账。
 今日早些时候报道，币安将于5月22日暂停所有用户的英镑存取款服务。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硅谷银行引发金融巨震，今晚美国CPI会是下一个雷吗？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/ox9bl1dt.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/ox9bl1dt.html"/>
-        <updated>2023-03-14T10:39:18.000Z</updated>
-        <summary type="html"><![CDATA[来源：财联社
-编辑：潇湘
-过去一周围绕硅谷银行破产牵连出的银行业“黑天鹅”，震惊了全球金融市场，今晚即将出炉的美国2月CPI数据，似乎骤然间陷入了一个“较为尴尬的境地”——很多人会产生这样的疑问，这个过去一年美国资本市场上最受关注的宏观经济指标，眼下究竟还重要吗？
-放在一周前，这个问题的答案显然没有什么悬念：在过去一年里，动荡的行情走势几乎就不曾在美国CPI数据发布日“缺席”。一组历史统计显示，标普500指数在过去一年CPI发布日的平均上下波动幅度达到了1.8%，而日常的平均水平仅为1.2%。
-
-但是，曾经备受瞩目的美国非农就业数据，在硅谷银行周末破产时的影响力几乎“哑火”后，人们或许已很难对今晚的CPI数据，能掀起多大浪花抱有太多的期待……
-Interactive Brokers首席策略师Steve Sosnick就表示：“日常的统计数据，即使是像CPI这样重要的数据，在银行业危机面前可能也将退居二线。”
-上周，全美排名第16的硅谷银行在短短不到40小时里就从暴雷走向了破产。随后，全美排名第29位的Signature银行也被监管机构宣布关闭。至此，整个华尔街在三天内见证了历史上第二大和第三大规模的银行倒闭事件。
-这些事件毫无疑问已经促使交易员开始重新计算，美联储接下来为抑制通胀而需进行的加息幅度和步伐。
-PIMCO(0,0.00,0.00%)策略师Daniel Ivascyn周一就表示，美联储最早可能在本月暂停加息，高盛(315.51,-12.16,-3.71%)集团的经济学家也扬言，他们不再认为美联储将在3月份的会议上加息。
-这标志着市场预期出现了重大变化。要知道，就在美国银行(28.51,-1.76,-5.81%)业动荡发生几天前，美联储主席鲍威尔在国会听证会上几乎已相当于暗示，联储可能在下次会议上加息多达50个基点。
-可以肯定的是，一些投资者已表示，当前金融市场的焦点可能不会再单单停留在经济数据层面上了。“近期内，像银行挤兑或流动性事件这样潜在的系统性问题，将取代经济数据”，John Hancock投资管理公司联合首席投资策略师Matt Miskin就在周一的报告中写道。
-Horizon Investment Services首席执行官Chuck Carlson也指出，当前银行业的进展情况可能将盖过“基于CPI数字”引发的市场波动。Carlson在谈到CPI时表示，“除非今晚数据出现一个重大的异常值，否则我认为数据不会产生太大的影响。”
-当然，话又说回来，虽然今晚的CPI数据在当前特殊的市场背景下，不太可能再出现像过去一年那样大的行情影响力。但是有鉴于这一指标的发布窗口正好处于美联储议息会议前一周，其仍可能成为当前市场利率定价的一块关键“压舱石”。
-不难想见的是，哪怕今晚的CPI数据再如何超预期，都不太可能令已经消失的3月加息50个基点的预期死灰复燃。但是，这一数据仍可能会影响到美联储下周究竟加不加息之间的微妙“天平”。
-根据芝商所美联储观察工具当地时间周一的最新定价显示，市场交易员预计美联储下周加息25个基点的概率为71.6%，不加息的概率为28.4%。
-
-加息与不加息之间目前约“七三开”的分布，其实并不算已经提前锁定了下周真正的利率定价。最重要的是，有鉴于美联储官员目前已经处于了3月议息会议前的噤声期，他们如果想要通过市场上的“喉舌”来影响利率定价，那么在CPI数据真正尘埃落定后，无疑是一个相对最好的窗口。
-在过去几天，利率市场的加息押注几乎就如同断崖式跳水一般，这在银行业爆出惊天大雷的背景下并不算一件特别意外的事。但真正重要的是，在市场逐渐冷静下来之后，利率市场的定价究竟会稳定在哪里，而今晚CPI数据公布后的具体报价，显然就格外关键。
-
-外汇资讯机构Forex.Com指出，最近的市场波动在一定程度上抢了美国CPI数据的风头，但周二最新的CPI仍将是市场的主要推手。通胀从9%下降到6%，对政策制定者来说总是相对“容易的部分”；未来的一个大问题是，美联储能否在不“破坏”经济的任何其他方面的情况下，推动物价持续下降。
-Greenwood Capital首席投资官Walter Todd则指出，一份热门的消费者价格报告总是会给市场带来问题，而现在人们又在等式中加入了金融稳定动态，这进一步令美联储的工作复杂化了。
-一些业内人士已提醒，如果周二的通胀数据超出市场预期，依然可能会提醒美联储观察人士和投资者，美联储决策者抗通胀的“终极使命”尚未完成。
-LH Meyer/Monetary Policy Analytics 的经济学家在给客户的一份报告中写道，“这些（银行业）事件会让人更加谨慎，但这依然必须与新近恶化的通胀形势进行平衡。虽然3月加息50个基点的可能性已大幅下降，但我们相信FOMC最终仍会加息。”
-需要提醒投资者的是，由于美国已经正式进入了夏令时，因此今晚的美国2月CPI数据于北京时间20：30就将出炉，相较过去几个月数据的发布提前1小时。
-目前权威媒体的调查预计，美国2月CPI年率料增长6.0%，增幅低于1月的6.4%；2月CPI月率料增长0.4%，此前1月为增长0.5%。
-
-（主流投行CPI预测）
-在剔除食品和能源的核心数据方面，美国2月核心CPI年率料攀升5.5%，升幅略低于1月的5.6%；美国2月核心CPI月率料增长0.4%，增幅与1月相同。
-从整体来看，今晚美国CP同比I数据依然有望延续去年9月以来的见顶回落势头，但具体数据表现究竟会比预期更高还是更低，尚是未知之数。
-在上月因精准预测到美国1月CPI超预期而大出风头的克利夫兰联储的Inflation Nowcasting（通胀临近预测）模型，目前预计2月份CPI同比涨幅将来到6.21%，环比增至0.54%。这预示着单就克利夫兰联储的模型来看，今晚CPI较市场主流预期存在上行风险。
-
-在投行预测方面，高盛预计美国2月核心CPI月率将较1月进一步上升：高盛预计美国2月核心通胀将环比上升0.45%（市场一致预期为0.4%，1月核心CPI月率为0.41%），同比上升5.56%（市场一致预期为5.4%）。
-具体分项来看，高盛预计主要住所租金和业主等价租金通胀月率将从1月的0.74%和0.67%，分别下降至0.62%和0.59%；二手车通胀月率将从1月的-1.9%转为0.5%；公共交通通胀月率将从1月的-1.8%跳升至5.9%。
-
-加拿大皇家银行(95.62,-0.62,-0.64%)分析师则预计，今晚通胀报告将显示，美国2月份整体CPI同比增速将降至5.9%，低于1月份的6.4%，这在很大程度上得益于能源和食品价格的回落。其他商品和服务的通胀压力也在小幅下降，不过最近几个月的通胀粘性比预期的要大。
-加拿大皇家银行指出，“我们预计2月份的数据看起来会更好，核心CPI同比将从1月份的5.6%降至5.4%。强劲的美国劳动力市场数据表明，2023年年初经济增长势头强劲，而更棘手的通胀数据则表明，美联储可能需要更长的时间才能回到2%的目标。这将为美联储进一步加息提供理由。”
-富国银行(38.41,-2.95,-7.13%)则在近期报告中指出，“我们预计2月份总体CPI将再次月度上涨0.4%，这将使同比增长率达到6.0%。我们仍然预期通胀将逐渐走低，但这个过程可能是坎坷的，尚需时日。尽管在过去几个季度中出现了一些方向性改善，但物价仍远高于美联储2%的目标，而且劳动力市场紧张表明仍然存在通胀压力，可能会阻止通胀全面回归2%。”
-此外，德国商业银行表示，“2月份，尽管总体通胀率可能从6.4%降至6.1%，但核心通胀率可能仅从5.6%略微降至5.5%，因此仍然过高。核心指数的环比增长率为0.5%，可能再次高于平均水平。从美联储的角度来看，这样的报告可能无法为美联储主席鲍威尔确定的反通胀过程，提供足够令人信服的支持，因此会支持再次加息。”]]></summary>
         <author>
             <name>PANews News</name>
         </author>
