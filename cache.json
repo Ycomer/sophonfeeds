@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://m.techflowpost.com/article/2252",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>DeFi Dave 采访 Frax 创始人 Sam Kazemian，谈论稳定币极简主义、Frax 的货币溢价、隐形产品、链上治理等话题。中文版由深潮编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://m.techflowpost.com/article/2252\">https://m.techflowpost.com/article/2252</a></p>\n<p><strong>文章作者：</strong></p><p>Revelo Intel</p><hr><h3>观点：</h3><p><strong>Sam Kazemian（ Frax Finance 创始人）：</strong>绝大多数加密协议将成为稳定币或大规模发行自己的稳定币；大多数金融原语看起来像是部分准备金银行；LSD 基本上是 ETH 稳定币；frxETH 拥有 Curve AMO，可以在 frxETH 和 ETH 之间交换，就像铸币和赎回功能；金融法则或金融激励会影响协议或协议建设者和社区；大型 DeFi 协议构建护城河并最大化其价值的最有效的方式是发行一种人们将其用作货币的负债。</p><a href=\"https://m.techflowpost.com/article/2252\">内容来源</a><p><strong>Sam Kazemian（ Frax Finance 创始人）：</strong>稳定币主义被抽象化了，就像跨链桥一样。跨链桥最有价值的优势是它可以进行防御，其他人无法通过降低费用来分叉或商品化，但事实上他们在链的另一端发行了一个稳定币，跨链桥项目本质上是一个稳定币发行商。</p><a href=\"https://m.techflowpost.com/article/2252\">内容来源</a><p><strong>Sam Kazemian（ Frax Finance 创始人）：</strong>Frax 正在开发 BAMM，即借款自动做市商，无需预言机，根据任何资产建立流动性，并在流动性上升时允许人们借用它，这对 DeFi 来说是潜在的零到一的创新；大型协议始终需要某种形式的人为干预，Frax 正在设计 FRXGov 机制，希望能在无需信任的情况下提出人为干预建议，允许 DAO 在 24 小时内投票否决任何多重签名。</p><a href=\"https://m.techflowpost.com/article/2252\">内容来源</a>",
+          "link": "https://m.techflowpost.com/article/2252",
+          "publishedOn": "2023-03-15T11:21:11.000Z",
+          "wordCount": 2688,
+          "title": "专访 Frax Finance 创始人：Frax 的货币溢价与产品发展",
+          "imageUrl": "https://assets.techflowpost.com/20230207/cfc8faad91c34773a41488bde02d0b9a.png"
+        },
+        {
           "id": "https://www.theblock.co/post/219979/stablecoin-issuer-cnhc-raises-10-million-kucoin-ventures",
           "author": null,
           "description": "<h3>离岸人民币稳定币发行商 CNHC Group 完成 1000 万美元 A+ 轮融资，KuCoin Ventures 领投</h3>\n<p>与离岸人民币 1:1 挂钩的稳定币 CNHC 发行商 CNHC Group 完成 1000 万美元 A+ 轮融资，KuCoin Ventures 领投，Circle 和 IDG Capital 参投，所筹资金将主要用于扩大 CNHC 在亚太地区的采用。为此，该公司正将总部从开曼群岛迁至香港。\n据报道，CNHC 稳定币于 2021 年推出，用于转账和跨境贸易结算等用例。据 CNHC 联合创始人 Joy Cham 表示，CNHC 目前在以太坊和 Conflux 区块链上发行，总供应量约 1500 万枚。</p>\n<p><a href=\"https://www.theblock.co/post/219979/stablecoin-issuer-cnhc-raises-10-million-kucoin-ventures\">内容来源</a></p><hr>",
@@ -48,7 +58,7 @@
           "link": "https://twitter.com/rickawsb/status/1635810481838628865",
           "publishedOn": "2023-03-15T08:54:10.000Z",
           "wordCount": 513,
-          "title": "【长推】盘点 18 个值得关注的项目：Layer2、基础设施、工具、游戏…",
+          "title": "【长推】盘点 18 个值得关注的项目：Hord、TapiocaDAO、New Order、Vision Protocol...",
           "imageUrl": null
         },
         {
@@ -97,7 +107,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19499,
+          "wordCount": 19498,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
@@ -657,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1720,
+          "wordCount": 1715,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -677,7 +687,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17779,
+          "wordCount": 17734,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -687,7 +697,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -817,7 +827,7 @@
           "description": "<h3>硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系</h3>\n<p>General Catalyst 首席执行官 Hemant Tanej 发布推特称已经和几位风投领导人开会讨论了硅谷银行（SVB）倒闭的后果，并发布了一份联合声明。联合声明表示，「SVB 一直是风投行业及创始人们值得信赖的长期合作伙伴。四十年来，它一直在服务创业社区和支持美国创新经济方面发挥着关键作用。我们对过去 48 小时内发生的事情感到失望和担忧，如果 SVB 被收购并适当资本化，我们将会支持并鼓励我们的投资组合公司恢复与其的银行业务关系。」其他参与该联合声明的硅谷风投包括 Accel、Altimeter Capital、B Capital Group、General Catalyst、Gil Capital、Greylock Partners、Khosla Ventures、Kleiner Perkins、Lightspeed Venture Partners、Mayfield Fund、Redpoint Ventures、Ribbit Capital 及 Upfront Ventures。</p>\n<p><a href=\"https://twitter.com/htaneja/status/1634391256028839936\">内容来源</a></p><hr>",
           "link": "https://twitter.com/htaneja/status/1634391256028839936",
           "publishedOn": "2023-03-11T09:39:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "硅谷风投联合声明：若硅谷银行被收购并适当资本化，将会支持投资组合公司恢复与其的银行业务关系",
           "imageUrl": null
         },
@@ -837,7 +847,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 740,
+          "wordCount": 742,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -857,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27863,
+          "wordCount": 27860,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -3814,7 +3824,7 @@
           "description": "原文：《如何实现Aptos 链上NFT 的跨链？》\n作者：Aptos Global\n目前Aptos 链上NFT 可以通过Wormhole 可以实现与其他的链进行跨链了，这是如何实现的？对于普通用户来说，应该怎么操作？\nAptos 联合创始人兼首席执行官Mo Shaikh 表示「借助 Aptos NFT 桥，Wormhole 将Aptos 的网络互操作性提升到了一个新的水平，Aptos 将会迎来通过该桥访问的数百万NFT资产和数千名创作者和艺术家。」\nNFT 桥支持在任何支持的链之间来回传输 NFT，同时保留其元数据。当一个 NFT 被转移出它的起源链时，会发生这样的事情：\n1）NFT 被锁定在 NFT 桥智能合约中；\n2）一个等效的包装 NFT 被铸造到目标链上的相对应的collection中；\n3）这个被包装的 NFT 同名，看起来和原来的一样，行为也和链上的其他 NFT 完全一样，在 EVM 链上，包装的 NFT 是 ERC721 代币，在 Solana 上，它们是带有 Metaplex 元数据的 SPL 代币，在 Aptos 上，它们是 Aptos 代币标准的实例。\n除了名称和外观之外，被包装的 NFT 的独特之处在于能够将它们发送回原始链并解锁原始 NFT。这意味着，例如，源自 Aptos 的 NFT 可以桥接到以太坊，随后在 Opensea 上出售，然后可以由新所有者转回 Aptos。\n用户目前可以将 NFT 从 Arbitrum、Aurora、Avalanche、BSC、Celo、Ethereum、Fantom、Karura、Klaytn、Moonbeam、Oasis、Optimsm、Polygon 和 Solana 桥接到 Aptos，反之亦然。\n过去，一些高级 NFT，如数十个 Cryptopunks 和一个 Beeple，已通过 Wormhole 跨链到Aptos 上了。\nWormhole 是什么？\nWormhole 是一种互操作性协议，允许项目构建在其通用消息传递层之上，它链接多条链，包括 Ethereum、Solana、Binance Smart Chain、Polygon、Avalanche、Algorand、Fantom、Karura、Celo、Acala、Aptos 和 Arbitrum。\nWormhole 通过从一条链向另一条链发送消息来实现这一点，这些消息由节点的守护者网络观察和验证，验证通过后，将这条消息提交给目标链进行处理。这个简单的消息传递原语启用 xChain 功能，用户与 xDapps（xChain 去中心化应用程序）交互以在网络之间传输 xAssets（跨链资产）或访问他们的 xData（xChain 数据）以在他们当前的网络上为他们提供服务。\nWormhole 目前协议的总交易量已经超过$35B，已成功传输数亿条消息，每天提交数百万条消息，有超过 60 种协议构建在 Wormhole 的通用消息传递层之上。\n1）点击链接\nhttps://www.portalbridge.com/#/nft\n可以看到有多条链的NFT 可供选择，如选择Arbitrum 上的NFT 进行跨链；\n\n2）选择某一个待跨链的NFT，点击再经过钱包的签名确认即可；\n\n3) 点击「redeem」即可将封装好的NFT 再跨链回来。",
           "link": "https://www.panewslab.com/zh/articledetails/7b1x8g8e.html",
           "publishedOn": "2023-03-15T09:25:37.000Z",
-          "wordCount": 1381,
+          "wordCount": 1385,
           "title": "Aptos上NFT如何进行跨链操作？（附手把手教程）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/15/images/d20pxxgKrF.jfif"
         },
@@ -3864,7 +3874,7 @@
           "description": "原文：《浅析MEV的发展现状及趋势》\n作者：0xCousin\n特别鸣谢 IOSG Ventures Jiawei 的分享和交流。\nMEV（Maximum Extractable Value）是指通过在区块内重新排序、插入和审查交易从用户那里提取的价值，例如套利、清算等。最根本上可以理解为“在创建新区块时，通过调整Tx的排序从而获得的额外收益”。\nMEV的概念最早是由Phil Daian在《Flash Boys 2.0》中提出，在以太坊合并之前，MEV主要由矿工捕获，因此当时也被称为“矿工可提取价值（Miner Extractable Value）”。MEV的产生来源于，当用户在区块链上提交一笔交易时，该笔交易一般会先进入Mempool公开访问的待处理交易池中。套利者和矿工可以检索Mempool，并从中找到获取MEV的机会。\n以太坊合并后，由于出矿机制的改变，MEV供应链中的角色也有所改变。在Danksharding尚未实施之前，Flashbots提出了MEV-Boost作为PBS在协议外的实践。Buider专注于构建Block，并尽可能实现每个Block的利益最大化，然后最有利可图的Block被提交给Proposer。PBS机制的实现使得区块链出块产业的利益产生了一些改变，同时促进了产业链上相关机构的专业化、商业化进程，也使得MEV供应链形成了新的格局。\n基于MEV-Boost的Tx上链流程如下图（图中浅绿色为Tx常规上链流程，白色模块为MEV的Tx上链流程）：\n\n来源：Flashbots\n与Tx常规上链流程相比，MEV的Tx上链流程通过Flashbots的MEV-Boost实现了PBS的协议外实践，同时也使得MEV被Searcher、Builder、Validator这几个角色瓜分捕获。\nSearcher：一般是以下角色（套利和清算机器人、DeFi交易员、具有高级用例的以太坊Dapps），他们会通过不同的方法在链上找到所有可提取的价值，然后将交易捆绑在一起提供给Builder；\nBuilder：Builder一般是专业的机构（过去14天有36个活跃Builder，前6家垄断超88%的市场份额），他们从Searchers发送的Bundles中挑选最有利可图的打包成Full Block，通过Relay最终发送给Validator。几个Bundle可以组合在一起形成一个Block，也可能包含来自Mempool的其他用户的待处理交易；\n\n数据来源：MEVBoost.pics\nRelay：Relay负责连接Builder和Proposer，验证Builder提交区块的有效性和出价，并将有效的最高出价提交给Proposer。目前是寡头统治格局，活跃的Relay只有11个，不过Relay并不参与MEV利润的瓜分，属于一个中立的基础设施；\n\n数据来源：MEVBoost.pics\nValidator：Validator是ETH2.0的Miner，Validators（Validators中的Proposers）负责向网络提议Block，并将Block添加到链中。目前Validator的竞争格局渐趋稳定，Lido市场份额第一。Validator既可以获得共识奖励（区块奖励），也可以获得执行奖励（MEV+Tips）。\n\n数据来源：MEVBoost.pics\n当前MEV供应链中各个环节都有项目在做。Searcher环节，有很多套利和清算机器人、DeFi交易员、做市商等，也有服务这些Searcher的项目，比如EigenPhi这类展示链上套利案例的数据平台；Builder环节，则有Flashbots、BloXroute、Blocknative等专业化机构；Relay在MEV Supply Chain中作为一个中立的基础设施，属于需要信任的环节，活跃的Relay主要有11个；Validator也有很多项目在做，相对而言Validator的网络已经有一定的健壮性，从近期融资情况来看，目前也还有新团队想在这个赛道创业。\n按照MEV的获得方式，主要可以分为以下几类：\nFront Running：通过支付比Mempool中的目标交易更高的Gas Fee来抢先执行的行为。比如Mempool中包含一笔某交易对的Tx，会对该Token价格造成较大波动，可以在该笔Tx前插入一笔Tx；或者在新NFT项目上线时，将Mint NFT的Tx抢跑。目前要防止被抢先交易也简单，只需要接入类似Flashboots Auction的Private Transaction Pool，即可获得Frontrunning Protection；\nBack Running：是指当一笔交易会造成较大价格波动时，在该交易后插入一笔交易的行为，可能是套利、清算等。比如链上发生了一笔大额Tx，导致某交易对出现价格波动，在其后插入一笔既可以将DEX的价格搬平，同时套利者也获得了利润；或者链上发生了一笔抵押借贷触发清算线后，在其后插入一笔清算订单的行为；\nSandwith Attack：三明治攻击其实是Front Running和Back Running的结合。搜索者在Mempool中搜索潜在的大额交易，并在交易发生之前抢先买入最终会升值的资产，并在大额交易执行后立即卖出这些资产，从而赚取差价的行为；\nTime Bandit Attack：这类MEV主要发生在有最长链原则的区块链网络（比如中本聪共识的Bitcoin）。\n从这些MEV发生的结果来看，一般Back Running类的MEV对区块链网络是良性的，比如套利者利用两个DEX之间的差价+闪电贷实现的无风险套利、清算者维持借贷协议的健康运行；Front Running、Sandwith Attack对其他用户而言可能会导致利益受损。\n其实MEV是饱受争议的，因为非良性MEV的存在，看起来不太道义。比如Front Running、Sandwith Attack、Time Bandit Attack对区块链上的普通用户而言，会破坏其交易体验、损害其利益。所以，我在很长时间里是希望行业里能够推出一个方案/产品/协议，防止这些非良性MEV的发生。\n但Mempool内交易公开可见的特点、Tx上链排序的竞价规则决定了，MEV是必然存在的。退而求其次，如果你的交易无法避免被提取MEV，不如使用能够将收益反馈给你的产品/协议。\n针对MEV（尤其是非良性MEV）对有状态区块链（比如Ethereum）可能带来的负面外部性（Negative Externalities），目前行业里针对这些风险有一些产品可以减轻这些影响。比如Falshbots系列产品：\nFlashbots Auction：Flashbots Auction在以太坊用户和Validators之间提供了一个私人通信渠道，用于在区块内有效地传达首选交易顺序。通过这类产品可以让链上交易用户实现Pre-trade Privacy、Failed trade privacy、Finality protection等。\nFlashbots Protect RPC：这是一个让用户可以实现Front-Running Protection的RPC端点产品，用户可以将其添加到他们的钱包中，从而使他们的交易提交给Flashbots Auction。对于用户而言，和普通的交易没有感知上的区别，但从结果上可以实现Front Running Protection、Failed trade Privacy等。\nMEV-Boost：PoS时期，Validator可以自行去Mempool为交易排序，将其打包，也可以选择MEV-Boost推送过来的经过Builder排序过的拥有更高MEV收入的区块。通过MEV-Boost，Validator的收入可以获得大幅增加，所以大部分Validator会选择接入MEV-Boost，而不是自己排序。\n\n图片来源：IOSG Ventures Jiawei\n从MEV Supply Chain来看，这三款产品分别在MEV Supply Chain的各个环节发挥作用。\n对于MEV领域的未来，结合MEV领域的发展现状分析，我们认为可能会有以下几个主要趋势：\n1、头部效应会很严重：过去500个Epoch超过90%是由MEV-Boost提供服务，而且Flashbots的系列产品在PoS时期出块的各个环节几乎都是龙头地位，在已经有Flashbots这种First Mover的情况下，想要切入MEV领域的新入局者需要一些核心竞争力才能抢占更多市场份额；\n2、得Orderflow者得天下：要想获得更多的MEV机会，有充足的Orderflow很重要。对于普通的交易用户而言，实际上是没有办法完全杜绝MEV的。即使User采用了FlashbotsProtect RPC，也只能防止Public Mempool的Searcher捕捉其Tx潜在的MEV，Flashbots Auction网络中的Buider仍然有机会针对其Tx提取MEV。所以，对于普通用户而言，既然无法完全规避被提取MEV，不如选择那些会将MEV收益反馈给Users的Wallet、DEX或其它Dapps；\n3、Multichain的MEV仍有增长空间：单纯的Ethereum链内的MEV，可能已经基本得到了充分的捕获。但是区块链是一个Multichain的生态，Layer1 与Layer1之间、Layer1与Layer2之间的MEV机会还较难捕获，针对这方面的MEV可能还有些增长空间；\n4、抗审查交易的上链需求始终能被满足：据MEVwatch数据，Merge后以太坊区块链上符合OFAC合规要求的区块占出块总量的57.49%，最近100个区块中只有35个区块执行了OFAC合规性，对抗审查类交易的上链影响不大。虽然Merge之后，头部质押平台多为中心化平台，这些中心化实体难免受到法律监管，从而对以太坊区块链的抗审查能力形成挑战。但即使超过90%的Validator通过MEV审查中继路由交易，那些抗审查的交易仍然能够在一个小时内上链。",
           "link": "https://www.panewslab.com/zh/articledetails/02bhi4l6.html",
           "publishedOn": "2023-03-15T07:34:54.000Z",
-          "wordCount": 1344,
+          "wordCount": 1348,
           "title": "浅析MEV的发展现状及趋势：这片“黑暗森林”该如何被照亮？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/15/images/8yuz4Ya55r.jfif"
         },
@@ -3924,7 +3934,7 @@
           "description": "原文：《30 protocols with strong catalysts in the coming months》by Thor Hartvigsen，加密研究员\n编译：Kxp，BlockBeats\n在预期美联储加息脚步放缓等多因素叠加背景下，加密市场迎来一轮强劲上涨行情，加密研究员通过梳理 30 个今年需要长期关注的主流项目，把握主流协议在未来几个月中的最新动向。\n\nLido\nLido V2:\n· 质押路由器：允许任何人通过模块化的即插即用模式成为节点操作员（目标是提高去中心化程度）\n· 提款：StETH 持有者可以在上海升级后直接从信标链上提款\n\nVelodrome\nVelodrome 2.0 将在第一季度推出：\n· VELO FED：veVELO 持有者将在VELO货币政策中获得发言权\n· 自定义和可调整的货币对交易费用\n· 集中流动资金池的新方法\n· 整体 UI/UX 改进\n· 以及其他一些升级\nRadiant V2 将在几周后引入：\n· 跨链扩展（首先是 BNB 链）\n· 用于借贷的新资产，包括 StETH、BNB、潜在的 GLP、gDAI 和更多通过治理投票的资产\n· 通过动态流动性减少 RDNT 的排放\n· UI/UX 得重新设计\n\nFantom Foundation\n· fUSD v2：为建设者和用户提供的链上收费系统（可选择使用 fUSD 作为交易费用）\n· FVM：Solidity 兼容，执行速度更快；测试显示约 4500tps，数据存储减少 98%，主网计划于 2023 年底上线\n· Andre 将回归\nAtlas 升级：\n· 为提款做准备（上海升级）\n· 8 个 ETH 迷你池（剩余的 24 个 ETH 由协议提供，用于操作验证器）；更低的进入门槛+更高水平的去中心化\n· Gas 费优化（减少 40%）\nAtlas 计划在 3 月/4 月上线。\n· PLS V2 tokenomics 将于 3 月下旬推出：这将允许用户锁定他们的PLS以获得金库的乘数点。通过这样做，他们可以从奖励中获得真正的收益，收到 esPLS Token，以及更多。\n· 此外，PlutusDAO 正计划将更多的治理 Token 纳入其平台，plsRDNT 是下一个要加入的 Token。PlvRDNT 金库也计划在未来推出。\nGMX 将在今年的某个时间点推出 V2（可能是第一季度/第二季度，目前正在进行审计），这将引入大量新的可交易资产，而不仅仅是 Crypto（合成货币对）。\n在 Discord 中也有关于 V2 后跨链扩展的预告。\nOptimism 正在建立 OP 栈：一个模块化的区块链框架，用于轻松构建各种可扩展的 rollup（OP 链）。Coinbase 的 Base 将第一个利用这项技术，其第一阶段是 Bedrock（23 年第一季度）。\n· 跨链扩展到 BNB 链\nLiquidity book V2：\n· 为sJOE质押者提供的 V2 池费用转换\n· 限价订单和无需许可的流动性账簿池\n· 升级到 GLP 高风险偏好金库：对冲交易员的损益\n· GLP v2 整合（GMX synthetics 升级后）\n· 跨链扩展\n· Rage perp v2：除了 tricrypto 外潜在的新抵押品选项\n \n\nSynapse 正在建立一个 Ethereum 原生的 optimistic rollup（Synapse 链）：\n· 跨链信息传递：在一个链上调用一个合约，并在另一个链上执行\n· 为跨链 Dapp 而建，配有 Synapse 桥接\n· 即将上线\n\nFrax Finance\n· frxETH 持续增长，因为 Frax 拥有最具竞争力的质押收益率\n· FIP-188: FRAX将成为完全抵押品（从 92% 到 100%）\n· FRAX 和 Frax 生态系统的总体增长（FPI、veFPIS、FraxSwap、Fraxlend frxETH 等）\n\nPendle\nPendle 通过将资产分为原则 Token 和收益 Token，提供非常高的收益率，TVL 在整个 2023 年都呈上涨态势。\n他们最近用 GLP 跨链到 Arbitrum，并将在未来增加 gDAI 及额外的资产。\n\nSynthetix\nSynthetix V3：\n· 以 ETH 和其他资产作为合成资产的抵押品\n· 流动性提供者将能够选择将流动性分配给哪些合成资产（高风险=高费用）\n· 建立在 Synthetix 之上的产品（Kwenta, Lyra, Thales 等）获得更多采用\nConic 在 Curve 上提供 omnipool（将用户的流动资金分散到不同的资金池中，并将其质押在 Convex 上），用户可以赚取 CRV + CVX + CNC。该协议在 1 周内就达到了 6500 万的 TVL。\n推动因素：\n· 高收益带来的更广泛采用\n· 额外的资产\n\ndopex\n· rDPX v2: 能够以 rDPX 作为部分抵押品铸造合成 Token（rDPX 的通缩压力），第一个资产将是 dpxETH（不是 LSD）。\n· Dopex OpFi 产品：在后台利用链上期权的 DeFi 产品。\n\nPolygon Labs\nPolygon 正在搭建各种链：\n· Polygon Supernets\n· Polygon Avail\n· Polygon Zero, Miden & zkEVM\n· Polygon Nightfall\nzkEVM 将于 3 月 27 日在主网上推出。\ndYdX 正在推出他们自己的应用链（v4），用 Cosmos SDK 构建，以去中心化的方式创造类似中心化交易平台的表现，这包括：\n· 交易时不收取 Gas 费用\n· 由验证者运行链外订单簿\n· DYDX作为原生 Gas Token\n\nCurve Finance\n随着稳定币得到更广泛的采用，Curve 作为最大的链上稳定币流动性中心，将大大受益。\ncrvUSD 上线临近，这为 Curve/veCRV 创造了额外的收入。\n· 更多的协议集成（启动面板和流动性池）\n· 改良后的 xGRAIL 版本具有所谓的「插件」\nLyra 最近推出了他们的'Newport'升级（该升级整合了 GMX 永续合约并部署在 Arbitrum 上），并增加了ETH和wBTC期权交易。\n长期来看，DeFi 期权有很大的潜力，随着采用范围的扩大，Lyra 可能成为从中受益的主要协议之一。\n\nCosmos\n几天前，链间安全（ICS）升级的第一部分通过治理获得批准，并将于 3 月 15 日启动。\nICS 允许应用链借用 Cosmos 中心验证者集来保证安全，而不需要启动自己的验证者（需要付费）。\nMaker 正在推进几个项目，包括：\n· Spark 协议：第一个产品是 Spark Lend，它受到 Aave V3 的启发，有一个直接的 Maker 信贷额度（将于 4 月上线）\n· EtherDAI：原生 ETH LSD 来支持DAI\n在 Arbitrum 上推出并增加了商品和指数等新资产后，gTrade 已经成为了领先的去中心化永久合约之一，经历了交易量的大幅飙升。虽然没有官方的路线图，但在 Discord 上有很多预告信息。\n\nAave\nAave 正在推出他们的原生稳定币GHO：\n· 由 Aave 上的资产进行过度抵押\n· 资产供应由「促进者」（由 DAO 选出的实体）控制\n· AAVE质押者有着 GHO 铸币折扣\n· 与 Arbitrum 合作的游戏建设者计划（GBP）：激励游戏开发者在 Treasure DAO 生态系统中进行建设\n· MagicSwap v2: 游戏内经济的未来，支持 ERC-20Token 和 NFT 池，计划在今年第二季度推出\nUniswap 最近宣布了他们即将推出的手机应用程序。\nUniswap 仍然是领先的 DEX，截至 3 月，它每天大约有 5 万用户。\n手机应用可以更好的吸引用户加入。\n\nFilecoin\nFilecoin 将于 3 月 14 日推出 Filecoin 虚拟机（FVM）和 Filecoin EVM（FEVM）。\nFVM 将允许在 Filecoin 的基础上建立自定义智能合约，开辟各种新的用例，如 Token 化数据、数据 DAO 等。\n· 自 2 月推出 V2 版以来，数量/用户大量增加\n一些即将在第一季度/第二季度推出的功能：\n· Lyra 伙伴关系\n· 交叉保证金 v2\n· Kwenta SDK\n· 质押者的费用转换\n· UI/UX 改造\n... 以及更多\n\n注：原文中第 2 个协议及其更新已不可见，故共有 29 个协议更新介绍。原文链接",
           "link": "https://www.panewslab.com/zh/articledetails/e154lpxa.html",
           "publishedOn": "2023-03-15T05:26:03.000Z",
-          "wordCount": 2171,
+          "wordCount": 2175,
           "title": "盘点年中前具有强大催化剂的30个优质项目",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/15/images/tKpi69AcbE.webp"
         },
@@ -10718,7 +10728,7 @@
           "description": "The Aptos Software Development Kit (SDK) is a new stack of gaming developer tools that enables interoperability and transparency within…",
           "link": "https://medium.com/aptoslabs/aptos-labs-brings-web3-to-gaming-with-its-new-sdk-for-unity-developers-e6544bdf9ba9?source=rss-70211828fe2e------2",
           "publishedOn": "2023-02-28T18:30:00.000Z",
-          "wordCount": 1823,
+          "wordCount": 1825,
           "title": "Aptos Labs brings Web3 to Gaming with its new SDK for Unity developers",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*_F9OhBgtlRKVKOmtOiruLw.png"
         }
