@@ -47,7 +47,7 @@
           "description": "<h3>以太坊 Goerli 测试网激活 Shapella 升级</h3>\n<p>以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。以太坊核心开发人员 Tim Beiko 表示，由于几个测试网验证器在 Goerli 分叉之前没有升级他们的客户端软件，导致初期处理存款的过程并不顺利，但问题已经解决。Shapella 预计于 4 月初在以太坊主网上激活，具体日期将于本周四的以太坊执行层核心开发者会议（ACDE）确定。</p>\n<p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Tim Beiko（以太坊核心开发者）：</strong>一个原因是鉴于 ETH（Goerli）毫无价值，运行验证节点 / 监控它的动力就会减少。另一个可能的原因是在分叉处处理了大量的取款凭证更改。鉴于这是人们第一次提交这些更改，还有更多需要处理的内容，这可能导致在低资源节点上丢失块 / 证明。【原文为英文】</p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a>",
           "link": "https://twitter.com/TimBeiko/status/1635769239272591360",
           "publishedOn": "2023-03-15T01:47:27.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "以太坊 Goerli 测试网激活 Shapella 升级",
           "imageUrl": null
         },
@@ -167,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当下为什么所有股票都在下跌时比特币却在上涨？加密货币 KOL Takashi Azuki 认为是目前的市场行情加上 CZ 将 BUSD 转换为 BTC/BNB/ETH 导致的比特币上涨，并阐述了自己目前的做法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">https://twitter.com/rxcrax/status/1635338126003695617</a></p>\n<p><strong>文章作者：</strong></p><p>Takashi Azuki</p><hr><h3>观点：</h3><p><strong>Takashi Azuki：</strong>比特币上涨原因：当下，银行股跌入地狱，部分股票停牌。金融市场正在崩溃，比特币的去中心化也许是一种救赎。美国当局保证返还破产的 SVB 存款，并暂停 Signature Bank（NYC），USDC 恢复锚定 1 美元。同时 CZ 将 BUSD 溢出到 BTC/BNB/ETH。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a><p><strong>Takashi Azuki：</strong>我现在在做什么：留下了一半的稳定币，并将它们转换为 USDT 。我仍然认为行情很快就会修正。我将继续按计划对其进行再投资。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a>",
           "link": "https://twitter.com/rxcrax/status/1635338126003695617",
           "publishedOn": "2023-03-14T06:59:27.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文解析当下比特币上涨原因",
           "imageUrl": null
         },
@@ -227,7 +227,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>我们该如何减少恶意行为者？Galaxy Digital 研究员 Walt Smith 认为 Eigenlayer 机制是加密货币的一次飞跃创新，可以利用女巫攻击的阻力来增强基础层，并突破固有限制且无需改变其主要优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">https://twitter.com/waltjsmith/status/1635147987004579841</a></p>\n<p><strong>文章作者：</strong></p><p>Walt Smith</p><hr><h3>观点：</h3><p><strong>Walt Smith：</strong>在分布式计算和区块链中，网络参与者越多，则不诚实的行为者就越多，这也会导致成本增加。因此我们有一个权衡，即增加对故障的鲁棒性并提高可及性，但这也会增加时间成本。对于区块链而言，更快的通信或共识能够通过更快的结算时间提高市场效率，增加抗重组能力并提高快速的经济终局性。【原文为英文】</p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">内容来源</a><p><strong>Walt Smith：</strong>我们试图通过不同的方式来解决这个权衡，包括 Solana 历史证明结合 Turbine、Tendermint 应用链及以太坊的 LMD-GHOST/Casper FFG 混合。这就是 EigenLayer 产生作用的地方。EigenLayer 让所有用户公开创建子集以参与额外的通信，既给了我们想要的经济安全和可信中立性，也让协议及其产品更接近现实世界的应用程序。【原文为英文】</p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">内容来源</a><p><strong>Walt Smith：</strong>我的结论是：1）重质押增强了网络，表明网络可以再次绕过内置限制；2）理想的网络将存在一个强大的基础层（便宜、易于操作、多样化节点），但也需要有足够多的状态创建逻辑及原语；3）安全构建每种类型的服务或中间的逻辑需要长时间的努力。【原文为英文】</p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">内容来源</a>",
           "link": "https://twitter.com/waltjsmith/status/1635147987004579841",
           "publishedOn": "2023-03-14T05:37:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Glaxy Digital 研究员解读 Eigenlayer 的创新性：为什么说它很重要？",
           "imageUrl": null
         },
@@ -237,7 +237,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1783,
+          "wordCount": 1989,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -257,7 +257,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2046,
+          "wordCount": 2252,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -337,7 +337,7 @@
           "description": "<h3>Meta 正在逐步减少 NFT 业务投入</h3>\n<p>Meta 商务和金融技术主管 Stephane Kasriel 发布推特称，目前正在逐步减少 NFT 业务投入以专注于其他支持创作者、个人和企业的方式。Stephane Kasriel 还表示，为创作者和企业创造机会与粉丝建立联系并实现盈利，仍然是 Meta 的一个优先事项，Meta 将专注于能够产生大规模影响的领域，例如 Reels 的信息传递和货币化机会。此外，Meta 将继续投资于个人和企业在未来需要的金融技术工具，目前正在用 Meta Pay 简化支付并投资于 Meta 信息支付。</p>\n<p><a href=\"https://twitter.com/skasriel/status/1635386565487898624\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Eric Ravenscraft：</strong>Facebook 的商业模式就是抄袭别人的模式来盈利，现在他们甚至放弃了 NFT。【原文为英文】</p><a href=\"https://twitter.com/LordRavenscraft/status/1635444107110694915\">内容来源</a><p><strong>SHΞRKHAN.S◎L：</strong>Web 2 社交网络逐步减少对 Web3 的支持。创新者两难处境？或者只是一种对抗性策略？或者是由于 iOS 限制？似乎是一种短视行为。【原文为英文】</p><a href=\"https://twitter.com/sherkhantx/status/1635443849832062976\">内容来源</a>",
           "link": "https://twitter.com/skasriel/status/1635386565487898624",
           "publishedOn": "2023-03-14T01:12:05.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "Meta 正在逐步减少 NFT 业务投入",
           "imageUrl": null
         },
@@ -357,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1077,
+          "wordCount": 1283,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>\n<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a>",
           "link": "https://twitter.com/ArbiAlpha/status/1634615208848281603",
           "publishedOn": "2023-03-13T05:49:16.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】对冲挂钩资产风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1726,
+          "wordCount": 1723,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受美国硅谷银行破产影响，USDC 正经历着严重脱锚的危急时刻。FRAX 作为完全由 USDC 作为抵押物的去中心化稳定币该如何应对？加密 KOL Francesco 分析了当前 FRAX 面临的问题，并总结了 FRAX 创始人 Sam 的解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">https://twitter.com/francescoglt/status/1634929747728932864</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>尽管 Frax 将其抵押率提高到了 100%，但当前的 USDC 的严重脱锚证明了 100% 的抵押率也并非完全可靠。因为 Frax 的大部分抵押品由 USDC 组成，Frax 仍然依赖于「代币化法币」敞口。Frax 并没有真正脱离中心化稳定币，并且在市场动荡期间不提供任何额外级别的保护。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a><p><strong>francesco：</strong>Frax 创始人 Sam 认为，FRAX 应该只有 1 个 RWA：将美元存入美联储主账户 (FMA)。然而 Frax 作为区块链协议想要获得 FMA 的过程将比传统的大型银行困难得多，对于能否实现这一目标仍然纯粹是猜测。Sam 在 Frax 电报群中提到了不依赖 USDC 的第一步：Frax 可能很快开始直接购买美国国债。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1634929747728932864",
           "publishedOn": "2023-03-13T03:24:03.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】USDC 严重脱锚，FRAX 如何解绑中心化稳定币？",
           "imageUrl": null
         },
@@ -527,7 +527,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17782,
+          "wordCount": 17744,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -747,7 +747,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Circle 宣布约 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行中，一时间引发了市场对于 Circle 暴雷的恐慌。加密研究员 0xLoki 在对 Circle 储备资产及估值进行分析后，认为 Circle 出问题的概率极低。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">https://twitter.com/Loki_Zeng/status/1634410350505508864</a></p>\n<p><strong>文章作者：</strong></p><p>0xLoki</p><hr><h3>观点：</h3><p><strong>0xLoki：</strong>Circle 储备资产分为三个部分：324 亿美元国债组合、33 亿在 SVB 中及存在 SVB 以外银行的 78 亿。其国债组合具备充足流动性，即使被迫贴现也不会受到太大损失。此外，SVB 的情况和当时 FTX 的情况完全不同，SVB 这些贷款中的大部分还是可以收回的，43% 的极端情况发生的概率很低很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>SVB 以外银行的 78 亿我们在官方也找到了相关信息披露，可以看出除了 SVB 和 Silvergate 以外，Signatures Bank 等三家银行同样不能让我们放心。考虑到 BNYM 是 Circle 首选银行，保守估计下，BAYM 资金占 35%，剩下四家每家 10%，悲观一点，如果有风险的三家都出问题，回收率按 80% 计算，Circle 总损失是 20 亿美元左右。合理一点，Circle 在 SVB 中损失 7 亿美元左右，最极端的情况是 SVB 中损失 33 亿且剩余三家中共计 50 亿无法收回，但概率很低。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a><p><strong>0xLoki：</strong>但根据 Circle 估值，7 至 20 亿美元的损失对 Circle 来 说并不是太大的问题。USDC 真正暴雷需要满足三个条件：1）存在 SVB 和三家中风险银行的资金足够多；2）这些银行的债务回收率足够低；3）USDC 自己无法承担损失或者无法找到资金支持方来解决问题。</p><a href=\"https://twitter.com/Loki_Zeng/status/1634410350505508864\">内容来源</a>",
           "link": "https://twitter.com/Loki_Zeng/status/1634410350505508864",
           "publishedOn": "2023-03-11T05:14:43.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【长推】 硅谷银行倒闭，会成为 Circle 暴雷导火索吗？",
           "imageUrl": null
         },
@@ -837,7 +837,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 21004,
+          "wordCount": 21000,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -867,7 +867,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管市场条件不佳，游戏和 NFT 项目在 2023 从 a16z crypto、Google Ventures 等主要加密货币公司筹集了超过 10 亿美元资金。加密研究员 Emperor Osmo 盘点了 2023 年主要 Web3 游戏和 NFT 项目的融资情况，并从用户和游戏开发商角度，总结了 3 个看好该行业发展的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">https://twitter.com/flowslikeosmo/status/1634011217097269254</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>原因 1：庞大的用户基数。视频游戏拥有最大、发展最迅速的社区之一。游戏玩家在他们的技术知识方面具有战略性和悟性，当涉及到像 NFT 这样复杂的新技术时，他们会迅速学习。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 2：尚未开发的资源。一个由不可替代的代币驱动的去中心化经济。游戏开发者可以从中受益，从转卖中获得佣金，从其他平台获得收入分享，以及在市场上的用户中提高知名度。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 3：玩家的权力。通过「投资」时间，拥有网络的一部分。Web3 游戏和 NFT 项目允许玩家将游戏与区块链提供的效率相结合，从而引入更高级别的参与和所有权。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a>",
           "link": "https://twitter.com/flowslikeosmo/status/1634011217097269254",
           "publishedOn": "2023-03-10T12:17:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】观点：Web3 游戏受到资本推崇的三个原因",
           "imageUrl": null
         },
@@ -947,7 +947,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Nibiru 是 Cosmos 生态中专注于衍生品交易的主权 Layer1，其早前完成了 750 万美元融资，估值达一亿美元，联创背景包括 Tribe Capital 合伙人、币安做市商，团队实力不容小觑。加密研究员 yyy 从生态组件构成、代币经济学对 Nibiru 进行详细介绍。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">https://twitter.com/y_cryptoanalyst/status/1633753341577797632</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>Nibiru 生态系统由 4 大核心组件构成：1）Nibi-Perps，提供完全去中心化对链上合约交易，通过生态系统基金和财政库进行黑天鹅事件预警和处理。2）Nibi-Swap，提供 AMM 现货交易，Nibiru V1 架构支持 2 种不同的 LP 池类型：StableSwap 池和恒定乘积池。Nibiru 的 StableSwap 基于 Curve, 支持稳定币的 Swap。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>3）$NUSD 稳定币，是 Niburu 原生的足额抵押稳定币，其支持的首个抵押品是稳定币 $USDC。用户通过提供 $NIBI 和抵押品来铸造 NUSD，两者的具体比例由抵押品比率决定。4）预言机，Nibiru 开发自己的去中心化预言机，由验证者节点扮演预言机角色。奖励提供「正确」价格的验证者，惩罚提供「错误」价格的验证者，通过底层经济激励机制保证资产喂价的有效性。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a><p><strong>yyy：</strong>代币经济学：Nibiru 将发行协议原生代币 $NIBI，总量 15 亿枚（硬顶），代币供应分为 8 年线性释放。最终的代币分配比例为：社区（60%），团队（21%），私募（10.5%）， 种子轮（8.5%）。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1633753341577797632\">内容来源</a>",
           "link": "https://twitter.com/y_cryptoanalyst/status/1633753341577797632",
           "publishedOn": "2023-03-10T06:54:23.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "一文解析含着「金汤匙」出生的 Cosmos 生态子链 ：Nubiru Chain",
           "imageUrl": null
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL LlamaRisk 对市值最大的欧元稳定币 $EURS 发行商 Stasis 长期低息债券配置表示担忧，认为其会在利率上升环境中大幅贬值，于是撰推发文解析 $EURS 及 Stasis 的现存财务风险，认为 Stasis 应该在财务和运营方面坚持更高的透明度标准。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">https://twitter.com/LlamaRisk/status/1633916033886199808</a></p>\n<p><strong>文章作者：</strong></p><p>LlamaRisk</p><hr><h3>观点：</h3><p><strong>LlamaRisk：</strong>$EURS 的治理由 Stasis 3/7 多重签名国库钱包控制。我们对 Stasis 的主要担忧是最近对长期低息债券的配置，这些资金占 $EURS 支持资金的 93% 以上，并且在利率上升的环境中大幅贬值。Stasis 会计明显不承认这些市场波动。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a><p><strong>LlamaRisk：</strong>我们和 Stasis 讨论了这个问题，他们在 3 月 7 日发布的最新季度报表显示已经清算了整个债券投资组合。这使我们担心已实现的亏损可能影响 $EURS 的偿付能力。最近的财务报告显示，$EURS 完全得到支持。我们担心贷款注入的现金可能会弥补资金短缺。我们就此事对 Stasis 发出质疑，但他们拒绝置评。【原文为英文】</p><a href=\"https://twitter.com/LlamaRisk/status/1633916033886199808\">内容来源</a>",
           "link": "https://twitter.com/LlamaRisk/status/1633916033886199808",
           "publishedOn": "2023-03-10T06:18:13.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文】欧元稳定币 $EURS 偿付能力或受市场波动影响？其发行商在财务方面应更加透明化",
           "imageUrl": null
         },
