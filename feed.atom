@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T07:59:30.294Z</updated>
+    <updated>2023-03-15T08:06:39.676Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Cosmos已激活引入Replicated Security功能的V9 Lambda升级]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ozer0te3.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ozer0te3.html"/>
+        <updated>2023-03-15T08:03:09.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日，Mintscan数据显示，Cosmos刚刚到达激活V9 Lambda升级的区块高度14470501，根据此前消息，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。Replicated Security功能可将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者。消费者链将受益于额外的安全性，而ATOM质押者将受益于消费者链产生的一定比例的代币或费用作为质押奖励。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A&T Capital: 以太坊 MEV 提取机制的现状、问题与改进]]></title>
         <id>https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw</id>
@@ -2798,17 +2808,6 @@ PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击
         <updated>2023-03-14T12:13:29.000Z</updated>
         <summary type="html"><![CDATA[NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！
 PANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DWF Labs将购买价值1000万美元的Orbs代币]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/8k5qztxl.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/8k5qztxl.html"/>
-        <updated>2023-03-14T12:10:16.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月14日消息，据The Block报道，加密基础设施开发商 Orbs 将从 DWF Labs 筹集高达 1000 万美元的资金。Orbs 首席执行官 Nadav Shemesh 表示，第一笔总投资于今天结算，其余投资将“随着时间的推移达到平均价格”。有了 DWF 的投资，Orbs 计划继续开发其基础设施以增加在以太坊虚拟机 (EVM) 链和开放网络 (TON) 上的采用率。
-相关阅读：Orbs：面向大规模消费者应用的区块链云服务。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
