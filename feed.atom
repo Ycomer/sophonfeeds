@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T02:54:15.838Z</updated>
+    <updated>2023-03-15T02:59:34.278Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Circle：正努力恢复USDC的流动性运作，包括寻找全天候的新银行合作伙伴]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html"/>
+        <updated>2023-03-15T02:58:06.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，USDC稳定币发行商Circle在博客文章中表示：“自从Signature Bank和Silvergate Bank倒闭以来，我们团队一直在夜以继日地工作以恢复USDC的流动性运营，包括引入新的交易银行合作伙伴。我们于当地时间3月13日星期一早上开始处理铸造和赎回请求，当时美国银行系统重新开放，目前正在处理积压的请求。我们在这里还有更多工作要做，包括添加具有24/7/365功能的新交易银行合作伙伴，当地时间3月13日，Circle赎回了29亿美元USDC，并铸造了70亿美元USDC。”
+文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT-4发布，OpenAI CEO的“另一个儿子”Worldcoin也有新动作]]></title>
         <id>https://www.panewslab.com/zh/articledetails/ich4j28p.html</id>
@@ -2466,66 +2477,6 @@ Read the full entry]]></summary>
 Read the full entry]]></summary>
         <author>
             <name>深潮TechFlow</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[以 Frax 为例，探讨去中心化稳定币面临的挑战和风险]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/3eye4xb0.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/3eye4xb0.html"/>
-        <updated>2023-03-14T08:19:20.000Z</updated>
-        <summary type="html"><![CDATA[原文：《The Risks of Centralized Collateralization in Decentralized Stablecoins and How to Move Forward》by francesco
-编译：Biteye 核心贡献者 Crush
-昨日SVB 的崩盘导致美元稳定币 (USDC) 大幅脱钩，一度跌至 0.8788 美元。
-这带来了极大的连锁反应，那些理论上不应该受影响的中心化稳定币，在本次崩盘事件中都难以独善其身。
-例如 Frax 的价格就跌至 0.87 美元。
-
-Frax 的暴跌，主要原因是它将 USDC 作为抵押品。像本周这样的黑天鹅事件，对去中心化稳定币来说，可谓是一个大考验。
-持有它们的意义是什么，它们仍然会受到系统性风险的影响么？
-本文以 Frax 为案例进行研究，回答以下问题：
- 
-01、没有最好，只有更好
-Frax 作为第一个部分储备稳定币协议而声名鹊起，它是 开源、无需许可且完全在链上的。
-Frax 的愿景是成为 DeFi 的一站式服务：一种去中心化的中央银行。作为计划的一部分，他们最近宣布将其抵押率提高到 100%，这是在 Terra 崩溃后，监管方面的担忧所导致的改变。
-然而，如当前的 USDC 脱钩所示，100% 的抵押率对于 Frax 来说是不够的。真正的悬而未决的问题是应该使用哪些资产作为抵押品。
-这也是 Frax 团队正在努力解决的问题。
-
-目前，Frax 仍然依赖“代币化的法定货币”，因为大部分 Frax 的 抵押品都是由 USDC 组成的 。
-Frax可以利用的资产范围实际上受到限制：
-在牛市的大部分时间里， RWA 主导了稳定币扩展基础设施的叙事。前进的方式没有对错之分，这取决于协议的最终愿景。
-由于 Frax 旨在成为 DeFi 的中央银行，前进的最佳方式不是“承担有风险的私营部门贷款”，而是专注于能 最大程度降低风险的资产 。
-今天最像这种稳定币的是 Circle USDC ，因为它完全由短期美国国债和现金支持。
-因此，Frax最初选择以 USDC 作为抵押品，因为它是“美元中最不具风险经济责任”的工具。
-例如，如果 $DAI 也采用真实世界资产，如特斯拉贷款和私人公司贷款，那将比以稳定币计价的美元贷款更具风险性。
-然而，由于大部分抵押品为 USDC，Frax 与中心化稳定币并没有真正去相关，也没有在市场动荡期间提供额外的保护：它的命运只与 Circle 和 USDC 相关。
-当然，Sam（Frax 创始人）承认过分依赖于中心化的第三方的确会存在一定程度的外在风险， SVB 的崩盘恰巧印证了这一点，影响了 Circle 并导致了 USDC 的脱钩。
-用 Sam 的话说，只应该有 1 个 RWA： 那就是在于美联储主账户（FMA）上的美元存款。每家大型银行都可以申请在美联储上直接存放美元。
-Frax 解决抵押品困境的 终极之策就是开设 FMA，即在美联储主账户上存放美元。这样做将为 Frax 提供最佳的风险保障。没有什么操作比这个风险更小。
-然而，正如 Sam 自己所提到的，这是一条漫长的道路，充满了假设，因此是否能够实现这一点仍然是 纯粹的猜测。
-Frax 是加密行业中的一个完全链上实体。因此，与传统大银行相比，获取 FMA 的过程将更加困难。
-美联储有 6 个非常严格的标准和 3 个不同的层次来评估一个实体是否可以获得 FMA。鉴于 Frax 是一种区块链协议，它将属于较高的风险等级，因此在批准之前会接受越来越多的审查。
-美联储只可能向符合成员银行或存款机构、指定的金融市场实用工具、某些政府赞助的企业、美国财政部和某些正式国际组织的法定定义的合格机构授予主账户。对于符合条件的机构，申请人必须遵守相关法律和监管要求，包括支付、反洗钱、制裁和风险管理等方面的要求；处于良好的财务状况；不会对美联储或金融稳定性构成风险。
-在一次采访中， Sam 提到， Frax 不想模仿Yuga Labs ，后者最近从 a16z 筹集了超过 10 亿美元。
-用 Sam 的话说，这引入了“不良的激励”来奖励股权持有者，从而会危及协议的价值主张 并使 Frax 成为一个中心化公司。
-另一种不同的组织方式可能是非营利基金会，类似于 Ethereum 的做法。
-获得 FMA 将确保 Frax 保持去中心化并为 Frax 持有人提供价值，而不是股权持有人。
-后者对于一个想要扩大其规模的 NFT 公司（ Yuga ）来说可能有效，但是对于一个旨在成为 DeFi 中央银行的去中心化公司来说，这会破坏其利益的一致性。
-Sam 在 Frax 电报群组中提到了不依赖于 USDC 的第一步：Frax 可能很快开始直接购买美国国债。
-
-
-1. SVB 的崩盘事件，是对整个加密生态系统的实战测试。Frax 在这场测试中证明了自己足够强大，展现了其韧性和改进抵押品的策略。
-2. 这加快了寻找替代抵押品的过程，直接购买美国国债可能是朝着正确方向迈出的第一步。
-3. 随着 Fraxswap 和 Fraxlend 的推出，Frax 已成为以太坊上首个提供稳定币、流动性和借贷服务的一站式 DeFi 协议。通过控制整个堆栈，Frax 进一步扩大其执行任意货币政策以支持稳定币的能力。
-4. 路漫漫其修远兮，Frax 一路跋涉，历尽艰辛困苦。除了抵押品问题，在接下来的几个月中，我们将继续关注美国在稳定币监管方面的进展，这将是决定 Frax 成败的关键时刻。
-5. 此外还要表扬一下 Sam 和 Frax 团队的透明度。只要你有任何疑问，提出就会得到答复。
-这篇文章以 Frax 为案例，讨论了去中心化稳定币面临的挑战和风险。作为一个完全链上实体，Frax 需要依赖中心化稳定币 USDC 作为抵押品，这使得它在市场动荡期间缺乏额外的保护，并且容易受到系统性风险的影响。
-但持有 USDC 还是比承担有风险的私营部门贷款（即 Maker 正在做的连接现实资产，给现实世界实体提供稳定币 DAI 的借款）更安全。
-Frax 团队正在努力提高稳定币的安全性，最近宣布将其抵押率提高到 100%，并寻找更多低风险资产如美国国债作为抵押品，计划申请在美联储主账户（FMA）开立账户进行美元存款。
-此外，他们还在考虑采用非营利基金会的组织方式来避免成为中心化公司。
-去中心化稳定币是 DeFi 生态系统中不可或缺的一部分。尽管它们面临着许多挑战和风险，但它们也提供了一种更加透明、去中心化和开放的金融服务方式。
-译者相信随着技术和监管环境的不断发展，去中心化稳定币将会越来越成熟和可靠，并在未来发挥更加重要的作用。经过此次动荡，DeFi 急需与加密原生资产连接的去中心化稳定币，来降低传统金融的影响。
-也许未来的稳定币不一定锚定美元，而是 CPI 等更能反映货币政策影响的锚。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
