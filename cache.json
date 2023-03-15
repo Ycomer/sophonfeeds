@@ -12,6 +12,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/TimBeiko/status/1635769239272591360",
+          "author": null,
+          "description": "<h3>以太坊 Goerli 测试网激活 Shapella 升级</h3>\n<p>以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。以太坊核心开发人员 Tim Beiko 表示，由于几个测试网验证器在 Goerli 分叉之前没有升级他们的客户端软件，导致初期处理存款的过程并不顺利，但问题已经解决。Shapella 预计于 4 月初在以太坊主网上激活，具体日期将于本周四的以太坊执行层核心开发者会议（ACDE）确定。</p>\n<p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Tim Beiko（以太坊核心开发者）：</strong>一个原因是鉴于 ETH（Goerli）毫无价值，运行验证节点 / 监控它的动力就会减少。另一个可能的原因是在分叉处处理了大量的取款凭证更改。鉴于这是人们第一次提交这些更改，还有更多需要处理的内容，这可能导致在低资源节点上丢失块 / 证明。【原文为英文】</p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a>",
+          "link": "https://twitter.com/TimBeiko/status/1635769239272591360",
+          "publishedOn": "2023-03-15T01:47:27.000Z",
+          "wordCount": 480,
+          "title": "以太坊 Goerli 测试网激活 Shapella 升级",
+          "imageUrl": null
+        },
+        {
+          "id": "https://fil.org/blog/the-filecoin-virtual-machine-has-arrived/",
+          "author": null,
+          "description": "<h3>Filecoin 虚拟机 FVM 上线，支持智能合约和可编程性</h3>\n<p>Filecoin 虚拟机 FVM 已在 Filecoin 主网正式启动，通过此次代号为「Hygee」的升级，Filecoin 网络首次变得可编程。通过引入可编程智能合约并在 FVM 之上启动以太坊虚拟机（EVM），开发人员可将现有 EVM 合约直接连接到 Filecoin 网络和存储服务。Filecoin 正在举行第二次 FVM 捐赠，将为 20 个围绕 FVM 构建的优质项目提供 5000 美元单笔资助。</p>\n<p><a href=\"https://fil.org/blog/the-filecoin-virtual-machine-has-arrived/\">内容来源</a></p><hr>",
+          "link": "https://fil.org/blog/the-filecoin-virtual-machine-has-arrived/",
+          "publishedOn": "2023-03-15T01:47:01.000Z",
+          "wordCount": 1808,
+          "title": "Filecoin 虚拟机 FVM 上线，支持智能合约和可编程性",
+          "imageUrl": "https://fil.org/images/unnamed-14.png"
+        },
+        {
           "id": "https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>本文由 Multicoin Capital 作者 Kyle Samani 撰写，解析数据分类账本 Ceramic 如何通过社区驱动的数据模型实现数据可组合性。中文版由 DAOSquare 译者 hsl195 编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg\">https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg</a></p>\n<p><strong>文章作者：</strong></p><p>Kyle Samani（Multicoin Capital 联合创始人）</p><hr><h3>观点：</h3><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>Ceramic 主要通过一种叫做数据模型的新抽象概念实现跨应用的数据可组合性，这种抽象统一了类似应用的存储方式，并可以检索网络上每个用户的状态。通过采用相同的底层数据模型，应用程序能够对相同的数据进行原生互操作。</p><a href=\"https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg\">内容来源</a><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>Ceramic 采取社区驱动的方式来创建这些数据模型，允许任何开发者轻松地与生态系统中的其他开发人员定义、分享和循环利用他们的模型。随着社区创建越来越多的数据模型，我们将看到使用可组合数据构建的应用程序的数量和种类不断扩大。</p><a href=\"https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg\">内容来源</a><p><strong>Kyle Samani（Multicoin Capital 联合创始人）：</strong>通过前述方式，可组合性也带来了更好的开发者体验。在 Ceramic 上构建一个应用程序看起来就像浏览一个数据模型市场，将它们接入你的应用程序，并自动获得对网络上存储在这些模型中的所有数据的访问。使用 Ceramic，开发者将不需要担心用他们独自的用户和数据来开发应用程序。开发者的整个复合创新的速度将大大加快。</p><a href=\"https://mp.weixin.qq.com/s/bTL6GF8DhlU0pzNGYywYxg\">内容来源</a>",
@@ -47,7 +67,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ABCDE 投研合伙人 Lao Bai 将 $sUSD 归类为新算稳三杰，LD Capital 研究员 duoduo 遂撰推解读 sUSD 的代币机制，认为随着 V3 版本实施和 Optimism 的资金流入增加，sUSD 的可扩展性增强，生态会更丰富。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">https://twitter.com/angalina2021/status/1635582678035759105</a></p>\n<p><strong>文章作者：</strong></p><p>duoduo</p><hr><h3>观点：</h3><p><strong>duoduo：</strong>如何铸造？质押 SNX 可以生成稳定币 sUSD，SNX 铸造 sUSD 的抵押率是 400%，清算线则是 160%。这是一个比较高的抵押率，可以应对市场极端风险，维持系统的稳定。如何锚定？sUSD 通过套利机制维持价格锚定，铸造价格始终为 1 美元，当市场价格高于铸造价格时，套利者可以铸造新的 sUSD，按照市场价格卖出获利，市场供应增加，价格回落。反之则套利者可以从市场买回 sUSD，然后销毁 sUSD，降低债务。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a><p><strong>duoduo：</strong>债务池是质押的 SNX 都放进去的一个池子。当用户铸造 sUSD 时，铸造出来的 sUSD 的数量占所有 sUSD 的数量就是用户在整个债务池的比例，所有被铸造的 sUSD 就是总债务。如果 A 的投资策略实现资产升值（如 sUSD 购买 sETH，sETH 价格上涨）就会导致 B 的债务增加。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a><p><strong>duoduo：</strong>债务池可以为各类协议提供流动性，零滑点，充当交易对手方，具有较好的可组合性。在此基础上，SNX 建立自己的生态。Synthetix 不直接提供任何前端，而是充当 DeFi 协议的后端流动性提供者。目前的生态包括 Curve、合约交易所 Kwenta、期权交易所 Lyra 等。sUSD 有自身较为稳定的应用场景。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a><p><strong>duoduo：</strong>Synthetix 正在进行 V3 版本的修改。在 V3 中，将新增质押资产的种类，除了 SNX 之外，ETH 等其他加密代币也可以质押生成 sUSD。此前，sUSD 的规模受到 SNX 市值的限制，V3 版本实施后，将不再受限于此，sUSD 的可扩展性增强。随着流入 Optimism 的资金增长，有机会建立更丰富的生态，获取更大市场规模。</p><a href=\"https://twitter.com/angalina2021/status/1635582678035759105\">内容来源</a>",
           "link": "https://twitter.com/angalina2021/status/1635582678035759105",
           "publishedOn": "2023-03-14T10:53:16.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "$sUSD 成为新算稳三杰？一文解读其代币机制",
           "imageUrl": null
         },
@@ -147,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">https://twitter.com/eas_eth/status/1635391258230394880</a></p>\n<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a>",
           "link": "https://twitter.com/eas_eth/status/1635391258230394880",
           "publishedOn": "2023-03-14T06:45:46.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】一文了解 Ethereum Attestation Service 的链下证明",
           "imageUrl": null
         },
@@ -187,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1990,
+          "wordCount": 1784,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -217,7 +237,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 虽然重回 1 美元，但此次「脱锚危机」无疑导致了市场对 USDC 等中心化稳定币的不信任。加密研究员 Nikyous 对从运作机制、挂钩模式及创新点等方面对去中心化稳定币 LUSD 进行了分析解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">https://twitter.com/CryptoNikyous/status/1635276887755997186</a></p>\n<p><strong>文章作者：</strong></p><p>Nikyous</p><hr><h3>观点：</h3><p><strong>Nikyous：</strong>通过 Liquity，用户使用 LUSD 借入 ETH ，并质押 LQTY 以赚取借入或赎回 LUSD 的费用收入，当 LUSD 挂钩价格低于 1 美元时，用 1 美元的 LUSD 赎回价值 1 美元的 ETH。通过 Liquity 赚取收益的方式包括 LUSD 债券、质押 LQTY 及 LUSD 稳定池。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a><p><strong>Nikyous：</strong>用户可以在任何时候将 LUSD 赎回为 ETH，没有任何限制，赎回的 LUSD 将会被销毁。其价格主要通过三个机制维持稳定：110% 的最低抵押率、借贷和赎回费用及作为谢林点（Schelling point）的均等性。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a><p><strong>Nikyous：</strong>Liquity 的创新点在于每次进行 LUSD 赎回时，协议都会以最低的抵押品偿还贷款，这种机制通过支付风险最高的贷款来保护 Liquity 免受清算。作为借款人不会产生净损失。监管方面，该协议完全由代码操作，任何监管机构都不可以禁止 LUSD 的发行。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a>",
           "link": "https://twitter.com/CryptoNikyous/status/1635276887755997186",
           "publishedOn": "2023-03-14T03:26:25.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】USDC 面临信任危机，去中心化稳定币 LUSD 是否值得期待？",
           "imageUrl": null
         },
@@ -327,7 +347,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 480,
+          "wordCount": 476,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -397,7 +417,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密 KOL Poopman 盘点了过去六个月净收入最高的 5 个 DeFi 协议。其中，MakerDAO 和 Gains Network 凭借高收入和低支出位列第一二名，GMX 和 Convex 尽管拥有超高的费用收入，但由于其超过七成以上的收入均分配给了 LP 和持币者，因此净收入不敌前者。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">https://twitter.com/poopmandefi/status/1634915107435327488</a></p>\n<p><strong>文章作者：</strong></p><p>Poopman</p><hr><h3>观点：</h3><p><strong>Poopman：</strong>一般来说，DeFi 协议通过以下方式产生利润：交易费、贷款和借贷费用、稳定费（见于 CDP）；此外，DeFi 通过 3 个主要渠道分配利润：协议金库、代币持有者、LP。为了评估一个项目的盈利能力，盈利 = 收入 — 代币激励将是一个更好的指标，因为它们代表了向 LP 分配费用后的「净收入」。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>MakerDAO：当通过 MakerDAO 借款时，必须支付稳定费用，这些费用用于购买 MKR 并燃烧。MakerDAO 从稳定费中获得了 725 万美元的收入，在扣除价值 9.32 万美元的代币奖励后，收益总额为 716 万美元。Gains Network：当用户打开、关闭或更新交易时，Gains 会收取一定的费用，此外，还有展期费、资金费和清算费。Gains 获得了 700 万美元费用，由于没有 GNS 奖励，Gains 只需要支付 127 万美元的流动性供应方费用，它最终赚取了大约 573 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>GMX：GMX 将交易和杠杆交易产生的费用分配给质押 GMX 并为 GLP 提供流动性的用户。GMX 赚取了 6754 万美元的费用，其中 4727 万美元（70%）作为 GLP 持有人提供流动性的奖励。剩下的 2026 万美元作为收入，但其中 1660 万美元（82%）用于代币奖励，最终 GMX 只有 364 万美元净收入。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a><p><strong>Poopman：</strong>Convex：Convex 从 3CRV 挖矿、CRV 和其他流动性挖矿奖励中获得收入。Convex 赚取了 7051 万美元的费用，其中 5631 万美元（80%）给了 Curve LP 质押者，剩余的 1417 万美元收入主要用于代币激励，最终净收入为 157 万美元。1inch：1inch 对通过其平台执行的交易收取少量的费用，1inch 产生了 197 万美元的收入，在减去 69.3 万美元的代币奖励后，1inch 的净收入达到 127 万美元。【原文为英文】</p><a href=\"https://twitter.com/poopmandefi/status/1634915107435327488\">内容来源</a>",
           "link": "https://twitter.com/poopmandefi/status/1634915107435327488",
           "publishedOn": "2023-03-13T05:49:29.000Z",
-          "wordCount": 480,
+          "wordCount": 476,
           "title": "【英文长推】盘点过去六个月净收入最高的 5 个 DeFi 协议",
           "imageUrl": null
         },
@@ -457,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1720,
+          "wordCount": 1719,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -477,7 +497,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17756,
+          "wordCount": 17753,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -487,7 +507,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -567,7 +587,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Caleb & Brown 首席执行官 Jackson Zeng 认为当前市场大部分用户普遍缺乏对破产和稳定币储蓄工作的理解，并对三个阵营基于对 USDC 在 SVB 的风险敞口的不同理解采取的行动进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">https://twitter.com/im_jacksonzeng/status/1634466362222587904</a></p>\n<p><strong>文章作者：</strong></p><p>Jackson Zeng</p><hr><h3>观点：</h3><p><strong>Jackson Zeng：</strong>1）阵营一：过于简单的假设，但明智的风险管理。这部分人误解了硅谷银行的风险敞口，但采取了正确的行动。他们认为 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行，因此 USDC 的价值应该是 0.92 美元，并从 0.98 到 0.94 进行恐慌性抛售。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>2）阵营二：精明的分析家，但缺乏银行运作经验。这部分人了解 33 亿美元的风险敞口并没有全部损失（可能只损失了 2-3 亿），因此认为 USDC 的价值是 0.995 美元。很多人表示在 0.94 美元左右做多 USDC，这是一个巨大的错误！【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>3）阵营三：知道两者都是错的，但和阵营一采取同样行动。这部分人了解即使 SVB 只损失了 2 亿美元，但 33 亿美元的债权仍然是不确定的。如果没有救助，储户在破产程序中会被视为债权人。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>因此，这不是 8.25%，而是 33 亿美元的非流动性 SVB 债权风险（绝对值比百分比更重要）。真正的答案是：当 Circle 用户以 1:1 赎回时，脱锚会逐渐恶化。随着人们意识到这一风险，价格将再次下跌。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a>",
           "link": "https://twitter.com/im_jacksonzeng/status/1634466362222587904",
           "publishedOn": "2023-03-12T04:23:17.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】如何正确看待 USDC 风险敞口：分析三个不同阵营的应对方式",
           "imageUrl": null
         },
@@ -637,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 754,
+          "wordCount": 755,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -647,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>风投总是领先于散户投资者，因此了解加密基金及其投资项目能够更高的进行加密投资。X DAO 创始人 Rekt Fencer 盘点了三个追踪加密风投动向的工具，以帮助用户有效快组追踪加密基金。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">https://twitter.com/rektfencer/status/1633912396824846338</a></p>\n<p><strong>文章作者：</strong></p><p>Rekt Fencer</p><hr><h3>观点：</h3><p><strong>Rekt Fencer：</strong>1）CryptoRank：市场洞察和分析平台，可以通过新增的选项查找不同基金的信息，包括投资总数、市场占有率及投资组合等；2）Crunchbase：可以使用多个功能分析项目或基金，包括累积融资金额、活跃投资者及员工资料等；3）Chain Broker：可以追踪基金投资回报率。【原文为英文】</p><a href=\"https://twitter.com/rektfencer/status/1633912396824846338\">内容来源</a>",
           "link": "https://twitter.com/rektfencer/status/1633912396824846338",
           "publishedOn": "2023-03-11T07:55:51.000Z",
-          "wordCount": 480,
+          "wordCount": 476,
           "title": "【英文长推】盘点三个追踪加密风投动向的必备工具：CryptoRank、Crunchbase 及 Chain Broker",
           "imageUrl": null
         },
@@ -707,7 +727,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Stephy Dunbar 撰文对科学生态系统的现存困境及解决困境的不同 Desci （去中心化科学）方式进行解析，认为 DeSci 通过引用新的协调、激励和验证机制来维持和传播开放科学，从而改变了研究经济。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">https://twitter.com/sunnydece/status/1633160977809289216</a></p>\n<p><strong>文章作者：</strong></p><p>Stephy Dunbar</p><hr><h3>观点：</h3><p><strong>Stephy Dunbar：</strong>科学知识是支撑技术发展和经济增长的公共产品，然而当前的科学体系面临问题：1）中心化决策和资金；2）方法论和数据的透明度差；3）无激励的审查和知识发布门槛受制。而 DeSci 正蓬勃发展以解决这些问题。目前正在运行的 85 个 DeSci 项目中有 50% 以上是去年启动的。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>不同解决方式：1）代币激励的研究生态系统，例如 ResearchHub。2）基金 DAO，DeSci 主要通过 DAO 促进社区决策以资助量身定制的解决方案。许多 DAO 都有特定的重点领域。例如 VitaDAO。3）研究代币化，例如 Molecule。用途包括 IP 许可用于商业化、与合作伙伴分割所有权、在开放市场上交易数据、持有作为借贷的抵押品。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>4）方法和数据透明化，例如 OpSci ，使研究者可以将自己的身份、证书和项目标记为 NFT。5）激励同行评审和开放出版，例如 DeSci Labs 的 DeSci 节点允许研究人员在开放状态、去中心化存储库上创建和发布代码、数据集等研究对象。6）数据处理，将数据代币化或者标记成 NFT，又或者像 The Bacalhau Project 允许研究员直接在存储数据集的地方执行计算工作。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a>",
           "link": "https://twitter.com/sunnydece/status/1633160977809289216",
           "publishedOn": "2023-03-11T05:12:53.000Z",
-          "wordCount": 476,
+          "wordCount": 480,
           "title": "【英文长推】Messari：科学现存困境解析，DesCi 以不同方式应对",
           "imageUrl": null
         },
@@ -787,7 +807,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20884,
+          "wordCount": 20885,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -3579,6 +3599,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/ich4j28p.html",
+          "author": null,
+          "description": "原文：《OpenAI CEO和a16z投资的Worldcoin，今日入局身份协议层》\n作者：念银思唐\n伴随着 ChatGPT 的火爆，其背后开发公司 OpenAI 的 CEO Sam Altman 名声大噪。而他在 2021 年联合创立的一个加密货币项目也于近期再次活跃起来，并于今日公布了最新进展。\n这个名为“Worldcoin”的项目在 2021 年 6 月首次向大众公开，并宣布完成 2500 万美元融资，获得了a16z、Coinbase Ventures、LinkedIn 创始人 Reid Hoffman、Day One Ventures 等多位知名投资方的支持。\n报道称，Worldcoin 计划发行一种全球性的数字货币，通过其开发的一种状似篮球的银色装置（Orb）扫描虹膜来形成独特的个人识别码，以确定个人身份。据介绍，虹膜扫描可防止用户重复注册，但为了保证隐私性，Worldcoin 将尽量使数据使用方式透明化，在完成扫描后相关图像将被永久删除。\n当时，Worldcoin 已经开始在多个城市小规模测试该装置，因为还未正式发行，Worldcoin 向志愿者支付比特币等加密货币来换取一些使用反馈。据称，该装置原型机不到 20 台，当前成本为 5000 美元，但随着工艺改进，成本将大幅下降。\nAltman 接受采访时表示，他是在 2019 年底受到流行经济理论“全民基本收入”（universal basic income，简称 UBI）的启发而产生了这一想法，即使用加密货币公平地分配资金。Altman 是 Worldcoin 的第一位投资者，但他表示自己不参与公司的日常运营，主要是在需要时担任公司的顾问。\n该项目的实际负责人是 Alexander Blania，他与 Altman 和 Max Novendstern 共同创立了 Worldcoin。Altman 和 Max Novendstern 曾在 Ray Dalio 的投资机构 Bridgewater Associates LP 和转账初创公司 Wave 工作。Blania 表示，公司正在评估如何才能有一天让尽可能多的人使用加密货币：“世界上还有很多人还没有进入金融系统，而加密货币有机会让我们实现这一点。”\n当年 10 月，Worldcoin 称正在部分地区进行实地测试，当时项目估值已经达到 10 亿美元。\n然而该项目的后续发展并不顺利。2022 年 3 月，在当地承包商离开及因法规禁止开展业务后，Worldcoin 暂停了在多个国家/地区的运营计划，而且一再推迟其目标发布日期。\n当时该公司已经收集大约 20 个国家数十万人的眼睛图像，但这一过程一直受到各地智能手机使用情况参差不齐、用户困惑和欺诈企图等问题的困扰。\n尽管如此，Worldcoin 仍然试图筹集更多资金以推进其计划。有报道称，该公司当时正以 30 亿美元估值进行 1 亿美元代币融资。\n同年 8 月，Worldcoin 联合创始人兼首席执行官 Max Novendstern 离职，并创办初创公司 Mana，旨在建立链上自主运行的 AI 风险投资协议。\n之后 Worldcoin 便一直保持沉默——无论是项目开发进展还是融资进程。\n几乎快要被遗忘的时候，Worldcoin 今年再次出来发声了。2 月上旬有报道称，它正在与包括主权财富基金在内的投资者讨论新一轮融资事宜。Worldcoin 希望以 30 亿美元估值筹集至多 1.2 亿美元——这一估值与去年相同，本轮融资将包括股权和代币融资。在当前市场环境下，这一融资规模无疑令人瞩目。\n在寻求融资的消息披露后一个月，Worldcoin 便公布了项目的最新进展，包括 World ID 协议和软件开发工具包（SDK）。\nWorld ID 被描述为 Worldcoin 的“底层身份协议”，由零知识加密技术提供支持，是一种移动工具，人们可以用来证明自己的身份而无需牺牲匿名性。虹膜扫描硬件 Orb 是用户获得验证的主要方法，不过，他们也可以使用电话号码验证等工具，但后者的准确性较低。\n“这是一个去中心化和隐私优先的协议，”Worldcoin 主要软件贡献者 Tools For Humanity 的产品、工程和设计主管 Tiago Sada 在接受采访时表示，“就像人们可以拥有自托管的钱包一样，有了它，人们可以拥有自我保管的 ID，任何信息都在设备上，它通过零知识证明来对自己进行验证。”\n用户可以在任何兼容的移动钱包上获得 World ID。其中一个选择是 World App，目前该程序仍处于测试阶段。\nOrb 验证现主要局限于阿根廷、智利、印度、肯尼亚、葡萄牙和西班牙，今年晚些时候将会更广泛地推广该设备。与此同时，大多数国家都可以使用移动验证。\nWorld ID 最简单的用例是登陆（也就是身份验证）。该技术的其他潜在用例还包括社交网络中的机器人保护和审核、在 DAO 中投票、支持无抵押贷款、忠诚度计划和优惠券、市场评论还有福利分配。该技术的首次展示将集中于对 Discord 的验证。\n“这可能需要更多人的想象力来思考你可以用它做什么。当 iPhone 问世时，你根本想不到 Uber。”Sada 补充说，“这是一种基本的原语。它会一直存在。而 Worldcoin 就是要确保它以一种去中心化和保护隐私的方式存在。”\n至于 SDK，开发者已被邀请注册加入一个等待列表，以便尽早访问该产品的测试版，该测试版对任何人开放，包括一个微件、开发者门户、开发模拟器、示例和指南。\n一旦跟用户身份扯上关系，隐私就必然会成为头号担忧。Orb 在 2021 年 6 月的发布引起了主要隐私倡导者的强烈反对，包括爱德华·斯诺登（Edward Snowden），他警告人们不要将生物识别数据用于任何事情，并补充说人体不是“打票机”。\nWorldcoin 后来试图通过使用零知识证明技术消除生物识别注册阶段和钱包之间的联系来缓解这些担忧。然而，Sada 认为对该项目的担忧仍然存在。\n“还是有很多误解，”他说，“很多人不知道你的生物特征数据会在 Orb 中被销毁。”也就是说，除非用户选择存储自己的生物特征数据——尽管这有助于改进协议，但 Worldcoin 并未鼓励用户这样做。\n“虹膜代码是唯一离开设备的东西，”Sada 继续说道，“虽然这听起来有点令人生疑，但 World ID 确实是最私密的身份。我认为它在许多方面也是最具包容性和可扩展性的。”\nSada 还表示，如果有更好的工具来证明一个人的独特性，考虑到制造硬件的限制，Worldcoin 也会二话不说放弃 Orb。事实上，Tools for Humanity 有一个团队正在积极寻找这样的解决方案。\n但就目前而言，Orb 的开发仍在继续。Worldcoin 正在通过一个提供奖励的运营商程序加大 Orb 的分发力度。根据官方今日发布的公告，目前 Worldcoin 已有 130 万注册用户。\n不过，Sam Altman 作为 Worldcoin 的最大“光环”，尚未有任何表态。如前所述，Altman 已经表示自己不参与公司的日常运营，主要是在需要时担任公司的顾问。但他的存在还是会让人们抱有期待：一旦 Worldcoin 与 AI 结合，势必能迸发新的火花。\n伴随着这次项目的重大进展公布，Worldcoin 是否能够顺利完成融资乃至正式发布，我们不妨拭目以待——眼下的加密行业亟需这样的好消息。",
+          "link": "https://www.panewslab.com/zh/articledetails/ich4j28p.html",
+          "publishedOn": "2023-03-15T02:41:12.000Z",
+          "wordCount": 1527,
+          "title": "ChatGPT-4发布，OpenAI CEO的“另一个儿子”Worldcoin也有新动作",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/15/images/llqM7EE6oZ.jfif"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/9xa29vda.html",
           "author": null,
           "description": "PANews 3月15日消息，据Cryptoslate报道，高盛(Goldman Sachs)最近向美国专利局(US patent office)申请了一项专利，提议将区块链技术与其结算机制整合在一起。该专利文件于3月14日提交，专利号为US 11,605,143 2B，概述了该银行使用区块链技术的技术和计算需求。该专利专注于智能合约的技术方面，可应用于各种金融工具，如部分准备金银行、保险、债券、证券化产品和保证金贷款。\n高盛的这一举措是其区块链推广的一部分，数字资产团队全球负责人Mathew McDermott在最近接受采访时表达了对区块链应用程序的强烈支持。该银行的私人代币化平台GS DAP也被香港用于销售价值1.02亿美元的数字绿色债券，成功地将结算时间从5天缩短至1天。\n与此同时，一些分析师声称，区块链领域正在酝酿一场专利“军备竞赛”，高盛(Goldman Sachs)决心通过招聘新员工和提供区块链产品来扩大其数字资产团队，以保持领先地位。",
@@ -3664,7 +3694,7 @@
           "description": "PANews 3月15日消息，Beaconcha数据显示，以太坊Goerli测试网epoch 162304处的交易已确认，目前已达到epoch 162323，标志着该测试网Shapella升级已完成。\n根据3月2日的报道，在此次Goerli测试网升级后，主网升级将在此后的3至4周进行。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/dtlnnlo0.html",
           "publishedOn": "2023-03-15T00:32:01.000Z",
-          "wordCount": 1131,
+          "wordCount": 1129,
           "title": "以太坊Goerli测试网已完成Shapella升级",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3684,7 +3714,7 @@
           "description": "PANews 3月15日消息，据华尔街见闻报道，美东时间3月14日周二，OpenAI宣布，推出大型的多模态模型GPT-4，称它可以接收图像和文本输入，输出文本，“比以往任何更具创造性和协作性”，并且“由于它有更广泛的常识和解决问题的能力，可以更准确地解决难题。”OpenAI表示，GPT-4能同时解析文本和图像，所以能解读更复杂的输入内容。\nOpenAI表示，已经与多家公司合作，要将GPT-4结合到他们的产品中，包括Duolingo、Stripe 和Khan Academy。GPT-4模型也将以API的形式，提供给付费版ChatGPT Plus的订阅用户。开发者可以注册，用它打造应用。微软此后表示，新款的必应（Bing）搜索引擎将运行于GPT-4系统之上。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/stangz8v.html",
           "publishedOn": "2023-03-15T00:09:50.000Z",
-          "wordCount": 1125,
+          "wordCount": 1123,
           "title": "OpenAI推出ChatGPT-4：可同时解析文本和图像，支持微软新款必应",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3714,7 +3744,7 @@
           "description": "PANews 3月15日消息，据CoinDesk报道，以太坊Goerli测试网已于北京时间06:25在epoch 162304激活Shapella升级，但是由于验证者参与率较低，该epoch在撰写本文时尚未最终确定。在正常参与条件下，epoch将在世界标准时间06:38结束。在epoch触发时有29%的验证者参与率，这对以太坊来说尤其低。在YouTube直播中，以太坊客户端Teku的产品负责人Ben Edgington承认参与率低可能是由于验证节点没有及时升级Goerli分叉。\n以太坊开发人员将于周四举行双周一次的电话会议，确定主网上海升级的日期。在上一次双周电话会议中，以太坊开发人员在4月初的一段时间内讨论了主网目标日期，这与他们最初设定的 3 月份时间表略有不同。\n根据3月2日的报道，在此次Goerli测试网升级后，主网升级将在此后的3至4周进行。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/0ly24oin.html",
           "publishedOn": "2023-03-14T23:55:54.000Z",
-          "wordCount": 1127,
+          "wordCount": 1125,
           "title": "以太坊Goerli测试网已激活Shapella升级，升级尚未完成",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3874,7 +3904,7 @@
           "description": "PANews 3月14日消息，行情显示，比特币持续上升，盘中突破2.6万美元，创2022年6月以来新高。\n行情波动较大，请投资者注意风险。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/vxxf4e1j.html",
           "publishedOn": "2023-03-14T12:58:03.000Z",
-          "wordCount": 1106,
+          "wordCount": 1108,
           "title": "比特币盘中突破2.6万美元，创2022年6月以来新高",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3884,7 +3914,7 @@
           "description": "PANews 3月14日消息，行情显示，在美国 CPI 数据公布后，比特币和以太坊短线上涨，比特币突破25000美元/枚，以太坊盘中突破 1700 美元/枚，均创近期新高。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/qq4c96k6.html",
           "publishedOn": "2023-03-14T12:36:19.000Z",
-          "wordCount": 1124,
+          "wordCount": 1126,
           "title": "比特币突破25000美元，以太坊突破1700美元",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -4044,7 +4074,7 @@
           "description": "PANews 3月14日消息，据The Block报道，OpenAI 的首席执行官 Sam Altman 共同创建的加密项目 Worldcoin 公布了其身份协议（World ID）和软件开发工具包（SDK）。新推出的 World ID 被描述为 Worldcoin 的“底层身份协议”，由零知识密码学提供支持，是一种移动工具，人们可以使用它来证明自己的真实性，而不会牺牲匿名性。Worldcoin 的虹膜扫描硬件 Orb 是用户验证的主要方法。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/w3xybpbv.html",
           "publishedOn": "2023-03-14T09:18:12.000Z",
-          "wordCount": 1169,
+          "wordCount": 1167,
           "title": "Sam Altman的加密项目Worldcoin推出其身份协议World ID和SDK",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
