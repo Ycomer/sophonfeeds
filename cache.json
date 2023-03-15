@@ -167,7 +167,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当下为什么所有股票都在下跌时比特币却在上涨？加密货币 KOL Takashi Azuki 认为是目前的市场行情加上 CZ 将 BUSD 转换为 BTC/BNB/ETH 导致的比特币上涨，并阐述了自己目前的做法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">https://twitter.com/rxcrax/status/1635338126003695617</a></p>\n<p><strong>文章作者：</strong></p><p>Takashi Azuki</p><hr><h3>观点：</h3><p><strong>Takashi Azuki：</strong>比特币上涨原因：当下，银行股跌入地狱，部分股票停牌。金融市场正在崩溃，比特币的去中心化也许是一种救赎。美国当局保证返还破产的 SVB 存款，并暂停 Signature Bank（NYC），USDC 恢复锚定 1 美元。同时 CZ 将 BUSD 溢出到 BTC/BNB/ETH。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a><p><strong>Takashi Azuki：</strong>我现在在做什么：留下了一半的稳定币，并将它们转换为 USDT 。我仍然认为行情很快就会修正。我将继续按计划对其进行再投资。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a>",
           "link": "https://twitter.com/rxcrax/status/1635338126003695617",
           "publishedOn": "2023-03-14T06:59:27.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文解析当下比特币上涨原因",
           "imageUrl": null
         },
@@ -267,7 +267,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 虽然重回 1 美元，但此次「脱锚危机」无疑导致了市场对 USDC 等中心化稳定币的不信任。加密研究员 Nikyous 对从运作机制、挂钩模式及创新点等方面对去中心化稳定币 LUSD 进行了分析解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">https://twitter.com/CryptoNikyous/status/1635276887755997186</a></p>\n<p><strong>文章作者：</strong></p><p>Nikyous</p><hr><h3>观点：</h3><p><strong>Nikyous：</strong>通过 Liquity，用户使用 LUSD 借入 ETH ，并质押 LQTY 以赚取借入或赎回 LUSD 的费用收入，当 LUSD 挂钩价格低于 1 美元时，用 1 美元的 LUSD 赎回价值 1 美元的 ETH。通过 Liquity 赚取收益的方式包括 LUSD 债券、质押 LQTY 及 LUSD 稳定池。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a><p><strong>Nikyous：</strong>用户可以在任何时候将 LUSD 赎回为 ETH，没有任何限制，赎回的 LUSD 将会被销毁。其价格主要通过三个机制维持稳定：110% 的最低抵押率、借贷和赎回费用及作为谢林点（Schelling point）的均等性。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a><p><strong>Nikyous：</strong>Liquity 的创新点在于每次进行 LUSD 赎回时，协议都会以最低的抵押品偿还贷款，这种机制通过支付风险最高的贷款来保护 Liquity 免受清算。作为借款人不会产生净损失。监管方面，该协议完全由代码操作，任何监管机构都不可以禁止 LUSD 的发行。【原文为英文】</p><a href=\"https://twitter.com/CryptoNikyous/status/1635276887755997186\">内容来源</a>",
           "link": "https://twitter.com/CryptoNikyous/status/1635276887755997186",
           "publishedOn": "2023-03-14T03:26:25.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】USDC 面临信任危机，去中心化稳定币 LUSD 是否值得期待？",
           "imageUrl": null
         },
@@ -277,7 +277,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>据 Chainalysis 数据，2022 年由于预言机操纵造成的损失达 4.03 亿美元。EigenPhi 对话 ZeroMEV 创始人、BlockSec 联创、SlowMist 团队成员及 Pyth Network 核心贡献者等行业专家，就预言机攻击类型及预防方法等内容进行了共同探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">https://twitter.com/EigenPhi/status/1635404741932101633</a></p>\n<p><strong>文章作者：</strong></p><p>EigenPhi</p><hr><h3>观点：</h3><p><strong>Yixin Cao（EigenPhi 数据科学家）：</strong>预言机攻击可以分为设计缺陷、流动性操纵和代币发行机制利用三个方面，构建这样的理论框架可以帮助进行风险评估。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Yajin Zhou（BlockSec 联创）：</strong>关于如何减轻与预言机相关的风险，DeFi 需要主动进行风险控制和隔离，隔离是 DeFi 协议缺乏的基本安全机制。此外，我还建议对不同来源的价格进行纠正性监测和比较，并对 mempool 进行监测。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Pmcgoohan（ZeroMEV 创始人）：</strong>DeFi 需要转向防御性思维，优先保护用户资金，用户应该转移至 FCFS L2 系统上的审计协议以避免操纵和贿赂，交易应该在 L2 上使用加密 memepool 进行以保护隐私。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a><p><strong>Jayant Krishnamurthy（Pyth Network 核心贡献者）：</strong>建议采取综合防御措施：从各个链上和链下交易所获取价格以及值得信赖的报告人和数据聚合、高频率和低延迟的价格更新机制及审计预言机的操作栈。【原文为英文】</p><a href=\"https://twitter.com/EigenPhi/status/1635404741932101633\">内容来源</a>",
           "link": "https://twitter.com/EigenPhi/status/1635404741932101633",
           "publishedOn": "2023-03-14T02:51:42.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Eigenphi 对话行业专家：如何预防预言机攻击？",
           "imageUrl": null
         },
@@ -387,7 +387,7 @@
           "description": "<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>\n<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>\n<p><a href=\"https://twitter.com/BlockSecTeam/status/1635204706703384577\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href=\"https://twitter.com/zachxbt/status/1635209310916743170\">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href=\"https://twitter.com/PeckShieldAlert/status/1635229250193334275\">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635218198042918918\">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href=\"https://twitter.com/ScopeProtocol/status/1635235421327347712\">内容来源</a><p><strong>Euler Labs：</strong>最新进展：帮助通过禁用 EToken 模块阻止了直接攻击，同时与 TRM Labs、Chainalysis 和更广泛的以太坊安全社区合作帮助调查和恢复资金。我们还通知美国和英国执法部门并共享信息，并尝试联系了此次攻击的责任人。此外，在调查了攻击后，我们得出结论：攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635431726364147712\">内容来源</a>",
           "link": "https://twitter.com/BlockSecTeam/status/1635204706703384577",
           "publishedOn": "2023-03-13T09:55:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元",
           "imageUrl": null
         },
@@ -457,7 +457,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱钩引起市场恐慌，加密 KOL DefiDog 则撰推发文介绍可对冲挂钩资产风险的协议 Y2K Finance，分析其主要产品、代币经济模型和路线图。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">https://twitter.com/ArbiAlpha/status/1634615208848281603</a></p>\n<p><strong>文章作者：</strong></p><p>DefiDog</p><hr><h3>观点：</h3><p><strong>DefiDog：</strong>Y2K 为基于市场均衡的挂钩资产保险创建定价市场，用户可以对冲或投机各种挂钩资产的风险。主要提供两个产品：1）Earthquake：该金库基于 TradFi 巨灾债券，即发生脱钩时向接收者付款。2）Wildfire：该产品将成为其二级市场，允许 Earthquake 金库被代币化和交易。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>工作原理：1）风险金库（Risk Vault），类似于卖保险。将抵押品存入选择的金库并承保挂钩资产的风险。2）对冲金库（Hedge Vault），类似于买保险，将作为溢价的抵押品存入金库，并获得选择的挂钩资产的保险。Y2K 从保费中收取 5% 的费用，对冲与风险金库存款的比率决定了挂钩资产的保险价格。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a><p><strong>DefiDog：</strong>$Y2K 是 Y2K 生态系统的实用代币。可以为 vlY2K 锁定 $Y2K，从而获得治理、协议收入份额（50%）等权益。下一个重要催化剂将是 WildFire 金库的上线，本质上讲，用户将获得实时保险定价。该团队一直在不断添加新资产。【原文为英文】</p><a href=\"https://twitter.com/ArbiAlpha/status/1634615208848281603\">内容来源</a>",
           "link": "https://twitter.com/ArbiAlpha/status/1634615208848281603",
           "publishedOn": "2023-03-13T05:49:16.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】对冲挂钩资产风险的协议 Y2K Finance",
           "imageUrl": null
         },
@@ -507,7 +507,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1719,
+          "wordCount": 1721,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -517,7 +517,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受美国硅谷银行破产影响，USDC 正经历着严重脱锚的危急时刻。FRAX 作为完全由 USDC 作为抵押物的去中心化稳定币该如何应对？加密 KOL Francesco 分析了当前 FRAX 面临的问题，并总结了 FRAX 创始人 Sam 的解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">https://twitter.com/francescoglt/status/1634929747728932864</a></p>\n<p><strong>文章作者：</strong></p><p>francesco</p><hr><h3>观点：</h3><p><strong>francesco：</strong>尽管 Frax 将其抵押率提高到了 100%，但当前的 USDC 的严重脱锚证明了 100% 的抵押率也并非完全可靠。因为 Frax 的大部分抵押品由 USDC 组成，Frax 仍然依赖于「代币化法币」敞口。Frax 并没有真正脱离中心化稳定币，并且在市场动荡期间不提供任何额外级别的保护。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a><p><strong>francesco：</strong>Frax 创始人 Sam 认为，FRAX 应该只有 1 个 RWA：将美元存入美联储主账户 (FMA)。然而 Frax 作为区块链协议想要获得 FMA 的过程将比传统的大型银行困难得多，对于能否实现这一目标仍然纯粹是猜测。Sam 在 Frax 电报群中提到了不依赖 USDC 的第一步：Frax 可能很快开始直接购买美国国债。【原文为英文】</p><a href=\"https://twitter.com/francescoglt/status/1634929747728932864\">内容来源</a>",
           "link": "https://twitter.com/francescoglt/status/1634929747728932864",
           "publishedOn": "2023-03-13T03:24:03.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】USDC 严重脱锚，FRAX 如何解绑中心化稳定币？",
           "imageUrl": null
         },
@@ -527,7 +527,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17744,
+          "wordCount": 17787,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -707,7 +707,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27825,
+          "wordCount": 27794,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -3644,8 +3644,8 @@
           "description": "原文：《30 protocols with strong catalysts in the coming months》by Thor Hartvigsen，加密研究员\n编译：Kxp，BlockBeats\n在预期美联储加息脚步放缓等多因素叠加背景下，加密市场迎来一轮强劲上涨行情，加密研究员通过梳理 30 个今年需要长期关注的主流项目，把握主流协议在未来几个月中的最新动向。\n\nLido\nLido V2:\n· 质押路由器：允许任何人通过模块化的即插即用模式成为节点操作员（目标是提高去中心化程度）\n· 提款：StETH 持有者可以在上海升级后直接从信标链上提款\n\nVelodrome\nVelodrome 2.0 将在第一季度推出：\n· VELO FED：veVELO 持有者将在VELO货币政策中获得发言权\n· 自定义和可调整的货币对交易费用\n· 集中流动资金池的新方法\n· 整体 UI/UX 改进\n· 以及其他一些升级\nRadiant V2 将在几周后引入：\n· 跨链扩展（首先是 BNB 链）\n· 用于借贷的新资产，包括 StETH、BNB、潜在的 GLP、gDAI 和更多通过治理投票的资产\n· 通过动态流动性减少 RDNT 的排放\n· UI/UX 得重新设计\n\nFantom Foundation\n· fUSD v2：为建设者和用户提供的链上收费系统（可选择使用 fUSD 作为交易费用）\n· FVM：Solidity 兼容，执行速度更快；测试显示约 4500tps，数据存储减少 98%，主网计划于 2023 年底上线\n· Andre 将回归\nAtlas 升级：\n· 为提款做准备（上海升级）\n· 8 个 ETH 迷你池（剩余的 24 个 ETH 由协议提供，用于操作验证器）；更低的进入门槛+更高水平的去中心化\n· Gas 费优化（减少 40%）\nAtlas 计划在 3 月/4 月上线。\n· PLS V2 tokenomics 将于 3 月下旬推出：这将允许用户锁定他们的PLS以获得金库的乘数点。通过这样做，他们可以从奖励中获得真正的收益，收到 esPLS Token，以及更多。\n· 此外，PlutusDAO 正计划将更多的治理 Token 纳入其平台，plsRDNT 是下一个要加入的 Token。PlvRDNT 金库也计划在未来推出。\nGMX 将在今年的某个时间点推出 V2（可能是第一季度/第二季度，目前正在进行审计），这将引入大量新的可交易资产，而不仅仅是 Crypto（合成货币对）。\n在 Discord 中也有关于 V2 后跨链扩展的预告。\nOptimism 正在建立 OP 栈：一个模块化的区块链框架，用于轻松构建各种可扩展的 rollup（OP 链）。Coinbase 的 Base 将第一个利用这项技术，其第一阶段是 Bedrock（23 年第一季度）。\n· 跨链扩展到 BNB 链\nLiquidity book V2：\n· 为sJOE质押者提供的 V2 池费用转换\n· 限价订单和无需许可的流动性账簿池\n· 升级到 GLP 高风险偏好金库：对冲交易员的损益\n· GLP v2 整合（GMX synthetics 升级后）\n· 跨链扩展\n· Rage perp v2：除了 tricrypto 外潜在的新抵押品选项\n \n\nSynapse 正在建立一个 Ethereum 原生的 optimistic rollup（Synapse 链）：\n· 跨链信息传递：在一个链上调用一个合约，并在另一个链上执行\n· 为跨链 Dapp 而建，配有 Synapse 桥接\n· 即将上线\n\nFrax Finance\n· frxETH 持续增长，因为 Frax 拥有最具竞争力的质押收益率\n· FIP-188: FRAX将成为完全抵押品（从 92% 到 100%）\n· FRAX 和 Frax 生态系统的总体增长（FPI、veFPIS、FraxSwap、Fraxlend frxETH 等）\n\nPendle\nPendle 通过将资产分为原则 Token 和收益 Token，提供非常高的收益率，TVL 在整个 2023 年都呈上涨态势。\n他们最近用 GLP 跨链到 Arbitrum，并将在未来增加 gDAI 及额外的资产。\n\nSynthetix\nSynthetix V3：\n· 以 ETH 和其他资产作为合成资产的抵押品\n· 流动性提供者将能够选择将流动性分配给哪些合成资产（高风险=高费用）\n· 建立在 Synthetix 之上的产品（Kwenta, Lyra, Thales 等）获得更多采用\nConic 在 Curve 上提供 omnipool（将用户的流动资金分散到不同的资金池中，并将其质押在 Convex 上），用户可以赚取 CRV + CVX + CNC。该协议在 1 周内就达到了 6500 万的 TVL。\n推动因素：\n· 高收益带来的更广泛采用\n· 额外的资产\n\ndopex\n· rDPX v2: 能够以 rDPX 作为部分抵押品铸造合成 Token（rDPX 的通缩压力），第一个资产将是 dpxETH（不是 LSD）。\n· Dopex OpFi 产品：在后台利用链上期权的 DeFi 产品。\n\nPolygon Labs\nPolygon 正在搭建各种链：\n· Polygon Supernets\n· Polygon Avail\n· Polygon Zero, Miden & zkEVM\n· Polygon Nightfall\nzkEVM 将于 3 月 27 日在主网上推出。\ndYdX 正在推出他们自己的应用链（v4），用 Cosmos SDK 构建，以去中心化的方式创造类似中心化交易平台的表现，这包括：\n· 交易时不收取 Gas 费用\n· 由验证者运行链外订单簿\n· DYDX作为原生 Gas Token\n\nCurve Finance\n随着稳定币得到更广泛的采用，Curve 作为最大的链上稳定币流动性中心，将大大受益。\ncrvUSD 上线临近，这为 Curve/veCRV 创造了额外的收入。\n· 更多的协议集成（启动面板和流动性池）\n· 改良后的 xGRAIL 版本具有所谓的「插件」\nLyra 最近推出了他们的'Newport'升级（该升级整合了 GMX 永续合约并部署在 Arbitrum 上），并增加了ETH和wBTC期权交易。\n长期来看，DeFi 期权有很大的潜力，随着采用范围的扩大，Lyra 可能成为从中受益的主要协议之一。\n\nCosmos\n几天前，链间安全（ICS）升级的第一部分通过治理获得批准，并将于 3 月 15 日启动。\nICS 允许应用链借用 Cosmos 中心验证者集来保证安全，而不需要启动自己的验证者（需要付费）。\nMaker 正在推进几个项目，包括：\n· Spark 协议：第一个产品是 Spark Lend，它受到 Aave V3 的启发，有一个直接的 Maker 信贷额度（将于 4 月上线）\n· EtherDAI：原生 ETH LSD 来支持DAI\n在 Arbitrum 上推出并增加了商品和指数等新资产后，gTrade 已经成为了领先的去中心化永久合约之一，经历了交易量的大幅飙升。虽然没有官方的路线图，但在 Discord 上有很多预告信息。\n\nAave\nAave 正在推出他们的原生稳定币GHO：\n· 由 Aave 上的资产进行过度抵押\n· 资产供应由「促进者」（由 DAO 选出的实体）控制\n· AAVE质押者有着 GHO 铸币折扣\n· 与 Arbitrum 合作的游戏建设者计划（GBP）：激励游戏开发者在 Treasure DAO 生态系统中进行建设\n· MagicSwap v2: 游戏内经济的未来，支持 ERC-20Token 和 NFT 池，计划在今年第二季度推出\nUniswap 最近宣布了他们即将推出的手机应用程序。\nUniswap 仍然是领先的 DEX，截至 3 月，它每天大约有 5 万用户。\n手机应用可以更好的吸引用户加入。\n\nFilecoin\nFilecoin 将于 3 月 14 日推出 Filecoin 虚拟机（FVM）和 Filecoin EVM（FEVM）。\nFVM 将允许在 Filecoin 的基础上建立自定义智能合约，开辟各种新的用例，如 Token 化数据、数据 DAO 等。\n· 自 2 月推出 V2 版以来，数量/用户大量增加\n一些即将在第一季度/第二季度推出的功能：\n· Lyra 伙伴关系\n· 交叉保证金 v2\n· Kwenta SDK\n· 质押者的费用转换\n· UI/UX 改造\n... 以及更多\n\n注：原文中第 2 个协议及其更新已不可见，故共有 29 个协议更新介绍。原文链接",
           "link": "https://www.panewslab.com/zh/articledetails/e154lpxa.html",
           "publishedOn": "2023-03-15T05:26:03.000Z",
-          "wordCount": 2162,
-          "title": "盘点未来几个月具有强大催化剂的30个优质项目",
+          "wordCount": 2160,
+          "title": "盘点年中前具有强大催化剂的30个优质项目",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/15/images/tKpi69AcbE.webp"
         },
         {
@@ -3724,7 +3724,7 @@
           "description": "PANews 3月15日消息，USDC稳定币发行商Circle在博客文章中表示：“自从Signature Bank和Silvergate Bank倒闭以来，我们团队一直在夜以继日地工作以恢复USDC的流动性运营，包括引入新的交易银行合作伙伴。我们于当地时间3月13日星期一早上开始处理铸造和赎回请求，当时美国银行系统重新开放，目前正在处理积压的请求。我们在这里还有更多工作要做，包括添加具有24/7/365功能的新交易银行合作伙伴，当地时间3月13日，Circle赎回了29亿美元USDC，并铸造了70亿美元USDC。”\n文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”",
           "link": "https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html",
           "publishedOn": "2023-03-15T02:58:06.000Z",
-          "wordCount": 1124,
+          "wordCount": 1122,
           "title": "Circle：正努力恢复USDC的流动性运作，包括寻找全天候的新银行合作伙伴",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3824,7 +3824,7 @@
           "description": "PANews 3月15日消息，Beaconcha数据显示，以太坊Goerli测试网epoch 162304处的交易已确认，目前已达到epoch 162323，标志着该测试网Shapella升级已完成。\n根据3月2日的报道，在此次Goerli测试网升级后，主网升级将在此后的3至4周进行。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/dtlnnlo0.html",
           "publishedOn": "2023-03-15T00:32:01.000Z",
-          "wordCount": 1137,
+          "wordCount": 1135,
           "title": "以太坊Goerli测试网已完成Shapella升级",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3874,7 +3874,7 @@
           "description": "PANews 3月15日消息，据CoinDesk报道，以太坊Goerli测试网已于北京时间06:25在epoch 162304激活Shapella升级，但是由于验证者参与率较低，该epoch在撰写本文时尚未最终确定。在正常参与条件下，epoch将在世界标准时间06:38结束。在epoch触发时有29%的验证者参与率，这对以太坊来说尤其低。在YouTube直播中，以太坊客户端Teku的产品负责人Ben Edgington承认参与率低可能是由于验证节点没有及时升级Goerli分叉。\n以太坊开发人员将于周四举行双周一次的电话会议，确定主网上海升级的日期。在上一次双周电话会议中，以太坊开发人员在4月初的一段时间内讨论了主网目标日期，这与他们最初设定的 3 月份时间表略有不同。\n根据3月2日的报道，在此次Goerli测试网升级后，主网升级将在此后的3至4周进行。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/0ly24oin.html",
           "publishedOn": "2023-03-14T23:55:54.000Z",
-          "wordCount": 1133,
+          "wordCount": 1131,
           "title": "以太坊Goerli测试网已激活Shapella升级，升级尚未完成",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -4134,7 +4134,7 @@
           "description": "Euler Finance是DeFi Summer之后少有的具备创新的DeFi项目，它根据资产风险的不同，将资产分成不同的层级（Tiers），每一层的资产具有不同的借贷权限。3月13日，Euler Finance遭到黑客攻击，损失约2亿美元的资金。\nEuler作为底层的借贷协议，安全性更值得关注。因为DeFi的可组合性，本次攻击也给其它多个DeFi项目造成数千万美元的损失。\nAngle Protocol\nAngle Protocol是一个去中心化（非美元）稳定币项目，现在主要是欧元稳定币agEUR。在Angle Protocol中铸造agEUR稳定币有两种方式，通过核心模块以USDC等稳定币按1:1的价值进行兑换，价格波动的风险由杠杆交易汇率的对冲代理进行对冲；通过借贷模块则以WETH等资产为抵押品，超额抵押进行铸造。\n为了增加项目盈余、激励SLP和veANGLE的持有者，Angle根据Yearn的设计开发了收益策略，将核心模块中铸造agEUR的抵押品USDC、DAI等用于获得收益，如下图所示，Euler是收益策略资金的重要去处。\n\nAngle预估在黑客攻击中损失1761万美元的资金，虽然此前项目中有558万美元的盈余，但依然不够进行赔付，agEUR持有者、流动性提供者、对冲代币的资金将看成一个整体，按比例进行赔付。通过借贷模块铸造agEUR的用户仍然可以偿还借款，赎回抵押品。\nBalancer\nBalancer是一个DEX，在本次Euler的攻击中因为bbeUSD（Euler Boosted USD）损失1190万美元。\nBoosted Pools是Balancer在2021年12月推出的一项创新，可以提高LP的收益率，也能方便用户进入或退出Aave等协议。Balancer会将Boosted Pools中的一部分资金存入Aave或Euler等借贷协议，剩余部分资金可方便用户交易。\n在Balancer Boosted Euler USD池中，用户可以存入USDT、USDC、DAI三种稳定币，Balancer将这些资金存入Euler，并为用户发放LP代币bbeUSD。和Curve的3pool这样的Base Pool一样，bbeUSD也可以在Balancer中和其它代币组成交易对，并获得流动性挖矿奖励。\nBalancer在促进bbeUSD使用的同时，也加大了本次受损失的金额。除了Balancer Boosted Euler USDC池本身之外，使用bbeUSD的wstETH/bbeUSD、rETH/bbeUSD、TEMPLE/bbeUSD、DOLA/bbeUSD四个交易对的LP也只能赎回部分资金。\nIdle Finance\nIdle Finance是一个收益聚合器，提供三种收益策略：Best Yield、Senior Tranches和Junior Tranches。Junior Tranches由于风险和收益率更高，当发生安全事故时，可能需要先于Senior Tranches承担损失。\n从官网数据看，Idle Finance将DAI、USDT、ETH等资金存入了Euler、Morpho、Lido等项目中，自动获得收益，并将收益复投。由于Idle Finance会尽可能选择收益率较高的策略，Euler Finance是Idle Finance的重要合作伙伴，目前并没有将资金直接存在Compound和Aave等经过更长时间检验的项目中。\nIdle Finance称，Best Yield Vault和Yield Tranches对Euler Finance的敞口分别为532.71万美元和566.28万美元，共计约1099万美元。\n\nYield Protocol\nYield Protocol是一个固定利率借贷协议，采用类似于零息债券的方式。存款人会收到一种ERC20代币fyTokens，可以在到期日后1:1地赎回基础资产。到期之前，fyTokens可以折扣价交易。\nYield Protocol的流动性池建立在Euler之上，其中部分资金存入了Euler，部分资金持有fyTokens。存入Euler的部分受到影响，预计在Euler被攻击前的存款少于150万美元。而借款人的抵押品因为保存在Yield Protocol中，未受到影响。\nYearn\nYearn是一个收益聚合器，将资金集中起来投向特定的策略。Yearn在推特上表示，yvUSDT和yvUSDC因为使用了Idle和Angle的策略，对Euler共有138万美元的风险敞口。\n产生的坏账将由Yearn Treasury承担，所有的Vault仍然正常开放。\nHarvest\n和Yearn类似，Harvest也表示USDC、USDT、WETH Vault因为使用Idle而受到影响。目前Harvest并未说明如何处理，且提醒用户在问题解决前不要与这些Vault进行交互。\nInverse Finance\nInverse Finance的主要产品为美元稳定币DOLA，另外还有固定利率贷款市场FiRM和代表借款权的DBR。\n如前所述，由于DOLA在Balancer上的流动性在DOLA/bbeUSD交易对上，因此遭到损失。Inverse Finance表示尽管和Balancer采取了积极措施减轻了损失，DOLA Fed在其中也损失了86万美元的资金。\nSwissBorg\nSwissBorg是一个加密资产管理平台，获得了瑞士、法国和爱沙尼亚的监管和许可。它自身有一款SwissBorg app，可以通过这款移动钱包获得收益。\nSwissBorg表示，Earn策略中的ETH和USDT遭到了部分损失，包括1617.23 ETH和约169万USDT，分别占认购资金的2.27%和29.52%。SwissBorg将承担所有损失。\nOpyn\nOpyn构建了第一个去中心化期权协议，并开发出了永续期权Opyn Squeeth，在Suqeeth上构建了多种收益策略。\n本次Opyn受到影响的是Zen Bull策略，这个策略结合了Crab策略和ETH杠杆多头头寸，适合ETH价格呈上升趋势的低波动市场。\n由于该策略需要抵押资产通过杠杆购买ETH，可能是在Euler中进行抵押借贷，导致损失。Opyn目前并未公布受损失的金额和处理办法。\nSherlock\nSherlock是一个DeFi安全提供商，可提供智能合约审计和保险服务。Euler在刚推出时就和Sherlock达成了1000万美元的合作伙伴关系，Sherlock负责审计Euler的智能合约，并为Euler提供保险。\n在Euler被攻击后，Sherlock已经通过了对Euler赔付450万美元的投票，且已执行了330万美元的赔款。\nSense Finance\nSense Finance是一个固定利率借贷协议，其中可以交易Idle等的固定收益资产，间接受到影响。",
           "link": "https://www.panewslab.com/zh/articledetails/v0dusvai.html",
           "publishedOn": "2023-03-14T10:51:45.000Z",
-          "wordCount": 1459,
+          "wordCount": 1457,
           "title": "DeFi可组合性的潘多拉魔盒：Euler Finance被攻击，这11个DeFi项目遭受损失",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/14/images/0l3kpNe22T.png"
         },

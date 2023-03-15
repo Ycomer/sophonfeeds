@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T05:32:04.463Z</updated>
+    <updated>2023-03-15T05:37:16.608Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -98,7 +98,98 @@ RAI的货币政策由四个要素组成：
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[盘点未来几个月具有强大催化剂的30个优质项目]]></title>
+        <title type="html"><![CDATA[“USDC脱锚事件”反思：我们到底需要什么样的稳定币？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/869hc8yxi007.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/869hc8yxi007.html"/>
+        <updated>2023-03-15T05:30:15.000Z</updated>
+        <summary type="html"><![CDATA[每一轮周期的叙事都不一样，如果说上一轮牛市中，核心叙事是DeFi以及分布式存储Filecoin。
+那么这一轮可能爆发的点有以下几个方面：ZK板块；Arb板块；Polygon生态；BTC二层；稳定币；LSD。
+前几期，veDAO给大家带来了一系列关于BTC生态的解读，这一次，veDAO将从稳定币的角度对这个行业进行思考。
+上个周末，最大跌眼镜的消息无过于硅谷银行的倒闭。关于硅谷银行倒闭的更多内容，VeDAO研究院将在另一篇文章中展示，本文将从稳定币的角度重点探讨经济危机时代，稳定币的发展业态。
+但首先，我们需要先从什么是稳定币这个概念开始。
+稳定币（StableCoins）是加密货币的一种表现方式，其价值往往与现实世界主流法定货币相锚定，同时也使得稳定币具有了其他加密货币不具有的价值稳定性。这种稳定性使它们对想要对冲其他加密货币波动性的投资者和交易者具有吸引力。
+然而，这些代币本身并不能避免波动，当遇到巨大黑天鹅事件时，稳定币也会与挂钩货币出现脱钩现象。这意味着它们会偏离其挂钩价值。
+目前常见的稳定币种类有三种：
+法币稳定币：USDT、USDC、BUSD为主
+去中心化稳定币：以DAI为主
+算法稳定币：2022年经典“黑天鹅”LUNA就是典型代表。
+一直以来，算法稳定币作为一个新兴概念，一直受到行业的关注，但诸如LUNA、UST等生命周期均不长久，因此本文将主要讨论前两种稳定币的模式。
+据dune数据，目前在稳定币赛道，占据主导地位的依旧是法币稳定币。
+如上图，USDT+USDC+BUSD已经达到整个稳定币市场的81.4%。尽管法币稳定币势力强大，但近年来也接连遭遇现实世界的干预。就在上个月，稳定币之一的BUSD被美国监管机构以“被定义为证券”的理由叫停，并开始审查其背后的发行方Paxos。
+然而，更加严峻的事情还在后面。上文所说的硅谷银行暴雷事件，也直接引发了法币稳定币与美元的脱钩热潮，并由此带来了市场对稳定币的巨大不信任感。
+USDC发行人Circle于3月10日宣布，USDC已与美元脱钩，其400亿美元的USDC储备中约有33亿美元存放在现已倒闭的硅谷银行。受脱钩事件影响，USDC与未脱钩稳定币USDT汇率一度跌破0.9，最低降至0.85。鉴于USDC的附带影响，其他稳定币纷纷效仿美元脱钩。
+不仅如此，由USDC引发脱钩热潮也延展到了去中心化稳定币领域。MakerDAO基于以太坊协议发行的去中心化稳定币DAI，也与美元出现短时间的脱钩。
+
+尽管USDC和DAI在短暂脱钩之后，迅速修复了与美元的汇率，但由此引发的市场对于稳定币的不信任感则愈发加重。甚至有许多用户调侃：「尽管我们一直怀疑USDT的真实价值抵押情况，但现在看来，USDT is Always King。」
+旧有的USDC和DAI出现了脱钩，没有脱钩的USDT则一直无法证明自己的代币有足额的现金抵押。在老牌稳定币陷入信任危机的同时，我们不妨把目光转向新兴的去中心化稳定币项目。
+
+基本信息：
+官网：https://hope.money/
+推特：https://twitter.com/hope_ecosystem
+简介：HOPE是一个去中心化的稳定币，其代币$HOPE的底价将随着BTC和ETH的价格浮动，从0.5美元左右开始。HOPE生态包括HopeSwap、HopeLend、HopeConnect 与 HopeEcho四个协议，提供交易、借贷、衍生品、合成资产功能。
+详细说明：
+HOPE经济模型：
+$HOPE：是生态系统的由储备支持的原生定价代币，将以0.5美元的折扣价推出，并随着加密货币市场的复苏逐渐实现挂钩。
+$stHOPE：是$HOPE质押的代币化表示。通过质押，用户可以在生态中使用HopeSwap、HopeLend、HopeConnect、HopeEcho等应用。此外，用户还能通过质押$HOPE，可获得$stHOPE，并通过持有$stHOPE来获得$LT奖励。
+$LT：是HOPE生态的激励与治理代币，用来激励用户，参与HOPE生态并进行治理。
+veLT：是$LT在行使治理权时，投票锁定的代币化表示，veLT持有者可以获得$LT奖励加成，并可以对治理提案进行投票，决定包括$HOPE货币 政策 、Teasury政策和协议收入分配在内的诸多关键议题。
+HOPE生态：
+HOPE生态系统将包含4个主要协议，围绕$HOPE与$stHOPE提供包括兑换、借贷、保证金在内的一整套完整且丰富的应用场景，并通过$LT激励用户参与生态应用与社区治理。
+HopeSwap：是一个建立在以太坊上的AMM Swap，是用户通往HOPE生态的门户。用户可以在$HOPE、$stHOPE、$LT和其他资产之间进行快速交易，或为交易对提供流动性，以获得$LT奖励和手续费分成。
+HopeLend：是一个多流动性池非托管借贷协议。贷款人可以通过存入流动性，以赚取利息；而借款人则可以提供抵押资产，获得超额抵押借贷。
+HopeConnect：作为业内首创的DeFi创新协议，让用户无需进行中心化资产托管，便可以通过HopeConnect在顶级CEX上交易衍生品。
+HopeEcho：追踪真实世界资产（ RWA ）价格的合成资产，包括股票指数、固定收益工具、商品、外汇等，降低获取TradFi服务的门槛。
+运行逻辑：
+基本信息：
+官网：https://www.angle.money/
+推特：https://twitter.com/AngleProtocol
+简介：Angle是一种去中心化、资本高效和超额抵押的稳定币协议，由运行在开放区块链上的智能合约组成。Angle 的去中心化解决方案弥补了当前方法的缺陷，并充分利用了中心化和去中心化协议的长处，它还具有超额抵押设计所带来的稳健性，同时保持与低抵押设计类似的资本效率。Angle于2022年11月上线，截止目前，其代币$Angle市值约为6700万美元。
+详细说明：
+Angle经济模型：
+veANGLE：veANGLE代表“投票托管”ANGLE，是Angle协议的治理代币。ANGLE的代币经济学于2022年1月进行了升级，能够将ANGLE锁定为veANGLE，使它成为了一个基于Curve的veCRV和Frax的veFXS机制的归属和收益系统。veANGLE的关键属性，除了作为治理代币之外，还在于它不可转让且不在流动市场上交易。
+Angle运行逻辑：Angle通过让人们以1:1的比率交换稳定资产和稳定资产的抵押品，以1:1的比率进行交换：1欧元的抵押品，你可以获得1个稳定币，1个稳定币，你总是可以赎回1欧元的价值的抵押品。
+该协议涉及3组，在其他DeFi协议中很常见，它们都受益于Angle：
+铸造、使用或销毁稳定资产的稳定寻求者和持有者（或用户）
+对冲代理(HA) 可以在协议的一笔交易中以永续期货的形式获得链上杠杆，并通过这样做确保协议免受其抵押品的波动。
+标准流动性提供者(SLP)，他们为协议带来额外的抵押品，并自动赚取利息、交易费用和奖励。
+Angle将能够支持许多不同的稳定币，每种稳定币都有不同的抵押品类型。它将以由USDC和DAI支持的稳定欧元开始。
+基本信息：
+官网：https://app.reflexer.finance/
+推特：https://twitter.com/reflexerfinance
+简介：Reflexer是一个可以使用加密货币抵押品来发行非挂钩稳定资产的平台。RAI是此类资产中的第一种，和最初的DAI一样，它只由ETH超额抵押生成，并有一个由链上PI控制器计算的本地资金利率来对应复杂的市场状态，以此来推动RAI的市场价格向赎回价格收敛。
+详细说明：
+RAI/USD的汇率由其供求关系所决定，协议会试图通过不断地贬值或重估其价值来稳定RAI的价格。供应和需求机制在SAFE用户（用ETH生成RAI的用户）和RAI持有人两方之间进行。
+相较于市面上其他的稳定币，RAI提出了一个新的概念：赎回机制。RAI使用一个链上PI控制器来设置其赎回价格的变化率，称为赎回率，以年化利率表示。通过对赎回率的调节，RAI能够精确的控制市场中稳定币的供给数量，进而让RAI的价格贴近系统设定的理想价格。
+RAI的货币政策由四个要素组成：
+赎回价格：RAI协议提前制定的代币预期价格。
+市场价格：RAI在二级市场的实际交易价格。
+赎回率：RAI贬值计算。
+当RAI的市场价格>赎回价格持续一段时间时，赎回率将变为负值。
+当RAI的市场价格<赎回价格持续一段时间时，赎回率将变为正值。
+全球结算：关闭协议，用户赎回抵押品。
+优劣对比：
+优势：不锚定1美元，协议可以根据RAI市场价格的变化对RAI进行贬值或重估；遭遇风险损失较小。
+劣势：受众太窄，以至于直到现在都没有被市场青睐；流动性稀缺，也是无法扩大市场的重要原因。
+以上三款去中心化稳定币项目，均是市场上新兴、或者潜力尚未被发现的稳定币生态。事实上，当前基于去中心化稳定币的叙事已经足够繁荣。除上述三种之外，包括LUSD、FRAX、KAVA、MIM、HAY等一种稳定币项目同样值得关注。
+毕竟，尽管去中心化稳定币当前市场占有率较低，且同样无法规避现实黑天鹅的影响。但某种程度上，随着全球经济环境的恶化，全球进入存量博弈，黑天鹅的事件会越来越多。这时候，没有铸币权、饱受中心化威胁的法币稳定币，就未必是一个很好的选择了。
+而目前尚处于发展早期的去中心化稳定币，则在叙事上拥有更大程度的想象空间。
+参考资料：
+1.CeFi屡遭重创，分布式稳定币$HOPE如何取长补短？
+链接：https://m.mytoken.io/news/428359
+2.RAI：Vitalik 眼中的去中心化稳定币“理想型
+链接：https://mp.weixin.qq.com/s/_-bJhDcQwoDKMMY1J3QNJA
+3.刚获 a16z 领投的去中心化稳定币协议 Angle 有何设计亮点？
+链接：https://www.bitpush.news/articles/1817404
+4.一文详解去中心化稳定币的现状与未来
+链接：https://www.odaily.news/post/5184608
+5.Stability without Pegs
+链接：https://medium.com/reflexer-labs/stability-without-pegs-8c6a1cbc7fbd]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盘点年中前具有强大催化剂的30个优质项目]]></title>
         <id>https://www.panewslab.com/zh/articledetails/e154lpxa.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/e154lpxa.html"/>
         <updated>2023-03-15T05:26:03.000Z</updated>
