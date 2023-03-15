@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T04:01:45.501Z</updated>
+    <updated>2023-03-15T04:09:23.321Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Optimism技术去中心化路线图发布，拟在今年年底前完成Baseline去中心化]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/bb0z8x4o.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/bb0z8x4o.html"/>
+        <updated>2023-03-15T04:08:32.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日消息，据官方消息，OP Labs发布Optimism技术去中心化路线图，路线图包含Baseline去中心化以及Cannon错误证明（Cannon Fault Proofs）两部分。OP Labs表示：“Baseline去中心化是我们的首要任务，也是我们希望在今年年底前帮助实现的目标。展望未来，我们预计完成故障证明去中心化的‘前兆’将成为2024年的重点。”
+其中Baseline去中心化将通过达成无许可输出提案和桥去中心化以实现Optimism网络和治理系统去中心化升级。同时，团队还将对Fault Proofs不断进行技术迭代，这包括三个步骤：1.实现一个执行L2状态转换的故障证明程序，这样输出就可以在L1上进行编程验证；这是故障证明激活的前兆。2.Cannon故障证明虚拟机，这将使在L1上执行故障证明程序成为可能；这是故障证明激活的另一个前兆。3.一旦两个前兆备齐，Dispute Game（整合）就可以跟进；此步骤将使Cannon能够删除L1上的故障输出；通过这一步，Optimism将是可证明错误的。
+一旦在Baseline去中心化和Cannon方面取得进展，就可以考虑其他重要步骤，包括：1.向Optimism主网部署额外的证明系统；2.逐步淘汰证明者网络；3.删除升级密钥；4.去中心化排序器（Sequencer）。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【英文长推】a16z 团队成员谈 Optimism Bedrock 升级：有何积极影响？]]></title>
         <id>https://twitter.com/RossShuel/status/1635630396628140034</id>
@@ -2412,29 +2424,6 @@ https://era.zksync.io/docs/dev/developer-guides/aa.html#prerequisites]]></summar
 <p><strong>文章作者：</strong></p><p>Synthetix</p><hr><h3>观点：</h3><p><strong>Synthetix：</strong>Synthetix V3 是可组合的衍生流动性协议，旨在成为链上金融产品的通用和模块化基础。两个关键价值主张：1）面对质押者，一系列的池 / 金库存款，连接到一系列衍生品市场 —— 从而选择市场敞口和预期回报的水平和类型。2）面对协议，一系列用于抵押新衍生品市场的矿池 / 金库或创建矿池并通过奖励吸引抵押品的工具。【原文为英文】</p><a href="https://twitter.com/synthetix_io/status/1634285809150095362">内容来源</a><p><strong>Synthetix：</strong>V3 重点：1）DeFi 衍生品的流动性层，推动下一代无许可的衍生品；2）通过多重质押给质押者权力，创建了一个与抵押品类型无关的通用金库系统，抵押品必须经过治理批准。 3）一个可组合的、对开发人员友好的系统；4）未来将能够部署到任何 EVM 兼容链上。【原文为英文】</p><a href="https://twitter.com/synthetix_io/status/1634285809150095362">内容来源</a><p><strong>Synthetix：</strong>其他功能和机制：1）围绕市场构建，市场决定了相关资产的定价逻辑；2）可以使用市场定价逻辑和价格反馈来部署新的合成资产；3）多抵押品质押，允许治理支持任何抵押品来支持合成资产，抵押品期权将具有可调整的变量；4）贷款，但不会面临债务池风险，也没有利息和发行费用；5）差异化的流动性（债务）池；6）市场创建者可以从多个预言机解决方案中进行选择以设置自定义聚合；7）奖励管理器。【原文为英文】</p><a href="https://twitter.com/synthetix_io/status/1634285809150095362">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[比特丛林：Euler Finance 因新增功能存在漏洞，被盗近2亿美金]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/2qzv9466.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/2qzv9466.html"/>
-        <updated>2023-03-14T09:27:42.000Z</updated>
-        <summary type="html"><![CDATA[2023年3月13日，Euler Finance因为donateToReserves方法存在缺少资金风险检查漏洞资金池遭遇闪电贷攻击，损失近两亿美元目前被盗资金仍在黑客地址0xb66cd966670d962c227b3eaba30a872dbfb995db.
-部分Euler受害者已主动联系比特丛林，双方正在对委托合作细节进行沟通和确认。比特丛林将会从区块链溯源的角度去支持Euler项目方和受害者争取早日追回被盗的数字资产。如果有需要请联系比特丛林，官方推特@bitjungle_team 或联系官方邮箱bitjungle@163.com
-攻击原因：
-Euler平台使用户能够通过铸造 EToken 并直接使用铸造的 EToken 作为抵押品来增加债务。即使用户账户中没有剩余流动性，用户仍然可以加杠杆。
-通常情况下，在Euler平台的合约中，通过checkLiquidity方法验证用户资金风险，以决定是否继续执行操作。
-2022年7月份的85abe8d0986f97557159d26c5e79df6d78eccc53更新中EToken.sol合约添加了donateToReserves的方法，允许用户将平台的eToken转赠给其他用户，但是该donateToReserves方法缺乏checkLiquidity的资金风险检查，导致有风险的资金也可以被转赠给其他人。
-攻击过程：
-01-攻击者先通过闪电贷借入大笔资金
-02-通过Euler的自我借贷功能借入更大笔的资金
-03-通过调用donateToReserves将资金转移
-04-清算账户并归还闪电贷
-
-
-资金流向]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
