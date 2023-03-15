@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T05:47:45.060Z</updated>
+    <updated>2023-03-15T05:52:58.410Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[Stargate DAO关于停止重新发行STG代币的提案已获投票通过]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/z801ghbl.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/z801ghbl.html"/>
+        <updated>2023-03-15T05:51:21.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月15日，Snapshot页面显示，Stargate DAO关于停止重新发行STG代币的提案以98.52%的支持率获得投票通过。根据该提案，Stargate应继续在协议中使用原始STG代币，而Alameda购买的代币应保留在归属合约中，它们目前应清算人的要求保留在该合约中。
+此前3月13日消息，Stargate基金会建议DAO不要重新发行STG代币，否则FTX清算人或将寻求赔偿 。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[“USDC脱锚事件”反思：我们到底需要什么样的稳定币？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/869hc8yxi007.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/869hc8yxi007.html"/>
@@ -456,6 +467,18 @@ FVM 将允许在 Filecoin 的基础上建立自定义智能合约，开辟各种
 注：原文中第 2 个协议及其更新已不可见，故共有 29 个协议更新介绍。原文链接]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据解读 Lens 如何重塑创作者经济]]></title>
+        <id>https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg</id>
+        <link href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg"/>
+        <updated>2023-03-15T05:02:17.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Lens 火热的背后不单单是空投的预期，更是引领 Web3 新经济的潜力。Biteye 研究员 Loius Wang 梳理了 Lens 创作者经济的模型，通过数据分析了 Web3 社交协议 Lens 现有的变现模式，并结合其近期发布的新功能，给出了对未来发展方向的猜测。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg">https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg</a></p>
+<p><strong>文章作者：</strong></p><p>Lviswang.lens</p><hr><h3>观点：</h3><p><strong>Lviswang.lens：</strong>创作者经济数据：创作者收入：创作者总盈利 26.8 万美元，其中付费铸造产生收入 26.4 万美元，占总创作经济收入的 99%。用户消费：共有 4 万 1 千多名用户在 Lens 上向创作者支付过费用，消费最多的前三名都是 Lens 团队的地址。数据发现：1. 创作者的增长速度要高于消费者；2. 消费者 / 创作者之比维持在 0.5 左右的水平，趋于稳定；3. 大部分产生收益的创作者的粉丝量都集中在 1000 以内。</p><a href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg">内容来源</a><p><strong>Lviswang.lens：</strong>Lens 创作者经济前景畅想：1. 协同创作经济：最新推出的收益分配模式支持多个创作者收益分成，推动协作经济的发展，实现创作者共赢；2. 结合 AAVE 最大化创作者收益：最近上线了 aaveFeeCollect 模块，创作者的收益可以直接存到 AAVE v3 的池子里。DID 协议构建的社交关系和社交图谱可能是一个 DeFi 信任解决方案。</p><a href="https://mp.weixin.qq.com/s/QSrWuKjyhlmocgb6z_C0yg">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -2630,55 +2653,6 @@ https://www.panewslab.com/zh/articledetails/t6qyqtcm.html]]></summary>
 <p><strong>文章作者：</strong></p><p>duoduo</p><hr><h3>观点：</h3><p><strong>duoduo：</strong>如何铸造？质押 SNX 可以生成稳定币 sUSD，SNX 铸造 sUSD 的抵押率是 400%，清算线则是 160%。这是一个比较高的抵押率，可以应对市场极端风险，维持系统的稳定。如何锚定？sUSD 通过套利机制维持价格锚定，铸造价格始终为 1 美元，当市场价格高于铸造价格时，套利者可以铸造新的 sUSD，按照市场价格卖出获利，市场供应增加，价格回落。反之则套利者可以从市场买回 sUSD，然后销毁 sUSD，降低债务。</p><a href="https://twitter.com/angalina2021/status/1635582678035759105">内容来源</a><p><strong>duoduo：</strong>债务池是质押的 SNX 都放进去的一个池子。当用户铸造 sUSD 时，铸造出来的 sUSD 的数量占所有 sUSD 的数量就是用户在整个债务池的比例，所有被铸造的 sUSD 就是总债务。如果 A 的投资策略实现资产升值（如 sUSD 购买 sETH，sETH 价格上涨）就会导致 B 的债务增加。</p><a href="https://twitter.com/angalina2021/status/1635582678035759105">内容来源</a><p><strong>duoduo：</strong>债务池可以为各类协议提供流动性，零滑点，充当交易对手方，具有较好的可组合性。在此基础上，SNX 建立自己的生态。Synthetix 不直接提供任何前端，而是充当 DeFi 协议的后端流动性提供者。目前的生态包括 Curve、合约交易所 Kwenta、期权交易所 Lyra 等。sUSD 有自身较为稳定的应用场景。</p><a href="https://twitter.com/angalina2021/status/1635582678035759105">内容来源</a><p><strong>duoduo：</strong>Synthetix 正在进行 V3 版本的修改。在 V3 中，将新增质押资产的种类，除了 SNX 之外，ETH 等其他加密代币也可以质押生成 sUSD。此前，sUSD 的规模受到 SNX 市值的限制，V3 版本实施后，将不再受限于此，sUSD 的可扩展性增强。随着流入 Optimism 的资金增长，有机会建立更丰富的生态，获取更大市场规模。</p><a href="https://twitter.com/angalina2021/status/1635582678035759105">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeFi可组合性的潘多拉魔盒：Euler Finance被攻击，这11个DeFi项目遭受损失]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/v0dusvai.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/v0dusvai.html"/>
-        <updated>2023-03-14T10:51:45.000Z</updated>
-        <summary type="html"><![CDATA[Euler Finance是DeFi Summer之后少有的具备创新的DeFi项目，它根据资产风险的不同，将资产分成不同的层级（Tiers），每一层的资产具有不同的借贷权限。3月13日，Euler Finance遭到黑客攻击，损失约2亿美元的资金。
-Euler作为底层的借贷协议，安全性更值得关注。因为DeFi的可组合性，本次攻击也给其它多个DeFi项目造成数千万美元的损失。
-Angle Protocol
-Angle Protocol是一个去中心化（非美元）稳定币项目，现在主要是欧元稳定币agEUR。在Angle Protocol中铸造agEUR稳定币有两种方式，通过核心模块以USDC等稳定币按1:1的价值进行兑换，价格波动的风险由杠杆交易汇率的对冲代理进行对冲；通过借贷模块则以WETH等资产为抵押品，超额抵押进行铸造。
-为了增加项目盈余、激励SLP和veANGLE的持有者，Angle根据Yearn的设计开发了收益策略，将核心模块中铸造agEUR的抵押品USDC、DAI等用于获得收益，如下图所示，Euler是收益策略资金的重要去处。
-
-Angle预估在黑客攻击中损失1761万美元的资金，虽然此前项目中有558万美元的盈余，但依然不够进行赔付，agEUR持有者、流动性提供者、对冲代币的资金将看成一个整体，按比例进行赔付。通过借贷模块铸造agEUR的用户仍然可以偿还借款，赎回抵押品。
-Balancer
-Balancer是一个DEX，在本次Euler的攻击中因为bbeUSD（Euler Boosted USD）损失1190万美元。
-Boosted Pools是Balancer在2021年12月推出的一项创新，可以提高LP的收益率，也能方便用户进入或退出Aave等协议。Balancer会将Boosted Pools中的一部分资金存入Aave或Euler等借贷协议，剩余部分资金可方便用户交易。
-在Balancer Boosted Euler USD池中，用户可以存入USDT、USDC、DAI三种稳定币，Balancer将这些资金存入Euler，并为用户发放LP代币bbeUSD。和Curve的3pool这样的Base Pool一样，bbeUSD也可以在Balancer中和其它代币组成交易对，并获得流动性挖矿奖励。
-Balancer在促进bbeUSD使用的同时，也加大了本次受损失的金额。除了Balancer Boosted Euler USDC池本身之外，使用bbeUSD的wstETH/bbeUSD、rETH/bbeUSD、TEMPLE/bbeUSD、DOLA/bbeUSD四个交易对的LP也只能赎回部分资金。
-Idle Finance
-Idle Finance是一个收益聚合器，提供三种收益策略：Best Yield、Senior Tranches和Junior Tranches。Junior Tranches由于风险和收益率更高，当发生安全事故时，可能需要先于Senior Tranches承担损失。
-从官网数据看，Idle Finance将DAI、USDT、ETH等资金存入了Euler、Morpho、Lido等项目中，自动获得收益，并将收益复投。由于Idle Finance会尽可能选择收益率较高的策略，Euler Finance是Idle Finance的重要合作伙伴，目前并没有将资金直接存在Compound和Aave等经过更长时间检验的项目中。
-Idle Finance称，Best Yield Vault和Yield Tranches对Euler Finance的敞口分别为532.71万美元和566.28万美元，共计约1099万美元。
-
-Yield Protocol
-Yield Protocol是一个固定利率借贷协议，采用类似于零息债券的方式。存款人会收到一种ERC20代币fyTokens，可以在到期日后1:1地赎回基础资产。到期之前，fyTokens可以折扣价交易。
-Yield Protocol的流动性池建立在Euler之上，其中部分资金存入了Euler，部分资金持有fyTokens。存入Euler的部分受到影响，预计在Euler被攻击前的存款少于150万美元。而借款人的抵押品因为保存在Yield Protocol中，未受到影响。
-Yearn
-Yearn是一个收益聚合器，将资金集中起来投向特定的策略。Yearn在推特上表示，yvUSDT和yvUSDC因为使用了Idle和Angle的策略，对Euler共有138万美元的风险敞口。
-产生的坏账将由Yearn Treasury承担，所有的Vault仍然正常开放。
-Harvest
-和Yearn类似，Harvest也表示USDC、USDT、WETH Vault因为使用Idle而受到影响。目前Harvest并未说明如何处理，且提醒用户在问题解决前不要与这些Vault进行交互。
-Inverse Finance
-Inverse Finance的主要产品为美元稳定币DOLA，另外还有固定利率贷款市场FiRM和代表借款权的DBR。
-如前所述，由于DOLA在Balancer上的流动性在DOLA/bbeUSD交易对上，因此遭到损失。Inverse Finance表示尽管和Balancer采取了积极措施减轻了损失，DOLA Fed在其中也损失了86万美元的资金。
-SwissBorg
-SwissBorg是一个加密资产管理平台，获得了瑞士、法国和爱沙尼亚的监管和许可。它自身有一款SwissBorg app，可以通过这款移动钱包获得收益。
-SwissBorg表示，Earn策略中的ETH和USDT遭到了部分损失，包括1617.23 ETH和约169万USDT，分别占认购资金的2.27%和29.52%。SwissBorg将承担所有损失。
-Opyn
-Opyn构建了第一个去中心化期权协议，并开发出了永续期权Opyn Squeeth，在Suqeeth上构建了多种收益策略。
-本次Opyn受到影响的是Zen Bull策略，这个策略结合了Crab策略和ETH杠杆多头头寸，适合ETH价格呈上升趋势的低波动市场。
-由于该策略需要抵押资产通过杠杆购买ETH，可能是在Euler中进行抵押借贷，导致损失。Opyn目前并未公布受损失的金额和处理办法。
-Sherlock
-Sherlock是一个DeFi安全提供商，可提供智能合约审计和保险服务。Euler在刚推出时就和Sherlock达成了1000万美元的合作伙伴关系，Sherlock负责审计Euler的智能合约，并为Euler提供保险。
-在Euler被攻击后，Sherlock已经通过了对Euler赔付450万美元的投票，且已执行了330万美元的赔款。
-Sense Finance
-Sense Finance是一个固定利率借贷协议，其中可以交易Idle等的固定收益资产，间接受到影响。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
