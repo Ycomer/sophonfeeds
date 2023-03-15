@@ -227,7 +227,7 @@
           "description": "<h3>Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay</h3>\n<p>隐私保护协议 Manta Network 宣布在先行网 Calamar 上线 ZK 隐私转账协议 MantaPay。MantaPay 是基于 ZK 技术的多资产去中心化隐私转账协议，用户可将 ERC20 等资产桥接至 MantaPay，实现隐私转账。MantaPay 计划在未来支持 ERC721、ERC1155 等 NFT 资产及灵魂绑定代币（SBT）。受监管政策影响，MantaPay 不支持美国、中国、伊朗等特定地区的用户使用。</p>\n<p><a href=\"https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291\">内容来源</a></p><hr>",
           "link": "https://mantanetwork.medium.com/mantapay-launches-on-calamari-network-d5e4db387291",
           "publishedOn": "2023-03-15T02:53:28.000Z",
-          "wordCount": 2330,
+          "wordCount": 2328,
           "title": "Manta Network 先行网 Calamari 上线 ZK 隐私转账协议 MantaPay",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*DmgLxeoiBJh-EZpdAx08ww.png"
         },
@@ -307,7 +307,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Euler 被黑客攻击损失 2 亿美元，dForce 创始人 Mindao 借此事对 DeFi 的安全审计和安全问题进行研究和探讨，解析了三种审计模式，认为对于 DeFi 这样的开放系统来说，安全代价就是自由的代价。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">https://twitter.com/mindaoyang/status/1635537914854772737</a></p>\n<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>大的 DeFi 协议基本上都经过多轮审计，但蓝筹 DeFi 没哪个没被黑过。原因很简单，从攻防来看，所有静态审计的输入（安全投入）和输出（发现 bug) 都是有限的。常规审计以外的审计模式：1）形式化验证，能帮助穷尽「已知」路径的覆盖范围，但是无法穷尽「未知的未知」。DeFi 是一个开放系统，对于黑客（攻方）来说，它的输入是无限的，输出也是无限的。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>2）开发式竞争型审计，如 Code4rena，审计奖金池固定，但是输入在一定时间内是弹性的，所有人都可以参加，谁发现 bug 按照严重程度，分奖金，这个方式是让审计师 / 白帽去卷，可以扩大覆盖面，但总体输入依然固定，远远不够。3）完全开放的模式，那就是赏金网络。赏金模式在输入输出上也是开放式的，类似于黑客的攻击模式，但是激励模式大有区别。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>把赏金比例和 TVL 挂钩能否激励更多黑客转白帽？1）没哪个 DeFi 协议能支付黑客所要求的大额赏金；2）DeFi 的安全更复杂问题在于除了代码层面，还有可组合风险；3）DeFi 的攻击面是四维增长的，定期静态安全审计加长期赏金，也无法覆盖不断扩大的攻击面。DeFi 安全是无限游戏，唯一靠谱的是在协议上减少外部依赖（资产 /oracle/ 第三方协议），最小化攻击面，尽量待在「自己的舒适区」，不乱做扩展。</p><a href=\"https://twitter.com/mindaoyang/status/1635537914854772737\">内容来源</a>",
           "link": "https://twitter.com/mindaoyang/status/1635537914854772737",
           "publishedOn": "2023-03-14T09:22:39.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "深究 DeFi 的安全审计和安全问题，解析三种审计模式",
           "imageUrl": null
         },
@@ -567,7 +567,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1731,
+          "wordCount": 1713,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -717,7 +717,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17787,
+          "wordCount": 17803,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -807,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Caleb & Brown 首席执行官 Jackson Zeng 认为当前市场大部分用户普遍缺乏对破产和稳定币储蓄工作的理解，并对三个阵营基于对 USDC 在 SVB 的风险敞口的不同理解采取的行动进行解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">https://twitter.com/im_jacksonzeng/status/1634466362222587904</a></p>\n<p><strong>文章作者：</strong></p><p>Jackson Zeng</p><hr><h3>观点：</h3><p><strong>Jackson Zeng：</strong>1）阵营一：过于简单的假设，但明智的风险管理。这部分人误解了硅谷银行的风险敞口，但采取了正确的行动。他们认为 400 亿美元的 USDC 储备中有 33 亿美元保存在硅谷银行，因此 USDC 的价值应该是 0.92 美元，并从 0.98 到 0.94 进行恐慌性抛售。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>2）阵营二：精明的分析家，但缺乏银行运作经验。这部分人了解 33 亿美元的风险敞口并没有全部损失（可能只损失了 2-3 亿），因此认为 USDC 的价值是 0.995 美元。很多人表示在 0.94 美元左右做多 USDC，这是一个巨大的错误！【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>3）阵营三：知道两者都是错的，但和阵营一采取同样行动。这部分人了解即使 SVB 只损失了 2 亿美元，但 33 亿美元的债权仍然是不确定的。如果没有救助，储户在破产程序中会被视为债权人。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a><p><strong>Jackson Zeng：</strong>因此，这不是 8.25%，而是 33 亿美元的非流动性 SVB 债权风险（绝对值比百分比更重要）。真正的答案是：当 Circle 用户以 1:1 赎回时，脱锚会逐渐恶化。随着人们意识到这一风险，价格将再次下跌。【原文为英文】</p><a href=\"https://twitter.com/im_jacksonzeng/status/1634466362222587904\">内容来源</a>",
           "link": "https://twitter.com/im_jacksonzeng/status/1634466362222587904",
           "publishedOn": "2023-03-12T04:23:17.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】如何正确看待 USDC 风险敞口：分析三个不同阵营的应对方式",
           "imageUrl": null
         },
@@ -897,7 +897,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27873,
+          "wordCount": 27842,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
