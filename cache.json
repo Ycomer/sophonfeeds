@@ -17,7 +17,7 @@
           "description": "<h3>以太坊 Goerli 测试网激活 Shapella 升级</h3>\n<p>以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。以太坊核心开发人员 Tim Beiko 表示，由于几个测试网验证器在 Goerli 分叉之前没有升级他们的客户端软件，导致初期处理存款的过程并不顺利，但问题已经解决。Shapella 预计于 4 月初在以太坊主网上激活，具体日期将于本周四的以太坊执行层核心开发者会议（ACDE）确定。</p>\n<p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Tim Beiko（以太坊核心开发者）：</strong>一个原因是鉴于 ETH（Goerli）毫无价值，运行验证节点 / 监控它的动力就会减少。另一个可能的原因是在分叉处处理了大量的取款凭证更改。鉴于这是人们第一次提交这些更改，还有更多需要处理的内容，这可能导致在低资源节点上丢失块 / 证明。【原文为英文】</p><a href=\"https://twitter.com/TimBeiko/status/1635769239272591360\">内容来源</a>",
           "link": "https://twitter.com/TimBeiko/status/1635769239272591360",
           "publishedOn": "2023-03-15T01:47:27.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "以太坊 Goerli 测试网激活 Shapella 升级",
           "imageUrl": null
         },
@@ -407,7 +407,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1717,
+          "wordCount": 1729,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -497,7 +497,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17761,
+          "wordCount": 17760,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -507,7 +507,7 @@
           "description": "<h3>The Block 主编：Crypto 的资本市场基本回到了 2014 年之前</h3>\n<p>The Block 主编 Frank Chaparro 表示，Crypto 的资本市场基本回到了 2014 年之前，任何新成立的公司都没有机会获得银行关系。在许多方面，加密货币已经正式成为无银行账户。</p>\n<p><a href=\"https://twitter.com/fintechfrank/status/1635045997670965248\">内容来源</a></p><hr>",
           "link": "https://twitter.com/fintechfrank/status/1635045997670965248",
           "publishedOn": "2023-03-13T01:51:12.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "The Block 主编：Crypto 的资本市场基本回到了 2014 年之前",
           "imageUrl": null
         },
@@ -677,7 +677,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27495,
+          "wordCount": 27562,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -727,7 +727,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Stephy Dunbar 撰文对科学生态系统的现存困境及解决困境的不同 Desci （去中心化科学）方式进行解析，认为 DeSci 通过引用新的协调、激励和验证机制来维持和传播开放科学，从而改变了研究经济。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">https://twitter.com/sunnydece/status/1633160977809289216</a></p>\n<p><strong>文章作者：</strong></p><p>Stephy Dunbar</p><hr><h3>观点：</h3><p><strong>Stephy Dunbar：</strong>科学知识是支撑技术发展和经济增长的公共产品，然而当前的科学体系面临问题：1）中心化决策和资金；2）方法论和数据的透明度差；3）无激励的审查和知识发布门槛受制。而 DeSci 正蓬勃发展以解决这些问题。目前正在运行的 85 个 DeSci 项目中有 50% 以上是去年启动的。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>不同解决方式：1）代币激励的研究生态系统，例如 ResearchHub。2）基金 DAO，DeSci 主要通过 DAO 促进社区决策以资助量身定制的解决方案。许多 DAO 都有特定的重点领域。例如 VitaDAO。3）研究代币化，例如 Molecule。用途包括 IP 许可用于商业化、与合作伙伴分割所有权、在开放市场上交易数据、持有作为借贷的抵押品。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a><p><strong>Stephy Dunbar：</strong>4）方法和数据透明化，例如 OpSci ，使研究者可以将自己的身份、证书和项目标记为 NFT。5）激励同行评审和开放出版，例如 DeSci Labs 的 DeSci 节点允许研究人员在开放状态、去中心化存储库上创建和发布代码、数据集等研究对象。6）数据处理，将数据代币化或者标记成 NFT，又或者像 The Bacalhau Project 允许研究员直接在存储数据集的地方执行计算工作。【原文为英文】</p><a href=\"https://twitter.com/sunnydece/status/1633160977809289216\">内容来源</a>",
           "link": "https://twitter.com/sunnydece/status/1633160977809289216",
           "publishedOn": "2023-03-11T05:12:53.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Messari：科学现存困境解析，DesCi 以不同方式应对",
           "imageUrl": null
         },
@@ -807,7 +807,7 @@
           "description": "<h3>加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管</h3>\n<p>硅谷银行（SVB）已被加州金融保护和创新部关闭，并由美国联邦存款保险公司（FDIC）接管。FDIC 表示，硅谷银行拥有约 2090 亿美元资产，有 1754 亿美元的存款。硅谷银行的所有受保存款立即被转移给 FDIC 创建的圣克拉拉储蓄保险国家银行（DINB）。此外，所有受保用户将在 3 月 13 日前获得受保存款。未投保的用户将为未来一周内收到「预付红利」。据 CoinDesk 研究，Blockchain Capital、Castle Island Ventures、Dragonfly 和 Pantera 都与硅谷银行有关系。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>CoinDesk：</strong>在硅谷银行（SVB）和 Silvergate 关闭期间，加密货币钱包在过去 24 小时内从中心化交易所提取的 USDC 资金总额约为 9.02 亿美元。过去 24 小时内，所有「Smart Money」钱包从中心化交易所提取了共计 6800 万美元的 USDC 。此外，包括 Genesis Trading、Wintermute 和 Jump Trading 在内的 Nansen 标记的基金和做市商地址提取了 7900 万美元。【原文为英文】</p><a href=\"https://www.coindesk.com/business/2023/03/10/crypto-wallets-withdraw-902m-usdc-from-centralized-exchanges-in-past-24-hours-amid-svb-silvergate-shutdowns\">内容来源</a><p><strong>Circle：</strong>硅谷银行是我们用于管理约 25% 的 USDC 现金储备的六家银行合作伙伴之一，目前，在等待美国联邦存款保险公司（FDIC）对硅谷银行接管的过程中，Circle 和 USDC 将继续正常运作。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634341007306248199\">内容来源</a><p><strong>Jinze Jiang 金泽：</strong>Circle 110 亿现金在六家银行，其中 Primary bank 是纽约梅隆银行，意味着理论 50% 至少在纽约梅隆，那么剩下的五家差不多分那 50 多亿，一家 10 亿，乘以 0.4，亏损在 4 亿多这个量级算合理的估算。占总资产的 1%，并不夸张。注意只是根据已有信息的推测，以后续事实为准。</p><a href=\"https://twitter.com/JinzeJiang0x0/status/1634354229593751553\">内容来源</a><p><strong>The Block：</strong>BlockFi 在硅谷银行拥有 2.27 亿美元「不受保护」的资金，监管 BlockFi 破产案的美国受托人在文件中表示，这 2.27 亿美元也没有由联邦存款保险公司承保，因为它属于货币市场共同基金。【原文为英文】</p><a href=\"https://www.theblock.co/post/218943/blockfi-has-227-million-in-uninsured-funds-in-silicon-valley-bank\">内容来源</a><p><strong>Tether：</strong>Tether 在硅谷银行没有任何风险敞口。【原文为英文】</p><a href=\"https://twitter.com/paoloardoino/status/1634304670184222722\">内容来源</a><p><strong>深潮 TechFlow：</strong>谁也没想到，仅仅 48 小时，知名的硅谷银行就倒闭了！后续影响有多大？大多数传统银行对初创企业不友好，特别是搭了离岸股权结构的，硅谷银行可以说是许多初创企业的最佳甚至是唯一选择，因此大量 VIE 架构的中国科创公司也在使用硅谷银行。此外，大量加密行业的初创公司也在使用硅谷银行，包括很多华人项目，一个新加坡主体不一定能在新加坡银行开户，但是在硅谷银行可以，开户简单快捷，并且服务特别好。</p><a href=\"https://twitter.com/TechFlowPost/status/1634387898077437954\">内容来源</a><p><strong>Circle：</strong>我们目前约 400 亿美元的 USDC 储备中仍有 33 亿美元保存在硅谷银行（SVB）中。【原文为英文】</p><a href=\"https://twitter.com/circle/status/1634391505988206592\">内容来源</a>",
           "link": "https://www.coindesk.com/policy/2023/03/10/silicon-valley-bank-shuttered-by-state-regulators/",
           "publishedOn": "2023-03-11T02:07:23.000Z",
-          "wordCount": 20884,
+          "wordCount": 20891,
           "title": "加州监管机构已关闭硅谷银行并由美国联邦存款保险公司接管",
           "imageUrl": "https://www.coindesk.com/resizer/uG62IOyd-0gMT9JvA4r5bZTckEo=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/VO5H3SFKYFHDHJ3XCYT5CFZQFU.png"
         },
@@ -987,7 +987,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 生态 TVL 仍在不断不断攀升，还有哪些新兴项目值得关注呢？加密研究员 Crypto Nova 盘点了 5 个 Arbitrum 生态值得关注的新项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/CryptoGirlNova/status/1633897861002960898\">https://twitter.com/CryptoGirlNova/status/1633897861002960898</a></p>\n<p><strong>文章作者：</strong></p><p>Crypto Nova</p><hr><h3>观点：</h3><p><strong>Crypto Nova：</strong>1）Arcadeum：Arbitrum 生态去中心化赌场，用户可以完全控制自己的资金，投注在区块链上进行处理。目前市值为 500 万；2）Roseon：Arbitrum 生态游戏化多链现货和期货 DEX，希望能够通过添加链游元素使其更具吸引力，目前市值为 500 万；【原文为英文】</p><a href=\"https://twitter.com/CryptoGirlNova/status/1633897861002960898\">内容来源</a><p><strong>Crypto Nova：</strong>3）FactorDAO：Arbitrum 生态去中心化资产管理协议，目前市值为 450 万美元；4）\nWINR：为链上流动性和激励设计的项目；5）yieldification：Arbitrum 生态真实收益 DeFi 协议，目前市值为 800 万。【原文为英文】</p><a href=\"https://twitter.com/CryptoGirlNova/status/1633897861002960898\">内容来源</a>",
           "link": "https://twitter.com/CryptoGirlNova/status/1633897861002960898",
           "publishedOn": "2023-03-10T05:09:29.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Arbitrum 生态值得关注的 5 个新项目：Arcadeum、Roseon、FactorDAO......",
           "imageUrl": null
         },
@@ -4074,7 +4074,7 @@
           "description": "来源：推特\n作者：ABCDE投研合伙人老白\n最近硅谷银行和USDC短暂脱锚的事情占据了所有人的视线，本来Luna崩盘之后大家都已经“安于”USDT和USDC这种法币背书型稳定币了，这么一搞，业界对于Crypto Native稳定币的呼声与需求又开始抬头。\n简单说说我个人对当前几个Native稳定币的看法以及对未来Native稳定币的展望：\nLuna崩盘之后Native 稳定币基本就靠这俩在撑着，DAI市值60亿，Frax 10亿 MakerDAO属于当时被ETH孱弱的性能+312崩盘吓怕了，DAI在那之后慢慢不再由ETH主支持，而是由USDC主支持，“纯净版”的MakerDAO其实是Liquity在做了（最近FOMO的厉害，然而LUSD的市值依旧是2亿，依旧是没啥人用）\nFrax稳定币起家，结果反而是DEFI矩阵和Curve War玩的贼六，最近LSD的尝试也非常成功，不过根基Frax和DAI都面临类似相对尴尬的境地，就是应用场景过少，说白了就是除了自家DAPP，基本没啥地方可用。经常玩Defi和做流动性的都知道，这个圈子里面，USDC是绝对的王，USDT用的都很少，虽然他在CEX那边是老大\nMakerDAO过去两年一直有“不思进取”的Feel，最近也终于开始折腾事情，弄了个Endgame，还Fork了AAVE V3做了个Spark借贷平台以及MetaDAO，希望2年之后的牛市能够看到DAI有更多的使用场景\n至于Frax，说实话我也不知道怎么去“破圈”，也许等他的稳定币+借贷+LSD产品矩阵再扩大一些会有拓展出更多Frax的应用场景？总之个人一直的感觉就是你让我投资FXS是可以的，但你让我满手Frax我是不乐意也没有足够信心的……\n说实话其实现在做稳定币的项目依旧还是有，各种花式算法来保证Peg，但在我看来这都没意义。除了Luna这种“凭空印钱”，大家其实不怎么担心你脱锚的事，真正重要的是使用场景，不然21年的“算稳三杰”（说是算稳，其实都是抵押型的）Fei、Float、Reflexer也不会沦落到现在这个下场。\n1.crvUSD - Curve做稳定币其实是最“名正言顺”的，自身是稳定币最大深度的Dex，大几十亿TVL又基本上全是蓝筹，资本效率急待释放。除此之外crvUSD的优势还有下面几个：\n2.GHO - AAVE没有Curve那边Dex和贿选的优势，AAVE的优势在V3，Lens和Facilitator：\n3. sUSD - 我觉得最低估的稳定币，市值只有几千万 sUSD有两个致命短板之前，一个是应用场景，一个是基于SNX本币400%的超高抵押率，资金效率极差\n第一个在Atomic swap与Curve合作之后 + 最近Perp V2上线，已经比原来好很多了，尤其是利用合成资产+原子交换走Curve，接近无滑点交换，在未来的多链时代理论上大有可为，就是不知道SNX有没有这个多链野心。 LayerZero上已经看到模仿SNX这套玩法+全链部署的合成资产项目出现\n第二个在即将到来的V3版本通过引入类似ETH的抵押品也马上有望解决。当我们有足够多的SUSD，足够多的合成资产，也就意味着深度足够的Curve池子，很多Swap，尤其是大额Swap，理论上就都可以是零滑点的，对Curve也顺道是一个利好\n其实如果你一直追Arthur文章的话，你应该知道，他的这个Idea其实去年就写过，只不过这次因为稳定币事件又拿出来重新写了下，这个思路在技术上完全可行，然而现实实现起来比较困难。（相关阅读：《Arthur Hayes：利用期现对冲，打造 “比特币保证金+反向永续合约” 为发行机制的美元稳定币》）\n技术就是很简单的类似套保原理，每个NUSD由价值一美元的BTC+1比特币/美元的永续空单 这样你会发现BTC 1美元时候，NUSD是一美元，BTC跌倒0.5，空单赚五毛，NUSD还是一美元，BTC涨到2，空单亏一美元，NUSD还是一美元，怎么涨跌NUSD都是一美元 听起来是不是很美好？\n但实施起来没那么容易，最直接的问题就是，NUSD市值小的时候不难，市值到现在USDT几百亿美金体量，空单这么多，是不是就得有对应数量接近的多单啊？这对这个交易所深度和交易量的要求太高了，目前没有哪家能做到。如果出现大规模NUSD的赎回，也就意味着大规模百亿级美元的平仓，这画面想像一下，hmm…\n但如果有一天BTC几百万美金一个，永续交易量媲美现在外汇交易量，这个想法感觉还是存在实施的可能性的，这也是感觉最最Crpyto Native的一个稳定币，既基于BTC，还不需要over collateralized。",
           "link": "https://www.panewslab.com/zh/articledetails/a4ow4q2u.html",
           "publishedOn": "2023-03-14T09:25:36.000Z",
-          "wordCount": 1247,
+          "wordCount": 1245,
           "title": "ABCDE投研合伙人：反思“USDC脱锚风波”，谈谈我眼中真正的“稳定币三杰”",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/14/images/1qTt8888N0.jfif"
         },
