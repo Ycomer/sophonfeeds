@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T11:50:11.761Z</updated>
+    <updated>2023-03-15T11:55:22.205Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[专访 Frax Finance 创始人：Frax 的货币溢价与产品发展]]></title>
+        <id>https://m.techflowpost.com/article/2252</id>
+        <link href="https://m.techflowpost.com/article/2252"/>
+        <updated>2023-03-15T11:21:11.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi Dave 采访 Frax 创始人 Sam Kazemian，谈论稳定币极简主义、Frax 的货币溢价、隐形产品、链上治理等话题。中文版由深潮编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://m.techflowpost.com/article/2252">https://m.techflowpost.com/article/2252</a></p>
+<p><strong>文章作者：</strong></p><p>Revelo Intel</p><hr><h3>观点：</h3><p><strong>Sam Kazemian（ Frax Finance 创始人）：</strong>绝大多数加密协议将成为稳定币或大规模发行自己的稳定币；大多数金融原语看起来像是部分准备金银行；LSD 基本上是 ETH 稳定币；frxETH 拥有 Curve AMO，可以在 frxETH 和 ETH 之间交换，就像铸币和赎回功能；金融法则或金融激励会影响协议或协议建设者和社区；大型 DeFi 协议构建护城河并最大化其价值的最有效的方式是发行一种人们将其用作货币的负债。</p><a href="https://m.techflowpost.com/article/2252">内容来源</a><p><strong>Sam Kazemian（ Frax Finance 创始人）：</strong>稳定币主义被抽象化了，就像跨链桥一样。跨链桥最有价值的优势是它可以进行防御，其他人无法通过降低费用来分叉或商品化，但事实上他们在链的另一端发行了一个稳定币，跨链桥项目本质上是一个稳定币发行商。</p><a href="https://m.techflowpost.com/article/2252">内容来源</a><p><strong>Sam Kazemian（ Frax Finance 创始人）：</strong>Frax 正在开发 BAMM，即借款自动做市商，无需预言机，根据任何资产建立流动性，并在流动性上升时允许人们借用它，这对 DeFi 来说是潜在的零到一的创新；大型协议始终需要某种形式的人为干预，Frax 正在设计 FRXGov 机制，希望能在无需信任的情况下提出人为干预建议，允许 DAO 在 24 小时内投票否决任何多重签名。</p><a href="https://m.techflowpost.com/article/2252">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[专访 Frax Finance 创始人：Frax 的货币溢价与产品发展]]></title>
         <id>https://m.techflowpost.com/article/2252</id>
@@ -591,7 +603,7 @@ https://www.portalbridge.com/#/nft
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【长推】盘点 18 个值得关注的项目：Layer2、基础设施、工具、游戏…]]></title>
+        <title type="html"><![CDATA[【长推】盘点 18 个值得关注的项目：Hord、TapiocaDAO、New Order、Vision Protocol...]]></title>
         <id>https://twitter.com/rickawsb/status/1635810481838628865</id>
         <link href="https://twitter.com/rickawsb/status/1635810481838628865"/>
         <updated>2023-03-15T08:54:10.000Z</updated>
