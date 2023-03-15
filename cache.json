@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/betalphalabs/status/1635822662588170241",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>区块链研究型 DAO 组织 Betalpha Labs 发推盘点三大加密友好银行 Silvergate、硅谷银行和 Signature 的关闭或接管对法币抵押稳定币和资金进出通道带来的影响以及新的增长机会。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/betalphalabs/status/1635822662588170241\">https://twitter.com/betalphalabs/status/1635822662588170241</a></p>\n<p><strong>文章作者：</strong></p><p>Betalpha Labs</p><hr><h3>观点：</h3><p><strong>Betalpha Labs：</strong>1）法币抵押型稳定币规模变化：法币抵押型稳定币规模因 USDC 近一周 43.6 亿的流出而流出，该数据在接下来的一段时间值得持续关注；以不透明著称的 USDT 份额占比持续增长；前不久币安支持的 BUSD 遭遇监管，转向支持 TUSD，且其服务银行是 Signature，其中 Trusttoken 已将 TUSD 业务出售，与其关系不大但有增长概念的 TRU 频频大幅波动登上涨幅榜。</p><a href=\"https://twitter.com/betalphalabs/status/1635822662588170241\">内容来源</a><p><strong>Betalpha Labs：</strong>2）资金进出通道遭到影响：DCG 表示汇丰、德意志、桑坦德等多家主流银行仍愿意为加密公司提供服务，可解决资金存放问题，但会限制经济和货币市场服务以及向第三方电汇等服务，及资金进出通道受到影响。尽管纽约金融服务部称接管 Signature 与加密行业无关，Circle 也在寻找新的银行开展 USDC 出入金服务，后续进展值得关注。</p><a href=\"https://twitter.com/betalphalabs/status/1635822662588170241\">内容来源</a><p><strong>Betalpha Labs：</strong>3）新的增长机会：因 UST 等加密原生稳定币陨落，稳定币从加密原生到法币抵押型，又回到加密原生。币圈原生稳定币再次成为新叙事，DAI  和 Frax 因 USDC 作为抵押物而波动，LUSD、crvUSD、GHO 及其他新生稳定币被给予新的希望。</p><a href=\"https://twitter.com/betalphalabs/status/1635822662588170241\">内容来源</a>",
+          "link": "https://twitter.com/betalphalabs/status/1635822662588170241",
+          "publishedOn": "2023-03-15T08:27:22.000Z",
+          "wordCount": 513,
+          "title": "【长推】加密友好银行接连倒下，会带来哪些影响？",
+          "imageUrl": null
+        },
+        {
           "id": "https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>本文中 MEV 定义为通过按照某特定顺序执行 N 笔交易，为设计这套顺序的主体带来的经济利益。AnT Capital 分析师 Liam 通过分析 MEV 的利益相关者和 MEV 在 MEV-Boost 体系下的流向，分析现有的解决方案如何预防有害 MEV 提取及公平分配有利和中性 MEV，并提出改进方向。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw</a></p>\n<p><strong>文章作者：</strong></p><p>Liam（ANT Capital）</p><hr><h3>观点：</h3><p><strong>Liam（ANT Capital）：</strong>以太坊合并后，MEV 的提取与分配由 Flashbots 提出的 MEV-Boost 体系主导，流向搜寻者（Searcher）、区块建设者（Block Builder）、区块提议者（Block Proposer\\Validator）和以太坊网络本身。提取 MEV 的交易被执行为创建交易的搜寻者带来收入，成本是其支付的 Gas Fee；Gas Fee 一部分根据 EIP-1559 被燃烧，另一部分以 Tip 形式流向区块建设者；区块建设者将大部分 Tip 以 MEV Rewards 形式转给区块提议者。</p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">内容来源</a><p><strong>Liam（ANT Capital）：</strong>从 MEV 为整个系统带来的后果看，可分为有益、中性和有害三类。如何避免有害 MEV 提取、分配有利和中性 MEV 利润是需要解决的核心问题。MEV-Boost 体系的 MEV 利润分配方案中没有考虑用户的利益。用户作为创造 MEV 提取机会的角色，保障其合理利益不被侵犯只是最基本的，不应该只保障他们的交易不被抢跑，也应该将一部分 MEV 利润返还。</p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">内容来源</a><p><strong>Liam（ANT Capital）：</strong>现存的私有 RPC 解决方案是基于信任假设的，用户的交易仍可能被泄露、被抢跑，甚至被审查，并且部分区块建设者对私有订单流的垄断地位会使 MEV 提取变得更不透明、更中心化。要解决「抢跑」问题，应该借助加密技术。基于「加密 - 排序 - 解密 - 执行」，将用户的交易在本地加密，在不被任何人读取交易内容的情况下完成排序共识，再解密内容，最后按已共识的排序执行交易。</p><a href=\"https://mp.weixin.qq.com/s/yre0xXNvTCVzpl-w-aLbNw\">内容来源</a>",
@@ -28,7 +38,7 @@
           "link": "https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk",
           "publishedOn": "2023-03-15T07:14:27.000Z",
           "wordCount": 6799,
-          "title": "【英文】一文了解一种新的隐私优先数字身份：World ID",
+          "title": "【英文】一文了解 Worldcoin 底层身份协议：World ID",
           "imageUrl": "https://images.prismic.io/worldcoin-company-website/170cfad7-d23d-4032-957d-98b7277dc397_updated_cover.png?auto=compress,format"
         },
         {
@@ -47,7 +57,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19499,
+          "wordCount": 19498,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
@@ -67,7 +77,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>近日，Meta 正式关闭了支持 NFT 的功能，加密货币研究员 Alex 梳理了整起事件并认为这不是 Web3 的问题，而是 Meta 还不够了解 Web3 文化与 Web2 的不同。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/alexisbuilding/status/1635508435021340672\">https://twitter.com/alexisbuilding/status/1635508435021340672</a></p>\n<p><strong>文章作者：</strong></p><p>Alex is Building</p><hr><h3>观点：</h3><p><strong>Alex is Building：</strong>去年 5 月到 11 月，Meta 开始在 Facebook 和 Instagram 上测试 NFT 功能。问题是，大多数 Twitter NFT 原生用户并不使用这些功能。而且也没有人从 Web2 转到 Web3。因此，这些功能陷入发展瓶颈。【原文为英文】</p><a href=\"https://twitter.com/alexisbuilding/status/1635508435021340672\">内容来源</a><p><strong>Alex is Building：</strong>但这不是 Web3 的问题，这是一个公司不了解 Web3 文化与 Web2 有何不同的问题，除了「炫耀收藏品」之外，要了解不同的文化如何带来不同的需求。例如，Twitter 巧妙地拥抱了 Web3，所有功能都在促进每日活跃用户和社区建设。【原文为英文】</p><a href=\"https://twitter.com/alexisbuilding/status/1635508435021340672\">内容来源</a>",
           "link": "https://twitter.com/alexisbuilding/status/1635508435021340672",
           "publishedOn": "2023-03-15T06:44:45.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文】观点：Meta 关闭支持 NFT 功能不是 Web3 的问题",
           "imageUrl": null
         },
@@ -107,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Radiant 是 Arbitrum 生态的借贷协议，TVL 月增长达 87.12%，目前在该生态排名第三。随着 Radiant V2 升级临近，加密 KOL Thor Hartvigsen 总结了 5 个主要更新及潜在的积极影响，他认为 V2 升级将会带来更多资产流动性并为用户创造更多收入。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ThorHartvigsen/status/1635718274498564096\">https://twitter.com/ThorHartvigsen/status/1635718274498564096</a></p>\n<p><strong>文章作者：</strong></p><p>Thor Hartvigsen</p><hr><h3>观点：</h3><p><strong>Thor Hartvigsen：</strong>V2 将为协议引入大量的各种升级。1. 跨链扩展。Radiant 将在 BNB 等几个新的链上推出。用户目前可以在几个链上借入，但只能在 Arbitrum 上借出。这一点将在 V2 中有所改变；2. 新资产的加入。目前 Radiant 上只有 5 种资产（其中 3 种是稳定币）。wstETH 和 BNB 都是 V2 确认的资产，未来 GLP、gDAI 等资产也可能加入。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1635718274498564096\">内容来源</a><p><strong>Thor Hartvigsen：</strong>3. RDNT 质押机制更新。V2 将实施动态流动性资金池（dLP）。用户存入 Arbitrum 上的 80/20 RDNT/ETH Balancer 池或 BNB 链上的 50/50 RDNT/BNB 池进行质押，60% 的协议费用将被分配给这些池子的锁定用户。4. 代币经济学更新。用户必须将其抵押品价值的 5% 锁定为 dLP，以便在借贷时获得代币激励。这创造了一个可持续的飞轮 + 减少 $RDNT 的通货膨胀；5. 改进的 UI/UX 设计。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1635718274498564096\">内容来源</a><p><strong>Thor Hartvigsen：</strong>总结：尽管市场规模有限，但 Radiant 凭借其独特的设计与 omnichain 的流动性，积累了大量的流动性和用户。随着 V2 的发布，我希望看到采用率大幅提高，这将为 RDNT 锁定用户创造更多的收入。产品拥有市场契合度，而且代币经济学和基础机制非常健全。十分看好 Radiant 的未来发展。【原文为英文】</p><a href=\"https://twitter.com/ThorHartvigsen/status/1635718274498564096\">内容来源</a>",
           "link": "https://twitter.com/ThorHartvigsen/status/1635718274498564096",
           "publishedOn": "2023-03-15T04:32:58.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Radiant V2 升级临近，哪些更新值得期待？",
           "imageUrl": null
         },
@@ -207,7 +217,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Synthetix 官方撰推发文，对其 V3 版本进行详解，包含其架构、重点功能，并探讨每个功能和机制，认为 V3 升级彻底改造了 Synthetix，为一系列链上衍生品提供动力。几乎任何衍生协议都可以基于 V3 而不是从头开始构建。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">https://twitter.com/synthetix_io/status/1634285809150095362</a></p>\n<p><strong>文章作者：</strong></p><p>Synthetix</p><hr><h3>观点：</h3><p><strong>Synthetix：</strong>Synthetix V3 是可组合的衍生流动性协议，旨在成为链上金融产品的通用和模块化基础。两个关键价值主张：1）面对质押者，一系列的池 / 金库存款，连接到一系列衍生品市场 —— 从而选择市场敞口和预期回报的水平和类型。2）面对协议，一系列用于抵押新衍生品市场的矿池 / 金库或创建矿池并通过奖励吸引抵押品的工具。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>V3 重点：1）DeFi 衍生品的流动性层，推动下一代无许可的衍生品；2）通过多重质押给质押者权力，创建了一个与抵押品类型无关的通用金库系统，抵押品必须经过治理批准。 3）一个可组合的、对开发人员友好的系统；4）未来将能够部署到任何 EVM 兼容链上。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a><p><strong>Synthetix：</strong>其他功能和机制：1）围绕市场构建，市场决定了相关资产的定价逻辑；2）可以使用市场定价逻辑和价格反馈来部署新的合成资产；3）多抵押品质押，允许治理支持任何抵押品来支持合成资产，抵押品期权将具有可调整的变量；4）贷款，但不会面临债务池风险，也没有利息和发行费用；5）差异化的流动性（债务）池；6）市场创建者可以从多个预言机解决方案中进行选择以设置自定义聚合；7）奖励管理器。【原文为英文】</p><a href=\"https://twitter.com/synthetix_io/status/1634285809150095362\">内容来源</a>",
           "link": "https://twitter.com/synthetix_io/status/1634285809150095362",
           "publishedOn": "2023-03-14T10:03:50.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】Synthetix V3：为下一代链上衍生品和金融产品提供动力的流动性层",
           "imageUrl": null
         },
@@ -267,7 +277,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当下为什么所有股票都在下跌时比特币却在上涨？加密货币 KOL Takashi Azuki 认为是目前的市场行情加上 CZ 将 BUSD 转换为 BTC/BNB/ETH 导致的比特币上涨，并阐述了自己目前的做法。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">https://twitter.com/rxcrax/status/1635338126003695617</a></p>\n<p><strong>文章作者：</strong></p><p>Takashi Azuki</p><hr><h3>观点：</h3><p><strong>Takashi Azuki：</strong>比特币上涨原因：当下，银行股跌入地狱，部分股票停牌。金融市场正在崩溃，比特币的去中心化也许是一种救赎。美国当局保证返还破产的 SVB 存款，并暂停 Signature Bank（NYC），USDC 恢复锚定 1 美元。同时 CZ 将 BUSD 溢出到 BTC/BNB/ETH。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a><p><strong>Takashi Azuki：</strong>我现在在做什么：留下了一半的稳定币，并将它们转换为 USDT 。我仍然认为行情很快就会修正。我将继续按计划对其进行再投资。【原文为英文】</p><a href=\"https://twitter.com/rxcrax/status/1635338126003695617\">内容来源</a>",
           "link": "https://twitter.com/rxcrax/status/1635338126003695617",
           "publishedOn": "2023-03-14T06:59:27.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文解析当下比特币上涨原因",
           "imageUrl": null
         },
@@ -297,7 +307,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>目前大多数项目为了保护限制了用户数据的隐私性，牺牲了其可移植性和互操作性。私有的链下证明允许数据保持私有，同时仍然可供信任方访问。Ethereum Attestation Service 撰文介绍了链下证明的特点以及优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">https://twitter.com/eas_eth/status/1635391258230394880</a></p>\n<p><strong>文章作者：</strong></p><p>Ethereum Attestation Service</p><hr><h3>观点：</h3><p><strong>Ethereum Attestation Service：</strong>每个链下证明都包括：整个证明数据；签名者的完整签名；唯一标识符（数据哈希）；可下载 / 共享数据；零 gas 成本。这是一个完全私有的样本联系人卡（除非共享）。 EAS 永远不知道它的存在，证明是在浏览器中客户端加密和解密的。使用任何模式，用户都可以进行私有的链下证明。只需填写证明数据字段并作为链下交易签名即可。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a><p><strong>Ethereum Attestation Service：</strong>这不仅限于用户提供的数据，也可以是机构提供的，比如银行开具用户的资金证明。同时零知识证明将进一步提高数据隐私，通过证明某些事情的真实性，而不会透露有关其它信息。【原文为英文】</p><a href=\"https://twitter.com/eas_eth/status/1635391258230394880\">内容来源</a>",
           "link": "https://twitter.com/eas_eth/status/1635391258230394880",
           "publishedOn": "2023-03-14T06:45:46.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】一文了解 Ethereum Attestation Service 的链下证明",
           "imageUrl": null
         },
@@ -327,7 +337,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>我们该如何减少恶意行为者？Galaxy Digital 研究员 Walt Smith 认为 Eigenlayer 机制是加密货币的一次飞跃创新，可以利用女巫攻击的阻力来增强基础层，并突破固有限制且无需改变其主要优势。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">https://twitter.com/waltjsmith/status/1635147987004579841</a></p>\n<p><strong>文章作者：</strong></p><p>Walt Smith</p><hr><h3>观点：</h3><p><strong>Walt Smith：</strong>在分布式计算和区块链中，网络参与者越多，则不诚实的行为者就越多，这也会导致成本增加。因此我们有一个权衡，即增加对故障的鲁棒性并提高可及性，但这也会增加时间成本。对于区块链而言，更快的通信或共识能够通过更快的结算时间提高市场效率，增加抗重组能力并提高快速的经济终局性。【原文为英文】</p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">内容来源</a><p><strong>Walt Smith：</strong>我们试图通过不同的方式来解决这个权衡，包括 Solana 历史证明结合 Turbine、Tendermint 应用链及以太坊的 LMD-GHOST/Casper FFG 混合。这就是 EigenLayer 产生作用的地方。EigenLayer 让所有用户公开创建子集以参与额外的通信，既给了我们想要的经济安全和可信中立性，也让协议及其产品更接近现实世界的应用程序。【原文为英文】</p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">内容来源</a><p><strong>Walt Smith：</strong>我的结论是：1）重质押增强了网络，表明网络可以再次绕过内置限制；2）理想的网络将存在一个强大的基础层（便宜、易于操作、多样化节点），但也需要有足够多的状态创建逻辑及原语；3）安全构建每种类型的服务或中间的逻辑需要长时间的努力。【原文为英文】</p><a href=\"https://twitter.com/waltjsmith/status/1635147987004579841\">内容来源</a>",
           "link": "https://twitter.com/waltjsmith/status/1635147987004579841",
           "publishedOn": "2023-03-14T05:37:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】Glaxy Digital 研究员解读 Eigenlayer 的创新性：为什么说它很重要？",
           "imageUrl": null
         },
@@ -347,7 +357,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 目前 TVL 中超 30% 都来自于 GMX，虽然 GMX 已经建立了头部优势和护城河，但其竞争对手永续杠杆交易所 Vela Exchange 也正在迅速获得价值。加密研究员 Wauwda 从概念、功能及市值等角度将 GMX 和 Vela Exchange 进行了对比分析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">https://twitter.com/wauwda/status/1635292016673447940</a></p>\n<p><strong>文章作者：</strong></p><p>Wauwda</p><hr><h3>观点：</h3><p><strong>Wauwda：</strong>与 GMX 不同，Vela Exchange 提供法币出入金和 OTC 交易。此外，Vela Exchange 的回购模式也很独特，市场上回购的 VELA 将备用做储备用于支付 eVELA 奖励，既稳定了供应量也不会有额外的 VELA 被铸造。此外，从市值和 TVL 两方面看：Vela Exchange 市值为 2850 万美元，TVL 为 4137 万美元。GMX 市值为 5.275 亿美元，TVL 为 5.215 亿美元。【原文为英文】</p><a href=\"https://twitter.com/wauwda/status/1635292016673447940\">内容来源</a>",
           "link": "https://twitter.com/wauwda/status/1635292016673447940",
           "publishedOn": "2023-03-14T04:18:03.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文】Vela Exchange 与 GMX 竞争分析：谁会赢？",
           "imageUrl": null
         },
@@ -477,7 +487,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum Daily 发推介绍 Arbitrum 三个版本：Arbitrum One, Arbitrum Nova 和 Arbitrum Nitro 各自的特点和相互之间的区别。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">https://twitter.com/ArbitrumDailyTK/status/1634967607890817024</a></p>\n<p><strong>文章作者：</strong></p><p>Arbitrum Daily</p><hr><h3>观点：</h3><p><strong>Arbitrum Daily：</strong>Arbitrum One 和 Arbitrum Nitro 的区别：建立在不同的技术上（Optimistic Rollup 和 AnyTrust 链）；不同的数据可用性（链上和链下）；Nitro 是 One 技术栈的升级，而 Nova 是独立于 One 的网络。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum One/Nitro 专注于 DeFi 和 NFT 项目，将完整的数据集作为 Calldata 发布到 ETH 主网。而 Arbitrum Nova 支持游戏、社交、具有高交易量的一般区块链用例，有两种发布数据的方式（Calldata 和 DACert）。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a><p><strong>Arbitrum Daily：</strong>Arbitrum 的一大优势是其可扩展性。借助 Optimistic Rollup，Arbitrum One 每秒最多可以处理 4,000 笔交易，而 Arbitrum Nova 的 AnyTrust 技术则可处理更高交易量；另一个关键优势是其无信任协议，意味着用户可以完全控制他们的资产，而无需依赖中央机构或中介；数据可用性方面，Arbitrum One 将链下执行的数据存储在以太坊网络上，而 Arbitrum Nova 则将其存储在外部数据可用性委员会（DAC）上，这可能会对安全、成本和速度产生影响。【原文为英文】</p><a href=\"https://twitter.com/ArbitrumDailyTK/status/1634967607890817024\">内容来源</a>",
           "link": "https://twitter.com/ArbitrumDailyTK/status/1634967607890817024",
           "publishedOn": "2023-03-13T09:58:55.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】深入了解 Arbitrum 三个版本之间的区别",
           "imageUrl": null
         },
@@ -487,7 +497,7 @@
           "description": "<h3>BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元</h3>\n<p>据 BlockSec 监测数据显示，DeFi 借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元。其中包括 8,877,507.35 枚 DAI、849.14 枚 WBTC、34,413,863.42 枚 USDC 和 85,818.26 枚 stETH。</p>\n<p><a href=\"https://twitter.com/BlockSecTeam/status/1635204706703384577\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ZachXBT：</strong>几乎可以肯定是黑帽，因为他们几周前在 BSC 上攻击了一些协议，然后将资金存入了 Tornado。【原文为英文】</p><a href=\"https://twitter.com/zachxbt/status/1635209310916743170\">内容来源</a><p><strong>PeckShieldAlert：</strong>被盗资金中约 100 枚 ETH 被转入 Tornado Cash。【原文为英文】</p><a href=\"https://twitter.com/PeckShieldAlert/status/1635229250193334275\">内容来源</a><p><strong>Euler Labs：</strong>我们的团队目前正在与安全专家和执法部门合作，我们将在获得进一步信息后立即公布。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635218198042918918\">内容来源</a><p><strong>0xScope：</strong>一些项目和个人也受到了 Euler 黑客事件的影响。Angle 在 Euler 中有 1760 万美元 USDC；Idle DAO 在 Euler 中有 460 万美元 USDC；SwissBorg 在 Euler 中存入了 6357 枚以太坊和 170 万枚 USDT，事发后迅速借出 4752 枚 cbETH 弥补损失，但仍有约 426 万美元；链上地址 0x28a5 开头的巨鲸和 czsamsun.eth 分别有 400 万美元和 274 万美元资产被困 Euler。【原文为英文】</p><a href=\"https://twitter.com/ScopeProtocol/status/1635235421327347712\">内容来源</a><p><strong>Euler Labs：</strong>最新进展：帮助通过禁用 EToken 模块阻止了直接攻击，同时与 TRM Labs、Chainalysis 和更广泛的以太坊安全社区合作帮助调查和恢复资金。我们还通知美国和英国执法部门并共享信息，并尝试联系了此次攻击的责任人。此外，在调查了攻击后，我们得出结论：攻击者利用了易受攻击的代码，允许它通过向协议的储备金捐赠资金来创建无担保的代币债务头寸，使得攻击者能够清算这些账户并从清算奖金中获利。【原文为英文】</p><a href=\"https://twitter.com/eulerfinance/status/1635431726364147712\">内容来源</a>",
           "link": "https://twitter.com/BlockSecTeam/status/1635204706703384577",
           "publishedOn": "2023-03-13T09:55:13.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "BlockSec：借贷协议 Euler Finance 疑似遭到攻击，损失约 1.97 亿美元",
           "imageUrl": null
         },
@@ -537,7 +547,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行事件中某用户受到三明治攻击损失 200 万美元的事件引发热议，PeopleDAO 核心人员 0xAA 撰推介绍致力于减轻 MEV 对区块链造成危害的研究组织 Falshbots，以及其旗下三款免费产品及其最新引入的 MEV-Share 概念。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">https://twitter.com/0xAA_Science/status/1612863848134107138</a></p>\n<p><strong>文章作者：</strong></p><p>0xAA</p><hr><h3>观点：</h3><p><strong>0xAA：</strong>1）Flashbots RPC：面向以太坊普通用户的免费产品，你只需要在加密的钱包中将 RPC（网络节点）设置为 Flashbots RPC，就可以将交易发送到 Flashbots 的私有 mempool，从而免受抢先交易 / 三明治攻击的侵害。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>2）Flashbots Bundle：在区块链上搜索 MEV 机会的开发者被称为 「搜索者」。Flashbots Bundle（交易包）是一款帮助搜索者提取以太坊交易中 MEV 的工具。搜索者可以利用它将多笔交易组合在一起，按照指定的顺序执行。3）MEV-Boost：由以太坊 POS 验证者运行的中间件，帮助以太坊节点通过 MEV 获得更高的 ETH 奖励。目前超过 90% 的验证节点安装了 mev-boost，出块数量占到了总量的 60%</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a><p><strong>0xAA：</strong>Flashbots 最近提出 MEV-Share 概念，将 MEV 尽可能分给用户：1）引入新角色：匹配者（matchmaker)，利用用户隐私交易帮搜索者建立更好的 bundle，并确保 MEV 分给用户。2）用户需要将交易和隐私偏好发给匹配者。3）搜索者从匹配者获取部分用户的交易信息，并构建更好的 bundle。设计逻辑：原先用户发到 flashbot rpc 的隐私交易可能隐含 MEV，但却不能在 bundle 里提取 MEV。MEV-Share 让用户分享隐私交易，并获得 MEV 分成。</p><a href=\"https://twitter.com/0xAA_Science/status/1612863848134107138\">内容来源</a>",
           "link": "https://twitter.com/0xAA_Science/status/1612863848134107138",
           "publishedOn": "2023-03-13T05:52:04.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "如何降低 MEV 危害？解读 Flashbots 旗下产品：Flashbots RPC、Flashbots Bundle、MEV-Boost",
           "imageUrl": null
         },
@@ -607,7 +617,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1718,
+          "wordCount": 1715,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -627,7 +637,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17784,
+          "wordCount": 17750,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -707,7 +717,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>受硅谷银行破产影响，USDC 本周末开始脱锚并一度跌至 0.87 美元低点（今早已恢复至 0.96 美元上方）。在此过程中，有人选择恐慌抛售，也有人探底买入。Lookonchain 分析链上数据，整理总结多家机构投资者分别如何应对这场 USDC 脱锚危机。中文版由 Odaily 星球日报译者 Moni 编译发布。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185667\">https://www.odaily.news/post/5185667</a></p>\n<p><strong>文章作者：</strong></p><p>Lookonchain</p><hr><h3>观点：</h3><p><strong>Lookonchain：</strong>概括来说，Jump Trading、Wintermute Trading、Genesis Trading 和 BlockTower Capital 在周末银行休市前通过 Circle 和 Coinbase 将 USDC 兑换成了美元现金，而 Vitalik、Poap.xyz 创始人 worthalter 和 Taureon Capital 则在底部买入了 USDC。</p><a href=\"https://www.odaily.news/post/5185667\">内容来源</a><p><strong>Lookonchain：</strong>另一方面，孙宇晨、IOSG Ventures、Kyber Ventures、Chain Capital、Hashed、Spartan Group、Signum Capital、Infinity Ventures Crypto、LD Capital、LedgerPrime、Dokia capital 和 Alpha Citadel Ventures 则将 USDC 兑换成了 DAI、USDT、USDP、BUSD 和 ETH 等其他加密货币尝试套利。</p><a href=\"https://www.odaily.news/post/5185667\">内容来源</a>",
           "link": "https://www.odaily.news/post/5185667",
           "publishedOn": "2023-03-12T05:09:38.000Z",
-          "wordCount": 2085,
+          "wordCount": 2083,
           "title": "如何利用「USDC 危机」套利？这 17 位「超级大户」的手法如下",
           "imageUrl": null
         },
@@ -807,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 27668,
+          "wordCount": 27663,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -907,7 +917,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1634071620498382851\">内容来源</a>",
           "link": "https://twitter.com/ipor_intern/status/1634071620498382851",
           "publishedOn": "2023-03-11T03:10:11.000Z",
-          "wordCount": 513,
+          "wordCount": 476,
           "title": "【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？",
           "imageUrl": null
         },
@@ -967,7 +977,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>尽管市场条件不佳，游戏和 NFT 项目在 2023 从 a16z crypto、Google Ventures 等主要加密货币公司筹集了超过 10 亿美元资金。加密研究员 Emperor Osmo 盘点了 2023 年主要 Web3 游戏和 NFT 项目的融资情况，并从用户和游戏开发商角度，总结了 3 个看好该行业发展的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">https://twitter.com/flowslikeosmo/status/1634011217097269254</a></p>\n<p><strong>文章作者：</strong></p><p>Emperor Osmo</p><hr><h3>观点：</h3><p><strong>Emperor Osmo：</strong>原因 1：庞大的用户基数。视频游戏拥有最大、发展最迅速的社区之一。游戏玩家在他们的技术知识方面具有战略性和悟性，当涉及到像 NFT 这样复杂的新技术时，他们会迅速学习。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 2：尚未开发的资源。一个由不可替代的代币驱动的去中心化经济。游戏开发者可以从中受益，从转卖中获得佣金，从其他平台获得收入分享，以及在市场上的用户中提高知名度。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a><p><strong>Emperor Osmo：</strong>原因 3：玩家的权力。通过「投资」时间，拥有网络的一部分。Web3 游戏和 NFT 项目允许玩家将游戏与区块链提供的效率相结合，从而引入更高级别的参与和所有权。【原文为英文】</p><a href=\"https://twitter.com/flowslikeosmo/status/1634011217097269254\">内容来源</a>",
           "link": "https://twitter.com/flowslikeosmo/status/1634011217097269254",
           "publishedOn": "2023-03-10T12:17:17.000Z",
-          "wordCount": 476,
+          "wordCount": 513,
           "title": "【英文长推】观点：Web3 游戏受到资本推崇的三个原因",
           "imageUrl": null
         },

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T08:41:00.009Z</updated>
+    <updated>2023-03-15T08:46:14.030Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -29,6 +29,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【长推】加密友好银行接连倒下，会带来哪些影响？]]></title>
+        <id>https://twitter.com/betalphalabs/status/1635822662588170241</id>
+        <link href="https://twitter.com/betalphalabs/status/1635822662588170241"/>
+        <updated>2023-03-15T08:27:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>区块链研究型 DAO 组织 Betalpha Labs 发推盘点三大加密友好银行 Silvergate、硅谷银行和 Signature 的关闭或接管对法币抵押稳定币和资金进出通道带来的影响以及新的增长机会。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">https://twitter.com/betalphalabs/status/1635822662588170241</a></p>
+<p><strong>文章作者：</strong></p><p>Betalpha Labs</p><hr><h3>观点：</h3><p><strong>Betalpha Labs：</strong>1）法币抵押型稳定币规模变化：法币抵押型稳定币规模因 USDC 近一周 43.6 亿的流出而流出，该数据在接下来的一段时间值得持续关注；以不透明著称的 USDT 份额占比持续增长；前不久币安支持的 BUSD 遭遇监管，转向支持 TUSD，且其服务银行是 Signature，其中 Trusttoken 已将 TUSD 业务出售，与其关系不大但有增长概念的 TRU 频频大幅波动登上涨幅榜。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a><p><strong>Betalpha Labs：</strong>2）资金进出通道遭到影响：DCG 表示汇丰、德意志、桑坦德等多家主流银行仍愿意为加密公司提供服务，可解决资金存放问题，但会限制经济和货币市场服务以及向第三方电汇等服务，及资金进出通道受到影响。尽管纽约金融服务部称接管 Signature 与加密行业无关，Circle 也在寻找新的银行开展 USDC 出入金服务，后续进展值得关注。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a><p><strong>Betalpha Labs：</strong>3）新的增长机会：因 UST 等加密原生稳定币陨落，稳定币从加密原生到法币抵押型，又回到加密原生。币圈原生稳定币再次成为新叙事，DAI  和 Frax 因 USDC 作为抵押物而波动，LUSD、crvUSD、GHO 及其他新生稳定币被给予新的希望。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[解读零知识证明中的实现差异：zkSNARKs与zkSTARKs优缺点对比]]></title>
         <id>https://www.panewslab.com/zh/articledetails/c9xrz6vk.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/c9xrz6vk.html"/>
@@ -293,7 +305,7 @@ MEV-Boost：PoS时期，Validator可以自行去Mempool为交易排序，将其�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【英文】一文了解一种新的隐私优先数字身份：World ID]]></title>
+        <title type="html"><![CDATA[【英文】一文了解 Worldcoin 底层身份协议：World ID]]></title>
         <id>https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk</id>
         <link href="https://worldcoin.org/blog/announcements/introducing-world-id-and-sdk"/>
         <updated>2023-03-15T07:14:27.000Z</updated>
@@ -9164,18 +9176,6 @@ CEO 霍华德·舒尔茨财报电话会议上表示，为公司发现了一个�
 目前来看 Starbucks Odyssey 的节奏和交付还不错， 围绕生活方式一步步做品牌建设提升其天花板，希望可以影响更多的 Web2 大公司进入 Web3。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【长推】Mirror 产品线梳理 ：在 toB 和 toC 之间的反复横跳]]></title>
-        <id>https://twitter.com/starzqeth/status/1633679163612880902</id>
-        <link href="https://twitter.com/starzqeth/status/1633679163612880902"/>
-        <updated>2023-03-10T08:13:07.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 内容平台 Mirror 于昨日推出 NFT 订阅铸造 「Subscribe to Mint 」功能，却引来大量负面评论。区块链研究员 starzq.eth 盘点了 Mirror 自内测以来的产品线路更改，认为 Mirror 产品方向在 toB 和 toC 之间的反复横跳将会导致用户的不断流失。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/starzqeth/status/1633679163612880902">https://twitter.com/starzqeth/status/1633679163612880902</a></p>
-<p><strong>文章作者：</strong></p><p>starzq.eth</p><hr><h3>观点：</h3><p><strong>starzq.eth：</strong>从 2021 年初内测开始，Mirror 的定位都是 toB，Web3 核心工具箱，建立 DAO 最快速简单的工具。用 Entries 写 Roadmap 和项目更新，然后众筹和分配项目资金，用 Token 来引导用户参与，再加一个 discord 来做用户互动，一个 DAO 就运作起来了。在发布了 1 年半后，2022 年 7 月 27 日终于有了基于钱包的订阅功能。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>starzq.eth：</strong>2022 年 8 月，Mirror 突然发了一个公告，说要转为 toC，一夜间下线了所有的众筹和 NFT 发布功能。转 toC 后其实没有任何动作，半年后的 2023 年 1 月 12 日，终于改进了订阅功能，只有邮箱也可以订阅，但邮箱里一直没有全文阅读，体验非常差。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a><p><strong>starzq.eth：</strong>然后就到了 2023 年 3 月 9 日，增加 Subscribe to Mint 功能，回到一开始 toB 的路。其实就是一个基于订阅者的 Open Edition，和 Manifold/Zora 没有本质区别，也没有看出有任何的竞争力。一个摇摆不定的产品只会不断流失用户，我自己就是其中之一。比较 Mirror 和 Substack 的 toC 体验，Substack 完胜。</p><a href="https://twitter.com/starzqeth/status/1633679163612880902">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
