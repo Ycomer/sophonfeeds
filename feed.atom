@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-15T09:42:11.856Z</updated>
+    <updated>2023-03-15T09:47:46.450Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -66,6 +66,30 @@ https://www.portalbridge.com/#/nft
 3) 点击「redeem」即可将封装好的NFT 再跨链回来。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cosmos Hub 已完成 Lambda 升级，正式上线「Replication Security」]]></title>
+        <id>https://t.co/cJymJhwsDe</id>
+        <link href="https://t.co/cJymJhwsDe"/>
+        <updated>2023-03-15T09:17:24.000Z</updated>
+        <summary type="html"><![CDATA[<h3>Cosmos Hub 已完成 Lambda 升级，正式上线「Replication Security」</h3>
+<p>Cosmos Hub 已在区块高度 14470501 处实施 Lambda 升级，正式上线「Replication Security」。Lambda 升级是 Replicated Security 的第一次迭代，将允许 Consumer Chains 从 Cosmos Hub 的验证者集的使用中受益，而无需单独维护自己的验证者集。Consumer Chains 将受益于额外的安全性，而 ATOM 质押者将受益于 Consumer Chains 产生的一定比例的代币或费用作为质押奖励。</p>
+<p><a href="https://t.co/cJymJhwsDe">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】盘点 18 个值得关注的项目：Layer2、基础设施、工具、游戏…]]></title>
+        <id>https://twitter.com/rickawsb/status/1635810481838628865</id>
+        <link href="https://twitter.com/rickawsb/status/1635810481838628865"/>
+        <updated>2023-03-15T08:54:10.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>推特 KOL rick awsb 总结分享 18 个项目上线及升级信息，主要包括 Layer2、基础设施、工具和游戏等领域。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/rickawsb/status/1635810481838628865">https://twitter.com/rickawsb/status/1635810481838628865</a></p>
+<p><strong>文章作者：</strong></p><p>rick awsb</p><hr><h3>观点：</h3><p><strong>rick awsb：</strong>Hord：Staking 服务 + 自动复投 + 代币奖励；TapiocaDAO：第一期 Beta 已上线；Perpy：支持付费跟单的交易平台，3 月 16 将在 Camelot 上 IDO；Neutra Finance：GLP 风险中性收益聚合器；Portal：Wallet as Service；Gearbox Protocol：v3 即将发布，将支持风险更大的收益协议，用户将有更多加杠杆收益选择；Angle：发布 Merkl，项目方可通过协议为 uni v3 等 LPs 提供额外奖励；Timeless Finance：同样为 uni v3 LPs 提供激励；</p><a href="https://twitter.com/rickawsb/status/1635810481838628865">内容来源</a><p><strong>rick awsb：</strong>New Order：下一个孵化项目可能是 Crypto 支付；Vision Protocol：基于游戏对战结果的博彩平台，项目非常早期，GameFi 模式的微创新；TickrAI：支持自然语言输入的代币搜索引擎，需购买代币使用；GigaSwap：OTC 交易平台；Trident Ψ：OasisSwapDEX Ψ 上线，作为 PSI 潜在的二池，代币奖励模式及发行模式看得出项目方花了心思；</p><a href="https://twitter.com/rickawsb/status/1635810481838628865">内容来源</a><p><strong>rick awsb：</strong>OT | Onchain Trade：利用系统生成的 OUSD，支持单边流动性，所有池子都是对 U 的 LP，存入单币即可，3 月 10 号 IDO；Silo Finance：风险分池借贷市场，上线 Arbitrum；Pendle：上线 Arbitrum，支持 GLP，TVL ATH；OpenLeverage：上线 Arbitrum，用户可基于 DEX 里任何交易对进行杠杆交易；Rodeo Finance：ARB 上的杠杆流动性收益协议；IPOR Labs：继稳定币利率交易之后，将支持 ETH 利率交易。</p><a href="https://twitter.com/rickawsb/status/1635810481838628865">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9174,30 +9198,6 @@ Money in the Late Old Kingdom: A Study of the Types and Functions of Clay Tokens
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>RAI 具有非法币锚定、完全去中心化、以及最小化治理的极致去信任特性，是以太坊网络上最去中心化的稳定币之一。由 Mint Venture 研究员 Lawrence Lee 撰写的关于 RAI 的研究报告，从项目基本面、优势和风险以及估值等方面分析了该项目。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/</a></p>
 <p><strong>文章作者：</strong></p><p>Lawrence Lee（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>Lawrence Lee（Mint Ventures）：</strong>投资逻辑：RAI 被以太坊创始人 Vitalik 称为是「仅由 ETH 支持的抵押自动稳定币的纯粹理想类型」。其所处的去中心化稳定币赛道，由于具有更加符合抗审查和去信任的加密世界主流叙事、同时目前的发展程度更低，具有更加广阔的发展前景。另外 RAI 还有不锚定法币这一目前稳定币市场中的稀缺特性，使得其不仅可以免于美国的监管，也可免受美联储货币政策的影响。</p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">内容来源</a><p><strong>Lawrence Lee（Mint Ventures）：</strong>RAI 的风险包括：1.PMF 风险：非法币锚定的稳定币在用户端的接受度低；2. 市场推广阻力因素较多：治理代币 FLX 流通量已经超过 67%，后续用于用例推广的激励可能不足；3. 团队风险：联合创始人 Stefan 出走，在用例扩展和市场推广进展一般；4. 代码风险：RAI 机制新颖且基于 PID，有潜在风险尚未暴露的可能性。</p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">内容来源</a><p><strong>Lawrence Lee（Mint Ventures）：</strong>估值：从 P/S 角度看，与同为以太坊网络完全去中心化稳定币的 Liquity 相比，Reflexer 的估值更低；而从稳定币规模角度来看，Reflexer 则相对高估。</p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RAI 研究报告：V 神眼中的去中心化稳定币「理想型」]]></title>
-        <id>https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/</id>
-        <link href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/"/>
-        <updated>2023-03-10T09:34:17.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>RAI 具有非法币锚定、完全去中心化、以及最小化治理的极致去信任特性，是以太坊网络上最去中心化的稳定币之一。由 Mint Venture 研究员 Lawrence Lee 撰写的关于 RAI 的研究报告，从项目基本面、优势和风险以及估值等方面分析了该项目。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/</a></p>
-<p><strong>文章作者：</strong></p><p>Lawrence Lee（Mint Ventures）</p><hr><h3>观点：</h3><p><strong>Lawrence Lee（Mint Ventures）：</strong>投资逻辑：RAI 被以太坊创始人 Vitalik 称为是「仅由 ETH 支持的抵押自动稳定币的纯粹理想类型」。其所处的去中心化稳定币赛道，由于具有更加符合抗审查和去信任的加密世界主流叙事、同时目前的发展程度更低，具有更加广阔的发展前景。另外 RAI 还有不锚定法币这一目前稳定币市场中的稀缺特性，使得其不仅可以免于美国的监管，也可免受美联储货币政策的影响。</p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">内容来源</a><p><strong>Lawrence Lee（Mint Ventures）：</strong>RAI 的风险包括：1.PMF 风险：非法币锚定的稳定币在用户端的接受度低；2. 市场推广阻力因素较多：治理代币 FLX 流通量已经超过 67%，后续用于用例推广的激励可能不足；3. 团队风险：联合创始人 Stefan 出走，在用例扩展和市场推广进展一般；4. 代码风险：RAI 机制新颖且基于 PID，有潜在风险尚未暴露的可能性。</p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">内容来源</a><p><strong>Lawrence Lee（Mint Ventures）：</strong>估值：从 P/S 角度看，与同为以太坊网络完全去中心化稳定币的 Liquity 相比，Reflexer 的估值更低；而从稳定币规模角度来看，Reflexer 则相对高估。</p><a href="https://research.mintventures.fund/2023/03/10/zh-reflexer-finance-rai-non-pegged-over-colleteral-decentralized-stablecoin/">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】观点：Web3 域名是被低估的加密资产]]></title>
-        <id>https://twitter.com/fluorescent_eth/status/1633803165215883264</id>
-        <link href="https://twitter.com/fluorescent_eth/status/1633803165215883264"/>
-        <updated>2023-03-10T09:19:16.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Web3 域名的想法是为特定的区块链地址创建一个人类可读的名称，这降低了用户进入的门槛并改进了用户体验。加密 KOL fluorescent.eth 以当前最大的去中心化域名系统 ENS 的历史发展为例，分析了 Arbitrum 生态域名服务的潜力。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/fluorescent_eth/status/1633803165215883264">https://twitter.com/fluorescent_eth/status/1633803165215883264</a></p>
-<p><strong>文章作者：</strong></p><p>fluorescent.eth</p><hr><h3>观点：</h3><p><strong>fluorescent.eth：</strong>ENS（Ethereum Name Service）是当前最大的去中心化域名系统，目前注册域名数量接近 300 万。2022 年 5 月左右是 ENS 的一次炒作高峰，由于 ENS 需要缴纳年费，这意味着上一波高峰期的许多四位数域名即将到期。他们中的许多人正在出售这些域名，因此导致了近期价格的下跌。在所有 NFT 系列中，我相信 ENS 的稀缺域名将成为最希望持有且最昂贵的系列。【原文为英文】</p><a href="https://twitter.com/fluorescent_eth/status/1633803165215883264">内容来源</a><p><strong>fluorescent.eth：</strong>SPACE ID 是上周开放公众注册的一个域名服务，需要提醒的是，尽管它提供 .arb 域名，但没有任何申明能够证明其是官方域名服务。我个人认为缺乏数量和缺乏炒作这仍然是一个潜在的问题。但是 Arbitrum 作为新的 「Alpha」正在席卷全球，如果 .arb 最终成为 Arbitrum 网络的官方名称域，那么毫无疑问它将成为 Web3 的入口。【原文为英文】</p><a href="https://twitter.com/fluorescent_eth/status/1633803165215883264">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
