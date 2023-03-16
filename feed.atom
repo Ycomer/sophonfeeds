@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T07:02:49.624Z</updated>
+    <updated>2023-03-16T07:10:17.274Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[推特用户：国际FTX债权人的数量约为140万人]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/6pej5j80.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/6pej5j80.html"/>
+        <updated>2023-03-16T07:03:51.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日，自称是FTX债权人的推特用户@AFTXcreditor在推特上表示：“FTX Trading于昨日发布债权人表单，超过2000页的PDF文件中包含了每个客户的ID和最终帐户余额。基于这些文件，估计国际FTX债权人的数量约为140万人。这是债权人，而不是客户。客户为970万人。据我所知，这使得FTX成为历史上债权人数量最多的破产案。”需要注意的是，文件中的客户ID并不是用户ID（UID），因此想要查询的话只能通过账户余额核对。
+今日早些时候消息，FTX及其附属债务人向破产法院提交的财务报表显示，Alameda Research向FTX创始人及高管转账和贷款高达32亿美元。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mirror 的 Subscribe to Mint 能否改变 Web3 创作者经济的困局？]]></title>
         <id>https://www.theblockbeats.info/news/35625</id>
@@ -3544,42 +3555,6 @@ Sahaghian 说：「截至目前，Multis 的财务状况良好。我们很幸运
 总部不在美国的初创公司具有利用 Sygnum 和 Seba Bank 等参与者的优势——这些瑞士银行也被允许持有加密资产。 
 Sygnum 首席客户官 Martin Burgherr 告诉 The Block，在 Silvergate 的影响之后，该银行收到大量咨询，但由于公司战略决定不为美国客户服务，他们无法完全填补空白。 
 Dexterity Capital 联合创始人 Safai 说：「寻找新银行的加密公司暂时可能不得不将目光投向海外。巴哈马有几家银行，欧洲也有一些加密货币友好且值得信赖的选择。」]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023，ZK大年？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/4jaogmbw.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/4jaogmbw.html"/>
-        <updated>2023-03-15T06:00:29.000Z</updated>
-        <summary type="html"><![CDATA[ZK 作为 L2 、隐私、跨链等概念下的核心技术派系，该板块热度自 2022 年延续至今；近期的 ETHdenver 大会上，ZK 持续高热。
-2022 年及以前推出的 ZK 系项目往往融资充足，估值较高，并在今年陆续有了阶段性的进展，围绕 ZK 技术的热点事件或持续整个 2023 年：
-ZK 的发展可视为区块链领域技术迭代演变的重要细节：该技术最初在早期匿名项目中展示其优越的隐私特性；在存储项目 Filecion 中被使用，以减少各方验证存储所需的时间；在 L2 共享安全验证下衍生出 ZK Rollup 的扩容优势；随着技术发展，ZK 正在走向通用化。
-当前市场的 ZK 热度主要来自以太坊生态推进，以及 ZK 基础设施的进展，包括 ZK-EVM、ZK 公链、L2、ZK Bridge、ZK 工具等，但技术落地需要场景与应用共同承载，目前 ZK 概念或处于过热阶段，一个理想的“ZK Season”仍需要更多准备的时间才会到来。
-例如，在近期 ZK 扩容的热点中，以太坊 L2 最终需要一个怎样的 ZK Rollup？技术进展如何？
-ZK Rollup 作为同样与 Optimistic Rollup 受关注的主流扩容方式，零知识证明基于数学与密码学，相比 Op 采用的欺诈证明，在技术上能够做到更安全、更快速。但 ZK 的 EVM 兼容实现难度更高，Op 是更容易的，加上 Op 应用多、生态发展快，因此，主流观点认为“长期看好 ZK 系、中短期看好 Op”。
-这种“长期”的 ZK rollups 想要落地，前提是 ZK 首先要在 EVM 兼容上真正有所进展。只有实现 zkEVM通这样的通用电路，才能兼容各类应用，这里需要解决的问题包括：
-头部项目 zkSync、StarkNet、Polygon hermez、Scroll 等，正在致力于不同程度等效性的 zkEVM。整个 ZK 赛道中，ZK-EVM 兼容类项目几乎最多。
-
-（一些 zk-rollup 的进展：https://yanglc.notion.site/zk-rollup-e35b8c7eb8ce44c7852c4aa7b6ef270d）
-此外，在以太坊升级思路中，以太坊完成执行层扩容后，仍然需要 zkEVM 来实现 EVM 本身的扩容。在发展路径上，zkEVM 总需要跟随 EVM 的变化而变化，以太坊每次对 EVM 升级，同样需要考虑 zkEVM，并影响到 zkEVM 赛道的更新。整体来看，ZK 系技术进展相较于 OP 系延迟在一年以上。
-当然，ZK rollup 并不是当代以太坊扩容场景中唯一基于 ZK 的解决方案（Validium 和 Volitions 同样使用了 ZK 技术），ZK 技术也并非单独在于扩容。
-ZK 技术本质是一种在双方之间进行信息核验的数学方法，能够“证明论断有效”，且验证计算不暴露有关输入和计算本身的信息，在不泄漏交易的细节的情况下进行证明，成本更低且高效，在区块链的应用中展示出非常好的普适性。
-基于此，我们对当前 ZK 赛道进行梳理，从结构上将一、二级市场的 ZK 项目分为：
-- ZK 以太坊兼容 / 电路编译（Starknet、zkSync、Scroll 等)
-- ZK 公链（Aleo 等）
-- ZK 跨链桥 / 预言机
-- ZK 硬件加速
-- ZK 工具类
-- ZK 应用（利用 ZKP 协议开发的 Web3 应用程序，包括 DeFi、NFT、游戏、去中心化身份、隐私等)
-以上分类中，zkEVM 头部项目多在 2021 年底推出早期版本，后陆续更新，但参考 StarkNet 早期版本主网中的生态发展、以及 Aztec Network 近期宣布的业务转型，这些网络在用户体验（包括验证速度及 Gas 费用）、生态项目数量、热点项目发展等方面来看，发展速度仍然较慢。
-一定程度上，这表现出 ZK 在落地时的一些问题，包括较高的硬件成本、技术落地难度较高等。
-相较于 zkEVM 的实现，zkBridge 的发展和落地可能相对更快一些：ZK 跨链的难点不在于技术文档或理论，而在于如何“做到”：每条链的签名和 hash 算法都不一样，某条链能否支持ZK，需要通过大量代码来解决，这类项目往往需要稳步的发展。
-倘若 ZK 支持的跨链协议能够发展起来，那么许多正在开发的 Rollup SDK 可从中受益，ZK 支持的跨链协议将是连接应用链与 EVM 或 layer2 的更好工具。
-ZK 公链类项目发展周期相对更长，以 Aleo 为例，Aleo 已成为市场中稀缺的“隐私公链”及“ZKP mining”的标的，Aleo 团队于 2019 年正式成立，其研究可编程零知识的时间甚至可追溯到 2016 年。在正式推出主网之前，Aleo 需要对开发者、证明者和验证者三个方向的的生态环境进行更好的调整和测试。2022 年开启的第三次激励测试中，是主要面向验证者的。
-在 ZK 硬件加速方向，由于受到 ZKP mining 相关概念的推进，大多数 ZK 硬件加速理论和早期项目于去年相继被提出。目前 ZK 硬件加速主要来自 GPU ，预计需要到 2023 年年底之后，才能够出现支持 zkEVM 证明的专用硬件（ ASIC），以及相对成熟可用的产品。
-ZK 技术走向成熟，预计最快也会在今年年底，基础设施的成熟是应用项目爆发的前提，倘若大量 ZK 项目及应用能够出现，才会推动一个 “ZK Season” 的真正到来，倘若进展相对较快，在时间点上，有望与下一轮牛市早期有所契合。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
