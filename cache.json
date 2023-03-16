@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5185787",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>美国交易委员会（SEC）主席 Gary Gensler 表示，根据美国法律，权益证明代币应被视为证券。对此，Odaily 星球日报作者念银思唐发文梳理监管各方观点以及 SEC 针对加密货币交易所 Kraken 采取的行动。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185787\">https://www.odaily.news/post/5185787</a></p>\n<p><strong>文章作者：</strong></p><p>念银思唐</p><hr><h3>观点：</h3><p><strong>念银思唐：</strong>上周，CFTC 主席 Rostin Behnam 表示不同意 SEC 主席 Gary Gensler「除比特币外所有加密货币都应归类为证券」的说法。他认为以太坊和稳定币属于商品，而非证券。Behnam 还称，他希望与 SEC 合作以寻求协调机会，但 CFTC 尚未收到如何区分商品与证券的法律指导。本周三，Gensler 在被问及对 Behnam 的声明有何反应时表示，根据美国法律，使用质押协议的代币（即权益证明代币）应被视为证券。</p><a href=\"https://www.odaily.news/post/5185787\">内容来源</a><p><strong>念银思唐：</strong>上个月，SEC 宣布加密货币交易所 Kraken 需「立即」结束向美国客户提供的加密质押即服务，并向 SEC 支付 3000 万美元罚款，以解决针对其提供未注册证券的指控。对此，Kraken 表示将自动解除美国客户质押的以太坊以外的其它资产，以太坊质押将在上海升级生效后解除，美国客户将无法质押新资产（包括以太坊），双方达成和解。</p><a href=\"https://www.odaily.news/post/5185787\">内容来源</a><p><strong>念银思唐：</strong>如果加密货币公司想要在美国近来掀起的监管浪潮中生存下来，可能不得不听从 Gensler 的「建议」寻求合规，否则就只能像 Kraken 一样「断臂求生」，亦或者是索性离开美国市场，在全球范围内寻找更加友好的加密中心，比如新加坡、中国香港等。</p><a href=\"https://www.odaily.news/post/5185787\">内容来源</a>",
+          "link": "https://www.odaily.news/post/5185787",
+          "publishedOn": "2023-03-16T11:53:40.000Z",
+          "wordCount": 1641,
+          "title": "美 SEC 主席再发声：权益证明代币属于证券，「建议」寻求合规",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/NourHaridy/status/1636187163313201159",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>加密研究员 nour 认为 LUSD 的供应量无法像 DAI 和 USDC 一样大规模扩展，这不是因为 LUSD 设计不当，而是源于稳定币所面临的困境。nour 从预言机、定价机制等几方面阐述这一想法的原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/NourHaridy/status/1636187163313201159\">https://twitter.com/NourHaridy/status/1636187163313201159</a></p>\n<p><strong>文章作者：</strong></p><p>nour</p><hr><h3>观点：</h3><p><strong>nour：</strong>大多数人只是基于自己的持仓在去中心化稳定币的竞赛中挑选某一代币，很少有人愿意完全理解稳定币问题的复杂性。这不同于 DeFi 中的其他问题，因为在一个看似简单的产品（1 美元硬币）下，隐藏着大量艰难的权衡和决策：从预言机选择，到抵押品选择，到参数化，到利率模型，到治理，再到清算机制。【原文为英文】</p><a href=\"https://twitter.com/NourHaridy/status/1636187163313201159\">内容来源</a><p><strong>nour：</strong>LUSD 的预言机是 Chainlink，这可以说是一个中心化的单点故障。它还有 Tellor 作为第二预言机后备，但只有在 Chainlink 停止报告时，才会切换至 Tellor。此外，LUSD 最根本的价值是其最大限度的去中心化。然而，这种去中心化也是导致它落后于竞争的原因。【原文为英文】</p><a href=\"https://twitter.com/NourHaridy/status/1636187163313201159\">内容来源</a><p><strong>nour：</strong>定价方面，LUSD 并不是免费的，即使没有利息，但 Liquity 会收取初始费用作为债务的一部分支付方式。事实上，借入 LUSD 的过高成本可能是其主要的扩展障碍。本质上，如果持有债务的时间足够长，它就会免费，但问题是美元挂钩对这种定价方案的影响。在需求低时，协议无法激励借款人还款。而需求高时，也无法激励挂钩套利者贷款，因为他们需要为短期贷款支付初始费用，然后以 LUSD 挂钩偏差的形式计入价格上行。【原文为英文】</p><a href=\"https://twitter.com/NourHaridy/status/1636187163313201159\">内容来源</a>",
@@ -27,7 +37,7 @@
           "description": "<h3>美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日</h3>\n<p>美国破产法官在周三的一份法庭文件中裁定，Binance.US 出价 10 亿美元收购 Voyager 的资产的交易应该继续进行，驳回了美国政府提出的在上诉期间暂停程序的请求，称拖延会损害 Voyager 客户的利益。据 Voyager 同意的另一项协议，原定于 3 月 15 日生效的 Binance.US 收购交易已延长至 3 月 20 日。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/",
           "publishedOn": "2023-03-16T09:31:25.000Z",
-          "wordCount": 20053,
+          "wordCount": 20198,
           "title": "美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日",
           "imageUrl": "https://www.coindesk.com/resizer/7_BQ2ltTUgb35n3Qty4QZpYwLrI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7ST64KHTX5HGNN6UMUKVVCQCNU.jpg"
         },
@@ -37,7 +47,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 5642,
+          "wordCount": 5631,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -237,7 +247,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20583,
+          "wordCount": 20722,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -937,7 +947,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1727,
+          "wordCount": 1713,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -957,7 +967,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17764,
+          "wordCount": 17830,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -4058,6 +4068,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/4yysd2t3.html",
+          "author": null,
+          "description": "PANews 3月16日消息，据The Block报道，欧盟关于数字身份框架的提案以418票赞成、103票反对、24票弃权获得欧洲议会全体表决通过。该法案将强化选择性披露和数据最小化的原则。接下来，该文件将继续进行机构间谈判。\n欧盟范围内的框架将使公民能够获得公共服务，并且他们将拥有自己的钱包。该立法包括保护用户隐私的零知识证明技术。ZK-proof 通过验证位置而不泄露不必要的数据来保护隐私。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/4yysd2t3.html",
+          "publishedOn": "2023-03-16T12:47:23.000Z",
+          "wordCount": 1113,
+          "title": "欧盟关于数字身份框架的提案获得欧洲议会全体表决通过",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/nbipepoz.html",
           "author": null,
