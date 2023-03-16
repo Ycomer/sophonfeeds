@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T03:35:41.919Z</updated>
+    <updated>2023-03-16T03:41:01.204Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[外媒：美FDIC拟于周五拍卖硅谷银行和Signature Bank，后者买家或须放弃加密业务]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1r9383eb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1r9383eb.html"/>
+        <updated>2023-03-16T03:36:45.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，据路透社报道，知情人士透露，美国联邦存款保险公司（FDIC）的监管人员要求有意收购破产的硅谷银行和Signature Bank的金融机构在3月17日（周五）之前提交报价。目标是将硅谷银行和Signature Bank全部出售。如果不能整体出售，也可以考虑出售这两家银行的部分股权。
+两位消息人士称，只有拥有现有银行牌照的竞标者才被允许在提交报价前研究银行的财务状况。据悉Signature Bank的买家必须同意放弃该银行的所有加密货币业务。当前美国联邦存款保险公司拒绝代表自己和硅谷银行置评，Signature Bank和负责此次拍卖的Piper Sandler亦均未立即回应置评请求。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[专访 Frax Finance 创始人：Frax唯一一种完全抵押的去中心化稳定币]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/b83ytlvm.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/b83ytlvm.html"/>
+        <updated>2023-03-16T03:30:53.000Z</updated>
+        <summary type="html"><![CDATA[撰写：Revelo Intel
+编译：深潮 TechFlow
+在这一期的节目中，DeFi Dave 采访了 Frax 创始人 Sam Kazemian，谈论了 Frax 的货币溢价、隐形产品、链上治理等话题。下面是记录的一些笔记，让我们一起了解更多信息。
+任何没有至少 100%外部抵押支持的稳定币都不会成功。最近，Frax 社区投票决定 100% 抵押 $FRAX 的全部供应。$FRAX 是唯一一种完全抵押的去中心化稳定币。
+Frax 的货币溢价
+
+货币溢价是一个概念，即如果您发行了一种稳定币或负债，人们会使用该稳定币而不期望发行人支付或利率。
+绝大多数加密协议将成为稳定币或大规模发行自己的稳定币。
+大多数金融原语看起来像是部分准备金银行。
+LSD 或流动质押衍生品基本上是$ETH 稳定币。
+稳定币是某个实体发行的东西，对于保持某个价格，存在某些隐性或明确的承诺。
+$frxETH 拥有 Curve AMO，可以在$frxETH 和$ETH 之间交换，就像一个铸币和赎回功能。
+金融法则或金融激励会影响协议或协议建设者和社区。
+大型 DeFi 协议构建护城河保护自己并最大化其价值的最重要和有价值的方式是发行一种人们将其用作货币的负债。
+
+稳定币主义
+
+稳定币主义被抽象化了，就像人们可能不会想到的跨链桥一样。
+跨链桥最有价值的优势是它可以进行防御，其他人无法通过降低费用来分叉或商品化，但事实上他们在链的另一端发行了一个稳定币。
+跨链桥项目本质上是一个稳定币发行商。
+Curve 是一个优秀的交易所，比其他任何东西都要好。
+
+成为建设者
+
+最重要的是要确保安全，并把它看作是一项责任，这是这个行业的基础。
+Frax 变得越来越安全，因为它变得越来越大，越来越重要，这并非偶然。
+
+Frax 的隐形产品
+
+他们正在开发一种名为 BAMM 的产品，意思是借款自动做市商，这对 DeFi 来说是潜在的零到一创新。
+这个想法是不需要预言机，它会根据任何资产建立流动性，并在资产流动性上升时允许人们借用它。
+
+Frax 的链上治理
+
+Frax 正在设计一种名为 FRXGov 的机制，其想法是大型协议始终需要某种形式的人类干预。他们希望能够在不需要人们信任的情况下提出人类干预的建议。
+当 Frax 创建签名时，他们将其完全提交给链上的 FRXGov 合约，并在一定时间后$FXS 持有人可以投票或否决该签名。然后在一定时间后，智能合约本身允许在链上执行该签名。
+有很多人喜欢积极参与治理。
+
+监管
+
+未来所有的事情都会得到解决。
+美国没有搞砸重大金融或技术革命的历史。
+加密货币中有很多需要跟监管积极合作的地方。
+稳定币需要它们自己的监管。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[专访 Frax Finance 创始人：Frax唯一一种完全抵押的去中心化稳定币]]></title>
         <id>https://www.panewslab.com/zh/articledetails/b83ytlvm.html</id>
@@ -3455,18 +3519,6 @@ Silvergate（SI）宣布在 3 月 8 日以一种有序的方式自愿进行清�
 <p><strong>文章作者：</strong></p><p>Ross Shuel</p><hr><h3>观点：</h3><p><strong>Ross Shuel：</strong>OP Stack 的引入使用户摆脱了构建区块链必需的引导和技术要求，并允许通过其高度模块化的设计进行实验。可以预见，这种开放的实验和快速迭代的框架会推动新的大规模 L2 部署。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a><p><strong>Ross Shuel：</strong>开发者的飞轮效应：开发者给予 OP Stack 上推出他们的链，并为代码库和工具做出贡献→OP Stack 的代码库和开发经验逐渐成熟和改善→更多的开发者使用 OP Stack 推出他们的链并为生态系统做出贡献。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a><p><strong>Ross Shuel：</strong>Bedrock 的升级为超级链的愿景打下了基础。具有共享基础设施的 OP 区块链将拥有更强大的安全假设（Security Assumptions）、更好的工具和新的排序模型，为创新打开了巨大的设计空间。【原文为英文】</p><a href="https://twitter.com/RossShuel/status/1635630396628140034">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[美国检察官在听证会上再次努力阻止将Voyager的关键部分出售给Binance.US]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/vue2kpn3.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/vue2kpn3.html"/>
-        <updated>2023-03-15T03:34:27.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月15日消息，据彭博社报道，美国官员正试图阻止将破产的Voyager Digital Ltd.的关键部分出售给Binance.US，而政府则对法官批准该交易提出上诉。美国助理检察官Larry Fogleman周二在法庭上表示，政府反对任何限制其惩罚参与该提议的任意一方的能力，以及美国破产法官Michael E. Wiles上周批准的相关破产退出计划。Fogleman告诉法官，该交易的其他方面可能会继续推进，但不会包括作为Voyager 第11章计划一部分的法律保护。
-Wiles同意周三举行听证会，决定是否阻止该计划的免责条款。这些条款在公司破产案件中很常见，可以保护人们免于因实施法院批准的计划而承担个人责任。根据其破产计划，Voyager可以选择将其出售给Binance.US或清算其资产并将资金分配给债权人。在经过四天的有争议的破产听证会后，法官将允许公司采取其中任何一种做法。
-此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
