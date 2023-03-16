@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T08:43:28.873Z</updated>
+    <updated>2023-03-16T08:48:44.736Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
     <entry>
+        <title type="html"><![CDATA[Doodles创始人：Doodles将从NFT项目发展成媒体特许经营公司]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/4zr0de5o.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/4zr0de5o.html"/>
+        <updated>2023-03-16T08:45:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，NFT系列Doodles创始人Jordan Castro在官方Discord宣布，Doodles将从一个“NFT项目”发展成一家领先的媒体特许经营公司。
+Castro 表示：“在刺激投机的公开建设上投入得越多，就越不能实现其长期愿景。不会花任何资源去安抚那些有经济动机的人，将把精力集中在忠实持有人身上。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】详解 Gearbox V3：重新定义杠杆利效应？]]></title>
+        <id>https://twitter.com/Slappjakke/status/1636018174553636864</id>
+        <link href="https://twitter.com/Slappjakke/status/1636018174553636864"/>
+        <updated>2023-03-16T08:35:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Gearbox 的 V3 升级代码目前正在进行审计，可能会在第二季度末敲定发布日期。加密研究员 slappjakke.eth 撰文解析了杠杆效应的重要性、Geabox 是什么及 Geabox V3 存在哪些变化等内容。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">https://twitter.com/Slappjakke/status/1636018174553636864</a></p>
+<p><strong>文章作者：</strong></p><p>slappjakke.eth</p><hr><h3>观点：</h3><p><strong>slappjakke.eth：</strong>1）代码库：Gearbox V3 升级没有改变 V2 中使用的核心代码库，但带来了更多的可组合性和可能性；2）Gearbox V3 为更多的外来资产创建了一个被称为「Alpha Pool」的被动贷款池，可以选择从主池中获取 dToken，并将为贷款人愿意承担的额外风险支付额外年利率；【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a><p><strong>slappjakke.eth：</strong>3）允许列表中的资产存在限制，这将允许多链部署及与新协议和资产类别的整合，可以增加总限额为 100 至 200 万美元的流动性池子，所有限额由 DAO 决定；4）用户可以为想借出的资产设置一个以相关资产计价的配额；5）借款人需要根据其配额代销支付额外的配额年利率，这允许 Gearbox 对高风险的池子收取更高的利息；【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a><p><strong>slappjakke.eth：</strong>6）将通过链上投票设定配额利率；7）Gearbots：不可变自动化合约，允许合约账户持有者将一些任务委托给第三方进行自动化操作；8）新的集成和更新：集成 Balancer 和 Aura、支持 Curve 池自、MIM 池和 cbETH 部署、更新了图表 DApp 和分析面板及优化了界面中的清算价格。【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】5 个值得关注的真实收益项目：Pendle、Liquity、FactorDAO…]]></title>
+        <id>https://twitter.com/JackNiewold/status/1635766032982736898</id>
+        <link href="https://twitter.com/JackNiewold/status/1635766032982736898"/>
+        <updated>2023-03-16T08:31:42.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 已经被破坏，但 GMX 等项目开创的真实收益（Real Yield）会解决这个问题。Crypto Pragmatist 创始人 Jack Niewold 发推介绍 5 个值得关注的可持续的真实收益项目：Arcadeum、Pendle、Liquity、FactorDAO 和 Radiant。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">https://twitter.com/JackNiewold/status/1635766032982736898</a></p>
+<p><strong>文章作者：</strong></p><p>Jack Niewold</p><hr><h3>观点：</h3><p><strong>Jack Niewold：</strong>1）Arcadeum：采用 GMX 的 GLP 模式构建了一个完整的 GambleFi 生态，其产品有：体育竞猜、扑克游戏、转盘游戏和 1000 倍杠杆交易。ALP 机制可以让用户为生态本身提供流动性，保证了 ALP 的盈利；2）Pendle：用户可以以固定利率卖出未来收益，将其立刻转化成基础资产；【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">内容来源</a><p><strong>Jack Niewold：</strong>3）LiquityProtocol：即使在巨大的稳定币波动中，LUSD 的锚定表现也惊人的好，依旧保持着去中心化和不受监管。在这个协议的设计框架下，生态所有参与者都要向 LQTY 持有者支付借贷费用和清算后的多余资金；4）FactorDAO：通过向资产持有者收取管理费获得真实收益，持有人将赚得一部分协议收费和激励奖励；【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">内容来源</a><p><strong>Jack Niewold：</strong>5）Radiant：一个类似银行的跨链货币市场：储户可以从借贷者处赚取利息，借贷者可以跨链寻求资金。采用超额抵押借贷，平台利息随着各种资产的需求程度进行波动。RDNT 持有者可以通过借贷利息、平台费用和对过早卖出 RDNT 的罚款几种方式获得真实收益。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GPT-4能让智能合约漏洞无所遁形吗？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/4n22ik79.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/4n22ik79.html"/>
@@ -162,6 +197,18 @@ Read the full entry]]></summary>
 此外，百度智能云即将面向企业客户开放文心一言API接口调用服务。3月16日起正式开放预约，搜索“百度智能云”进入官网，可申请加入文心一言云服务测试。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USDC 脱锚事件后的 DeFi 未来，「链上金融」or 完全去中心化？]]></title>
+        <id>https://foresightnews.pro/article/detail/28263</id>
+        <link href="https://foresightnews.pro/article/detail/28263"/>
+        <updated>2023-03-16T07:44:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱锚引发了市场对 DeFi 未来发展的重大担忧和质疑。由于 DeFi 生态系统严重依赖 USDC，因此评估未来的潜在解决方案至关重要。加密研究员 Igans 发推分析两种可能的方向：将 DeFi 重新定义为「链上金融」（on-chain finance），或全面拥抱去中心化。中文版由 Foresight News 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/28263">https://foresightnews.pro/article/detail/28263</a></p>
+<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>DeFi 项目必须在提供去中心化优势和应对监管合规复杂性之间保持微妙平衡。DeFi 的所有元素和协议可能永远无法完全实现去中心化或抗审查，因此将 USDC 这类代币视为风险资产，将 DeFi 视为「链上金融」，可以帮助解决这种困惑和道德困境。通过将 DeFi 更名为「链上金融」，行业可以在承认中心化的同时保持关键优势，如自我监管、流动性增加（买方市场扩大）、可组合性增强（新金融产品）、单一数据来源（降低对账成本）。</p><a href="https://foresightnews.pro/article/detail/28263">内容来源</a><p><strong>Ignas | DeFi Research：</strong>第二个选择是让 DeFi 社区移除中心化元素，变得像比特币一样去中心化。这将涉及用比特币或以太坊这样的抗审查抵押品取代 USDC，如 Liquity 的 LUSD、Maker 的 DAI 和 Tornado Cash 等项目。然而，即使是具有去中心化特性的 LUSD，也依赖于价格预言机，极端情况下可能会被操纵。这凸显了 DeFi 项目在追求完全去中心化的同时，为其用户确保安全性和可靠性所面临的持续挑战和复杂性。</p><a href="https://foresightnews.pro/article/detail/28263">内容来源</a><p><strong>Ignas | DeFi Research：</strong>DeFi 可能会像现在的互联网一样，同时朝着两个方向发展：虽然大多数用户通过受监管的服务访问互联网，但追求隐私的个人可以使用暗网来提高匿名性。DeFi 协议可能存在着不同程度的去中心化和监管合规性。只有接受这种理解，DeFi 社区才可以努力构建一个更具弹性和透明度的生态系统。</p><a href="https://foresightnews.pro/article/detail/28263">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3454,44 +3501,6 @@ https://www.portalbridge.com/#/nft
 <p><strong>文章作者：</strong></p><p>Betalpha Labs</p><hr><h3>观点：</h3><p><strong>Betalpha Labs：</strong>1）法币抵押型稳定币规模变化：法币抵押型稳定币规模因 USDC 近一周 43.6 亿的流出而流出，该数据在接下来的一段时间值得持续关注；以不透明著称的 USDT 份额占比持续增长；前不久币安支持的 BUSD 遭遇监管，转向支持 TUSD，且其服务银行是 Signature，其中 Trusttoken 已将 TUSD 业务出售，与其关系不大但有增长概念的 TRU 频频大幅波动登上涨幅榜。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a><p><strong>Betalpha Labs：</strong>2）资金进出通道遭到影响：DCG 表示汇丰、德意志、桑坦德等多家主流银行仍愿意为加密公司提供服务，可解决资金存放问题，但会限制经济和货币市场服务以及向第三方电汇等服务，及资金进出通道受到影响。尽管纽约金融服务部称接管 Signature 与加密行业无关，Circle 也在寻找新的银行开展 USDC 出入金服务，后续进展值得关注。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a><p><strong>Betalpha Labs：</strong>3）新的增长机会：因 UST 等加密原生稳定币陨落，稳定币从加密原生到法币抵押型，又回到加密原生。币圈原生稳定币再次成为新叙事，DAI  和 Frax 因 USDC 作为抵押物而波动，LUSD、crvUSD、GHO 及其他新生稳定币被给予新的希望。</p><a href="https://twitter.com/betalphalabs/status/1635822662588170241">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解读零知识证明中的实现差异：zkSNARKs与zkSTARKs优缺点对比]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/c9xrz6vk.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/c9xrz6vk.html"/>
-        <updated>2023-03-15T08:19:23.000Z</updated>
-        <summary type="html"><![CDATA[编译：Cindy，SophonLabs
-随着计算机技术的不断发展，我们可以轻松地在互联网上存储、传输和处理大量的个人和企业数据。然而在这个数字化时代，大家对数据隐私和安全的担忧也越来越高。为了保护数据的隐私性，密码学家们开发了许多技术，其中零知识证明（Zero-Knowledge Proof，ZKP）是其中一项核心技术。在本文中，我们将盘点细分零知识证明中的实现差异。
-零知识证明的两种主要类型是交互式和非交互式。交互式零知识证明和非交互式零知识证明都是证明者（prover）和验证者（verifier）之间进行的过程，但它们在证明的交互流程上有所不同。
-交互式零知识证明 (IZKP) 要求证明者和验证者进行来回对话，在对话中证明者对验证者的查询做出响应。这种互动可以亲自进行，也可以通过互联网等网络进行。需要与验证者进行多轮的交互，以便验证者可以询问有关所证明语句之外的附加信息。在每一轮中，证明者需要根据验证者的询问提供一个回答。
-这种交互式证明方法对于某些复杂的问题可行，但可能会带来时间和计算成本的问题，并需要所有参与者进行通信。另一方面，非交互式零知识证明 (NIZKP) 不需要证明者和验证者之间的任何交互。非交互式零知识证明是指证明者可以一次性地生成证明，并将它发送给验证者，而不需要进行多轮的交互。与交互式证明相比，非交互式证明速度更快，需要的计算成本和通信量也更少。但是，它有时可能不是可行的方案，如需要涉及附加信息的证明，或需要证明一个非常复杂的语句时。相反，证明者创建了一个单一的、自包含的证明，验证者可以在没有进一步沟通的情况下独立验证。这比交互式证明更方便和高效，因为它不需要证明者和验证者同时在线或交换多条消息。
-实现这一目标的最经典方法之一是使用基于数字签名的 Fiat-Shamir 启发式技术。交互式和非交互式零知识证明之间的主要区别之一是证明者和验证者之间所需的信任级别。在交互式证明中，验证者必须信任证明者遵守协议并对他们的查询提供诚实的回应。另一方面，在非交互式证明中，验证者根本不需要信任证明者，因为他们可以在不依赖证明者提供的任何信息的情况下独立验证证明。两种类型的零知识证明之间的另一个区别是所需的计算复杂度级别。
-交互式证明往往比非交互式证明计算量更大，因为它们需要证明者和验证者交换多条消息并执行额外的计算。另一方面，非交互式证明只需要验证者进行一次计算，从而使它们更加高效和可扩展。交互式和非交互式零知识证明各有利弊，给定场景的最佳选择将取决于具体要求和约束。交互式证明可能更适用于证明者和验证者同时在线且可以轻松沟通的情况。相比之下，非交互式证明可能更适用于证明者和验证者不同时在线或证明者可信度不确定的情况。总之，交互式零知识证明和非交互式零知识证明通常是根据特定问题和应用场景来选择的。
-交互式零知识证明是最早被研究和广泛应用的零知识证明类型之一。在这种证明过程中，证明者和验证者之间会进行多轮的交互。这些交互旨在允许验证者向证明者询问特定的信息，以验证被证明的内容。这种交互性质使得交互式证明可以非常有效地解决复杂的问题。
-一个简单的例子是著名的“彩色图问题”，它是关于如何在任何图中着色的问题。如果证明者声称他能够在任何图中为每个节点着色，而且相邻节点必须使用不同的颜色，那么验证者可以采取交互式零知识证明方法来判断该声称是否正确。在证明过程中，证明者首先以某种方式着色图形，接着验证者选择任意两个节点并询问证明者它们是否被用了同一种颜色。证明者需要回答这个问题，但不能透露为什么他会如此选择。这个过程会持续几轮，验证者可以检查一些有关证明者如何着色图形的随机数据。如果证明者可靠地回答了问题，证明者就可以认为是正确的。交互式零知识证明 (IZKP) 有几个局限性，因此使它们更加昂贵和复杂。
-IZKP 需要证明者和验证者之间的交互，这可能是低效且耗时的。为了完成证明，证明者必须与验证者来回发送多条消息。这可能会花费大量时间，尤其是在证明很复杂或涉及大量数据的情况下。当速度至关重要时，例如在高频交易或实时决策中，这可能是个问题。
-IZKP 不能很好地扩展。随着被证明数据的增加，证明的复杂性也随之增加，难以在合理的时间内完成证明。当需要证明大量数据时，例如在供应链管理或医疗保健中，这可能是一个问题。
-IZKP 依赖于证明者和验证者是诚实的并且不会试图欺骗或操纵证明的假设。然而，这个假设并不总是有效的，证明者可以通过发送虚假消息或以某种方式操纵证明来试图欺骗验证者。这可能会损害证明的完整性并破坏其实用性。
-IZKP 需要专门的加密技术，这可能难以实施并且需要高水平的技术专长。这可能会使非技术用户使用 IZKP 变得困难，并且可能会限制它们在某些情况下的采用。
-总的来说，虽然 IZKP 有可能提供强大的安全和隐私保证，但上述限制在历史上阻碍了它们的广泛使用。但它存在一些缺点。尤其是这种证明需要证明者和验证者之间进行多轮的交互，这会带来时间和计算成本的问题，并需要所有参与者进行通信。其次，有些应用程序可能需要处理的信息太复杂，以至于证明者和验证者之间必须进行多轮交互才能得到完整的证明，这就使得交互式证明方法不太可行。一旦理解了交互式和非交互式 ZKP 之间的区别，就该深入研究最流行的区块链和加密行业实现 — zkSNARKs。虽然 zkSync 使用 zkSNARKs，可以说是最流行的使用 ZKPs 的 L2，但紧随其后的是 Starkware 的 zkSTARKs。让我们了解这两种实现方式的不同之处以及各自的优缺点。
-zkSNARKs 和 zkSTARKs 都是零知识证明 (ZKP) 系统，允许一方（证明者）向另一方（验证者）证明陈述是真实的，而无需透露关于陈述本身的任何信息。ZKP 有很多应用，包括区块链上的隐私保护交易、安全的多方计算和匿名通信。它们都是用于保护数据交易和计算中的隐私，但它们的应用场景和技术方案有很大的不同。zkSNARKs技术优势在于高度压缩的小证明，在保证计算安全性的同时，支持高度隐私保护和高效交易。zkSTARKs技术优势在于对复杂算法和大型数据处理性能方面的优化，可以实现更高级别的保护和证明。
-zkSNARKs是一种使用高度压缩的算法来提供非常小的证明的方法，这些证明可以用来证明满足某些条件的任意计算。通过使用zkSNARKs技术，可以得到一个经过验证的证明，证明所描述的计算的具体值和详细步骤是未知的。zkSNARKs的优点是证明大小非常小，只需要大约200字节的证明就可以验证一个数百万次计算后的结果，证明的计算成本也相对较低。同时，它们允许对基于密码学的计算进行高效的隐私保护，特别是在需要验证但不愿意透露信息时非常有用。因此，zkSNARKs广泛应用于无信任环境下的交易、加密货币、身份验证和隐私保护领域。zkSNARKs（零知识简洁非交互式知识论证）最早由 Eli Ben-Sasson、Alessandro Chiesa、Daniel Genkin、Eran Tromer 和 Madars Virza 于 2014 年在一篇论文中提出。它们基于“非-交互式证明”，这意味着证明者和验证者在证明过程中不需要相互通信。这使得 zkSNARKs 非常适合在区块链中使用，在区块链中，各方之间的通信受到达成共识的需要的限制。zkSNARKs 使用公钥和私钥的组合来创建证明。证明者可以访问私钥，他们用它来生成他们希望做出的陈述的证明。验证者可以访问相应的公钥，用于验证证明。如果证明是有效的，验证者可以确信该陈述是真实的，即使他们没有关于该陈述本身的任何信息。
-zkSNARKs 的主要优势之一是它们的效率。证明过程非常快，使得在区块链等高吞吐量系统中使用 zkSNARKs 成为可能。
-他们依赖于“可信设置”过程，其中一组参与者生成并销毁一组公钥和私钥。如果未正确执行此过程，可能会危及系统的安全性。因此需要够在可信的第三方中进行设置和参与、视数据的不同而具有不同的性能，并且它们的证明可能会被各种攻击技术攻击。
-此外，zkSNARKs 不是透明的，这意味着如果不访问私钥就无法验证证明的正确性。
-zkSTARKs是另一种零知识证明技术，专门用于处理复杂算法和大规模数据。相比之下，zkSTARKs可以在不需要中间方的情况下提供更高的安全性，因为它们不需要可信的第三方进行参与和设置。zkSTARKs的优点包括不需要选择特定曲线进行计算，证明更加通用，并且具有良好的可扩展性和抗攻击性。它们也没有任何机密密钥或公共参数，这使得它们非常适合用于无信任环境下进行的基于密钥的计算。然而，zkSTARKs技术需要更高的计算成本和证明大小比zkSNARKs技术更大，因此在一些场景中可能不适合使用。
-zkSTARKs 的主要优势之一是它们的透明度。使用 zkSNARKs，无法在不访问私钥的情况下验证证明的正确性。使用 zkSTARKs，可以创建一个“验证证明”，它允许任何人在不访问任何秘密信息的情况下验证证明的正确性。这使得 zkSTARKs 成为信任必不可少的应用程序的更安全和透明的选择。
-zkSTARKs 的另一个优势是它们的可扩展性。zkSNARKs 依赖于资源密集型的复杂数学运算，随着证明规模的增加，它们的效率会降低。
-一个主要缺点是 zkSTARKs 仅适用于证明某些类型声明的真实性。特别是，它们只能用于证明以多项式表示的陈述的真实性，这限制了它们的适用性。
-另一个缺点是 zkSTARKs 不是完全非交互的，需要一个可信的设置阶段，在这个阶段生成一个公共参考字符串（CRS）。此 CRS 必须保密且安全，zkSTARK 证明才能被视为有效。如果 CRS 受到损害，那么证明的安全性也会受到损害。
-此外，zkSTARKs 尚未被广泛使用或被充分理解，因此可能尚未发现潜在的漏洞。缺乏广泛采用和理解也意味着缺乏使用 zkSTARKs 的工具和资源，使得在实践中实施和使用它们变得更加困难。
-最后，与其他零知识证明系统相比，zkSTARKs 仍然相对较新且未经测试，这意味着它们的长期安全性和可靠性尚未得到充分了解。对于寻求经过验证且可靠的方法来验证声明真实性的组织或个人而言，这种不确定性可能是一个缺点。
-虽然 zkSTARKs 在效率和安全性方面提供了一些好处，但在决定是否使用它们时也有一些缺点需要考虑。这些缺点包括适用范围有限、需要可信的设置阶段、缺乏广泛采用和理解，以及对其长期安全性和可靠性的不确定性。zkSNARKs基于曲线上的折线算法，可以用于证明一些计算结果在不泄露计算输入和密钥的情况下是正确的。这种技术可以应用于区块链、加密货币和密码学等领域。
-与zkSNARKs不同，zkSTARKs是在简洁交互证明的框架下建立的，这意味着证明可以很容易地验证，而不需要涉及证明者和验证者之间的任何交互。因此，zkSTARKs在安全性和可扩展性方面都具有更大的优势。
-随着技术的发展零知识证明技术将继续发展和应用，在保护隐私和进行安全验证等方面，零知识证明技术具有非常广泛的应用前景。同时随着协议的发展和优化，零知识证明技术的计算效率和证明大小等方面也将得到改善，从而进一步推动其在实际应用中的普及和应用。]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
@@ -9488,19 +9497,6 @@ Ordinals引发的比特币铭文热潮短时间内似乎不会消退
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[知情人士：FDIC 和美联储正考虑设立基金，为陷入困境的银行提供存款担保]]></title>
-        <id>https://www.bloomberg.com/news/articles/2023-03-12/us-discusses-fund-to-backstop-deposits-if-more-banks-fail</id>
-        <link href="https://www.bloomberg.com/news/articles/2023-03-12/us-discusses-fund-to-backstop-deposits-if-more-banks-fail"/>
-        <updated>2023-03-12T02:28:01.000Z</updated>
-        <summary type="html"><![CDATA[<h3>知情人士：FDIC 和美联储正考虑设立基金，为陷入困境的银行提供存款担保</h3>
-<p>据彭博社报道，美国联邦存款保险公司（FDIC）和美联储正在考虑设立一只基金，使监管机构能够为硅谷银行倒闭后陷入困境的银行提供更多存款担保。
-据知情人士透露，监管机构在与银行业高管的谈话中讨论了这种新的特殊工具，他们希望设立这样一种工具可以安抚储户，并帮助遏制恐慌情绪。就此，美联储代表拒绝置评。FDIC 代表没有立即回应置评请求。</p>
-<p><a href="https://www.bloomberg.com/news/articles/2023-03-12/us-discusses-fund-to-backstop-deposits-if-more-banks-fail">内容来源</a></p><hr><h3>观点：</h3><p><strong>Arthur Hayes（BitMEX 创始人）：</strong>离印钞机越来越近了。记得在 2008 年，他们首先尝试了 TRAP（Troubled Asset Relief Program），市场不断下跌，金融机构不断破产，然后他们最终打开了印钞机。我猜想这次可能会遵循类似的轨迹。让我们看看火箭筒有多大。【原文为英文】</p><a href="https://twitter.com/CryptoHayes/status/1634746903605723136">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[硅谷银行获得红杉资本等超过 100 家风投公司和投资者支持]]></title>
         <id>https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors</id>
         <link href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors"/>
@@ -9511,34 +9507,6 @@ Ordinals引发的比特币铭文热潮短时间内似乎不会消退
 
 与此同时，创业孵化器 Y Combinator 于周六向美国财政部长耶伦和其他监管机构发布了一份由数百名创始人和首席执行官签署的请愿书，要求将在硅谷银行存入资金的小企业进行整合，并要求国会「恢复对地区性银行更严格的监管和资本要求」。</p>
 <p><a href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硅谷银行获得红杉资本等超过 100 家风投公司和投资者支持]]></title>
-        <id>https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors</id>
-        <link href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors"/>
-        <updated>2023-03-12T02:17:28.000Z</updated>
-        <summary type="html"><![CDATA[<h3>硅谷银行获得红杉资本等超过 100 家风投公司和投资者支持</h3>
-<p>据彭博社报道，超过 100 家风险投资和投资公司签署了一份支持硅谷银行的声明，旨在降低硅谷银行倒闭的影响，避免科技公司出现「灭绝级事件」。
-据一位知情人士透露，截至旧金山时间周六下午，包括红杉资本在内的约 125 家风投公司签署了这份由 General Catalyst 牵头的声明。声明称，过去两天发生的事件「令人深感失望和担忧」，并表示，如果该机构被另一个实体收购，投资者将继续与该机构保持关系。
-
-与此同时，创业孵化器 Y Combinator 于周六向美国财政部长耶伦和其他监管机构发布了一份由数百名创始人和首席执行官签署的请愿书，要求将在硅谷银行存入资金的小企业进行整合，并要求国会「恢复对地区性银行更严格的监管和资本要求」。</p>
-<p><a href="https://www.bloomberg.com/news/articles/2023-03-11/svb-draws-support-from-more-than-100-venture-firms-investors">内容来源</a></p><hr>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Maker Governance 已投票通过变更 USDC 等资产相关参数紧急提案，将于 48 小时内链上执行]]></title>
-        <id>https://twitter.com/MakerDAO/status/1634592264579084299</id>
-        <link href="https://twitter.com/MakerDAO/status/1634592264579084299"/>
-        <updated>2023-03-12T02:16:12.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Maker Governance 已投票通过变更 USDC 等资产相关参数紧急提案，将于 48 小时内链上执行</h3>
-<p>Maker Governance 已投票通过昨日发起的一系列参数变更紧急提案，提交的参数变更计划在 48 小时内部署，即北京时间 3 月 14 日 0:14。
-据悉，提议变更 USDC 相关资产风险和治理参数，将 UNIV2USDCETH-A、UNIV2DAIUSDC-A、GUNIV3DAIUSDC1-A 以及 GUNIV3DAIUSDC2-A 等 USDC 相关 LP 作为抵押品的债务上限降至 0。此外，提案还提议更改 PSM-USDC-A、PSM-GUSD-A 等锚定稳定模块的部分参数以减轻协议风险。</p>
-<p><a href="https://twitter.com/MakerDAO/status/1634592264579084299">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
