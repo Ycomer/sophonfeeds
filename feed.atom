@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T08:48:44.736Z</updated>
+    <updated>2023-03-16T08:53:56.498Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Doodles创始人：Doodles将从NFT项目发展成媒体特许经营公司]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/4zr0de5o.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/4zr0de5o.html"/>
+        <updated>2023-03-16T08:45:47.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，NFT系列Doodles创始人Jordan Castro在官方Discord宣布，Doodles将从一个“NFT项目”发展成一家领先的媒体特许经营公司。
+Castro 表示：“在刺激投机的公开建设上投入得越多，就越不能实现其长期愿景。不会花任何资源去安抚那些有经济动机的人，将把精力集中在忠实持有人身上。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Doodles创始人：Doodles将从NFT项目发展成媒体特许经营公司]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/4zr0de5o.html</id>
@@ -25,6 +36,30 @@ Castro 表示：“在刺激投机的公开建设上投入得越多，就越不�
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Gearbox 的 V3 升级代码目前正在进行审计，可能会在第二季度末敲定发布日期。加密研究员 slappjakke.eth 撰文解析了杠杆效应的重要性、Geabox 是什么及 Geabox V3 存在哪些变化等内容。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">https://twitter.com/Slappjakke/status/1636018174553636864</a></p>
 <p><strong>文章作者：</strong></p><p>slappjakke.eth</p><hr><h3>观点：</h3><p><strong>slappjakke.eth：</strong>1）代码库：Gearbox V3 升级没有改变 V2 中使用的核心代码库，但带来了更多的可组合性和可能性；2）Gearbox V3 为更多的外来资产创建了一个被称为「Alpha Pool」的被动贷款池，可以选择从主池中获取 dToken，并将为贷款人愿意承担的额外风险支付额外年利率；【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a><p><strong>slappjakke.eth：</strong>3）允许列表中的资产存在限制，这将允许多链部署及与新协议和资产类别的整合，可以增加总限额为 100 至 200 万美元的流动性池子，所有限额由 DAO 决定；4）用户可以为想借出的资产设置一个以相关资产计价的配额；5）借款人需要根据其配额代销支付额外的配额年利率，这允许 Gearbox 对高风险的池子收取更高的利息；【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a><p><strong>slappjakke.eth：</strong>6）将通过链上投票设定配额利率；7）Gearbots：不可变自动化合约，允许合约账户持有者将一些任务委托给第三方进行自动化操作；8）新的集成和更新：集成 Balancer 和 Aura、支持 Curve 池自、MIM 池和 cbETH 部署、更新了图表 DApp 和分析面板及优化了界面中的清算价格。【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】详解 Gearbox V3：重新定义杠杆利效应？]]></title>
+        <id>https://twitter.com/Slappjakke/status/1636018174553636864</id>
+        <link href="https://twitter.com/Slappjakke/status/1636018174553636864"/>
+        <updated>2023-03-16T08:35:14.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Gearbox 的 V3 升级代码目前正在进行审计，可能会在第二季度末敲定发布日期。加密研究员 slappjakke.eth 撰文解析了杠杆效应的重要性、Geabox 是什么及 Geabox V3 存在哪些变化等内容。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">https://twitter.com/Slappjakke/status/1636018174553636864</a></p>
+<p><strong>文章作者：</strong></p><p>slappjakke.eth</p><hr><h3>观点：</h3><p><strong>slappjakke.eth：</strong>1）代码库：Gearbox V3 升级没有改变 V2 中使用的核心代码库，但带来了更多的可组合性和可能性；2）Gearbox V3 为更多的外来资产创建了一个被称为「Alpha Pool」的被动贷款池，可以选择从主池中获取 dToken，并将为贷款人愿意承担的额外风险支付额外年利率；【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a><p><strong>slappjakke.eth：</strong>3）允许列表中的资产存在限制，这将允许多链部署及与新协议和资产类别的整合，可以增加总限额为 100 至 200 万美元的流动性池子，所有限额由 DAO 决定；4）用户可以为想借出的资产设置一个以相关资产计价的配额；5）借款人需要根据其配额代销支付额外的配额年利率，这允许 Gearbox 对高风险的池子收取更高的利息；【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a><p><strong>slappjakke.eth：</strong>6）将通过链上投票设定配额利率；7）Gearbots：不可变自动化合约，允许合约账户持有者将一些任务委托给第三方进行自动化操作；8）新的集成和更新：集成 Balancer 和 Aura、支持 Curve 池自、MIM 池和 cbETH 部署、更新了图表 DApp 和分析面板及优化了界面中的清算价格。【原文为英文】</p><a href="https://twitter.com/Slappjakke/status/1636018174553636864">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】5 个值得关注的真实收益项目：Pendle、Liquity、FactorDAO…]]></title>
+        <id>https://twitter.com/JackNiewold/status/1635766032982736898</id>
+        <link href="https://twitter.com/JackNiewold/status/1635766032982736898"/>
+        <updated>2023-03-16T08:31:42.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 已经被破坏，但 GMX 等项目开创的真实收益（Real Yield）会解决这个问题。Crypto Pragmatist 创始人 Jack Niewold 发推介绍 5 个值得关注的可持续的真实收益项目：Arcadeum、Pendle、Liquity、FactorDAO 和 Radiant。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">https://twitter.com/JackNiewold/status/1635766032982736898</a></p>
+<p><strong>文章作者：</strong></p><p>Jack Niewold</p><hr><h3>观点：</h3><p><strong>Jack Niewold：</strong>1）Arcadeum：采用 GMX 的 GLP 模式构建了一个完整的 GambleFi 生态，其产品有：体育竞猜、扑克游戏、转盘游戏和 1000 倍杠杆交易。ALP 机制可以让用户为生态本身提供流动性，保证了 ALP 的盈利；2）Pendle：用户可以以固定利率卖出未来收益，将其立刻转化成基础资产；【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">内容来源</a><p><strong>Jack Niewold：</strong>3）LiquityProtocol：即使在巨大的稳定币波动中，LUSD 的锚定表现也惊人的好，依旧保持着去中心化和不受监管。在这个协议的设计框架下，生态所有参与者都要向 LQTY 持有者支付借贷费用和清算后的多余资金；4）FactorDAO：通过向资产持有者收取管理费获得真实收益，持有人将赚得一部分协议收费和激励奖励；【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">内容来源</a><p><strong>Jack Niewold：</strong>5）Radiant：一个类似银行的跨链货币市场：储户可以从借贷者处赚取利息，借贷者可以跨链寻求资金。采用超额抵押借贷，平台利息随着各种资产的需求程度进行波动。RDNT 持有者可以通过借贷利息、平台费用和对过早卖出 RDNT 的罚款几种方式获得真实收益。【原文为英文】</p><a href="https://twitter.com/JackNiewold/status/1635766032982736898">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -197,6 +232,18 @@ Read the full entry]]></summary>
 此外，百度智能云即将面向企业客户开放文心一言API接口调用服务。3月16日起正式开放预约，搜索“百度智能云”进入官网，可申请加入文心一言云服务测试。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USDC 脱锚事件后的 DeFi 未来，「链上金融」or 完全去中心化？]]></title>
+        <id>https://foresightnews.pro/article/detail/28263</id>
+        <link href="https://foresightnews.pro/article/detail/28263"/>
+        <updated>2023-03-16T07:44:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱锚引发了市场对 DeFi 未来发展的重大担忧和质疑。由于 DeFi 生态系统严重依赖 USDC，因此评估未来的潜在解决方案至关重要。加密研究员 Igans 发推分析两种可能的方向：将 DeFi 重新定义为「链上金融」（on-chain finance），或全面拥抱去中心化。中文版由 Foresight News 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/28263">https://foresightnews.pro/article/detail/28263</a></p>
+<p><strong>文章作者：</strong></p><p>Ignas | DeFi Research</p><hr><h3>观点：</h3><p><strong>Ignas | DeFi Research：</strong>DeFi 项目必须在提供去中心化优势和应对监管合规复杂性之间保持微妙平衡。DeFi 的所有元素和协议可能永远无法完全实现去中心化或抗审查，因此将 USDC 这类代币视为风险资产，将 DeFi 视为「链上金融」，可以帮助解决这种困惑和道德困境。通过将 DeFi 更名为「链上金融」，行业可以在承认中心化的同时保持关键优势，如自我监管、流动性增加（买方市场扩大）、可组合性增强（新金融产品）、单一数据来源（降低对账成本）。</p><a href="https://foresightnews.pro/article/detail/28263">内容来源</a><p><strong>Ignas | DeFi Research：</strong>第二个选择是让 DeFi 社区移除中心化元素，变得像比特币一样去中心化。这将涉及用比特币或以太坊这样的抗审查抵押品取代 USDC，如 Liquity 的 LUSD、Maker 的 DAI 和 Tornado Cash 等项目。然而，即使是具有去中心化特性的 LUSD，也依赖于价格预言机，极端情况下可能会被操纵。这凸显了 DeFi 项目在追求完全去中心化的同时，为其用户确保安全性和可靠性所面临的持续挑战和复杂性。</p><a href="https://foresightnews.pro/article/detail/28263">内容来源</a><p><strong>Ignas | DeFi Research：</strong>DeFi 可能会像现在的互联网一样，同时朝着两个方向发展：虽然大多数用户通过受监管的服务访问互联网，但追求隐私的个人可以使用暗网来提高匿名性。DeFi 协议可能存在着不同程度的去中心化和监管合规性。只有接受这种理解，DeFi 社区才可以努力构建一个更具弹性和透明度的生态系统。</p><a href="https://foresightnews.pro/article/detail/28263">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
