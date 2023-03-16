@@ -2,10 +2,134 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T02:34:40.851Z</updated>
+    <updated>2023-03-16T02:48:12.095Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Alameda向FTX高管进行的转账及贷款高达32亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5qagf544.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5qagf544.html"/>
+        <updated>2023-03-16T02:45:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，据PR Newswire报道，FTX及其附属债务人向破产法院提交的财务报表显示，Alameda Research向FTX创始人及高管转账和贷款高达32亿美元，包括Sam Bankman-Fried（约22亿美元）、Nishad Singh（约5.87亿美元）、Gary Wang（约2.46亿美元）、Ryan Salame（约8700万美元）、John Samuel Trabucco（约2500万美元）、Caroline Ellison（约600万美元）。
+这些金额不包括用于购买巴哈马豪宅的超2.4亿美元、FTX债务人直接提供的政治和慈善捐款，以及向巴哈马和其他司法管辖区的非债务人子公司的资产转移。
+虽然用这些转账资产购买的部分财产已经在FTX债务人或与之合作的政府当局的控制下，但目前无法预测最终货币回收的金额和时间。FTX债务人正在调查针对这些转账的接收者及其后续受让人的转账原因。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主打现实世界资产+稳定币概念，异军突起的Tangible和USDR或因不透明暗藏风险]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/i6tx9ui4.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/i6tx9ui4.html"/>
+        <updated>2023-03-16T02:45:22.000Z</updated>
+        <summary type="html"><![CDATA[稳定币是区块链世界中绕不开的话题，算法稳定币成了Ponzi的代名词，而以往我们普遍认为安全的合规稳定币USDC也险些因为硅谷银行的倒闭而遭受损失。如何设计一种既有底层资产支撑，又能帮用户获得收益，且相对去中心化的稳定币，Tangible给出了一种思路。
+Tangible主打“现实世界资产+稳定币”的概念，根据Defi Llama的数据，截至3月15日，它的TVL在过去一个月增长了15.7倍，是Polygon上近期增长最快的项目之一。在快速增长的同时，Tangible的核心数据并未做到公开透明，也暗藏风险。
+
+USDR：以高息揽储，Velodrome和Thena上的贿赂大户
+积极寻找流动性挖矿机会的DeFi用户可能会发现，近期Velodrome和Thena上出现了一种收益率极高的稳定币，wUSDR/USDC交易对在这两个DEX中的APR通常高达100%。根据这两个Fork自Solidly的DEX的机制，USDR的发行商Tangible要么持有大量的veToken以用于投票，要么每周支付贿赂，吸引veToken的持有者给自己投票。
+Dune@0xkhmer整理的仪表板显示，wUSDR/USDC交易对目前是Optimism上的DEX Velodrome的最大贿赂者，超过了USDC/DOLA、SONNE/USDC等交易对。最近一周的贿赂金额约为9.3万美元，且每周的贿赂金额递增。贿赂的资金主要是稳定币USDC或USDR的封装版WUSDR，还有一部分为OP。
+
+
+类似的情况也出现在了BNB链的Thena上，最近一周，wUSDR/USDC交易对在Thena上支付的贿赂金额为3.5万美元，贿赂金额同样在持续上升，且全部通过稳定币USDC支付。
+
+这意味着Tangible在一周内支付了相当于其TVL（959万美元）1.3%的资金用于贿赂，以吸引流动性，如果支付贿赂的资金来源是铸造稳定币的储备金，这将是非常危险的。Tangible声称贿赂资金来源于项目收益，那么这是否可信，Tangible又有些什么业务呢？
+Tangible中主要有两种产品TNFT（Tangible non-fungible token，Tangible非同质化代币）市场和稳定币USDR。
+Tangible允许用户使用加密货币从供应商处购买商品，Tangible铸造TNFT发送给购买者，并将这个TNFT代表的实体物品存放在Tangible Custody处。TNFT的所有者可以转移、出售自己的资产，也可以兑换成实物。详细的流程如下所示。
+TNFT对应的实体资产可以是艺术品、葡萄酒、古董、金条、金条、房地产等流动性并不是很好的商品。
+另外，Tangible也提供碎片化服务（Tangible Fractions），TNFT的持有者可以指定价格出售持有的TNFT的一部分。如一款手表价值10万美元，TNFT的持有者可以4.2万美元的价格将手表40%的价值挂单出售。
+Tangible Custody负责从供应商处采购实体商品，并铸造TNFT，TNFT的所有者就是资产的所有者。Tangible称Tangible Custody将每年进行一次审计，涵盖商品来源、供应链的完整性和资金流动等，确保实物信息和铸造的TNFT对等。虽然官方称审计已经在进行中，但截至3月15日，Tangible Custody并未发布过任何审计报告。
+在以上系统的基础上，Tangible发行了一种稳定币Real USD（USDR），主要投资于通证化的房地产代币，并获得收益。从长期来看，房地产是持续升值的，投资的房地产会出租给租户，收益每天通过rebase的方式支付给USDR的持有人。
+USDR通常通过DAI 1:1铸造，但也有少量份额可通过Tangible的原生代币TNGBL铸造。可通过TNGBL铸造的USDR数量 =（已铸造的USDR数量-已赎回的USDR）*10%。
+
+铸造USDR的储备金中：
+也就是可以有10%的USDR可以用TNGBL 1:1的铸造，其余部分以DAI 1:1铸造。大部分储备金投资于Tangible房地产NFT，协议拥有的流动性仅占10%-20%。Tangible预计投资于房地产的年化收益率为5.22%，现在为了进行激励，还有10%的TNGBL奖励，持有USDR的收益率即可达到15.22%。
+由上可知，铸造USDR的储备金中，至少有60%的资金投向了房地产NFT或自身的TNGBL代币。Tangible持有少量DAI，以方便用户赎回，如果因为房地产或者TNGBL价格下跌，或者大户想要退出而没有流动性怎么办？Tangible持有的用于退出的流动性可能不够，但项目方早已为此想好了办法。
+如果Tangible中剩余的DAI耗尽，想要将USDR赎回的用户会1:1的收到pDAI。pDAI代表了对DAI 1:1的索取权，如果房地产TNFT卖出，剩余资金将转回国库，让用户赎回。
+如下图所示，Tangible官网数据显示，目前发行的USDR数量为782万，而协议拥有的总的资产为964万美元。项目中有182万美元的盈余，因此虽然每周支付大量稳定币用于贿赂以吸引流动性，Tangible也有理由说贿赂资金来源于利润。
+
+即使除去持有的TNGBL，Tangible的储备金仍然超过100%。可以认为该数据表明Tangible持有的房产NFT的升值超过了支付的贿赂。
+USDR的稳定币模式可以为稳定币设计提供一种思路，即底层持有能够生息的资产，稳定币的持有者可以获得收益，避免Circle这类中心化稳定币发行商自己获得资产收益又无法完全保障资金安全的情况。
+但是Tangible并没有强有力的背书，所有实物资产和发行TNFT的权限都由Tangible Custody自行控制，在官方给出强有力的证据之前，通过该项目购买TNFT有很高的交易对手风险，保持对该项目的怀疑可能是更好的选择。
+在USDR发行量只有782万的情况下，Tangible每周仅在Velodrome和Thena中支付的贿赂资金就约为12.8万美元。通过高额收益吸引用户用DAI 1:1地铸造USDR，这种情况可能是难以持续的。
+同样因为中心化问题，Tangible也可以操控Tangible Custody发行的TNFT的价格，以实现“超额储备”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[读懂加密内存池：解决 MEV 和审查问题的全新设计空间]]></title>
+        <id>https://foresightnews.pro/article/detail/28256</id>
+        <link href="https://foresightnews.pro/article/detail/28256"/>
+        <updated>2023-03-16T02:42:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密内存池是解决 MEV 和审查问题的强大工具，目前已有多种可以单独使用的相关方案，并且也可以组合使用。加密基金 DBA 联创 Jon Charbonneau 撰文概述了以太坊研究员 Justin Drake 围绕加密内存池演讲所构建的设计空间。中文版本由 Foresight News 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/28256">https://foresightnews.pro/article/detail/28256</a></p>
+<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[模块化区块链如何成为下一代Web3基础设施？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/nj263pv7.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/nj263pv7.html"/>
+        <updated>2023-03-16T02:30:34.000Z</updated>
+        <summary type="html"><![CDATA[原文：《模块化区块链:推动Web3生态进化的基础设施》
+作者：Ray
+比特币的诞生，标志着一种去中心化电子现金系统的到来，人们通过它认识到了区块链技术的概念和工作量证明的共识机制。随后，以太坊的出现，作为一个世界计算机和智能合约平台，其强大的可编程性在金融、社交和游戏等领域展现了广阔的前景。尽管十多年的发展历程中，区块链在普及程度和技术沉淀方面都处于起步阶段，但毫无疑问，其潜力依然是巨大无穷的。
+通常情况下，我们现在所接触的公链都可以被统称为单体区块链。它们以每笔交易为载体，通过区块存储合法有效的交易记录，并通过特定的共识机制实现去中心化、无需信任、不可篡改的分布式账本网络。
+单体区块链的特点是，它可以从钱包、应用、中间件到基础设施，全方位独立地建立完整的生态系统，并且各方之间维持紧密的关系，但是随着生态发展和繁荣，它又会出现交易阻塞，交易成本上升，网络参与门槛过高以及维护全网状态的成本增加等问题。当遇到高并发使用情况时，由于交易吞吐量的限制，单体区块链通常会变得昂贵且难以使用，用户体验也会受到很大影响。此外，随着区块链的不断增长，整个网络会出现状态爆炸，维护网络的门槛不仅提高，成本也不断增加。
+为了解决单体区块链存在的问题，业内人士多年来，在扩容、状态修剪等方面都进行了广泛研究和探索，其中包括但不仅限于状态通道、侧链、Rollup、轻节点、分片、模块化等技术。这些技术的研究和开发，不断地优化区块链的技术栈，并且提高区块链技术的普及程度。
+本质上，模块化区块链是通过聚合和组合的思想，重新定义和划分区块链的分层架构，并将其划分为不同的模块。这些模块互相独立，可以根据需求进行修改和扩展，并可以相互组合。这种组合而成的模块化区块链不仅可以提升各方面性能，还可以满足多样化的应用场景。
+过去，站在单体区块链的架构进行思考，我们习惯对其的拆分结果为：承载去中心化应用的应用层，负责执行去中心化应用智能合约逻辑的执行层，处理交易有效性、交易顺序和区块构成的共识层，维护、存储交易和区块的数据层以及进行点对点广播通信的网络层。
+对于模块化区块链的分层理解，极易以单体区块链的思维先入为主，由此会造成不少混淆。此时，可以从用户的视角通过正在运行的以太坊乐观Rollup的二层网络Arbitrum直观和深入的了解。通过Arbitrum白皮书关于二层网络交易流的阐述：可以知道，用户提交的交易不再直接与一层网络进行交互，转由二层网络的定序器进行收集和批量处理，定序器将批量处理的多笔交易原始数据压缩发送到一层网络，与此同时，也会对批量处理的交易进行排序，计算用户和网络状态转变，然后将状态结果发送到一层网络进行结算。
+
+二层网络的定序器对交易进行收集和批量处理（执行层）
+
+
+至于结算的交易Arbitrum的区块浏览器并没有做很好的一一对联，此处我们直接通Arbitrum官网部署在以太坊的智能合约入手，分析Delayed Inbox合约涉及到结算相关的函数：sendL1FundedContractTransaction，当结算出现分歧的时候调用；当结算没有分歧的时候调用Outbox合约的updateSendRoot。相关合约地址请查阅：https://developer.arbitrum.io/useful-addresses。
+现在，我们对于执行层、数据可用层、共识层和结算层各自的功能和作用有了明确直观的认识。执行层是定序器对于交易的批量处理、包括原始交易数据压缩和状态的转变计算。结算层负责确认状态转变的最终性。数据可用层是一层网络对于执行层收集压缩的交易数据的存储和维护。至于共识层，保障的是执行层在数据可用层和结算层方面依赖的安全性。
+按照从上而下的定义，模块化区块链的层次结构如下图：
+
+由于结算层涉及到不同执行层的交易有效性证明设计，例如乐观欺诈证明和零知识证明，为此，我们暂不做进一步的理解。下面，我们将直接了解模块化区块链常说的执行层、数据可用层、共识层这三个模块，着重在它们发展的背景，解决的问题，以及它们当前的发展情况和面临的挑战。
+在没有真正提出执行层产品之前，我们经常听到一个词：以太坊杀手。这说明区块链用户对于交易吞吐量、交易速度和交易成本等方面的性能需求和以太坊提供的现状存在明显的不匹配情况。为此，不少新公链尝试从单体区块链本身的交易结构、区块设计、共识机制和网络广播机制进行探索和研究，构造全新的高性能公链，去实现海量交易吞吐量、快速交易速度和便宜的交易成本。与此同时，以太坊的生态对于各种各样的技术和产品方案都进行探索研发。时至今日，以Rollup为主体方案Layer2路线占据主导地位，其中欺诈证明的乐观Rollup的Optimism和Arbitrum不管在项目构建、用户吸引和留存都陆续超越其他EVM兼容的新公链，此外，以零知识证明为主的ZKRollup（Starknet、Hermez、zkSync、Scroll、Taiko等）、以并行交易为主的Fuel，AltLayer、Smooth等也在各自的方案领域继续前进。
+
+随着Rollup等Layer2的茁壮发展，泛指这些Rollup和并行交易产品的执行层概念正式提出。当然，不仅是以太坊，抑或是在优化了TPS和交易成本的Solana、BNBChain、Cosmos、Aptos等公链，各自的官方或社区都提出自己的Rollup和执行层产品。由此，我们不仅进入多链并存的时代，也进入多类执行层并存的场景。这也为开发者、用户和生态带来不一样的问题：各自的执行层产品独立封闭，生态难以共享，用户在彼此之间操作成本繁重，开发者构建和运营时间周期和成本昂贵。为此，以Rollup作为服务的产品同样面世。例如Sovereigen Labs，Stackr Labs，Eclipse Builders，Dymension等。这些产品类比于执行层的Hub，将原本定位于二层网络的Rollup转变为Layer3，由此构造单Hub多Rollup的树枝型执行层。
+
+由于扩容场景的历史需求，执行层的产品探索和研发多年，各自的方案在这么多年都有获得重大突破。在未来的周期里，执行层的产品依然有不少尚未解决正在探索的问题：如去中心化定序器、zkEVM和并行交易等。
+大数据时代和云时代的到来，作为现代社会基础资源的数据，可以在各种决策场景提供帮忙和支撑，其战略地位如同过去的石油一般。当我们提到区块链的数据时，通常指的是链上存储的各种交易数据和智能合约数据。这些数据存储方式和传统的数据库有所不同，从某种角度而言，区块链的数据存储方式是分布式的，即每个节点都要存储一份完整的数据副本。当下，随着链上用户交易数据的活跃以及智能合约的繁荣，区块链数据在线性增长的基础上面，出现指数级增加的迹象。比特币网络从2016年55G的全网大小，一直按照每年50G增长，但是在2020年开始，其网络大小的年增长量开始跃迁为60G，截至当下2023年2月，全网数据大小是459G。
+
+https://www.blockchain.com/explorer/charts/blocks-size
+作为世界计算机和智能合约平台，以太坊的全网数据远比聚焦在支付领域的比特币要大得多。通过Etherscan可以看到，现在成为以太坊默认全节点至少需要800多G空间，成为以太坊Archive全节点至少需要13000G存储空间。
+
+不仅整体的数据量庞大，并且大部分数据都是以非格式化的形式存储的，由此造成区块链数据的处理、索引和查询难度极大。为此，站在单体区块链的角度思考，如何高效地、廉价地存储、快捷地处理和支持海量访问区块链数据成为极其重要的研究方向。
+早在比特币白皮书提出之时，中本聪对于网络的状态爆炸做了预先的解决方案：分别是Reclaiming Disk Space和Simple Payment Verification（SPV）。Reclaiming Disk Space是允许节点对于耗费的历史数据进行修剪从而降低全网数据大小，此方案在一定程度可以降低维护成本和参与门槛，但是由于全网数据体量的庞大，以及账户模型的单体区块链，例如以太坊，维护的数据维度和UTXO模型不一样，直接适用程度会比较有限，但基于Reclaiming Disk Space的思路，以太坊社区延申和追求的方案是将账户状态从区块链分离出去的Stateless Ethereum方案，。SPV主要是提倡轻节点Merkle树验证区块链交易数据的方案，在实现网络的低参与门槛之外，保证交易数据的有效性。由于SPV的轻节点单纯下载区块头信息进行验证，所以可能会收到欺诈性证明攻击。为此，现在Celestia的联创Mustafa Al-Bassam、Mysten Labs的Alberto Sonnino和Vitalik曾在2018年发表《Fraud and Data Availability Proofs:Maximising Light Client Security and Scaling Blockchains with DishonestMajorities》提出欺诈性证明攻击的解决方案，在此，单体区块链的数据可用性可以被理解为轻节点在不完全同步区块数据的前提之下，仅通过交易Merkle树对于交易数据的有效性验证。
+对于模块化区块链的执行层而言，单体区块链的数据转变成为链上数据，执行层的交易数据通过压缩存储成为链上数据其上的链下数据。链上数据对于链上数据不仅有常规的存储查询等性能和成本的直接要求，还会依赖链上数据伴随的共识机制进行安全性保证。如此，正是执行层产品的发展，丰富了单体区块链的数据可用性，并扩展了数据可用层概念对应的上下文。
+在继续往下之前，我们必须明白，数据可用层和数据存储层是不能混淆的概念。数据可用层强调的是可用性，是以数据的有效性角度进行思考。数据存储层更多是站在计算机存储器的角度去定义数据的存储和使用性能，更多的关注是链上存储的成本费用、读写效率等。数据可用性必然是基于数据存储层延展出来的概念，此处延展的正是共识机制带来的可用性。换一种说法，Don’t Trust，Verify，此处的Verify对应的即是数据可用性。
+以太坊，作为现在执行层产品首选的数据可用层，由于其自身的Gas模型和Calldata结构，存在以下明显的缺点：1，数据的操作和存储成本高；2，数据的存储容量有限；3，网络资源分配不均。为此，以太坊通过EIP-4844的Proto-Danksharding、Data AvailabilitySampling（DAS）、Erasure Coding和Proposer/Builder Separation等提出自身的数据分片和状态扩容方案。未来，以太坊将引入新的Blob交易类型和额外数据层，在保证数据可用性的前提之下，降低当前链上的动态存储成本。至于其他专门的DA产品，不仅在数据可用采样性、Erasure Coding等技术方案探索，也增加各自对于数据可用性领域的研究突破，例如Polygon Avail的Fast Sync技术和Celestia的主权性和互操作性。除了数据可用层的产品，在现有数据存储层方面，我们也可以看到有BNB生态新推出的存储侧链Greenfield，以及Kvye和Arweave等组合类产品。
+Not your keys, not your crypto。在区块链网络，秘钥代表着数字资产的所有权。为了确保秘钥与数字资产对应的所有权，区块链网络必须实现强大的共识机制，以保证足够的去中心化程度和安全性。共识机制保障的是符合单体区块链交易格式的数据，例如比特币保障的是其上的交易以及交易内置的脚本逻辑，以太坊保障的是EVM可以执行和验证的交易。不仅如此，由于区块链世界存在两类具有明显差异的共识机制（PoW和PoS），不同单体区块链之间的不同共识，是难以进行互操作结合和使用的。另外，即使是原生支持多链互操作性的单体区块链，例如Cosmos和Polkadot，尽管已经在交易格式，抑或是共识机制方面可以实现兼容，但仍然存在共识机制难以共享使用的情况。
+进入共识层产品之前，让我们先了解和熟悉PoW和PoS的发展和当下状况。
+PoW可以粗略地理解为用物理世界的算力保证区块链网络的安全，其面临的最常见攻击是51%算力攻击和双花攻击，因此，只有网络的算力足够庞大，网络的安全性才可以得以保障。很多新型的PoW公链，在冷启动阶段，由于早期算力的不够，网络很容易遇到安全问题。为此它们要么通过长时间高成本的算力积累，要么考虑借助比特币等传统PoW网络的挖矿算力采用同样的PoW算法进行联合挖矿。由于区块链的算力本质是随着区块高度的增加而逐渐增加的，联合挖矿/合并挖矿是通过加密经济激励机制租用算力，当两条公链利益重合匹配的时候，联合挖矿/合并挖矿对于矿工而言是有吸引力的，但是，当新PoW公链和比特币网络利益出现冲突的时候，由于比特币网络并没有办法在协议层面制裁矿工，所以，矿工一般会采取不利于其他新PoW公链的行为。例如，在很早以前Namecoin就通过和比特币网络的算力进行联合挖矿，由于联合挖矿方案在某些场景会造成两个网络的利益不匹配，所以造成了Namecoin的潜在风险。对于实现了智能合约功能的比特网侧链RSK而言，尽管RSK在与比特币网络的利益层面做了优化，但是其自身的迭代开发都受限于比特网的非图灵完备性，故而在联合挖矿方面的突破是有限的。另外，对于Quai Network此类从设计之初，原生地提出多链联合PoW，在算力层面进行抱团取暖。即便如此，Quai Network也仅仅是将共识的冷启动成本进行均摊而已，也无法做到PoW共识机制的复用和组合。
+PoS共识机制的核心是利用权益保护网络，权益的价值将决定网络的总体价值，只有足够高价值的权益才能保障高价值的网络。现在流行的PoS机制是基于PBFT改良的，本质依然是权益的证明。常见的PoS网络有知名的Cosmos和Polkadot。秉承着最小化信任的机制，Cosmos作为Hub，是不会主动干预生态应用链的共识机制。Cosmos生态的应用链可以复用整个生态完善的开发栈，但是，在维护对应应用链网络的时候，网络验证者集的成立和维护是需要极高的门槛和成本，这也是信任和安全的成本。不少应用链一般会用空投吸引Cosmos验证者，提供高额的通胀奖励鼓励验证者进行质押保护网络。为减少共识机制的建立成本和提高应用链的安全，Cosmos 2.0提出各种改进方案，例如，可以借用Cosmos为应用链进行安全共享ICS，可以为应用链进行共识共享的Space Mesh等。除此之外，Cosmos生态的Babylon也尝试将比特币网络的PoW共识安全引入Cosmos生态用于保障应用链的安全。对于波卡而言，我们都知道其结合了极强的链上治理模型和前沿的共识理念。可以这么理解，波卡通过平行链卡槽拍卖的机制，直接将共识机制的保障边界扩展到其他链的交易。不可否认，这些机制在复用共识方面，是具有超前的理念，然后由于链上治理的效率和共识的强需求存在不匹配，由此造成波卡平行链的淡出视野。
+现在，让我们回到合并之后PoS共识机制的以太坊。以太坊是极佳的共识层产品资源，多年的PoW沉淀发展促使以太坊积累高额的价值，探索和迭代多年的PoS机制，配上以太坊完善的智能合约平台，以及蓬勃发展的以太坊执行层产品，促使将PoS以太坊作为新一代共识层产品的前提条件已经成熟。我们可以在现有以太坊质押的逻辑基础上面，通过设计合理有效的激励和惩罚机制，复用质押的以太坊，将此部分的以太坊保护其他类型的网络，例如预言机网络、跨链桥网络等。这其中，EigenLayer在此赛道进行了多年的研究，其最近也发布对应的白皮书，正式提出Restaking的概念，并从slashing机制描述自身网络的功能和设计。除此之外，近期火热的以太坊流动性质押衍生品赛道产品，本质上面拥有大量质押的以太坊，一旦出现合适的共识层产品，流动性质押衍生品赛道的产品都将可以无缝地作为共识提供者参与进来。
+现代软件开发流行面向服务的微服务架构，通过将应用程序拆分成为功能和特性独立的服务，让每个服务自主地开发、部署和运行，各个服务之间通过通信和数据共享的方式进行灵活组合，以此实现更高的扩展性、灵活性和可维护性。微服务架构的发展正在逐步成熟和完善，尽管在实践中还存在一些挑战和问题，如分布式事务、服务治理、安全性等方面，但随着技术的进一步成熟和经验的积累，这些问题都逐渐得到解决。
+模块化区块链，和微服务架构有不少相似之处，随着区块链的不断发展，也将会成为区块链技术的重要方向。当前，执行层产品，正不断承担更多交易计算的职能，在用户数据、交易数据等各项指标都取得卓越的效果，数据可用层和共识层在各自的方案领域不断前行，结算层的功能有待开发，各自之间潜在的灵活组合将会带来更多无限的潜力。未来，我们有理由相信，模块化区块链将会带来更多创新和机遇，为推动区块链技术的应用和发展做出重要贡献。
+资料
+https://developer.offchainlabs.com/docs/home
+https://community.optimism.io/
+https://starkware.co/starknet/
+https://zksync.io/dev/
+https://scroll.io/
+https://taiko.xyz/
+https://www.paradigm.xyz/2022/08/dasData Availability Sampling: From Basics to Open Problems
+https://arxiv.org/abs/1809.09044Fraud and Data Availability Proofs: Maximising Light Client Security andScaling Blockchains with Dishonest Majorities
+https://ethereum.org/en/developers/docs/data-availability/
+https://ethresear.ch/t/the-stateless-client-concept/172/13
+https://notes.ethereum.org/@vbuterin/proto_danksharding_faq]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[模块化区块链如何成为下一代Web3基础设施？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/nj263pv7.html</id>
@@ -87,6 +211,18 @@ https://notes.ethereum.org/@vbuterin/proto_danksharding_faq]]></summary>
 此前昨日消息，Cathie Wood表示，监管机构应关注银行系统，而非封锁运转良好的去中心化金融平台。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英国将从明年开始在税表中添加加密资产申报]]></title>
+        <id>https://www.gov.uk/government/publications/spring-budget-2023/spring-budget-2023-html</id>
+        <link href="https://www.gov.uk/government/publications/spring-budget-2023/spring-budget-2023-html"/>
+        <updated>2023-03-16T01:59:58.000Z</updated>
+        <summary type="html"><![CDATA[<h3>英国将从明年开始在税表中添加加密资产申报</h3>
+<p>据英国财政部发布的「2023 年春季预算案」文件显示，英国政府正在对自我评估报税表进行修改，要求对加密资产金额进行单独识别，纳税人在进行申报时必须将加密货币收入分割出来。这些变化计划从 2024 至 2025 纳税年度开始实施。据英国税务部门估计，今年预计有 1200 万人需要进行申报。此外，文件还显示，估计从 2025 至 2026 财政年度开始，该举措将会每年为英国带来 1000 万英镑（1200 万美元）的收入。</p>
+<p><a href="https://www.gov.uk/government/publications/spring-budget-2023/spring-budget-2023-html">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -3336,28 +3472,6 @@ OpenAI 还称，GPT-4 参加了多种基准考试测试，包括美国律师资�
         <updated>2023-03-15T03:11:22.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月15日消息，据派盾预警监测，在过去的12小时内，标记为“Voyager”的地址已向Coinbase转移了价值2770万美元的加密货币，包括17000枚ETH(约合1900万美元)，1200万枚VGX(约合400万美元)，2700亿枚SHIB(约合300万美元)。
 据悉，自2月14日以来Voyager几乎每天通过Coinbase出售加密资产。此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[派盾：Voyager过去12小时将价值2770万美元的加密货币转至Coinbase]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/a5snl4zf.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/a5snl4zf.html"/>
-        <updated>2023-03-15T03:11:22.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月15日消息，据派盾预警监测，在过去的12小时内，标记为“Voyager”的地址已向Coinbase转移了价值2770万美元的加密货币，包括17000枚ETH(约合1900万美元)，1200万枚VGX(约合400万美元)，2700亿枚SHIB(约合300万美元)。
-据悉，自2月14日以来Voyager几乎每天通过Coinbase出售加密资产。此前消息，法官批准Binance.US收购Voyager Digital资产，但交易仍需清除监管障碍；美国司法部对纽约法官批准Voyager出售给Binance.US的决定提起上诉。]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Circle：正努力恢复USDC的流动性运作，包括寻找全天候的新银行合作伙伴]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/qchjg9n9.html"/>
-        <updated>2023-03-15T02:58:06.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月15日消息，USDC稳定币发行商Circle在博客文章中表示：“自从Signature Bank和Silvergate Bank倒闭以来，我们团队一直在夜以继日地工作以恢复USDC的流动性运营，包括引入新的交易银行合作伙伴。我们于当地时间3月13日星期一早上开始处理铸造和赎回请求，当时美国银行系统重新开放，目前正在处理积压的请求。我们在这里还有更多工作要做，包括添加具有24/7/365功能的新交易银行合作伙伴，当地时间3月13日，Circle赎回了29亿美元USDC，并铸造了70亿美元USDC。”
-文章还表示：“作为加强USDC储备的持续举措的一部分，我们现在在纽约梅隆银行持有储备的现金部分，除了在交易银行合作伙伴处持有的有限资金，以支持USDC的铸造和赎回。大部分储备投资于由贝莱德管理、BNYM托管的Circle reserve Fund，主要由短期美国国债组成。”]]></summary>
         <author>
             <name>PANews News</name>
         </author>
@@ -9362,18 +9476,6 @@ AI 有三要素：数据，算法，算力。而由于 Web3 的经济模式和�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[去中心化稳定币战争：谁能夺得加密货币的圣杯]]></title>
-        <id>https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</id>
-        <link href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg"/>
-        <updated>2023-03-11T03:59:12.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行暴雷事件引起连锁反应，市场出现对一些稳定币的恐慌。在中心化监管的威胁步步逼近的时代，是否去中心化是稳定币重要的属性。AC Capital Research 从稳定币去中心化的可行性、必要性入手，分析稳定币赛道的产业结构，对算稳之争进行解读。认为目前任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg</a></p>
-<p><strong>文章作者：</strong></p><p>AC Capital</p><hr><h3>观点：</h3><p><strong>AC Capital：</strong>为什么稳定币要去中心化？1）可行性：去中心化的货币是货币的源头。货币是可以去中心化的。2）必要性：中心化的稳定币没有铸币权，且承受中心化的威胁，去中心化稳定币拥有固有市场。但没有规模就无法经济上持续经营，拥有规模却面临中心化权力的干涉风险。这就是稳定币的伊卡洛斯之翼。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>产业结构：1）根据流动性强弱分为高能货币和广义货币。USDC、USDT 就已经占领了稳定币世界里的高能货币的职位。绝大多数依靠绑定高能货币提供流动性的稳定币，其实只是提供类似传统金融市场里的广义货币。2）稳定币、借贷，殊途同归。从功能上，Alt-stablecoin 生成机制 + 交易对 = 超额抵押借贷。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>稳定性创造方法：1）再平衡稳定币；2）限制流通稳定币；3）铸币稳定币；4）超额抵押稳定币。稳定锚的选择：1）传统世界的货币；2）自定义指数。算稳战争：1）包含中心化风险的算稳赛道，其中蓝海的「鲶鱼」是 Curve 和 AAVE，老牌算稳龙头则是 MakerDAO 和 FRAX。2）完全去中心化算稳赛道，Liquity、Inverse.finance、RAI。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a><p><strong>AC Capital：</strong>总结：去中心化稳定币赛道，1）市场份额小，市场依旧处于发展初期，道路渺茫，但充满希望；2）去中心化稳定币拥有固有的市场；3）任何一个去中心化稳定币都没有在细分赛道中形成嚇阻竞争对手的垄断规模优势。</p><a href="https://mp.weixin.qq.com/s/lwdCxwrE03dLCUdbffgHzg">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Coinbase将暂停USDC至USD的转换服务，计划周一重启]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/0s4yw2hm.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/0s4yw2hm.html"/>
@@ -9432,18 +9534,6 @@ FDIC确认，截至2022年12月31日，硅谷银行的总资产约为2090亿美�
         <summary type="html"><![CDATA[PANews 3月11日消息，据华尔街日报报道，知情人士透露，Meta计划在未来几个月分多轮宣布进一步裁员，裁员规模将与去年裁员13%的规模大致相当。知情人士说，第一波裁员预计将于下周宣布，非工程类职位可能受到的冲击尤其严重。与此同时，预计Meta还将关闭一些项目和团队。知情人士称，将被削减的项目包括Meta的硬件和元宇宙部门Reality Labs中的可穿戴设备项目，这表明短期内Meta将放弃推广虚拟现实和增强现实产品，而将其作为长期的研究工作。]]></summary>
         <author>
             <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】剖析 Balancer 核心架构 Balancer Vault：有哪些可组合性？]]></title>
-        <id>https://twitter.com/ipor_intern/status/1634071620498382851</id>
-        <link href="https://twitter.com/ipor_intern/status/1634071620498382851"/>
-        <updated>2023-03-11T03:10:11.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>一个好的架构能够在资本效率方面为协议带来多大的收益？加密研究员 ipor_intern 以 Balancer 为例，撰文对其核心架构 Balancer Vault 的概念及优势进行了解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">https://twitter.com/ipor_intern/status/1634071620498382851</a></p>
-<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>Balancer Vault 是一个持有并管理每个 Balancer 池所有代币账目的智能合约。Vault 架构将代币核算功能和每个流动性池的基础逻辑分开，这样一来 Balancer 就不必主动管理池子的资产并能适应新池子设计。此外，它隔离了流动性并防止恶意代币或自定义池试图从任何其他池子中抽取资金。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">内容来源</a><p><strong>ipor_intern：</strong>Balancer 通过将所有代币存储在 Vault 中以追踪净余额的变化，并且只进行最后的交易来合并最终状态。Balancer 的灵活性和可组合性实现了特定用例，包括：1）加权池：允许在给定池子余额、权重和被交易资产数量的情况下进行不相关资产互换；2）可组合的稳定池：提高了相关资产互换的资本效率，适合 DAI、USDC、USDT、enBTC、sBTC 等代币；【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">内容来源</a><p><strong>ipor_intern：</strong>3）增强型池：允许 LP 同时从交易费和利息中获利，适用于任何 ERC-4626 兼容的包装代币，；4）线性池：适用于以已知汇率交换一项资产和其包装收益对应物，例如 DAI 和 aDAI；5）管理池：多代币流动性池，可由外部协议管理他们的流动性来源，有益于投资组合管理策略。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1634071620498382851">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
