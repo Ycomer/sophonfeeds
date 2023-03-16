@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T03:46:15.856Z</updated>
+    <updated>2023-03-16T03:51:27.240Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -170,6 +170,19 @@ Paradigm的这些MKR大都来源于Maker: MultiSig地址的转入，并从2019�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[美 SEC 主席：权益证明代币应被视为证券，需要根据美国法律进行登记]]></title>
+        <id>https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities</id>
+        <link href="https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities"/>
+        <updated>2023-03-16T03:09:24.000Z</updated>
+        <summary type="html"><![CDATA[<h3>美 SEC 主席：权益证明代币应被视为证券，需要根据美国法律进行登记</h3>
+<p>美国交易委员会（SEC）主席 Gary Gensler 在被问及对上周美国商品期货交易委员会（CFTC ）主席 Rostin Behnam 声明的看法时表示，根据美国法律，权益证明代币应被视为证券。Gary Gensler 表示，代币持有者希望在质押中获得回报，这表明这些代币是证券，需要根据美国法律进行登记。
+此前美国商品期货交易委员会（CFTC）主席 Rostin Behnam 曾发布声明表示，「ETH 期货在 CFTC 市场上市并非巧合，进行分析后我们得出的结论是 ETH 是一种商品。」</p>
+<p><a href="https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>此前据华尔街日报报道，Gary Gensler 在以太坊完成合并之后表示，PoS 加密货币可能会受到联邦证券法规的约束。</p><a href="https://www.wsj.com/articles/ethers-new-staking-model-could-draw-sec-attention-11663266224">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Alameda向FTX高管进行的转账及贷款高达32亿美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/5qagf544.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/5qagf544.html"/>
@@ -290,7 +303,7 @@ USDR的稳定币模式可以为稳定币设计提供一种思路，即底层持�
         <updated>2023-03-16T02:42:29.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密内存池是解决 MEV 和审查问题的强大工具，目前已有多种可以单独使用的相关方案，并且也可以组合使用。加密基金 DBA 联创 Jon Charbonneau 撰文概述了以太坊研究员 Justin Drake 围绕加密内存池演讲所构建的设计空间。中文版本由 Foresight News 编译发布。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/28256">https://foresightnews.pro/article/detail/28256</a></p>
-<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr>]]></summary>
+<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr><h3>观点：</h3><p><strong>Jon Charbonneau：</strong>保证解密不依赖于用户的方法：1）In-flight：向某个信任的第三方私下发送数据，该第三方可以对数据进行解密和查看，并承诺在数据提交到链上之前不会公开披露， 用例包括 Flashbots Protect 等；2）可信硬件：明文可以在受信任的硬件中运行，但在提交交易前不会公开解密，例如 Flashbots SUAVE 的 SGX；3）门限加密 / 解密（TED）：一个委员会联合起来强制解密密文，但需要签名者达到一个门槛；</p><a href="https://foresightnews.pro/article/detail/28256">内容来源</a><p><strong>Jon Charbonneau：</strong>4）延迟加密 / 解密（DED）：将加密信息设置为在一定时间后自动解密，这是与 VDF 相关的顺序计算，可以结合使用 TED 使用；5）见证加密 / 解密（WED）：允许任意见证人强制解密密文，实际上是 TED 或 DED 的概括，甚至可以构建两者的混合体；</p><a href="https://foresightnews.pro/article/detail/28256">内容来源</a><p><strong>Jon Charbonneau：</strong>屏蔽各种元数据的解决方案：1）使用像 Tor 这样的服务私下广播并屏蔽 IP 地址；2）使用 SNARK 来证明签名有效；3）再次使用 SNARK 证明加密交易的发送方有足够的 ETH 进行费用支付；4）通过 SNARK 证明其随机数是之前的随机数 + 1；5）在加密之前向明文添加 0，将位数扩展为 2 的下一次幂；6）通过允许验证者进行「虚拟」交易来试图隐藏交易存在的泄漏。</p><a href="https://foresightnews.pro/article/detail/28256">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
