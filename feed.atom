@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T07:46:16.052Z</updated>
+    <updated>2023-03-16T07:51:01.157Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[百度正式发布大语言模型“文言一心”]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/wh8st23i.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/wh8st23i.html"/>
+        <updated>2023-03-16T07:45:35.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，今日下午百度举行了发布会，正式公布大语言模型“文言一心”，这是一款基于人工智能技术的智能对话系统，可进行语义理解、智能问答和情感交流等多种形式的对话。3月16日起，首批用户即可通过邀请测试码在文心一言官网体验产品，后续将陆续开放给更多用户。
+此外，百度智能云即将面向企业客户开放文心一言API接口调用服务。3月16日起正式开放预约，搜索“百度智能云”进入官网，可申请加入文心一言云服务测试。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[百度正式发布大语言模型“文言一心”]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/wh8st23i.html</id>
@@ -189,6 +200,30 @@ MEV=（Bundles收入-Gas成本）+（Tip-付给区块提议者的费用）+（�
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 协议在不断发展，新项目层出不穷。加密货币 KOL toffee24.eth 整理总结了 5 个最新的 DeFi 项目，包括 DEX，流动性质押协议等。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/toffee248/status/1636023896679018496">https://twitter.com/toffee248/status/1636023896679018496</a></p>
 <p><strong>文章作者：</strong></p><p>toffee24.eth</p><hr><h3>观点：</h3><p><strong>toffee24.eth：</strong>1）OpenPeer 是一种自我托管的点对点 (P2P) 交易所，允许用户以零费用直接在钱包中买卖加密货币。旨在提供一种解决方案，以解决世界上许多地方无法使用传统入口购买加密货币，以及与 P2P 交易相关的高额费用和不可靠托管的问题。【原文为英文】</p><a href="https://twitter.com/toffee248/status/1636023896679018496">内容来源</a><p><strong>toffee24.eth：</strong>2）BaseDex 正在 Coinbase 孵化的以太坊 L2 平台 BuildOnBase 上开发 DEX 。 DEX 将有 0% 的交易费用和聚合器技术以获得最优惠的价格。BaseDex 的 DEX 技术完全由 Coinbase 支持，用户可以在未来几周内关注测试网和主网发布的更新。【原文为英文】</p><a href="https://twitter.com/toffee248/status/1636023896679018496">内容来源</a><p><strong>toffee24.eth：</strong>3）MantleSwap 是建立在 Mantle Network 上的社区治理的 DEX。旨在通过提供可组合和可扩展的产品来支持在网络上启动的新协议和项目，成为 Mantle Network 的原生 DEX。【原文为英文】</p><a href="https://twitter.com/toffee248/status/1636023896679018496">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】盘点 DeFi 新项目：OpenPeer，BaseDex，MantleSwap...]]></title>
+        <id>https://twitter.com/toffee248/status/1636023896679018496</id>
+        <link href="https://twitter.com/toffee248/status/1636023896679018496"/>
+        <updated>2023-03-16T06:52:42.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>DeFi 协议在不断发展，新项目层出不穷。加密货币 KOL toffee24.eth 整理总结了 5 个最新的 DeFi 项目，包括 DEX，流动性质押协议等。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/toffee248/status/1636023896679018496">https://twitter.com/toffee248/status/1636023896679018496</a></p>
+<p><strong>文章作者：</strong></p><p>toffee24.eth</p><hr><h3>观点：</h3><p><strong>toffee24.eth：</strong>1）OpenPeer 是一种自我托管的点对点 (P2P) 交易所，允许用户以零费用直接在钱包中买卖加密货币。旨在提供一种解决方案，以解决世界上许多地方无法使用传统入口购买加密货币，以及与 P2P 交易相关的高额费用和不可靠托管的问题。【原文为英文】</p><a href="https://twitter.com/toffee248/status/1636023896679018496">内容来源</a><p><strong>toffee24.eth：</strong>2）BaseDex 正在 Coinbase 孵化的以太坊 L2 平台 BuildOnBase 上开发 DEX 。 DEX 将有 0% 的交易费用和聚合器技术以获得最优惠的价格。BaseDex 的 DEX 技术完全由 Coinbase 支持，用户可以在未来几周内关注测试网和主网发布的更新。【原文为英文】</p><a href="https://twitter.com/toffee248/status/1636023896679018496">内容来源</a><p><strong>toffee24.eth：</strong>3）MantleSwap 是建立在 Mantle Network 上的社区治理的 DEX。旨在通过提供可组合和可扩展的产品来支持在网络上启动的新协议和项目，成为 Mantle Network 的原生 DEX。【原文为英文】</p><a href="https://twitter.com/toffee248/status/1636023896679018496">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FileCoin 重大升级，翻身打破以太坊主导的公链格局？]]></title>
+        <id>https://www.hellobtc.com/kp/du/03/4077.html</id>
+        <link href="https://www.hellobtc.com/kp/du/03/4077.html"/>
+        <updated>2023-03-16T06:45:18.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>3 月 14 日 Filecoin 虚拟机（FVM）在主网上线，FVM 上线热度会是昙花一现，还是会给 Filecoin 带来深远影响？白话区块链作者大圣 Web3 从引入 FVM 的原因、影响、应用等角度介绍了 FVM。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.hellobtc.com/kp/du/03/4077.html">https://www.hellobtc.com/kp/du/03/4077.html</a></p>
+<p><strong>文章作者：</strong></p><p>白话区块链</p><hr><h3>观点：</h3><p><strong>白话区块链：</strong>引入 FVM 之后，为 filecoin 带来了极大的可编程性，可类比以太坊诞生，一个支持智能合约的平台可添加几乎能够想象到的全部应用，同时基于 filecoin 的存储数据可计算的功能。引入智能合约，开发者可以开发其他公链常见的 DeFi，GameFi，NFT 应用，生态有望爆炸性发展；基于 Filecoin 自身的数据存储特点，FVM 生态可构建的更复杂产品。</p><a href="https://www.hellobtc.com/kp/du/03/4077.html">内容来源</a><p><strong>白话区块链：</strong>FVM 解锁了哪些应用？1）数据 DAO。FVM 使得实现数据 DAO 成为现实的所有要素成为可能。2）永久储存。在链上自主运行的无许可代码可以保证存储的持续和更新，由于内容寻址，没有修改或更改底层数据集的风险。3）去中心化计算。FVM 参与者可以代理计算资源、激励计算执行、在可用存储提供商之间分配工作负载，并证明计算结果的有效性以获得奖励。</p><a href="https://www.hellobtc.com/kp/du/03/4077.html">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
