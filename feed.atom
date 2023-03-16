@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T08:29:26.062Z</updated>
+    <updated>2023-03-16T08:37:00.601Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -48,6 +48,62 @@ OpenAI官方称，它并不完全可靠，可能会出现推理错误 ，“GPT-
 基于此，OpenAI提醒，用户在使用语言模型时应格外小心，最好辅助以人工审查、附加上下文、或完全避免在高风险情况下使用它。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-4能让智能合约漏洞无所遁形吗？]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/4n22ik79.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/4n22ik79.html"/>
+        <updated>2023-03-16T08:28:02.000Z</updated>
+        <summary type="html"><![CDATA[原文：《OpenAI推出“王炸”产品GPT-4，能不能完整检测智能合约漏洞？》
+北京时间3月15日凌晨，人工智能初创公司OpenAI正式公布最新一代人工智能语言模型GPT-4。
+OpenAI在当天的声明中称，GPT-4的诞生，是OpenAI在放大深度学习方面的最新里程碑。
+那现在进化后的GPT-4 ，又会带给我们哪些惊喜？
+
+进化后的GPT-4，到底有多“炸”？
+根据OpenAI官方的介绍，GPT-4是一个超大的多模态模型，也就是说，它的输入可以是文字（上限2.5万字），还可以是图像。
+其AI能力的恐怖之处体现在哪呢？比如下面这张照片。
+你问它下图中手套掉下去会怎样？
+它会回答：它会掉到木板上，并且球会被弹飞。（这逻辑能力，你能想象吗）
+
+甚至只需要简单在纸上画一个网站的草稿图，他就可以识别该网站。
+
+拍一张照片上传给GPT-4，它就可以立马生成网站的HTML代码！
+
+可见，GPT-4比GPT-3.5，更可靠、更有创造力，能够处理更细微的指令。
+除此之外，ChatGPT-4在内容准确性以及逻辑能力相比上一代也要提升不少，在统一律师考试（Uniform Bar Exam）中，GPT-4成绩超过90%其它人，而GPT-3.5的成绩只超过10%的人，GPP-4在SAT Math获得700分，GPT-3.5的成绩为590分，提升了110分。在其它标准化考试中，GPT-4的成绩也都比GPT-3.5优秀不少。
+
+在官方演示中，GPT-4几乎就只花了1-2秒的时间，识别了手绘网站图片，并根据要求实时生成了网页代码制作出了几乎与手绘版一样的网站。
+除了普通图片，GPT-4还能处理更复杂的图像信息，包括表格、考试题目截图、论文截图、漫画等，例如根据专业论文直接给出论文摘要和要点。
+这么强，是不是你也感觉快要失业了。
+
+GPT-4可对论文进行解读 来源：OpenAI官网
+用ChatGPT4审计智能合约会发生什么？
+我们曾在去年12月发了一篇ChatGPT的研究文章，看看它审计智能合约会发生什么，扩展阅读：风靡全网的“最强AI” ChatGPT，能不能检测智能合约漏洞？
+3月15日，Coinbase主管Conor Grogan在社交媒体发文称，他已在ChatGPT-4中插入了一个实时以太坊智能合约，结果AI瞬间就找到了安全漏洞，甚至还展示了如何利用这些漏洞进行攻击。
+Conor Grogan表示，该合约的确在2018年被黑客利用漏洞攻击，此外他还透露也尝试了Euler的智能合约，但由于合约过长而无法被chatGPT-4处理，Conor Grogan坦言AI最终将是智能合约更安全、更容易构建。
+
+
+
+也有群友说，ChatGPT似乎可以审计前两天Euler Finance约2亿美元被盗案的漏洞。相关事件阅读：复盘Euler Finance 2亿美元被盗案的来龙去脉，本次事件带给我们哪些启示？
+但是，真的有这么简单吗？
+其实与早期的GPT模型一样，GPT-4仍然存在一定的局限性。
+OpenAI官方称，它并不完全可靠，可能会出现推理错误 ，“GPT-4缺乏对绝大多数数据切断后（2021年9月）发生的事件的了解，并且无法从中吸取经验教训……它有时会出现简单的推理错误，它会轻信用户明显的虚假陈述，有时它会像人类一样在难题上失败，例如在它生成的代码中引入安全漏洞。”
+基于此，OpenAI提醒，用户在使用语言模型时应格外小心，最好辅助以人工审查、附加上下文、或完全避免在高风险情况下使用它。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Revelo Intel创始人如何看待L1/L2竞争、加密叙事、支付和监管？]]></title>
+        <id>https://techflowpost.mirror.xyz/LQZ0S-tRWiszVUgd-uE7sVpO6k6yCDLvFBNZxAsZagc</id>
+        <link href="https://techflowpost.mirror.xyz/LQZ0S-tRWiszVUgd-uE7sVpO6k6yCDLvFBNZxAsZagc"/>
+        <updated>2023-03-16T08:27:11.000Z</updated>
+        <summary type="html"><![CDATA[Revelo Intel创始人如何看待L1/L2竞争、加密叙事、支付和监管？ – 深潮TechFlow
+撰写：Revelo Intel
+Read the full entry]]></summary>
+        <author>
+            <name>深潮TechFlow</name>
         </author>
     </entry>
     <entry>
