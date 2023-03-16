@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T02:48:12.095Z</updated>
+    <updated>2023-03-16T02:55:47.745Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Alameda向FTX高管进行的转账及贷款高达32亿美元]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/5qagf544.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/5qagf544.html"/>
+        <updated>2023-03-16T02:45:50.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，据PR Newswire报道，FTX及其附属债务人向破产法院提交的财务报表显示，Alameda Research向FTX创始人及高管转账和贷款高达32亿美元，包括Sam Bankman-Fried（约22亿美元）、Nishad Singh（约5.87亿美元）、Gary Wang（约2.46亿美元）、Ryan Salame（约8700万美元）、John Samuel Trabucco（约2500万美元）、Caroline Ellison（约600万美元）。
+这些金额不包括用于购买巴哈马豪宅的超2.4亿美元、FTX债务人直接提供的政治和慈善捐款，以及向巴哈马和其他司法管辖区的非债务人子公司的资产转移。
+虽然用这些转账资产购买的部分财产已经在FTX债务人或与之合作的政府当局的控制下，但目前无法预测最终货币回收的金额和时间。FTX债务人正在调查针对这些转账的接收者及其后续受让人的转账原因。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Alameda向FTX高管进行的转账及贷款高达32亿美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/5qagf544.html</id>
@@ -55,6 +67,57 @@ USDR的稳定币模式可以为稳定币设计提供一种思路，即底层持�
 同样因为中心化问题，Tangible也可以操控Tangible Custody发行的TNFT的价格，以实现“超额储备”。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主打现实世界资产+稳定币概念，异军突起的Tangible和USDR或因不透明暗藏风险]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/i6tx9ui4.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/i6tx9ui4.html"/>
+        <updated>2023-03-16T02:45:22.000Z</updated>
+        <summary type="html"><![CDATA[稳定币是区块链世界中绕不开的话题，算法稳定币成了Ponzi的代名词，而以往我们普遍认为安全的合规稳定币USDC也险些因为硅谷银行的倒闭而遭受损失。如何设计一种既有底层资产支撑，又能帮用户获得收益，且相对去中心化的稳定币，Tangible给出了一种思路。
+Tangible主打“现实世界资产+稳定币”的概念，根据Defi Llama的数据，截至3月15日，它的TVL在过去一个月增长了15.7倍，是Polygon上近期增长最快的项目之一。在快速增长的同时，Tangible的核心数据并未做到公开透明，也暗藏风险。
+
+USDR：以高息揽储，Velodrome和Thena上的贿赂大户
+积极寻找流动性挖矿机会的DeFi用户可能会发现，近期Velodrome和Thena上出现了一种收益率极高的稳定币，wUSDR/USDC交易对在这两个DEX中的APR通常高达100%。根据这两个Fork自Solidly的DEX的机制，USDR的发行商Tangible要么持有大量的veToken以用于投票，要么每周支付贿赂，吸引veToken的持有者给自己投票。
+Dune@0xkhmer整理的仪表板显示，wUSDR/USDC交易对目前是Optimism上的DEX Velodrome的最大贿赂者，超过了USDC/DOLA、SONNE/USDC等交易对。最近一周的贿赂金额约为9.3万美元，且每周的贿赂金额递增。贿赂的资金主要是稳定币USDC或USDR的封装版WUSDR，还有一部分为OP。
+
+
+类似的情况也出现在了BNB链的Thena上，最近一周，wUSDR/USDC交易对在Thena上支付的贿赂金额为3.5万美元，贿赂金额同样在持续上升，且全部通过稳定币USDC支付。
+
+这意味着Tangible在一周内支付了相当于其TVL（959万美元）1.3%的资金用于贿赂，以吸引流动性，如果支付贿赂的资金来源是铸造稳定币的储备金，这将是非常危险的。Tangible声称贿赂资金来源于项目收益，那么这是否可信，Tangible又有些什么业务呢？
+Tangible中主要有两种产品TNFT（Tangible non-fungible token，Tangible非同质化代币）市场和稳定币USDR。
+Tangible允许用户使用加密货币从供应商处购买商品，Tangible铸造TNFT发送给购买者，并将这个TNFT代表的实体物品存放在Tangible Custody处。TNFT的所有者可以转移、出售自己的资产，也可以兑换成实物。详细的流程如下所示。
+TNFT对应的实体资产可以是艺术品、葡萄酒、古董、金条、金条、房地产等流动性并不是很好的商品。
+另外，Tangible也提供碎片化服务（Tangible Fractions），TNFT的持有者可以指定价格出售持有的TNFT的一部分。如一款手表价值10万美元，TNFT的持有者可以4.2万美元的价格将手表40%的价值挂单出售。
+Tangible Custody负责从供应商处采购实体商品，并铸造TNFT，TNFT的所有者就是资产的所有者。Tangible称Tangible Custody将每年进行一次审计，涵盖商品来源、供应链的完整性和资金流动等，确保实物信息和铸造的TNFT对等。虽然官方称审计已经在进行中，但截至3月15日，Tangible Custody并未发布过任何审计报告。
+在以上系统的基础上，Tangible发行了一种稳定币Real USD（USDR），主要投资于通证化的房地产代币，并获得收益。从长期来看，房地产是持续升值的，投资的房地产会出租给租户，收益每天通过rebase的方式支付给USDR的持有人。
+USDR通常通过DAI 1:1铸造，但也有少量份额可通过Tangible的原生代币TNGBL铸造。可通过TNGBL铸造的USDR数量 =（已铸造的USDR数量-已赎回的USDR）*10%。
+
+铸造USDR的储备金中：
+也就是可以有10%的USDR可以用TNGBL 1:1的铸造，其余部分以DAI 1:1铸造。大部分储备金投资于Tangible房地产NFT，协议拥有的流动性仅占10%-20%。Tangible预计投资于房地产的年化收益率为5.22%，现在为了进行激励，还有10%的TNGBL奖励，持有USDR的收益率即可达到15.22%。
+由上可知，铸造USDR的储备金中，至少有60%的资金投向了房地产NFT或自身的TNGBL代币。Tangible持有少量DAI，以方便用户赎回，如果因为房地产或者TNGBL价格下跌，或者大户想要退出而没有流动性怎么办？Tangible持有的用于退出的流动性可能不够，但项目方早已为此想好了办法。
+如果Tangible中剩余的DAI耗尽，想要将USDR赎回的用户会1:1的收到pDAI。pDAI代表了对DAI 1:1的索取权，如果房地产TNFT卖出，剩余资金将转回国库，让用户赎回。
+如下图所示，Tangible官网数据显示，目前发行的USDR数量为782万，而协议拥有的总的资产为964万美元。项目中有182万美元的盈余，因此虽然每周支付大量稳定币用于贿赂以吸引流动性，Tangible也有理由说贿赂资金来源于利润。
+
+即使除去持有的TNGBL，Tangible的储备金仍然超过100%。可以认为该数据表明Tangible持有的房产NFT的升值超过了支付的贿赂。
+USDR的稳定币模式可以为稳定币设计提供一种思路，即底层持有能够生息的资产，稳定币的持有者可以获得收益，避免Circle这类中心化稳定币发行商自己获得资产收益又无法完全保障资金安全的情况。
+但是Tangible并没有强有力的背书，所有实物资产和发行TNFT的权限都由Tangible Custody自行控制，在官方给出强有力的证据之前，通过该项目购买TNFT有很高的交易对手风险，保持对该项目的怀疑可能是更好的选择。
+在USDR发行量只有782万的情况下，Tangible每周仅在Velodrome和Thena中支付的贿赂资金就约为12.8万美元。通过高额收益吸引用户用DAI 1:1地铸造USDR，这种情况可能是难以持续的。
+同样因为中心化问题，Tangible也可以操控Tangible Custody发行的TNFT的价格，以实现“超额储备”。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[读懂加密内存池：解决 MEV 和审查问题的全新设计空间]]></title>
+        <id>https://foresightnews.pro/article/detail/28256</id>
+        <link href="https://foresightnews.pro/article/detail/28256"/>
+        <updated>2023-03-16T02:42:29.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密内存池是解决 MEV 和审查问题的强大工具，目前已有多种可以单独使用的相关方案，并且也可以组合使用。加密基金 DBA 联创 Jon Charbonneau 撰文概述了以太坊研究员 Justin Drake 围绕加密内存池演讲所构建的设计空间。中文版本由 Foresight News 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/28256">https://foresightnews.pro/article/detail/28256</a></p>
+<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -211,6 +274,18 @@ https://notes.ethereum.org/@vbuterin/proto_danksharding_faq]]></summary>
 此前昨日消息，Cathie Wood表示，监管机构应关注银行系统，而非封锁运转良好的去中心化金融平台。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英国将从明年开始在税表中添加加密资产申报]]></title>
+        <id>https://www.gov.uk/government/publications/spring-budget-2023/spring-budget-2023-html</id>
+        <link href="https://www.gov.uk/government/publications/spring-budget-2023/spring-budget-2023-html"/>
+        <updated>2023-03-16T01:59:58.000Z</updated>
+        <summary type="html"><![CDATA[<h3>英国将从明年开始在税表中添加加密资产申报</h3>
+<p>据英国财政部发布的「2023 年春季预算案」文件显示，英国政府正在对自我评估报税表进行修改，要求对加密资产金额进行单独识别，纳税人在进行申报时必须将加密货币收入分割出来。这些变化计划从 2024 至 2025 纳税年度开始实施。据英国税务部门估计，今年预计有 1200 万人需要进行申报。此外，文件还显示，估计从 2025 至 2026 财政年度开始，该举措将会每年为英国带来 1000 万英镑（1200 万美元）的收入。</p>
+<p><a href="https://www.gov.uk/government/publications/spring-budget-2023/spring-budget-2023-html">内容来源</a></p><hr>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
