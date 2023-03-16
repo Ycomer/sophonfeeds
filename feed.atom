@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T03:41:01.204Z</updated>
+    <updated>2023-03-16T03:46:15.856Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[外媒：美FDIC拟于周五拍卖硅谷银行和Signature Bank，后者买家或须放弃加密业务]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/1r9383eb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/1r9383eb.html"/>
+        <updated>2023-03-16T03:36:45.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，据路透社报道，知情人士透露，美国联邦存款保险公司（FDIC）的监管人员要求有意收购破产的硅谷银行和Signature Bank的金融机构在3月17日（周五）之前提交报价。目标是将硅谷银行和Signature Bank全部出售。如果不能整体出售，也可以考虑出售这两家银行的部分股权。
+两位消息人士称，只有拥有现有银行牌照的竞标者才被允许在提交报价前研究银行的财务状况。据悉Signature Bank的买家必须同意放弃该银行的所有加密货币业务。当前美国联邦存款保险公司拒绝代表自己和硅谷银行置评，Signature Bank和负责此次拍卖的Piper Sandler亦均未立即回应置评请求。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[外媒：美FDIC拟于周五拍卖硅谷银行和Signature Bank，后者买家或须放弃加密业务]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/1r9383eb.html</id>
@@ -146,6 +157,19 @@ Paradigm的这些MKR大都来源于Maker: MultiSig地址的转入，并从2019�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[美 SEC 主席：权益证明代币应被视为证券，需要根据美国法律进行登记]]></title>
+        <id>https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities</id>
+        <link href="https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities"/>
+        <updated>2023-03-16T03:09:24.000Z</updated>
+        <summary type="html"><![CDATA[<h3>美 SEC 主席：权益证明代币应被视为证券，需要根据美国法律进行登记</h3>
+<p>美国交易委员会（SEC）主席 Gary Gensler 在被问及对上周美国商品期货交易委员会（CFTC ）主席 Rostin Behnam 声明的看法时表示，根据美国法律，权益证明代币应被视为证券。Gary Gensler 表示，代币持有者希望在质押中获得回报，这表明这些代币是证券，需要根据美国法律进行登记。
+此前美国商品期货交易委员会（CFTC）主席 Rostin Behnam 曾发布声明表示，「ETH 期货在 CFTC 市场上市并非巧合，进行分析后我们得出的结论是 ETH 是一种商品。」</p>
+<p><a href="https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>此前据华尔街日报报道，Gary Gensler 在以太坊完成合并之后表示，PoS 加密货币可能会受到联邦证券法规的约束。</p><a href="https://www.wsj.com/articles/ethers-new-staking-model-could-draw-sec-attention-11663266224">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Alameda向FTX高管进行的转账及贷款高达32亿美元]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/5qagf544.html</id>
         <link href="https://www.panewslab.com/zh/sqarticledetails/5qagf544.html"/>
@@ -254,7 +278,7 @@ USDR的稳定币模式可以为稳定币设计提供一种思路，即底层持�
         <updated>2023-03-16T02:42:29.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>加密内存池是解决 MEV 和审查问题的强大工具，目前已有多种可以单独使用的相关方案，并且也可以组合使用。加密基金 DBA 联创 Jon Charbonneau 撰文概述了以太坊研究员 Justin Drake 围绕加密内存池演讲所构建的设计空间。中文版本由 Foresight News 编译发布。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://foresightnews.pro/article/detail/28256">https://foresightnews.pro/article/detail/28256</a></p>
-<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr>]]></summary>
+<p><strong>文章作者：</strong></p><p>Jon Charbonneau</p><hr><h3>观点：</h3><p><strong>Jon Charbonneau：</strong>保证解密不依赖于用户的方法：1）In-flight：向某个信任的第三方私下发送数据，该第三方可以对数据进行解密和查看，并承诺在数据提交到链上之前不会公开披露， 用例包括 Flashbots Protect 等；2）可信硬件：明文可以在受信任的硬件中运行，但在提交交易前不会公开解密，例如 Flashbots SUAVE 的 SGX；3）门限加密 / 解密（TED）：一个委员会联合起来强制解密密文，但需要签名者达到一个门槛；</p><a href="https://foresightnews.pro/article/detail/28256">内容来源</a><p><strong>Jon Charbonneau：</strong>4）延迟加密 / 解密（DED）：将加密信息设置为在一定时间后自动解密，这是与 VDF 相关的顺序计算，可以结合使用 TED 使用；5）见证加密 / 解密（WED）：允许任意见证人强制解密密文，实际上是 TED 或 DED 的概括，甚至可以构建两者的混合体；</p><a href="https://foresightnews.pro/article/detail/28256">内容来源</a><p><strong>Jon Charbonneau：</strong>屏蔽各种元数据的解决方案：1）使用像 Tor 这样的服务私下广播并屏蔽 IP 地址；2）使用 SNARK 来证明签名有效；3）再次使用 SNARK 证明加密交易的发送方有足够的 ETH 进行费用支付；4）通过 SNARK 证明其随机数是之前的随机数 + 1；5）在加密之前向明文添加 0，将位数扩展为 2 的下一次幂；6）通过允许验证者进行「虚拟」交易来试图隐藏交易存在的泄漏。</p><a href="https://foresightnews.pro/article/detail/28256">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -9560,18 +9584,6 @@ AI 有三要素：数据，算法，算力。而由于 Web3 的经济模式和�
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>
 <p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[速览 PancakeSwap 近期更新与 V3 ：引入做市商、降低交易费用、激励交易量]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html"/>
-        <updated>2023-03-11T04:02:26.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>PancakeSwap 在近期进行了一系列更新，降低交易费用并希望能增加交易量。PANews 研究总监蒋海波撰文对其更新进行解读和总结，涵盖引入做市商执行交易、可能引入和 Uniswap V3 类似的流动性聚集功能、V3 的空投和 NFT 奖励三个方面。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">https://www.panewslab.com/zh/articledetails/ma1ef9hs.html</a></p>
-<p><strong>文章作者：</strong></p><p>蒋海波（PANews 研究总监）</p><hr><h3>观点：</h3><p><strong>蒋海波（PANews 研究总监）：</strong>1）引入做市商执行交易：更低的手续费和更好的兑换比例。此后，在 PancakeSwap 进行交易的时候，会自动对比原有的由 AMM 的 x*y=k 公式计算出的兑换比例和做市商给出的兑换比例，为用户选择更优路径进行交易。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>2）可能引入和 Uniswap V3 类似的流动性聚集功能。近期通过的「v3 产品的排放重定向提案」，Trading 的分配增加为 3.11 CAKE 每区块，Staking 的分配减少为 6.65 CAKE 每区块。按照提案中的说法，额外分配给 Trading 的每个区块 1 CAKE 的部分将「用于尚未发布的开发，这将显著增强 PancakeSwap 的交易量，以及其作为最佳多链 DEX 的地位」。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a><p><strong>蒋海波（PANews 研究总监）：</strong>3）空投和 NFT 奖励：推出了 13.5 万美元的 CAKE 和额外的 NFT 空投活动，奖励分配给不同层级的合格用户。用户必须在 3 月 5 日 13:00（UTC）之前在 PancakeSwap 中的 BUSD/WBNB、USDT/WBNB、BTCB/WBNB、ETH/WBNB 这四个流动性池中持有 500～20000 美元的流动性，且在 4 月 3 日 12:00 前不移除流动性。</p><a href="https://www.panewslab.com/zh/articledetails/ma1ef9hs.html">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
