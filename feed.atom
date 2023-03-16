@@ -2,10 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T05:54:11.917Z</updated>
+    <updated>2023-03-16T05:59:36.297Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[USDC脱锚影响后，重新思考DeFi的两种路径]]></title>
+        <id>https://www.panewslab.com/zh/articledetails/2hkxxwxb.html</id>
+        <link href="https://www.panewslab.com/zh/articledetails/2hkxxwxb.html"/>
+        <updated>2023-03-16T05:58:27.000Z</updated>
+        <summary type="html"><![CDATA[原标题：The USDC Depeg Implications on DeFi: Two Paths Forward
+作者：Ignas | DeFi Research
+编译：Felix
+USDC脱锚引发了对DeFi未来的重大担忧和质疑。由于DeFi生态系统严重依赖USDC，因此评估未来的潜在解决方案至关重要。
+对于DeFi，有两条路径：重塑品牌为“链上金融”或拥抱完全去中心化。
+DeFi依赖于稳定币、预言机和Web2基础设施等中心化组件，这使其容易受到潜在的政府打击。
+USDC本身被认为是最安全的抵押品，以至于Compound v2将USDC强行锚定为1美元。
+现在我们意识到，对USDC的信任最终取决于对TradFi银行系统和政府的信任。如果政府真的想关闭（大部分）DeFi，他们是能够做到的。
+
+目前，DeFi在每一层都意味着去中心化和去信任化，因此，即使是一个中心化的组件也会危及整个协议。通过将DeFi重新命名为链上金融，该行业可以在承认其中心化方面的同时保持自我托管、增加流动性、可组合性和单一的真实来源（不可逆交易）等关键优势。
+
+像FRAX这样的例子表明，项目可以在不完全接受去中心化的情况下转向链上金融。
+Frax的目标是其申请的美联储主账户（Fed Master Account）尽可能接近美联储，从而消除USDC和银行倒闭的风险，使FRAX成为最接近无风险的美元。
+
+即使有一些中心化的组件，像FRAX这样的项目仍然可以从DeFi基础设施中受益。
+
+这是因为DeFi生态系统可以成为最大程度免信任的环境，从而最大限度地减少人为干预的需要。
+以Uniswap为例：它的代码被设计成不可变的，这使得像FRAX这样的资产可以在不受任何审查的情况下在链上交易。
+但需要注意的是，Uniswap的前端用户界面仍然是中心化的，因此容易受到监管压力的影响。
+
+这凸显了DeFi项目必须在提供去中心化的好处和驾驭监管合规的复杂性之间取得微妙的平衡。
+因此，DeFi的所有元素和协议可能永远不会完全去中心化或抗审查，因此将USDC等代币视为风险资产并将DeFi视为链上金融有助于解决这种混乱和道德困境。
+第二种路径是让DeFi社区去掉中心化元素，变得像比特币一样完全去中心化。
+这将涉及用比特币(BTC)或以太坊(ETH)等抗审查抵押品取代USDC。稳定币协议Liquity的LUSD、Maker的DAI和Tornado Cash等项目就是这个方向的例证。
+LUSD
+稳定币协议Liquity的LUSD是一个用更去中心化方法的典型例子。
+在USDC崩盘期间，LUSD证明了其作为避险资产的价值，在市场动荡中提供了稳定性。这就像当前TradFi系统中的瑞士法郎。
+然而，重要的是要认识到，即使是更具去中心化属性的LUSD，也依赖于可以在极端情况下被操纵的价格预言机。
+
+资料来源：Blec ReportBlec 报告
+这凸显了DeFi项目在寻求完全去中心化同时，确保用户的安全性和可靠性方面面临的持续挑战和复杂性。
+DAI
+MakerDAO对DAI的愿景是将其打造为一种完全去中心化且公正的全球货币。
+为实现这一目标，Maker打算逐步停止使用最终形式的USDC等易于扣押的抵押品，以确保货币的基础更具弹性和安全性。如果需要，这需要放弃与美元挂钩。
+DeFi生态系统最近对USDC的严重依赖敲响了警钟，促使MakerDAO加快实现这一使命的努力。
+
+Tornado Cash
+Tornado Cash证明了实现完全去中心化是可能的，尽管成本很高。
+作为一种成功的隐私工具，Tornado Cash混淆了发送者和接收者的交易数据，并拥有2.47亿美元的TVL(总锁仓价值)。
+
+不幸的是，这种程度的去中心化让项目的开发者付出了高昂的代价，他们最终也因洗钱指控而面临牢狱之灾。
+去中心化的高成本
+Tornado Cash案例对DeFi生态系统提出了关键问题：
+虽然并非每个DeFi dApp都被监管机构视为威胁，但监管干预的可能性仍然是该行业一直存在的担忧。事实上，最近对稳定币的打击正在推动DeFi走向去中心化。
+随着DeFi领域的不断发展，在去中心化和合规性之间取得平衡对于这些项目的长期成功和可持续性至关重要。
+DAO 中的 D
+想象一下，如果美国政府要求将DAI列入黑名单。
+去中心化自治组织(DAO)，如Curve，允许无需许可的工厂池创建，将如何响应这样的要求？Aave呢？
+面对这样的困境，Curve DAO是选择在智能合约层面封杀DAI，还是冒着自己被列入黑名单的风险？
+在完全去中心化的错综复杂的环境中行事并非易事，因为项目必须仔细平衡其对去中心化的承诺，与应对潜在监管挑战和维持可持续生态系统的需要。
+实际上，整个DeFi生态系统还有第三条路径。
+DeFi有可能同时向两个方向发展，就像今天的互联网一样。虽然大多数用户通过受监管的服务访问互联网，但寻求隐私的个人可以使用暗网来提高匿名性。
+
+DeFi协议可能同样存在不同程度的去中心化和监管合规性。
+例如，Uniswap 界面可能会受到审查，阻止对特定代币的访问，但社区可以自由创建自己的UI，因为代码是不可变且非歧视性的。
+最近的USDC崩盘事件充分表明，DeFi并不像我们曾经想象的那样去中心化。但“DeFi”这个词已经根深蒂固，不太可能轻易被取代。
+尽管如此，DAO必须停止延续完全去中心化的幻想，并开始承认现实情况。从本质上讲，虽然我们继续使用“DeFi”一词，但我们应该注意它更准确地代表了链上金融的概念，它结合了去中心化和中心化的元素。
+从这些方面理解， DeFi社区可以努力建立一个更具弹性和透明的生态系统。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DVT开发商Obol：上海升级将如何影响Staking的未来？]]></title>
         <id>https://www.panewslab.com/zh/articledetails/jdpedh9e.html</id>
@@ -3344,97 +3411,6 @@ Capsule 于去年由 Layer 1 区块链 Celo 前产品负责人 Nitya Subramanian
 <p><a href="https://www.theblock.co/post/219723/a16z-invests-crypto-wallet-capsule">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“USDC脱锚事件”反思：我们到底需要什么样的稳定币？]]></title>
-        <id>https://www.panewslab.com/zh/articledetails/869hc8yxi007.html</id>
-        <link href="https://www.panewslab.com/zh/articledetails/869hc8yxi007.html"/>
-        <updated>2023-03-15T05:30:15.000Z</updated>
-        <summary type="html"><![CDATA[每一轮周期的叙事都不一样，如果说上一轮牛市中，核心叙事是DeFi以及分布式存储Filecoin。
-那么这一轮可能爆发的点有以下几个方面：ZK板块；Arb板块；Polygon生态；BTC二层；稳定币；LSD。
-前几期，veDAO给大家带来了一系列关于BTC生态的解读，这一次，veDAO将从稳定币的角度对这个行业进行思考。
-上个周末，最大跌眼镜的消息无过于硅谷银行的倒闭。关于硅谷银行倒闭的更多内容，VeDAO研究院将在另一篇文章中展示，本文将从稳定币的角度重点探讨经济危机时代，稳定币的发展业态。
-但首先，我们需要先从什么是稳定币这个概念开始。
-稳定币（StableCoins）是加密货币的一种表现方式，其价值往往与现实世界主流法定货币相锚定，同时也使得稳定币具有了其他加密货币不具有的价值稳定性。这种稳定性使它们对想要对冲其他加密货币波动性的投资者和交易者具有吸引力。
-然而，这些代币本身并不能避免波动，当遇到巨大黑天鹅事件时，稳定币也会与挂钩货币出现脱钩现象。这意味着它们会偏离其挂钩价值。
-目前常见的稳定币种类有三种：
-法币稳定币：USDT、USDC、BUSD为主
-去中心化稳定币：以DAI为主
-算法稳定币：2022年经典“黑天鹅”LUNA就是典型代表。
-一直以来，算法稳定币作为一个新兴概念，一直受到行业的关注，但诸如LUNA、UST等生命周期均不长久，因此本文将主要讨论前两种稳定币的模式。
-据dune数据，目前在稳定币赛道，占据主导地位的依旧是法币稳定币。
-如上图，USDT+USDC+BUSD已经达到整个稳定币市场的81.4%。尽管法币稳定币势力强大，但近年来也接连遭遇现实世界的干预。就在上个月，稳定币之一的BUSD被美国监管机构以“被定义为证券”的理由叫停，并开始审查其背后的发行方Paxos。
-然而，更加严峻的事情还在后面。上文所说的硅谷银行暴雷事件，也直接引发了法币稳定币与美元的脱钩热潮，并由此带来了市场对稳定币的巨大不信任感。
-USDC发行人Circle于3月10日宣布，USDC已与美元脱钩，其400亿美元的USDC储备中约有33亿美元存放在现已倒闭的硅谷银行。受脱钩事件影响，USDC与未脱钩稳定币USDT汇率一度跌破0.9，最低降至0.85。鉴于USDC的附带影响，其他稳定币纷纷效仿美元脱钩。
-不仅如此，由USDC引发脱钩热潮也延展到了去中心化稳定币领域。MakerDAO基于以太坊协议发行的去中心化稳定币DAI，也与美元出现短时间的脱钩。
-
-尽管USDC和DAI在短暂脱钩之后，迅速修复了与美元的汇率，但由此引发的市场对于稳定币的不信任感则愈发加重。甚至有许多用户调侃：「尽管我们一直怀疑USDT的真实价值抵押情况，但现在看来，USDT is Always King。」
-旧有的USDC和DAI出现了脱钩，没有脱钩的USDT则一直无法证明自己的代币有足额的现金抵押。在老牌稳定币陷入信任危机的同时，我们不妨把目光转向新兴的去中心化稳定币项目。
-
-基本信息：
-官网：https://hope.money/
-推特：https://twitter.com/hope_ecosystem
-简介：HOPE是一个去中心化的稳定币，其代币$HOPE的底价将随着BTC和ETH的价格浮动，从0.5美元左右开始。HOPE生态包括HopeSwap、HopeLend、HopeConnect 与 HopeEcho四个协议，提供交易、借贷、衍生品、合成资产功能。
-详细说明：
-HOPE经济模型：
-$HOPE：是生态系统的由储备支持的原生定价代币，将以0.5美元的折扣价推出，并随着加密货币市场的复苏逐渐实现挂钩。
-$stHOPE：是$HOPE质押的代币化表示。通过质押，用户可以在生态中使用HopeSwap、HopeLend、HopeConnect、HopeEcho等应用。此外，用户还能通过质押$HOPE，可获得$stHOPE，并通过持有$stHOPE来获得$LT奖励。
-$LT：是HOPE生态的激励与治理代币，用来激励用户，参与HOPE生态并进行治理。
-veLT：是$LT在行使治理权时，投票锁定的代币化表示，veLT持有者可以获得$LT奖励加成，并可以对治理提案进行投票，决定包括$HOPE货币 政策 、Teasury政策和协议收入分配在内的诸多关键议题。
-HOPE生态：
-HOPE生态系统将包含4个主要协议，围绕$HOPE与$stHOPE提供包括兑换、借贷、保证金在内的一整套完整且丰富的应用场景，并通过$LT激励用户参与生态应用与社区治理。
-HopeSwap：是一个建立在以太坊上的AMM Swap，是用户通往HOPE生态的门户。用户可以在$HOPE、$stHOPE、$LT和其他资产之间进行快速交易，或为交易对提供流动性，以获得$LT奖励和手续费分成。
-HopeLend：是一个多流动性池非托管借贷协议。贷款人可以通过存入流动性，以赚取利息；而借款人则可以提供抵押资产，获得超额抵押借贷。
-HopeConnect：作为业内首创的DeFi创新协议，让用户无需进行中心化资产托管，便可以通过HopeConnect在顶级CEX上交易衍生品。
-HopeEcho：追踪真实世界资产（ RWA ）价格的合成资产，包括股票指数、固定收益工具、商品、外汇等，降低获取TradFi服务的门槛。
-运行逻辑：
-基本信息：
-官网：https://www.angle.money/
-推特：https://twitter.com/AngleProtocol
-简介：Angle是一种去中心化、资本高效和超额抵押的稳定币协议，由运行在开放区块链上的智能合约组成。Angle 的去中心化解决方案弥补了当前方法的缺陷，并充分利用了中心化和去中心化协议的长处，它还具有超额抵押设计所带来的稳健性，同时保持与低抵押设计类似的资本效率。Angle于2022年11月上线，截止目前，其代币$Angle市值约为6700万美元。
-详细说明：
-Angle经济模型：
-veANGLE：veANGLE代表“投票托管”ANGLE，是Angle协议的治理代币。ANGLE的代币经济学于2022年1月进行了升级，能够将ANGLE锁定为veANGLE，使它成为了一个基于Curve的veCRV和Frax的veFXS机制的归属和收益系统。veANGLE的关键属性，除了作为治理代币之外，还在于它不可转让且不在流动市场上交易。
-Angle运行逻辑：Angle通过让人们以1:1的比率交换稳定资产和稳定资产的抵押品，以1:1的比率进行交换：1欧元的抵押品，你可以获得1个稳定币，1个稳定币，你总是可以赎回1欧元的价值的抵押品。
-该协议涉及3组，在其他DeFi协议中很常见，它们都受益于Angle：
-铸造、使用或销毁稳定资产的稳定寻求者和持有者（或用户）
-对冲代理(HA) 可以在协议的一笔交易中以永续期货的形式获得链上杠杆，并通过这样做确保协议免受其抵押品的波动。
-标准流动性提供者(SLP)，他们为协议带来额外的抵押品，并自动赚取利息、交易费用和奖励。
-Angle将能够支持许多不同的稳定币，每种稳定币都有不同的抵押品类型。它将以由USDC和DAI支持的稳定欧元开始。
-基本信息：
-官网：https://app.reflexer.finance/
-推特：https://twitter.com/reflexerfinance
-简介：Reflexer是一个可以使用加密货币抵押品来发行非挂钩稳定资产的平台。RAI是此类资产中的第一种，和最初的DAI一样，它只由ETH超额抵押生成，并有一个由链上PI控制器计算的本地资金利率来对应复杂的市场状态，以此来推动RAI的市场价格向赎回价格收敛。
-详细说明：
-RAI/USD的汇率由其供求关系所决定，协议会试图通过不断地贬值或重估其价值来稳定RAI的价格。供应和需求机制在SAFE用户（用ETH生成RAI的用户）和RAI持有人两方之间进行。
-相较于市面上其他的稳定币，RAI提出了一个新的概念：赎回机制。RAI使用一个链上PI控制器来设置其赎回价格的变化率，称为赎回率，以年化利率表示。通过对赎回率的调节，RAI能够精确的控制市场中稳定币的供给数量，进而让RAI的价格贴近系统设定的理想价格。
-RAI的货币政策由四个要素组成：
-赎回价格：RAI协议提前制定的代币预期价格。
-市场价格：RAI在二级市场的实际交易价格。
-赎回率：RAI贬值计算。
-当RAI的市场价格>赎回价格持续一段时间时，赎回率将变为负值。
-当RAI的市场价格<赎回价格持续一段时间时，赎回率将变为正值。
-全球结算：关闭协议，用户赎回抵押品。
-优劣对比：
-优势：不锚定1美元，协议可以根据RAI市场价格的变化对RAI进行贬值或重估；遭遇风险损失较小。
-劣势：受众太窄，以至于直到现在都没有被市场青睐；流动性稀缺，也是无法扩大市场的重要原因。
-以上三款去中心化稳定币项目，均是市场上新兴、或者潜力尚未被发现的稳定币生态。事实上，当前基于去中心化稳定币的叙事已经足够繁荣。除上述三种之外，包括LUSD、FRAX、KAVA、MIM、HAY等一种稳定币项目同样值得关注。
-毕竟，尽管去中心化稳定币当前市场占有率较低，且同样无法规避现实黑天鹅的影响。但某种程度上，随着全球经济环境的恶化，全球进入存量博弈，黑天鹅的事件会越来越多。这时候，没有铸币权、饱受中心化威胁的法币稳定币，就未必是一个很好的选择了。
-而目前尚处于发展早期的去中心化稳定币，则在叙事上拥有更大程度的想象空间。
-参考资料：
-1.CeFi屡遭重创，分布式稳定币$HOPE如何取长补短？
-链接：https://m.mytoken.io/news/428359
-2.RAI：Vitalik 眼中的去中心化稳定币“理想型
-链接：https://mp.weixin.qq.com/s/_-bJhDcQwoDKMMY1J3QNJA
-3.刚获 a16z 领投的去中心化稳定币协议 Angle 有何设计亮点？
-链接：https://www.bitpush.news/articles/1817404
-4.一文详解去中心化稳定币的现状与未来
-链接：https://www.odaily.news/post/5184608
-5.Stability without Pegs
-链接：https://medium.com/reflexer-labs/stability-without-pegs-8c6a1cbc7fbd]]></summary>
-        <author>
-            <name>PANews News</name>
         </author>
     </entry>
     <entry>
