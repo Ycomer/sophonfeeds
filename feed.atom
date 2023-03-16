@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T06:46:35.867Z</updated>
+    <updated>2023-03-16T06:51:47.645Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -14,6 +14,30 @@
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Mirror 推出的新功能 Subscribe to Mint，可以帮助创作者们将自己订阅者们的身份转化成持有人，从而帮助创作者们创造出一个积极参与的 Web3 社区。BlockBeat 作者 Jaleel 就 Subscribe To Mint 能否帮助 Mirror 突破变现难题展开讨论。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35625">https://www.theblockbeats.info/news/35625</a></p>
 <p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>截至 2022 年底，Mirror 创收占比最大的两个模块是众筹和拍卖功能，写作 NFT 则仅有 210.43 ETH，占比 2%。写作 NFT 并没有为创作者带来可观收益，创收主体依旧是众筹事件。写作 NFT 功能遇冷的最大问题，在于所有权和社交属性的模糊设计。</p><a href="https://www.theblockbeats.info/news/35625">内容来源</a><p><strong>BlockBeats：</strong>基于 Subscribe to Mint 功能，收藏家需要使用他们的电子邮件订阅创作者的 Mirror 出版物，为创作者引导一个沟通渠道，以定期与收藏家互动。使创作者变得更强大的同时也能使创作者和社区的联结更深入。通过对 web3 上的大大小小的项目进行新功能测试，已经可以证明 Subscribe to Mint 的成功。</p><a href="https://www.theblockbeats.info/news/35625">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mirror 的 Subscribe to Mint 能否改变 Web3 创作者经济的困局？]]></title>
+        <id>https://www.theblockbeats.info/news/35625</id>
+        <link href="https://www.theblockbeats.info/news/35625"/>
+        <updated>2023-03-16T06:41:41.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Mirror 推出的新功能 Subscribe to Mint，可以帮助创作者们将自己订阅者们的身份转化成持有人，从而帮助创作者们创造出一个积极参与的 Web3 社区。BlockBeat 作者 Jaleel 就 Subscribe To Mint 能否帮助 Mirror 突破变现难题展开讨论。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.theblockbeats.info/news/35625">https://www.theblockbeats.info/news/35625</a></p>
+<p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>截至 2022 年底，Mirror 创收占比最大的两个模块是众筹和拍卖功能，写作 NFT 则仅有 210.43 ETH，占比 2%。写作 NFT 并没有为创作者带来可观收益，创收主体依旧是众筹事件。写作 NFT 功能遇冷的最大问题，在于所有权和社交属性的模糊设计。</p><a href="https://www.theblockbeats.info/news/35625">内容来源</a><p><strong>BlockBeats：</strong>基于 Subscribe to Mint 功能，收藏家需要使用他们的电子邮件订阅创作者的 Mirror 出版物，为创作者引导一个沟通渠道，以定期与收藏家互动。使创作者变得更强大的同时也能使创作者和社区的联结更深入。通过对 web3 上的大大小小的项目进行新功能测试，已经可以证明 Subscribe to Mint 的成功。</p><a href="https://www.theblockbeats.info/news/35625">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】解读收益交易：如何通过 Pendle 实现收益率最大化？]]></title>
+        <id>https://twitter.com/ipor_intern/status/1635979419457298441</id>
+        <link href="https://twitter.com/ipor_intern/status/1635979419457298441"/>
+        <updated>2023-03-16T06:28:48.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>收益交易其实是一个很简单的概念。加密研究员 ipor_intern 以 Pendle 为例，解读了什么是收益交易，Pendle V2 AMM 有什么特别之处，又是如何实现收益交易的？并给出了四种可利用的收益交易策略。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/ipor_intern/status/1635979419457298441">https://twitter.com/ipor_intern/status/1635979419457298441</a></p>
+<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>收益交易就是通过一些策略增加或减少你对相关收益率的风险。例如 Pendle 允许用户折价购买资产，做多做空收益率及低风险固定收益。这是通过剥离收益来实现的，用户将收益资产存入协议后被分为两个部分：本金（PT）和基础资产收益（YT）。通过持有 PT，用户可以在到期后赎回本金，通过持有 YT，用户持续收到收益。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1635979419457298441">内容来源</a><p><strong>ipor_intern：</strong>AMM 专为交易收益率设计的，允许用户利用 PT 和 YT 的行为。单 PT/SY（PT + YT） 池中，用户可以针对基础资产买入或卖出 PT 从而促进 YT 和 PT 之间的互换。AMM 随着时间的推移，收益的多少而变化，并在接近到期时缩小 PT 价格范围。且 Pendle V2 AMM 是以 Notional AMM 为模型，允许为每个池子设置两个自定义参数：标量根和初始速率锚，可以将流动性集中在特定范围内。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1635979419457298441">内容来源</a><p><strong>ipor_intern：</strong>策略：1）购买 PT 对冲收益风险，将 APY 锁定在当前隐含收益的方式，保证在到期后获得相关资产；2）购买 YT 增加对相关资产的收益风险，可选择任何时候出售；3）在持有 PT 和持有 YT 之间切换以让相关资产年收益率最大化；4）向 Pendle 池子提供流动性以从互换费用和奖励中获得额外收入。【原文为英文】</p><a href="https://twitter.com/ipor_intern/status/1635979419457298441">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -154,6 +178,18 @@ Web3与AI的结合有着非常巨大的想象空间，一方面，AI可以通过
 链接：https://foresightnews.pro/article/detail/19470]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[深挖链上数据，Arbitrum 的收入和资金流向了哪些协议？]]></title>
+        <id>https://www.odaily.news/post/5185759</id>
+        <link href="https://www.odaily.news/post/5185759"/>
+        <updated>2023-03-16T06:01:05.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>为了深入了解 Arbitrum 的收入和资金流向，数据分析师 Defi_mochi 使用数据开发工具 Flipside 分析了所有 DefiLlama 上 Arbitrum 的数据。本文由 Odaily 整理编译。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.odaily.news/post/5185759">https://www.odaily.news/post/5185759</a></p>
+<p><strong>文章作者：</strong></p><p>Odaily</p><hr><h3>观点：</h3><p><strong>armnio.eth：</strong>根据 DefiLlama 数据，Arbitrum 的手续费市场份额有 70% 被 GMX 压倒性地占据，Gains Network 在 12 月下旬推出后也已经占据了 7% 的手续费。Arbitrum 自己收取的费用占比 11.25%</p><a href="https://www.odaily.news/post/5185759">内容来源</a><p><strong>Odaily：</strong>根据 DefiLlama 数据，Arbitrum 的手续费市场份额有 70% 被 GMX 压倒性地占据，Gains Network 在 12 月下旬推出后也已经占据了 7% 的手续费。Arbitrum 自己收取的费用占比 11.25%</p><a href="https://www.odaily.news/post/5185759">内容来源</a><p><strong>Odaily：</strong>根据 Arbitrum 上的每个协议的月度费用数据表发现：Lyra，与 GMX 集成的期权协议，上个月，它的费用增加 276% 。 ZyberSwap，结合 Uniswap V2 和 Curve 的 DEX ，上个月费用增加 556%。Arbitrum，上个月费用增加 114%。</p><a href="https://www.odaily.news/post/5185759">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -310,6 +346,31 @@ DeFi协议可能同样存在不同程度的去中心化和监管合规性。
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Eigenlayer 是下一个 degen 项目，还是又一个宏大的假故事？其创始团队在 a16z 的平台上发了关于罚没经济学（slash）的论文，宣扬采用 ETH 来保卫网络安全，引起了市场的关注。加密货币 KOL armnio.eth 认为 Eigenlayer 解决的安全问题不是刚性的。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/armonio_liang/status/1634777326767439872">https://twitter.com/armonio_liang/status/1634777326767439872</a></p>
 <p><strong>文章作者：</strong></p><p>armnio.eth</p><hr><h3>观点：</h3><p><strong>armnio.eth：</strong>安全问题是水桶效应。一个产品的安全性是由其最短板决定的，而非最长的。目前区块链产品安全的短板不在共识层。PoS 链运行已久，在黑客事件高发的区块链世界，我们可曾见过一起链级的安全事故？因为 PoS 链上资产的安全的实现是通过一系列机制，我们常出的安全问题不来自于节点作恶。</p><a href="https://twitter.com/armonio_liang/status/1634777326767439872">内容来源</a><p><strong>armnio.eth：</strong>因此 Eigenlayer 加强了本就是长板的安全，却没有提供短板的解决方案。虽然，我们知道安全的问题服从墨菲定律，有可能发生，就一定发生。但从目前的实际情况看，它解决的问题不是刚性的。</p><a href="https://twitter.com/armonio_liang/status/1634777326767439872">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】观点：Eigenlayer 加强了本就是长板的安全，却没有提供短板的解决方案]]></title>
+        <id>https://twitter.com/armonio_liang/status/1634777326767439872</id>
+        <link href="https://twitter.com/armonio_liang/status/1634777326767439872"/>
+        <updated>2023-03-16T05:53:31.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Eigenlayer 是下一个 degen 项目，还是又一个宏大的假故事？其创始团队在 a16z 的平台上发了关于罚没经济学（slash）的论文，宣扬采用 ETH 来保卫网络安全，引起了市场的关注。加密货币 KOL armnio.eth 认为 Eigenlayer 解决的安全问题不是刚性的。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/armonio_liang/status/1634777326767439872">https://twitter.com/armonio_liang/status/1634777326767439872</a></p>
+<p><strong>文章作者：</strong></p><p>armnio.eth</p><hr><h3>观点：</h3><p><strong>armnio.eth：</strong>安全问题是水桶效应。一个产品的安全性是由其最短板决定的，而非最长的。目前区块链产品安全的短板不在共识层。PoS 链运行已久，在黑客事件高发的区块链世界，我们可曾见过一起链级的安全事故？因为 PoS 链上资产的安全的实现是通过一系列机制，我们常出的安全问题不来自于节点作恶。</p><a href="https://twitter.com/armonio_liang/status/1634777326767439872">内容来源</a><p><strong>armnio.eth：</strong>因此 Eigenlayer 加强了本就是长板的安全，却没有提供短板的解决方案。虽然，我们知道安全的问题服从墨菲定律，有可能发生，就一定发生。但从目前的实际情况看，它解决的问题不是刚性的。</p><a href="https://twitter.com/armonio_liang/status/1634777326767439872">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加密货币安全公司 Staging Labs 完成 110 万美元融资]]></title>
+        <id>https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/</id>
+        <link href="https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/"/>
+        <updated>2023-03-16T05:51:14.000Z</updated>
+        <summary type="html"><![CDATA[<h3>加密货币安全公司 Staging Labs 完成 110 万美元融资</h3>
+<p>据 TechCrunch 报道，加密货币安全公司 Staging Labs 完成 110 万美元融资参投方包括 The General Partnership、Flourish Ventures、NGC Ventures、AlphaGrep、Gaingels、a16z、Kleiner Perkins 和 Greylock，个人投资者包括来自 ConsenSys、Coinbase、Anchorage Digital、Chainalysis、QuickNode、Merkle Science 等的投资人。
+Staging Labs 推出了安全产品 Saferoot，该产品能够在发现有风险的交易时自动将钱包内资产转移至备份安全钱包。Staging Labs 计划向用户收取订阅费和成功追回的资产的一定比例来获取收入。</p>
+<p><a href="https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
@@ -967,6 +1028,18 @@ Paradigm的这些MKR大都来源于Maker: MultiSig地址的转入，并从2019�
 <p>美国交易委员会（SEC）主席 Gary Gensler 在被问及对上周美国商品期货交易委员会（CFTC ）主席 Rostin Behnam 声明的看法时表示，根据美国法律，权益证明代币应被视为证券。Gary Gensler 表示，代币持有者希望在质押中获得回报，这表明这些代币是证券，需要根据美国法律进行登记。
 此前美国商品期货交易委员会（CFTC）主席 Rostin Behnam 曾发布声明表示，「ETH 期货在 CFTC 市场上市并非巧合，进行分析后我们得出的结论是 ETH 是一种商品。」</p>
 <p><a href="https://www.theblock.co/post/220297/gensler-suggests-proof-of-stake-tokens-are-securities">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>此前据华尔街日报报道，Gary Gensler 在以太坊完成合并之后表示，PoS 加密货币可能会受到联邦证券法规的约束。</p><a href="https://www.wsj.com/articles/ethers-new-staking-model-could-draw-sec-attention-11663266224">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT 市场 Formfunction 宣布将于 3 月 29 日关闭，一年前曾完成 470 万美元融资]]></title>
+        <id>https://www.blog.formfunction.xyz/blog/message-from-formfunction</id>
+        <link href="https://www.blog.formfunction.xyz/blog/message-from-formfunction"/>
+        <updated>2023-03-16T02:49:22.000Z</updated>
+        <summary type="html"><![CDATA[<h3>NFT 市场 Formfunction 宣布将于 3 月 29 日关闭，一年前曾完成 470 万美元融资</h3>
+<p>Solana 生态 NFT 市场 Formfunction 宣布将于 3 月 29 日关闭，用户仍然拥有 NFT 的完全所有权。Formfunction 专注于独立艺术家和创作者，曾于 2022 年 3 月完成由 Variant Fund 领投，OpenSea Ventures 等参投的 470 万美元融资。Formfunction 称：经过多方讨论和慎重考虑，我们得出的结论是不能继续运行 Formfunction。我们将继续维护 Formfunction 直到 3 月 29 日。该日期之后，用户将无法再访问我们的网站。</p>
+<p><a href="https://www.blog.formfunction.xyz/blog/message-from-formfunction">内容来源</a></p><hr>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>

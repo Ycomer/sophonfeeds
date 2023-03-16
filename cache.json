@@ -57,7 +57,7 @@
           "description": "<h3>加密货币安全公司 Staging Labs 完成 110 万美元融资</h3>\n<p>据 TechCrunch 报道，加密货币安全公司 Staging Labs 完成 110 万美元融资参投方包括 The General Partnership、Flourish Ventures、NGC Ventures、AlphaGrep、Gaingels、a16z、Kleiner Perkins 和 Greylock，个人投资者包括来自 ConsenSys、Coinbase、Anchorage Digital、Chainalysis、QuickNode、Merkle Science 等的投资人。\nStaging Labs 推出了安全产品 Saferoot，该产品能够在发现有风险的交易时自动将钱包内资产转移至备份安全钱包。Staging Labs 计划向用户收取订阅费和成功追回的资产的一定比例来获取收入。</p>\n<p><a href=\"https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/",
           "publishedOn": "2023-03-16T05:51:14.000Z",
-          "wordCount": 8180,
+          "wordCount": 7276,
           "title": "加密货币安全公司 Staging Labs 完成 110 万美元融资",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-655147030.jpg?resize=1200,800"
         },
@@ -97,7 +97,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>与其他虚拟机和物理机在架构上不同，以太坊虚拟机（EVM）需要特定领域的语言（DSL）。加密研究员 jtriley.eth 对 EVM DSL 设计技术现状进行了分析解读，包括 Solidity、Vyper、Fe、Huff、Yul 和 ETK。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">https://jtriley.substack.com/p/ethereum-virtual-machine-language</a></p>\n<p><strong>文章作者：</strong></p><p>jtriley.eth</p><hr><h3>观点：</h3><p><strong>jtriley.eth：</strong>1）Solidity：使用了面向对象的模式，其中智能合约被视为类对象，利用多重继承的优势。编译器是用 C++ 编写的，并计划在未来的版本中迁移到 Rust。Solidity 还具有库的功能，且指定了一个应用二进制接口（ABI）标准用于合约对接，也提供内联 Yul 模块允许对 EVM 指令集进行低级访问；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>2）Vyper：类似 Python 的高级语言，第二大流行的 EVM DSL，不采用面向对象的模式及内联汇编。但 Vyper 编译器选择将局部变量存储在内存中而非堆栈，使得合约更简单有效。且其实现了更多内置函数。虽然没有广泛的开发者工具套件，但其有更紧密的集成工具可以插入至 Solidity 开发者工具中；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>3）Fe：类似 Rust 语法的高级语言，目前还在积极开发中，使用 Yul 作为 IR 且依靠 Yul 优化器，不支持内联汇编。Fe 有望让开发者编写的代码更安全；4）Huff：汇编语言，具有手动堆栈控制和对 EVM 指令集的最小抽象，编译器最初由 Aztec 团队编写，随后用 Typescript 重写，最终选择使用 Rust 重写；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>5）ETK：具有手动堆栈管理和最少的抽象，编译器使用 Rust 编写，其和 Huff 之间的区别是 Huff 为 initcode 增加了构造器代码。ETK 支持表达式宏和指令宏；6）Yul：Solidity 工具链的一部分，可以选择在 Solidity 编译管道中使用，不支持代码重用，编译器是用 C++ 编写的，并计划与 Solidity 其他部分一起迁移到 Rust。【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a>",
           "link": "https://jtriley.substack.com/p/ethereum-virtual-machine-language",
           "publishedOn": "2023-03-16T03:37:20.000Z",
-          "wordCount": 10720,
+          "wordCount": 10514,
           "title": "【英文】6 大以太坊虚拟机领域特定语言设计解读：Solidity、Vyper、Fe......",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a6ec8d7-cd97-4971-bf30-1ed12f8f829c_1024x1024.png"
         },
@@ -157,7 +157,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20522,
+          "wordCount": 20518,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -297,7 +297,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19507,
+          "wordCount": 19492,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
@@ -587,7 +587,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1989,
+          "wordCount": 1783,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -607,7 +607,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2252,
+          "wordCount": 2046,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -657,7 +657,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7554,
+          "wordCount": 7552,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -707,7 +707,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1283,
+          "wordCount": 1077,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -857,7 +857,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1720,
+          "wordCount": 1725,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -877,7 +877,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17811,
+          "wordCount": 17751,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
