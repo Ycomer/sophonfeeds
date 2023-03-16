@@ -27,7 +27,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>与其他虚拟机和物理机在架构上不同，以太坊虚拟机（EVM）需要特定领域的语言（DSL）。加密研究员 jtriley.eth 对 EVM DSL 设计技术现状进行了分析解读，包括 Solidity、Vyper、Fe、Huff、Yul 和 ETK。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">https://jtriley.substack.com/p/ethereum-virtual-machine-language</a></p>\n<p><strong>文章作者：</strong></p><p>jtriley.eth</p><hr><h3>观点：</h3><p><strong>jtriley.eth：</strong>1）Solidity：使用了面向对象的模式，其中智能合约被视为类对象，利用多重继承的优势。编译器是用 C++ 编写的，并计划在未来的版本中迁移到 Rust。Solidity 还具有库的功能，且指定了一个应用二进制接口（ABI）标准用于合约对接，也提供内联 Yul 模块允许对 EVM 指令集进行低级访问；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>2）Vyper：类似 Python 的高级语言，第二大流行的 EVM DSL，不采用面向对象的模式及内联汇编。但 Vyper 编译器选择将局部变量存储在内存中而非堆栈，使得合约更简单有效。且其实现了更多内置函数。虽然没有广泛的开发者工具套件，但其有更紧密的集成工具可以插入至 Solidity 开发者工具中；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>3）Fe：类似 Rust 语法的高级语言，目前还在积极开发中，使用 Yul 作为 IR 且依靠 Yul 优化器，不支持内联汇编。Fe 有望让开发者编写的代码更安全；4）Huff：汇编语言，具有手动堆栈控制和对 EVM 指令集的最小抽象，编译器最初由 Aztec 团队编写，随后用 Typescript 重写，最终选择使用 Rust 重写；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>5）ETK：具有手动堆栈管理和最少的抽象，编译器使用 Rust 编写，其和 Huff 之间的区别是 Huff 为 initcode 增加了构造器代码。ETK 支持表达式宏和指令宏；6）Yul：Solidity 工具链的一部分，可以选择在 Solidity 编译管道中使用，不支持代码重用，编译器是用 C++ 编写的，并计划与 Solidity 其他部分一起迁移到 Rust。【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a>",
           "link": "https://jtriley.substack.com/p/ethereum-virtual-machine-language",
           "publishedOn": "2023-03-16T03:37:20.000Z",
-          "wordCount": 10512,
+          "wordCount": 10514,
           "title": "【英文】6 大以太坊虚拟机领域特定语言设计解读：Solidity、Vyper、Fe......",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a6ec8d7-cd97-4971-bf30-1ed12f8f829c_1024x1024.png"
         },
@@ -77,7 +77,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20506,
+          "wordCount": 20501,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -157,7 +157,7 @@
           "description": "<h3>Cosmos Hub 已完成 Lambda 升级，正式上线「Replication Security」</h3>\n<p>Cosmos Hub 已在区块高度 14470501 处实施 Lambda 升级，正式上线「Replication Security」。Lambda 升级是 Replicated Security 的第一次迭代，将允许 Consumer Chains 从 Cosmos Hub 的验证者集的使用中受益，而无需单独维护自己的验证者集。Consumer Chains 将受益于额外的安全性，而 ATOM 质押者将受益于 Consumer Chains 产生的一定比例的代币或费用作为质押奖励。</p>\n<p><a href=\"https://t.co/cJymJhwsDe\">内容来源</a></p><hr>",
           "link": "https://t.co/cJymJhwsDe",
           "publishedOn": "2023-03-15T09:17:24.000Z",
-          "wordCount": 1958,
+          "wordCount": 1956,
           "title": "Cosmos Hub 已完成 Lambda 升级，正式上线「Replication Security」",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*1c3iCWi3S1AW-LmwpB1Jlg.jpeg"
         },
@@ -697,7 +697,7 @@
           "description": "<h3>Aztec 宣布关闭 Aztec Connect，建议用户尽快提款</h3>\n<p>基于 ZK Rollup 的隐私和扩容解决方案 Aztec Network 宣布关闭隐私基础设施 Aztec Connect。自北京时间 2023 年 3 月 21 日 22 时起，将停止从 zk.money 和其他前端（如 zkpay.finance）存入 Aztec Connect 合约，\t2024 年 3 月 21 日为官方运行的最后提款日，Aztec 将发布最后一个 Aztec rollup。Aztec 表示，整个 Aztec Connect 协议已开源，官方鼓励 Aztec 社区分叉协议并将提供资金支持。未来，Aztec 的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。</p>\n<p><a href=\"https://medium.com/aztec-protocol/sunsetting-aztec-connect-a786edce5cae\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>Aztec Network 的相关负责人在社群回应称：「关停 Aztec Connect 的决定主要出于商业考虑，没有任何监管机构与团队联系。Aztec Connect 的隐私性导致了设计中的一些问题，增加了维护成本。公司正专注于下一代版本的协议，将支持完全可编程的智能合约，默认情况下具有隐私性。考虑到新项目的规模，需要我们专注所有工程资源来完成它…… 我们仍然专注于 L2 Rollup 且从未建立 L1，战略从未变化只是正在进入下一个阶段。」</p>",
           "link": "https://medium.com/aztec-protocol/sunsetting-aztec-connect-a786edce5cae",
           "publishedOn": "2023-03-13T06:46:45.000Z",
-          "wordCount": 3264,
+          "wordCount": 3262,
           "title": "Aztec 宣布关闭 Aztec Connect，建议用户尽快提款",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*tJ35TUJdi_Myry-NgblnRg.png"
         },
@@ -777,7 +777,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1709,
+          "wordCount": 1725,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -957,7 +957,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ParaSpace 上线仅两个多月便持续在 NFT 借贷赛道保持 TVL 第二名的位置，金色财经编辑 Jessy 解读了 ParaSpace 如何借势 Ape Staking 突围，并创新抵押方式留存用户，超越一众老牌 NFT 借贷项目。并对 NFT 借贷的未来进行展望，认为随着 NFT 借贷市场规模的扩大，或许传统金融与去中心化金融之间的差距将不断缩小。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.jinse.com/blockchain/3203086.html\">https://www.jinse.com/blockchain/3203086.html</a></p>\n<p><strong>文章作者：</strong></p><p>Jessy（金色财经）</p><hr><h3>观点：</h3><p><strong>Jessy（金色财经）：</strong>ParaSpace 推出时赶上 Yuga 推出 Ape 质押，便选择开放了一个 ApeCoin 流动性池预存活动，并且在预质押阶段就开启了 APE 代币额外的 30% APY 挖矿奖励。其主网上线后，针对 Ape Coin 的点对池质押挖矿模式也开启了。通过这次机会，ParaSpace 用大幅优惠和较好的用户体验，积累了 NFT 金融市场的一批优质用户。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>ParaSpace 的抵押借贷功能有全仓杠杆和打包抵押两个创新的抵押方式，允许用户以一个信用额度为所有抵押品提供贷款，只要用户整个抵押的资产组合的健康系数保持在 1 以上，NFT  就永远不会触发清算拍卖。ParaSpace 是一个更符合 DeFi 老用户用户习惯的 NFT 借贷协议，横跨了 NFTFi 和 DeFi 的产品，其抵押品涵盖了多种生息代币，让其有了更多的应用场景。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a><p><strong>Jessy（金色财经）：</strong>把 NFT 借贷类比现实中的房屋抵押以及 DeFi 发展路径，窥探 NFT 借贷未来发展方向：1）NFT 借贷一定会朝着借贷的效率和对于资产的估值更准确的方向发展。2）随着 NFT 借贷市场规模的扩大，虚拟房产、NFT 音乐等更多的非同质化代币会成为借贷的抵押物。</p><a href=\"https://www.jinse.com/blockchain/3203086.html\">内容来源</a>",
           "link": "https://www.jinse.com/blockchain/3203086.html",
           "publishedOn": "2023-03-11T08:30:58.000Z",
-          "wordCount": 773,
+          "wordCount": 782,
           "title": "ParaSpace 如何搅动 NFT 借贷市场？",
           "imageUrl": null
         },
@@ -977,7 +977,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>价值积累是 Web3 中一个至关重要但常常被忽视的议题，Vader Research 撰文深入探讨 Yuga 生态系统内产生的价值，即 Yuga Labs 股权价值和 Yuga NFT 及代币的价值，如何分配给不同的利益相关者。本文中文版由深潮编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.techflowpost.com/article/2219\">https://www.techflowpost.com/article/2219</a></p>\n<p><strong>文章作者：</strong></p><p>Vader Research</p><hr><h3>观点：</h3><p><strong>Vader Research：</strong>从资本结构看，Yuga 生态系统价值 = Yuga Labs 股权价值 + Yuga NFT 和代币的价值。从内在价值看，Yuga 生态系统价值 = 折现后未来收益。Yuga 生态基本收益来源：1）NFT 和 Token 销售；2）NFT 版税。Yuga 生态通过创建和销售新的 NFT 集合获得了重要的收入来源，但也稀释了现有 Yuga 生态系统股东（Yuga Labs、APE、BAYC）的所有权。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>复盘 Yuga 的商业行为：1）BAYC 销售，首次销售获得 200 万美元，在第四个月通过版税获得了 250 万美元。2）MAYC 销售，Yuga Labs 和 BAYC 持有者各获得 MAYC 发行收益的 50％，Yuga 得到 1000 万美元收入，到第七个月产生的版税收入为 2500 万美元。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>3）$APE 发布，Yuga Labs 及其股东获得了 71% 的配额，而 BAYC / MAYC 持有者仅获得了 29%。4）Otherdeeds 发售，Yuga 获利 3.1 亿美元，MAYC 持有者在牺牲 BAYC 持有者的利益下得到了过多的分配，而 $APE 持有者则没有获得任何 Otherdeeds 分配。但重要的是要注意，主要销售是使用 $APE 进行的。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a><p><strong>Vader Research：</strong>购买 BAYC 和 MAYC 有一个令人信服的价值主张，即投资者可以获得每次新的 Yuga NFT 或代币发行的一定比例奖励。$APE 提供了模糊而肤浅的「赋能」，其中没有解释 Yuga 生态系统如何使 $APE 积累收益。使用 $APE 进行游戏内微交易是更清晰的实用性（假设收益进入 $APE DAO 的金库）。我们可能会在 Yuga 的游戏 / 元宇宙中看到更多的 $APE 赋能。</p><a href=\"https://www.techflowpost.com/article/2219\">内容来源</a>",
           "link": "https://www.techflowpost.com/article/2219",
           "publishedOn": "2023-03-11T07:17:40.000Z",
-          "wordCount": 28133,
+          "wordCount": 28164,
           "title": "价值积累案例研究：Yuga Labs 如何打造庞大的商业帝国？",
           "imageUrl": "https://assets.techflowpost.com/20230207/0778f1a840814b5fbdaf2b38f051da57.png"
         },
@@ -3924,7 +3924,7 @@
           "description": "PANews 3月16日消息，据路透社报道，知情人士透露，美国联邦存款保险公司（FDIC）的监管人员要求有意收购破产的硅谷银行和Signature Bank的金融机构在3月17日（周五）之前提交报价。目标是将硅谷银行和Signature Bank全部出售。如果不能整体出售，也可以考虑出售这两家银行的部分股权。\n两位消息人士称，只有拥有现有银行牌照的竞标者才被允许在提交报价前研究银行的财务状况。据悉Signature Bank的买家必须同意放弃该银行的所有加密货币业务。当前美国联邦存款保险公司拒绝代表自己和硅谷银行置评，Signature Bank和负责此次拍卖的Piper Sandler亦均未立即回应置评请求。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/1r9383eb.html",
           "publishedOn": "2023-03-16T03:36:45.000Z",
-          "wordCount": 1141,
+          "wordCount": 1137,
           "title": "外媒：美FDIC拟于周五拍卖硅谷银行和Signature Bank，后者买家或须放弃加密业务",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -3934,7 +3934,7 @@
           "description": "撰写：Revelo Intel\n编译：深潮 TechFlow\n在这一期的节目中，DeFi Dave 采访了 Frax 创始人 Sam Kazemian，谈论了 Frax 的货币溢价、隐形产品、链上治理等话题。下面是记录的一些笔记，让我们一起了解更多信息。\n任何没有至少 100%外部抵押支持的稳定币都不会成功。最近，Frax 社区投票决定 100% 抵押 $FRAX 的全部供应。$FRAX 是唯一一种完全抵押的去中心化稳定币。\nFrax 的货币溢价\n\n货币溢价是一个概念，即如果您发行了一种稳定币或负债，人们会使用该稳定币而不期望发行人支付或利率。\n绝大多数加密协议将成为稳定币或大规模发行自己的稳定币。\n大多数金融原语看起来像是部分准备金银行。\nLSD 或流动质押衍生品基本上是$ETH 稳定币。\n稳定币是某个实体发行的东西，对于保持某个价格，存在某些隐性或明确的承诺。\n$frxETH 拥有 Curve AMO，可以在$frxETH 和$ETH 之间交换，就像一个铸币和赎回功能。\n金融法则或金融激励会影响协议或协议建设者和社区。\n大型 DeFi 协议构建护城河保护自己并最大化其价值的最重要和有价值的方式是发行一种人们将其用作货币的负债。\n\n稳定币主义\n\n稳定币主义被抽象化了，就像人们可能不会想到的跨链桥一样。\n跨链桥最有价值的优势是它可以进行防御，其他人无法通过降低费用来分叉或商品化，但事实上他们在链的另一端发行了一个稳定币。\n跨链桥项目本质上是一个稳定币发行商。\nCurve 是一个优秀的交易所，比其他任何东西都要好。\n\n成为建设者\n\n最重要的是要确保安全，并把它看作是一项责任，这是这个行业的基础。\nFrax 变得越来越安全，因为它变得越来越大，越来越重要，这并非偶然。\n\nFrax 的隐形产品\n\n他们正在开发一种名为 BAMM 的产品，意思是借款自动做市商，这对 DeFi 来说是潜在的零到一创新。\n这个想法是不需要预言机，它会根据任何资产建立流动性，并在资产流动性上升时允许人们借用它。\n\nFrax 的链上治理\n\nFrax 正在设计一种名为 FRXGov 的机制，其想法是大型协议始终需要某种形式的人类干预。他们希望能够在不需要人们信任的情况下提出人类干预的建议。\n当 Frax 创建签名时，他们将其完全提交给链上的 FRXGov 合约，并在一定时间后$FXS 持有人可以投票或否决该签名。然后在一定时间后，智能合约本身允许在链上执行该签名。\n有很多人喜欢积极参与治理。\n\n监管\n\n未来所有的事情都会得到解决。\n美国没有搞砸重大金融或技术革命的历史。\n加密货币中有很多需要跟监管积极合作的地方。\n稳定币需要它们自己的监管。",
           "link": "https://www.panewslab.com/zh/articledetails/b83ytlvm.html",
           "publishedOn": "2023-03-16T03:30:53.000Z",
-          "wordCount": 1279,
+          "wordCount": 1277,
           "title": "专访 Frax Finance 创始人：Frax唯一一种完全抵押的去中心化稳定币",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/16/images/m3R9rGe705.jfif"
         },
@@ -3984,7 +3984,7 @@
           "description": "PANews 3月16日消息，Ark Invest首席执行官Cathie Wood今日在推特上表示：“我认为监管机构正在使用加密货币作为他们自己在传统银行业监管失误的替罪羊。加密与银行的投资决策无关，也与美联储在不到一年内将利率提高19倍的决定无关。美联储错误地认为它正在与70年代式的通货膨胀作斗争，从而使许多地区性银行因未实现的损失而陷入困境。加密并没有迫使硅谷银行和Signature破产，美联储的政策是罪魁祸首。由于风险投资资金短缺和货币市场基金收益率较高，存款离开了美国银行系统。在去中心化、透明、可审计和过度抵押的加密资产生态系统中，这种崩溃是不可能发生的。事实上，在上周，加密资产表现得像避风港：它们的价格与黄金一起上涨。在我们看来，加密是解决传统金融系统中的中心故障点、不透明性和监管错误的解决方案。成为政策错误的替罪羊，加密货币将转移到海外，使美国失去历史上最重要的创新之一。”\n此前昨日消息，Cathie Wood表示，监管机构应关注银行系统，而非封锁运转良好的去中心化金融平台。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/uv3o4m5u.html",
           "publishedOn": "2023-03-16T02:00:14.000Z",
-          "wordCount": 1143,
+          "wordCount": 1139,
           "title": "Cathie Wood：加密货币不应作为传统银行业监管失误的替罪羊",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
