@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T08:09:35.508Z</updated>
+    <updated>2023-03-16T08:19:12.174Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[美国法官拒绝暂停Binance.US收购Voyager资产，交易已延长至3月20日]]></title>
+        <id>https://www.panewslab.com/zh/sqarticledetails/ons61umb.html</id>
+        <link href="https://www.panewslab.com/zh/sqarticledetails/ons61umb.html"/>
+        <updated>2023-03-16T08:16:20.000Z</updated>
+        <summary type="html"><![CDATA[PANews 3月16日消息，据CoinDesk报道，美国纽约南区法官Damian Williams在周三提交给法院的文件中裁定，Binance.US出价10亿美元收购Voyager的资产的交易应该继续进行，这驳回了美国政府暂停诉讼等待上诉的请求。
+美国检察官Damian Williams辩称，该交易应该被修改或取消，因为它试图有效地免除Voyager及其员工违反税法或证券法的责任。但Williams表示，他之前批准的交易并没有做到这一点，等待更长时间会损害Voyager客户的利益，他们自2022年7月宣布破产以来一直无法使用他们的加密货币。Williams写道，政府文件“夸大并在某些地方错误描述了我的所作所为和我所依赖的权威。”。
+根据Voyager和Binance.US达成的另一项协议，原定于3月15日生效的Binance.US购买计划已被延长至3月20日。]]></summary>
+        <author>
+            <name>PANews News</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[百度正式发布大语言模型“文言一心”]]></title>
         <id>https://www.panewslab.com/zh/sqarticledetails/wh8st23i.html</id>
@@ -3412,16 +3424,6 @@ zkSTARKs 的另一个优势是它们的可扩展性。zkSNARKs 依赖于资源�
         <link href="https://www.panewslab.com/zh/sqarticledetails/kukh9dt9.html"/>
         <updated>2023-03-15T08:13:14.000Z</updated>
         <summary type="html"><![CDATA[PANews 3月15日，据DLNews报道，加密货币交易所Bitstamp最近将员工人数减少了 30%，从去年9月份的约650人减少到2月份的450人。但Bitstamp首席执行官Jean-Baptiste 在接受采访时表示：“这不是一轮裁员，许多从事牌照、战略、合规和安全工作的顾问完成了他们的项目，所有这些人都在去年年底完成了他们的任务。”]]></summary>
-        <author>
-            <name>PANews News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cosmos已激活引入Replicated Security功能的V9 Lambda升级]]></title>
-        <id>https://www.panewslab.com/zh/sqarticledetails/ozer0te3.html</id>
-        <link href="https://www.panewslab.com/zh/sqarticledetails/ozer0te3.html"/>
-        <updated>2023-03-15T08:03:09.000Z</updated>
-        <summary type="html"><![CDATA[PANews 3月15日，Mintscan数据显示，Cosmos刚刚到达激活V9 Lambda升级的区块高度14470501，根据此前消息，本次升级旨在激活Replicated Security功能，这将强制执行链间安全性（ICS）的良好运行规则。Replicated Security功能可将Cosmos Hub的安全性复制到消费者链，并监控对规则的遵守情况，消费者链可以从Cosmos Hub的安全性中受益，而不必维护自己的验证者；而ATOM质押者将受益于消费者链产生的一定比例的代币或费用作为质押奖励。]]></summary>
         <author>
             <name>PANews News</name>
         </author>
