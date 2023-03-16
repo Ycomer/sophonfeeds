@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T04:43:02.401Z</updated>
+    <updated>2023-03-16T04:47:57.456Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -77,6 +77,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[以太坊上海升级将如何影响质押行业的未来]]></title>
+        <id>https://www.ethereum.cn/Eth2/The-Future-of-Staking</id>
+        <link href="https://www.ethereum.cn/Eth2/The-Future-of-Staking"/>
+        <updated>2023-03-16T04:11:22.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>备受期待的上海升级即将到来，这次升级使得押行业第一次有机会进行彻底调整。Obol Labs 协议专家 Juan Gadea 撰文介绍了以太坊升级时应该关注的关键指标和其相关性，以及上海升级前后可能如何改变等内容。中文版本由 ECN 编译发布。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://www.ethereum.cn/Eth2/The-Future-of-Staking">https://www.ethereum.cn/Eth2/The-Future-of-Staking</a></p>
+<p><strong>文章作者：</strong></p><p>Juan Gadea</p><hr><h3>观点：</h3><p><strong>Juan Gadea：</strong>合并之后，信标链每月存款增长率已经降低为平均 4%，验证者节点热情有所减退。上海升级后，风险降低可能会带来参与率大幅上升，关注这个指标的主要原因是随着参与率下降，网络验证者奖励会增加，这种动态关系在整个网络里有连锁反应。</p><a href="https://www.ethereum.cn/Eth2/The-Future-of-Staking">内容来源</a><p><strong>Juan Gadea：</strong>目前流动性质押协议占有最大市场份额，紧随其后的是中心化交易所。目前人们正在推动质押去中心化，其中的一个重点是通过 DVT 来引领。且在 Dappnode 和 Avado 引领下，即插即用的质押硬件也越来越受到关注。流动质押同样在向更加去中心化的规范转变，Rocket Pool、Stakewise V3、Lido V2 都是流动性质押模型使用模块化方法的例子。</p><a href="https://www.ethereum.cn/Eth2/The-Future-of-Staking">内容来源</a><p><strong>Juan Gadea：</strong>流动性质押市场目前观察到的主要趋势是，大多数流动性质押代币一直以低于其基础价值的价格进行交易。且由于验证者不再有现金流的问题了，剩下的问题时流动性质押代币 (LST) 将以溢价还是折价交易。预计进入延迟可能长达数周，会迫使重量级玩家快速转向 LST，把价格推进溢价区。此外，传统金融理论表明，验证者应该持有多于 32 个 ETH，因为它附有奖励流。</p><a href="https://www.ethereum.cn/Eth2/The-Future-of-Staking">内容来源</a><p><strong>Juan Gadea：</strong>上海升级前后， ETH 通胀率可能会经历一次大幅下降，很大程度上是由于提款允许大约 290 亿美元的验证者余额能以无需许可的方式在链上转移。当该余额有效地影响市场时，将发生大量的链上交易，导致大量费用被烧毁。此外，由于生态资产的价格较低，验证者可能直接把他们的 ETH 换成其他蓝筹代币。这可能导致通胀率的急剧下降。</p><a href="https://www.ethereum.cn/Eth2/The-Future-of-Staking">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[硅谷银行倒闭风波爆发信任危机，OKX Wallet如何在Web3世界中为用户建立“安全感”]]></title>
         <id>https://www.panewslab.com/zh/articledetails/2402lgld.html</id>
         <link href="https://www.panewslab.com/zh/articledetails/2402lgld.html"/>
@@ -142,6 +154,18 @@
 资产所有权的重构是Web3浪潮的主旋律，并伴随着钱包的迭代发展而不断演变。放眼“千团大战”般的竞争市场，谁能率先在钱包的安全性、便捷性和易用性上展开新叙事，并满足日益复杂的加密金融需求才是出圈新范式。]]></summary>
         <author>
             <name>PANews News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文】6 大以太坊虚拟机领域特定语言设计解读：Solidity、Vyper、Fe......]]></title>
+        <id>https://jtriley.substack.com/p/ethereum-virtual-machine-language</id>
+        <link href="https://jtriley.substack.com/p/ethereum-virtual-machine-language"/>
+        <updated>2023-03-16T03:37:20.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>与其他虚拟机和物理机在架构上不同，以太坊虚拟机（EVM）需要特定领域的语言（DSL）。加密研究员 jtriley.eth 对 EVM DSL 设计技术现状进行了分析解读，包括 Solidity、Vyper、Fe、Huff、Yul 和 ETK。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://jtriley.substack.com/p/ethereum-virtual-machine-language">https://jtriley.substack.com/p/ethereum-virtual-machine-language</a></p>
+<p><strong>文章作者：</strong></p><p>jtriley.eth</p><hr><h3>观点：</h3><p><strong>jtriley.eth：</strong>1）Solidity：使用了面向对象的模式，其中智能合约被视为类对象，利用多重继承的优势。编译器是用 C++ 编写的，并计划在未来的版本中迁移到 Rust。Solidity 还具有库的功能，且指定了一个应用二进制接口（ABI）标准用于合约对接，也提供内联 Yul 模块允许对 EVM 指令集进行低级访问；【原文为英文】</p><a href="https://jtriley.substack.com/p/ethereum-virtual-machine-language">内容来源</a><p><strong>jtriley.eth：</strong>2）Vyper：类似 Python 的高级语言，第二大流行的 EVM DSL，不采用面向对象的模式及内联汇编。但 Vyper 编译器选择将局部变量存储在内存中而非堆栈，使得合约更简单有效。且其实现了更多内置函数。虽然没有广泛的开发者工具套件，但其有更紧密的集成工具可以插入至 Solidity 开发者工具中；【原文为英文】</p><a href="https://jtriley.substack.com/p/ethereum-virtual-machine-language">内容来源</a><p><strong>jtriley.eth：</strong>3）Fe：类似 Rust 语法的高级语言，目前还在积极开发中，使用 Yul 作为 IR 且依靠 Yul 优化器，不支持内联汇编。Fe 有望让开发者编写的代码更安全；4）Huff：汇编语言，具有手动堆栈控制和对 EVM 指令集的最小抽象，编译器最初由 Aztec 团队编写，随后用 Typescript 重写，最终选择使用 Rust 重写；【原文为英文】</p><a href="https://jtriley.substack.com/p/ethereum-virtual-machine-language">内容来源</a><p><strong>jtriley.eth：</strong>5）ETK：具有手动堆栈管理和最少的抽象，编译器使用 Rust 编写，其和 Huff 之间的区别是 Huff 为 initcode 增加了构造器代码。ETK 支持表达式宏和指令宏；6）Yul：Solidity 工具链的一部分，可以选择在 Solidity 编译管道中使用，不支持代码重用，编译器是用 C++ 编写的，并计划与 Solidity 其他部分一起迁移到 Rust。【原文为英文】</p><a href="https://jtriley.substack.com/p/ethereum-virtual-machine-language">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
         </author>
     </entry>
     <entry>
@@ -9675,30 +9699,6 @@ AI 有三要素：数据，算法，算力。而由于 Web3 的经济模式和�
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>
 <p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【长推】dForce 创始人：USDC 在硅谷银行的窟窿有多大？持有者该如何应对？]]></title>
-        <id>https://twitter.com/mindaoyang/status/1634385755593383936</id>
-        <link href="https://twitter.com/mindaoyang/status/1634385755593383936"/>
-        <updated>2023-03-11T04:05:50.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>硅谷银行（SVB）被关闭至今 USDC 出现了 10 亿美元净赎回，OKX 行情显示，USDC 目前已脱锚至 0.97 美元以下。dForce 创始人 Mindao 撰文对对 USDC 在硅谷银行的窟窿及持有 USDC 的应对策略进行了解析。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">https://twitter.com/mindaoyang/status/1634385755593383936</a></p>
-<p><strong>文章作者：</strong></p><p>Mindao（dForce 创始人）</p><hr><h3>观点：</h3><p><strong>Mindao（dForce 创始人）：</strong>已知的信息 USDC 的储备 432 亿美金，现金储备 114 亿美金，存在 8 家银行，据说大头在 NY Mellon（假设 50%），剩下的假设 20 亿美金在 SVB，假设 100% 亏损，极限影响 USDC 会脱锚到 0.87。正常估算，假设存款只有 10 亿美金，80% 回收，理论上脱锚到 0.99。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>如果你持有 USDC，有几个策略（非财务建议）：1）如果你预计事情往最坏发展，那就承担一个 3% 的理发换成 USDT；2） 换成 DAI，DAI 现在 PSM 的铸币还在，USDC 可以 1：1 铸成 DAI， 假设出现最坏情况（脱锚到 0.87），由于 USDC 占 DAI 铸币量不到 40%，这部分会稀释，DAI 的理论脱锚值会在 95%；</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a><p><strong>Mindao（dForce 创始人）：</strong>3）到借贷市场比如 AAVE 的 e-mode， 抵押 USDC 借 USDT， emode 抵押率是 97%，但是存在双向价格风险；4）附加策略：如果 Coinbase 有账号，或者有 Circle 的账号，USDC 是可以 1：1 兑换成美金的，但是对普通人可能有操作难度。</p><a href="https://twitter.com/mindaoyang/status/1634385755593383936">内容来源</a>]]></summary>
-        <author>
-            <name>ChainFeeds精选</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【英文长推】Messari：Ordinals 给比特币带来新的叙事]]></title>
-        <id>https://twitter.com/MessariCrypto/status/1634214275010162688</id>
-        <link href="https://twitter.com/MessariCrypto/status/1634214275010162688"/>
-        <updated>2023-03-11T04:05:33.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>Messari 研究员 Sami Kassab 撰写报告解读了铭文给比特币带来的「文艺复兴」，Messari 官方则发推对此报告进行总结归纳，认为比特币作为通胀对冲工具、价值存储和成熟机构资产的身份已经动摇，在 SegWit 和 Taproot 升级后，Ordinals 的出现了给比特币带来新叙事。</p>
-<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">https://twitter.com/MessariCrypto/status/1634214275010162688</a></p>
-<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>软分叉升级隔离见证（SegWit）使存储大量数据变得更容易和更便宜，而 Taproot 则消除了对 BTC 交易中可以包含的数据量的限制。Ordinals 协议在二者的基础上出现，在不到三个月的时间里，已有超过 34.2 万条在比特币上发布的铭文，包括图像、文本、视频、应用程序、音频和模型。铭文和 Ordinals 对比特币的底层有什么影响？铭文占 TX 费用的 6%。上个月比特币区块的平均大小增长了 71%。比特币内存池经历了与铭文相关的活动激增。【原文为英文】</p><a href="https://twitter.com/MessariCrypto/status/1634214275010162688">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
