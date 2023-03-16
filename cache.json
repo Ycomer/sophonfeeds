@@ -57,7 +57,7 @@
           "description": "<h3>美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日</h3>\n<p>美国破产法官在周三的一份法庭文件中裁定，Binance.US 出价 10 亿美元收购 Voyager 的资产的交易应该继续进行，驳回了美国政府提出的在上诉期间暂停程序的请求，称拖延会损害 Voyager 客户的利益。据 Voyager 同意的另一项协议，原定于 3 月 15 日生效的 Binance.US 收购交易已延长至 3 月 20 日。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/",
           "publishedOn": "2023-03-16T09:31:25.000Z",
-          "wordCount": 19950,
+          "wordCount": 19954,
           "title": "美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日",
           "imageUrl": "https://www.coindesk.com/resizer/NJhnXE5rgcRHDrz0AhoAav5c3sg=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/JOGVVHX2SBAHNBRDY4JEW7ZHNA.jpg"
         },
@@ -67,7 +67,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 4904,
+          "wordCount": 4921,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>与其他虚拟机和物理机在架构上不同，以太坊虚拟机（EVM）需要特定领域的语言（DSL）。加密研究员 jtriley.eth 对 EVM DSL 设计技术现状进行了分析解读，包括 Solidity、Vyper、Fe、Huff、Yul 和 ETK。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">https://jtriley.substack.com/p/ethereum-virtual-machine-language</a></p>\n<p><strong>文章作者：</strong></p><p>jtriley.eth</p><hr><h3>观点：</h3><p><strong>jtriley.eth：</strong>1）Solidity：使用了面向对象的模式，其中智能合约被视为类对象，利用多重继承的优势。编译器是用 C++ 编写的，并计划在未来的版本中迁移到 Rust。Solidity 还具有库的功能，且指定了一个应用二进制接口（ABI）标准用于合约对接，也提供内联 Yul 模块允许对 EVM 指令集进行低级访问；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>2）Vyper：类似 Python 的高级语言，第二大流行的 EVM DSL，不采用面向对象的模式及内联汇编。但 Vyper 编译器选择将局部变量存储在内存中而非堆栈，使得合约更简单有效。且其实现了更多内置函数。虽然没有广泛的开发者工具套件，但其有更紧密的集成工具可以插入至 Solidity 开发者工具中；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>3）Fe：类似 Rust 语法的高级语言，目前还在积极开发中，使用 Yul 作为 IR 且依靠 Yul 优化器，不支持内联汇编。Fe 有望让开发者编写的代码更安全；4）Huff：汇编语言，具有手动堆栈控制和对 EVM 指令集的最小抽象，编译器最初由 Aztec 团队编写，随后用 Typescript 重写，最终选择使用 Rust 重写；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>5）ETK：具有手动堆栈管理和最少的抽象，编译器使用 Rust 编写，其和 Huff 之间的区别是 Huff 为 initcode 增加了构造器代码。ETK 支持表达式宏和指令宏；6）Yul：Solidity 工具链的一部分，可以选择在 Solidity 编译管道中使用，不支持代码重用，编译器是用 C++ 编写的，并计划与 Solidity 其他部分一起迁移到 Rust。【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a>",
           "link": "https://jtriley.substack.com/p/ethereum-virtual-machine-language",
           "publishedOn": "2023-03-16T03:37:20.000Z",
-          "wordCount": 10734,
+          "wordCount": 10528,
           "title": "【英文】6 大以太坊虚拟机领域特定语言设计解读：Solidity、Vyper、Fe......",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a6ec8d7-cd97-4971-bf30-1ed12f8f829c_1024x1024.png"
         },
@@ -267,7 +267,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20500,
+          "wordCount": 20494,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -697,7 +697,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1989,
+          "wordCount": 1783,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -717,7 +717,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2252,
+          "wordCount": 2046,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -747,7 +747,7 @@
           "description": "<h3>CME 已上线比特币期货的事件合约交易</h3>\n<p>据 The Block 报道，芝加哥商品交易所（CME）已上线比特币期货的事件合约（event contracts）交易，该产品将添加到 CME 现有的 10 个与基准期货市场相关的事件合约套件中，可为投资者提供一种有限风险、高度透明的方式，以通过完全受监管的交易所进入比特币市场。此类合约同提供基于特定事件的交易，也称为预测合约或信息合约，每日到期，以现金结算。投资者以此交易他们对比特币价格走势的看法。</p>\n<p><a href=\"https://www.theblock.co/post/219354/cme-event-contracts-bitcoin-futures\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/219354/cme-event-contracts-bitcoin-futures",
           "publishedOn": "2023-03-14T02:24:29.000Z",
-          "wordCount": 64822,
+          "wordCount": 64807,
           "title": "CME 已上线比特币期货的事件合约交易",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2021/10/20211018_CME-Group-1200x675.jpg"
         },
@@ -777,7 +777,7 @@
           "description": "<h3>币安将从 3 月 13 日开始暂停新用户英镑存取款，并将在 5 月 22 日暂停所有用户英镑出入金渠道</h3>\n<p>币安法币合作伙伴 Paysafe 因监管问题决定停止在英国为币安客户提供嵌入式钱包解决方案，币安将从 3 月 13 日开始暂停新用户的英镑存取款，并将在 5 月 22 日暂停所有用户的英镑出入金渠道。Paysafe 发言人表示，由于英国与加密有关的监管环境太具有挑战性，因此无法提供这项服务，Paysafe 将继续在欧洲和拉丁美洲与币安合作。币安估计这项举措将影响不到 1% 的用户，并在一封电子邮件中表示，正在努力寻找替代解决方案。</p>\n<p><a href=\"https://www.theblock.co/post/219443/binance-payments-partner-paysafe-says-uk-regulatory-environment-is-too-challenging\">内容来源</a></p><hr>",
           "link": "https://www.theblock.co/post/219443/binance-payments-partner-paysafe-says-uk-regulatory-environment-is-too-challenging",
           "publishedOn": "2023-03-14T01:27:50.000Z",
-          "wordCount": 64811,
+          "wordCount": 64782,
           "title": "币安将从 3 月 13 日开始暂停新用户英镑存取款，并将在 5 月 22 日暂停所有用户英镑出入金渠道",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2022/02/20220210_UK_Generic_Funding-1200x675.jpg"
         },
@@ -817,7 +817,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1283,
+          "wordCount": 1077,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -967,7 +967,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1719,
+          "wordCount": 1711,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -987,7 +987,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17745,
+          "wordCount": 17816,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
@@ -4088,6 +4088,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/jv9ov2bu.html",
+          "author": null,
+          "description": "PANews 3月17日消息，据CoinDesk报道，《花花公子》杂志母公司PLBY集团表示，由于加密货币价格大幅下跌，其去年持有的以太坊计提了490万美元的减值损失。该公司表示，它接受以太坊作为其2021年推出的NFT系列“Rabbitars”的支付方式，并在其资产负债表中将以太坊作为数字资产持有。年报显示，截至去年年底，这些数字资产的价值为32.7万美元。该公司解释说，其数字资产作为“不确定使用年限的无形资产”，如果资产的公允价值低于其账面价值，这些资产将会计提减值损失。公司对数字资产计提的减值损失无法转回，即使此后资产公允价值上升。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/jv9ov2bu.html",
+          "publishedOn": "2023-03-16T22:58:01.000Z",
+          "wordCount": 1104,
+          "title": "花花公子持有的以太坊计提490万美元减值损失",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
         {
           "id": "https://www.panewslab.com/zh/sqarticledetails/cge83zmm.html",
           "author": null,
