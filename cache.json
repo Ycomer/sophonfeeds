@@ -12,6 +12,56 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.theblockbeats.info/news/35625",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Mirror 推出的新功能 Subscribe to Mint，可以帮助创作者们将自己订阅者们的身份转化成持有人，从而帮助创作者们创造出一个积极参与的 Web3 社区。BlockBeat 作者 Jaleel 就 Subscribe To Mint 能否帮助 Mirror 突破变现难题展开讨论。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.theblockbeats.info/news/35625\">https://www.theblockbeats.info/news/35625</a></p>\n<p><strong>文章作者：</strong></p><p>BlockBeats</p><hr><h3>观点：</h3><p><strong>BlockBeats：</strong>截至 2022 年底，Mirror 创收占比最大的两个模块是众筹和拍卖功能，写作 NFT 则仅有 210.43 ETH，占比 2%。写作 NFT 并没有为创作者带来可观收益，创收主体依旧是众筹事件。写作 NFT 功能遇冷的最大问题，在于所有权和社交属性的模糊设计。</p><a href=\"https://www.theblockbeats.info/news/35625\">内容来源</a><p><strong>BlockBeats：</strong>基于 Subscribe to Mint 功能，收藏家需要使用他们的电子邮件订阅创作者的 Mirror 出版物，为创作者引导一个沟通渠道，以定期与收藏家互动。使创作者变得更强大的同时也能使创作者和社区的联结更深入。通过对 web3 上的大大小小的项目进行新功能测试，已经可以证明 Subscribe to Mint 的成功。</p><a href=\"https://www.theblockbeats.info/news/35625\">内容来源</a>",
+          "link": "https://www.theblockbeats.info/news/35625",
+          "publishedOn": "2023-03-16T06:41:41.000Z",
+          "wordCount": null,
+          "title": "Mirror 的 Subscribe to Mint 能否改变 Web3 创作者经济的困局？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/ipor_intern/status/1635979419457298441",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>收益交易其实是一个很简单的概念。加密研究员 ipor_intern 以 Pendle 为例，解读了什么是收益交易，Pendle V2 AMM 有什么特别之处，又是如何实现收益交易的？并给出了四种可利用的收益交易策略。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/ipor_intern/status/1635979419457298441\">https://twitter.com/ipor_intern/status/1635979419457298441</a></p>\n<p><strong>文章作者：</strong></p><p>ipor_intern</p><hr><h3>观点：</h3><p><strong>ipor_intern：</strong>收益交易就是通过一些策略增加或减少你对相关收益率的风险。例如 Pendle 允许用户折价购买资产，做多做空收益率及低风险固定收益。这是通过剥离收益来实现的，用户将收益资产存入协议后被分为两个部分：本金（PT）和基础资产收益（YT）。通过持有 PT，用户可以在到期后赎回本金，通过持有 YT，用户持续收到收益。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1635979419457298441\">内容来源</a><p><strong>ipor_intern：</strong>AMM 专为交易收益率设计的，允许用户利用 PT 和 YT 的行为。单 PT/SY（PT + YT） 池中，用户可以针对基础资产买入或卖出 PT 从而促进 YT 和 PT 之间的互换。AMM 随着时间的推移，收益的多少而变化，并在接近到期时缩小 PT 价格范围。且 Pendle V2 AMM 是以 Notional AMM 为模型，允许为每个池子设置两个自定义参数：标量根和初始速率锚，可以将流动性集中在特定范围内。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1635979419457298441\">内容来源</a><p><strong>ipor_intern：</strong>策略：1）购买 PT 对冲收益风险，将 APY 锁定在当前隐含收益的方式，保证在到期后获得相关资产；2）购买 YT 增加对相关资产的收益风险，可选择任何时候出售；3）在持有 PT 和持有 YT 之间切换以让相关资产年收益率最大化；4）向 Pendle 池子提供流动性以从互换费用和奖励中获得额外收入。【原文为英文】</p><a href=\"https://twitter.com/ipor_intern/status/1635979419457298441\">内容来源</a>",
+          "link": "https://twitter.com/ipor_intern/status/1635979419457298441",
+          "publishedOn": "2023-03-16T06:28:48.000Z",
+          "wordCount": 509,
+          "title": "【英文长推】解读收益交易：如何通过 Pendle 实现收益率最大化？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.odaily.news/post/5185759",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>为了深入了解 Arbitrum 的收入和资金流向，数据分析师 Defi_mochi 使用数据开发工具 Flipside 分析了所有 DefiLlama 上 Arbitrum 的数据。本文由 Odaily 整理编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185759\">https://www.odaily.news/post/5185759</a></p>\n<p><strong>文章作者：</strong></p><p>Odaily</p><hr><h3>观点：</h3><p><strong>armnio.eth：</strong>根据 DefiLlama 数据，Arbitrum 的手续费市场份额有 70% 被 GMX 压倒性地占据，Gains Network 在 12 月下旬推出后也已经占据了 7% 的手续费。Arbitrum 自己收取的费用占比 11.25%</p><a href=\"https://www.odaily.news/post/5185759\">内容来源</a><p><strong>Odaily：</strong>根据 DefiLlama 数据，Arbitrum 的手续费市场份额有 70% 被 GMX 压倒性地占据，Gains Network 在 12 月下旬推出后也已经占据了 7% 的手续费。Arbitrum 自己收取的费用占比 11.25%</p><a href=\"https://www.odaily.news/post/5185759\">内容来源</a><p><strong>Odaily：</strong>根据 Arbitrum 上的每个协议的月度费用数据表发现：Lyra，与 GMX 集成的期权协议，上个月，它的费用增加 276% 。 ZyberSwap，结合 Uniswap V2 和 Curve 的 DEX ，上个月费用增加 556%。Arbitrum，上个月费用增加 114%。</p><a href=\"https://www.odaily.news/post/5185759\">内容来源</a>",
+          "link": "https://www.odaily.news/post/5185759",
+          "publishedOn": "2023-03-16T06:01:05.000Z",
+          "wordCount": 1885,
+          "title": "深挖链上数据，Arbitrum 的收入和资金流向了哪些协议？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/armonio_liang/status/1634777326767439872",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Eigenlayer 是下一个 degen 项目，还是又一个宏大的假故事？其创始团队在 a16z 的平台上发了关于罚没经济学（slash）的论文，宣扬采用 ETH 来保卫网络安全，引起了市场的关注。加密货币 KOL armnio.eth 认为 Eigenlayer 解决的安全问题不是刚性的。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/armonio_liang/status/1634777326767439872\">https://twitter.com/armonio_liang/status/1634777326767439872</a></p>\n<p><strong>文章作者：</strong></p><p>armnio.eth</p><hr><h3>观点：</h3><p><strong>armnio.eth：</strong>安全问题是水桶效应。一个产品的安全性是由其最短板决定的，而非最长的。目前区块链产品安全的短板不在共识层。PoS 链运行已久，在黑客事件高发的区块链世界，我们可曾见过一起链级的安全事故？因为 PoS 链上资产的安全的实现是通过一系列机制，我们常出的安全问题不来自于节点作恶。</p><a href=\"https://twitter.com/armonio_liang/status/1634777326767439872\">内容来源</a><p><strong>armnio.eth：</strong>因此 Eigenlayer 加强了本就是长板的安全，却没有提供短板的解决方案。虽然，我们知道安全的问题服从墨菲定律，有可能发生，就一定发生。但从目前的实际情况看，它解决的问题不是刚性的。</p><a href=\"https://twitter.com/armonio_liang/status/1634777326767439872\">内容来源</a>",
+          "link": "https://twitter.com/armonio_liang/status/1634777326767439872",
+          "publishedOn": "2023-03-16T05:53:31.000Z",
+          "wordCount": 509,
+          "title": "【长推】观点：Eigenlayer 加强了本就是长板的安全，却没有提供短板的解决方案",
+          "imageUrl": null
+        },
+        {
+          "id": "https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/",
+          "author": null,
+          "description": "<h3>加密货币安全公司 Staging Labs 完成 110 万美元融资</h3>\n<p>据 TechCrunch 报道，加密货币安全公司 Staging Labs 完成 110 万美元融资参投方包括 The General Partnership、Flourish Ventures、NGC Ventures、AlphaGrep、Gaingels、a16z、Kleiner Perkins 和 Greylock，个人投资者包括来自 ConsenSys、Coinbase、Anchorage Digital、Chainalysis、QuickNode、Merkle Science 等的投资人。\nStaging Labs 推出了安全产品 Saferoot，该产品能够在发现有风险的交易时自动将钱包内资产转移至备份安全钱包。Staging Labs 计划向用户收取订阅费和成功追回的资产的一定比例来获取收入。</p>\n<p><a href=\"https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/\">内容来源</a></p><hr>",
+          "link": "https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/",
+          "publishedOn": "2023-03-16T05:51:14.000Z",
+          "wordCount": 8180,
+          "title": "加密货币安全公司 Staging Labs 完成 110 万美元融资",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-655147030.jpg?resize=1200,800"
+        },
+        {
           "id": "https://twitter.com/AurtrianAjian/status/1635985933366628354",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>比特币研究贡献者阿剑认为纯理论上来说闪电网络没有对通道的实际构成的预设，因此它能兼容各式各样的通道，也包括别的链上的通道。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/AurtrianAjian/status/1635985933366628354\">https://twitter.com/AurtrianAjian/status/1635985933366628354</a></p>\n<p><strong>文章作者：</strong></p><p>阿剑</p><hr><h3>观点：</h3><p><strong>阿剑：</strong>闪电网络之所以是个网络，在于其找到了一种可以串联起多条通道的办法（哈希时间锁 HTLC），既然如此，只要能处理这种形式的合约，就可以参加闪电网络。安全模型、运作及构成等都不会影响闪电网络的安全性。因为每一个参与者的安全模型，都仅由 TA 自己使用的 通道 / 合约 的形式决定，跟其他人的通道无关。</p><a href=\"https://twitter.com/AurtrianAjian/status/1635985933366628354\">内容来源</a><p><strong>阿剑：</strong>也就是说，不仅仅是标准的比特币支付通道（2-of-2 合约，以原像检查和时间锁为安全引擎）可以参与闪电网络，带有更复杂密码学建构的通道可以、非比特币的代币通道可以、建立在别的链上的通道也可以。</p><a href=\"https://twitter.com/AurtrianAjian/status/1635985933366628354\">内容来源</a><p><strong>阿剑：</strong>这样子的例子很多，比如「管家通道」，虽然是一种需要信任的建构，但它让双方像正经的闪电支付通道那样交互，来保证托管服务的可审计性。又比如说 在 statechain 资金上建构的支付通道。同理，在比特币区块链上，使用 RGB/Taro/Omni 方案发行的代币建立的代币支付通道，也能接入闪电网络。此外，一条建立在别的链上的 支付通道 / 合约，也可以接入闪电网络。</p><a href=\"https://twitter.com/AurtrianAjian/status/1635985933366628354\">内容来源</a>",
@@ -60,6 +110,16 @@
           "wordCount": 64773,
           "title": "美 SEC 主席：权益证明代币应被视为证券，需要根据美国法律进行登记",
           "imageUrl": "https://www.tbstat.com/wp/uploads/2020/11/20201113_GaryGensler-Daily-1200x675.jpg"
+        },
+        {
+          "id": "https://www.blog.formfunction.xyz/blog/message-from-formfunction",
+          "author": null,
+          "description": "<h3>NFT 市场 Formfunction 宣布将于 3 月 29 日关闭，一年前曾完成 470 万美元融资</h3>\n<p>Solana 生态 NFT 市场 Formfunction 宣布将于 3 月 29 日关闭，用户仍然拥有 NFT 的完全所有权。Formfunction 专注于独立艺术家和创作者，曾于 2022 年 3 月完成由 Variant Fund 领投，OpenSea Ventures 等参投的 470 万美元融资。Formfunction 称：经过多方讨论和慎重考虑，我们得出的结论是不能继续运行 Formfunction。我们将继续维护 Formfunction 直到 3 月 29 日。该日期之后，用户将无法再访问我们的网站。</p>\n<p><a href=\"https://www.blog.formfunction.xyz/blog/message-from-formfunction\">内容来源</a></p><hr>",
+          "link": "https://www.blog.formfunction.xyz/blog/message-from-formfunction",
+          "publishedOn": "2023-03-16T02:49:22.000Z",
+          "wordCount": 965,
+          "title": "NFT 市场 Formfunction 宣布将于 3 月 29 日关闭，一年前曾完成 470 万美元融资",
+          "imageUrl": "http://static1.squarespace.com/static/62437a6bdc7ed55884c17a3a/62437aaa739350419d67d47c/6411ebbdc6b0042303be5025/1678896399142/Frame+156.jpg?format=1500w"
         },
         {
           "id": "https://foresightnews.pro/article/detail/28256",
@@ -597,7 +657,7 @@
           "description": "<h3>DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期</h3>\n<p>DeFi 可组合型杠杆协议 Gearbox Protocol V3 升级代码目前正在进行审计，预计将在二季度末决定发布日期。Gearbox V3 建立在 V2 代码库构建，不仅可以增加池子、代币和协议，还能在流动性较低时让 Gearbox 在其增长来源中增加 L2。出借人可以选择留在目前不可变借贷池中，或者选择通过在 Alpha 池中承担更多风险获得更多 APY。且 V3 会引入一个新的 Alpha 被动借贷池。每个借款人都可以为每项中尾资产设置任何配额值，此外还将引入一种新的基于借款人对每项资产配额大小的百分比 APR 的配额利息。据悉，V3 所有参数都必须在 GEAR DAO 进行投票决定。此外，V3 还引入了开源不可变自动化合约 Gearbots，允许合约账户所有者将主动账户管理的某些方面委托给第三方。</p>\n<p><a href=\"https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34\">内容来源</a></p><hr>",
           "link": "https://medium.com/gearbox-protocol/gearbox-v3-teaser-redefining-leverage-and-lending-ff62034e8a34",
           "publishedOn": "2023-03-14T01:38:51.000Z",
-          "wordCount": 7552,
+          "wordCount": 7554,
           "title": "DeFi 可组合型杠杆协议 Gearbox Protocol 正在审计 V3 升级代码，或将于二季度末决定发布日期",
           "imageUrl": "https://miro.medium.com/v2/resize:fit:1200/1*5VvKIUtM7T1ntH8L_eztBQ.png"
         },
@@ -797,7 +857,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>自 OpenAI 面向公众推出 ChatGPT 以来，人工智能（AI）的热度一直居高不下。加密 KOL Joel John 撰文总结其对该行业的理解，以及为什么认为区块链和 AI 将在未来十年混合在一起。本文中文版由 DeFi 之道编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.8btc.com/article/6808680\">https://www.8btc.com/article/6808680</a></p>\n<p><strong>文章作者：</strong></p><p>Joel John</p><hr><h3>观点：</h3><p><strong>Joel John：</strong>AI 模型现在可以进行文本输入，实时编辑和更改音调，图像和代码也是如此。原因是可用于训练生成 AI 模型的大型数据集的可用性。很多工作目前仍然需要许多人的参与。但 AI 确实使这一过程变得更加高效。AI 已经被人用来总结和提供大量工作的关键见解。这里的挑战是缺乏归因和可验证的出处，这就是当前形式的生成型 AI 的危险所在。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>工作室可以拥有并发布 AI 生成聊天机器人或交互式角色的变体。但是结合区块链，将使他们能够跟踪、验证和索取版税。他们可以建立一个开放的市场，让任何人都可以来构建。我们相信，在基于 Web3 的人工智能中，护城河将围绕管理利基用户（通过代币激励）、创建数据流和通过社区参与实现规模化的货币化模型而构建。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>生成式 AI 是关于人类才能的可扩展性。 随着创建模型的难度和输入模型的复杂性的提高，我们将看到个人发布自己的 AI 服务。Web3 原生 AI 平台可以从众包数据集（如图像）中获益，以换取代币激励。像艺术家一样，贡献者可以分享他们的作品，而这些作品又可以通过返回特定艺术风格的模型运行。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a><p><strong>Joel John：</strong>下一个 OpenSea 可能会结合这种形式的生成艺术、提供数据或运行查询的贡献者以及链上原语来证明进入工作主体的组件。 这同样适用于 AI 模型。 维护和优化模型的合作社可以将其出租给用户想要铸造 NFT 的市场。 或者，数百万人使用的大型 AI 模型可以自行开源并作为 DAO 运行。 这使人们能够在如何维护和扩展生成式 AI 工具方面拥有更多发言权。</p><a href=\"https://www.8btc.com/article/6808680\">内容来源</a>",
           "link": "https://www.8btc.com/article/6808680",
           "publishedOn": "2023-03-13T03:42:13.000Z",
-          "wordCount": 1709,
+          "wordCount": 1720,
           "title": "生成式 AI 模型：赋予 Web3 更多权利",
           "imageUrl": "https://appserversrc.8btc.cn/FijMYgyvfo3OZ7eWx-7Hh4lseSSk.png?imageView2/1/w/500/h/300"
         },
@@ -817,7 +877,7 @@
           "description": "<h3>Signature Bank 被纽约银行当局关闭</h3>\n<p>据 Cointelegraph 报道，根据美联储的公告，总部位于纽约的 Signature Bank 被州监管机构关闭，截止 12 月 31 日，Signature Bank 拥有 886 亿美元存款，这家银行也为许多加密公司提供服务。美联储 在 3 月 12 日的一份声明中表示，该决定是与美国联邦存款保险公司 (FDIC) 共同做出，目的是保护美国经济并增强公众对银行体系的信心。美联储并指出，它正在支持 Signature Bank 的所有储户，「该机构的所有存款人都不会受损。与硅谷银行的决议一样，纳税人不会承担任何损失」。</p>\n<p><a href=\"https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities\">内容来源</a></p><hr>",
           "link": "https://cointelegraph.com/news/signature-bank-closed-by-new-york-banking-authorities",
           "publishedOn": "2023-03-13T01:52:20.000Z",
-          "wordCount": 17813,
+          "wordCount": 17811,
           "title": "Signature Bank 被纽约银行当局关闭",
           "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=1200/https://s3.cointelegraph.com/uploads/2023-03/2283d4d4-ebc8-4d52-a344-9f95f9a8a60c.jpg"
         },
