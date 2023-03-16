@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ycomer.github.io/sophonfeeds/index.html</id>
     <title>SophoNews::feed</title>
-    <updated>2023-03-16T05:48:59.629Z</updated>
+    <updated>2023-03-16T05:54:11.917Z</updated>
     <generator>SophoNewsFeed 1.15.4</generator>
     <link rel="alternate" href="https://ycomer.github.io/sophonfeeds/index.html"/>
     <link rel="self" href="https://ycomer.github.io/sophonfeeds/feed.atom"/>
@@ -200,6 +200,30 @@ RocketPool 在五月 Luna 崩盘前一直以溢价交易。正如大多数 LST �
         <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>比特币研究贡献者阿剑认为纯理论上来说闪电网络没有对通道的实际构成的预设，因此它能兼容各式各样的通道，也包括别的链上的通道。</p>
 <p><strong>文章来源：</strong></p><p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">https://twitter.com/AurtrianAjian/status/1635985933366628354</a></p>
 <p><strong>文章作者：</strong></p><p>阿剑</p><hr><h3>观点：</h3><p><strong>阿剑：</strong>闪电网络之所以是个网络，在于其找到了一种可以串联起多条通道的办法（哈希时间锁 HTLC），既然如此，只要能处理这种形式的合约，就可以参加闪电网络。安全模型、运作及构成等都不会影响闪电网络的安全性。因为每一个参与者的安全模型，都仅由 TA 自己使用的 通道 / 合约 的形式决定，跟其他人的通道无关。</p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">内容来源</a><p><strong>阿剑：</strong>也就是说，不仅仅是标准的比特币支付通道（2-of-2 合约，以原像检查和时间锁为安全引擎）可以参与闪电网络，带有更复杂密码学建构的通道可以、非比特币的代币通道可以、建立在别的链上的通道也可以。</p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">内容来源</a><p><strong>阿剑：</strong>这样子的例子很多，比如「管家通道」，虽然是一种需要信任的建构，但它让双方像正经的闪电支付通道那样交互，来保证托管服务的可审计性。又比如说 在 statechain 资金上建构的支付通道。同理，在比特币区块链上，使用 RGB/Taro/Omni 方案发行的代币建立的代币支付通道，也能接入闪电网络。此外，一条建立在别的链上的 支付通道 / 合约，也可以接入闪电网络。</p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【长推】聊聊闪电网络架构上合理性及前景]]></title>
+        <id>https://twitter.com/AurtrianAjian/status/1635985933366628354</id>
+        <link href="https://twitter.com/AurtrianAjian/status/1635985933366628354"/>
+        <updated>2023-03-16T05:25:51.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>比特币研究贡献者阿剑认为纯理论上来说闪电网络没有对通道的实际构成的预设，因此它能兼容各式各样的通道，也包括别的链上的通道。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">https://twitter.com/AurtrianAjian/status/1635985933366628354</a></p>
+<p><strong>文章作者：</strong></p><p>阿剑</p><hr><h3>观点：</h3><p><strong>阿剑：</strong>闪电网络之所以是个网络，在于其找到了一种可以串联起多条通道的办法（哈希时间锁 HTLC），既然如此，只要能处理这种形式的合约，就可以参加闪电网络。安全模型、运作及构成等都不会影响闪电网络的安全性。因为每一个参与者的安全模型，都仅由 TA 自己使用的 通道 / 合约 的形式决定，跟其他人的通道无关。</p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">内容来源</a><p><strong>阿剑：</strong>也就是说，不仅仅是标准的比特币支付通道（2-of-2 合约，以原像检查和时间锁为安全引擎）可以参与闪电网络，带有更复杂密码学建构的通道可以、非比特币的代币通道可以、建立在别的链上的通道也可以。</p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">内容来源</a><p><strong>阿剑：</strong>这样子的例子很多，比如「管家通道」，虽然是一种需要信任的建构，但它让双方像正经的闪电支付通道那样交互，来保证托管服务的可审计性。又比如说 在 statechain 资金上建构的支付通道。同理，在比特币区块链上，使用 RGB/Taro/Omni 方案发行的代币建立的代币支付通道，也能接入闪电网络。此外，一条建立在别的链上的 支付通道 / 合约，也可以接入闪电网络。</p><a href="https://twitter.com/AurtrianAjian/status/1635985933366628354">内容来源</a>]]></summary>
+        <author>
+            <name>ChainFeeds精选</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【英文长推】 Ouroboros Capital：简析 Ribbon Finance 期权交易平台 Aevo 发展潜力]]></title>
+        <id>https://twitter.com/OuroborosCap8/status/1635863024119545856</id>
+        <link href="https://twitter.com/OuroborosCap8/status/1635863024119545856"/>
+        <updated>2023-03-16T04:51:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Chainfeeds 导读：</strong></p><p>链上结构化产品 Ribbon Finance 的期权交易平台 Aevo 将在未来几周内推出。加密对冲基金 Ouroboros Capital 撰文概述了 Aevo 的功能、优势及费用预期。</p>
+<p><strong>文章来源：</strong></p><p><a href="https://twitter.com/OuroborosCap8/status/1635863024119545856">https://twitter.com/OuroborosCap8/status/1635863024119545856</a></p>
+<p><strong>文章作者：</strong></p><p>Ouroboros Capital</p><hr><h3>观点：</h3><p><strong>Ouroboros Capital：</strong>目前大部分期权交易量都在 Deribit 上，但这也意味着你需要委托 Deribit 确保足够的系统保证金。但中心化交易所有时会因管理不善导致某些参与者可以获得无限保证金，从而导致系统漏洞。这正是 Aevo 想要解决的问题，允许期权合约在区块链上进行结算，无需任何委托。【原文为英文】</p><a href="https://twitter.com/OuroborosCap8/status/1635863024119545856">内容来源</a><p><strong>Ouroboros Capital：</strong>目前大部分期权交易量都在 Deribit 上，但这也意味着你需要委托 Deribit 确保足够的系统保证金。但中心化交易所有时会因管理不善导致某些参与者可以获得无限保证金，从而导致系统漏洞。这正是 Aevo 想要解决的问题，允许期权合约在区块链上进行结算，无需任何委托。【原文为英文】</p><a href="https://twitter.com/OuroborosCap8/status/1635863024119545856">内容来源</a><p><strong>Ouroboros Capital：</strong>区块链结算期权合约并不是一个新想法，但 Aevo 的特别之处在于 RBN 从其 DeFi 期权机枪池（DOV）中提供被动流量，任何人都可以构建一个区块链进行期权结算，但也存在一个挑战，那就是让流动性引入平台。Aevo 还能够使用 USDC 结算期权。【原文为英文】</p><a href="https://twitter.com/OuroborosCap8/status/1635863024119545856">内容来源</a><p><strong>Ouroboros Capital：</strong>RBN 目前市值为 1 亿美元，截止目前共筹资 1650 万美元，自成立以来产生了 1000 万美元的收入。目前是放量也降低为 12.5 万 RBN / 周，没有通货膨胀问题。Aevo 启动后将会产生超强的费用增加能力，预期每年有 160 万美元费用产生。还不包括由于 CLOB 功能增加的交易活跃度、BTC 期权、潜在的 altcoin 期权产品等。【原文为英文】</p><a href="https://twitter.com/OuroborosCap8/status/1635863024119545856">内容来源</a>]]></summary>
         <author>
             <name>ChainFeeds精选</name>
         </author>
