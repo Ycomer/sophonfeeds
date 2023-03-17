@@ -12,6 +12,46 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/uYOelwkLc4K7nlo5XV_zpuqsV6MwIMMp-py4e-u4qnE",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>延迟仍然是 MEV 中的一个主要原则。为链上交易和套利构建低延迟系统是一个多层面的问题。加密研究者 Taker 撰文对链上交易声明周期中存在的延迟来源进行了解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/uYOelwkLc4K7nlo5XV_zpuqsV6MwIMMp-py4e-u4qnE\">https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/uYOelwkLc4K7nlo5XV_zpuqsV6MwIMMp-py4e-u4qnE</a></p>\n<p><strong>文章作者：</strong></p><p>Taker</p><hr><h3>观点：</h3><p><strong>Taker：</strong>链上执行的交易策略通常的流程是节点从用户收到待定交易或作为区块提议者提出交易区块传播给系统，随后交易系统进行处理，交易在区块网络中传播。一个交易策略可以考虑将一个待定交易或提议区块作为触发事件，延迟会对基于剩余时间的竞价机制获取起到垄断性作用。【原文为英文】</p><a href=\"https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/uYOelwkLc4K7nlo5XV_zpuqsV6MwIMMp-py4e-u4qnE\">内容来源</a><p><strong>Taker：</strong>延迟来源可以分为以下四类：1）触发器传播延迟：触发器事件从节点、区块提议者或链外服务发送，然后被交易系统接收所需的时间；2）Tick-to-trade：衡量的是交易系统收到触发器，然后产生交易决策执行的时间；3）交易传播延迟：交易从交易系统发出并被下一个区块提议者、构建者、Rollup 排序者或拍卖决定者接收的时间；4）供应链延迟：交易在被构建者收到后，通过中继器发送至验证者所需要的时间。【原文为英文】</p><a href=\"https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/uYOelwkLc4K7nlo5XV_zpuqsV6MwIMMp-py4e-u4qnE\">内容来源</a>",
+          "link": "https://mirror.xyz/0x00000a2A02540A0D92e209F9f5F7e104745e06Ba/uYOelwkLc4K7nlo5XV_zpuqsV6MwIMMp-py4e-u4qnE",
+          "publishedOn": "2023-03-17T03:41:00.000Z",
+          "wordCount": 2586,
+          "title": "【英文】从交易生命周期角度定义 MEV 策略中的延迟性能指标",
+          "imageUrl": "https://mirror-media.imgix.net/publication-images/jft59k7nHZVeHt4IsRDaA.jpeg?height=500&width=1000&h=500&w=1000&auto=compress"
+        },
+        {
+          "id": "https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Arbitrum 宣布近期发布代币，并空投给早期用户，还宣布了 Arbitrum Orbit，一个用于创建基于 Arbitrum 的 rollup 的 L3 的框架。Bankless 撰文分析了有关代币 ARB 和 Orbit 的所有信息，它们对 Arbitrum 生态系统的影响，以及这些功能将如何撼动日益激烈的「L2 战争」。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/\">https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>ARB 将用于参与 Arbitrum DAO 对 Arbitrum 生态系统的管理，包括 Arbitrum One 和 Arbitrum Nova。代币持有者似乎也拥有控制 Arbitrum IP 的权利，因为 DAO 治理有能力批准创建其他 L2。100 亿代币总供应量中的 11.62% 将空投给个人用户，43% 将流向 DAO 财务部门，约 27% 留给团队，约 17.5% 流向项目投资者，剩余的大约 1% 将进入 Arbitrum 生态系统中的 DAO。【原文为英文】</p><a href=\"https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/\">内容来源</a><p><strong>Bankless：</strong>Arbitrum Orbit 是一个用于创建 L3 的开发框架，即结算到另一个 L2 的 rollup ，保留了 L2 的安全性，但随着堆栈每一层的吞吐量复合，具有可扩展性大幅增加的潜力。Orbit 是无许可的，创建的 L3 无需 DAO 的许可即可结算到 Arbitrum 链。Orbit 还将与 Arbitrum Stylus 兼容，这是一项未来升级，将使开发人员能够使用 C、C++ 和 Rust 等传统编程语言构建 dapp。【原文为英文】</p><a href=\"https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/\">内容来源</a><p><strong>Bankless：</strong>将如何影响 Arbitrum 经济？1）ARB 的空投将刺激 Arbitrum 经济，在早期采用者中创造财富效应，可能会导致 ARB 生态代币表现优于大盘。2）用户涌入和资金流入 L2，L2 上的项目应该会得到收入、用户和其他核心 KPI 的增加。3）ARB 可能会被许多项目用于激励计划，将增加 DeFi 「农民」收益，可能吸引数十亿美元的资金进入 Arbitrum 生态，引起 TVL 大幅增加。【原文为英文】</p><a href=\"https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/\">内容来源</a><p><strong>Bankless：</strong>对 L2 战争的影响：1）巩固了 Arbitrum 的 DeFi 护城河，有助于其拉开与竞争对手的距离；2）提出 L2 代币的（潜在）新价值主张，授予其 DAO 许可 Arbitrum 的 IP 的权利来撼动 L2 格局。3）Orbit 很可能会将 Arbitrum One 变成一个结算层，增加了在 Arbitrum 生态系统中构建自定义 L2 的吸引力。Orbit 相对于 OP Stack 无疑已经拉平了竞争环境。【原文为英文】</p><a href=\"https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/\">内容来源</a>",
+          "link": "https://www.bankless.com/the-arb-arbitrum-airdrop-is-here/",
+          "publishedOn": "2023-03-17T03:26:40.000Z",
+          "wordCount": null,
+          "title": "【英文】Bankless：解读 Arbitrum 代币空投及 L3 的开发框架 Arbitrum Orbit",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.bankless.com/is-defi-too-reliant-on-banks",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>TradFi 经历了极具挑战性的一周，并且 DeFi 并未完全隔离，受到巨大影响。Bankless 撰文从协议依赖和银行困境的角度，分析 DeFi 为何仍然容易受到 TradFi 失败的影响，并提出去中心化稳定币、加密支付系统两种加密原生解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">https://www.bankless.com/is-defi-too-reliant-on-banks</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>协议依赖：许多成功协议的背后是中心化的开发人员群体，他们提供对链上智能合约的前端访问并构建未来的路线图项目。与传统的初创公司一样，加密公司依赖于传统的银行系统，项目代币可能因为银行困境遭到破坏。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>银行困境：倒闭的银行显着提高了中心化风险，这种风险部分原因是初创企业的特殊需求，以及银行选择为加密公司提供银行服务所面临的监管障碍，这迫使加密公司选择精品银行，这在业务良好时是个好主意，但在经济衰退的时候，会高度暴露于存款人行业的周期性，面临很大程度的风险。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>解决方案：1）去中心化稳定币，任何抵押品支持不足的中心化稳定币都可能发生挤兑。可以选择使用以太支持的 LUSD 和 RAI，其偿付能力证明可以在链上验证，并且仅取决于协议清算抵押不足头寸的能力。2）使用创新的加密支付系统，链上管理工资和其他费用，例如  LlamaPay。将未使用的资金存储在以太支持的去中心化稳定币中并转向链上费用支付解决方案可能是朝着正确方向迈出的一步。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a>",
+          "link": "https://www.bankless.com/is-defi-too-reliant-on-banks",
+          "publishedOn": "2023-03-17T03:22:23.000Z",
+          "wordCount": 2441,
+          "title": "【英文】Bankless：DeFi 是否过于依赖银行？",
+          "imageUrl": "https://bankless.ghost.io/content/images/2023/03/267_Newsletter_DeFi_is_banked_031523-2.jpg"
+        },
+        {
+          "id": "https://www.theblock.co/post/220454/polygon-avail-anurag-arjun",
+          "author": null,
+          "description": "<h3>Polygon 将其模块化区块链项目 Avail 分拆为独立实体，由 Avail 联创收购并继续在独立实体中运营</h3>\n<p>Polygon Labs 宣布将其模块化区块链项目 Avail 分拆为独立实体，Avail 联合创始人 Anurag Arjun 离职并收购了 Avail。Polygon 表示，Anurag Arjun 将成为 Avail 唯一管理者并继续在一个独立自筹资金的实体中运营该项目。这次分拆是一个双赢的局面，Avail 将从创新和独立的方式的自主开发中受益，而 Polygon Labs 也能专注于以太坊扩展产品开发。作为交易的一部分，Polygon 整体 Avail 团队将转移至新实体。且 Avail 将创建一个新的非营利基金会 Avail Foundation，并最终将治理权移交给社区。\n据 The Block 介绍，Avail 允许开发者构建可定制和可扩展的应用程序，目前已在测试网上线，主网将在不久后推出。</p>\n<p><a href=\"https://www.theblock.co/post/220454/polygon-avail-anurag-arjun\">内容来源</a></p><hr>",
+          "link": "https://www.theblock.co/post/220454/polygon-avail-anurag-arjun",
+          "publishedOn": "2023-03-17T03:14:07.000Z",
+          "wordCount": 65982,
+          "title": "Polygon 将其模块化区块链项目 Avail 分拆为独立实体，由 Avail 联创收购并继续在独立实体中运营",
+          "imageUrl": "https://www.tbstat.com/wp/uploads/2021/12/20211209_Polygon-1200x675.png"
+        },
+        {
           "id": "https://twitter.com/NexusMutual/status/1636387422950027272",
           "author": null,
           "description": "<h3>DeFi 保险协议 Nexus Mutual V2 版本已上线以太坊主网</h3>\n<p>DeFi 保险协议 Nexus Mutual V2 版本已上线以太坊主网。V2 版本将协议重新设计为风险管理基础设施层，用户可以启动质押池、管理和定价风险、开发新产品及构建去中心化网络等。且 V2 版本承保范围已扩大至新的风险类型。V2 版本的设计是为了实现无缝整合，用户能够在存款页面和第三方用户界面中购买保险。为了让用户具有更大的控制权，V2 版本还将保险进行代币化。此外，Nexus Mutual 正在和 BootNode 合作开发覆盖式保险。未来几周内， Nexus Mutual 将会分享更多关于新功能、迁移及整合的资源。</p>\n<p><a href=\"https://twitter.com/NexusMutual/status/1636387422950027272\">内容来源</a></p><hr>",
@@ -67,7 +107,7 @@
           "description": "<h3>消息人士：加密托管公司 Copper 已放弃其软件和基础设施开发业务</h3>\n<p>据 CoinDesk 援引消息人士报道，加密托管公司 Copper 已经放弃其企业业务，即公司软件和基础设施开发业务。理由是 Copper 的 Clear Loop 托管和结算业务在未来更具经济意义。消息人士表示，Copper 的企业部门将面临裁员，尚不清楚具体受到影响的员工数量。Copper 随后在一份声明中表示，Copper 正在精简业务，将进行裁员。\n此前于 2022 年 12 月，Copper 收到安全问题警报，涉及公司的 GitHub 存储库，其中包含公司如何保护客户资产的蓝图。当时一位消息人士表示，该公司的整个代码库都容易受到攻击并被下载。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/16/crypto-custody-firm-copper-shelves-enterprise-business/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/16/crypto-custody-firm-copper-shelves-enterprise-business/",
           "publishedOn": "2023-03-17T01:24:21.000Z",
-          "wordCount": 19695,
+          "wordCount": 19693,
           "title": "消息人士：加密托管公司 Copper 已放弃其软件和基础设施开发业务",
           "imageUrl": "https://www.coindesk.com/resizer/tp1lq5GWYJVSBDHvoSyh3c6UeLI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/BMNWFBMJBRH7XEX7F7FO2KCSDY.jpg"
         },
@@ -77,17 +117,17 @@
           "description": "<h3>以太坊核心开发者确认于 4 月 12 日在以太坊主网进行上海升级</h3>\n<p>以太坊核心开发者在第 157 次以太坊执行层核心开发者会议（ACDE）将以太坊主网上海升级启动时间确定为 4 月 12 日，一旦该日期被开发者投票通过并经过 GitHub 确认将不会再改变。\n此前消息，以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Ben Edgington：</strong>尽管以太坊 Goerli 测试网上海升级由于验证者节点没有及时升级导致参与率不高，但我们看到所有客户端类型都在生产有效区块，且参与率随着时间的推移有所上升，这并不是什么大问题。我们并不担心这种情况会在主网发生，因为用户通常都会积极维护主网质押基础设施。【原文为英文】</p><a href=\"https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/",
           "publishedOn": "2023-03-17T01:06:32.000Z",
-          "wordCount": 20450,
+          "wordCount": 20448,
           "title": "以太坊核心开发者确认于 4 月 12 日在以太坊主网进行上海升级",
           "imageUrl": "https://www.coindesk.com/resizer/O_T0DCg9xjPG05npHy9Aks0C9QQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IJS24QRTW5CTPPM3MWELVL6K64"
         },
         {
           "id": "https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/",
           "author": null,
-          "description": "<h3>Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO</h3>\n<p>Arbitrum 基金会宣布其治理代币 ARB 将于 3 月 23 日空投给社区成员，快照日期为 2023 年 2 月 6 日。ARB 总发行量为 100 亿枚，Arbitrum 社区将控制代币总量的 56%。其中，将向符合条件的 Arbitrum 用户空投总供应量的 11.5%，向在 Arbitrum 生态系统中运营的 DAO 提供 1.1%，其余部分将进入由 Arbitrum DAO 控制的金库，这将允许 ARB 持有者投票决定如何分配资金。ARB 总供应量的另外 44% 将流向 Arbitrum 的开发公司 Offchain Labs 的投资者和员工，这部分代币将受到锁定期和归属时间表限制。\n\n根据 Arbitrum 基金会的说法，ARB 将标志着 Arbitrum 正式过渡到去中心化自治组织 (DAO)，这意味着 ARB 持有人将能够对管理 Arbitrum One 和 Arbitrum Nova 的关键决策进行投票。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>空投资格查询及代币领取地址：https://arbitrum.foundation/</p><a href=\"https://arbitrum.foundation/\">内容来源</a><p><strong>ChainFeeds：</strong>空投资格及分发规范文档：https://docs.arbitrum.foundation/airdrop-eligibility-distribution</p><a href=\"https://docs.arbitrum.foundation/airdrop-eligibility-distribution\">内容来源</a><p><strong>TheModestThief 神偷：</strong>我们对 ARB 预期价格进行了一些计算，假如初始流通为总量的 12.75%，ARB 和 OP 及 MATIC FDV 相似，但预计会稍微低一点，我们得出结论 ARB 预期价格为 1.74 美元。【原文为英文】</p><a href=\"https://twitter.com/TheModestThief/status/1636374758987300864\">内容来源</a><p><strong>100y.eth💜 | a41：</strong>因为 ARB 是治理代币，我将其与其他治理代币例如 OP、UNI、LIDO、COMP 和 AAVE 进行了比较，根据 MC/TVL 比率，ARB 代币的合理价格在 0.26 至 1.56 美元之间，如何直接和 OP 做比较，1.04 至 1.56 美元也是有可能的。【原文为英文】</p><a href=\"https://twitter.com/100y_eth/status/1636412658303000576\">内容来源</a><p><strong>CapitalismLab：</strong>对标 OP，我认为 ARB 流通市值在 0.8 亿美元左右，全流通市值预计在 10.5 亿美元左右。且 Arbitrum 在未有激励的情况下 TVL 已为 OP 的 1.7 倍，如果是 OP 2 倍 FDV，ARB 对应价格预计为 2.1 美元左右。</p><a href=\"https://twitter.com/NintendoDoomed/status/1636370652910465025\">内容来源</a><p><strong>杀破狼 killthewolf.eth：</strong>我们整理了 ARB 多种估值方式汇总，方便大家对 ARB 的二级价格进行预判，例如你觉得 ARB 值 OP 流通市值的 1.5 倍的话，则 0.6 x 1.5 = 0.9。</p><a href=\"https://twitter.com/0xKillTheWolf/status/1636532403568283648\">内容来源</a>",
+          "description": "<h3>Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO</h3>\n<p>Arbitrum 基金会宣布其治理代币 ARB 将于 3 月 23 日空投给社区成员，快照日期为 2023 年 2 月 6 日。ARB 总发行量为 100 亿枚，Arbitrum 社区将控制代币总量的 56%。其中，将向符合条件的 Arbitrum 用户空投总供应量的 11.5%，向在 Arbitrum 生态系统中运营的 DAO 提供 1.1%，其余部分将进入由 Arbitrum DAO 控制的金库，这将允许 ARB 持有者投票决定如何分配资金。ARB 总供应量的另外 44% 将流向 Arbitrum 的开发公司 Offchain Labs 的投资者和员工，这部分代币将受到锁定期和归属时间表限制。\n\n根据 Arbitrum 基金会的说法，ARB 将标志着 Arbitrum 正式过渡到去中心化自治组织 (DAO)，这意味着 ARB 持有人将能够对管理 Arbitrum One 和 Arbitrum Nova 的关键决策进行投票。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>空投资格查询及代币领取地址：https://arbitrum.foundation/</p><a href=\"https://arbitrum.foundation/\">内容来源</a><p><strong>ChainFeeds：</strong>空投资格及分发规范文档：https://docs.arbitrum.foundation/airdrop-eligibility-distribution</p><a href=\"https://docs.arbitrum.foundation/airdrop-eligibility-distribution\">内容来源</a><p><strong>TheModestThief 神偷：</strong>我们对 ARB 预期价格进行了一些计算，假如初始流通为总量的 12.75%，ARB 和 OP 及 MATIC FDV 相似，但预计会稍微低一点，我们得出结论 ARB 预期价格为 1.74 美元。【原文为英文】</p><a href=\"https://twitter.com/TheModestThief/status/1636374758987300864\">内容来源</a><p><strong>100y.eth💜 | a41：</strong>因为 ARB 是治理代币，我将其与其他治理代币例如 OP、UNI、LIDO、COMP 和 AAVE 进行了比较，根据 MC/TVL 比率，ARB 代币的合理价格在 0.26 至 1.56 美元之间，如何直接和 OP 做比较，1.04 至 1.56 美元也是有可能的。【原文为英文】</p><a href=\"https://twitter.com/100y_eth/status/1636412658303000576\">内容来源</a><p><strong>CapitalismLab：</strong>对标 OP，我认为 ARB 流通市值在 0.8 亿美元左右，全流通市值预计在 10.5 亿美元左右。且 Arbitrum 在未有激励的情况下 TVL 已为 OP 的 1.7 倍，如果是 OP 2 倍 FDV，ARB 对应价格预计为 2.1 美元左右。</p><a href=\"https://twitter.com/NintendoDoomed/status/1636370652910465025\">内容来源</a><p><strong>杀破狼 killthewolf.eth：</strong>我们整理了 ARB 多种估值方式汇总，方便大家对 ARB 的二级价格进行预判，例如你觉得 ARB 值 OP 流通市值的 1.5 倍的话，则 0.6 x 1.5 = 0.9。</p><a href=\"https://twitter.com/0xKillTheWolf/status/1636532403568283648\">内容来源</a><p><strong>匿名博士：</strong>根据 ARB 及 OP 公开信息，我们用 AI 做了一个简易估值模型标，预期其合理价格区间在 0.6 至 1.2 美元左右，FOMO 状态下能到 2 美元以上。</p><a href=\"https://twitter.com/Chris_Defi/status/1636436553030586368\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/",
           "publishedOn": "2023-03-16T13:38:31.000Z",
-          "wordCount": 20683,
+          "wordCount": 20681,
           "title": "Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO",
           "imageUrl": "https://www.coindesk.com/resizer/tq--uuGGCw-eJgud0VWz7It-egM=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/3IUP4QFMIRG2VAZ6NW7TXS7DOA.png"
         },
@@ -127,7 +167,7 @@
           "description": "<h3>美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日</h3>\n<p>美国破产法官在周三的一份法庭文件中裁定，Binance.US 出价 10 亿美元收购 Voyager 的资产的交易应该继续进行，驳回了美国政府提出的在上诉期间暂停程序的请求，称拖延会损害 Voyager 客户的利益。据 Voyager 同意的另一项协议，原定于 3 月 15 日生效的 Binance.US 收购交易已延长至 3 月 20 日。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/",
           "publishedOn": "2023-03-16T09:31:25.000Z",
-          "wordCount": 19924,
+          "wordCount": 19918,
           "title": "美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日",
           "imageUrl": "https://www.coindesk.com/resizer/NJhnXE5rgcRHDrz0AhoAav5c3sg=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/JOGVVHX2SBAHNBRDY4JEW7ZHNA.jpg"
         },
@@ -137,7 +177,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 4816,
+          "wordCount": 4934,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -277,7 +317,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>与其他虚拟机和物理机在架构上不同，以太坊虚拟机（EVM）需要特定领域的语言（DSL）。加密研究员 jtriley.eth 对 EVM DSL 设计技术现状进行了分析解读，包括 Solidity、Vyper、Fe、Huff、Yul 和 ETK。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">https://jtriley.substack.com/p/ethereum-virtual-machine-language</a></p>\n<p><strong>文章作者：</strong></p><p>jtriley.eth</p><hr><h3>观点：</h3><p><strong>jtriley.eth：</strong>1）Solidity：使用了面向对象的模式，其中智能合约被视为类对象，利用多重继承的优势。编译器是用 C++ 编写的，并计划在未来的版本中迁移到 Rust。Solidity 还具有库的功能，且指定了一个应用二进制接口（ABI）标准用于合约对接，也提供内联 Yul 模块允许对 EVM 指令集进行低级访问；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>2）Vyper：类似 Python 的高级语言，第二大流行的 EVM DSL，不采用面向对象的模式及内联汇编。但 Vyper 编译器选择将局部变量存储在内存中而非堆栈，使得合约更简单有效。且其实现了更多内置函数。虽然没有广泛的开发者工具套件，但其有更紧密的集成工具可以插入至 Solidity 开发者工具中；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>3）Fe：类似 Rust 语法的高级语言，目前还在积极开发中，使用 Yul 作为 IR 且依靠 Yul 优化器，不支持内联汇编。Fe 有望让开发者编写的代码更安全；4）Huff：汇编语言，具有手动堆栈控制和对 EVM 指令集的最小抽象，编译器最初由 Aztec 团队编写，随后用 Typescript 重写，最终选择使用 Rust 重写；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>5）ETK：具有手动堆栈管理和最少的抽象，编译器使用 Rust 编写，其和 Huff 之间的区别是 Huff 为 initcode 增加了构造器代码。ETK 支持表达式宏和指令宏；6）Yul：Solidity 工具链的一部分，可以选择在 Solidity 编译管道中使用，不支持代码重用，编译器是用 C++ 编写的，并计划与 Solidity 其他部分一起迁移到 Rust。【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a>",
           "link": "https://jtriley.substack.com/p/ethereum-virtual-machine-language",
           "publishedOn": "2023-03-16T03:37:20.000Z",
-          "wordCount": 10528,
+          "wordCount": 10734,
           "title": "【英文】6 大以太坊虚拟机领域特定语言设计解读：Solidity、Vyper、Fe......",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a6ec8d7-cd97-4971-bf30-1ed12f8f829c_1024x1024.png"
         },
@@ -337,7 +377,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20464,
+          "wordCount": 20466,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -767,7 +807,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1783,
+          "wordCount": 1989,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -887,7 +927,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>今日，Aztec Network 宣布关闭隐私基础设施 Aztec Connect，未来的发展重点将集中在零知识通用语言 Noir 和下一代加密区块链的开发上。Chainfeeds 创始人 Zhixiong Pan 专访 Aztec CEO Zac Williamson，围绕 Aztec 是否面临监管压力？Aztec Connect 是否运行成本过高？是否会转向开发 Layer1？等话题展开探讨。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">https://chainfeeds.substack.com/p/aztec-connect-l2-rollup</a></p>\n<p><strong>文章作者：</strong></p><p>Zhixiong Pan</p><hr><h3>观点：</h3><p><strong>Zac Williamson（Aztec 首席执行官）：</strong>1. Aztec 未被监管机构联系，关闭 Aztec Connect 是商业层面的考虑；2. Aztec Connect 的维护成本不低；3. 团队正专注于下一代默认隐私的可编程智能合约协议 Noir；4. 仍然关注于 Layer2，而不是 Layer1；5. Noir 使用比特币风格的 UTXO 模型；6. Noir 将会把零知识证明和密码学都抽象掉，应用开发者不需要了解密码学就能开发 Noir 智能合约。</p><a href=\"https://chainfeeds.substack.com/p/aztec-connect-l2-rollup\">内容来源</a>",
           "link": "https://chainfeeds.substack.com/p/aztec-connect-l2-rollup",
           "publishedOn": "2023-03-13T12:20:28.000Z",
-          "wordCount": 1077,
+          "wordCount": 1283,
           "title": "Aztec 专访：关闭 Connect 并非监管压力，将继续构建 L2 Rollup",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e6394a4-17b2-42f3-b7a7-8f346ab10312_1024x599.png"
         },
@@ -4184,7 +4224,7 @@
           "description": "‍原文作者：Messari - keyxyz\n编译：BlockTurbo\n过去，GMX、Velodrome等受到扶持和激励的第 2 层 (L2) 应用程序已被证明其成功性并成为赢家；那么，通过研究下一轮潜在的激励接受者，可能会指引我们发现下一波可能崛起的协议。\n现在，就让我们来看看 Optimism 最新一轮资助扶持中最有潜力的资助获得者们。\n\n热门激励应用\nOptimism 的资助通常分为两类：Growth Experiments（增长实验）和Builders（构建者）。在 Growth Experiments 中，我们发现了面向 DeFi、消费者平台等的链上应用程序。在Builders部分，有团队和独立开发者为各种用例创建开发者工具，包括用户定位、交易解码等。\n十二个协议被选为本周期Growth Experiments类别的决赛入围者。三个最受关注的协议基于它们之前的有机增长、通过激励措施加速增长的潜力以及各自的竞争前景而入选。\nKyberswap 是一个 DEX 聚合器和流动性平台，最初于 2019 年部署到以太坊。它在第一季度的良好增长导致其可能获得激励，年初至今，其基于 Optimism 的交易量增长了约 9 倍。这足以获得并保持 Optimism DEX 交易量排名第三的位置。\n截至撰写本文时，Kyberswap的交易量与 Velodrome 和 Uniswap 的交易量之间的差距在 24 小时、7 天和累积水平上都很显著。 Velodrome 和 Uniswap 的 7 天交易量分别超过 Kyberswap 约 1.73 亿美元和约 1.29 亿美元。\n\n仅 500,000 美元左右的激励措施似乎不太可能弥补这 100+ 百万美元的缺口——即使我们考虑到市场对激励计划的过度反应。从用户数量的角度来看，Uniswap 从其在链上部署的第一天起就通过网络渗透率（定义为唯一用户与 Optimism 用户总数）主导了 Optimism。\n然而，Arbitrum 上的 Uniswap 面临着不同的命运。 Uniswap 最初在网络渗透率方面遥遥领先，但后来在网络渗透率方面落后于 SushiSwap，位居第二。\n\n有趣的是，这两条链在交易量方面互换了角色。尽管失去了在 Arbitrum 上的网络渗透率领先优势，但截至 3 月 10 日，Uniswap 的 7 天交易量仍是 SushiSwap 的近 4 倍。在 Optimism 上，Uniswap 在网络渗透率方面仍保持领先地位，它与排名第二的Velodrome 之间的 7 天交易量差距并不明显（2.386 亿美元对 1.943 亿美元）。\n\n对于 DEX，交易量份额胜过用户份额。对于 Kyber 来说幸运的是，Optimism 是 L2 中具有转移交易量份额的先例最多的。经济激励和随之而来的投机兴趣可能足以让 Kyber 真正开始获得发展动力。\n1inch 是现货交易聚合器，MUX 是永续合约聚合器。 MUX 平台将永续合约市场聚合到一个界面中，目标是为最终用户提供卓越的流动性、杠杆等。\n在 FTX 崩溃之后，Perps 一直是一个热门市场。这对 MUX 来说既好又坏。\n一方面，对杠杆的需求在加密市场中持续存在。另一方面，提供杠杆服务的竞争非常激烈。\n衍生品不同于现货AMM，因为它们在新进入者超过先行者方面有着更好的记录。在 Arbitrum 上，GMX 获得了巨大的市场份额。\n基于 Optimism 的衍生品市场远不如 Arbitrum 市场稳固。因此，MUX 处于极具吸引力的地位。它的混合方法允许 MUX 整合来自其他平台的流动性（通过它们的聚合器），同时还保持 MUX 特定的流动性。反过来，这使得 MUX 有可能超越其他平台（通过其原生流动性 + 聚合流动性的组合）。\n来自 OP 的交易激励和种子流动性是 MUX 扩大这些优势的计划的一部分。\nSonne Finance 是从 Compound Finance 分叉出来的 Optimism 原生借贷协议。在采取任何激励措施之前，其 TVL 在 2023 年已经增长了约 3 倍。在这种增长的基础上加入一些 OP 激励措施，可能会提高 Sonne 的采用率。\nAave 目前是 Sonne 在 Optimism 贷款领域的唯一竞争对手，其 TVL 超过 Sonne 的两倍（8760 万美元对 3960 万美元）。然而，一些细微差别为 Sonne 描绘了一个有吸引力的竞争定位。\nAave 仅提供具有借贷上限和保证金限制的有限 OP 市场。同时，OP 在熊市中的价格表现创造了财富效应，通常会导致对杠杆的高需求，但 OP 持有者无法通过 Aave 获得该杠杆。\n但是，他们可以通过 Sonne获得。虽然 Aave 的有限市场迄今为止只吸引了约 225,000 美元的供应，但相比之下，Sonne 已经吸引了价值 761 万美元的 OP 供应。其中，已借入 656 万美元，利用率为 87%。\n大量的叙述正在努力扩大 Sonne 现有的增长。原生应用一直是 L2 的热门主题：\nSonne 至少有机会复制这一壮举。在截至 3 月 7 日的 30 天内，Sonne 的 TVL 增长了 120%，而同期 Aave 的 TVL 缩减了 0.44%——这是 Sonne 效仿 Radiant 成功模式的早期迹象。\n除此之外，Sonne 采用了 GMX 推广流行的“实际收益”分享机制。\n在激励期间，协议几乎总是看起来很棒。一旦狂欢停止，真正的考验就会来临。一旦激励措施枯竭，小型和大型应用程序的增长都会消失。例如，L2 订单簿 DEX Rubicon 在其激励计划结束后仅 1 个月内就损失了近 95% 的 TVL 收益。时间会证明它的第二次拨款申请是否会走向不同的命运，如果申请被接受的话。\n除了智能合约应用程序，Optimism 还向为 Optimism 社区构建开发工具的开发人员提供资助。八名开发人员或开发团队进入了该类别的最后一轮。与应用案例一样，我们根据预计的技术影响和用例的新颖性将列表缩小到我们的首选关注对象。\nShutter Network 提议通过为OP Stack提供的受屏蔽的内存池实现为 Optimism 带来交易隐私。实现这一目标的主要方法是 Shutter Network 的门限加密 DKG。\nShutter 的主要重点包括：\nMetronomo 的工具允许：\nMetronomo 生成的数据计划可通过其 API（规范文档）访问。定义高级用户的主要方法是新近度、频率和货币价值客户细分框架，通常称为 RFM 模型。\n改进的用户定位实践可能会提高激励计划准确定位高价值用户的能力——这是对 Optimism 和加密货币整体的重要改进。\nRotki 提议为 Optimism（以及其他 EVM 协议）编写开源 EVM 交易解码器。它允许开发人员更轻松地处理来自基于 Optimism 的应用程序的复杂交易，而无需从头开始编写自己的解码软件。\nClique 提供所谓的“身份预言机”：一种将用户身份的各个方面从 Web2 移植到 Web3 的服务。这允许用户在链上验证或“证明”其链下身份的属性，从而提高链上身份的稳健性。更可靠的链上身份解决方案有助于解决抵抗女巫攻击和缺乏多样化声誉系统等问题。\nClique 使用各种隐私保护方法，包括零知识证明 (ZKP)、多方计算等，以确保用户的 Web2 数据不会暴露给任何不应在链上看到的人。\n这些激励计划的有效性仍然存疑。另外，我们也不知道哪些入围者（更不用说我们的首选）能够继续被选中获得资助。\n不过，各种各样的项目入围者表明了 Optimism 生态系统内的高度兴趣和发展。这些团队即使最终没有获得资助，仍然值得关注。",
           "link": "https://www.panewslab.com/zh/articledetails/r5x44192.html",
           "publishedOn": "2023-03-17T02:54:34.000Z",
-          "wordCount": 1823,
+          "wordCount": 1821,
           "title": "一文速览Optimism第十期激励扶持入围项目",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/1Wj7zfv2B1.jfif"
         },
@@ -4404,7 +4444,7 @@
           "description": "PANews 3月16日消息，官网显示，Arbitrum已开放治理代币ARB空投资格查询。目前，用户可登录网址，查询是否具有申请治理代币ARB的资格。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/1qfl9ke7.html",
           "publishedOn": "2023-03-16T13:19:17.000Z",
-          "wordCount": 1111,
+          "wordCount": 1107,
           "title": "Arbitrum已开放治理代币ARB空投资格查询",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -4484,7 +4524,7 @@
           "description": "3月14日，dYdX社区投票通过DIP-20提案，决定将交易奖励减少45%（约130万枚），剩余的55%（约158万枚）奖励将由国库留存，并可经由社区投票改做他用，其中赞成票比例为83%，反映出dYdX社区围绕DYDX代币的改进迈出了实际的一步。\n在市场行情动荡的大气候下，叠加GMX等新锐竞争对手的挤压下，减少交易奖励可以锁定部分流通量，以支撑代币价格，并且可以给予社区更多财政宽裕度，以规划dYdX的未来发展。\n目前dYdX的24h交易量在20亿美元左右，减少交易奖励势必会对交易量产生不利影响，整体上，这是dYdX在其V4 Vanguard计划的一部分，核心是通过对 DYDX 的用途和释放标准进行改造。以重新设计激励路径，希望解决 dYdX 存在的交易低效问题。\n\n打击通胀，收归国库\n本次更新分配机制的直接原因是市场环境的变化，DYDX代币在近一年的时间里下跌了近70%，而市场份额也面临后起之秀们GMX追击从一年前的95%降至目前的70%。\n\n尽管有一些社区成员不赞成，但鉴于当前的市场状况，在2月15日的投票测试中，共计有776名参与者进行票决，最终以91.6%（约2700万枚）赞成票通过。\n并且，分配给流动性提供者的奖励和社区/奖励金库相比分配占比过高，因此对交易奖励需要进行大幅度削减。此外，减少交易奖励也符合 V4 Vanguard 提案中设计的新分配模式。\nDYDX 总供应量的初始五年分配模型中，25%比例分配给交易奖励，而LP（流动性提供者）和国库分别只占7.5%和5%，而在协议上线的稳定期，虽然减少了交易奖励至20.2%，但仍然高于LP（7.5%）和金库（16.2%）。\n\n其中，DYDX 总供应量的 50%（5亿枚 DYDX）在 5 年内分配给社区，其余 50% 分配给早期投资者、协议开发者、社区成员和国库等。但是目前只能将把重点限制在社区分配比例上，因为这是唯一可以改变的事情。\n按照dYdX机制设计，从推出的五年后开始，每年2%是$DYDX 的通胀率最高限制，因此，dYdX的总体趋势是逐步降低市场上的流通量，以抗衡通胀预期通胀带来的价值稀释。\n而本次DIP-20降低交易奖励后，多余的的DYDX将被存入国库，事实上，降低交易奖励存入金库是dYdX历来做法。在之前的DIP-14中，便将质押 USDC 的奖励设置为 0，并将之前分配给 USDC 质押者的约38万枚 DYDX 存入国库中；而在DIP-16中，社区已经决议减少25%的交易奖励，并将交易奖励从 约380万枚DYDX 减少至 约280万枚DYDX，剩余的约 95万枚 DYDX 存入国库；而在DIP-17中，已经将质押 DYDX 的奖励归零，并将之前分发给质押者的约 38万枚 DYDX 存入国库。\n经过多轮削弱后，交易奖励仍然占比过高。即使在DIP-16后减少了 25% 的交易奖励之后，交易奖励仍占所有代币释放总额的 44%，仍然有较高的下降空间。\n\n在更新代币模型后，交易奖励削减的DYDX份额将会转移至国库中，以配合即将到来的dYdX V4有足够的资金去支持协议发展，并且dYdX DAO将演化为包含多个subDAO在内的自治体，包括潜在的Growth SubDAO都需要社区提供资金支持。\n减少交易奖励的直接原因是为V4升级提供资金支持，但是实行初期必须要面对交易员的出逃和交易量下降的窘境。\n目前，已经有超过5千万美元的大户交易员“威胁”要离开dYdX，但是在社区看来依靠补贴的交易量无法维持，具备健壮性的协议必须服务于真正的用户。\n而另一个后果会造成投票权的更加集中化趋势。dYdX的主要价值在于社区治理，而投票权与 DYDX 持有量成正比，通过减少未来的供应量，减少交易奖励会直接增加现存 DYDX 的价值。\n按照dYdX V4升级协议的部分，交易奖励是其中一系列改进计划的组成部分，总体上遵循提高DYDX代币价值和促进dYdX交易量的目标前进，具体内容包含以下部分：\n在基于为奖励分配机制引入新的权重设计和将交易奖励减少约 45%的基础上，希望进入通胀前，以减少社区奖励的方式控制 DYDX 释放量，以最终达到 2% 的通胀率。\n如果要进一步消除交易者和LP的准入壁垒，最好的方式是仅根据交易量来奖励LP，而不是采取复杂的质押模式。\n\n因此，目前的交易费用折扣和交易奖励是不公平的机制设计，一方面，交易费用折扣造成了DYDX持有者降低自身的交易成本，这对非持币用户而言并不公平；另一方面，交易奖励已经起到了基于用户支付的费用的回扣的作用，并且 94% 的 DYDX/stkDYDX 持有者并不是协议的活跃交易者。\n降低交易奖励和取消交易费用折扣，可以不再奖励低效质押和非活跃交易者，而是为任何参与者，都只根据为协议带来的价值获得奖励。\n交易奖励在协议启动初期，总体上是一个简单有效的激励系统。奖励和用户在给定时期内付出的交易费用成正比。从活跃用户的增长率来看，这种机制曾经非常有效，因为它本质上是对所有交易活动的回报，无论他们交易的细分市场和回报如何。但是将交易奖励在开拓激励长尾市场或提高市场交易量的机制，那么效率将会非常之低。\n在dYdX协议进入稳定的发展期后，创业初期简单粗暴的激励模式不再适应新时代，需要被更为精细化的市场运营措施取代，最直接的是转向提供更优秀的用户体验，将纯粹的投机者和套利者驱离，以稳固真正的用户群体。",
           "link": "https://www.panewslab.com/zh/articledetails/34pejr6h.html",
           "publishedOn": "2023-03-16T10:10:44.000Z",
-          "wordCount": 1330,
+          "wordCount": 1326,
           "title": "dYdX的进击？了解交易奖励减少45%的来龙去脉",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/16/images/5mVjzdY04N.jfif"
         },
@@ -4554,7 +4594,7 @@
           "description": "原文：《OpenAI推出“王炸”产品GPT-4，能不能完整检测智能合约漏洞？》\n北京时间3月15日凌晨，人工智能初创公司OpenAI正式公布最新一代人工智能语言模型GPT-4。\nOpenAI在当天的声明中称，GPT-4的诞生，是OpenAI在放大深度学习方面的最新里程碑。\n那现在进化后的GPT-4 ，又会带给我们哪些惊喜？\n\n进化后的GPT-4，到底有多“炸”？\n根据OpenAI官方的介绍，GPT-4是一个超大的多模态模型，也就是说，它的输入可以是文字（上限2.5万字），还可以是图像。\n其AI能力的恐怖之处体现在哪呢？比如下面这张照片。\n你问它下图中手套掉下去会怎样？\n它会回答：它会掉到木板上，并且球会被弹飞。（这逻辑能力，你能想象吗）\n\n甚至只需要简单在纸上画一个网站的草稿图，他就可以识别该网站。\n\n拍一张照片上传给GPT-4，它就可以立马生成网站的HTML代码！\n\n可见，GPT-4比GPT-3.5，更可靠、更有创造力，能够处理更细微的指令。\n除此之外，ChatGPT-4在内容准确性以及逻辑能力相比上一代也要提升不少，在统一律师考试（Uniform Bar Exam）中，GPT-4成绩超过90%其它人，而GPT-3.5的成绩只超过10%的人，GPP-4在SAT Math获得700分，GPT-3.5的成绩为590分，提升了110分。在其它标准化考试中，GPT-4的成绩也都比GPT-3.5优秀不少。\n\n在官方演示中，GPT-4几乎就只花了1-2秒的时间，识别了手绘网站图片，并根据要求实时生成了网页代码制作出了几乎与手绘版一样的网站。\n除了普通图片，GPT-4还能处理更复杂的图像信息，包括表格、考试题目截图、论文截图、漫画等，例如根据专业论文直接给出论文摘要和要点。\n这么强，是不是你也感觉快要失业了。\n\nGPT-4可对论文进行解读 来源：OpenAI官网\n用ChatGPT4审计智能合约会发生什么？\n我们曾在去年12月发了一篇ChatGPT的研究文章，看看它审计智能合约会发生什么，扩展阅读：风靡全网的“最强AI” ChatGPT，能不能检测智能合约漏洞？\n3月15日，Coinbase主管Conor Grogan在社交媒体发文称，他已在ChatGPT-4中插入了一个实时以太坊智能合约，结果AI瞬间就找到了安全漏洞，甚至还展示了如何利用这些漏洞进行攻击。\nConor Grogan表示，该合约的确在2018年被黑客利用漏洞攻击，此外他还透露也尝试了Euler的智能合约，但由于合约过长而无法被chatGPT-4处理，Conor Grogan坦言AI最终将是智能合约更安全、更容易构建。\n\n\n\n也有群友说，ChatGPT似乎可以审计前两天Euler Finance约2亿美元被盗案的漏洞。相关事件阅读：复盘Euler Finance 2亿美元被盗案的来龙去脉，本次事件带给我们哪些启示？\n但是，真的有这么简单吗？\n其实与早期的GPT模型一样，GPT-4仍然存在一定的局限性。\nOpenAI官方称，它并不完全可靠，可能会出现推理错误 ，“GPT-4缺乏对绝大多数数据切断后（2021年9月）发生的事件的了解，并且无法从中吸取经验教训……它有时会出现简单的推理错误，它会轻信用户明显的虚假陈述，有时它会像人类一样在难题上失败，例如在它生成的代码中引入安全漏洞。”\n基于此，OpenAI提醒，用户在使用语言模型时应格外小心，最好辅助以人工审查、附加上下文、或完全避免在高风险情况下使用它。",
           "link": "https://www.panewslab.com/zh/articledetails/4n22ik79.html",
           "publishedOn": "2023-03-16T08:28:02.000Z",
-          "wordCount": 1260,
+          "wordCount": 1258,
           "title": "GPT-4能让智能合约漏洞无所遁形吗？",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/16/images/0wV7JL471i.jfif"
         },
@@ -4594,7 +4634,7 @@
           "description": "原文：《A&T View: 以太坊MEV提取机制的现状、问题与改进》\n作者：Liam\nTL; DR\n* 什么是MEV？MEV在不同语境下所指的内涵并不完全相同，为避免混淆，本文选择一个相对狭义但最精准的定义：\nMEV（Maximal Extractable Value，最大可提取价值）是指通过按照某特定顺序执行N笔交易，为设计这套顺序的主体带来的经济利益。\nMEV有哪些利益相关者？以太坊合并后，MEV的提取与分配由Flashbots提出的MEV-Boost体系所主导。根据mevboost.pics的统计，自2022年11月以来，约90%的区块都产自MEV-Boost体系。\n\n在现行体系下，以太坊主网上MEV的利益相关者包括用户、钱包及RPC、MEV搜寻者（Searcher）、区块建设者（Block Builder）和区块提议者（Block Proposer\\Validator）。在MEV价值链中，可以拆解为起源和上中下游四个部分：\n\n起源：创造MEV机会，为MEV提取提供可编辑空间\n上游：完成签名，然后将交易从本地广播至网络中\n中游：在公开或隐私环境中拍卖MEV机会、确定MEV利润分配方式\n下游：提议新区块，使用户的交易和提取MEV交易被网络共识，获得最终性，实现MEV利润分配\n \n二、MEV如何被分配？\nMEV-Boost体系下，MEV流向了四类主体，MEV搜寻者、区块建设者、区块提议者和以太坊网络本身。\nMEV直接被MEV搜寻者捕获，并以Gas Fee形式流向了区块建设者、区块提议者和以太坊网络本身。\n提取MEV的交易被执行为创建这些交易的MEV搜寻者带来了收入，这些收入的成本是MEV搜寻者支付的Gas Fee；Gas Fee的一部分根据EIP-1559协议而被燃烧，另外一部分以Tip形式流向了区块建设者；区块建设者将大部分的Tip以MEV Rewards的形式直接转账给了区块提议者（多数情况下区块建设者会保留一部分Tip，但也有额外补贴区块提议者的情况）。\n\n\nMEV=特定顺序的交易被执行而产生的收益\nMEV=MEV搜寻者利润+区块建设者利润+区块提议者利润+以太坊网络所捕获的价值\nMEV=（Bundles收入-Gas成本）+（Tip-付给区块提议者的费用）+（付给区块提议者的费用）+（EIP-1559燃烧掉的ETH）\n\n对于MEV搜寻者，MEV利润反映为“MEV搜寻者提交的交易包（Bundles）被执行而产生的收入减去交易包的Gas成本“。\n对于区块建设者，MEV利润反映为”区块建设者提交的区块中的执行层收入减去支付给区块提议者的费用“。\n对于区块提议者，MEV利润反映为“来自区块建设者支付的费用”。\n对于以太坊网络，MEV利润反映为“依据EIP-1559被燃烧掉的ETH”。\n从MEV的策略类型来看，可以分为“跟跑”策略（Back-running）和“抢跑”策略（Front-running）；\n从MEV为整个系统带来的后果看，可以分为有益的、中性的和有害的三类：\n\n实操中，提取MEV利润的策略层出不穷，针对不同性质的MEV，我们只举一种最常见的例子。\n这是一种基于“跟跑”策略提取MEV的交易。“跟跑”策略需要紧跟着某笔交易才能够实现。例如，在超额抵押借贷协议中，当预言机喂价的变动使得某借款人的帐户达到可被清算的状态时，紧跟着预言机喂价变动后发起清算是有利可图的。\n及时的清算能够降低坏账发生的概率，有利于维持整个借贷协议的稳定性，所以这类提取MEV的交易被认为是有益的。尽管本质上的利润来源是借款人的损失，但也是对借款人未能及时清偿债务的惩罚，且借款人在借出资金时也明确了这一潜在风险。\n也是基于“跟跑”策略提取MEV的交易。当用户在DEX中完成一笔交易后，由于滑点的存在，可能使得不同DEX中相同Token出现价差。MEV搜寻者可以通过一笔套利交易，在价格低的DEX买入，价格高的DEX卖出从而获利。\n这是一种基于“抢跑”策略提取MEV的交易。当MEV搜寻者监听到用户在DEX的交易还未被打包确认时，抢在用户交易前插入一笔交易，使得用户的滑点变高、执行价格变差，挤在用户交易后插入另外一笔方向相反的交易，从用户的额外滑点损失中获利。\n尽管三明治攻击本身也是套利交易，但它的利润来源是普通用户的损失，是在损害其他用户的前提下获得利润，被认为是有害的。\n大多数基于“跟跑”策略所产生的MEV被认为是有益的或中性的，因为这些交易不会对在其之前的任何交易产生影响，不会损害其他用户的合理利益，并且有部分策略对DeFi系统的稳定性也是有益的；而大多数基于“抢跑”策略所产生的MEV被认为是有害的，因为这些交易的收益往往建立在将其他用户置于不利境地的基础上。\n涉及到交易排序就会有提取MEV的机会，MEV几乎是无法避免的。这样的背景下，MEV赛道下的项目致力于解决两个问题：\n1. 如何预防有害的MEV？\n2. 如何公平地分配有益的和中性的MEV？\n现行解决方案的做法是：\n关于“预防”问题：\n\n关于“分配”问题：\n遗留的问题是：\n \n五、改进的方向何在？\n\n要解决“抢跑”问题，应该借助加密技术。基于“加密-排序-解密-执行”，将用户的交易在本地加密，在不被任何人读取交易内容的情况下完成排序共识，再解密内容，最后按已共识的排序执行交易。这种方案既破除了信任假设，也不再需要私有订单流。\n实现更公平的分配，应该返还用户应得的MEV利润。用户作为创造MEV提取机会的角色，保障他们的合理利益不被侵犯只是最基本的，不应该只保障他们的交易不被抢跑，也应该将一部分MEV利润返还。",
           "link": "https://www.panewslab.com/zh/articledetails/3jn080q2.html",
           "publishedOn": "2023-03-16T07:30:56.000Z",
-          "wordCount": 1290,
+          "wordCount": 1288,
           "title": "解读以太坊MEV产业链：现状、问题及改进方法",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/16/images/8g7RF3X73D.jfif"
         },
