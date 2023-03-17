@@ -207,7 +207,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>TradFi 经历了极具挑战性的一周，并且 DeFi 并未完全隔离，受到巨大影响。Bankless 撰文从协议依赖和银行困境的角度，分析 DeFi 为何仍然容易受到 TradFi 失败的影响，并提出去中心化稳定币、加密支付系统两种加密原生解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">https://www.bankless.com/is-defi-too-reliant-on-banks</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>协议依赖：许多成功协议的背后是中心化的开发人员群体，他们提供对链上智能合约的前端访问并构建未来的路线图项目。与传统的初创公司一样，加密公司依赖于传统的银行系统，项目代币可能因为银行困境遭到破坏。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>银行困境：倒闭的银行显着提高了中心化风险，这种风险部分原因是初创企业的特殊需求，以及银行选择为加密公司提供银行服务所面临的监管障碍，这迫使加密公司选择精品银行，这在业务良好时是个好主意，但在经济衰退的时候，会高度暴露于存款人行业的周期性，面临很大程度的风险。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>解决方案：1）去中心化稳定币，任何抵押品支持不足的中心化稳定币都可能发生挤兑。可以选择使用以太支持的 LUSD 和 RAI，其偿付能力证明可以在链上验证，并且仅取决于协议清算抵押不足头寸的能力。2）使用创新的加密支付系统，链上管理工资和其他费用，例如  LlamaPay。将未使用的资金存储在以太支持的去中心化稳定币中并转向链上费用支付解决方案可能是朝着正确方向迈出的一步。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a>",
           "link": "https://www.bankless.com/is-defi-too-reliant-on-banks",
           "publishedOn": "2023-03-17T03:22:23.000Z",
-          "wordCount": 2444,
+          "wordCount": 2438,
           "title": "【英文】Bankless：DeFi 是否过于依赖银行？",
           "imageUrl": "https://bankless.ghost.io/content/images/2023/03/267_Newsletter_DeFi_is_banked_031523-2.jpg"
         },
@@ -277,7 +277,7 @@
           "description": "<h3>消息人士：加密托管公司 Copper 已放弃其软件和基础设施开发业务</h3>\n<p>据 CoinDesk 援引消息人士报道，加密托管公司 Copper 已经放弃其企业业务，即公司软件和基础设施开发业务。理由是 Copper 的 Clear Loop 托管和结算业务在未来更具经济意义。消息人士表示，Copper 的企业部门将面临裁员，尚不清楚具体受到影响的员工数量。Copper 随后在一份声明中表示，Copper 正在精简业务，将进行裁员。\n此前于 2022 年 12 月，Copper 收到安全问题警报，涉及公司的 GitHub 存储库，其中包含公司如何保护客户资产的蓝图。当时一位消息人士表示，该公司的整个代码库都容易受到攻击并被下载。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/16/crypto-custody-firm-copper-shelves-enterprise-business/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/16/crypto-custody-firm-copper-shelves-enterprise-business/",
           "publishedOn": "2023-03-17T01:24:21.000Z",
-          "wordCount": 19727,
+          "wordCount": 19703,
           "title": "消息人士：加密托管公司 Copper 已放弃其软件和基础设施开发业务",
           "imageUrl": "https://www.coindesk.com/resizer/tp1lq5GWYJVSBDHvoSyh3c6UeLI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/BMNWFBMJBRH7XEX7F7FO2KCSDY.jpg"
         },
@@ -287,7 +287,7 @@
           "description": "<h3>以太坊核心开发者确认于 4 月 12 日在以太坊主网进行上海升级</h3>\n<p>以太坊核心开发者在第 157 次以太坊执行层核心开发者会议（ACDE）将以太坊主网上海升级启动时间确定为 4 月 12 日，一旦该日期被开发者投票通过并经过 GitHub 确认将不会再改变。\n此前消息，以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Ben Edgington：</strong>尽管以太坊 Goerli 测试网上海升级由于验证者节点没有及时升级导致参与率不高，但我们看到所有客户端类型都在生产有效区块，且参与率随着时间的推移有所上升，这并不是什么大问题。我们并不担心这种情况会在主网发生，因为用户通常都会积极维护主网质押基础设施。【原文为英文】</p><a href=\"https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/",
           "publishedOn": "2023-03-17T01:06:32.000Z",
-          "wordCount": 20470,
+          "wordCount": 20458,
           "title": "以太坊核心开发者确认于 4 月 12 日在以太坊主网进行上海升级",
           "imageUrl": "https://www.coindesk.com/resizer/O_T0DCg9xjPG05npHy9Aks0C9QQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IJS24QRTW5CTPPM3MWELVL6K64"
         },
@@ -297,7 +297,7 @@
           "description": "<h3>Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO</h3>\n<p>Arbitrum 基金会宣布其治理代币 ARB 将于 3 月 23 日空投给社区成员，快照日期为 2023 年 2 月 6 日。ARB 总发行量为 100 亿枚，Arbitrum 社区将控制代币总量的 56%。其中，将向符合条件的 Arbitrum 用户空投总供应量的 11.5%，向在 Arbitrum 生态系统中运营的 DAO 提供 1.1%，其余部分将进入由 Arbitrum DAO 控制的金库，这将允许 ARB 持有者投票决定如何分配资金。ARB 总供应量的另外 44% 将流向 Arbitrum 的开发公司 Offchain Labs 的投资者和员工，这部分代币将受到锁定期和归属时间表限制。\n\n根据 Arbitrum 基金会的说法，ARB 将标志着 Arbitrum 正式过渡到去中心化自治组织 (DAO)，这意味着 ARB 持有人将能够对管理 Arbitrum One 和 Arbitrum Nova 的关键决策进行投票。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>空投资格查询及代币领取地址：https://arbitrum.foundation/</p><a href=\"https://arbitrum.foundation/\">内容来源</a><p><strong>ChainFeeds：</strong>空投资格及分发规范文档：https://docs.arbitrum.foundation/airdrop-eligibility-distribution</p><a href=\"https://docs.arbitrum.foundation/airdrop-eligibility-distribution\">内容来源</a><p><strong>TheModestThief 神偷：</strong>我们对 ARB 预期价格进行了一些计算，假如初始流通为总量的 12.75%，ARB 和 OP 及 MATIC FDV 相似，但预计会稍微低一点，我们得出结论 ARB 预期价格为 1.74 美元。【原文为英文】</p><a href=\"https://twitter.com/TheModestThief/status/1636374758987300864\">内容来源</a><p><strong>100y.eth💜 | a41：</strong>因为 ARB 是治理代币，我将其与其他治理代币例如 OP、UNI、LIDO、COMP 和 AAVE 进行了比较，根据 MC/TVL 比率，ARB 代币的合理价格在 0.26 至 1.56 美元之间，如何直接和 OP 做比较，1.04 至 1.56 美元也是有可能的。【原文为英文】</p><a href=\"https://twitter.com/100y_eth/status/1636412658303000576\">内容来源</a><p><strong>CapitalismLab：</strong>对标 OP，我认为 ARB 流通市值在 8 亿美元左右，全流通市值预计在 105 亿美元左右。且 Arbitrum 在未有激励的情况下 TVL 已为 OP 的 1.7 倍，如果是 OP 2 倍 FDV，ARB 对应价格预计为 2.1 美元左右。</p><a href=\"https://twitter.com/NintendoDoomed/status/1636370652910465025\">内容来源</a><p><strong>杀破狼 killthewolf.eth：</strong>我们整理了 ARB 多种估值方式汇总，方便大家对 ARB 的二级价格进行预判，例如你觉得 ARB 值 OP 流通市值的 1.5 倍的话，则 0.6 x 1.5 = 0.9。</p><a href=\"https://twitter.com/0xKillTheWolf/status/1636532403568283648\">内容来源</a><p><strong>匿名博士：</strong>根据 ARB 及 OP 公开信息，我们用 AI 做了一个简易估值模型标，预期其合理价格区间在 0.6 至 1.2 美元左右，FOMO 状态下能到 2 美元以上。</p><a href=\"https://twitter.com/Chris_Defi/status/1636436553030586368\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/",
           "publishedOn": "2023-03-16T13:38:31.000Z",
-          "wordCount": 20703,
+          "wordCount": 20691,
           "title": "Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO",
           "imageUrl": "https://www.coindesk.com/resizer/tq--uuGGCw-eJgud0VWz7It-egM=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/3IUP4QFMIRG2VAZ6NW7TXS7DOA.png"
         },
@@ -337,7 +337,7 @@
           "description": "<h3>美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日</h3>\n<p>美国破产法官在周三的一份法庭文件中裁定，Binance.US 出价 10 亿美元收购 Voyager 的资产的交易应该继续进行，驳回了美国政府提出的在上诉期间暂停程序的请求，称拖延会损害 Voyager 客户的利益。据 Voyager 同意的另一项协议，原定于 3 月 15 日生效的 Binance.US 收购交易已延长至 3 月 20 日。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/",
           "publishedOn": "2023-03-16T09:31:25.000Z",
-          "wordCount": 19956,
+          "wordCount": 19932,
           "title": "美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日",
           "imageUrl": "https://www.coindesk.com/resizer/NJhnXE5rgcRHDrz0AhoAav5c3sg=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/JOGVVHX2SBAHNBRDY4JEW7ZHNA.jpg"
         },
@@ -347,7 +347,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 4771,
+          "wordCount": 4802,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -447,7 +447,7 @@
           "description": "<h3>加密货币安全公司 Staging Labs 完成 110 万美元融资</h3>\n<p>据 TechCrunch 报道，加密货币安全公司 Staging Labs 完成 110 万美元融资参投方包括 The General Partnership、Flourish Ventures、NGC Ventures、AlphaGrep、Gaingels、a16z、Kleiner Perkins 和 Greylock，个人投资者包括来自 ConsenSys、Coinbase、Anchorage Digital、Chainalysis、QuickNode、Merkle Science 等的投资人。\nStaging Labs 推出了安全产品 Saferoot，该产品能够在发现有风险的交易时自动将钱包内资产转移至备份安全钱包。Staging Labs 计划向用户收取订阅费和成功追回的资产的一定比例来获取收入。</p>\n<p><a href=\"https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/",
           "publishedOn": "2023-03-16T05:51:14.000Z",
-          "wordCount": 7825,
+          "wordCount": 8209,
           "title": "加密货币安全公司 Staging Labs 完成 110 万美元融资",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-655147030.jpg?resize=1200,800"
         },
@@ -487,7 +487,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>与其他虚拟机和物理机在架构上不同，以太坊虚拟机（EVM）需要特定领域的语言（DSL）。加密研究员 jtriley.eth 对 EVM DSL 设计技术现状进行了分析解读，包括 Solidity、Vyper、Fe、Huff、Yul 和 ETK。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">https://jtriley.substack.com/p/ethereum-virtual-machine-language</a></p>\n<p><strong>文章作者：</strong></p><p>jtriley.eth</p><hr><h3>观点：</h3><p><strong>jtriley.eth：</strong>1）Solidity：使用了面向对象的模式，其中智能合约被视为类对象，利用多重继承的优势。编译器是用 C++ 编写的，并计划在未来的版本中迁移到 Rust。Solidity 还具有库的功能，且指定了一个应用二进制接口（ABI）标准用于合约对接，也提供内联 Yul 模块允许对 EVM 指令集进行低级访问；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>2）Vyper：类似 Python 的高级语言，第二大流行的 EVM DSL，不采用面向对象的模式及内联汇编。但 Vyper 编译器选择将局部变量存储在内存中而非堆栈，使得合约更简单有效。且其实现了更多内置函数。虽然没有广泛的开发者工具套件，但其有更紧密的集成工具可以插入至 Solidity 开发者工具中；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>3）Fe：类似 Rust 语法的高级语言，目前还在积极开发中，使用 Yul 作为 IR 且依靠 Yul 优化器，不支持内联汇编。Fe 有望让开发者编写的代码更安全；4）Huff：汇编语言，具有手动堆栈控制和对 EVM 指令集的最小抽象，编译器最初由 Aztec 团队编写，随后用 Typescript 重写，最终选择使用 Rust 重写；【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a><p><strong>jtriley.eth：</strong>5）ETK：具有手动堆栈管理和最少的抽象，编译器使用 Rust 编写，其和 Huff 之间的区别是 Huff 为 initcode 增加了构造器代码。ETK 支持表达式宏和指令宏；6）Yul：Solidity 工具链的一部分，可以选择在 Solidity 编译管道中使用，不支持代码重用，编译器是用 C++ 编写的，并计划与 Solidity 其他部分一起迁移到 Rust。【原文为英文】</p><a href=\"https://jtriley.substack.com/p/ethereum-virtual-machine-language\">内容来源</a>",
           "link": "https://jtriley.substack.com/p/ethereum-virtual-machine-language",
           "publishedOn": "2023-03-16T03:37:20.000Z",
-          "wordCount": 10528,
+          "wordCount": 10734,
           "title": "【英文】6 大以太坊虚拟机领域特定语言设计解读：Solidity、Vyper、Fe......",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a6ec8d7-cd97-4971-bf30-1ed12f8f829c_1024x1024.png"
         },
@@ -547,7 +547,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20480,
+          "wordCount": 20476,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -687,7 +687,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19492,
+          "wordCount": 19507,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
@@ -977,7 +977,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>当你持有的稳定币面临脱钩风险，该如何操作？加密研究员 CapitalismLab 结合底层逻辑、实际数据和案例，制作了一份稳定币脱钩紧急逃生指南。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://capitalismlab.substack.com/p/fc3\">https://capitalismlab.substack.com/p/fc3</a></p>\n<p><strong>文章作者：</strong></p><p>CapitalismLab</p><hr><h3>观点：</h3><p><strong>CapitalismLab：</strong>根据不同挂钩机制解析去中心化稳定币逃生方法：1）PSM 通过支持直接与其他稳定币兑换来挂钩，其额度存在上限，到达上限后会转为单向转换，短期而言能够容下大资金，且稳赚不赔，但并不能完全脱离 USDC 影响；2）AMO：需要确定 AMO 底层资产有没有问题；</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>3）债务 / 抵押品定向兑换：对于中小额资金而言，如果能以低于 1 的价格买入 LUSD，是一个不错的逃生方案，但需要担心极端行情导致的坏账；4）随缘挂钩：考虑到目前大部分产品普遍都增加了较多风险较高的抵押物，不太适合紧急逃生。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a><p><strong>CapitalismLab：</strong>从储备资产角度分析中心化稳定币逃生方法，从综合安全性和流动性而言 BUSD> USDC > USDT。不过 USDT 也存在久经检验及「不透明」带来的优势，而 BUSD 则成了美国监管机构的眼中钉。此外，比较小众的还有 USDP/ GUSD 等。</p><a href=\"https://capitalismlab.substack.com/p/fc3\">内容来源</a>",
           "link": "https://capitalismlab.substack.com/p/fc3",
           "publishedOn": "2023-03-14T04:33:37.000Z",
-          "wordCount": 1783,
+          "wordCount": 1989,
           "title": "为下一次危机做好准备：稳定币脱钩紧急逃生指南",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc67644d-424c-4356-bacb-2c47fb066fa8_1466x618.png"
         },
@@ -997,7 +997,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2046,
+          "wordCount": 2252,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -4384,7 +4384,7 @@
           "description": "NFT日报全新升级，增加更多新维度，NFT交易时可更全面细致参考！\nPANews APP 2.0全新升级，带你挖掘热门NFT，捕捉参与机会，点击此处下载PANews即可体验。",
           "link": "https://www.panewslab.com/zh/articledetails/c0x1uze9.html",
           "publishedOn": "2023-03-17T12:50:12.000Z",
-          "wordCount": 1148,
+          "wordCount": 1149,
           "title": "PA图说 | 一图掌握以太坊上NFT关键数据（2023.03.17）",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/jA983HMK3j.jpeg"
         },
@@ -4434,7 +4434,7 @@
           "description": "PANews PARTY AWARD 2023 年度评选投票 \nhttps://www.panewslab.com/party/2023/vote \n00:00 内容预告 \n00:34 Meta将终止NFT的支持 \n01:34 以太坊Goerli测试网已激活Shapella升级 \n02:06 Filecoin虚拟机FVM已在主网上线 \n02:39 美国必须决定是否支持加密创新者 \n03:22 OpenAI推出ChatGPT-4 \n04:05 PANews PARTY AWARD 2023 年度评选投票 \n04:24 借贷协议Euler Finance遭到攻击 \n04:57 币安行业复苏基金内剩余资产从BUSD换为BTC、BNB和ETH等 \n05:45 美国2月未季调CPI年率6% \n06:12 硅谷银行破产 \n07:31 2万亿美元的流动性 \n08:34 好文分享 \n文章分享： \n1. 三家加密友好银行倒下，美国还剩下哪些加密友好型银行？ https://www.panewslab.com/zh/articledetails/hrxwhmq6.html",
           "link": "https://www.panewslab.com/zh/articledetails/6cyd82rd.html",
           "publishedOn": "2023-03-17T11:00:51.000Z",
-          "wordCount": 1225,
+          "wordCount": 1223,
           "title": "视频｜美联储放水2万亿美元！GPT4再创AI传奇｜以太坊上海升级定于4月12日",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/fpBbo849Xl.jpg"
         },
@@ -4624,7 +4624,7 @@
           "description": "备受期待的Layer2龙头Arbitrum于3月16日宣布即将向其社区成员空投治理代币，再度引发空投热潮，那么还有哪些知名潜在项目值得我们关注和参与？\n相关专题：空投信息聚合器",
           "link": "https://www.panewslab.com/zh/articledetails/eluypfng.html",
           "publishedOn": "2023-03-17T06:29:38.000Z",
-          "wordCount": 1150,
+          "wordCount": 1148,
           "title": "PA图说 | Arbitrum空投后，速览其他潜在空投的知名项目",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/7QJ1n1qMH7.jpg"
         },
@@ -4714,7 +4714,7 @@
           "description": "原文：《\"All for One and One for All\" - An on-chain distribution model for the Arbitrum community》\n编译：月之暗面，PANews\nTL;DR\n•Offchain Labs、Arbitrum基金会和Nansen共同设计了一个代币分配模型，该模型以社区成员在Arbitrum生态系统中的参与度为分配基础\n•这个分配模式依赖于Nansen的链上数据，根据钱包的链上历史活动记录来分配资格点，钱包地址至少要达到三个积分标准才能获得空投的资格。\n•符合条件的钱包名单涵盖了625,143个地址，统计周期为自Arbitrum One成立以来，截至2023年2月6日\n•拥有社区金库并一直在推动 Arbitrum 生态系统向前发展的协议，也会被邀请参与为自己的社区分配部分代币\nArbitrum基金会与Offchain Labs合作宣布为Layer 2项目Arbitrum进行第一次治理代币的空投，并将其分配给 Arbitrum 用户和相关社区。（推荐阅读：《你能领多少ARB代币？速览Arbitrum代币经济学和空投细则》）\nArbitrum 基金会和 Nansen 合作，一起设计了空投策略和分配模型，以量化的方式确保每个钱包或链上实体地址是否满足空投资格标准。\n\n图1：L2崛起，2023年2月Arbitrum日交易量首次超越以太坊\nArbitrum 基金会已授权 Nansen 确保，会考虑到与网络交互的地址数量，以及将代币空投到给促进Arbitrum生态发展的用户手中。\n•分配模式将基于链上数据：通过 Nansen Query 查询 Arbitrum 过往历史数据\n•机制设计将包含多个参数和标准，以确保其安全性\n•Nansen 的分析将会按照 Arbitrum 的母公司 Offchain Labs 的设想展开\n简而言之，链上分析具有人为规划的部分，即使使用了严格的分析标准，但是空投分配模型也无法做到绝对精确。\n在本文中，我们将介绍 Arbitrum 代币空投的具体流程和分配模型。\n第 1 部分和第 2 部分回顾了空投计划的具体变量和目标。第 3 部分说明了分配标准和链上分析之间的具体过程。第 4 部分和第 5 部分详细说明了资格标准和相关“积分”设计。第 6 部分介绍了反女巫共计的理念。第 7 部分总结了符合条件的钱包地址的最终统计数据。第 8 部分重点介绍符合条件的 dApp 和协议。\n鉴于代币空投的复杂操作性，通常需要对用户的参与和治理决策的过程进行优化。因此，协议需要设置具体的空投标准，以支持协议实现长期发展目标（见下文“2. 空投的原则和目标”部分）。\n在 Arbitrum 代币空投中，Nansen 专注于分配模型参数的设计，以尽可能帮助 Arbitrum Foundation 制定分配标准并确定代币空投的接受者列表。但以下因素与空投分配模型也具有较强关联性：\n•需求方因素：主要涉及代币在协议治理中的用途，需要在此基础上确定代币需求\n•供给方因素：供给方由代币发行数量（空投与其他渠道发行多少代币）、时间（影响未来行为的潜在归属时间表）和分配模型等因素共同决定。\n\n图 2：本轮空投分配模型变量\n2. Airdrop的原则和目标\nArbitrum Foundation希望通过空投来优化 Arbitrum 协议治理的去中心化程度。因此，可以考虑的方法是尝试定义有机活动。 “有机”活动包括在 Arbitrum 上进行有效交易，以及帮助开发链上 dApp 和其他协议议，或为Arbitrum的治理做出积极贡献。以上行为可以在链上数据中进行测量，并在 Arbitrum 链上按钱包活跃度进行分类。\n但是，部分进行多次交易的钱包地址不一定是真实的需求，无法保证在这些地址会在空投后继续保持活跃。因此，链上数据分析的一个目标是帮助识别具备“女巫”攻击色彩的钱包地址，例如那些只是为了获取本轮和未来空投资格的钱包。第二个目标是通过引入和女巫行为具备高度相关性的“负面标准”，这是由 Offchain Labs 反女巫攻击研究人员基于 Nansen Query Arbitrum 和以太坊链上数据运来设计的。\nArbitrum Foundation 和 Nansen 一起定义了何为“有机”活动，随后将这些行为转化为定量标准和阈值，并且通过链上分析去完善这些标准和阈值（见图 3）。\n\n图 3：项目流程，从第一性原理标准到数据有效性\n该研究大体遵循以下步骤：\n该步骤定义了链上活动符合“有机”条件的事前标准。在这一点上，我们试图在查看链上数据之前回答以下问题：一个钱包应该发起多少笔交易才有资格获得空投？随着时间的推移，有机行为应该是什么样的？进行桥接和花费的相应以美元计价的价值是多少？\n在此阶段，我们对之前定义的假设原理进行建模，使用 Nansen 处理 Arbitrum One 的链上数据将其转化为定量标准，包括交易、传输、日志、跟踪以及 Nansen 其他标签等（见图 4） .\n\n图 4：Nansen查询界面：Arbitrum One 链上钱包地址转账活动数据\nStep 3:：敏感度分析\n我们通过在分配模型中设立资格标准，并结合之前已经创建的地址列表的建立临时模型。该模型可以将一定数量的正面或负面积分归因到标准中。\n我们审查了部分地址数据，以评估我们的标准和积分设计是否过于严格，因为它们只能捕获 Arbitrum 上地址的过于靠前的地址数据，反之亦然，也需要检查这些标准是否过于宽松。我们可以通过可视化分配标准的来说明这个过程（图 5 到 8）。\n此步骤需要进行多次迭代，并最终得到合理的阈值和标准。例如，该模型必须捕获得分高于图 5 至 8 所示的中值阈值的地址数据：例如“进行交易的不同月份数”标准的阈值设置为两个月或更长时间，并且要高于一个月的中位数。\n除了敏感度分析，我们还进行了交叉分析，以确保各类别的资格标准可以进行互补，并捕捉到参与 Arbitrum 用户的主要行为。\n\n图 5：按发起交易数量划分的钱包地址，2023 年 2 月 6 日的快照（Arbitrum One）\n\n\n图 7：按交易的不同月份数划分的地址数据，2023 年 2 月 6 日的快照（Arbitrum One）\n\n确定合格与不合格活动的标准，并根据链上分析结果修正积分系统。在此阶段，添加 Arbitrum Nova 作为 Arbitrum One 的补充标准。因此重新调用模型，直到获得满意的结果。\nOffchain Labs 研究人员也设计了反女巫攻击模型，他们对 Arbitrum 和以太坊上的历史交易和数据进行了建模。删除了将部分可能涉及女巫的地址钱包。\n模型最终得出了合格的钱包地址。哪些被标记为交易所、资金池、用以“销毁”的地址和跨链桥的等“功能性”钱包地址。钱包地址列表已准备好进行最后一次合格性审查。\n上述过程产生了围绕以下大类定义的最终具体标准（见图 9）：\n•钱包发起的交易或转账的数量、价值和时间跨度的量化阈值\n•这些钱包的行为为 Arbitrum 带来了流动性\n•试验使用像 Nova 这样的新 Arbitrum 链\n•另外，以下用户需要特别强调： 拥有社区金库的 dApps 也会获得一部分空投，并且将会以符合标准方式分发给他们的社区。通过代币分发进行本地化决策一直是 Arbitrum 作为生态系统和社区的重要部分。具体细节参考“8.分布式治理”。\n\n图 9：空投细分标准\nNansen收集的历史数据从Arbitrum One的创世区块开始：\n添加了补充资格标准以覆盖另一条链，Arbitrum Nova，以承奖励早期主动参与测试这条新链的钱包地址。不过，积分会稍次于 Arbitrum One 上的标准，并且在我们的分配模型中获得的积分也会较低。 Arbitrum Nova 上的快照是：\n每项“有机”活动都获得正面（鼓励的行为）或负面的积分（不鼓励的行为）。钱包地址在空投中收到的代币数量取决于它收集了多少积分。最低参与标准是钱包地址必须达到三个积分，获得的积分越多，参与分配的比例越高。 全部的快照日期的积分会被合并以最终确定每个地址的最终得分。\n\n图 10：Arbitrum One 和 Nova 的标准和积分\n\n\n\n总结以下，我们得到了符合条件的钱包地址的各种行为数据，例如：\n•桥接到 Arbitrum One 的钱包地址，在两个不同的月内进行了十多次交易，并且在空投快照时有非零余额\n•桥接到 Arbitrum One 和 Arbitrum Nova 的钱包地址，需要在两个不同的月份内通过Arbitrum One 至少进行 25 笔交易，在 Arbitrum Nova 上，钱包需要十多笔以上交易\n•一个将超过 25 万美元价值的资产汇入 Arbitrum One 的钱包地址在九个不同的月份内进行了 100 多笔不同的交易，在 Arbitrum Nova 上，同一个钱包发起了十多笔交易\n在最初有资格接收 Arbitrum 空投代币的地址中，其中部分地址不是出于实用目的，而是聚焦于获取未来可能的空投（见图 11 和 12），这些地址被认为不太可能一直在使用 Arbitrum，也不太可能积极参与治理。\n女巫地址通常很难与真实行为地址区分开来，一如往昔的空投数据。两种不同的类型地址都可以在链上表现出完全相同的模式，但它们具有不同的目标，一种是真正的使用，另一种为了潜在的空投。\n因此，跟踪女巫地址需要一个定性评估步骤，即对用于检测女巫的模型是否会违背空投目标，对此需要进行人工评估。\nOffchain Labs 研究人员通过在来自 Nansen Query 的 from_address / to_address 交易数据使用聚类算法，并在 Arbitrum 和 Ethereum 上整合跟踪和代币转移，致力于识别可能的女巫钱包。并且对可能误报的数据进行人工“检查”。有关女巫地址的具体信息，请参阅 Arbitrum Foundation Github。\n\n图 11：疑似女巫的地址示例：一组约 400 个地址中的两个地址具有高度相似的活动（将资金发送到同一个中心化交易所存款地址）\n\n\n图 12 疑似女巫行为的地址示例，由来自同一地址的代币进行链上转移\n\n在 2023 年 2 月 6 日之前桥接到 Arbitrum One 的约 230 万个钱包中，有 625,143 个或约 28% 获得了超过 3 个以上的积分，并有资格获得新发行的 Arbitrum 代币。这个资格号码是 ex-sybil ex-functional-entity。 大约3.7万个地址与功能类的钱包相关联 ，例如桥接智能合约、中心化交易所钱包或销毁地址 ，这些会被排除。 大约13.5万个地址被确定为女巫地址，也被排除在外。\n我们可视化了每个地址的代币分配，符合条件的地址总数中只有约 8.6% 获得了 4,000 个以上的代币：\n\n图 13：按可得到的代币数量划分的合格钱包\n8. 去中心化治理\n上述标准并未涵盖对 Arbitrum 生态系统的所有积极贡献。除了技术堆栈部分之外，Arbitrum 还是一个由开发人员、建设者和用户共同组成的社区，一个主要的目标是进化为去中心化治理社区。因此，空投的一部分被分配给 Arbitrum 上的社区金库，以便根据每个子社区的价值进行分配。这些实体涵盖了在 Arbitrum 上运行的各种 dApp 和协议。\n•基于部署到 Arbitrum 上的时间\n•不区分Arbitrum 原生、Arbitrum + Ethereum 还是其他多链协议\n•根据总交易量和日交易量数据\n•这些交易活动的经济价值\n•需要和各个 dApps 的活动统计数据成正比（图 14 所示是自 Arbitrum One 成立以来，按实体划分的合约日志和各实体内交易份额）\n将 dApps 作为空投分发的一部分，目标是建立更广泛的利益相关群体，他们有资格为 Arbitrum 的未来发展做出贡献。这与 Arbitrum 代币分配的核心目标一致：过渡到更去中心化的 Arbitrum 决策模型。\n\n图 14：截至 2023 年 2 月 6 日，实体内总交易和智能合约日志，由 Nansen 标记的一个Arbitrum实体\n结论\n通过利用链上分析提取出有资格接收Arbitrum空投 代币的钱包地址，Arbitrum 基金会和 Nansen 试图回答这个问题：“如何公平地办事处所有帮助过并可能继续帮助的人Arbitrum生态系统的努力？ ”。\n在最终分配模型下，截至快照日期，三分之一的 Arbitrum One 地址以及 Arbitrum 上的 Dapps 符合条件。",
           "link": "https://www.panewslab.com/zh/articledetails/zn4xnge3.html",
           "publishedOn": "2023-03-17T02:37:34.000Z",
-          "wordCount": 2134,
+          "wordCount": 2136,
           "title": "超62万地址获得空投，详解Arbitrum空投数据和防女巫策略",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/R17K16b331.png"
         },
