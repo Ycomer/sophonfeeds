@@ -12,6 +12,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.odaily.news/post/5185811",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>首个以太坊 Web 访问协议 ERC-4804 于近期获得批准并最终确定，这意味着 Web3 URL 正式进入以太坊，互联网用户也将可以更轻松地访问以太坊 APP 和 NFT。Cointelegraph 作者 Felix NG 结合官方文档介绍了 ERC-4804 协议的应用，同样也指出了该协议存在的问题。本文由星球日报编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185811\">https://www.odaily.news/post/5185811</a></p>\n<p><strong>文章作者：</strong></p><p>Felix NG</p><hr><h3>观点：</h3><p><strong>Felix NG：</strong>ERC-4804 解决的问题：用户在浏览器中输入「web3://」即可直接调出 Uniswap 或链上 NFT 等 Dapp，这是因为该标准允许用户直接对以太坊虚拟机（EVM）运行查询，继而为 Web2 用户提供一种简单的方式来直接访问 Web3 的内容，尤其是 SVG/HTML 等链上 Web 内容，此外该标准也支持其他已经与 URI 兼容的标准（如 SVG/HTML）的互操作性，继而不必担心中心化审查问题。</p><a href=\"https://www.odaily.news/post/5185811\">内容来源</a><p><strong>Felix NG：</strong>ERC-4804 与 IPFS 的区别：IPFS URL 只能链接到静态内容，无法修改或更改。相比而言，ERC-4804 将允许「动态数据」，例如允许人们留下喜欢和评论以及与网站上的内容互动，而且作为以太坊原生的标准，ERC-4804 也有望更容易地与其他区块链进行交互。</p><a href=\"https://www.odaily.news/post/5185811\">内容来源</a>",
+          "link": "https://www.odaily.news/post/5185811",
+          "publishedOn": "2023-03-17T10:43:13.000Z",
+          "wordCount": 1950,
+          "title": "一文了解 ERC-4804：不会被封的 Web3 URL？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/AlexGuuu/status/1636414345893801985",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>EigenLayer 将 ETH 的安全性扩展到所有的链上应用，是以太坊基础设施的重大进展，并永久消除了预言机和跨链桥漏洞。Chapter One 研究员 Alex Gu 解析了该模式的优越性，以及带来的新的商业模式。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/AlexGuuu/status/1636414345893801985\">https://twitter.com/AlexGuuu/status/1636414345893801985</a></p>\n<p><strong>文章作者：</strong></p><p>Alex Gu</p><hr><h3>观点：</h3><p><strong>Alex Gu：</strong>在 EigenLayer 之前，任何不能在 EVM 之上部署或验证的模块，都无法获得以太坊的共享信任。因此，开发人员需要构建自己的主动验证服务（AVS）。除了明显的技术开销外，这使得 dApp 拥有多个信任网络，由于这些模块的贿赂成本低，因此这些 dApp 更容易受到攻击。随着越来越多的模块和 dApp 的构建，安全性变得越来越分散。【原文为英文】</p><a href=\"https://twitter.com/AlexGuuu/status/1636414345893801985\">内容来源</a><p><strong>Alex Gu：</strong>EigenLayer 使模块能够使用重质押的 ETH 而不是自己的代币进行安全保护，并可以根据风险和回报在模块之间重新分配重质押的 ETH。EigenLayer 上的 「Restakers」操作节点可以为其服务赚取额外收入，同时控制因不当行为而被惩罚的风险。EigenLayer 将贿赂的最低成本提高到以太坊的成本，大大降低了 51% 的攻击风险。【原文为英文】</p><a href=\"https://twitter.com/AlexGuuu/status/1636414345893801985\">内容来源</a><p><strong>Alex Gu：</strong>数据可用性：EigenDA 是一个可选择的中间件，它结合了 DA 采样和监管证明，为 Calderaxyz 这样的应用 Rollup 提供数据可用性；去中心化的排序器：EigenLayer 通过重质押的 ETH 来实现去中心化，用于排序器的 Leader 选举。【原文为英文】</p><a href=\"https://twitter.com/AlexGuuu/status/1636414345893801985\">内容来源</a><p><strong>Alex Gu：</strong>商业模式：1. 如果一个模块作为商业服务运作，Eigenlayer 使该公司能够从 gas 中赚取一小部分作为服务费用；2. 如果一个模块作为一个协议运行，用户可以选择使用其原生代币来支付 gas 费用。该费用将分配给 EigenLayer 上的 AVS 和 ETH 质押者，从而确保原生代币有自己的效用。【原文为英文】</p><a href=\"https://twitter.com/AlexGuuu/status/1636414345893801985\">内容来源</a>",
+          "link": "https://twitter.com/AlexGuuu/status/1636414345893801985",
+          "publishedOn": "2023-03-17T09:53:07.000Z",
+          "wordCount": 509,
+          "title": "【英文长推】Chapter One：读懂 EigenLayer 「重质押」模式的优越性",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/8xg9axnf.html",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>SPACE ID 是基于 BNB 链和 Arbitrum One 链的去中心化域名协议，为用户提供一站式 Web3 域名和身份的平台。Space ID 此前获得了币安实验室、Polychain Capital 等资本的融资，并是币安 Launchpad 即将上线的第 30 个项目。PANews 作者雾海从 Space ID 的运营进展、代币经济模型、预期市值和空投细则等方面解析了该项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.panewslab.com/zh/articledetails/8xg9axnf.html\">https://www.panewslab.com/zh/articledetails/8xg9axnf.html</a></p>\n<p><strong>文章作者：</strong></p><p>雾海</p><hr><h3>观点：</h3><p><strong>雾海：</strong>根据大致计算，SPACE ID 团队通过 .bnb 域名收入为 384 万美元，ARB ID 团队 .arb 域名收入为 133 万美元。根据多个 NFT 交易平台数据，.bnb 域名当前总交易额为 49744 枚 BNB，.arb 域名当前总交易额为 338ETH。</p><a href=\"https://www.panewslab.com/zh/articledetails/8xg9axnf.html\">内容来源</a><p><strong>雾海：</strong>对比而言，ENS 域名注册费收入为 SPACE ID 域名注册费收入的 13.56 倍，总交易额（折合当前美元价值）7.7 倍。据此估算 SPACE ID 代币上线后全流通市值为 ENS 市值的十分之一，则 ID 代币（SPACE ID 的治理代币）市值为 1.5 亿美元左右，计算出其公允价格为 0.075 美元。</p><a href=\"https://www.panewslab.com/zh/articledetails/8xg9axnf.html\">内容来源</a><p><strong>雾海：</strong>根据 SPACE ID 的经济模型，其将超 50% 的代币分配归官方所有，超 30% 用于销售，仅向社区分发 10%，追溯性激励相对偏低，并且长达两年周期。因此该模型极度集中化，并不符合规划中 DAO 的初衷。</p><a href=\"https://www.panewslab.com/zh/articledetails/8xg9axnf.html\">内容来源</a><p><strong>雾海：</strong>在 ENS 域名目前尚未多链或从未有多链计划的前提下，SPACE ID 整合其他多条 EVM 链及 L2 生态，为其构建域名服务，占领 ENS 域名没有触及到的领域，从商业模式而言未尝不是一种更优选择。至于 SPACE ID 的域名和平台版图能扩展到多大，是否真实符合市场需求，待进一步观察。</p><a href=\"https://www.panewslab.com/zh/articledetails/8xg9axnf.html\">内容来源</a>",
@@ -157,7 +177,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>TradFi 经历了极具挑战性的一周，并且 DeFi 并未完全隔离，受到巨大影响。Bankless 撰文从协议依赖和银行困境的角度，分析 DeFi 为何仍然容易受到 TradFi 失败的影响，并提出去中心化稳定币、加密支付系统两种加密原生解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">https://www.bankless.com/is-defi-too-reliant-on-banks</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>协议依赖：许多成功协议的背后是中心化的开发人员群体，他们提供对链上智能合约的前端访问并构建未来的路线图项目。与传统的初创公司一样，加密公司依赖于传统的银行系统，项目代币可能因为银行困境遭到破坏。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>银行困境：倒闭的银行显着提高了中心化风险，这种风险部分原因是初创企业的特殊需求，以及银行选择为加密公司提供银行服务所面临的监管障碍，这迫使加密公司选择精品银行，这在业务良好时是个好主意，但在经济衰退的时候，会高度暴露于存款人行业的周期性，面临很大程度的风险。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>解决方案：1）去中心化稳定币，任何抵押品支持不足的中心化稳定币都可能发生挤兑。可以选择使用以太支持的 LUSD 和 RAI，其偿付能力证明可以在链上验证，并且仅取决于协议清算抵押不足头寸的能力。2）使用创新的加密支付系统，链上管理工资和其他费用，例如  LlamaPay。将未使用的资金存储在以太支持的去中心化稳定币中并转向链上费用支付解决方案可能是朝着正确方向迈出的一步。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a>",
           "link": "https://www.bankless.com/is-defi-too-reliant-on-banks",
           "publishedOn": "2023-03-17T03:22:23.000Z",
-          "wordCount": 2436,
+          "wordCount": 2434,
           "title": "【英文】Bankless：DeFi 是否过于依赖银行？",
           "imageUrl": "https://bankless.ghost.io/content/images/2023/03/267_Newsletter_DeFi_is_banked_031523-2.jpg"
         },
@@ -297,7 +317,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 4810,
+          "wordCount": 4742,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -397,7 +417,7 @@
           "description": "<h3>加密货币安全公司 Staging Labs 完成 110 万美元融资</h3>\n<p>据 TechCrunch 报道，加密货币安全公司 Staging Labs 完成 110 万美元融资参投方包括 The General Partnership、Flourish Ventures、NGC Ventures、AlphaGrep、Gaingels、a16z、Kleiner Perkins 和 Greylock，个人投资者包括来自 ConsenSys、Coinbase、Anchorage Digital、Chainalysis、QuickNode、Merkle Science 等的投资人。\nStaging Labs 推出了安全产品 Saferoot，该产品能够在发现有风险的交易时自动将钱包内资产转移至备份安全钱包。Staging Labs 计划向用户收取订阅费和成功追回的资产的一定比例来获取收入。</p>\n<p><a href=\"https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/\">内容来源</a></p><hr>",
           "link": "https://techcrunch.com/2023/03/15/staging-labs-crypto-nft-fraud-prevention/",
           "publishedOn": "2023-03-16T05:51:14.000Z",
-          "wordCount": 6988,
+          "wordCount": 7842,
           "title": "加密货币安全公司 Staging Labs 完成 110 万美元融资",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-655147030.jpg?resize=1200,800"
         },
@@ -497,7 +517,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20461,
+          "wordCount": 20454,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -637,7 +657,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19507,
+          "wordCount": 19492,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
@@ -4318,6 +4338,16 @@
       "feedUrl": "https://rss.panewslab.com/zh/gtimg/rss",
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
+        {
+          "id": "https://www.panewslab.com/zh/articledetails/s61u727q.html",
+          "author": null,
+          "description": "来源：华尔街见闻\n作者：葛佳明\n在这一周内，全球金融市场的“伤口”加速流血，有什么治愈伤口的办法吗？全市场都期待着下周的“鸽派”美联储和这个周末不再暴雷的稳定金融市场。\n瑞银分析师在3月16日的研究报告中表示，他们跟踪的大型银行运营状况仍然稳健，“没什么可担心的”，在危机中，银行的估值的变化往往反映出“系统压力”，而不是基本面的问题。\n瑞银认为，现阶段有三个重要因素能帮助银行业从目前的问题中恢复过来。第一，必须让市场相信，针对瑞信有一个“可接受的解决方案”；第二，“针对被市场认为更容易受到挤兑风险的中型地区银行提供解决方案 ”；第三，在本周末及下周内不再有美国的银行倒闭。\n因银行业风波和市场动荡，衰退恐惧四起，美联储加息预期大大降温。\n瑞银在最新的报告中指出，尽管硅谷银行倒闭远没有2008年金融股危机的风险这么可怕，但资金面骤然紧张，美联储降息将是稳定银行业的大势所趋：\n“我们认为，过去几天发生的事件加剧了资金紧缩，这应该会传导到实体经济。”\n在截至3月15日的一周内，美联储最后一道流动性工具即贴现窗口下的借款激增，至1528.5亿美元创下历史新高，高于前一周的45.8亿美元，甚至超越了2008年金融危机期间创下的单周1480亿美元的最高纪录。\n美联储贴现窗口借款暴增凸显出，美国银行系统仍处于危机之中，同时也意味着量化紧缩（QT）似乎名存实亡。分析认为，这周美联储采取的行动毫无疑问地显示出，美联储的量化紧缩已经结束，只要银行的存款外流继续，美联储的资产负债表就会继续扩大。\n周三，前波士顿联储主席Eric Rosengren在社交媒体上表示，美联储的加息周期应该暂停：\n金融危机造成需求破坏，银行减少信贷可用性，消费者推迟消费，企业推迟支出。加息应该暂停，直到可以评估需求遭到破坏的程度。\n\n\n仅一周，市场对美联储加息路径出现“惊天逆转”，期货市场交易预测美联储有望在7月前开始降息。周三，市场认为到年底，美联储将利率降至4%以下的可能性接近70%。而几天前，当美联储主席鲍威尔在国会听证会上暗示3月可能加息50个基点时，投资者一度认为今年年底利率峰值将会达到5.6%。\n被视为“美联储喉舌”、有“新美联储通讯社”之称的华尔街日报记者Nick Timiraos在最新的文章中指出，美国银行业的危机可能只是个开始，如果融资市场出现更严重的崩溃，美国国债出现崩盘，可能会使美联储的加息决定更加困难：\n去年9月，英国央行面临一场由政府债券收益率上升引发的危机，而英国国债债券收益率上升反过来又引发了这些债券的大量抛售，从而压低了价格并进一步推高了收益率。英国央行当时面临“死亡循环”，而现在如果美债市场崩盘，美联储的遭遇可能会比英国央行更为复杂。\n欧美金融市场在这一周内不断暴雷，从美国硅谷银行“闪电式”倒闭，到欧洲百年大行瑞信“摇摇欲坠”，再到美国最大的经纪公司——嘉信理财，遭遇半年来最大流出，整个银行业风雨飘摇，银行股全周表现不佳。\n本周二，三大国际信用评级机构之一穆迪（Moody’s Investors Service）宣布，将整个美国的银行系统评级展望从稳定降至负面。这一行动可能影响个体银行的债券评级，进而导致银行业的借款成本增加，使银行业的前景雪上加霜。\n但道富银行首席执行官Ron O’Hanley周三表示，穆迪下调美国银行体系展望是“严重反应过度”。他表示，在三家银行倒闭后，监管机构已经安抚了市场，出现问题的银行有其自身的特殊性：\n从资产和负债端都可以看出其特殊性，我认为评级机构以下调整个行业的评级，对于稳定金融市场于事无补。\n信用评级机构Fitch Ratings在周三发布的声明中表示，硅谷银行的影响无疑已经蔓延至全球金融业，“体现了金融体系相互关联”，但这些影响“从评级的角度来看尚不具有实质性意义。”\n标普全球在周三的一份报告中表示，这些上市的金融公司违约的风险仍然较低：\n根据我们的统计数据来看，金融行业1008家上市公司的违约概率并未大幅上升，仅从10天前的 0.6%上升至3月13日的 0.8%。\n与此同时，昨日，美银、花旗、摩根大通、富国银行等11家大行发布联合声明，在第一共和银行存入合计300亿美元无保险存款，确认了稍早媒体所说的300亿美元注资金额。美股指和银行业指数进一步走高。标普和纳指双双创1月公布12月非农就业薪资增长超预期放缓以来最大日涨幅。\n泛欧股指也在传出第一共和银行有望获资助后转涨，收盘前涨幅扩大到1%以上，走出今年内低谷。",
+          "link": "https://www.panewslab.com/zh/articledetails/s61u727q.html",
+          "publishedOn": "2023-03-17T10:45:43.000Z",
+          "wordCount": 1186,
+          "title": "全市场眼下最期待的两件事：美联储宽松+这周末不要再有银行出事了",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/Eut9s92Swg.png"
+        },
         {
           "id": "https://www.panewslab.com/zh/articledetails/jw9u27tz.html",
           "author": null,
