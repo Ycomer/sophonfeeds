@@ -477,7 +477,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19492,
+          "wordCount": 19507,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
@@ -787,7 +787,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>链间安全（Interchain Security） V1 版本即将在 Cosmos Hub 上线，这标志着 Atom2.0 愿景的开始。加密研究员 Le Thang 对链间安全 V1 版本进行了分析解读，包括其工作机制、对验证器的影响及团队等。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">https://lethang.substack.com/p/replicated-security-with-jehan-tremback</a></p>\n<p><strong>文章作者：</strong></p><p>Le Thang</p><hr><h3>观点：</h3><p><strong>Le Thang：</strong>链间安全（ICS）是一种共享 Cosmos 链之间安全的形式，其路线图显示 V1 版本是复制安全、V2 版本是选择性安全、V3 版本则会实现网状安全。其中复制的安全是指 Consumer Chain 将由 Cosmos Hub 完整验证器组来保障并具有与 Cosmos Hub 相同的安全性。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a><p><strong>Le Thang：</strong>Consumer Chain 的增多会增加成本，而 Slash 的条件被放宽了，将会让 Consumer Chain 的验证更加容易。未来验证者可以选择他们是否要对 Consumer Chain 进行验证。此外，Consumer Chain 产生的通胀和费用的 25% 将通过 IBC 发送给 Cosmos Hub，并分发给其他验证者和委托者。【原文为英文】</p><a href=\"https://lethang.substack.com/p/replicated-security-with-jehan-tremback\">内容来源</a>",
           "link": "https://lethang.substack.com/p/replicated-security-with-jehan-tremback",
           "publishedOn": "2023-03-14T03:50:54.000Z",
-          "wordCount": 2046,
+          "wordCount": 2252,
           "title": "【英文】Cosmos 链间安全 V1 即将上线，一文解构其运作机制及影响",
           "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F016a2697-8b70-4e21-aaef-5132fe701ffc_2735x1637.png"
         },
@@ -4159,6 +4159,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/articledetails/jhyq0tw8.html",
+          "author": null,
+          "description": "原文：《除了空投，L2领跑者Arbitrum还有哪些新动作》\n撰文：Mary Liu\n加密社区最期待的大事之一 --Arbitrum 空投 -- 终于来了。Arbitrum Foundation 宣布将于 3 月 23 日向其社区成员空投 ARB 治理代币，并启动其第 3 层开发工具 Arbitrum Orbit，这使 Arbitrum 离完全去中心化又近了一步。\n\n根据公告，随着 ARB 的引入，Arbitrum 将转变为一个自动执行的去中心化自治组织 (DAO)，允许 ARB 持有人对管理 Arbitrum One 和 Arbitrum Nova （专为 Web3 游戏和社交媒体应用程序设计）的关键决策进行投票。Arbitrum DAO 将控制核心协议级别的关键决策，包括技术升级和生态系统支持的收入分配。\nArbitrum 的创建团队 Offchain Labs 强调，ARB 代币将使 Arbitrum 生态系统比其他扩展链更加去中心化。\nAribtrum 在不到两年的时间里突然崛起，成为以太坊上最受欢迎的第 2 层区块链之一。\n在竞争激烈的第 2 层区块链或 rollups 赛道，Arbitrum 已经成为领导者，拥有 55% 的市场份额，上个月连续两天交易量超过以太坊，其他明星项目包括 Optimism、Polygon、zkSync 和 StarkNet 等。\n根据 DeFiLlama 的数据，Arbitrum 链上锁仓总价值为 16 亿美元，几乎是其竞争对手 Optimism 的两倍，Optimism 是另一个第二层区块链，同样旨在使以太坊交易更快、成本更低。Optimism 已经推出了自己的代币 OP，目前市值约为 7.5 亿美元。\n\n什么是 ARB 以及如何申领？\nArbitrum 与加密分析公司 Nansen 合作，根据用户活动确定 ARB 代币申领资格。符合条件的用户可以通过访问 Arbitrum 官方网站领取代币，团队还发布了有关哪些用户符合条件的文档，以下为关键点：\n \n第 3 层开发人员工具 Arbitrum Orbit 启动\n除了空投公告外，Arbitrum 还为那些有兴趣在 Arbitrum 之上构建第 3 层解决方案的人发布了一个开发工具包：Arbitrum Orbit，将允许任何人在 Arbitrum 代码库之上启动他们自己的 L3。\nArbitrum 使用 optimistic rollups 将交易批处理到第 1 层以太坊区块链上。建立在 Arbitrum 上的第 3 层网络将使用类似的 rollup 将交易批量发送到 Arbitrum，然后将其 rollup 到以太坊中，它将允许以相对较低的成本增加交易处理量。\n构建此类第 3 层网络的开发人员被授予永久许可，可以随意使用和更改 Arbitrum 源代码，开发人员可以在 Arbitrum 之上创建特定于应用程序的链或通用链。\n这与竞争对手 Layer 2 Optimism 的方法有点不同，Optimism 没有专注于第 3 层网络，而是鼓励基于其代码堆栈创建许多可以相互链接的第 2 层网络，Coinbase 的 Base 就是其首批支持者之一。也就是说，Arbitrum 对使用其代码支持第 2 层网络持开放态度。Arbitrum DAO 将能够投票决定是否支持使用 Arbitrum 结算到以太坊的其他第 2 层链。如果这些链选择接受 Arbitrum 的章程，它们将被称为「治理」链。\n一个突出的特点是，ARB 代币将不会用于支付 Arbitrum 链上的任何费用，链上费用仍将通过 ETH 支付。\nOffchain Labs 首席执行官 Steven Goldfeder 表示，Layer 3 公告并不是对 Optimism 与 Coinbase 合作的反应：「我们已经计划第 3 层战略很长时间了」。\n在周四的公告之前，Offchain Labs 是唯一负责对扩容技术进行更改或调整的实体。\n不过随着 ARB 代币的推出，Goldfeder 和他的团队将把这些控制权交给社区。这些控制权还附带了额外的责任，即一旦 DAO 执行投票，代码将同时更新。\n通常，大多数 DAO 让治理代币持有者通过提案进行投票，然后项目的核心团队通过更改网络代码来执行结果。Offchain Labs 设立 DAO 的不同之处在于代码库会根据最终结果自动更改，这意味着 DAO 可以直接控制网络。\n尽管如此，作为一个自我执行的 DAO 还是有一些风险的。如果恶意行为者能够通过投票过程更改代码，那么它也将自动应用于代码，曾经的 Beanstalk 项目就是个例子，黑客使用闪电贷获得足够的代币来通过投票，批准将 1.82 亿美元的资金转移到自己的钱包中。\nGoldfeder 表示，如果在软件中发现严重的、紧急性的错误，一个由 12 名成员组成的安全委员会将拥有紧急权力，至少需要九人签署才能执行任何更改。\n尽管 Offchain Labs 将放弃对 Arbitrum 的控制权，但它希望继续作为服务提供商在生态系统中发挥作用。Goldfeder 在接受 Fortune Crypto 采访表示：「社区将有能力决定技术的未来以及它希望如何授权。有一点很清楚，那就是在 Arbitrum 生态系统中，开放、免费使用和免费修改符合社区的最大利益，也符合每个人的最大利益。我认为这将激发大量创新。」",
+          "link": "https://www.panewslab.com/zh/articledetails/jhyq0tw8.html",
+          "publishedOn": "2023-03-17T03:40:57.000Z",
+          "wordCount": 1619,
+          "title": "除了空投，Arbitrum哪些进展值得关注？",
+          "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/17/images/el5pA1fq4e.jfif"
+        },
+        {
           "id": "https://www.panewslab.com/zh/sqarticledetails/w2ea0ml6.html",
           "author": null,
           "description": "PANews 3月17日消息，据CoinDesk报道，美国联邦存款保险公司（FDIC）否认路透社关于其将要求Signature Bank的任何购买者剥离其加密业务的报道。\nFDIC的一位发言人援引该机构的决议手册表示，“在银行的所有资产被出售和对银行的所有索赔得到解决，以及收购者决定他们的投标条件之前，接管不会结束。”收购方将告诉联邦存款保险公司“它愿意从破产银行获得哪些资产和负债”。\n该发言人还提到了FDIC、货币监理署和美联储发表的两份联合声明，其中指出银行“既不禁止也不阻止”向任何赛道提供服务。据路透社报道，FDIC现在正寻求拍卖Signature和硅谷银行，可能在本周末前完成。",
@@ -4404,7 +4414,7 @@
           "description": "PANews 3月16日消息，据The Block报道，Layer 2 项目 Arbitrum 将于 3 月 23 日向其社区成员空投代码为 ARB 的治理代币。空投将占代币总供应量的 12.75%，代币将分发给在过去一年中使用过该网络的人。该代币将通过 DAO 控制 Arbitrum One 和 Nova 网络的治理，DAO 将得到安全理事会的支持。ARB 的总发行量为 100 亿枚，空投会将总供应量的 11.5% 分配给 Arbitrum 用户，另外 1.25% 分配给 Arbitrum 生态系统中的 DAO 和 Protocol Guild，这是一个由以太坊开发人员组成的 DAO。大部分供应将进入 Arbitrum 基金会，该基金会将由新成立的 Arbitrum DAO 控制。\nOffchain Labs 与加密数据提供商 Nansen 合作设计了谁应该收到空投的标准，重点是奖励真正的用户而不是那些试图 farm 系统的人。快照已于 2 月 6 日完成。Offchain Labs 还发布了 Arbitrum Orbit，这是开发人员在 Arbitrum 之上构建第 3 层网络的一种方式。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/ofhs24b6.html",
           "publishedOn": "2023-03-16T13:02:44.000Z",
-          "wordCount": 1251,
+          "wordCount": 1247,
           "title": "Arbitrum将于3月23日向其社区成员空投代码为ARB的治理代币",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -4614,7 +4624,7 @@
           "description": "原标题：The USDC Depeg Implications on DeFi: Two Paths Forward\n作者：Ignas | DeFi Research\n编译：Felix\nUSDC脱锚引发了对DeFi未来的重大担忧和质疑。由于DeFi生态系统严重依赖USDC，因此评估未来的潜在解决方案至关重要。\n对于DeFi，有两条路径：重塑品牌为“链上金融”或拥抱完全去中心化。\nDeFi依赖于稳定币、预言机和Web2基础设施等中心化组件，这使其容易受到潜在的政府打击。\nUSDC本身被认为是最安全的抵押品，以至于Compound v2将USDC强行锚定为1美元。\n现在我们意识到，对USDC的信任最终取决于对TradFi银行系统和政府的信任。如果政府真的想关闭（大部分）DeFi，他们是能够做到的。\n\n目前，DeFi在每一层都意味着去中心化和去信任化，因此，即使是一个中心化的组件也会危及整个协议。通过将DeFi重新命名为链上金融，该行业可以在承认其中心化方面的同时保持自我托管、增加流动性、可组合性和单一的真实来源（不可逆交易）等关键优势。\n\n像FRAX这样的例子表明，项目可以在不完全接受去中心化的情况下转向链上金融。\nFrax的目标是其申请的美联储主账户（Fed Master Account）尽可能接近美联储，从而消除USDC和银行倒闭的风险，使FRAX成为最接近无风险的美元。\n\n即使有一些中心化的组件，像FRAX这样的项目仍然可以从DeFi基础设施中受益。\n\n这是因为DeFi生态系统可以成为最大程度免信任的环境，从而最大限度地减少人为干预的需要。\n以Uniswap为例：它的代码被设计成不可变的，这使得像FRAX这样的资产可以在不受任何审查的情况下在链上交易。\n但需要注意的是，Uniswap的前端用户界面仍然是中心化的，因此容易受到监管压力的影响。\n\n这凸显了DeFi项目必须在提供去中心化的好处和驾驭监管合规的复杂性之间取得微妙的平衡。\n因此，DeFi的所有元素和协议可能永远不会完全去中心化或抗审查，因此将USDC等代币视为风险资产并将DeFi视为链上金融有助于解决这种混乱和道德困境。\n第二种路径是让DeFi社区去掉中心化元素，变得像比特币一样完全去中心化。\n这将涉及用比特币(BTC)或以太坊(ETH)等抗审查抵押品取代USDC。稳定币协议Liquity的LUSD、Maker的DAI和Tornado Cash等项目就是这个方向的例证。\nLUSD\n稳定币协议Liquity的LUSD是一个用更去中心化方法的典型例子。\n在USDC崩盘期间，LUSD证明了其作为避险资产的价值，在市场动荡中提供了稳定性。这就像当前TradFi系统中的瑞士法郎。\n然而，重要的是要认识到，即使是更具去中心化属性的LUSD，也依赖于可以在极端情况下被操纵的价格预言机。\n\n资料来源：Blec ReportBlec 报告\n这凸显了DeFi项目在寻求完全去中心化同时，确保用户的安全性和可靠性方面面临的持续挑战和复杂性。\nDAI\nMakerDAO对DAI的愿景是将其打造为一种完全去中心化且公正的全球货币。\n为实现这一目标，Maker打算逐步停止使用最终形式的USDC等易于扣押的抵押品，以确保货币的基础更具弹性和安全性。如果需要，这需要放弃与美元挂钩。\nDeFi生态系统最近对USDC的严重依赖敲响了警钟，促使MakerDAO加快实现这一使命的努力。\n\nTornado Cash\nTornado Cash证明了实现完全去中心化是可能的，尽管成本很高。\n作为一种成功的隐私工具，Tornado Cash混淆了发送者和接收者的交易数据，并拥有2.47亿美元的TVL(总锁仓价值)。\n\n不幸的是，这种程度的去中心化让项目的开发者付出了高昂的代价，他们最终也因洗钱指控而面临牢狱之灾。\n去中心化的高成本\nTornado Cash案例对DeFi生态系统提出了关键问题：\n虽然并非每个DeFi dApp都被监管机构视为威胁，但监管干预的可能性仍然是该行业一直存在的担忧。事实上，最近对稳定币的打击正在推动DeFi走向去中心化。\n随着DeFi领域的不断发展，在去中心化和合规性之间取得平衡对于这些项目的长期成功和可持续性至关重要。\nDAO 中的 D\n想象一下，如果美国政府要求将DAI列入黑名单。\n去中心化自治组织(DAO)，如Curve，允许无需许可的工厂池创建，将如何响应这样的要求？Aave呢？\n面对这样的困境，Curve DAO是选择在智能合约层面封杀DAI，还是冒着自己被列入黑名单的风险？\n在完全去中心化的错综复杂的环境中行事并非易事，因为项目必须仔细平衡其对去中心化的承诺，与应对潜在监管挑战和维持可持续生态系统的需要。\n实际上，整个DeFi生态系统还有第三条路径。\nDeFi有可能同时向两个方向发展，就像今天的互联网一样。虽然大多数用户通过受监管的服务访问互联网，但寻求隐私的个人可以使用暗网来提高匿名性。\n\nDeFi协议可能同样存在不同程度的去中心化和监管合规性。\n例如，Uniswap 界面可能会受到审查，阻止对特定代币的访问，但社区可以自由创建自己的UI，因为代码是不可变且非歧视性的。\n最近的USDC崩盘事件充分表明，DeFi并不像我们曾经想象的那样去中心化。但“DeFi”这个词已经根深蒂固，不太可能轻易被取代。\n尽管如此，DAO必须停止延续完全去中心化的幻想，并开始承认现实情况。从本质上讲，虽然我们继续使用“DeFi”一词，但我们应该注意它更准确地代表了链上金融的概念，它结合了去中心化和中心化的元素。\n从这些方面理解， DeFi社区可以努力建立一个更具弹性和透明的生态系统。",
           "link": "https://www.panewslab.com/zh/articledetails/2hkxxwxb.html",
           "publishedOn": "2023-03-16T05:58:27.000Z",
-          "wordCount": 1312,
+          "wordCount": 1309,
           "title": "USDC脱锚影响后，重新思考DeFi的两种路径",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/16/images/1d71AQAz8m.png"
         },
