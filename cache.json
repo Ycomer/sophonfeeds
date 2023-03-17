@@ -12,6 +12,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://dune.com/blockworks_research/arb-airdrop",
+          "author": null,
+          "description": "<h3>【数据】Arbitrum 空投代币领取数据（Dune 仪表盘）</h3>\n<p>由 Blockworks Research 制作的 Arbitrum 空投代币领取数据仪表盘，提供 Arbitrum 代币 ARB 空投的实时领取数量、地址和其他相关数据。</p>\n<p><a href=\"https://dune.com/blockworks_research/arb-airdrop\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>共有 625143 名用户获得 Arbitrum 代币空投，人均获得 1859 枚 ARB。空投领取数据将在开放申领后更新。</p><a href=\"https://dune.com/blockworks_research/arb-airdrop\">内容来源</a>",
+          "link": "https://dune.com/blockworks_research/arb-airdrop",
+          "publishedOn": "2023-03-17T11:10:05.000Z",
+          "wordCount": 32,
+          "title": "【数据】Arbitrum 空投代币领取数据（Dune 仪表盘）",
+          "imageUrl": "https://dune.com/api/screenshot?url=https://dune.com/blockworks_research/arb-airdrop"
+        },
+        {
           "id": "https://www.odaily.news/post/5185811",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>首个以太坊 Web 访问协议 ERC-4804 于近期获得批准并最终确定，这意味着 Web3 URL 正式进入以太坊，互联网用户也将可以更轻松地访问以太坊 APP 和 NFT。Cointelegraph 作者 Felix NG 结合官方文档介绍了 ERC-4804 协议的应用，同样也指出了该协议存在的问题。本文由星球日报编译。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.odaily.news/post/5185811\">https://www.odaily.news/post/5185811</a></p>\n<p><strong>文章作者：</strong></p><p>Felix NG</p><hr><h3>观点：</h3><p><strong>Felix NG：</strong>ERC-4804 解决的问题：用户在浏览器中输入「web3://」即可直接调出 Uniswap 或链上 NFT 等 Dapp，这是因为该标准允许用户直接对以太坊虚拟机（EVM）运行查询，继而为 Web2 用户提供一种简单的方式来直接访问 Web3 的内容，尤其是 SVG/HTML 等链上 Web 内容，此外该标准也支持其他已经与 URI 兼容的标准（如 SVG/HTML）的互操作性，继而不必担心中心化审查问题。</p><a href=\"https://www.odaily.news/post/5185811\">内容来源</a><p><strong>Felix NG：</strong>ERC-4804 与 IPFS 的区别：IPFS URL 只能链接到静态内容，无法修改或更改。相比而言，ERC-4804 将允许「动态数据」，例如允许人们留下喜欢和评论以及与网站上的内容互动，而且作为以太坊原生的标准，ERC-4804 也有望更容易地与其他区块链进行交互。</p><a href=\"https://www.odaily.news/post/5185811\">内容来源</a>",
@@ -177,7 +187,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>TradFi 经历了极具挑战性的一周，并且 DeFi 并未完全隔离，受到巨大影响。Bankless 撰文从协议依赖和银行困境的角度，分析 DeFi 为何仍然容易受到 TradFi 失败的影响，并提出去中心化稳定币、加密支付系统两种加密原生解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">https://www.bankless.com/is-defi-too-reliant-on-banks</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>协议依赖：许多成功协议的背后是中心化的开发人员群体，他们提供对链上智能合约的前端访问并构建未来的路线图项目。与传统的初创公司一样，加密公司依赖于传统的银行系统，项目代币可能因为银行困境遭到破坏。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>银行困境：倒闭的银行显着提高了中心化风险，这种风险部分原因是初创企业的特殊需求，以及银行选择为加密公司提供银行服务所面临的监管障碍，这迫使加密公司选择精品银行，这在业务良好时是个好主意，但在经济衰退的时候，会高度暴露于存款人行业的周期性，面临很大程度的风险。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>解决方案：1）去中心化稳定币，任何抵押品支持不足的中心化稳定币都可能发生挤兑。可以选择使用以太支持的 LUSD 和 RAI，其偿付能力证明可以在链上验证，并且仅取决于协议清算抵押不足头寸的能力。2）使用创新的加密支付系统，链上管理工资和其他费用，例如  LlamaPay。将未使用的资金存储在以太支持的去中心化稳定币中并转向链上费用支付解决方案可能是朝着正确方向迈出的一步。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a>",
           "link": "https://www.bankless.com/is-defi-too-reliant-on-banks",
           "publishedOn": "2023-03-17T03:22:23.000Z",
-          "wordCount": 2433,
+          "wordCount": 2436,
           "title": "【英文】Bankless：DeFi 是否过于依赖银行？",
           "imageUrl": "https://bankless.ghost.io/content/images/2023/03/267_Newsletter_DeFi_is_banked_031523-2.jpg"
         },
@@ -277,7 +287,7 @@
           "description": "<h3>自托管钱包 Soul Wallet 完成 300 万美元种子轮融资</h3>\n<p>自托管钱包 Soul Wallet 宣布完成 300 万美元种子轮融资，用于提供基于 ERC-4337 构建的在线自托管以太坊钱包。Soul Wallet 目前正在进行内部测试，并计划将在经过一系列严格审核后于第三季度或第四季度推出。\n\n据悉，Soul Wallet 联合创始人 Jiajun Zeng 此前曾是字节跳动和美团产品经理。</p>\n<p><a href=\"https://techcrunch.com/2023/03/16/soul-wallet-crypto-wallet/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jiajun Zeng（Soul Wallet 联合创始人）：</strong>FTX 崩溃后，人们正在重新关注如何在自托管钱包上获得更好的用户体验。我们的目标是下一个十亿的加密货币采用者，而不是试图从 MetaMask 等公司抢走用户。在南美和非洲等发展中国家，人们使用加密货币来对冲货币通胀，因此这取决于加密货币的采用如何在这些地区传播。而对于发达国家而言，采用则取决于 dApps 和 NFT 的发展情况。【原文为英文】</p><a href=\"https://techcrunch.com/2023/03/16/soul-wallet-crypto-wallet/\">内容来源</a>",
           "link": "https://techcrunch.com/2023/03/16/soul-wallet-crypto-wallet/",
           "publishedOn": "2023-03-16T12:46:33.000Z",
-          "wordCount": 7566,
+          "wordCount": 7583,
           "title": "自托管钱包 Soul Wallet 完成 300 万美元种子轮融资",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/soul-wallet-.jpg?resize=1200,800"
         },
@@ -317,7 +327,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 4649,
+          "wordCount": 4665,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -517,7 +527,7 @@
           "description": "<h3>NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序</h3>\n<p>NFT 投资组合管理和社交平台 Metalink 推出移动应用程序并宣布了此前未披露的 600 万美元种子轮融资，投资者包括 Guy Oseary、Gary Vaynerchuk、MoonPay 首席执行官 Ivan Soto-Wright、The Sandbox 创始人 Sebastien Borget、前 Coinbase 首席技术官 Balaji Srinivasan、DJ Justin Blau、Social Capital、Arrington Capital 和 Sound Ventures 等。Metalink 应用程序旨在简化交易 NFT 和构建社区的过程，为以太坊网络上创建的 NFT 集合自动生成代币为门槛的聊天室，持有人可以通过连接钱包和验证资产进行访问。Metalink 还从多个市场提取实时 NFT 地板价及稀有性特征数据以帮助持有者衡量其 NFT 投资组合价值，并实时更总价格变动。此外，Metalink 还计划于今年晚些时候推出交易功能以便用户购买、出售和互换数字资产。</p>\n<p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Adam Ceresko（Metalink 产品负责人）：</strong>我们的目标是让任何人都能够非常容易地与他们投资组合中任何藏品的持有者进行快速和安全的聊天。通过 Metalink，用户只需连接钱包并开始打字。只需要是代币持有者，无需 Discord、Telegram 或验证机器人。【原文为英文】</p><a href=\"https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/\">内容来源</a>",
           "link": "https://www.coindesk.com/web3/2023/03/15/vc-backed-nft-social-platform-metalink-launches-mobile-app/",
           "publishedOn": "2023-03-16T01:08:52.000Z",
-          "wordCount": 20450,
+          "wordCount": 20447,
           "title": "NFT 投资组合管理和社交平台 Metalink 披露 600 万美元融资并推出移动应用程序",
           "imageUrl": "https://www.coindesk.com/resizer/CtxGcHwD7eL3Is5WkIP3Ql_8QAU=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/E5ECBWFBR5E55MXXMR3VBSATFY.png"
         },
@@ -657,7 +667,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Maverick Crypto 研究员 Asa Li 认为当前占主导地位的加密游戏从广义上讲是「Web 2.5 游戏」的变体，Web2.5 游戏有其特有的代币化特征、经济模型以及玩法设计。作者通过 4 个问题探讨了这一叙事潜在的问题以及加密游戏的其他可能性。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming</a></p>\n<p><strong>文章作者：</strong></p><p>Asa</p><hr><h3>观点：</h3><p><strong>Asa：</strong>问题 1：是否应该在颠覆游戏玩法和艺术效果上投入大量资金？游戏玩法和艺术效果的大量投入阻碍了「加密 + 游戏」可能的迭代潜力。我们认为 Web 3 的有限资源最好用于探索加密经济学如何解锁游戏的新范式。正如 DeFi Summer 的产生不是依靠大量潜在市场用例，而是其原生的可组合性带来的迭代和创新。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 2：设计开放经济的益处和挑战。鉴于在一款复杂的 MMO 游戏中解决所有挑战是非常困难的，我们建议工作室从更小、更简单的游戏类型开始，一次处理一个方面的挑战，如：在不使用复杂 UI/UX 的情况下交换游戏内资产、用于资助、分发和购买游戏的新原语、机器人解决方案等。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 3：以资产为中心的沉浸式游戏是否正在衰败？今天的大多数人更喜欢快速的、非沉浸式的游戏，这些游戏是对生活的快速补充，而不是成熟的替代品。我们看到的绝大多代币化设计都增加了游戏本身的复杂性。这不符合当前游戏用户的特征。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a><p><strong>Asa：</strong>问题 4：对沉浸式 MMO 游戏而言，代币化的度在哪里？与典型交易者相比，MMORPG 的玩家更加规避风险和冷静。我们非常不确定互操作性、连接性和全球流动性是否是这些玩家的需求。此外，一旦玩家在游戏中投入的时间被量化为机会成本，游戏的情感价值会被商品化和金融化所淹没。【原文为英文】</p><a href=\"https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming\">内容来源</a>",
           "link": "https://www.maverickcrypto.xyz/post/our-questions-about-web-2-5-gaming",
           "publishedOn": "2023-03-15T07:07:38.000Z",
-          "wordCount": 19492,
+          "wordCount": 19507,
           "title": "【英文】Web 2.5 游戏经济模型再思考：代币化是万能解药吗？",
           "imageUrl": "https://static.wixstatic.com/media/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png/v1/fill/w_1000,h_558,al_c,q_90,usm_0.66_1.00_0.01/0d8fdf_b98c528c057e49058ec1c87a5ac01cad~mv2.png"
         },
