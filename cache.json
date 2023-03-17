@@ -12,6 +12,56 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://twitter.com/y_cryptoanalyst/status/1636330359523799041",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>与近期火热的以太坊 LSD 相比，无论从市场关注度还是 LSD 资产总量， Cosmos 生态的 LSD 赛道都鞭长莫及，但其背后其实蕴含着巨大的潜在机会。加密研究员 yyy 从流动性机制、安全性和链的定位对 4 大 Cosmos 生态 LSD 协议进行了横向对比。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/y_cryptoanalyst/status/1636330359523799041\">https://twitter.com/y_cryptoanalyst/status/1636330359523799041</a></p>\n<p><strong>文章作者：</strong></p><p>yyy</p><hr><h3>观点：</h3><p><strong>yyy：</strong>1) 流动质押机制； pSTAKE Finance、Stride、StaFiHub Quicksilver Protocol 均通过 ICA 实现；2）安全性：Stride 是共享 Cosmos Hub 安全性（ICS），其他 LSD 协议的安全性都由它们自己的 validator set 负责；3）链的定位：Stride 的设计是「极简」链、pSTAKE Finance 及 StaFiHub 有部署其他智能合约，而 Quicksilver Protocol 也明确表示计划会有其它智能合约部署。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1636330359523799041\">内容来源</a><p><strong>yyy：</strong>存在的问题：1）可组合性：Cosmos LSD 协议不具备类似以太坊 LSD 的可组合性优势。ICA 的集成只是解决了原生资产 ($ATOM) 的跨链问题，并没有解决流动质押资产的跨链问题；2） 质押凭证应用场景：目前能获得超额收益主要来自协议资产激励这一环，但由于 Cosmos 生态并未出现一些头部的借贷协议，息差套利部分的收益未充分体现。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1636330359523799041\">内容来源</a><p><strong>yyy：</strong>看好逻辑： 1) Cosmos 生态的繁荣会直接扩展 LSD 代币的应用场景；2) 底层基础设施的完善将极大提高 LSD 用户的交互体验；3) 应用链相对于 Dapp 与生俱来的代币赋能优势。</p><a href=\"https://twitter.com/y_cryptoanalyst/status/1636330359523799041\">内容来源</a>",
+          "link": "https://twitter.com/y_cryptoanalyst/status/1636330359523799041",
+          "publishedOn": "2023-03-17T06:43:53.000Z",
+          "wordCount": 509,
+          "title": "【长推】探究 Cosmos 生态的 LSD 机遇及局限",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/0xSalazar/status/1636314318655430656",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Starknet 的技术有益于释放以太坊生态系统的潜力，而 Cairo 和 zk-Starks 则共同努力确保快速、安全和可扩展的交易，其 dapp 有助于突破 DeFi、NFT、DAO 和游戏的可能性边界。加密研究员 Salazar.eth 撰推简要概述了 Starknet 的关键技术 zk-Starks，并盘点其生态系统项目。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xSalazar/status/1636314318655430656\">https://twitter.com/0xSalazar/status/1636314318655430656</a></p>\n<p><strong>文章作者：</strong></p><p>Salazar</p><hr><h3>观点：</h3><p><strong>Salazar：</strong>Starknet 是以太坊的 zk rollup 扩展解决方案，其主要区别在于它的 Clairo 语言和 zk-Stark 技术，其目标是减少验证交易所花费的时间，同时保持 ETH L1 的安全性，从而实现低交易费用和高吞吐量。其中 Cairo 是用于 Starknet 合约的语言，旨在生成 STARK 证明。【原文为英文】</p><a href=\"https://twitter.com/0xSalazar/status/1636314318655430656\">内容来源</a><p><strong>Salazar：</strong>zk-Starks 在 Starknet 中有何作用？1）计算的完整性，即 L2 计算可以被验证为 L1 的计算。2）隐私和可扩展性；3）通用性，可用于构建任何通用计算；4）透明度，任何一方都可以验证计算，而无需依赖任何外部参数和假设，从而增强安全性和隐私性。【原文为英文】</p><a href=\"https://twitter.com/0xSalazar/status/1636314318655430656\">内容来源</a><p><strong>Salazar：</strong>生态系统项目：1）Argent，Web3 中第一个使用账户抽象技术的智能合约钱包。2）ZKX，期货 DEX。3）Pxls，实验性的链上 NFT 平台。4）Dolven Labs，基于 DAO 为 Starknet 上的创新项目提供早期投资和支持。5）JediSwap，社区主导、完全无许可且可组合的 AMM。【原文为英文】</p><a href=\"https://twitter.com/0xSalazar/status/1636314318655430656\">内容来源</a>",
+          "link": "https://twitter.com/0xSalazar/status/1636314318655430656",
+          "publishedOn": "2023-03-17T06:30:07.000Z",
+          "wordCount": 509,
+          "title": "【英文长推】一文简要概述 Starknet 的 zk-Starks 技术及其生态系统",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/RebaseMMT/status/1636361323901747200",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>ETH / BTC 汇率暴跌，加密 KOL MMT 实习生，撰推发表自己的见解，解读暴跌原因。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/RebaseMMT/status/1636361323901747200\">https://twitter.com/RebaseMMT/status/1636361323901747200</a></p>\n<p><strong>文章作者：</strong></p><p>MMT 实习生</p><hr><h3>观点：</h3><p><strong>MMT 实习生：</strong>$BTC 取决于流动性印钞，具体为印钞预期，其次是情绪也就是动物精神，具体为逼空、避险。而 ETH 取决于加杠杆，老 DeFi CRV AAVE 都在推稳定币加最后一层杠杆，衍生品 GMX、GNS 以及 LSD 的 LDO、SSV 杠杆都才开始，现在印钞的预期重启，还有逼空情绪 BTC 大涨，而 ETH 加杠杆才开始。</p><a href=\"https://twitter.com/RebaseMMT/status/1636361323901747200\">内容来源</a><p><strong>MMT 实习生：</strong>要 DeFi 杠杆先涨，ETH 才能涨而非相反。Jump Trading 等做主要机构的持仓来看也是透露 ETH 短期难大涨。市场好了，他们会用持有的 ETH 买新故事新赛道的山寨币，所以 ETH 是出货的，而不是很多韭菜自以为是 ETH 燃烧通缩，价格一飞冲天的故事。燃烧通缩对 ETH 只决定地板价，不能决定天花板。所以 ETH/BTC 汇率暴跌了。</p><a href=\"https://twitter.com/RebaseMMT/status/1636361323901747200\">内容来源</a>",
+          "link": "https://twitter.com/RebaseMMT/status/1636361323901747200",
+          "publishedOn": "2023-03-17T06:18:50.000Z",
+          "wordCount": 509,
+          "title": "观点：燃烧通缩不能决定 ETH 天花板，所以 ETH / BTC 汇率暴跌",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/0xsurferboy/status/1636306346567151616",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>USDC 脱锚事件一度催动了市场对去中心化稳定币的关注，去中心化稳定币叙事开始了吗？加密研究员 Surf 对 Liquity 背景、运作机制、LUSD 挂钩模式及其代币 LQTY 进行了概述。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/0xsurferboy/status/1636306346567151616\">https://twitter.com/0xsurferboy/status/1636306346567151616</a></p>\n<p><strong>文章作者：</strong></p><p>Surf</p><hr><h3>观点：</h3><p><strong>Surf：</strong>Liquity 机制：1）Troves：类似于 MakerDAO 中的金库，允许用户接受和管理贷款。用户的以太坊地址会被链接至一个 Trove，其中包含 ETH 资产余额和 LUSD 债务余额；2）稳定资金池：流动性来源，在被清算的情况下能够维持系统的偿付能力，资金来源是用户转入的 LUSD；3）清算模式：低于最低抵押率 110% 的 Troves 将被清算，当系统总抵押率低于 150% 时会触发 Recovery 模式。【原文为英文】</p><a href=\"https://twitter.com/0xsurferboy/status/1636306346567151616\">内容来源</a><p><strong>Surf：</strong>LUSD 通过两种机制和美元挂钩，硬挂钩机制包括 1 美元的价格下限和 1.1 美元的价格上限，在确定 Trove 抵押品比率时，软挂钩机制将使得 LUSD 和 USD 挂钩。基准利率公式决定了赎回率，随着每次赎回而递增，如果没有发生赎回，则会降为 0%。而 Liquity 套利者则会阻止 LUSD 达到 1.1 美元。【原文为英文】</p><a href=\"https://twitter.com/0xsurferboy/status/1636306346567151616\">内容来源</a><p><strong>Surf：</strong>LQTY 是 Liquity 原生代币，但并不是治理代币，其最大供应量为 1 亿枚，可以通过为 LUSD/ETH Uniswap 池提供流动性及成为稳定币供应商或前端供应商等方式获得。LQTY 还可以用质押 LUSD 和 ETH 赚取一定比例的借贷和赎回费用。【原文为英文】</p><a href=\"https://twitter.com/0xsurferboy/status/1636306346567151616\">内容来源</a>",
+          "link": "https://twitter.com/0xsurferboy/status/1636306346567151616",
+          "publishedOn": "2023-03-17T06:17:53.000Z",
+          "wordCount": 509,
+          "title": "【英文长推】去中心化稳定币迎来春天？去中心化稳定币 LUSD 发行商 Liquity 剖析",
+          "imageUrl": null
+        },
+        {
+          "id": "https://twitter.com/WinterSoldierxz/status/1636404472787374083",
+          "author": null,
+          "description": "<p><strong>Chainfeeds 导读：</strong></p><p>Conic Finance 推出 2 周内达到了 6400 万美元 TVL 峰值。加密研究员 Winter Soldier 就 Conic Finance 的协议机制及其是否会成为 crvUSD 去杠杆催化剂进行了分析解读。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/WinterSoldierxz/status/1636404472787374083\">https://twitter.com/WinterSoldierxz/status/1636404472787374083</a></p>\n<p><strong>文章作者：</strong></p><p>Winter Soldier</p><hr><h3>观点：</h3><p><strong>Winter Soldier：</strong>协议机制：1）Omnipool：允许 LP 将单一资产存入 Omnipool，Omnipool 将流动性部署在多个 Curve 池上，目前有包括 USDC、DAI 及 FRAX 的 Omnipool；2）流动性分配投票（LAV）：用户可以锁仓 CNC 获得 vlCNC 以参与 Snapshot 上的双周流动性分配投票以确定每个 Omnipool 分配给 Curve 池子的流动性数量；3）流动性再平衡：为了恢复和保持流动性分配，依靠基于 Omnipool 的存取款激励和被动再平衡系统。【原文为英文】</p><a href=\"https://twitter.com/WinterSoldierxz/status/1636404472787374083\">内容来源</a><p><strong>Winter Soldier：</strong>考虑到贿赂市场的竞争力，协议可能会有动力积累 CNC，将流动性导向特定 Curve 池。Conic Finance 可以用来确保协议的主要流动性来源在 Curve 池子中的最低底线。但由于 CNC 的收入分享还没有被治理部分启用，因此零售用户锁仓 CNC 的动机不高。【原文为英文】</p><a href=\"https://twitter.com/WinterSoldierxz/status/1636404472787374083\">内容来源</a><p><strong>Winter Soldier：</strong>如果在 Conic Finance 上部署一个 crvUSD 的 Omnipool，它可以使用 crvUSD 在同一区块内产生套利利润，类似于闪电贷。此外，crvUSD omnipool 的功能有点类似 Liquity 稳定池，它保证了清算的深度流动性。【原文为英文】</p><a href=\"https://twitter.com/WinterSoldierxz/status/1636404472787374083\">内容来源</a>",
+          "link": "https://twitter.com/WinterSoldierxz/status/1636404472787374083",
+          "publishedOn": "2023-03-17T05:48:06.000Z",
+          "wordCount": 509,
+          "title": "【英文长推】Conic Finance 机制解读：或将推动下一场「Curve War」？",
+          "imageUrl": null
+        },
+        {
           "id": "https://twitter.com/MessariCrypto/status/1636374574291116040",
           "author": null,
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>OP Stack 是用于构建模块化、以太坊为中心的 rollup 的完整 SDK，Optimism 通过推出 OP Stack 来改变当前的 rollup 格局。Messari 研究报告分析了 OP Stack 的原理、架构，认为以太坊有望从中受益，OP Stack 代表了开源协作和协议设计的新范例。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://twitter.com/MessariCrypto/status/1636374574291116040\">https://twitter.com/MessariCrypto/status/1636374574291116040</a></p>\n<p><strong>文章作者：</strong></p><p>Messari</p><hr><h3>观点：</h3><p><strong>Messari：</strong>OP Stack 是支撑 Optimism 生态系统的软件，这包括主网 L2 和使用称为「op-chains」的开源代码构建的链。OP Stack 在 rollup 执行层被分解为可定制的模块：1）执行节点，交易传播和执行；2）rollup 节点，基本的 rollup 特定功能；3）证明计划，交互式 EVM 等价乐观欺诈证明引擎。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1636374574291116040\">内容来源</a><p><strong>Messari：</strong>执行节点和 rollup 节点由排序器和验证器以不同模式运行。排序器处理交易、构建块并将压缩的区块批次发布到 L1。验证者跟踪排序器，用欺诈证明挑战他们。OP Stack 不仅仅是一个 EVM rollup SDK，它还扩展到支持的任何 Optimism 基础设施、超级链和以太坊上游。基础设施包括：区块浏览器、治理系统、证明、rollup 间通信机制。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1636374574291116040\">内容来源</a><p><strong>Messari：</strong>通过尽可能接近以太坊的代码库和架构，OP Stack 继承了许多优点，即：简单性、熟悉性、客户端多样性和可扩展性。 以太坊也有望从 OP Stack 中受益，其新的开发可能对 L1 很有用，EIP 可以在以太坊为中心的 rollup 环境中进行实时测试。【原文为英文】</p><a href=\"https://twitter.com/MessariCrypto/status/1636374574291116040\">内容来源</a>",
@@ -67,7 +117,7 @@
           "description": "<p><strong>Chainfeeds 导读：</strong></p><p>TradFi 经历了极具挑战性的一周，并且 DeFi 并未完全隔离，受到巨大影响。Bankless 撰文从协议依赖和银行困境的角度，分析 DeFi 为何仍然容易受到 TradFi 失败的影响，并提出去中心化稳定币、加密支付系统两种加密原生解决方案。</p>\n<p><strong>文章来源：</strong></p><p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">https://www.bankless.com/is-defi-too-reliant-on-banks</a></p>\n<p><strong>文章作者：</strong></p><p>Bankless</p><hr><h3>观点：</h3><p><strong>Bankless：</strong>协议依赖：许多成功协议的背后是中心化的开发人员群体，他们提供对链上智能合约的前端访问并构建未来的路线图项目。与传统的初创公司一样，加密公司依赖于传统的银行系统，项目代币可能因为银行困境遭到破坏。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>银行困境：倒闭的银行显着提高了中心化风险，这种风险部分原因是初创企业的特殊需求，以及银行选择为加密公司提供银行服务所面临的监管障碍，这迫使加密公司选择精品银行，这在业务良好时是个好主意，但在经济衰退的时候，会高度暴露于存款人行业的周期性，面临很大程度的风险。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a><p><strong>Bankless：</strong>解决方案：1）去中心化稳定币，任何抵押品支持不足的中心化稳定币都可能发生挤兑。可以选择使用以太支持的 LUSD 和 RAI，其偿付能力证明可以在链上验证，并且仅取决于协议清算抵押不足头寸的能力。2）使用创新的加密支付系统，链上管理工资和其他费用，例如  LlamaPay。将未使用的资金存储在以太支持的去中心化稳定币中并转向链上费用支付解决方案可能是朝着正确方向迈出的一步。【原文为英文】</p><a href=\"https://www.bankless.com/is-defi-too-reliant-on-banks\">内容来源</a>",
           "link": "https://www.bankless.com/is-defi-too-reliant-on-banks",
           "publishedOn": "2023-03-17T03:22:23.000Z",
-          "wordCount": 2428,
+          "wordCount": 2437,
           "title": "【英文】Bankless：DeFi 是否过于依赖银行？",
           "imageUrl": "https://bankless.ghost.io/content/images/2023/03/267_Newsletter_DeFi_is_banked_031523-2.jpg"
         },
@@ -137,7 +187,7 @@
           "description": "<h3>消息人士：加密托管公司 Copper 已放弃其软件和基础设施开发业务</h3>\n<p>据 CoinDesk 援引消息人士报道，加密托管公司 Copper 已经放弃其企业业务，即公司软件和基础设施开发业务。理由是 Copper 的 Clear Loop 托管和结算业务在未来更具经济意义。消息人士表示，Copper 的企业部门将面临裁员，尚不清楚具体受到影响的员工数量。Copper 随后在一份声明中表示，Copper 正在精简业务，将进行裁员。\n此前于 2022 年 12 月，Copper 收到安全问题警报，涉及公司的 GitHub 存储库，其中包含公司如何保护客户资产的蓝图。当时一位消息人士表示，该公司的整个代码库都容易受到攻击并被下载。</p>\n<p><a href=\"https://www.coindesk.com/business/2023/03/16/crypto-custody-firm-copper-shelves-enterprise-business/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/business/2023/03/16/crypto-custody-firm-copper-shelves-enterprise-business/",
           "publishedOn": "2023-03-17T01:24:21.000Z",
-          "wordCount": 19764,
+          "wordCount": 19766,
           "title": "消息人士：加密托管公司 Copper 已放弃其软件和基础设施开发业务",
           "imageUrl": "https://www.coindesk.com/resizer/tp1lq5GWYJVSBDHvoSyh3c6UeLI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/BMNWFBMJBRH7XEX7F7FO2KCSDY.jpg"
         },
@@ -147,7 +197,7 @@
           "description": "<h3>以太坊核心开发者确认于 4 月 12 日在以太坊主网进行上海升级</h3>\n<p>以太坊核心开发者在第 157 次以太坊执行层核心开发者会议（ACDE）将以太坊主网上海升级启动时间确定为 4 月 12 日，一旦该日期被开发者投票通过并经过 GitHub 确认将不会再改变。\n此前消息，以太坊 Goerli 测试网于北京时间 3 月 15 日 6:26 激活 Shapella 升级，这是以太坊验证者能够从信标链中提取 ETH 之前的最后一次测试。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Ben Edgington：</strong>尽管以太坊 Goerli 测试网上海升级由于验证者节点没有及时升级导致参与率不高，但我们看到所有客户端类型都在生产有效区块，且参与率随着时间的推移有所上升，这并不是什么大问题。我们并不担心这种情况会在主网发生，因为用户通常都会积极维护主网质押基础设施。【原文为英文】</p><a href=\"https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/16/ethereums-shanghai-hard-fork-now-has-an-official-target-date/",
           "publishedOn": "2023-03-17T01:06:32.000Z",
-          "wordCount": 20519,
+          "wordCount": 20521,
           "title": "以太坊核心开发者确认于 4 月 12 日在以太坊主网进行上海升级",
           "imageUrl": "https://www.coindesk.com/resizer/O_T0DCg9xjPG05npHy9Aks0C9QQ=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/IJS24QRTW5CTPPM3MWELVL6K64"
         },
@@ -157,7 +207,7 @@
           "description": "<h3>Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO</h3>\n<p>Arbitrum 基金会宣布其治理代币 ARB 将于 3 月 23 日空投给社区成员，快照日期为 2023 年 2 月 6 日。ARB 总发行量为 100 亿枚，Arbitrum 社区将控制代币总量的 56%。其中，将向符合条件的 Arbitrum 用户空投总供应量的 11.5%，向在 Arbitrum 生态系统中运营的 DAO 提供 1.1%，其余部分将进入由 Arbitrum DAO 控制的金库，这将允许 ARB 持有者投票决定如何分配资金。ARB 总供应量的另外 44% 将流向 Arbitrum 的开发公司 Offchain Labs 的投资者和员工，这部分代币将受到锁定期和归属时间表限制。\n\n根据 Arbitrum 基金会的说法，ARB 将标志着 Arbitrum 正式过渡到去中心化自治组织 (DAO)，这意味着 ARB 持有人将能够对管理 Arbitrum One 和 Arbitrum Nova 的关键决策进行投票。</p>\n<p><a href=\"https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>ChainFeeds：</strong>空投资格查询及代币领取地址：https://arbitrum.foundation/</p><a href=\"https://arbitrum.foundation/\">内容来源</a><p><strong>ChainFeeds：</strong>空投资格及分发规范文档：https://docs.arbitrum.foundation/airdrop-eligibility-distribution</p><a href=\"https://docs.arbitrum.foundation/airdrop-eligibility-distribution\">内容来源</a><p><strong>TheModestThief 神偷：</strong>我们对 ARB 预期价格进行了一些计算，假如初始流通为总量的 12.75%，ARB 和 OP 及 MATIC FDV 相似，但预计会稍微低一点，我们得出结论 ARB 预期价格为 1.74 美元。【原文为英文】</p><a href=\"https://twitter.com/TheModestThief/status/1636374758987300864\">内容来源</a><p><strong>100y.eth💜 | a41：</strong>因为 ARB 是治理代币，我将其与其他治理代币例如 OP、UNI、LIDO、COMP 和 AAVE 进行了比较，根据 MC/TVL 比率，ARB 代币的合理价格在 0.26 至 1.56 美元之间，如何直接和 OP 做比较，1.04 至 1.56 美元也是有可能的。【原文为英文】</p><a href=\"https://twitter.com/100y_eth/status/1636412658303000576\">内容来源</a><p><strong>CapitalismLab：</strong>对标 OP，我认为 ARB 流通市值在 8 亿美元左右，全流通市值预计在 105 亿美元左右。且 Arbitrum 在未有激励的情况下 TVL 已为 OP 的 1.7 倍，如果是 OP 2 倍 FDV，ARB 对应价格预计为 2.1 美元左右。</p><a href=\"https://twitter.com/NintendoDoomed/status/1636370652910465025\">内容来源</a><p><strong>杀破狼 killthewolf.eth：</strong>我们整理了 ARB 多种估值方式汇总，方便大家对 ARB 的二级价格进行预判，例如你觉得 ARB 值 OP 流通市值的 1.5 倍的话，则 0.6 x 1.5 = 0.9。</p><a href=\"https://twitter.com/0xKillTheWolf/status/1636532403568283648\">内容来源</a><p><strong>匿名博士：</strong>根据 ARB 及 OP 公开信息，我们用 AI 做了一个简易估值模型标，预期其合理价格区间在 0.6 至 1.2 美元左右，FOMO 状态下能到 2 美元以上。</p><a href=\"https://twitter.com/Chris_Defi/status/1636436553030586368\">内容来源</a>",
           "link": "https://www.coindesk.com/tech/2023/03/16/arbitrum-to-airdrop-new-token-and-transition-to-dao/",
           "publishedOn": "2023-03-16T13:38:31.000Z",
-          "wordCount": 20752,
+          "wordCount": 20754,
           "title": "Arbitrum 将于 3 月 23 日空投治理代币 ARB 并过渡到 DAO",
           "imageUrl": "https://www.coindesk.com/resizer/tq--uuGGCw-eJgud0VWz7It-egM=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/3IUP4QFMIRG2VAZ6NW7TXS7DOA.png"
         },
@@ -167,7 +217,7 @@
           "description": "<h3>自托管钱包 Soul Wallet 完成 300 万美元种子轮融资</h3>\n<p>自托管钱包 Soul Wallet 宣布完成 300 万美元种子轮融资，用于提供基于 ERC-4337 构建的在线自托管以太坊钱包。Soul Wallet 目前正在进行内部测试，并计划将在经过一系列严格审核后于第三季度或第四季度推出。\n\n据悉，Soul Wallet 联合创始人 Jiajun Zeng 此前曾是字节跳动和美团产品经理。</p>\n<p><a href=\"https://techcrunch.com/2023/03/16/soul-wallet-crypto-wallet/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Jiajun Zeng（Soul Wallet 联合创始人）：</strong>FTX 崩溃后，人们正在重新关注如何在自托管钱包上获得更好的用户体验。我们的目标是下一个十亿的加密货币采用者，而不是试图从 MetaMask 等公司抢走用户。在南美和非洲等发展中国家，人们使用加密货币来对冲货币通胀，因此这取决于加密货币的采用如何在这些地区传播。而对于发达国家而言，采用则取决于 dApps 和 NFT 的发展情况。【原文为英文】</p><a href=\"https://techcrunch.com/2023/03/16/soul-wallet-crypto-wallet/\">内容来源</a>",
           "link": "https://techcrunch.com/2023/03/16/soul-wallet-crypto-wallet/",
           "publishedOn": "2023-03-16T12:46:33.000Z",
-          "wordCount": 7583,
+          "wordCount": 6729,
           "title": "自托管钱包 Soul Wallet 完成 300 万美元种子轮融资",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/03/soul-wallet-.jpg?resize=1200,800"
         },
@@ -197,7 +247,7 @@
           "description": "<h3>美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日</h3>\n<p>美国破产法官在周三的一份法庭文件中裁定，Binance.US 出价 10 亿美元收购 Voyager 的资产的交易应该继续进行，驳回了美国政府提出的在上诉期间暂停程序的请求，称拖延会损害 Voyager 客户的利益。据 Voyager 同意的另一项协议，原定于 3 月 15 日生效的 Binance.US 收购交易已延长至 3 月 20 日。</p>\n<p><a href=\"https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/\">内容来源</a></p><hr>",
           "link": "https://www.coindesk.com/policy/2023/03/16/voyager-binanceus-pause-denied-by-bankruptcy-judge/",
           "publishedOn": "2023-03-16T09:31:25.000Z",
-          "wordCount": 19989,
+          "wordCount": 19995,
           "title": "美国破产法官驳回美国政府暂停 Binance.US 收购 Voyager 的请求，交易已延长至 3 月 20 日",
           "imageUrl": "https://www.coindesk.com/resizer/NJhnXE5rgcRHDrz0AhoAav5c3sg=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/JOGVVHX2SBAHNBRDY4JEW7ZHNA.jpg"
         },
@@ -207,7 +257,7 @@
           "description": "<h3>消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务</h3>\n<p>据路透社援引消息人士报道，美国联邦存款保险公司 （FDIC）已要求有意收购破产的硅谷银行和 Signature Bank 的银行在 3 月 17 日之前提交投标书。消息人士称，FDIC 的目标是将 SVB 和 Signature 整体出售，如果不能整体出售，则可以考虑对这两家银行的部分股权进行收购。消息人士还表示，只有拥有现有银行牌照的投标人才能在提交报价前研究银行的财务状况。另外，Signature 买家必须同意放弃银行的所有加密业务。</p>\n<p><a href=\"https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/\">内容来源</a></p><hr><h3>观点：</h3><p><strong>Haseeb Qureshi（Dragonfly 合伙人）：</strong>我曾持怀疑态度，但这似乎是确凿的证据：FDIC 正在专门针对加密货币银行业务。【原文为英文】</p><a href=\"https://twitter.com/hosseeb/status/1636203469869662210\">内容来源</a>",
           "link": "https://www.reuters.com/business/finance/us-regulator-taps-piper-sandler-new-bid-sell-silicon-valley-bank-sources-2023-03-15/",
           "publishedOn": "2023-03-16T09:02:38.000Z",
-          "wordCount": 4902,
+          "wordCount": 4898,
           "title": "消息人士：FDIC 计划于 3 月 17 日拍卖 SVB 和 Signature Bank，Signature 买家必须同意放弃所有加密业务",
           "imageUrl": "https://www.reuters.com/resizer/cVn9yPs76K5J2KIvTJiYgmML88M=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MNJ4TST7NJOXFJYOWZPMZR2VWY.jpg"
         },
@@ -4229,6 +4279,16 @@
       "siteUrl": "https://rss.panewslab.com/",
       "articles": [
         {
+          "id": "https://www.panewslab.com/zh/sqarticledetails/e47ah3z8.html",
+          "author": null,
+          "description": "PANews 3月17日消息，NFT借贷协议ParaSpace在推特上表示：“我们注意到一笔可疑的交易，作为安全措施，我们暂停了整个ParaSpace协议。目前，我们的合约无法进行任何交易（取款、存款、清算）。我们目前正在调查并将为您提供更新。”\n此外，加密KOL Jampzer发推文称，ParaSpace疑似遭遇攻击，似乎有2906枚WETH被转移出去了，许多人声称其借款数量、健康因素和cAPE数量等数据不一致。",
+          "link": "https://www.panewslab.com/zh/sqarticledetails/e47ah3z8.html",
+          "publishedOn": "2023-03-17T06:48:06.000Z",
+          "wordCount": 1128,
+          "title": "NFT借贷协议ParaSpace疑似遭遇攻击，项目团队已暂停该协议",
+          "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
+        },
+        {
           "id": "https://www.panewslab.com/zh/articledetails/g48rkuf5.html",
           "author": null,
           "description": "原文：《Gearbox V3 能否重塑杠杆和借贷？》\n撰文：Karen，Foresight News\nDeFi 可组合型杠杆协议 Gearbox Protocol于本周预告 V3 版本升级细节，并将新版本视为重新定义杠杆和借贷的 DeFi 杠杆基础层，那 Gearbox V3 究竟能实现什么？有哪些值得期待的新功能或特点？\nV3 在 V2 性能和代码库基础上构建，不仅可以添加流动性较低的池、代币和协议，还能够将这些池模块化，在不分散流动性的情况下为用户提供更多附加选择。\n\n也就是说，贷方继续在当前非常保守的主流蓝筹借贷池中提供流动性，获得 dTokens，也可以选择将这些主池 dTokens 存入风险较高的 Alpha 池中赚取更多 APY，不过需要承担更多风险。\n\n额外的 Alpha 池会集成更多的 DeFi、NFT 协议，不过这类池子的集成仍会设置相对保守的 LTV（贷款价值比）和严格的清算规则。贷方获得的 APY 包括主流蓝筹池的基础 APY 加上 Alpha 池的基础 APY 以及从配额（quotas）中收取的额外费用。除 Alpha 之外，之后还可能会有其他模块化池。\nGearbox V3 将允许为白名单列表中的资产引入整体风险敞口上限（由风险委员会建议和治理），每个白名单资产都会有一个阈值（以相应借贷池基础资产计价），即，从该池借款的所有信用账户中该资产的风险敞口总值（配额 quota ）不得超过这个上限。\n用作特定 CA 抵押品的资产的实际数量由配额（quota）决定，该配额也以标的资产计价。每个借方都可以为每个中尾资产设置他们想要的任何配额值。设置的配额越大，需要支付的利息就越高。\n如果用户在该池中的实际资产价值超过该配额，超过部分将不被计算在内，如果少于配额，则将实际价值视为风险敞口。所有配额的总和不会超过整体风险敞口上限。\nGearbox 表示，这个机制能够在无需增加协议风险的前提下添加长尾、中尾资产等流动性较低的资产，以及其他协议或资产类别，并同时确保流动性可用性和杜绝坏账问题，还将使得跨链或者在 Layer2 上部署成为可能，而不需要担心 Layer2 流动性过低的问题。\nV3 还将新引入一种源自配额的利息，借款人支付的额外利息与每项资产的配额有关，而非实质借款金额。该配额利息将支付给 Alpha 池，也就是说，Alpha 池收到的利息包括：主流蓝筹池基础 APY+ Alpha APY+ 配额利息。然后 DAO 会从中收取一定的利息费用。\n配额 APR 由两部分组成，一部分为支付给 LP 基于敞口风险的最低风险溢价，该值由风险委员会设定，APR 不得低于该值；另外一部分高于最低风险溢价的部分将在杠杆借款人（Ninjas）和 LP 之间进行分成。最大 APR 由经济学委员会估算，这两个值都会定期修订。\nNinjas 和 LP 之间的分成平衡就成了非常值得关注和谨慎的问题，具体分成比例将由 GEAR 代币持有者链上投票决定，GEAR 持有者投票LP bucket 或者 Ninjas bucket，每个 bucket 中 GEAR 的比例决定实际 APR 值。\n\n为了避免漏洞利用和防止 flash-voting 将资金快速偏向某中代币或资金池， GEAR 代币持有者投票锁定的代币，可能会有 1 至 4 周的解质押期。每 epoch 开始都会举行一次投票，不更改选择的投票会自动滚动到下一个 epoch。Stakers也可能会共享一部分额外收入。\n此外，V3 也会添加自动化合约 Gearbot，允许信用账户所有者将其活跃账户某些管理委托给第三方，从而进行自动化投资组合管理，如止损、止盈、健康指数自动维护、自动测量管理等活动。除此之外，自动化管理链上基金也将变得更容易创建，存款人不必将其资金托管给第三方。\nGearbox V3 版本预计将于二季度末推出，该版本不仅为主池贷款人创造了额外 Alpha Pool 收益机会，也将添加更多中尾、长尾资产以及多样的 DeFi 和 NFT 协议，除此之外，Gearbox 通过设置白名单资产风险敞口上限和配额自定义的创新机制，能够确保链上有足够的可用流动性并在一定程度上缓解借贷风险，并有希望帮助以太坊和其他其他流动性较低的公链 / 网络生态提供更安全、流动性可用程度更高的杠杆和借贷可组合功能，从而带来更多的可组合性和可能性。",
@@ -4514,7 +4574,7 @@
           "description": "PANews 3月16日消息，据CoinDesk报道，以太坊核心开发者在电话会议中确认于 4 月 12 日在以太坊主网进行上海（Shapella）升级，该升级将启用质押的 ETH 提款，待 GitHub 上的开发人员确认日期，该日期将固定不再改变。",
           "link": "https://www.panewslab.com/zh/sqarticledetails/lnu8e225.html",
           "publishedOn": "2023-03-16T14:31:48.000Z",
-          "wordCount": 1134,
+          "wordCount": 1135,
           "title": "以太坊主网将于4月12日进行上海（Shapella）升级",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
@@ -4624,7 +4684,7 @@
           "description": "3月14日，dYdX社区投票通过DIP-20提案，决定将交易奖励减少45%（约130万枚），剩余的55%（约158万枚）奖励将由国库留存，并可经由社区投票改做他用，其中赞成票比例为83%，反映出dYdX社区围绕DYDX代币的改进迈出了实际的一步。\n在市场行情动荡的大气候下，叠加GMX等新锐竞争对手的挤压下，减少交易奖励可以锁定部分流通量，以支撑代币价格，并且可以给予社区更多财政宽裕度，以规划dYdX的未来发展。\n目前dYdX的24h交易量在20亿美元左右，减少交易奖励势必会对交易量产生不利影响，整体上，这是dYdX在其V4 Vanguard计划的一部分，核心是通过对 DYDX 的用途和释放标准进行改造。以重新设计激励路径，希望解决 dYdX 存在的交易低效问题。\n\n打击通胀，收归国库\n本次更新分配机制的直接原因是市场环境的变化，DYDX代币在近一年的时间里下跌了近70%，而市场份额也面临后起之秀们GMX追击从一年前的95%降至目前的70%。\n\n尽管有一些社区成员不赞成，但鉴于当前的市场状况，在2月15日的投票测试中，共计有776名参与者进行票决，最终以91.6%（约2700万枚）赞成票通过。\n并且，分配给流动性提供者的奖励和社区/奖励金库相比分配占比过高，因此对交易奖励需要进行大幅度削减。此外，减少交易奖励也符合 V4 Vanguard 提案中设计的新分配模式。\nDYDX 总供应量的初始五年分配模型中，25%比例分配给交易奖励，而LP（流动性提供者）和国库分别只占7.5%和5%，而在协议上线的稳定期，虽然减少了交易奖励至20.2%，但仍然高于LP（7.5%）和金库（16.2%）。\n\n其中，DYDX 总供应量的 50%（5亿枚 DYDX）在 5 年内分配给社区，其余 50% 分配给早期投资者、协议开发者、社区成员和国库等。但是目前只能将把重点限制在社区分配比例上，因为这是唯一可以改变的事情。\n按照dYdX机制设计，从推出的五年后开始，每年2%是$DYDX 的通胀率最高限制，因此，dYdX的总体趋势是逐步降低市场上的流通量，以抗衡通胀预期通胀带来的价值稀释。\n而本次DIP-20降低交易奖励后，多余的的DYDX将被存入国库，事实上，降低交易奖励存入金库是dYdX历来做法。在之前的DIP-14中，便将质押 USDC 的奖励设置为 0，并将之前分配给 USDC 质押者的约38万枚 DYDX 存入国库中；而在DIP-16中，社区已经决议减少25%的交易奖励，并将交易奖励从 约380万枚DYDX 减少至 约280万枚DYDX，剩余的约 95万枚 DYDX 存入国库；而在DIP-17中，已经将质押 DYDX 的奖励归零，并将之前分发给质押者的约 38万枚 DYDX 存入国库。\n经过多轮削弱后，交易奖励仍然占比过高。即使在DIP-16后减少了 25% 的交易奖励之后，交易奖励仍占所有代币释放总额的 44%，仍然有较高的下降空间。\n\n在更新代币模型后，交易奖励削减的DYDX份额将会转移至国库中，以配合即将到来的dYdX V4有足够的资金去支持协议发展，并且dYdX DAO将演化为包含多个subDAO在内的自治体，包括潜在的Growth SubDAO都需要社区提供资金支持。\n减少交易奖励的直接原因是为V4升级提供资金支持，但是实行初期必须要面对交易员的出逃和交易量下降的窘境。\n目前，已经有超过5千万美元的大户交易员“威胁”要离开dYdX，但是在社区看来依靠补贴的交易量无法维持，具备健壮性的协议必须服务于真正的用户。\n而另一个后果会造成投票权的更加集中化趋势。dYdX的主要价值在于社区治理，而投票权与 DYDX 持有量成正比，通过减少未来的供应量，减少交易奖励会直接增加现存 DYDX 的价值。\n按照dYdX V4升级协议的部分，交易奖励是其中一系列改进计划的组成部分，总体上遵循提高DYDX代币价值和促进dYdX交易量的目标前进，具体内容包含以下部分：\n在基于为奖励分配机制引入新的权重设计和将交易奖励减少约 45%的基础上，希望进入通胀前，以减少社区奖励的方式控制 DYDX 释放量，以最终达到 2% 的通胀率。\n如果要进一步消除交易者和LP的准入壁垒，最好的方式是仅根据交易量来奖励LP，而不是采取复杂的质押模式。\n\n因此，目前的交易费用折扣和交易奖励是不公平的机制设计，一方面，交易费用折扣造成了DYDX持有者降低自身的交易成本，这对非持币用户而言并不公平；另一方面，交易奖励已经起到了基于用户支付的费用的回扣的作用，并且 94% 的 DYDX/stkDYDX 持有者并不是协议的活跃交易者。\n降低交易奖励和取消交易费用折扣，可以不再奖励低效质押和非活跃交易者，而是为任何参与者，都只根据为协议带来的价值获得奖励。\n交易奖励在协议启动初期，总体上是一个简单有效的激励系统。奖励和用户在给定时期内付出的交易费用成正比。从活跃用户的增长率来看，这种机制曾经非常有效，因为它本质上是对所有交易活动的回报，无论他们交易的细分市场和回报如何。但是将交易奖励在开拓激励长尾市场或提高市场交易量的机制，那么效率将会非常之低。\n在dYdX协议进入稳定的发展期后，创业初期简单粗暴的激励模式不再适应新时代，需要被更为精细化的市场运营措施取代，最直接的是转向提供更优秀的用户体验，将纯粹的投机者和套利者驱离，以稳固真正的用户群体。",
           "link": "https://www.panewslab.com/zh/articledetails/34pejr6h.html",
           "publishedOn": "2023-03-16T10:10:44.000Z",
-          "wordCount": 1322,
+          "wordCount": 1324,
           "title": "dYdX的进击？了解交易奖励减少45%的来龙去脉",
           "imageUrl": "https://cdn-img.panewslab.com/panews/2023/03/16/images/5mVjzdY04N.jfif"
         },
@@ -4684,7 +4744,7 @@
           "description": "PANews 3月16日消息，NFT系列Doodles创始人Jordan Castro在官方Discord宣布，Doodles将从一个“NFT项目”发展成一家领先的媒体特许经营公司。\nCastro 表示：“在刺激投机的公开建设上投入得越多，就越不能实现其长期愿景。不会花任何资源去安抚那些有经济动机的人，将把精力集中在忠实持有人身上。”",
           "link": "https://www.panewslab.com/zh/sqarticledetails/4zr0de5o.html",
           "publishedOn": "2023-03-16T08:45:47.000Z",
-          "wordCount": 1128,
+          "wordCount": 1126,
           "title": "Doodles创始人：Doodles将从NFT项目发展成媒体特许经营公司",
           "imageUrl": "https://image.panewslab.com/upload/image/20220108/S6c26d7af3a974db1ab40792d50f33581.jpeg"
         },
